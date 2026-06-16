@@ -11,6 +11,10 @@ import { isAppLocale } from "@/i18n/config";
 import en from "@/messages/en.json";
 import zh from "@/messages/zh.json";
 
+export function generateStaticParams() {
+  return [{ locale: "zh" }, { locale: "en" }];
+}
+
 type PageProps = { params: Promise<{ locale: string }> };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

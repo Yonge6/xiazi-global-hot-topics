@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1"],
   images: {
@@ -9,6 +11,9 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   trailingSlash: true,
+  output: isGitHubPages ? "export" : undefined,
+  basePath: isGitHubPages ? "/xiazi-global-hot-topics" : "",
+  assetPrefix: isGitHubPages ? "/xiazi-global-hot-topics" : "",
   async headers() {
     return [
       {
