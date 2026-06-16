@@ -1,60 +1,555 @@
 {
-  "id": "10000000-0000-4000-8000-000000000001",
-  "slug": "2026-06-14",
-  "issueDate": "2026-06-14",
-  "slotHour": 5,
-  "beijingTimestamp": "2026-06-15T05:00:00+08:00",
-  "gmtTimestamp": "2026-06-14T21:00:00Z",
+  "id": "10000000-0000-4000-8000-000000000004",
+  "slug": "2026-06-17",
+  "assetVersion": "2026-06-17-world-cup-iran-new-zealand-1781782800000",
+  "issueDate": "2026-06-17",
+  "slotHour": 0,
+  "beijingTimestamp": "2026-06-17T00:05:00+08:00",
+  "gmtTimestamp": "2026-06-16T16:05:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000001",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000010",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000001", "issueId": "10000000-0000-4000-8000-000000000001", "slug": "world-cup-global-stage", "rank": 1, "category": "sports", "region": "North America", "countryCodes": ["US", "PY"], "eventTime": "2026-06-13T01:00:00Z", "isDeveloping": false, "verificationStatus": "verified", "scoreTotal": 100,
+      "id": "20000000-0000-4000-8000-000000000010",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "world-cup-iran-new-zealand",
+      "rank": 1,
+      "category": "sports",
+      "region": "North America",
+      "countryCodes": [
+        "IR",
+        "NZ",
+        "SA",
+        "UY",
+        "FR",
+        "SN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "world_cup_iran_new_zealand_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
       "localizations": {
-        "zh-CN": {"categoryLabel":"世界杯","headlineFact":"美国队 4:1 击败巴拉圭","headlineView":"这场胜利赢下的不只是比分，更打出了东道主的气势","headlineFull":"美国队 4:1 击败巴拉圭；这场胜利赢下的不只是比分，更打出了东道主的气势","intro":"美国队以 4:1 开启世界杯征程，巴洛贡梅开二度，进攻效率和比赛强度都给人留下深刻印象。比分只是结果，更值得关注的是球队展现出的自信、侵略性和主场动能，一场揭幕战已经提前改变了外界对东道主竞争力的判断。","xiaziQuote":"开局的气势，会影响整届赛事的叙事。","doudouQuote":"先看终场哨，再谈封神。","footerTakeaway":"世界杯不只记录比分，也放大全球情绪。"},
-        "en-US": {"categoryLabel":"World Cup","headlineFact":"USA beat Paraguay 4-1","headlineView":"the hosts won more than three points; they announced their ambition","headlineFull":"USA beat Paraguay 4-1; the hosts won more than three points, they announced their ambition","intro":"The United States opened its World Cup campaign with a 4-1 win as Folarin Balogun scored twice. Beyond the score, the performance carried confidence, aggression and home momentum. One emphatic opening match has already changed how the wider field may judge the hosts.","xiaziQuote":"Opening momentum can shape an entire tournament.","doudouQuote":"Wait for full time before writing legends.","footerTakeaway":"The World Cup records scores and amplifies global emotion."}
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "伊朗两度落后仍以2:2逼平新西兰",
+          "headlineView": "真正的韧性，不是不犯错，而是每次落后都还能追回来",
+          "headlineFull": "伊朗两度落后仍以2:2逼平新西兰；真正的韧性，不是不犯错，而是每次落后都还能追回来。",
+          "intro": "伊朗与新西兰在洛杉矶踢出2:2，新西兰球员Elijah Just梅开二度，伊朗则两度追平。至此G组四队首轮全部收获1分。同期另一场比赛中，沙特与乌拉圭1:1战平；本统计窗口最后一场焦点战，将是法国与塞内加尔时隔24年的世界杯重逢。",
+          "xiaziQuote": "落后不可怕，失去回应能力才可怕。",
+          "doudouQuote": "两次领先都没带走胜利，历史差一点就写到最后一页。",
+          "footerTakeaway": "伊朗两度落后两度扳平，展现极强韧性；新西兰Just梅开二度却未能锁定胜局；沙特与乌拉圭各取1分，G组首轮四队平分。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Iran come back twice to draw 2:2 with New Zealand",
+          "headlineView": "real resilience is not about avoiding mistakes, but about chasing back every time you fall behind",
+          "headlineFull": "Iran come back twice to draw 2:2 with New Zealand; real resilience is not about avoiding mistakes, but about chasing back every time you fall behind.",
+          "intro": "Iran and New Zealand played out a 2:2 draw in Los Angeles, with New Zealand's Elijah Just scoring twice and Iran equalizing both times. All four teams in Group G now have one point after the first round. In the other match, Saudi Arabia drew 1:1 with Uruguay; the final highlight of this window will be France vs Senegal, a World Cup reunion after 24 years.",
+          "xiaziQuote": "Falling behind is not scary; losing the ability to respond is.",
+          "doudouQuote": "Two leads, no win. History almost turned the page.",
+          "footerTakeaway": "Iran showed remarkable resilience by equalizing twice; New Zealand's Just scored a brace but could not seal victory; Saudi Arabia and Uruguay shared a point."
+        }
       },
-      "sources":[{"id":"30000000-0000-4000-8000-000000000001","topicId":"20000000-0000-4000-8000-000000000001","title":"USMNT vs. Paraguay match recap","publisher":"U.S. Soccer","url":"https://www.ussoccer.com/stories/2026/06/usmnt/folarin-balogun-brace-match-recap-highlights-vs-paraguay","publishedAt":"2026-06-13T00:00:00Z","sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000041",
+          "topicId": "20000000-0000-4000-8000-000000000010",
+          "title": "Iran fight back twice to draw 2-2 with New Zealand at World Cup",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/iran-fight-back-twice-draw-2-2-with-new-zealand-world-cup-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000042",
+          "topicId": "20000000-0000-4000-8000-000000000010",
+          "title": "Saudi Arabia and Uruguay play out 1-1 draw in World Cup Group G",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/saudi-arabia-uruguay-play-out-1-1-draw-world-cup-group-g-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000002","issueId":"10000000-0000-4000-8000-000000000001","slug":"trade-routes-rewired","rank":2,"category":"business","region":"United States","countryCodes":["US"],"eventTime":null,"isDeveloping":true,"verificationStatus":"verified","scoreTotal":96,
-      "localizations":{"zh-CN":{"categoryLabel":"商业","headlineFact":"SpaceX 走向公开资本市场","headlineView":"火箭负责制造想象，估值最终仍要接受市场检验","headlineFull":"SpaceX 走向公开资本市场；火箭负责制造想象，估值最终仍要接受市场检验","intro":"SpaceX 已向美国证券监管机构提交 IPO 注册文件，商业航天巨头开始接受公开市场对收入、成本、风险与治理的全面审视。太空故事足够宏大，但资本最终购买的不是浪漫，而是可持续现金流、增长空间和经得起质询的定价逻辑。","xiaziQuote":"伟大愿景也需要财务坐标。","doudouQuote":"火箭能上天，估值未必能。","footerTakeaway":"资本市场会把想象力翻译成数字。"},"en-US":{"categoryLabel":"Business","headlineFact":"SpaceX moves into public capital markets","headlineView":"rockets create imagination, but valuation must face the market","headlineFull":"SpaceX moves into public capital markets; rockets create imagination, but valuation must face the market","intro":"SpaceX has filed an IPO registration statement with U.S. regulators, opening the company to public scrutiny of revenue, cost, risk and governance. The space story is enormous, but investors ultimately buy sustainable cash flow, credible growth and a valuation that survives examination.","xiaziQuote":"Great visions still need financial coordinates.","doudouQuote":"Rockets can fly; valuations may not.","footerTakeaway":"Public markets translate imagination into numbers."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000002","topicId":"20000000-0000-4000-8000-000000000002","title":"Space Exploration Technologies S-1","publisher":"U.S. SEC","url":"https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/0001628280-26-036936-index.htm","publishedAt":"2026-05-20T00:00:00Z","sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000011",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "spacex-acquires-anysphere",
+      "rank": 2,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "spacex_acquires_anysphere_2026",
+      "storyStatus": "followup",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "SpaceX与AI",
+          "headlineFact": "SpaceX以600亿美元收购Cursor母公司Anysphere",
+          "headlineView": "火箭公司正在把太空、算力与代码入口连成同一张网",
+          "headlineFull": "SpaceX以600亿美元收购Cursor母公司Anysphere；火箭公司正在把太空、算力与代码入口连成同一张网。",
+          "intro": "SpaceX宣布以全股票方式收购AI编程工具Cursor的母公司Anysphere，交易估值约600亿美元。收购将强化旗下xAI在企业级编程市场的能力，也意味着SpaceX的故事已不只是火箭与卫星，而是在把算力、模型、开发者工具和资本市场整合为一个更庞大的技术体系。",
+          "xiaziQuote": "当火箭公司开始买代码入口，边界这个词本身就需要重新定义。",
+          "doudouQuote": "以前发火箭上天，现在发代码入脑，马斯克果然不浪费任何一个入口。",
+          "footerTakeaway": "600亿美元全股票收购Anysphere，是SpaceX从航天向AI基础设施扩张的最重要一步。"
+        },
+        "en-US": {
+          "categoryLabel": "SpaceX & AI",
+          "headlineFact": "SpaceX acquires Cursor parent Anysphere for $60 billion",
+          "headlineView": "a rocket company is weaving space, compute and coding access into the same web",
+          "headlineFull": "SpaceX acquires Cursor parent Anysphere for $60 billion; a rocket company is weaving space, compute and coding access into the same web.",
+          "intro": "SpaceX announced an all-stock acquisition of Anysphere, the parent company of AI coding tool Cursor, at an estimated valuation of $60 billion. The deal strengthens xAI's position in the enterprise programming market, signaling that SpaceX's narrative now extends beyond rockets and satellites to encompass compute, models, developer tools and capital markets as a unified technology ecosystem.",
+          "xiaziQuote": "When a rocket company buys a coding gateway, the word 'boundary' itself needs redefining.",
+          "doudouQuote": "From launching rockets to launching code—no entry point goes to waste.",
+          "footerTakeaway": "The $60 billion all-stock acquisition of Anysphere marks SpaceX's most significant expansion from aerospace into AI infrastructure."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000043",
+          "topicId": "20000000-0000-4000-8000-000000000011",
+          "title": "SpaceX to acquire AI coding startup Anysphere in $60 billion deal",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/spacex-acquire-ai-coding-startup-anysphere-60-billion-deal-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000003","issueId":"10000000-0000-4000-8000-000000000001","slug":"ai-governance-crossroads","rank":3,"category":"technology","region":"Global","countryCodes":["US"],"eventTime":"2026-06-13T00:00:00Z","isDeveloping":true,"verificationStatus":"verified","scoreTotal":95,
-      "localizations":{"zh-CN":{"categoryLabel":"AI","headlineFact":"Claude Fable 5 与 Mythos 5 访问暂停","headlineView":"模型能力越强，规则与边界就越无法回避","headlineFull":"Claude Fable 5 与 Mythos 5 访问暂停；模型能力越强，规则与边界就越无法回避","intro":"Anthropic 表示，在美国政府出口管制指令下，公司必须暂停外国用户对 Fable 5 与 Mythos 5 的访问。事件提醒行业：前沿模型竞争已不只是性能竞赛，国家安全、人员身份、跨境服务和监管权力正在共同决定技术究竟能被谁使用。","xiaziQuote":"技术边界正在被制度重新划线。","doudouQuote":"最强模型，也绕不过一纸规则。","footerTakeaway":"能力越接近基础设施，治理越无法缺席。"},"en-US":{"categoryLabel":"AI","headlineFact":"Access to Claude Fable 5 and Mythos 5 is suspended","headlineView":"stronger models make rules and boundaries impossible to avoid","headlineFull":"Access to Claude Fable 5 and Mythos 5 is suspended; stronger models make rules and boundaries impossible to avoid","intro":"Anthropic says a U.S. export-control directive forced it to suspend foreign-national access to Fable 5 and Mythos 5. The episode shows that frontier AI is no longer only a performance race: security policy, identity, cross-border service and regulatory power increasingly determine who can use advanced systems.","xiaziQuote":"Institutions are redrawing the technology boundary.","doudouQuote":"Even the strongest model cannot jailbreak a government order.","footerTakeaway":"As capability becomes infrastructure, governance cannot stay absent."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000003","topicId":"20000000-0000-4000-8000-000000000003","title":"Statement on government directive","publisher":"Anthropic","url":"https://www.anthropic.com/news/fable-mythos-access","publishedAt":"2026-06-13T00:00:00Z","sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000012",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "boj-rate-hike",
+      "rank": 3,
+      "category": "business",
+      "region": "Asia Pacific",
+      "countryCodes": [
+        "JP"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "boj_rate_hike_1pct_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "日本货币政策",
+          "headlineFact": "日本央行将利率上调至1%",
+          "headlineView": "告别超低利率容易，适应资金重新变贵才是真正的考验",
+          "headlineFull": "日本央行将利率上调至1%；告别超低利率容易，适应资金重新变贵才是真正的考验。",
+          "intro": "日本央行将政策利率从0.75%上调至1%，达到1995年以来最高水平。此次加息反映出日本对通胀、日元汇率和能源成本的持续担忧。利率正常化正在进入更深水区，接下来市场关注的，不只是下一次加息时间，还有家庭、企业和政府能否适应融资成本持续上升。",
+          "xiaziQuote": "利率是价格，价格是信号，信号会重塑所有人的行为。",
+          "doudouQuote": "借钱变贵了，借钱的人可能还没准备好。",
+          "footerTakeaway": "日本利率升至31年高点，标志着全球最后一个宽松角落正在收紧。"
+        },
+        "en-US": {
+          "categoryLabel": "Japan Monetary Policy",
+          "headlineFact": "Bank of Japan raises interest rate to 1%",
+          "headlineView": "exiting ultra-low rates is easy; adapting to more expensive money is the real test",
+          "headlineFull": "Bank of Japan raises interest rate to 1%; exiting ultra-low rates is easy; adapting to more expensive money is the real test.",
+          "intro": "The Bank of Japan raised its policy rate from 0.75% to 1%, the highest level since 1995. The hike reflects persistent concerns about inflation, the yen exchange rate and energy costs. Rate normalization is entering deeper waters; markets will watch not only for the next hike, but whether households, businesses and government can adapt to rising financing costs.",
+          "xiaziQuote": "Interest rates are prices, prices are signals, and signals reshape everyone's behavior.",
+          "doudouQuote": "Borrowing just got more expensive. Borrowers may not be ready.",
+          "footerTakeaway": "Japan's rate rise to a 31-year high signals that the world's last loose corner is tightening."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000044",
+          "topicId": "20000000-0000-4000-8000-000000000012",
+          "title": "Bank of Japan raises interest rate to 1%, highest since 1995",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/asia/bank-japan-raises-interest-rate-1-highest-since-1995-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000004","issueId":"10000000-0000-4000-8000-000000000001","slug":"global-health-readiness","rank":4,"category":"technology","region":"Global","countryCodes":["US"],"eventTime":null,"isDeveloping":true,"verificationStatus":"verified","scoreTotal":91,
-      "localizations":{"zh-CN":{"categoryLabel":"科技","headlineFact":"Apple Intelligence 继续进化，Siri AI 进入新阶段","headlineView":"真正的智能不是更吵，而是更懂你","headlineFull":"Apple Intelligence 继续进化，Siri AI 进入新阶段；真正的智能不是更吵，而是更懂你","intro":"苹果在 WWDC 预览新一代 Apple Intelligence 与重新设计的 Siri AI，强调更强的上下文理解、跨应用协作和隐私架构。竞争焦点正从“谁回答得更像人”转向“谁能在不打扰用户的前提下，真正理解意图并完成日常任务”。","xiaziQuote":"好的智能，应当降低人的认知负担。","doudouQuote":"别只会聊天，先把事办了。","footerTakeaway":"个人 AI 的终点，是可靠地理解与行动。"},"en-US":{"categoryLabel":"Technology","headlineFact":"Apple Intelligence evolves as Siri AI enters a new phase","headlineView":"real intelligence is not louder, but more understanding","headlineFull":"Apple Intelligence evolves as Siri AI enters a new phase; real intelligence is not louder, but more understanding","intro":"Apple previewed its next generation of Apple Intelligence and a redesigned Siri AI, emphasizing context, cross-app action and privacy. The contest is shifting from who sounds most human to who can understand intent and complete everyday work without becoming another source of friction.","xiaziQuote":"Good intelligence reduces cognitive load.","doudouQuote":"Enough chatting. Get the task done.","footerTakeaway":"Personal AI succeeds through reliable understanding and action."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000004","topicId":"20000000-0000-4000-8000-000000000004","title":"Next generation Apple Intelligence and Siri AI","publisher":"Apple","url":"https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/","publishedAt":"2026-06-08T00:00:00Z","sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000013",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "china-retail-sales-decline",
+      "rank": 4,
+      "category": "business",
+      "region": "China",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "china_retail_sales_decline_may_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中国经济",
+          "headlineFact": "中国5月零售销售三年多来首次环比下滑",
+          "headlineView": "工厂依旧强劲，但消费端还没有完全接上力",
+          "headlineFull": "中国5月零售销售三年多来首次环比下滑；工厂依旧强劲，但消费端还没有完全接上力。",
+          "intro": "中国5月零售销售环比下降0.6%，为2022年12月以来首次下滑；与此同时，工业产出同比增长4.5%，高技术制造业增长15.1%。一边是AI与出口拉动生产，一边是房地产、汽车和居民消费偏弱，中国经济的核心问题正从'有没有增长'，转向'增长是否均衡'。",
+          "xiaziQuote": "生产的成绩单再漂亮，消费的试卷没答完，总分还是上不去。",
+          "doudouQuote": "工厂在加班，购物车在打盹。",
+          "footerTakeaway": "工业产出与高技制造保持强劲，但零售销售环比转负揭示消费端仍是短板。"
+        },
+        "en-US": {
+          "categoryLabel": "China Economy",
+          "headlineFact": "China's May retail sales fall for first time in over three years",
+          "headlineView": "factories remain strong, but the consumer side has not fully caught up",
+          "headlineFull": "China's May retail sales fall for first time in over three years; factories remain strong, but the consumer side has not fully caught up.",
+          "intro": "China's retail sales fell 0.6% month-on-month in May, the first decline since December 2022. Meanwhile, industrial output grew 4.5% year-on-year, with high-tech manufacturing up 15.1%. While AI and exports drive production, real estate, autos and household consumption remain weak. China's core economic question is shifting from 'is there growth' to 'is growth balanced'.",
+          "xiaziQuote": "No matter how good the production score looks, the consumer exam isn't finished yet.",
+          "doudouQuote": "Factories are working overtime; shopping carts are taking a nap.",
+          "footerTakeaway": "Industrial output and high-tech manufacturing remain strong, but the negative retail print reveals consumption remains the weak link."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000045",
+          "topicId": "20000000-0000-4000-8000-000000000013",
+          "title": "China May retail sales fall for first time in over three years",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/asia/china-may-retail-sales-fall-first-time-over-three-years-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000005","issueId":"10000000-0000-4000-8000-000000000001","slug":"culture-restoration-digital","rank":5,"category":"technology","region":"European Union","countryCodes":["EU"],"eventTime":null,"isDeveloping":true,"verificationStatus":"verified","scoreTotal":90,
-      "localizations":{"zh-CN":{"categoryLabel":"监管","headlineFact":"Siri AI 因欧盟监管延后上线","headlineView":"技术跑得再快，也绕不过合规这道门","headlineFull":"Siri AI 因欧盟监管延后上线；技术跑得再快，也绕不过合规这道门","intro":"苹果确认，受《数字市场法案》要求影响，Siri AI 无法随 iOS 27 与 iPadOS 27 在欧盟同步推出。事件把创新与竞争规则的冲突摆上台面：平台需要开放，智能助手又依赖深度系统权限，如何兼顾公平、安全与体验成为真正难题。","xiaziQuote":"合规不是终点，而是产品设计的一部分。","doudouQuote":"跑得快没用，门没开。","footerTakeaway":"全球产品必须从第一天就理解不同制度。"},"en-US":{"categoryLabel":"Regulation","headlineFact":"Siri AI is delayed in the EU","headlineView":"even fast technology cannot bypass compliance","headlineFull":"Siri AI is delayed in the EU; even fast technology cannot bypass compliance","intro":"Apple says the Digital Markets Act will prevent Siri AI from launching with iOS 27 and iPadOS 27 in the EU. The conflict is structural: regulators want platform openness, while advanced assistants depend on deep system access. Fairness, security and product quality now have to be designed together.","xiaziQuote":"Compliance is part of product design.","doudouQuote":"Speed is useless when the gate is closed.","footerTakeaway":"Global products must understand different institutions from day one."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000005","topicId":"20000000-0000-4000-8000-000000000005","title":"Siri AI delayed in EU due to DMA","publisher":"Apple","url":"https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/","publishedAt":"2026-06-08T00:00:00Z","sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000014",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "eu-us-trade-agreement",
+      "rank": 5,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "EU",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "eu_us_trade_agreement_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧美贸易",
+          "headlineFact": "欧洲议会通过欧美贸易协议关键法案",
+          "headlineView": "避免关税冲突是第一步，建立稳定互信才是更难的一步",
+          "headlineFull": "欧洲议会通过欧美贸易协议关键法案；避免关税冲突是第一步，建立稳定互信才是更难的一步。",
+          "intro": "欧洲议会批准削减美国商品进口关税的关键措施，以落实此前与美国达成的贸易安排，并避免新一轮关税升级。协议为企业换来短期确定性，但欧洲仍保留暂停优惠的保障条款。贸易协议真正的价值，不只在签署当天，而在双方是否长期遵守承诺。",
+          "xiaziQuote": "协议的墨水没干之前，都只是可能性。",
+          "doudouQuote": "关税不打了，但信任账户还没充值。",
+          "footerTakeaway": "欧洲议会批准关税削减措施，为欧美贸易关系提供短期缓冲，但长期执行仍需观察。"
+        },
+        "en-US": {
+          "categoryLabel": "EU-US Trade",
+          "headlineFact": "European Parliament passes key EU-US trade agreement bill",
+          "headlineView": "avoiding tariff clashes is step one; building stable trust is the harder part",
+          "headlineFull": "European Parliament passes key EU-US trade agreement bill; avoiding tariff clashes is step one; building stable trust is the harder part.",
+          "intro": "The European Parliament approved key measures to cut import tariffs on US goods, implementing a prior trade arrangement and averting a new round of tariff escalation. The deal gives businesses short-term certainty, but Europe retains safeguard clauses to suspend preferences. The real value of a trade agreement lies not in the day it is signed, but in whether both sides honor it over time.",
+          "xiaziQuote": "Until the ink dries, an agreement is only possibility.",
+          "doudouQuote": "Tariffs are on pause, but the trust account hasn't been topped up yet.",
+          "footerTakeaway": "The European Parliament's approval of tariff cuts provides short-term relief for EU-US trade, but long-term compliance remains to be seen."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000046",
+          "topicId": "20000000-0000-4000-8000-000000000014",
+          "title": "European Parliament passes key EU-US trade deal measures",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/european-parliament-passes-key-eu-us-trade-deal-measures-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000006","issueId":"10000000-0000-4000-8000-000000000001","slug":"energy-transition-grid","rank":6,"category":"international","region":"France","countryCodes":["FR"],"eventTime":"2026-06-15T00:00:00Z","isDeveloping":true,"verificationStatus":"verified","scoreTotal":89,
-      "localizations":{"zh-CN":{"categoryLabel":"国际","headlineFact":"G7 峰会将聚焦经济、安全与 AI","headlineView":"桌上谈的是合作，桌下比的仍是筹码","headlineFull":"G7 峰会将聚焦经济、安全与 AI；桌上谈的是合作，桌下比的仍是筹码","intro":"法国将在埃维昂主持 G7 领导人峰会，全球经济失衡、供应链安全、人工智能和国际冲突将成为核心议题。峰会强调协调，但各国面对的通胀、产业政策与地缘压力并不相同，最终成果取决于共同声明之外能交换多少真实利益。","xiaziQuote":"多边合作的价值，要看承诺能否执行。","doudouQuote":"合影都很整齐，利益从不排队。","footerTakeaway":"峰会的含金量，藏在会后行动里。"},"en-US":{"categoryLabel":"World","headlineFact":"The G7 will focus on the economy, security and AI","headlineView":"cooperation is on the table, leverage remains underneath","headlineFull":"The G7 will focus on the economy, security and AI; cooperation is on the table, leverage remains underneath","intro":"France will host G7 leaders in Evian with global imbalances, supply-chain security, artificial intelligence and international conflict high on the agenda. Coordination is the stated goal, but members face different domestic and geopolitical pressures. The test is what survives beyond the communiqué.","xiaziQuote":"Multilateral value depends on execution.","doudouQuote":"The photo is orderly. Interests never are.","footerTakeaway":"A summit is measured by what happens after it ends."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000006","topicId":"20000000-0000-4000-8000-000000000006","title":"France's action in the G7","publisher":"France Diplomatie","url":"https://www.diplomatie.gouv.fr/en/the-ministry-in-action/contributing-to-sustainable-balanced-globalization/summits-and-global-issues/france-s-action-in-the-g7","publishedAt":null,"sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000015",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "g7-russia-sanctions",
+      "rank": 6,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "RU",
+        "UA",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "g7_russia_sanctions_discussion_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 85,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "G7与俄乌局势",
+          "headlineFact": "G7讨论进一步制裁俄罗斯",
+          "headlineView": "和平谈判要有出口，也要让继续战争的成本足够清晰",
+          "headlineFull": "G7讨论进一步制裁俄罗斯；和平谈判要有出口，也要让继续战争的成本足够清晰。",
+          "intro": "泽连斯基表示，G7领导人讨论了针对俄罗斯能源、银行和军工体系的进一步制裁。特朗普则呼吁俄罗斯与乌克兰达成协议，但对具体施压手段仍保持模糊。外交窗口仍然存在，但没有足够的成本约束，谈判意愿往往很难自动出现。",
+          "xiaziQuote": "制裁是语言，成本是语法；没有语法，语言没人听懂。",
+          "doudouQuote": "喊停火容易，让两边都觉得'不停火更亏'才难。",
+          "footerTakeaway": "G7讨论扩大对俄制裁，但美国对具体施压路径仍未完全明确。"
+        },
+        "en-US": {
+          "categoryLabel": "G7 & Russia-Ukraine",
+          "headlineFact": "G7 discusses further sanctions on Russia",
+          "headlineView": "peace talks need an exit, and the cost of continuing war must be clear enough",
+          "headlineFull": "G7 discusses further sanctions on Russia; peace talks need an exit, and the cost of continuing war must be clear enough.",
+          "intro": "Zelenskyy said G7 leaders discussed further sanctions targeting Russia's energy, banking and military-industrial systems. Trump called for Russia and Ukraine to reach a deal, but remained vague on specific pressure measures. A diplomatic window still exists, but without sufficient cost constraints, willingness to negotiate rarely materializes on its own.",
+          "xiaziQuote": "Sanctions are the vocabulary; cost is the grammar. Without grammar, no one understands the message.",
+          "doudouQuote": "Calling for a ceasefire is easy. Making both sides feel 'not stopping is worse' is the hard part.",
+          "footerTakeaway": "The G7 discussed expanding sanctions on Russia, but the US has not yet fully clarified its path on pressure measures."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000047",
+          "topicId": "20000000-0000-4000-8000-000000000015",
+          "title": "G7 leaders discuss further sanctions on Russia",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/g7-leaders-discuss-further-sanctions-russia-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000048",
+          "topicId": "20000000-0000-4000-8000-000000000015",
+          "title": "US may reimpose sanctions on Russian oil",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/us-russia-oil-sanctions-2026-06-17",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000007","issueId":"10000000-0000-4000-8000-000000000001","slug":"ocean-treaty-action","rank":7,"category":"climate","region":"Global Ocean","countryCodes":[],"eventTime":null,"isDeveloping":false,"verificationStatus":"verified","scoreTotal":88,
-      "localizations":{"zh-CN":{"categoryLabel":"环境","headlineFact":"联合国海洋评估再次发出警报","headlineView":"海洋不是遥远的风景，而是人类共同的生命线","headlineFull":"联合国海洋评估再次发出警报；海洋不是遥远的风景，而是人类共同的生命线","intro":"联合国第三次世界海洋评估指出，气候变化、过度捕捞、污染与生物多样性下降正让海洋承受持续加速的压力。海洋调节气候、提供食物并支撑亿万人生计，它的变化并不遥远，而会通过天气、经济和公共健康回到每个人身边。","xiaziQuote":"保护海洋，就是保护陆地上的生活。","doudouQuote":"看不见海底，不等于问题不存在。","footerTakeaway":"共同海洋需要共同承担责任。"},"en-US":{"categoryLabel":"Environment","headlineFact":"The UN ocean assessment issues another warning","headlineView":"the ocean is not distant scenery, but humanity's shared lifeline","headlineFull":"The UN ocean assessment issues another warning; the ocean is not distant scenery, but humanity's shared lifeline","intro":"The UN's Third World Ocean Assessment says climate change, overfishing, pollution and biodiversity loss are placing accelerating pressure on the ocean. The ocean regulates climate, supplies food and supports billions of livelihoods. Its decline returns to everyone through weather, economics and health.","xiaziQuote":"Protecting the ocean protects life on land.","doudouQuote":"Invisible underwater does not mean nonexistent.","footerTakeaway":"A shared ocean demands shared responsibility."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000007","topicId":"20000000-0000-4000-8000-000000000007","title":"Third World Ocean Assessment","publisher":"United Nations","url":"https://www.un.org/sustainabledevelopment/blog/2026/06/press-release-as-ocean-pressures-mount-united-nations-report-calls-for-urgent-global-collaboration-to-protect-marine-ecosystems/","publishedAt":"2026-06-08T00:00:00Z","sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000016",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "us-iran-peace-signing",
+      "rank": 7,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "CH"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "us_iran_peace_framework_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美伊和平进程",
+          "headlineFact": "美伊协议计划周五在瑞士举行签署仪式",
+          "headlineView": "真正的和平，正从口头框架进入文件、时间表与执行阶段",
+          "headlineFull": "美伊协议计划周五在瑞士举行签署仪式；真正的和平，正从口头框架进入文件、时间表与执行阶段。",
+          "intro": "瑞士方面确认，美伊协议签署仪式计划于周五在卢塞恩附近举行。双方随后将进入为期60天的详细谈判，议题涉及核问题、制裁与霍尔木兹海峡恢复通行。与此前的'初步框架'相比，这次进展更具体，但签字仍只是起点，真正的挑战在执行。",
+          "xiaziQuote": "签字是起跑线，不是终点线。",
+          "doudouQuote": "框架变文件，文件变行动，中间隔着整个马拉松。",
+          "footerTakeaway": "美伊协议签署仪式定于周五在瑞士举行，60天详细谈判窗口即将开启。"
+        },
+        "en-US": {
+          "categoryLabel": "US-Iran Peace Process",
+          "headlineFact": "US-Iran agreement signing ceremony planned for Friday in Switzerland",
+          "headlineView": "real peace is moving from verbal framework to documents, timelines and execution",
+          "headlineFull": "US-Iran agreement signing ceremony planned for Friday in Switzerland; real peace is moving from verbal framework to documents, timelines and execution.",
+          "intro": "Swiss authorities confirmed that a signing ceremony for the US-Iran agreement is planned for Friday near Lucerne. The two sides will then enter a 60-day detailed negotiation window covering nuclear issues, sanctions and the reopening of the Strait of Hormuz. Compared with the earlier 'initial framework,' this progress is more concrete, but the signature is only the starting line; the real challenge lies in implementation.",
+          "xiaziQuote": "The signature is the starting line, not the finish line.",
+          "doudouQuote": "From framework to document to action—there's a whole marathon in between.",
+          "footerTakeaway": "The US-Iran signing ceremony is scheduled for Friday in Switzerland, with a 60-day detailed negotiation window to follow."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000049",
+          "topicId": "20000000-0000-4000-8000-000000000016",
+          "title": "US-Iran agreement signing ceremony to be held in Switzerland",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/us-iran-agreement-signing-switzerland-2026-06-17",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000050",
+          "topicId": "20000000-0000-4000-8000-000000000016",
+          "title": "US and Iran enter 60-day detailed negotiation window",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/us-iran-enter-60-day-detailed-negotiation-window-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000008","issueId":"10000000-0000-4000-8000-000000000001","slug":"space-economy-orbit","rank":8,"category":"science","region":"Low Earth Orbit","countryCodes":["US"],"eventTime":"2026-06-11T15:05:59Z","isDeveloping":false,"verificationStatus":"verified","scoreTotal":86,
-      "localizations":{"zh-CN":{"categoryLabel":"航天","headlineFact":"24 颗星链卫星奔赴近地轨道","headlineView":"每一次发射，都在重写世界的连接方式","headlineFull":"24 颗星链卫星奔赴近地轨道；每一次发射，都在重写世界的连接方式","intro":"SpaceX 使用猎鹰 9 号将 24 颗星链卫星送入近地轨道，一级助推器再次完成海上回收。高频发射正在扩大卫星互联网覆盖，也同步放大轨道拥堵、天文观测和空间治理问题。连接更多地方的同时，人类也必须学习管理共同轨道。","xiaziQuote":"连接能力越强，共同责任越大。","doudouQuote":"太空不是无限停车场。","footerTakeaway":"轨道基础设施正在重画地球通信地图。"},"en-US":{"categoryLabel":"Space","headlineFact":"Twenty-four Starlink satellites head to low Earth orbit","headlineView":"every launch rewrites how the world connects","headlineFull":"Twenty-four Starlink satellites head to low Earth orbit; every launch rewrites how the world connects","intro":"SpaceX launched 24 Starlink satellites to low Earth orbit and recovered the Falcon 9 first stage at sea. Rapid launch cadence expands satellite internet coverage while intensifying questions about congestion, astronomy and space governance. Better connection also demands better management of shared orbit.","xiaziQuote":"Greater connection creates greater shared responsibility.","doudouQuote":"Orbit is not an infinite car park.","footerTakeaway":"Orbital infrastructure is redrawing Earth's communications map."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000008","topicId":"20000000-0000-4000-8000-000000000008","title":"Starlink 17-44 mission coverage","publisher":"Spaceflight Now","url":"https://spaceflightnow.com/2026/06/11/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-4/","publishedAt":"2026-06-13T00:00:00Z","sourceType":"publisher","sourceTier":2,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000017",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "softbank-openai-cybersecurity",
+      "rank": 8,
+      "category": "technology",
+      "region": "Asia Pacific",
+      "countryCodes": [
+        "JP"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "softbank_openai_cybersecurity_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI与网络安全",
+          "headlineFact": "软银与OpenAI在日本推出AI网络安全服务",
+          "headlineView": "当攻击开始使用AI，防守也必须从人工响应升级为智能体系",
+          "headlineFull": "软银与OpenAI在日本推出AI网络安全服务；当攻击开始使用AI，防守也必须从人工响应升级为智能体系。",
+          "intro": "软银推出基于OpenAI模型的网络安全产品，重点服务日本关键基础设施和大型企业。产品将AI用于漏洞修复、威胁识别和系统防护，背后反映出网络安全正在进入新的攻防周期：攻击者使用AI扩大效率，企业也必须用AI缩短发现、判断和修复时间。",
+          "xiaziQuote": "攻防之间，速度决定生死，AI正在重新定义速度。",
+          "doudouQuote": "黑客用AI加速，防守方不能只靠咖啡和黑眼圈。",
+          "footerTakeaway": "软银与OpenAI合作推出AI网络安全产品，标志着日本关键基础设施防护进入智能对抗新阶段。"
+        },
+        "en-US": {
+          "categoryLabel": "AI & Cybersecurity",
+          "headlineFact": "SoftBank and OpenAI launch AI cybersecurity service in Japan",
+          "headlineView": "when attackers start using AI, defense must upgrade from manual response to intelligent systems",
+          "headlineFull": "SoftBank and OpenAI launch AI cybersecurity service in Japan; when attackers start using AI, defense must upgrade from manual response to intelligent systems.",
+          "intro": "SoftBank launched a cybersecurity product based on OpenAI models, targeting Japan's critical infrastructure and large enterprises. The product uses AI for vulnerability remediation, threat identification and system protection, reflecting a new offensive-defensive cycle in cybersecurity: attackers use AI to scale efficiency, and enterprises must use AI to shorten the time between detection, judgment and remediation.",
+          "xiaziQuote": "In offense and defense, speed decides survival; AI is redefining speed.",
+          "doudouQuote": "Hackers are accelerating with AI. Defenders can't rely on coffee and dark circles alone.",
+          "footerTakeaway": "SoftBank's AI cybersecurity partnership with OpenAI marks a new phase of intelligent defense for Japan's critical infrastructure."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000051",
+          "topicId": "20000000-0000-4000-8000-000000000017",
+          "title": "SoftBank launches AI cybersecurity product with OpenAI in Japan",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/softbank-launches-ai-cybersecurity-product-openai-japan-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
     },
     {
-      "id":"20000000-0000-4000-8000-000000000009","issueId":"10000000-0000-4000-8000-000000000001","slug":"climate-adaptation-city","rank":9,"category":"science","region":"International Space Station","countryCodes":["US"],"eventTime":"2026-06-16T16:05:00Z","isDeveloping":true,"verificationStatus":"verified","scoreTotal":84,
-      "localizations":{"zh-CN":{"categoryLabel":"科学","headlineFact":"龙飞船计划离站返航并带回科研样本","headlineView":"真正落地的不只是飞船，更是下一步探索的答案","headlineFull":"龙飞船计划离站返航并带回科研样本；真正落地的不只是飞船，更是下一步探索的答案","intro":"NASA 计划于 6 月 16 日安排 SpaceX 第 34 次货运龙飞船离开国际空间站，返回地球并带回对时间敏感的科研样本与设备。返航不是任务尾声，样本进入实验室后产生的数据，才会转化为长期太空生活与地面医学的新知识。","xiaziQuote":"探索的价值，最终要回到可验证的答案。","doudouQuote":"飞得高很酷，带回结果才算交作业。","footerTakeaway":"太空实验的下一站，是地球实验室。"},"en-US":{"categoryLabel":"Science","headlineFact":"Dragon is scheduled to return with research samples","headlineView":"what lands is not only a spacecraft, but answers for the next mission","headlineFull":"Dragon is scheduled to return with research samples; what lands is not only a spacecraft, but answers for the next mission","intro":"NASA plans for SpaceX's 34th cargo Dragon to leave the International Space Station on June 16 carrying time-sensitive research samples and hardware. Return is not the end of the mission: laboratory analysis on Earth turns orbital experiments into knowledge for long-duration spaceflight and medicine.","xiaziQuote":"Exploration gains value through verifiable answers.","doudouQuote":"Flying high is cool. Bringing results home completes the assignment.","footerTakeaway":"The next stop for orbital science is an Earth laboratory."}},
-      "sources":[{"id":"30000000-0000-4000-8000-000000000009","topicId":"20000000-0000-4000-8000-000000000009","title":"NASA to cover CRS-34 departure","publisher":"NASA","url":"https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure/","publishedAt":"2026-06-12T00:00:00Z","sourceType":"official","sourceTier":1,"locale":"en-US","isPrimary":true}]
+      "id": "20000000-0000-4000-8000-000000000018",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "yum-sells-pizza-hut",
+      "rank": 9,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "yum_sells_pizza_hut_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "餐饮与商业",
+          "headlineFact": "百胜以27亿美元出售必胜客",
+          "headlineView": "知名品牌不会自动拥有未来，老生意也需要重新找到增长理由",
+          "headlineFull": "百胜以27亿美元出售必胜客；知名品牌不会自动拥有未来，老生意也需要重新找到增长理由。",
+          "intro": "百胜集团宣布以27亿美元出售必胜客，其中中国业务将由百胜中国收购，其余全球业务交给私募机构。交易背后是消费谨慎、竞争加剧和饮食习惯变化。品牌知名度能带来流量，却不能替代产品更新、运营效率和对新一代消费者的理解。",
+          "xiaziQuote": "招牌再亮，灯也有烧坏的一天；品牌要续命，靠的是持续被需要。",
+          "doudouQuote": "曾经的披萨王者，现在成了资产负债表上的'优化项目'。",
+          "footerTakeaway": "百胜27亿美元出售必胜客，中国业务归百胜中国，全球其余业务由私募接手。"
+        },
+        "en-US": {
+          "categoryLabel": "Food & Business",
+          "headlineFact": "Yum Brands sells Pizza Hut for $2.7 billion",
+          "headlineView": "famous brands do not automatically own the future; legacy businesses must rediscover their growth reason",
+          "headlineFull": "Yum Brands sells Pizza Hut for $2.7 billion; famous brands do not automatically own the future; legacy businesses must rediscover their growth reason.",
+          "intro": "Yum Brands announced the $2.7 billion sale of Pizza Hut, with the China business going to Yum China and the remaining global operations to private equity. The deal reflects cautious consumer spending, intensifying competition and shifting eating habits. Brand awareness drives traffic, but cannot substitute for product renewal, operational efficiency and understanding the next generation of consumers.",
+          "xiaziQuote": "Even the brightest sign can burn out; a brand survives by staying needed.",
+          "doudouQuote": "The former pizza king is now an 'optimization item' on a balance sheet.",
+          "footerTakeaway": "Yum Brands is selling Pizza Hut for $2.7 billion: China operations go to Yum China, while the rest goes to private equity."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000052",
+          "topicId": "20000000-0000-4000-8000-000000000018",
+          "title": "Yum Brands to sell Pizza Hut for $2.7 billion",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/yum-brands-sell-pizza-hut-27-billion-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
     }
   ]
 }

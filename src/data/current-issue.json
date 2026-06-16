@@ -1,106 +1,80 @@
 {
-  "id": "10000000-0000-4000-8000-000000000003",
-  "slug": "2026-06-16",
-  "assetVersion": "2026-06-16-world-cup-cape-verde-1781559633878",
-  "issueDate": "2026-06-16",
+  "id": "10000000-0000-4000-8000-000000000004",
+  "slug": "2026-06-17",
+  "assetVersion": "2026-06-17-world-cup-iran-new-zealand-1781782800000",
+  "issueDate": "2026-06-17",
   "slotHour": 0,
-  "beijingTimestamp": "2026-06-16T00:05:00+08:00",
-  "gmtTimestamp": "2026-06-15T16:05:00Z",
+  "beijingTimestamp": "2026-06-17T00:05:00+08:00",
+  "gmtTimestamp": "2026-06-16T16:05:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000001",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000010",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000001",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "world-cup-global-stage",
+      "id": "20000000-0000-4000-8000-000000000010",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "world-cup-iran-new-zealand",
       "rank": 1,
       "category": "sports",
       "region": "North America",
       "countryCodes": [
-        "CV",
-        "ES",
-        "SE",
-        "TN",
-        "CI",
-        "EC",
-        "BE",
-        "EG"
+        "IR",
+        "NZ",
+        "SA",
+        "UY",
+        "FR",
+        "SN"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 96,
-      "storyId": "world_cup_cape_verde_spain_2026",
+      "storyId": "world_cup_iran_new_zealand_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "佛得角 0:0 逼平西班牙",
-          "headlineView": "真正的黑马，不是偶尔偷走一分，而是让强队失去熟悉的节奏",
-          "headlineFull": "佛得角 0:0 逼平西班牙；真正的黑马，不是偶尔偷走一分，而是让强队失去熟悉的节奏。",
-          "intro": "世界杯新军佛得角在队史首场世界杯比赛中，以 0:0 逼平欧洲冠军西班牙。西班牙掌握近四分之三控球并完成 27 次射门，却始终无法攻破 40 岁门将沃齐尼亚把守的球门。同期其他比赛中，瑞典 5:1 大胜突尼斯，科特迪瓦凭第 90 分钟进球 1:0 绝杀厄瓜多尔，比利时则与埃及 1:1 战平。",
-          "xiaziQuote": "控球能占据画面，进球才决定答案。",
-          "doudouQuote": "27 脚都没进，足球果然不发勤奋奖。",
-          "footerTakeaway": "佛得角面对西班牙承受 27 次射门仍保持零封，门将沃齐尼亚成为比赛焦点；瑞典则由阿亚里梅开二度，以 5:1 取得强势开局；科特迪瓦依靠阿马德·迪亚洛第 90 分钟的进球击败厄瓜多尔。"
+          "headlineFact": "伊朗两度落后仍以2:2逼平新西兰",
+          "headlineView": "真正的韧性，不是不犯错，而是每次落后都还能追回来",
+          "headlineFull": "伊朗两度落后仍以2:2逼平新西兰；真正的韧性，不是不犯错，而是每次落后都还能追回来。",
+          "intro": "伊朗与新西兰在洛杉矶踢出2:2，新西兰球员Elijah Just梅开二度，伊朗则两度追平。至此G组四队首轮全部收获1分。同期另一场比赛中，沙特与乌拉圭1:1战平；本统计窗口最后一场焦点战，将是法国与塞内加尔时隔24年的世界杯重逢。",
+          "xiaziQuote": "落后不可怕，失去回应能力才可怕。",
+          "doudouQuote": "两次领先都没带走胜利，历史差一点就写到最后一页。",
+          "footerTakeaway": "伊朗两度落后两度扳平，展现极强韧性；新西兰Just梅开二度却未能锁定胜局；沙特与乌拉圭各取1分，G组首轮四队平分。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Cape Verde hold Spain to 0:0",
-          "headlineView": "a real dark horse doesn't just steal a point, it makes a powerhouse lose its familiar rhythm",
-          "headlineFull": "Cape Verde hold Spain to 0:0; a real dark horse doesn't just steal a point, it makes a powerhouse lose its familiar rhythm.",
-          "intro": "World Cup debutants Cape Verde held European champions Spain to a 0:0 draw in their first-ever World Cup match. Spain had nearly three-quarters of possession and 27 attempts, but could not beat 40-year-old goalkeeper Vozinha. Elsewhere, Sweden beat Tunisia 5:1, Côte d'Ivoire edged Ecuador 1:0 in the 90th minute, and Belgium drew 1:1 with Egypt.",
-          "xiaziQuote": "Possession controls the picture; goals decide the answer.",
-          "doudouQuote": "27 shots, no goal. Football gives no prize for effort alone.",
-          "footerTakeaway": "Cape Verde's clean sheet turned Vozinha into the face of a historic World Cup debut."
+          "headlineFact": "Iran come back twice to draw 2:2 with New Zealand",
+          "headlineView": "real resilience is not about avoiding mistakes, but about chasing back every time you fall behind",
+          "headlineFull": "Iran come back twice to draw 2:2 with New Zealand; real resilience is not about avoiding mistakes, but about chasing back every time you fall behind.",
+          "intro": "Iran and New Zealand played out a 2:2 draw in Los Angeles, with New Zealand's Elijah Just scoring twice and Iran equalizing both times. All four teams in Group G now have one point after the first round. In the other match, Saudi Arabia drew 1:1 with Uruguay; the final highlight of this window will be France vs Senegal, a World Cup reunion after 24 years.",
+          "xiaziQuote": "Falling behind is not scary; losing the ability to respond is.",
+          "doudouQuote": "Two leads, no win. History almost turned the page.",
+          "footerTakeaway": "Iran showed remarkable resilience by equalizing twice; New Zealand's Just scored a brace but could not seal victory; Saudi Arabia and Uruguay shared a point."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000011",
-          "topicId": "20000000-0000-4000-8000-000000000001",
-          "title": "World Cup debutants Cape Verde hold Spain to goalless draw",
-          "publisher": "Reuters via The Daily Star",
-          "url": "https://www.thedailystar.net/sports/sports-special/fifa-world-cup-2026/news/world-cup-debutants-cape-verde-hold-spain-goalless-draw-4199751",
-          "publishedAt": "2026-06-15T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000041",
+          "topicId": "20000000-0000-4000-8000-000000000010",
+          "title": "Iran fight back twice to draw 2-2 with New Zealand at World Cup",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/iran-fight-back-twice-draw-2-2-with-new-zealand-world-cup-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "30000000-0000-4000-8000-000000000012",
-          "topicId": "20000000-0000-4000-8000-000000000001",
-          "title": "Yasin Ayari brace helps Sweden overwhelm Tunisia",
-          "publisher": "Field Level Media",
-          "url": "https://fieldlevelmedia.com/recap/yasin-ayari-brace-helps-sweden-overwhelm-tunisia/",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        },
-        {
-          "id": "30000000-0000-4000-8000-000000000013",
-          "topicId": "20000000-0000-4000-8000-000000000001",
-          "title": "Amad Diallo scores in the 90th minute to lift Ivory Coast past Ecuador",
-          "publisher": "Associated Press via Times Union",
-          "url": "https://www.timesunion.com/sports/article/amad-diallo-scores-in-the-90th-minute-to-lift-22305148.php",
-          "publishedAt": "2026-06-15T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000042",
+          "topicId": "20000000-0000-4000-8000-000000000010",
+          "title": "Saudi Arabia and Uruguay play out 1-1 draw in World Cup Group G",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/saudi-arabia-uruguay-play-out-1-1-draw-world-cup-group-g-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
           "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        },
-        {
-          "id": "30000000-0000-4000-8000-000000000014",
-          "topicId": "20000000-0000-4000-8000-000000000001",
-          "title": "Belgium 1-1 Egypt: World Cup 2026",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/2026/jun/15/belgium-egypt-world-cup-2026-group-g-match-report",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
@@ -108,110 +82,109 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000002",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "energy-transition-grid",
+      "id": "20000000-0000-4000-8000-000000000011",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "spacex-acquires-anysphere",
       "rank": 2,
-      "category": "international",
-      "region": "Middle East",
+      "category": "technology",
+      "region": "United States",
       "countryCodes": [
-        "US",
-        "IR"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 98,
-      "storyId": "us_iran_peace_framework_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "中东局势",
-          "headlineFact": "美国与伊朗达成初步和平框架",
-          "headlineView": "真正的和平，要从宣布走到签字，再从签字走到执行",
-          "intro": "美国与伊朗确认达成初步协议，内容涉及永久停火、结束战争以及重新开放霍尔木兹海峡，正式文件预计稍后签署。消息推动油价下跌、全球风险资产回升，但核问题、制裁、航运恢复以及地区各方能否保持克制，仍是协议落地的关键。",
-          "xiaziQuote": "和平最难的，不是宣布，而是兑现。",
-          "doudouQuote": "会开完了，真正的考题才刚开始。",
-          "footerTakeaway": "框架是重大转折，正式签署与执行才决定和平能走多远。",
-          "headlineFull": "美国与伊朗达成初步和平框架；真正的和平，要从宣布走到签字，再从签字走到执行。"
-        },
-        "en-US": {
-          "categoryLabel": "Middle East",
-          "headlineFact": "The U.S. and Iran reach an initial peace framework",
-          "headlineView": "real peace must move from announcement to signature, and from signature to execution",
-          "intro": "The United States and Iran confirmed an initial framework covering a permanent ceasefire, an end to the war and the reopening of the Strait of Hormuz, with formal documents expected later. Markets rallied, but nuclear issues, sanctions, shipping and regional restraint remain the decisive tests.",
-          "xiaziQuote": "Peace is hardest not at the moment of announcement, but at the moment of delivery.",
-          "doudouQuote": "The meeting may be over, but the real exam is just beginning.",
-          "footerTakeaway": "The framework is a major turn; signatures and implementation will determine its durability.",
-          "headlineFull": "The U.S. and Iran reach an initial peace framework; real peace must move from announcement to signature, and from signature to execution."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000021",
-          "topicId": "20000000-0000-4000-8000-000000000002",
-          "title": "Trump arrives at G7 summit after announcing a deal to end the Iran war",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/992fb57188610d04660fb342c53e639e",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000003",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "culture-restoration-digital",
-      "rank": 3,
-      "category": "culture",
-      "region": "United Kingdom",
-      "countryCodes": [
-        "GB"
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "uk_under16_social_media_ban_2026",
+      "scoreTotal": 95,
+      "storyId": "spacex_acquires_anysphere_2026",
+      "storyStatus": "followup",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "SpaceX与AI",
+          "headlineFact": "SpaceX以600亿美元收购Cursor母公司Anysphere",
+          "headlineView": "火箭公司正在把太空、算力与代码入口连成同一张网",
+          "headlineFull": "SpaceX以600亿美元收购Cursor母公司Anysphere；火箭公司正在把太空、算力与代码入口连成同一张网。",
+          "intro": "SpaceX宣布以全股票方式收购AI编程工具Cursor的母公司Anysphere，交易估值约600亿美元。收购将强化旗下xAI在企业级编程市场的能力，也意味着SpaceX的故事已不只是火箭与卫星，而是在把算力、模型、开发者工具和资本市场整合为一个更庞大的技术体系。",
+          "xiaziQuote": "当火箭公司开始买代码入口，边界这个词本身就需要重新定义。",
+          "doudouQuote": "以前发火箭上天，现在发代码入脑，马斯克果然不浪费任何一个入口。",
+          "footerTakeaway": "600亿美元全股票收购Anysphere，是SpaceX从航天向AI基础设施扩张的最重要一步。"
+        },
+        "en-US": {
+          "categoryLabel": "SpaceX & AI",
+          "headlineFact": "SpaceX acquires Cursor parent Anysphere for $60 billion",
+          "headlineView": "a rocket company is weaving space, compute and coding access into the same web",
+          "headlineFull": "SpaceX acquires Cursor parent Anysphere for $60 billion; a rocket company is weaving space, compute and coding access into the same web.",
+          "intro": "SpaceX announced an all-stock acquisition of Anysphere, the parent company of AI coding tool Cursor, at an estimated valuation of $60 billion. The deal strengthens xAI's position in the enterprise programming market, signaling that SpaceX's narrative now extends beyond rockets and satellites to encompass compute, models, developer tools and capital markets as a unified technology ecosystem.",
+          "xiaziQuote": "When a rocket company buys a coding gateway, the word 'boundary' itself needs redefining.",
+          "doudouQuote": "From launching rockets to launching code—no entry point goes to waste.",
+          "footerTakeaway": "The $60 billion all-stock acquisition of Anysphere marks SpaceX's most significant expansion from aerospace into AI infrastructure."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000043",
+          "topicId": "20000000-0000-4000-8000-000000000011",
+          "title": "SpaceX to acquire AI coding startup Anysphere in $60 billion deal",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/spacex-acquire-ai-coding-startup-anysphere-60-billion-deal-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000012",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "boj-rate-hike",
+      "rank": 3,
+      "category": "business",
+      "region": "Asia Pacific",
+      "countryCodes": [
+        "JP"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "boj_rate_hike_1pct_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "互联网与未成年人",
-          "headlineFact": "英国宣布限制 16 岁以下使用主流社交媒体",
-          "headlineView": "保护未成年人，正从平台自律走向国家规则",
-          "intro": "英国宣布将对 16 岁以下用户使用 TikTok、Instagram、YouTube、Snapchat 等社交平台施加更严格限制，部分游戏、直播、陌生人私信和无限滚动功能也将受到监管。政策预计于明年春季前后实施，但年龄验证、规避手段和执行成本仍将面临现实考验。",
-          "xiaziQuote": "技术越快，边界越要提早想清楚。",
-          "doudouQuote": "刷屏很轻松，管住算法可没那么轻松。",
-          "footerTakeaway": "儿童网络安全正从家庭选择转向平台与国家共同负责。",
-          "headlineFull": "英国宣布限制 16 岁以下使用主流社交媒体；保护未成年人，正从平台自律走向国家规则。"
+          "categoryLabel": "日本货币政策",
+          "headlineFact": "日本央行将利率上调至1%",
+          "headlineView": "告别超低利率容易，适应资金重新变贵才是真正的考验",
+          "headlineFull": "日本央行将利率上调至1%；告别超低利率容易，适应资金重新变贵才是真正的考验。",
+          "intro": "日本央行将政策利率从0.75%上调至1%，达到1995年以来最高水平。此次加息反映出日本对通胀、日元汇率和能源成本的持续担忧。利率正常化正在进入更深水区，接下来市场关注的，不只是下一次加息时间，还有家庭、企业和政府能否适应融资成本持续上升。",
+          "xiaziQuote": "利率是价格，价格是信号，信号会重塑所有人的行为。",
+          "doudouQuote": "借钱变贵了，借钱的人可能还没准备好。",
+          "footerTakeaway": "日本利率升至31年高点，标志着全球最后一个宽松角落正在收紧。"
         },
         "en-US": {
-          "categoryLabel": "Internet & Minors",
-          "headlineFact": "Britain will restrict major social platforms for under-16s",
-          "headlineView": "protecting minors is moving from platform self-discipline to national rules",
-          "intro": "Britain plans tighter restrictions for users under 16 across TikTok, Instagram, YouTube, Snapchat and other platforms, alongside controls on gaming, livestreaming, stranger messaging and infinite scrolling. Implementation is expected around next spring, while age checks and enforcement remain difficult.",
-          "xiaziQuote": "The faster technology moves, the earlier the boundary must be defined.",
-          "doudouQuote": "Scrolling is easy. Setting the rules never is.",
-          "footerTakeaway": "Child online safety is becoming a shared duty of families, platforms and the state.",
-          "headlineFull": "Britain will restrict major social platforms for under-16s; protecting minors is moving from platform self-discipline to national rules."
+          "categoryLabel": "Japan Monetary Policy",
+          "headlineFact": "Bank of Japan raises interest rate to 1%",
+          "headlineView": "exiting ultra-low rates is easy; adapting to more expensive money is the real test",
+          "headlineFull": "Bank of Japan raises interest rate to 1%; exiting ultra-low rates is easy; adapting to more expensive money is the real test.",
+          "intro": "The Bank of Japan raised its policy rate from 0.75% to 1%, the highest level since 1995. The hike reflects persistent concerns about inflation, the yen exchange rate and energy costs. Rate normalization is entering deeper waters; markets will watch not only for the next hike, but whether households, businesses and government can adapt to rising financing costs.",
+          "xiaziQuote": "Interest rates are prices, prices are signals, and signals reshape everyone's behavior.",
+          "doudouQuote": "Borrowing just got more expensive. Borrowers may not be ready.",
+          "footerTakeaway": "Japan's rate rise to a 31-year high signals that the world's last loose corner is tightening."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000031",
-          "topicId": "20000000-0000-4000-8000-000000000003",
-          "title": "Social media to be banned for under-16s",
-          "publisher": "UK Government",
-          "url": "https://www.gov.uk/government/news/social-media-to-be-banned-for-under-16s-in-landmark-government-move-to-givekids-their-childhood-back",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "official",
+          "id": "30000000-0000-4000-8000-000000000044",
+          "topicId": "20000000-0000-4000-8000-000000000012",
+          "title": "Bank of Japan raises interest rate to 1%, highest since 1995",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/asia/bank-japan-raises-interest-rate-1-highest-since-1995-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -219,53 +192,109 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000004",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "ai-governance-crossroads",
+      "id": "20000000-0000-4000-8000-000000000013",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "china-retail-sales-decline",
       "rank": 4,
-      "category": "technology",
-      "region": "United States",
+      "category": "business",
+      "region": "China",
       "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "china_retail_sales_decline_may_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中国经济",
+          "headlineFact": "中国5月零售销售三年多来首次环比下滑",
+          "headlineView": "工厂依旧强劲，但消费端还没有完全接上力",
+          "headlineFull": "中国5月零售销售三年多来首次环比下滑；工厂依旧强劲，但消费端还没有完全接上力。",
+          "intro": "中国5月零售销售环比下降0.6%，为2022年12月以来首次下滑；与此同时，工业产出同比增长4.5%，高技术制造业增长15.1%。一边是AI与出口拉动生产，一边是房地产、汽车和居民消费偏弱，中国经济的核心问题正从'有没有增长'，转向'增长是否均衡'。",
+          "xiaziQuote": "生产的成绩单再漂亮，消费的试卷没答完，总分还是上不去。",
+          "doudouQuote": "工厂在加班，购物车在打盹。",
+          "footerTakeaway": "工业产出与高技制造保持强劲，但零售销售环比转负揭示消费端仍是短板。"
+        },
+        "en-US": {
+          "categoryLabel": "China Economy",
+          "headlineFact": "China's May retail sales fall for first time in over three years",
+          "headlineView": "factories remain strong, but the consumer side has not fully caught up",
+          "headlineFull": "China's May retail sales fall for first time in over three years; factories remain strong, but the consumer side has not fully caught up.",
+          "intro": "China's retail sales fell 0.6% month-on-month in May, the first decline since December 2022. Meanwhile, industrial output grew 4.5% year-on-year, with high-tech manufacturing up 15.1%. While AI and exports drive production, real estate, autos and household consumption remain weak. China's core economic question is shifting from 'is there growth' to 'is growth balanced'.",
+          "xiaziQuote": "No matter how good the production score looks, the consumer exam isn't finished yet.",
+          "doudouQuote": "Factories are working overtime; shopping carts are taking a nap.",
+          "footerTakeaway": "Industrial output and high-tech manufacturing remain strong, but the negative retail print reveals consumption remains the weak link."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000045",
+          "topicId": "20000000-0000-4000-8000-000000000013",
+          "title": "China May retail sales fall for first time in over three years",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/asia/china-may-retail-sales-fall-first-time-over-three-years-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000014",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "eu-us-trade-agreement",
+      "rank": 5,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "EU",
         "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 90,
-      "storyId": "xai_openai_trade_secret_case_2026",
+      "storyId": "eu_us_trade_agreement_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI 与法律",
-          "headlineFact": "法院驳回 xAI 对 OpenAI 的商业秘密诉讼",
-          "headlineView": "AI 竞争不只拼模型，也在重画人才与知识产权边界",
-          "intro": "美国联邦法官驳回 xAI 针对 OpenAI 提起的商业秘密诉讼，并认为 xAI 未能证明 OpenAI 诱导前员工窃取或披露机密。本案围绕人才流动、代码、模型研发资料和企业秘密展开，也说明 AI 巨头之间的竞争正从算力、产品和融资延伸到法庭。",
-          "xiaziQuote": "技术的边界，最终也要回到规则里。",
-          "doudouQuote": "模型在打架，律师也没闲着。",
-          "footerTakeaway": "人才流动和知识产权正在成为 AI 竞争的第二战场。",
-          "headlineFull": "法院驳回 xAI 对 OpenAI 的商业秘密诉讼；AI 竞争不只拼模型，也在重画人才与知识产权边界。"
+          "categoryLabel": "欧美贸易",
+          "headlineFact": "欧洲议会通过欧美贸易协议关键法案",
+          "headlineView": "避免关税冲突是第一步，建立稳定互信才是更难的一步",
+          "headlineFull": "欧洲议会通过欧美贸易协议关键法案；避免关税冲突是第一步，建立稳定互信才是更难的一步。",
+          "intro": "欧洲议会批准削减美国商品进口关税的关键措施，以落实此前与美国达成的贸易安排，并避免新一轮关税升级。协议为企业换来短期确定性，但欧洲仍保留暂停优惠的保障条款。贸易协议真正的价值，不只在签署当天，而在双方是否长期遵守承诺。",
+          "xiaziQuote": "协议的墨水没干之前，都只是可能性。",
+          "doudouQuote": "关税不打了，但信任账户还没充值。",
+          "footerTakeaway": "欧洲议会批准关税削减措施，为欧美贸易关系提供短期缓冲，但长期执行仍需观察。"
         },
         "en-US": {
-          "categoryLabel": "AI & Law",
-          "headlineFact": "A court dismisses xAI's trade secret case against OpenAI",
-          "headlineView": "the AI race is now also about talent and intellectual property boundaries",
-          "intro": "A U.S. federal judge dismissed xAI's trade secret lawsuit against OpenAI, finding that xAI had not shown OpenAI induced a former employee to steal or disclose confidential information. The dispute shows AI competition expanding from models and compute into talent mobility, data use and intellectual property.",
-          "xiaziQuote": "The boundaries of technology eventually have to return to the rules.",
-          "doudouQuote": "The models are fighting, and the lawyers are busy too.",
-          "footerTakeaway": "Talent and intellectual property are becoming a second front in the AI race.",
-          "headlineFull": "A court dismisses xAI's trade secret case against OpenAI; the AI race is now also about talent and intellectual property boundaries."
+          "categoryLabel": "EU-US Trade",
+          "headlineFact": "European Parliament passes key EU-US trade agreement bill",
+          "headlineView": "avoiding tariff clashes is step one; building stable trust is the harder part",
+          "headlineFull": "European Parliament passes key EU-US trade agreement bill; avoiding tariff clashes is step one; building stable trust is the harder part.",
+          "intro": "The European Parliament approved key measures to cut import tariffs on US goods, implementing a prior trade arrangement and averting a new round of tariff escalation. The deal gives businesses short-term certainty, but Europe retains safeguard clauses to suspend preferences. The real value of a trade agreement lies not in the day it is signed, but in whether both sides honor it over time.",
+          "xiaziQuote": "Until the ink dries, an agreement is only possibility.",
+          "doudouQuote": "Tariffs are on pause, but the trust account hasn't been topped up yet.",
+          "footerTakeaway": "The European Parliament's approval of tariff cuts provides short-term relief for EU-US trade, but long-term compliance remains to be seen."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000041",
-          "topicId": "20000000-0000-4000-8000-000000000004",
-          "title": "OpenAI wins dismissal of trade secret lawsuit by Elon Musk's xAI",
-          "publisher": "Reuters via The Straits Times",
-          "url": "https://www.straitstimes.com/business/openai-wins-dismissal-of-trade-secret-lawsuit-by-musks-xai",
-          "publishedAt": "2026-06-15T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000046",
+          "topicId": "20000000-0000-4000-8000-000000000014",
+          "title": "European Parliament passes key EU-US trade deal measures",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/european-parliament-passes-key-eu-us-trade-deal-measures-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -274,308 +303,251 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000005",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "trade-routes-rewired",
-      "rank": 5,
-      "category": "business",
-      "region": "United States",
+      "id": "20000000-0000-4000-8000-000000000015",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "g7-russia-sanctions",
+      "rank": 6,
+      "category": "international",
+      "region": "Europe",
       "countryCodes": [
+        "RU",
+        "UA",
         "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "g7_russia_sanctions_discussion_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 85,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "G7与俄乌局势",
+          "headlineFact": "G7讨论进一步制裁俄罗斯",
+          "headlineView": "和平谈判要有出口，也要让继续战争的成本足够清晰",
+          "headlineFull": "G7讨论进一步制裁俄罗斯；和平谈判要有出口，也要让继续战争的成本足够清晰。",
+          "intro": "泽连斯基表示，G7领导人讨论了针对俄罗斯能源、银行和军工体系的进一步制裁。特朗普则呼吁俄罗斯与乌克兰达成协议，但对具体施压手段仍保持模糊。外交窗口仍然存在，但没有足够的成本约束，谈判意愿往往很难自动出现。",
+          "xiaziQuote": "制裁是语言，成本是语法；没有语法，语言没人听懂。",
+          "doudouQuote": "喊停火容易，让两边都觉得'不停火更亏'才难。",
+          "footerTakeaway": "G7讨论扩大对俄制裁，但美国对具体施压路径仍未完全明确。"
+        },
+        "en-US": {
+          "categoryLabel": "G7 & Russia-Ukraine",
+          "headlineFact": "G7 discusses further sanctions on Russia",
+          "headlineView": "peace talks need an exit, and the cost of continuing war must be clear enough",
+          "headlineFull": "G7 discusses further sanctions on Russia; peace talks need an exit, and the cost of continuing war must be clear enough.",
+          "intro": "Zelenskyy said G7 leaders discussed further sanctions targeting Russia's energy, banking and military-industrial systems. Trump called for Russia and Ukraine to reach a deal, but remained vague on specific pressure measures. A diplomatic window still exists, but without sufficient cost constraints, willingness to negotiate rarely materializes on its own.",
+          "xiaziQuote": "Sanctions are the vocabulary; cost is the grammar. Without grammar, no one understands the message.",
+          "doudouQuote": "Calling for a ceasefire is easy. Making both sides feel 'not stopping is worse' is the hard part.",
+          "footerTakeaway": "The G7 discussed expanding sanctions on Russia, but the US has not yet fully clarified its path on pressure measures."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000047",
+          "topicId": "20000000-0000-4000-8000-000000000015",
+          "title": "G7 leaders discuss further sanctions on Russia",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/g7-leaders-discuss-further-sanctions-russia-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000048",
+          "topicId": "20000000-0000-4000-8000-000000000015",
+          "title": "US may reimpose sanctions on Russian oil",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/us-russia-oil-sanctions-2026-06-17",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000016",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "us-iran-peace-signing",
+      "rank": 7,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "CH"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "us_iran_peace_framework_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美伊和平进程",
+          "headlineFact": "美伊协议计划周五在瑞士举行签署仪式",
+          "headlineView": "真正的和平，正从口头框架进入文件、时间表与执行阶段",
+          "headlineFull": "美伊协议计划周五在瑞士举行签署仪式；真正的和平，正从口头框架进入文件、时间表与执行阶段。",
+          "intro": "瑞士方面确认，美伊协议签署仪式计划于周五在卢塞恩附近举行。双方随后将进入为期60天的详细谈判，议题涉及核问题、制裁与霍尔木兹海峡恢复通行。与此前的'初步框架'相比，这次进展更具体，但签字仍只是起点，真正的挑战在执行。",
+          "xiaziQuote": "签字是起跑线，不是终点线。",
+          "doudouQuote": "框架变文件，文件变行动，中间隔着整个马拉松。",
+          "footerTakeaway": "美伊协议签署仪式定于周五在瑞士举行，60天详细谈判窗口即将开启。"
+        },
+        "en-US": {
+          "categoryLabel": "US-Iran Peace Process",
+          "headlineFact": "US-Iran agreement signing ceremony planned for Friday in Switzerland",
+          "headlineView": "real peace is moving from verbal framework to documents, timelines and execution",
+          "headlineFull": "US-Iran agreement signing ceremony planned for Friday in Switzerland; real peace is moving from verbal framework to documents, timelines and execution.",
+          "intro": "Swiss authorities confirmed that a signing ceremony for the US-Iran agreement is planned for Friday near Lucerne. The two sides will then enter a 60-day detailed negotiation window covering nuclear issues, sanctions and the reopening of the Strait of Hormuz. Compared with the earlier 'initial framework,' this progress is more concrete, but the signature is only the starting line; the real challenge lies in implementation.",
+          "xiaziQuote": "The signature is the starting line, not the finish line.",
+          "doudouQuote": "From framework to document to action—there's a whole marathon in between.",
+          "footerTakeaway": "The US-Iran signing ceremony is scheduled for Friday in Switzerland, with a 60-day detailed negotiation window to follow."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000049",
+          "topicId": "20000000-0000-4000-8000-000000000016",
+          "title": "US-Iran agreement signing ceremony to be held in Switzerland",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/us-iran-agreement-signing-switzerland-2026-06-17",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000050",
+          "topicId": "20000000-0000-4000-8000-000000000016",
+          "title": "US and Iran enter 60-day detailed negotiation window",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/us-iran-enter-60-day-detailed-negotiation-window-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000017",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "softbank-openai-cybersecurity",
+      "rank": 8,
+      "category": "technology",
+      "region": "Asia Pacific",
+      "countryCodes": [
+        "JP"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "fox_acquires_roku_2026",
+      "scoreTotal": 89,
+      "storyId": "softbank_openai_cybersecurity_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "媒体与商业",
-          "headlineFact": "Fox 与 Roku 达成约 220 亿美元收购协议",
-          "headlineView": "流媒体下一战，争的不只是内容，更是入口、数据与分发权",
-          "intro": "Fox 宣布以现金加股票方式收购 Roku，交易估值约 220 亿美元，预计在获得监管批准后于 2027 年上半年完成。Roku 覆盖超过一亿户家庭，Fox 则拥有新闻、体育和直播内容，两者结合意味着传统媒体正在主动争夺智能电视入口和广告数据。",
-          "xiaziQuote": "内容决定吸引力，入口决定控制力。",
-          "doudouQuote": "看似买平台，本质是在买流量总闸门。",
-          "footerTakeaway": "流媒体竞争正在从内容库存升级为内容、入口与数据的闭环。",
-          "headlineFull": "Fox 与 Roku 达成约 220 亿美元收购协议；流媒体下一战，争的不只是内容，更是入口、数据与分发权。"
+          "categoryLabel": "AI与网络安全",
+          "headlineFact": "软银与OpenAI在日本推出AI网络安全服务",
+          "headlineView": "当攻击开始使用AI，防守也必须从人工响应升级为智能体系",
+          "headlineFull": "软银与OpenAI在日本推出AI网络安全服务；当攻击开始使用AI，防守也必须从人工响应升级为智能体系。",
+          "intro": "软银推出基于OpenAI模型的网络安全产品，重点服务日本关键基础设施和大型企业。产品将AI用于漏洞修复、威胁识别和系统防护，背后反映出网络安全正在进入新的攻防周期：攻击者使用AI扩大效率，企业也必须用AI缩短发现、判断和修复时间。",
+          "xiaziQuote": "攻防之间，速度决定生死，AI正在重新定义速度。",
+          "doudouQuote": "黑客用AI加速，防守方不能只靠咖啡和黑眼圈。",
+          "footerTakeaway": "软银与OpenAI合作推出AI网络安全产品，标志着日本关键基础设施防护进入智能对抗新阶段。"
         },
         "en-US": {
-          "categoryLabel": "Media & Business",
-          "headlineFact": "Fox and Roku strike a $22 billion acquisition deal",
-          "headlineView": "the next streaming battle is about content, entry points, data and distribution",
-          "intro": "Fox agreed to acquire Roku in a cash-and-stock deal valued at about $22 billion, expected to close in the first half of 2027 after regulatory approval. Roku reaches more than 100 million households, while Fox brings news, sports and live programming to the combined platform.",
-          "xiaziQuote": "Content drives attraction; access determines control.",
-          "doudouQuote": "Buying a platform is really buying a traffic gate.",
-          "footerTakeaway": "Streaming competition is becoming a closed loop of content, access and user data.",
-          "headlineFull": "Fox and Roku strike a $22 billion acquisition deal; the next streaming battle is about content, entry points, data and distribution."
+          "categoryLabel": "AI & Cybersecurity",
+          "headlineFact": "SoftBank and OpenAI launch AI cybersecurity service in Japan",
+          "headlineView": "when attackers start using AI, defense must upgrade from manual response to intelligent systems",
+          "headlineFull": "SoftBank and OpenAI launch AI cybersecurity service in Japan; when attackers start using AI, defense must upgrade from manual response to intelligent systems.",
+          "intro": "SoftBank launched a cybersecurity product based on OpenAI models, targeting Japan's critical infrastructure and large enterprises. The product uses AI for vulnerability remediation, threat identification and system protection, reflecting a new offensive-defensive cycle in cybersecurity: attackers use AI to scale efficiency, and enterprises must use AI to shorten the time between detection, judgment and remediation.",
+          "xiaziQuote": "In offense and defense, speed decides survival; AI is redefining speed.",
+          "doudouQuote": "Hackers are accelerating with AI. Defenders can't rely on coffee and dark circles alone.",
+          "footerTakeaway": "SoftBank's AI cybersecurity partnership with OpenAI marks a new phase of intelligent defense for Japan's critical infrastructure."
         }
       },
       "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000051",
-          "topicId": "20000000-0000-4000-8000-000000000005",
-          "title": "Fox Corporation to Acquire Roku, Inc.",
-          "publisher": "Fox Corporation",
-          "url": "https://www.foxcorporation.com/news/corp-press-releases/2026/fox-corporation-to-acquire-roku-inc/",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "official",
+          "topicId": "20000000-0000-4000-8000-000000000017",
+          "title": "SoftBank launches AI cybersecurity product with OpenAI in Japan",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/softbank-launches-ai-cybersecurity-product-openai-japan-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000018",
+      "issueId": "10000000-0000-4000-8000-000000000004",
+      "slug": "yum-sells-pizza-hut",
+      "rank": 9,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "yum_sells_pizza_hut_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "餐饮与商业",
+          "headlineFact": "百胜以27亿美元出售必胜客",
+          "headlineView": "知名品牌不会自动拥有未来，老生意也需要重新找到增长理由",
+          "headlineFull": "百胜以27亿美元出售必胜客；知名品牌不会自动拥有未来，老生意也需要重新找到增长理由。",
+          "intro": "百胜集团宣布以27亿美元出售必胜客，其中中国业务将由百胜中国收购，其余全球业务交给私募机构。交易背后是消费谨慎、竞争加剧和饮食习惯变化。品牌知名度能带来流量，却不能替代产品更新、运营效率和对新一代消费者的理解。",
+          "xiaziQuote": "招牌再亮，灯也有烧坏的一天；品牌要续命，靠的是持续被需要。",
+          "doudouQuote": "曾经的披萨王者，现在成了资产负债表上的'优化项目'。",
+          "footerTakeaway": "百胜27亿美元出售必胜客，中国业务归百胜中国，全球其余业务由私募接手。"
         },
+        "en-US": {
+          "categoryLabel": "Food & Business",
+          "headlineFact": "Yum Brands sells Pizza Hut for $2.7 billion",
+          "headlineView": "famous brands do not automatically own the future; legacy businesses must rediscover their growth reason",
+          "headlineFull": "Yum Brands sells Pizza Hut for $2.7 billion; famous brands do not automatically own the future; legacy businesses must rediscover their growth reason.",
+          "intro": "Yum Brands announced the $2.7 billion sale of Pizza Hut, with the China business going to Yum China and the remaining global operations to private equity. The deal reflects cautious consumer spending, intensifying competition and shifting eating habits. Brand awareness drives traffic, but cannot substitute for product renewal, operational efficiency and understanding the next generation of consumers.",
+          "xiaziQuote": "Even the brightest sign can burn out; a brand survives by staying needed.",
+          "doudouQuote": "The former pizza king is now an 'optimization item' on a balance sheet.",
+          "footerTakeaway": "Yum Brands is selling Pizza Hut for $2.7 billion: China operations go to Yum China, while the rest goes to private equity."
+        }
+      },
+      "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000052",
-          "topicId": "20000000-0000-4000-8000-000000000005",
-          "title": "Fox strikes $22bn deal for Roku to fuel streaming push",
-          "publisher": "Reuters via The Guardian",
-          "url": "https://www.theguardian.com/media/2026/jun/15/fox-roku-acquisition-deal",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000006",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "space-economy-orbit",
-      "rank": 6,
-      "category": "technology",
-      "region": "Europe",
-      "countryCodes": [
-        "US",
-        "SE",
-        "NL"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 89,
-      "storyId": "tesla_fsd_europe_safety_data_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "自动驾驶",
-          "headlineFact": "路透调查称特斯拉向欧洲监管机构提交具争议的 FSD 安全数据",
-          "headlineView": "自动驾驶想赢得许可，先要赢得数据可信度",
-          "intro": "路透调查称，特斯拉在争取 FSD 进入欧洲市场时，向瑞典和荷兰监管机构提供了自行发布的安全统计，一些独立交通安全研究者质疑其中的对比方法。自动驾驶不仅要在道路上证明能力，也必须让监管者相信其数据口径、公平性与可复核性。",
-          "xiaziQuote": "自动驾驶要先说服监管，再说服市场。",
-          "doudouQuote": "车会自己开，数据可不能自己说了算。",
-          "footerTakeaway": "自动驾驶审批既审技术，也审数据是否可信和可复核。",
-          "headlineFull": "路透调查称特斯拉向欧洲监管机构提交具争议的 FSD 安全数据；自动驾驶想赢得许可，先要赢得数据可信度。"
-        },
-        "en-US": {
-          "categoryLabel": "Autonomous Driving",
-          "headlineFact": "A Reuters investigation says Tesla submitted disputed FSD safety data to European regulators",
-          "headlineView": "autonomous driving must first win trust in its data",
-          "intro": "A Reuters investigation says Tesla presented self-published FSD safety statistics to regulators in Sweden and the Netherlands while seeking wider European approval. Independent traffic-safety researchers questioned the comparisons, putting data definitions, sampling and reproducibility alongside technical performance.",
-          "xiaziQuote": "Autonomous driving must convince regulators before it convinces the market.",
-          "doudouQuote": "Cars may drive themselves, but data cannot judge itself.",
-          "footerTakeaway": "Approval depends on credible and reviewable evidence as much as technical capability.",
-          "headlineFull": "A Reuters investigation says Tesla submitted disputed FSD safety data to European regulators; autonomous driving must first win trust in its data."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000061",
-          "topicId": "20000000-0000-4000-8000-000000000006",
-          "title": "Tesla presented misleading Full Self-Driving safety data to European regulators",
-          "publisher": "Electrek, citing Reuters",
-          "url": "https://electrek.co/2026/06/15/tesla-fsd-misleading-safety-data-european-regulators/",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000007",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "global-health-readiness",
-      "rank": 7,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "UA",
-        "RU",
-        "FR"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "zelenskiy_putin_g7_meeting_offer_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "俄乌局势",
-          "headlineFact": "泽连斯基称曾提议在 G7 期间会见普京，俄方未予接受",
-          "headlineView": "和平窗口不缺提议，缺的是双方都愿意走进去",
-          "intro": "乌克兰总统泽连斯基表示，他曾提议在法国 G7 峰会期间与俄罗斯总统普京会面，并获得美国与法国方面支持，但俄方没有表现出会谈意愿。与此同时，乌克兰继续寻求防空系统和国际援助，说明外交接触与战场压力仍在同步推进。",
-          "xiaziQuote": "真正难的不是开口，而是双方都愿意坐下。",
-          "doudouQuote": "会面的门没锁，问题是谁肯一起推开。",
-          "footerTakeaway": "外交提议存在，但互信与实质行动仍是和平进程的门槛。",
-          "headlineFull": "泽连斯基称曾提议在 G7 期间会见普京，俄方未予接受；和平窗口不缺提议，缺的是双方都愿意走进去。"
-        },
-        "en-US": {
-          "categoryLabel": "Russia-Ukraine",
-          "headlineFact": "Zelensky says he proposed meeting Putin during the G7, but Russia did not accept",
-          "headlineView": "peace windows lack two sides willing to walk through",
-          "intro": "Ukrainian President Volodymyr Zelensky said he proposed meeting Vladimir Putin during the G7 summit in France, with support from the United States and France, but Russia showed no willingness to talk. Ukraine is also seeking more air defenses and international aid as diplomacy and battlefield pressure continue in parallel.",
-          "xiaziQuote": "The hardest part is not opening the conversation. It is getting both sides to sit down.",
-          "doudouQuote": "The door to talks is not locked. The question is who will push it together.",
-          "footerTakeaway": "A proposal exists, but trust and substantive follow-through remain the real barriers.",
-          "headlineFull": "Zelensky says he proposed meeting Putin during the G7, but Russia did not accept; peace windows lack two sides willing to walk through."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000071",
-          "topicId": "20000000-0000-4000-8000-000000000007",
-          "title": "Ukraine's Zelenskiy says he offered to meet Putin at G7",
-          "publisher": "Reuters via Internazionale",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/15/ukraine-s-zelenskiy-says-he-offered-to-meet-putin-at-g7",
-          "publishedAt": "2026-06-15T00:00:00Z",
+          "topicId": "20000000-0000-4000-8000-000000000018",
+          "title": "Yum Brands to sell Pizza Hut for $2.7 billion",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/yum-brands-sell-pizza-hut-27-billion-2026-06-17/",
+          "publishedAt": "2026-06-17T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000008",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "ocean-treaty-action",
-      "rank": 8,
-      "category": "business",
-      "region": "Hong Kong",
-      "countryCodes": [
-        "HK",
-        "CN"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 86,
-      "storyId": "hong_kong_first_five_year_plan_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "香港与经济治理",
-          "headlineFact": "香港启动首份五年规划公众咨询",
-          "headlineView": "自由市场城市正在引入更强的长期发展坐标",
-          "intro": "香港启动为期两个月的首份五年发展规划公众咨询，内容将衔接国家“十五五”规划，并涵盖金融、贸易、航运、北部都会区和大湾区融合等方向。它既希望为企业和个人提供更稳定的长期预期，也引发市场对政府规划与自由市场边界的讨论。",
-          "xiaziQuote": "短期繁看活力，长期竞争看方向。",
-          "doudouQuote": "市场讲效率，规划讲定力，两者未必冲突。",
-          "footerTakeaway": "香港正尝试在市场效率与长期发展坐标之间建立新平衡。",
-          "headlineFull": "香港启动首份五年规划公众咨询；自由市场城市正在引入更强的长期发展坐标。"
-        },
-        "en-US": {
-          "categoryLabel": "Hong Kong & Economic Governance",
-          "headlineFact": "Hong Kong launches public consultation on its first five-year plan",
-          "headlineView": "a free-market city is introducing a stronger long-term development compass",
-          "intro": "Hong Kong opened a two-month public consultation on its first five-year development plan, aligning with China's 15th Five-Year Plan and covering finance, trade, shipping, the Northern Metropolis and Greater Bay Area integration. The move seeks greater long-term certainty while reopening debate about planning and free markets.",
-          "xiaziQuote": "In the short term, prosperity shows vitality. In the long term, competitiveness needs direction.",
-          "doudouQuote": "Markets speak of efficiency, planning speaks of focus. The two do not have to clash.",
-          "footerTakeaway": "Hong Kong is testing a new balance between market efficiency and long-term direction.",
-          "headlineFull": "Hong Kong launches public consultation on its first five-year plan; a free-market city is introducing a stronger long-term development compass."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000081",
-          "topicId": "20000000-0000-4000-8000-000000000008",
-          "title": "Hong Kong opens consultation on first 5-year plan",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/b978eafd937901d62d849207dc7c148e",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000009",
-      "issueId": "10000000-0000-4000-8000-000000000003",
-      "slug": "climate-adaptation-city",
-      "rank": 9,
-      "category": "technology",
-      "region": "North America",
-      "countryCodes": [
-        "US",
-        "CA",
-        "CN"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "google_unc6508_research_intrusions_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "网络安全",
-          "headlineFact": "Google 称中国关联黑客长期渗透美加研究机构",
-          "headlineView": "科研竞争的前线，已经延伸到邮箱、数据库与登录凭证",
-          "intro": "Google 威胁情报团队称，一个被其编号为 UNC6508 的中国关联黑客组织，曾持续一年多入侵美国和加拿大的医学、学术及军事研究机构，目标涉及 AI、无人系统、公共卫生和印太军事战略。研究成果越有价值，围绕数据和人才的暗战就越激烈。",
-          "xiaziQuote": "知识越值钱，围绕它的暗战就越激烈。",
-          "doudouQuote": "实验室看起来安静，数据世界可一点都不安静。",
-          "footerTakeaway": "高价值科研机构必须把身份、邮件和数据库视为同一条安全防线。",
-          "headlineFull": "Google 称中国关联黑客长期渗透美加研究机构；科研竞争的前线，已经延伸到邮箱、数据库与登录凭证。"
-        },
-        "en-US": {
-          "categoryLabel": "Cybersecurity",
-          "headlineFact": "Google says Chinese-linked hackers infiltrated U.S. and Canadian research institutions",
-          "headlineView": "the front line now extends to inboxes, databases and login credentials",
-          "intro": "Google says UNC6508, a China-linked threat actor, spent more than a year inside U.S. and Canadian medical, academic and military research institutions. The collection targeted AI, uncrewed systems, public health and Indo-Pacific military strategy through compromised applications, credentials and email rules.",
-          "xiaziQuote": "The more valuable knowledge becomes, the fiercer the hidden war around it.",
-          "doudouQuote": "Labs may look quiet, but their data worlds are anything but.",
-          "footerTakeaway": "Research security now requires one defensive line across identity, email and databases.",
-          "headlineFull": "Google says Chinese-linked hackers infiltrated U.S. and Canadian research institutions; the front line now extends to inboxes, databases and login credentials."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000091",
-          "topicId": "20000000-0000-4000-8000-000000000009",
-          "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor",
-          "publisher": "Google Threat Intelligence Group",
-          "url": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "30000000-0000-4000-8000-000000000092",
-          "topicId": "20000000-0000-4000-8000-000000000009",
-          "title": "Chinese-linked hackers targeted U.S., Canadian research facilities",
-          "publisher": "Reuters via Internazionale",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/15/chinese-linked-hackers-targeted-u-s-canadian-research-facilities-for-a-year-google-says",
-          "publishedAt": "2026-06-15T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
         }
       ]
     }

@@ -8,6 +8,15 @@ const posterNames: Record<string, string> = {
   "culture-restoration-digital": "cultural-heritage",
   "energy-transition-grid": "clean-energy",
   "ocean-treaty-action": "high-seas",
+  "world-cup-iran-new-zealand": "world-cup-iran-new-zealand",
+  "spacex-acquires-anysphere": "spacex-acquires-anysphere",
+  "boj-rate-hike": "boj-rate-hike",
+  "china-retail-sales-decline": "china-retail-sales-decline",
+  "eu-us-trade-agreement": "eu-us-trade-agreement",
+  "g7-russia-sanctions": "g7-russia-sanctions",
+  "us-iran-peace-signing": "us-iran-peace-signing",
+  "softbank-openai-cybersecurity": "softbank-openai-cybersecurity",
+  "yum-sells-pizza-hut": "yum-sells-pizza-hut",
 };
 
 export const DEFAULT_POSTER_ASSET = "/posters/default-poster.jpg";
