@@ -19,7 +19,7 @@ const posterNames: Record<string, string> = {
   "yum-sells-pizza-hut": "yum-sells-pizza-hut",
 };
 
-export const DEFAULT_POSTER_ASSET = "/posters/default-poster.jpg";
+export const DEFAULT_POSTER_ASSET = "./posters/default-poster.jpg";
 
 export function getCosAsset(path: string) {
   const baseUrl = process.env.NEXT_PUBLIC_COS_BASE_URL?.replace(/\/$/, "");
@@ -50,8 +50,8 @@ export function getPosterAsset(
   const baseUrl = process.env.NEXT_PUBLIC_COS_BASE_URL?.replace(/\/$/, "");
   const extension = variant === "thumbnail" ? "webp" : "png";
   const path = variant === "thumbnail"
-    ? `/posters/thumb/${locale}/${name}.${extension}`
-    : `/posters/${locale}/${name}.${extension}`;
+    ? `./posters/thumb/${locale}/${name}.${extension}`
+    : `./posters/${locale}/${name}.${extension}`;
   const query = new URLSearchParams();
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
   const suffix = query.size ? `?${query.toString()}` : "";

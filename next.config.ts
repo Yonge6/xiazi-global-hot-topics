@@ -12,8 +12,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   output: isGitHubPages ? "export" : undefined,
-  basePath: isGitHubPages ? "/xiazi-global-hot-topics" : "",
-  assetPrefix: isGitHubPages ? "/xiazi-global-hot-topics" : "",
+  basePath: isGitHubPages ? "/vilesaint" : "",
+  assetPrefix: isGitHubPages ? "/vilesaint" : "",
   async headers() {
     return [
       {
