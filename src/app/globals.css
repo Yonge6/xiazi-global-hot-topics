@@ -110,6 +110,70 @@ button { color: inherit; font: inherit; }
   letter-spacing: 0.08em;
 }
 .language-switcher .active { color: var(--vermilion); font-weight: 700; }
+.mobile-menu {
+  display: none;
+}
+.mobile-menu summary {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+  cursor: pointer;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1;
+}
+.mobile-menu summary::-webkit-details-marker {
+  display: none;
+}
+.mobile-menu summary::marker {
+  content: "";
+}
+.mobile-menu summary span {
+  color: var(--vermilion);
+  font-size: 10px;
+  transform: translateY(-1px);
+}
+.mobile-menu-panel {
+  position: absolute;
+  top: calc(100% + 1px);
+  right: max(18px, calc((100vw - min(1480px, calc(100vw - 48px))) / 2));
+  display: grid;
+  width: min(220px, calc(100vw - 36px));
+  overflow: hidden;
+  border: 1px solid rgba(16, 20, 24, .14);
+  background: rgba(251, 250, 247, .98);
+  box-shadow: 0 18px 42px rgba(16, 20, 24, .14);
+}
+.mobile-menu-panel a {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(16, 20, 24, .08);
+  padding: 0 16px;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1;
+}
+.mobile-menu-panel a:last-child {
+  border-bottom: 0;
+}
+.mobile-menu-panel a::after {
+  color: var(--gold);
+  content: "↗";
+  font-family: Georgia, serif;
+  font-size: 12px;
+}
+.mobile-menu-panel a[href^="#"]::after {
+  content: "↓";
+}
+.mobile-menu-panel a:hover {
+  background: rgba(185, 52, 39, .06);
+  color: var(--vermilion);
+}
 
 .issue-masthead {
   position: relative;
@@ -660,6 +724,8 @@ button { color: inherit; font: inherit; }
   .brand-copy small { font-size: 7px; }
   .header-right { gap: 16px; }
   .header-right nav { display: none; }
+  .mobile-menu { display: block; }
+  .mobile-menu-panel { right: 18px; }
   .issue-masthead {
     min-height: 360px;
     grid-template-columns: 1fr 1fr;
