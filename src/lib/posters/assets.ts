@@ -9,6 +9,7 @@ export const POSTER_ASSET_NAMES = [
   "clean-energy",
   "high-seas",
   "world-cup-iran-new-zealand",
+  "world-cup-france-senegal",
   "spacex-acquires-anysphere",
   "boj-rate-hike",
   "china-retail-sales-decline",

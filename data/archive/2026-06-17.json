@@ -1,7 +1,7 @@
 {
   "id": "10000000-0000-4000-8000-000000000004",
   "slug": "2026-06-17",
-  "assetVersion": "2026-06-17-world-cup-iran-new-zealand-1781782800000",
+  "assetVersion": "2026-06-17-world-cup-france-senegal-1781786400000",
   "issueDate": "2026-06-17",
   "slotHour": 0,
   "beijingTimestamp": "2026-06-17T00:05:00+08:00",
@@ -12,51 +12,63 @@
     {
       "id": "20000000-0000-4000-8000-000000000010",
       "issueId": "10000000-0000-4000-8000-000000000004",
-      "slug": "world-cup-iran-new-zealand",
+      "slug": "world-cup-france-senegal",
       "rank": 1,
       "category": "sports",
       "region": "North America",
       "countryCodes": [
+        "FR",
+        "SN",
         "IR",
         "NZ",
         "SA",
-        "UY",
-        "FR",
-        "SN"
+        "UY"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "world_cup_iran_new_zealand_2026",
+      "scoreTotal": 98,
+      "storyId": "world_cup_france_senegal_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "伊朗两度落后仍以2:2逼平新西兰",
-          "headlineView": "真正的韧性，不是不犯错，而是每次落后都还能追回来",
-          "headlineFull": "伊朗两度落后仍以2:2逼平新西兰；真正的韧性，不是不犯错，而是每次落后都还能追回来。",
-          "intro": "伊朗与新西兰在洛杉矶踢出2:2，新西兰球员Elijah Just梅开二度，伊朗则两度追平。至此G组四队首轮全部收获1分。同期另一场比赛中，沙特与乌拉圭1:1战平；本统计窗口最后一场焦点战，将是法国与塞内加尔时隔24年的世界杯重逢。",
-          "xiaziQuote": "落后不可怕，失去回应能力才可怕。",
-          "doudouQuote": "两次领先都没带走胜利，历史差一点就写到最后一页。",
-          "footerTakeaway": "伊朗两度落后两度扳平，展现极强韧性；新西兰Just梅开二度却未能锁定胜局；沙特与乌拉圭各取1分，G组首轮四队平分。"
+          "headlineFact": "法国3:1力克塞内加尔",
+          "headlineView": "真正的强队，不只是赢下比赛，更能在关键时刻把握机会",
+          "headlineFull": "法国3:1力克塞内加尔；真正的强队，不只是赢下比赛，更能在关键时刻把握机会。",
+          "intro": "在本次统计窗口内，法国在世界杯小组赛首战3:1击败塞内加尔。上半场双方拉扯激烈，法国在下半场凭借姆巴佩梅开二度、巴尔科拉破门锁定胜局。其他场次中，伊朗2:2两度追平新西兰，沙特1:1战平乌拉圭。",
+          "xiaziQuote": "强队不怕开局慢，怕的是机会来了还抓不住。",
+          "doudouQuote": "姆巴佩一发力，比赛就从拉扯变成定调啦！",
+          "footerTakeaway": "法国3:1击败塞内加尔，姆巴佩双响成为头条；同窗口伊朗2:2新西兰、沙特1:1乌拉圭，世界杯首轮继续铺开。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Iran come back twice to draw 2:2 with New Zealand",
-          "headlineView": "real resilience is not about avoiding mistakes, but about chasing back every time you fall behind",
-          "headlineFull": "Iran come back twice to draw 2:2 with New Zealand; real resilience is not about avoiding mistakes, but about chasing back every time you fall behind.",
-          "intro": "Iran and New Zealand played out a 2:2 draw in Los Angeles, with New Zealand's Elijah Just scoring twice and Iran equalizing both times. All four teams in Group G now have one point after the first round. In the other match, Saudi Arabia drew 1:1 with Uruguay; the final highlight of this window will be France vs Senegal, a World Cup reunion after 24 years.",
-          "xiaziQuote": "Falling behind is not scary; losing the ability to respond is.",
-          "doudouQuote": "Two leads, no win. History almost turned the page.",
-          "footerTakeaway": "Iran showed remarkable resilience by equalizing twice; New Zealand's Just scored a brace but could not seal victory; Saudi Arabia and Uruguay shared a point."
+          "headlineFact": "France beat Senegal 3:1",
+          "headlineView": "a true top team does not just win, it takes its chances when the moment arrives",
+          "headlineFull": "France beat Senegal 3:1; a true top team does not just win, it takes its chances when the moment arrives.",
+          "intro": "In this Beijing-time reporting window, France opened their World Cup campaign with a 3:1 win over Senegal. After a tense first half, France broke through after the interval, with Kylian Mbappe scoring twice and Bradley Barcola adding another. Elsewhere, Iran twice came from behind to draw 2:2 with New Zealand, while Saudi Arabia and Uruguay shared a 1:1 draw.",
+          "xiaziQuote": "Strong teams are not afraid of a slow start; the real danger is failing to take the chance when it comes.",
+          "doudouQuote": "Once Mbappe switched on, the game stopped being a tug-of-war and became a statement.",
+          "footerTakeaway": "France made the headline result with a 3:1 win over Senegal; Iran drew 2:2 with New Zealand and Saudi Arabia drew 1:1 with Uruguay in the same window."
         }
       },
       "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000041",
+          "topicId": "20000000-0000-4000-8000-000000000010",
+          "title": "Argentina, France and Norway hit high notes",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/matchday-six-round-up-review-highlights",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000042",
           "topicId": "20000000-0000-4000-8000-000000000010",
           "title": "Iran fight back twice to draw 2-2 with New Zealand at World Cup",
           "publisher": "Reuters",
@@ -65,10 +77,10 @@
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
-          "isPrimary": true
+          "isPrimary": false
         },
         {
-          "id": "30000000-0000-4000-8000-000000000042",
+          "id": "30000000-0000-4000-8000-000000000043",
           "topicId": "20000000-0000-4000-8000-000000000010",
           "title": "Saudi Arabia and Uruguay play out 1-1 draw in World Cup Group G",
           "publisher": "Reuters",
