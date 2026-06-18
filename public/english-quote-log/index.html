@@ -1,0 +1,3303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5 小时英语句子记录</title>
+  <style>
+    :root {
+      --paper: #f7f1e6;
+      --paper-strong: #fffaf0;
+      --ink: #151515;
+      --muted: #6b6257;
+      --line: rgba(21, 21, 21, 0.16);
+      --green: #2f6d55;
+      --green-dark: #194836;
+      --red: #c85745;
+      --yellow: #efc35a;
+      --blue: #2c5f8a;
+      --shadow: 5px 5px 0 var(--ink);
+      --radius: 8px;
+      --sans: "Avenir Next", "PingFang SC", "Microsoft YaHei", sans-serif;
+      --serif: Georgia, "Times New Roman", serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--sans);
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(21,21,21,0.045) 1px, transparent 1px),
+        linear-gradient(rgba(21,21,21,0.04) 1px, transparent 1px),
+        var(--paper);
+      background-size: 26px 26px;
+      letter-spacing: 0;
+    }
+
+    button, input, textarea, select {
+      font: inherit;
+      letter-spacing: 0;
+    }
+
+    .wrap {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 14px 0 38px;
+    }
+
+    .top {
+      display: grid;
+      gap: 10px;
+    }
+
+    .wrap > * + * {
+      margin-top: 14px;
+    }
+
+    .hero,
+    .random-panel,
+    .manage-panel,
+    .record,
+    dialog {
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 240, 0.9);
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 14px;
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: start;
+      gap: 12px;
+    }
+
+    .hero:after {
+      content: "";
+      position: absolute;
+      right: -34px;
+      bottom: -38px;
+      width: 180px;
+      height: 140px;
+      background:
+        linear-gradient(135deg, transparent 42%, rgba(47,109,85,0.2) 42% 52%, transparent 52%),
+        linear-gradient(45deg, transparent 40%, rgba(200,87,69,0.18) 40% 50%, transparent 50%);
+      transform: rotate(-8deg);
+      opacity: 0.45;
+    }
+
+    h1 {
+      margin: 12px 0 0;
+      max-width: 760px;
+      font-family: var(--serif);
+      font-size: clamp(26px, 3.5vw, 40px);
+      line-height: 1.06;
+      font-weight: 700;
+    }
+
+    .hero p {
+      margin: 10px 0 0;
+      max-width: 640px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+      position: relative;
+      z-index: 1;
+    }
+
+    .manage-panel {
+      padding: 10px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .stat {
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      background: white;
+      padding: 9px 10px;
+      min-height: 58px;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .stat strong {
+      display: block;
+      margin-top: 6px;
+      font-family: var(--serif);
+      font-size: 23px;
+      line-height: 1;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .hero-controls {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .top-action {
+      min-height: 50px;
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      color: var(--ink);
+      box-shadow: 4px 4px 0 var(--ink);
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    }
+
+    .top-action:hover {
+      transform: translate(1px, 1px);
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+
+    .top-action:active {
+      transform: translate(4px, 4px);
+      box-shadow: 0 0 0 var(--ink);
+    }
+
+    .practice-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--yellow);
+      text-decoration: none;
+      padding: 0 16px;
+      font-size: 15px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .voice-control {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      padding: 6px 8px;
+    }
+
+    .voice-icon {
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      background: var(--yellow);
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    .voice-control select {
+      width: min(210px, 42vw);
+      min-height: 34px;
+      padding: 5px 26px 5px 8px;
+      border-width: 0;
+      border-radius: 0;
+      background: transparent;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .btn,
+    .icon-btn {
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      background: white;
+      color: var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      cursor: pointer;
+      transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease;
+    }
+
+    .btn {
+      min-height: 38px;
+      padding: 0 12px;
+      font-weight: 900;
+    }
+
+    .btn.primary {
+      background: var(--green);
+      color: white;
+    }
+
+    .btn.warn {
+      background: var(--red);
+      color: white;
+    }
+
+    .btn:hover,
+    .icon-btn:hover {
+      transform: translate(1px, 1px);
+      box-shadow: 2px 2px 0 var(--ink);
+    }
+
+    .btn:active,
+    .icon-btn:active {
+      transform: translate(3px, 3px);
+      box-shadow: 0 0 0 var(--ink);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 14px 0 10px;
+    }
+
+    .section-head.compact {
+      margin-top: 10px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .records {
+      display: grid;
+      gap: 14px;
+    }
+
+    .random-panel {
+      padding: 14px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      background:
+        linear-gradient(90deg, rgba(239,195,90,0.24), transparent 36%),
+        rgba(255, 250, 240, 0.9);
+    }
+
+    .random-main {
+      min-height: 128px;
+      display: grid;
+      align-content: center;
+    }
+
+    .random-label {
+      width: fit-content;
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      background: var(--yellow);
+      padding: 4px 9px;
+      font-size: 12px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .random-english {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(20px, 3vw, 30px);
+      line-height: 1.25;
+    }
+
+    .random-chinese {
+      margin: 8px 0 0;
+      color: var(--green-dark);
+      font-size: 15px;
+      line-height: 1.55;
+      font-weight: 800;
+    }
+
+    .random-source {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .random-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .random-panel.is-shuffling .random-main {
+      animation: smoothPick 640ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    .random-panel.is-shuffling #randomPickBtn {
+      background: var(--yellow);
+      transform: translate(1px, 1px);
+      box-shadow: 2px 2px 0 var(--ink);
+    }
+
+    @keyframes smoothPick {
+      0% { opacity: 1; transform: translateY(0); filter: blur(0); }
+      24% { opacity: 0; transform: translateY(10px); filter: blur(4px); }
+      44% { opacity: 0; transform: translateY(-10px); filter: blur(4px); }
+      100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+    }
+
+    .record {
+      overflow: hidden;
+    }
+
+    .record-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 16px;
+      border-bottom: 2px solid var(--ink);
+      background: var(--green);
+      color: white;
+    }
+
+    .record-time {
+      font-weight: 900;
+    }
+
+    .record-count {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 9px;
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      background: var(--yellow);
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .quote-list {
+      display: grid;
+      gap: 0;
+    }
+
+    .quote {
+      display: grid;
+      grid-template-columns: 50px minmax(0, 1fr);
+      gap: 12px;
+      padding: 16px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.55);
+    }
+
+    .quote-actions {
+      display: grid;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .quote:last-child { border-bottom: 0; }
+
+    .icon-btn {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      font-size: 18px;
+      line-height: 1;
+      background: var(--yellow);
+    }
+
+    .icon-btn.stop {
+      background: var(--red);
+      color: white;
+    }
+
+    .english {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(18px, 2.2vw, 24px);
+      line-height: 1.36;
+    }
+
+    .translation {
+      margin: 8px 0 0;
+      color: var(--green-dark);
+      font-size: 15px;
+      line-height: 1.7;
+      font-weight: 700;
+    }
+
+    .source {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .empty {
+      display: none;
+      border: 2px dashed var(--ink);
+      border-radius: var(--radius);
+      padding: 26px;
+      background: rgba(255,250,240,0.75);
+      color: var(--muted);
+      text-align: center;
+      font-weight: 800;
+    }
+
+    .site-footer {
+      margin-top: 26px;
+      border-top: 2px solid var(--ink);
+      padding: 18px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .footer-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .site-footer a {
+      color: var(--ink);
+      font-weight: 900;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    dialog {
+      width: min(760px, calc(100% - 24px));
+      padding: 0;
+    }
+
+    #shareDialog {
+      width: min(560px, calc(100% - 24px));
+    }
+
+    dialog::backdrop {
+      background: rgba(21,21,21,0.45);
+      backdrop-filter: blur(4px);
+    }
+
+    .dialog-head {
+      padding: 16px 18px;
+      border-bottom: 2px solid var(--ink);
+      background: var(--blue);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .dialog-head h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    form {
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+    }
+
+    label {
+      display: grid;
+      gap: 7px;
+      font-weight: 900;
+      font-size: 13px;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      background: white;
+      color: var(--ink);
+      padding: 10px 12px;
+      resize: vertical;
+    }
+
+    textarea {
+      min-height: 78px;
+      line-height: 1.55;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .form-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding-top: 4px;
+    }
+
+    .share-body {
+      padding: 18px;
+      background: var(--paper);
+    }
+
+    .share-card {
+      min-height: 620px;
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(145deg, rgba(239,195,90,0.26), transparent 35%),
+        linear-gradient(315deg, rgba(47,109,85,0.18), transparent 38%),
+        var(--paper-strong);
+      box-shadow: 7px 7px 0 var(--ink);
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 26px;
+    }
+
+    .share-card .share-kicker {
+      display: inline-flex;
+      width: fit-content;
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      background: var(--yellow);
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .share-english {
+      margin: 18px 0 0;
+      font-family: var(--serif);
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.16;
+    }
+
+    .share-chinese {
+      margin: 18px 0 0;
+      color: var(--green-dark);
+      font-size: 18px;
+      line-height: 1.6;
+      font-weight: 800;
+    }
+
+    .share-source {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .share-bottom {
+      display: flex;
+      justify-content: flex-end;
+      align-items: end;
+      gap: 18px;
+      border-top: 2px solid var(--ink);
+      padding-top: 18px;
+    }
+
+    .share-qr {
+      width: 56px;
+      height: 56px;
+      border: 2px solid var(--ink);
+      border-radius: 4px;
+      background: white;
+      padding: 3px;
+      flex: 0 0 auto;
+    }
+
+    .share-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .analytics-body {
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+      background: var(--paper);
+    }
+
+    .analytics-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .metric {
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      background: white;
+      padding: 12px;
+      min-height: 86px;
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .metric strong {
+      display: block;
+      margin-top: 8px;
+      font-family: var(--serif);
+      font-size: 30px;
+      line-height: 1;
+    }
+
+    .analytics-list {
+      border: 2px solid var(--ink);
+      border-radius: var(--radius);
+      background: white;
+      overflow: hidden;
+    }
+
+    .analytics-row {
+      display: grid;
+      grid-template-columns: 110px minmax(0, 1fr);
+      gap: 10px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .analytics-row:last-child {
+      border-bottom: 0;
+    }
+
+    .analytics-row strong {
+      font-weight: 900;
+    }
+
+    .analytics-row span {
+      color: var(--muted);
+    }
+
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 820px) {
+      .hero,
+      .random-panel,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-controls {
+        align-items: stretch;
+      }
+
+      .random-actions {
+        justify-content: flex-start;
+      }
+
+      .hero:after {
+        opacity: 0.45;
+      }
+
+      .section-head {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .section-head p {
+        text-align: left;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .quote {
+        grid-template-columns: 42px minmax(0, 1fr);
+        padding: 14px;
+      }
+
+      .icon-btn {
+        width: 38px;
+        height: 38px;
+      }
+
+      .record-head {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .voice-control {
+        min-width: 0;
+      }
+
+      .voice-control select {
+        width: min(168px, 43vw);
+      }
+
+      .share-card {
+        min-height: 560px;
+        padding: 22px;
+      }
+
+      .analytics-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .analytics-row {
+        grid-template-columns: 1fr;
+      }
+
+      .share-bottom {
+        align-items: end;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="top" aria-label="页面概览">
+      <div class="hero">
+        <div class="hero-controls">
+          <a class="top-action practice-link" href="https://docs.qq.com/aio/DZHZOWWJHT1F5RGFV" target="_blank" rel="noopener">AI驱动英语听说</a>
+          <div class="top-action voice-control" title="选择英文朗读声音">
+            <span class="voice-icon" aria-hidden="true">♪</span>
+            <label class="sr-only" for="voiceSelect">音色选择</label>
+            <select id="voiceSelect" aria-label="音色选择">
+              <option value="">音色选择</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <h1>三句英语，随时听读。</h1>
+          <p>按时间记录中英对照句子，重点放在听读、复习和分享。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="random-panel" id="randomPanel" aria-label="随机练习一句">
+      <div class="random-main" id="randomQuoteCard">
+        <div class="random-label">随机练一句</div>
+        <p class="random-english" id="randomEnglish"></p>
+        <p class="random-chinese" id="randomChinese"></p>
+        <p class="random-source" id="randomSource"></p>
+      </div>
+      <div class="random-actions">
+        <button class="btn primary" id="randomPickBtn" type="button">随机选择</button>
+        <button class="icon-btn" id="randomPlayBtn" type="button" title="朗读随机句子" aria-label="朗读随机句子">▶</button>
+        <button class="icon-btn" id="randomShareBtn" type="button" title="生成随机句子分享图片" aria-label="生成随机句子分享图片">↗</button>
+      </div>
+    </section>
+
+    <section class="records" id="records" aria-live="polite"></section>
+    <div class="empty" id="emptyState">还没有记录。点击“新增记录”添加第一组三句话。</div>
+    <section class="manage-panel" aria-label="记录管理">
+      <div class="toolbar">
+        <button class="btn primary" id="addRecordBtn" type="button">新增记录</button>
+        <button class="btn" id="exportBtn" type="button">导出</button>
+        <button class="btn" id="importBtn" type="button">导入</button>
+        <button class="btn warn" id="resetBtn" type="button">重置</button>
+        <input class="sr-only" id="importFile" type="file" accept="application/json">
+      </div>
+    </section>
+    <footer class="site-footer">
+      <span>English Quote Log</span>
+      <div class="footer-actions">
+        <button class="btn" id="analyticsBtn" type="button">数据</button>
+        <a href="https://yonge6.github.io/Elian" target="_blank" rel="noopener">Elian Design</a>
+      </div>
+    </footer>
+  </main>
+
+  <dialog id="recordDialog">
+    <div class="dialog-head">
+      <h3>新增三句话</h3>
+      <button class="icon-btn stop" id="closeDialogBtn" type="button" title="关闭" aria-label="关闭">×</button>
+    </div>
+    <form id="recordForm">
+      <label>
+        记录时间
+        <input id="recordTime" type="datetime-local" required>
+      </label>
+      <div class="form-grid">
+        <label>
+          英文 1
+          <textarea id="english1" required></textarea>
+        </label>
+        <label>
+          中文 1
+          <textarea id="chinese1" required></textarea>
+        </label>
+        <label>
+          来源 1
+          <textarea id="source1" required></textarea>
+        </label>
+      </div>
+      <div class="form-grid">
+        <label>
+          英文 2
+          <textarea id="english2" required></textarea>
+        </label>
+        <label>
+          中文 2
+          <textarea id="chinese2" required></textarea>
+        </label>
+        <label>
+          来源 2
+          <textarea id="source2" required></textarea>
+        </label>
+      </div>
+      <div class="form-grid">
+        <label>
+          英文 3
+          <textarea id="english3" required></textarea>
+        </label>
+        <label>
+          中文 3
+          <textarea id="chinese3" required></textarea>
+        </label>
+        <label>
+          来源 3
+          <textarea id="source3" required></textarea>
+        </label>
+      </div>
+      <div class="form-actions">
+        <button class="btn" type="button" id="cancelBtn">取消</button>
+        <button class="btn primary" type="submit">保存记录</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="shareDialog">
+    <div class="dialog-head">
+      <h3>分享图片</h3>
+      <button class="icon-btn stop" id="closeShareBtn" type="button" title="关闭" aria-label="关闭">×</button>
+    </div>
+    <div class="share-body">
+      <div class="share-card" id="shareCard">
+        <div>
+          <div class="share-kicker">English Quote Log</div>
+          <p class="share-english" id="shareEnglish"></p>
+          <p class="share-chinese" id="shareChinese"></p>
+          <p class="share-source" id="shareSource"></p>
+        </div>
+        <div class="share-bottom">
+          <img class="share-qr" id="shareQr" alt="网页链接二维码">
+        </div>
+      </div>
+      <div class="share-actions">
+        <button class="btn primary" id="saveShareImageBtn" type="button">保存图片</button>
+        <button class="btn primary" id="copyQuoteBtn" type="button">复制句子</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="analyticsDialog">
+    <div class="dialog-head">
+      <h3>使用数据</h3>
+      <button class="icon-btn stop" id="closeAnalyticsBtn" type="button" title="关闭" aria-label="关闭">×</button>
+    </div>
+    <div class="analytics-body">
+      <div class="analytics-grid" id="analyticsGrid"></div>
+      <div class="analytics-list" id="analyticsList"></div>
+    </div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+  <script>
+    const STORAGE_KEY = "english-quote-log-v1";
+    const VOICE_KEY = "english-quote-log-voice-v1";
+    const ANALYTICS_KEY = "english-quote-log-analytics-v1";
+    const VISITOR_KEY = "english-quote-log-visitor-v1";
+    const SESSION_KEY = "english-quote-log-session-v1";
+    const GLOBAL_USER_COUNTED_KEY = "english-quote-log-global-user-counted-v1";
+    const GLOBAL_USER_NUMBER_KEY = "english-quote-log-global-user-number-v1";
+    const GLOBAL_ANALYTICS = {
+      enabled: true,
+      baseUrl: "https://api.counterapi.dev/v1",
+      namespace: "elian-english-quote-log"
+    };
+    const PAGE_URL = "https://pluto.hk/english-quote-log/";
+    const analyticsLabels = {
+      visit: "访问",
+      play: "朗读",
+      random: "随机选择",
+      share: "生成分享",
+      save: "保存图片",
+      copy: "复制句子",
+      add: "新增记录",
+      export: "导出",
+      import: "导入",
+      reset: "重置",
+      voice: "切换音色"
+    };
+    const preferredVoiceProfiles = [
+      { match: ["microsoft ava", "ava online", "ava"], gender: "女声", accent: "美式", rank: 1 },
+      { match: ["microsoft jenny", "jenny online", "jenny"], gender: "女声", accent: "美式", rank: 2 },
+      { match: ["microsoft aria", "aria online", "aria"], gender: "女声", accent: "美式", rank: 3 },
+      { match: ["microsoft guy", "guy online", "guy"], gender: "男声", accent: "美式", rank: 4 },
+      { match: ["microsoft davis", "davis online", "davis"], gender: "男声", accent: "美式", rank: 5 },
+      { match: ["microsoft ryan", "ryan online", "ryan"], gender: "男声", accent: "英式", rank: 6 },
+      { match: ["microsoft sonia", "sonia online", "sonia"], gender: "女声", accent: "英式", rank: 7 },
+      { match: ["samantha"], gender: "女声", accent: "美式", rank: 8 },
+      { match: ["alex"], gender: "男声", accent: "美式", rank: 9 },
+      { match: ["allison"], gender: "女声", accent: "美式", rank: 10 },
+      { match: ["google us english"], gender: "女声", accent: "美式", rank: 11 },
+      { match: ["daniel"], gender: "男声", accent: "英式", rank: 12 },
+      { match: ["karen", "moira", "susan", "victoria", "zira"], gender: "女声", accent: "英语", rank: 13 }
+    ];
+
+    const seedRecords = [
+      {
+        "id": "scheduled-2026-06-18-1000",
+        "time": "2026-06-18T10:00:04+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-18-0500",
+        "time": "2026-06-18T05:00:04+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-17-2000",
+        "time": "2026-06-17T20:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-17-1500",
+        "time": "2026-06-17T15:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-17-1000",
+        "time": "2026-06-17T10:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-17-0500",
+        "time": "2026-06-17T05:00:04+08:00",
+        "quotes": [
+          {
+            "english": "Whether you think you can, or you think you can't, you're right.",
+            "chinese": "无论你认为自己能，还是认为自己不能，你都是对的。",
+            "source": "Commonly attributed to Henry Ford"
+          },
+          {
+            "english": "No one can make you feel inferior without your consent.",
+            "chinese": "没有你的允许，没人能让你感到自卑。",
+            "source": "Eleanor Roosevelt"
+          },
+          {
+            "english": "There is no place like home.",
+            "chinese": "没有任何地方比得上家。",
+            "source": "Dorothy Gale, The Wizard of Oz"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-16-2000",
+        "time": "2026-06-16T20:00:00+08:00",
+        "quotes": [
+          {
+            "english": "A person who never made a mistake never tried anything new.",
+            "chinese": "一个从不犯错的人，也从未尝试过任何新事物。",
+            "source": "Albert Einstein"
+          },
+          {
+            "english": "Don't let yesterday take up too much of today.",
+            "chinese": "不要让昨天占据今天太多的时间。",
+            "source": "Will Rogers"
+          },
+          {
+            "english": "The flower that blooms in adversity is the most rare and beautiful of all.",
+            "chinese": "在逆境中绽放的花，是最稀有也最美丽的花。",
+            "source": "The Emperor, Mulan"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-16-1500",
+        "time": "2026-06-16T15:00:05+08:00",
+        "quotes": [
+          {
+            "english": "You must be the change you wish to see in the world.",
+            "chinese": "你必须成为你希望在世界上看到的改变。",
+            "source": "Commonly attributed to Mahatma Gandhi"
+          },
+          {
+            "english": "It always seems impossible until it is done.",
+            "chinese": "在事情完成之前，它总是看起来不可能。",
+            "source": "Nelson Mandela"
+          },
+          {
+            "english": "Why do we fall? So we can learn to pick ourselves up.",
+            "chinese": "我们为什么跌倒？因为这样才能学会重新站起来。",
+            "source": "Thomas Wayne, Batman Begins"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-16-1000",
+        "time": "2026-06-16T10:00:00+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-16-0500",
+        "time": "2026-06-16T05:00:05+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-15-2000",
+        "time": "2026-06-15T20:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-15-1500",
+        "time": "2026-06-15T15:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-15-1000",
+        "time": "2026-06-15T10:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-15-0500",
+        "time": "2026-06-15T05:00:03+08:00",
+        "quotes": [
+          {
+            "english": "Whether you think you can, or you think you can't, you're right.",
+            "chinese": "无论你认为自己能，还是认为自己不能，你都是对的。",
+            "source": "Commonly attributed to Henry Ford"
+          },
+          {
+            "english": "No one can make you feel inferior without your consent.",
+            "chinese": "没有你的允许，没人能让你感到自卑。",
+            "source": "Eleanor Roosevelt"
+          },
+          {
+            "english": "There is no place like home.",
+            "chinese": "没有任何地方比得上家。",
+            "source": "Dorothy Gale, The Wizard of Oz"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-14-2000",
+        "time": "2026-06-14T20:00:07+08:00",
+        "quotes": [
+          {
+            "english": "A person who never made a mistake never tried anything new.",
+            "chinese": "一个从不犯错的人，也从未尝试过任何新事物。",
+            "source": "Albert Einstein"
+          },
+          {
+            "english": "Don't let yesterday take up too much of today.",
+            "chinese": "不要让昨天占据今天太多的时间。",
+            "source": "Will Rogers"
+          },
+          {
+            "english": "The flower that blooms in adversity is the most rare and beautiful of all.",
+            "chinese": "在逆境中绽放的花，是最稀有也最美丽的花。",
+            "source": "The Emperor, Mulan"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-14-1500",
+        "time": "2026-06-14T15:00:05+08:00",
+        "quotes": [
+          {
+            "english": "You must be the change you wish to see in the world.",
+            "chinese": "你必须成为你希望在世界上看到的改变。",
+            "source": "Commonly attributed to Mahatma Gandhi"
+          },
+          {
+            "english": "It always seems impossible until it is done.",
+            "chinese": "在事情完成之前，它总是看起来不可能。",
+            "source": "Nelson Mandela"
+          },
+          {
+            "english": "Why do we fall? So we can learn to pick ourselves up.",
+            "chinese": "我们为什么跌倒？因为这样才能学会重新站起来。",
+            "source": "Thomas Wayne, Batman Begins"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-14-1000",
+        "time": "2026-06-14T10:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-14-0500",
+        "time": "2026-06-14T05:00:05+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-13-2000",
+        "time": "2026-06-13T20:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-13-1500",
+        "time": "2026-06-13T15:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-13-1000",
+        "time": "2026-06-13T10:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-13-0500",
+        "time": "2026-06-13T05:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Whether you think you can, or you think you can't, you're right.",
+            "chinese": "无论你认为自己能，还是认为自己不能，你都是对的。",
+            "source": "Commonly attributed to Henry Ford"
+          },
+          {
+            "english": "No one can make you feel inferior without your consent.",
+            "chinese": "没有你的允许，没人能让你感到自卑。",
+            "source": "Eleanor Roosevelt"
+          },
+          {
+            "english": "There is no place like home.",
+            "chinese": "没有任何地方比得上家。",
+            "source": "Dorothy Gale, The Wizard of Oz"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-12-1500",
+        "time": "2026-06-12T15:00:06+08:00",
+        "quotes": [
+          {
+            "english": "A person who never made a mistake never tried anything new.",
+            "chinese": "一个从不犯错的人，也从未尝试过任何新事物。",
+            "source": "Albert Einstein"
+          },
+          {
+            "english": "Don't let yesterday take up too much of today.",
+            "chinese": "不要让昨天占据今天太多的时间。",
+            "source": "Will Rogers"
+          },
+          {
+            "english": "The flower that blooms in adversity is the most rare and beautiful of all.",
+            "chinese": "在逆境中绽放的花，是最稀有也最美丽的花。",
+            "source": "The Emperor, Mulan"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-12-1000",
+        "time": "2026-06-12T10:00:05+08:00",
+        "quotes": [
+          {
+            "english": "You must be the change you wish to see in the world.",
+            "chinese": "你必须成为你希望在世界上看到的改变。",
+            "source": "Commonly attributed to Mahatma Gandhi"
+          },
+          {
+            "english": "It always seems impossible until it is done.",
+            "chinese": "在事情完成之前，它总是看起来不可能。",
+            "source": "Nelson Mandela"
+          },
+          {
+            "english": "Why do we fall? So we can learn to pick ourselves up.",
+            "chinese": "我们为什么跌倒？因为这样才能学会重新站起来。",
+            "source": "Thomas Wayne, Batman Begins"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-12-0500",
+        "time": "2026-06-12T05:00:04+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-11-1500",
+        "time": "2026-06-11T15:00:05+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-11-1000",
+        "time": "2026-06-11T10:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-11-0500",
+        "time": "2026-06-11T05:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-10-2216",
+        "time": "2026-06-10T22:16:46+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-10-2215",
+        "time": "2026-06-10T22:15:36+08:00",
+        "quotes": [
+          {
+            "english": "Whether you think you can, or you think you can't, you're right.",
+            "chinese": "无论你认为自己能，还是认为自己不能，你都是对的。",
+            "source": "Commonly attributed to Henry Ford"
+          },
+          {
+            "english": "No one can make you feel inferior without your consent.",
+            "chinese": "没有你的允许，没人能让你感到自卑。",
+            "source": "Eleanor Roosevelt"
+          },
+          {
+            "english": "There is no place like home.",
+            "chinese": "没有任何地方比得上家。",
+            "source": "Dorothy Gale, The Wizard of Oz"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-10-2214",
+        "time": "2026-06-10T22:14:16+08:00",
+        "quotes": [
+          {
+            "english": "A person who never made a mistake never tried anything new.",
+            "chinese": "一个从不犯错的人，也从未尝试过任何新事物。",
+            "source": "Albert Einstein"
+          },
+          {
+            "english": "Don't let yesterday take up too much of today.",
+            "chinese": "不要让昨天占据今天太多的时间。",
+            "source": "Will Rogers"
+          },
+          {
+            "english": "The flower that blooms in adversity is the most rare and beautiful of all.",
+            "chinese": "在逆境中绽放的花，是最稀有也最美丽的花。",
+            "source": "The Emperor, Mulan"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-10-2213",
+        "time": "2026-06-10T22:13:57+08:00",
+        "quotes": [
+          {
+            "english": "You must be the change you wish to see in the world.",
+            "chinese": "你必须成为你希望在世界上看到的改变。",
+            "source": "Commonly attributed to Mahatma Gandhi"
+          },
+          {
+            "english": "It always seems impossible until it is done.",
+            "chinese": "在事情完成之前，它总是看起来不可能。",
+            "source": "Nelson Mandela"
+          },
+          {
+            "english": "Why do we fall? So we can learn to pick ourselves up.",
+            "chinese": "我们为什么跌倒？因为这样才能学会重新站起来。",
+            "source": "Thomas Wayne, Batman Begins"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-10-0500",
+        "time": "2026-06-10T05:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-09-2000",
+        "time": "2026-06-09T20:00:06+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-09-1500",
+        "time": "2026-06-09T15:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-09-1000",
+        "time": "2026-06-09T10:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-09-0500",
+        "time": "2026-06-09T05:00:05+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-08-2340",
+        "time": "2026-06-08T23:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Whether you think you can, or you think you can't, you're right.",
+            "chinese": "无论你认为自己能，还是认为自己不能，你都是对的。",
+            "source": "Commonly attributed to Henry Ford"
+          },
+          {
+            "english": "No one can make you feel inferior without your consent.",
+            "chinese": "没有你的允许，没人能让你感到自卑。",
+            "source": "Eleanor Roosevelt"
+          },
+          {
+            "english": "There is no place like home.",
+            "chinese": "没有任何地方比得上家。",
+            "source": "Dorothy Gale, The Wizard of Oz"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-08-1840",
+        "time": "2026-06-08T18:40:05+08:00",
+        "quotes": [
+          {
+            "english": "A person who never made a mistake never tried anything new.",
+            "chinese": "一个从不犯错的人，也从未尝试过任何新事物。",
+            "source": "Albert Einstein"
+          },
+          {
+            "english": "Don't let yesterday take up too much of today.",
+            "chinese": "不要让昨天占据今天太多的时间。",
+            "source": "Will Rogers"
+          },
+          {
+            "english": "The flower that blooms in adversity is the most rare and beautiful of all.",
+            "chinese": "在逆境中绽放的花，是最稀有也最美丽的花。",
+            "source": "The Emperor, Mulan"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-08-1440",
+        "time": "2026-06-08T14:40:05+08:00",
+        "quotes": [
+          {
+            "english": "You must be the change you wish to see in the world.",
+            "chinese": "你必须成为你希望在世界上看到的改变。",
+            "source": "Commonly attributed to Mahatma Gandhi"
+          },
+          {
+            "english": "It always seems impossible until it is done.",
+            "chinese": "在事情完成之前，它总是看起来不可能。",
+            "source": "Nelson Mandela"
+          },
+          {
+            "english": "Why do we fall? So we can learn to pick ourselves up.",
+            "chinese": "我们为什么跌倒？因为这样才能学会重新站起来。",
+            "source": "Thomas Wayne, Batman Begins"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-08-0940",
+        "time": "2026-06-08T09:40:03+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-07-2340",
+        "time": "2026-06-07T23:40:00+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-07-1840",
+        "time": "2026-06-07T18:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-07-1440",
+        "time": "2026-06-07T14:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-07-0940",
+        "time": "2026-06-07T09:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-07-0440",
+        "time": "2026-06-07T04:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Whether you think you can, or you think you can't, you're right.",
+            "chinese": "无论你认为自己能，还是认为自己不能，你都是对的。",
+            "source": "Commonly attributed to Henry Ford"
+          },
+          {
+            "english": "No one can make you feel inferior without your consent.",
+            "chinese": "没有你的允许，没人能让你感到自卑。",
+            "source": "Eleanor Roosevelt"
+          },
+          {
+            "english": "There is no place like home.",
+            "chinese": "没有任何地方比得上家。",
+            "source": "Dorothy Gale, The Wizard of Oz"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-06-2340",
+        "time": "2026-06-06T23:40:00+08:00",
+        "quotes": [
+          {
+            "english": "A person who never made a mistake never tried anything new.",
+            "chinese": "一个从不犯错的人，也从未尝试过任何新事物。",
+            "source": "Albert Einstein"
+          },
+          {
+            "english": "Don't let yesterday take up too much of today.",
+            "chinese": "不要让昨天占据今天太多的时间。",
+            "source": "Will Rogers"
+          },
+          {
+            "english": "The flower that blooms in adversity is the most rare and beautiful of all.",
+            "chinese": "在逆境中绽放的花，是最稀有也最美丽的花。",
+            "source": "The Emperor, Mulan"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-06-1840",
+        "time": "2026-06-06T18:40:03+08:00",
+        "quotes": [
+          {
+            "english": "You must be the change you wish to see in the world.",
+            "chinese": "你必须成为你希望在世界上看到的改变。",
+            "source": "Commonly attributed to Mahatma Gandhi"
+          },
+          {
+            "english": "It always seems impossible until it is done.",
+            "chinese": "在事情完成之前，它总是看起来不可能。",
+            "source": "Nelson Mandela"
+          },
+          {
+            "english": "Why do we fall? So we can learn to pick ourselves up.",
+            "chinese": "我们为什么跌倒？因为这样才能学会重新站起来。",
+            "source": "Thomas Wayne, Batman Begins"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-06-1440",
+        "time": "2026-06-06T14:40:04+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-06-0940",
+        "time": "2026-06-06T09:40:04+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-06-0440",
+        "time": "2026-06-06T04:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-05-2340",
+        "time": "2026-06-05T23:40:06+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-05-2235",
+        "time": "2026-06-05T22:35:59+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-05-0940",
+        "time": "2026-06-05T09:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Whether you think you can, or you think you can't, you're right.",
+            "chinese": "无论你认为自己能，还是认为自己不能，你都是对的。",
+            "source": "Commonly attributed to Henry Ford"
+          },
+          {
+            "english": "No one can make you feel inferior without your consent.",
+            "chinese": "没有你的允许，没人能让你感到自卑。",
+            "source": "Eleanor Roosevelt"
+          },
+          {
+            "english": "There is no place like home.",
+            "chinese": "没有任何地方比得上家。",
+            "source": "Dorothy Gale, The Wizard of Oz"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-05-0440",
+        "time": "2026-06-05T04:40:04+08:00",
+        "quotes": [
+          {
+            "english": "A person who never made a mistake never tried anything new.",
+            "chinese": "一个从不犯错的人，也从未尝试过任何新事物。",
+            "source": "Albert Einstein"
+          },
+          {
+            "english": "Don't let yesterday take up too much of today.",
+            "chinese": "不要让昨天占据今天太多的时间。",
+            "source": "Will Rogers"
+          },
+          {
+            "english": "The flower that blooms in adversity is the most rare and beautiful of all.",
+            "chinese": "在逆境中绽放的花，是最稀有也最美丽的花。",
+            "source": "The Emperor, Mulan"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-04-2340",
+        "time": "2026-06-04T23:40:05+08:00",
+        "quotes": [
+          {
+            "english": "You must be the change you wish to see in the world.",
+            "chinese": "你必须成为你希望在世界上看到的改变。",
+            "source": "Commonly attributed to Mahatma Gandhi"
+          },
+          {
+            "english": "It always seems impossible until it is done.",
+            "chinese": "在事情完成之前，它总是看起来不可能。",
+            "source": "Nelson Mandela"
+          },
+          {
+            "english": "Why do we fall? So we can learn to pick ourselves up.",
+            "chinese": "我们为什么跌倒？因为这样才能学会重新站起来。",
+            "source": "Thomas Wayne, Batman Begins"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-04-1840",
+        "time": "2026-06-04T18:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Act as if what you do makes a difference. It does.",
+            "chinese": "行动吧，就像你的所作所为会带来改变一样。它确实会。",
+            "source": "William James"
+          },
+          {
+            "english": "The journey of a thousand miles begins with one step.",
+            "chinese": "千里之行，始于足下。",
+            "source": "Lao Tzu, Tao Te Ching"
+          },
+          {
+            "english": "Great things are not done by impulse, but by a series of small things brought together.",
+            "chinese": "伟大的事情不是靠一时冲动完成的，而是由一连串小事累积而成。",
+            "source": "Vincent van Gogh"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-04-1818",
+        "time": "2026-06-04T18:18:53+08:00",
+        "quotes": [
+          {
+            "english": "If you want to lift yourself up, lift up someone else.",
+            "chinese": "如果你想提升自己，就先去托举别人。",
+            "source": "Booker T. Washington"
+          },
+          {
+            "english": "The harder the conflict, the greater the triumph.",
+            "chinese": "冲突越艰难，胜利就越伟大。",
+            "source": "Thomas Paine"
+          },
+          {
+            "english": "Just keep swimming.",
+            "chinese": "继续游下去。",
+            "source": "Dory, Finding Nemo"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-04-1440",
+        "time": "2026-06-04T14:40:05+08:00",
+        "quotes": [
+          {
+            "english": "Energy and persistence conquer all things.",
+            "chinese": "精力和坚持可以征服一切。",
+            "source": "Benjamin Franklin"
+          },
+          {
+            "english": "Nothing will work unless you do.",
+            "chinese": "除非你行动，否则一切都不会奏效。",
+            "source": "Maya Angelou"
+          },
+          {
+            "english": "To infinity and beyond!",
+            "chinese": "飞向无限，超越极限！",
+            "source": "Buzz Lightyear, Toy Story"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-04-1101",
+        "time": "2026-06-04T11:01:01+08:00",
+        "quotes": [
+          {
+            "english": "Turn your wounds into wisdom.",
+            "chinese": "把你的伤痛转化为智慧。",
+            "source": "Oprah Winfrey"
+          },
+          {
+            "english": "What we think, we become.",
+            "chinese": "我们的思想，塑造了我们会成为什么样的人。",
+            "source": "Commonly attributed to Buddha"
+          },
+          {
+            "english": "Some people are worth melting for.",
+            "chinese": "有些人值得你为他们融化。",
+            "source": "Olaf, Frozen"
+          }
+        ]
+      },
+      {
+        "id": "scheduled-2026-06-04-0641",
+        "time": "2026-06-04T06:41:20+08:00",
+        "quotes": [
+          {
+            "english": "Believe you can and you're halfway there.",
+            "chinese": "相信自己能做到，你就已经成功了一半。",
+            "source": "Commonly attributed to Theodore Roosevelt"
+          },
+          {
+            "english": "The secret of getting ahead is getting started.",
+            "chinese": "领先的秘诀，就是先开始。",
+            "source": "Mark Twain"
+          },
+          {
+            "english": "Adventure is out there!",
+            "chinese": "冒险就在外面！",
+            "source": "Charles Muntz, Up"
+          }
+        ]
+      },
+      {
+        id: "manual-2026-06-04-0300",
+        time: "2026-06-04T03:00:00+08:00",
+        quotes: [
+          {
+            english: "Dreams are the seedlings of realities.",
+            chinese: "梦想是现实的幼苗。",
+            source: "James Allen, As a Man Thinketh"
+          },
+          {
+            english: "Courage is resistance to fear, mastery of fear, not absence of fear.",
+            chinese: "勇气不是没有恐惧，而是抵抗恐惧、驾驭恐惧。",
+            source: "Mark Twain"
+          },
+          {
+            english: "Keep your eyes on the stars, and your feet on the ground.",
+            chinese: "眼望星辰，脚踏实地。",
+            source: "Theodore Roosevelt"
+          }
+        ]
+      },
+      {
+        id: "manual-2026-06-04-0259",
+        time: "2026-06-04T02:59:00+08:00",
+        quotes: [
+          {
+            english: "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+            chinese: "生活就像骑自行车。要保持平衡，你就必须不断前进。",
+            source: "Albert Einstein"
+          },
+          {
+            english: "Carpe diem. Seize the day, boys. Make your lives extraordinary.",
+            chinese: "及时行乐。抓住今天，孩子们。让你们的人生变得非凡。",
+            source: "John Keating, Dead Poets Society"
+          },
+          {
+            english: "The way to get started is to quit talking and begin doing.",
+            chinese: "开始的方法，就是停止空谈，立刻行动。",
+            source: "Walt Disney"
+          }
+        ]
+      },
+      {
+        id: "manual-2026-06-03-1855",
+        time: "2026-06-03T18:55:00+08:00",
+        quotes: [
+          {
+            english: "The only way to do great work is to love what you do.",
+            chinese: "做出伟大工作的唯一方式，就是热爱你所做的事。",
+            source: "Steve Jobs, Stanford Commencement Address, 2005"
+          },
+          {
+            english: "Hope is a good thing, maybe the best of things, and no good thing ever dies.",
+            chinese: "希望是美好的，也许是世间最美好的东西，而美好的东西永远不会消逝。",
+            source: "Andy Dufresne, The Shawshank Redemption"
+          },
+          {
+            english: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+            chinese: "成功不是终点，失败也不是末日，真正重要的是继续前行的勇气。",
+            source: "Commonly attributed to Winston Churchill"
+          }
+        ]
+      },
+      {
+        id: "scheduled-2026-06-03-1840",
+        time: "2026-06-03T18:40:00+08:00",
+        quotes: [
+          {
+            english: "The future belongs to those who believe in the beauty of their dreams.",
+            chinese: "未来属于那些相信梦想之美的人。",
+            source: "Eleanor Roosevelt"
+          },
+          {
+            english: "Do, or do not. There is no try.",
+            chinese: "要么做，要么不做，没有“试试看”。",
+            source: "Yoda, Star Wars: Episode V - The Empire Strikes Back"
+          },
+          {
+            english: "It is never too late to be what you might have been.",
+            chinese: "成为你本可以成为的人，永远不算太晚。",
+            source: "George Eliot"
+          }
+        ]
+      }
+    ];
+
+    const recordsEl = document.querySelector("#records");
+    const emptyStateEl = document.querySelector("#emptyState");
+    const dialog = document.querySelector("#recordDialog");
+    const form = document.querySelector("#recordForm");
+    const importFile = document.querySelector("#importFile");
+    const voiceSelect = document.querySelector("#voiceSelect");
+    const shareDialog = document.querySelector("#shareDialog");
+    const shareEnglish = document.querySelector("#shareEnglish");
+    const shareChinese = document.querySelector("#shareChinese");
+    const shareSource = document.querySelector("#shareSource");
+    const shareQr = document.querySelector("#shareQr");
+    const randomPanel = document.querySelector("#randomPanel");
+    const randomEnglish = document.querySelector("#randomEnglish");
+    const randomChinese = document.querySelector("#randomChinese");
+    const randomSource = document.querySelector("#randomSource");
+    const randomPickBtn = document.querySelector("#randomPickBtn");
+    const randomPlayBtn = document.querySelector("#randomPlayBtn");
+    const randomShareBtn = document.querySelector("#randomShareBtn");
+    const analyticsDialog = document.querySelector("#analyticsDialog");
+    const analyticsGrid = document.querySelector("#analyticsGrid");
+    const analyticsList = document.querySelector("#analyticsList");
+
+    let records = loadRecords();
+    let voices = [];
+    let activeShareQuote = null;
+    let activeRandomQuote = null;
+
+    function loadRecords() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+        if (Array.isArray(saved)) {
+          const savedIds = new Set(saved.map((record) => record.id));
+          const missingSeedRecords = seedRecords.filter((record) => !savedIds.has(record.id));
+          if (missingSeedRecords.length) {
+            const merged = [...missingSeedRecords, ...saved];
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(merged, null, 2));
+            return merged;
+          }
+          return saved;
+        }
+      } catch (error) {
+        console.warn("Failed to load saved records", error);
+      }
+      return seedRecords;
+    }
+
+    function saveRecords() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(records, null, 2));
+    }
+
+    function defaultAnalytics() {
+      const now = new Date().toISOString();
+      return {
+        firstVisit: now,
+        lastVisit: now,
+        userId: "",
+        sessionCount: 0,
+        totalDurationSeconds: 0,
+        counters: {},
+        recent: []
+      };
+    }
+
+    function loadAnalytics() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(ANALYTICS_KEY));
+        if (saved && typeof saved === "object") {
+          return {
+            ...defaultAnalytics(),
+            ...saved,
+            counters: saved.counters && typeof saved.counters === "object" ? saved.counters : {},
+            recent: Array.isArray(saved.recent) ? saved.recent : []
+          };
+        }
+      } catch (error) {
+        console.warn("Failed to load analytics", error);
+      }
+      return defaultAnalytics();
+    }
+
+    function saveAnalytics(data) {
+      localStorage.setItem(ANALYTICS_KEY, JSON.stringify(data));
+    }
+
+    function createId(prefix) {
+      const value = crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+      return `${prefix}-${value}`;
+    }
+
+    function getVisitorId(data = loadAnalytics()) {
+      let visitorId = localStorage.getItem(VISITOR_KEY) || data.userId;
+      if (!visitorId) {
+        visitorId = createId("visitor");
+        localStorage.setItem(VISITOR_KEY, visitorId);
+      }
+      if (data.userId !== visitorId) {
+        data.userId = visitorId;
+        saveAnalytics(data);
+      }
+      return visitorId;
+    }
+
+    function getSession() {
+      try {
+        const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY));
+        if (saved && saved.id && saved.startedAt) return saved;
+      } catch (error) {
+        console.warn("Failed to load session", error);
+      }
+      return null;
+    }
+
+    function saveSession(session) {
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify(session));
+    }
+
+    function globalCounterUrl(name, action = "") {
+      const encodedNamespace = encodeURIComponent(GLOBAL_ANALYTICS.namespace);
+      const encodedName = encodeURIComponent(name);
+      return `${GLOBAL_ANALYTICS.baseUrl}/${encodedNamespace}/${encodedName}/${action}`;
+    }
+
+    async function globalCounterGet(name) {
+      if (!GLOBAL_ANALYTICS.enabled) return 0;
+      try {
+        const response = await fetch(globalCounterUrl(name));
+        if (!response.ok) return 0;
+        const data = await response.json();
+        return Number(data.count) || 0;
+      } catch (error) {
+        console.warn("Failed to read global analytics", error);
+        return 0;
+      }
+    }
+
+    async function globalCounterUp(name) {
+      if (!GLOBAL_ANALYTICS.enabled) return 0;
+      try {
+        const response = await fetch(globalCounterUrl(name, "up"));
+        if (!response.ok) return 0;
+        const data = await response.json();
+        return Number(data.count) || 0;
+      } catch (error) {
+        console.warn("Failed to update global analytics", error);
+        return 0;
+      }
+    }
+
+    async function globalCounterSet(name, count) {
+      if (!GLOBAL_ANALYTICS.enabled) return 0;
+      try {
+        const response = await fetch(`${globalCounterUrl(name, "set")}?count=${Math.max(0, Math.round(count))}`);
+        if (!response.ok) return 0;
+        const data = await response.json();
+        return Number(data.count) || 0;
+      } catch (error) {
+        console.warn("Failed to set global analytics", error);
+        return 0;
+      }
+    }
+
+    async function globalCounterAdd(name, delta) {
+      if (!delta) return 0;
+      const current = await globalCounterGet(name);
+      return globalCounterSet(name, current + delta);
+    }
+
+    function trackGlobalEvent(type) {
+      const counterMap = {
+        play: "plays",
+        random: "random",
+        share: "shares",
+        save: "saves",
+        copy: "copies",
+        add: "adds",
+        export: "exports",
+        import: "imports",
+        reset: "resets",
+        voice: "voice_changes"
+      };
+      const counterName = counterMap[type];
+      if (counterName) globalCounterUp(counterName);
+    }
+
+    async function ensureGlobalUserNumber() {
+      const savedNumber = Number(localStorage.getItem(GLOBAL_USER_NUMBER_KEY));
+      if (savedNumber > 0) return savedNumber;
+      const userNumber = await globalCounterUp("users");
+      if (userNumber > 0) {
+        localStorage.setItem(GLOBAL_USER_NUMBER_KEY, String(userNumber));
+        localStorage.setItem(GLOBAL_USER_COUNTED_KEY, "1");
+      }
+      return userNumber;
+    }
+
+    async function trackGlobalSession(session) {
+      if (!GLOBAL_ANALYTICS.enabled) return;
+      const userNumber = await ensureGlobalUserNumber();
+      if (userNumber) session.globalUserNumber = userNumber;
+      if (!session.globalCounted) {
+        globalCounterUp("sessions");
+        if (userNumber) {
+          globalCounterUp(`user_${userNumber}_sessions`);
+          globalCounterSet(`user_${userNumber}_last_session_seconds`, 0);
+        }
+        session.globalCounted = true;
+        saveSession(session);
+      }
+    }
+
+    async function loadGlobalStats() {
+      if (!GLOBAL_ANALYTICS.enabled) return null;
+      const names = ["users", "sessions", "duration_seconds", "plays", "random", "shares", "saves"];
+      const values = await Promise.all(names.map((name) => globalCounterGet(name)));
+      const stats = Object.fromEntries(names.map((name, index) => [name, values[index]]));
+      const userCount = Math.min(stats.users || 0, 50);
+      const users = await Promise.all(
+        Array.from({ length: userCount }, async (_, index) => {
+          const number = index + 1;
+          const [sessions, totalSeconds, lastSessionSeconds] = await Promise.all([
+            globalCounterGet(`user_${number}_sessions`),
+            globalCounterGet(`user_${number}_duration_seconds`),
+            globalCounterGet(`user_${number}_last_session_seconds`)
+          ]);
+          return {
+            number,
+            sessions,
+            totalSeconds,
+            lastSessionSeconds
+          };
+        })
+      );
+      stats.usersDetail = users.filter((user) => user.sessions || user.totalSeconds || user.lastSessionSeconds);
+      return stats;
+    }
+
+    function startAnalyticsSession() {
+      const data = loadAnalytics();
+      getVisitorId(data);
+      const now = new Date().toISOString();
+      let session = getSession();
+      if (!session) {
+        session = {
+          id: createId("session"),
+          startedAt: now,
+          lastSyncedAt: now
+        };
+        data.sessionCount = (data.sessionCount || 0) + 1;
+        data.counters.visit = (data.counters.visit || 0) + 1;
+        data.lastVisit = now;
+        data.recent = [
+          {
+            type: "visit",
+            label: analyticsLabels.visit,
+            detail: "打开页面",
+            at: now
+          },
+          ...data.recent
+        ].slice(0, 80);
+        saveAnalytics(data);
+      }
+      saveSession(session);
+      trackGlobalSession(session);
+    }
+
+    function syncSessionDuration() {
+      const session = getSession();
+      if (!session) return;
+      const now = new Date();
+      const lastSyncedAt = new Date(session.lastSyncedAt || session.startedAt);
+      const deltaSeconds = Math.max(0, Math.round((now.getTime() - lastSyncedAt.getTime()) / 1000));
+      if (deltaSeconds > 0 && deltaSeconds < 3600) {
+        const data = loadAnalytics();
+        data.totalDurationSeconds = (data.totalDurationSeconds || 0) + deltaSeconds;
+        data.lastVisit = now.toISOString();
+        saveAnalytics(data);
+        globalCounterAdd("duration_seconds", deltaSeconds);
+        const userNumber = session.globalUserNumber || Number(localStorage.getItem(GLOBAL_USER_NUMBER_KEY));
+        if (userNumber) {
+          globalCounterAdd(`user_${userNumber}_duration_seconds`, deltaSeconds);
+          globalCounterSet(`user_${userNumber}_last_session_seconds`, getCurrentSessionSeconds());
+        }
+      }
+      session.lastSyncedAt = now.toISOString();
+      saveSession(session);
+    }
+
+    function trackEvent(type, detail = "") {
+      syncSessionDuration();
+      const data = loadAnalytics();
+      const now = new Date().toISOString();
+      data.lastVisit = now;
+      data.counters[type] = (data.counters[type] || 0) + 1;
+      data.recent = [
+        {
+          type,
+          label: analyticsLabels[type] || type,
+          detail,
+          at: now
+        },
+        ...data.recent
+      ].slice(0, 80);
+      saveAnalytics(data);
+      trackGlobalEvent(type);
+    }
+
+    function formatNumber(value) {
+      return new Intl.NumberFormat("zh-CN").format(value || 0);
+    }
+
+    function formatDuration(seconds = 0) {
+      const total = Math.max(0, Math.round(seconds));
+      const hours = Math.floor(total / 3600);
+      const minutes = Math.floor((total % 3600) / 60);
+      const secs = total % 60;
+      if (hours) return `${hours}小时${minutes}分`;
+      if (minutes) return `${minutes}分${secs}秒`;
+      return `${secs}秒`;
+    }
+
+    function getCurrentSessionSeconds() {
+      const session = getSession();
+      if (!session) return 0;
+      return Math.max(0, Math.round((Date.now() - new Date(session.startedAt).getTime()) / 1000));
+    }
+
+    function metricTemplate(label, value) {
+      return `
+        <div class="metric">
+          <span>${escapeHtml(label)}</span>
+          <strong>${escapeHtml(value)}</strong>
+        </div>
+      `;
+    }
+
+    function renderAnalytics(globalStats = null) {
+      syncSessionDuration();
+      const data = loadAnalytics();
+      const counters = data.counters || {};
+      const global = globalStats || {};
+      const shareSaveCount = (global.shares ?? counters.share ?? 0) + (global.saves ?? counters.save ?? 0);
+      analyticsGrid.innerHTML = [
+        metricTemplate("用户人数", formatNumber(global.users ?? (data.userId ? 1 : 0))),
+        metricTemplate("使用人次", formatNumber(global.sessions ?? data.sessionCount ?? counters.visit ?? 0)),
+        metricTemplate("本次时长", formatDuration(getCurrentSessionSeconds())),
+        metricTemplate("合计时长", formatDuration(global.duration_seconds ?? data.totalDurationSeconds ?? 0)),
+        metricTemplate("朗读次数", formatNumber(global.plays ?? counters.play)),
+        metricTemplate("分享/保存", formatNumber(shareSaveCount))
+      ].join("");
+
+      const selectedVoice = voiceSelect.selectedOptions[0]?.textContent || "音色选择";
+      const currentUserNumber = Number(localStorage.getItem(GLOBAL_USER_NUMBER_KEY));
+      const userRows = (global.usersDetail || []).map((user) => ({
+        label: `用户 ${user.number}${user.number === currentUserNumber ? "（我）" : ""}`,
+        value: `单次 ${formatDuration(user.lastSessionSeconds)} · 合计 ${formatDuration(user.totalSeconds)} · 人次 ${formatNumber(user.sessions)}`
+      }));
+      const rows = [
+        {
+          label: "数据范围",
+          value: globalStats ? "公开全站数据 + 当前浏览器明细" : "正在读取全站数据，先显示当前浏览器数据"
+        },
+        {
+          label: "用户明细",
+          value: globalStats ? `已区分 ${formatNumber(global.usersDetail?.length || 0)} 个公开用户编号` : "读取中"
+        },
+        ...userRows,
+        {
+          label: "当前音色",
+          value: selectedVoice
+        },
+        {
+          label: "随机选择",
+          value: `${formatNumber(global.random ?? counters.random)} 次`
+        },
+        {
+          label: "句子总数",
+          value: `${formatNumber(allQuotes().length)} 句`
+        },
+        {
+          label: "首次访问",
+          value: formatTime(data.firstVisit)
+        },
+        {
+          label: "最近访问",
+          value: formatTime(data.lastVisit)
+        },
+        ...data.recent.slice(0, 8).map((event) => ({
+          label: event.label,
+          value: `${formatTime(event.at)}${event.detail ? ` · ${event.detail}` : ""}`
+        }))
+      ];
+
+      analyticsList.innerHTML = rows.map((row) => `
+        <div class="analytics-row">
+          <strong>${escapeHtml(row.label)}</strong>
+          <span>${escapeHtml(row.value)}</span>
+        </div>
+      `).join("");
+    }
+
+    function openAnalyticsDialog() {
+      renderAnalytics();
+      analyticsDialog.showModal();
+      loadGlobalStats().then((stats) => {
+        renderAnalytics(stats);
+      });
+    }
+
+    function sortedRecords() {
+      return [...records].sort((a, b) => new Date(b.time).getTime() - new Date(a.time).getTime());
+    }
+
+    function allQuotes() {
+      return sortedRecords().flatMap((record) =>
+        record.quotes.map((quote) => ({
+          ...quote,
+          recordTime: record.time
+        }))
+      );
+    }
+
+    function formatTime(value) {
+      return new Intl.DateTimeFormat("zh-CN", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        hour12: false
+      }).format(new Date(value));
+    }
+
+    function render() {
+      const sorted = sortedRecords();
+      recordsEl.innerHTML = "";
+      emptyStateEl.style.display = sorted.length ? "none" : "block";
+
+      sorted.forEach((record) => {
+        const article = document.createElement("article");
+        article.className = "record";
+
+        const head = document.createElement("div");
+        head.className = "record-head";
+        head.innerHTML = `
+          <div class="record-time">${escapeHtml(formatTime(record.time))}</div>
+          <div class="record-count">${record.quotes.length} sentences</div>
+        `;
+
+        const list = document.createElement("div");
+        list.className = "quote-list";
+
+        record.quotes.forEach((quote, index) => {
+          const row = document.createElement("div");
+          row.className = "quote";
+          row.innerHTML = `
+            <div class="quote-actions">
+              <button class="icon-btn play-btn" type="button" title="朗读英文 ${index + 1}" aria-label="朗读英文 ${index + 1}">▶</button>
+              <button class="icon-btn share-btn" type="button" title="生成分享图片 ${index + 1}" aria-label="生成分享图片 ${index + 1}">↗</button>
+            </div>
+            <div>
+              <p class="english">${escapeHtml(quote.english)}</p>
+              <p class="translation">${escapeHtml(quote.chinese)}</p>
+              <p class="source">(${escapeHtml(quote.source)})</p>
+            </div>
+          `;
+          row.querySelector(".play-btn").addEventListener("click", () => speakEnglish(quote.english, "列表句子"));
+          row.querySelector(".share-btn").addEventListener("click", () => openShareDialog(quote));
+          list.appendChild(row);
+        });
+
+        article.append(head, list);
+        recordsEl.appendChild(article);
+      });
+      refreshRandomQuoteIfNeeded();
+    }
+
+    function pickRandomQuote(excludedQuote = null) {
+      const quotes = allQuotes();
+      if (!quotes.length) return null;
+      if (quotes.length === 1) return quotes[0];
+      const pool = excludedQuote
+        ? quotes.filter((quote) => quote.english !== excludedQuote.english || quote.source !== excludedQuote.source)
+        : quotes;
+      return pool[Math.floor(Math.random() * pool.length)];
+    }
+
+    function renderRandomQuote(quote) {
+      activeRandomQuote = quote;
+      const hasQuote = Boolean(quote);
+      randomPanel.style.display = hasQuote ? "grid" : "none";
+      randomPlayBtn.disabled = !hasQuote;
+      randomShareBtn.disabled = !hasQuote;
+      if (!hasQuote) return;
+      randomEnglish.textContent = quote.english;
+      randomChinese.textContent = quote.chinese;
+      randomSource.textContent = `(${quote.source})`;
+    }
+
+    function refreshRandomQuoteIfNeeded() {
+      const quotes = allQuotes();
+      if (!quotes.length) {
+        renderRandomQuote(null);
+        return;
+      }
+      const stillExists = activeRandomQuote && quotes.some((quote) =>
+        quote.english === activeRandomQuote.english && quote.source === activeRandomQuote.source
+      );
+      if (!stillExists) renderRandomQuote(pickRandomQuote());
+    }
+
+    function shuffleRandomQuote() {
+      const quotes = allQuotes();
+      if (!quotes.length) return;
+      trackEvent("random", "随机练一句");
+      randomPickBtn.disabled = true;
+      randomPanel.classList.add("is-shuffling");
+      window.setTimeout(() => {
+        renderRandomQuote(pickRandomQuote(activeRandomQuote));
+      }, 180);
+      window.setTimeout(() => {
+        randomPanel.classList.remove("is-shuffling");
+        randomPickBtn.disabled = false;
+      }, 640);
+    }
+
+    function isEnglishVoice(voice) {
+      return voice.lang && voice.lang.toLowerCase().startsWith("en");
+    }
+
+    function getVoiceProfile(voice) {
+      const name = voice.name.toLowerCase();
+      return preferredVoiceProfiles.find((profile) =>
+        profile.match.some((word) => name.includes(word))
+      ) || null;
+    }
+
+    function scoreVoice(voice) {
+      const name = voice.name.toLowerCase();
+      const lang = voice.lang.toLowerCase();
+      const profile = getVoiceProfile(voice);
+      let score = 0;
+      if (lang === "en-us") score += 90;
+      else if (lang === "en-gb") score += 62;
+      else if (lang.startsWith("en-")) score += 44;
+      if (profile) score += 220 - profile.rank * 8;
+      if (name.includes("online") || name.includes("natural")) score += 42;
+      if (name.includes("premium") || name.includes("enhanced")) score += 32;
+      if (name.includes("neural")) score += 28;
+      if (name.includes("compact")) score -= 60;
+      if (name.includes("default")) score -= 28;
+      if (name.includes("eloquence") || name.includes("novelty")) score -= 90;
+      if (voice.localService) score += 4;
+      return score;
+    }
+
+    function getVoiceCandidates() {
+      const seen = new Set();
+      const sorted = voices
+        .filter(isEnglishVoice)
+        .sort((a, b) => scoreVoice(b) - scoreVoice(a) || a.name.localeCompare(b.name))
+        .filter((voice) => {
+          const key = `${voice.name}-${voice.lang}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+      const selected = [];
+      ["女声", "男声"].forEach((gender) => {
+        sorted
+          .filter((voice) => getVoiceProfile(voice)?.gender === gender)
+          .slice(0, 3)
+          .forEach((voice) => {
+            if (!selected.includes(voice) && selected.length < 7) selected.push(voice);
+          });
+      });
+      sorted.forEach((voice) => {
+        if (!selected.includes(voice) && selected.length < 7) selected.push(voice);
+      });
+      return selected;
+    }
+
+    function formatVoiceOption(voice, index) {
+      const profile = getVoiceProfile(voice);
+      const label = profile ? `${profile.gender} · ${profile.accent}` : voice.lang;
+      return `音色 ${index + 1} · ${label} · ${voice.name}`;
+    }
+
+    function getBestVoice() {
+      const savedName = localStorage.getItem(VOICE_KEY);
+      const candidates = getVoiceCandidates();
+      const saved = candidates.find((voice) => voice.name === savedName);
+      if (saved) return saved;
+      return candidates[0] || null;
+    }
+
+    function populateVoices() {
+      if (!("speechSynthesis" in window)) {
+        voiceSelect.disabled = true;
+        return;
+      }
+      voices = window.speechSynthesis.getVoices().filter(isEnglishVoice);
+      const savedName = localStorage.getItem(VOICE_KEY);
+      const candidates = getVoiceCandidates();
+      voiceSelect.innerHTML = '<option value="">音色选择</option>';
+
+      candidates.forEach((voice, index) => {
+        const option = document.createElement("option");
+        option.value = voice.name;
+        option.textContent = formatVoiceOption(voice, index);
+        voiceSelect.appendChild(option);
+      });
+
+      if (savedName && candidates.some((voice) => voice.name === savedName)) {
+        voiceSelect.value = savedName;
+      } else {
+        localStorage.removeItem(VOICE_KEY);
+        voiceSelect.value = "";
+      }
+    }
+
+    function speakEnglish(text, detail = "") {
+      if (!("speechSynthesis" in window)) {
+        alert("当前浏览器不支持朗读。请用 Chrome、Safari 或 Edge 打开。");
+        return;
+      }
+      trackEvent("play", detail);
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "en-US";
+      utterance.rate = 0.9;
+      utterance.pitch = 1;
+      utterance.volume = 1;
+      const voice = getBestVoice();
+      if (voice) utterance.voice = voice;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function openShareDialog(quote) {
+      activeShareQuote = quote;
+      trackEvent("share", quote.source);
+      shareEnglish.textContent = quote.english;
+      shareChinese.textContent = quote.chinese;
+      shareSource.textContent = `(${quote.source})`;
+      shareQr.src = makeQrDataUrl(PAGE_URL, 2);
+      shareDialog.showModal();
+    }
+
+    function closeShareDialog() {
+      shareDialog.close();
+    }
+
+    async function copyText(text) {
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (error) {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.style.position = "fixed";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+        document.execCommand("copy");
+        textarea.remove();
+      }
+    }
+
+    function shareQuoteText() {
+      if (!activeShareQuote) return "";
+      return [
+        activeShareQuote.english,
+        activeShareQuote.chinese,
+        `(${activeShareQuote.source})`,
+        PAGE_URL
+      ].join("\n");
+    }
+
+    function makeQrDataUrl(text, cellSize = 4) {
+      if (typeof qrcode !== "function") return "";
+      const qr = qrcode(0, "M");
+      qr.addData(text);
+      qr.make();
+      return qr.createDataURL(cellSize, 0);
+    }
+
+    function loadImage(src) {
+      return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.onerror = reject;
+        image.src = src;
+      });
+    }
+
+    function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight, maxLines = 8) {
+      const tokens = /\s/.test(text) ? text.split(/(\s+)/).filter(Boolean) : [...text];
+      const lines = [];
+      let line = "";
+      tokens.forEach((token) => {
+        const test = line + token;
+        if (ctx.measureText(test).width > maxWidth && line.trim()) {
+          lines.push(line.trim());
+          line = token.trimStart();
+        } else {
+          line = test;
+        }
+      });
+      if (line.trim()) lines.push(line.trim());
+
+      lines.slice(0, maxLines).forEach((item, index) => {
+        const suffix = lines.length > maxLines && index === maxLines - 1 ? "..." : "";
+        ctx.fillText(item + suffix, x, y + index * lineHeight);
+      });
+      return y + Math.min(lines.length, maxLines) * lineHeight;
+    }
+
+    async function saveShareImage() {
+      if (!activeShareQuote) return;
+      if (typeof qrcode !== "function") {
+        alert("二维码组件还没加载完成，请稍后再试。");
+        return;
+      }
+      const canvas = document.createElement("canvas");
+      canvas.width = 1080;
+      canvas.height = 1350;
+      const ctx = canvas.getContext("2d");
+
+      ctx.fillStyle = "#fffaf0";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = "rgba(239,195,90,0.26)";
+      ctx.fillRect(0, 0, canvas.width, 210);
+      ctx.fillStyle = "rgba(47,109,85,0.14)";
+      ctx.fillRect(canvas.width - 230, canvas.height - 250, 230, 250);
+
+      ctx.strokeStyle = "#151515";
+      ctx.lineWidth = 8;
+      ctx.strokeRect(54, 54, canvas.width - 108, canvas.height - 108);
+
+      ctx.fillStyle = "#efc35a";
+      ctx.strokeStyle = "#151515";
+      ctx.lineWidth = 5;
+      roundRect(ctx, 90, 92, 310, 58, 29, true, true);
+      ctx.fillStyle = "#151515";
+      ctx.font = "700 24px Avenir Next, PingFang SC, sans-serif";
+      ctx.fillText("English Quote Log", 114, 130);
+
+      ctx.fillStyle = "#151515";
+      ctx.font = "700 64px Georgia, Times New Roman, serif";
+      let y = wrapCanvasText(ctx, activeShareQuote.english, 90, 270, 880, 78, 7);
+
+      ctx.fillStyle = "#194836";
+      ctx.font = "700 38px PingFang SC, Microsoft YaHei, sans-serif";
+      y = wrapCanvasText(ctx, activeShareQuote.chinese, 90, y + 60, 880, 56, 4);
+
+      ctx.fillStyle = "#6b6257";
+      ctx.font = "500 28px Avenir Next, PingFang SC, sans-serif";
+      wrapCanvasText(ctx, `(${activeShareQuote.source})`, 90, y + 44, 780, 40, 3);
+
+      ctx.strokeStyle = "#151515";
+      ctx.lineWidth = 5;
+      ctx.beginPath();
+      ctx.moveTo(90, 1154);
+      ctx.lineTo(990, 1154);
+      ctx.stroke();
+
+      const qrImage = await loadImage(makeQrDataUrl(PAGE_URL, 8));
+      ctx.fillStyle = "#ffffff";
+      ctx.strokeStyle = "#151515";
+      ctx.lineWidth = 5;
+      roundRect(ctx, 840, 1170, 120, 120, 8, true, true);
+      ctx.drawImage(qrImage, 850, 1180, 100, 100);
+      const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
+      if (!blob) return;
+      const file = new File([blob], `english-quote-${Date.now()}.png`, { type: "image/png" });
+      trackEvent("save", activeShareQuote.source);
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({
+            files: [file],
+            title: "English Quote Log",
+            text: "保存这张英语句子分享图"
+          });
+          return;
+        } catch (error) {
+          if (error.name === "AbortError") return;
+        }
+      }
+
+      const link = document.createElement("a");
+      link.download = file.name;
+      link.href = URL.createObjectURL(blob);
+      link.click();
+      URL.revokeObjectURL(link.href);
+    }
+
+    function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+      ctx.beginPath();
+      ctx.moveTo(x + radius, y);
+      ctx.lineTo(x + width - radius, y);
+      ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+      ctx.lineTo(x + width, y + height - radius);
+      ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+      ctx.lineTo(x + radius, y + height);
+      ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+      ctx.lineTo(x, y + radius);
+      ctx.quadraticCurveTo(x, y, x + radius, y);
+      ctx.closePath();
+      if (fill) ctx.fill();
+      if (stroke) ctx.stroke();
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function toLocalDateTimeValue(date = new Date()) {
+      const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
+      return local.toISOString().slice(0, 16);
+    }
+
+    function openDialog() {
+      document.querySelector("#recordTime").value = toLocalDateTimeValue();
+      form.reset();
+      document.querySelector("#recordTime").value = toLocalDateTimeValue();
+      dialog.showModal();
+    }
+
+    function closeDialog() {
+      dialog.close();
+      form.reset();
+    }
+
+    function formValue(id) {
+      return document.querySelector(id).value.trim();
+    }
+
+    function handleSubmit(event) {
+      event.preventDefault();
+      const timeValue = formValue("#recordTime");
+      const next = {
+        id: `record-${Date.now()}`,
+        time: new Date(timeValue).toISOString(),
+        quotes: [1, 2, 3].map((number) => ({
+          english: formValue(`#english${number}`),
+          chinese: formValue(`#chinese${number}`),
+          source: formValue(`#source${number}`)
+        }))
+      };
+      records = [next, ...records];
+      saveRecords();
+      trackEvent("add", formatTime(next.time));
+      render();
+      closeDialog();
+    }
+
+    function exportRecords() {
+      trackEvent("export", `${records.length} 组记录`);
+      const blob = new Blob([JSON.stringify(sortedRecords(), null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "english-quote-log.json";
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function importRecords(file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const imported = JSON.parse(reader.result);
+          if (!Array.isArray(imported)) throw new Error("JSON must be an array");
+          records = imported;
+          saveRecords();
+          trackEvent("import", `${records.length} 组记录`);
+          render();
+        } catch (error) {
+          alert("导入失败：文件格式不正确。");
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function resetRecords() {
+      if (!confirm("确定重置为初始记录吗？")) return;
+      records = seedRecords;
+      saveRecords();
+      trackEvent("reset", `${seedRecords.length} 组初始记录`);
+      render();
+    }
+
+    document.querySelector("#addRecordBtn").addEventListener("click", openDialog);
+    document.querySelector("#closeDialogBtn").addEventListener("click", closeDialog);
+    document.querySelector("#closeShareBtn").addEventListener("click", closeShareDialog);
+    document.querySelector("#analyticsBtn").addEventListener("click", openAnalyticsDialog);
+    document.querySelector("#closeAnalyticsBtn").addEventListener("click", () => analyticsDialog.close());
+    document.querySelector("#cancelBtn").addEventListener("click", closeDialog);
+    document.querySelector("#exportBtn").addEventListener("click", exportRecords);
+    document.querySelector("#importBtn").addEventListener("click", () => importFile.click());
+    document.querySelector("#resetBtn").addEventListener("click", resetRecords);
+    document.querySelector("#saveShareImageBtn").addEventListener("click", saveShareImage);
+    document.querySelector("#copyQuoteBtn").addEventListener("click", () => {
+      trackEvent("copy", activeShareQuote?.source || "");
+      copyText(shareQuoteText());
+    });
+    randomPickBtn.addEventListener("click", shuffleRandomQuote);
+    randomPlayBtn.addEventListener("click", () => {
+      if (activeRandomQuote) speakEnglish(activeRandomQuote.english, "随机句子");
+    });
+    randomShareBtn.addEventListener("click", () => {
+      if (activeRandomQuote) openShareDialog(activeRandomQuote);
+    });
+    voiceSelect.addEventListener("change", () => {
+      if (voiceSelect.value) localStorage.setItem(VOICE_KEY, voiceSelect.value);
+      else localStorage.removeItem(VOICE_KEY);
+      trackEvent("voice", voiceSelect.selectedOptions[0]?.textContent || "音色选择");
+    });
+    importFile.addEventListener("change", (event) => {
+      const [file] = event.target.files;
+      if (file) importRecords(file);
+      event.target.value = "";
+    });
+    form.addEventListener("submit", handleSubmit);
+
+    startAnalyticsSession();
+    window.setInterval(() => {
+      if (!document.hidden) syncSessionDuration();
+    }, 15000);
+    document.addEventListener("visibilitychange", syncSessionDuration);
+    window.addEventListener("pagehide", syncSessionDuration);
+    populateVoices();
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.addEventListener("voiceschanged", populateVoices);
+    }
+    render();
+  </script>
+</body>
+</html>
