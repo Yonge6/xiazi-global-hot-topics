@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T00:05:00+08:00",
+  "updatedAt": "2026-06-19T05:00:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -84,12 +84,12 @@
     },
     {
       "storyId": "us_iran_peace_framework_2026",
-      "status": "finished",
+      "status": "followup",
       "firstSeen": "2026-06-15",
-      "lastSeen": "2026-06-17",
-      "followupDay": 3,
-      "informationIncrementScore": 50,
-      "latestHeadline": "美伊协议计划周五在瑞士举行签署仪式"
+      "lastSeen": "2026-06-19",
+      "followupDay": 4,
+      "informationIncrementScore": 90,
+      "latestHeadline": "美伊协议正式生效，油轮重新驶过霍尔木兹海峡"
     },
     {
       "storyId": "uk_under16_social_media_ban_2026",
@@ -318,75 +318,138 @@
     },
     {
       "storyId": "openai_dean_ball_strategic_futures_2026",
-      "status": "new",
+      "status": "finished",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 50,
       "latestHeadline": "OpenAI延揽AI政策学者Dean Ball"
     },
     {
       "storyId": "amazon_leo_ariane6_record_launch_2026",
-      "status": "new",
+      "status": "finished",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 50,
       "latestHeadline": "Amazon Leo借Ariane 6一次发射36颗卫星"
     },
     {
       "storyId": "nato_defence_ministers_ankara_priorities_2026",
-      "status": "new",
+      "status": "finished",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 50,
       "latestHeadline": "北约防长会称安卡拉峰会前取得进展"
     },
     {
       "storyId": "boe_holds_bank_rate_energy_uncertainty_2026",
-      "status": "new",
+      "status": "finished",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 50,
       "latestHeadline": "英国央行以7比2维持3.75%利率"
     },
     {
       "storyId": "webb_hd80606b_extreme_exoplanet_2026",
-      "status": "new",
+      "status": "finished",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 50,
       "latestHeadline": "韦布望远镜追踪极端系外行星被恒星炙烤"
     },
     {
       "storyId": "unhcr_global_trends_displacement_2025_report_2026",
-      "status": "new",
+      "status": "finished",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 50,
       "latestHeadline": "UNHCR发布全球流离失所趋势报告"
     },
     {
       "storyId": "wmo_africa_extreme_weather_2025_report_2026",
-      "status": "new",
+      "status": "finished",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 50,
       "latestHeadline": "WMO称非洲极端天气和气候事件影响数百万人"
     },
     {
       "storyId": "who_drinking_water_quality_guidelines_addendum_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "WHO更新饮用水质量指南补编"
+    },
+    {
+      "storyId": "ukraine_moscow_refinery_drone_strike_2026",
       "status": "new",
       "firstSeen": "2026-06-19",
       "lastSeen": "2026-06-19",
       "followupDay": 1,
       "informationIncrementScore": 100,
-      "latestHeadline": "WHO更新饮用水质量指南补编"
+      "latestHeadline": "乌克兰无人机再次击中莫斯科炼油厂"
+    },
+    {
+      "storyId": "apple_intel_us_chip_production_2026",
+      "status": "new",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "特朗普称苹果将与英特尔合作在美国设计和制造芯片"
+    },
+    {
+      "storyId": "noam_shazeer_openai_2026",
+      "status": "new",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "Gemini联合负责人Noam Shazeer转投OpenAI"
+    },
+    {
+      "storyId": "china_ai_consumption_measures_2026",
+      "status": "new",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "中国发布17项AI促消费措施"
+    },
+    {
+      "storyId": "cuba_economic_reform_2026",
+      "status": "new",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "古巴提出革命以来规模最大的经济改革之一"
+    },
+    {
+      "storyId": "uae_social_media_age_15_2026",
+      "status": "new",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "阿联酋将社交媒体最低使用年龄设为15岁"
+    },
+    {
+      "storyId": "spacex_ai_bond_offering_2026",
+      "status": "new",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-19",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "SpaceX筹备至少200亿美元债券发行"
     }
   ]
 }

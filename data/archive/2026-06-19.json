@@ -1,11 +1,11 @@
 {
   "id": "10000000-0000-4000-8000-000000000006",
   "slug": "2026-06-19",
-  "assetVersion": "2026-06-19-hotspots-v1",
+  "assetVersion": "2026-06-19-user-replacement-v2",
   "issueDate": "2026-06-19",
-  "slotHour": 0,
-  "beijingTimestamp": "2026-06-19T00:05:00+08:00",
-  "gmtTimestamp": "2026-06-18T16:05:00Z",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-06-19T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-18T21:00:00Z",
   "status": "published",
   "featuredTopicId": "20000000-0000-4000-8000-000000000028",
   "topics": [
@@ -19,11 +19,12 @@
       "countryCodes": [
         "CO",
         "UZ",
+        "GH",
+        "PA",
         "CZ",
         "ZA",
-        "PT",
-        "CD",
-        "GB"
+        "CH",
+        "BA"
       ],
       "eventTime": null,
       "isDeveloping": false,
@@ -37,27 +38,27 @@
         "zh-CN": {
           "categoryLabel": "世界杯",
           "headlineFact": "哥伦比亚3:1击败世界杯新军乌兹别克斯坦",
-          "headlineView": "大赛经验有时不漂亮，却很管用",
-          "headlineFull": "哥伦比亚3:1击败世界杯新军乌兹别克斯坦；大赛经验有时不漂亮，却很管用。",
-          "intro": "6月18日世界杯窗口，哥伦比亚在阿兹特克球场3:1击败首次参赛的乌兹别克斯坦，穆尼奥斯、路易斯・迪亚斯和坎帕斯破门，乌兹别克斯坦由法伊祖拉耶夫打进队史世界杯首球。同窗口捷克1:1南非，葡萄牙此前被刚果（金）逼平，FIFA还回应英格兰比赛安保争议。",
-          "xiaziQuote": "世界杯给新军舞台，也给老江湖交作业的机会。",
-          "doudouQuote": "乌兹别克斯坦进了历史第一球，哥伦比亚顺手把三分也装走了。",
-          "footerTakeaway": "哥伦比亚3:1赢球领跑小组，乌兹别克斯坦收获队史首球；同日多场平局和安保争议让世界杯第二轮更早进入压力测试。"
+          "headlineView": "强队的价值，不是从不被追平，而是被追平后还能重新掌控比赛",
+          "headlineFull": "哥伦比亚3:1击败世界杯新军乌兹别克斯坦；强队的价值，不是从不被追平，而是被追平后还能重新掌控比赛。",
+          "intro": "哥伦比亚凭借穆尼奥斯、路易斯·迪亚斯和坎帕斯的进球，以3:1战胜首次参加世界杯的乌兹别克斯坦。乌兹别克斯坦一度扳平，并攻入队史世界杯首球，但哥伦比亚迅速回应。同期，加纳1:0巴拿马、捷克1:1南非、瑞士4:1波黑。",
+          "xiaziQuote": "被追平并不可怕，失去重新掌控比赛的能力才可怕。",
+          "doudouQuote": "新军写下了历史，强队顺手拿走了三分。",
+          "footerTakeaway": "哥伦比亚3:1击败乌兹别克斯坦并掌控小组主动；同窗口多场赛果补足世界杯全局。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Colombia beat World Cup debutants Uzbekistan 3-1",
-          "headlineView": "tournament know-how is not always pretty, but it works",
-          "headlineFull": "Colombia beat World Cup debutants Uzbekistan 3-1; tournament know-how is not always pretty, but it works.",
-          "intro": "In the June 18 World Cup window, Colombia beat first-time finalists Uzbekistan 3-1 at Estadio Azteca, with Daniel Munoz, Luis Diaz and Jhon Campaz scoring after Abbosbek Fayzullaev delivered Uzbekistan's first World Cup goal. Elsewhere, Czechia drew 1-1 with South Africa, Portugal had earlier drawn DR Congo, and FIFA addressed security questions from England's match.",
-          "xiaziQuote": "The World Cup gives newcomers a stage and veterans a deadline.",
-          "doudouQuote": "Uzbekistan made history; Colombia quietly packed the three points.",
-          "footerTakeaway": "Colombia opened with a 3-1 win while Uzbekistan claimed a first World Cup goal; other draws and security questions made matchday two a broader stress test."
+          "headlineFact": "Colombia beat Uzbekistan 3:1",
+          "headlineView": "the value of a strong team is not never being caught, but taking control again after being caught",
+          "headlineFull": "Colombia beat Uzbekistan 3:1; the value of a strong team is not never being caught, but taking control again after being caught.",
+          "intro": "Colombia defeated World Cup debutant Uzbekistan 3:1 with goals from Munoz, Luis Diaz and Campaz. Uzbekistan briefly leveled the match and scored its first-ever World Cup goal, but Colombia responded quickly. Other results in the same window: Ghana 1:0 Panama, Czech Republic 1:1 South Africa, Switzerland 4:1 Bosnia.",
+          "xiaziQuote": "Being level is not the problem. Losing the ability to regain control is.",
+          "doudouQuote": "The newcomer made history. The favorite took the points.",
+          "footerTakeaway": "Colombia beat Uzbekistan 3:1 and took early control; other window results round out the World Cup picture."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000079",
+          "id": "30000000-0000-4000-8000-000000000089",
           "topicId": "20000000-0000-4000-8000-000000000028",
           "title": "Uzbekistan 1-3 Colombia: World Cup 2026 - as it happened",
           "publisher": "The Guardian",
@@ -73,53 +74,55 @@
     {
       "id": "20000000-0000-4000-8000-000000000029",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "openai-dean-ball-strategic-futures",
+      "slug": "us-iran-agreement-implementation",
       "rank": 2,
-      "category": "technology",
-      "region": "North America",
+      "category": "international",
+      "region": "Middle East",
       "countryCodes": [
-        "US"
+        "US",
+        "IR",
+        "OM"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "openai_dean_ball_strategic_futures_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "scoreTotal": 97,
+      "storyId": "us_iran_peace_framework_2026",
+      "storyStatus": "followup",
+      "followupDay": 4,
+      "informationIncrementScore": 90,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI与科技",
-          "headlineFact": "OpenAI延揽AI政策学者Dean Ball",
-          "headlineView": "前沿模型的竞争，正在从参数表走向制度设计",
-          "headlineFull": "OpenAI延揽AI政策学者Dean Ball；前沿模型的竞争，正在从参数表走向制度设计。",
-          "intro": "Axios报道，AI政策学者Dean Ball将加入OpenAI，负责新设的Strategic Futures团队，聚焦前沿AI政策与内部治理。这个职位的关键词不是又一个模型发布，而是把治理、监管沟通和产品边界放进核心能力清单。",
-          "xiaziQuote": "AI公司越接近基础设施，越需要会写规则的人坐到桌边。",
-          "doudouQuote": "以前卷榜单，现在连政策说明书也要卷起来。",
-          "footerTakeaway": "OpenAI补强政策与治理团队，说明前沿AI竞争已延伸到监管、社会信任和组织治理。"
+          "categoryLabel": "美伊协议",
+          "headlineFact": "美伊协议正式生效，油轮重新驶过霍尔木兹海峡",
+          "headlineView": "和平落地的第一条证据，是航道恢复、风险价格回落",
+          "headlineFull": "美伊协议正式生效，油轮重新驶过霍尔木兹海峡；和平落地的第一条证据，是航道恢复、风险价格回落。",
+          "intro": "美国宣布解除对伊朗的封锁，油轮重新通过霍尔木兹海峡，国际油价一度回落至战争爆发前后的低位。不过，伊朗核问题、黎巴嫩局势及协议执行方式仍存在分歧，未来60天谈判才是真正的考验。",
+          "xiaziQuote": "文件写的是承诺，重新流动的船只才是现实。",
+          "doudouQuote": "航道先通了，但和平这艘船还不能关掉雷达。",
+          "footerTakeaway": "协议从签署进入执行，航道恢复和油价回落是第一批可观察信号，但60天谈判仍决定成败。"
         },
         "en-US": {
-          "categoryLabel": "AI and Technology",
-          "headlineFact": "OpenAI hires AI policy scholar Dean Ball",
-          "headlineView": "frontier-model competition is moving from benchmarks to institutional design",
-          "headlineFull": "OpenAI hires AI policy scholar Dean Ball; frontier-model competition is moving from benchmarks to institutional design.",
-          "intro": "Axios reported that AI policy scholar Dean Ball is joining OpenAI to lead a new Strategic Futures unit focused on frontier AI policy and internal governance. The notable signal is not another model launch, but governance, regulator engagement and product boundaries becoming core competitive capabilities.",
-          "xiaziQuote": "The closer AI firms get to infrastructure, the more they need rule-writers at the table.",
-          "doudouQuote": "The leaderboard race now includes policy memos.",
-          "footerTakeaway": "OpenAI's governance hire shows frontier AI competition widening into regulation, trust and institutional design."
+          "categoryLabel": "Middle East",
+          "headlineFact": "The U.S.-Iran agreement has taken effect",
+          "headlineView": "the first proof of peace is ships moving again and risk prices falling back",
+          "headlineFull": "The U.S.-Iran agreement has taken effect; the first proof of peace is ships moving again and risk prices falling back.",
+          "intro": "The agreement has moved from signature to implementation. Tankers have resumed crossing the Strait of Hormuz and oil prices briefly eased, showing the first practical effects. But Iran’s nuclear issue, regional tensions and the next 60 days of talks will decide whether the framework can truly hold.",
+          "xiaziQuote": "A signed document is a promise. Moving ships are reality.",
+          "doudouQuote": "The route is open again, but peace still needs its radar on.",
+          "footerTakeaway": "The agreement has moved into execution; shipping and price signals are the first test, while 60-day talks remain decisive."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000080",
+          "id": "30000000-0000-4000-8000-000000000090",
           "topicId": "20000000-0000-4000-8000-000000000029",
-          "title": "AI scholar Dean Ball says he's heading to OpenAI",
-          "publisher": "Axios",
-          "url": "https://www.axios.com/2026/06/18/dean-ball-openai",
+          "title": "Live Updates: U.S.-Iran deal signing gets more ships moving in Strait of Hormuz",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz/",
           "publishedAt": "2026-06-18T00:00:00Z",
           "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         }
@@ -128,53 +131,53 @@
     {
       "id": "20000000-0000-4000-8000-000000000030",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "amazon-leo-ariane-record-launch",
+      "slug": "ukraine-moscow-refinery-drone-strike",
       "rank": 3,
-      "category": "business",
+      "category": "international",
       "region": "Europe",
       "countryCodes": [
-        "US",
-        "FR"
+        "UA",
+        "RU"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "amazon_leo_ariane6_record_launch_2026",
+      "scoreTotal": 94,
+      "storyId": "ukraine_moscow_refinery_drone_strike_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "商业与资本",
-          "headlineFact": "Amazon Leo借Ariane 6一次发射36颗卫星",
-          "headlineView": "低轨互联网从概念战进入产能战",
-          "headlineFull": "Amazon Leo借Ariane 6一次发射36颗卫星；低轨互联网从概念战进入产能战。",
-          "intro": "Amazon更新称，Leo Europe 3任务6月17日从法属圭亚那发射，一次部署36颗低轨卫星，使其累计已部署367颗航天器。这既是Amazon Leo扩张节点，也是Ariane 6升级助推器商业化能力的一次公开展示。",
-          "xiaziQuote": "卫星互联网的下一关，不是PPT上有多远，而是工厂和火箭能跑多快。",
-          "doudouQuote": "以前抢地盘靠开店，现在连天上轨道都要排队。",
-          "footerTakeaway": "Amazon Leo通过Ariane 6扩大部署规模，低轨通信竞争进入发射节奏、供应链和资本耐力的比拼。"
+          "categoryLabel": "俄乌局势",
+          "headlineFact": "乌克兰无人机再次击中莫斯科炼油厂",
+          "headlineView": "当战争越来越靠近首都，战略压力就很难继续留在前线",
+          "headlineFull": "乌克兰无人机再次击中莫斯科炼油厂；当战争越来越靠近首都，战略压力就很难继续留在前线。",
+          "intro": "乌克兰对莫斯科发动大规模无人机袭击，并再次击中当地炼油设施。俄罗斯称拦截了大量无人机，但袭击仍造成炼油设施停运、机场短暂停航，并加剧俄罗斯国内燃料供应压力。",
+          "xiaziQuote": "战争一旦越过心理边界，距离本身就会成为武器。",
+          "doudouQuote": "以前前线离首都很远，现在无人机正在重新画地图。",
+          "footerTakeaway": "无人机袭击把能源设施、机场运行和国内燃料压力同时拉进俄乌战场。"
         },
         "en-US": {
-          "categoryLabel": "Business and Capital",
-          "headlineFact": "Amazon Leo launches 36 satellites on Ariane 6",
-          "headlineView": "low-Earth-orbit internet is moving from concept wars to capacity wars",
-          "headlineFull": "Amazon Leo launches 36 satellites on Ariane 6; low-Earth-orbit internet is moving from concept wars to capacity wars.",
-          "intro": "Amazon said the Leo Europe 3 mission launched from French Guiana on June 17 and deployed 36 low-Earth-orbit satellites, bringing Amazon Leo to 367 spacecraft deployed. The mission is both a scale-up milestone for Amazon and a commercial proof point for Ariane 6's upgraded boosters.",
-          "xiaziQuote": "The next test for satellite internet is not deck ambition; it is factory and launch cadence.",
-          "doudouQuote": "The land grab has moved from storefronts to orbital slots.",
-          "footerTakeaway": "Amazon Leo's Ariane 6 mission shows LEO broadband competition shifting toward launch cadence, supply chains and capital endurance."
+          "categoryLabel": "Russia-Ukraine",
+          "headlineFact": "Ukrainian drones hit a Moscow refinery again",
+          "headlineView": "once war moves closer to the capital, distance itself becomes a weapon",
+          "headlineFull": "Ukrainian drones hit a Moscow refinery again; once war moves closer to the capital, distance itself becomes a weapon.",
+          "intro": "A new drone strike again hit refinery infrastructure near Moscow. Russia said many drones were intercepted, but the attack still disrupted refinery activity, briefly affected airport operations and added pressure to domestic fuel supply. When the rear area starts feeling front-line risk, strategic pressure changes shape.",
+          "xiaziQuote": "Once war crosses the psychological boundary, distance becomes a weapon of its own.",
+          "doudouQuote": "The map looks different when drones redraw it from the sky.",
+          "footerTakeaway": "The strike pulled energy infrastructure, airport disruption and fuel pressure into the same escalation picture."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000081",
+          "id": "30000000-0000-4000-8000-000000000091",
           "topicId": "20000000-0000-4000-8000-000000000030",
-          "title": "Amazon Leo mission updates: 350+ satellites now in orbit after record Ariane 6 launch",
-          "publisher": "Amazon",
-          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+          "title": "Moscow oil refinery struck in Ukraine drone attack",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/18/moscow-oil-refinery-on-fire-ukraine-drone-stikes",
           "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "official",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -184,54 +187,52 @@
     {
       "id": "20000000-0000-4000-8000-000000000031",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "nato-defence-ministers-ankara-prep",
+      "slug": "apple-intel-us-chip-production",
       "rank": 4,
-      "category": "international",
-      "region": "Europe",
+      "category": "technology",
+      "region": "United States",
       "countryCodes": [
-        "BE",
-        "UA",
-        "TR"
+        "US"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "nato_defence_ministers_ankara_priorities_2026",
+      "scoreTotal": 91,
+      "storyId": "apple_intel_us_chip_production_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "国际政治",
-          "headlineFact": "北约防长会称安卡拉峰会前取得进展",
-          "headlineView": "欧洲安全正在从表态转向预算和兵力清单",
-          "headlineFull": "北约防长会称安卡拉峰会前取得进展；欧洲安全正在从表态转向预算和兵力清单。",
-          "intro": "北约6月18日在布鲁塞尔举行防长会，秘书长吕特称各盟友围绕安卡拉峰会前的优先事项取得进展，重点包括增加且更有效的国防投资、保卫每一寸盟土和继续支持乌克兰。安全焦虑正在变成预算约束。",
-          "xiaziQuote": "地缘政治最后都会落到两张表：钱从哪来，兵放哪儿。",
-          "doudouQuote": "会议公报好写，军费账单才难签。",
-          "footerTakeaway": "北约防长会把乌克兰支持和防务投资推到峰会前台，欧洲安全议程进入更硬的执行阶段。"
+          "categoryLabel": "半导体",
+          "headlineFact": "特朗普称苹果将与英特尔合作在美国设计和制造芯片",
+          "headlineView": "供应链安全正从政治口号，变成真实订单与产能",
+          "headlineFull": "特朗普称苹果将与英特尔合作在美国设计和制造芯片；供应链安全正从政治口号，变成真实订单与产能。",
+          "intro": "特朗普表示，苹果已同意与英特尔合作，在美国开展芯片设计和制造。这一安排尚未得到苹果和英特尔正式确认，但若能落地，将帮助苹果分散制造风险，也可能成为英特尔晶圆代工业务的重要转折点。",
+          "xiaziQuote": "真正的产业回流，不看讲话有多响，要看订单落在哪座工厂。",
+          "doudouQuote": "苹果芯片要是重新遇见英特尔，这次身份可能完全反过来了。",
+          "footerTakeaway": "苹果与英特尔合作若落地，将把美国芯片制造、供应链韧性和代工战略重新连在一起。"
         },
         "en-US": {
-          "categoryLabel": "International Politics",
-          "headlineFact": "NATO defence ministers report progress before the Ankara summit",
-          "headlineView": "European security is moving from statements to budgets and force lists",
-          "headlineFull": "NATO defence ministers report progress before the Ankara summit; European security is moving from statements to budgets and force lists.",
-          "intro": "NATO defence ministers met in Brussels on June 18, with Secretary General Mark Rutte saying allies had made progress on priorities before the Ankara summit: spending more and better, defending every inch of allied territory and sustaining support for Ukraine. Security anxiety is becoming a budget constraint.",
-          "xiaziQuote": "Geopolitics eventually lands on two tables: where the money comes from and where the forces go.",
-          "doudouQuote": "Communiques are easy; defence bills are the hard part.",
-          "footerTakeaway": "NATO's ministerial meeting pushed Ukraine support and defence investment toward the summit agenda, moving European security into a harder execution phase."
+          "categoryLabel": "Semiconductors",
+          "headlineFact": "Trump says Apple may work with Intel on chips in the U.S.",
+          "headlineView": "supply-chain security is turning from slogan into orders and capacity",
+          "headlineFull": "Trump says Apple may work with Intel on chips in the U.S.; supply-chain security is turning from slogan into orders and capacity.",
+          "intro": "Trump said Apple had agreed to work with Intel on chip design and manufacturing in the United States, though neither company had formally confirmed the arrangement at the time. If it materializes, it could diversify Apple’s manufacturing risk and mark a major turning point for Intel’s foundry ambitions.",
+          "xiaziQuote": "Real industrial reshoring is measured by where the orders land, not by how loud the speech sounds.",
+          "doudouQuote": "If Apple meets Intel again, the relationship may look very different this time.",
+          "footerTakeaway": "The reported Apple-Intel arrangement would connect U.S. chipmaking, supply-chain resilience and foundry strategy."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000082",
+          "id": "30000000-0000-4000-8000-000000000092",
           "topicId": "20000000-0000-4000-8000-000000000031",
-          "title": "NATO Defence Ministers make good progress ahead of the Ankara Summit",
-          "publisher": "NATO",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/18/nato-defence-ministers-make-good-progress-ahead-of-the-ankara-summit",
+          "title": "Trump says Apple to work with Intel to manufacture chips in US",
+          "publisher": "Reuters via Yahoo Finance",
+          "url": "https://ca.finance.yahoo.com/news/trump-says-apple-intel-manufacture-044616416.html",
           "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "official",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -241,52 +242,52 @@
     {
       "id": "20000000-0000-4000-8000-000000000032",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "boe-holds-bank-rate-june-2026",
+      "slug": "noam-shazeer-openai",
       "rank": 5,
-      "category": "business",
-      "region": "Europe",
+      "category": "technology",
+      "region": "United States",
       "countryCodes": [
-        "GB"
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 89,
-      "storyId": "boe_holds_bank_rate_energy_uncertainty_2026",
+      "scoreTotal": 92,
+      "storyId": "noam_shazeer_openai_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "全球经济",
-          "headlineFact": "英国央行以7比2维持3.75%利率",
-          "headlineView": "能源冲击退潮了，但通胀警报还没解除",
-          "headlineFull": "英国央行以7比2维持3.75%利率；能源冲击退潮了，但通胀警报还没解除。",
-          "intro": "英国央行6月18日公布，货币政策委员会以7比2维持Bank Rate在3.75%，两名委员主张加息至4%。声明称中东局势后能源价格虽回落但仍高于冲突前，英国CPI为2.8%，政策将继续防止二轮通胀效应固化。",
-          "xiaziQuote": "央行最怕的不是一次涨价，而是大家开始把涨价当成默认设置。",
-          "doudouQuote": "油价刚喘口气，利率还不敢下班。",
-          "footerTakeaway": "英国央行按兵不动，但投票分歧和能源价格波动说明全球通胀周期仍未完全翻篇。"
+          "categoryLabel": "AI人才争夺",
+          "headlineFact": "Gemini联合负责人Noam Shazeer转投OpenAI",
+          "headlineView": "AI竞赛争夺的不只是模型，更是那些能够造出模型的人",
+          "headlineFull": "Gemini联合负责人Noam Shazeer转投OpenAI；AI竞赛争夺的不只是模型，更是那些能够造出模型的人。",
+          "intro": "Google工程副总裁、Gemini模型联合负责人Noam Shazeer宣布离开Google，加入准备上市的OpenAI。他曾参与撰写推动生成式AI浪潮的Transformer论文，也是Google缩小与OpenAI差距的重要人物。",
+          "xiaziQuote": "技术公司的护城河是模型，模型背后的护城河还是人。",
+          "doudouQuote": "AI人才跳一次槽，可能比一家公司发布十次新品更有影响。",
+          "footerTakeaway": "Noam Shazeer转投OpenAI，说明AI竞赛中的关键资产仍是顶尖研究者和工程组织。"
         },
         "en-US": {
-          "categoryLabel": "Global Economy",
-          "headlineFact": "The Bank of England holds Bank Rate at 3.75% by a 7-2 vote",
-          "headlineView": "the energy shock has eased, but the inflation alarm is still on",
-          "headlineFull": "The Bank of England holds Bank Rate at 3.75% by a 7-2 vote; the energy shock has eased, but the inflation alarm is still on.",
-          "intro": "On June 18, the Bank of England said the MPC voted 7-2 to keep Bank Rate at 3.75%, with two members preferring a rise to 4%. It said energy prices had fallen after Middle East developments but remained above pre-conflict levels, while CPI inflation stood at 2.8%.",
-          "xiaziQuote": "Central banks fear not one price jump, but a public that starts treating price jumps as default.",
-          "doudouQuote": "Oil prices took a breather; interest rates still cannot clock out.",
-          "footerTakeaway": "The BoE held steady, but the split vote and energy volatility show the global inflation cycle is not fully over."
+          "categoryLabel": "AI Talent",
+          "headlineFact": "Noam Shazeer leaves Google for OpenAI",
+          "headlineView": "the AI race is not only about models, but about the people who can build them",
+          "headlineFull": "Noam Shazeer leaves Google for OpenAI; the AI race is not only about models, but about the people who can build them.",
+          "intro": "Noam Shazeer, a Gemini co-lead and one of the key figures behind the Transformer paper, is leaving Google to join OpenAI. His move highlights a deeper truth in the AI race: the most strategic assets are often the researchers and builders behind the systems, not just the systems themselves.",
+          "xiaziQuote": "Models may be the moat, but the people behind them are the deeper moat.",
+          "doudouQuote": "One talent move can shake the industry more than ten product launches.",
+          "footerTakeaway": "Noam Shazeer’s move to OpenAI shows that elite researchers and engineering teams remain core AI assets."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000083",
+          "id": "30000000-0000-4000-8000-000000000093",
           "topicId": "20000000-0000-4000-8000-000000000032",
-          "title": "Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes",
-          "publisher": "Bank of England",
-          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026",
+          "title": "Google's Gemini co-lead Noam Shazeer joins OpenAI after two-year return stint",
+          "publisher": "The Decoder",
+          "url": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/",
           "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "official",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -296,52 +297,52 @@
     {
       "id": "20000000-0000-4000-8000-000000000033",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "webb-roasted-exoplanet-hd80606b",
+      "slug": "china-ai-consumption-measures",
       "rank": 6,
-      "category": "science",
-      "region": "Global",
+      "category": "business",
+      "region": "China",
       "countryCodes": [
-        "US"
+        "CN"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 87,
-      "storyId": "webb_hd80606b_extreme_exoplanet_2026",
+      "scoreTotal": 89,
+      "storyId": "china_ai_consumption_measures_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "科学与航天",
-          "headlineFact": "韦布望远镜追踪极端系外行星被恒星炙烤",
-          "headlineView": "理解遥远天气，也是理解行星命运",
-          "headlineFull": "韦布望远镜追踪极端系外行星被恒星炙烤；理解遥远天气，也是理解行星命运。",
-          "intro": "NASA发布称，詹姆斯・韦布空间望远镜观测HD 80606 b，这颗极端系外行星沿高度椭圆轨道接近母星时会急剧升温。研究团队借助中红外观测追踪其大气变化，为理解强辐射下行星气候和化学提供新线索。",
-          "xiaziQuote": "看一颗遥远行星如何被烤热，其实是在补地球气候学的另一块拼图。",
-          "doudouQuote": "别人的天气预报是晴转多云，它是靠近恒星转烧烤模式。",
-          "footerTakeaway": "韦布对HD 80606 b的观测扩大了人类研究极端行星气候和大气化学的样本。"
+          "categoryLabel": "中国AI消费",
+          "headlineFact": "中国发布17项AI促消费措施",
+          "headlineView": "AI的下一阶段，不是增加一个聊天框，而是进入家庭、零售和生活服务",
+          "headlineFull": "中国发布17项AI促消费措施；AI的下一阶段，不是增加一个聊天框，而是进入家庭、零售和生活服务。",
+          "intro": "中国商务部门提出17项措施，推动AI与商品及服务消费融合，包括智能消费电子、人形机器人、零售、公共服务与生活服务。政策重点正从训练更强的模型，转向让AI真正进入消费场景。",
+          "xiaziQuote": "技术只有进入生活，才会从能力变成生产力。",
+          "doudouQuote": "以前大家问AI能做什么，以后要问它能不能把生活做顺一点。",
+          "footerTakeaway": "17项措施把AI从模型训练推向消费电子、机器人、零售和生活服务场景。"
         },
         "en-US": {
-          "categoryLabel": "Science and Space",
-          "headlineFact": "Webb tracks an extreme exoplanet being roasted by its star",
-          "headlineView": "understanding distant weather also helps us understand planetary fate",
-          "headlineFull": "Webb tracks an extreme exoplanet being roasted by its star; understanding distant weather also helps us understand planetary fate.",
-          "intro": "NASA said the James Webb Space Telescope observed HD 80606 b, an extreme exoplanet that heats sharply as its highly elliptical orbit brings it close to its host star. Mid-infrared observations helped researchers track atmospheric changes under intense radiation.",
-          "xiaziQuote": "Watching a distant planet get heated is another piece in the climate puzzle.",
-          "doudouQuote": "Our forecasts say sunny or cloudy; its forecast says entering roast mode.",
-          "footerTakeaway": "Webb's HD 80606 b observations expand the sample for studying extreme planetary climate and atmospheric chemistry."
+          "categoryLabel": "China AI",
+          "headlineFact": "China rolls out 17 measures to boost AI consumption",
+          "headlineView": "the next stage of AI is not another chat box, but entering homes, retail and daily life",
+          "headlineFull": "China rolls out 17 measures to boost AI consumption; the next stage of AI is not another chat box, but entering homes, retail and daily life.",
+          "intro": "Chinese authorities released 17 measures to accelerate the integration of AI into goods and services, covering smart consumer electronics, humanoid robots, retail, public services and life services. The policy focus is shifting from training stronger models to helping AI reach real consumer scenarios.",
+          "xiaziQuote": "Technology becomes productivity only after it enters everyday life.",
+          "doudouQuote": "The next question is not what AI can say, but whether it can make life run more smoothly.",
+          "footerTakeaway": "The measures push AI toward consumer electronics, robots, retail and life services."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000084",
+          "id": "30000000-0000-4000-8000-000000000094",
           "topicId": "20000000-0000-4000-8000-000000000033",
-          "title": "NASA's Webb Catches Exoplanet Getting Roasted",
-          "publisher": "NASA",
-          "url": "https://science.nasa.gov/missions/webb/nasas-webb-catches-exoplanet-getting-roasted/",
-          "publishedAt": "2026-06-16T00:00:00Z",
-          "sourceType": "official",
+          "title": "China announces measures to promote AI integration with consumption",
+          "publisher": "Reuters via AsiaOne",
+          "url": "https://www.asiaone.com/china/china-announces-measures-promote-ai-integration-consumption",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -351,52 +352,52 @@
     {
       "id": "20000000-0000-4000-8000-000000000034",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "unhcr-global-trends-2025",
+      "slug": "cuba-economic-reform",
       "rank": 7,
-      "category": "culture",
-      "region": "Global",
+      "category": "business",
+      "region": "Latin America",
       "countryCodes": [
-        "UN"
+        "CU"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 88,
-      "storyId": "unhcr_global_trends_displacement_2025_report_2026",
+      "storyId": "cuba_economic_reform_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "社会与文化",
-          "headlineFact": "UNHCR发布全球流离失所趋势报告",
-          "headlineView": "难民数字下降一点，不等于世界更安稳了",
-          "headlineFull": "UNHCR发布全球流离失所趋势报告；难民数字下降一点，不等于世界更安稳了。",
-          "intro": "UNHCR最新Global Trends显示，2025年底全球难民人口小幅下降3%至3560万人，其中包括2850万UNHCR职责范围内难民和720万其他需国际保护者。数字回落背后，回返、冲突变化和收容国压力仍交织在一起。",
-          "xiaziQuote": "人道数据最容易被误读：少一点，不代表轻一点。",
-          "doudouQuote": "表格往下掉了一格，人的行李箱可没变轻多少。",
-          "footerTakeaway": "UNHCR报告显示全球难民人口略降，但强迫迁徙问题仍由冲突、回返和保护缺口共同决定。"
+          "categoryLabel": "古巴经济改革",
+          "headlineFact": "古巴提出革命以来规模最大的经济改革之一",
+          "headlineView": "制度的转身，往往不是观念先改变，而是现实先逼到墙角",
+          "headlineFull": "古巴提出革命以来规模最大的经济改革之一；制度的转身，往往不是观念先改变，而是现实先逼到墙角。",
+          "intro": "古巴政府向议会提交大规模改革方案，涉及私人房地产开发、国有企业股份化、私人银行及减少民营企业审批限制。相关措施仍需立法批准，但如果实施，将成为古巴数十年来最重大的市场化转向。",
+          "xiaziQuote": "制度不是不能改变，只是改变通常需要现实支付足够高的学费。",
+          "doudouQuote": "当旧办法走不通，连最厚的墙也会开始寻找一扇门。",
+          "footerTakeaway": "古巴改革方案若获通过，将触及房地产、国企、银行和民营审批等关键制度边界。"
         },
         "en-US": {
-          "categoryLabel": "Society and Culture",
-          "headlineFact": "UNHCR releases its latest Global Trends report",
-          "headlineView": "a slight fall in refugee numbers does not mean the world is safer",
-          "headlineFull": "UNHCR releases its latest Global Trends report; a slight fall in refugee numbers does not mean the world is safer.",
-          "intro": "UNHCR's latest Global Trends report says the global refugee population fell slightly by 3% to 35.6 million at the end of 2025, including 28.5 million refugees under UNHCR's mandate and 7.2 million other people needing international protection.",
-          "xiaziQuote": "Humanitarian data is easy to misread: a smaller number is not always a lighter burden.",
-          "doudouQuote": "The spreadsheet fell a row; the suitcase did not get much lighter.",
-          "footerTakeaway": "UNHCR's report shows refugee numbers easing slightly, while forced displacement remains shaped by conflict, returns and protection gaps."
+          "categoryLabel": "Cuba Reform",
+          "headlineFact": "Cuba proposes one of its biggest economic reforms in decades",
+          "headlineView": "systems often turn not because ideas change first, but because reality forces the turn",
+          "headlineFull": "Cuba proposes one of its biggest economic reforms in decades; systems often turn not because ideas change first, but because reality forces the turn.",
+          "intro": "Cuba submitted a broad reform package touching private real-estate development, state-enterprise shareholding, private banking and fewer approval barriers for private business. The measures still require legislation, but if adopted they would mark one of the country’s most significant market-oriented shifts in decades.",
+          "xiaziQuote": "Institutions can change. Reality simply has to charge enough tuition first.",
+          "doudouQuote": "When the old road stops working, even the thickest wall starts looking for a door.",
+          "footerTakeaway": "The proposal would push Cuba toward broader private activity in property, banking and enterprise reform."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000085",
+          "id": "30000000-0000-4000-8000-000000000095",
           "topicId": "20000000-0000-4000-8000-000000000034",
-          "title": "Global Trends",
-          "publisher": "UNHCR",
-          "url": "https://www.unhcr.org/global-trends",
-          "publishedAt": "2026-06-11T00:00:00Z",
-          "sourceType": "official",
+          "title": "What to know about Cuba's economic measures aimed at opening up the island's economy",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/758f2199c867472e05e585ccc54a269f",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -406,56 +407,52 @@
     {
       "id": "20000000-0000-4000-8000-000000000035",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "wmo-africa-extreme-weather-2025",
+      "slug": "uae-social-media-age-15",
       "rank": 8,
-      "category": "climate",
-      "region": "Africa",
+      "category": "culture",
+      "region": "Middle East",
       "countryCodes": [
-        "ZA",
-        "KE",
-        "NG",
-        "ET",
-        "UN"
+        "AE"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "wmo_africa_extreme_weather_2025_report_2026",
+      "scoreTotal": 86,
+      "storyId": "uae_social_media_age_15_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "环境与气候",
-          "headlineFact": "WMO称非洲极端天气和气候事件影响数百万人",
-          "headlineView": "气候风险最先变成生活账单",
-          "headlineFull": "WMO称非洲极端天气和气候事件影响数百万人；气候风险最先变成生活账单。",
-          "intro": "世界气象组织6月18日将非洲2025年极端天气与气候事件列为最新重点，强调热浪、强降雨、干旱和相关灾害对数百万人造成影响。气候变化不是远方曲线，首先会落在粮价、迁徙、基础设施和公共卫生上。",
-          "xiaziQuote": "气候问题最现实的地方，是它从来不只停在天气预报里。",
-          "doudouQuote": "地球发烧，最后买药的常常是最没空生病的人。",
-          "footerTakeaway": "WMO非洲气候信息提醒，极端天气正在把气候风险转化为粮食、安全和公共服务压力。"
+          "categoryLabel": "未成年人网络保护",
+          "headlineFact": "阿联酋将社交媒体最低使用年龄设为15岁",
+          "headlineView": "数字治理正从提醒家长，走向要求平台证明用户年龄",
+          "headlineFull": "阿联酋将社交媒体最低使用年龄设为15岁；数字治理正从提醒家长，走向要求平台证明用户年龄。",
+          "intro": "阿联酋宣布，未满15岁不得建立或管理社交媒体账号，并要求平台采取数字身份和技术手段验证年龄，而不能仅依赖用户自行填写。阿联酋也成为首个推出此类全国限制的阿拉伯国家。",
+          "xiaziQuote": "保护未成年人，不能只靠一句“请在家长指导下使用”。",
+          "doudouQuote": "平台以前问“你满18岁了吗”，以后可能真的要看证据。",
+          "footerTakeaway": "阿联酋把未成年人网络保护推进到平台年龄验证和数字身份责任层面。"
         },
         "en-US": {
-          "categoryLabel": "Environment and Climate",
-          "headlineFact": "WMO says extreme weather and climate events affected millions in Africa",
-          "headlineView": "climate risk first becomes a household bill",
-          "headlineFull": "WMO says extreme weather and climate events affected millions in Africa; climate risk first becomes a household bill.",
-          "intro": "On June 18, the World Meteorological Organization highlighted extreme weather and climate events in Africa in 2025, stressing the impact of heat, heavy rainfall, drought and related hazards on millions of people. Climate change lands first in food prices, migration, infrastructure and public health.",
-          "xiaziQuote": "The practical part of climate risk is that it never stays inside the forecast.",
-          "doudouQuote": "When the planet runs a fever, the medicine bill often goes to those with the least time to be sick.",
-          "footerTakeaway": "WMO's Africa update shows extreme weather turning climate risk into food, security and public-service pressure."
+          "categoryLabel": "Youth Safety",
+          "headlineFact": "The UAE sets the minimum social-media age at 15",
+          "headlineView": "digital governance is moving from reminding parents to requiring platforms to verify age",
+          "headlineFull": "The UAE sets the minimum social-media age at 15; digital governance is moving from reminding parents to requiring platforms to verify age.",
+          "intro": "The UAE announced that children under 15 may not create or manage social-media accounts, and that platforms must use identity and technical tools for age verification rather than relying only on self-reported birthdays. It becomes a notable regional example of stricter youth online protection.",
+          "xiaziQuote": "Protecting minors cannot depend on a one-line warning and good luck.",
+          "doudouQuote": "Platforms used to ask if you were old enough. Now they may have to prove it.",
+          "footerTakeaway": "The UAE rule moves youth online protection toward enforceable platform age verification."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000086",
+          "id": "30000000-0000-4000-8000-000000000096",
           "topicId": "20000000-0000-4000-8000-000000000035",
-          "title": "Extreme weather and climate events impact millions in Africa in 2025",
-          "publisher": "World Meteorological Organization",
-          "url": "https://wmo.int/news",
+          "title": "UAE first Arab nation to ban under-15s from using social media",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/news/uae/2026/06/18/uae-sets-15-as-the-minimum-age-to-use-social-media/",
           "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "official",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -465,53 +462,53 @@
     {
       "id": "20000000-0000-4000-8000-000000000036",
       "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "who-drinking-water-quality-guidelines-addendum",
+      "slug": "spacex-ai-bond-offering",
       "rank": 9,
-      "category": "science",
-      "region": "Global",
+      "category": "business",
+      "region": "United States",
       "countryCodes": [
-        "UN"
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 86,
-      "storyId": "who_drinking_water_quality_guidelines_addendum_2026",
+      "scoreTotal": 90,
+      "storyId": "spacex_ai_bond_offering_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "编辑精选",
-          "headlineFact": "WHO更新饮用水质量指南补编",
-          "headlineView": "公共卫生的底层能力，常常藏在一杯水里",
-          "headlineFull": "WHO更新饮用水质量指南补编；公共卫生的底层能力，常常藏在一杯水里。",
-          "intro": "WHO新闻室6月18日列出饮用水质量指南第三份补编。它不像战争、利率或世界杯那样抓眼球，却关系到供水系统、检测标准和基层健康风险管理。真正的现代化，往往从最普通的水龙头开始。",
-          "xiaziQuote": "公共卫生的高级题，常常先要把基础题做对。",
-          "doudouQuote": "热搜不爱讲水质，但肚子会诚实投票。",
-          "footerTakeaway": "WHO更新饮用水指南补编，提醒公共卫生安全依赖长期、细碎但关键的标准建设。"
+          "categoryLabel": "SpaceX与AI资本",
+          "headlineFact": "SpaceX筹备至少200亿美元债券发行",
+          "headlineView": "当火箭公司同时押注AI，资本需求也会像算力一样迅速膨胀",
+          "headlineFull": "SpaceX筹备至少200亿美元债券发行；当火箭公司同时押注AI，资本需求也会像算力一样迅速膨胀。",
+          "intro": "知情人士称，SpaceX的银行团队正准备与投资者讨论至少200亿美元的债券发行，用于为数据中心、计算设备和电力基础设施融资，并置换收购xAI后产生的过桥贷款。发行规模仍可能调整。",
+          "xiaziQuote": "宏大的技术叙事，最后都要回到现金流与融资成本。",
+          "doudouQuote": "火箭烧燃料，AI烧算力，现在两边一起烧钱了。",
+          "footerTakeaway": "SpaceX潜在债券发行显示火箭、AI、数据中心和电力基础设施正在变成同一张资本开支表。"
         },
         "en-US": {
-          "categoryLabel": "Editor's Pick",
-          "headlineFact": "WHO updates its drinking-water quality guidelines",
-          "headlineView": "public health capacity often hides in a glass of water",
-          "headlineFull": "WHO updates its drinking-water quality guidelines; public health capacity often hides in a glass of water.",
-          "intro": "WHO's newsroom listed a third addendum to its Guidelines for drinking-water quality on June 18. It is less eye-catching than war, rates or the World Cup, but it touches water systems, testing standards and local health-risk management. Modernization often begins at the ordinary tap.",
-          "xiaziQuote": "Advanced public health starts by getting the basics right.",
-          "doudouQuote": "Water quality rarely trends, but stomachs vote honestly.",
-          "footerTakeaway": "WHO's drinking-water addendum shows public health safety depends on long, detailed and essential standards work."
+          "categoryLabel": "Space and AI Capital",
+          "headlineFact": "SpaceX prepares a bond deal of at least $20 billion",
+          "headlineView": "when a rocket company also bets on AI, capital needs expand as fast as compute",
+          "headlineFull": "SpaceX prepares a bond deal of at least $20 billion; when a rocket company also bets on AI, capital needs expand as fast as compute.",
+          "intro": "Bankers are reportedly preparing investor discussions for a potential bond issue of at least $20 billion to help fund data centers, compute equipment and power infrastructure, and to refinance bridge debt related to the xAI deal. The exact size may still change, but the direction is clear: rockets and AI are both capital-intensive futures.",
+          "xiaziQuote": "Grand technology stories always return to cash flow and financing cost.",
+          "doudouQuote": "Rockets burn fuel, AI burns compute, and now both are burning capital together.",
+          "footerTakeaway": "The prospective bond deal ties rockets, AI, data centers and power infrastructure into one capital-spending story."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000087",
+          "id": "30000000-0000-4000-8000-000000000097",
           "topicId": "20000000-0000-4000-8000-000000000036",
-          "title": "WHO unveils third addendum to Guidelines for drinking-water quality",
-          "publisher": "World Health Organization",
-          "url": "https://www.who.int/news/item/18-06-2026-who-unveils-third-addendum-to-guidelines-for-drinking-water-quality",
+          "title": "SpaceX's epic fundraising campaign for AI has only just begun",
+          "publisher": "Los Angeles Times / Bloomberg",
+          "url": "https://www.latimes.com/business/story/2026-06-18/spacexs-epic-fundraising-campaign-for-ai-has-only-just-begun",
           "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
+          "sourceType": "publisher",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
         }
