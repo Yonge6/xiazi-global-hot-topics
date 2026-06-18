@@ -422,7 +422,7 @@ export function StudioEditor() {
             <figcaption>英文海报预览</figcaption>
           </figure>
         </div>
-        <div className="studio-upload"><label>替换中文海报<input aria-label="替换中文海报" type="file" accept="image/png" onChange={(e) => e.target.files?.[0] && uploadPoster(e.target.files[0], "zh")} /></label><label>替换英文海报<input aria-label="替换英文海报" type="file" accept="image/png" onChange={(e) => e.target.files?.[0] && uploadPoster(e.target.files[0], "en")} /></label></div>
+        <div className="studio-upload"><label>替换中文海报<input aria-label="替换中文海报" type="file" accept="image/png,image/jpeg" onChange={(e) => e.target.files?.[0] && uploadPoster(e.target.files[0], "zh")} /></label><label>替换英文海报<input aria-label="替换英文海报" type="file" accept="image/png,image/jpeg" onChange={(e) => e.target.files?.[0] && uploadPoster(e.target.files[0], "en")} /></label></div>
       </section>
       </>
       )}
