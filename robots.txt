@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/admin/
+Disallow: /zh/admin/
+Disallow: /en/admin/
+
+Sitemap: https://pluto.hk/sitemap.xml
