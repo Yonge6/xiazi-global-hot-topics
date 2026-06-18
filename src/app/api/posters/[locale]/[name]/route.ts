@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 
+import { githubRepo } from "@/lib/github/repo";
 import { POSTER_ASSET_NAMES } from "@/lib/posters/assets";
 
-const repo = "Yonge6/vilesaint";
+const repo = githubRepo;
 const locales = new Set(["zh", "en"]);
 const posterNames = new Set<string>(POSTER_ASSET_NAMES);
 

@@ -4,7 +4,7 @@ import path from "node:path";
 const issuePath = path.resolve(process.argv[2] || "data/current-issue.json");
 const issue = JSON.parse(await readFile(issuePath, "utf8"));
 const token = process.env.GITHUB_STUDIO_TOKEN;
-const repo = process.env.GITHUB_REPO || "Yonge6/vilesaint";
+const repo = process.env.GITHUB_REPO || "Yonge6/xiazi-global-hot-topics";
 
 if (!token) throw new Error("GITHUB_STUDIO_TOKEN is required");
 if (!/^\d{4}-\d{2}-\d{2}$/.test(issue.issueDate || "")) {

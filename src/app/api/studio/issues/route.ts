@@ -4,10 +4,11 @@ import path from "node:path";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
+import { githubRepo } from "@/lib/github/repo";
 import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
 import type { Issue } from "@/types/content";
 
-const repo = "Yonge6/vilesaint";
+const repo = githubRepo;
 const dataRoot = path.join(process.cwd(), "data");
 
 async function github(path: string, accept = "application/vnd.github+json") {

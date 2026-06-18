@@ -1,10 +1,11 @@
 import { NextResponse } from "next/server";
 
 import fallbackIssue from "@/data/current-issue.json";
+import { githubRepo } from "@/lib/github/repo";
 
 const contentUrl =
-  "https://api.github.com/repos/Yonge6/vilesaint/contents/data/current-issue.json";
-const commitUrl = "https://api.github.com/repos/Yonge6/vilesaint/commits/main";
+  `https://api.github.com/repos/${githubRepo}/contents/data/current-issue.json`;
+const commitUrl = `https://api.github.com/repos/${githubRepo}/commits/main`;
 
 export const dynamic = "force-dynamic";
 

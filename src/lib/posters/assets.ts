@@ -17,6 +17,15 @@ export const POSTER_ASSET_NAMES = [
   "us-iran-peace-signing",
   "softbank-openai-cybersecurity",
   "yum-sells-pizza-hut",
+  "world-cup-messi-record",
+  "us-iran-mou-signed",
+  "fed-warsh-rate-signal",
+  "g7-critical-minerals-alliance",
+  "paramount-wbd-china-clearance",
+  "china-employment-five-year-plan",
+  "ai-drone-wingmen-production",
+  "congo-ebola-response-strained",
+  "un-hunger-hotspots-warning",
 ] as const;
 
 export const posterNames: Record<string, string> = {
@@ -63,7 +72,7 @@ export function getArchivedPosterAsset(
   const extension = variant === "thumbnail" ? "webp" : "png";
   const folder = variant === "thumbnail" ? "thumb/" : "";
   const query = cacheKey === undefined ? "" : `?v=${encodeURIComponent(String(cacheKey))}`;
-  return getCosAsset(`archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}`) + query;
+  return `/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}${query}`;
 }
 
 export function getPosterAsset(

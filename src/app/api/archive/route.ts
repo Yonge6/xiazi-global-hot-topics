@@ -3,9 +3,10 @@ import path from "node:path";
 
 import { NextResponse } from "next/server";
 
+import { githubRepo } from "@/lib/github/repo";
 import type { Issue } from "@/types/content";
 
-const repo = "Yonge6/vilesaint";
+const repo = githubRepo;
 
 async function github(path: string, accept = "application/vnd.github+json") {
   const token = process.env.GITHUB_STUDIO_TOKEN;
