@@ -16,13 +16,13 @@
       "category": "sports",
       "region": "North America",
       "countryCodes": [
-        "HT",
-        "GB"
+        "DE",
+        "CW"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
+      "scoreTotal": 96,
       "storyId": "world_cup_global_stage",
       "storyStatus": "new",
       "followupDay": 1,
@@ -30,144 +30,34 @@
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "苏格兰 1:0 击败海地",
-          "headlineView": "等待 36 年的胜利，提醒世界足球从不缺少迟到的故事",
-          "headlineFull": "苏格兰 1:0 击败海地；等待 36 年的胜利，提醒世界足球从不缺少迟到的故事",
-          "intro": "苏格兰凭借约翰·麦金的进球以 1:0 战胜海地，取得自 1990 年以来首场世界杯胜利。比分并不夸张，意义却足够沉重：漫长缺席、几代球迷的等待和一场艰难零封，都让这次回归成为世界杯最有人情味的开场之一。",
-          "xiaziQuote": "真正珍贵的胜利，往往背着很长的时间。",
-          "doudouQuote": "等了 36 年，庆祝久一点不过分。",
-          "footerTakeaway": "世界杯记录比分，也替一代人偿还等待。"
+          "headlineFact": "德国7:1大胜库拉索",
+          "headlineView": "强队的第一场，不只要赢，更要建立威慑",
+          "headlineFull": "德国7:1大胜库拉索；强队的第一场，不只要赢，更要建立威慑。",
+          "intro": "德国在世界杯小组赛首战中以7:1击败首次参赛的库拉索，哈弗茨梅开二度，多名球员取得进球。库拉索虽然遭遇大比分失利，但也攻入队史首粒世界杯进球。德国展示了进攻厚度，也提前向其他争冠球队发出了强烈信号。",
+          "xiaziQuote": "强队第一战，赢球是结果，立威才是战略。",
+          "doudouQuote": "七个球不是热身，这是先把气势拉满了。",
+          "footerTakeaway": "强队的第一场，不只要赢，更要建立威慑"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Scotland beat Haiti 1-0",
-          "headlineView": "a victory 36 years in the making proves football never runs out of late stories",
-          "headlineFull": "Scotland beat Haiti 1-0; a victory 36 years in the making proves football never runs out of late stories",
-          "intro": "John McGinn's goal gave Scotland a 1-0 win over Haiti and their first World Cup victory since 1990. The score was narrow, but the meaning was enormous: decades away, generations of waiting and a hard-earned clean sheet turned this return into one of the tournament's most human opening chapters.",
-          "xiaziQuote": "The most valuable victories often carry the longest history.",
-          "doudouQuote": "After waiting 36 years, celebrate for more than 90 minutes.",
-          "footerTakeaway": "The World Cup records scores and repays generations of waiting."
+          "headlineFact": "Germany beat Curaçao 7–1",
+          "headlineView": "opening matches are not only for winning, but for sending a warning",
+          "headlineFull": "Germany beat Curaçao 7–1; opening matches are not only for winning, but for sending a warning.",
+          "intro": "Germany opened its World Cup campaign with a commanding 7–1 victory over debutants Curaçao. Kai Havertz scored twice, while several German players found the net. Curaçao suffered a heavy defeat but still celebrated the first World Cup goal in the nation’s history. Germany demonstrated depth, efficiency and attacking power, sending an early message to its title rivals.",
+          "xiaziQuote": "Great teams do not merely collect points. They establish pressure.",
+          "doudouQuote": "Seven goals in game one? That is not a warm-up. That is a warning.",
+          "footerTakeaway": "opening matches are not only for winning, but for sending a warning"
         }
       },
       "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000001",
           "topicId": "20000000-0000-4000-8000-000000000001",
-          "title": "Scotland v Haiti result",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+          "title": "Germany’s 7–1 win over Curaçao",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/germany-crush-debutants-curacao-7-1-world-cup-group-e-opener-2026-06-14/",
           "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000002",
-      "issueId": "10000000-0000-4000-8000-000000000002",
-      "slug": "ai-governance-crossroads",
-      "rank": 2,
-      "category": "technology",
-      "region": "Global",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "ai_governance_crossroads",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "AI 与科技",
-          "headlineFact": "Anthropic 暂停外国用户访问 Fable 5 与 Mythos 5",
-          "headlineView": "最强模型越接近基础设施，使用权就越像地缘政治",
-          "headlineFull": "Anthropic 暂停外国用户访问 Fable 5 与 Mythos 5；最强模型越接近基础设施，使用权就越像地缘政治",
-          "intro": "Anthropic 表示，美国政府以国家安全为由要求暂停所有外国公民访问 Fable 5 与 Mythos 5，公司因此突然关闭相关服务。事件说明前沿 AI 已不只是产品竞争：模型能力、出口管制、人员身份和跨境服务正在被同一套权力逻辑重新划线。",
-          "xiaziQuote": "技术越像基础设施，边界就越由制度决定。",
-          "doudouQuote": "AI 越来越聪明，人类越来越看不懂使用条款。",
-          "footerTakeaway": "前沿模型的竞争，已经进入技术与主权交叉地带。"
-        },
-        "en-US": {
-          "categoryLabel": "AI & Technology",
-          "headlineFact": "Anthropic suspends foreign access to Fable 5 and Mythos 5",
-          "headlineView": "the closer frontier models get to infrastructure, the more access resembles geopolitics",
-          "headlineFull": "Anthropic suspends foreign access to Fable 5 and Mythos 5; the closer frontier models get to infrastructure, the more access resembles geopolitics",
-          "intro": "Anthropic says a U.S. national-security directive forced it to suspend access to Fable 5 and Mythos 5 for all foreign nationals. The episode shows that frontier AI is no longer only a product race: capability, export controls, identity and cross-border service are being redrawn by the same political logic.",
-          "xiaziQuote": "As technology becomes infrastructure, institutions decide its borders.",
-          "doudouQuote": "AI gets smarter while the terms of service become unreadable.",
-          "footerTakeaway": "Frontier AI now sits where technology and sovereignty collide."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000002",
-          "topicId": "20000000-0000-4000-8000-000000000002",
-          "title": "Statement on access suspension",
-          "publisher": "Anthropic",
-          "url": "https://www.anthropic.com/news/fable-mythos-access",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000003",
-      "issueId": "10000000-0000-4000-8000-000000000002",
-      "slug": "trade-routes-rewired",
-      "rank": 3,
-      "category": "business",
-      "region": "United States",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "trade_routes_rewired",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "商业与资本",
-          "headlineFact": "OpenAI 秘密提交 IPO 注册草案",
-          "headlineView": "AI 的估值神话，终于要接受公开市场的审问",
-          "headlineFull": "OpenAI 秘密提交 IPO 注册草案；AI 的估值神话，终于要接受公开市场的审问",
-          "intro": "OpenAI 宣布已向美国证监会秘密提交 S-1 注册草案，为潜在上市迈出正式一步。公开市场不仅会衡量模型能力，也会追问收入、算力成本、治理结构和长期现金流。AI 可以制造宏大想象，但上市会把所有想象翻译成可核验的数字。",
-          "xiaziQuote": "资本市场的价值，是把愿景放进统一坐标系。",
-          "doudouQuote": "模型会推理，估值也得会。",
-          "footerTakeaway": "AI 巨头从实验室走向公开市场，透明度将成为新能力。"
-        },
-        "en-US": {
-          "categoryLabel": "Business & Capital",
-          "headlineFact": "OpenAI confidentially submits a draft S-1",
-          "headlineView": "AI's valuation story is finally heading for a public-market examination",
-          "headlineFull": "OpenAI confidentially submits a draft S-1; AI's valuation story is finally heading for a public-market examination",
-          "intro": "OpenAI has confidentially submitted a draft S-1 registration statement to the U.S. SEC, taking a formal step toward a possible listing. Public markets will test more than model quality: revenue, compute costs, governance and durable cash flow will all face scrutiny. Imagination now needs auditable numbers.",
-          "xiaziQuote": "Markets place grand visions inside a common coordinate system.",
-          "doudouQuote": "The model can reason. The valuation had better learn.",
-          "footerTakeaway": "As AI labs approach public markets, transparency becomes a capability."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000003",
-          "topicId": "20000000-0000-4000-8000-000000000003",
-          "title": "Confidential submission of draft S-1",
-          "publisher": "OpenAI",
-          "url": "https://openai.com/index/openai-submits-confidential-s-1/",
-          "publishedAt": null,
-          "sourceType": "official",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -178,7 +68,7 @@
       "id": "20000000-0000-4000-8000-000000000004",
       "issueId": "10000000-0000-4000-8000-000000000002",
       "slug": "energy-transition-grid",
-      "rank": 4,
+      "rank": 2,
       "category": "international",
       "region": "Europe",
       "countryCodes": [
@@ -189,40 +79,110 @@
       "verificationStatus": "verified",
       "scoreTotal": 91,
       "storyId": "energy_transition_grid",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "国际政治",
-          "headlineFact": "G7 埃维昂峰会今日开幕",
-          "headlineView": "桌上谈合作，桌下仍在计算战争、能源与技术筹码",
-          "headlineFull": "G7 埃维昂峰会今日开幕；桌上谈合作，桌下仍在计算战争、能源与技术筹码",
-          "intro": "法国于 6 月 15 日至 17 日在埃维昂主持 G7 峰会，乌克兰、中东、全球失衡、人工智能与经济安全将成为核心议题。多边会议的真正价值不在合影和公报，而在成员能否把不同的国内压力交换成可执行的共同动作。",
-          "xiaziQuote": "峰会的含金量，要看共识能否穿过各国边界。",
-          "doudouQuote": "合影站位很整齐，利益从来不排队。",
-          "footerTakeaway": "全球合作最难的不是表达一致，而是承担成本。"
+          "categoryLabel": "G7峰会",
+          "headlineFact": "G7埃维昂峰会将于今日开幕",
+          "headlineView": "议题越来越多，共识却越来越昂贵",
+          "headlineFull": "G7埃维昂峰会将于今日开幕；议题越来越多，共识却越来越昂贵。",
+          "intro": "G7领导人将于6月15日至17日在法国埃维昂举行峰会，乌克兰、中东、贸易、经济安全、关键矿产和AI治理预计成为重点议题。峰会前夕，附近地区已经出现抗议活动。会议讨论的问题越来越多，但主要国家达成真正共识的难度也在不断提高。",
+          "xiaziQuote": "峰会真正稀缺的，不是议题，而是共识。",
+          "doudouQuote": "会议桌越来越大，大家能同意的事情却越来越少。",
+          "footerTakeaway": "议题越来越多，共识却越来越昂贵"
         },
         "en-US": {
-          "categoryLabel": "International Politics",
-          "headlineFact": "The G7 Evian summit opens today",
-          "headlineView": "cooperation is on the table while war, energy and technology remain the leverage underneath",
-          "headlineFull": "The G7 Evian summit opens today; cooperation is on the table while war, energy and technology remain the leverage underneath",
-          "intro": "France hosts G7 leaders in Evian from June 15 to 17, with Ukraine, the Middle East, global imbalances, AI and economic security high on the agenda. The summit's value will not be measured by photographs or communiqués, but by whether different domestic pressures can become executable joint action.",
-          "xiaziQuote": "A summit matters when consensus can cross national borders.",
-          "doudouQuote": "The photo line is orderly. Interests never are.",
-          "footerTakeaway": "The hardest part of cooperation is agreeing who pays its cost."
+          "categoryLabel": "G7 Summit",
+          "headlineFact": "The G7 summit opens in Évian today",
+          "headlineView": "the broader the agenda, the more expensive consensus becomes",
+          "headlineFull": "The G7 summit opens in Évian today; the broader the agenda, the more expensive consensus becomes.",
+          "intro": "G7 leaders are gathering in Évian, France, from June 15 to 17. Ukraine, the Middle East, trade, economic security, critical minerals and AI governance are expected to dominate the agenda. Protests have already taken place nearby. The summit reflects a difficult reality: the list of global problems continues to grow, while meaningful agreement among major powers becomes harder to achieve.",
+          "xiaziQuote": "What global summits lack most is not an agenda, but consensus.",
+          "doudouQuote": "The table keeps getting bigger, while the list of shared answers keeps getting smaller.",
+          "footerTakeaway": "the broader the agenda, the more expensive consensus becomes"
         }
       },
       "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000004",
           "topicId": "20000000-0000-4000-8000-000000000004",
-          "title": "G7 summit, Evian, 15-17 June 2026",
+          "title": "G7 Évian 2026",
+          "publisher": "Élysée Palace",
+          "url": "https://www.elysee.fr/en/G7evian",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000202",
+          "topicId": "20000000-0000-4000-8000-000000000004",
+          "title": "G7 Summit Agenda",
           "publisher": "European Council",
           "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/06/15-17/",
           "publishedAt": null,
           "sourceType": "official",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000003",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "trade-routes-rewired",
+      "rank": 3,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IR",
+        "IL",
+        "LB",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "trade_routes_rewired",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中东局势",
+          "headlineFact": "美国称伊朗协议接近达成，以色列却空袭贝鲁特",
+          "headlineView": "和平最怕下一声爆炸",
+          "headlineFull": "美国称伊朗协议接近达成，以色列却空袭贝鲁特；和平最怕下一声爆炸。",
+          "intro": "美国方面表示，与伊朗达成协议的距离正在缩小，但以色列随后对贝鲁特的真主党目标发动空袭。外交谈判与军事行动同时推进，让本已脆弱的和平窗口变得更加不确定。越接近协议，各方越需要防止一次意外行动让局势重新失控。",
+          "xiaziQuote": "真正脆弱的，从来不是谈判桌，而是桌外的火光。",
+          "doudouQuote": "都说快谈成了，结果下一秒又像要谈崩。",
+          "footerTakeaway": "和平最怕下一声爆炸"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East",
+          "headlineFact": "Washington says an Iran deal is close as Israel strikes Beirut",
+          "headlineView": "peace is always one explosion away from collapse",
+          "headlineFull": "Washington says an Iran deal is close as Israel strikes Beirut; peace is always one explosion away from collapse.",
+          "intro": "The United States says an agreement with Iran is drawing closer, but an Israeli strike on Hezbollah targets in Beirut has again raised regional tensions. Diplomacy and military action are moving forward at the same time, making the window for peace increasingly fragile. The closer the parties move toward an agreement, the more important it becomes to prevent one incident from restarting a wider conflict.",
+          "xiaziQuote": "Diplomacy remains fragile when missiles are still speaking.",
+          "doudouQuote": "Everyone says the deal is close, and then the sky explodes again.",
+          "footerTakeaway": "peace is always one explosion away from collapse"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000003",
+          "topicId": "20000000-0000-4000-8000-000000000003",
+          "title": "Iran negotiations and the Beirut strike",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/us-iran-inch-closer-deal-timing-remains-unclear-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -233,52 +193,201 @@
       "id": "20000000-0000-4000-8000-000000000005",
       "issueId": "10000000-0000-4000-8000-000000000002",
       "slug": "global-health-readiness",
-      "rank": 5,
-      "category": "business",
-      "region": "Global",
-      "countryCodes": [],
+      "rank": 4,
+      "category": "science",
+      "region": "Africa",
+      "countryCodes": [
+        "CD",
+        "UG"
+      ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 93,
+      "scoreTotal": 94,
       "storyId": "global_health_readiness",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "全球经济",
-          "headlineFact": "世界银行将 2026 年全球增速预期下调至 2.5%",
-          "headlineView": "战争推高的不只是油价，也在压缩普通人的未来空间",
-          "headlineFull": "世界银行将 2026 年全球增速预期下调至 2.5%；战争推高的不只是油价，也在压缩普通人的未来空间",
-          "intro": "世界银行预计 2026 年全球经济增长放缓至 2.5%，低于 2025 年的 2.9%，并下调约三分之二经济体的预测。中东冲突带来的能源价格、通胀与融资压力正在层层传导，最终会进入就业、利率、商品价格和家庭预算。",
-          "xiaziQuote": "宏观数字的终点，总是每个人的现金流。",
-          "doudouQuote": "增长少零点几，账单可不只多零点几。",
-          "footerTakeaway": "低增长与高不确定性，正在成为全球经济的新常态。"
+          "categoryLabel": "全球健康",
+          "headlineFact": "刚果（金）通报782例埃博拉确诊病例",
+          "headlineView": "疫情真正危险的，是传播速度超过响应速度",
+          "headlineFull": "刚果（金）通报782例埃博拉确诊病例；疫情真正危险的，是传播速度超过响应速度。",
+          "intro": "刚果（金）卫生部门通报，埃博拉确诊病例已升至782例，并有新的卫生区受到影响。疫情发生地区同时面临人口流动、基础设施不足和安全局势复杂等问题。病例数量固然重要，但更值得警惕的是，监测、隔离与医疗响应能否追上传播速度。",
+          "xiaziQuote": "疫情之中，时间不是细节，而是战场。",
+          "doudouQuote": "病毒不等开会，响应慢一步，就可能多扩一圈。",
+          "footerTakeaway": "疫情真正危险的，是传播速度超过响应速度"
         },
         "en-US": {
-          "categoryLabel": "Global Economy",
-          "headlineFact": "The World Bank cuts 2026 global growth to 2.5%",
-          "headlineView": "war raises more than oil prices; it narrows the future available to ordinary people",
-          "headlineFull": "The World Bank cuts 2026 global growth to 2.5%; war raises more than oil prices; it narrows the future available to ordinary people",
-          "intro": "The World Bank expects global growth to slow to 2.5% in 2026 from 2.9% in 2025 and has downgraded forecasts for roughly two-thirds of economies. Energy costs, inflation and financing pressure from the Middle East conflict will ultimately reach jobs, interest rates, prices and household budgets.",
-          "xiaziQuote": "Macroeconomic numbers always end in personal cash flow.",
-          "doudouQuote": "Growth loses a decimal. Your bills rarely stop there.",
-          "footerTakeaway": "Low growth and high uncertainty are becoming the global baseline."
+          "categoryLabel": "Global Health",
+          "headlineFact": "DR Congo reports 782 confirmed Ebola cases",
+          "headlineView": "outbreaks become most dangerous when transmission outruns response",
+          "headlineFull": "DR Congo reports 782 confirmed Ebola cases; outbreaks become most dangerous when transmission outruns response.",
+          "intro": "Health authorities in the Democratic Republic of Congo say confirmed Ebola cases have risen to 782, with additional health zones affected. The outbreak is unfolding in areas already challenged by population displacement, weak infrastructure and insecurity. The case count is alarming, but the larger question is whether surveillance, isolation and medical response systems can move faster than the virus.",
+          "xiaziQuote": "In an epidemic, time is not a detail. It is the battlefield.",
+          "doudouQuote": "Viruses do not wait for meetings. One slow response can widen the outbreak.",
+          "footerTakeaway": "outbreaks become most dangerous when transmission outruns response"
         }
       },
       "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000005",
           "topicId": "20000000-0000-4000-8000-000000000005",
-          "title": "Global Economic Prospects, June 2026",
-          "publisher": "World Bank",
-          "url": "https://www.worldbank.org/en/news/press-release/2026/06/11/global-economic-prospects-june-2026-press-release",
+          "title": "Ebola outbreak updates for DR Congo and Uganda",
+          "publisher": "WHO",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news",
           "publishedAt": null,
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000402",
+          "topicId": "20000000-0000-4000-8000-000000000005",
+          "title": "Latest case and regional data",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-says-782-ebola-cases-confirmed-two-new-health-zones-affected-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000002",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "ai-governance-crossroads",
+      "rank": 5,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "ai_governance_crossroads",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI政策",
+          "headlineFact": "据报道，Anthropic人员赴华盛顿与白宫官员会面",
+          "headlineView": "模型访问争议正升级为国家战略问题",
+          "headlineFull": "据报道，Anthropic人员赴华盛顿与白宫官员会面；模型访问争议正升级为国家战略问题。",
+          "intro": "在先进模型访问政策引发争议后，据报道，Anthropic高级技术人员前往华盛顿，与白宫官员讨论相关问题。讨论焦点已经不只是一款产品能否开放，还涉及国家安全、供应链、出口管制和技术主权。最强模型正逐渐从商业产品变成战略资产。",
+          "xiaziQuote": "当模型成为基础设施，争议就不再只是产品问题。",
+          "doudouQuote": "以前比谁更聪明，现在还得比谁被允许使用。",
+          "footerTakeaway": "模型访问争议正升级为国家战略问题"
+        },
+        "en-US": {
+          "categoryLabel": "AI Policy",
+          "headlineFact": "Anthropic staff head to Washington for White House talks",
+          "headlineView": "model access is becoming a matter of national strategy",
+          "headlineFull": "Anthropic staff head to Washington for White House talks; model access is becoming a matter of national strategy.",
+          "intro": "Senior Anthropic technical staff have reportedly travelled to Washington for talks with White House officials following a dispute over access to advanced AI models. The discussion now extends far beyond product availability. National security, supply chains, export controls and technological sovereignty are all becoming part of the debate. The world’s most capable models are increasingly being treated as strategic assets.",
+          "xiaziQuote": "Once models become infrastructure, the debate is no longer only about products.",
+          "doudouQuote": "AI companies used to compete over intelligence. Now they also compete over permission.",
+          "footerTakeaway": "model access is becoming a matter of national strategy"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000002",
+          "topicId": "20000000-0000-4000-8000-000000000002",
+          "title": "Anthropic staff meet White House officials",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000502",
+          "topicId": "20000000-0000-4000-8000-000000000002",
+          "title": "The Anthropic–White House dispute",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000009",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "climate-adaptation-city",
+      "rank": 6,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "climate_adaptation_city",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI监管",
+          "headlineFact": "美国多州继续推进AI监管",
+          "headlineView": "技术跑得越快，地方政府越不愿等待统一答案",
+          "headlineFull": "美国多州继续推进AI监管；技术跑得越快，地方政府越不愿等待统一答案。",
+          "intro": "尽管美国联邦层面希望建立统一的AI政策框架，越来越多州仍在推动聊天机器人、未成年人保护、算法责任、就业决策和数据安全等立法。美国AI治理可能形成联邦、州和行业规则并行的格局，企业需要面对的合规成本也会持续增加。",
+          "xiaziQuote": "技术在加速，规则也不会永远缺席。",
+          "doudouQuote": "AI还没学会停，法规已经准备踩刹车了。",
+          "footerTakeaway": "技术跑得越快，地方政府越不愿等待统一答案"
+        },
+        "en-US": {
+          "categoryLabel": "AI Regulation",
+          "headlineFact": "U.S. states keep advancing AI rules",
+          "headlineView": "the faster technology moves, the less local governments want to wait",
+          "headlineFull": "U.S. states keep advancing AI rules; the faster technology moves, the less local governments want to wait.",
+          "intro": "Although the federal government is seeking a more unified national framework, a growing number of U.S. states continue to advance legislation covering chatbots, youth protection, algorithmic accountability, employment decisions and data security. The result may be a patchwork of federal, state and industry rules, increasing both regulatory complexity and compliance costs for AI companies.",
+          "xiaziQuote": "Technology is accelerating, but rules will not remain absent forever.",
+          "doudouQuote": "AI has not learned to stop, but lawmakers are already reaching for the brakes.",
+          "footerTakeaway": "the faster technology moves, the less local governments want to wait"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000009",
+          "topicId": "20000000-0000-4000-8000-000000000009",
+          "title": "U.S. states continue to pursue AI regulation",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/23a0e44ab05402ddfe9cdfd0bffa0ade",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000602",
+          "topicId": "20000000-0000-4000-8000-000000000009",
+          "title": "National AI policy framework",
+          "publisher": "The White House",
+          "url": "https://www.whitehouse.gov/ai/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
@@ -286,15 +395,15 @@
       "id": "20000000-0000-4000-8000-000000000006",
       "issueId": "10000000-0000-4000-8000-000000000002",
       "slug": "space-economy-orbit",
-      "rank": 6,
-      "category": "science",
-      "region": "Moon",
+      "rank": 7,
+      "category": "business",
+      "region": "Asia",
       "countryCodes": [
-        "US",
-        "IT"
+        "KR",
+        "US"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 89,
       "storyId": "space_economy_orbit",
@@ -303,93 +412,35 @@
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "科学与航天",
-          "headlineFact": "NASA 公布 Artemis III 载人登月任务成员",
-          "headlineView": "重返月球不只是一次飞行，而是在重建深空时代的组织能力",
-          "headlineFull": "NASA 公布 Artemis III 载人登月任务成员；重返月球不只是一次飞行，而是在重建深空时代的组织能力",
-          "intro": "NASA 公布计划于 2027 年执行的 Artemis III 任务成员，登月计划由硬件阶段进一步进入人员与任务整合阶段。真正困难的不只是把人送上月面，而是把火箭、飞船、着陆器、国际伙伴与长期科研目标组织成可重复的深空能力。",
-          "xiaziQuote": "伟大探索的背后，是把复杂系统变成可靠协作。",
-          "doudouQuote": "月球很远，项目管理更远。",
-          "footerTakeaway": "登月不是终点，而是深空基础设施的第一次压力测试。"
+          "categoryLabel": "半导体与资本",
+          "headlineFact": "SK海力士据报倾向选择纳斯达克上市",
+          "headlineView": "AI芯片竞争正延伸到资本定价权",
+          "headlineFull": "SK海力士据报倾向选择纳斯达克上市；AI芯片竞争正延伸到资本定价权。",
+          "intro": "据报道，韩国存储芯片企业SK海力士正考虑为其美国上市计划选择纳斯达克，希望扩大美国投资者基础，并提升其在全球资本市场中的影响力。作为AI高带宽内存的重要供应商，公司之间的竞争已经不只发生在技术和产能层面，也延伸到了估值与资本定价。",
+          "xiaziQuote": "技术的上限决定价值，资本的偏好也会反过来塑造竞争。",
+          "doudouQuote": "会做芯片是一回事，会讲资本故事又是另一回事。",
+          "footerTakeaway": "AI芯片竞争正延伸到资本定价权"
         },
         "en-US": {
-          "categoryLabel": "Science & Space",
-          "headlineFact": "NASA names the Artemis III crew",
-          "headlineView": "returning to the Moon is not one flight but a rebuilding of deep-space capability",
-          "headlineFull": "NASA names the Artemis III crew; returning to the Moon is not one flight but a rebuilding of deep-space capability",
-          "intro": "NASA has named the crew for Artemis III, planned for 2027, moving the lunar program further from hardware development into integrated mission execution. The challenge is not only reaching the surface, but coordinating rockets, spacecraft, landers, international partners and science into repeatable deep-space capability.",
-          "xiaziQuote": "Great exploration turns complex systems into reliable cooperation.",
-          "doudouQuote": "The Moon is far. Project management may be farther.",
-          "footerTakeaway": "A lunar landing is the first stress test for deep-space infrastructure."
+          "categoryLabel": "Semiconductors and Capital",
+          "headlineFact": "SK hynix is reportedly leaning toward Nasdaq",
+          "headlineView": "the AI chip race is expanding into capital-market pricing power",
+          "headlineFull": "SK hynix is reportedly leaning toward Nasdaq; the AI chip race is expanding into capital-market pricing power.",
+          "intro": "SK hynix is reportedly considering Nasdaq for its planned U.S. listing, seeking to broaden its American investor base and strengthen its global capital-market profile. As a major supplier of high-bandwidth memory for AI systems, the company sits at the centre of the infrastructure boom. Competition among chipmakers now extends beyond technology and manufacturing into valuation, investor attention and capital pricing.",
+          "xiaziQuote": "Technology defines the ceiling of value, but capital can reshape the competition.",
+          "doudouQuote": "Building great chips is one skill. Telling a great capital story is another.",
+          "footerTakeaway": "the AI chip race is expanding into capital-market pricing power"
         }
       },
       "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000006",
           "topicId": "20000000-0000-4000-8000-000000000006",
-          "title": "NASA names Artemis III crew",
-          "publisher": "NASA",
-          "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+          "title": "SK hynix and its planned Nasdaq listing",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/south-koreas-sk-hynix-opt-nasdaq-planned-us-listing-sources-say-2026-06-12/",
           "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000007",
-      "issueId": "10000000-0000-4000-8000-000000000002",
-      "slug": "culture-restoration-digital",
-      "rank": 7,
-      "category": "culture",
-      "region": "Europe",
-      "countryCodes": [
-        "AT",
-        "BE",
-        "NL",
-        "PL"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 84,
-      "storyId": "culture_restoration_digital",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "社会与文化",
-          "headlineFact": "TikTok Shop 今日扩展至四个欧洲市场",
-          "headlineView": "内容平台不再满足于影响审美，而要直接接管购买决定",
-          "headlineFull": "TikTok Shop 今日扩展至四个欧洲市场；内容平台不再满足于影响审美，而要直接接管购买决定",
-          "intro": "TikTok Shop 从 6 月 15 日起进入奥地利、比利时、荷兰和波兰，继续扩大欧洲版图。短视频平台正在把观看、种草、信任和支付压缩进同一条链路。文化传播与商业转化之间的距离越短，创作者的影响力就越接近新的零售基础设施。",
-          "xiaziQuote": "注意力的终点，正在从观点变成交易。",
-          "doudouQuote": "以前刷完忘了，现在刷完下单。",
-          "footerTakeaway": "内容电商正在重写欧洲消费者的发现路径。"
-        },
-        "en-US": {
-          "categoryLabel": "Society & Culture",
-          "headlineFact": "TikTok Shop expands into four European markets today",
-          "headlineView": "content platforms no longer want to shape taste alone; they want to own the purchase decision",
-          "headlineFull": "TikTok Shop expands into four European markets today; content platforms no longer want to shape taste alone; they want to own the purchase decision",
-          "intro": "TikTok Shop launches in Austria, Belgium, the Netherlands and Poland on June 15, extending its European footprint. Video platforms are compressing discovery, trust and payment into one journey. As culture and conversion move closer together, creator influence starts to resemble retail infrastructure.",
-          "xiaziQuote": "The endpoint of attention is shifting from opinion to transaction.",
-          "doudouQuote": "You used to forget after scrolling. Now you check out.",
-          "footerTakeaway": "Content commerce is rewriting how European consumers discover products."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000007",
-          "topicId": "20000000-0000-4000-8000-000000000007",
-          "title": "TikTok Shop expands across Europe",
-          "publisher": "TikTok",
-          "url": "https://newsroom.tiktok.com/tiktok-shop-expands-across-europe?lang=en-150",
-          "publishedAt": null,
-          "sourceType": "official",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -401,11 +452,14 @@
       "issueId": "10000000-0000-4000-8000-000000000002",
       "slug": "ocean-treaty-action",
       "rank": 8,
-      "category": "climate",
-      "region": "Global Ocean",
-      "countryCodes": [],
+      "category": "international",
+      "region": "Taiwan Strait",
+      "countryCodes": [
+        "TW",
+        "CN"
+      ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 90,
       "storyId": "ocean_treaty_action",
@@ -414,95 +468,118 @@
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "环境与气候",
-          "headlineFact": "联合国世界海洋评估再次发出警报",
-          "headlineView": "海洋不是遥远风景，而是全球经济与生命系统的底盘",
-          "headlineFull": "联合国世界海洋评估再次发出警报；海洋不是遥远风景，而是全球经济与生命系统的底盘",
-          "intro": "联合国最新世界海洋评估指出，气候变化、过度捕捞、污染与生物多样性下降正在让海洋承受持续加速的压力。海洋调节气候、提供食物并支撑亿万人生计，它的退化会通过天气、供应链、公共健康和食品价格回到每个人身边。",
-          "xiaziQuote": "保护海洋，就是维护地球最庞大的公共基础设施。",
-          "doudouQuote": "看不见海底，不代表账单不会浮上来。",
-          "footerTakeaway": "共同海洋需要共同承担责任，也需要更快行动。"
+          "categoryLabel": "台海与情报",
+          "headlineFact": "台湾情报机构上线面向中国大陆人士的安全举报通道",
+          "headlineView": "情报竞争正进入公开数字入口",
+          "headlineFull": "台湾情报机构上线面向中国大陆人士的安全举报通道；情报竞争正进入公开数字入口。",
+          "intro": "台湾安全部门宣布建立新的网页渠道，供中国大陆人士安全提交情报线索，并表示近期主动提供信息的人有所增加。传统上高度隐蔽的情报招募，正在借助网站、加密通信与数字平台变得更加公开，这也可能进一步加剧两岸在安全、网络和信息领域的博弈。",
+          "xiaziQuote": "情报竞争最先升级的，往往不是边界，而是入口。",
+          "doudouQuote": "以前拼的是线人，现在连线索入口都做成网页了。",
+          "footerTakeaway": "情报竞争正进入公开数字入口"
         },
         "en-US": {
-          "categoryLabel": "Environment & Climate",
-          "headlineFact": "The UN World Ocean Assessment issues another warning",
-          "headlineView": "the ocean is not distant scenery but the operating system beneath life and the global economy",
-          "headlineFull": "The UN World Ocean Assessment issues another warning; the ocean is not distant scenery but the operating system beneath life and the global economy",
-          "intro": "The UN's latest World Ocean Assessment says climate change, overfishing, pollution and biodiversity loss are accelerating pressure on the ocean. It regulates climate, supplies food and supports billions of livelihoods. Its decline returns through weather, supply chains, public health and food prices.",
-          "xiaziQuote": "Protecting the ocean means maintaining Earth's largest public infrastructure.",
-          "doudouQuote": "You may not see the seabed. The bill still floats up.",
-          "footerTakeaway": "A shared ocean demands shared responsibility and faster action."
+          "categoryLabel": "Taiwan and Intelligence",
+          "headlineFact": "Taiwan launches a secure tip channel for people in mainland China",
+          "headlineView": "intelligence competition is moving into public digital gateways",
+          "headlineFull": "Taiwan launches a secure tip channel for people in mainland China; intelligence competition is moving into public digital gateways.",
+          "intro": "Taiwan’s National Security Bureau has launched a secure webpage allowing people in mainland China to submit intelligence-related information. The agency says more individuals have recently approached Taiwanese authorities with potential tips. Intelligence recruitment, once highly secretive, is becoming more visible through websites, encrypted communication and digital platforms, adding another dimension to cross-strait security competition.",
+          "xiaziQuote": "In intelligence competition, the first thing to change is often not the border, but the entry point.",
+          "doudouQuote": "Espionage used to need shadows. Now it also needs a web form.",
+          "footerTakeaway": "intelligence competition is moving into public digital gateways"
         }
       },
       "sources": [
         {
           "id": "30000000-0000-4000-8000-000000000008",
           "topicId": "20000000-0000-4000-8000-000000000008",
-          "title": "Third World Ocean Assessment",
-          "publisher": "United Nations",
-          "url": "https://www.un.org/sustainabledevelopment/blog/2026/06/press-release-as-ocean-pressures-mount-united-nations-report-calls-for-urgent-global-collaboration-to-protect-marine-ecosystems/",
+          "title": "Taiwan launches an intelligence tip website",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/taiwan-launches-website-chinese-nationals-report-intelligence-2026-06-14/",
           "publishedAt": null,
-          "sourceType": "official",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000802",
+          "topicId": "20000000-0000-4000-8000-000000000008",
+          "title": "Taiwan’s secure information channel",
+          "publisher": "AP News",
+          "url": "https://apnews.com/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000009",
+      "id": "20000000-0000-4000-8000-000000000007",
       "issueId": "10000000-0000-4000-8000-000000000002",
-      "slug": "climate-adaptation-city",
+      "slug": "culture-restoration-digital",
       "rank": 9,
-      "category": "technology",
+      "category": "climate",
       "region": "Global",
-      "countryCodes": [
-        "US"
-      ],
+      "countryCodes": [],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 88,
-      "storyId": "climate_adaptation_city",
+      "scoreTotal": 92,
+      "storyId": "culture_restoration_digital",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "编辑精选",
-          "headlineFact": "OpenAI 宣布收购云端开发环境公司 Ona",
-          "headlineView": "AI Agent 的下一场竞争，不是更会聊天，而是能否持续把事做完",
-          "headlineFull": "OpenAI 宣布收购云端开发环境公司 Ona；AI Agent 的下一场竞争，不是更会聊天，而是能否持续把事做完",
-          "intro": "OpenAI 计划收购 Ona，为 Codex 引入安全、持久、可由企业控制的云端工作环境。AI Agent 正从一次性回答走向长期执行：它需要记住上下文、连接工具、跨越多个工作阶段并承担结果。真正的机会不是再造聊天框，而是重做工作流。",
-          "xiaziQuote": "智能的价值，不在回答多少，而在完成多少。",
-          "doudouQuote": "别再问 AI 会不会，先看它能不能交作业。",
-          "footerTakeaway": "持久化工作环境可能成为 Agent 时代的新操作系统。"
+          "categoryLabel": "气候变化",
+          "headlineFact": "NOAA确认厄尔尼诺已形成",
+          "headlineView": "气候波动正在变成粮食、能源与保险账单",
+          "headlineFull": "NOAA确认厄尔尼诺已形成；气候波动正在变成粮食、能源与保险账单。",
+          "intro": "美国国家海洋和大气管理局确认厄尔尼诺条件已经形成，并预计其可能持续增强。厄尔尼诺会改变不同地区的降雨、高温、农业产量和风暴活动。气候现象不只存在于天气预报和温度曲线中，也会逐渐反映到食品价格、能源需求和保险成本上。",
+          "xiaziQuote": "气候不是遥远议题，它最终都会变成每个人的成本。",
+          "doudouQuote": "地球一发烧，最后最先感受到的往往是钱包。",
+          "footerTakeaway": "气候波动正在变成粮食、能源与保险账单"
         },
         "en-US": {
-          "categoryLabel": "Editor's Pick",
-          "headlineFact": "OpenAI plans to acquire cloud-environment company Ona",
-          "headlineView": "the next agent race is not about better chat but sustained completion",
-          "headlineFull": "OpenAI plans to acquire cloud-environment company Ona; the next agent race is not about better chat but sustained completion",
-          "intro": "OpenAI plans to acquire Ona, bringing secure, persistent and customer-controlled cloud environments to Codex. Agents are moving from one-off answers to long-running execution: they need context, tools, multiple work stages and accountability for outcomes. The opportunity is not another chat box, but rebuilt workflows.",
-          "xiaziQuote": "Intelligence is measured by what it completes, not how much it answers.",
-          "doudouQuote": "Stop asking whether AI can. Check whether it submits the work.",
-          "footerTakeaway": "Persistent environments may become the operating system of the agent era."
+          "categoryLabel": "Climate",
+          "headlineFact": "NOAA confirms El Niño conditions",
+          "headlineView": "climate volatility is becoming a bill for food, energy and insurance",
+          "headlineFull": "NOAA confirms El Niño conditions; climate volatility is becoming a bill for food, energy and insurance.",
+          "intro": "The U.S. National Oceanic and Atmospheric Administration has confirmed that El Niño conditions are present and expected to strengthen. The climate pattern can reshape rainfall, heat, agricultural production and storm activity across different regions. Its impact will not remain confined to weather forecasts. It is likely to appear in food prices, energy demand, insurance costs and disaster preparedness.",
+          "xiaziQuote": "Climate is not a distant issue. It eventually becomes everyone’s cost.",
+          "doudouQuote": "When the planet runs a fever, the first place many people feel it is their wallet.",
+          "footerTakeaway": "climate volatility is becoming a bill for food, energy and insurance"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000009",
-          "topicId": "20000000-0000-4000-8000-000000000009",
-          "title": "OpenAI to acquire Ona",
-          "publisher": "OpenAI",
-          "url": "https://openai.com/index/openai-to-acquire-ona/",
+          "id": "30000000-0000-4000-8000-000000000007",
+          "topicId": "20000000-0000-4000-8000-000000000007",
+          "title": "El Niño advisory and outlook",
+          "publisher": "NOAA",
+          "url": "https://www.noaa.gov/news-release/el-nino-forms-expected-to-strengthen-say-noaa-forecasters",
           "publishedAt": null,
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000902",
+          "topicId": "20000000-0000-4000-8000-000000000007",
+          "title": "Preparing for El Niño impacts",
+          "publisher": "WMO",
+          "url": "https://wmo.int/news/media-centre/world-must-prepare-development-of-el-nino",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     }
-  ]
+  ],
+  "assetVersion": "archive-2026-06-15-1781825902933"
 }
