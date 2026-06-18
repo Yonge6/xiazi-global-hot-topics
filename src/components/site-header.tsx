@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { MobileMenu } from "@/components/mobile-menu";
 import type { AppLocale } from "@/i18n/config";
 import { getCosAsset } from "@/lib/posters/assets";
 
@@ -33,14 +34,7 @@ export function SiteHeader({ locale, messages }: { locale: AppLocale; messages: 
             ))}
           </nav>
           <LanguageSwitcher locale={locale} />
-          <details className="mobile-menu">
-            <summary>{isZh ? "菜单" : "Menu"}<span aria-hidden="true">▾</span></summary>
-            <div className="mobile-menu-panel">
-              {mobileNavItems.map((item) => (
-                <a href={item.href} key={item.href}>{item.label}</a>
-              ))}
-            </div>
-          </details>
+          <MobileMenu label={isZh ? "菜单" : "Menu"} items={mobileNavItems} />
         </div>
       </div>
     </header>
