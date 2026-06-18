@@ -11,7 +11,7 @@ describe("brand rules", () => {
     expect(posterBrandRules.requiredElements).toContain(
       "Xiazi and Doudoulong both clearly visible",
     );
-    expect(posterBrandRules.requiredElements).toContain("vilesaint.com");
+    expect(posterBrandRules.requiredElements).toContain("pluto.hk");
   });
 
   it("preserves each character's defining silhouette", () => {

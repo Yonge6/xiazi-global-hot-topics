@@ -2,12 +2,28 @@
 
 import { Check, DownloadSimple, LinkSimple, ShareNetwork, X } from "@phosphor-icons/react";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { DEFAULT_POSTER_ASSET, getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
-import type { Topic } from "@/types/content";
+import type { Source, Topic } from "@/types/content";
+
+function safeHttpUrl(value: string | undefined) {
+  if (!value) return "";
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:" ? url.toString() : "";
+  } catch {
+    return "";
+  }
+}
+
+function primarySource(sources: Source[]) {
+  return sources.find((source) => source.isPrimary && safeHttpUrl(source.url))
+    ?? sources.find((source) => safeHttpUrl(source.url))
+    ?? null;
+}
 
 function ProgressivePoster({
   src,
@@ -23,6 +39,15 @@ function ProgressivePoster({
   className: string;
 }) {
   const [loaded, setLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // Cached images may fire `load` before React attaches the handler.
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth > 0) {
+      setLoaded(true);
+    }
+  }, []);
 
   return (
     <span className="poster-image-shell">
@@ -45,6 +70,7 @@ function ProgressivePoster({
         className={`${className} poster-image-loaded${loaded ? " is-ready" : ""}`}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
+        ref={imgRef}
         onLoad={() => setLoaded(true)}
         onError={() => setLoaded(false)}
       />
@@ -282,7 +308,7 @@ export function TopicGallery({
         </div>
         {displayTopics.map((topic, index) => {
           const content = topic.localizations[isZh ? "zh-CN" : "en-US"];
-          const source = topic.sources[0];
+          const source = primarySource(topic.sources);
           const poster = posterAsset(topic.slug, "original");
           const thumbnail = posterAsset(topic.slug, "thumbnail");
 
@@ -297,17 +323,19 @@ export function TopicGallery({
               <h2>{content.headlineFull}</h2>
               <p className="entry-intro">{content.intro}</p>
 
-              <a
-                className="reading-link"
-                href={source.url}
-                target="_blank"
-                rel="noreferrer"
-                onClick={() => trackAnalytics("source_click", locale, topic.slug)}
-              >
-                <span>{isZh ? "推荐阅读" : "Primary reading"}</span>
-                <strong>{source.publisher}</strong>
-                <span aria-hidden="true">↗</span>
-              </a>
+              {source ? (
+                <a
+                  className="reading-link"
+                  href={safeHttpUrl(source.url)}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={() => trackAnalytics("source_click", locale, topic.slug)}
+                >
+                  <span>{isZh ? "推荐阅读" : "Primary reading"}</span>
+                  <strong>{source.publisher || source.title}</strong>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              ) : null}
 
               <button
                 className="poster-button"

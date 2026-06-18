@@ -3,19 +3,8 @@ import { NextResponse } from "next/server";
 import sharp from "sharp";
 
 import { copyCosObject, uploadToCos } from "@/lib/cos/storage";
+import { resolvePosterName } from "@/lib/posters/assets";
 import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
-
-const posterNames: Record<string, string> = {
-  "world-cup-global-stage": "world-cup",
-  "trade-routes-rewired": "supply-chain",
-  "ai-governance-crossroads": "ai-governance",
-  "global-health-readiness": "public-health",
-  "culture-restoration-digital": "cultural-heritage",
-  "energy-transition-grid": "clean-energy",
-  "ocean-treaty-action": "high-seas",
-  "space-economy-orbit": "space-orbit",
-  "climate-adaptation-city": "climate-adaptation",
-};
 
 export async function POST(request: Request) {
   const cookieStore = await cookies();
@@ -37,7 +26,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ message: "海报需小于 4MB" }, { status: 413 });
     }
 
-    const name = posterNames[slug] || "ai-governance";
+    const name = resolvePosterName(slug);
     const original = Buffer.from(await file.arrayBuffer());
     const thumbnail = await sharp(original)
       .resize({ width: 480, withoutEnlargement: true })

@@ -5,7 +5,7 @@ test("renders the Chinese issue and nine stories", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "昨日世界." })).toBeVisible();
   await expect(page.locator("article")).toHaveCount(9);
   await expect(page.locator("article").filter({ hasText: "美国队 4:1 击败巴拉圭" })).toBeVisible();
-  await expect(page.getByText("vilesaint.com").first()).toBeVisible();
+  await expect(page.getByText("pluto.hk").first()).toBeVisible();
   await expect(page.getByText("2026.06.14 · 北京时间 00:05 发布")).toBeVisible();
 });
 

@@ -1,18 +1,10 @@
 import { NextResponse } from "next/server";
 
+import { POSTER_ASSET_NAMES } from "@/lib/posters/assets";
+
 const repo = "Yonge6/vilesaint";
 const locales = new Set(["zh", "en"]);
-const posterNames = new Set([
-  "ai-governance",
-  "supply-chain",
-  "climate-adaptation",
-  "space-orbit",
-  "public-health",
-  "world-cup",
-  "cultural-heritage",
-  "clean-energy",
-  "high-seas",
-]);
+const posterNames = new Set<string>(POSTER_ASSET_NAMES);
 
 export const dynamic = "force-dynamic";
 

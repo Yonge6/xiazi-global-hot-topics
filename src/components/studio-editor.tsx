@@ -102,6 +102,24 @@ export function StudioEditor() {
     setIssue({ ...issue, topics: issue.topics.map((topic, index) => index === active ? next : topic) });
   }
 
+  function updatePrimarySourceUrl(url: string) {
+    const [primarySource, ...otherSources] = topic.sources.length
+      ? topic.sources
+      : [{
+          id: `${topic.id}-source-1`,
+          topicId: topic.id,
+          title: "",
+          publisher: "推荐阅读",
+          url: "",
+          publishedAt: null,
+          sourceType: "publisher" as const,
+          sourceTier: 2 as const,
+          locale: "zh-CN" as const,
+          isPrimary: true,
+        }];
+    updateTopic({ ...topic, sources: [{ ...primarySource, url, isPrimary: true }, ...otherSources] });
+  }
+
   function move(direction: -1 | 1) {
     if (!issue) return;
     const target = active + direction;
@@ -347,7 +365,7 @@ export function StudioEditor() {
         <label>中文事实<input value={zh.headlineFact} onChange={(e) => updateTopic({...topic, localizations:{...topic.localizations,"zh-CN":{...zh,headlineFact:e.target.value,headlineFull:`${e.target.value}；${zh.headlineView}`}}})} /></label>
         <label>中文观点<input value={zh.headlineView} onChange={(e) => updateTopic({...topic, localizations:{...topic.localizations,"zh-CN":{...zh,headlineView:e.target.value,headlineFull:`${zh.headlineFact}；${e.target.value}`}}})} /></label>
         <label>约 100 字介绍<textarea value={zh.intro} onChange={(e) => updateTopic({...topic,localizations:{...topic.localizations,"zh-CN":{...zh,intro:e.target.value}}})} /></label>
-        <label>推荐阅读链接<input value={topic.sources[0].url} onChange={(e) => updateTopic({...topic,sources:[{...topic.sources[0],url:e.target.value}]})} /></label>
+        <label>推荐阅读链接<input value={topic.sources[0]?.url ?? ""} onChange={(e) => updatePrimarySourceUrl(e.target.value)} /></label>
         <details><summary>English</summary>
           <label>Fact<input value={en.headlineFact} onChange={(e) => updateTopic({...topic,localizations:{...topic.localizations,"en-US":{...en,headlineFact:e.target.value,headlineFull:`${e.target.value}; ${en.headlineView}`}}})} /></label>
           <label>View<input value={en.headlineView} onChange={(e) => updateTopic({...topic,localizations:{...topic.localizations,"en-US":{...en,headlineView:e.target.value,headlineFull:`${en.headlineFact}; ${e.target.value}`}}})} /></label>

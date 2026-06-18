@@ -2,19 +2,8 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 import { copyCosObject } from "@/lib/cos/storage";
+import { POSTER_ASSET_NAMES } from "@/lib/posters/assets";
 import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
-
-const posterNames = [
-  "world-cup",
-  "supply-chain",
-  "ai-governance",
-  "public-health",
-  "cultural-heritage",
-  "clean-energy",
-  "high-seas",
-  "space-orbit",
-  "climate-adaptation",
-];
 
 export async function POST(request: Request) {
   const cookieStore = await cookies();
@@ -28,7 +17,7 @@ export async function POST(request: Request) {
   }
 
   try {
-    const assets = posterNames.flatMap((name) => [
+    const assets = POSTER_ASSET_NAMES.flatMap((name) => [
       { source: `posters/zh/${name}.png`, target: `archive/${issueDate}/posters/zh/${name}.png` },
       { source: `posters/en/${name}.png`, target: `archive/${issueDate}/posters/en/${name}.png` },
       { source: `posters/thumb/zh/${name}.webp`, target: `archive/${issueDate}/posters/thumb/zh/${name}.webp` },

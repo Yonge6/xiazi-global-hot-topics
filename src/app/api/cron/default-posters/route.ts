@@ -5,20 +5,9 @@ import { NextResponse } from "next/server";
 import sharp from "sharp";
 
 import { uploadToCos } from "@/lib/cos/storage";
+import { POSTER_ASSET_NAMES } from "@/lib/posters/assets";
 
 export const maxDuration = 300;
-
-const posterNames = [
-  "world-cup",
-  "supply-chain",
-  "ai-governance",
-  "public-health",
-  "cultural-heritage",
-  "clean-energy",
-  "high-seas",
-  "space-orbit",
-  "climate-adaptation",
-];
 
 function beijingIssueDate() {
   return new Intl.DateTimeFormat("en-CA", {
@@ -45,7 +34,7 @@ export async function GET(request: Request) {
       .toBuffer();
 
     const assets = ["zh", "en"].flatMap((locale) =>
-      posterNames.flatMap((name) => [
+      POSTER_ASSET_NAMES.flatMap((name) => [
         { key: `posters/${locale}/${name}.png`, content: original, type: "image/png" },
         { key: `posters/thumb/${locale}/${name}.webp`, content: thumbnail, type: "image/webp" },
         { key: `archive/${issueDate}/posters/${locale}/${name}.png`, content: original, type: "image/png" },
