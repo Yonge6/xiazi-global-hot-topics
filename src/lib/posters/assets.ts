@@ -50,7 +50,13 @@ export const posterNames: Record<string, string> = {
   "yum-sells-pizza-hut": "yum-sells-pizza-hut",
 };
 
-export const DEFAULT_POSTER_ASSET = "/posters/default-poster.jpg";
+export function withBasePath(path: string) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  if (!basePath || /^https?:\/\//.test(path)) return path;
+  return `${basePath}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+export const DEFAULT_POSTER_ASSET = withBasePath("/posters/default-poster.jpg");
 
 export function resolvePosterName(slug: string) {
   return posterNames[slug] ?? slug;
@@ -59,7 +65,7 @@ export function resolvePosterName(slug: string) {
 export function getCosAsset(path: string) {
   const baseUrl = process.env.NEXT_PUBLIC_COS_BASE_URL?.replace(/\/$/, "");
   const relativePath = path.replace(/^\//, "");
-  return baseUrl ? `${baseUrl}/${relativePath}` : `/${relativePath}`;
+  return baseUrl ? `${baseUrl}/${relativePath}` : withBasePath(`/${relativePath}`);
 }
 
 export function getArchivedPosterAsset(
@@ -73,7 +79,7 @@ export function getArchivedPosterAsset(
   const extension = variant === "thumbnail" ? "webp" : "png";
   const folder = variant === "thumbnail" ? "thumb/" : "";
   const query = cacheKey === undefined ? "" : `?v=${encodeURIComponent(String(cacheKey))}`;
-  return `/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}${query}`;
+  return `${withBasePath(`/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}`)}${query}`;
 }
 
 export function getPosterAsset(
@@ -90,5 +96,5 @@ export function getPosterAsset(
   const query = new URLSearchParams();
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
   const suffix = query.size ? `?${query.toString()}` : "";
-  return `${path}${suffix}`;
+  return `${withBasePath(path)}${suffix}`;
 }

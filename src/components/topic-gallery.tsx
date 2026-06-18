@@ -7,7 +7,36 @@ import { useEffect, useRef, useState } from "react";
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { DEFAULT_POSTER_ASSET, getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
-import type { Source, Topic } from "@/types/content";
+import type { Issue, Source, Topic } from "@/types/content";
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+function sitePath(path: string) {
+  return `${basePath}${path}`;
+}
+
+async function json<T>(path: string) {
+  const response = await fetch(sitePath(path), { cache: "no-store" });
+  if (!response.ok) throw new Error(`Failed to load ${path}`);
+  return response.json() as Promise<T>;
+}
+
+async function loadCurrentIssue() {
+  return json<Issue>("/api/content/").catch(() => json<Issue>("/data/current-issue.json"));
+}
+
+async function loadArchiveDates() {
+  return json<{ issues: string[] }>("/api/archive/")
+    .catch(() => json<{ issues: string[] }>("/data/archive/index.json"));
+}
+
+async function loadArchiveIssue(date: string) {
+  return json<{ issue: Issue; assetVersion?: string }>(`/api/archive/?date=${encodeURIComponent(date)}`)
+    .catch(async () => {
+      const issue = await json<Issue>(`/data/archive/${date}.json`);
+      return { issue, assetVersion: issue.assetVersion };
+    });
+}
 
 function safeHttpUrl(value: string | undefined) {
   if (!value) return "";
@@ -138,8 +167,7 @@ export function TopicGallery({
   }, [locale]);
 
   useEffect(() => {
-    fetch("/api/content/", { cache: "no-store" })
-      .then((response) => response.json())
+    loadCurrentIssue()
       .then((issue) => {
         if (Array.isArray(issue.topics) && issue.topics.length === 9) {
           const ordered = [...issue.topics].sort((a, b) => {
@@ -156,8 +184,7 @@ export function TopicGallery({
   }, []);
 
   useEffect(() => {
-    fetch("/api/archive/", { cache: "no-store" })
-      .then((response) => response.json())
+    loadArchiveDates()
       .then((detail) => {
         if (Array.isArray(detail.issues)) setArchiveDates(detail.issues);
       })
@@ -214,9 +241,8 @@ export function TopicGallery({
 
   async function openArchive(date: string) {
     setArchiveStatus(isZh ? `正在读取 ${date}…` : `Loading ${date}…`);
-    const response = await fetch(`/api/archive/?date=${encodeURIComponent(date)}`, { cache: "no-store" });
-    const detail = await response.json().catch(() => null);
-    if (!response.ok || !detail?.issue) {
+    const detail = await loadArchiveIssue(date).catch(() => null);
+    if (!detail?.issue) {
       setArchiveStatus(isZh ? "往期读取失败，请稍后再试" : "Could not load this edition");
       return;
     }
@@ -233,8 +259,7 @@ export function TopicGallery({
 
   async function returnToCurrent() {
     setArchiveStatus(isZh ? "正在返回当前期…" : "Returning to the current edition…");
-    const response = await fetch("/api/content/", { cache: "no-store" });
-    const issue = await response.json();
+    const issue = await loadCurrentIssue();
     setDisplayTopics([...issue.topics].sort((a, b) => a.rank - b.rank));
     setDisplayIssueDate(issue.issueDate);
     setPosterCacheKey(issue.assetVersion || issue.beijingTimestamp || issue.issueDate);
