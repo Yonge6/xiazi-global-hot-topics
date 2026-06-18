@@ -1,3 +1,6 @@
+import { readdir, readFile } from "node:fs/promises";
+import path from "node:path";
+
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
@@ -5,6 +8,7 @@ import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
 import type { Issue } from "@/types/content";
 
 const repo = "Yonge6/vilesaint";
+const dataRoot = path.join(process.cwd(), "data");
 
 async function github(path: string, accept = "application/vnd.github+json") {
   const token = process.env.GITHUB_STUDIO_TOKEN;
@@ -29,6 +33,34 @@ async function rawFile(path: string, ref?: string) {
   return github(`contents/${path}${suffix}`, "application/vnd.github.raw+json") as Promise<Issue | null>;
 }
 
+async function localCurrentIssue() {
+  try {
+    return JSON.parse(await readFile(path.join(dataRoot, "current-issue.json"), "utf8")) as Issue;
+  } catch {
+    return null;
+  }
+}
+
+async function localArchiveIssue(date: string) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return null;
+  try {
+    return JSON.parse(await readFile(path.join(dataRoot, "archive", `${date}.json`), "utf8")) as Issue;
+  } catch {
+    return null;
+  }
+}
+
+async function localArchiveEntries() {
+  try {
+    const files = await readdir(path.join(dataRoot, "archive"));
+    return files
+      .filter((file) => /^\d{4}-\d{2}-\d{2}\.json$/.test(file))
+      .map((file) => ({ date: file.replace(".json", ""), source: "archive" as const, value: file.replace(".json", "") }));
+  } catch {
+    return [];
+  }
+}
+
 export async function GET(request: Request) {
   const cookieStore = await cookies();
   if (!validStudioSession(cookieStore.get(studioCookieName)?.value)) {
@@ -40,23 +72,26 @@ export async function GET(request: Request) {
     const source = url.searchParams.get("source");
     const value = url.searchParams.get("value");
     if (source === "current") {
-      return NextResponse.json({ issue: await rawFile("data/current-issue.json"), source: "current" });
+      const issue = await rawFile("data/current-issue.json").catch(() => localCurrentIssue());
+      return NextResponse.json({ issue, source: "current" });
     }
     if (source === "archive" && value) {
-      return NextResponse.json({ issue: await rawFile(`data/archive/${value}.json`), source: "archive" });
+      const filePath = `data/archive/${value}.json`;
+      const issue = await rawFile(filePath).catch(() => localArchiveIssue(value));
+      return NextResponse.json({ issue, source: "archive" });
     }
     if (source === "commit" && value) {
       return NextResponse.json({ issue: await rawFile("data/current-issue.json", value), source: "commit" });
     }
 
-    const current = await rawFile("data/current-issue.json");
-    const archiveFiles = await github("contents/data/archive");
+    const current = await rawFile("data/current-issue.json").catch(() => localCurrentIssue());
+    const archiveFiles = await github("contents/data/archive").catch(() => null);
     const archives = Array.isArray(archiveFiles)
       ? archiveFiles
           .filter((file) => file.type === "file" && /^\d{4}-\d{2}-\d{2}\.json$/.test(file.name))
           .map((file) => ({ date: file.name.replace(".json", ""), source: "archive", value: file.name.replace(".json", "") }))
-      : [];
-    const commits = await github("commits?path=data/current-issue.json&per_page=50");
+      : await localArchiveEntries();
+    const commits = await github("commits?path=data/current-issue.json&per_page=50").catch(() => []);
     const knownDates = new Set(archives.map((item) => item.date));
     if (current) knownDates.add(current.issueDate);
     const legacy = [];

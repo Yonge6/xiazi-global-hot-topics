@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { formatDuration } from "@/lib/analytics/format";
 import type { AnalyticsDashboard } from "@/lib/analytics/types";
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
-import type { Issue, Topic } from "@/types/content";
+import type { Issue, LocalizedTopic, Source, Topic } from "@/types/content";
 
 type IssueEntry = {
   date: string;
@@ -102,22 +102,41 @@ export function StudioEditor() {
     setIssue({ ...issue, topics: issue.topics.map((topic, index) => index === active ? next : topic) });
   }
 
-  function updatePrimarySourceUrl(url: string) {
+  function primarySourceFallback(): Source {
+    return {
+      id: `${topic.id}-source-1`,
+      topicId: topic.id,
+      title: "",
+      publisher: "推荐阅读",
+      url: "",
+      publishedAt: null,
+      sourceType: "publisher",
+      sourceTier: 2,
+      locale: "zh-CN",
+      isPrimary: true,
+    };
+  }
+
+  function updatePrimarySource(patch: Partial<Source>) {
     const [primarySource, ...otherSources] = topic.sources.length
       ? topic.sources
-      : [{
-          id: `${topic.id}-source-1`,
-          topicId: topic.id,
-          title: "",
-          publisher: "推荐阅读",
-          url: "",
-          publishedAt: null,
-          sourceType: "publisher" as const,
-          sourceTier: 2 as const,
-          locale: "zh-CN" as const,
-          isPrimary: true,
-        }];
-    updateTopic({ ...topic, sources: [{ ...primarySource, url, isPrimary: true }, ...otherSources] });
+      : [primarySourceFallback()];
+    updateTopic({ ...topic, sources: [{ ...primarySource, ...patch, isPrimary: true }, ...otherSources] });
+  }
+
+  function updateLocalized(locale: "zh-CN" | "en-US", patch: Partial<LocalizedTopic>) {
+    const current = topic.localizations[locale];
+    const next = { ...current, ...patch };
+    updateTopic({ ...topic, localizations: { ...topic.localizations, [locale]: next } });
+  }
+
+  function updateHeadline(locale: "zh-CN" | "en-US", field: "headlineFact" | "headlineView", value: string) {
+    const current = topic.localizations[locale];
+    const next = { ...current, [field]: value };
+    const separator = locale === "zh-CN" ? "；" : "; ";
+    const punctuation = locale === "zh-CN" ? "。" : ".";
+    next.headlineFull = `${next.headlineFact}${separator}${next.headlineView}${next.headlineView.endsWith(".") || next.headlineView.endsWith("。") ? "" : punctuation}`;
+    updateTopic({ ...topic, localizations: { ...topic.localizations, [locale]: next } });
   }
 
   function move(direction: -1 | 1) {
@@ -236,6 +255,12 @@ export function StudioEditor() {
   const topic = issue.topics[active];
   const zh = topic.localizations["zh-CN"];
   const en = topic.localizations["en-US"];
+  const primarySource = topic.sources[0] ?? primarySourceFallback();
+  const selectedIssueLabel = selectedIssue?.source === "current"
+    ? "当前首页"
+    : selectedIssue?.source === "archive"
+      ? "往期归档"
+      : "历史版本";
   const previewUrls = {
     zh: posterPreviews[`${topic.slug}:zh`] || (selectedIssue?.source === "current"
       ? getPosterAsset(topic.slug, "zh", "original", posterCacheKey)
@@ -340,8 +365,12 @@ export function StudioEditor() {
       ) : (
       <>
       <section className="studio-issue-picker">
+        <div className={`studio-issue-state ${selectedIssue?.source === "current" ? "current" : "archive"}`}>
+          <span>{selectedIssueLabel}</span>
+          <strong>{issue.issueDate}</strong>
+        </div>
         <label>
-          编辑刊期
+          选择要编辑的刊期
           <select
             value={selectedIssue ? `${selectedIssue.source}:${selectedIssue.value}` : ""}
             onChange={(event) => {
@@ -351,25 +380,37 @@ export function StudioEditor() {
           >
             {issueEntries.map((entry) => (
               <option key={`${entry.source}:${entry.value}`} value={`${entry.source}:${entry.value}`}>
-                {entry.date}{entry.source === "current" ? "（当前首页）" : "（归档副本）"}
+                {entry.date}{entry.source === "current" ? "（当前首页）" : entry.source === "archive" ? "（往期归档）" : "（历史版本，可保存为归档）"}
               </option>
             ))}
           </select>
         </label>
-        <p>{selectedIssue?.source === "current" ? "修改后会更新当前首页，并同步保存到往期。" : "修改只保存到该期归档，不会影响当前首页。"}</p>
+        <p>{selectedIssue?.source === "current" ? "修改后会更新当前首页，并同步保存到往期。" : "修改只保存到该期归档，不影响当前首页；适合修错字、替换链接或补洞察。"}</p>
       </section>
       <nav className="studio-topic-tabs">{issue.topics.map((item, index) => <button className={index === active ? "active" : ""} onClick={() => setActive(index)} key={item.id}>{index + 1}</button>)}</nav>
       <section className="studio-card">
         <div className="studio-order"><b>#{topic.rank} {zh.categoryLabel}</b><span><button onClick={() => move(-1)}>上移</button><button onClick={() => move(1)}>下移</button></span></div>
         {topic.slug.includes("world-cup") && <p className="studio-lock">世界杯硬规则：始终保持第一条</p>}
-        <label>中文事实<input value={zh.headlineFact} onChange={(e) => updateTopic({...topic, localizations:{...topic.localizations,"zh-CN":{...zh,headlineFact:e.target.value,headlineFull:`${e.target.value}；${zh.headlineView}`}}})} /></label>
-        <label>中文观点<input value={zh.headlineView} onChange={(e) => updateTopic({...topic, localizations:{...topic.localizations,"zh-CN":{...zh,headlineView:e.target.value,headlineFull:`${zh.headlineFact}；${e.target.value}`}}})} /></label>
-        <label>约 100 字介绍<textarea value={zh.intro} onChange={(e) => updateTopic({...topic,localizations:{...topic.localizations,"zh-CN":{...zh,intro:e.target.value}}})} /></label>
-        <label>推荐阅读链接<input value={topic.sources[0]?.url ?? ""} onChange={(e) => updatePrimarySourceUrl(e.target.value)} /></label>
+        <label>中文分类<input value={zh.categoryLabel} onChange={(e) => updateLocalized("zh-CN", { categoryLabel: e.target.value })} /></label>
+        <label>中文事实<input value={zh.headlineFact} onChange={(e) => updateHeadline("zh-CN", "headlineFact", e.target.value)} /></label>
+        <label>中文观点<input value={zh.headlineView} onChange={(e) => updateHeadline("zh-CN", "headlineView", e.target.value)} /></label>
+        <label>约 100 字介绍<textarea value={zh.intro} onChange={(e) => updateLocalized("zh-CN", { intro: e.target.value })} /></label>
+        <label>虾子曰洞察<textarea value={zh.xiaziQuote} onChange={(e) => updateLocalized("zh-CN", { xiaziQuote: e.target.value })} /></label>
+        <label>豆豆龙吐槽<textarea value={zh.doudouQuote} onChange={(e) => updateLocalized("zh-CN", { doudouQuote: e.target.value })} /></label>
+        <label>中文页脚 takeaway<textarea value={zh.footerTakeaway} onChange={(e) => updateLocalized("zh-CN", { footerTakeaway: e.target.value })} /></label>
+        <details open><summary>推荐阅读</summary>
+          <label>来源名称<input value={primarySource.publisher} onChange={(e) => updatePrimarySource({ publisher: e.target.value })} /></label>
+          <label>来源标题<input value={primarySource.title} onChange={(e) => updatePrimarySource({ title: e.target.value })} /></label>
+          <label>推荐阅读链接<input value={primarySource.url} onChange={(e) => updatePrimarySource({ url: e.target.value })} /></label>
+        </details>
         <details><summary>English</summary>
-          <label>Fact<input value={en.headlineFact} onChange={(e) => updateTopic({...topic,localizations:{...topic.localizations,"en-US":{...en,headlineFact:e.target.value,headlineFull:`${e.target.value}; ${en.headlineView}`}}})} /></label>
-          <label>View<input value={en.headlineView} onChange={(e) => updateTopic({...topic,localizations:{...topic.localizations,"en-US":{...en,headlineView:e.target.value,headlineFull:`${en.headlineFact}; ${e.target.value}`}}})} /></label>
-          <label>Introduction<textarea value={en.intro} onChange={(e) => updateTopic({...topic,localizations:{...topic.localizations,"en-US":{...en,intro:e.target.value}}})} /></label>
+          <label>Category<input value={en.categoryLabel} onChange={(e) => updateLocalized("en-US", { categoryLabel: e.target.value })} /></label>
+          <label>Fact<input value={en.headlineFact} onChange={(e) => updateHeadline("en-US", "headlineFact", e.target.value)} /></label>
+          <label>View<input value={en.headlineView} onChange={(e) => updateHeadline("en-US", "headlineView", e.target.value)} /></label>
+          <label>Introduction<textarea value={en.intro} onChange={(e) => updateLocalized("en-US", { intro: e.target.value })} /></label>
+          <label>Xiazi insight<textarea value={en.xiaziQuote} onChange={(e) => updateLocalized("en-US", { xiaziQuote: e.target.value })} /></label>
+          <label>Doudoulong line<textarea value={en.doudouQuote} onChange={(e) => updateLocalized("en-US", { doudouQuote: e.target.value })} /></label>
+          <label>Footer takeaway<textarea value={en.footerTakeaway} onChange={(e) => updateLocalized("en-US", { footerTakeaway: e.target.value })} /></label>
         </details>
         <div className="studio-poster-previews">
           <figure>
@@ -388,7 +429,7 @@ export function StudioEditor() {
       {studioView === "editor" ? <div className="studio-publish-bar">
         <p role="status" aria-live="polite">{status}</p>
         <button type="button" className="studio-publish" onClick={publish} disabled={publishing}>
-          {publishing ? "正在发布…" : "发布本期修改"}
+          {publishing ? "正在发布…" : selectedIssue?.source === "current" ? "发布当前期修改" : "保存往期归档修改"}
         </button>
       </div> : null}
     </main>

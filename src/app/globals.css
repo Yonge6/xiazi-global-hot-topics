@@ -940,6 +940,14 @@ button { color: inherit; font: inherit; }
   margin-bottom: 14px; border: 1px solid rgba(178,64,43,.2); border-radius: 13px;
   background: rgba(178,64,43,.055); padding: 12px;
 }
+.studio-issue-state {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;
+  border: 1px solid rgba(98,38,30,.12); border-radius: 10px; background: rgba(255,255,255,.68); padding: 9px 10px;
+}
+.studio-issue-state span { color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .08em; }
+.studio-issue-state strong { color: var(--ink); font-family: var(--serif); font-size: 18px; font-weight: 500; }
+.studio-issue-state.archive { border-color: rgba(178,64,43,.25); background: rgba(178,64,43,.08); }
+.studio-issue-state.archive span { color: var(--vermilion); }
 .studio-issue-picker label { display: grid; gap: 7px; color: var(--vermilion); font-size: 10px; font-weight: 700; letter-spacing: .06em; }
 .studio-issue-picker select {
   width: 100%; min-height: 46px; border: 1px solid var(--line); border-radius: 9px; background: white;
