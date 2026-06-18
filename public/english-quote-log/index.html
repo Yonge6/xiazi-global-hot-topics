@@ -71,8 +71,8 @@
     }
 
     .brand-logo {
-      width: 82px;
-      height: 64px;
+      width: 74px;
+      height: 60px;
       object-fit: contain;
       object-position: left center;
     }
@@ -98,7 +98,7 @@
     }
 
     .header-right nav a {
-      font-size: 15px;
+      font-size: 13px;
       transition: color 180ms ease;
     }
 
@@ -118,8 +118,18 @@
       gap: 5px;
       list-style: none;
       cursor: pointer;
-      font-size: 18px;
+      color: var(--ink);
+      font-size: 13px;
       line-height: 1;
+    }
+
+    .mobile-menu summary:focus {
+      outline: none;
+    }
+
+    .mobile-menu summary:focus-visible {
+      outline: 1px solid rgba(200, 87, 69, 0.42);
+      outline-offset: 4px;
     }
 
     .mobile-menu summary::-webkit-details-marker {
@@ -155,7 +165,7 @@
       justify-content: space-between;
       border-bottom: 1px solid rgba(21, 21, 21, 0.08);
       padding: 0 16px;
-      font-size: 17px;
+      font-size: 14px;
       line-height: 1;
     }
 
@@ -867,8 +877,8 @@
       }
 
       .brand-logo {
-        width: 70px;
-        height: 54px;
+        width: 64px;
+        height: 50px;
       }
 
       .header-right {
