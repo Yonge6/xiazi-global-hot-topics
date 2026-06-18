@@ -1189,19 +1189,21 @@
       voice: "切换音色"
     };
     const preferredVoiceProfiles = [
-      { match: ["microsoft ava", "ava online", "ava"], gender: "女声", accent: "美式", rank: 1 },
-      { match: ["microsoft jenny", "jenny online", "jenny"], gender: "女声", accent: "美式", rank: 2 },
-      { match: ["microsoft aria", "aria online", "aria"], gender: "女声", accent: "美式", rank: 3 },
-      { match: ["microsoft guy", "guy online", "guy"], gender: "男声", accent: "美式", rank: 4 },
-      { match: ["microsoft davis", "davis online", "davis"], gender: "男声", accent: "美式", rank: 5 },
-      { match: ["microsoft ryan", "ryan online", "ryan"], gender: "男声", accent: "英式", rank: 6 },
-      { match: ["microsoft sonia", "sonia online", "sonia"], gender: "女声", accent: "英式", rank: 7 },
-      { match: ["samantha"], gender: "女声", accent: "美式", rank: 8 },
-      { match: ["alex"], gender: "男声", accent: "美式", rank: 9 },
-      { match: ["allison"], gender: "女声", accent: "美式", rank: 10 },
-      { match: ["google us english"], gender: "女声", accent: "美式", rank: 11 },
-      { match: ["daniel"], gender: "男声", accent: "英式", rank: 12 },
-      { match: ["karen", "moira", "susan", "victoria", "zira"], gender: "女声", accent: "英语", rank: 13 }
+      { match: ["microsoft ava online", "microsoft ava", "ava online", "ava"], gender: "女声", accent: "美式", rank: 1 },
+      { match: ["microsoft jenny online", "microsoft jenny", "jenny online", "jenny"], gender: "女声", accent: "美式", rank: 2 },
+      { match: ["microsoft aria online", "microsoft aria", "aria online", "aria"], gender: "女声", accent: "美式", rank: 3 },
+      { match: ["google us english"], gender: "女声", accent: "美式", rank: 4 },
+      { match: ["google uk english female"], gender: "女声", accent: "英式", rank: 5 },
+      { match: ["microsoft guy online", "microsoft guy", "guy online", "guy"], gender: "男声", accent: "美式", rank: 6 },
+      { match: ["microsoft davis online", "microsoft davis", "davis online", "davis"], gender: "男声", accent: "美式", rank: 7 },
+      { match: ["google uk english male"], gender: "男声", accent: "英式", rank: 8 },
+      { match: ["microsoft ryan online", "microsoft ryan", "ryan online", "ryan"], gender: "男声", accent: "英式", rank: 9 },
+      { match: ["microsoft sonia online", "microsoft sonia", "sonia online", "sonia"], gender: "女声", accent: "英式", rank: 10 },
+      { match: ["samantha enhanced", "samantha"], gender: "女声", accent: "美式", rank: 11 },
+      { match: ["alex enhanced", "alex"], gender: "男声", accent: "美式", rank: 12 },
+      { match: ["allison enhanced", "allison"], gender: "女声", accent: "美式", rank: 13 },
+      { match: ["daniel enhanced", "daniel"], gender: "男声", accent: "英式", rank: 14 },
+      { match: ["karen", "moira", "susan", "victoria", "zira"], gender: "女声", accent: "英语", rank: 15 }
     ];
 
     const seedRecords = [
@@ -3114,13 +3116,15 @@
       else if (lang === "en-gb") score += 62;
       else if (lang.startsWith("en-")) score += 44;
       if (profile) score += 220 - profile.rank * 8;
-      if (name.includes("online") || name.includes("natural")) score += 42;
-      if (name.includes("premium") || name.includes("enhanced")) score += 32;
-      if (name.includes("neural")) score += 28;
+      if (name.includes("online") || name.includes("natural")) score += 58;
+      if (name.includes("premium") || name.includes("enhanced")) score += 48;
+      if (name.includes("neural")) score += 42;
+      if (name.includes("google")) score += 36;
+      if (name.includes("microsoft")) score += 24;
       if (name.includes("compact")) score -= 60;
       if (name.includes("default")) score -= 28;
       if (name.includes("eloquence") || name.includes("novelty")) score -= 90;
-      if (voice.localService) score += 4;
+      if (voice.localService && !name.includes("enhanced") && !name.includes("premium")) score -= 16;
       return score;
     }
 
@@ -3198,8 +3202,8 @@
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "en-US";
-      utterance.rate = 0.9;
-      utterance.pitch = 1;
+      utterance.rate = 0.86;
+      utterance.pitch = 1.02;
       utterance.volume = 1;
       const voice = getBestVoice();
       if (voice) utterance.voice = voice;
