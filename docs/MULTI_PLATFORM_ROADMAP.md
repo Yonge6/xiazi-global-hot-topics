@@ -51,7 +51,7 @@ Status: complete.
 
 ### Phase 3.5: Local Supabase Validation
 
-Status: local validation complete; staging validation pending.
+Status: complete.
 
 - Added Supabase CLI local configuration.
 - Validated local Docker + Supabase startup and `db reset`.
@@ -62,13 +62,51 @@ Status: local validation complete; staging validation pending.
 - Commits:
   - `fc81f71 Phase 3.5A: align config docs and Supabase key support`
   - `e9e6ac5 Phase 3.5B: add local Supabase CLI configuration`
-  - Phase 3.5C pending in this working session.
+  - `e2ccf9a Phase 3.5C: validate local Supabase content parity`
+
+### Phase 3.6: Hosted Staging Validation
+
+Status: complete.
+
+- Validated `pluto-staging` Supabase migrations and idempotent content import.
+- Verified JSON/Supabase compare returns zero differences in staging.
+- Confirmed Vercel Preview uses Staging Supabase while Production remains JSON.
+- Added remote staging E2E coverage.
+- Commit: `5bb5c69 Phase 3.6: validate hosted Supabase staging and preview`.
 
 ## Future Phases
 
-### Phase 4: Shadow Supabase Reads
+### Phase 4A: Production Shadow Supabase Reads
 
-Goal: connect Vercel Preview to staging Supabase and compare JSON vs Supabase reads without changing production behavior.
+Status: in progress.
+
+Goal: create and validate independent `pluto-production` Supabase, then run production shadow compare without changing public responses.
+
+- Production `CONTENT_REPOSITORY` must remain `json`.
+- JSON Repository remains the official response source.
+- Production Supabase may be read by an internal shadow compare job only.
+- Differences, errors, and latency are recorded for observation; Supabase failures must not affect public pages.
+- Do not modify Studio write flow or start Supabase primary reads in this phase.
+
+### Phase 4B: Studio Shadow Writes
+
+Goal: keep GitHub as primary write path while shadow-writing content changes to Production Supabase with alerts on mismatch.
+
+### Phase 4C: Supabase Primary Reads
+
+Goal: switch production reads to Supabase with JSON fallback after a clean observation window.
+
+### Phase 4D: Supabase Primary Writes
+
+Goal: make Supabase the primary content write path while retaining emergency snapshots.
+
+### Phase 4E: Retire Runtime GitHub Binary Publishing
+
+Goal: remove production GitHub content writes and stop committing poster binaries after Supabase/COS write paths are proven.
+
+### Legacy Phase 4: Staging Shadow Supabase Reads
+
+Superseded by completed Phase 3.6. Historical goal: connect Vercel Preview to staging Supabase and compare JSON vs Supabase reads without changing production behavior.
 
 - Create and validate `pluto-staging` Supabase.
 - Push migrations to staging.
@@ -77,27 +115,22 @@ Goal: connect Vercel Preview to staging Supabase and compare JSON vs Supabase re
 - Add shadow-read instrumentation in Preview only.
 - Do not set production `CONTENT_REPOSITORY=supabase`.
 
-### Phase 5: Controlled Data Source Switch
+### Phase 5: User Identity Foundation
 
-Goal: gradually switch read paths after staging and shadow reads prove parity.
+Goal: introduce internal user UUID identity mapping after content source migration is stable.
 
-- Enable Supabase reads behind explicit environment flags.
-- Keep JSON fallback available.
-- Monitor parity, latency, and error rates.
-- Preserve GitHub publishing until replacement write paths are proven.
+### Phase 6: Mini Program
 
-### Phase 6: Multi-Platform API Expansion
+Goal: build WeChat Mini Program after shared content APIs are stable.
+
+### Phase 7: Native Mobile Apps
+
+Goal: implement iOS and Android apps after Mini Program and shared APIs are stable.
+
+### Future API Expansion
 
 Goal: expose stable server-driven content APIs for Web, Mini, and Mobile.
 
 - Reuse `@xiazi/contracts` instead of duplicating types.
 - Keep content, ordering, image URLs, and feature flags server-driven.
 - Do not force shared UI across platforms.
-
-### Phase 7: Native Platform Builds
-
-Goal: implement Mini Program and mobile apps after shared content APIs are stable.
-
-- Build platform-native UI.
-- Integrate identity through internal UUID mapping.
-- Keep publishing operations auditable and reversible.

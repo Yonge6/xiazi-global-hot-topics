@@ -67,3 +67,7 @@ Phase 3 不把 PNG、JPG、WebP 等二进制海报搬进数据库。Supabase 只
 ## D-017: GitHub Binary Asset Publishing Is Legacy
 
 GitHub Contents API 的 JSON 和海报写入链路在 Phase 3 保留，不修改现有 Studio 生产写入流程。Phase 4 才评估双写、影子写入和逐步移除运行时 GitHub 写入。
+
+## D-018: Phase 4A Uses Production Supabase for Shadow Reads Only
+
+Phase 4A 可以创建并导入独立的 `pluto-production` Supabase，但 Pluto.hk 对外主数据源必须继续为 JSON。影子比较只能通过受保护的内部接口或 Cron 后台执行，记录日期、字段路径、差异数量、读取耗时和错误码；Supabase 失败不得影响公开页面、API 或 Studio 现有 GitHub 写入链路。进入 Phase 4B 前必须完成 24 小时观察窗口并覆盖一次北京时间 05:00 刊期。

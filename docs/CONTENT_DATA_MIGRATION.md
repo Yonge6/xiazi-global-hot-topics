@@ -1,6 +1,6 @@
 # Content Data Migration
 
-Phase 3 establishes a Supabase content base while keeping Pluto.hk production on JSON.
+Phase 3 establishes a Supabase content base while keeping Pluto.hk production on JSON. Phase 4A may use Production Supabase for shadow reads only; public responses must still come from JSON.
 
 ## Scope
 
@@ -31,7 +31,23 @@ CONTENT_REPOSITORY=json
 
 `SUPABASE_PUBLISHABLE_KEY` / `SUPABASE_SECRET_KEY` are preferred. Legacy `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` remain supported as server-side fallback variables. Secret keys must never be placed in `NEXT_PUBLIC_*` variables or committed.
 
-`SUPABASE_ENV=production` is refused by default. Phase 3 must not use production Supabase and must not set production `CONTENT_REPOSITORY=supabase`.
+`SUPABASE_ENV=production` is refused by default. Production import in Phase 4A requires `--allow-production`, a prior `--dry-run`, and the exact confirmation phrase `IMPORT TO PLUTO PRODUCTION` or the non-interactive `PLUTO_PRODUCTION_IMPORT_CONFIRM` variable. Phase 3/4A must not set production `CONTENT_REPOSITORY=supabase`.
+
+## Phase 4A Shadow Reads
+
+Production shadow compare uses these server-only variables:
+
+```env
+SUPABASE_ENV=production
+SUPABASE_URL=
+SUPABASE_PUBLISHABLE_KEY=
+SUPABASE_SECRET_KEY=
+SHADOW_COMPARE_ENABLED=true
+SHADOW_COMPARE_SECRET=
+CONTENT_REPOSITORY=json
+```
+
+`POST /api/internal/content-shadow-compare` and the Vercel Cron path require `SHADOW_COMPARE_SECRET` or `CRON_SECRET`. The endpoint records only issue date, difference paths, counts, durations, request id, and error code. It must not log full content, source URLs, secrets, or database passwords.
 
 ## Import Idempotency
 

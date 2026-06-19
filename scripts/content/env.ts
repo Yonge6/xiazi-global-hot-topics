@@ -10,7 +10,13 @@ export type SupabaseScriptConfig = {
 };
 
 export function loadLocalEnv(root = process.cwd()) {
-  for (const file of [".env.local", ".env", "apps/web/.env.local"]) {
+  for (const file of [
+    ".env.local",
+    ".env.staging.local",
+    ".env.production.local",
+    ".env",
+    "apps/web/.env.local",
+  ]) {
     const fullPath = path.join(root, file);
     if (!existsSync(fullPath)) continue;
     const text = readFileSync(fullPath, "utf8");

@@ -6,6 +6,10 @@
     {
       "path": "/api/cron/default-posters/",
       "schedule": "0 21 * * *"
+    },
+    {
+      "path": "/api/internal/content-shadow-compare/",
+      "schedule": "15 * * * *"
     }
   ]
 }

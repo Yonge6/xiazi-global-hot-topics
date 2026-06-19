@@ -4,6 +4,10 @@ import path from "node:path";
 
 import { parseIssue, type Issue } from "@xiazi/contracts";
 
+import { stableJson } from "../../apps/web/src/server/shadow/content-parity";
+
+export { stableJson };
+
 export type IssueFile = {
   path: string;
   role: "archive" | "current";
@@ -11,18 +15,6 @@ export type IssueFile = {
   checksum: string;
   warnings: string[];
 };
-
-export function stableJson(value: unknown): string {
-  if (Array.isArray(value)) return `[${value.map(stableJson).join(",")}]`;
-  if (value && typeof value === "object") {
-    return `{${Object.entries(value as Record<string, unknown>)
-      .filter(([, entry]) => entry !== undefined)
-      .sort(([left], [right]) => left.localeCompare(right))
-      .map(([key, entry]) => `${JSON.stringify(key)}:${stableJson(entry)}`)
-      .join(",")}}`;
-  }
-  return JSON.stringify(value);
-}
 
 export function contentChecksum(issue: Issue): string {
   return createHash("sha256").update(stableJson(issue)).digest("hex");

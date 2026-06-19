@@ -13,7 +13,7 @@
 - 完整角色三视图、表情、动作、色板与禁用造型规范
 - 每条海报可扫描二维码，指向对应语言和热点
 - Issue、Topic、Source、Poster、Job 共享 contract 与 Supabase content schema v2
-- JSON Repository 仍是生产默认数据源；Supabase Repository 仅用于 local/staging 验证
+- JSON Repository 仍是生产默认数据源；Supabase Repository 可用于 local/staging 验证和 Phase 4A 生产影子读取
 - 基础 SEO、sitemap、robots、Vitest 和 Playwright
 
 Mock 内容只用于产品演示，不代表实时新闻。
@@ -43,13 +43,13 @@ npm run build
 
 ## Supabase Content Base
 
-Phase 3 只建立 Supabase 内容底座，不切换 Pluto.hk 生产数据源。生产默认仍为：
+Phase 3 建立 Supabase 内容底座，Phase 4A 只允许生产影子读取；两者都不切换 Pluto.hk 对外主数据源。生产默认仍为：
 
 ```env
 CONTENT_REPOSITORY=json
 ```
 
-本地或 staging Supabase 才允许导入内容。`.env.local` 至少需要：
+本地或 staging Supabase 才允许常规导入内容。`.env.local` 至少需要：
 
 ```env
 CONTENT_REPOSITORY=json
@@ -71,7 +71,21 @@ npm run content:verify
 npm run content:compare
 ```
 
-导入器读取 `apps/web/data/current-issue.json` 与 `apps/web/data/archive/*.json`，不读取 `public/data` 镜像，不上传或复制海报二进制。`SUPABASE_ENV=production` 默认拒绝导入；Phase 3 禁止在生产设置 `CONTENT_REPOSITORY=supabase`。
+导入器读取 `apps/web/data/current-issue.json` 与 `apps/web/data/archive/*.json`，不读取 `public/data` 镜像，不上传或复制海报二进制。`SUPABASE_ENV=production` 默认拒绝导入；Phase 4A 生产导入必须显式使用 `--allow-production`、先跑 `--dry-run`，并输入完整确认短语 `IMPORT TO PLUTO PRODUCTION`。Phase 3/4A 都禁止在生产设置 `CONTENT_REPOSITORY=supabase`。
+
+生产影子读取只使用服务器端变量：
+
+```env
+SUPABASE_ENV=production
+SUPABASE_URL=
+SUPABASE_PUBLISHABLE_KEY=
+SUPABASE_SECRET_KEY=
+SHADOW_COMPARE_ENABLED=true
+SHADOW_COMPARE_SECRET=
+CONTENT_REPOSITORY=json
+```
+
+`SUPABASE_SECRET_KEY` 与 `SHADOW_COMPARE_SECRET` 不得进入 `NEXT_PUBLIC_*`、浏览器 bundle、日志或 Git。
 
 ## 模型与海报配置
 
