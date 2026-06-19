@@ -70,4 +70,4 @@ GitHub Contents API 的 JSON 和海报写入链路在 Phase 3 保留，不修改
 
 ## D-018: Phase 4A Uses Production Supabase for Shadow Reads Only
 
-Phase 4A 可以创建并导入独立的 `pluto-production` Supabase，但 Pluto.hk 对外主数据源必须继续为 JSON。影子比较只能通过受保护的内部接口或 Cron 后台执行，记录日期、字段路径、差异数量、读取耗时和错误码；Supabase 失败不得影响公开页面、API 或 Studio 现有 GitHub 写入链路。进入 Phase 4B 前必须完成 24 小时观察窗口并覆盖一次北京时间 05:00 刊期。
+Phase 4A 将已完整验收的 Supabase 项目 `cxjftltkdbsxxjgmxvsm` 从逻辑 Staging 晋升为 Pluto Production Supabase，暂不创建第三个 Supabase 项目，也不删除 `vilesaint-comments`。Pluto.hk 对外主数据源必须继续为 JSON；Vercel Preview 默认回到 JSON，不保存 Production Supabase Secret。影子比较只能通过受保护的内部接口或 Cron 后台执行，记录日期、字段路径、差异数量、读取耗时和错误码；Supabase 失败不得影响公开页面、API 或 Studio 现有 GitHub 写入链路。进入 Phase 4B 前必须完成 24 小时观察窗口并覆盖一次北京时间 05:00 刊期。

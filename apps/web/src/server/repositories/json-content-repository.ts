@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 
@@ -47,7 +48,7 @@ async function localArchiveDates(dataRoot: string) {
 }
 
 export class JsonContentRepository implements ContentRepository {
-  constructor(private readonly dataRoot = path.join(process.cwd(), "data")) {}
+  constructor(private readonly dataRoot = defaultDataRoot()) {}
 
   async getLatestPublishedIssue(): Promise<Issue> {
     const remote = await github(
@@ -89,4 +90,10 @@ export class JsonContentRepository implements ContentRepository {
       source: remoteDates.includes(date) ? "github" : "local",
     }));
   }
+}
+
+function defaultDataRoot() {
+  const appDataRoot = path.join(process.cwd(), "apps/web/data");
+  if (existsSync(appDataRoot)) return appDataRoot;
+  return path.join(process.cwd(), "data");
 }

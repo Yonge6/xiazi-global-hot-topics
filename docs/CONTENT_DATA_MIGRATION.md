@@ -9,7 +9,9 @@ Phase 3 establishes a Supabase content base while keeping Pluto.hk production on
 - Binary poster files are not uploaded, copied, or committed by the importer.
 - `CONTENT_REPOSITORY=json` remains the default.
 
-## Local Or Staging Setup
+## Local And Staging Setup
+
+Local Docker Supabase is the active development and staging validation environment. It is used for migrations, import tests, destructive constraint checks, and mapper/RPC debugging.
 
 ```bash
 supabase start
@@ -34,6 +36,8 @@ CONTENT_REPOSITORY=json
 `SUPABASE_ENV=production` is refused by default. Production import in Phase 4A requires `--allow-production`, a prior `--dry-run`, and the exact confirmation phrase `IMPORT TO PLUTO PRODUCTION` or the non-interactive `PLUTO_PRODUCTION_IMPORT_CONFIRM` variable. Phase 3/4A must not set production `CONTENT_REPOSITORY=supabase`.
 
 ## Phase 4A Shadow Reads
+
+The validated hosted Supabase project `cxjftltkdbsxxjgmxvsm` is promoted to the logical Pluto Production Supabase role. There is temporarily no independent hosted Staging project; Vercel Preview defaults back to JSON. A hosted Staging project should be restored later when the project needs paid Supabase capacity, long-lived preview database validation, or parallel team development.
 
 Production shadow compare uses these server-only variables:
 

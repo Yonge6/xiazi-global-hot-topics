@@ -5,7 +5,7 @@ Current source of truth for Pluto.hk / 虾子曰 multi-platform migration phases
 ## Guardrails
 
 - Production `CONTENT_REPOSITORY` remains `json` until Phase 4 is explicitly approved.
-- Do not connect to or mutate production Supabase during local or staging validation.
+- Do not mutate Production Supabase outside an explicitly approved phase and guarded script.
 - Keep legacy JSON content and GitHub Contents API publishing in place.
 - Do not introduce Authing, Mini Program, iOS App, or Android App work before their phases.
 - Do not commit new PNG, JPG, WebP, or other poster binaries.
@@ -74,19 +74,19 @@ Status: complete.
 - Added remote staging E2E coverage.
 - Commit: `5bb5c69 Phase 3.6: validate hosted Supabase staging and preview`.
 
-## Future Phases
-
 ### Phase 4A: Production Shadow Supabase Reads
 
 Status: in progress.
 
-Goal: create and validate independent `pluto-production` Supabase, then run production shadow compare without changing public responses.
+- Supabase project `cxjftltkdbsxxjgmxvsm` is promoted from validated Staging to Pluto Production Supabase.
+- Local Docker Supabase now carries development, migration, import-test, and destructive staging validation duties.
+- Vercel Preview defaults to JSON and must not retain Production Supabase Secret.
+- Vercel Production keeps JSON as the official response source and uses Supabase only for protected shadow compare.
+- Commits:
+  - `ac423df Phase 4A: add production content shadow reads`
+  - `fc4a466 Phase 4A: guard production repository switch`
 
-- Production `CONTENT_REPOSITORY` must remain `json`.
-- JSON Repository remains the official response source.
-- Production Supabase may be read by an internal shadow compare job only.
-- Differences, errors, and latency are recorded for observation; Supabase failures must not affect public pages.
-- Do not modify Studio write flow or start Supabase primary reads in this phase.
+## Future Phases
 
 ### Phase 4B: Studio Shadow Writes
 
@@ -114,6 +114,10 @@ Superseded by completed Phase 3.6. Historical goal: connect Vercel Preview to st
 - Run verify and compare against staging.
 - Add shadow-read instrumentation in Preview only.
 - Do not set production `CONTENT_REPOSITORY=supabase`.
+
+### Future Hosted Staging Restoration
+
+Goal: restore an independent hosted Staging Supabase project after upgrading Supabase capacity or needing long-lived preview database validation.
 
 ### Phase 5: User Identity Foundation
 

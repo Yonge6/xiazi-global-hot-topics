@@ -54,3 +54,4 @@ apps/*/next-env.d.ts
 
 .local-secrets/
 .env.staging.local
+backups/
