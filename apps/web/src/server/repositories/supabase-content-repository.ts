@@ -17,6 +17,7 @@ type LocalizationRow = {
 
 type SourceRow = {
   id: string;
+  contract_id: string | null;
   topic_id: string;
   title: string;
   publisher: string;
@@ -30,6 +31,7 @@ type SourceRow = {
 
 type TopicRow = {
   id: string;
+  contract_id: string | null;
   issue_id: string;
   slug: string;
   rank: number;
@@ -61,6 +63,30 @@ type IssueRow = {
   topics: TopicRow[];
 };
 
+function pad(value: number) {
+  return String(value).padStart(2, "0");
+}
+
+function formatUtcTimestamp(value: string) {
+  const date = new Date(value);
+  return `${date.getUTCFullYear()}-${pad(date.getUTCMonth() + 1)}-${pad(date.getUTCDate())}T${pad(date.getUTCHours())}:${pad(date.getUTCMinutes())}:${pad(date.getUTCSeconds())}Z`;
+}
+
+function formatBeijingTimestamp(value: string) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(new Date(value));
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${byType.year}-${byType.month}-${byType.day}T${byType.hour}:${byType.minute}:${byType.second}+08:00`;
+}
+
 function clientFromEnv() {
   const url = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -88,25 +114,26 @@ function mapIssue(row: IssueRow): Issue {
   const topics = [...(row.topics || [])]
     .sort((a, b) => a.rank - b.rank)
     .map((topic): Topic => {
+      const topicContractId = topic.contract_id || topic.id;
       const localizations = Object.fromEntries(
         (topic.topic_localizations || []).map((localization) => [localization.locale, mapLocalization(localization)]),
       ) as Topic["localizations"];
       const sources = [...(topic.sources || [])]
-        .sort((a, b) => Number(b.is_primary) - Number(a.is_primary) || a.source_tier - b.source_tier || a.id.localeCompare(b.id))
+        .sort((a, b) => (a.contract_id || a.id).localeCompare(b.contract_id || b.id))
         .map((source): Source => ({
-          id: source.id,
-          topicId: topic.id,
+          id: source.contract_id || source.id,
+          topicId: topicContractId,
           title: source.title,
           publisher: source.publisher,
           url: source.url,
-          publishedAt: source.published_at,
+          publishedAt: source.published_at ? formatUtcTimestamp(source.published_at) : null,
           sourceType: source.source_type,
           sourceTier: source.source_tier,
           locale: source.locale,
           isPrimary: source.is_primary,
         }));
       return {
-        id: topic.id,
+        id: topicContractId,
         issueId: row.id,
         slug: topic.slug,
         rank: topic.rank,
@@ -132,10 +159,10 @@ function mapIssue(row: IssueRow): Issue {
     ...(row.asset_version ? { assetVersion: row.asset_version } : {}),
     issueDate: row.issue_date,
     slotHour: row.slot_hour,
-    beijingTimestamp: row.beijing_timestamp,
-    gmtTimestamp: row.gmt_timestamp || row.beijing_timestamp,
+    beijingTimestamp: formatBeijingTimestamp(row.beijing_timestamp),
+    gmtTimestamp: formatUtcTimestamp(row.gmt_timestamp || row.beijing_timestamp),
     status: row.status,
-    featuredTopicId: row.featured_topic_id,
+    featuredTopicId: topics.find((topic) => (row.topics || []).find((rowTopic) => rowTopic.id === row.featured_topic_id)?.contract_id === topic.id)?.id || row.featured_topic_id,
     topics,
   });
 }
@@ -156,8 +183,9 @@ export class SupabaseContentRepository implements ContentRepository {
         gmt_timestamp,
         status,
         featured_topic_id,
-        topics (
+        topics!topics_issue_id_fkey (
           id,
+          contract_id,
           issue_id,
           slug,
           rank,
@@ -185,6 +213,7 @@ export class SupabaseContentRepository implements ContentRepository {
           ),
           sources (
             id,
+            contract_id,
             topic_id,
             title,
             publisher,

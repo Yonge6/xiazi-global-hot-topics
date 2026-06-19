@@ -14,17 +14,21 @@ async function main() {
   }
   for (const issue of issues) validateIssueForImport(issue);
 
-  const { data: orphanLocalizations, error: orphanLocalizationError } = await supabase
-    .from("topic_localizations")
-    .select("id, topics!left(id)")
-    .is("topics.id", null);
-  if (orphanLocalizationError) throw new Error(orphanLocalizationError.message);
+  const { data: topicRows, error: topicError } = await supabase
+    .from("topics")
+    .select("id");
+  if (topicError) throw new Error(topicError.message);
+  const topicIds = new Set((topicRows || []).map((topic) => topic.id));
 
-  const { data: orphanSources, error: orphanSourceError } = await supabase
+  const { data: localizationRows, error: localizationError } = await supabase
+    .from("topic_localizations")
+    .select("id, topic_id");
+  if (localizationError) throw new Error(localizationError.message);
+
+  const { data: sourceRows, error: sourceError } = await supabase
     .from("sources")
-    .select("id, topics!left(id)")
-    .is("topics.id", null);
-  if (orphanSourceError) throw new Error(orphanSourceError.message);
+    .select("id, topic_id");
+  if (sourceError) throw new Error(sourceError.message);
 
   const { data: currentAssets, error: currentAssetError } = await supabase
     .from("poster_assets")
@@ -32,8 +36,10 @@ async function main() {
     .eq("is_current", true);
   if (currentAssetError) throw new Error(currentAssetError.message);
 
-  if ((orphanLocalizations?.length || 0) > 0) throw new Error(`Found ${orphanLocalizations?.length} orphan localizations`);
-  if ((orphanSources?.length || 0) > 0) throw new Error(`Found ${orphanSources?.length} orphan sources`);
+  const orphanLocalizations = (localizationRows || []).filter((localization) => !topicIds.has(localization.topic_id));
+  const orphanSources = (sourceRows || []).filter((source) => !topicIds.has(source.topic_id));
+  if (orphanLocalizations.length > 0) throw new Error(`Found ${orphanLocalizations.length} orphan localizations`);
+  if (orphanSources.length > 0) throw new Error(`Found ${orphanSources.length} orphan sources`);
   const assetKeys = new Set<string>();
   let duplicateCurrentAssets = 0;
   for (const asset of currentAssets || []) {

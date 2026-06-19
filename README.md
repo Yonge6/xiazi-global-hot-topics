@@ -107,6 +107,8 @@ Cron 更新最新 9 条双语内容并发布。Vercel Cron 同时调用 `/api/cr
 
 ## 文档
 
-- [实施计划](./IMPLEMENTATION_PLAN.md)
+- [多端迁移 Roadmap](./docs/MULTI_PLATFORM_ROADMAP.md)
+- [Legacy Web Implementation Plan](./IMPLEMENTATION_PLAN.md)
+- [产品需求文档 v1.2](./PRODUCT_REQUIREMENTS_V1.2.md)
 - [技术决策](./DECISIONS.md)
 - [品牌资产清单](./docs/BRAND_ASSETS.md)

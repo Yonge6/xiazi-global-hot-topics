@@ -1,4 +1,6 @@
-# 虾子曰全球热点海报网站 Implementation Plan
+# Legacy Web Implementation Plan
+
+> This document preserves the original single-web-app implementation plan. Its Phase numbering is legacy and must not be used for the current multi-platform migration. Use `docs/MULTI_PLATFORM_ROADMAP.md` and `DECISIONS.md` for current Phase 0+ planning.
 
 ## Goal
 
@@ -10,7 +12,7 @@
 - `/zh`、`/en` 为独立可索引 URL，`next-intl` 管理界面消息。
 - TypeScript strict + Zod 管理内容和 AI 输出边界。
 - Supabase Postgres 使用版本化 SQL migration；长任务通过 `jobs` 状态机跟踪。
-- 海报保持一张 AI 无文字底图对应两套 SVG 文字层，模型参数统一由环境变量提供。
+- 海报遵循 DECISIONS.md D-005：中文和英文是两张独立生成、独立存储、独立 QA 的完整整图海报，前端不使用 HTML、CSS 或 SVG 替换海报内部文字。
 
 ## Phase 1: Foundation and Editorial Homepage
 

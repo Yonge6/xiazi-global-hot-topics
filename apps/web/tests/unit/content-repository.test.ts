@@ -40,6 +40,7 @@ describe("Supabase issue mapper", () => {
       topics: [
         {
           id: firstTopic.id,
+          contract_id: firstTopic.id,
           issue_id: issue.id,
           slug: firstTopic.slug,
           rank: firstTopic.rank,
@@ -81,6 +82,7 @@ describe("Supabase issue mapper", () => {
           sources: [
             {
               id: firstSource.id,
+              contract_id: firstSource.id,
               topic_id: firstTopic.id,
               title: firstSource.title,
               publisher: firstSource.publisher,
