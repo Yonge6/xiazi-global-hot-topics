@@ -55,9 +55,11 @@ CONTENT_REPOSITORY=json
 CONTENT_REPOSITORY=json
 SUPABASE_ENV=local
 SUPABASE_URL=
-SUPABASE_ANON_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
+SUPABASE_PUBLISHABLE_KEY=
+SUPABASE_SECRET_KEY=
 ```
+
+`SUPABASE_PUBLISHABLE_KEY` / `SUPABASE_SECRET_KEY` are preferred. Legacy `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` still work as server-side fallbacks. Never put secret keys in `NEXT_PUBLIC_*` variables.
 
 本地 Supabase CLI 可用时：
 
@@ -78,7 +80,7 @@ npm run content:compare
 1. 每个热点分别生成一张中文完整海报和一张英文完整海报。
 2. 两种语言海报独立存储、独立替换、独立 QA，不在前端覆盖或替换海报内部文字。
 3. 内容核验完成后生成中文与英文完整海报，通过 QA 后发布。
-4. 中文海报显示北京时间，英文海报显示 GMT；两种海报都必须含 `vilesaint.com`、虾子曰和豆豆龙。
+4. 中文海报显示北京时间，英文海报显示 GMT；两种海报都必须含 `pluto.hk`、虾子曰和豆豆龙。
 5. 每张海报包含二维码，最终指向 `/{locale}/topics/{topicSlug}`。
 6. 视觉保持欢快、阳光、正向，同时不弱化事实的严肃性。
 

@@ -5,7 +5,7 @@ import { createClient } from "@supabase/supabase-js";
 
 export type SupabaseScriptConfig = {
   url: string;
-  serviceRoleKey: string;
+  secretKey: string;
   env: "local" | "staging" | "production";
 };
 
@@ -37,18 +37,21 @@ export function supabaseScriptConfig(argv = process.argv): SupabaseScriptConfig 
   }
 
   const url = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || "";
-  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
+  const secretKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY || "";
   if (!url) throw new Error("SUPABASE_URL is required for content scripts");
-  if (!serviceRoleKey) throw new Error("SUPABASE_SERVICE_ROLE_KEY is required for content scripts");
+  if (!secretKey) throw new Error("SUPABASE_SECRET_KEY is required for content scripts");
+  if (process.env.NEXT_PUBLIC_SUPABASE_SECRET_KEY) {
+    throw new Error("NEXT_PUBLIC_SUPABASE_SECRET_KEY must never be set");
+  }
   if (process.env.NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY) {
     throw new Error("NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY must never be set");
   }
 
-  return { url, serviceRoleKey, env };
+  return { url, secretKey, env };
 }
 
 export function createServiceRoleClient(config = supabaseScriptConfig()) {
-  return createClient(config.url, config.serviceRoleKey, {
+  return createClient(config.url, config.secretKey, {
     auth: {
       persistSession: false,
       autoRefreshToken: false,

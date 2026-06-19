@@ -24,10 +24,12 @@ Required environment variables:
 ```env
 SUPABASE_ENV=local
 SUPABASE_URL=
-SUPABASE_ANON_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
+SUPABASE_PUBLISHABLE_KEY=
+SUPABASE_SECRET_KEY=
 CONTENT_REPOSITORY=json
 ```
+
+`SUPABASE_PUBLISHABLE_KEY` / `SUPABASE_SECRET_KEY` are preferred. Legacy `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` remain supported as server-side fallback variables. Secret keys must never be placed in `NEXT_PUBLIC_*` variables or committed.
 
 `SUPABASE_ENV=production` is refused by default. Phase 3 must not use production Supabase and must not set production `CONTENT_REPOSITORY=supabase`.
 

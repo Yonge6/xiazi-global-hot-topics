@@ -2,7 +2,7 @@
 
 - 文档版本：v1.1
 - 更新日期：2026-06-14
-- 产品域名：`vilesaint.com`
+- 产品域名：`pluto.hk`
 - 默认运营时区：Asia/Shanghai
 - 网站语言：简体中文、英文
 - 海报语言：简体中文、英文
@@ -47,13 +47,12 @@
 
 | 期次 | 北京时间 | GMT |
 |---|---:|---:|
-| 上午刊 | 00:05 | 前一日 16:05 |
-| 午间刊 | 12:05 | 04:05 |
+| 每日刊 | 05:00 | 前一日 21:00 |
 
 生产环境 Cron：
 
 ```cron
-5 4,16 * * *
+0 21 * * *
 ```
 
 ### 2.2 每期内容
@@ -304,7 +303,7 @@ POSTER_IMAGE_FORMAT=png
 每张海报必须显示：
 
 ```text
-vilesaint.com
+pluto.hk
 ```
 
 每张海报必须包含可扫描二维码。
@@ -312,8 +311,8 @@ vilesaint.com
 二维码优先指向对应热点详情页：
 
 ```text
-https://vilesaint.com/zh/topics/{topicSlug}
-https://vilesaint.com/en/topics/{topicSlug}
+https://pluto.hk/zh/topics/{topicSlug}
+https://pluto.hk/en/topics/{topicSlug}
 ```
 
 用户扫码后应直接进入该条热点，而不是只进入网站首页。
@@ -334,7 +333,7 @@ https://vilesaint.com/en/topics/{topicSlug}
 8. 豆豆龙评论；
 9. 传播金句；
 10. 二维码；
-11. `vilesaint.com`。
+11. `pluto.hk`。
 
 ### 6.2 英文海报
 
@@ -348,7 +347,7 @@ https://vilesaint.com/en/topics/{topicSlug}
 8. Doudoulong Says；
 9. Closing takeaway；
 10. QR code；
-11. `vilesaint.com`。
+11. `pluto.hk`。
 
 ---
 
@@ -633,7 +632,7 @@ Deployment:
 
 截至 2026-06-14 已完成：
 
-- `vilesaint.com` 中文和英文首页；
+- `pluto.hk` 中文和英文首页；
 - 每期 9 条热点的页面结构；
 - “事实；观点”标题结构；
 - 虾子曰和豆豆龙品牌资产；
@@ -697,4 +696,3 @@ Deployment:
 13. 自动生成无需人工审核；
 14. 质量检查失败时不得自动公开；
 15. lint、typecheck、单元测试、浏览器测试和生产构建全部通过。
-
