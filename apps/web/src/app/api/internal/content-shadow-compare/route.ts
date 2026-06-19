@@ -1,4 +1,5 @@
 import { randomUUID } from "node:crypto";
+import { timingSafeEqual } from "node:crypto";
 
 import { NextResponse } from "next/server";
 
@@ -6,16 +7,26 @@ import { runContentShadowCompare } from "@/server/shadow/content-shadow-compare"
 
 export const dynamic = "force-dynamic";
 
-function configuredSecret() {
-  return process.env.SHADOW_COMPARE_SECRET || process.env.CRON_SECRET || "";
+function safeEquals(left: string, right: string) {
+  const leftBuffer = Buffer.from(left);
+  const rightBuffer = Buffer.from(right);
+  return leftBuffer.length === rightBuffer.length && timingSafeEqual(leftBuffer, rightBuffer);
+}
+
+function configuredSecrets() {
+  return [process.env.SHADOW_COMPARE_SECRET, process.env.CRON_SECRET].filter((secret): secret is string => Boolean(secret));
 }
 
 function isAuthorized(request: Request) {
-  const secret = configuredSecret();
-  if (!secret) return false;
+  const secrets = configuredSecrets();
+  if (secrets.length === 0) return false;
   const authorization = request.headers.get("authorization");
   const shadowHeader = request.headers.get("x-shadow-compare-secret");
-  return authorization === `Bearer ${secret}` || shadowHeader === secret;
+  const bearerToken = authorization?.startsWith("Bearer ") ? authorization.slice("Bearer ".length) : "";
+  return secrets.some((secret) =>
+    (bearerToken ? safeEquals(bearerToken, secret) : false) ||
+    (shadowHeader ? safeEquals(shadowHeader, secret) : false),
+  );
 }
 
 async function issueDateFromRequest(request: Request) {
