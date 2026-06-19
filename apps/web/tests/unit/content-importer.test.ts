@@ -26,7 +26,7 @@ describe("content importer validation", () => {
 
   it("rejects mismatched Beijing and GMT timestamps", () => {
     const broken = structuredClone(currentIssue);
-    broken.gmtTimestamp = "2026-06-19T21:00:00Z";
+    broken.gmtTimestamp = new Date(new Date(broken.beijingTimestamp).getTime() + 60 * 60 * 1000).toISOString();
     expect(() => validateIssueForImport(broken)).toThrow(/same instant/);
   });
 
