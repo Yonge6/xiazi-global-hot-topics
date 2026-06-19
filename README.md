@@ -1,6 +1,6 @@
 # 虾子曰全球热点海报
 
-`vilesaint.com` 的生产级基础项目。每天北京时间 00:05，用 9 条全球热点和双语内容解释正在变化的世界。
+`pluto.hk` 的生产级基础项目。每天北京时间 05:00，用 9 条全球热点和双语内容解释正在变化的世界。
 
 ## 当前阶段
 
@@ -12,7 +12,8 @@
 - 用户提供的虾子曰、豆豆龙品牌参考图
 - 完整角色三视图、表情、动作、色板与禁用造型规范
 - 每条海报可扫描二维码，指向对应语言和热点
-- Issue、Topic、Source、Poster、Job 类型与 Supabase migration
+- Issue、Topic、Source、Poster、Job 共享 contract 与 Supabase content schema v2
+- JSON Repository 仍是生产默认数据源；Supabase Repository 仅用于 local/staging 验证
 - 基础 SEO、sitemap、robots、Vitest 和 Playwright
 
 Mock 内容只用于产品演示，不代表实时新闻。
@@ -40,15 +41,35 @@ npm run test:e2e
 npm run build
 ```
 
-## Supabase
+## Supabase Content Base
 
-创建 Supabase 项目，将 `.env.example` 中的 Supabase 变量写入 `.env.local`，连接 Supabase CLI 后执行：
+Phase 3 只建立 Supabase 内容底座，不切换 Pluto.hk 生产数据源。生产默认仍为：
 
-```bash
-supabase db push
+```env
+CONTENT_REPOSITORY=json
 ```
 
-初始 migration 位于 `supabase/migrations/202606140001_initial_content_schema.sql`，包含基础表、枚举、索引和公开读取 RLS。管理员写入策略、Auth 角色和审计日志将在 Phase 2 加入。
+本地或 staging Supabase 才允许导入内容。`.env.local` 至少需要：
+
+```env
+CONTENT_REPOSITORY=json
+SUPABASE_ENV=local
+SUPABASE_URL=
+SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+```
+
+本地 Supabase CLI 可用时：
+
+```bash
+supabase start
+supabase db reset
+npm run content:import
+npm run content:verify
+npm run content:compare
+```
+
+导入器读取 `apps/web/data/current-issue.json` 与 `apps/web/data/archive/*.json`，不读取 `public/data` 镜像，不上传或复制海报二进制。`SUPABASE_ENV=production` 默认拒绝导入；Phase 3 禁止在生产设置 `CONTENT_REPOSITORY=supabase`。
 
 ## 模型与海报配置
 
@@ -63,10 +84,10 @@ supabase db push
 
 ## 定时任务
 
-生产环境定时任务在北京时间每天 `00:05` 运行，对应前一日 UTC `16:05`：
+生产环境定时任务在北京时间每天 `05:00` 运行，对应前一日 UTC `21:00`：
 
 ```cron
-5 16 * * *
+0 21 * * *
 ```
 
 Cron 更新最新 9 条双语内容并发布。Vercel Cron 同时调用 `/api/cron/default-posters`，使用线上 COS 密钥将默认海报铺到中英文 18 个位置并写入当日归档；正式海报由后台上传后逐张替换。页面在慢网或图片失败时也会立即显示默认海报。
@@ -77,8 +98,8 @@ Cron 更新最新 9 条双语内容并发布。Vercel Cron 同时调用 `/api/cr
 
 1. 将仓库导入 Vercel。
 2. 配置 `.env.example` 中全部生产变量。
-3. 将 `NEXT_PUBLIC_SITE_URL` 设置为 `https://vilesaint.com`。
-4. 在 Supabase 执行 migration，并创建 Storage buckets。
+3. 将 `NEXT_PUBLIC_SITE_URL` 设置为 `https://pluto.hk`。
+4. 在 local/staging Supabase 执行 migration 并跑内容导入验证；Phase 3 不切生产 Supabase 为主数据源。
 5. 将域名 DNS 指向 Vercel。
 6. 部署前运行 `npm run check`、`npm run test:e2e` 和 `npm run build`。
 
