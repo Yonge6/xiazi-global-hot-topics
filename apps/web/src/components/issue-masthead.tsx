@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { productConfig, publicationTimeLabel } from "@/config/product";
+import { productConfig, publicationTimeLabel } from "@xiazi/config";
 import type { AppLocale } from "@/i18n/config";
 import { getCosAsset } from "@/lib/posters/assets";
 

@@ -6,6 +6,7 @@ const githubPagesBasePath = process.env.GITHUB_PAGES_BASE_PATH || "/xiazi-global
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1"],
+  transpilePackages: ["@xiazi/api-client", "@xiazi/config", "@xiazi/contracts", "@xiazi/domain"],
   images: {
     unoptimized: true,
   },

@@ -1,9 +1,9 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
+import { parseIssue, type Issue } from "@xiazi/contracts";
 import { githubRepo } from "@/lib/github/repo";
 import { studioCookieName, validStudioOrigin, validStudioSession } from "@/lib/studio/auth";
-import type { Issue } from "@/types/content";
 
 const repo = githubRepo;
 const dataPath = "data/current-issue.json";
@@ -71,11 +71,12 @@ export async function POST(request: Request) {
       issue: Issue;
       target?: { source: "current" | "archive" | "commit"; value: string };
     };
-    const issue = payload.issue;
+    const issue = parseIssue(payload.issue);
     const normalized = {
       ...issue,
       topics: issue.topics.map((topic, index) => ({ ...topic, rank: index + 1 })),
     };
+    parseIssue(normalized);
     const archivePath = `data/archive/${issue.issueDate}.json`;
     await writeIssue(archivePath, normalized, `Archive issue ${issue.issueDate}`);
     const updatesCurrent = !payload.target || payload.target.source === "current";

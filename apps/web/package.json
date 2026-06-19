@@ -16,6 +16,10 @@
     "check": "eslint . && tsc --noEmit && vitest run && node scripts/audit-config.mjs"
   },
   "dependencies": {
+    "@xiazi/api-client": "0.1.0",
+    "@xiazi/config": "0.1.0",
+    "@xiazi/contracts": "0.1.0",
+    "@xiazi/domain": "0.1.0",
     "@phosphor-icons/react": "^2.1.10",
     "next": "16.2.9",
     "next-intl": "^4.8.2",

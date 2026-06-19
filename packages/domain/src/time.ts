@@ -1,4 +1,4 @@
-import { productConfig } from "@/config/product";
+import { productConfig } from "@xiazi/config";
 
 export const ISSUE_SLOT_HOURS_BEIJING = [productConfig.publicationHour] as const;
 export const ISSUE_SLOT_MINUTE_BEIJING = productConfig.publicationMinute;

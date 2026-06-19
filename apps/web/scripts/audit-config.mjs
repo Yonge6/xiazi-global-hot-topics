@@ -3,6 +3,7 @@ import { relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
+const workspaceRoot = resolve(root, "../..");
 const checks = [
   {
     file: "package.json",
@@ -25,7 +26,8 @@ const checks = [
     message: "Issue masthead should use shared publication config",
   },
   {
-    file: "src/lib/issues/schedule.ts",
+    file: "packages/domain/src/time.ts",
+    base: workspaceRoot,
     disallow: [/ISSUE_SLOT_HOURS_BEIJING = \[0\]/, /ISSUE_SLOT_MINUTE_BEIJING = 5/, /5 16 \* \* \*/],
     message: "Schedule should use the 05:00 Asia/Shanghai publication config",
   },
@@ -44,11 +46,12 @@ const checks = [
 const failures = [];
 
 for (const check of checks) {
-  const path = resolve(root, check.file);
+  const base = check.base || root;
+  const path = resolve(base, check.file);
   const content = await readFile(path, "utf8");
   const matches = check.disallow.filter((pattern) => pattern.test(content));
   if (matches.length > 0) {
-    failures.push(`${relative(root, path)}: ${check.message}`);
+    failures.push(`${relative(workspaceRoot, path)}: ${check.message}`);
   }
 }
 

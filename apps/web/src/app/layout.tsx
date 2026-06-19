@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { productConfig } from "@/config/product";
+import { productConfig } from "@xiazi/config";
 
 export const metadata: Metadata = {
   metadataBase: new URL(productConfig.siteUrl),

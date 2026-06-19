@@ -6,7 +6,7 @@ import { AboutSection } from "@/components/about-section";
 import { IssueMasthead } from "@/components/issue-masthead";
 import { SiteHeader } from "@/components/site-header";
 import { TopicGallery } from "@/components/topic-gallery";
-import { productConfig, publicationTimeLabel } from "@/config/product";
+import { productConfig, publicationTimeLabel } from "@xiazi/config";
 import { mockIssue } from "@/data/mock-issue";
 import { isAppLocale } from "@/i18n/config";
 import en from "@/messages/en.json";

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { mockIssue } from "@/data/mock-issue";
-import { bilingualContentSchema } from "@/schemas/content";
+import { bilingualContentSchema } from "@xiazi/contracts";
 
 describe("mock issue", () => {
   it("contains exactly nine ranked topics", () => {

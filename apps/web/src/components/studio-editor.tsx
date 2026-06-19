@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { formatDuration } from "@/lib/analytics/format";
 import type { AnalyticsDashboard } from "@/lib/analytics/types";
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
-import type { Issue, LocalizedTopic, Source, Topic } from "@/types/content";
+import type { Issue, LocalizedTopic, Source, Topic } from "@xiazi/contracts";
 
 type IssueEntry = {
   date: string;

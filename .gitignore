@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 apps/*/node_modules
+packages/*/node_modules
 /.pnp
 .pnp.*
 .yarn/*
@@ -14,10 +15,12 @@ apps/*/node_modules
 # testing
 /coverage
 apps/*/coverage
+packages/*/coverage
 apps/*/test-results
 apps/*/playwright-report
 /.turbo
 apps/*/.turbo
+packages/*/.turbo
 
 # next.js
 /.next/

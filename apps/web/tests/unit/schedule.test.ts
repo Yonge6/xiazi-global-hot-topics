@@ -5,7 +5,7 @@ import {
   ISSUE_CRON_UTC,
   ISSUE_SLOT_HOURS_BEIJING,
   ISSUE_SLOT_MINUTE_BEIJING,
-} from "@/lib/issues/schedule";
+} from "@xiazi/domain";
 
 describe("daily issue schedule", () => {
   it("publishes at 05:00 Beijing time", () => {

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { productConfig } from "@/config/product";
+import { productConfig } from "@xiazi/config";
 
 export const dynamic = "force-static";
 

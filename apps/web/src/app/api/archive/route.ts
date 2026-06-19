@@ -3,8 +3,8 @@ import path from "node:path";
 
 import { NextResponse } from "next/server";
 
+import { parseIssue } from "@xiazi/contracts";
 import { githubRepo } from "@/lib/github/repo";
-import type { Issue } from "@/types/content";
 
 const repo = githubRepo;
 
@@ -41,7 +41,7 @@ async function localArchiveDates() {
 async function localArchiveIssue(date: string) {
   try {
     const file = await readFile(path.join(process.cwd(), "data/archive", `${date}.json`), "utf8");
-    return JSON.parse(file) as Issue;
+    return parseIssue(JSON.parse(file));
   } catch {
     return null;
   }
@@ -54,10 +54,11 @@ export async function GET(request: Request) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
         return NextResponse.json({ message: "Invalid archive date" }, { status: 400 });
       }
-      const remoteIssue = await github(
+      const remoteIssuePayload = await github(
         `contents/data/archive/${date}.json`,
         "application/vnd.github.raw+json",
-      ) as Issue | null;
+      );
+      const remoteIssue = remoteIssuePayload ? parseIssue(remoteIssuePayload) : null;
       const issue = remoteIssue ?? await localArchiveIssue(date);
       if (!issue) return NextResponse.json({ message: "Archive not found" }, { status: 404 });
       return NextResponse.json({ issue, assetVersion: issue.assetVersion || issue.beijingTimestamp || date });

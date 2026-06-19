@@ -4,55 +4,12 @@ import { Check, DownloadSimple, LinkSimple, ShareNetwork, X } from "@phosphor-ic
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
+import type { Topic } from "@xiazi/contracts";
+import { loadArchiveDates, loadArchiveIssue, loadCurrentIssue } from "@/features/issues/content-service";
+import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues/share";
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { DEFAULT_POSTER_ASSET, getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
-import type { Issue, Source, Topic } from "@/types/content";
-
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
-function sitePath(path: string) {
-  return `${basePath}${path}`;
-}
-
-async function json<T>(path: string) {
-  const response = await fetch(sitePath(path), { cache: "no-store" });
-  if (!response.ok) throw new Error(`Failed to load ${path}`);
-  return response.json() as Promise<T>;
-}
-
-async function loadCurrentIssue() {
-  return json<Issue>("/api/content/").catch(() => json<Issue>("/data/current-issue.json"));
-}
-
-async function loadArchiveDates() {
-  return json<{ issues: string[] }>("/api/archive/")
-    .catch(() => json<{ issues: string[] }>("/data/archive/index.json"));
-}
-
-async function loadArchiveIssue(date: string) {
-  return json<{ issue: Issue; assetVersion?: string }>(`/api/archive/?date=${encodeURIComponent(date)}`)
-    .catch(async () => {
-      const issue = await json<Issue>(`/data/archive/${date}.json`);
-      return { issue, assetVersion: issue.assetVersion };
-    });
-}
-
-function safeHttpUrl(value: string | undefined) {
-  if (!value) return "";
-  try {
-    const url = new URL(value);
-    return url.protocol === "http:" || url.protocol === "https:" ? url.toString() : "";
-  } catch {
-    return "";
-  }
-}
-
-function primarySource(sources: Source[]) {
-  return sources.find((source) => source.isPrimary && safeHttpUrl(source.url))
-    ?? sources.find((source) => safeHttpUrl(source.url))
-    ?? null;
-}
 
 function ProgressivePoster({
   src,
@@ -170,12 +127,7 @@ export function TopicGallery({
     loadCurrentIssue()
       .then((issue) => {
         if (Array.isArray(issue.topics) && issue.topics.length === 9) {
-          const ordered = [...issue.topics].sort((a, b) => {
-            if (a.category === "sports" && a.slug.includes("world-cup")) return -1;
-            if (b.category === "sports" && b.slug.includes("world-cup")) return 1;
-            return a.rank - b.rank;
-          });
-          setDisplayTopics(ordered);
+          setDisplayTopics(issue.topics);
           if (typeof issue.issueDate === "string") setDisplayIssueDate(issue.issueDate);
           setPosterCacheKey(issue.assetVersion || issue.beijingTimestamp || issue.issueDate);
         }
@@ -222,15 +174,7 @@ export function TopicGallery({
   }
 
   function shareDetails(topic: Topic) {
-    const content = topic.localizations[isZh ? "zh-CN" : "en-US"];
-    const url = `https://pluto.hk/${locale}/#${topic.slug}`;
-    return {
-      title: content.headlineFull,
-      intro: content.intro,
-      url,
-      text: `${content.headlineFull}\n\n${content.intro}\n\n${url}`,
-      poster: posterAsset(topic.slug, "original"),
-    };
+    return buildShareDetails(topic, locale, posterAsset(topic.slug, "original"));
   }
 
   function posterAsset(slug: string, variant: "original" | "thumbnail") {
@@ -246,8 +190,7 @@ export function TopicGallery({
       setArchiveStatus(isZh ? "往期读取失败，请稍后再试" : "Could not load this edition");
       return;
     }
-    const ordered = [...detail.issue.topics].sort((a, b) => a.rank - b.rank);
-    setDisplayTopics(ordered);
+    setDisplayTopics(detail.issue.topics);
     setDisplayIssueDate(detail.issue.issueDate);
     setPosterCacheKey(detail.assetVersion || detail.issue.beijingTimestamp || detail.issue.issueDate);
     setArchiveDate(detail.issue.issueDate);
@@ -260,7 +203,7 @@ export function TopicGallery({
   async function returnToCurrent() {
     setArchiveStatus(isZh ? "正在返回当前期…" : "Returning to the current edition…");
     const issue = await loadCurrentIssue();
-    setDisplayTopics([...issue.topics].sort((a, b) => a.rank - b.rank));
+    setDisplayTopics(issue.topics);
     setDisplayIssueDate(issue.issueDate);
     setPosterCacheKey(issue.assetVersion || issue.beijingTimestamp || issue.issueDate);
     setArchiveDate(null);

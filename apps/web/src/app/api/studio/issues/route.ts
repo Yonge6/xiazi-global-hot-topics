@@ -4,9 +4,9 @@ import path from "node:path";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
+import { parseIssue } from "@xiazi/contracts";
 import { githubRepo } from "@/lib/github/repo";
 import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
-import type { Issue } from "@/types/content";
 
 const repo = githubRepo;
 const dataRoot = path.join(process.cwd(), "data");
@@ -31,12 +31,13 @@ async function github(path: string, accept = "application/vnd.github+json") {
 
 async function rawFile(path: string, ref?: string) {
   const suffix = ref ? `?ref=${encodeURIComponent(ref)}` : "";
-  return github(`contents/${path}${suffix}`, "application/vnd.github.raw+json") as Promise<Issue | null>;
+  const value = await github(`contents/${path}${suffix}`, "application/vnd.github.raw+json");
+  return value ? parseIssue(value) : null;
 }
 
 async function localCurrentIssue() {
   try {
-    return JSON.parse(await readFile(path.join(dataRoot, "current-issue.json"), "utf8")) as Issue;
+    return parseIssue(JSON.parse(await readFile(path.join(dataRoot, "current-issue.json"), "utf8")));
   } catch {
     return null;
   }
@@ -45,7 +46,7 @@ async function localCurrentIssue() {
 async function localArchiveIssue(date: string) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return null;
   try {
-    return JSON.parse(await readFile(path.join(dataRoot, "archive", `${date}.json`), "utf8")) as Issue;
+    return parseIssue(JSON.parse(await readFile(path.join(dataRoot, "archive", `${date}.json`), "utf8")));
   } catch {
     return null;
   }

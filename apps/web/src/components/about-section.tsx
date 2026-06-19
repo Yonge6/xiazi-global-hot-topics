@@ -1,5 +1,5 @@
 import type { AppLocale } from "@/i18n/config";
-import { publicationTimeLabel } from "@/config/product";
+import { publicationTimeLabel } from "@xiazi/config";
 
 export function AboutSection({ locale }: { locale: AppLocale }) {
   const isZh = locale === "zh";

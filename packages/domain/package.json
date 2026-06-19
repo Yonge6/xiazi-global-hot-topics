@@ -1,0 +1,22 @@
+{
+  "name": "@xiazi/domain",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "tsc --noEmit && vitest run"
+  },
+  "dependencies": {
+    "@xiazi/config": "0.1.0",
+    "@xiazi/contracts": "0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "vitest": "^4.1.0"
+  }
+}

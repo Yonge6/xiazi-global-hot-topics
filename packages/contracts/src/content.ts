@@ -5,6 +5,8 @@ export type JobStatus = "queued" | "running" | "succeeded" | "failed" | "cancell
 export type VerificationStatus = "pending" | "verified" | "disputed" | "retracted";
 export type StoryStatus = "new" | "followup" | "finished";
 export type PosterAssetType = "poster_zh" | "poster_en" | "thumbnail";
+export type ContentLocale = "zh-CN" | "en-US";
+export type AppLanguage = "zh" | "en";
 
 export interface LocalizedTopic {
   categoryLabel: string;
@@ -26,7 +28,7 @@ export interface Source {
   publishedAt: string | null;
   sourceType: "official" | "wire" | "publisher" | "research";
   sourceTier: 1 | 2 | 3;
-  locale: "zh-CN" | "en-US";
+  locale: ContentLocale;
   isPrimary: boolean;
 }
 
@@ -46,7 +48,7 @@ export interface Topic {
   storyStatus?: StoryStatus;
   followupDay?: number;
   informationIncrementScore?: number;
-  localizations: Record<"zh-CN" | "en-US", LocalizedTopic>;
+  localizations: Record<ContentLocale, LocalizedTopic>;
   sources: Source[];
 }
 
@@ -67,7 +69,7 @@ export interface Poster {
   id: string;
   topicId: string;
   assetType: PosterAssetType;
-  locale: "zh-CN" | "en-US" | null;
+  locale: ContentLocale | null;
   storagePath: string;
   width: number;
   height: number;

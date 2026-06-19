@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import { parseIssue } from "@xiazi/contracts";
 import fallbackIssue from "@/data/current-issue.json";
 import { githubRepo } from "@/lib/github/repo";
 
@@ -33,7 +34,7 @@ export async function GET() {
 
     if (!contentResponse.ok) throw new Error("Unable to load current issue");
 
-    const issue = await contentResponse.json();
+    const issue = parseIssue(await contentResponse.json());
     const commit = commitResponse.ok ? await commitResponse.json() : null;
 
     return NextResponse.json({
@@ -46,7 +47,7 @@ export async function GET() {
     });
   } catch {
     return NextResponse.json({
-      ...fallbackIssue,
+      ...parseIssue(fallbackIssue),
       assetVersion: fallbackIssue.beijingTimestamp || fallbackIssue.issueDate,
     }, {
       headers: {
