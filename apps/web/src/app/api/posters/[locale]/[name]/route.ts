@@ -18,12 +18,18 @@ export async function GET(
     return NextResponse.json({ message: "Poster not found" }, { status: 404 });
   }
 
-  const thumbnail = new URL(request.url).searchParams.get("variant") === "thumbnail";
+  const searchParams = new URL(request.url).searchParams;
+  const thumbnail = searchParams.get("variant") === "thumbnail";
+  const issueDate = searchParams.get("issueDate");
+  if (issueDate && !/^\d{4}-\d{2}-\d{2}$/.test(issueDate)) {
+    return NextResponse.json({ message: "Poster not found" }, { status: 404 });
+  }
   const extension = thumbnail ? "webp" : "png";
-  const path = thumbnail
-    ? `posters/thumb/${locale}/${name}.${extension}`
-    : `posters/${locale}/${name}.${extension}`;
-  const fallbackPath = `/${path}`;
+  const folder = thumbnail ? "thumb/" : "";
+  const path = issueDate
+    ? `public/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}`
+    : `public/posters/${folder}${locale}/${name}.${extension}`;
+  const fallbackPath = `/${path.replace(/^public\//, "")}`;
   const token = process.env.GITHUB_STUDIO_TOKEN;
 
   try {
