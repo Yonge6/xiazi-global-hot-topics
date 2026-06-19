@@ -9,7 +9,7 @@
     },
     {
       "path": "/api/internal/content-shadow-compare/",
-      "schedule": "15 * * * *"
+      "schedule": "15 22 * * *"
     }
   ]
 }
