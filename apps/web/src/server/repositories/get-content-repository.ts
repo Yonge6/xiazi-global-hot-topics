@@ -7,7 +7,7 @@ export function getContentRepository(): ContentRepository {
   if (repository === "json") return new JsonContentRepository();
   if (repository === "supabase") {
     if (process.env.NODE_ENV === "production" && process.env.SUPABASE_ENV === "production") {
-      throw new Error("Phase 3 forbids production CONTENT_REPOSITORY=supabase");
+      throw new Error("Phase 4A forbids production CONTENT_REPOSITORY=supabase");
     }
     return new SupabaseContentRepository();
   }

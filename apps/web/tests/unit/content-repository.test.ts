@@ -23,6 +23,14 @@ describe("content repository selector", () => {
     expect(() => getContentRepository()).toThrow(/Unknown CONTENT_REPOSITORY/);
     vi.unstubAllEnvs();
   });
+
+  it("rejects production Supabase as the primary repository during Phase 4A", () => {
+    vi.stubEnv("CONTENT_REPOSITORY", "supabase");
+    vi.stubEnv("SUPABASE_ENV", "production");
+    vi.stubEnv("NODE_ENV", "production");
+    expect(() => getContentRepository()).toThrow(/Phase 4A forbids production CONTENT_REPOSITORY=supabase/);
+    vi.unstubAllEnvs();
+  });
 });
 
 describe("Supabase issue mapper", () => {
