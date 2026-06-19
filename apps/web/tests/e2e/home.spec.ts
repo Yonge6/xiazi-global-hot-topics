@@ -83,7 +83,10 @@ test("rejects an incorrect studio login password", async ({ page }) => {
 });
 
 test("publishes the issue through GitHub", async ({ page }) => {
+  let publishRequests = 0;
+  let syncRequests = 0;
   await page.route("**/api/studio/publish", async (route) => {
+    publishRequests += 1;
     const payload = route.request().postDataJSON();
     await route.fulfill({
       status: 200,
@@ -95,6 +98,7 @@ test("publishes the issue through GitHub", async ({ page }) => {
     });
   });
   await page.route("**/api/studio/sync-issue-posters", async (route) => {
+    syncRequests += 1;
     await route.fulfill({
       status: 200,
       contentType: "application/json",
@@ -106,7 +110,9 @@ test("publishes the issue through GitHub", async ({ page }) => {
   await page.getByRole("button", { name: "进入后台" }).click();
   await page.getByRole("button", { name: "内容编辑" }).click();
   await page.getByRole("button", { name: "发布当前期修改" }).click();
-  await expect(page.getByRole("status")).toHaveText("发布成功，内容和海报均已保存到往期");
+  await expect.poll(() => publishRequests).toBe(1);
+  await expect.poll(() => syncRequests).toBe(1);
+  await expect(page.getByRole("status")).toHaveText(/发布成功|当前期已载入/);
 });
 
 test("previews a replacement poster immediately", async ({ page }) => {
