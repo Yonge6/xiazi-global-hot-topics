@@ -2,7 +2,7 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 import { uploadToCos } from "@/lib/cos/storage";
-import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
+import { studioCookieName, validStudioOrigin, validStudioSession } from "@/lib/studio/auth";
 
 const brandAssets = [
   "brand/logo/xiazi-global-hot-topics.webp",
@@ -11,6 +11,9 @@ const brandAssets = [
 ];
 
 export async function POST(request: Request) {
+  if (!validStudioOrigin(request)) {
+    return NextResponse.json({ message: "请求来源无效" }, { status: 403 });
+  }
   const cookieStore = await cookies();
   if (!validStudioSession(cookieStore.get(studioCookieName)?.value)) {
     return NextResponse.json({ message: "登录已过期，请重新进入后台" }, { status: 401 });

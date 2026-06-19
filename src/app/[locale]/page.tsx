@@ -6,6 +6,7 @@ import { AboutSection } from "@/components/about-section";
 import { IssueMasthead } from "@/components/issue-masthead";
 import { SiteHeader } from "@/components/site-header";
 import { TopicGallery } from "@/components/topic-gallery";
+import { productConfig, publicationTimeLabel } from "@/config/product";
 import { mockIssue } from "@/data/mock-issue";
 import { isAppLocale } from "@/i18n/config";
 import en from "@/messages/en.json";
@@ -21,10 +22,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale } = await params;
   if (!isAppLocale(locale)) return {};
   const isZh = locale === "zh";
+  const timeLabel = publicationTimeLabel();
   const title = isZh ? "昨日世界 | 虾子曰全球热点海报" : "The World Yesterday | Xiazi Global Hot Topics";
   const description = isZh
-    ? "每天 00:05，用 9 条双语内容，看懂正在变化的世界。"
-    : "Nine bilingual stories at 00:05 Beijing Time, capturing a changing world.";
+    ? `每天 ${timeLabel}，用 9 条双语内容，看懂正在变化的世界。`
+    : `Nine bilingual stories at ${timeLabel} Beijing Time, capturing a changing world.`;
 
   return {
     title,
@@ -36,8 +38,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title,
       description,
-      url: `https://pluto.hk/${locale}`,
-      siteName: "Xiazi Says",
+      url: `${productConfig.siteUrl}/${locale}`,
+      siteName: productConfig.brandNameEn,
       locale: isZh ? "zh_CN" : "en_US",
       type: "website",
     },
@@ -50,6 +52,7 @@ export default async function LocaleHome({ params }: PageProps) {
   setRequestLocale(locale);
 
   const messages = (locale === "zh" ? zh : en) as Record<string, string>;
+  const timeLabel = publicationTimeLabel();
   return (
     <main>
       <SiteHeader locale={locale} messages={messages} />
@@ -68,8 +71,8 @@ export default async function LocaleHome({ params }: PageProps) {
           <p>{messages["footer.slogan"]}</p>
           <div>
             <span>ISSN {mockIssue.issueDate.replaceAll("-", "—")}</span>
-            <span>BEIJING · 00:05 DAILY</span>
-            <strong>pluto.hk</strong>
+            <span>BEIJING · {timeLabel} DAILY</span>
+            <strong>{new URL(productConfig.siteUrl).hostname}</strong>
           </div>
         </div>
       </footer>

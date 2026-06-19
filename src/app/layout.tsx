@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { productConfig } from "@/config/product";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://pluto.hk"),
+  metadataBase: new URL(productConfig.siteUrl),
   title: {
     default: "虾子曰全球热点海报",
     template: "%s | 虾子曰",

@@ -1,7 +1,9 @@
 import type { AppLocale } from "@/i18n/config";
+import { publicationTimeLabel } from "@/config/product";
 
 export function AboutSection({ locale }: { locale: AppLocale }) {
   const isZh = locale === "zh";
+  const timeLabel = publicationTimeLabel();
 
   return (
     <section id="about" className="about-section">
@@ -15,7 +17,7 @@ export function AboutSection({ locale }: { locale: AppLocale }) {
             <>
               <p>这个世界每天都很热闹，也很容易把人带跑。</p>
               <p>世界杯进了几个球，AI又进化到了哪一步，谁在谈判，谁在发射火箭，谁又悄悄改写了未来……信息像潮水一样涌来，浪花很大，真正重要的变化却常常藏在水面之下。</p>
-              <p>所以，我们做了「虾子曰」。每天00:05，从全球新闻里筛出最新且最值得关注的9件事：先把事实讲清楚，再把门道说明白，配上简短介绍、推荐阅读和可以保存分享的中英文海报。</p>
+              <p>所以，我们做了「虾子曰」。每天{timeLabel}，从全球新闻里筛出最新且最值得关注的9件事：先把事实讲清楚，再把门道说明白，配上简短介绍、推荐阅读和可以保存分享的中英文海报。</p>
               <p>我们想用一点烟火气，讲商业、人性与时代变化。不装深刻，不贩焦虑，不带节奏，也不急着替复杂世界下结论。</p>
               <p>虾子曰负责看门道，豆豆龙负责说人话，偶尔补一刀，也始终留一点余地。幽默但不油滑，犀利但不刻薄，达观但不犬儒，通俗但不浅薄。</p>
               <p>有趣是入口，中正是底色，洞察是价值。我们只想讲看得见的人性、想得透的逻辑，以及真正落得下的启发。</p>

@@ -1,9 +1,11 @@
 import type { MetadataRoute } from "next";
 
+import { productConfig } from "@/config/product";
+
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://pluto.hk";
+  const baseUrl = productConfig.siteUrl;
   return [
     { url: `${baseUrl}/zh`, lastModified: new Date(), alternates: { languages: { "zh-CN": `${baseUrl}/zh`, "en-US": `${baseUrl}/en` } } },
     { url: `${baseUrl}/en`, lastModified: new Date(), alternates: { languages: { "zh-CN": `${baseUrl}/zh`, "en-US": `${baseUrl}/en` } } },

@@ -5,7 +5,7 @@ import sharp from "sharp";
 import { copyCosObject, uploadToCos } from "@/lib/cos/storage";
 import { githubRepo } from "@/lib/github/repo";
 import { resolvePosterName } from "@/lib/posters/assets";
-import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
+import { studioCookieName, validStudioOrigin, validStudioSession } from "@/lib/studio/auth";
 
 function encode(content: Buffer) {
   return content.toString("base64");
@@ -67,6 +67,9 @@ async function tryCos(action: () => Promise<void>, warnings: string[]) {
 }
 
 export async function POST(request: Request) {
+  if (!validStudioOrigin(request)) {
+    return NextResponse.json({ message: "请求来源无效" }, { status: 403 });
+  }
   const cookieStore = await cookies();
   if (!validStudioSession(cookieStore.get(studioCookieName)?.value)) {
     return NextResponse.json({ message: "登录已过期，请重新进入后台" }, { status: 401 });

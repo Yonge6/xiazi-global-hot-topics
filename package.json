@@ -1,5 +1,5 @@
 {
-  "name": "vilesaint-site",
+  "name": "xiazi-global-hot-topics",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "check": "eslint . && tsc --noEmit && vitest run"
+    "audit:config": "node scripts/audit-config.mjs",
+    "check": "eslint . && tsc --noEmit && vitest run && node scripts/audit-config.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

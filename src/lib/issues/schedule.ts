@@ -1,17 +1,21 @@
-export const ISSUE_SLOT_HOURS_BEIJING = [0] as const;
-export const ISSUE_SLOT_MINUTE_BEIJING = 5;
+import { productConfig } from "@/config/product";
 
-export const ISSUE_CRON_UTC = "5 16 * * *";
+export const ISSUE_SLOT_HOURS_BEIJING = [productConfig.publicationHour] as const;
+export const ISSUE_SLOT_MINUTE_BEIJING = productConfig.publicationMinute;
+export const ISSUE_CRON_UTC = "0 21 * * *";
 
 export function formatIssueTime(
   timestamp: string,
   locale: "zh" | "en",
 ): string {
-  const date = new Date(timestamp);
+  const issueDate = timestamp.slice(0, 10);
+  const date = new Date(
+    `${issueDate}T${String(productConfig.publicationHour).padStart(2, "0")}:${String(productConfig.publicationMinute).padStart(2, "0")}:00+08:00`,
+  );
 
   if (locale === "zh") {
     const value = new Intl.DateTimeFormat("zh-CN", {
-      timeZone: "Asia/Shanghai",
+      timeZone: productConfig.publicationTimezone,
       year: "numeric",
       month: "2-digit",
       day: "2-digit",

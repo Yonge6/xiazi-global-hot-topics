@@ -1,16 +1,18 @@
 import Image from "next/image";
 
+import { productConfig, publicationTimeLabel } from "@/config/product";
 import type { AppLocale } from "@/i18n/config";
 import { getCosAsset } from "@/lib/posters/assets";
 
 export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueDate: string }) {
   const isZh = locale === "zh";
-  const date = new Date(`${issueDate}T00:05:00+08:00`);
+  const timeLabel = publicationTimeLabel();
+  const date = new Date(`${issueDate}T${timeLabel}:00+08:00`);
   const formattedDate = new Intl.DateTimeFormat(isZh ? "zh-CN" : "en-US", {
     year: "numeric",
     month: isZh ? "2-digit" : "long",
     day: "2-digit",
-    timeZone: "Asia/Shanghai",
+    timeZone: productConfig.publicationTimezone,
   }).format(date);
   const compactDate = issueDate.replaceAll("-", ".");
 
@@ -50,8 +52,8 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
         </p>
         <p className="issue-date">
           {isZh
-            ? `${compactDate} · 北京时间 00:05 发布`
-            : `${formattedDate} · Published at 00:05 Beijing Time`}
+            ? `${compactDate} · 北京时间 ${timeLabel} 发布`
+            : `${formattedDate} · Published at ${timeLabel} Beijing Time`}
         </p>
       </div>
 
