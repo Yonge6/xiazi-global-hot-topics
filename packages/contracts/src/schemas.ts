@@ -51,7 +51,12 @@ export const sourceSchema = z.object({
   topicId: z.string().min(1),
   title: z.string(),
   publisher: z.string(),
-  url: z.string(),
+  url: z.string().url().refine((value) => {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  }, {
+    message: "Source URL must use http or https",
+  }),
   publishedAt: z.string().nullable(),
   sourceType: sourceTypeSchema,
   sourceTier: sourceTierSchema,
