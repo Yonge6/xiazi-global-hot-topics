@@ -8,6 +8,15 @@
     },
     "build": {
       "dependsOn": ["^build"],
+      "env": [
+        "CONTENT_REPOSITORY",
+        "SUPABASE_ENV",
+        "SUPABASE_URL",
+        "SUPABASE_PUBLISHABLE_KEY",
+        "SUPABASE_SECRET_KEY",
+        "SUPABASE_ANON_KEY",
+        "SUPABASE_SERVICE_ROLE_KEY"
+      ],
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {

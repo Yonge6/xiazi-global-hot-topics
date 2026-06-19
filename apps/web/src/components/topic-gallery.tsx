@@ -69,11 +69,13 @@ export function TopicGallery({
   locale,
   issueDate,
   initialAssetVersion,
+  initialArchiveDates = [],
 }: {
   topics: Topic[];
   locale: AppLocale;
   issueDate: string;
   initialAssetVersion: string;
+  initialArchiveDates?: string[];
 }) {
   const [displayTopics, setDisplayTopics] = useState(topics);
   const [displayIssueDate, setDisplayIssueDate] = useState(issueDate);
@@ -81,7 +83,7 @@ export function TopicGallery({
   const [shareIndex, setShareIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState("");
   const [posterCacheKey, setPosterCacheKey] = useState<string | number>(initialAssetVersion);
-  const [archiveDates, setArchiveDates] = useState<string[]>([]);
+  const [archiveDates, setArchiveDates] = useState<string[]>(initialArchiveDates);
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [archiveStatus, setArchiveStatus] = useState("");
   const isZh = locale === "zh";

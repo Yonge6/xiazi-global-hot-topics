@@ -12,6 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
+    "test:e2e:staging": "playwright test tests/e2e/staging.spec.ts --project=chromium",
     "audit:config": "node scripts/audit-config.mjs",
     "check": "eslint . && tsc --noEmit && vitest run && node scripts/audit-config.mjs"
   },

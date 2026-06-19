@@ -1,4 +1,3 @@
-import { createApiClient } from "@xiazi/api-client";
 import { parseIssue, type Issue } from "@xiazi/contracts";
 import { sortTopicsForIssue } from "@xiazi/domain";
 
@@ -8,10 +7,10 @@ function sitePath(path: string) {
   return `${basePath}${path}`;
 }
 
-const apiClient = createApiClient();
-
 async function getJson<T>(path: string) {
-  return apiClient.getJson<T>(sitePath(path));
+  const response = await fetch(sitePath(path), { cache: "no-store" });
+  if (!response.ok) throw new Error(`Request failed: ${response.status} ${path}`);
+  return response.json() as Promise<T>;
 }
 
 export async function loadCurrentIssue() {
@@ -25,12 +24,15 @@ export async function loadCurrentIssue() {
 }
 
 export async function loadArchiveDates() {
-  return getJson<{ issues: string[] }>("/api/archive/")
+  return getJson<{ issues: Array<{ issueDate: string }> }>("/api/v1/issues/")
+    .then((detail) => ({ issues: detail.issues.map((issue) => issue.issueDate) }))
+    .catch(() => getJson<{ issues: string[] }>("/api/archive/"))
     .catch(() => getJson<{ issues: string[] }>("/data/archive/index.json"));
 }
 
 export async function loadArchiveIssue(date: string) {
-  const detail = await getJson<{ issue: unknown; assetVersion?: string }>(`/api/archive/?date=${encodeURIComponent(date)}`)
+  const detail = await getJson<{ issue: unknown; assetVersion?: string }>(`/api/v1/issues/${encodeURIComponent(date)}/`)
+    .catch(() => getJson<{ issue: unknown; assetVersion?: string }>(`/api/archive/?date=${encodeURIComponent(date)}`))
     .catch(async () => {
       const issue = await getJson<unknown>(`/data/archive/${date}.json`);
       const parsed = parseIssue(issue);

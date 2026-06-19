@@ -7,10 +7,12 @@ import { IssueMasthead } from "@/components/issue-masthead";
 import { SiteHeader } from "@/components/site-header";
 import { TopicGallery } from "@/components/topic-gallery";
 import { productConfig, publicationTimeLabel } from "@xiazi/config";
+import { sortTopicsForIssue } from "@xiazi/domain";
 import { mockIssue } from "@/data/mock-issue";
 import { isAppLocale } from "@/i18n/config";
 import en from "@/messages/en.json";
 import zh from "@/messages/zh.json";
+import { getContentRepository } from "@/server/repositories/get-content-repository";
 
 export function generateStaticParams() {
   return [{ locale: "zh" }, { locale: "en" }];
@@ -53,15 +55,24 @@ export default async function LocaleHome({ params }: PageProps) {
 
   const messages = (locale === "zh" ? zh : en) as Record<string, string>;
   const timeLabel = publicationTimeLabel();
+  const repository = getContentRepository();
+  const issue = await repository.getLatestPublishedIssue()
+    .then((latestIssue) => ({ ...latestIssue, topics: sortTopicsForIssue(latestIssue.topics) }))
+    .catch(() => mockIssue);
+  const archiveDates = await repository.listPublishedIssues()
+    .then((issues) => issues.map((item) => item.issueDate))
+    .catch(() => []);
+
   return (
     <main>
       <SiteHeader locale={locale} messages={messages} />
-      <IssueMasthead locale={locale} issueDate={mockIssue.issueDate} />
+      <IssueMasthead locale={locale} issueDate={issue.issueDate} />
       <TopicGallery
-        topics={mockIssue.topics}
+        topics={issue.topics}
         locale={locale}
-        issueDate={mockIssue.issueDate}
-        initialAssetVersion={mockIssue.beijingTimestamp || mockIssue.issueDate}
+        issueDate={issue.issueDate}
+        initialAssetVersion={issue.assetVersion || issue.beijingTimestamp || issue.issueDate}
+        initialArchiveDates={archiveDates}
       />
 
       <AboutSection locale={locale} />
@@ -70,7 +81,7 @@ export default async function LocaleHome({ params }: PageProps) {
         <div className="shell">
           <p>{messages["footer.slogan"]}</p>
           <div>
-            <span>ISSN {mockIssue.issueDate.replaceAll("-", "—")}</span>
+            <span>ISSN {issue.issueDate.replaceAll("-", "—")}</span>
             <span>BEIJING · {timeLabel} DAILY</span>
             <strong>{new URL(productConfig.siteUrl).hostname}</strong>
           </div>

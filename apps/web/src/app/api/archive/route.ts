@@ -5,6 +5,7 @@ import { NextResponse } from "next/server";
 
 import { parseIssue } from "@xiazi/contracts";
 import { githubRepo } from "@/lib/github/repo";
+import { getContentRepository } from "@/server/repositories/get-content-repository";
 
 const repo = githubRepo;
 
@@ -50,9 +51,18 @@ async function localArchiveIssue(date: string) {
 export async function GET(request: Request) {
   try {
     const date = new URL(request.url).searchParams.get("date");
+    const repository = getContentRepository();
     if (date) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
         return NextResponse.json({ message: "Invalid archive date" }, { status: 400 });
+      }
+      const repositoryIssue = await repository.getIssueByDate(date).catch(() => null);
+      if (repositoryIssue) {
+        return NextResponse.json({
+          issue: repositoryIssue,
+          assetVersion: repositoryIssue.assetVersion || repositoryIssue.beijingTimestamp || date,
+          source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
+        });
       }
       const remoteIssuePayload = await github(
         `contents/data/archive/${date}.json`,
@@ -62,6 +72,14 @@ export async function GET(request: Request) {
       const issue = remoteIssue ?? await localArchiveIssue(date);
       if (!issue) return NextResponse.json({ message: "Archive not found" }, { status: 404 });
       return NextResponse.json({ issue, assetVersion: issue.assetVersion || issue.beijingTimestamp || date });
+    }
+
+    const repositoryIssues = await repository.listPublishedIssues().catch(() => []);
+    if (repositoryIssues.length > 0) {
+      return NextResponse.json({
+        issues: repositoryIssues.map((issue) => issue.issueDate),
+        source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
+      });
     }
 
     const files = await github("contents/data/archive");
