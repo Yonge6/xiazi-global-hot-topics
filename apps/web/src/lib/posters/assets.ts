@@ -60,6 +60,45 @@ export const posterNames: Record<string, string> = {
   "ai-governance-crossroads": "anthropic-national-security",
 };
 
+const staticCurrentPosterNames = new Set([
+  "ai-governance",
+  "supply-chain",
+  "climate-adaptation",
+  "space-orbit",
+  "public-health",
+  "world-cup",
+  "cultural-heritage",
+  "clean-energy",
+  "high-seas",
+  "world-cup-iran-new-zealand",
+  "spacex-acquires-anysphere",
+  "boj-rate-hike",
+  "china-retail-sales-decline",
+  "eu-us-trade-agreement",
+  "g7-russia-sanctions",
+  "us-iran-peace-signing",
+  "softbank-openai-cybersecurity",
+  "yum-sells-pizza-hut",
+  "world-cup-messi-record",
+  "us-iran-mou-signed",
+  "fed-warsh-rate-signal",
+  "g7-critical-minerals-alliance",
+  "paramount-wbd-china-clearance",
+  "china-employment-five-year-plan",
+  "ai-drone-wingmen-production",
+  "congo-ebola-response-strained",
+  "un-hunger-hotspots-warning",
+  "world-cup-colombia-uzbekistan",
+  "us-iran-agreement-implementation",
+  "ukraine-moscow-refinery-drone-strike",
+  "apple-intel-us-chip-production",
+  "noam-shazeer-openai",
+  "china-ai-consumption-measures",
+  "cuba-economic-reform",
+  "uae-social-media-age-15",
+  "spacex-ai-bond-offering",
+]);
+
 export function withBasePath(path: string) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   if (!basePath || /^https?:\/\//.test(path)) return path;
@@ -100,8 +139,14 @@ export function getPosterAsset(
 ) {
   const name = resolvePosterName(slug);
   const query = new URLSearchParams();
-  if (variant === "thumbnail") query.set("variant", "thumbnail");
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
   const suffix = query.size ? `?${query.toString()}` : "";
-  return withBasePath(`/api/posters/${locale}/${name}/${suffix}`);
+  if (!staticCurrentPosterNames.has(name)) {
+    if (variant === "thumbnail") query.set("variant", "thumbnail");
+    const fallbackSuffix = query.size ? `?${query.toString()}` : "";
+    return withBasePath(`/api/posters/${locale}/${name}/${fallbackSuffix}`);
+  }
+  const folder = variant === "thumbnail" ? "thumb/" : "";
+  const extension = variant === "thumbnail" ? "webp" : "png";
+  return withBasePath(`/posters/${folder}${locale}/${name}.${extension}${suffix}`);
 }
