@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 import type { Topic } from "@xiazi/contracts";
-import { loadArchiveDates, loadArchiveIssue, loadCurrentIssue } from "@/features/issues/content-service";
+import { loadArchiveIssue, loadCurrentIssue } from "@/features/issues/content-service";
 import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues/share";
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
@@ -74,14 +74,27 @@ export function TopicGallery({
   const [shareIndex, setShareIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState("");
   const [posterCacheKey, setPosterCacheKey] = useState<string | number>(initialAssetVersion);
-  const [archiveDates, setArchiveDates] = useState<string[]>(initialArchiveDates);
+  const [archiveDates] = useState<string[]>(initialArchiveDates);
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [archiveStatus, setArchiveStatus] = useState("");
   const isZh = locale === "zh";
 
   useEffect(() => {
-    trackAnalytics("page_view", locale);
-
+    type IdleHandle = number | ReturnType<typeof globalThis.setTimeout>;
+    const scheduleIdle = (callback: () => void) => {
+      if ("requestIdleCallback" in window) {
+        return window.requestIdleCallback(callback, { timeout: 2500 });
+      }
+      return globalThis.setTimeout(callback, 1600);
+    };
+    const cancelIdle = (id: IdleHandle) => {
+      if ("cancelIdleCallback" in window && typeof id === "number") {
+        window.cancelIdleCallback(id);
+      } else {
+        globalThis.clearTimeout(id);
+      }
+    };
+    const pageViewIdleId = scheduleIdle(() => trackAnalytics("page_view", locale));
     let activeStartedAt = document.visibilityState === "visible" ? Date.now() : null;
     let activeMilliseconds = 0;
     let recorded = false;
@@ -110,31 +123,12 @@ export function TopicGallery({
     document.addEventListener("visibilitychange", onVisibilityChange);
     window.addEventListener("pagehide", recordDuration);
     return () => {
+      cancelIdle(pageViewIdleId);
       document.removeEventListener("visibilitychange", onVisibilityChange);
       window.removeEventListener("pagehide", recordDuration);
       recordDuration();
     };
   }, [locale]);
-
-  useEffect(() => {
-    loadCurrentIssue()
-      .then((issue) => {
-        if (Array.isArray(issue.topics) && issue.topics.length === 9) {
-          setDisplayTopics(issue.topics);
-          if (typeof issue.issueDate === "string") setDisplayIssueDate(issue.issueDate);
-          setPosterCacheKey(issue.assetVersion || issue.beijingTimestamp || issue.issueDate);
-        }
-      })
-      .catch(() => undefined);
-  }, []);
-
-  useEffect(() => {
-    loadArchiveDates()
-      .then((detail) => {
-        if (Array.isArray(detail.issues)) setArchiveDates(detail.issues);
-      })
-      .catch(() => undefined);
-  }, []);
 
   useEffect(() => {
     if (activeIndex === null && shareIndex === null) return;

@@ -58,12 +58,16 @@ export default async function LocaleHome({ params }: PageProps) {
   const messages = (locale === "zh" ? zh : en) as Record<string, string>;
   const timeLabel = publicationTimeLabel();
   const repository = getContentRepository();
-  const issue = await repository.getLatestPublishedIssue()
-    .then((latestIssue) => ({ ...latestIssue, topics: sortTopicsForIssue(latestIssue.topics) }))
-    .catch(() => mockIssue);
-  const archiveDates = await repository.listPublishedIssues()
-    .then((issues) => issues.map((item) => item.issueDate))
-    .catch(() => []);
+  const [issueResult, archiveResult] = await Promise.allSettled([
+    repository.getLatestPublishedIssue(),
+    repository.listPublishedIssues(),
+  ]);
+  const issue = issueResult.status === "fulfilled"
+    ? { ...issueResult.value, topics: sortTopicsForIssue(issueResult.value.topics) }
+    : mockIssue;
+  const archiveDates = archiveResult.status === "fulfilled"
+    ? archiveResult.value.map((item) => item.issueDate)
+    : [];
 
   return (
     <main>

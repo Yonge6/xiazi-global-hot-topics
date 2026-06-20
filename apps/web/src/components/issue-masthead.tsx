@@ -23,8 +23,7 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
           src={getCosAsset("brand/characters/xiazi/xiazi-master-front.webp")}
           alt=""
           fill
-          loading="lazy"
-          fetchPriority="low"
+          priority
           sizes="(max-width: 768px) 180px, 380px"
           className="object-contain object-bottom"
         />
@@ -63,8 +62,7 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
           src={getCosAsset("brand/characters/doudou/doudou-master-front.webp")}
           alt=""
           fill
-          loading="lazy"
-          fetchPriority="low"
+          priority
           sizes="(max-width: 768px) 150px, 310px"
           className="object-contain object-bottom"
         />
