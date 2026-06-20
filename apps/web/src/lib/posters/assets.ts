@@ -89,7 +89,7 @@ export function getArchivedPosterAsset(
   const query = new URLSearchParams({ issueDate });
   if (variant === "thumbnail") query.set("variant", "thumbnail");
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
-  return withBasePath(`/api/posters/${locale}/${name}?${query.toString()}`);
+  return withBasePath(`/api/posters/${locale}/${name}/?${query.toString()}`);
 }
 
 export function getPosterAsset(
@@ -103,5 +103,5 @@ export function getPosterAsset(
   if (variant === "thumbnail") query.set("variant", "thumbnail");
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
   const suffix = query.size ? `?${query.toString()}` : "";
-  return withBasePath(`/api/posters/${locale}/${name}${suffix}`);
+  return withBasePath(`/api/posters/${locale}/${name}/${suffix}`);
 }

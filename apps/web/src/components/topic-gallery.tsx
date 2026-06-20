@@ -9,7 +9,7 @@ import { loadArchiveDates, loadArchiveIssue, loadCurrentIssue } from "@/features
 import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues/share";
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
-import { DEFAULT_POSTER_ASSET, getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
+import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
 
 function ProgressivePoster({
   src,
@@ -38,16 +38,6 @@ function ProgressivePoster({
   return (
     <span className="poster-image-shell">
       <Image
-        src={DEFAULT_POSTER_ASSET}
-        alt=""
-        aria-hidden="true"
-        width={640}
-        height={1280}
-        sizes={sizes}
-        className={`${className} poster-image-placeholder`}
-        priority={priority}
-      />
-      <Image
         src={src}
         alt={alt}
         width={1024}
@@ -56,6 +46,7 @@ function ProgressivePoster({
         className={`${className} poster-image-loaded${loaded ? " is-ready" : ""}`}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
+        unoptimized
         ref={imgRef}
         onLoad={() => setLoaded(true)}
         onError={() => setLoaded(false)}

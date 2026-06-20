@@ -16,10 +16,10 @@ export function trackAnalytics(
   }
   const body = JSON.stringify({ event, locale, slug, visitorId, durationSeconds });
   if (navigator.sendBeacon) {
-    navigator.sendBeacon("/api/analytics/event", new Blob([body], { type: "application/json" }));
+    navigator.sendBeacon("/api/analytics/event/", new Blob([body], { type: "application/json" }));
     return;
   }
-  void fetch("/api/analytics/event", {
+  void fetch("/api/analytics/event/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body,
