@@ -101,6 +101,152 @@ describe("content shadow compare", () => {
       matched: false,
       error_code: "SUPABASE_READ_FAILED",
       request_id: "test-request",
+      trigger_type: "manual",
     }));
+  });
+
+  it("syncs a missing latest issue before comparing", async () => {
+    const logger = loggerClient();
+    let synced: Issue | null = null;
+    const supabaseRepository = {
+      async getLatestPublishedIssue() {
+        if (!synced) throw new Error("missing latest");
+        return synced;
+      },
+      async getIssueByDate() {
+        return synced;
+      },
+      async listPublishedIssues() {
+        return synced ? [{ issueDate: synced.issueDate, slug: synced.slug, status: synced.status, source: "supabase" as const }] : [];
+      },
+    };
+
+    const result = await runContentShadowCompare({
+      jsonRepository: new FakeRepository(issue),
+      supabaseRepository,
+      loggerClient: logger.client as never,
+      serviceClient: {} as never,
+      requestId: "cron-request",
+      triggerType: "cron",
+      syncBeforeCompare: true,
+      syncIssueBundle: async (_client, sourceIssue, checksum) => {
+        synced = sourceIssue;
+        return {
+          issueDate: sourceIssue.issueDate,
+          checksum,
+          executionKey: `shadow-sync:${sourceIssue.issueDate}:${checksum}`,
+          changed: true,
+          contentVersion: 1,
+          syncStatus: "inserted",
+        };
+      },
+    });
+
+    expect(result.matched).toBe(true);
+    expect(result.syncStatus).toBe("inserted");
+    expect(result.triggerType).toBe("cron");
+    expect(logger.insert).toHaveBeenCalledWith(expect.objectContaining({
+      trigger_type: "cron",
+      sync_status: "inserted",
+      sync_changed: true,
+      compare_status: "matched",
+      error_code: null,
+    }));
+  });
+
+  it("skips writes when Supabase already has the same checksum", async () => {
+    const logger = loggerClient();
+    const result = await runContentShadowCompare({
+      jsonRepository: new FakeRepository(issue),
+      supabaseRepository: new FakeRepository(issue),
+      loggerClient: logger.client as never,
+      serviceClient: {} as never,
+      triggerType: "manual",
+      syncBeforeCompare: true,
+      syncIssueBundle: async (_client, sourceIssue, checksum) => ({
+        issueDate: sourceIssue.issueDate,
+        checksum,
+        executionKey: `shadow-sync:${sourceIssue.issueDate}:${checksum}`,
+        changed: false,
+        contentVersion: 1,
+        syncStatus: "skipped",
+      }),
+    });
+
+    expect(result.matched).toBe(true);
+    expect(result.syncStatus).toBe("skipped");
+    expect(result.syncChanged).toBe(false);
+  });
+
+  it("marks updates when Supabase has an older content version", async () => {
+    const logger = loggerClient();
+    const result = await runContentShadowCompare({
+      jsonRepository: new FakeRepository(issue),
+      supabaseRepository: new FakeRepository(issue),
+      loggerClient: logger.client as never,
+      serviceClient: {} as never,
+      triggerType: "cron",
+      syncBeforeCompare: true,
+      syncIssueBundle: async (_client, sourceIssue, checksum) => ({
+        issueDate: sourceIssue.issueDate,
+        checksum,
+        executionKey: `shadow-sync:${sourceIssue.issueDate}:${checksum}`,
+        changed: true,
+        contentVersion: 2,
+        syncStatus: "updated",
+      }),
+    });
+
+    expect(result.syncStatus).toBe("updated");
+    expect(result.syncChanged).toBe(true);
+    expect(result.matched).toBe(true);
+  });
+
+  it("does not read Supabase for compare when sync fails", async () => {
+    const logger = loggerClient();
+    const supabaseRepository = new FakeRepository(issue);
+    const readSpy = vi.spyOn(supabaseRepository, "getIssueByDate");
+
+    const result = await runContentShadowCompare({
+      jsonRepository: new FakeRepository(issue),
+      supabaseRepository,
+      loggerClient: logger.client as never,
+      serviceClient: {} as never,
+      syncBeforeCompare: true,
+      syncIssueBundle: async () => {
+        throw new Error("write failed");
+      },
+    });
+
+    expect(readSpy).not.toHaveBeenCalled();
+    expect(result.matched).toBe(false);
+    expect(result.errorCode).toBe("SUPABASE_SYNC_FAILED");
+    expect(result.syncStatus).toBe("failed");
+  });
+
+  it("reports validation and compare failures with distinct codes", async () => {
+    const broken = cloneIssue((draft) => {
+      draft.topics = draft.topics.slice(0, 8);
+    });
+    const validation = await runContentShadowCompare({
+      jsonRepository: new FakeRepository(broken),
+      supabaseRepository: new FakeRepository(issue),
+      loggerClient: null,
+      serviceClient: null,
+      syncBeforeCompare: true,
+    });
+    expect(validation.errorCode).toBe("ISSUE_VALIDATION_FAILED");
+
+    const different = cloneIssue((draft) => {
+      draft.topics[0].localizations["en-US"].headlineView = "changed";
+    });
+    const mismatch = await runContentShadowCompare({
+      jsonRepository: new FakeRepository(issue),
+      supabaseRepository: new FakeRepository(different),
+      loggerClient: null,
+      serviceClient: null,
+    });
+    expect(mismatch.errorCode).toBe("CONTENT_MISMATCH");
+    expect(mismatch.compareStatus).toBe("mismatch");
   });
 });

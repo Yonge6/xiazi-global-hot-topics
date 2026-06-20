@@ -13,20 +13,16 @@ function safeEquals(left: string, right: string) {
   return leftBuffer.length === rightBuffer.length && timingSafeEqual(leftBuffer, rightBuffer);
 }
 
-function configuredSecrets() {
-  return [process.env.SHADOW_COMPARE_SECRET, process.env.CRON_SECRET].filter((secret): secret is string => Boolean(secret));
-}
-
 function isAuthorized(request: Request) {
-  const secrets = configuredSecrets();
-  if (secrets.length === 0) return false;
   const authorization = request.headers.get("authorization");
   const shadowHeader = request.headers.get("x-shadow-compare-secret");
   const bearerToken = authorization?.startsWith("Bearer ") ? authorization.slice("Bearer ".length) : "";
-  return secrets.some((secret) =>
-    (bearerToken ? safeEquals(bearerToken, secret) : false) ||
-    (shadowHeader ? safeEquals(shadowHeader, secret) : false),
-  );
+  const cronSecret = process.env.CRON_SECRET;
+  const shadowSecret = process.env.SHADOW_COMPARE_SECRET;
+  if (bearerToken && cronSecret && safeEquals(bearerToken, cronSecret)) return "cron";
+  if (shadowHeader && shadowSecret && safeEquals(shadowHeader, shadowSecret)) return "manual";
+  if (bearerToken && shadowSecret && safeEquals(bearerToken, shadowSecret)) return "manual";
+  return null;
 }
 
 async function issueDateFromRequest(request: Request) {
@@ -42,16 +38,23 @@ async function issueDateFromRequest(request: Request) {
 }
 
 async function handle(request: Request) {
-  if (!isAuthorized(request)) {
+  const triggerType = isAuthorized(request);
+  if (!triggerType) {
     return NextResponse.json({ ok: false, message: "Unauthorized" }, { status: 401 });
   }
   if (process.env.SHADOW_COMPARE_ENABLED !== "true") {
     return NextResponse.json({ ok: true, enabled: false }, { status: 202 });
   }
 
-  const requestId = request.headers.get("x-vercel-id") || randomUUID();
+  const vercelRequestId = request.headers.get("x-vercel-id") || randomUUID();
+  const requestId = triggerType === "manual" ? `manual:${vercelRequestId}` : vercelRequestId;
   const issueDate = await issueDateFromRequest(request);
-  const result = await runContentShadowCompare({ issueDate, requestId });
+  const result = await runContentShadowCompare({
+    issueDate,
+    requestId,
+    triggerType,
+    syncBeforeCompare: true,
+  });
   return NextResponse.json(
     {
       ok: result.matched,
