@@ -1,12 +1,50 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type APIRequestContext } from "@playwright/test";
 
-test("renders the Chinese issue and nine stories", async ({ page }) => {
+type IssueResponse = {
+  issue: {
+    issueDate: string;
+    topics: Array<{
+      slug: string;
+      rank: number;
+      localizations: Record<string, {
+        headlineFact: string;
+        headlineFull: string;
+        intro: string;
+      }>;
+    }>;
+  };
+};
+
+async function latestIssue(request: APIRequestContext) {
+  const response = await request.get("/api/v1/issues/latest/");
+  expect(response.ok()).toBe(true);
+  return (await response.json()) as IssueResponse;
+}
+
+function zhDate(issueDate: string) {
+  return `${issueDate.replaceAll("-", ".")} · 北京时间 05:00 发布`;
+}
+
+function enDate(issueDate: string) {
+  const date = new Date(`${issueDate}T05:00:00+08:00`);
+  return `${new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "2-digit",
+    timeZone: "Asia/Shanghai",
+  }).format(date)} · Published at 05:00 Beijing Time`;
+}
+
+test("renders the Chinese issue and nine stories", async ({ page, request }) => {
+  const { issue } = await latestIssue(request);
+  const lead = issue.topics[0].localizations["zh-CN"];
+
   await page.goto("/zh");
   await expect(page.getByRole("heading", { name: "昨日世界." })).toBeVisible();
   await expect(page.locator("article")).toHaveCount(9);
-  await expect(page.locator("article").filter({ hasText: "哥伦比亚3:1击败世界杯新军乌兹别克斯坦" })).toBeVisible();
+  await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText("pluto.hk").first()).toBeVisible();
-  await expect(page.getByText("2026.06.19 · 北京时间 05:00 发布")).toBeVisible();
+  await expect(page.getByText(zhDate(issue.issueDate))).toBeVisible();
 });
 
 test("renders the Chinese homepage at the root domain", async ({ page }) => {
@@ -18,19 +56,25 @@ test("renders the Chinese homepage at the root domain", async ({ page }) => {
   );
 });
 
-test("switches locale while keeping the page context", async ({ page }) => {
+test("switches locale while keeping the page context", async ({ page, request }) => {
+  const { issue } = await latestIssue(request);
+  const lead = issue.topics[0].localizations["en-US"];
+
   await page.goto("/zh");
   await page.getByRole("link", { name: "Switch to English" }).click();
   await expect(page).toHaveURL(/\/en\/$/);
   await expect(page.getByRole("heading", { name: "THE WORLD YESTERDAY." })).toBeVisible();
-  await expect(page.locator("article").filter({ hasText: "Colombia beat Uzbekistan 3:1" })).toBeVisible();
-  await expect(page.getByText("June 19, 2026 · Published at 05:00 Beijing Time")).toBeVisible();
-  await expect(page.locator('article img[src*="/posters/thumb/en/"]').first()).toBeVisible();
+  await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
+  await expect(page.getByText(enDate(issue.issueDate))).toBeVisible();
+  await expect(page.locator('article img[src*="/api/posters/en/"]').first()).toBeVisible();
 });
 
-test("opens, navigates and closes the poster lightbox", async ({ page }) => {
+test("opens, navigates and closes the poster lightbox", async ({ page, request }) => {
+  const { issue } = await latestIssue(request);
+  const lead = issue.topics[0].localizations["zh-CN"];
+
   await page.goto("/zh");
-  await page.getByRole("button", { name: /查看哥伦比亚3:1击败世界杯新军乌兹别克斯坦海报原图/ }).click();
+  await page.getByRole("button", { name: `查看${lead.headlineFact}海报原图` }).click();
 
   const dialog = page.getByRole("dialog", { name: "海报原图" });
   await expect(dialog).toBeVisible();
@@ -43,7 +87,10 @@ test("opens, navigates and closes the poster lightbox", async ({ page }) => {
   await expect(dialog).toBeHidden();
 });
 
-test("opens sharing options for every poster", async ({ page }) => {
+test("opens sharing options for every poster", async ({ page, request }) => {
+  const { issue } = await latestIssue(request);
+  const lead = issue.topics[0].localizations["zh-CN"];
+
   await page.goto("/zh");
   const shareButtons = page.getByRole("button", { name: /^分享/ });
   await expect(shareButtons).toHaveCount(9);
@@ -56,7 +103,8 @@ test("opens sharing options for every poster", async ({ page }) => {
   await expect(dialog.getByRole("link", { name: "X" })).toHaveAttribute("href", /twitter\.com\/intent/);
   await expect(dialog.getByRole("link", { name: "Facebook" })).toHaveAttribute("href", /facebook\.com\/sharer/);
   const whatsappHref = await dialog.getByRole("link", { name: "WhatsApp" }).getAttribute("href");
-  expect(decodeURIComponent(whatsappHref || "")).toContain("哥伦比亚凭借穆尼奥斯");
+  expect(decodeURIComponent(whatsappHref || "")).toContain(lead.headlineFact);
+  expect(decodeURIComponent(whatsappHref || "")).toContain(lead.intro.slice(0, 24));
   await expect(dialog.getByText("标题 + 100字介绍 + 海报图片")).toBeVisible();
 });
 
