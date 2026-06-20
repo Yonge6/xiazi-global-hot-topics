@@ -3,6 +3,7 @@ import { stdin as input, stdout as output } from "node:process";
 
 import { createServiceRoleClient, supabaseScriptConfig } from "./content/env";
 import { loadContentIssueFiles, uniqueIssueStats } from "./content/issues";
+import { syncIssueBundleToSupabase } from "../apps/web/src/server/content-sync/sync-issue-bundle";
 
 const PRODUCTION_CONFIRMATION = "IMPORT TO PLUTO PRODUCTION";
 
@@ -59,21 +60,16 @@ async function main() {
 
   for (const file of files) {
     for (const warning of file.warnings) console.warn(`warning: ${warning}`);
-    const { data, error } = await supabase.rpc("upsert_issue_bundle", {
-      payload: {
-        issue: file.issue,
-        contentChecksum: file.checksum,
-        changeSummary: `import ${file.role} issue ${file.issue.issueDate}`,
-        actorType: "script",
-        actorId: "content-importer",
-      },
+    const data = await syncIssueBundleToSupabase(supabase, file.issue, file.checksum, {
+      actorType: "script",
+      actorId: "content-importer",
+      changeSummary: `import ${file.role} issue ${file.issue.issueDate}`,
     });
-    if (error) throw new Error(`Failed to import ${file.issue.issueDate}: ${error.message}`);
     results.push({
       date: file.issue.issueDate,
       role: file.role,
-      changed: Boolean(data?.changed),
-      contentVersion: Number(data?.contentVersion || 0),
+      changed: data.changed,
+      contentVersion: data.contentVersion,
     });
   }
 
