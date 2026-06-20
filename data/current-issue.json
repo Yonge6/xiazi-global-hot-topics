@@ -1,440 +1,375 @@
 {
-  "id": "10000000-0000-4000-8000-000000000007",
-  "slug": "2026-06-20",
-  "assetVersion": "2026-06-20-hotspots-v1",
-  "issueDate": "2026-06-20",
+  "id": "10000000-0000-4000-8000-000000000008",
+  "slug": "2026-06-21",
+  "issueDate": "2026-06-21",
   "slotHour": 5,
-  "beijingTimestamp": "2026-06-20T05:00:00+08:00",
-  "gmtTimestamp": "2026-06-19T21:00:00Z",
+  "beijingTimestamp": "2026-06-21T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-20T21:00:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000037",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000046",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000037",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "world-cup",
+      "id": "20000000-0000-4000-8000-000000000046",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "world-cup-brazil-haiti-paraguay",
       "rank": 1,
       "category": "sports",
-      "region": "North America",
+      "region": "Global",
       "countryCodes": [
-        "CA",
-        "QA",
-        "MX",
-        "KR",
-        "US",
-        "AU"
+        "BR",
+        "HT",
+        "PY",
+        "TR",
+        "MA",
+        "GB"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 99,
-      "storyId": "world_cup_hosts_sweep_2026",
+      "scoreTotal": 98,
+      "storyId": "world_cup_brazil_haiti_paraguay_2026",
       "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 95,
+      "followupDay": 3,
+      "informationIncrementScore": 92,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "三大东道主在24小时内全部获胜，墨西哥、美国提前晋级",
-          "headlineView": "主场优势不只是欢呼声，更是把压力转化成胜利的能力",
-          "intro": "北京时间6月19日05:00至6月20日05:00，世界杯共结束3场比赛：加拿大6:0卡塔尔，墨西哥1:0韩国，美国2:0澳大利亚。加拿大在温哥华取得队史首场男子世界杯胜利，乔纳森·戴维上演帽子戏法；墨西哥凭借路易斯·罗莫的进球取得两连胜，提前锁定A组第一和淘汰赛资格；美国则在普利西奇缺阵的情况下，依靠澳大利亚乌龙球和21岁小将亚历克斯·弗里曼的头球，以两连胜提前进入32强。三支联合东道主在这个24小时窗口内全部获胜，合计打进9球、保持3场零封。世界杯进入小组赛第二轮后，真正决定一支球队能走多远的，已经不只是头号球星，而是伤病和压力出现时，整支球队还有没有人能够站出来。",
-          "xiaziQuote": "主场优势真正起作用的时候，不在开场欢呼，而在压力袭来后还能把球送进网里。",
-          "doudouQuote": "三位东道主一起赢球，观众席很吵，积分榜更响。",
-          "footerTakeaway": "三大东道主同日窗口全胜并保持零封，墨西哥和美国提前晋级，世界杯主场变量继续放大。",
-          "headlineFull": "三大东道主在24小时内全部获胜，墨西哥、美国提前晋级；主场优势不只是欢呼声，更是把压力转化成胜利的能力。"
+          "headlineFact": "世界杯巴西3:0海地，巴拉圭64秒进球淘汰土耳其",
+          "headlineView": "强队赢球还不够，真正的考题是淘汰赛前能不能把状态调顺",
+          "intro": "北京时间6月20日窗口，最重要一场是巴西3:0击败海地：库尼亚梅开二度，维尼修斯补时破门，巴西拿到关键三分，但进攻仍显慢热，拉菲尼亚伤退也留下隐患。其他赛场，巴拉圭凭加拉尔萨开场64秒进球1:0胜土耳其，把自己拉回出线竞争并送对手出局；摩洛哥1:0胜苏格兰，继续占据小组主动。世界杯第二轮开始后，比分之外更重要的是阵容健康、净胜球和临场效率。",
+          "xiaziQuote": "世界杯小组赛第二轮真正考验强队的不是名气，而是能否在身体和心理都紧起来时，把该拿的分稳稳拿到。",
+          "doudouQuote": "巴西赢了，但踢得像还在热身；巴拉圭64秒进球，土耳其连咖啡都没凉就被推到悬崖边。",
+          "footerTakeaway": "巴西取胜但状态仍需校准，巴拉圭用最快进球改写小组形势，摩洛哥继续压住出线主动权。",
+          "headlineFull": "世界杯巴西3:0海地，巴拉圭64秒进球淘汰土耳其；强队赢球还不够，真正的考题是淘汰赛前能不能把状态调顺。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "All three hosts won within 24 hours, with Mexico and the U.S. advancing early",
-          "headlineView": "home advantage is not just noise, but the ability to turn pressure into wins",
-          "intro": "From 05:00 on June 19 to 05:00 on June 20 Beijing time, three World Cup matches finished: Canada beat Qatar 6:0, Mexico beat South Korea 1:0, and the United States beat Australia 2:0. Canada earned its first men’s World Cup win in Vancouver as Jonathan David scored a hat trick. Mexico won a second straight match through Luis Romo’s goal and secured top spot in Group A and a knockout berth. The U.S., playing without Christian Pulisic, advanced to the last 32 after an Australian own goal and a header from 21-year-old Alex Freeman. The three co-hosts won in the same 24-hour window, scored nine goals in total and kept three clean sheets. As the group stage moves into its second round, depth under injuries and pressure is starting to matter as much as star power.",
-          "xiaziQuote": "Home advantage matters most not in the opening noise, but when pressure arrives and someone still finishes the chance.",
-          "doudouQuote": "Three hosts won together. The stands were loud; the table was louder.",
-          "footerTakeaway": "The three hosts all won and kept clean sheets in the same window, while Mexico and the U.S. advanced early.",
-          "headlineFull": "All three hosts won within 24 hours, with Mexico and the U.S. advancing early; home advantage is not just noise, but the ability to turn pressure into wins."
+          "headlineFact": "Brazil beat Haiti 3-0 as Paraguay knock out Türkiye with a 64-second goal",
+          "headlineView": "winning is not enough; contenders must tune their form before the knockouts",
+          "intro": "In the June 20 Beijing-time window, Brazil’s 3-0 win over Haiti was the main event: Matheus Cunha scored twice, Vinicius Jr added another before halftime, and Brazil took a needed three points while still looking short of fluency. Raphinha’s injury added a concern. Elsewhere, Paraguay beat Türkiye 1-0 through Matias Galarza’s 64-second goal, reviving their campaign and eliminating Türkiye, while Morocco edged Scotland 1-0. In matchday two, health, goal difference and efficiency are starting to matter as much as star names.",
+          "xiaziQuote": "The second round of group games asks contenders a harder question: can they collect routine points when bodies and nerves tighten?",
+          "doudouQuote": "Brazil won but still looked half in warm-up mode; Paraguay scored before Türkiye’s coffee cooled.",
+          "footerTakeaway": "Brazil won without fully convincing, Paraguay changed Group D with the tournament’s fastest goal, and Morocco kept control.",
+          "headlineFull": "Brazil beat Haiti 3-0 as Paraguay knock out Türkiye with a 64-second goal；winning is not enough; contenders must tune their form before the knockouts。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000098",
-          "topicId": "20000000-0000-4000-8000-000000000037",
-          "title": "Canada 6-0 Qatar | Match report and highlights",
+          "id": "30000000-0000-4000-8000-000000000121",
+          "topicId": "20000000-0000-4000-8000-000000000046",
+          "title": "Brazil 3-0 Haiti | Match report and highlights",
           "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/canada-qatar-match-report-highlights",
-          "publishedAt": null,
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/brazil-haiti-match-report-highlights",
+          "publishedAt": "2026-06-20T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "30000000-0000-4000-8000-000000000099",
-          "topicId": "20000000-0000-4000-8000-000000000037",
-          "title": "US reach World Cup knockout round with dominant 2-0 win over Australia",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/us-reach-world-cup-knockout-round-with-dominant-2-0-win-over-australia-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
+          "id": "30000000-0000-4000-8000-000000000122",
+          "topicId": "20000000-0000-4000-8000-000000000046",
+          "title": "Türkiye 0-1 Paraguay | Match report and highlights",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/turkiye-paraguay-match-report-highlights",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
         },
         {
-          "id": "30000000-0000-4000-8000-000000000100",
-          "topicId": "20000000-0000-4000-8000-000000000037",
-          "title": "Mexico edge South Korea 1-0 to qualify for World Cup last 32",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/mexico-edge-south-korea-1-0-qualify-world-cup-last-32-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
+          "id": "30000000-0000-4000-8000-000000000123",
+          "topicId": "20000000-0000-4000-8000-000000000046",
+          "title": "Scotland 0-1 Morocco: World Cup 2026 - as it happened",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/live/2026/jun/19/scotland-v-morocco-world-cup-2026-live",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000038",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "us-iran-peace-signing",
+      "id": "20000000-0000-4000-8000-000000000047",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "ai-ceos-g7-governance",
       "rank": 2,
-      "category": "international",
-      "region": "Middle East",
-      "countryCodes": [
-        "IL",
-        "LB",
-        "US",
-        "IR",
-        "CH"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "middle_east_ceasefire_us_iran_delay_2026",
-      "storyStatus": "followup",
-      "followupDay": 5,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "中东停火",
-          "headlineFact": "以色列与真主党恢复停火，美伊谈判却被迫推迟",
-          "headlineView": "停火不是和平的终点，只是让各方重新坐回桌前的最低条件",
-          "intro": "以色列与真主党在激烈交火后同意恢复停火，黎巴嫩卫生部门称，以军当天的袭击造成47人死亡、97人受伤，以色列方面则称4名士兵死亡。原定在瑞士举行的美伊技术谈判因此取消，伊朗核问题、解除制裁以及霍尔木兹海峡航运安排，仍要在未来60天内继续谈判。",
-          "xiaziQuote": "停火让枪声停下来，但真正困难的是让条件重新说得出口。",
-          "doudouQuote": "桌子还在，椅子也在，就是每个人坐下前都要先看门口。",
-          "footerTakeaway": "以色列与真主党恢复停火，但美伊技术谈判推迟，未来60天仍决定协议能否落地。",
-          "headlineFull": "以色列与真主党恢复停火，美伊谈判却被迫推迟；停火不是和平的终点，只是让各方重新坐回桌前的最低条件。"
-        },
-        "en-US": {
-          "categoryLabel": "Middle East",
-          "headlineFact": "Israel and Hezbollah restored a ceasefire, while U.S.-Iran talks were postponed",
-          "headlineView": "a ceasefire is not the end of peace, only the minimum condition for returning to the table",
-          "intro": "Israel and Hezbollah agreed to restore a ceasefire after intense exchanges. Lebanon’s health ministry said Israeli strikes killed 47 people and wounded 97, while Israel said four soldiers were killed. Planned U.S.-Iran technical talks in Switzerland were cancelled, leaving Iran’s nuclear file, sanctions relief and shipping arrangements in the Strait of Hormuz to be negotiated over the next 60 days.",
-          "xiaziQuote": "A ceasefire stops the gunfire. The harder part is making the conditions speakable again.",
-          "doudouQuote": "The table is still there. So are the chairs. Everyone just checks the door before sitting down.",
-          "footerTakeaway": "The ceasefire has resumed, but delayed U.S.-Iran talks leave the next 60 days as the real test.",
-          "headlineFull": "Israel and Hezbollah restored a ceasefire, while U.S.-Iran talks were postponed; a ceasefire is not the end of peace, only the minimum condition for returning to the table."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000101",
-          "topicId": "20000000-0000-4000-8000-000000000038",
-          "title": "Lebanon ceasefire agreed after US-Iran talks in Switzerland scrapped",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/europe/us-iran-peace-talks-postponed-clouding-prospects-lasting-truce-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000039",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "congo-ebola-response-strained",
-      "rank": 3,
-      "category": "science",
-      "region": "Africa",
-      "countryCodes": [
-        "CD"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "congo_ebola_cases_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 88,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "埃博拉疫情",
-          "headlineFact": "刚果（金）埃博拉确诊病例升至933例，已有245人死亡",
-          "headlineView": "疫情最危险的时刻，是追踪速度开始落后于传播速度",
-          "intro": "刚果（金）卫生部长表示，本轮埃博拉疫情已经确认933例病例，其中245人死亡，另有80名患者康复出院。疫情最早在东部伊图里省被发现，当地同时面临人口流动、卫生条件不足和社区抵触检测等问题，真实传播规模仍可能尚未完全显现。",
-          "xiaziQuote": "病毒最怕被看见，人类最怕太晚才看见。",
-          "doudouQuote": "病例数字上升的时候，最该加速的不是恐慌，是追踪。",
-          "footerTakeaway": "刚果（金）埃博拉病例继续上升，追踪、检测和社区信任正成为控制疫情的关键。",
-          "headlineFull": "刚果（金）埃博拉确诊病例升至933例，已有245人死亡；疫情最危险的时刻，是追踪速度开始落后于传播速度。"
-        },
-        "en-US": {
-          "categoryLabel": "Ebola",
-          "headlineFact": "Congo’s Ebola outbreak rose to 933 confirmed cases and 245 deaths",
-          "headlineView": "an outbreak becomes most dangerous when tracing falls behind transmission",
-          "intro": "Congo’s health minister said the current Ebola outbreak has reached 933 confirmed cases, including 245 deaths, while 80 patients have recovered. The outbreak was first detected in eastern Ituri province, where population movement, limited health infrastructure and community resistance to testing mean the real scale may still not be fully visible.",
-          "xiaziQuote": "The virus fears being seen. Humans fear seeing it too late.",
-          "doudouQuote": "When case numbers rise, the thing that must accelerate is tracing, not panic.",
-          "footerTakeaway": "Congo’s Ebola numbers are still rising, making tracing, testing and community trust the core response challenge.",
-          "headlineFull": "Congo’s Ebola outbreak rose to 933 confirmed cases and 245 deaths; an outbreak becomes most dangerous when tracing falls behind transmission."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000102",
-          "topicId": "20000000-0000-4000-8000-000000000039",
-          "title": "Congo says 933 Ebola cases confirmed, including 245 deaths",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-says-933-ebola-cases-confirmed-including-245-deaths-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000040",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "supply-chain",
-      "rank": 4,
-      "category": "business",
+      "category": "technology",
       "region": "Europe",
       "countryCodes": [
-        "EU",
-        "CN"
+        "FR",
+        "US",
+        "GB"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "eu_china_supply_diversification_law_2026",
+      "scoreTotal": 93,
+      "storyId": "ai_ceos_g7_governance_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 86,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "欧中贸易",
-          "headlineFact": "欧盟准备立法要求企业分散关键供应来源",
-          "headlineView": "供应链的下一场竞争，不是谁买得最便宜，而是谁不会被单一来源卡住",
-          "intro": "欧盟委员会将提出新的供应链多元化法案，要求欧洲企业减少对单一国家关键原料和产品的依赖。欧盟领导人表示，企业目前降低供应风险的速度过慢，而欧盟对华商品贸易逆差已经接近每天10亿欧元，关键矿产和工业部件的集中供应正被视为经济安全问题。",
-          "xiaziQuote": "便宜曾经是供应链的答案，现在韧性正在变成题目本身。",
-          "doudouQuote": "鸡蛋不放一个篮子里，账单可能会贵一点，但摔的时候少疼一点。",
-          "footerTakeaway": "欧盟拟通过立法推动关键供应多元化，把对华依赖、贸易逆差和经济安全放进同一张表。",
-          "headlineFull": "欧盟准备立法要求企业分散关键供应来源；供应链的下一场竞争，不是谁买得最便宜，而是谁不会被单一来源卡住。"
+          "categoryLabel": "AI与科技",
+          "headlineFact": "AI公司CEO在G7被当成准国家行为体接待",
+          "headlineView": "模型越像基础设施，治理就越不能只靠公司自觉",
+          "intro": "G7埃维昂峰会把OpenAI、Google DeepMind、Anthropic等AI公司负责人请到核心讨论桌，讨论模型控制、风险评估和全球安全。Altman强调AI未来不能只由实验室决定，Amodei呼吁民主国家协调，Hassabis则把当下形容为变革初期。AI企业从“技术供应商”变成“准基础设施权力”，这会让监管、外交和产业政策越来越难分开。",
+          "xiaziQuote": "当AI公司开始像能源、金融和军工一样影响国家能力，公共规则就不能只是发布会后的补丁。",
+          "doudouQuote": "以前老板去峰会是拉赞助，现在AI老板去峰会，像是被请去解释未来怎么别太吓人。",
+          "footerTakeaway": "G7把AI公司纳入核心治理讨论，显示模型能力已进入国家安全和制度设计层面。",
+          "headlineFull": "AI公司CEO在G7被当成准国家行为体接待；模型越像基础设施，治理就越不能只靠公司自觉。"
         },
         "en-US": {
-          "categoryLabel": "EU-China Trade",
-          "headlineFact": "The EU is preparing a law to make firms diversify critical supplies",
-          "headlineView": "the next supply-chain contest is not who buys cheapest, but who avoids a single point of failure",
-          "intro": "The European Commission is preparing a new supply-chain diversification law that would require companies to reduce dependence on a single country for critical materials and products. EU leaders say companies are moving too slowly to reduce supply risk, while the bloc’s goods trade deficit with China is nearing 1 billion euros a day. Concentrated supplies of critical minerals and industrial components are increasingly treated as an economic security issue.",
-          "xiaziQuote": "Cheap used to be the supply-chain answer. Resilience is becoming the question itself.",
-          "doudouQuote": "Not putting all eggs in one basket may cost more, but it hurts less when something falls.",
-          "footerTakeaway": "The EU is moving to legislate diversification, linking China dependence, trade deficits and economic security.",
-          "headlineFull": "The EU is preparing a law to make firms diversify critical supplies; the next supply-chain contest is not who buys cheapest, but who avoids a single point of failure."
+          "categoryLabel": "AI & Tech",
+          "headlineFact": "AI CEOs were treated like quasi-state actors at the G7",
+          "headlineView": "as models become infrastructure, governance cannot rely on corporate restraint alone",
+          "intro": "At the G7 summit in Evian, leaders from OpenAI, Google DeepMind and Anthropic joined high-level discussions on model control, risk assessment and global security. Sam Altman argued that AI’s future should not be decided only by labs; Dario Amodei called for coordination among democracies; Demis Hassabis framed the moment as the start of a deep transformation. AI companies are moving from vendors to infrastructure-level powers, blurring regulation, diplomacy and industrial strategy.",
+          "xiaziQuote": "When AI companies start shaping national capacity like energy, finance and defense, public rules cannot remain an afterthought.",
+          "doudouQuote": "Tech bosses used to attend summits to pitch. Now they attend to explain how the future will not run too hot.",
+          "footerTakeaway": "The G7’s treatment of AI executives shows model power has entered national-security and institution-design territory.",
+          "headlineFull": "AI CEOs were treated like quasi-state actors at the G7；as models become infrastructure, governance cannot rely on corporate restraint alone。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000103",
-          "topicId": "20000000-0000-4000-8000-000000000040",
-          "title": "EU to propose diversification law to drive de-risking from China",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/china/eu-propose-diversification-law-drive-de-risking-china-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
+          "id": "30000000-0000-4000-8000-000000000125",
+          "topicId": "20000000-0000-4000-8000-000000000047",
+          "title": "New global order: AI CEOs as heads of nation-states",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/06/20/ai-tech-moguls-g7",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000126",
+          "topicId": "20000000-0000-4000-8000-000000000047",
+          "title": "A viral doomsday scenario aims to shake Europe out of its AI complacency",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jun/20/europe-sleepwalking-ai-disaster-us-china",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000041",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "g7-critical-minerals-alliance",
-      "rank": 5,
-      "category": "technology",
-      "region": "China",
+      "id": "20000000-0000-4000-8000-000000000048",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "anthropic-ipo-politics",
+      "rank": 3,
+      "category": "business",
+      "region": "North America",
       "countryCodes": [
-        "CN"
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 90,
-      "storyId": "china_indium_export_checks_ai_2026",
+      "storyId": "anthropic_ipo_political_reality_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 84,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI供应链",
-          "headlineFact": "中国加强铟出口审查，全球买家开始担忧限制升级",
-          "headlineView": "AI争夺的不只有模型和芯片，还有光芯片背后的每一种稀有金属",
-          "intro": "部分海外买家表示，中国海关开始要求提供更详细的铟产品最终用户信息，部分审批也从当天完成延长至数日。中国生产全球近70%的铟，而铟磷化物是制造高速光通信芯片的重要材料，直接关系下一代AI数据中心。目前尚未发现铟金属出口被正式叫停，但市场已经开始重新评估供应风险。",
-          "xiaziQuote": "AI竞争越往深处走，越会从模型参数走到矿物清单。",
-          "doudouQuote": "大家盯着芯片，芯片回头说：先看看我背后的金属。",
-          "footerTakeaway": "中国加强铟出口审查，让AI光通信芯片供应链中的稀有金属风险重新被市场定价。",
-          "headlineFull": "中国加强铟出口审查，全球买家开始担忧限制升级；AI争夺的不只有模型和芯片，还有光芯片背后的每一种稀有金属。"
+          "categoryLabel": "商业与资本",
+          "headlineFact": "Anthropic冲刺IPO却撞上AI政治逆风",
+          "headlineView": "资本市场喜欢增长，选民和政府更在意失控成本",
+          "intro": "Anthropic在高估值和上市预期中遇到政治压力：美国两党都开始把前沿AI、网络安全、国家安全和数据中心用电放在同一张账单上讨论。市场看见的是模型能力和企业需求，地方社区看见的是电力、用水和就业替代，监管者看见的是责任归属。AI公司上市不再只是财务故事，而是一次公共信任考试。",
+          "xiaziQuote": "AI估值越高，社会对它的要求也越高；资本能买速度，买不到公共许可。",
+          "doudouQuote": "招股书讲增长曲线，听证会问风险曲线，两个曲线最后都得画在同一张纸上。",
+          "footerTakeaway": "Anthropic上市预期暴露AI资本热与政治审查之间的张力。",
+          "headlineFull": "Anthropic冲刺IPO却撞上AI政治逆风；资本市场喜欢增长，选民和政府更在意失控成本。"
         },
         "en-US": {
-          "categoryLabel": "AI Supply Chain",
-          "headlineFact": "China tightened indium export checks, raising concerns among global buyers",
-          "headlineView": "the AI race is not only about models and chips, but every rare metal behind optical chips",
-          "intro": "Some overseas buyers said Chinese customs is asking for more detailed end-user information for indium products, with some approvals stretching from same-day processing to several days. China produces nearly 70% of the world’s indium, while indium phosphide is important for high-speed optical communication chips used in next-generation AI data centers. No formal export halt has been reported, but buyers are already reassessing supply risk.",
-          "xiaziQuote": "The deeper the AI race goes, the more it moves from model parameters to mineral lists.",
-          "doudouQuote": "Everyone watches the chip. The chip points back to the metal behind it.",
-          "footerTakeaway": "Tighter indium checks are making markets reprice rare-metal risk inside the AI optical-chip supply chain.",
-          "headlineFull": "China tightened indium export checks, raising concerns among global buyers; the AI race is not only about models and chips, but every rare metal behind optical chips."
+          "categoryLabel": "Business & Capital",
+          "headlineFact": "Anthropic’s IPO ambitions are running into AI politics",
+          "headlineView": "markets like growth, but voters and governments price the cost of loss of control",
+          "intro": "Anthropic’s expected path toward public markets is meeting political resistance as U.S. lawmakers connect frontier AI, cybersecurity, national security and data-center infrastructure in one debate. Investors see model capability and enterprise demand; local communities see power use, water needs and labor disruption; regulators see accountability gaps. An AI IPO is no longer only a financial story. It has become a public-trust test.",
+          "xiaziQuote": "The higher AI valuations climb, the higher society’s demands become; capital can buy speed, not permission.",
+          "doudouQuote": "The prospectus shows a growth curve; hearings ask for a risk curve. Both end up on the same page.",
+          "footerTakeaway": "Anthropic’s IPO narrative captures the tension between AI capital enthusiasm and political scrutiny.",
+          "headlineFull": "Anthropic’s IPO ambitions are running into AI politics；markets like growth, but voters and governments price the cost of loss of control。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000104",
-          "topicId": "20000000-0000-4000-8000-000000000041",
-          "title": "China tightens indium export checks as AI demand increases",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/china/china-tightens-indium-export-checks-ai-demand-increases-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000129",
+          "topicId": "20000000-0000-4000-8000-000000000048",
+          "title": "The Market’s AI Fanfare Is Running Into a Harsh Political Reality",
+          "publisher": "The Wall Street Journal",
+          "url": "https://www.wsj.com/tech/ai/the-markets-ai-fanfare-is-running-into-a-harsh-political-reality-b919829b",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000130",
+          "topicId": "20000000-0000-4000-8000-000000000048",
+          "title": "OpenAI files for US IPO after Anthropic as AI giants head to public markets",
+          "publisher": "Reuters Connect",
+          "url": "https://www.reutersconnect.com/item/archive-openai-files-for-us-ipo-after-anthropic-as-ai-giants-head-to-public-markets/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNzE0OTA5MDYyMDI2UlAx/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0xWQTAwNjcxNDkwOTA2MjAyNlJQMQ",
+          "publishedAt": "2026-06-08T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
-          "isPrimary": true
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000042",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "ai-governance",
-      "rank": 6,
-      "category": "technology",
-      "region": "Europe",
+      "id": "20000000-0000-4000-8000-000000000049",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "nato-ankara-middle-east",
+      "rank": 4,
+      "category": "international",
+      "region": "Middle East",
       "countryCodes": [
-        "NO"
+        "TR",
+        "US",
+        "IL",
+        "IR"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 88,
-      "storyId": "norway_ai_school_ban_2026",
+      "storyId": "nato_ankara_middle_east_preview_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 82,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI教育",
-          "headlineFact": "挪威将基本禁止小学生使用生成式AI",
-          "headlineView": "真正的AI教育，不是让孩子更早完成作业，而是先确保他们学会自己思考",
-          "intro": "挪威政府宣布，从新学年开始，6至13岁学生原则上不得在学校使用生成式AI；14至16岁学生只能在教师监督下谨慎使用；17至19岁学生则需要学习如何正确使用AI。挪威还计划增加纸质书和手写教学，减少课堂对平板电脑的过度依赖。",
-          "xiaziQuote": "教育面对AI的第一课，可能不是怎么用，而是什么时候先不用。",
-          "doudouQuote": "作业快一点不难，脑子还在自己跑比较难。",
-          "footerTakeaway": "挪威把生成式AI按年龄分层管理，试图在工具能力和基础思考训练之间重新划线。",
-          "headlineFull": "挪威将基本禁止小学生使用生成式AI；真正的AI教育，不是让孩子更早完成作业，而是先确保他们学会自己思考。"
+          "categoryLabel": "国际政治",
+          "headlineFact": "北约安卡拉峰会前，中东议题压过传统安全议程",
+          "headlineView": "联盟最难的不是写共同声明，而是管住成员各自的算盘",
+          "intro": "华盛顿研究所预告，6月22日安卡拉北约峰会将面对乌克兰、伊朗、土以紧张和中东危机交织的局面。土耳其既是北约成员，也是区域秩序里的关键中等强国；美国需要把它留在联盟轨道内，同时管理土耳其与以色列的摩擦。北约议程从欧洲防务扩展到中东秩序，说明联盟边界正在被现实推着外扩。",
+          "xiaziQuote": "大联盟真正的压力不在敌人有多强，而在成员利益不再天然排成一条线。",
+          "doudouQuote": "北约开会像多人拼车：目的地写着安全，但每个人手机导航都不太一样。",
+          "footerTakeaway": "安卡拉峰会把土耳其、中东危机和北约内部协调推到同一张桌上。",
+          "headlineFull": "北约安卡拉峰会前，中东议题压过传统安全议程；联盟最难的不是写共同声明，而是管住成员各自的算盘。"
         },
         "en-US": {
-          "categoryLabel": "AI Education",
-          "headlineFact": "Norway will largely ban generative AI for elementary-school students",
-          "headlineView": "real AI education starts by ensuring children learn to think before asking tools to finish work",
-          "intro": "Norway said that from the new school year, students aged 6 to 13 should generally not use generative AI in school. Students aged 14 to 16 may use it cautiously under teacher supervision, while those aged 17 to 19 will be taught how to use AI properly. The country also plans to increase paper books and handwriting instruction and reduce overreliance on tablets in classrooms.",
-          "xiaziQuote": "The first AI lesson in education may not be how to use it, but when not to use it yet.",
-          "doudouQuote": "Finishing homework faster is easy. Keeping the brain running by itself is harder.",
-          "footerTakeaway": "Norway is age-gating generative AI in schools and redrawing the line between tools and basic thinking.",
-          "headlineFull": "Norway will largely ban generative AI for elementary-school students; real AI education starts by ensuring children learn to think before asking tools to finish work."
+          "categoryLabel": "International Politics",
+          "headlineFact": "Middle East tensions are crowding NATO’s Ankara agenda",
+          "headlineView": "the alliance’s hard task is not drafting statements, but aligning member incentives",
+          "intro": "Ahead of NATO’s June 22 summit in Ankara, analysts highlighted a crowded agenda: Ukraine, Iran, Turkish-Israeli friction and wider Middle East instability. Turkey is both a NATO ally and a consequential regional middle power; Washington needs to keep it anchored in the alliance while managing its rivalry with Israel. NATO’s agenda is stretching from European defense into Middle Eastern order because events are pushing the alliance’s perimeter outward.",
+          "xiaziQuote": "The real pressure on a large alliance is not only the strength of its rivals, but the fact that members’ interests no longer line up automatically.",
+          "doudouQuote": "A NATO summit is a carpool labeled security, with every passenger quietly following a different map.",
+          "footerTakeaway": "The Ankara summit puts Turkey, Middle East instability and NATO coordination on the same table.",
+          "headlineFull": "Middle East tensions are crowding NATO’s Ankara agenda；the alliance’s hard task is not drafting statements, but aligning member incentives。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000105",
-          "topicId": "20000000-0000-4000-8000-000000000042",
-          "title": "Norway imposes near ban on AI in elementary school",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
+          "id": "30000000-0000-4000-8000-000000000133",
+          "topicId": "20000000-0000-4000-8000-000000000049",
+          "title": "Middle East in Crisis, NATO in Disarray: The Stakes for the Ankara Summit",
+          "publisher": "The Washington Institute",
+          "url": "https://www.washingtoninstitute.org/policy-analysis",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "research",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000134",
+          "topicId": "20000000-0000-4000-8000-000000000049",
+          "title": "Turkey’s search for a Middle East order",
+          "publisher": "Brookings Institution",
+          "url": "https://www.brookings.edu/articles/turkeys-search-for-a-middle-east-order/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "research",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000043",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "ai-governance-crossroads",
-      "rank": 7,
-      "category": "technology",
-      "region": "United States",
-      "countryCodes": [
-        "US"
-      ],
+      "id": "20000000-0000-4000-8000-000000000050",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "world-bank-growth-energy-shock",
+      "rank": 5,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 87,
-      "storyId": "anthropic_national_security_review_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 78,
+      "storyId": "world_bank_2026_growth_energy_shock_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "Anthropic监管",
-          "headlineFact": "特朗普称已不再把Anthropic视为国家安全威胁",
-          "headlineView": "模型能力越强，发布按钮就越像一个外交按钮",
-          "intro": "特朗普表示，自己一周前可能会把Anthropic视为国家安全威胁，但现在已经不再这样认为。此前美国政府要求Anthropic限制外国用户访问Fable 5和Mythos 5等先进模型，公司随后暂停了相关模型的全球访问。特朗普称Anthropic的回应迅速且负责任，但仍未排除动用紧急权力。",
-          "xiaziQuote": "当模型被放进国家安全语境，产品发布就不再只是产品发布。",
-          "doudouQuote": "以前上线看服务器，现在上线还要看外交温度。",
-          "footerTakeaway": "Anthropic暂时缓和监管压力，但先进模型访问权已经成为美国技术政策中的安全按钮。",
-          "headlineFull": "特朗普称已不再把Anthropic视为国家安全威胁；模型能力越强，发布按钮就越像一个外交按钮。"
+          "categoryLabel": "全球经济",
+          "headlineFact": "世界银行称2026年全球增速或放缓至2.5%",
+          "headlineView": "能源冲击提醒市场，通胀不是过去式，而是随时会返场的变量",
+          "intro": "世界银行最新全球经济展望预计，2026年全球增长放缓至2.5%，2027至2028年才可能随能源供应恢复和贸易改善而回升。报告同时警告，中东冲突已推高能源价格、重新点燃通胀压力，并可能让货币政策更紧。全球经济眼下不是没有增长，而是增长质量被地缘政治、油价和政策不确定性不断折价。",
+          "xiaziQuote": "经济预测最怕的不是数字低一点，而是每个假设背后都站着一个可能突然变脸的政治变量。",
+          "doudouQuote": "市场刚把通胀送出门，油价在门口说：别急，我钥匙还在。",
+          "footerTakeaway": "世界银行把能源冲击和地缘风险列为2026年全球增长的主要下行压力。",
+          "headlineFull": "世界银行称2026年全球增速或放缓至2.5%；能源冲击提醒市场，通胀不是过去式，而是随时会返场的变量。"
         },
         "en-US": {
-          "categoryLabel": "Anthropic Regulation",
-          "headlineFact": "Trump said he no longer views Anthropic as a national security threat",
-          "headlineView": "the stronger the model, the more the launch button looks like a diplomatic button",
-          "intro": "Trump said that a week earlier he might have considered Anthropic a national security threat, but no longer does. The U.S. government had asked Anthropic to limit foreign access to advanced models including Fable 5 and Mythos 5, after which the company suspended global access to those models. Trump said Anthropic responded quickly and responsibly, though he did not rule out emergency powers.",
-          "xiaziQuote": "Once models enter the national-security frame, a product launch is no longer just a product launch.",
-          "doudouQuote": "Launching used to mean checking servers. Now it also means checking the diplomatic weather.",
-          "footerTakeaway": "Anthropic eased immediate pressure, but access to advanced models is now a security switch in U.S. tech policy.",
-          "headlineFull": "Trump said he no longer views Anthropic as a national security threat; the stronger the model, the more the launch button looks like a diplomatic button."
+          "categoryLabel": "Global Economy",
+          "headlineFact": "World Bank sees global growth slowing to 2.5% in 2026",
+          "headlineView": "the energy shock reminds markets inflation is not gone, only waiting offstage",
+          "intro": "The World Bank’s Global Economic Prospects projects global growth slowing to 2.5% in 2026 before firming in 2027-28 as energy supplies recover and trade improves. It also warns that Middle East conflict has triggered energy price increases, renewed inflation pressure and expectations of tighter monetary policy. The global economy is still growing, but the quality of that growth is being discounted by geopolitics, oil prices and policy uncertainty.",
+          "xiaziQuote": "The problem with forecasts is not just a lower number; it is that every assumption now has a political variable standing behind it.",
+          "doudouQuote": "Markets had just shown inflation the door. Oil prices are standing outside saying they still have a key.",
+          "footerTakeaway": "The World Bank frames energy shocks and geopolitical risk as major downside pressures for 2026 growth.",
+          "headlineFull": "World Bank sees global growth slowing to 2.5% in 2026；the energy shock reminds markets inflation is not gone, only waiting offstage。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000106",
-          "topicId": "20000000-0000-4000-8000-000000000043",
-          "title": "Trump tells Axios he no longer views Anthropic as national security threat",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/us/trump-tells-axios-he-no-longer-views-anthropic-national-security-threat-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
+          "id": "30000000-0000-4000-8000-000000000137",
+          "topicId": "20000000-0000-4000-8000-000000000050",
+          "title": "Global Economic Prospects",
+          "publisher": "World Bank",
+          "url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+          "publishedAt": "2026-06-01T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000138",
+          "topicId": "20000000-0000-4000-8000-000000000050",
+          "title": "Global Economic Outlook",
+          "publisher": "The Conference Board",
+          "url": "https://www.conference-board.org/topics/global-economic-outlook",
+          "publishedAt": "2026-06-12T00:00:00Z",
+          "sourceType": "research",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000044",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "noam-shazeer-openai",
-      "rank": 8,
-      "category": "technology",
-      "region": "United States",
+      "id": "20000000-0000-4000-8000-000000000051",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "nasa-commercial-mars-science",
+      "rank": 6,
+      "category": "science",
+      "region": "Space",
       "countryCodes": [
         "US"
       ],
@@ -442,102 +377,260 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 86,
-      "storyId": "john_jumper_anthropic_move_2026",
+      "storyId": "nasa_commercial_mars_science_partnership_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 80,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI人才争夺",
-          "headlineFact": "AlphaFold联合创造者John Jumper离开Google DeepMind加入Anthropic",
-          "headlineView": "顶级人才选择的，往往不是最大的组织，而是离目标最近的组织",
-          "intro": "2024年诺贝尔化学奖得主、AlphaFold联合创造者John Jumper宣布，在Google DeepMind工作近九年后加入Anthropic。AlphaFold已经预测超过2亿种蛋白质结构，大幅缩短生物和医学研究周期。几天前，Gemini联合负责人Noam Shazeer也刚刚离开Google，转投OpenAI。",
-          "xiaziQuote": "人才流动最诚实地说明，下一场重要战役在哪里开打。",
-          "doudouQuote": "简历看起来像新闻，组织结构图听起来像战报。",
-          "footerTakeaway": "John Jumper转投Anthropic，叠加Noam Shazeer离开Google，顶级AI人才战继续升温。",
-          "headlineFull": "AlphaFold联合创造者John Jumper离开Google DeepMind加入Anthropic；顶级人才选择的，往往不是最大的组织，而是离目标最近的组织。"
+          "categoryLabel": "科学与航天",
+          "headlineFact": "NASA用公私合作推进火星科学任务",
+          "headlineView": "深空探索正在从国家工程变成国家与商业公司的联合项目",
+          "intro": "NASA宣布新的公私合作模式推进火星科学：由NASA提供Aeolus大气科学仪器载荷，Relativity Space负责航天器、火箭和任务集成。这种安排显示，商业航天不再只负责发射服务，而开始进入任务设计和科学交付环节。火星探索的成本、节奏和风险分摊方式都在变化，科学任务也被迫学习创业公司的速度。",
+          "xiaziQuote": "当商业公司从“运货”走向“共同做任务”，航天产业的边界就被重新画了一次。",
+          "doudouQuote": "以前去火星像国家队远征，现在像国家队带着创业公司一起打客场。",
+          "footerTakeaway": "NASA把火星科学任务部分交给商业伙伴，显示深空探索组织方式正在改变。",
+          "headlineFull": "NASA用公私合作推进火星科学任务；深空探索正在从国家工程变成国家与商业公司的联合项目。"
         },
         "en-US": {
-          "categoryLabel": "AI Talent",
-          "headlineFact": "AlphaFold co-creator John Jumper is leaving Google DeepMind for Anthropic",
-          "headlineView": "top talent often chooses not the biggest organization, but the one closest to the mission",
-          "intro": "John Jumper, the 2024 Nobel chemistry laureate and co-creator of AlphaFold, announced that he is joining Anthropic after nearly nine years at Google DeepMind. AlphaFold has predicted more than 200 million protein structures and sharply shortened biological and medical research cycles. The move comes days after Gemini co-lead Noam Shazeer also left Google for OpenAI.",
-          "xiaziQuote": "Talent movement is one of the most honest maps of where the next important battle is starting.",
-          "doudouQuote": "The resume reads like news. The org chart sounds like a battle report.",
-          "footerTakeaway": "Jumper’s move to Anthropic, alongside Shazeer’s move to OpenAI, shows the AI talent war still intensifying.",
-          "headlineFull": "AlphaFold co-creator John Jumper is leaving Google DeepMind for Anthropic; top talent often chooses not the biggest organization, but the one closest to the mission."
+          "categoryLabel": "Science & Space",
+          "headlineFact": "NASA is using a public-private model for Mars science",
+          "headlineView": "deep-space exploration is becoming a joint project between states and commercial firms",
+          "intro": "NASA announced a new public-private partnership for Mars science: the agency will provide the Aeolus atmospheric-science payload, while Relativity Space supplies the spacecraft, launch vehicle and mission integration. Commercial space is moving beyond launch services into mission design and scientific delivery. That changes the cost, pace and risk-sharing model of Mars exploration, forcing science missions to absorb some startup speed.",
+          "xiaziQuote": "When commercial firms move from delivery vendors to mission partners, the boundary of the space industry is redrawn.",
+          "doudouQuote": "A Mars mission used to look like a national team expedition. Now the national team brings a startup to the away game.",
+          "footerTakeaway": "NASA’s Mars partnership shows deep-space exploration is changing its operating model.",
+          "headlineFull": "NASA is using a public-private model for Mars science；deep-space exploration is becoming a joint project between states and commercial firms。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000107",
-          "topicId": "20000000-0000-4000-8000-000000000044",
-          "title": "US scientist John Jumper to leave Google DeepMind for Anthropic",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
+          "id": "30000000-0000-4000-8000-000000000141",
+          "topicId": "20000000-0000-4000-8000-000000000051",
+          "title": "NASA Announces Public-Private Partnership to Advance Mars Science",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/2026-news-releases/",
+          "publishedAt": "2026-06-17T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000142",
+          "topicId": "20000000-0000-4000-8000-000000000051",
+          "title": "What’s Happening in Space Policy June 14-20, 2026",
+          "publisher": "SpacePolicyOnline",
+          "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-june-14-20-2026/",
+          "publishedAt": "2026-06-14T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000045",
-      "issueId": "10000000-0000-4000-8000-000000000007",
-      "slug": "cultural-heritage",
-      "rank": 9,
+      "id": "20000000-0000-4000-8000-000000000052",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "world-cup-health-surveillance",
+      "rank": 7,
       "category": "culture",
-      "region": "Africa and Caribbean",
+      "region": "North America",
       "countryCodes": [
-        "GH",
-        "AU"
+        "US",
+        "MX",
+        "CA"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 84,
-      "storyId": "africa_caribbean_slavery_reparations_2026",
+      "storyId": "world_cup_health_surveillance_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 82,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "历史与正义",
-          "headlineFact": "非洲与加勒比国家通过19点奴隶贸易赔偿计划",
-          "headlineView": "历史无法重新书写，但责任可以从纪念走向制度",
-          "intro": "非洲联盟与加勒比共同体在加纳会议上通过统一赔偿方案，要求参与跨大西洋奴隶贸易的国家正式道歉，并提出建立全球赔偿基金、减免债务、归还被掠夺文物、提供气候正义资金，以及为非洲侨民建立回归和入籍通道。这份方案将被提交至下一届联合国大会。",
-          "xiaziQuote": "历史不能重写，但责任可以从一句道歉变成一套制度。",
-          "doudouQuote": "纪念碑会提醒人记住，赔偿机制才会逼人负责。",
-          "footerTakeaway": "非洲与加勒比国家提出统一赔偿路线图，把道歉、债务、文物和气候资金纳入制度化诉求。",
-          "headlineFull": "非洲与加勒比国家通过19点奴隶贸易赔偿计划；历史无法重新书写，但责任可以从纪念走向制度。"
+          "categoryLabel": "社会与文化",
+          "headlineFact": "世界杯城市启用多层公共卫生监测",
+          "headlineView": "大型赛事拼的不只是安保和交通，还有看不见的流行病防线",
+          "intro": "AP报道，北美世界杯期间，16个承办城市的公共卫生团队正用污水监测、医院数据和社交媒体线索追踪麻疹、诺如、甲肝、登革热等风险。PAHO此前已提醒美墨麻疹病例上升，CDC等机构又面临资源紧张。世界杯把球迷、航班、酒吧和城市交通连成一张高密度网络，公共卫生不再是后台工作，而是赛事体验的一部分。",
+          "xiaziQuote": "大型赛事的真正组织能力，常常体现在观众看不见、但一出事所有人都会感受到的系统里。",
+          "doudouQuote": "球迷盯着积分榜，卫生部门盯着污水数据；都很紧张，只是一个喊进球，一个喊别扩散。",
+          "footerTakeaway": "世界杯公共卫生监测凸显超大型活动的隐形治理压力。",
+          "headlineFull": "世界杯城市启用多层公共卫生监测；大型赛事拼的不只是安保和交通，还有看不见的流行病防线。"
         },
         "en-US": {
-          "categoryLabel": "History and Justice",
-          "headlineFact": "African and Caribbean states backed a 19-point slavery reparations plan",
-          "headlineView": "history cannot be rewritten, but responsibility can move from memory into institutions",
-          "intro": "The African Union and Caribbean Community backed a unified reparations plan at a meeting in Ghana. It calls for formal apologies from countries involved in the transatlantic slave trade, a global reparations fund, debt relief, return of looted artifacts, climate justice funding and pathways for people of African descent to return and gain citizenship. The plan will be submitted to the next United Nations General Assembly.",
-          "xiaziQuote": "History cannot be rewritten, but responsibility can move from an apology into a system.",
-          "doudouQuote": "A monument asks people to remember. A reparations mechanism asks them to be responsible.",
-          "footerTakeaway": "African and Caribbean states are turning reparations into a unified agenda spanning apology, debt, artifacts and climate funding.",
-          "headlineFull": "African and Caribbean states backed a 19-point slavery reparations plan; history cannot be rewritten, but responsibility can move from memory into institutions."
+          "categoryLabel": "Society & Culture",
+          "headlineFact": "World Cup host cities are layering public-health surveillance",
+          "headlineView": "mega-events test not just security and transport, but invisible disease defenses",
+          "intro": "AP reported that public-health teams across the 16 North American World Cup host cities are monitoring measles, norovirus, hepatitis A, dengue and other risks through wastewater, hospital data and social-media signals. PAHO has warned of rising measles cases in the U.S. and Mexico, while agencies such as the CDC face stretched capacity. The World Cup links fans, flights, bars and transit into a dense network, making public health part of the event experience.",
+          "xiaziQuote": "A mega-event’s real competence often lies in systems spectators never see until they fail.",
+          "doudouQuote": "Fans watch the table; health teams watch wastewater. Both are tense, just about different kinds of spread.",
+          "footerTakeaway": "World Cup disease surveillance shows the hidden governance burden behind mega-events.",
+          "headlineFull": "World Cup host cities are layering public-health surveillance；mega-events test not just security and transport, but invisible disease defenses。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000108",
-          "topicId": "20000000-0000-4000-8000-000000000045",
-          "title": "African, Caribbean states back slavery reparations plan at Ghana meeting",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/americas/african-caribbean-states-back-slavery-reparations-plan-ghana-meeting-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000145",
+          "topicId": "20000000-0000-4000-8000-000000000052",
+          "title": "Health sleuths are watching for disease threats during the World Cup",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/2b2db44ac29c3fad53c0ae59fda6c6ee",
+          "publishedAt": "2026-06-10T17:28:57Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000146",
+          "topicId": "20000000-0000-4000-8000-000000000052",
+          "title": "Disease Outbreak News",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000053",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "wmo-five-year-heat-warning",
+      "rank": 8,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "wmo_2026_2030_heat_record_warning_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "环境与气候",
+          "headlineFact": "联合国报告警告2030年前极可能再破高温纪录",
+          "headlineView": "气候风险已经从远方警报变成五年商业计划里的硬约束",
+          "intro": "AP援引WMO和英国气象局报告称，2026至2030年期间至少有一年超过2024年最热纪录的概率达86%，五年均温超过1.5摄氏度阈值的概率约75%。报告还提示北极升温、亚马孙干旱火险和极端天气加剧。气候变化不再只是环保议题，它会进入保险、粮食、能源、电网和城市预算的每一张表。",
+          "xiaziQuote": "当“百年一遇”开始按五年规划出现，适应能力就成了国家和企业的基本功。",
+          "doudouQuote": "天气预报以前告诉你带伞，现在像是在提醒董事会：预算别只按晴天写。",
+          "footerTakeaway": "WMO五年预测把破纪录高温和1.5摄氏度风险推到政策与商业决策眼前。",
+          "headlineFull": "联合国报告警告2030年前极可能再破高温纪录；气候风险已经从远方警报变成五年商业计划里的硬约束。"
+        },
+        "en-US": {
+          "categoryLabel": "Environment & Climate",
+          "headlineFact": "UN-backed forecast warns another heat record is likely before 2030",
+          "headlineView": "climate risk has moved from distant warning to hard constraint in five-year plans",
+          "intro": "AP, citing a WMO and UK Met Office report, said there is an 86% chance that at least one year from 2026 to 2030 will exceed 2024’s record heat, and about a 75% chance the five-year average will top 1.5C above pre-industrial levels. The report also points to Arctic warming, Amazon drought and fire risk, and intensifying extremes. Climate change is no longer only an environmental issue; it enters insurance, food, power grids, energy and city budgets.",
+          "xiaziQuote": "When once-in-a-century risks start appearing inside five-year plans, adaptation becomes basic competence.",
+          "doudouQuote": "Weather forecasts used to tell you to bring an umbrella. Now they remind boards not to budget only for sunny days.",
+          "footerTakeaway": "The WMO forecast brings record heat and 1.5C risk directly into policy and business decisions.",
+          "headlineFull": "UN-backed forecast warns another heat record is likely before 2030；climate risk has moved from distant warning to hard constraint in five-year plans。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000149",
+          "topicId": "20000000-0000-4000-8000-000000000053",
+          "title": "Think it’s hot now? The next five years will smash records, UN says",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/climate-change-warming-heat-wave-record-future-53d79525a06f09d9ace45a141dbebb01",
+          "publishedAt": "2026-05-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000150",
+          "topicId": "20000000-0000-4000-8000-000000000053",
+          "title": "Climate Reports",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/climatechange/reports",
+          "publishedAt": "2026-01-01T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000054",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "swift-observatory-rescue",
+      "rank": 9,
+      "category": "science",
+      "region": "Space",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 85,
+      "storyId": "swift_observatory_orbit_rescue_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "编辑精选",
+          "headlineFact": "NASA尝试用商业航天器挽救下坠的Swift望远镜",
+          "headlineView": "修卫星比造卫星更难，也更像未来太空经济的必修课",
+          "intro": "Space.com报道，服役20多年的Neil Gehrels Swift Observatory因太阳活动增强导致轨道下降，NASA与Katalyst Space Technologies合作，计划6月27日发射Link航天器，用机械臂和霍尔推进器对接这台没有推进能力的望远镜并抬升轨道。若成功，Swift可延寿至少五年，也会验证非合作目标在轨服务能力。未来太空经济的关键，不只是把东西送上去，还要能修、能拖、能延寿。",
+          "xiaziQuote": "太空资产越来越贵，真正成熟的产业不会只会发射，也要会维修和善后。",
+          "doudouQuote": "这事像给一台高速下坡的老相机做空中保养，技术员还不能让它摔了。",
+          "footerTakeaway": "Swift救援任务可能成为商业在轨服务从概念走向常规能力的标志。",
+          "headlineFull": "NASA尝试用商业航天器挽救下坠的Swift望远镜；修卫星比造卫星更难，也更像未来太空经济的必修课。"
+        },
+        "en-US": {
+          "categoryLabel": "Editor’s Pick",
+          "headlineFact": "NASA will try to rescue the falling Swift space telescope with a commercial spacecraft",
+          "headlineView": "servicing satellites is harder than building them, and central to the future space economy",
+          "intro": "Space.com reported that the 20-year-old Neil Gehrels Swift Observatory is losing altitude because of stronger solar activity. NASA and Katalyst Space Technologies plan to launch the Link spacecraft on June 27, using robotic arms and Hall thrusters to dock with the propulsion-less telescope and raise its orbit. Success could extend Swift’s life by at least five years and prove non-cooperative on-orbit servicing. The next space economy is not only about launching assets, but repairing, moving and extending them.",
+          "xiaziQuote": "As space assets become more valuable, a mature industry must know how to service and retire them, not just launch them.",
+          "doudouQuote": "It is like servicing an old camera while it rolls downhill at orbital speed.",
+          "footerTakeaway": "The Swift rescue could turn commercial on-orbit servicing from concept into routine capability.",
+          "headlineFull": "NASA will try to rescue the falling Swift space telescope with a commercial spacecraft；servicing satellites is harder than building them, and central to the future space economy。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000153",
+          "topicId": "20000000-0000-4000-8000-000000000054",
+          "title": "NASA’s daring plan to save a space telescope falling out of space",
+          "publisher": "Space.com",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/no-one-thought-it-was-going-to-be-possible-a-space-telescope-is-falling-out-of-space-this-is-nasas-daring-plan-to-save-it",
+          "publishedAt": "2026-06-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000154",
+          "topicId": "20000000-0000-4000-8000-000000000054",
+          "title": "NASA News Releases",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/2026-news-releases/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     }
-  ]
+  ],
+  "assetVersion": "issue-2026-06-21-json-only"
 }
