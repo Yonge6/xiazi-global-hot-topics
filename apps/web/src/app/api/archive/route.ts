@@ -4,21 +4,23 @@ import path from "node:path";
 import { NextResponse } from "next/server";
 
 import { parseIssue } from "@xiazi/contracts";
+import { cachedFetchInit, CONTENT_CACHE_CONTROL, CONTENT_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
 import { githubRepo } from "@/lib/github/repo";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
 
 const repo = githubRepo;
 
+export const revalidate = 60;
+
 async function github(path: string, accept = "application/vnd.github+json") {
   const token = process.env.GITHUB_STUDIO_TOKEN;
-  const response = await fetch(`https://api.github.com/repos/${repo}/${path}`, {
-    cache: "no-store",
+  const response = await fetch(`https://api.github.com/repos/${repo}/${path}`, cachedFetchInit(CONTENT_REVALIDATE_SECONDS, {
     headers: {
       Accept: accept,
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
       "X-GitHub-Api-Version": "2022-11-28",
     },
-  });
+  }));
   if (!response.ok) {
     if (response.status === 404) return null;
     throw new Error("Archive unavailable");
@@ -62,6 +64,8 @@ export async function GET(request: Request) {
           issue: repositoryIssue,
           assetVersion: repositoryIssue.assetVersion || repositoryIssue.beijingTimestamp || date,
           source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
+        }, {
+          headers: { "Cache-Control": CONTENT_CACHE_CONTROL },
         });
       }
       const remoteIssuePayload = await github(
@@ -71,7 +75,10 @@ export async function GET(request: Request) {
       const remoteIssue = remoteIssuePayload ? parseIssue(remoteIssuePayload) : null;
       const issue = remoteIssue ?? await localArchiveIssue(date);
       if (!issue) return NextResponse.json({ message: "Archive not found" }, { status: 404 });
-      return NextResponse.json({ issue, assetVersion: issue.assetVersion || issue.beijingTimestamp || date });
+      return NextResponse.json(
+        { issue, assetVersion: issue.assetVersion || issue.beijingTimestamp || date },
+        { headers: { "Cache-Control": CONTENT_CACHE_CONTROL } },
+      );
     }
 
     const repositoryIssues = await repository.listPublishedIssues().catch(() => []);
@@ -79,6 +86,8 @@ export async function GET(request: Request) {
       return NextResponse.json({
         issues: repositoryIssues.map((issue) => issue.issueDate),
         source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
+      }, {
+        headers: { "Cache-Control": CONTENT_CACHE_CONTROL },
       });
     }
 
@@ -91,7 +100,7 @@ export async function GET(request: Request) {
       : [];
     const issues = Array.from(new Set([...remoteIssues, ...await localArchiveDates()]))
       .sort((a, b) => b.localeCompare(a));
-    return NextResponse.json({ issues });
+    return NextResponse.json({ issues }, { headers: { "Cache-Control": CONTENT_CACHE_CONTROL } });
   } catch {
     const issues = await localArchiveDates();
     if (issues.length > 0) return NextResponse.json({ issues, source: "local-fallback" });

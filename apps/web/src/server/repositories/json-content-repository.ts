@@ -4,6 +4,7 @@ import path from "node:path";
 
 import { parseIssue, type Issue } from "@xiazi/contracts";
 
+import { cachedFetchInit, CONTENT_REVALIDATE_SECONDS } from "../../lib/cache/public-cache";
 import type { ContentRepository, IssueSummary } from "./content-repository";
 import { githubRepo } from "../../lib/github/repo";
 
@@ -13,14 +14,13 @@ const repo = githubRepo;
 
 async function github(pathname: string, accept = "application/vnd.github+json") {
   const token = process.env.GITHUB_STUDIO_TOKEN;
-  const response = await fetch(`https://api.github.com/repos/${repo}/${pathname}`, {
-    cache: "no-store",
+  const response = await fetch(`https://api.github.com/repos/${repo}/${pathname}`, cachedFetchInit(CONTENT_REVALIDATE_SECONDS, {
     headers: {
       Accept: accept,
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
       "X-GitHub-Api-Version": "2022-11-28",
     },
-  });
+  }));
   if (!response.ok) {
     if (response.status === 404) return null;
     throw new Error("GitHub content unavailable");

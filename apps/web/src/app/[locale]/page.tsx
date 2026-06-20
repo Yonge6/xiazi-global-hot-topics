@@ -14,6 +14,8 @@ import en from "@/messages/en.json";
 import zh from "@/messages/zh.json";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
 
+export const revalidate = 60;
+
 export function generateStaticParams() {
   return [{ locale: "zh" }, { locale: "en" }];
 }

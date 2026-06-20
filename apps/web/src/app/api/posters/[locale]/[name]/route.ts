@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import { cachedFetchInit, POSTER_CACHE_CONTROL, POSTER_CDN_CACHE_CONTROL, POSTER_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
 import { githubRepo } from "@/lib/github/repo";
 import { POSTER_ASSET_NAMES } from "@/lib/posters/assets";
 
@@ -21,6 +22,7 @@ export async function GET(
   const searchParams = new URL(request.url).searchParams;
   const thumbnail = searchParams.get("variant") === "thumbnail";
   const issueDate = searchParams.get("issueDate");
+  const cacheKey = searchParams.get("v") || "current";
   if (issueDate && !/^\d{4}-\d{2}-\d{2}$/.test(issueDate)) {
     return NextResponse.json({ message: "Poster not found" }, { status: 404 });
   }
@@ -30,27 +32,19 @@ export async function GET(
     ? `public/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}`
     : `public/posters/${folder}${locale}/${name}.${extension}`;
   const fallbackPath = `/${path.replace(/^public\//, "")}`;
-  const token = process.env.GITHUB_STUDIO_TOKEN;
+  const [owner, repository] = repo.split("/");
+  const rawUrl = new URL(`https://raw.githubusercontent.com/${owner}/${repository}/main/${path}`);
+  rawUrl.searchParams.set("v", cacheKey);
 
   try {
-    const response = await fetch(
-      `https://api.github.com/repos/${repo}/contents/${path}?ref=main`,
-      {
-        cache: "no-store",
-        headers: {
-          Accept: "application/vnd.github.raw+json",
-          ...(token ? { Authorization: `Bearer ${token}` } : {}),
-          "X-GitHub-Api-Version": "2022-11-28",
-        },
-      },
-    );
+    const response = await fetch(rawUrl, cachedFetchInit(POSTER_REVALIDATE_SECONDS));
     if (!response.ok) throw new Error("Poster source unavailable");
 
     return new NextResponse(await response.arrayBuffer(), {
       headers: {
         "Content-Type": thumbnail ? "image/webp" : "image/png",
-        "Cache-Control": "public, max-age=31536000, s-maxage=31536000, immutable",
-        "CDN-Cache-Control": "public, max-age=31536000, immutable",
+        "Cache-Control": POSTER_CACHE_CONTROL,
+        "CDN-Cache-Control": POSTER_CDN_CACHE_CONTROL,
       },
     });
   } catch {
