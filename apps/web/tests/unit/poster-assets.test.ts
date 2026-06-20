@@ -1,8 +1,12 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it } from "vitest";
 
 import { DEFAULT_POSTER_ASSET, getPosterAsset } from "@/lib/posters/assets";
 
 describe("poster assets", () => {
+  afterEach(() => {
+    delete process.env.NEXT_PUBLIC_POSTER_API_ORIGIN;
+  });
+
   it("keeps a same-origin default poster for slow or failed image loads", () => {
     expect(DEFAULT_POSTER_ASSET).toBe("/posters/default-poster.jpg");
   });
@@ -15,5 +19,11 @@ describe("poster assets", () => {
   it("serves current originals lazily through the same-domain poster cache", () => {
     expect(getPosterAsset("world-cup-global-stage", "en", "original", "abc123"))
       .toBe("/api/posters/en/world-cup/?v=abc123");
+  });
+
+  it("can serve poster API URLs from the production origin for static mirrors", () => {
+    process.env.NEXT_PUBLIC_POSTER_API_ORIGIN = "https://pluto.hk/";
+    expect(getPosterAsset("world-cup-global-stage", "zh", "thumbnail", "abc123"))
+      .toBe("https://pluto.hk/api/posters/zh/world-cup/?variant=thumbnail&v=abc123");
   });
 });

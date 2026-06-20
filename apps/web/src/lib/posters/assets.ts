@@ -89,7 +89,7 @@ export function getArchivedPosterAsset(
   const query = new URLSearchParams({ issueDate });
   if (variant === "thumbnail") query.set("variant", "thumbnail");
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
-  return withBasePath(`/api/posters/${locale}/${name}/?${query.toString()}`);
+  return posterApiPath(`/api/posters/${locale}/${name}/?${query.toString()}`);
 }
 
 export function getPosterAsset(
@@ -103,5 +103,10 @@ export function getPosterAsset(
   if (variant === "thumbnail") query.set("variant", "thumbnail");
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
   const suffix = query.size ? `?${query.toString()}` : "";
-  return withBasePath(`/api/posters/${locale}/${name}/${suffix}`);
+  return posterApiPath(`/api/posters/${locale}/${name}/${suffix}`);
+}
+
+function posterApiPath(path: string) {
+  const origin = process.env.NEXT_PUBLIC_POSTER_API_ORIGIN?.replace(/\/$/, "");
+  return origin ? `${origin}${path}` : withBasePath(path);
 }
