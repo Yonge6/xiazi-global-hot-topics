@@ -1,82 +1,214 @@
 {
-  "id": "10000000-0000-4000-8000-000000000008",
-  "slug": "2026-06-21",
-  "issueDate": "2026-06-21",
+  "id": "10000000-0000-4000-8000-000000000009",
+  "slug": "2026-06-22",
+  "issueDate": "2026-06-22",
   "slotHour": 5,
-  "beijingTimestamp": "2026-06-21T05:00:00+08:00",
-  "gmtTimestamp": "2026-06-20T21:00:00Z",
+  "beijingTimestamp": "2026-06-22T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-21T21:00:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000046",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000055",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000046",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "world-cup",
+      "id": "20000000-0000-4000-8000-000000000055",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "world-cup-spain-japan-us",
       "rank": 1,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "NL",
-        "SE",
+        "ES",
+        "SA",
+        "JP",
+        "TN",
+        "US",
         "DE",
-        "CI",
-        "MA",
-        "BR",
-        "HT",
-        "PY",
-        "TR",
-        "GB"
+        "CUW",
+        "EC"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "world_cup_second_round_netherlands_germany_2026",
-      "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 95,
+      "storyId": "world_cup_spain_japan_us_june21_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦",
-          "headlineView": "世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出",
-          "intro": "北京时间6月20日05:00至6月21日05:00，世界杯共结束5场比赛：苏格兰0:1摩洛哥、巴西3:0海地、土耳其0:1巴拉圭、荷兰5:1瑞典、德国2:1科特迪瓦。荷兰首轮2:2战平日本后，面对曾5:1大胜突尼斯的瑞典打出5:1，重新掌握F组主动权。德国继7:1大胜库拉索后又2:1过关，证明自己也能处理艰难局。第二轮开始后，强队要证明的不只是有没有明星，而是被研究之后还能不能拿出第二套答案。",
-          "xiaziQuote": "第二轮的价值在于去泡沫：一场大胜能制造声量，连续解决不同难题才说明球队真有底盘。",
-          "doudouQuote": "荷兰这场像把第一轮没进的球一起补交了；德国少了点烟花，但分数到账，账房先生也点头。",
-          "footerTakeaway": "5场比赛14球，荷兰与德国继续抢占主动，第二轮开始检验强队持续输出能力。",
-          "headlineFull": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦；世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出。"
+          "headlineFact": "西班牙4:0击败沙特，日本4:0赢下世界杯第1000场",
+          "headlineView": "强队真正回来的标志，是把悬念提前打掉",
+          "intro": "北京时间6月21日至22日窗口，世界杯最大信号来自西班牙：4:0击败沙特，亚马尔和奥亚萨瓦尔早早打开局面，西班牙从首轮闷平里恢复节奏。其他赛场，日本4:0击败突尼斯，拿下世界杯历史第1000场；美国锁定D组第一；德国已提前出线；库拉索0:0逼平厄瓜多尔，拿到队史世界杯首分。小组赛进入第二轮后，真正的分水岭不是名气，而是谁能迅速把主动权变成积分。",
+          "xiaziQuote": "世界杯第二轮最会照妖镜：有的队靠履历撑门面，有的队已经用90分钟把问题改完。",
+          "doudouQuote": "西班牙这场像是把首轮堵车的进攻一次性放行；日本也不客气，世界杯第1000场直接写成自己的纪念章。",
+          "footerTakeaway": "西班牙、日本、美国和德国同时释放晋级信号，小组赛第二轮开始淘汰幻想。",
+          "headlineFull": "西班牙4:0击败沙特，日本4:0赢下世界杯第1000场；强队真正回来的标志，是把悬念提前打掉。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1",
-          "headlineView": "as the second round begins, the real gap is not one burst of form but repeatable output",
-          "intro": "From 05:00 June 20 to 05:00 June 21 Beijing time, five World Cup matches finished: Scotland 0-1 Morocco, Brazil 3-0 Haiti, Türkiye 0-1 Paraguay, Netherlands 5-1 Sweden, and Germany 2-1 Côte d’Ivoire. The Netherlands, held 2-2 by Japan in the opener, responded by beating a Sweden side that had opened with a 5-1 win over Tunisia. Germany followed its 7-1 rout of Curaçao with a narrower win, showing it can manage tougher games too. In the second round, contenders must prove not only star power, but a second answer after opponents study them.",
-          "xiaziQuote": "Matchday two removes some noise: a big win creates headlines, but solving different problems in sequence shows real depth.",
-          "doudouQuote": "The Dutch looked as if they were submitting all the goals they forgot in round one; Germany was less fireworks, more accounting department approval.",
-          "footerTakeaway": "Five matches produced 14 goals, with the Netherlands and Germany strengthening their positions as consistency becomes the test.",
-          "headlineFull": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1；as the second round begins, the real gap is not one burst of form but repeatable output。"
+          "headlineFact": "Spain beat Saudi Arabia 4-0, while Japan won the World Cup’s 1,000th match 4-0",
+          "headlineView": "contenders are back when they remove suspense early",
+          "intro": "In the June 21-22 Beijing-time window, Spain sent the clearest signal by beating Saudi Arabia 4-0, with Lamine Yamal and Mikel Oyarzabal restoring rhythm after a flat opening draw. Elsewhere, Japan beat Tunisia 4-0 in the 1,000th match in World Cup history, the United States secured first place in Group D, Germany had already advanced, and Curaçao held Ecuador for its first World Cup point. Matchday two is separating reputation from teams that can convert control into points.",
+          "xiaziQuote": "The second round is a useful filter: some teams lean on reputation, others fix problems in 90 minutes.",
+          "doudouQuote": "Spain looked as if someone finally cleared the traffic jam in attack; Japan turned the 1,000th match into its own commemorative stamp.",
+          "footerTakeaway": "Spain, Japan, the U.S. and Germany all strengthened their positions as matchday two sharpened the table.",
+          "headlineFull": "Spain beat Saudi Arabia 4-0, while Japan won the World Cup’s 1,000th match 4-0；contenders are back when they remove suspense early。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000221",
-          "topicId": "20000000-0000-4000-8000-000000000046",
-          "title": "Germany 2-1 Côte d’Ivoire | Match report and highlights",
+          "id": "30000000-0000-4000-8000-000000000257",
+          "topicId": "20000000-0000-4000-8000-000000000055",
+          "title": "Spain 4-0 Saudi Arabia: Match report and highlights",
           "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/articles/germany-cote-divoire-match-report-highlights",
-          "publishedAt": "2026-06-20T00:00:00Z",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-saudi-arabia-highlights-match-report",
+          "publishedAt": "2026-06-21T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "30000000-0000-4000-8000-000000000222",
-          "topicId": "20000000-0000-4000-8000-000000000046",
-          "title": "FIFA World Cup official match centre",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
-          "publishedAt": "2026-06-20T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000258",
+          "topicId": "20000000-0000-4000-8000-000000000055",
+          "title": "2026 World Cup Bracket, Standings: Where The USA Stands; Spain Makes Statement",
+          "publisher": "FOX Sports",
+          "url": "https://www.foxsports.com/stories/soccer/world-cup-bracket-scenarios-standings",
+          "publishedAt": "2026-06-21T21:25:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000259",
+          "topicId": "20000000-0000-4000-8000-000000000055",
+          "title": "In FIFA World Cup milestone 1,000th match, Japan arise to make history",
+          "publisher": "ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/49132600/in-fifa-world-cup-milestone-1000th-match-japan-arise-make-history-their-own",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000056",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "ai-data-center-grid-order",
+      "rank": 2,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "ferc_ai_data_center_grid_order_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI与科技",
+          "headlineFact": "美国监管机构要求电网更快接入AI数据中心",
+          "headlineView": "AI竞赛已经从模型参数，打到电力插座",
+          "intro": "美国联邦能源监管委员会一致要求六大区域电网运营商加快大型用电客户接入，重点回应AI数据中心用电暴增。命令要求数据中心承担必要电网升级成本，并在30至60天内提交接入方案。AI基础设施不再只是芯片和模型问题，而是电网、地方审批、电价和水资源的综合压力测试。谁能更快拿到稳定电力，谁就更可能把算力变成产业优势。",
+          "xiaziQuote": "AI的下一轮竞争，表面是模型能力，底层是电力、土地和社区承受力。",
+          "doudouQuote": "以前抢GPU，现在抢变电站；大模型长大以后，第一句话可能是“请给我通电”。",
+          "footerTakeaway": "FERC把AI数据中心接入提速，说明算力竞争已进入能源基础设施层。",
+          "headlineFull": "美国监管机构要求电网更快接入AI数据中心；AI竞赛已经从模型参数，打到电力插座。"
+        },
+        "en-US": {
+          "categoryLabel": "AI & Tech",
+          "headlineFact": "U.S. regulators ordered grid operators to speed power access for AI data centers",
+          "headlineView": "the AI race has moved from model parameters to power plugs",
+          "intro": "The Federal Energy Regulatory Commission unanimously ordered six regional grid operators to speed interconnection for large electricity users, with AI data centers at the center of the demand surge. The order says data centers should bear upgrade costs and asks operators to report plans within 30 to 60 days. AI infrastructure is no longer just about chips and models; it is a stress test for grids, local permitting, rates and water. Whoever secures reliable power faster may turn compute into advantage faster.",
+          "xiaziQuote": "The next AI race looks like model capability on the surface, but underneath it is power, land and community tolerance.",
+          "doudouQuote": "First everyone chased GPUs; now they are chasing substations. The grown-up model asks for electricity before answers.",
+          "footerTakeaway": "FERC’s order shows AI compute competition has entered the energy infrastructure layer.",
+          "headlineFull": "U.S. regulators ordered grid operators to speed power access for AI data centers；the AI race has moved from model parameters to power plugs。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000260",
+          "topicId": "20000000-0000-4000-8000-000000000056",
+          "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/506e3d206871111f15c3c62fc5368be5",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000057",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "stablecoin-customer-id-rules",
+      "rank": 3,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 84,
+      "storyId": "fed_stablecoin_customer_id_rules_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "商业与资本",
+          "headlineFact": "美联储等机构拟要求稳定币发行方执行客户身份识别",
+          "headlineView": "数字美元的生意，正在被拉回银行式监管",
+          "intro": "美联储、FDIC、FinCEN、OCC和NCUA联合征求意见，拟要求特定支付稳定币发行方建立有效客户身份识别计划，规则将参照银行和信用合作社的反洗钱框架。评论期为联邦公报发布后60天。稳定币过去靠“像现金一样流动”讲故事，现在监管开始要求它也像金融机构一样识别客户。资本市场真正关心的是：合规成本上升后，谁还能保住规模和速度。",
+          "xiaziQuote": "稳定币要走进主流金融，就得接受主流金融最不浪漫的一面：知道钱从哪里来。",
+          "doudouQuote": "币圈喜欢说去中心化，监管拿出表格说：先把客户名字填一下。",
+          "footerTakeaway": "美国监管把稳定币客户识别规则提上日程，合规门槛正在抬高。",
+          "headlineFull": "美联储等机构拟要求稳定币发行方执行客户身份识别；数字美元的生意，正在被拉回银行式监管。"
+        },
+        "en-US": {
+          "categoryLabel": "Business & Capital",
+          "headlineFact": "U.S. agencies proposed customer-identification rules for stablecoin issuers",
+          "headlineView": "the digital-dollar business is being pulled back toward bank-style oversight",
+          "intro": "The Federal Reserve, FDIC, FinCEN, OCC and NCUA sought comment on a proposal requiring certain payment stablecoin issuers to maintain effective customer identification programs, comparable to anti-money-laundering rules for banks and credit unions. Comments are due 60 days after Federal Register publication. Stablecoins sold the story of cash-like movement; regulators now want institution-like customer checks. Markets will watch who can preserve scale and speed as compliance costs rise.",
+          "xiaziQuote": "To enter mainstream finance, stablecoins must accept its least romantic habit: knowing where the money came from.",
+          "doudouQuote": "Crypto says decentralization; regulators reply with a form and ask for the customer name first.",
+          "footerTakeaway": "U.S. agencies are raising the compliance bar for payment stablecoin issuers.",
+          "headlineFull": "U.S. agencies proposed customer-identification rules for stablecoin issuers；the digital-dollar business is being pulled back toward bank-style oversight。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000261",
+          "topicId": "20000000-0000-4000-8000-000000000057",
+          "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000262",
+          "topicId": "20000000-0000-4000-8000-000000000057",
+          "title": "Notice of Proposed Rulemaking: Permitted Payment Stablecoin Issuer Customer Identification Program",
+          "publisher": "FDIC",
+          "url": "https://www.fdic.gov/news/financial-institution-letters/2026/notice-proposed-rulemaking-permitted-payment-stablecoin",
+          "publishedAt": "2026-06-18T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -85,178 +217,68 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000047",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "us-iran-mou-signed",
-      "rank": 2,
+      "id": "20000000-0000-4000-8000-000000000058",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "us-iran-switzerland-talks",
+      "rank": 4,
       "category": "international",
       "region": "Middle East",
       "countryCodes": [
         "US",
         "IR",
         "CH",
+        "IL",
         "LB"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "us_iran_hormuz_switzerland_talks_2026",
+      "scoreTotal": 93,
+      "storyId": "us_iran_switzerland_talks_fragile_2026",
       "storyStatus": "followup",
-      "followupDay": 6,
-      "informationIncrementScore": 92,
+      "followupDay": 7,
+      "informationIncrementScore": 78,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "美伊谈判",
-          "headlineFact": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡",
-          "headlineView": "谈判还没有开始，双方已经先争夺谁有权定义现实",
-          "intro": "美伊高级代表团准备在瑞士启动和平谈判，落实为期60天的临时停火协议。与此同时，伊朗革命卫队宣布霍尔木兹海峡关闭，美国中央司令部否认这一说法，并称当天仍有55艘、装载超过1700万桶石油的商船通过。黎巴嫩方向的持续交火，也在考验这份协议能否真正落地。",
-          "xiaziQuote": "谈判桌上谈的是协议，海峡里争的是事实；谁能定义现实，谁就先拿到筹码。",
-          "doudouQuote": "这边说“开会”，那边说“关门”；外交有时候像群聊，最重要的是谁先改了群公告。",
-          "footerTakeaway": "美伊瑞士谈判与霍尔木兹争议同步升温，停火协议还没落地就遭遇现实压力。",
-          "headlineFull": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡；谈判还没有开始，双方已经先争夺谁有权定义现实。"
+          "categoryLabel": "国际政治",
+          "headlineFact": "美伊瑞士谈判启动，却被威胁、黎巴嫩战火和霍尔木兹争议夹击",
+          "headlineView": "停火之后最难的，不是合影，而是让各方停止加戏",
+          "intro": "美国副总统万斯抵达瑞士，与伊朗方面推动战后安排和核问题后续谈判；但特朗普对伊朗的强硬威胁、以色列与真主党在黎巴嫩方向的交火，以及霍尔木兹通行争议同时压上谈判桌。相比昨天“代表团抵达”，今天的增量是谈判已启动且裂缝公开化：协议不是签了就稳定，而是每个相关方都在测试边界。",
+          "xiaziQuote": "外交不是把火灭掉，而是先让所有人别往同一个火盆里继续倒油。",
+          "doudouQuote": "这场谈判像边修桥边吵架：桥还没通车，大家已经在讨论谁来收费。",
+          "footerTakeaway": "美伊谈判进入实质阶段，但外部战场和政治威胁正在持续削弱协议可信度。",
+          "headlineFull": "美伊瑞士谈判启动，却被威胁、黎巴嫩战火和霍尔木兹争议夹击；停火之后最难的，不是合影，而是让各方停止加戏。"
         },
         "en-US": {
-          "categoryLabel": "U.S.-Iran Talks",
-          "headlineFact": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed",
-          "headlineView": "before talks even begin, both sides are fighting over who gets to define reality",
-          "intro": "Senior U.S. and Iranian delegations prepared to start peace talks in Switzerland to implement a 60-day interim ceasefire. At the same time, Iran’s Revolutionary Guard said the Strait of Hormuz was closed, while U.S. Central Command disputed the claim and said 55 merchant ships carrying more than 17 million barrels of oil still passed that day. Continued fighting around Lebanon is also testing whether the agreement can become more than paper.",
-          "xiaziQuote": "The negotiating table is about terms; the strait is about facts. Whoever defines reality first gets leverage.",
-          "doudouQuote": "One side says meeting, the other says closed. Diplomacy can feel like a group chat where the pinned message keeps changing.",
-          "footerTakeaway": "Swiss talks and the Hormuz dispute are escalating together, putting the ceasefire under pressure before implementation.",
-          "headlineFull": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed；before talks even begin, both sides are fighting over who gets to define reality。"
+          "categoryLabel": "International Politics",
+          "headlineFact": "U.S.-Iran talks began in Switzerland amid threats, Lebanon fighting and Hormuz tensions",
+          "headlineView": "after a ceasefire, the hard part is making every actor stop improvising",
+          "intro": "Vice President JD Vance arrived in Switzerland as U.S. and Iranian negotiators pushed post-war arrangements and future nuclear talks. But Trump’s threats toward Iran, Israel-Hezbollah fighting in Lebanon, and the Strait of Hormuz dispute all crowded the table. Compared with yesterday’s arrival story, today’s increment is that talks have started while the cracks are public. An agreement is not stable simply because it is signed; every actor is still testing the boundary.",
+          "xiaziQuote": "Diplomacy is not just putting out the fire; it is stopping everyone from pouring oil into the same pit.",
+          "doudouQuote": "This negotiation feels like arguing while building a bridge: traffic has not opened, but everyone is already debating the toll.",
+          "footerTakeaway": "U.S.-Iran talks moved into substance, but external conflict and threats are weakening the deal’s credibility.",
+          "headlineFull": "U.S.-Iran talks began in Switzerland amid threats, Lebanon fighting and Hormuz tensions；after a ceasefire, the hard part is making every actor stop improvising。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000225",
-          "topicId": "20000000-0000-4000-8000-000000000047",
-          "title": "US disputes Iranian claims about closing Strait of Hormuz as negotiators head to Switzerland",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/us-disputes-iranian-claims-about-closing-strait-hormuz-negotiators-head-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000048",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "cultural-heritage",
-      "rank": 3,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "GB"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 88,
-      "storyId": "uk_starmer_resignation_report_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "英国政坛",
-          "headlineFact": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认",
-          "headlineView": "权力真正松动的信号，是所有人都开始讨论下一任是谁",
-          "intro": "英国《观察家报》报道称，首相基尔·斯塔默可能在周一宣布辞职并公布交接时间表；但英国政府消息人士表示，他仍专注于执政，目前尚无正式辞职声明。超过100名工党议员此前要求其下台，潜在竞争者安迪·伯纳姆重返议会，也进一步加剧领导权之争。这条新闻目前仍属于未经官方确认的重大政治传闻。",
-          "xiaziQuote": "政治危机最先改变的不是职位，而是人们默认“下一任”已经可以公开讨论。",
-          "doudouQuote": "还没官宣，接班人名单已经在桌上排队了；权力这东西，风一漏，窗帘先动。",
-          "footerTakeaway": "斯塔默去留仍未官方确认，但工党内部领导权压力已进入公开讨论阶段。",
-          "headlineFull": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认；权力真正松动的信号，是所有人都开始讨论下一任是谁。"
-        },
-        "en-US": {
-          "categoryLabel": "UK Politics",
-          "headlineFact": "Reports said Starmer could announce his resignation Monday, while government sources denied it",
-          "headlineView": "the real sign power is loosening is that everyone starts discussing the successor",
-          "intro": "Britain’s Observer reported that Prime Minister Keir Starmer could announce his resignation on Monday and set out a timetable for departure. A government source said he remained focused on governing and no official resignation had been announced. More than 100 Labour MPs had reportedly called for him to step down, while potential challenger Andy Burnham’s return to parliament sharpened leadership speculation. This remains a major political report without official confirmation.",
-          "xiaziQuote": "A political crisis first changes not the office, but whether people feel allowed to discuss the next occupant in public.",
-          "doudouQuote": "No official announcement yet, but the successor list is already waiting in the hallway. Power leaks before it falls.",
-          "footerTakeaway": "Starmer’s position remains officially unresolved, but Labour’s leadership pressure has moved into open debate.",
-          "headlineFull": "Reports said Starmer could announce his resignation Monday, while government sources denied it；the real sign power is loosening is that everyone starts discussing the successor。"
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000229",
-          "topicId": "20000000-0000-4000-8000-000000000048",
-          "title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/uk/uk-pm-starmer-expected-resign-monday-set-out-orderly-exit-observer-newspaper-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000049",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "ukraine-moscow-refinery-drone-strike",
-      "rank": 4,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "UA",
-        "RU"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "ukraine_tyumen_drone_strike_warning_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "俄乌局势",
-          "headlineFact": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外",
-          "headlineView": "战争的纵深，正在被远程技术不断重新定义",
-          "intro": "泽连斯基警告俄罗斯正在准备新一轮大规模袭击，要求民众重视防空警报。与此同时，他确认乌克兰无人机袭击了俄罗斯西西伯利亚秋明地区的炼油设施，距离乌克兰超过2000公里，并称乌方新型远程无人机的作战距离已经达到3000公里。俄方表示袭击被防空系统击退，初步报告没有设施受损。",
-          "xiaziQuote": "远程无人机让“后方”这个词越来越不稳定，战争地图正在被技术重新拉长。",
-          "doudouQuote": "以前说打到纵深像军事论文，现在像快递范围说明：两千公里内都可能送达。",
-          "footerTakeaway": "乌克兰远程打击与俄罗斯袭击预警同时出现，显示战场纵深继续扩大。",
-          "headlineFull": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外；战争的纵深，正在被远程技术不断重新定义。"
-        },
-        "en-US": {
-          "categoryLabel": "Ukraine War",
-          "headlineFact": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones",
-          "headlineView": "the depth of war is being redefined by long-range technology",
-          "intro": "President Volodymyr Zelenskyy warned that Russia was preparing another large-scale attack and urged Ukrainians to heed air alerts. He also confirmed Ukrainian drones struck refining facilities in Russia’s Tyumen region in western Siberia, more than 2,000 km from Ukraine, and said new Ukrainian long-range drones can reach 3,000 km. Russia said the attack was repelled and initial reports showed no facility damage.",
-          "xiaziQuote": "Long-range drones are making the word rear area less stable; technology is stretching the map of war.",
-          "doudouQuote": "Deep strike used to sound like a military paper. Now it reads like a delivery radius: within 2,000 km, service available.",
-          "footerTakeaway": "Ukraine’s long-range strike and Russia attack warning show the battlefield’s depth is still expanding.",
-          "headlineFull": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones；the depth of war is being redefined by long-range technology。"
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000233",
-          "topicId": "20000000-0000-4000-8000-000000000049",
-          "title": "Ukraine’s Zelenskiy confirms drone strike on refining facilities in Russia’s Tyumen region",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/energy/ukraines-zelenskiy-confirms-drone-strike-refining-facilities-russias-tyumen-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
+          "id": "30000000-0000-4000-8000-000000000263",
+          "topicId": "20000000-0000-4000-8000-000000000058",
+          "title": "High drama over Trump threats and Lebanon at US-Iran talks in Switzerland",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/21/vance-arrives-in-switzerland-for-us-iran-talks",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "30000000-0000-4000-8000-000000000234",
-          "topicId": "20000000-0000-4000-8000-000000000049",
-          "title": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/21/ukraine-war-briefing-drones-strike-russia-tyumen-oil-refinery-2000km-away-says-zelenskyy",
+          "id": "30000000-0000-4000-8000-000000000264",
+          "topicId": "20000000-0000-4000-8000-000000000058",
+          "title": "Inside U.S.-Iran talks in Switzerland",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/06/21/us-iran-talks-jd-vance-switzerland-lebanon-nuclear",
           "publishedAt": "2026-06-21T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -266,122 +288,68 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000050",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "climate-adaptation",
+      "id": "20000000-0000-4000-8000-000000000059",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "world-bank-global-growth-2026",
       "rank": 5,
-      "category": "climate",
-      "region": "Europe",
+      "category": "business",
+      "region": "Global",
       "countryCodes": [
-        "FR",
-        "DE",
-        "ES"
+        "US",
+        "CN",
+        "IR",
+        "EU"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 87,
-      "storyId": "europe_heatwave_france_alcohol_2026",
+      "storyId": "world_bank_global_growth_gep_june_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "欧洲热浪",
-          "headlineFact": "欧洲多地气温逼近41℃，法国限制公共活动饮酒",
-          "headlineView": "极端天气正在从气象新闻，变成城市必须立即执行的管理政策",
-          "intro": "欧洲新一轮热浪持续升级。法国预计35个地区进入最高级别红色警报，部分地区气温可能达到41℃，政府因此限制音乐节等公共活动中的酒精消费，巴黎则让部分公园全天开放。德国发布大范围高温警告，西班牙还关闭了马德里的一处世界杯球迷区。",
-          "xiaziQuote": "气候风险真正进入日常治理时，表现不是口号变多，而是公园、酒精、球迷区这些细节开始被重新安排。",
-          "doudouQuote": "天气热到连音乐节喝酒都要管，城市管理终于体会到什么叫“太阳亲自加班”。",
-          "footerTakeaway": "欧洲热浪迫使多国调整公共活动安排，极端天气正在成为城市治理变量。",
-          "headlineFull": "欧洲多地气温逼近41℃，法国限制公共活动饮酒；极端天气正在从气象新闻，变成城市必须立即执行的管理政策。"
+          "categoryLabel": "全球经济",
+          "headlineFact": "世界银行预计2026年全球增长放缓至2.5%",
+          "headlineView": "真正的风险不是一次冲击，而是低增长变成常态",
+          "intro": "世界银行6月《全球经济展望》预计，2026年全球增长将放缓至2.5%，并警告中东冲突带来的能源价格、通胀和政策不确定性仍可能放大下行风险。报告也承认AI更广泛采用可能形成上行因素，但短期内，发展中经济体的追赶空间正在被战争、融资成本和贸易不确定性一起挤压。增长数字看似温和，背后是许多国家“想追也追不快”。",
+          "xiaziQuote": "低增长最麻烦的地方，是它不像危机那样吓人，却会慢慢改变一代人的机会。",
+          "doudouQuote": "世界经济现在像开省电模式的手机：还能用，但你不敢随便开大应用。",
+          "footerTakeaway": "世界银行把2026年全球增长放在2.5%，提醒战后经济韧性仍很脆。",
+          "headlineFull": "世界银行预计2026年全球增长放缓至2.5%；真正的风险不是一次冲击，而是低增长变成常态。"
         },
         "en-US": {
-          "categoryLabel": "European Heatwave",
-          "headlineFact": "Temperatures across Europe neared 41C as France restricted drinking at public events",
-          "headlineView": "extreme weather is moving from forecast to immediate city policy",
-          "intro": "A new European heatwave intensified. France expected 35 departments to enter the highest red alert, with some areas possibly reaching 41C, prompting restrictions on alcohol consumption at music festivals and other public events, while Paris kept some parks open overnight. Germany issued broad heat warnings, and Spain closed a World Cup fan zone in Madrid.",
-          "xiaziQuote": "Climate risk enters daily governance not through slogans, but through changed rules for parks, alcohol, transit and fan zones.",
-          "doudouQuote": "It is hot enough that even festival drinking needs policy. City managers have discovered the sun can do overtime.",
-          "footerTakeaway": "Europe’s heatwave forced countries to adjust public events, turning extreme weather into a governance variable.",
-          "headlineFull": "Temperatures across Europe neared 41C as France restricted drinking at public events；extreme weather is moving from forecast to immediate city policy。"
+          "categoryLabel": "Global Economy",
+          "headlineFact": "The World Bank projected global growth slowing to 2.5% in 2026",
+          "headlineView": "the real risk is not one shock, but weak growth becoming normal",
+          "intro": "The World Bank’s June Global Economic Prospects projects global growth slowing to 2.5% in 2026 and warns that energy prices, inflation and policy uncertainty from the Middle East conflict could amplify downside risks. It also notes that broader AI adoption could provide upside, but in the near term developing economies face pressure from war, financing costs and trade uncertainty. The headline number looks moderate; beneath it, many countries are finding it harder to catch up.",
+          "xiaziQuote": "The trouble with low growth is that it is less dramatic than crisis, but it slowly changes a generation’s opportunities.",
+          "doudouQuote": "The world economy feels like a phone in low-power mode: still working, but nobody dares open a heavy app.",
+          "footerTakeaway": "The World Bank’s 2.5% forecast shows post-shock resilience remains fragile.",
+          "headlineFull": "The World Bank projected global growth slowing to 2.5% in 2026；the real risk is not one shock, but weak growth becoming normal。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000237",
-          "topicId": "20000000-0000-4000-8000-000000000050",
-          "title": "Europe swelters under heatwave, France restricts alcohol consumption",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/environment/europe-swelters-under-heatwave-prompting-crisis-talks-france-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000051",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "congo-ebola-response-strained",
-      "rank": 6,
-      "category": "science",
-      "region": "Africa",
-      "countryCodes": [
-        "CD"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "congo_ebola_cases_956_2026",
-      "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 82,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "埃博拉疫情",
-          "headlineFact": "刚果（金）埃博拉确诊升至956例、247人死亡",
-          "headlineView": "疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃",
-          "intro": "刚果（金）公布的最新数字显示，本轮埃博拉确诊病例已由933例升至956例，死亡人数由245人升至247人。东北部一座收容超过1.5万名流离失所者的营地，从5月以来已有至少30人死亡，拥挤、卫生设施不足、居民抵触检测等问题，让传播风险进一步升高。世界卫生组织已将这场疫情列为国际关注的突发公共卫生事件。",
-          "xiaziQuote": "传染病最怕的不是单个病例增加，而是检测、隔离和社区信任同时跟不上。",
-          "doudouQuote": "病毒不看地图，但很懂人类系统哪里最薄：水不够、床不够、信任也不够。",
-          "footerTakeaway": "刚果（金）埃博拉数字继续上升，营地条件和追踪能力成为控制疫情的关键。",
-          "headlineFull": "刚果（金）埃博拉确诊升至956例、247人死亡；疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃。"
-        },
-        "en-US": {
-          "categoryLabel": "Ebola Outbreak",
-          "headlineFact": "DR Congo Ebola cases rose to 956 with 247 deaths",
-          "headlineView": "before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first",
-          "intro": "DR Congo’s latest figures showed confirmed Ebola cases rising from 933 to 956, with deaths increasing from 245 to 247. In a northeastern camp housing more than 15,000 displaced people, at least 30 people have died since May. Crowding, poor sanitation and resistance to testing are increasing transmission risks. The World Health Organization has treated the outbreak as an international public-health emergency.",
-          "xiaziQuote": "The danger is not just more cases; it is testing, isolation and community trust falling behind at the same time.",
-          "doudouQuote": "Viruses do not read maps, but they know weak systems: not enough water, not enough beds, not enough trust.",
-          "footerTakeaway": "DR Congo’s Ebola numbers are still rising, with camp conditions and tracing capacity central to control.",
-          "headlineFull": "DR Congo Ebola cases rose to 956 with 247 deaths；before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first。"
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000241",
-          "topicId": "20000000-0000-4000-8000-000000000051",
-          "title": "Congo says confirmed Ebola cases rise to 956, including 247 deaths",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-says-confirmed-ebola-cases-rise-956-including-247-deaths-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
+          "id": "30000000-0000-4000-8000-000000000265",
+          "topicId": "20000000-0000-4000-8000-000000000059",
+          "title": "Global Economic Prospects",
+          "publisher": "World Bank",
+          "url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+          "publishedAt": "2026-06-10T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "30000000-0000-4000-8000-000000000242",
-          "topicId": "20000000-0000-4000-8000-000000000051",
-          "title": "Disease Outbreak News",
-          "publisher": "World Health Organization",
-          "url": "https://www.who.int/emergencies/disease-outbreak-news",
-          "publishedAt": null,
+          "id": "30000000-0000-4000-8000-000000000266",
+          "topicId": "20000000-0000-4000-8000-000000000059",
+          "title": "Global Economy Endures War Shock—So Far",
+          "publisher": "International Monetary Fund",
+          "url": "https://www.imf.org/en/blogs/articles/2026/06/15/global-economy-endures-war-shock-so-far",
+          "publishedAt": "2026-06-15T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -390,120 +358,217 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000052",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "apple-intel-us-chip-production",
-      "rank": 7,
-      "category": "business",
-      "region": "Asia",
+      "id": "20000000-0000-4000-8000-000000000060",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "roman-space-telescope-launch",
+      "rank": 6,
+      "category": "science",
+      "region": "Space",
       "countryCodes": [
-        "IN",
         "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 84,
-      "storyId": "tata_iphone_pollution_probe_2026",
+      "scoreTotal": 82,
+      "storyId": "nasa_roman_space_telescope_launch_august_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "苹果供应链",
-          "headlineFact": "印度调查塔塔iPhone零部件工厂污染问题",
-          "headlineView": "制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失",
-          "intro": "印度卫生部门正在调查塔塔电子位于泰米尔纳德邦的iPhone零部件工厂。附近农民称工厂排放影响农田和水源，并有人出现皮肤问题；政府检测的部分水样发现大肠杆菌，总溶解固体含量也超过饮用水建议标准。塔塔表示厂内检测未发现污染，调查仍在进行。",
-          "xiaziQuote": "供应链转移解决的是地缘和成本问题，不会自动解决环境治理问题。",
-          "doudouQuote": "iPhone零件换了生产地，污染账单可不会自动改成环保主题皮肤。",
-          "footerTakeaway": "塔塔iPhone零部件工厂遭健康调查，提醒全球供应链重组仍要面对环境责任。",
-          "headlineFull": "印度调查塔塔iPhone零部件工厂污染问题；制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失。"
+          "categoryLabel": "科学与航天",
+          "headlineFact": "NASA罗曼空间望远镜定于8月30日发射",
+          "headlineView": "下一代宇宙地图，终于排进倒计时",
+          "intro": "NASA更新罗曼空间望远镜发射信息，目标日期为2026年8月30日，将由SpaceX猎鹰重型火箭从肯尼迪航天中心发射。罗曼拥有比哈勃大至少100倍的视场，将用于研究暗能量、系外行星和红外宇宙。它不是替代韦布，而是用“广角巡天”补上另一块拼图：先大范围发现问题，再让更精细的望远镜追问细节。",
+          "xiaziQuote": "科学进步有时不是看得更远，而是一次看得更宽，先把宇宙地图摊开。",
+          "doudouQuote": "哈勃像盯细节的老法师，罗曼像拿着超广角相机说：大家先站一起。",
+          "footerTakeaway": "罗曼望远镜进入发射倒计时，宽视场巡天将重塑暗能量和系外行星研究。",
+          "headlineFull": "NASA罗曼空间望远镜定于8月30日发射；下一代宇宙地图，终于排进倒计时。"
         },
         "en-US": {
-          "categoryLabel": "Apple Supply Chain",
-          "headlineFact": "India is probing pollution complaints around Tata’s iPhone parts factory",
-          "headlineView": "moving manufacturing from one country to another does not make environmental costs disappear",
-          "intro": "Indian health authorities are investigating Tata Electronics’ iPhone components plant in Tamil Nadu. Nearby farmers said factory discharge affected farmland and water sources, and some reported skin problems. Government tests on some water samples found E. coli and total dissolved solids above recommended drinking-water standards. Tata said internal tests found no contamination, and the probe is continuing.",
-          "xiaziQuote": "Supply-chain relocation solves some geopolitical and cost problems; it does not automatically solve environmental governance.",
-          "doudouQuote": "The iPhone parts moved production sites, but the pollution bill does not magically switch to an eco-friendly theme.",
-          "footerTakeaway": "The Tata probe shows global supply-chain restructuring still has to face environmental accountability.",
-          "headlineFull": "India is probing pollution complaints around Tata’s iPhone parts factory；moving manufacturing from one country to another does not make environmental costs disappear。"
+          "categoryLabel": "Science & Space",
+          "headlineFact": "NASA set the Roman Space Telescope launch for August 30",
+          "headlineView": "the next cosmic map is finally on the countdown clock",
+          "intro": "NASA’s latest Roman Space Telescope update lists August 30, 2026 as the target launch date, aboard a SpaceX Falcon Heavy from Kennedy Space Center. Roman will have a field of view at least 100 times larger than Hubble’s and will study dark energy, exoplanets and the infrared universe. It is not replacing Webb; it adds a wide-survey layer, finding patterns at scale before sharper telescopes chase details.",
+          "xiaziQuote": "Sometimes scientific progress is not seeing farther, but seeing wider enough to unfold the map.",
+          "doudouQuote": "Hubble is the detail master; Roman walks in with an ultra-wide camera and asks everyone to stand together.",
+          "footerTakeaway": "Roman’s countdown signals a wide-field survey era for dark energy and exoplanet science.",
+          "headlineFull": "NASA set the Roman Space Telescope launch for August 30；the next cosmic map is finally on the countdown clock。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000245",
-          "topicId": "20000000-0000-4000-8000-000000000052",
-          "title": "Tata’s iPhone parts factory faces India health probe after farmer contamination complaints",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/environment/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
+          "id": "30000000-0000-4000-8000-000000000267",
+          "topicId": "20000000-0000-4000-8000-000000000060",
+          "title": "Hello, World! NASA Shares New Home for Roman Space Telescope Updates",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/blogs/roman/2026/06/03/hello-world-nasa-shares-new-home-for-roman-space-telescope-updates/",
+          "publishedAt": "2026-06-03T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000268",
+          "topicId": "20000000-0000-4000-8000-000000000060",
+          "title": "Nancy Grace Roman Space Telescope",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+          "publishedAt": "2026-06-01T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000053",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "public-health",
-      "rank": 8,
+      "id": "20000000-0000-4000-8000-000000000061",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "cdc-ebola-travel-order",
+      "rank": 7,
       "category": "culture",
-      "region": "North America",
+      "region": "Africa / North America",
       "countryCodes": [
-        "CA"
+        "CD",
+        "UG",
+        "SS",
+        "US"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 82,
-      "storyId": "td_workiq_employee_monitoring_2026",
+      "scoreTotal": 86,
+      "storyId": "cdc_ebola_travel_order_june21_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "职场监控",
-          "headlineFact": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间",
-          "headlineView": "远程办公带来自由，也让“是否在线”变成新的考勤表",
-          "intro": "加拿大道明银行通知部分金融犯罪与风险管理团队员工，将使用WorkiQ软件统计其使用浏览器、内部聊天和会议应用的时间。银行称该工具不监听谈话、不读取电子表格内容，也并非人工智能，目的是优化人员和工作流程；但员工对隐私、知情同意以及数据用途提出质疑。",
-          "xiaziQuote": "混合办公的下一场争论，不是人在不在办公室，而是公司能不能把“在线痕迹”当成劳动本身。",
-          "doudouQuote": "以前摸鱼怕老板路过，现在怕软件看见；办公室没变远，只是变成了后台进程。",
-          "footerTakeaway": "TD使用WorkiQ监测部分员工活动，凸显远程与混合办公中的隐私边界问题。",
-          "headlineFull": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间；远程办公带来自由，也让“是否在线”变成新的考勤表。"
+          "categoryLabel": "社会与文化",
+          "headlineFact": "CDC延长针对埃博拉相关旅客的入境限制",
+          "headlineView": "公共卫生最难的题，是把边界管理和信任一起做好",
+          "intro": "美国CDC在6月21日发布命令，继续暂停特定近期到过刚果（金）、乌干达或南苏丹的外国旅客入境，期限30天。WHO则通报，刚果（金）和乌干达的Bundibugyo病毒病疫情仍在快速演变，并强调不建议基于现有信息限制与相关国家的旅行或贸易。一个疫情，两种政策语言：一边是防输入，一边是避免切断救援和信任。",
+          "xiaziQuote": "公共卫生政策不是越硬越好，关键是既挡住风险，也别挡住合作。",
+          "doudouQuote": "病毒不看护照，但人类会查护照；防疫难就难在这两套逻辑要同时运行。",
+          "footerTakeaway": "CDC入境限制与WHO旅行建议形成张力，埃博拉应对进入信任考验。",
+          "headlineFull": "CDC延长针对埃博拉相关旅客的入境限制；公共卫生最难的题，是把边界管理和信任一起做好。"
         },
         "en-US": {
-          "categoryLabel": "Workplace Monitoring",
-          "headlineFact": "Canada’s TD Bank will track some employees’ browser and meeting time",
-          "headlineView": "remote work brought freedom, and also turned online status into a new timesheet",
-          "intro": "Toronto-Dominion Bank told some employees in financial-crime and risk-management teams it will use WorkiQ software to track time spent on browsers, internal chat and meeting apps. The bank said the tool does not listen to conversations, read spreadsheets or use artificial intelligence, and is meant to improve staffing and workflow. Employees raised concerns over privacy, consent and future data use.",
-          "xiaziQuote": "The next hybrid-work argument is not just where people sit, but whether online traces can stand in for work itself.",
-          "doudouQuote": "Workers used to worry about the boss walking by. Now they worry about the software already being in the room.",
-          "footerTakeaway": "TD’s WorkiQ rollout highlights the privacy boundary in remote and hybrid work.",
-          "headlineFull": "Canada’s TD Bank will track some employees’ browser and meeting time；remote work brought freedom, and also turned online status into a new timesheet。"
+          "categoryLabel": "Society & Culture",
+          "headlineFact": "The CDC extended entry restrictions tied to Ebola-affected areas",
+          "headlineView": "public health’s hard problem is managing borders without losing trust",
+          "intro": "The U.S. CDC issued a June 21 order continuing restrictions on certain foreign travelers recently present in the DRC, Uganda or South Sudan for 30 days. WHO says the Bundibugyo virus disease outbreak in the DRC and Uganda continues to evolve rapidly, while advising against travel or trade restrictions based on current information. One outbreak now carries two policy languages: preventing importation while avoiding damage to aid flows and trust.",
+          "xiaziQuote": "Public health policy is not better just because it is harder; it must block risk without blocking cooperation.",
+          "doudouQuote": "Viruses do not check passports, but humans do. That is why outbreak policy runs on two logics at once.",
+          "footerTakeaway": "CDC restrictions and WHO advice show the Ebola response is also a test of trust.",
+          "headlineFull": "The CDC extended entry restrictions tied to Ebola-affected areas；public health’s hard problem is managing borders without losing trust。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000249",
-          "topicId": "20000000-0000-4000-8000-000000000053",
-          "title": "Canadian lender TD tells some employees it will use software to monitor their work",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/canadian-lender-td-tells-some-employees-it-will-use-software-monitor-their-work-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
+          "id": "30000000-0000-4000-8000-000000000269",
+          "topicId": "20000000-0000-4000-8000-000000000061",
+          "title": "Information for Travelers Returning from Ebola-Affected Areas",
+          "publisher": "CDC",
+          "url": "https://www.cdc.gov/ebola/situation-summary/returning-travelers.html",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000270",
+          "topicId": "20000000-0000-4000-8000-000000000061",
+          "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608",
+          "publishedAt": "2026-06-19T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000054",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "ai-governance",
+      "id": "20000000-0000-4000-8000-000000000062",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "europe-heatwave-public-safety",
+      "rank": 8,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "GB",
+        "IT",
+        "ES",
+        "DE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "europe_heatwave_public_safety_june21_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 72,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "环境与气候",
+          "headlineFact": "欧洲热浪迫使法国限制公共饮酒和户外活动",
+          "headlineView": "极端高温正在从天气新闻，变成城市治理考试",
+          "intro": "欧洲多地遭遇严重热浪，法国约三分之一地区进入高温红色警报，部分火车、音乐会和体育活动取消，公共场所饮酒受到限制，约845所学校准备关闭。英国气象部门也警告，本周可能挑战6月最高温纪录，湿热和“热带夜”会放大健康、供水和电力压力。今天相较昨日的增量，是热浪从预警变成了具体城市管制。",
+          "xiaziQuote": "高温不是背景板，它会改写学校、交通、医疗和城市生活的日程表。",
+          "doudouQuote": "以前夏天问“去哪玩”，现在先问“哪儿有空调”。城市治理也被烤出原形。",
+          "footerTakeaway": "欧洲热浪进入公共管制阶段，气候风险正在变成日常治理成本。",
+          "headlineFull": "欧洲热浪迫使法国限制公共饮酒和户外活动；极端高温正在从天气新闻，变成城市治理考试。"
+        },
+        "en-US": {
+          "categoryLabel": "Environment & Climate",
+          "headlineFact": "Europe’s heatwave forced France to restrict public drinking and outdoor events",
+          "headlineView": "extreme heat is becoming an urban-governance exam, not just weather news",
+          "intro": "A severe European heatwave put about a third of France under red alert, canceling trains, concerts and sports events, restricting public alcohol consumption, and pushing roughly 845 schools toward closure. The UK Met Office also warned that this week could challenge June temperature records, with humidity and tropical nights adding stress on health, water and power systems. The increment from yesterday is that warnings have become concrete city controls.",
+          "xiaziQuote": "Heat is not background weather; it rewrites schedules for schools, transport, health care and city life.",
+          "doudouQuote": "Summer used to ask where to go. Now it asks where the air conditioning is. Cities reveal themselves under heat.",
+          "footerTakeaway": "Europe’s heatwave has moved into public-control mode, turning climate risk into daily governance cost.",
+          "headlineFull": "Europe’s heatwave forced France to restrict public drinking and outdoor events；extreme heat is becoming an urban-governance exam, not just weather news。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000271",
+          "topicId": "20000000-0000-4000-8000-000000000062",
+          "title": "France restricts public alcohol consumption and outdoor sports as heat wave bakes parts of Europe",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/337471b5950543447c92010ca1081a8d",
+          "publishedAt": "2026-06-21T04:00:45Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000272",
+          "topicId": "20000000-0000-4000-8000-000000000062",
+          "title": "Record-breaking heat expected across UK this week, says Met Office",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jun/21/record-breaking-extreme-heat-wave-humidity-uk-met-office-warning",
+          "publishedAt": "2026-06-21T15:04:34Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000063",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "meta-child-harm-immunity",
       "rank": 9,
       "category": "technology",
       "region": "North America",
@@ -511,50 +576,61 @@
         "US"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 86,
-      "storyId": "meta_child_harm_lawsuit_immunity_2026",
+      "scoreTotal": 83,
+      "storyId": "meta_child_harm_immunity_lobbying_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "未成年人网络保护",
-          "headlineFact": "Meta游说美国国会，为儿童伤害诉讼争取法律保护",
-          "headlineView": "平台愿意接受监管，不代表它也愿意承担过去造成的后果",
-          "intro": "消息人士及立法文本显示，Meta正游说美国国会，希望在《儿童网络安全法案》中加入相关条款，限制依据州法律提出的未成年人网络伤害诉讼。Meta称其目标是建立统一的全国标准，而不是获得全面豁免；批评者则认为，新条款可能影响年轻用户、家长和学校已经发起的数千起诉讼。相关议员表示不会接受目前披露的豁免措辞。",
-          "xiaziQuote": "平台谈统一规则时，要小心别把“未来怎么管”变成“过去怎么免”。",
-          "doudouQuote": "大厂说要全国统一标准，听起来像修路；家长听着像先把追责出口封了。",
-          "footerTakeaway": "Meta围绕儿童网络安全法案争取诉讼保护，平台责任边界再次成为焦点。",
-          "headlineFull": "Meta游说美国国会，为儿童伤害诉讼争取法律保护；平台愿意接受监管，不代表它也愿意承担过去造成的后果。"
+          "categoryLabel": "编辑精选",
+          "headlineFact": "Meta游说国会，为儿童伤害诉讼争取豁免",
+          "headlineView": "平台责任的下一场仗，会打在法律条文的小字里",
+          "intro": "路透报道，Meta正游说美国国会，在儿童网络安全立法中加入可让平台免于儿童伤害索赔的条款；该公司面对大量来自年轻用户和家庭的诉讼。相关语言尚未被议员采纳，但它揭示了平台监管的关键战场：企业公开说支持联邦标准，私下更关心标准是否顺手带来责任减免。儿童安全问题，正在从产品设计变成法律责任分配。",
+          "xiaziQuote": "真正决定平台边界的，往往不是发布会上的承诺，而是法案脚注里的豁免。",
+          "doudouQuote": "一边说保护孩子，一边问能不能少赔点钱；这不是产品经理会议，这是现实版阅读理解。",
+          "footerTakeaway": "Meta争取诉讼豁免显示，儿童网络安全监管已进入责任分配阶段。",
+          "headlineFull": "Meta游说国会，为儿童伤害诉讼争取豁免；平台责任的下一场仗，会打在法律条文的小字里。"
         },
         "en-US": {
-          "categoryLabel": "Child Online Safety",
-          "headlineFact": "Meta lobbied Congress for protection from child-harm lawsuits",
-          "headlineView": "a platform may accept regulation without wanting to bear the consequences of past harm",
-          "intro": "Sources and draft legislative text show Meta has lobbied the U.S. Congress to add language to the Kids Online Safety Act that would limit child-harm lawsuits brought under state law. Meta says it wants a uniform national standard rather than broad immunity. Critics argue the language could affect thousands of lawsuits already filed by young users, parents and schools. Lawmakers said they would not accept the disclosed immunity wording.",
-          "xiaziQuote": "When platforms discuss uniform rules, they must not turn future regulation into past absolution.",
-          "doudouQuote": "Big Tech says national standard; parents hear closed exit ramp for accountability. Both sides know the wording matters.",
-          "footerTakeaway": "Meta’s push for lawsuit protection puts platform accountability back at the center of child online safety.",
-          "headlineFull": "Meta lobbied Congress for protection from child-harm lawsuits；a platform may accept regulation without wanting to bear the consequences of past harm。"
+          "categoryLabel": "Editor’s Pick",
+          "headlineFact": "Meta lobbied Congress for immunity from child-harm lawsuits",
+          "headlineView": "the next fight over platform responsibility is hidden in legal fine print",
+          "intro": "Reuters reported that Meta has lobbied the U.S. Congress to add language to child online safety legislation that could shield platforms from child-harm claims, while the company faces thousands of lawsuits from young users and families. Lawmakers have not indicated they will adopt the language, but the effort reveals the real regulatory battlefield: companies publicly support federal standards while watching whether those standards also reduce liability. Child safety is becoming a legal allocation of responsibility, not only a product-design issue.",
+          "xiaziQuote": "The real platform boundary is often set less by launch-stage promises than by exemptions in legislative footnotes.",
+          "doudouQuote": "Protect children, yes, but can we pay less if things go wrong? That is not a product meeting; it is reality reading comprehension.",
+          "footerTakeaway": "Meta’s lobbying shows child online safety regulation has entered the liability-allocation stage.",
+          "headlineFull": "Meta lobbied Congress for immunity from child-harm lawsuits；the next fight over platform responsibility is hidden in legal fine print。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000253",
-          "topicId": "20000000-0000-4000-8000-000000000054",
-          "title": "Meta lobbies Congress for protection from child-harm lawsuits",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/meta-lobbies-congress-protection-child-harm-lawsuits-2026-06-18/",
-          "publishedAt": "2026-06-18T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000273",
+          "topicId": "20000000-0000-4000-8000-000000000063",
+          "title": "Meta Lobbies Congress for Protection From Child-Harm Lawsuits: Reuters",
+          "publisher": "Insurance Journal / Reuters",
+          "url": "https://www.insurancejournal.com/news/national/2026/06/19/874479.htm",
+          "publishedAt": "2026-06-19T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000274",
+          "topicId": "20000000-0000-4000-8000-000000000063",
+          "title": "Meta lobbies Congress for protection from child-harm lawsuits",
+          "publisher": "Reuters video",
+          "url": "https://www.youtube.com/watch?v=g3MFMcyU6IM",
+          "publishedAt": "2026-06-19T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     }
-  ],
-  "assetVersion": "issue-2026-06-21-user-posters-v3"
+  ]
 }
