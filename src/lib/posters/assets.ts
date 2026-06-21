@@ -36,10 +36,19 @@ export const POSTER_ASSET_NAMES = [
   "cuba-economic-reform",
   "uae-social-media-age-15",
   "spacex-ai-bond-offering",
+  "anthropic-national-security",
+  "world-cup-netherlands-germany",
+  "us-iran-hormuz-talks",
+  "uk-starmer-resignation-report",
+  "ukraine-tyumen-drone-strike",
+  "europe-heatwave-france-alcohol",
+  "congo-ebola-956",
+  "tata-iphone-pollution-probe",
+  "td-workiq-monitoring",
+  "meta-child-harm-lawsuits",
 ] as const;
 
 export const posterNames: Record<string, string> = {
-  "ai-governance-crossroads": "ai-governance",
   "trade-routes-rewired": "supply-chain",
   "climate-adaptation-city": "climate-adaptation",
   "space-economy-orbit": "space-orbit",
@@ -57,6 +66,7 @@ export const posterNames: Record<string, string> = {
   "us-iran-peace-signing": "us-iran-peace-signing",
   "softbank-openai-cybersecurity": "softbank-openai-cybersecurity",
   "yum-sells-pizza-hut": "yum-sells-pizza-hut",
+  "ai-governance-crossroads": "anthropic-national-security",
 };
 
 export function withBasePath(path: string) {
@@ -85,10 +95,10 @@ export function getArchivedPosterAsset(
   cacheKey?: string | number,
 ) {
   const name = resolvePosterName(slug);
-  const extension = variant === "thumbnail" ? "webp" : "png";
-  const folder = variant === "thumbnail" ? "thumb/" : "";
-  const query = cacheKey === undefined ? "" : `?v=${encodeURIComponent(String(cacheKey))}`;
-  return `${withBasePath(`/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}`)}${query}`;
+  const query = new URLSearchParams({ issueDate });
+  if (variant === "thumbnail") query.set("variant", "thumbnail");
+  if (cacheKey !== undefined) query.set("v", String(cacheKey));
+  return posterApiPath(`/api/posters/${locale}/${name}/?${query.toString()}`);
 }
 
 export function getPosterAsset(
@@ -98,12 +108,14 @@ export function getPosterAsset(
   cacheKey?: string | number,
 ) {
   const name = resolvePosterName(slug);
-  const extension = variant === "thumbnail" ? "webp" : "png";
-  const path = variant === "thumbnail"
-    ? `/posters/thumb/${locale}/${name}.${extension}`
-    : `/posters/${locale}/${name}.${extension}`;
   const query = new URLSearchParams();
+  if (variant === "thumbnail") query.set("variant", "thumbnail");
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
   const suffix = query.size ? `?${query.toString()}` : "";
-  return `${withBasePath(path)}${suffix}`;
+  return posterApiPath(`/api/posters/${locale}/${name}/${suffix}`);
+}
+
+function posterApiPath(path: string) {
+  const origin = process.env.NEXT_PUBLIC_POSTER_API_ORIGIN?.replace(/\/$/, "");
+  return origin ? `${origin}${path}` : withBasePath(path);
 }

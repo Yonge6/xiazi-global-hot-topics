@@ -1,127 +1,141 @@
 {
-  "id": "10000000-0000-4000-8000-000000000006",
-  "slug": "2026-06-19",
-  "assetVersion": "2026-06-19-user-replacement-v2",
-  "issueDate": "2026-06-19",
+  "id": "10000000-0000-4000-8000-000000000008",
+  "slug": "2026-06-21",
+  "issueDate": "2026-06-21",
   "slotHour": 5,
-  "beijingTimestamp": "2026-06-19T05:00:00+08:00",
-  "gmtTimestamp": "2026-06-18T21:00:00Z",
+  "beijingTimestamp": "2026-06-21T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-20T21:00:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000028",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000046",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000028",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "world-cup-colombia-uzbekistan",
+      "id": "20000000-0000-4000-8000-000000000046",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "world-cup-netherlands-germany",
       "rank": 1,
       "category": "sports",
-      "region": "North America",
+      "region": "Global",
       "countryCodes": [
-        "CO",
-        "UZ",
-        "GH",
-        "PA",
-        "CZ",
-        "ZA",
-        "CH",
-        "BA"
+        "NL",
+        "SE",
+        "DE",
+        "CI",
+        "MA",
+        "BR",
+        "HT",
+        "PY",
+        "TR",
+        "GB"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "world_cup_colombia_uzbekistan_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "scoreTotal": 99,
+      "storyId": "world_cup_second_round_netherlands_germany_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "哥伦比亚3:1击败世界杯新军乌兹别克斯坦",
-          "headlineView": "强队的价值，不是从不被追平，而是被追平后还能重新掌控比赛",
-          "headlineFull": "哥伦比亚3:1击败世界杯新军乌兹别克斯坦；强队的价值，不是从不被追平，而是被追平后还能重新掌控比赛。",
-          "intro": "哥伦比亚凭借穆尼奥斯、路易斯·迪亚斯和坎帕斯的进球，以3:1战胜首次参加世界杯的乌兹别克斯坦。乌兹别克斯坦一度扳平，并攻入队史世界杯首球，但哥伦比亚迅速回应。同期，加纳1:0巴拿马、捷克1:1南非、瑞士4:1波黑。",
-          "xiaziQuote": "被追平并不可怕，失去重新掌控比赛的能力才可怕。",
-          "doudouQuote": "新军写下了历史，强队顺手拿走了三分。",
-          "footerTakeaway": "哥伦比亚3:1击败乌兹别克斯坦并掌控小组主动；同窗口多场赛果补足世界杯全局。"
+          "headlineFact": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦",
+          "headlineView": "世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出",
+          "intro": "北京时间6月20日05:00至6月21日05:00，世界杯共结束5场比赛：苏格兰0:1摩洛哥、巴西3:0海地、土耳其0:1巴拉圭、荷兰5:1瑞典、德国2:1科特迪瓦。荷兰首轮2:2战平日本后，面对曾5:1大胜突尼斯的瑞典打出5:1，重新掌握F组主动权。德国继7:1大胜库拉索后又2:1过关，证明自己也能处理艰难局。第二轮开始后，强队要证明的不只是有没有明星，而是被研究之后还能不能拿出第二套答案。",
+          "xiaziQuote": "第二轮的价值在于去泡沫：一场大胜能制造声量，连续解决不同难题才说明球队真有底盘。",
+          "doudouQuote": "荷兰这场像把第一轮没进的球一起补交了；德国少了点烟花，但分数到账，账房先生也点头。",
+          "footerTakeaway": "5场比赛14球，荷兰与德国继续抢占主动，第二轮开始检验强队持续输出能力。",
+          "headlineFull": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦；世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Colombia beat Uzbekistan 3:1",
-          "headlineView": "the value of a strong team is not never being caught, but taking control again after being caught",
-          "headlineFull": "Colombia beat Uzbekistan 3:1; the value of a strong team is not never being caught, but taking control again after being caught.",
-          "intro": "Colombia defeated World Cup debutant Uzbekistan 3:1 with goals from Munoz, Luis Diaz and Campaz. Uzbekistan briefly leveled the match and scored its first-ever World Cup goal, but Colombia responded quickly. Other results in the same window: Ghana 1:0 Panama, Czech Republic 1:1 South Africa, Switzerland 4:1 Bosnia.",
-          "xiaziQuote": "Being level is not the problem. Losing the ability to regain control is.",
-          "doudouQuote": "The newcomer made history. The favorite took the points.",
-          "footerTakeaway": "Colombia beat Uzbekistan 3:1 and took early control; other window results round out the World Cup picture."
+          "headlineFact": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1",
+          "headlineView": "as the second round begins, the real gap is not one burst of form but repeatable output",
+          "intro": "From 05:00 June 20 to 05:00 June 21 Beijing time, five World Cup matches finished: Scotland 0-1 Morocco, Brazil 3-0 Haiti, Türkiye 0-1 Paraguay, Netherlands 5-1 Sweden, and Germany 2-1 Côte d’Ivoire. The Netherlands, held 2-2 by Japan in the opener, responded by beating a Sweden side that had opened with a 5-1 win over Tunisia. Germany followed its 7-1 rout of Curaçao with a narrower win, showing it can manage tougher games too. In the second round, contenders must prove not only star power, but a second answer after opponents study them.",
+          "xiaziQuote": "Matchday two removes some noise: a big win creates headlines, but solving different problems in sequence shows real depth.",
+          "doudouQuote": "The Dutch looked as if they were submitting all the goals they forgot in round one; Germany was less fireworks, more accounting department approval.",
+          "footerTakeaway": "Five matches produced 14 goals, with the Netherlands and Germany strengthening their positions as consistency becomes the test.",
+          "headlineFull": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1；as the second round begins, the real gap is not one burst of form but repeatable output。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000089",
-          "topicId": "20000000-0000-4000-8000-000000000028",
-          "title": "Uzbekistan 1-3 Colombia: World Cup 2026 - as it happened",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/live/2026/jun/18/fifa-world-cup-2026-live-uzbekistan-v-colombia-updates-uzb-vs-col-group-k-match-score-latest",
-          "publishedAt": "2026-06-18T04:26:00Z",
-          "sourceType": "publisher",
+          "id": "30000000-0000-4000-8000-000000000221",
+          "topicId": "20000000-0000-4000-8000-000000000046",
+          "title": "Germany 2-1 Côte d’Ivoire | Match report and highlights",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/articles/germany-cote-divoire-match-report-highlights",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000222",
+          "topicId": "20000000-0000-4000-8000-000000000046",
+          "title": "FIFA World Cup official match centre",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000029",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "us-iran-agreement-implementation",
+      "id": "20000000-0000-4000-8000-000000000047",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "us-iran-hormuz-talks",
       "rank": 2,
       "category": "international",
       "region": "Middle East",
       "countryCodes": [
         "US",
         "IR",
-        "OM"
+        "CH",
+        "LB"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "us_iran_peace_framework_2026",
+      "scoreTotal": 94,
+      "storyId": "us_iran_hormuz_switzerland_talks_2026",
       "storyStatus": "followup",
-      "followupDay": 4,
-      "informationIncrementScore": 90,
+      "followupDay": 6,
+      "informationIncrementScore": 92,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "美伊协议",
-          "headlineFact": "美伊协议正式生效，油轮重新驶过霍尔木兹海峡",
-          "headlineView": "和平落地的第一条证据，是航道恢复、风险价格回落",
-          "headlineFull": "美伊协议正式生效，油轮重新驶过霍尔木兹海峡；和平落地的第一条证据，是航道恢复、风险价格回落。",
-          "intro": "美国宣布解除对伊朗的封锁，油轮重新通过霍尔木兹海峡，国际油价一度回落至战争爆发前后的低位。不过，伊朗核问题、黎巴嫩局势及协议执行方式仍存在分歧，未来60天谈判才是真正的考验。",
-          "xiaziQuote": "文件写的是承诺，重新流动的船只才是现实。",
-          "doudouQuote": "航道先通了，但和平这艘船还不能关掉雷达。",
-          "footerTakeaway": "协议从签署进入执行，航道恢复和油价回落是第一批可观察信号，但60天谈判仍决定成败。"
+          "categoryLabel": "美伊谈判",
+          "headlineFact": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡",
+          "headlineView": "谈判还没有开始，双方已经先争夺谁有权定义现实",
+          "intro": "美伊高级代表团准备在瑞士启动和平谈判，落实为期60天的临时停火协议。与此同时，伊朗革命卫队宣布霍尔木兹海峡关闭，美国中央司令部否认这一说法，并称当天仍有55艘、装载超过1700万桶石油的商船通过。黎巴嫩方向的持续交火，也在考验这份协议能否真正落地。",
+          "xiaziQuote": "谈判桌上谈的是协议，海峡里争的是事实；谁能定义现实，谁就先拿到筹码。",
+          "doudouQuote": "这边说“开会”，那边说“关门”；外交有时候像群聊，最重要的是谁先改了群公告。",
+          "footerTakeaway": "美伊瑞士谈判与霍尔木兹争议同步升温，停火协议还没落地就遭遇现实压力。",
+          "headlineFull": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡；谈判还没有开始，双方已经先争夺谁有权定义现实。"
         },
         "en-US": {
-          "categoryLabel": "Middle East",
-          "headlineFact": "The U.S.-Iran agreement has taken effect",
-          "headlineView": "the first proof of peace is ships moving again and risk prices falling back",
-          "headlineFull": "The U.S.-Iran agreement has taken effect; the first proof of peace is ships moving again and risk prices falling back.",
-          "intro": "The agreement has moved from signature to implementation. Tankers have resumed crossing the Strait of Hormuz and oil prices briefly eased, showing the first practical effects. But Iran’s nuclear issue, regional tensions and the next 60 days of talks will decide whether the framework can truly hold.",
-          "xiaziQuote": "A signed document is a promise. Moving ships are reality.",
-          "doudouQuote": "The route is open again, but peace still needs its radar on.",
-          "footerTakeaway": "The agreement has moved into execution; shipping and price signals are the first test, while 60-day talks remain decisive."
+          "categoryLabel": "U.S.-Iran Talks",
+          "headlineFact": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed",
+          "headlineView": "before talks even begin, both sides are fighting over who gets to define reality",
+          "intro": "Senior U.S. and Iranian delegations prepared to start peace talks in Switzerland to implement a 60-day interim ceasefire. At the same time, Iran’s Revolutionary Guard said the Strait of Hormuz was closed, while U.S. Central Command disputed the claim and said 55 merchant ships carrying more than 17 million barrels of oil still passed that day. Continued fighting around Lebanon is also testing whether the agreement can become more than paper.",
+          "xiaziQuote": "The negotiating table is about terms; the strait is about facts. Whoever defines reality first gets leverage.",
+          "doudouQuote": "One side says meeting, the other says closed. Diplomacy can feel like a group chat where the pinned message keeps changing.",
+          "footerTakeaway": "Swiss talks and the Hormuz dispute are escalating together, putting the ceasefire under pressure before implementation.",
+          "headlineFull": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed；before talks even begin, both sides are fighting over who gets to define reality。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000090",
-          "topicId": "20000000-0000-4000-8000-000000000029",
-          "title": "Live Updates: U.S.-Iran deal signing gets more ships moving in Strait of Hormuz",
-          "publisher": "CBS News",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz/",
-          "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "publisher",
+          "id": "30000000-0000-4000-8000-000000000225",
+          "topicId": "20000000-0000-4000-8000-000000000047",
+          "title": "US disputes Iranian claims about closing Strait of Hormuz as negotiators head to Switzerland",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/us-disputes-iranian-claims-about-closing-strait-hormuz-negotiators-head-2026-06-20/",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -129,10 +143,65 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000030",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "ukraine-moscow-refinery-drone-strike",
+      "id": "20000000-0000-4000-8000-000000000048",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "uk-starmer-resignation-report",
       "rank": 3,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "uk_starmer_resignation_report_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "英国政坛",
+          "headlineFact": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认",
+          "headlineView": "权力真正松动的信号，是所有人都开始讨论下一任是谁",
+          "intro": "英国《观察家报》报道称，首相基尔·斯塔默可能在周一宣布辞职并公布交接时间表；但英国政府消息人士表示，他仍专注于执政，目前尚无正式辞职声明。超过100名工党议员此前要求其下台，潜在竞争者安迪·伯纳姆重返议会，也进一步加剧领导权之争。这条新闻目前仍属于未经官方确认的重大政治传闻。",
+          "xiaziQuote": "政治危机最先改变的不是职位，而是人们默认“下一任”已经可以公开讨论。",
+          "doudouQuote": "还没官宣，接班人名单已经在桌上排队了；权力这东西，风一漏，窗帘先动。",
+          "footerTakeaway": "斯塔默去留仍未官方确认，但工党内部领导权压力已进入公开讨论阶段。",
+          "headlineFull": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认；权力真正松动的信号，是所有人都开始讨论下一任是谁。"
+        },
+        "en-US": {
+          "categoryLabel": "UK Politics",
+          "headlineFact": "Reports said Starmer could announce his resignation Monday, while government sources denied it",
+          "headlineView": "the real sign power is loosening is that everyone starts discussing the successor",
+          "intro": "Britain’s Observer reported that Prime Minister Keir Starmer could announce his resignation on Monday and set out a timetable for departure. A government source said he remained focused on governing and no official resignation had been announced. More than 100 Labour MPs had reportedly called for him to step down, while potential challenger Andy Burnham’s return to parliament sharpened leadership speculation. This remains a major political report without official confirmation.",
+          "xiaziQuote": "A political crisis first changes not the office, but whether people feel allowed to discuss the next occupant in public.",
+          "doudouQuote": "No official announcement yet, but the successor list is already waiting in the hallway. Power leaks before it falls.",
+          "footerTakeaway": "Starmer’s position remains officially unresolved, but Labour’s leadership pressure has moved into open debate.",
+          "headlineFull": "Reports said Starmer could announce his resignation Monday, while government sources denied it；the real sign power is loosening is that everyone starts discussing the successor。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000229",
+          "topicId": "20000000-0000-4000-8000-000000000048",
+          "title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/uk/uk-pm-starmer-expected-resign-monday-set-out-orderly-exit-observer-newspaper-2026-06-20/",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000049",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "ukraine-tyumen-drone-strike",
+      "rank": 4,
       "category": "international",
       "region": "Europe",
       "countryCodes": [
@@ -140,44 +209,113 @@
         "RU"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "ukraine_moscow_refinery_drone_strike_2026",
+      "scoreTotal": 90,
+      "storyId": "ukraine_tyumen_drone_strike_warning_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "俄乌局势",
-          "headlineFact": "乌克兰无人机再次击中莫斯科炼油厂",
-          "headlineView": "当战争越来越靠近首都，战略压力就很难继续留在前线",
-          "headlineFull": "乌克兰无人机再次击中莫斯科炼油厂；当战争越来越靠近首都，战略压力就很难继续留在前线。",
-          "intro": "乌克兰对莫斯科发动大规模无人机袭击，并再次击中当地炼油设施。俄罗斯称拦截了大量无人机，但袭击仍造成炼油设施停运、机场短暂停航，并加剧俄罗斯国内燃料供应压力。",
-          "xiaziQuote": "战争一旦越过心理边界，距离本身就会成为武器。",
-          "doudouQuote": "以前前线离首都很远，现在无人机正在重新画地图。",
-          "footerTakeaway": "无人机袭击把能源设施、机场运行和国内燃料压力同时拉进俄乌战场。"
+          "headlineFact": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外",
+          "headlineView": "战争的纵深，正在被远程技术不断重新定义",
+          "intro": "泽连斯基警告俄罗斯正在准备新一轮大规模袭击，要求民众重视防空警报。与此同时，他确认乌克兰无人机袭击了俄罗斯西西伯利亚秋明地区的炼油设施，距离乌克兰超过2000公里，并称乌方新型远程无人机的作战距离已经达到3000公里。俄方表示袭击被防空系统击退，初步报告没有设施受损。",
+          "xiaziQuote": "远程无人机让“后方”这个词越来越不稳定，战争地图正在被技术重新拉长。",
+          "doudouQuote": "以前说打到纵深像军事论文，现在像快递范围说明：两千公里内都可能送达。",
+          "footerTakeaway": "乌克兰远程打击与俄罗斯袭击预警同时出现，显示战场纵深继续扩大。",
+          "headlineFull": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外；战争的纵深，正在被远程技术不断重新定义。"
         },
         "en-US": {
-          "categoryLabel": "Russia-Ukraine",
-          "headlineFact": "Ukrainian drones hit a Moscow refinery again",
-          "headlineView": "once war moves closer to the capital, distance itself becomes a weapon",
-          "headlineFull": "Ukrainian drones hit a Moscow refinery again; once war moves closer to the capital, distance itself becomes a weapon.",
-          "intro": "A new drone strike again hit refinery infrastructure near Moscow. Russia said many drones were intercepted, but the attack still disrupted refinery activity, briefly affected airport operations and added pressure to domestic fuel supply. When the rear area starts feeling front-line risk, strategic pressure changes shape.",
-          "xiaziQuote": "Once war crosses the psychological boundary, distance becomes a weapon of its own.",
-          "doudouQuote": "The map looks different when drones redraw it from the sky.",
-          "footerTakeaway": "The strike pulled energy infrastructure, airport disruption and fuel pressure into the same escalation picture."
+          "categoryLabel": "Ukraine War",
+          "headlineFact": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones",
+          "headlineView": "the depth of war is being redefined by long-range technology",
+          "intro": "President Volodymyr Zelenskyy warned that Russia was preparing another large-scale attack and urged Ukrainians to heed air alerts. He also confirmed Ukrainian drones struck refining facilities in Russia’s Tyumen region in western Siberia, more than 2,000 km from Ukraine, and said new Ukrainian long-range drones can reach 3,000 km. Russia said the attack was repelled and initial reports showed no facility damage.",
+          "xiaziQuote": "Long-range drones are making the word rear area less stable; technology is stretching the map of war.",
+          "doudouQuote": "Deep strike used to sound like a military paper. Now it reads like a delivery radius: within 2,000 km, service available.",
+          "footerTakeaway": "Ukraine’s long-range strike and Russia attack warning show the battlefield’s depth is still expanding.",
+          "headlineFull": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones；the depth of war is being redefined by long-range technology。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000091",
-          "topicId": "20000000-0000-4000-8000-000000000030",
-          "title": "Moscow oil refinery struck in Ukraine drone attack",
+          "id": "30000000-0000-4000-8000-000000000233",
+          "topicId": "20000000-0000-4000-8000-000000000049",
+          "title": "Ukraine’s Zelenskiy confirms drone strike on refining facilities in Russia’s Tyumen region",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/energy/ukraines-zelenskiy-confirms-drone-strike-refining-facilities-russias-tyumen-2026-06-20/",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000234",
+          "topicId": "20000000-0000-4000-8000-000000000049",
+          "title": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy",
           "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/18/moscow-oil-refinery-on-fire-ukraine-drone-stikes",
-          "publishedAt": "2026-06-18T00:00:00Z",
+          "url": "https://www.theguardian.com/world/2026/jun/21/ukraine-war-briefing-drones-strike-russia-tyumen-oil-refinery-2000km-away-says-zelenskyy",
+          "publishedAt": "2026-06-21T00:00:00Z",
           "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000050",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "europe-heatwave-france-alcohol",
+      "rank": 5,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "DE",
+        "ES"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 87,
+      "storyId": "europe_heatwave_france_alcohol_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "欧洲多地气温逼近41℃，法国限制公共活动饮酒",
+          "headlineView": "极端天气正在从气象新闻，变成城市必须立即执行的管理政策",
+          "intro": "欧洲新一轮热浪持续升级。法国预计35个地区进入最高级别红色警报，部分地区气温可能达到41℃，政府因此限制音乐节等公共活动中的酒精消费，巴黎则让部分公园全天开放。德国发布大范围高温警告，西班牙还关闭了马德里的一处世界杯球迷区。",
+          "xiaziQuote": "气候风险真正进入日常治理时，表现不是口号变多，而是公园、酒精、球迷区这些细节开始被重新安排。",
+          "doudouQuote": "天气热到连音乐节喝酒都要管，城市管理终于体会到什么叫“太阳亲自加班”。",
+          "footerTakeaway": "欧洲热浪迫使多国调整公共活动安排，极端天气正在成为城市治理变量。",
+          "headlineFull": "欧洲多地气温逼近41℃，法国限制公共活动饮酒；极端天气正在从气象新闻，变成城市必须立即执行的管理政策。"
+        },
+        "en-US": {
+          "categoryLabel": "European Heatwave",
+          "headlineFact": "Temperatures across Europe neared 41C as France restricted drinking at public events",
+          "headlineView": "extreme weather is moving from forecast to immediate city policy",
+          "intro": "A new European heatwave intensified. France expected 35 departments to enter the highest red alert, with some areas possibly reaching 41C, prompting restrictions on alcohol consumption at music festivals and other public events, while Paris kept some parks open overnight. Germany issued broad heat warnings, and Spain closed a World Cup fan zone in Madrid.",
+          "xiaziQuote": "Climate risk enters daily governance not through slogans, but through changed rules for parks, alcohol, transit and fan zones.",
+          "doudouQuote": "It is hot enough that even festival drinking needs policy. City managers have discovered the sun can do overtime.",
+          "footerTakeaway": "Europe’s heatwave forced countries to adjust public events, turning extreme weather into a governance variable.",
+          "headlineFull": "Temperatures across Europe neared 41C as France restricted drinking at public events；extreme weather is moving from forecast to immediate city policy。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000237",
+          "topicId": "20000000-0000-4000-8000-000000000050",
+          "title": "Europe swelters under heatwave, France restricts alcohol consumption",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/europe-swelters-under-heatwave-prompting-crisis-talks-france-2026-06-20/",
+          "publishedAt": "2026-06-20T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -185,163 +323,121 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000031",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "apple-intel-us-chip-production",
-      "rank": 4,
-      "category": "technology",
-      "region": "United States",
+      "id": "20000000-0000-4000-8000-000000000051",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "congo-ebola-956",
+      "rank": 6,
+      "category": "science",
+      "region": "Africa",
       "countryCodes": [
-        "US"
+        "CD"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 91,
-      "storyId": "apple_intel_us_chip_production_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "storyId": "congo_ebola_cases_956_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 82,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "半导体",
-          "headlineFact": "特朗普称苹果将与英特尔合作在美国设计和制造芯片",
-          "headlineView": "供应链安全正从政治口号，变成真实订单与产能",
-          "headlineFull": "特朗普称苹果将与英特尔合作在美国设计和制造芯片；供应链安全正从政治口号，变成真实订单与产能。",
-          "intro": "特朗普表示，苹果已同意与英特尔合作，在美国开展芯片设计和制造。这一安排尚未得到苹果和英特尔正式确认，但若能落地，将帮助苹果分散制造风险，也可能成为英特尔晶圆代工业务的重要转折点。",
-          "xiaziQuote": "真正的产业回流，不看讲话有多响，要看订单落在哪座工厂。",
-          "doudouQuote": "苹果芯片要是重新遇见英特尔，这次身份可能完全反过来了。",
-          "footerTakeaway": "苹果与英特尔合作若落地，将把美国芯片制造、供应链韧性和代工战略重新连在一起。"
+          "categoryLabel": "埃博拉疫情",
+          "headlineFact": "刚果（金）埃博拉确诊升至956例、247人死亡",
+          "headlineView": "疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃",
+          "intro": "刚果（金）公布的最新数字显示，本轮埃博拉确诊病例已由933例升至956例，死亡人数由245人升至247人。东北部一座收容超过1.5万名流离失所者的营地，从5月以来已有至少30人死亡，拥挤、卫生设施不足、居民抵触检测等问题，让传播风险进一步升高。世界卫生组织已将这场疫情列为国际关注的突发公共卫生事件。",
+          "xiaziQuote": "传染病最怕的不是单个病例增加，而是检测、隔离和社区信任同时跟不上。",
+          "doudouQuote": "病毒不看地图，但很懂人类系统哪里最薄：水不够、床不够、信任也不够。",
+          "footerTakeaway": "刚果（金）埃博拉数字继续上升，营地条件和追踪能力成为控制疫情的关键。",
+          "headlineFull": "刚果（金）埃博拉确诊升至956例、247人死亡；疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃。"
         },
         "en-US": {
-          "categoryLabel": "Semiconductors",
-          "headlineFact": "Trump says Apple may work with Intel on chips in the U.S.",
-          "headlineView": "supply-chain security is turning from slogan into orders and capacity",
-          "headlineFull": "Trump says Apple may work with Intel on chips in the U.S.; supply-chain security is turning from slogan into orders and capacity.",
-          "intro": "Trump said Apple had agreed to work with Intel on chip design and manufacturing in the United States, though neither company had formally confirmed the arrangement at the time. If it materializes, it could diversify Apple’s manufacturing risk and mark a major turning point for Intel’s foundry ambitions.",
-          "xiaziQuote": "Real industrial reshoring is measured by where the orders land, not by how loud the speech sounds.",
-          "doudouQuote": "If Apple meets Intel again, the relationship may look very different this time.",
-          "footerTakeaway": "The reported Apple-Intel arrangement would connect U.S. chipmaking, supply-chain resilience and foundry strategy."
+          "categoryLabel": "Ebola Outbreak",
+          "headlineFact": "DR Congo Ebola cases rose to 956 with 247 deaths",
+          "headlineView": "before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first",
+          "intro": "DR Congo’s latest figures showed confirmed Ebola cases rising from 933 to 956, with deaths increasing from 245 to 247. In a northeastern camp housing more than 15,000 displaced people, at least 30 people have died since May. Crowding, poor sanitation and resistance to testing are increasing transmission risks. The World Health Organization has treated the outbreak as an international public-health emergency.",
+          "xiaziQuote": "The danger is not just more cases; it is testing, isolation and community trust falling behind at the same time.",
+          "doudouQuote": "Viruses do not read maps, but they know weak systems: not enough water, not enough beds, not enough trust.",
+          "footerTakeaway": "DR Congo’s Ebola numbers are still rising, with camp conditions and tracing capacity central to control.",
+          "headlineFull": "DR Congo Ebola cases rose to 956 with 247 deaths；before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000092",
-          "topicId": "20000000-0000-4000-8000-000000000031",
-          "title": "Trump says Apple to work with Intel to manufacture chips in US",
-          "publisher": "Reuters via Yahoo Finance",
-          "url": "https://ca.finance.yahoo.com/news/trump-says-apple-intel-manufacture-044616416.html",
-          "publishedAt": "2026-06-18T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000241",
+          "topicId": "20000000-0000-4000-8000-000000000051",
+          "title": "Congo says confirmed Ebola cases rise to 956, including 247 deaths",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-says-confirmed-ebola-cases-rise-956-including-247-deaths-2026-06-20/",
+          "publishedAt": "2026-06-20T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000242",
+          "topicId": "20000000-0000-4000-8000-000000000051",
+          "title": "Disease Outbreak News",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000032",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "noam-shazeer-openai",
-      "rank": 5,
-      "category": "technology",
-      "region": "United States",
+      "id": "20000000-0000-4000-8000-000000000052",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "tata-iphone-pollution-probe",
+      "rank": 7,
+      "category": "business",
+      "region": "Asia",
       "countryCodes": [
+        "IN",
         "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "noam_shazeer_openai_2026",
+      "scoreTotal": 84,
+      "storyId": "tata_iphone_pollution_probe_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI人才争夺",
-          "headlineFact": "Gemini联合负责人Noam Shazeer转投OpenAI",
-          "headlineView": "AI竞赛争夺的不只是模型，更是那些能够造出模型的人",
-          "headlineFull": "Gemini联合负责人Noam Shazeer转投OpenAI；AI竞赛争夺的不只是模型，更是那些能够造出模型的人。",
-          "intro": "Google工程副总裁、Gemini模型联合负责人Noam Shazeer宣布离开Google，加入准备上市的OpenAI。他曾参与撰写推动生成式AI浪潮的Transformer论文，也是Google缩小与OpenAI差距的重要人物。",
-          "xiaziQuote": "技术公司的护城河是模型，模型背后的护城河还是人。",
-          "doudouQuote": "AI人才跳一次槽，可能比一家公司发布十次新品更有影响。",
-          "footerTakeaway": "Noam Shazeer转投OpenAI，说明AI竞赛中的关键资产仍是顶尖研究者和工程组织。"
+          "categoryLabel": "苹果供应链",
+          "headlineFact": "印度调查塔塔iPhone零部件工厂污染问题",
+          "headlineView": "制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失",
+          "intro": "印度卫生部门正在调查塔塔电子位于泰米尔纳德邦的iPhone零部件工厂。附近农民称工厂排放影响农田和水源，并有人出现皮肤问题；政府检测的部分水样发现大肠杆菌，总溶解固体含量也超过饮用水建议标准。塔塔表示厂内检测未发现污染，调查仍在进行。",
+          "xiaziQuote": "供应链转移解决的是地缘和成本问题，不会自动解决环境治理问题。",
+          "doudouQuote": "iPhone零件换了生产地，污染账单可不会自动改成环保主题皮肤。",
+          "footerTakeaway": "塔塔iPhone零部件工厂遭健康调查，提醒全球供应链重组仍要面对环境责任。",
+          "headlineFull": "印度调查塔塔iPhone零部件工厂污染问题；制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失。"
         },
         "en-US": {
-          "categoryLabel": "AI Talent",
-          "headlineFact": "Noam Shazeer leaves Google for OpenAI",
-          "headlineView": "the AI race is not only about models, but about the people who can build them",
-          "headlineFull": "Noam Shazeer leaves Google for OpenAI; the AI race is not only about models, but about the people who can build them.",
-          "intro": "Noam Shazeer, a Gemini co-lead and one of the key figures behind the Transformer paper, is leaving Google to join OpenAI. His move highlights a deeper truth in the AI race: the most strategic assets are often the researchers and builders behind the systems, not just the systems themselves.",
-          "xiaziQuote": "Models may be the moat, but the people behind them are the deeper moat.",
-          "doudouQuote": "One talent move can shake the industry more than ten product launches.",
-          "footerTakeaway": "Noam Shazeer’s move to OpenAI shows that elite researchers and engineering teams remain core AI assets."
+          "categoryLabel": "Apple Supply Chain",
+          "headlineFact": "India is probing pollution complaints around Tata’s iPhone parts factory",
+          "headlineView": "moving manufacturing from one country to another does not make environmental costs disappear",
+          "intro": "Indian health authorities are investigating Tata Electronics’ iPhone components plant in Tamil Nadu. Nearby farmers said factory discharge affected farmland and water sources, and some reported skin problems. Government tests on some water samples found E. coli and total dissolved solids above recommended drinking-water standards. Tata said internal tests found no contamination, and the probe is continuing.",
+          "xiaziQuote": "Supply-chain relocation solves some geopolitical and cost problems; it does not automatically solve environmental governance.",
+          "doudouQuote": "The iPhone parts moved production sites, but the pollution bill does not magically switch to an eco-friendly theme.",
+          "footerTakeaway": "The Tata probe shows global supply-chain restructuring still has to face environmental accountability.",
+          "headlineFull": "India is probing pollution complaints around Tata’s iPhone parts factory；moving manufacturing from one country to another does not make environmental costs disappear。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000093",
-          "topicId": "20000000-0000-4000-8000-000000000032",
-          "title": "Google's Gemini co-lead Noam Shazeer joins OpenAI after two-year return stint",
-          "publisher": "The Decoder",
-          "url": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/",
-          "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000033",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "china-ai-consumption-measures",
-      "rank": 6,
-      "category": "business",
-      "region": "China",
-      "countryCodes": [
-        "CN"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 89,
-      "storyId": "china_ai_consumption_measures_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "中国AI消费",
-          "headlineFact": "中国发布17项AI促消费措施",
-          "headlineView": "AI的下一阶段，不是增加一个聊天框，而是进入家庭、零售和生活服务",
-          "headlineFull": "中国发布17项AI促消费措施；AI的下一阶段，不是增加一个聊天框，而是进入家庭、零售和生活服务。",
-          "intro": "中国商务部门提出17项措施，推动AI与商品及服务消费融合，包括智能消费电子、人形机器人、零售、公共服务与生活服务。政策重点正从训练更强的模型，转向让AI真正进入消费场景。",
-          "xiaziQuote": "技术只有进入生活，才会从能力变成生产力。",
-          "doudouQuote": "以前大家问AI能做什么，以后要问它能不能把生活做顺一点。",
-          "footerTakeaway": "17项措施把AI从模型训练推向消费电子、机器人、零售和生活服务场景。"
-        },
-        "en-US": {
-          "categoryLabel": "China AI",
-          "headlineFact": "China rolls out 17 measures to boost AI consumption",
-          "headlineView": "the next stage of AI is not another chat box, but entering homes, retail and daily life",
-          "headlineFull": "China rolls out 17 measures to boost AI consumption; the next stage of AI is not another chat box, but entering homes, retail and daily life.",
-          "intro": "Chinese authorities released 17 measures to accelerate the integration of AI into goods and services, covering smart consumer electronics, humanoid robots, retail, public services and life services. The policy focus is shifting from training stronger models to helping AI reach real consumer scenarios.",
-          "xiaziQuote": "Technology becomes productivity only after it enters everyday life.",
-          "doudouQuote": "The next question is not what AI can say, but whether it can make life run more smoothly.",
-          "footerTakeaway": "The measures push AI toward consumer electronics, robots, retail and life services."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000094",
-          "topicId": "20000000-0000-4000-8000-000000000033",
-          "title": "China announces measures to promote AI integration with consumption",
-          "publisher": "Reuters via AsiaOne",
-          "url": "https://www.asiaone.com/china/china-announces-measures-promote-ai-integration-consumption",
-          "publishedAt": "2026-06-18T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000245",
+          "topicId": "20000000-0000-4000-8000-000000000052",
+          "title": "Tata’s iPhone parts factory faces India health probe after farmer contamination complaints",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-2026-06-19/",
+          "publishedAt": "2026-06-19T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -350,169 +446,115 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000034",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "cuba-economic-reform",
-      "rank": 7,
-      "category": "business",
-      "region": "Latin America",
-      "countryCodes": [
-        "CU"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 88,
-      "storyId": "cuba_economic_reform_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "古巴经济改革",
-          "headlineFact": "古巴提出革命以来规模最大的经济改革之一",
-          "headlineView": "制度的转身，往往不是观念先改变，而是现实先逼到墙角",
-          "headlineFull": "古巴提出革命以来规模最大的经济改革之一；制度的转身，往往不是观念先改变，而是现实先逼到墙角。",
-          "intro": "古巴政府向议会提交大规模改革方案，涉及私人房地产开发、国有企业股份化、私人银行及减少民营企业审批限制。相关措施仍需立法批准，但如果实施，将成为古巴数十年来最重大的市场化转向。",
-          "xiaziQuote": "制度不是不能改变，只是改变通常需要现实支付足够高的学费。",
-          "doudouQuote": "当旧办法走不通，连最厚的墙也会开始寻找一扇门。",
-          "footerTakeaway": "古巴改革方案若获通过，将触及房地产、国企、银行和民营审批等关键制度边界。"
-        },
-        "en-US": {
-          "categoryLabel": "Cuba Reform",
-          "headlineFact": "Cuba proposes one of its biggest economic reforms in decades",
-          "headlineView": "systems often turn not because ideas change first, but because reality forces the turn",
-          "headlineFull": "Cuba proposes one of its biggest economic reforms in decades; systems often turn not because ideas change first, but because reality forces the turn.",
-          "intro": "Cuba submitted a broad reform package touching private real-estate development, state-enterprise shareholding, private banking and fewer approval barriers for private business. The measures still require legislation, but if adopted they would mark one of the country’s most significant market-oriented shifts in decades.",
-          "xiaziQuote": "Institutions can change. Reality simply has to charge enough tuition first.",
-          "doudouQuote": "When the old road stops working, even the thickest wall starts looking for a door.",
-          "footerTakeaway": "The proposal would push Cuba toward broader private activity in property, banking and enterprise reform."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000095",
-          "topicId": "20000000-0000-4000-8000-000000000034",
-          "title": "What to know about Cuba's economic measures aimed at opening up the island's economy",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/758f2199c867472e05e585ccc54a269f",
-          "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000035",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "uae-social-media-age-15",
+      "id": "20000000-0000-4000-8000-000000000053",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "td-workiq-monitoring",
       "rank": 8,
       "category": "culture",
-      "region": "Middle East",
+      "region": "North America",
       "countryCodes": [
-        "AE"
+        "CA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 82,
+      "storyId": "td_workiq_employee_monitoring_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "职场监控",
+          "headlineFact": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间",
+          "headlineView": "远程办公带来自由，也让“是否在线”变成新的考勤表",
+          "intro": "加拿大道明银行通知部分金融犯罪与风险管理团队员工，将使用WorkiQ软件统计其使用浏览器、内部聊天和会议应用的时间。银行称该工具不监听谈话、不读取电子表格内容，也并非人工智能，目的是优化人员和工作流程；但员工对隐私、知情同意以及数据用途提出质疑。",
+          "xiaziQuote": "混合办公的下一场争论，不是人在不在办公室，而是公司能不能把“在线痕迹”当成劳动本身。",
+          "doudouQuote": "以前摸鱼怕老板路过，现在怕软件看见；办公室没变远，只是变成了后台进程。",
+          "footerTakeaway": "TD使用WorkiQ监测部分员工活动，凸显远程与混合办公中的隐私边界问题。",
+          "headlineFull": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间；远程办公带来自由，也让“是否在线”变成新的考勤表。"
+        },
+        "en-US": {
+          "categoryLabel": "Workplace Monitoring",
+          "headlineFact": "Canada’s TD Bank will track some employees’ browser and meeting time",
+          "headlineView": "remote work brought freedom, and also turned online status into a new timesheet",
+          "intro": "Toronto-Dominion Bank told some employees in financial-crime and risk-management teams it will use WorkiQ software to track time spent on browsers, internal chat and meeting apps. The bank said the tool does not listen to conversations, read spreadsheets or use artificial intelligence, and is meant to improve staffing and workflow. Employees raised concerns over privacy, consent and future data use.",
+          "xiaziQuote": "The next hybrid-work argument is not just where people sit, but whether online traces can stand in for work itself.",
+          "doudouQuote": "Workers used to worry about the boss walking by. Now they worry about the software already being in the room.",
+          "footerTakeaway": "TD’s WorkiQ rollout highlights the privacy boundary in remote and hybrid work.",
+          "headlineFull": "Canada’s TD Bank will track some employees’ browser and meeting time；remote work brought freedom, and also turned online status into a new timesheet。"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000249",
+          "topicId": "20000000-0000-4000-8000-000000000053",
+          "title": "Canadian lender TD tells some employees it will use software to monitor their work",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/canadian-lender-td-tells-some-employees-it-will-use-software-monitor-their-work-2026-06-19/",
+          "publishedAt": "2026-06-19T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000054",
+      "issueId": "10000000-0000-4000-8000-000000000008",
+      "slug": "meta-child-harm-lawsuits",
+      "rank": 9,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 86,
-      "storyId": "uae_social_media_age_15_2026",
+      "storyId": "meta_child_harm_lawsuit_immunity_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "未成年人网络保护",
-          "headlineFact": "阿联酋将社交媒体最低使用年龄设为15岁",
-          "headlineView": "数字治理正从提醒家长，走向要求平台证明用户年龄",
-          "headlineFull": "阿联酋将社交媒体最低使用年龄设为15岁；数字治理正从提醒家长，走向要求平台证明用户年龄。",
-          "intro": "阿联酋宣布，未满15岁不得建立或管理社交媒体账号，并要求平台采取数字身份和技术手段验证年龄，而不能仅依赖用户自行填写。阿联酋也成为首个推出此类全国限制的阿拉伯国家。",
-          "xiaziQuote": "保护未成年人，不能只靠一句“请在家长指导下使用”。",
-          "doudouQuote": "平台以前问“你满18岁了吗”，以后可能真的要看证据。",
-          "footerTakeaway": "阿联酋把未成年人网络保护推进到平台年龄验证和数字身份责任层面。"
+          "headlineFact": "Meta游说美国国会，为儿童伤害诉讼争取法律保护",
+          "headlineView": "平台愿意接受监管，不代表它也愿意承担过去造成的后果",
+          "intro": "消息人士及立法文本显示，Meta正游说美国国会，希望在《儿童网络安全法案》中加入相关条款，限制依据州法律提出的未成年人网络伤害诉讼。Meta称其目标是建立统一的全国标准，而不是获得全面豁免；批评者则认为，新条款可能影响年轻用户、家长和学校已经发起的数千起诉讼。相关议员表示不会接受目前披露的豁免措辞。",
+          "xiaziQuote": "平台谈统一规则时，要小心别把“未来怎么管”变成“过去怎么免”。",
+          "doudouQuote": "大厂说要全国统一标准，听起来像修路；家长听着像先把追责出口封了。",
+          "footerTakeaway": "Meta围绕儿童网络安全法案争取诉讼保护，平台责任边界再次成为焦点。",
+          "headlineFull": "Meta游说美国国会，为儿童伤害诉讼争取法律保护；平台愿意接受监管，不代表它也愿意承担过去造成的后果。"
         },
         "en-US": {
-          "categoryLabel": "Youth Safety",
-          "headlineFact": "The UAE sets the minimum social-media age at 15",
-          "headlineView": "digital governance is moving from reminding parents to requiring platforms to verify age",
-          "headlineFull": "The UAE sets the minimum social-media age at 15; digital governance is moving from reminding parents to requiring platforms to verify age.",
-          "intro": "The UAE announced that children under 15 may not create or manage social-media accounts, and that platforms must use identity and technical tools for age verification rather than relying only on self-reported birthdays. It becomes a notable regional example of stricter youth online protection.",
-          "xiaziQuote": "Protecting minors cannot depend on a one-line warning and good luck.",
-          "doudouQuote": "Platforms used to ask if you were old enough. Now they may have to prove it.",
-          "footerTakeaway": "The UAE rule moves youth online protection toward enforceable platform age verification."
+          "categoryLabel": "Child Online Safety",
+          "headlineFact": "Meta lobbied Congress for protection from child-harm lawsuits",
+          "headlineView": "a platform may accept regulation without wanting to bear the consequences of past harm",
+          "intro": "Sources and draft legislative text show Meta has lobbied the U.S. Congress to add language to the Kids Online Safety Act that would limit child-harm lawsuits brought under state law. Meta says it wants a uniform national standard rather than broad immunity. Critics argue the language could affect thousands of lawsuits already filed by young users, parents and schools. Lawmakers said they would not accept the disclosed immunity wording.",
+          "xiaziQuote": "When platforms discuss uniform rules, they must not turn future regulation into past absolution.",
+          "doudouQuote": "Big Tech says national standard; parents hear closed exit ramp for accountability. Both sides know the wording matters.",
+          "footerTakeaway": "Meta’s push for lawsuit protection puts platform accountability back at the center of child online safety.",
+          "headlineFull": "Meta lobbied Congress for protection from child-harm lawsuits；a platform may accept regulation without wanting to bear the consequences of past harm。"
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000096",
-          "topicId": "20000000-0000-4000-8000-000000000035",
-          "title": "UAE first Arab nation to ban under-15s from using social media",
-          "publisher": "The National",
-          "url": "https://www.thenationalnews.com/news/uae/2026/06/18/uae-sets-15-as-the-minimum-age-to-use-social-media/",
+          "id": "30000000-0000-4000-8000-000000000253",
+          "topicId": "20000000-0000-4000-8000-000000000054",
+          "title": "Meta lobbies Congress for protection from child-harm lawsuits",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/meta-lobbies-congress-protection-child-harm-lawsuits-2026-06-18/",
           "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         }
       ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000036",
-      "issueId": "10000000-0000-4000-8000-000000000006",
-      "slug": "spacex-ai-bond-offering",
-      "rank": 9,
-      "category": "business",
-      "region": "United States",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "spacex_ai_bond_offering_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "SpaceX与AI资本",
-          "headlineFact": "SpaceX筹备至少200亿美元债券发行",
-          "headlineView": "当火箭公司同时押注AI，资本需求也会像算力一样迅速膨胀",
-          "headlineFull": "SpaceX筹备至少200亿美元债券发行；当火箭公司同时押注AI，资本需求也会像算力一样迅速膨胀。",
-          "intro": "知情人士称，SpaceX的银行团队正准备与投资者讨论至少200亿美元的债券发行，用于为数据中心、计算设备和电力基础设施融资，并置换收购xAI后产生的过桥贷款。发行规模仍可能调整。",
-          "xiaziQuote": "宏大的技术叙事，最后都要回到现金流与融资成本。",
-          "doudouQuote": "火箭烧燃料，AI烧算力，现在两边一起烧钱了。",
-          "footerTakeaway": "SpaceX潜在债券发行显示火箭、AI、数据中心和电力基础设施正在变成同一张资本开支表。"
-        },
-        "en-US": {
-          "categoryLabel": "Space and AI Capital",
-          "headlineFact": "SpaceX prepares a bond deal of at least $20 billion",
-          "headlineView": "when a rocket company also bets on AI, capital needs expand as fast as compute",
-          "headlineFull": "SpaceX prepares a bond deal of at least $20 billion; when a rocket company also bets on AI, capital needs expand as fast as compute.",
-          "intro": "Bankers are reportedly preparing investor discussions for a potential bond issue of at least $20 billion to help fund data centers, compute equipment and power infrastructure, and to refinance bridge debt related to the xAI deal. The exact size may still change, but the direction is clear: rockets and AI are both capital-intensive futures.",
-          "xiaziQuote": "Grand technology stories always return to cash flow and financing cost.",
-          "doudouQuote": "Rockets burn fuel, AI burns compute, and now both are burning capital together.",
-          "footerTakeaway": "The prospective bond deal ties rockets, AI, data centers and power infrastructure into one capital-spending story."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000097",
-          "topicId": "20000000-0000-4000-8000-000000000036",
-          "title": "SpaceX's epic fundraising campaign for AI has only just begun",
-          "publisher": "Los Angeles Times / Bloomberg",
-          "url": "https://www.latimes.com/business/story/2026-06-18/spacexs-epic-fundraising-campaign-for-ai-has-only-just-begun",
-          "publishedAt": "2026-06-18T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
     }
-  ]
+  ],
+  "assetVersion": "issue-2026-06-21-user-posters-v2"
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T05:00:00+08:00",
+  "updatedAt": "2026-06-21T08:30:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -918,6 +918,87 @@
       "followupDay": 1,
       "informationIncrementScore": 55,
       "latestHeadline": "AI数据中心用电引发地方反弹"
+    },
+    {
+      "storyId": "world_cup_second_round_netherlands_germany_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-21",
+      "followupDay": 3,
+      "informationIncrementScore": 95,
+      "latestHeadline": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦"
+    },
+    {
+      "storyId": "us_iran_hormuz_switzerland_talks_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-21",
+      "followupDay": 6,
+      "informationIncrementScore": 92,
+      "latestHeadline": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡"
+    },
+    {
+      "storyId": "uk_starmer_resignation_report_2026",
+      "status": "new",
+      "firstSeen": "2026-06-21",
+      "lastSeen": "2026-06-21",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认"
+    },
+    {
+      "storyId": "ukraine_tyumen_drone_strike_warning_2026",
+      "status": "new",
+      "firstSeen": "2026-06-21",
+      "lastSeen": "2026-06-21",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外"
+    },
+    {
+      "storyId": "europe_heatwave_france_alcohol_2026",
+      "status": "new",
+      "firstSeen": "2026-06-21",
+      "lastSeen": "2026-06-21",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "欧洲多地气温逼近41℃，法国限制公共活动饮酒"
+    },
+    {
+      "storyId": "congo_ebola_cases_956_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-19",
+      "lastSeen": "2026-06-21",
+      "followupDay": 3,
+      "informationIncrementScore": 82,
+      "latestHeadline": "刚果（金）埃博拉确诊升至956例、247人死亡"
+    },
+    {
+      "storyId": "tata_iphone_pollution_probe_2026",
+      "status": "new",
+      "firstSeen": "2026-06-21",
+      "lastSeen": "2026-06-21",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "印度调查塔塔iPhone零部件工厂污染问题"
+    },
+    {
+      "storyId": "td_workiq_employee_monitoring_2026",
+      "status": "new",
+      "firstSeen": "2026-06-21",
+      "lastSeen": "2026-06-21",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间"
+    },
+    {
+      "storyId": "meta_child_harm_lawsuit_immunity_2026",
+      "status": "new",
+      "firstSeen": "2026-06-21",
+      "lastSeen": "2026-06-21",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "Meta游说美国国会，为儿童伤害诉讼争取法律保护"
     }
   ]
 }
