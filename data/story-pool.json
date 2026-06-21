@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T08:30:00+08:00",
+  "updatedAt": "2026-06-22T05:00:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -999,6 +999,537 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "Meta游说美国国会，为儿童伤害诉讼争取法律保护"
+    },
+    {
+      "storyId": "world_cup_spain_japan_us_june21_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "西班牙4:0击败沙特，日本4:0赢下世界杯第1000场"
+    },
+    {
+      "storyId": "ferc_ai_data_center_grid_order_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国监管机构要求电网更快接入AI数据中心"
+    },
+    {
+      "storyId": "fed_stablecoin_customer_id_rules_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美联储等机构拟要求稳定币发行方执行客户身份识别"
+    },
+    {
+      "storyId": "us_iran_switzerland_talks_fragile_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 7,
+      "informationIncrementScore": 78,
+      "latestHeadline": "美伊瑞士谈判启动，却被威胁、黎巴嫩战火和霍尔木兹争议夹击"
+    },
+    {
+      "storyId": "world_bank_global_growth_gep_june_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "世界银行预计2026年全球增长放缓至2.5%"
+    },
+    {
+      "storyId": "nasa_roman_space_telescope_launch_august_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "NASA罗曼空间望远镜定于8月30日发射"
+    },
+    {
+      "storyId": "cdc_ebola_travel_order_june21_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "CDC延长针对埃博拉相关旅客的入境限制"
+    },
+    {
+      "storyId": "europe_heatwave_public_safety_june21_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 2,
+      "informationIncrementScore": 72,
+      "latestHeadline": "欧洲热浪迫使法国限制公共饮酒和户外活动"
+    },
+    {
+      "storyId": "meta_child_harm_immunity_lobbying_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "Meta游说国会，为儿童伤害诉讼争取豁免"
+    },
+    {
+      "storyId": "uk_starmer_resignation_expected_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "英国首相斯塔默预计辞职但未官宣"
+    },
+    {
+      "storyId": "ukraine_tyumen_drone_followup_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "乌克兰远程无人机袭击秋明后续"
+    },
+    {
+      "storyId": "congo_ebola_cases_896_who_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 58,
+      "latestHeadline": "WHO通报刚果（金）埃博拉896例"
+    },
+    {
+      "storyId": "tata_iphone_pollution_cleared_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "塔塔iPhone零部件工厂污染调查已结案"
+    },
+    {
+      "storyId": "curacao_ecuador_first_point_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "库拉索取得队史世界杯首分"
+    },
+    {
+      "storyId": "japan_tunisia_1000th_match_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "日本赢下世界杯第1000场"
+    },
+    {
+      "storyId": "us_world_cup_group_d_first_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "美国锁定世界杯D组第一"
+    },
+    {
+      "storyId": "germany_group_e_advance_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "德国提前晋级世界杯淘汰赛"
+    },
+    {
+      "storyId": "oil_futures_hormuz_jump_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "霍尔木兹争议引发油价期货波动"
+    },
+    {
+      "storyId": "fed_warsh_guidance_market_volatility_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "美联储沟通方式引发市场波动讨论"
+    },
+    {
+      "storyId": "imf_war_shock_resilience_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "IMF称全球经济暂时承受战争冲击"
+    },
+    {
+      "storyId": "met_office_uk_record_heat_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "英国气象局警告可能刷新6月高温纪录"
+    },
+    {
+      "storyId": "france_school_heat_closures_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "法国高温导致学校和活动关闭"
+    },
+    {
+      "storyId": "who_bvd_vaccine_review_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "WHO继续评估Bundibugyo候选疫苗"
+    },
+    {
+      "storyId": "cdc_ebola_emergency_funding_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 48,
+      "latestHeadline": "CDC埃博拉应急资金消息延续"
+    },
+    {
+      "storyId": "roman_space_telescope_social_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "NASA邀请创作者参与罗曼发射"
+    },
+    {
+      "storyId": "swift_boost_rescue_mission_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "NASA Swift Boost救援任务进入发射窗口"
+    },
+    {
+      "storyId": "griffin_lunar_lander_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 42,
+      "latestHeadline": "Astrobotic Griffin-1月球着陆器亮相"
+    },
+    {
+      "storyId": "eu_ai_act_sandbox_countdown_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 38,
+      "latestHeadline": "欧盟AI监管沙盒期限临近"
+    },
+    {
+      "storyId": "data_center_water_new_mexico_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "新墨西哥AI数据中心用水争议"
+    },
+    {
+      "storyId": "ai_energy_uk_security_debate_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 40,
+      "latestHeadline": "英国围绕AI能源安全发生政治争论"
+    },
+    {
+      "storyId": "thomson_reuters_ai_report_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 30,
+      "latestHeadline": "汤森路透AI专业服务报告"
+    },
+    {
+      "storyId": "stanford_ai_index_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "斯坦福AI指数旧报告被引用"
+    },
+    {
+      "storyId": "fifa_third_place_tiebreakers_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "世界杯第三名晋级规则讨论"
+    },
+    {
+      "storyId": "fifa_golden_boot_race_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 30,
+      "latestHeadline": "世界杯金靴榜变化"
+    },
+    {
+      "storyId": "iran_team_travel_chaos_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "伊朗队世界杯旅行安排争议"
+    },
+    {
+      "storyId": "egypt_new_zealand_world_cup_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "新西兰对埃及赛程信息"
+    },
+    {
+      "storyId": "uruguay_cape_verde_fixture_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "乌拉圭对佛得角赛程信息"
+    },
+    {
+      "storyId": "europe_wildlife_heat_stress_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "欧洲热浪影响野生动物"
+    },
+    {
+      "storyId": "california_heatwave_wildfire_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 42,
+      "latestHeadline": "美国西部高温与野火警报"
+    },
+    {
+      "storyId": "unfccc_bonn_closing_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 40,
+      "latestHeadline": "波恩气候会议闭幕声明"
+    },
+    {
+      "storyId": "unep_environment_day_heat_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 30,
+      "latestHeadline": "世界环境日气候行动提醒"
+    },
+    {
+      "storyId": "world_bank_developing_economies_gap_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "世界银行警告发展中经济体追赶放缓"
+    },
+    {
+      "storyId": "stablecoin_barr_statement_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "美联储理事Barr稳定币规则声明"
+    },
+    {
+      "storyId": "ncuA_stablecoin_comment_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 40,
+      "latestHeadline": "NCUA参与稳定币客户识别征求意见"
+    },
+    {
+      "storyId": "fincen_genius_act_rule_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 40,
+      "latestHeadline": "FinCEN提出GENIUS Act客户识别规则"
+    },
+    {
+      "storyId": "starmer_burnham_by_election_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "Burnham补选胜利加剧英国工党领导权压力"
+    },
+    {
+      "storyId": "trump_starmer_claim_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 30,
+      "latestHeadline": "特朗普提前称斯塔默将辞职"
+    },
+    {
+      "storyId": "us_iran_talks_sanctions_draft_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 55,
+      "latestHeadline": "美伊谈判讨论制裁草案"
+    },
+    {
+      "storyId": "lebanon_ceasefire_pressure_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "黎巴嫩方向交火施压美伊协议"
+    },
+    {
+      "storyId": "hormuz_shipping_channels_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "霍尔木兹航道恢复与扫雷讨论"
+    },
+    {
+      "storyId": "ap_norc_iran_strategy_poll_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "美国公众对伊朗战略不满"
+    },
+    {
+      "storyId": "space_com_dark_matter_stream_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "银河中心伽马射线与暗物质研究"
+    },
+    {
+      "storyId": "earthsky_june_solstice_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 25,
+      "latestHeadline": "2026年六月至日天象"
+    },
+    {
+      "storyId": "unesco_us_withdrawal_countdown_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 25,
+      "latestHeadline": "美国退出UNESCO倒计时话题"
+    },
+    {
+      "storyId": "ai_data_center_environment_report_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "AI数据中心环境足迹报告"
+    },
+    {
+      "storyId": "oracle_project_jupiter_water_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 45,
+      "latestHeadline": "Oracle Project Jupiter用水争议"
+    },
+    {
+      "storyId": "global_markets_oil_relief_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 50,
+      "latestHeadline": "油价缓和后央行仍保持警惕"
+    },
+    {
+      "storyId": "india_gift_global_capital_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 35,
+      "latestHeadline": "印度GIFT IFSC全球资本通道讨论"
+    },
+    {
+      "storyId": "africa_caribbean_reparations_plan_2026",
+      "status": "finished",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 25,
+      "latestHeadline": "非洲与加勒比赔偿计划后续"
     }
   ]
 }
