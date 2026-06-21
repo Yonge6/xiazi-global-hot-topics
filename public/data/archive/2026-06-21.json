@@ -11,7 +11,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000046",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "world-cup-netherlands-germany",
+      "slug": "world-cup",
       "rank": 1,
       "category": "sports",
       "region": "Global",
@@ -87,7 +87,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000047",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "us-iran-hormuz-talks",
+      "slug": "us-iran-mou-signed",
       "rank": 2,
       "category": "international",
       "region": "Middle East",
@@ -145,7 +145,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000048",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "uk-starmer-resignation-report",
+      "slug": "cultural-heritage",
       "rank": 3,
       "category": "international",
       "region": "Europe",
@@ -200,7 +200,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000049",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "ukraine-tyumen-drone-strike",
+      "slug": "ukraine-moscow-refinery-drone-strike",
       "rank": 4,
       "category": "international",
       "region": "Europe",
@@ -268,7 +268,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000050",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "europe-heatwave-france-alcohol",
+      "slug": "climate-adaptation",
       "rank": 5,
       "category": "climate",
       "region": "Europe",
@@ -325,7 +325,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000051",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "congo-ebola-956",
+      "slug": "congo-ebola-response-strained",
       "rank": 6,
       "category": "science",
       "region": "Africa",
@@ -392,7 +392,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000052",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "tata-iphone-pollution-probe",
+      "slug": "apple-intel-us-chip-production",
       "rank": 7,
       "category": "business",
       "region": "Asia",
@@ -448,7 +448,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000053",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "td-workiq-monitoring",
+      "slug": "public-health",
       "rank": 8,
       "category": "culture",
       "region": "North America",
@@ -503,7 +503,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000054",
       "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "meta-child-harm-lawsuits",
+      "slug": "ai-governance",
       "rank": 9,
       "category": "technology",
       "region": "North America",
@@ -556,5 +556,5 @@
       ]
     }
   ],
-  "assetVersion": "issue-2026-06-21-user-posters-v2"
+  "assetVersion": "issue-2026-06-21-user-posters-v3"
 }
