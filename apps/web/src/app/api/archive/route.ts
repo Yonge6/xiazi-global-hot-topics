@@ -4,13 +4,17 @@ import path from "node:path";
 import { NextResponse } from "next/server";
 
 import { parseIssue } from "@xiazi/contracts";
-import { cachedFetchInit, CONTENT_CACHE_CONTROL, CONTENT_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
+import { cachedFetchInit, CONTENT_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
 import { githubRepo } from "@/lib/github/repo";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
 
+const NO_STORE = "no-store, no-cache, must-revalidate";
+
 const repo = githubRepo;
 
-export const revalidate = 60;
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const fetchCache = "force-no-store";
 
 async function github(path: string, accept = "application/vnd.github+json") {
   const token = process.env.GITHUB_STUDIO_TOKEN;
@@ -65,7 +69,7 @@ export async function GET(request: Request) {
           assetVersion: repositoryIssue.assetVersion || repositoryIssue.beijingTimestamp || date,
           source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
         }, {
-          headers: { "Cache-Control": CONTENT_CACHE_CONTROL },
+          headers: { "Cache-Control": NO_STORE },
         });
       }
       const remoteIssuePayload = await github(
@@ -77,7 +81,7 @@ export async function GET(request: Request) {
       if (!issue) return NextResponse.json({ message: "Archive not found" }, { status: 404 });
       return NextResponse.json(
         { issue, assetVersion: issue.assetVersion || issue.beijingTimestamp || date },
-        { headers: { "Cache-Control": CONTENT_CACHE_CONTROL } },
+        { headers: { "Cache-Control": NO_STORE } },
       );
     }
 
@@ -87,7 +91,7 @@ export async function GET(request: Request) {
         issues: repositoryIssues.map((issue) => issue.issueDate),
         source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
       }, {
-        headers: { "Cache-Control": CONTENT_CACHE_CONTROL },
+        headers: { "Cache-Control": NO_STORE },
       });
     }
 
@@ -100,7 +104,7 @@ export async function GET(request: Request) {
       : [];
     const issues = Array.from(new Set([...remoteIssues, ...await localArchiveDates()]))
       .sort((a, b) => b.localeCompare(a));
-    return NextResponse.json({ issues }, { headers: { "Cache-Control": CONTENT_CACHE_CONTROL } });
+    return NextResponse.json({ issues }, { headers: { "Cache-Control": NO_STORE } });
   } catch {
     const issues = await localArchiveDates();
     if (issues.length > 0) return NextResponse.json({ issues, source: "local-fallback" });

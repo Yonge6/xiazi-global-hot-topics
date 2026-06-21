@@ -2,13 +2,15 @@ import { NextResponse } from "next/server";
 
 import { parseIssue } from "@xiazi/contracts";
 import fallbackIssue from "@/data/current-issue.json";
-import { cachedFetchInit, CONTENT_CACHE_CONTROL, CONTENT_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
+import { cachedFetchInit, CONTENT_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
 import { githubRepo } from "@/lib/github/repo";
 
 const contentUrl =
   `https://api.github.com/repos/${githubRepo}/contents/data/current-issue.json`;
 
-export const revalidate = 60;
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const fetchCache = "force-no-store";
 
 export async function GET() {
   try {
@@ -37,7 +39,7 @@ export async function GET() {
       assetVersion: issue.assetVersion || issue.beijingTimestamp || issue.issueDate,
     }, {
       headers: {
-        "Cache-Control": CONTENT_CACHE_CONTROL,
+        "Cache-Control": "no-store, no-cache, must-revalidate",
       },
     });
   } catch {
