@@ -338,7 +338,7 @@ button { color: inherit; font: inherit; }
   position: relative;
   display: block;
   width: 100%;
-  aspect-ratio: 941 / 1672;
+  aspect-ratio: 1 / 2;
   overflow: hidden;
   background: #eee5d2;
 }
