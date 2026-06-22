@@ -22,7 +22,7 @@ export type StudioPublishResult = {
   };
   shadow: {
     target: "supabase";
-    status: "succeeded" | "skipped" | "failed" | "timeout";
+    status: "disabled" | "succeeded" | "skipped" | "failed" | "timeout";
     changed?: boolean;
   };
   compare: {
@@ -39,6 +39,10 @@ function logPublishRunFallback(message: string, data: Record<string, unknown>) {
     errorStage: data.errorStage,
     errorCode: data.errorCode,
   });
+}
+
+export function studioShadowWriteEnabled() {
+  return process.env.STUDIO_SHADOW_WRITE_ENABLED === "true";
 }
 
 export async function publishIssueFromStudio(input: {
@@ -58,47 +62,67 @@ export async function publishIssueFromStudio(input: {
   }
 
   const publishRequestId = bundle.publishRequestId || randomUUID();
-  const serviceClient = createSupabaseServiceClientFromEnv();
-  try {
-    await startStudioPublishRun(serviceClient, {
-      publishRequestId,
-      issueDate: bundle.issue.issueDate,
-      checksum: bundle.checksum,
-    });
-  } catch (error) {
-    logPublishRunFallback("studio publish run start failed", {
-      publishRequestId,
-      issueDate: bundle.issue.issueDate,
-      errorStage: "audit",
-      errorCode: error instanceof Error ? error.message : "AUDIT_FAILED",
-    });
-  }
-
-  let primary;
-  try {
-    primary = await publishGitHubPrimary(bundle.issue, input.target);
-    await updateStudioPublishRun(serviceClient, publishRequestId, {
-      primaryStatus: "succeeded",
-      primaryCommitSha: primary.commitSha,
-    }).catch((error) => {
-      logPublishRunFallback("studio publish primary audit failed", {
+  const shadowEnabled = studioShadowWriteEnabled();
+  const serviceClient = shadowEnabled ? createSupabaseServiceClientFromEnv() : null;
+  if (shadowEnabled) {
+    try {
+      await startStudioPublishRun(serviceClient, {
+        publishRequestId,
+        issueDate: bundle.issue.issueDate,
+        checksum: bundle.checksum,
+      });
+    } catch (error) {
+      logPublishRunFallback("studio publish run start failed", {
         publishRequestId,
         issueDate: bundle.issue.issueDate,
         errorStage: "audit",
         errorCode: error instanceof Error ? error.message : "AUDIT_FAILED",
       });
-    });
+    }
+  }
+
+  let primary;
+  try {
+    primary = await publishGitHubPrimary(bundle.issue, input.target);
+    if (shadowEnabled) {
+      await updateStudioPublishRun(serviceClient, publishRequestId, {
+        primaryStatus: "succeeded",
+        primaryCommitSha: primary.commitSha,
+      }).catch((error) => {
+        logPublishRunFallback("studio publish primary audit failed", {
+          publishRequestId,
+          issueDate: bundle.issue.issueDate,
+          errorStage: "audit",
+          errorCode: error instanceof Error ? error.message : "AUDIT_FAILED",
+        });
+      });
+    }
   } catch (error) {
     const code = publishErrorCode(error, "GITHUB_PRIMARY_FAILED");
-    await updateStudioPublishRun(serviceClient, publishRequestId, {
-      primaryStatus: "failed",
-      shadowStatus: "not_started",
-      compareStatus: "not_started",
-      errorStage: publishErrorStage(error, "github"),
-      errorCode: code,
-      finished: true,
-    }).catch(() => undefined);
+    if (shadowEnabled) {
+      await updateStudioPublishRun(serviceClient, publishRequestId, {
+        primaryStatus: "failed",
+        shadowStatus: "not_started",
+        compareStatus: "not_started",
+        errorStage: publishErrorStage(error, "github"),
+        errorCode: code,
+        finished: true,
+      }).catch(() => undefined);
+    }
     throw error;
+  }
+
+  if (!shadowEnabled) {
+    return {
+      published: true,
+      issue: bundle.issue,
+      issueDate: bundle.issue.issueDate,
+      publishRequestId,
+      target: primary.target,
+      primary: { target: "github", status: "succeeded", ...(primary.commitSha ? { commitSha: primary.commitSha } : {}) },
+      shadow: { target: "supabase", status: "disabled", changed: false },
+      compare: { status: "not_started", differenceCount: 0 },
+    };
   }
 
   try {

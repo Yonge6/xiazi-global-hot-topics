@@ -24,7 +24,7 @@ Mock 内容只用于产品演示，不代表实时新闻。
 
 ```bash
 npm install
-cp .env.example .env.local
+cp apps/web/.env.example apps/web/.env.local
 npm run dev
 ```
 
@@ -43,10 +43,11 @@ npm run build
 
 ## Supabase Content Base
 
-Phase 3 建立 Supabase 内容底座，Phase 4A 只允许生产影子读取；两者都不切换 Pluto.hk 对外主数据源。生产默认仍为：
+Phase 3 建立 Supabase 内容底座，Phase 4A 只允许生产影子读取；两者都不切换 Pluto.hk 对外主数据源。Phase 4B 引入 Studio 影子双写，但由独立服务端开关控制。生产默认仍为：
 
 ```env
 CONTENT_REPOSITORY=json
+STUDIO_SHADOW_WRITE_ENABLED=false
 ```
 
 本地 Docker Supabase 承担开发、migration、导入测试和破坏性 staging 验证。`.env.local` 至少需要：
@@ -57,6 +58,7 @@ SUPABASE_ENV=local
 SUPABASE_URL=
 SUPABASE_PUBLISHABLE_KEY=
 SUPABASE_SECRET_KEY=
+STUDIO_SHADOW_WRITE_ENABLED=false
 ```
 
 `SUPABASE_PUBLISHABLE_KEY` / `SUPABASE_SECRET_KEY` are preferred. Legacy `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` still work as server-side fallbacks. Never put secret keys in `NEXT_PUBLIC_*` variables.
@@ -94,6 +96,15 @@ CONTENT_REPOSITORY=json
 
 `SUPABASE_SECRET_KEY` 与 `SHADOW_COMPARE_SECRET` 不得进入 `NEXT_PUBLIC_*`、浏览器 bundle、日志或 Git。
 
+Phase 4B Studio 影子双写必须单独打开：
+
+```env
+STUDIO_SHADOW_WRITE_ENABLED=true
+CONTENT_REPOSITORY=json
+```
+
+开关未设置或为 `false` 时，Studio 仍保持纯 GitHub JSON 主写，不调用 Supabase 影子写入和 Compare。打开后，Studio 在 GitHub 主写成功后再尝试 Supabase 影子写和一致性检查；影子失败不能阻断正式发布。紧急回滚优先把 `STUDIO_SHADOW_WRITE_ENABLED` 改回 `false`，不要切换 `CONTENT_REPOSITORY`。
+
 ## 模型与海报配置
 
 所有模型通过环境变量配置。正式海报遵循：
@@ -120,7 +131,7 @@ Cron 更新最新 9 条双语内容并发布。Vercel Cron 同时调用 `/api/cr
 ## 部署
 
 1. 将仓库导入 Vercel。
-2. 配置 `.env.example` 中全部生产变量。
+2. 配置 `apps/web/.env.example` 中全部生产变量。
 3. 将 `NEXT_PUBLIC_SITE_URL` 设置为 `https://pluto.hk`。
 4. 在本地 Docker Supabase 执行 migration 并跑内容导入验证；Phase 4A 可对 Production Supabase 执行受控影子读取验证，但不切主数据源。
 5. 将域名 DNS 指向 Vercel。

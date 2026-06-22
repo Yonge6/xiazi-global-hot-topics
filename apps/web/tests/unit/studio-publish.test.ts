@@ -43,6 +43,7 @@ const checksum = contentChecksum(issue);
 describe("Studio publish shadow write", () => {
   beforeEach(() => {
     vi.clearAllMocks();
+    process.env.STUDIO_SHADOW_WRITE_ENABLED = "true";
     mocks.publishGitHubPrimary.mockResolvedValue({
       target: { source: "current", value: "current" },
       commitSha: "github-commit",
@@ -57,6 +58,20 @@ describe("Studio publish shadow write", () => {
     });
     mocks.startStudioPublishRun.mockResolvedValue(null);
     mocks.updateStudioPublishRun.mockResolvedValue(null);
+  });
+
+  it("keeps Studio on GitHub-only publishing when shadow write is disabled by default", async () => {
+    delete process.env.STUDIO_SHADOW_WRITE_ENABLED;
+
+    const result = await publishIssueFromStudio({ issue });
+
+    expect(result.published).toBe(true);
+    expect(result.primary).toMatchObject({ target: "github", status: "succeeded", commitSha: "github-commit" });
+    expect(result.shadow).toMatchObject({ target: "supabase", status: "disabled", changed: false });
+    expect(result.compare).toMatchObject({ status: "not_started", differenceCount: 0 });
+    expect(mocks.startStudioPublishRun).not.toHaveBeenCalled();
+    expect(mocks.updateStudioPublishRun).not.toHaveBeenCalled();
+    expect(mocks.publishSupabaseShadow).not.toHaveBeenCalled();
   });
 
   it("publishes one canonical issue bundle to GitHub and then Supabase", async () => {

@@ -25,7 +25,7 @@ type PublishResult = {
   };
   shadow?: {
     target: "supabase";
-    status: "succeeded" | "skipped" | "failed" | "timeout";
+    status: "disabled" | "succeeded" | "skipped" | "failed" | "timeout";
     changed?: boolean;
   };
   compare?: {
@@ -253,6 +253,11 @@ export function StudioEditor() {
   }
 
   function publishStatusMessage(detail: PublishResult, source: IssueEntry["source"]) {
+    if (detail.shadow?.status === "disabled") {
+      return source === "current"
+        ? "发布成功，影子双写未启用，当前仍保持 GitHub 主写"
+        : "往期修改已保存，影子双写未启用";
+    }
     if (source === "current") {
       if (detail.shadow?.status === "failed" || detail.shadow?.status === "timeout") {
         return "主发布成功，Supabase 影子同步失败，等待自动修复或人工重试";
@@ -507,9 +512,11 @@ export function StudioEditor() {
       {studioView === "editor" ? <div className="studio-publish-bar">
         <p role="status" aria-live="polite">{status}</p>
         {lastPublishResult?.published ? (
-          <div className={`studio-shadow-status ${lastPublishResult.compare?.status === "matched" ? "ok" : "warn"}`}>
+          <div className={`studio-shadow-status ${lastPublishResult.compare?.status === "matched" || lastPublishResult.shadow?.status === "disabled" ? "ok" : "warn"}`}>
             <strong>
-              {lastPublishResult.compare?.status === "matched"
+              {lastPublishResult.shadow?.status === "disabled"
+                ? "主发布成功，影子双写未启用"
+                : lastPublishResult.compare?.status === "matched"
                 ? "主发布与影子同步一致"
                 : "主发布成功，影子链路需要处理"}
             </strong>

@@ -146,8 +146,8 @@ test("publishes the issue through GitHub", async ({ page }) => {
         publishRequestId: `studio-publish:${payload.issue.issueDate}:e2e`,
         target: { source: "current", value: "current" },
         primary: { target: "github", status: "succeeded", commitSha: "e2e-github-commit" },
-        shadow: { target: "supabase", status: "succeeded", changed: true },
-        compare: { status: "matched", differenceCount: 0 },
+        shadow: { target: "supabase", status: "disabled", changed: false },
+        compare: { status: "not_started", differenceCount: 0 },
       }),
     });
   });
@@ -167,7 +167,7 @@ test("publishes the issue through GitHub", async ({ page }) => {
   await expect.poll(() => publishRequests).toBe(1);
   await expect.poll(() => syncRequests).toBe(1);
   await expect(page.getByRole("status")).toHaveText(/发布成功|当前期已载入/);
-  await expect(page.getByText("主发布与影子同步一致")).toBeVisible();
+  await expect(page.getByText("主发布成功，影子双写未启用")).toBeVisible();
 });
 
 test("shows partial Studio publish success and retries shadow sync", async ({ page }) => {
