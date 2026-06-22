@@ -1,83 +1,82 @@
 {
-  "id": "10000000-0000-4000-8000-000000000008",
-  "slug": "2026-06-21",
-  "issueDate": "2026-06-21",
+  "id": "10000000-0000-4000-8000-000000000009",
+  "slug": "2026-06-22",
+  "assetVersion": "issue-2026-06-22-user-replace-0622-0730-cachefix1",
+  "issueDate": "2026-06-22",
   "slotHour": 5,
-  "beijingTimestamp": "2026-06-21T05:00:00+08:00",
-  "gmtTimestamp": "2026-06-20T21:00:00Z",
+  "beijingTimestamp": "2026-06-22T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-21T21:00:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000046",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000064",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000046",
-      "issueId": "10000000-0000-4000-8000-000000000008",
+      "id": "20000000-0000-4000-8000-000000000064",
+      "issueId": "10000000-0000-4000-8000-000000000009",
       "slug": "world-cup",
       "rank": 1,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "NL",
-        "SE",
-        "DE",
-        "CI",
-        "MA",
-        "BR",
-        "HT",
-        "PY",
-        "TR",
-        "GB"
+        "JP",
+        "TN",
+        "ES",
+        "SA",
+        "CW",
+        "EC",
+        "BE",
+        "IR"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "world_cup_second_round_netherlands_germany_2026",
-      "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 95,
+      "storyId": "world_cup_japan_spain_curacao_june21_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦",
-          "headlineView": "世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出",
-          "intro": "北京时间6月20日05:00至6月21日05:00，世界杯共结束5场比赛：苏格兰0:1摩洛哥、巴西3:0海地、土耳其0:1巴拉圭、荷兰5:1瑞典、德国2:1科特迪瓦。荷兰首轮2:2战平日本后，面对曾5:1大胜突尼斯的瑞典打出5:1，重新掌握F组主动权。德国继7:1大胜库拉索后又2:1过关，证明自己也能处理艰难局。第二轮开始后，强队要证明的不只是有没有明星，而是被研究之后还能不能拿出第二套答案。",
-          "xiaziQuote": "第二轮的价值在于去泡沫：一场大胜能制造声量，连续解决不同难题才说明球队真有底盘。",
-          "doudouQuote": "荷兰这场像把第一轮没进的球一起补交了；德国少了点烟花，但分数到账，账房先生也点头。",
-          "footerTakeaway": "5场比赛14球，荷兰与德国继续抢占主动，第二轮开始检验强队持续输出能力。",
-          "headlineFull": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦；世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出。"
+          "headlineFact": "日本、西班牙双双4:0大胜，库拉索拿到队史世界杯第一分",
+          "headlineView": "足球世界最动人的时刻，不只是强者赢球，也是弱者终于被看见",
+          "headlineFull": "日本、西班牙双双4:0大胜，库拉索拿到队史世界杯第一分；足球世界最动人的时刻，不只是强者赢球，也是弱者终于被看见。",
+          "intro": "北京时间6月21日05:00至6月22日05:00，世界杯共结束4场比赛：厄瓜多尔0:0库拉索、突尼斯0:4日本、西班牙4:0沙特阿拉伯、比利时0:0伊朗。日本在世界杯第1000场比赛中大胜突尼斯，上田绮世梅开二度；西班牙则在首轮被佛得角逼平后找回节奏。更值得记住的是库拉索，人口不到20万的加勒比岛国0:0逼平厄瓜多尔，37岁门将埃洛伊·鲁姆完成15次扑救，拿到队史第一个世界杯积分。",
+          "xiaziQuote": "这个比赛日提醒我们：世界杯的价值不只在冠军叙事，也在小国终于拥有被世界认真看见的90分钟。",
+          "doudouQuote": "强队4:0像提交作业，小队0:0像写史诗；库拉索这1分，含金量比很多大胜更有故事。",
+          "footerTakeaway": "两场4:0、两场0:0，世界杯第1000场和库拉索首分共同构成“强者与小国”的一日双线。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1",
-          "headlineView": "as the second round begins, the real gap is not one burst of form but repeatable output",
-          "intro": "From 05:00 June 20 to 05:00 June 21 Beijing time, five World Cup matches finished: Scotland 0-1 Morocco, Brazil 3-0 Haiti, Türkiye 0-1 Paraguay, Netherlands 5-1 Sweden, and Germany 2-1 Côte d’Ivoire. The Netherlands, held 2-2 by Japan in the opener, responded by beating a Sweden side that had opened with a 5-1 win over Tunisia. Germany followed its 7-1 rout of Curaçao with a narrower win, showing it can manage tougher games too. In the second round, contenders must prove not only star power, but a second answer after opponents study them.",
-          "xiaziQuote": "Matchday two removes some noise: a big win creates headlines, but solving different problems in sequence shows real depth.",
-          "doudouQuote": "The Dutch looked as if they were submitting all the goals they forgot in round one; Germany was less fireworks, more accounting department approval.",
-          "footerTakeaway": "Five matches produced 14 goals, with the Netherlands and Germany strengthening their positions as consistency becomes the test.",
-          "headlineFull": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1；as the second round begins, the real gap is not one burst of form but repeatable output。"
+          "headlineFact": "Japan and Spain both won 4-0, while Curaçao earned its first World Cup point",
+          "headlineView": "football’s most moving moments are not only when powers win, but when smaller teams are seen",
+          "headlineFull": "Japan and Spain both won 4-0, while Curaçao earned its first World Cup point；football’s most moving moments are not only when powers win, but when smaller teams are seen。",
+          "intro": "Between 05:00 June 21 and 05:00 June 22 Beijing time, four World Cup matches finished: Ecuador 0-0 Curaçao, Tunisia 0-4 Japan, Spain 4-0 Saudi Arabia, and Belgium 0-0 Iran. Japan routed Tunisia in the 1,000th match in World Cup history, with Ayase Ueda scoring twice, while Spain recovered rhythm after its opening draw. Curaçao may be the story to remember: the Caribbean nation of fewer than 200,000 people held Ecuador 0-0 as 37-year-old goalkeeper Eloy Room made 15 saves and secured its first World Cup point.",
+          "xiaziQuote": "The day shows the World Cup is not only a champion’s story; it is also 90 minutes in which a small country is taken seriously.",
+          "doudouQuote": "A 4-0 from a giant looks like homework submitted. A 0-0 from a small team can read like an epic. Curaçao’s one point has real narrative weight.",
+          "footerTakeaway": "Two 4-0 wins, two 0-0 draws, Japan’s milestone match and Curaçao’s first point defined the day."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000221",
-          "topicId": "20000000-0000-4000-8000-000000000046",
-          "title": "Germany 2-1 Côte d’Ivoire | Match report and highlights",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/articles/germany-cote-divoire-match-report-highlights",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "official",
+          "id": "30000000-0000-4000-8000-000000000281",
+          "topicId": "20000000-0000-4000-8000-000000000064",
+          "title": "Japan rout Tunisia 4-0 as Ueda shines in World Cup's 1,000th match",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/japan-rout-tunisia-4-0-world-cups-1000th-match-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "30000000-0000-4000-8000-000000000222",
-          "topicId": "20000000-0000-4000-8000-000000000046",
-          "title": "FIFA World Cup official match centre",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "official",
+          "id": "30000000-0000-4000-8000-000000000282",
+          "topicId": "20000000-0000-4000-8000-000000000064",
+          "title": "Curacao keeper Room shines in historic World Cup draw with Ecuador",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/keeper-room-shines-curacao-hold-ecuador-historic-world-cup-draw-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
@@ -85,10 +84,65 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000047",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "us-iran-mou-signed",
+      "id": "20000000-0000-4000-8000-000000000065",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "cultural-heritage",
       "rank": 2,
+      "category": "international",
+      "region": "Latin America",
+      "countryCodes": [
+        "CO"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "colombia_presidential_runoff_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "哥伦比亚大选",
+          "headlineFact": "哥伦比亚总统决选进入最后计票，右翼候选人暂时领先",
+          "headlineView": "当差距只剩一个百分点，每一张选票都可能改变国家方向",
+          "headlineFull": "哥伦比亚总统决选进入最后计票，右翼候选人暂时领先；当差距只剩一个百分点，每一张选票都可能改变国家方向。",
+          "intro": "哥伦比亚总统决选计票接近尾声。在约95%的选票完成统计时，右翼候选人阿韦拉多·德拉埃斯普列拉获得接近50%的选票，左翼候选人伊万·塞佩达约为48.4%，两人相差约36.8万票。前者主张强硬打击犯罪、缩减政府规模和发展石油产业；后者希望延续社会福利改革及与武装组织的和平谈判。目前仍是初步计票结果，尚不应视为正式胜选。",
+          "xiaziQuote": "拉美政治的摆动，往往不是左右标签的胜负，而是安全焦虑、福利期待和资源经济重新排序。",
+          "doudouQuote": "差距小到每张票都像董事会表决；国家路线这事，有时候真是一格格数出来的。",
+          "footerTakeaway": "哥伦比亚决选仍在最后计票，安全、福利和能源路线可能随结果转向。"
+        },
+        "en-US": {
+          "categoryLabel": "Colombia Election",
+          "headlineFact": "Colombia’s presidential runoff neared final counting with the right-wing candidate ahead",
+          "headlineView": "when the margin is about one point, every ballot can change a country’s direction",
+          "headlineFull": "Colombia’s presidential runoff neared final counting with the right-wing candidate ahead；when the margin is about one point, every ballot can change a country’s direction。",
+          "intro": "Colombia’s presidential runoff was close to its final count. With roughly 95% of ballots tallied, right-wing candidate Abelardo de la Espriella had nearly 50% of the vote, while leftist Ivan Cepeda had about 48.4%, a gap of roughly 368,000 votes. De la Espriella campaigned on a tougher crime stance, a smaller state and oil development; Cepeda sought to continue welfare reforms and peace talks with armed groups. The result remains preliminary and should not yet be treated as an official victory.",
+          "xiaziQuote": "Latin America’s political swing is not just left versus right; it is security anxiety, welfare expectations and resource economics rearranging.",
+          "doudouQuote": "The margin is so small that every ballot feels like a board vote. Sometimes a national direction is counted one square at a time.",
+          "footerTakeaway": "Colombia’s runoff remains in final counting, with security, welfare and energy policy at stake."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000283",
+          "topicId": "20000000-0000-4000-8000-000000000065",
+          "title": "Colombia right wing candidate De La Espriella has lead in tight presidential race",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/americas/colombia-votes-runoff-pitting-leftist-reformer-against-law-and-order-newcomer-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000066",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "us-iran-mou-signed",
+      "rank": 3,
       "category": "international",
       "region": "Middle East",
       "countryCodes": [
@@ -101,40 +155,40 @@
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 94,
-      "storyId": "us_iran_hormuz_switzerland_talks_2026",
+      "storyId": "us_iran_switzerland_talks_fragile_2026",
       "storyStatus": "followup",
-      "followupDay": 6,
-      "informationIncrementScore": 92,
+      "followupDay": 7,
+      "informationIncrementScore": 82,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "美伊谈判",
-          "headlineFact": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡",
-          "headlineView": "谈判还没有开始，双方已经先争夺谁有权定义现实",
-          "intro": "美伊高级代表团准备在瑞士启动和平谈判，落实为期60天的临时停火协议。与此同时，伊朗革命卫队宣布霍尔木兹海峡关闭，美国中央司令部否认这一说法，并称当天仍有55艘、装载超过1700万桶石油的商船通过。黎巴嫩方向的持续交火，也在考验这份协议能否真正落地。",
-          "xiaziQuote": "谈判桌上谈的是协议，海峡里争的是事实；谁能定义现实，谁就先拿到筹码。",
-          "doudouQuote": "这边说“开会”，那边说“关门”；外交有时候像群聊，最重要的是谁先改了群公告。",
-          "footerTakeaway": "美伊瑞士谈判与霍尔木兹争议同步升温，停火协议还没落地就遭遇现实压力。",
-          "headlineFull": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡；谈判还没有开始，双方已经先争夺谁有权定义现实。"
+          "headlineFact": "美伊代表团在瑞士展开谈判，特朗普却再次威胁发动打击",
+          "headlineView": "外交桌上最难谈的，往往不是条件，而是双方能否停止同时展示拳头",
+          "headlineFull": "美伊代表团在瑞士展开谈判，特朗普却再次威胁发动打击；外交桌上最难谈的，往往不是条件，而是双方能否停止同时展示拳头。",
+          "intro": "美国副总统万斯与伊朗议会议长卡利巴夫率领代表团，在瑞士就临时停火框架展开谈判。双方需要处理伊朗核计划、铀浓缩、冻结资产、石油制裁及黎巴嫩局势等问题。伊朗称谈判“困难”，特朗普则在会谈期间再次发出军事威胁。谈判已经开始，但距离一份能够真正结束冲突的最终协议仍然很远。",
+          "xiaziQuote": "停火协议最怕的不是条款写得慢，而是每个参与者都还想证明自己没有退。",
+          "doudouQuote": "一边谈判一边亮拳头，像边修桥边试爆破；桥能不能通，先看大家能不能别拆。",
+          "footerTakeaway": "美伊谈判进入实质阶段，但威胁与地区冲突持续削弱协议可信度。"
         },
         "en-US": {
           "categoryLabel": "U.S.-Iran Talks",
-          "headlineFact": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed",
-          "headlineView": "before talks even begin, both sides are fighting over who gets to define reality",
-          "intro": "Senior U.S. and Iranian delegations prepared to start peace talks in Switzerland to implement a 60-day interim ceasefire. At the same time, Iran’s Revolutionary Guard said the Strait of Hormuz was closed, while U.S. Central Command disputed the claim and said 55 merchant ships carrying more than 17 million barrels of oil still passed that day. Continued fighting around Lebanon is also testing whether the agreement can become more than paper.",
-          "xiaziQuote": "The negotiating table is about terms; the strait is about facts. Whoever defines reality first gets leverage.",
-          "doudouQuote": "One side says meeting, the other says closed. Diplomacy can feel like a group chat where the pinned message keeps changing.",
-          "footerTakeaway": "Swiss talks and the Hormuz dispute are escalating together, putting the ceasefire under pressure before implementation.",
-          "headlineFull": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed；before talks even begin, both sides are fighting over who gets to define reality。"
+          "headlineFact": "U.S. and Iranian delegations began talks in Switzerland as Trump again threatened strikes",
+          "headlineView": "the hardest issue at a diplomatic table is often whether both sides can stop showing their fists",
+          "headlineFull": "U.S. and Iranian delegations began talks in Switzerland as Trump again threatened strikes；the hardest issue at a diplomatic table is often whether both sides can stop showing their fists。",
+          "intro": "Vice President JD Vance and Iranian parliamentary speaker Mohammad Bagher Ghalibaf led delegations into Swiss talks on an interim ceasefire framework. The agenda includes Iran’s nuclear program, uranium enrichment, frozen assets, oil sanctions and Lebanon. Iran described the talks as difficult, while Trump again issued military threats during the process. Talks have begun, but a final agreement capable of ending the conflict remains far away.",
+          "xiaziQuote": "A ceasefire is not only slowed by wording; it is weakened when every actor still wants to prove it has not backed down.",
+          "doudouQuote": "Talking while showing fists is like building a bridge while testing explosives. First, stop dismantling the bridge.",
+          "footerTakeaway": "U.S.-Iran talks moved into substance, but threats and regional conflict still undermine confidence."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000225",
-          "topicId": "20000000-0000-4000-8000-000000000047",
-          "title": "US disputes Iranian claims about closing Strait of Hormuz as negotiators head to Switzerland",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/us-disputes-iranian-claims-about-closing-strait-hormuz-negotiators-head-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000284",
+          "topicId": "20000000-0000-4000-8000-000000000066",
+          "title": "The Latest: Trump threats shake up US-Iran talks in Switzerland on deal's details",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/39f9632b4df3a61a07a2c271da1d5637",
+          "publishedAt": "2026-06-21T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -143,10 +197,10 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000048",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "cultural-heritage",
-      "rank": 3,
+      "id": "20000000-0000-4000-8000-000000000067",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "public-health",
+      "rank": 4,
       "category": "international",
       "region": "Europe",
       "countryCodes": [
@@ -156,233 +210,112 @@
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 88,
-      "storyId": "uk_starmer_resignation_report_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "storyId": "uk_starmer_political_future_june22_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "英国政坛",
-          "headlineFact": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认",
-          "headlineView": "权力真正松动的信号，是所有人都开始讨论下一任是谁",
-          "intro": "英国《观察家报》报道称，首相基尔·斯塔默可能在周一宣布辞职并公布交接时间表；但英国政府消息人士表示，他仍专注于执政，目前尚无正式辞职声明。超过100名工党议员此前要求其下台，潜在竞争者安迪·伯纳姆重返议会，也进一步加剧领导权之争。这条新闻目前仍属于未经官方确认的重大政治传闻。",
-          "xiaziQuote": "政治危机最先改变的不是职位，而是人们默认“下一任”已经可以公开讨论。",
-          "doudouQuote": "还没官宣，接班人名单已经在桌上排队了；权力这东西，风一漏，窗帘先动。",
-          "footerTakeaway": "斯塔默去留仍未官方确认，但工党内部领导权压力已进入公开讨论阶段。",
-          "headlineFull": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认；权力真正松动的信号，是所有人都开始讨论下一任是谁。"
+          "categoryLabel": "英国政局",
+          "headlineFact": "斯塔默可能最早周一决定政治去留",
+          "headlineView": "领导人真正失去权力的时刻，往往不是辞职那天，而是所有人都开始公开讨论继任者",
+          "headlineFull": "斯塔默可能最早周一决定政治去留；领导人真正失去权力的时刻，往往不是辞职那天，而是所有人都开始公开讨论继任者。",
+          "intro": "英国首相基尔·斯塔默正面临工党内部不断升级的下台压力，可能最早在周一决定辞职，或迎接党内领导权挑战。美国总统特朗普已经公开称斯塔默将会下台，但英国政府官员仍表示，首相目前继续专注于工作，没有正式辞职决定。曼彻斯特市长安迪·伯纳姆被视为热门继任者之一。",
+          "xiaziQuote": "权力松动最早出现的信号，不是门牌摘下，而是身边人开始把“如果”说成“何时”。",
+          "doudouQuote": "还没辞职，接班人就开始被点名；政治舞台有时候灯还没灭，下一场布景已经进场。",
+          "footerTakeaway": "斯塔默去留仍未正式确定，但工党领导权压力已公开化。"
         },
         "en-US": {
           "categoryLabel": "UK Politics",
-          "headlineFact": "Reports said Starmer could announce his resignation Monday, while government sources denied it",
-          "headlineView": "the real sign power is loosening is that everyone starts discussing the successor",
-          "intro": "Britain’s Observer reported that Prime Minister Keir Starmer could announce his resignation on Monday and set out a timetable for departure. A government source said he remained focused on governing and no official resignation had been announced. More than 100 Labour MPs had reportedly called for him to step down, while potential challenger Andy Burnham’s return to parliament sharpened leadership speculation. This remains a major political report without official confirmation.",
-          "xiaziQuote": "A political crisis first changes not the office, but whether people feel allowed to discuss the next occupant in public.",
-          "doudouQuote": "No official announcement yet, but the successor list is already waiting in the hallway. Power leaks before it falls.",
-          "footerTakeaway": "Starmer’s position remains officially unresolved, but Labour’s leadership pressure has moved into open debate.",
-          "headlineFull": "Reports said Starmer could announce his resignation Monday, while government sources denied it；the real sign power is loosening is that everyone starts discussing the successor。"
+          "headlineFact": "Starmer could decide his political future as early as Monday",
+          "headlineView": "leaders often lose power before resignation day, when everyone starts openly discussing successors",
+          "headlineFull": "Starmer could decide his political future as early as Monday；leaders often lose power before resignation day, when everyone starts openly discussing successors。",
+          "intro": "UK Prime Minister Keir Starmer faces escalating pressure inside Labour and could decide as early as Monday whether to resign or face a leadership challenge. Trump has publicly said Starmer will step down, while UK officials still say the prime minister remains focused on the job and no formal resignation decision has been made. Manchester Mayor Andy Burnham is seen as one possible successor.",
+          "xiaziQuote": "The first sign of weakening power is not the nameplate coming down, but people turning “if” into “when.”",
+          "doudouQuote": "No resignation yet, but the successor list is already being called. Sometimes the next set enters before the stage lights go off.",
+          "footerTakeaway": "Starmer’s future is unresolved, but Labour’s leadership pressure is now public."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000229",
-          "topicId": "20000000-0000-4000-8000-000000000048",
-          "title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job",
+          "id": "30000000-0000-4000-8000-000000000285",
+          "topicId": "20000000-0000-4000-8000-000000000067",
+          "title": "Trump says Starmer will resign as UK prime minister",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/uk/uk-pm-starmer-expected-resign-monday-set-out-orderly-exit-observer-newspaper-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000049",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "ukraine-moscow-refinery-drone-strike",
-      "rank": 4,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "UA",
-        "RU"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "ukraine_tyumen_drone_strike_warning_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "俄乌局势",
-          "headlineFact": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外",
-          "headlineView": "战争的纵深，正在被远程技术不断重新定义",
-          "intro": "泽连斯基警告俄罗斯正在准备新一轮大规模袭击，要求民众重视防空警报。与此同时，他确认乌克兰无人机袭击了俄罗斯西西伯利亚秋明地区的炼油设施，距离乌克兰超过2000公里，并称乌方新型远程无人机的作战距离已经达到3000公里。俄方表示袭击被防空系统击退，初步报告没有设施受损。",
-          "xiaziQuote": "远程无人机让“后方”这个词越来越不稳定，战争地图正在被技术重新拉长。",
-          "doudouQuote": "以前说打到纵深像军事论文，现在像快递范围说明：两千公里内都可能送达。",
-          "footerTakeaway": "乌克兰远程打击与俄罗斯袭击预警同时出现，显示战场纵深继续扩大。",
-          "headlineFull": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外；战争的纵深，正在被远程技术不断重新定义。"
-        },
-        "en-US": {
-          "categoryLabel": "Ukraine War",
-          "headlineFact": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones",
-          "headlineView": "the depth of war is being redefined by long-range technology",
-          "intro": "President Volodymyr Zelenskyy warned that Russia was preparing another large-scale attack and urged Ukrainians to heed air alerts. He also confirmed Ukrainian drones struck refining facilities in Russia’s Tyumen region in western Siberia, more than 2,000 km from Ukraine, and said new Ukrainian long-range drones can reach 3,000 km. Russia said the attack was repelled and initial reports showed no facility damage.",
-          "xiaziQuote": "Long-range drones are making the word rear area less stable; technology is stretching the map of war.",
-          "doudouQuote": "Deep strike used to sound like a military paper. Now it reads like a delivery radius: within 2,000 km, service available.",
-          "footerTakeaway": "Ukraine’s long-range strike and Russia attack warning show the battlefield’s depth is still expanding.",
-          "headlineFull": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones；the depth of war is being redefined by long-range technology。"
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000233",
-          "topicId": "20000000-0000-4000-8000-000000000049",
-          "title": "Ukraine’s Zelenskiy confirms drone strike on refining facilities in Russia’s Tyumen region",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/energy/ukraines-zelenskiy-confirms-drone-strike-refining-facilities-russias-tyumen-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "30000000-0000-4000-8000-000000000234",
-          "topicId": "20000000-0000-4000-8000-000000000049",
-          "title": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/21/ukraine-war-briefing-drones-strike-russia-tyumen-oil-refinery-2000km-away-says-zelenskyy",
+          "url": "https://www.reuters.com/world/europe/trump-says-starmer-will-resign-uk-prime-minister-2026-06-21/",
           "publishedAt": "2026-06-21T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "wire",
+          "sourceTier": 1,
           "locale": "en-US",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000050",
-      "issueId": "10000000-0000-4000-8000-000000000008",
+      "id": "20000000-0000-4000-8000-000000000068",
+      "issueId": "10000000-0000-4000-8000-000000000009",
       "slug": "climate-adaptation",
       "rank": 5,
       "category": "climate",
       "region": "Europe",
       "countryCodes": [
         "FR",
+        "ES",
+        "IT",
         "DE",
-        "ES"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 87,
-      "storyId": "europe_heatwave_france_alcohol_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "欧洲热浪",
-          "headlineFact": "欧洲多地气温逼近41℃，法国限制公共活动饮酒",
-          "headlineView": "极端天气正在从气象新闻，变成城市必须立即执行的管理政策",
-          "intro": "欧洲新一轮热浪持续升级。法国预计35个地区进入最高级别红色警报，部分地区气温可能达到41℃，政府因此限制音乐节等公共活动中的酒精消费，巴黎则让部分公园全天开放。德国发布大范围高温警告，西班牙还关闭了马德里的一处世界杯球迷区。",
-          "xiaziQuote": "气候风险真正进入日常治理时，表现不是口号变多，而是公园、酒精、球迷区这些细节开始被重新安排。",
-          "doudouQuote": "天气热到连音乐节喝酒都要管，城市管理终于体会到什么叫“太阳亲自加班”。",
-          "footerTakeaway": "欧洲热浪迫使多国调整公共活动安排，极端天气正在成为城市治理变量。",
-          "headlineFull": "欧洲多地气温逼近41℃，法国限制公共活动饮酒；极端天气正在从气象新闻，变成城市必须立即执行的管理政策。"
-        },
-        "en-US": {
-          "categoryLabel": "European Heatwave",
-          "headlineFact": "Temperatures across Europe neared 41C as France restricted drinking at public events",
-          "headlineView": "extreme weather is moving from forecast to immediate city policy",
-          "intro": "A new European heatwave intensified. France expected 35 departments to enter the highest red alert, with some areas possibly reaching 41C, prompting restrictions on alcohol consumption at music festivals and other public events, while Paris kept some parks open overnight. Germany issued broad heat warnings, and Spain closed a World Cup fan zone in Madrid.",
-          "xiaziQuote": "Climate risk enters daily governance not through slogans, but through changed rules for parks, alcohol, transit and fan zones.",
-          "doudouQuote": "It is hot enough that even festival drinking needs policy. City managers have discovered the sun can do overtime.",
-          "footerTakeaway": "Europe’s heatwave forced countries to adjust public events, turning extreme weather into a governance variable.",
-          "headlineFull": "Temperatures across Europe neared 41C as France restricted drinking at public events；extreme weather is moving from forecast to immediate city policy。"
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000237",
-          "topicId": "20000000-0000-4000-8000-000000000050",
-          "title": "Europe swelters under heatwave, France restricts alcohol consumption",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/environment/europe-swelters-under-heatwave-prompting-crisis-talks-france-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000051",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "congo-ebola-response-strained",
-      "rank": 6,
-      "category": "science",
-      "region": "Africa",
-      "countryCodes": [
-        "CD"
+        "GB"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 91,
-      "storyId": "congo_ebola_cases_956_2026",
+      "storyId": "europe_heatwave_school_closures_june22_2026",
       "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 82,
+      "followupDay": 2,
+      "informationIncrementScore": 75,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "埃博拉疫情",
-          "headlineFact": "刚果（金）埃博拉确诊升至956例、247人死亡",
-          "headlineView": "疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃",
-          "intro": "刚果（金）公布的最新数字显示，本轮埃博拉确诊病例已由933例升至956例，死亡人数由245人升至247人。东北部一座收容超过1.5万名流离失所者的营地，从5月以来已有至少30人死亡，拥挤、卫生设施不足、居民抵触检测等问题，让传播风险进一步升高。世界卫生组织已将这场疫情列为国际关注的突发公共卫生事件。",
-          "xiaziQuote": "传染病最怕的不是单个病例增加，而是检测、隔离和社区信任同时跟不上。",
-          "doudouQuote": "病毒不看地图，但很懂人类系统哪里最薄：水不够、床不够、信任也不够。",
-          "footerTakeaway": "刚果（金）埃博拉数字继续上升，营地条件和追踪能力成为控制疫情的关键。",
-          "headlineFull": "刚果（金）埃博拉确诊升至956例、247人死亡；疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃。"
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "欧洲多地气温逼近40℃，法国关闭数百所学校并取消列车",
+          "headlineView": "极端天气不再只是天气预报，而是城市运行方式的压力测试",
+          "headlineFull": "欧洲多地气温逼近40℃，法国关闭数百所学校并取消列车；极端天气不再只是天气预报，而是城市运行方式的压力测试。",
+          "intro": "来自撒哈拉地区的高压系统正在欧洲形成持续“热穹顶”。法国约三分之一地区进入最高级别高温警报，约845所学校被要求关闭，法国铁路取消部分列车，并建议老年人等高风险群体推迟出行。西班牙、意大利、德国和英国也发布高温或健康预警，预计极端高温还将持续数日。",
+          "xiaziQuote": "高温正在把城市治理从应急口号拉回到现实：学校、交通、医疗和供电都要一起作答。",
+          "doudouQuote": "天气预报以前是“记得带伞”，现在是“学校停课、火车取消、老人别出门”。夏天开始考城市系统了。",
+          "footerTakeaway": "欧洲热浪进入公共服务调整阶段，极端气候正在改变城市日常运行。"
         },
         "en-US": {
-          "categoryLabel": "Ebola Outbreak",
-          "headlineFact": "DR Congo Ebola cases rose to 956 with 247 deaths",
-          "headlineView": "before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first",
-          "intro": "DR Congo’s latest figures showed confirmed Ebola cases rising from 933 to 956, with deaths increasing from 245 to 247. In a northeastern camp housing more than 15,000 displaced people, at least 30 people have died since May. Crowding, poor sanitation and resistance to testing are increasing transmission risks. The World Health Organization has treated the outbreak as an international public-health emergency.",
-          "xiaziQuote": "The danger is not just more cases; it is testing, isolation and community trust falling behind at the same time.",
-          "doudouQuote": "Viruses do not read maps, but they know weak systems: not enough water, not enough beds, not enough trust.",
-          "footerTakeaway": "DR Congo’s Ebola numbers are still rising, with camp conditions and tracing capacity central to control.",
-          "headlineFull": "DR Congo Ebola cases rose to 956 with 247 deaths；before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first。"
+          "categoryLabel": "European Heatwave",
+          "headlineFact": "Temperatures approached 40C across Europe as France closed hundreds of schools and canceled trains",
+          "headlineView": "extreme weather is no longer just a forecast, but a stress test for how cities operate",
+          "headlineFull": "Temperatures approached 40C across Europe as France closed hundreds of schools and canceled trains；extreme weather is no longer just a forecast, but a stress test for how cities operate。",
+          "intro": "A high-pressure system from the Sahara is creating a prolonged heat dome over Europe. About one-third of France is under the highest heat alert, around 845 schools were ordered to close, some French trains were canceled, and high-risk groups such as older people were advised to delay travel. Spain, Italy, Germany and the UK also issued heat or health alerts, with extreme temperatures expected to last for days.",
+          "xiaziQuote": "Heat is pulling urban governance back from slogans to reality: schools, transport, health care and power systems all have to answer together.",
+          "doudouQuote": "Weather forecasts used to mean bring an umbrella. Now they mean schools closed, trains canceled and older people should stay home. Summer is testing city systems.",
+          "footerTakeaway": "Europe’s heatwave has reached the public-service adjustment stage, changing daily urban operations."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000241",
-          "topicId": "20000000-0000-4000-8000-000000000051",
-          "title": "Congo says confirmed Ebola cases rise to 956, including 247 deaths",
+          "id": "30000000-0000-4000-8000-000000000286",
+          "topicId": "20000000-0000-4000-8000-000000000068",
+          "title": "Europe braces for prolonged heatwave as temperatures approach 40C",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-says-confirmed-ebola-cases-rise-956-including-247-deaths-2026-06-20/",
-          "publishedAt": "2026-06-20T00:00:00Z",
+          "url": "https://www.reuters.com/business/environment/europe-braces-prolonged-heatwave-temperatures-approach-40c-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "30000000-0000-4000-8000-000000000242",
-          "topicId": "20000000-0000-4000-8000-000000000051",
-          "title": "Disease Outbreak News",
-          "publisher": "World Health Organization",
-          "url": "https://www.who.int/emergencies/disease-outbreak-news",
-          "publishedAt": null,
-          "sourceType": "official",
+          "id": "30000000-0000-4000-8000-000000000287",
+          "topicId": "20000000-0000-4000-8000-000000000068",
+          "title": "France restricts public alcohol consumption and outdoor sports as heat wave bakes parts of Europe",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/337471b5950543447c92010ca1081a8d",
+          "publishedAt": "2026-06-21T04:00:45Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
@@ -390,164 +323,220 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000052",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "apple-intel-us-chip-production",
-      "rank": 7,
+      "id": "20000000-0000-4000-8000-000000000069",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "clean-energy",
+      "rank": 6,
       "category": "business",
-      "region": "Asia",
+      "region": "Middle East",
       "countryCodes": [
-        "IN",
-        "US"
+        "QA"
       ],
       "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 84,
-      "storyId": "tata_iphone_pollution_probe_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "苹果供应链",
-          "headlineFact": "印度调查塔塔iPhone零部件工厂污染问题",
-          "headlineView": "制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失",
-          "intro": "印度卫生部门正在调查塔塔电子位于泰米尔纳德邦的iPhone零部件工厂。附近农民称工厂排放影响农田和水源，并有人出现皮肤问题；政府检测的部分水样发现大肠杆菌，总溶解固体含量也超过饮用水建议标准。塔塔表示厂内检测未发现污染，调查仍在进行。",
-          "xiaziQuote": "供应链转移解决的是地缘和成本问题，不会自动解决环境治理问题。",
-          "doudouQuote": "iPhone零件换了生产地，污染账单可不会自动改成环保主题皮肤。",
-          "footerTakeaway": "塔塔iPhone零部件工厂遭健康调查，提醒全球供应链重组仍要面对环境责任。",
-          "headlineFull": "印度调查塔塔iPhone零部件工厂污染问题；制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失。"
-        },
-        "en-US": {
-          "categoryLabel": "Apple Supply Chain",
-          "headlineFact": "India is probing pollution complaints around Tata’s iPhone parts factory",
-          "headlineView": "moving manufacturing from one country to another does not make environmental costs disappear",
-          "intro": "Indian health authorities are investigating Tata Electronics’ iPhone components plant in Tamil Nadu. Nearby farmers said factory discharge affected farmland and water sources, and some reported skin problems. Government tests on some water samples found E. coli and total dissolved solids above recommended drinking-water standards. Tata said internal tests found no contamination, and the probe is continuing.",
-          "xiaziQuote": "Supply-chain relocation solves some geopolitical and cost problems; it does not automatically solve environmental governance.",
-          "doudouQuote": "The iPhone parts moved production sites, but the pollution bill does not magically switch to an eco-friendly theme.",
-          "footerTakeaway": "The Tata probe shows global supply-chain restructuring still has to face environmental accountability.",
-          "headlineFull": "India is probing pollution complaints around Tata’s iPhone parts factory；moving manufacturing from one country to another does not make environmental costs disappear。"
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000245",
-          "topicId": "20000000-0000-4000-8000-000000000052",
-          "title": "Tata’s iPhone parts factory faces India health probe after farmer contamination complaints",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/environment/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000053",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "public-health",
-      "rank": 8,
-      "category": "culture",
-      "region": "North America",
-      "countryCodes": [
-        "CA"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 82,
-      "storyId": "td_workiq_employee_monitoring_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "职场监控",
-          "headlineFact": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间",
-          "headlineView": "远程办公带来自由，也让“是否在线”变成新的考勤表",
-          "intro": "加拿大道明银行通知部分金融犯罪与风险管理团队员工，将使用WorkiQ软件统计其使用浏览器、内部聊天和会议应用的时间。银行称该工具不监听谈话、不读取电子表格内容，也并非人工智能，目的是优化人员和工作流程；但员工对隐私、知情同意以及数据用途提出质疑。",
-          "xiaziQuote": "混合办公的下一场争论，不是人在不在办公室，而是公司能不能把“在线痕迹”当成劳动本身。",
-          "doudouQuote": "以前摸鱼怕老板路过，现在怕软件看见；办公室没变远，只是变成了后台进程。",
-          "footerTakeaway": "TD使用WorkiQ监测部分员工活动，凸显远程与混合办公中的隐私边界问题。",
-          "headlineFull": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间；远程办公带来自由，也让“是否在线”变成新的考勤表。"
-        },
-        "en-US": {
-          "categoryLabel": "Workplace Monitoring",
-          "headlineFact": "Canada’s TD Bank will track some employees’ browser and meeting time",
-          "headlineView": "remote work brought freedom, and also turned online status into a new timesheet",
-          "intro": "Toronto-Dominion Bank told some employees in financial-crime and risk-management teams it will use WorkiQ software to track time spent on browsers, internal chat and meeting apps. The bank said the tool does not listen to conversations, read spreadsheets or use artificial intelligence, and is meant to improve staffing and workflow. Employees raised concerns over privacy, consent and future data use.",
-          "xiaziQuote": "The next hybrid-work argument is not just where people sit, but whether online traces can stand in for work itself.",
-          "doudouQuote": "Workers used to worry about the boss walking by. Now they worry about the software already being in the room.",
-          "footerTakeaway": "TD’s WorkiQ rollout highlights the privacy boundary in remote and hybrid work.",
-          "headlineFull": "Canada’s TD Bank will track some employees’ browser and meeting time；remote work brought freedom, and also turned online status into a new timesheet。"
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000249",
-          "topicId": "20000000-0000-4000-8000-000000000053",
-          "title": "Canadian lender TD tells some employees it will use software to monitor their work",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/canadian-lender-td-tells-some-employees-it-will-use-software-monitor-their-work-2026-06-19/",
-          "publishedAt": "2026-06-19T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000054",
-      "issueId": "10000000-0000-4000-8000-000000000008",
-      "slug": "ai-governance",
-      "rank": 9,
-      "category": "technology",
-      "region": "North America",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 86,
-      "storyId": "meta_child_harm_lawsuit_immunity_2026",
+      "storyId": "qatar_ras_laffan_gas_explosion_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "未成年人网络保护",
-          "headlineFact": "Meta游说美国国会，为儿童伤害诉讼争取法律保护",
-          "headlineView": "平台愿意接受监管，不代表它也愿意承担过去造成的后果",
-          "intro": "消息人士及立法文本显示，Meta正游说美国国会，希望在《儿童网络安全法案》中加入相关条款，限制依据州法律提出的未成年人网络伤害诉讼。Meta称其目标是建立统一的全国标准，而不是获得全面豁免；批评者则认为，新条款可能影响年轻用户、家长和学校已经发起的数千起诉讼。相关议员表示不会接受目前披露的豁免措辞。",
-          "xiaziQuote": "平台谈统一规则时，要小心别把“未来怎么管”变成“过去怎么免”。",
-          "doudouQuote": "大厂说要全国统一标准，听起来像修路；家长听着像先把追责出口封了。",
-          "footerTakeaway": "Meta围绕儿童网络安全法案争取诉讼保护，平台责任边界再次成为焦点。",
-          "headlineFull": "Meta游说美国国会，为儿童伤害诉讼争取法律保护；平台愿意接受监管，不代表它也愿意承担过去造成的后果。"
+          "categoryLabel": "卡塔尔能源",
+          "headlineFact": "卡塔尔拉斯拉凡天然气工厂发生爆炸，火势已被控制",
+          "headlineView": "能源安全最脆弱的地方，往往不是资源不足，而是关键设施过于集中",
+          "headlineFull": "卡塔尔拉斯拉凡天然气工厂发生爆炸，火势已被控制；能源安全最脆弱的地方，往往不是资源不足，而是关键设施过于集中。",
+          "intro": "卡塔尔能源公司表示，拉斯拉凡工业区的巴尔赞天然气工厂发生“运营事故”，引发爆炸和火灾。火势已经得到控制，事故造成数人受伤，但官方称没有发生威胁公共安全的泄漏。拉斯拉凡是卡塔尔液化天然气产业的核心区域，在全球能源供应仍受中东局势影响的背景下，这类事故尤其容易引发市场关注。",
+          "xiaziQuote": "能源安全不只是有没有气，还包括关键节点一旦出事，全球市场会不会立刻屏住呼吸。",
+          "doudouQuote": "资源大国也怕一个厂区冒烟；供应链最怕的不是没故事，是故事发生在核心节点。",
+          "footerTakeaway": "卡塔尔核心天然气设施事故已受控，但凸显全球能源供应对集中节点的敏感。"
         },
         "en-US": {
-          "categoryLabel": "Child Online Safety",
-          "headlineFact": "Meta lobbied Congress for protection from child-harm lawsuits",
-          "headlineView": "a platform may accept regulation without wanting to bear the consequences of past harm",
-          "intro": "Sources and draft legislative text show Meta has lobbied the U.S. Congress to add language to the Kids Online Safety Act that would limit child-harm lawsuits brought under state law. Meta says it wants a uniform national standard rather than broad immunity. Critics argue the language could affect thousands of lawsuits already filed by young users, parents and schools. Lawmakers said they would not accept the disclosed immunity wording.",
-          "xiaziQuote": "When platforms discuss uniform rules, they must not turn future regulation into past absolution.",
-          "doudouQuote": "Big Tech says national standard; parents hear closed exit ramp for accountability. Both sides know the wording matters.",
-          "footerTakeaway": "Meta’s push for lawsuit protection puts platform accountability back at the center of child online safety.",
-          "headlineFull": "Meta lobbied Congress for protection from child-harm lawsuits；a platform may accept regulation without wanting to bear the consequences of past harm。"
+          "categoryLabel": "Qatar Energy",
+          "headlineFact": "An explosion hit Qatar’s Ras Laffan gas plant and the fire was brought under control",
+          "headlineView": "energy security is often most fragile not when resources are scarce, but when critical facilities are concentrated",
+          "headlineFull": "An explosion hit Qatar’s Ras Laffan gas plant and the fire was brought under control；energy security is often most fragile not when resources are scarce, but when critical facilities are concentrated。",
+          "intro": "QatarEnergy said an operational incident at the Barzan gas plant in Ras Laffan Industrial City caused an explosion and fire. The fire was brought under control, several people were injured, and officials said there was no leak threatening public safety. Ras Laffan is central to Qatar’s LNG industry, so such accidents draw market attention while global energy supply is already sensitive to Middle East tensions.",
+          "xiaziQuote": "Energy security is not only whether gas exists; it is whether global markets hold their breath when a key node has trouble.",
+          "doudouQuote": "Even resource powers worry when smoke rises from one plant. Supply chains fear stories most when they happen at the core node.",
+          "footerTakeaway": "The Qatar gas facility incident was contained, but it underlined global energy sensitivity to concentrated infrastructure."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000253",
-          "topicId": "20000000-0000-4000-8000-000000000054",
-          "title": "Meta lobbies Congress for protection from child-harm lawsuits",
+          "id": "30000000-0000-4000-8000-000000000288",
+          "topicId": "20000000-0000-4000-8000-000000000069",
+          "title": "QatarEnergy says 'operational incident' causes explosion at Ras Laffan",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/meta-lobbies-congress-protection-child-harm-lawsuits-2026-06-18/",
-          "publishedAt": "2026-06-18T00:00:00Z",
+          "url": "https://www.reuters.com/world/asia-pacific/qatar-reports-explosion-factory-ras-laffan-no-injuries-or-leak-reported-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000070",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "supply-chain",
+      "rank": 7,
+      "category": "international",
+      "region": "Asia",
+      "countryCodes": [
+        "TW",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 84,
+      "storyId": "taiwan_five_day_combat_readiness_drills_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "台海安全",
+          "headlineFact": "台湾将举行连续五天战备演练",
+          "headlineView": "当军事训练越来越接近真实战争，威慑与紧张往往也会同时上升",
+          "headlineFull": "台湾将举行连续五天战备演练；当军事训练越来越接近真实战争，威慑与紧张往往也会同时上升。",
+          "intro": "台湾防务部门宣布，本周将举行连续五天的战备演练，训练重点将从固定流程展示，转向更加贴近真实作战情境的演习。相关计划是军事现代化的一部分，预计会测试快速反应、部队调动及不同武器系统之间的协同能力。演练也将再次受到北京及地区国家密切关注。",
+          "xiaziQuote": "演训越贴近真实战场，越能提高威慑，也越容易让周边感受到压力。",
+          "doudouQuote": "以前演习像考试彩排，现在越来越像突击测验；问题是旁边所有人都会一起紧张。",
+          "footerTakeaway": "台湾五天战备演练将测试快速反应与联合作战能力，地区安全关注升温。"
+        },
+        "en-US": {
+          "categoryLabel": "Taiwan Security",
+          "headlineFact": "Taiwan will hold five consecutive days of combat-readiness drills",
+          "headlineView": "as military training moves closer to real war conditions, deterrence and tension rise together",
+          "headlineFull": "Taiwan will hold five consecutive days of combat-readiness drills；as military training moves closer to real war conditions, deterrence and tension rise together。",
+          "intro": "Taiwan’s defense ministry said it will hold five consecutive days of combat-readiness drills this week, shifting from fixed-process displays toward exercises closer to real operational conditions. The plan is part of military modernization and is expected to test rapid response, troop movement and coordination across weapons systems. The drills will again be closely watched by Beijing and regional governments.",
+          "xiaziQuote": "The closer drills get to real battlefield conditions, the more they strengthen deterrence and raise pressure around them.",
+          "doudouQuote": "Exercises used to look like exam rehearsals. Now they increasingly feel like pop quizzes, and everyone nearby gets nervous.",
+          "footerTakeaway": "Taiwan’s five-day drills will test rapid response and joint operations as regional security attention rises."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000289",
+          "topicId": "20000000-0000-4000-8000-000000000070",
+          "title": "Taiwan to stage five days of combat readiness drills",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/aerospace-defense/taiwan-stage-five-days-combat-readiness-drills-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000071",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "high-seas",
+      "rank": 8,
+      "category": "international",
+      "region": "Latin America",
+      "countryCodes": [
+        "BO"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 83,
+      "storyId": "bolivia_state_emergency_blockades_ease_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "玻利维亚危机",
+          "headlineFact": "玻利维亚宣布紧急状态后，封路与物资短缺开始缓解",
+          "headlineView": "危机真正伤害的，往往不是宏观数字，而是普通人突然买不到食物和药品",
+          "headlineFull": "玻利维亚宣布紧急状态后，封路与物资短缺开始缓解；危机真正伤害的，往往不是宏观数字，而是普通人突然买不到食物和药品。",
+          "intro": "玻利维亚议会批准国家紧急状态后，全国道路封锁数量开始下降，但仍有数十处路段受阻。持续封路此前造成食品、燃料和药品供应紧张。与此同时，一架执行援助任务的玻利维亚空军飞机坠毁，造成6人死亡。危机虽然出现缓和迹象，但社会秩序和基本物资供应仍未完全恢复。",
+          "xiaziQuote": "政治危机进入生活层面时，最直接的指标不是汇率，而是货架、油箱和药柜。",
+          "doudouQuote": "宏观危机听起来很远，直到你发现面包、汽油和药都开始排队。",
+          "footerTakeaway": "玻利维亚封路减少但供应仍未完全恢复，紧急状态后的社会修复才刚开始。"
+        },
+        "en-US": {
+          "categoryLabel": "Bolivia Crisis",
+          "headlineFact": "After Bolivia declared a state of emergency, road blockades and shortages began to ease",
+          "headlineView": "crises hurt not only through macro numbers, but when ordinary people suddenly cannot buy food or medicine",
+          "headlineFull": "After Bolivia declared a state of emergency, road blockades and shortages began to ease；crises hurt not only through macro numbers, but when ordinary people suddenly cannot buy food or medicine。",
+          "intro": "After Bolivian lawmakers approved a state of emergency, the number of road blockades began to fall, though dozens of routes remained blocked. The protests had caused shortages of food, fuel and medicine. At the same time, a Bolivian air force plane on an assistance mission crashed, killing six people. The crisis shows signs of easing, but social order and basic supplies have not fully recovered.",
+          "xiaziQuote": "When a political crisis reaches daily life, the clearest indicators are not exchange rates but shelves, fuel tanks and medicine cabinets.",
+          "doudouQuote": "A macro crisis sounds distant until bread, gasoline and medicine all start forming lines.",
+          "footerTakeaway": "Bolivia’s blockades are easing, but supply recovery and social repair are only beginning."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000290",
+          "topicId": "20000000-0000-4000-8000-000000000071",
+          "title": "Bolivia crisis begins easing, air force jet on assistance flight crashes",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/americas/bolivia-crisis-begins-ease-after-lawmakers-back-state-emergency-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000072",
+      "issueId": "10000000-0000-4000-8000-000000000009",
+      "slug": "g7-critical-minerals-alliance",
+      "rank": 9,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "DE",
+        "FR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 85,
+      "storyId": "germany_knds_stake_ipo_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲军工",
+          "headlineFact": "德国政府将收购军工企业KNDS部分股权，为其上市扫清障碍",
+          "headlineView": "欧洲的国防转向，正在从增加预算走向直接掌握产业能力",
+          "headlineFull": "德国政府将收购军工企业KNDS部分股权，为其上市扫清障碍；欧洲的国防转向，正在从增加预算走向直接掌握产业能力。",
+          "intro": "知情人士称，德国政府将从家族股东手中收购欧洲军工集团KNDS约40%的相关持股。这项交易将为KNDS在法兰克福和巴黎两地上市扫清最后障碍。KNDS生产德国“豹2”及法国“勒克莱尔”主战坦克。德国政府直接进入股权结构，显示欧洲国防政策已不再只是增加采购，而是在重新安排军工产业的资本与控制权。",
+          "xiaziQuote": "欧洲再武装不是只多买装备，而是政府重新进入产业链和资本结构。",
+          "doudouQuote": "以前是“我要买坦克”，现在是“我先买点坦克公司股份”；采购单变成股权表了。",
+          "footerTakeaway": "德国拟入股KNDS，显示欧洲防务转向产业控制与资本市场重组。"
+        },
+        "en-US": {
+          "categoryLabel": "European Defence",
+          "headlineFact": "Germany plans to buy part of KNDS, clearing the way for an IPO",
+          "headlineView": "Europe’s defence shift is moving from bigger budgets to direct control of industrial capability",
+          "headlineFull": "Germany plans to buy part of KNDS, clearing the way for an IPO；Europe’s defence shift is moving from bigger budgets to direct control of industrial capability。",
+          "intro": "People familiar with the matter said Germany will buy about 40% of a relevant family-owned stake in European defence group KNDS, clearing the final obstacle to listings in Frankfurt and Paris. KNDS makes Germany’s Leopard 2 and France’s Leclerc main battle tanks. Germany’s direct move into the ownership structure shows European defence policy is no longer only about procurement; it is also rearranging capital and control in the arms industry.",
+          "xiaziQuote": "European rearmament is not just buying more equipment; governments are re-entering supply chains and ownership structures.",
+          "doudouQuote": "It used to be “we need tanks.” Now it is “we need some shares in the tank company.” The purchase order became a cap table.",
+          "footerTakeaway": "Germany’s planned KNDS stake shows Europe’s defence turn is also about industrial control and capital markets."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000291",
+          "topicId": "20000000-0000-4000-8000-000000000072",
+          "title": "KNDS family owners to sell 40% stake to German government, Bloomberg News reports",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/knds-family-owners-sell-40-stake-german-government-bloomberg-news-reports-2026-06-21/",
+          "publishedAt": "2026-06-21T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -555,6 +544,5 @@
         }
       ]
     }
-  ],
-  "assetVersion": "issue-2026-06-21-user-posters-v3"
+  ]
 }
