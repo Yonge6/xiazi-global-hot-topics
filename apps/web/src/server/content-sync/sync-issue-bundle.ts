@@ -13,7 +13,7 @@ export type SyncIssueBundleResult = {
 };
 
 export type SyncIssueBundleOptions = {
-  actorType: "script" | "cron" | "manual";
+  actorType: "script" | "cron" | "manual" | "studio" | "retry";
   actorId?: string;
   changeSummary?: string;
 };
