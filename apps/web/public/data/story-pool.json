@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T05:00:00+08:00",
+  "updatedAt": "2026-06-22T07:30:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -1033,8 +1033,8 @@
       "firstSeen": "2026-06-22",
       "lastSeen": "2026-06-22",
       "followupDay": 7,
-      "informationIncrementScore": 78,
-      "latestHeadline": "美伊瑞士谈判启动，却被威胁、黎巴嫩战火和霍尔木兹争议夹击"
+      "informationIncrementScore": 82,
+      "latestHeadline": "美伊代表团在瑞士展开谈判，特朗普却再次威胁发动打击"
     },
     {
       "storyId": "world_bank_global_growth_gep_june_2026",
@@ -1530,6 +1530,78 @@
       "followupDay": 1,
       "informationIncrementScore": 25,
       "latestHeadline": "非洲与加勒比赔偿计划后续"
+    },
+    {
+      "storyId": "world_cup_japan_spain_curacao_june21_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "日本、西班牙双双4:0大胜，库拉索拿到队史世界杯第一分"
+    },
+    {
+      "storyId": "colombia_presidential_runoff_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "哥伦比亚总统决选进入最后计票，右翼候选人暂时领先"
+    },
+    {
+      "storyId": "uk_starmer_political_future_june22_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
+      "latestHeadline": "斯塔默可能最早周一决定政治去留"
+    },
+    {
+      "storyId": "europe_heatwave_school_closures_june22_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 2,
+      "informationIncrementScore": 75,
+      "latestHeadline": "欧洲多地气温逼近40℃，法国关闭数百所学校并取消列车"
+    },
+    {
+      "storyId": "qatar_ras_laffan_gas_explosion_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "卡塔尔拉斯拉凡天然气工厂发生爆炸，火势已被控制"
+    },
+    {
+      "storyId": "taiwan_five_day_combat_readiness_drills_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "台湾将举行连续五天战备演练"
+    },
+    {
+      "storyId": "bolivia_state_emergency_blockades_ease_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "玻利维亚宣布紧急状态后，封路与物资短缺开始缓解"
+    },
+    {
+      "storyId": "germany_knds_stake_ipo_2026",
+      "status": "new",
+      "firstSeen": "2026-06-22",
+      "lastSeen": "2026-06-22",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "德国政府将收购军工企业KNDS部分股权，为其上市扫清障碍"
     }
   ]
 }
