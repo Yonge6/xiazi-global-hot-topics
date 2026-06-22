@@ -1,0 +1,518 @@
+{
+  "id": "10000000-0000-4000-8000-000000000006",
+  "slug": "2026-06-19",
+  "assetVersion": "2026-06-19-user-replacement-v2",
+  "issueDate": "2026-06-19",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-06-19T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-18T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000028",
+  "topics": [
+    {
+      "id": "20000000-0000-4000-8000-000000000028",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "world-cup-colombia-uzbekistan",
+      "rank": 1,
+      "category": "sports",
+      "region": "North America",
+      "countryCodes": [
+        "CO",
+        "UZ",
+        "GH",
+        "PA",
+        "CZ",
+        "ZA",
+        "CH",
+        "BA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "world_cup_colombia_uzbekistan_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "哥伦比亚3:1击败世界杯新军乌兹别克斯坦",
+          "headlineView": "强队的价值，不是从不被追平，而是被追平后还能重新掌控比赛",
+          "headlineFull": "哥伦比亚3:1击败世界杯新军乌兹别克斯坦；强队的价值，不是从不被追平，而是被追平后还能重新掌控比赛。",
+          "intro": "哥伦比亚凭借穆尼奥斯、路易斯·迪亚斯和坎帕斯的进球，以3:1战胜首次参加世界杯的乌兹别克斯坦。乌兹别克斯坦一度扳平，并攻入队史世界杯首球，但哥伦比亚迅速回应。同期，加纳1:0巴拿马、捷克1:1南非、瑞士4:1波黑。",
+          "xiaziQuote": "被追平并不可怕，失去重新掌控比赛的能力才可怕。",
+          "doudouQuote": "新军写下了历史，强队顺手拿走了三分。",
+          "footerTakeaway": "哥伦比亚3:1击败乌兹别克斯坦并掌控小组主动；同窗口多场赛果补足世界杯全局。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Colombia beat Uzbekistan 3:1",
+          "headlineView": "the value of a strong team is not never being caught, but taking control again after being caught",
+          "headlineFull": "Colombia beat Uzbekistan 3:1; the value of a strong team is not never being caught, but taking control again after being caught.",
+          "intro": "Colombia defeated World Cup debutant Uzbekistan 3:1 with goals from Munoz, Luis Diaz and Campaz. Uzbekistan briefly leveled the match and scored its first-ever World Cup goal, but Colombia responded quickly. Other results in the same window: Ghana 1:0 Panama, Czech Republic 1:1 South Africa, Switzerland 4:1 Bosnia.",
+          "xiaziQuote": "Being level is not the problem. Losing the ability to regain control is.",
+          "doudouQuote": "The newcomer made history. The favorite took the points.",
+          "footerTakeaway": "Colombia beat Uzbekistan 3:1 and took early control; other window results round out the World Cup picture."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000089",
+          "topicId": "20000000-0000-4000-8000-000000000028",
+          "title": "Uzbekistan 1-3 Colombia: World Cup 2026 - as it happened",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/live/2026/jun/18/fifa-world-cup-2026-live-uzbekistan-v-colombia-updates-uzb-vs-col-group-k-match-score-latest",
+          "publishedAt": "2026-06-18T04:26:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000029",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "us-iran-agreement-implementation",
+      "rank": 2,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "OM"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "us_iran_peace_framework_2026",
+      "storyStatus": "followup",
+      "followupDay": 4,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美伊协议",
+          "headlineFact": "美伊协议正式生效，油轮重新驶过霍尔木兹海峡",
+          "headlineView": "和平落地的第一条证据，是航道恢复、风险价格回落",
+          "headlineFull": "美伊协议正式生效，油轮重新驶过霍尔木兹海峡；和平落地的第一条证据，是航道恢复、风险价格回落。",
+          "intro": "美国宣布解除对伊朗的封锁，油轮重新通过霍尔木兹海峡，国际油价一度回落至战争爆发前后的低位。不过，伊朗核问题、黎巴嫩局势及协议执行方式仍存在分歧，未来60天谈判才是真正的考验。",
+          "xiaziQuote": "文件写的是承诺，重新流动的船只才是现实。",
+          "doudouQuote": "航道先通了，但和平这艘船还不能关掉雷达。",
+          "footerTakeaway": "协议从签署进入执行，航道恢复和油价回落是第一批可观察信号，但60天谈判仍决定成败。"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East",
+          "headlineFact": "The U.S.-Iran agreement has taken effect",
+          "headlineView": "the first proof of peace is ships moving again and risk prices falling back",
+          "headlineFull": "The U.S.-Iran agreement has taken effect; the first proof of peace is ships moving again and risk prices falling back.",
+          "intro": "The agreement has moved from signature to implementation. Tankers have resumed crossing the Strait of Hormuz and oil prices briefly eased, showing the first practical effects. But Iran’s nuclear issue, regional tensions and the next 60 days of talks will decide whether the framework can truly hold.",
+          "xiaziQuote": "A signed document is a promise. Moving ships are reality.",
+          "doudouQuote": "The route is open again, but peace still needs its radar on.",
+          "footerTakeaway": "The agreement has moved into execution; shipping and price signals are the first test, while 60-day talks remain decisive."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000090",
+          "topicId": "20000000-0000-4000-8000-000000000029",
+          "title": "Live Updates: U.S.-Iran deal signing gets more ships moving in Strait of Hormuz",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-deal-strait-of-hormuz/",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000030",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "ukraine-moscow-refinery-drone-strike",
+      "rank": 3,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "ukraine_moscow_refinery_drone_strike_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌局势",
+          "headlineFact": "乌克兰无人机再次击中莫斯科炼油厂",
+          "headlineView": "当战争越来越靠近首都，战略压力就很难继续留在前线",
+          "headlineFull": "乌克兰无人机再次击中莫斯科炼油厂；当战争越来越靠近首都，战略压力就很难继续留在前线。",
+          "intro": "乌克兰对莫斯科发动大规模无人机袭击，并再次击中当地炼油设施。俄罗斯称拦截了大量无人机，但袭击仍造成炼油设施停运、机场短暂停航，并加剧俄罗斯国内燃料供应压力。",
+          "xiaziQuote": "战争一旦越过心理边界，距离本身就会成为武器。",
+          "doudouQuote": "以前前线离首都很远，现在无人机正在重新画地图。",
+          "footerTakeaway": "无人机袭击把能源设施、机场运行和国内燃料压力同时拉进俄乌战场。"
+        },
+        "en-US": {
+          "categoryLabel": "Russia-Ukraine",
+          "headlineFact": "Ukrainian drones hit a Moscow refinery again",
+          "headlineView": "once war moves closer to the capital, distance itself becomes a weapon",
+          "headlineFull": "Ukrainian drones hit a Moscow refinery again; once war moves closer to the capital, distance itself becomes a weapon.",
+          "intro": "A new drone strike again hit refinery infrastructure near Moscow. Russia said many drones were intercepted, but the attack still disrupted refinery activity, briefly affected airport operations and added pressure to domestic fuel supply. When the rear area starts feeling front-line risk, strategic pressure changes shape.",
+          "xiaziQuote": "Once war crosses the psychological boundary, distance becomes a weapon of its own.",
+          "doudouQuote": "The map looks different when drones redraw it from the sky.",
+          "footerTakeaway": "The strike pulled energy infrastructure, airport disruption and fuel pressure into the same escalation picture."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000091",
+          "topicId": "20000000-0000-4000-8000-000000000030",
+          "title": "Moscow oil refinery struck in Ukraine drone attack",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/18/moscow-oil-refinery-on-fire-ukraine-drone-stikes",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000031",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "apple-intel-us-chip-production",
+      "rank": 4,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "apple_intel_us_chip_production_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "半导体",
+          "headlineFact": "特朗普称苹果将与英特尔合作在美国设计和制造芯片",
+          "headlineView": "供应链安全正从政治口号，变成真实订单与产能",
+          "headlineFull": "特朗普称苹果将与英特尔合作在美国设计和制造芯片；供应链安全正从政治口号，变成真实订单与产能。",
+          "intro": "特朗普表示，苹果已同意与英特尔合作，在美国开展芯片设计和制造。这一安排尚未得到苹果和英特尔正式确认，但若能落地，将帮助苹果分散制造风险，也可能成为英特尔晶圆代工业务的重要转折点。",
+          "xiaziQuote": "真正的产业回流，不看讲话有多响，要看订单落在哪座工厂。",
+          "doudouQuote": "苹果芯片要是重新遇见英特尔，这次身份可能完全反过来了。",
+          "footerTakeaway": "苹果与英特尔合作若落地，将把美国芯片制造、供应链韧性和代工战略重新连在一起。"
+        },
+        "en-US": {
+          "categoryLabel": "Semiconductors",
+          "headlineFact": "Trump says Apple may work with Intel on chips in the U.S.",
+          "headlineView": "supply-chain security is turning from slogan into orders and capacity",
+          "headlineFull": "Trump says Apple may work with Intel on chips in the U.S.; supply-chain security is turning from slogan into orders and capacity.",
+          "intro": "Trump said Apple had agreed to work with Intel on chip design and manufacturing in the United States, though neither company had formally confirmed the arrangement at the time. If it materializes, it could diversify Apple’s manufacturing risk and mark a major turning point for Intel’s foundry ambitions.",
+          "xiaziQuote": "Real industrial reshoring is measured by where the orders land, not by how loud the speech sounds.",
+          "doudouQuote": "If Apple meets Intel again, the relationship may look very different this time.",
+          "footerTakeaway": "The reported Apple-Intel arrangement would connect U.S. chipmaking, supply-chain resilience and foundry strategy."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000092",
+          "topicId": "20000000-0000-4000-8000-000000000031",
+          "title": "Trump says Apple to work with Intel to manufacture chips in US",
+          "publisher": "Reuters via Yahoo Finance",
+          "url": "https://ca.finance.yahoo.com/news/trump-says-apple-intel-manufacture-044616416.html",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000032",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "noam-shazeer-openai",
+      "rank": 5,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "noam_shazeer_openai_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI人才争夺",
+          "headlineFact": "Gemini联合负责人Noam Shazeer转投OpenAI",
+          "headlineView": "AI竞赛争夺的不只是模型，更是那些能够造出模型的人",
+          "headlineFull": "Gemini联合负责人Noam Shazeer转投OpenAI；AI竞赛争夺的不只是模型，更是那些能够造出模型的人。",
+          "intro": "Google工程副总裁、Gemini模型联合负责人Noam Shazeer宣布离开Google，加入准备上市的OpenAI。他曾参与撰写推动生成式AI浪潮的Transformer论文，也是Google缩小与OpenAI差距的重要人物。",
+          "xiaziQuote": "技术公司的护城河是模型，模型背后的护城河还是人。",
+          "doudouQuote": "AI人才跳一次槽，可能比一家公司发布十次新品更有影响。",
+          "footerTakeaway": "Noam Shazeer转投OpenAI，说明AI竞赛中的关键资产仍是顶尖研究者和工程组织。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Talent",
+          "headlineFact": "Noam Shazeer leaves Google for OpenAI",
+          "headlineView": "the AI race is not only about models, but about the people who can build them",
+          "headlineFull": "Noam Shazeer leaves Google for OpenAI; the AI race is not only about models, but about the people who can build them.",
+          "intro": "Noam Shazeer, a Gemini co-lead and one of the key figures behind the Transformer paper, is leaving Google to join OpenAI. His move highlights a deeper truth in the AI race: the most strategic assets are often the researchers and builders behind the systems, not just the systems themselves.",
+          "xiaziQuote": "Models may be the moat, but the people behind them are the deeper moat.",
+          "doudouQuote": "One talent move can shake the industry more than ten product launches.",
+          "footerTakeaway": "Noam Shazeer’s move to OpenAI shows that elite researchers and engineering teams remain core AI assets."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000093",
+          "topicId": "20000000-0000-4000-8000-000000000032",
+          "title": "Google's Gemini co-lead Noam Shazeer joins OpenAI after two-year return stint",
+          "publisher": "The Decoder",
+          "url": "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000033",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "china-ai-consumption-measures",
+      "rank": 6,
+      "category": "business",
+      "region": "China",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "china_ai_consumption_measures_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中国AI消费",
+          "headlineFact": "中国发布17项AI促消费措施",
+          "headlineView": "AI的下一阶段，不是增加一个聊天框，而是进入家庭、零售和生活服务",
+          "headlineFull": "中国发布17项AI促消费措施；AI的下一阶段，不是增加一个聊天框，而是进入家庭、零售和生活服务。",
+          "intro": "中国商务部门提出17项措施，推动AI与商品及服务消费融合，包括智能消费电子、人形机器人、零售、公共服务与生活服务。政策重点正从训练更强的模型，转向让AI真正进入消费场景。",
+          "xiaziQuote": "技术只有进入生活，才会从能力变成生产力。",
+          "doudouQuote": "以前大家问AI能做什么，以后要问它能不能把生活做顺一点。",
+          "footerTakeaway": "17项措施把AI从模型训练推向消费电子、机器人、零售和生活服务场景。"
+        },
+        "en-US": {
+          "categoryLabel": "China AI",
+          "headlineFact": "China rolls out 17 measures to boost AI consumption",
+          "headlineView": "the next stage of AI is not another chat box, but entering homes, retail and daily life",
+          "headlineFull": "China rolls out 17 measures to boost AI consumption; the next stage of AI is not another chat box, but entering homes, retail and daily life.",
+          "intro": "Chinese authorities released 17 measures to accelerate the integration of AI into goods and services, covering smart consumer electronics, humanoid robots, retail, public services and life services. The policy focus is shifting from training stronger models to helping AI reach real consumer scenarios.",
+          "xiaziQuote": "Technology becomes productivity only after it enters everyday life.",
+          "doudouQuote": "The next question is not what AI can say, but whether it can make life run more smoothly.",
+          "footerTakeaway": "The measures push AI toward consumer electronics, robots, retail and life services."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000094",
+          "topicId": "20000000-0000-4000-8000-000000000033",
+          "title": "China announces measures to promote AI integration with consumption",
+          "publisher": "Reuters via AsiaOne",
+          "url": "https://www.asiaone.com/china/china-announces-measures-promote-ai-integration-consumption",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000034",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "cuba-economic-reform",
+      "rank": 7,
+      "category": "business",
+      "region": "Latin America",
+      "countryCodes": [
+        "CU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "cuba_economic_reform_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "古巴经济改革",
+          "headlineFact": "古巴提出革命以来规模最大的经济改革之一",
+          "headlineView": "制度的转身，往往不是观念先改变，而是现实先逼到墙角",
+          "headlineFull": "古巴提出革命以来规模最大的经济改革之一；制度的转身，往往不是观念先改变，而是现实先逼到墙角。",
+          "intro": "古巴政府向议会提交大规模改革方案，涉及私人房地产开发、国有企业股份化、私人银行及减少民营企业审批限制。相关措施仍需立法批准，但如果实施，将成为古巴数十年来最重大的市场化转向。",
+          "xiaziQuote": "制度不是不能改变，只是改变通常需要现实支付足够高的学费。",
+          "doudouQuote": "当旧办法走不通，连最厚的墙也会开始寻找一扇门。",
+          "footerTakeaway": "古巴改革方案若获通过，将触及房地产、国企、银行和民营审批等关键制度边界。"
+        },
+        "en-US": {
+          "categoryLabel": "Cuba Reform",
+          "headlineFact": "Cuba proposes one of its biggest economic reforms in decades",
+          "headlineView": "systems often turn not because ideas change first, but because reality forces the turn",
+          "headlineFull": "Cuba proposes one of its biggest economic reforms in decades; systems often turn not because ideas change first, but because reality forces the turn.",
+          "intro": "Cuba submitted a broad reform package touching private real-estate development, state-enterprise shareholding, private banking and fewer approval barriers for private business. The measures still require legislation, but if adopted they would mark one of the country’s most significant market-oriented shifts in decades.",
+          "xiaziQuote": "Institutions can change. Reality simply has to charge enough tuition first.",
+          "doudouQuote": "When the old road stops working, even the thickest wall starts looking for a door.",
+          "footerTakeaway": "The proposal would push Cuba toward broader private activity in property, banking and enterprise reform."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000095",
+          "topicId": "20000000-0000-4000-8000-000000000034",
+          "title": "What to know about Cuba's economic measures aimed at opening up the island's economy",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/758f2199c867472e05e585ccc54a269f",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000035",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "uae-social-media-age-15",
+      "rank": 8,
+      "category": "culture",
+      "region": "Middle East",
+      "countryCodes": [
+        "AE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 86,
+      "storyId": "uae_social_media_age_15_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "未成年人网络保护",
+          "headlineFact": "阿联酋将社交媒体最低使用年龄设为15岁",
+          "headlineView": "数字治理正从提醒家长，走向要求平台证明用户年龄",
+          "headlineFull": "阿联酋将社交媒体最低使用年龄设为15岁；数字治理正从提醒家长，走向要求平台证明用户年龄。",
+          "intro": "阿联酋宣布，未满15岁不得建立或管理社交媒体账号，并要求平台采取数字身份和技术手段验证年龄，而不能仅依赖用户自行填写。阿联酋也成为首个推出此类全国限制的阿拉伯国家。",
+          "xiaziQuote": "保护未成年人，不能只靠一句“请在家长指导下使用”。",
+          "doudouQuote": "平台以前问“你满18岁了吗”，以后可能真的要看证据。",
+          "footerTakeaway": "阿联酋把未成年人网络保护推进到平台年龄验证和数字身份责任层面。"
+        },
+        "en-US": {
+          "categoryLabel": "Youth Safety",
+          "headlineFact": "The UAE sets the minimum social-media age at 15",
+          "headlineView": "digital governance is moving from reminding parents to requiring platforms to verify age",
+          "headlineFull": "The UAE sets the minimum social-media age at 15; digital governance is moving from reminding parents to requiring platforms to verify age.",
+          "intro": "The UAE announced that children under 15 may not create or manage social-media accounts, and that platforms must use identity and technical tools for age verification rather than relying only on self-reported birthdays. It becomes a notable regional example of stricter youth online protection.",
+          "xiaziQuote": "Protecting minors cannot depend on a one-line warning and good luck.",
+          "doudouQuote": "Platforms used to ask if you were old enough. Now they may have to prove it.",
+          "footerTakeaway": "The UAE rule moves youth online protection toward enforceable platform age verification."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000096",
+          "topicId": "20000000-0000-4000-8000-000000000035",
+          "title": "UAE first Arab nation to ban under-15s from using social media",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/news/uae/2026/06/18/uae-sets-15-as-the-minimum-age-to-use-social-media/",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000036",
+      "issueId": "10000000-0000-4000-8000-000000000006",
+      "slug": "spacex-ai-bond-offering",
+      "rank": 9,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "spacex_ai_bond_offering_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "SpaceX与AI资本",
+          "headlineFact": "SpaceX筹备至少200亿美元债券发行",
+          "headlineView": "当火箭公司同时押注AI，资本需求也会像算力一样迅速膨胀",
+          "headlineFull": "SpaceX筹备至少200亿美元债券发行；当火箭公司同时押注AI，资本需求也会像算力一样迅速膨胀。",
+          "intro": "知情人士称，SpaceX的银行团队正准备与投资者讨论至少200亿美元的债券发行，用于为数据中心、计算设备和电力基础设施融资，并置换收购xAI后产生的过桥贷款。发行规模仍可能调整。",
+          "xiaziQuote": "宏大的技术叙事，最后都要回到现金流与融资成本。",
+          "doudouQuote": "火箭烧燃料，AI烧算力，现在两边一起烧钱了。",
+          "footerTakeaway": "SpaceX潜在债券发行显示火箭、AI、数据中心和电力基础设施正在变成同一张资本开支表。"
+        },
+        "en-US": {
+          "categoryLabel": "Space and AI Capital",
+          "headlineFact": "SpaceX prepares a bond deal of at least $20 billion",
+          "headlineView": "when a rocket company also bets on AI, capital needs expand as fast as compute",
+          "headlineFull": "SpaceX prepares a bond deal of at least $20 billion; when a rocket company also bets on AI, capital needs expand as fast as compute.",
+          "intro": "Bankers are reportedly preparing investor discussions for a potential bond issue of at least $20 billion to help fund data centers, compute equipment and power infrastructure, and to refinance bridge debt related to the xAI deal. The exact size may still change, but the direction is clear: rockets and AI are both capital-intensive futures.",
+          "xiaziQuote": "Grand technology stories always return to cash flow and financing cost.",
+          "doudouQuote": "Rockets burn fuel, AI burns compute, and now both are burning capital together.",
+          "footerTakeaway": "The prospective bond deal ties rockets, AI, data centers and power infrastructure into one capital-spending story."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000097",
+          "topicId": "20000000-0000-4000-8000-000000000036",
+          "title": "SpaceX's epic fundraising campaign for AI has only just begun",
+          "publisher": "Los Angeles Times / Bloomberg",
+          "url": "https://www.latimes.com/business/story/2026-06-18/spacexs-epic-fundraising-campaign-for-ai-has-only-just-begun",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

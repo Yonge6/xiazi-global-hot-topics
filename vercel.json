@@ -1,8 +1,15 @@
 {
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": "apps/web/.next",
   "crons": [
     {
       "path": "/api/cron/default-posters/",
-      "schedule": "5 16 * * *"
+      "schedule": "0 21 * * *"
+    },
+    {
+      "path": "/api/internal/content-shadow-compare/",
+      "schedule": "15 22 * * *"
     }
   ]
 }

@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no" />
+  <meta name="theme-color" content="#17162b" />
+  <link rel="icon" href="data:," />
+  <title>接住这句话｜虾子曰英语冒险</title>
+  <style>
+    :root{
+      --bg:#f8efe6;
+      --panel:rgba(255,255,255,.74);
+      --panel-strong:#fff4df;
+      --ink:#26484d;
+      --muted:#7b8a8d;
+      --gold:#f5c86b;
+      --orange:#e98f62;
+      --coral:#e97884;
+      --teal:#2b8b8f;
+      --mint:#9bd8d2;
+      --cream:#fff1d9;
+      --sky:#dff2ee;
+      --lilac:#c7b7e7;
+      --rose:#f2b7b5;
+      --success:#3abf7e;
+      --danger:#ff6478;
+      --shadow:0 18px 46px rgba(77,94,104,.16);
+      --radius:24px;
+      --safe-bottom:max(18px,env(safe-area-inset-bottom));
+    }
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+    html,body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font-family:"Baloo 2","Nunito","Avenir Next",ui-rounded,"SF Pro Rounded","PingFang SC","Microsoft YaHei",system-ui,sans-serif;overflow-x:hidden}
+    body{background:
+      radial-gradient(circle at 8% 4%,rgba(233,143,98,.22),transparent 29%),
+      radial-gradient(circle at 92% 10%,rgba(155,216,210,.32),transparent 31%),
+      radial-gradient(circle at 50% 82%,rgba(199,183,231,.23),transparent 40%),
+      linear-gradient(180deg,#f8efe6 0%,#e6f5f0 48%,#fff0dc 100%);}
+    button{font:inherit;color:inherit}
+    .app{width:min(100%,520px);min-height:100dvh;margin:auto;position:relative;overflow:hidden}
+    .screen{display:none;min-height:100dvh;padding:20px 18px calc(28px + var(--safe-bottom));position:relative}
+    .screen.active{display:block;animation:screenIn .34s ease both}
+    @keyframes screenIn{from{opacity:0;transform:translateY(10px) scale(.99)}to{opacity:1;transform:none}}
+    .stars,.mist,.orbs{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+    .stars:before,.stars:after{content:"";position:absolute;inset:-40%;background-image:
+      radial-gradient(circle,#2b8b8f 0 1px,transparent 1.5px),
+      radial-gradient(circle,#e98f62 0 1px,transparent 1.8px);
+      background-size:43px 43px,71px 71px;opacity:.09;animation:drift 22s linear infinite}
+    .stars:after{transform:rotate(25deg);opacity:.07;animation-duration:34s}
+    @keyframes drift{to{translate:0 120px}}
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;position:relative;z-index:3}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.02em}
+    .brand-badge{width:44px;height:44px;border-radius:10px;display:grid;place-items:center;background:#fff;border:2px solid rgba(43,139,143,.16);box-shadow:8px 8px 0 rgba(199,183,231,.22);overflow:hidden;transform:rotate(-2deg)}
+    .brand-badge img{width:128%;height:128%;object-fit:cover}
+    .mini-stats{display:flex;gap:8px}
+    .pill{background:rgba(255,255,255,.78);border:1px solid rgba(43,139,143,.16);padding:8px 12px;border-radius:10px;font-size:13px;font-weight:900;backdrop-filter:blur(12px);box-shadow:6px 6px 0 rgba(155,216,210,.2);clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px)}
+    .hero{position:relative;z-index:2;padding:42px 2px 8px;text-align:center}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;padding:9px 15px;border-radius:8px;background:rgba(255,255,255,.42);border:1px solid rgba(43,139,143,.18);color:#2b777b;font-size:12px;font-weight:1000;letter-spacing:.12em;text-transform:uppercase;box-shadow:8px 8px 0 rgba(155,216,210,.18);clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px)}
+    h1{font-size:clamp(40px,10vw,58px);line-height:.94;margin:18px 0 13px;letter-spacing:-.035em}
+    .hero .sub{color:var(--muted);line-height:1.65;font-size:15px;max-width:390px;margin:0 auto}
+    .logo-line{display:block;background:linear-gradient(100deg,#2b8b8f,#e98f62 48%,#c7a15a 74%,#26484d);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .mascot-stage{height:292px;position:relative;margin:12px -8px 4px}
+    .planet{position:absolute;z-index:0;left:50%;bottom:10px;width:320px;height:150px;transform:translateX(-50%) skewX(-12deg) rotate(-2deg);border-radius:10px 10px 36px 36px;
+      background:linear-gradient(135deg,#fff0ce 0 34%,#9bd8d2 34% 66%,#6fb9b8 66%);
+      box-shadow:0 22px 38px rgba(77,94,104,.15),inset 0 18px 28px rgba(255,255,255,.46)}
+    .planet:before{content:"";position:absolute;left:45px;top:-34px;width:92px;height:92px;background:#f2b7b5;transform:skewX(0) rotate(45deg);box-shadow:86px -25px 0 #c7b7e7,155px 26px 0 #f5c86b}
+    .planet:after{content:"";position:absolute;right:32px;bottom:26px;width:120px;height:20px;background:rgba(255,255,255,.42);transform:rotate(-7deg);border-radius:2px}
+    .iso-step{position:absolute;z-index:1;width:84px;height:48px;background:#fff3d9;transform:skewY(-28deg);box-shadow:18px 18px 0 #9bd8d2,36px 36px 0 #78bfc0;border:1px solid rgba(43,139,143,.12)}
+    .iso-step.s1{left:44px;bottom:86px}
+    .iso-step.s2{right:68px;bottom:158px;transform:skewY(28deg) scale(.72);background:#f6d8c9;box-shadow:-16px 16px 0 #c7b7e7,-32px 32px 0 #9bd8d2}
+    .char{position:absolute;z-index:3;filter:drop-shadow(0 18px 16px rgba(0,0,0,.32));transition:.3s}
+    .char img{width:100%;height:100%;object-fit:contain;display:block}
+    .char.shrimp{left:-4px;bottom:34px;width:230px;height:230px;animation:floatA 3.4s ease-in-out infinite}
+    .char.dragon{right:-2px;bottom:44px;width:195px;height:195px;animation:floatB 3.1s ease-in-out infinite}
+    @keyframes floatA{50%{transform:translateY(-8px) rotate(-1deg)}} @keyframes floatB{50%{transform:translateY(-10px) rotate(1.8deg)}}
+    .speech-tag{position:absolute;z-index:5;padding:9px 13px;background:#fff;color:#26484d;border-radius:7px;font-size:12px;font-weight:1000;box-shadow:7px 7px 0 rgba(199,183,231,.22);border:1px solid rgba(43,139,143,.12);clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+    .speech-tag.a{left:9px;top:52px;transform:rotate(-5deg)}
+    .speech-tag.b{right:4px;top:28px;transform:rotate(5deg)}
+    .speech-tag:after{content:"";position:absolute;bottom:-6px;width:13px;height:13px;background:#fff;transform:rotate(45deg);border-right:1px solid rgba(43,139,143,.12);border-bottom:1px solid rgba(43,139,143,.12)}
+    .speech-tag.a:after{right:22px}.speech-tag.b:after{left:22px}
+    .cta{width:100%;border:1px solid rgba(38,72,77,.08);border-radius:8px;padding:18px 20px;font-weight:1000;font-size:17px;letter-spacing:.04em;cursor:pointer;position:relative;overflow:hidden;transition:.18s;box-shadow:10px 10px 0 rgba(38,72,77,.13);clip-path:polygon(18px 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%,0 18px)}
+    .cta:active{transform:translateY(2px) scale(.985)}
+    .cta.primary{background:linear-gradient(135deg,#e98f62 0 48%,#e97884 48% 68%,#2b8b8f 68%);color:#fff}
+    .cta.secondary{background:rgba(255,255,255,.78);border:1px solid rgba(43,139,143,.14);box-shadow:8px 8px 0 rgba(155,216,210,.16);color:#26484d}
+    .cta .spark{position:absolute;inset:0;background:linear-gradient(110deg,transparent 25%,rgba(255,255,255,.38),transparent 62%);transform:translateX(-120%);animation:shine 3.6s infinite}
+    @keyframes shine{15%,100%{transform:translateX(120%)}}
+    .today-card{margin-top:15px;padding:16px;border-radius:8px;background:rgba(255,255,255,.74);border:1px solid rgba(43,139,143,.13);display:flex;align-items:center;gap:13px;text-align:left;box-shadow:10px 10px 0 rgba(199,183,231,.16);clip-path:polygon(16px 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%,0 16px)}
+    .today-card .icon{width:48px;height:48px;border-radius:7px;background:linear-gradient(135deg,rgba(245,200,107,.38) 0 50%,rgba(155,216,210,.45) 50%);display:grid;place-items:center;font-size:24px;box-shadow:5px 5px 0 rgba(233,143,98,.18);clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+    .today-card strong{display:block;margin-bottom:4px}.today-card small{color:var(--muted);line-height:1.35}
+    .map-title{position:relative;z-index:2;margin:24px 0 8px}.map-title h2{margin:0;font-size:29px}.map-title p{margin:7px 0;color:var(--muted);font-size:14px}
+    .path{position:relative;padding:20px 0 40px;z-index:2}
+    .path:before{content:"";position:absolute;left:50%;top:16px;bottom:30px;width:5px;border-radius:9px;background:linear-gradient(#f5c86b,#e97884 46%,#c7b7e7 74%,rgba(255,255,255,.1));transform:translateX(-50%);opacity:.65}
+    .level{position:relative;width:78%;min-height:128px;margin:0 0 30px;padding:17px 18px;border-radius:8px;border:1px solid rgba(43,139,143,.13);background:linear-gradient(135deg,rgba(255,255,255,.95) 0 58%,rgba(255,242,215,.95) 58%);box-shadow:10px 10px 0 rgba(155,216,210,.18);cursor:pointer;clip-path:polygon(16px 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%,0 16px)}
+    .level:nth-child(even){margin-left:auto}
+    .level.locked{opacity:.48;filter:saturate(.4)}
+    .level:before{content:"";position:absolute;width:28px;height:28px;border:7px solid #fff8e9;border-radius:50%;background:var(--orange);top:44px}
+    .level:nth-child(odd):before{right:-61px}.level:nth-child(even):before{left:-61px}
+    .level .zone{font-size:11px;letter-spacing:.13em;color:#0f7a82;font-weight:1000;text-transform:uppercase}
+    .level h3{font-size:20px;margin:7px 0 5px}.level p{margin:0;color:var(--muted);font-size:13px;line-height:1.45}
+    .level .rewards{display:flex;gap:7px;margin-top:11px}.chip{font-size:11px;padding:6px 8px;border-radius:9px;background:rgba(255,255,255,.08);font-weight:800}
+    .boss{background:linear-gradient(145deg,rgba(255,236,225,.96),rgba(255,246,207,.96));border-color:rgba(255,101,124,.28)}
+    .hud{position:relative;z-index:5;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px}
+    .back{width:44px;height:44px;border-radius:8px;border:1px solid rgba(43,139,143,.14);background:rgba(255,255,255,.78);font-size:20px;color:#26484d;box-shadow:6px 6px 0 rgba(155,216,210,.18);clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+    .round{font-size:12px;font-weight:1000;text-align:center;color:#0f7a82;text-shadow:0 2px 0 rgba(255,255,255,.78)}
+    .hearts{text-align:right;font-size:17px;letter-spacing:2px}
+    .battle-zone{position:relative;z-index:2;margin-top:12px;min-height:360px;border-radius:10px;overflow:hidden;border:1px solid rgba(43,139,143,.13);background:
+      radial-gradient(circle at 50% 100%,rgba(245,200,107,.36),transparent 36%),
+      radial-gradient(circle at 16% 18%,rgba(242,183,181,.22),transparent 26%),
+      linear-gradient(180deg,#e6f5f0,#c8ebe4 48%,#fff0d3);
+      box-shadow:var(--shadow)}
+    .battle-zone:before{content:"";position:absolute;left:12%;right:12%;bottom:18px;height:116px;border-radius:10px;background:linear-gradient(135deg,#fff0ce 0 32%,#9bd8d2 32% 64%,#6fb9b8 64%);transform:skewX(-16deg) rotate(-1deg);box-shadow:0 24px 38px rgba(77,94,104,.15),inset 0 16px 28px rgba(255,255,255,.44)}
+    .moon{position:absolute;right:38px;top:32px;width:58px;height:58px;border-radius:50%;background:#ffe7a7;box-shadow:0 0 28px rgba(255,231,167,.52)}
+    .city{position:absolute;left:0;right:0;bottom:92px;height:142px;opacity:.86;background:
+      linear-gradient(90deg,transparent 0 8%,#9bd8d2 8% 16%,transparent 16% 22%,#fff0ce 22% 32%,transparent 32% 39%,#c7b7e7 39% 49%,transparent 49% 56%,#f2b7b5 56% 68%,transparent 68% 74%,#9bd8d2 74% 86%,transparent 86%);}
+    .city:before{content:"";position:absolute;left:42px;top:-26px;width:82px;height:54px;background:#fff3d9;transform:skewY(-28deg);box-shadow:22px 22px 0 #8bcac6,155px 15px 0 #f2b7b5,178px 37px 0 #c7b7e7}
+    .city:after{content:"";position:absolute;right:54px;top:18px;width:74px;height:74px;background:#f5c86b;transform:rotate(45deg) skew(10deg,10deg);box-shadow:-64px 55px 0 #fff3d9}
+    .enemy{position:absolute;left:50%;top:68px;transform:translateX(-50%);width:190px;text-align:center}
+    .enemy-body{height:132px;display:grid;place-items:center;font-size:92px;filter:drop-shadow(0 16px 14px rgba(0,0,0,.3));animation:bob 2.2s ease-in-out infinite}
+    @keyframes bob{50%{transform:translateY(-9px) rotate(-2deg)}}
+    .enemy-name{display:inline-block;max-width:180px;padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.82);font-size:12px;font-weight:1000;line-height:1.2;color:#11383c;box-shadow:0 8px 18px rgba(15,122,130,.13)}
+    .hpbar{width:152px;height:11px;margin:8px auto;background:rgba(17,56,60,.16);border:2px solid rgba(255,255,255,.55);border-radius:20px;overflow:hidden}
+    .hpfill{height:100%;width:100%;background:linear-gradient(90deg,#ff4668,#ffbd65);transition:width .45s cubic-bezier(.2,.8,.2,1)}
+    .fighters{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;align-items:end;padding:0 8px}
+    .fighter{width:142px;height:142px;display:grid;place-items:center;filter:drop-shadow(0 14px 11px rgba(0,0,0,.22))}
+    .fighter img{width:100%;height:100%;object-fit:contain;display:block}
+    .combo{position:absolute;left:18px;top:20px;font-weight:1000;font-size:20px;transform:rotate(-4deg);text-shadow:0 3px 0 rgba(0,0,0,.25)}
+    .combo small{display:block;font-size:10px;letter-spacing:.12em;color:#c7a15a}
+    .prompt-panel{position:relative;z-index:6;margin-top:-10px;padding:19px 16px 17px;background:rgba(255,255,255,.95);border:1px solid rgba(43,139,143,.13);border-radius:10px;box-shadow:10px -10px 0 rgba(199,183,231,.14);clip-path:polygon(18px 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%,0 18px)}
+    .timerline{height:6px;background:rgba(255,255,255,.1);border-radius:9px;overflow:hidden;margin-bottom:14px}
+    .timerfill{height:100%;width:100%;background:linear-gradient(90deg,var(--teal),var(--gold),var(--coral));transform-origin:left;transition:width .1s linear}
+    .speaker-row{display:flex;align-items:center;gap:11px}
+    .npc-avatar{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,#c7b7e7 0 50%,#9bd8d2 50%);display:grid;place-items:center;font-size:25px;flex:none;box-shadow:5px 5px 0 rgba(43,139,143,.16);clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+    .line-label{font-size:10px;color:#bcb6df;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+    .line-text{font-size:20px;font-weight:1000;margin-top:3px;line-height:1.25}
+    .listen{margin-left:auto;width:45px;height:45px;border-radius:8px;border:1px solid rgba(43,139,143,.12);background:linear-gradient(135deg,#9bd8d2 0 50%,#2b8b8f 50%);box-shadow:5px 5px 0 rgba(38,72,77,.13);font-size:20px;clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+    .instruction{margin:15px 0 10px;font-size:13px;color:var(--muted);font-weight:700}
+    .choices{display:grid;gap:9px}
+    .choice{border:1px solid rgba(43,139,143,.13);background:linear-gradient(135deg,rgba(255,248,233,.84) 0 78%,rgba(155,216,210,.18) 78%);border-radius:8px;padding:13px 14px;text-align:left;font-size:14px;font-weight:850;display:flex;align-items:center;gap:10px;transition:.15s;color:#26484d;box-shadow:5px 5px 0 rgba(155,216,210,.12);clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px)}
+    .choice:active{transform:scale(.985)}
+    .choice .letter{width:28px;height:28px;border-radius:5px;display:grid;place-items:center;background:#e8f3ee;font-size:11px;color:#2b8b8f;transform:rotate(45deg);box-shadow:3px 3px 0 rgba(199,183,231,.18)}
+    .choice .letter span{display:block;transform:rotate(-45deg)}
+    .choice.correct{border-color:rgba(118,228,141,.65);background:rgba(118,228,141,.15)}
+    .choice.wrong{border-color:rgba(255,100,120,.65);background:rgba(255,100,120,.14);animation:shake .35s}
+    @keyframes shake{25%{transform:translateX(-5px)}50%{transform:translateX(5px)}75%{transform:translateX(-3px)}}
+    .speak-area{display:none;text-align:center}.speak-area.active{display:block}
+    .mic{width:104px;height:104px;border-radius:14px;border:1px solid rgba(43,139,143,.12);background:linear-gradient(135deg,#e98f62 0 40%,#e97884 40% 70%,#c7b7e7 70%);box-shadow:10px 10px 0 rgba(38,72,77,.14),inset 0 3px 12px rgba(255,255,255,.28);font-size:38px;cursor:pointer;transition:.16s;clip-path:polygon(22px 0,100% 0,100% calc(100% - 22px),calc(100% - 22px) 100%,0 100%,0 22px)}
+    .mic.listening{animation:pulse 1s infinite;background:linear-gradient(135deg,#9bd8d2 0 45%,#2b8b8f 45% 72%,#c7b7e7 72%)}
+    @keyframes pulse{50%{box-shadow:0 0 0 17px rgba(62,214,197,.08),0 15px 38px rgba(62,214,197,.3)}}
+    .speak-hint{font-size:13px;color:var(--muted);margin:9px 0 3px}.transcript{min-height:28px;font-size:16px;font-weight:900;color:#fff3be}
+    .quick-replies{display:grid;grid-template-columns:1fr;gap:8px;margin-top:12px}
+    .quick-reply{border:1px solid rgba(43,139,143,.13);background:rgba(255,248,233,.8);border-radius:8px;padding:11px;font-weight:800;font-size:13px;color:#26484d;box-shadow:4px 4px 0 rgba(199,183,231,.12);clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+    .skills{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+    .skill{border:1px solid rgba(43,139,143,.13);background:linear-gradient(135deg,rgba(255,248,233,.82) 0 72%,rgba(199,183,231,.2) 72%);border-radius:8px;padding:10px;display:flex;gap:9px;align-items:center;text-align:left;color:#26484d;box-shadow:5px 5px 0 rgba(155,216,210,.12);clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px)}
+    .skill .si{width:38px;height:38px;border-radius:6px;display:grid;place-items:center;background:#fff;overflow:hidden;box-shadow:3px 3px 0 rgba(233,143,98,.16)}
+    .skill .si img{width:130%;height:130%;object-fit:cover}
+    .skill strong{display:block;font-size:12px}.skill small{display:block;color:var(--muted);font-size:10px;margin-top:2px}
+    .skill.used{opacity:.35}
+    .toast{position:fixed;left:50%;top:78px;translate:-50% -20px;z-index:50;width:min(calc(100% - 36px),440px);padding:13px 16px;border-radius:17px;background:rgba(18,18,39,.94);border:1px solid rgba(255,255,255,.14);box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.25s;text-align:center;font-weight:900;font-size:13px}
+    .toast.show{opacity:1;translate:-50% 0}
+    .damage{position:absolute;z-index:12;left:50%;top:120px;font-size:34px;font-weight:1000;color:#fff0a8;text-shadow:0 4px 0 #9c3750;opacity:0;pointer-events:none}
+    .damage.hit{animation:damage .75s ease both}
+    @keyframes damage{0%{opacity:0;transform:translate(-50%,15px) scale(.6)}25%{opacity:1;transform:translate(-50%,-5px) scale(1.15)}100%{opacity:0;transform:translate(-50%,-45px)}}
+    .result-wrap{position:relative;z-index:2;text-align:center;padding-top:50px}
+    .result-crown{width:150px;height:150px;margin:auto;border-radius:42px;overflow:hidden;background:#fff;box-shadow:var(--shadow);animation:crown 1.6s ease-in-out infinite}
+    .result-crown img{width:128%;height:128%;object-fit:cover;transform:translate(-10%,-10%)}
+    @keyframes crown{50%{transform:translateY(-7px) rotate(3deg)}}
+    .result-wrap h2{font-size:38px;line-height:1;margin:10px 0}
+    .result-wrap .lead{color:var(--muted);line-height:1.55;margin:0 auto 22px;max-width:370px}
+    .score-card{background:linear-gradient(135deg,rgba(255,255,255,.96) 0 70%,rgba(255,246,224,.96) 70%);border:1px solid rgba(43,139,143,.13);border-radius:10px;padding:19px;box-shadow:10px 10px 0 rgba(155,216,210,.16);text-align:left;color:#26484d;clip-path:polygon(18px 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%,0 18px)}
+    .score-big{display:flex;justify-content:space-between;align-items:center;padding-bottom:15px;border-bottom:1px solid rgba(15,122,130,.12)}
+    .score-big strong{font-size:42px}.score-big span{color:var(--muted);font-size:13px}
+    .metric{display:flex;justify-content:space-between;gap:14px;padding:12px 0;border-bottom:1px solid rgba(15,122,130,.1);font-size:13px}.metric:last-child{border:0}.metric b{color:#0f7a82}
+    .quote{margin:17px 0;padding:15px;border-radius:8px;background:rgba(155,216,210,.16);border:1px solid rgba(43,139,143,.17);line-height:1.5;font-size:14px;box-shadow:6px 6px 0 rgba(199,183,231,.12);clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
+    .reward-row{display:flex;gap:9px;justify-content:center;margin:17px 0 22px}.reward{width:76px;padding:11px 5px;border-radius:8px;background:rgba(255,255,255,.64);border:1px solid rgba(43,139,143,.09);font-size:11px;box-shadow:5px 5px 0 rgba(155,216,210,.12);clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}.reward em{font-style:normal;display:block;font-size:25px;margin-bottom:5px}
+    .overlay{position:fixed;inset:0;background:rgba(4,5,16,.72);backdrop-filter:blur(10px);z-index:40;display:none;align-items:end;justify-content:center}
+    .overlay.show{display:flex}
+    .sheet{width:min(100%,520px);padding:24px 19px calc(22px + var(--safe-bottom));border-radius:12px 12px 0 0;background:#fff8ee;border:1px solid rgba(43,139,143,.12);animation:sheet .3s ease both;color:#26484d}
+    @keyframes sheet{from{transform:translateY(100%)}}
+    .sheet h3{margin:0 0 6px;font-size:24px}.sheet p{color:var(--muted);line-height:1.55;font-size:14px}
+    .phrase{padding:13px;border-radius:8px;background:rgba(155,216,210,.16);margin:8px 0;font-weight:900;clip-path:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px)}
+    canvas#fx{position:fixed;inset:0;z-index:99;pointer-events:none}
+    .tiny-note{text-align:center;color:#8885a6;font-size:11px;margin-top:11px;line-height:1.5}
+    @media (max-height:720px){
+      .screen{padding-top:12px}.battle-zone{min-height:310px}.enemy{top:48px}.enemy-body{height:115px;font-size:78px}.fighters{bottom:5px}.prompt-panel{padding-top:14px}.mascot-stage{height:240px}.planet{width:285px;height:130px}.char.shrimp{width:180px}.char.dragon{width:145px}
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+  <div class="stars"></div>
+  <canvas id="fx"></canvas>
+  <div class="toast" id="toast"></div>
+
+  <section class="screen active" id="home">
+    <div class="topbar">
+      <div class="brand"><span class="brand-badge"><img src="assets/xiazi-logo.png" alt="虾子曰"></span><span>虾子曰 · 英语冒险</span></div>
+      <div class="mini-stats"><span class="pill">🔥 <b id="streakHome">3</b></span><span class="pill">💎 <b id="gemsHome">120</b></span></div>
+    </div>
+    <div class="hero">
+      <div class="eyebrow">Conversation Quest · Season 01</div>
+      <h1><span class="logo-line">接住这句话</span></h1>
+      <p class="sub">语言大陆正在被“冷场怪”吞噬。听懂对方、马上接话，用你的声音把世界重新点亮。</p>
+    </div>
+    <div class="mascot-stage">
+      <div class="speech-tag a">别背答案，接住就赢。</div>
+      <div class="speech-tag b">我来帮你重听！</div>
+      <div class="iso-step s1"></div>
+      <div class="iso-step s2"></div>
+      <div class="planet"></div>
+      <div class="char shrimp"><img src="assets/xiazi-character.png" alt="虾子曰角色"></div>
+      <div class="char dragon"><img src="assets/doudou-dragon.png" alt="豆豆龙"></div>
+    </div>
+    <button class="cta primary" id="startBtn"><span class="spark"></span>进入今天的冒险　⚔️</button>
+    <div class="today-card">
+      <div class="icon">🌃</div>
+      <div><strong>今日副本：夜市初遇</strong><small>5 个回合 · 兴趣与邀请 · 约 4 分钟</small></div>
+      <span style="margin-left:auto;color:var(--gold);font-weight:1000">+80 XP</span>
+    </div>
+    <div class="tiny-note">原型使用浏览器语音能力；允许麦克风后可直接开口，无法识别时也能用快捷回应继续战斗。</div>
+  </section>
+
+  <section class="screen" id="map">
+    <div class="topbar">
+      <button class="back" data-go="home">‹</button>
+      <div class="brand">语言大陆</div>
+      <div class="mini-stats"><span class="pill">⚡ 5/5</span></div>
+    </div>
+    <div class="map-title"><h2>选择冒险区域</h2><p>每个区域都训练一种真实聊天能力。</p></div>
+    <div class="path">
+      <article class="level" data-level="market">
+        <div class="zone">Chapter 01 · Open</div><h3>🌃 夜市初遇</h3>
+        <p>在嘈杂环境里听懂兴趣、邀请和简单追问。</p>
+        <div class="rewards"><span class="chip">5 回合</span><span class="chip">救场句 ×1</span><span class="chip">+80 XP</span></div>
+      </article>
+      <article class="level locked">
+        <div class="zone">Chapter 02 · 需要 3 星</div><h3>🎬 电影失控夜</h3>
+        <p>表达喜欢、不喜欢，并把聊天延长三轮。</p>
+        <div class="rewards"><span class="chip">剧情分支</span><span class="chip">角色卡</span></div>
+      </article>
+      <article class="level locked">
+        <div class="zone">Chapter 03 · 需要 Lv.5</div><h3>🚀 火星候机厅</h3>
+        <p>在陌生人追问下介绍工作、梦想和自己。</p>
+        <div class="rewards"><span class="chip">Boss 对话</span><span class="chip">稀有称号</span></div>
+      </article>
+      <article class="level boss locked">
+        <div class="zone">World Boss</div><h3>🐙 终极冷场王</h3>
+        <p>没有标准答案。坚持聊满 60 秒，就是胜利。</p>
+        <div class="rewards"><span class="chip">无限分支</span><span class="chip">传说徽章</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="screen" id="battle">
+    <div class="hud">
+      <button class="back" id="quitBattle">×</button>
+      <div class="round" id="roundLabel">ROUND 1 / 5</div>
+      <div class="hearts" id="hearts">❤️❤️❤️</div>
+    </div>
+    <div class="battle-zone" id="battleZone">
+      <div class="moon"></div><div class="city"></div>
+      <div class="combo"><small>FLOW COMBO</small><span id="combo">×0</span></div>
+      <div class="damage" id="damage">NICE! -25</div>
+      <div class="enemy">
+        <div class="enemy-body" id="enemyEmoji">👾</div>
+        <div class="enemy-name" id="enemyName">冷场小怪 · Awkward Blob</div>
+        <div class="hpbar"><div class="hpfill" id="hpfill"></div></div>
+      </div>
+      <div class="fighters">
+        <div class="fighter"><img src="assets/xiazi-character.png" alt="虾子曰角色"></div>
+        <div class="fighter"><img src="assets/doudou-dragon.png" alt="豆豆龙"></div>
+      </div>
+    </div>
+
+    <div class="prompt-panel">
+      <div class="timerline"><div class="timerfill" id="timerfill"></div></div>
+      <div class="speaker-row">
+        <div class="npc-avatar" id="npcAvatar">🧑‍🎤</div>
+        <div><div class="line-label" id="lineLabel">陌生人向你说</div><div class="line-text" id="lineText">What do you do for fun?</div></div>
+        <button class="listen" id="listenBtn" aria-label="播放">🔊</button>
+      </div>
+
+      <div id="intentStage">
+        <div class="instruction">第一击：他想表达什么？</div>
+        <div class="choices" id="intentChoices"></div>
+      </div>
+
+      <div class="speak-area" id="speakStage">
+        <div class="instruction">终结技：3 秒内接住这句话</div>
+        <button class="mic" id="micBtn">🎙️</button>
+        <div class="speak-hint" id="speakHint">按一下开始说，再按一下结束</div>
+        <div class="transcript" id="transcript"></div>
+        <div class="quick-replies" id="quickReplies"></div>
+      </div>
+
+      <div class="skills">
+        <button class="skill" id="shrimpSkill">
+          <span class="si"><img src="assets/xiazi-logo.png" alt=""></span><span><strong>虾式救场</strong><small>偷看一句自然回应</small></span>
+        </button>
+        <button class="skill" id="dragonSkill">
+          <span class="si"><img src="assets/doudou-dragon.png" alt=""></span><span><strong>回声龙息</strong><small>减速重听 + 延长时间</small></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="screen" id="result">
+    <div class="result-wrap">
+      <div class="result-crown"><img src="assets/doudou-badge.png" alt="豆豆龙徽章"></div>
+      <h2>冷场被你打跑了</h2>
+      <p class="lead">你没有背标准答案，却连续把真实对话接了下去。这才是今天真正升级的能力。</p>
+      <div class="score-card">
+        <div class="score-big"><div><span>FLOW SCORE</span><br><strong id="finalScore">860</strong></div><div style="text-align:right"><span>评级</span><br><strong style="color:var(--gold)">S</strong></div></div>
+        <div class="metric"><span>成功接住</span><b id="caughtMetric">5 / 5 句</b></div>
+        <div class="metric"><span>不看提示开口</span><b id="freeMetric">3 次</b></div>
+        <div class="metric"><span>最长连击</span><b id="comboMetric">×5</b></div>
+        <div class="metric"><span>今日新能力</span><b>邀请与兴趣回应</b></div>
+      </div>
+      <div class="quote">“你今天不是学了 5 句英语，而是在真实压力里，把 5 次对话从冷场边缘救了回来。”</div>
+      <div class="reward-row">
+        <div class="reward"><em>💎</em>宝石 +32</div>
+        <div class="reward"><em>🔥</em>连续 4 天</div>
+        <div class="reward"><em>🃏</em>新卡 1 张</div>
+      </div>
+      <button class="cta primary" data-go="map">继续探索语言大陆</button>
+      <button class="cta secondary" style="margin-top:10px" data-go="home">返回营地</button>
+    </div>
+  </section>
+</div>
+
+<div class="overlay" id="hintOverlay">
+  <div class="sheet">
+    <h3>虾式救场发动</h3>
+    <p>真正会聊天的人，并不是每次都有完美答案，而是知道怎么把话接下去。</p>
+    <div class="phrase" id="hintPhrase">I’m really into movies these days.</div>
+    <button class="cta primary" id="closeHint">记住了，回去反击</button>
+  </div>
+</div>
+
+<script>
+const rounds = [
+ {avatar:"🧑‍🎤", enemy:"👾", name:"冷场小怪 · Awkward Blob", line:"What do you do for fun?", zh:"你平时做什么放松？", intent:"对方在问我的兴趣", choices:["对方在问我的兴趣","对方在问我的工作","对方想结束聊天"], replies:["I’m really into movies these days.","I usually play basketball.","It depends on my mood."], keys:["into","movie","basketball","usually","fun","mood","play"], damage:22},
+ {avatar:"👩‍🚀", enemy:"🫥", name:"吞音幽灵 · Mumble Ghost", line:"Do you wanna grab something to eat?", zh:"要不要一起去吃点东西？", intent:"对方在邀请我吃东西", choices:["对方不喜欢这里","对方在邀请我吃东西","对方在问我饿不饿"], replies:["Sure, I’m starving.","Sounds good. Let’s go.","Maybe later. I’m still working."], keys:["sure","starving","sounds good","let's","later","working","yes"], damage:22},
+ {avatar:"🧔‍♂️", enemy:"🌀", name:"翻译漩涡 · Translation Vortex", line:"What kind of movies are you into?", zh:"你喜欢哪一类电影？", intent:"对方在追问我喜欢的电影类型", choices:["对方在推荐一部电影","对方在问演员名字","对方在追问我喜欢的电影类型"], replies:["I’m into sci-fi movies.","I love anything about space.","Action movies are my favorite."], keys:["sci","space","action","favorite","movie","love","into"], damage:22},
+ {avatar:"👩‍🎨", enemy:"🧊", name:"紧张冰块 · Nervous Ice", line:"That sounds pretty fun. Can I join you sometime?", zh:"听起来挺有意思。我下次能加入吗？", intent:"对方觉得有趣并想加入", choices:["对方觉得有趣并想加入","对方听不懂我说什么","对方准备马上离开"], replies:["Of course. You’re welcome anytime.","Absolutely. Let’s do it this weekend.","Sure, I’ll let you know next time."], keys:["course","welcome","absolutely","weekend","sure","next time","yes"], damage:22},
+ {avatar:"😈", enemy:"🐙", name:"夜市冷场王 · Silence Kraken", line:"I didn’t catch that. Could you say it another way?", zh:"我没听清。你能换一种说法吗？", intent:"对方没听懂，想让我换种说法", choices:["对方不同意我的观点","对方没听懂，想让我换种说法","对方要我说得更快"], replies:["Sure. I mean I really like movies.","No problem. I usually watch movies for fun.","Of course. Movies are my favorite hobby."], keys:["sure","mean","like","movie","problem","usually","favorite","hobby"], damage:28}
+];
+
+let state={round:0,hearts:3,combo:0,bestCombo:0,score:0,caught:0,free:0,enemyHP:100,usedShrimp:false,usedDragon:false,timer:null,timeLeft:100,recognition:null,listening:false,hinted:false};
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+function go(id){$$('.screen').forEach(s=>s.classList.remove('active'));$('#'+id).classList.add('active');window.scrollTo(0,0)}
+function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._to);t._to=setTimeout(()=>t.classList.remove('show'),1700)}
+$$('[data-go]').forEach(b=>b.onclick=()=>go(b.dataset.go));
+$('#startBtn').onclick=()=>go('map');
+document.querySelector('[data-level="market"]').onclick=startBattle;
+$('#quitBattle').onclick=()=>{clearInterval(state.timer);go('map')};
+
+function startBattle(){
+ state={round:0,hearts:3,combo:0,bestCombo:0,score:0,caught:0,free:0,enemyHP:100,usedShrimp:false,usedDragon:false,timer:null,timeLeft:100,recognition:null,listening:false,hinted:false};
+ $('#shrimpSkill').classList.remove('used');$('#dragonSkill').classList.remove('used');
+ go('battle'); loadRound();
+}
+function shuffled(arr){return [...arr].sort(()=>Math.random()-.5)}
+function loadRound(){
+ clearInterval(state.timer);
+ const r=rounds[state.round];
+ state.timeLeft=100;state.hinted=false;
+ $('#roundLabel').textContent=`ROUND ${state.round+1} / ${rounds.length}`;
+ $('#hearts').textContent='❤️'.repeat(state.hearts)+'🖤'.repeat(3-state.hearts);
+ $('#combo').textContent='×'+state.combo;
+ $('#npcAvatar').textContent=r.avatar;$('#enemyEmoji').textContent=r.enemy;$('#enemyName').textContent=r.name;
+ $('#lineText').textContent=r.line;$('#lineLabel').textContent=state.round===4?'BOSS 向你施压':'陌生人向你说';
+ $('#hpfill').style.width=state.enemyHP+'%';
+ $('#intentStage').style.display='block';$('#speakStage').classList.remove('active');$('#transcript').textContent='';
+ const list=$('#intentChoices');list.innerHTML='';
+ shuffled(r.choices).forEach((c,i)=>{
+   const b=document.createElement('button');b.className='choice';b.innerHTML=`<span class="letter"><span>${String.fromCharCode(65+i)}</span></span><span>${c}</span>`;
+   b.onclick=()=>chooseIntent(b,c===r.intent);list.appendChild(b);
+ });
+ buildReplies();
+ speakLine(1);
+ startTimer();
+}
+function speakLine(rate=1){
+ const r=rounds[state.round];
+ if(!('speechSynthesis' in window)){toast('当前浏览器不支持自动朗读');return}
+ speechSynthesis.cancel();
+ const u=new SpeechSynthesisUtterance(r.line);u.lang='en-US';u.rate=rate;u.pitch=1.03;
+ const voices=speechSynthesis.getVoices(); const v=voices.find(v=>/Samantha|Ava|Google US English|English.*United States/i.test(v.name));
+ if(v)u.voice=v;speechSynthesis.speak(u);
+}
+$('#listenBtn').onclick=()=>speakLine(1);
+function startTimer(){
+ clearInterval(state.timer);$('#timerfill').style.width='100%';
+ state.timer=setInterval(()=>{
+   state.timeLeft-=1.1;$('#timerfill').style.width=Math.max(0,state.timeLeft)+'%';
+   if(state.timeLeft<=0){clearInterval(state.timer);miss('时间到了，但你仍然可以用救场句把对话救回来。')}
+ },100);
+}
+function chooseIntent(btn,ok){
+ if(ok){
+   clearInterval(state.timer);btn.classList.add('correct');state.score+=80;
+   $$('.choice').forEach(x=>x.disabled=true);
+   setTimeout(()=>{$('#intentStage').style.display='none';$('#speakStage').classList.add('active');state.timeLeft=100;startTimer();},420);
+   toast('意图命中！现在用声音完成终结技');
+ }else{
+   btn.classList.add('wrong');state.score=Math.max(0,state.score-15);setTimeout(()=>btn.classList.remove('wrong'),500);
+   state.timeLeft=Math.max(15,state.timeLeft-18);toast('不是这个意思，再听一次重音');
+ }
+}
+function buildReplies(){
+ const r=rounds[state.round];const box=$('#quickReplies');box.innerHTML='';
+ r.replies.forEach(t=>{const b=document.createElement('button');b.className='quick-reply';b.textContent=t;b.onclick=()=>evaluate(t,true);box.appendChild(b)});
+}
+function initRecognition(){
+ const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+ if(!SR)return null;
+ const rec=new SR();rec.lang='en-US';rec.interimResults=true;rec.continuous=false;
+ rec.onresult=e=>{
+   let text='';for(let i=e.resultIndex;i<e.results.length;i++)text+=e.results[i][0].transcript;
+   $('#transcript').textContent=text;
+   if(e.results[e.results.length-1].isFinal)evaluate(text,false);
+ };
+ rec.onerror=e=>{state.listening=false;$('#micBtn').classList.remove('listening');$('#speakHint').textContent='没听清，点击重试或使用下方快捷回应';toast('麦克风没有听清，再来一次就好')};
+ rec.onend=()=>{state.listening=false;$('#micBtn').classList.remove('listening')};
+ return rec;
+}
+$('#micBtn').onclick=()=>{
+ if(!state.recognition)state.recognition=initRecognition();
+ if(!state.recognition){toast('此浏览器暂不支持语音识别，可用快捷回应完成试玩');return}
+ if(!state.listening){
+   try{state.listening=true;$('#micBtn').classList.add('listening');$('#speakHint').textContent='正在听你说…';state.recognition.start()}catch(e){}
+ }else{state.recognition.stop();state.listening=false;$('#micBtn').classList.remove('listening')}
+};
+function similarityPass(text){
+ const t=text.toLowerCase();const r=rounds[state.round];return r.keys.some(k=>t.includes(k))||t.trim().split(/\s+/).length>=4;
+}
+function evaluate(text,quick){
+ clearInterval(state.timer);if(state.listening&&state.recognition){try{state.recognition.stop()}catch(e){}}
+ const pass=similarityPass(text);
+ if(pass){
+   state.caught++;if(!quick&&!state.hinted)state.free++;
+   state.combo++;state.bestCombo=Math.max(state.bestCombo,state.combo);
+   const speed=Math.round(state.timeLeft);state.score+=180+state.combo*25+Math.max(0,speed);
+   state.enemyHP=Math.max(0,state.enemyHP-rounds[state.round].damage-(state.combo>=3?6:0));
+   $('#combo').textContent='×'+state.combo;$('#hpfill').style.width=state.enemyHP+'%';
+   hitFx(state.combo>=3?'FLOW BREAK! -31':'NICE! -25');confetti(state.combo>=3?45:25);
+   toast(state.combo>=3?'连击形成！你开始像在聊天，而不是答题':'接住了！意思清楚就算胜利');
+   setTimeout(nextRound,900);
+ }else{
+   state.combo=0;state.hearts--;$('#hearts').textContent='❤️'.repeat(Math.max(0,state.hearts))+'🖤'.repeat(3-Math.max(0,state.hearts));
+   toast('意思还不够清楚，但对话不会因此结束');
+   if(state.hearts<=0){state.hearts=1;toast('豆豆龙替你挡住了失败：再说一次就好')}
+   setTimeout(()=>{$('#transcript').textContent='试着用更短的一句，或点下面的自然回应';state.timeLeft=55;startTimer()},500);
+ }
+}
+function miss(msg){
+ state.hearts--;state.combo=0;$('#hearts').textContent='❤️'.repeat(Math.max(0,state.hearts))+'🖤'.repeat(3-Math.max(0,state.hearts));toast(msg);
+ state.timeLeft=45;startTimer();
+}
+function nextRound(){
+ state.round++;
+ if(state.round>=rounds.length){finish();return}
+ loadRound();
+}
+function hitFx(txt){const d=$('#damage');d.textContent=txt;d.classList.remove('hit');void d.offsetWidth;d.classList.add('hit');$('#battleZone').animate([{transform:'translateX(0)'},{transform:'translateX(-6px)'},{transform:'translateX(6px)'},{transform:'translateX(0)'}],{duration:260})}
+$('#shrimpSkill').onclick=()=>{
+ if(state.usedShrimp){toast('虾式救场本局已经用过');return}
+ state.usedShrimp=true;state.hinted=true;$('#shrimpSkill').classList.add('used');clearInterval(state.timer);
+ $('#hintPhrase').textContent=rounds[state.round].replies[0];$('#hintOverlay').classList.add('show');
+}
+$('#closeHint').onclick=()=>{$('#hintOverlay').classList.remove('show');state.timeLeft=Math.max(state.timeLeft,50);startTimer()};
+$('#dragonSkill').onclick=()=>{
+ if(state.usedDragon){toast('回声龙息本局已经用过');return}
+ state.usedDragon=true;$('#dragonSkill').classList.add('used');state.timeLeft=Math.min(100,state.timeLeft+34);speakLine(.78);toast('豆豆龙把时间拉慢了：听重音，不要逐字翻译');
+}
+function finish(){
+ clearInterval(state.timer);
+ const bonus=state.hearts*100+state.bestCombo*45;state.score+=bonus;
+ $('#finalScore').textContent=state.score;$('#caughtMetric').textContent=`${state.caught} / ${rounds.length} 句`;
+ $('#freeMetric').textContent=`${state.free} 次`;$('#comboMetric').textContent='×'+state.bestCombo;
+ localStorage.setItem('ctl_gems',String((Number(localStorage.getItem('ctl_gems'))||120)+32));
+ localStorage.setItem('ctl_streak','4');syncHome();go('result');confetti(120);
+}
+function syncHome(){$('#gemsHome').textContent=localStorage.getItem('ctl_gems')||120;$('#streakHome').textContent=localStorage.getItem('ctl_streak')||3}
+syncHome();
+
+const canvas=$('#fx'),ctx=canvas.getContext('2d');let particles=[];
+function resize(){canvas.width=innerWidth*devicePixelRatio;canvas.height=innerHeight*devicePixelRatio;canvas.style.width=innerWidth+'px';canvas.style.height=innerHeight+'px';ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}
+addEventListener('resize',resize);resize();
+function confetti(n=30){
+ const colors=['#ffd86b','#ff5d72','#3ed6c5','#8d7cff','#fff'];
+ for(let i=0;i<n;i++)particles.push({x:innerWidth/2+(Math.random()-.5)*90,y:innerHeight*.33,vx:(Math.random()-.5)*9,vy:-Math.random()*8-3,g:.18+Math.random()*.12,r:3+Math.random()*5,c:colors[Math.floor(Math.random()*colors.length)],a:1,rot:Math.random()*6});
+}
+function frame(){ctx.clearRect(0,0,innerWidth,innerHeight);particles.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.vy+=p.g;p.rot+=.12;p.a-=.009;ctx.save();ctx.globalAlpha=Math.max(0,p.a);ctx.translate(p.x,p.y);ctx.rotate(p.rot);ctx.fillStyle=p.c;ctx.fillRect(-p.r,-p.r/2,p.r*2,p.r);ctx.restore()});particles=particles.filter(p=>p.a>0&&p.y<innerHeight+50);requestAnimationFrame(frame)}frame();
+setTimeout(()=>speechSynthesis&&speechSynthesis.getVoices(),300);
+</script>
+</body>
+</html>
