@@ -1,0 +1,48 @@
+{
+  "name": "@xiazi/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "posters:default": "node scripts/set-default-posters.mjs",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:staging": "playwright test tests/e2e/staging.spec.ts --project=chromium",
+    "audit:config": "node scripts/audit-config.mjs",
+    "check": "eslint . && tsc --noEmit && vitest run && node scripts/audit-config.mjs"
+  },
+  "dependencies": {
+    "@xiazi/api-client": "0.1.0",
+    "@xiazi/config": "0.1.0",
+    "@xiazi/contracts": "0.1.0",
+    "@xiazi/domain": "0.1.0",
+    "@supabase/supabase-js": "^2.108.2",
+    "@phosphor-icons/react": "^2.1.10",
+    "next": "16.2.9",
+    "next-intl": "^4.8.2",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "sharp": "^0.34.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.15"
+  }
+}

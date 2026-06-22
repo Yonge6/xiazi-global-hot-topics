@@ -1,0 +1,55 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["QCLAW_CLI_NODE_BINARY", "QCLAW_NPM_CLI_JS", "QCLAW_NPM_GLOBAL_PREFIX", "PATH"],
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "env": [
+        "CONTENT_REPOSITORY",
+        "SUPABASE_ENV",
+        "SUPABASE_URL",
+        "SUPABASE_PUBLISHABLE_KEY",
+        "SUPABASE_SECRET_KEY",
+        "SUPABASE_ANON_KEY",
+        "SUPABASE_SERVICE_ROLE_KEY",
+        "SHADOW_COMPARE_ENABLED",
+        "SHADOW_COMPARE_SECRET",
+        "CRON_SECRET",
+        "GITHUB_REPO",
+        "GITHUB_STUDIO_TOKEN",
+        "STUDIO_PASSWORD",
+        "STUDIO_SESSION_SECRET",
+        "COS_SECRET_ID",
+        "COS_SECRET_KEY",
+        "COS_BUCKET",
+        "COS_REGION",
+        "NEXT_PUBLIC_COS_BASE_URL"
+      ],
+      "outputs": [".next/**", "!.next/cache/**"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "typecheck": {
+      "outputs": []
+    },
+    "test": {
+      "outputs": []
+    },
+    "test:e2e": {
+      "cache": false,
+      "outputs": ["test-results/**", "playwright-report/**"]
+    },
+    "audit:config": {
+      "outputs": []
+    },
+    "check": {
+      "dependsOn": ["lint", "typecheck", "test", "audit:config"],
+      "outputs": []
+    }
+  }
+}

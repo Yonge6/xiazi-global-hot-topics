@@ -1,0 +1,585 @@
+{
+  "id": "10000000-0000-4000-8000-000000000002",
+  "slug": "2026-06-15",
+  "issueDate": "2026-06-15",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-06-15T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-14T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000001",
+  "topics": [
+    {
+      "id": "20000000-0000-4000-8000-000000000001",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "world-cup-global-stage",
+      "rank": 1,
+      "category": "sports",
+      "region": "North America",
+      "countryCodes": [
+        "DE",
+        "CW"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "world_cup_global_stage",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "德国7:1大胜库拉索",
+          "headlineView": "强队的第一场，不只要赢，更要建立威慑",
+          "headlineFull": "德国7:1大胜库拉索；强队的第一场，不只要赢，更要建立威慑。",
+          "intro": "德国在世界杯小组赛首战中以7:1击败首次参赛的库拉索，哈弗茨梅开二度，多名球员取得进球。库拉索虽然遭遇大比分失利，但也攻入队史首粒世界杯进球。德国展示了进攻厚度，也提前向其他争冠球队发出了强烈信号。",
+          "xiaziQuote": "强队第一战，赢球是结果，立威才是战略。",
+          "doudouQuote": "七个球不是热身，这是先把气势拉满了。",
+          "footerTakeaway": "强队的第一场，不只要赢，更要建立威慑"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Germany beat Curaçao 7–1",
+          "headlineView": "opening matches are not only for winning, but for sending a warning",
+          "headlineFull": "Germany beat Curaçao 7–1; opening matches are not only for winning, but for sending a warning.",
+          "intro": "Germany opened its World Cup campaign with a commanding 7–1 victory over debutants Curaçao. Kai Havertz scored twice, while several German players found the net. Curaçao suffered a heavy defeat but still celebrated the first World Cup goal in the nation’s history. Germany demonstrated depth, efficiency and attacking power, sending an early message to its title rivals.",
+          "xiaziQuote": "Great teams do not merely collect points. They establish pressure.",
+          "doudouQuote": "Seven goals in game one? That is not a warm-up. That is a warning.",
+          "footerTakeaway": "opening matches are not only for winning, but for sending a warning"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000001",
+          "topicId": "20000000-0000-4000-8000-000000000001",
+          "title": "Germany’s 7–1 win over Curaçao",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/germany-crush-debutants-curacao-7-1-world-cup-group-e-opener-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000004",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "energy-transition-grid",
+      "rank": 2,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "FR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "energy_transition_grid",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "G7峰会",
+          "headlineFact": "G7埃维昂峰会将于今日开幕",
+          "headlineView": "议题越来越多，共识却越来越昂贵",
+          "headlineFull": "G7埃维昂峰会将于今日开幕；议题越来越多，共识却越来越昂贵。",
+          "intro": "G7领导人将于6月15日至17日在法国埃维昂举行峰会，乌克兰、中东、贸易、经济安全、关键矿产和AI治理预计成为重点议题。峰会前夕，附近地区已经出现抗议活动。会议讨论的问题越来越多，但主要国家达成真正共识的难度也在不断提高。",
+          "xiaziQuote": "峰会真正稀缺的，不是议题，而是共识。",
+          "doudouQuote": "会议桌越来越大，大家能同意的事情却越来越少。",
+          "footerTakeaway": "议题越来越多，共识却越来越昂贵"
+        },
+        "en-US": {
+          "categoryLabel": "G7 Summit",
+          "headlineFact": "The G7 summit opens in Évian today",
+          "headlineView": "the broader the agenda, the more expensive consensus becomes",
+          "headlineFull": "The G7 summit opens in Évian today; the broader the agenda, the more expensive consensus becomes.",
+          "intro": "G7 leaders are gathering in Évian, France, from June 15 to 17. Ukraine, the Middle East, trade, economic security, critical minerals and AI governance are expected to dominate the agenda. Protests have already taken place nearby. The summit reflects a difficult reality: the list of global problems continues to grow, while meaningful agreement among major powers becomes harder to achieve.",
+          "xiaziQuote": "What global summits lack most is not an agenda, but consensus.",
+          "doudouQuote": "The table keeps getting bigger, while the list of shared answers keeps getting smaller.",
+          "footerTakeaway": "the broader the agenda, the more expensive consensus becomes"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000004",
+          "topicId": "20000000-0000-4000-8000-000000000004",
+          "title": "G7 Évian 2026",
+          "publisher": "Élysée Palace",
+          "url": "https://www.elysee.fr/en/G7evian",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000202",
+          "topicId": "20000000-0000-4000-8000-000000000004",
+          "title": "G7 Summit Agenda",
+          "publisher": "European Council",
+          "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/06/15-17/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000003",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "trade-routes-rewired",
+      "rank": 3,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IR",
+        "IL",
+        "LB",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "trade_routes_rewired",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中东局势",
+          "headlineFact": "美国称伊朗协议接近达成，以色列却空袭贝鲁特",
+          "headlineView": "和平最怕下一声爆炸",
+          "headlineFull": "美国称伊朗协议接近达成，以色列却空袭贝鲁特；和平最怕下一声爆炸。",
+          "intro": "美国方面表示，与伊朗达成协议的距离正在缩小，但以色列随后对贝鲁特的真主党目标发动空袭。外交谈判与军事行动同时推进，让本已脆弱的和平窗口变得更加不确定。越接近协议，各方越需要防止一次意外行动让局势重新失控。",
+          "xiaziQuote": "真正脆弱的，从来不是谈判桌，而是桌外的火光。",
+          "doudouQuote": "都说快谈成了，结果下一秒又像要谈崩。",
+          "footerTakeaway": "和平最怕下一声爆炸"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East",
+          "headlineFact": "Washington says an Iran deal is close as Israel strikes Beirut",
+          "headlineView": "peace is always one explosion away from collapse",
+          "headlineFull": "Washington says an Iran deal is close as Israel strikes Beirut; peace is always one explosion away from collapse.",
+          "intro": "The United States says an agreement with Iran is drawing closer, but an Israeli strike on Hezbollah targets in Beirut has again raised regional tensions. Diplomacy and military action are moving forward at the same time, making the window for peace increasingly fragile. The closer the parties move toward an agreement, the more important it becomes to prevent one incident from restarting a wider conflict.",
+          "xiaziQuote": "Diplomacy remains fragile when missiles are still speaking.",
+          "doudouQuote": "Everyone says the deal is close, and then the sky explodes again.",
+          "footerTakeaway": "peace is always one explosion away from collapse"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000003",
+          "topicId": "20000000-0000-4000-8000-000000000003",
+          "title": "Iran negotiations and the Beirut strike",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/us-iran-inch-closer-deal-timing-remains-unclear-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000005",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "global-health-readiness",
+      "rank": 4,
+      "category": "science",
+      "region": "Africa",
+      "countryCodes": [
+        "CD",
+        "UG"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "global_health_readiness",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球健康",
+          "headlineFact": "刚果（金）通报782例埃博拉确诊病例",
+          "headlineView": "疫情真正危险的，是传播速度超过响应速度",
+          "headlineFull": "刚果（金）通报782例埃博拉确诊病例；疫情真正危险的，是传播速度超过响应速度。",
+          "intro": "刚果（金）卫生部门通报，埃博拉确诊病例已升至782例，并有新的卫生区受到影响。疫情发生地区同时面临人口流动、基础设施不足和安全局势复杂等问题。病例数量固然重要，但更值得警惕的是，监测、隔离与医疗响应能否追上传播速度。",
+          "xiaziQuote": "疫情之中，时间不是细节，而是战场。",
+          "doudouQuote": "病毒不等开会，响应慢一步，就可能多扩一圈。",
+          "footerTakeaway": "疫情真正危险的，是传播速度超过响应速度"
+        },
+        "en-US": {
+          "categoryLabel": "Global Health",
+          "headlineFact": "DR Congo reports 782 confirmed Ebola cases",
+          "headlineView": "outbreaks become most dangerous when transmission outruns response",
+          "headlineFull": "DR Congo reports 782 confirmed Ebola cases; outbreaks become most dangerous when transmission outruns response.",
+          "intro": "Health authorities in the Democratic Republic of Congo say confirmed Ebola cases have risen to 782, with additional health zones affected. The outbreak is unfolding in areas already challenged by population displacement, weak infrastructure and insecurity. The case count is alarming, but the larger question is whether surveillance, isolation and medical response systems can move faster than the virus.",
+          "xiaziQuote": "In an epidemic, time is not a detail. It is the battlefield.",
+          "doudouQuote": "Viruses do not wait for meetings. One slow response can widen the outbreak.",
+          "footerTakeaway": "outbreaks become most dangerous when transmission outruns response"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000005",
+          "topicId": "20000000-0000-4000-8000-000000000005",
+          "title": "Ebola outbreak updates for DR Congo and Uganda",
+          "publisher": "WHO",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000402",
+          "topicId": "20000000-0000-4000-8000-000000000005",
+          "title": "Latest case and regional data",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-says-782-ebola-cases-confirmed-two-new-health-zones-affected-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000002",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "ai-governance-crossroads",
+      "rank": 5,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "ai_governance_crossroads",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI政策",
+          "headlineFact": "据报道，Anthropic人员赴华盛顿与白宫官员会面",
+          "headlineView": "模型访问争议正升级为国家战略问题",
+          "headlineFull": "据报道，Anthropic人员赴华盛顿与白宫官员会面；模型访问争议正升级为国家战略问题。",
+          "intro": "在先进模型访问政策引发争议后，据报道，Anthropic高级技术人员前往华盛顿，与白宫官员讨论相关问题。讨论焦点已经不只是一款产品能否开放，还涉及国家安全、供应链、出口管制和技术主权。最强模型正逐渐从商业产品变成战略资产。",
+          "xiaziQuote": "当模型成为基础设施，争议就不再只是产品问题。",
+          "doudouQuote": "以前比谁更聪明，现在还得比谁被允许使用。",
+          "footerTakeaway": "模型访问争议正升级为国家战略问题"
+        },
+        "en-US": {
+          "categoryLabel": "AI Policy",
+          "headlineFact": "Anthropic staff head to Washington for White House talks",
+          "headlineView": "model access is becoming a matter of national strategy",
+          "headlineFull": "Anthropic staff head to Washington for White House talks; model access is becoming a matter of national strategy.",
+          "intro": "Senior Anthropic technical staff have reportedly travelled to Washington for talks with White House officials following a dispute over access to advanced AI models. The discussion now extends far beyond product availability. National security, supply chains, export controls and technological sovereignty are all becoming part of the debate. The world’s most capable models are increasingly being treated as strategic assets.",
+          "xiaziQuote": "Once models become infrastructure, the debate is no longer only about products.",
+          "doudouQuote": "AI companies used to compete over intelligence. Now they also compete over permission.",
+          "footerTakeaway": "model access is becoming a matter of national strategy"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000002",
+          "topicId": "20000000-0000-4000-8000-000000000002",
+          "title": "Anthropic staff meet White House officials",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/us/anthropic-staff-meet-white-house-officials-next-week-axios-reports-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000502",
+          "topicId": "20000000-0000-4000-8000-000000000002",
+          "title": "The Anthropic–White House dispute",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000009",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "climate-adaptation-city",
+      "rank": 6,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "climate_adaptation_city",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI监管",
+          "headlineFact": "美国多州继续推进AI监管",
+          "headlineView": "技术跑得越快，地方政府越不愿等待统一答案",
+          "headlineFull": "美国多州继续推进AI监管；技术跑得越快，地方政府越不愿等待统一答案。",
+          "intro": "尽管美国联邦层面希望建立统一的AI政策框架，越来越多州仍在推动聊天机器人、未成年人保护、算法责任、就业决策和数据安全等立法。美国AI治理可能形成联邦、州和行业规则并行的格局，企业需要面对的合规成本也会持续增加。",
+          "xiaziQuote": "技术在加速，规则也不会永远缺席。",
+          "doudouQuote": "AI还没学会停，法规已经准备踩刹车了。",
+          "footerTakeaway": "技术跑得越快，地方政府越不愿等待统一答案"
+        },
+        "en-US": {
+          "categoryLabel": "AI Regulation",
+          "headlineFact": "U.S. states keep advancing AI rules",
+          "headlineView": "the faster technology moves, the less local governments want to wait",
+          "headlineFull": "U.S. states keep advancing AI rules; the faster technology moves, the less local governments want to wait.",
+          "intro": "Although the federal government is seeking a more unified national framework, a growing number of U.S. states continue to advance legislation covering chatbots, youth protection, algorithmic accountability, employment decisions and data security. The result may be a patchwork of federal, state and industry rules, increasing both regulatory complexity and compliance costs for AI companies.",
+          "xiaziQuote": "Technology is accelerating, but rules will not remain absent forever.",
+          "doudouQuote": "AI has not learned to stop, but lawmakers are already reaching for the brakes.",
+          "footerTakeaway": "the faster technology moves, the less local governments want to wait"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000009",
+          "topicId": "20000000-0000-4000-8000-000000000009",
+          "title": "U.S. states continue to pursue AI regulation",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/23a0e44ab05402ddfe9cdfd0bffa0ade",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000602",
+          "topicId": "20000000-0000-4000-8000-000000000009",
+          "title": "National AI policy framework",
+          "publisher": "The White House",
+          "url": "https://www.whitehouse.gov/ai/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000006",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "space-economy-orbit",
+      "rank": 7,
+      "category": "business",
+      "region": "Asia",
+      "countryCodes": [
+        "KR",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "space_economy_orbit",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "半导体与资本",
+          "headlineFact": "SK海力士据报倾向选择纳斯达克上市",
+          "headlineView": "AI芯片竞争正延伸到资本定价权",
+          "headlineFull": "SK海力士据报倾向选择纳斯达克上市；AI芯片竞争正延伸到资本定价权。",
+          "intro": "据报道，韩国存储芯片企业SK海力士正考虑为其美国上市计划选择纳斯达克，希望扩大美国投资者基础，并提升其在全球资本市场中的影响力。作为AI高带宽内存的重要供应商，公司之间的竞争已经不只发生在技术和产能层面，也延伸到了估值与资本定价。",
+          "xiaziQuote": "技术的上限决定价值，资本的偏好也会反过来塑造竞争。",
+          "doudouQuote": "会做芯片是一回事，会讲资本故事又是另一回事。",
+          "footerTakeaway": "AI芯片竞争正延伸到资本定价权"
+        },
+        "en-US": {
+          "categoryLabel": "Semiconductors and Capital",
+          "headlineFact": "SK hynix is reportedly leaning toward Nasdaq",
+          "headlineView": "the AI chip race is expanding into capital-market pricing power",
+          "headlineFull": "SK hynix is reportedly leaning toward Nasdaq; the AI chip race is expanding into capital-market pricing power.",
+          "intro": "SK hynix is reportedly considering Nasdaq for its planned U.S. listing, seeking to broaden its American investor base and strengthen its global capital-market profile. As a major supplier of high-bandwidth memory for AI systems, the company sits at the centre of the infrastructure boom. Competition among chipmakers now extends beyond technology and manufacturing into valuation, investor attention and capital pricing.",
+          "xiaziQuote": "Technology defines the ceiling of value, but capital can reshape the competition.",
+          "doudouQuote": "Building great chips is one skill. Telling a great capital story is another.",
+          "footerTakeaway": "the AI chip race is expanding into capital-market pricing power"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000006",
+          "topicId": "20000000-0000-4000-8000-000000000006",
+          "title": "SK hynix and its planned Nasdaq listing",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/retail-consumer/south-koreas-sk-hynix-opt-nasdaq-planned-us-listing-sources-say-2026-06-12/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000008",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "ocean-treaty-action",
+      "rank": 8,
+      "category": "international",
+      "region": "Taiwan Strait",
+      "countryCodes": [
+        "TW",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "ocean_treaty_action",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "台海与情报",
+          "headlineFact": "台湾情报机构上线面向中国大陆人士的安全举报通道",
+          "headlineView": "情报竞争正进入公开数字入口",
+          "headlineFull": "台湾情报机构上线面向中国大陆人士的安全举报通道；情报竞争正进入公开数字入口。",
+          "intro": "台湾安全部门宣布建立新的网页渠道，供中国大陆人士安全提交情报线索，并表示近期主动提供信息的人有所增加。传统上高度隐蔽的情报招募，正在借助网站、加密通信与数字平台变得更加公开，这也可能进一步加剧两岸在安全、网络和信息领域的博弈。",
+          "xiaziQuote": "情报竞争最先升级的，往往不是边界，而是入口。",
+          "doudouQuote": "以前拼的是线人，现在连线索入口都做成网页了。",
+          "footerTakeaway": "情报竞争正进入公开数字入口"
+        },
+        "en-US": {
+          "categoryLabel": "Taiwan and Intelligence",
+          "headlineFact": "Taiwan launches a secure tip channel for people in mainland China",
+          "headlineView": "intelligence competition is moving into public digital gateways",
+          "headlineFull": "Taiwan launches a secure tip channel for people in mainland China; intelligence competition is moving into public digital gateways.",
+          "intro": "Taiwan’s National Security Bureau has launched a secure webpage allowing people in mainland China to submit intelligence-related information. The agency says more individuals have recently approached Taiwanese authorities with potential tips. Intelligence recruitment, once highly secretive, is becoming more visible through websites, encrypted communication and digital platforms, adding another dimension to cross-strait security competition.",
+          "xiaziQuote": "In intelligence competition, the first thing to change is often not the border, but the entry point.",
+          "doudouQuote": "Espionage used to need shadows. Now it also needs a web form.",
+          "footerTakeaway": "intelligence competition is moving into public digital gateways"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000008",
+          "topicId": "20000000-0000-4000-8000-000000000008",
+          "title": "Taiwan launches an intelligence tip website",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/taiwan-launches-website-chinese-nationals-report-intelligence-2026-06-14/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000802",
+          "topicId": "20000000-0000-4000-8000-000000000008",
+          "title": "Taiwan’s secure information channel",
+          "publisher": "AP News",
+          "url": "https://apnews.com/",
+          "publishedAt": null,
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000007",
+      "issueId": "10000000-0000-4000-8000-000000000002",
+      "slug": "culture-restoration-digital",
+      "rank": 9,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "culture_restoration_digital",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候变化",
+          "headlineFact": "NOAA确认厄尔尼诺已形成",
+          "headlineView": "气候波动正在变成粮食、能源与保险账单",
+          "headlineFull": "NOAA确认厄尔尼诺已形成；气候波动正在变成粮食、能源与保险账单。",
+          "intro": "美国国家海洋和大气管理局确认厄尔尼诺条件已经形成，并预计其可能持续增强。厄尔尼诺会改变不同地区的降雨、高温、农业产量和风暴活动。气候现象不只存在于天气预报和温度曲线中，也会逐渐反映到食品价格、能源需求和保险成本上。",
+          "xiaziQuote": "气候不是遥远议题，它最终都会变成每个人的成本。",
+          "doudouQuote": "地球一发烧，最后最先感受到的往往是钱包。",
+          "footerTakeaway": "气候波动正在变成粮食、能源与保险账单"
+        },
+        "en-US": {
+          "categoryLabel": "Climate",
+          "headlineFact": "NOAA confirms El Niño conditions",
+          "headlineView": "climate volatility is becoming a bill for food, energy and insurance",
+          "headlineFull": "NOAA confirms El Niño conditions; climate volatility is becoming a bill for food, energy and insurance.",
+          "intro": "The U.S. National Oceanic and Atmospheric Administration has confirmed that El Niño conditions are present and expected to strengthen. The climate pattern can reshape rainfall, heat, agricultural production and storm activity across different regions. Its impact will not remain confined to weather forecasts. It is likely to appear in food prices, energy demand, insurance costs and disaster preparedness.",
+          "xiaziQuote": "Climate is not a distant issue. It eventually becomes everyone’s cost.",
+          "doudouQuote": "When the planet runs a fever, the first place many people feel it is their wallet.",
+          "footerTakeaway": "climate volatility is becoming a bill for food, energy and insurance"
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000007",
+          "topicId": "20000000-0000-4000-8000-000000000007",
+          "title": "El Niño advisory and outlook",
+          "publisher": "NOAA",
+          "url": "https://www.noaa.gov/news-release/el-nino-forms-expected-to-strengthen-say-noaa-forecasters",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000902",
+          "topicId": "20000000-0000-4000-8000-000000000007",
+          "title": "Preparing for El Niño impacts",
+          "publisher": "WMO",
+          "url": "https://wmo.int/news/media-centre/world-must-prepare-development-of-el-nino",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    }
+  ],
+  "assetVersion": "archive-2026-06-15-1781825902933"
+}
