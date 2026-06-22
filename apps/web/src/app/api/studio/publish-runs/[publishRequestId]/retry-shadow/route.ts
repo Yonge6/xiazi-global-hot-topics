@@ -2,10 +2,14 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 import { studioCookieName, validStudioOrigin, validStudioSession } from "@/lib/studio/auth";
-import { publishIssueFromStudio } from "@/server/publishing/publish-issue";
-import type { PublishTarget } from "@/server/publishing/publish-github-primary";
+import { retryStudioShadowPublish } from "@/server/publishing/retry-shadow-publish";
 
-export async function POST(request: Request) {
+export const dynamic = "force-dynamic";
+
+export async function POST(
+  request: Request,
+  { params }: { params: Promise<{ publishRequestId: string }> },
+) {
   if (!validStudioOrigin(request)) {
     return NextResponse.json({ message: "请求来源无效" }, { status: 403 });
   }
@@ -15,18 +19,14 @@ export async function POST(request: Request) {
   }
 
   try {
-    const payload = await request.json() as {
-      issue: unknown;
-      target?: PublishTarget;
-    };
-    const result = await publishIssueFromStudio({
-      issue: payload.issue,
-      target: payload.target,
-    });
-    return NextResponse.json(result);
+    const { publishRequestId } = await params;
+    if (!publishRequestId.startsWith("studio-publish:")) {
+      return NextResponse.json({ message: "发布请求编号无效" }, { status: 400 });
+    }
+    return NextResponse.json(await retryStudioShadowPublish(publishRequestId));
   } catch (error) {
     return NextResponse.json(
-      { message: error instanceof Error ? error.message : "发布失败" },
+      { message: error instanceof Error ? error.message : "影子同步重试失败" },
       { status: 500 },
     );
   }

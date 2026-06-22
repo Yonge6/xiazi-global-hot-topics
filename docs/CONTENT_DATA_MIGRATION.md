@@ -8,6 +8,7 @@ Phase 3 establishes a Supabase content base while keeping Pluto.hk production on
 - Excluded mirrors: `apps/web/public/data/**`.
 - Binary poster files are not uploaded, copied, or committed by the importer.
 - `CONTENT_REPOSITORY=json` remains the default.
+- `STUDIO_SHADOW_WRITE_ENABLED=false` remains the default until Phase 4B closed-state deployment checks pass.
 
 ## Local And Staging Setup
 
@@ -29,11 +30,25 @@ SUPABASE_URL=
 SUPABASE_PUBLISHABLE_KEY=
 SUPABASE_SECRET_KEY=
 CONTENT_REPOSITORY=json
+STUDIO_SHADOW_WRITE_ENABLED=false
 ```
 
 `SUPABASE_PUBLISHABLE_KEY` / `SUPABASE_SECRET_KEY` are preferred. Legacy `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` remain supported as server-side fallback variables. Secret keys must never be placed in `NEXT_PUBLIC_*` variables or committed.
 
 `SUPABASE_ENV=production` is refused by default. Production import in Phase 4A requires `--allow-production`, a prior `--dry-run`, and the exact confirmation phrase `IMPORT TO PLUTO PRODUCTION` or the non-interactive `PLUTO_PRODUCTION_IMPORT_CONFIRM` variable. Phase 3/4A must not set production `CONTENT_REPOSITORY=supabase`.
+
+## Phase 4B Studio Shadow Writes
+
+Phase 4B code can be deployed before the behavior is enabled. The switch is server-only:
+
+```env
+STUDIO_SHADOW_WRITE_ENABLED=false
+CONTENT_REPOSITORY=json
+```
+
+When `STUDIO_SHADOW_WRITE_ENABLED` is unset or `false`, Studio keeps the existing GitHub JSON primary write flow and does not call the Supabase shadow RPC or write `studio_publish_runs`. When set to `true`, Studio publishes one validated canonical Issue Bundle to GitHub first, then attempts Supabase shadow write and compare. Supabase failure, timeout, or mismatch must be recorded and shown in Studio, but must not roll back or block the GitHub primary publish.
+
+Emergency rollback is to set `STUDIO_SHADOW_WRITE_ENABLED=false` and redeploy. Do not delete the Phase 4B migration, delete `studio_publish_runs`, switch `CONTENT_REPOSITORY`, or remove already published JSON content.
 
 ## Phase 4A Shadow Reads
 

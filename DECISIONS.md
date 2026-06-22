@@ -71,3 +71,7 @@ GitHub Contents API 的 JSON 和海报写入链路在 Phase 3 保留，不修改
 ## D-018: Phase 4A Uses Production Supabase for Shadow Reads Only
 
 Phase 4A 将已完整验收的 Supabase 项目 `cxjftltkdbsxxjgmxvsm` 从逻辑 Staging 晋升为 Pluto Production Supabase，暂不创建第三个 Supabase 项目，也不删除 `vilesaint-comments`。Pluto.hk 对外主数据源必须继续为 JSON；Vercel Preview 默认回到 JSON，不保存 Production Supabase Secret。影子比较只能通过受保护的内部接口或 Cron 后台执行，记录日期、字段路径、差异数量、读取耗时和错误码；Supabase 失败不得影响公开页面、API 或 Studio 现有 GitHub 写入链路。进入 Phase 4B 前必须完成 24 小时观察窗口并覆盖一次北京时间 05:00 刊期。
+
+## D-019: Phase 4B Studio Shadow Writes Are Feature-Gated
+
+Phase 4B 可以先合并和部署代码、migration 与 UI 状态，但 Studio 影子双写必须由服务器端 `STUDIO_SHADOW_WRITE_ENABLED` 单独启用。该开关默认 `false`，未设置也视为 `false`，不得使用 `NEXT_PUBLIC_*`。关闭时 Studio 只执行 GitHub JSON 主写，不调用 Supabase 影子写入或 Compare；开启后才在 GitHub 主写成功后写 Supabase 并记录 `studio_publish_runs`。`CONTENT_REPOSITORY` 与该开关独立，生产仍必须保持 `CONTENT_REPOSITORY=json`，直到 Phase 4C 另行批准。紧急回滚优先关闭 `STUDIO_SHADOW_WRITE_ENABLED`，不得删除已执行 migration 或已发布 JSON。

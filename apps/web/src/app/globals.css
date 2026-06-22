@@ -1063,6 +1063,20 @@ button { color: inherit; font: inherit; }
 .studio-publish-bar p {
   min-height: 18px; margin: 0 4px 6px; color: var(--muted); font-size: 11px; line-height: 1.45; text-align: center;
 }
+.studio-shadow-status {
+  display: grid; gap: 5px; margin: 0 0 8px; border: 1px solid rgba(98,38,30,.12); border-radius: 12px;
+  background: rgba(255,255,255,.78); padding: 9px 10px; color: var(--muted); font-size: 10px; line-height: 1.45;
+}
+.studio-shadow-status strong { color: var(--ink); font-size: 12px; }
+.studio-shadow-status.warn { border-color: rgba(178,64,43,.28); background: rgba(178,64,43,.07); }
+.studio-shadow-status.ok { border-color: rgba(42,116,84,.2); background: rgba(42,116,84,.07); }
+.studio-shadow-status span, .studio-shadow-status small {
+  overflow-wrap: anywhere;
+}
+.studio-shadow-status button {
+  min-height: 34px; border: 1px solid rgba(178,64,43,.32); border-radius: 9px; background: white; color: var(--vermilion);
+  font-weight: 700;
+}
 .studio-publish {
   width: 100%; min-height: 52px; border: 0; border-radius: 12px; background: var(--vermilion); color: white; font-weight: 700;
 }

@@ -140,8 +140,14 @@ test("publishes the issue through GitHub", async ({ page }) => {
       status: 200,
       contentType: "application/json",
       body: JSON.stringify({
+        published: true,
         issue: payload.issue,
+        issueDate: payload.issue.issueDate,
+        publishRequestId: `studio-publish:${payload.issue.issueDate}:e2e`,
         target: { source: "current", value: "current" },
+        primary: { target: "github", status: "succeeded", commitSha: "e2e-github-commit" },
+        shadow: { target: "supabase", status: "disabled", changed: false },
+        compare: { status: "not_started", differenceCount: 0 },
       }),
     });
   });
@@ -161,6 +167,63 @@ test("publishes the issue through GitHub", async ({ page }) => {
   await expect.poll(() => publishRequests).toBe(1);
   await expect.poll(() => syncRequests).toBe(1);
   await expect(page.getByRole("status")).toHaveText(/发布成功|当前期已载入/);
+  await expect(page.getByText("主发布成功，影子双写未启用")).toBeVisible();
+});
+
+test("shows partial Studio publish success and retries shadow sync", async ({ page }) => {
+  let publishRequests = 0;
+  let retryRequests = 0;
+  await page.route("**/api/studio/publish", async (route) => {
+    publishRequests += 1;
+    const payload = route.request().postDataJSON();
+    await route.fulfill({
+      status: 200,
+      contentType: "application/json",
+      body: JSON.stringify({
+        published: true,
+        issue: payload.issue,
+        issueDate: payload.issue.issueDate,
+        publishRequestId: `studio-publish:${payload.issue.issueDate}:e2e-shadow-failed`,
+        target: { source: "current", value: "current" },
+        primary: { target: "github", status: "succeeded", commitSha: "e2e-github-commit" },
+        shadow: { target: "supabase", status: "failed", changed: false },
+        compare: { status: "failed", differenceCount: 0 },
+      }),
+    });
+  });
+  await page.route("**/api/studio/sync-issue-posters", async (route) => {
+    await route.fulfill({
+      status: 200,
+      contentType: "application/json",
+      body: JSON.stringify({ ok: true }),
+    });
+  });
+  await page.route("**/api/studio/publish-runs/*/retry-shadow", async (route) => {
+    retryRequests += 1;
+    await route.fulfill({
+      status: 200,
+      contentType: "application/json",
+      body: JSON.stringify({
+        shadow: { target: "supabase", status: "succeeded", changed: true },
+        compare: { status: "matched", differenceCount: 0 },
+        retryCount: 1,
+      }),
+    });
+  });
+
+  await page.goto("/studio");
+  await page.getByLabel("后台密码").fill("000000");
+  await page.getByRole("button", { name: "进入后台" }).click();
+  await page.getByRole("button", { name: "内容编辑" }).click();
+  await page.getByRole("button", { name: "发布当前期修改" }).click();
+
+  await expect.poll(() => publishRequests).toBe(1);
+  await expect(page.getByRole("status")).toHaveText(/影子同步失败/);
+  await expect(page.getByText("主发布成功，影子链路需要处理")).toBeVisible();
+  await page.getByRole("button", { name: "重试影子同步" }).click();
+  await expect.poll(() => retryRequests).toBe(1);
+  await expect(page.getByRole("status")).toHaveText("影子同步重试成功，内容一致");
+  await expect(page.getByText("主发布与影子同步一致")).toBeVisible();
 });
 
 test("previews a replacement poster immediately", async ({ page }) => {

@@ -92,6 +92,8 @@ Status: in progress.
 
 Goal: keep GitHub as primary write path while shadow-writing content changes to Production Supabase with alerts on mismatch.
 
+Rollout rule: Phase 4B is feature-gated by server-only `STUDIO_SHADOW_WRITE_ENABLED`, default `false`. Code and migration may be merged first with the switch closed. When closed, Studio remains GitHub-only and must not call Supabase shadow write or compare. When opened, GitHub is still the primary write, Supabase is a shadow copy, and `CONTENT_REPOSITORY` remains `json`. Phase 4B is not closed until two consecutive real issues publish with `primary_status=succeeded`, `compare_status=matched`, `difference_count=0`, retry verified, and the daily Shadow Sync Cron still acting as fallback.
+
 ### Phase 4C: Supabase Primary Reads
 
 Goal: switch production reads to Supabase with JSON fallback after a clean observation window.
