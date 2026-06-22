@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T07:30:00+08:00",
+  "updatedAt": "2026-06-23T05:00:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -1031,10 +1031,10 @@
       "storyId": "us_iran_switzerland_talks_fragile_2026",
       "status": "followup",
       "firstSeen": "2026-06-22",
-      "lastSeen": "2026-06-22",
-      "followupDay": 7,
-      "informationIncrementScore": 82,
-      "latestHeadline": "美伊代表团在瑞士展开谈判，特朗普却再次威胁发动打击"
+      "lastSeen": "2026-06-23",
+      "followupDay": 8,
+      "informationIncrementScore": 88,
+      "latestHeadline": "美伊瑞士谈判形成60天路线图，伊朗同意让IAEA核查员重返"
     },
     {
       "storyId": "world_bank_global_growth_gep_june_2026",
@@ -1602,6 +1602,78 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "德国政府将收购军工企业KNDS部分股权，为其上市扫清障碍"
+    },
+    {
+      "storyId": "world_cup_messi_record_argentina_austria_june22_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "梅西两球刷新世界杯进球纪录，阿根廷2:0击败奥地利提前出线"
+    },
+    {
+      "storyId": "nvidia_huang_ai_social_norms_june22_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "英伟达黄仁勋称AI时代需要新的社会规范"
+    },
+    {
+      "storyId": "australia_canada_othr_radar_export_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "澳大利亚与加拿大签署25亿澳元远程雷达出口协议"
+    },
+    {
+      "storyId": "uk_starmer_resignation_burnham_contest_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "英国首相斯塔默宣布将辞任工党领袖并留任至继任者产生"
+    },
+    {
+      "storyId": "markets_oil_big_tech_iran_talks_june22_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "油价因美伊谈判进展下跌，美股在科技股拖累下分化"
+    },
+    {
+      "storyId": "nasa_roman_telescope_arrives_florida_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "NASA罗曼空间望远镜抵达佛州，进入发射前最后准备"
+    },
+    {
+      "storyId": "clive_davis_death_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "音乐产业巨头克莱夫·戴维斯去世，享年94岁"
+    },
+    {
+      "storyId": "global_heat_stress_nature_climate_change_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "研究称墨西哥、意大利等地热应激天数比上世纪70年代多出一到两个月"
     }
   ]
 }
