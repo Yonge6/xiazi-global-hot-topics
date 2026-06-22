@@ -14,6 +14,27 @@ type IssueEntry = {
   value: string;
 };
 
+type PublishResult = {
+  published?: boolean;
+  issueDate?: string;
+  publishRequestId?: string;
+  primary?: {
+    target: "github";
+    status: "succeeded" | "failed";
+    commitSha?: string;
+  };
+  shadow?: {
+    target: "supabase";
+    status: "succeeded" | "skipped" | "failed" | "timeout";
+    changed?: boolean;
+  };
+  compare?: {
+    status: "matched" | "mismatched" | "failed" | "not_started";
+    differenceCount: number;
+    differencePaths?: string[];
+  };
+};
+
 export function StudioEditor() {
   const [unlocked, setUnlocked] = useState(false);
   const [password, setPassword] = useState("");
@@ -28,6 +49,8 @@ export function StudioEditor() {
   const [studioView, setStudioView] = useState<"analytics" | "editor">("analytics");
   const [issueEntries, setIssueEntries] = useState<IssueEntry[]>([]);
   const [selectedIssue, setSelectedIssue] = useState<IssueEntry | null>(null);
+  const [lastPublishResult, setLastPublishResult] = useState<PublishResult | null>(null);
+  const [retryingShadow, setRetryingShadow] = useState(false);
 
   useEffect(() => {
     if (!unlocked) return;
@@ -64,6 +87,7 @@ export function StudioEditor() {
     setIssue(detail.issue);
     setActive(0);
     setPosterPreviews({});
+    setLastPublishResult(null);
     setPosterCacheKey(detail.issue.assetVersion || detail.issue.beijingTimestamp || detail.issue.issueDate);
     setStatus(entry.source === "current" ? "当前期已载入，修改后点发布" : `往期 ${entry.date} 已载入`);
   }
@@ -185,6 +209,7 @@ export function StudioEditor() {
   async function publish() {
     if (!issue) return;
     setPublishing(true);
+    setLastPublishResult(null);
     setStatus("正在发布…");
     try {
       const response = await fetch("/api/studio/publish", {
@@ -194,6 +219,7 @@ export function StudioEditor() {
       });
       const detail = await response.json().catch(() => null);
       if (!response.ok) throw new Error(detail?.message || "发布失败");
+      setLastPublishResult(detail);
       setIssue(detail.issue);
       const nextTarget = detail.target as Pick<IssueEntry, "source" | "value">;
       const nextEntry: IssueEntry = {
@@ -201,6 +227,7 @@ export function StudioEditor() {
         source: nextTarget.source,
         value: nextTarget.value,
       };
+      const finalStatus = publishStatusMessage(detail, nextTarget.source);
       setSelectedIssue(nextEntry);
       if (nextTarget.source === "current") {
         setStatus("内容已发布，正在归档本期海报…");
@@ -209,17 +236,68 @@ export function StudioEditor() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ issueDate: detail.issue.issueDate }),
         });
-        setStatus("发布成功，内容和海报均已保存到往期");
+        setStatus(finalStatus);
       } else {
-        setStatus("往期修改已保存，不影响当前首页");
+        setStatus(finalStatus);
       }
       await loadIssueEntries(nextEntry);
+      setLastPublishResult(detail);
+      setStatus(finalStatus);
     } catch (error) {
       const message = error instanceof Error ? error.message : "发布失败";
       setStatus(message);
       if (message.includes("登录已过期")) setUnlocked(false);
     } finally {
       setPublishing(false);
+    }
+  }
+
+  function publishStatusMessage(detail: PublishResult, source: IssueEntry["source"]) {
+    if (source === "current") {
+      if (detail.shadow?.status === "failed" || detail.shadow?.status === "timeout") {
+        return "主发布成功，Supabase 影子同步失败，等待自动修复或人工重试";
+      }
+      if (detail.compare?.status === "mismatched") {
+        return "主发布成功，Supabase 已同步，但内容一致性检查发现差异";
+      }
+      return "发布成功，内容、海报和影子同步均已完成";
+    }
+    if (detail.shadow?.status === "failed" || detail.shadow?.status === "timeout") {
+      return "往期主发布成功，Supabase 影子同步失败";
+    }
+    if (detail.compare?.status === "mismatched") {
+      return "往期主发布成功，但 Supabase 内容一致性检查发现差异";
+    }
+    return "往期修改已保存，Supabase 影子同步完成，不影响当前首页";
+  }
+
+  async function retryShadowPublish() {
+    const publishRequestId = lastPublishResult?.publishRequestId;
+    if (!publishRequestId) return;
+    setRetryingShadow(true);
+    setStatus("正在重试 Supabase 影子同步…");
+    try {
+      const response = await fetch(`/api/studio/publish-runs/${encodeURIComponent(publishRequestId)}/retry-shadow`, {
+        method: "POST",
+      });
+      const detail = await response.json().catch(() => null);
+      if (!response.ok) throw new Error(detail?.message || "影子同步重试失败");
+      setLastPublishResult({
+        ...lastPublishResult,
+        shadow: detail.shadow,
+        compare: detail.compare,
+      });
+      if (detail.shadow?.status === "failed" || detail.shadow?.status === "timeout") {
+        setStatus("影子同步仍然失败，已记录，可等待每日 Cron 兜底");
+      } else if (detail.compare?.status === "mismatched") {
+        setStatus("影子同步已重试，但内容一致性检查仍有差异");
+      } else {
+        setStatus("影子同步重试成功，内容一致");
+      }
+    } catch (error) {
+      setStatus(error instanceof Error ? error.message : "影子同步重试失败");
+    } finally {
+      setRetryingShadow(false);
     }
   }
 
@@ -428,6 +506,30 @@ export function StudioEditor() {
       )}
       {studioView === "editor" ? <div className="studio-publish-bar">
         <p role="status" aria-live="polite">{status}</p>
+        {lastPublishResult?.published ? (
+          <div className={`studio-shadow-status ${lastPublishResult.compare?.status === "matched" ? "ok" : "warn"}`}>
+            <strong>
+              {lastPublishResult.compare?.status === "matched"
+                ? "主发布与影子同步一致"
+                : "主发布成功，影子链路需要处理"}
+            </strong>
+            <span>刊期 {lastPublishResult.issueDate || issue.issueDate}</span>
+            <span>请求 {lastPublishResult.publishRequestId}</span>
+            <span>GitHub {lastPublishResult.primary?.status || "succeeded"}</span>
+            <span>Supabase {lastPublishResult.shadow?.status || "not_started"}</span>
+            <span>差异 {lastPublishResult.compare?.differenceCount ?? 0}</span>
+            {lastPublishResult.compare?.differencePaths?.length ? (
+              <small>{lastPublishResult.compare.differencePaths.slice(0, 3).join("、")}</small>
+            ) : null}
+            {(lastPublishResult.shadow?.status === "failed" ||
+              lastPublishResult.shadow?.status === "timeout" ||
+              lastPublishResult.compare?.status === "mismatched") ? (
+              <button type="button" onClick={retryShadowPublish} disabled={publishing || retryingShadow}>
+                {retryingShadow ? "正在重试…" : "重试影子同步"}
+              </button>
+            ) : null}
+          </div>
+        ) : null}
         <button type="button" className="studio-publish" onClick={publish} disabled={publishing}>
           {publishing ? "正在发布…" : selectedIssue?.source === "current" ? "发布当前期修改" : "保存往期归档修改"}
         </button>
