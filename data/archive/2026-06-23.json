@@ -1,0 +1,570 @@
+{
+  "id": "10000000-0000-4000-8000-000000000010",
+  "slug": "2026-06-23",
+  "assetVersion": "issue-2026-06-23-default-news-0623-0635",
+  "issueDate": "2026-06-23",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-06-23T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-22T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000073",
+  "topics": [
+    {
+      "id": "20000000-0000-4000-8000-000000000073",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "world-cup",
+      "rank": 1,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "AR",
+        "AT",
+        "FR",
+        "IQ",
+        "CV",
+        "UY"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "world_cup_messi_record_argentina_austria_june22_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "梅西两球刷新世界杯进球纪录，阿根廷2:0击败奥地利提前出线",
+          "headlineView": "传奇最难得的不是又进球，而是在最后一届仍能改变比赛重心",
+          "headlineFull": "梅西两球刷新世界杯进球纪录，阿根廷2:0击败奥地利提前出线；传奇最难得的不是又进球，而是在最后一届仍能改变比赛重心。",
+          "intro": "北京时间6月23日凌晨，阿根廷2:0击败奥地利，梅西罚失点球后在第39分钟和补时阶段连进两球，以18球刷新世界杯历史进球纪录，并帮助卫冕冠军提前进入32强。这是当天最重要的一场：它同时改变小组格局和个人史册。其他焦点里，姆巴佩在法国对伊拉克一战迎来第100次国家队出场并打进世界杯第15球；此前佛得角2:2逼平乌拉圭，继续制造扩军世界杯的最大惊喜。",
+          "xiaziQuote": "世界杯有时像时代交接仪式：新星不断上桌，但老王还能用一脚射门提醒大家，历史还没有翻篇。",
+          "doudouQuote": "罚丢点球再梅开二度，这剧情像先把观众吓醒，再把纪录本撕了重写。",
+          "footerTakeaway": "梅西纪录、阿根廷出线、姆巴佩里程碑和佛得角黑马线，构成这个比赛日的主叙事。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Messi scored twice to break the World Cup goals record as Argentina beat Austria 2-0",
+          "headlineView": "the rarest part of a legend is not scoring again, but still bending the tournament around him",
+          "headlineFull": "Messi scored twice to break the World Cup goals record as Argentina beat Austria 2-0；the rarest part of a legend is not scoring again, but still bending the tournament around him。",
+          "intro": "In the early hours of June 23 Beijing time, Argentina beat Austria 2-0. After missing an early penalty, Lionel Messi scored in the 39th minute and again in stoppage time, lifting his World Cup total to a record 18 goals and sending the defending champions into the round of 32. It was the day’s defining match because it changed both the group table and the record book. Elsewhere, Kylian Mbappe scored on his 100th France appearance against Iraq, while Cape Verde’s 2-2 draw with Uruguay kept the expanded tournament’s surprise story alive.",
+          "xiaziQuote": "The World Cup sometimes feels like a handover ceremony, until the old king scores and reminds everyone the page has not turned yet.",
+          "doudouQuote": "Miss a penalty, score twice, rewrite the record book. That is less a match report than a screenplay.",
+          "footerTakeaway": "Messi’s record, Argentina’s qualification, Mbappe’s milestone and Cape Verde’s run defined the day."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000292",
+          "topicId": "20000000-0000-4000-8000-000000000073",
+          "title": "Messi sets World Cup scoring record as defending champion Argentina advances to knockout stage",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/3ad605618a23e1d71fc539d8c596e33e",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000293",
+          "topicId": "20000000-0000-4000-8000-000000000073",
+          "title": "Kylian Mbappe of France scores his 15th World Cup goal, tying for 3rd most in history",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/25ad24ae8ea2c502b7053144735457d9",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000294",
+          "topicId": "20000000-0000-4000-8000-000000000073",
+          "title": "Another World Cup stunner: Cape Verde gets 1st goal of tournament and holds Uruguay to 2-2 draw",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/world-cup-cape-verde-uruguay-vozinha-fd5ad696b6eb54626600a16d51c98741",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000074",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "ai-technology",
+      "rank": 2,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "nvidia_huang_ai_social_norms_june22_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI与科技",
+          "headlineFact": "英伟达黄仁勋称AI时代需要新的社会规范",
+          "headlineView": "技术扩散到生活深处时，真正缺的往往不是算力，而是规则感",
+          "headlineFull": "英伟达黄仁勋称AI时代需要新的社会规范；技术扩散到生活深处时，真正缺的往往不是算力，而是规则感。",
+          "intro": "黄仁勋在AP采访中表示，AI会推动经济增长和科学突破，但社会也必须随之调整。他在得州Coherent制造扩建活动期间谈到，英伟达正在面对公众对失业、风险和AI安全的担忧。这个表态重要，不是因为它又一次夸AI，而是因为头部芯片公司开始把“社会规范”放到产业叙事中央。",
+          "xiaziQuote": "当AI从工具变成基础设施，企业卖的不只是芯片，也是在向社会申请信任额度。",
+          "doudouQuote": "以前发布会比参数，现在CEO要讲伦理；算力跑太快，说明书追得有点喘。",
+          "footerTakeaway": "AI进入制度和生活层面，治理、就业和信任会成为下一轮竞争焦点。"
+        },
+        "en-US": {
+          "categoryLabel": "AI and Technology",
+          "headlineFact": "Nvidia’s Jensen Huang said the age of AI needs new social norms",
+          "headlineView": "when technology moves deep into life, the shortage is often not compute but rules",
+          "headlineFull": "Nvidia’s Jensen Huang said the age of AI needs new social norms；when technology moves deep into life, the shortage is often not compute but rules。",
+          "intro": "In an AP interview, Nvidia CEO Jensen Huang said AI could accelerate growth and scientific breakthroughs, but society must change with it. Speaking around a manufacturing expansion event in Texas, he addressed public worries about jobs, risks and AI safety. The significance is not another optimistic AI forecast; it is that a leading chipmaker is moving social norms into the center of the industry story.",
+          "xiaziQuote": "Once AI becomes infrastructure, companies are not only selling chips; they are asking society for trust.",
+          "doudouQuote": "Launch events used to be about specs. Now CEOs have to discuss ethics because compute is outrunning the manual.",
+          "footerTakeaway": "As AI moves into institutions and daily life, governance, jobs and trust become core battlegrounds."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000295",
+          "topicId": "20000000-0000-4000-8000-000000000074",
+          "title": "Nvidia CEO Jensen Huang says society needs new social norms in the age of AI",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/nvidea-huang-artificial-intelligence-8334abcbc6ed8d3d7889b640ec6fa05b",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000075",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "australia-canada-radar",
+      "rank": 3,
+      "category": "business",
+      "region": "Asia-Pacific",
+      "countryCodes": [
+        "AU",
+        "CA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "australia_canada_othr_radar_export_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "商业与资本",
+          "headlineFact": "澳大利亚与加拿大签署25亿澳元远程雷达出口协议",
+          "headlineView": "安全焦虑正在把高端制造重新变成国家级生意",
+          "headlineFull": "澳大利亚与加拿大签署25亿澳元远程雷达出口协议；安全焦虑正在把高端制造重新变成国家级生意。",
+          "intro": "澳大利亚政府宣布与加拿大签署政府间协议，出口澳方“超视距雷达”系统，金额约25亿澳元，为澳大利亚史上最大国防出口。该系统将用于加拿大北极预警与远程态势感知，BAE Systems Australia预计7月1日开始交付。它说明防务资本正在从买装备，走向共同研发、产业岗位和长期技术绑定。",
+          "xiaziQuote": "这类交易的底层不是一台雷达，而是盟友把供应链、预警能力和地缘信任打包进同一张订单。",
+          "doudouQuote": "以前雷达是看远方，现在订单也是：一眼看到北极、就业和盟友关系。",
+          "footerTakeaway": "澳加雷达协议显示，防务工业合作正在成为资本与安全政策的交叉点。"
+        },
+        "en-US": {
+          "categoryLabel": "Business and Capital",
+          "headlineFact": "Australia and Canada signed a A$2.5 billion over-the-horizon radar export deal",
+          "headlineView": "security anxiety is turning advanced manufacturing back into a state-level business",
+          "headlineFull": "Australia and Canada signed a A$2.5 billion over-the-horizon radar export deal；security anxiety is turning advanced manufacturing back into a state-level business。",
+          "intro": "Australia announced a government-to-government agreement with Canada to export an Australian over-the-horizon radar system worth about A$2.5 billion, its largest defense export. The system will support Canada’s Arctic early warning and long-range domain awareness, with BAE Systems Australia set to begin delivery on July 1. The deal shows defense capital moving beyond equipment purchases into joint development, skilled jobs and long-term technology ties.",
+          "xiaziQuote": "The underlying product is not only a radar; it is supply chains, warning capacity and allied trust bundled into one order.",
+          "doudouQuote": "A radar is supposed to see far away. This order sees the Arctic, jobs and alliance politics at the same time.",
+          "footerTakeaway": "The Australia-Canada radar deal shows defense industry cooperation becoming a meeting point for capital and security policy."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000296",
+          "topicId": "20000000-0000-4000-8000-000000000075",
+          "title": "Australia and Canada sign landmark agreement on Over the Horizon Radar export",
+          "publisher": "Australian Government Defence Ministers",
+          "url": "https://www.minister.defence.gov.au/media-releases/2026-06-22/australia-canada-sign-landmark-agreement-over-horizon-radar-export",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000297",
+          "topicId": "20000000-0000-4000-8000-000000000075",
+          "title": "Australia and Canada sign a $1.75B deal to build long-range radar in Canada",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/d947666f16a00062413e1f99b450040f",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000076",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "uk-starmer-resignation",
+      "rank": 4,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "uk_starmer_resignation_burnham_contest_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际政治",
+          "headlineFact": "英国首相斯塔默宣布将辞任工党领袖并留任至继任者产生",
+          "headlineView": "执政党内部换挡，往往比一次选举更能暴露治理压力",
+          "headlineFull": "英国首相斯塔默宣布将辞任工党领袖并留任至继任者产生；执政党内部换挡，往往比一次选举更能暴露治理压力。",
+          "intro": "斯塔默6月22日在唐宁街宣布，将辞去英国工党领袖职务，并在继任者选出前继续担任首相。大曼彻斯特市长安迪·伯纳姆已确认将争取接任，英国政治再次进入党内权力重组期。对外部世界来说，这不只是英国人事新闻，也会影响财政路线、对欧关系和北约内政策协调。",
+          "xiaziQuote": "成熟政治制度的稳定，不在于没人下台，而在于换人时能不能把政策、市场和社会预期接住。",
+          "doudouQuote": "英国政治这几年像连续剧换季，主角刚站稳，编剧又安排领导力挑战。",
+          "footerTakeaway": "斯塔默辞任触发英国执政党重组，政策连续性和市场预期成为观察重点。"
+        },
+        "en-US": {
+          "categoryLabel": "International Politics",
+          "headlineFact": "Keir Starmer said he will resign as Labour leader and stay prime minister until a successor is chosen",
+          "headlineView": "a ruling party’s internal shift can reveal governing pressure more sharply than an election",
+          "headlineFull": "Keir Starmer said he will resign as Labour leader and stay prime minister until a successor is chosen；a ruling party’s internal shift can reveal governing pressure more sharply than an election。",
+          "intro": "On June 22, Keir Starmer announced outside Downing Street that he would resign as UK Labour leader while remaining prime minister until a successor is chosen. Greater Manchester mayor Andy Burnham confirmed he would seek to replace him, sending British politics into another internal power reset. For the wider world, this is not only a personnel story; it can affect fiscal policy, relations with Europe and coordination inside NATO.",
+          "xiaziQuote": "The stability of a mature political system is not that nobody resigns, but whether policy and expectations can be carried through the change.",
+          "doudouQuote": "British politics feels like a series changing seasons: just when the lead settles in, the writers add a leadership contest.",
+          "footerTakeaway": "Starmer’s resignation starts a ruling-party reset, with policy continuity and market expectations now in focus."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000298",
+          "topicId": "20000000-0000-4000-8000-000000000076",
+          "title": "Starmer says he will resign as UK prime minister, roiling British politics yet again",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/keir-starmer-resignation-pressure-burnham-uk-politics-8aa1c427418c487fe644f5d5c40d1518",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000077",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "markets-oil-big-tech",
+      "rank": 5,
+      "category": "economy",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 87,
+      "storyId": "markets_oil_big_tech_iran_talks_june22_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球经济",
+          "headlineFact": "油价因美伊谈判进展下跌，美股在科技股拖累下分化",
+          "headlineView": "市场不是不怕战争，而是在给“可控风险”重新定价",
+          "headlineFull": "油价因美伊谈判进展下跌，美股在科技股拖累下分化；市场不是不怕战争，而是在给“可控风险”重新定价。",
+          "intro": "AP数据显示，6月22日布伦特原油下跌3.2%至77.52美元，美国原油下跌2.6%至73.86美元，原因是美伊谈判给结束战争带来想象空间。但美股并未全面上冲：标普500跌0.4%，纳指跌1.3%，道指小涨0.3%。油价降温缓和能源恐慌，高利率与大型科技股回调却继续压住风险资产。",
+          "xiaziQuote": "当油价、债券收益率和AI股同日拉扯，市场真正交易的是“不确定性有没有变便宜”。",
+          "doudouQuote": "油价说松口气，纳指说别急；资本市场的情绪管理，比世界杯小组赛还复杂。",
+          "footerTakeaway": "能源风险暂时降温，但利率预期和科技估值仍让全球市场保持谨慎。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Economy",
+          "headlineFact": "Oil fell on progress in U.S.-Iran talks while U.S. stocks split under Big Tech pressure",
+          "headlineView": "markets are not unafraid of war; they are repricing whether the risk is controllable",
+          "headlineFull": "Oil fell on progress in U.S.-Iran talks while U.S. stocks split under Big Tech pressure；markets are not unafraid of war; they are repricing whether the risk is controllable。",
+          "intro": "AP reported that Brent crude fell 3.2% to $77.52 on June 22, while U.S. crude dropped 2.6% to $73.86, as U.S.-Iran talks raised hopes for an eventual end to the war. Stocks did not rally broadly: the S&P 500 slipped 0.4%, the Nasdaq fell 1.3% and the Dow gained 0.3%. Lower oil eased the energy shock, but high yields and Big Tech declines kept pressure on risk assets.",
+          "xiaziQuote": "When oil, bond yields and AI stocks pull in different directions, markets are really trading whether uncertainty has become cheaper.",
+          "doudouQuote": "Oil said “breathe.” Nasdaq said “not so fast.” Managing market emotion is more complicated than a World Cup group table.",
+          "footerTakeaway": "Energy risk cooled for now, but rate expectations and tech valuations kept global markets cautious."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000299",
+          "topicId": "20000000-0000-4000-8000-000000000077",
+          "title": "US stocks drift after oil prices ease and Big Tech stocks fall",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/stocks-markets-us-iran-war-oil-690222f2e7005faf72b76daf46768b4d",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000078",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "roman-space-telescope",
+      "rank": 6,
+      "category": "science",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 86,
+      "storyId": "nasa_roman_telescope_arrives_florida_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "科学与航天",
+          "headlineFact": "NASA罗曼空间望远镜抵达佛州，进入发射前最后准备",
+          "headlineView": "下一代天文发现，往往先从一艘驳船和一间洁净室开始",
+          "headlineFull": "NASA罗曼空间望远镜抵达佛州，进入发射前最后准备；下一代天文发现，往往先从一艘驳船和一间洁净室开始。",
+          "intro": "NASA宣布，南希·格雷丝·罗曼空间望远镜已于6月21日抵达肯尼迪航天中心，开始夏末发射前的最后处理。该望远镜重约8200公斤，目标最早8月30日由SpaceX猎鹰重型火箭发射，前往日地L2点。罗曼将用宽视场巡天研究暗能量、暗物质、系外行星和黑洞，并演示直接成像系外行星的星光遮挡技术。",
+          "xiaziQuote": "真正改变宇宙认知的项目，常常先经历很工程化的一步：运输、清洁、测试、加燃料。",
+          "doudouQuote": "宇宙问题听着玄，发射前清洁流程很朴素：先别把灰带上天。",
+          "footerTakeaway": "罗曼望远镜进入最后发射流程，可能为暗能量和系外行星研究带来新数据洪流。"
+        },
+        "en-US": {
+          "categoryLabel": "Science and Space",
+          "headlineFact": "NASA’s Roman Space Telescope arrived in Florida for final launch preparations",
+          "headlineView": "the next wave of astronomy often starts with a barge and a clean room",
+          "headlineFull": "NASA’s Roman Space Telescope arrived in Florida for final launch preparations；the next wave of astronomy often starts with a barge and a clean room。",
+          "intro": "NASA said the Nancy Grace Roman Space Telescope arrived at Kennedy Space Center on June 21 and began final processing before a launch targeted no earlier than August 30 on a SpaceX Falcon Heavy. The nearly 8,200-kilogram observatory will travel to the Sun-Earth L2 point. Roman’s wide-field surveys will study dark energy, dark matter, exoplanets and black holes, while also demonstrating a starlight-blocking technology for direct exoplanet imaging.",
+          "xiaziQuote": "Projects that change our view of the universe often begin with very practical steps: transport, cleaning, testing and fueling.",
+          "doudouQuote": "The cosmic questions are grand. The prelaunch checklist is humble: please do not take dust to space.",
+          "footerTakeaway": "Roman entering final launch flow could bring a new data surge for dark energy and exoplanet science."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000300",
+          "topicId": "20000000-0000-4000-8000-000000000078",
+          "title": "NASA’s Next Generation Telescope Arrives in Florida Ahead of Launch",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/blogs/roman/2026/06/21/nasas-next-generation-telescope-arrives-in-florida-ahead-of-launch/",
+          "publishedAt": "2026-06-21T23:28:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000079",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "clive-davis",
+      "rank": 7,
+      "category": "culture",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 82,
+      "storyId": "clive_davis_death_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "社会与文化",
+          "headlineFact": "音乐产业巨头克莱夫·戴维斯去世，享年94岁",
+          "headlineView": "流行文化背后，常常站着懂商业也懂人的“造星工程师”",
+          "headlineFull": "音乐产业巨头克莱夫·戴维斯去世，享年94岁；流行文化背后，常常站着懂商业也懂人的“造星工程师”。",
+          "intro": "AP报道，索尼音乐首席创意官、传奇音乐制作人克莱夫·戴维斯去世，享年94岁。他从唱片公司律师起步，后来发掘或推动詹尼斯·乔普林、布鲁斯·斯普林斯汀、惠特尼·休斯顿、艾丽西亚·凯斯等艺术家的职业生涯。戴维斯的离世提醒人们，流行音乐不是只有舞台，也有眼光、渠道和长期产业判断。",
+          "xiaziQuote": "文化产业最稀缺的能力，是在声音还没变成共识前，就听见它可能改变大众情绪。",
+          "doudouQuote": "歌手在台前发光，唱片老板在后台押注；押对一次叫运气，押对半个世纪叫本事。",
+          "footerTakeaway": "戴维斯离世标志着唱片工业一个时代的落幕，也让人回看造星机制的商业逻辑。"
+        },
+        "en-US": {
+          "categoryLabel": "Society and Culture",
+          "headlineFact": "Music industry titan Clive Davis died at 94",
+          "headlineView": "behind pop culture often stands a star-making engineer who understands both business and people",
+          "headlineFull": "Music industry titan Clive Davis died at 94；behind pop culture often stands a star-making engineer who understands both business and people。",
+          "intro": "AP reported that Clive Davis, Sony Music’s chief creative officer and a legendary record executive, died at 94. Starting as a record-company lawyer, he helped discover or advance the careers of artists including Janis Joplin, Bruce Springsteen, Whitney Houston and Alicia Keys. His death is a reminder that pop music is not only a stage performance; it is also taste, distribution and long-term industry judgment.",
+          "xiaziQuote": "The rare skill in culture is hearing how a sound may move the public before it has become consensus.",
+          "doudouQuote": "Artists shine on stage, executives bet backstage. One good call is luck; half a century of them is skill.",
+          "footerTakeaway": "Davis’s death marks the end of a record-industry era and invites a look back at the business of star-making."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000301",
+          "topicId": "20000000-0000-4000-8000-000000000079",
+          "title": "Clive Davis, music industry starmaker, has died at 94",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/clive-davis-obituary-music-mogul-45c9f57f7f764cbf815c9747cbff94e3",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000080",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "heat-stress-study",
+      "rank": 8,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [
+        "MX",
+        "IT",
+        "KE",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "global_heat_stress_nature_climate_change_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "环境与气候",
+          "headlineFact": "研究称墨西哥、意大利等地热应激天数比上世纪70年代多出一到两个月",
+          "headlineView": "气候变化最直接的账单，是人每天身体实际承受了多少热",
+          "headlineFull": "研究称墨西哥、意大利等地热应激天数比上世纪70年代多出一到两个月；气候变化最直接的账单，是人每天身体实际承受了多少热。",
+          "intro": "AP报道，发表于《自然·气候变化》的新研究用“体感温度”衡量热应激，发现墨西哥、肯尼亚、意大利等国家正经历比数十年前多一到两个月的热应激。研究不仅看温度，还把湿度、风速等因素纳入人体反应模型。南欧部分地区比上世纪70年代多出近一个月，美国南部也出现更多强热应激日。",
+          "xiaziQuote": "气候风险不是抽象的全球平均温度，而是工地、厨房、公交站里每个人多扛了多少天。",
+          "doudouQuote": "温度计说35度，身体说不是这么算的；湿度一上来，夏天就开始加班。",
+          "footerTakeaway": "体感热应激成为衡量气候冲击的新视角，公共健康与劳动保护压力同步上升。"
+        },
+        "en-US": {
+          "categoryLabel": "Environment and Climate",
+          "headlineFact": "A study says Mexico, Italy and others now face one to two more months of heat stress than in the 1970s",
+          "headlineView": "the most direct climate bill is how much heat the body must actually endure each day",
+          "headlineFull": "A study says Mexico, Italy and others now face one to two more months of heat stress than in the 1970s；the most direct climate bill is how much heat the body must actually endure each day。",
+          "intro": "AP reported on a Nature Climate Change study that used feels-like temperatures to measure heat stress. Mexico, Kenya, Italy and other countries are now experiencing one to two more months of heat stress than decades ago. The research includes humidity, wind speed and other factors in modeling human response. Parts of southern Europe have nearly a month more strong heat-stress days than in the 1970s, while the southern United States is also seeing more intense heat stress.",
+          "xiaziQuote": "Climate risk is not just the global average temperature; it is how many extra days workers, commuters and families must physically endure.",
+          "doudouQuote": "The thermometer may say 35 degrees, but the body says the math is incomplete. Add humidity and summer starts working overtime.",
+          "footerTakeaway": "Feels-like heat stress is becoming a sharper climate metric, raising pressure on public health and labor protection."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000302",
+          "topicId": "20000000-0000-4000-8000-000000000080",
+          "title": "Mexico, Italy and others see up to two more months of heat stress than in the 1970s, study says",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/climate-heat-stress-feelslike-temperatures-50-days-daae5fb348e8cb587bccdf770e842611",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000081",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "us-iran-talks",
+      "rank": 9,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "CH",
+        "QA",
+        "PK"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "us_iran_switzerland_talks_fragile_2026",
+      "storyStatus": "followup",
+      "followupDay": 8,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "编辑精选",
+          "headlineFact": "美伊瑞士谈判形成60天路线图，伊朗同意让IAEA核查员重返",
+          "headlineView": "外交真正向前一步，不是气氛变好，而是出现可验证的安排",
+          "headlineFull": "美伊瑞士谈判形成60天路线图，伊朗同意让IAEA核查员重返；外交真正向前一步，不是气氛变好，而是出现可验证的安排。",
+          "intro": "美伊高层在瑞士结束长时间谈判。AP称，副总统万斯表示谈判为结束战争的最终协议打下良好基础，技术团队仍留在瑞士继续工作；Axios则报道，伊朗同意邀请国际原子能机构核查员重返，双方还建立60天路线图、霍尔木兹沟通线和黎巴嫩降冲突机制。它仍很脆弱，但比昨天的威胁互怼多了可执行抓手。",
+          "xiaziQuote": "停火谈判最关键的增量，是从“愿意谈”走到“谁来核查、钱怎么走、船怎么过”。",
+          "doudouQuote": "外交桌上最值钱的不是合影，是表格：时间表、工作组、热线、核查清单。",
+          "footerTakeaway": "美伊谈判出现核查与60天路线图，信息增量高，但最终协议仍远未稳固。"
+        },
+        "en-US": {
+          "categoryLabel": "Editor’s Pick",
+          "headlineFact": "U.S.-Iran talks produced a 60-day road map as Iran agreed to invite IAEA inspectors back",
+          "headlineView": "real diplomatic progress is not a better mood, but a verifiable arrangement",
+          "headlineFull": "U.S.-Iran talks produced a 60-day road map as Iran agreed to invite IAEA inspectors back；real diplomatic progress is not a better mood, but a verifiable arrangement。",
+          "intro": "High-level U.S.-Iran talks in Switzerland ended after a lengthy session. AP reported that Vice President JD Vance said the talks created a good foundation for a final deal, with technical teams staying in Switzerland. Axios reported that Iran agreed to invite IAEA inspectors back and that the sides set a 60-day road map, a Strait of Hormuz communication line and a Lebanon deconfliction mechanism. The process remains fragile, but it now has more executable pieces than yesterday’s exchange of threats.",
+          "xiaziQuote": "The key increment in ceasefire talks is moving from “willing to talk” to who verifies, how funds move and how ships pass.",
+          "doudouQuote": "The most valuable thing at a diplomatic table is not the photo. It is the spreadsheet: timetable, working groups, hotline, inspection list.",
+          "footerTakeaway": "U.S.-Iran talks now include inspections and a 60-day road map, a high-information increment though the final deal remains uncertain."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000303",
+          "topicId": "20000000-0000-4000-8000-000000000081",
+          "title": "Vance says talks with Iranian officials set good foundation for a deal to end the war",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/united-states-iran-war-nuclear-negotiations-4bbde727c7095c4ad9da0285ca79f1e1",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30000000-0000-4000-8000-000000000304",
+          "topicId": "20000000-0000-4000-8000-000000000081",
+          "title": "Iran to allow UN nuclear inspectors back in, Vance says",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/06/22/iran-un-inspectors-vance",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "media",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    }
+  ]
+}
