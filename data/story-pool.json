@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T05:00:00+08:00",
+  "updatedAt": "2026-06-23T07:30:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -1033,8 +1033,8 @@
       "firstSeen": "2026-06-22",
       "lastSeen": "2026-06-23",
       "followupDay": 8,
-      "informationIncrementScore": 88,
-      "latestHeadline": "美伊瑞士谈判形成60天路线图，伊朗同意让IAEA核查员重返"
+      "informationIncrementScore": 90,
+      "latestHeadline": "美国给予伊朗60天制裁豁免，双方为最终协议制定路线图"
     },
     {
       "storyId": "world_bank_global_growth_gep_june_2026",
@@ -1544,10 +1544,10 @@
       "storyId": "colombia_presidential_runoff_2026",
       "status": "new",
       "firstSeen": "2026-06-22",
-      "lastSeen": "2026-06-22",
+      "lastSeen": "2026-06-23",
       "followupDay": 1,
       "informationIncrementScore": 100,
-      "latestHeadline": "哥伦比亚总统决选进入最后计票，右翼候选人暂时领先"
+      "latestHeadline": "哥伦比亚右翼候选人以不到一个百分点的优势胜出"
     },
     {
       "storyId": "uk_starmer_political_future_june22_2026",
@@ -1605,12 +1605,12 @@
     },
     {
       "storyId": "world_cup_messi_record_argentina_austria_june22_2026",
-      "status": "new",
+      "status": "followup",
       "firstSeen": "2026-06-23",
       "lastSeen": "2026-06-23",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "latestHeadline": "梅西两球刷新世界杯进球纪录，阿根廷2:0击败奥地利提前出线"
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "latestHeadline": "梅西双响将世界杯进球纪录改写为18球，阿根廷提前晋级"
     },
     {
       "storyId": "nvidia_huang_ai_social_norms_june22_2026",
@@ -1637,7 +1637,7 @@
       "lastSeen": "2026-06-23",
       "followupDay": 1,
       "informationIncrementScore": 100,
-      "latestHeadline": "英国首相斯塔默宣布将辞任工党领袖并留任至继任者产生"
+      "latestHeadline": "斯塔默宣布辞去工党党首职务，英国将迎来十余年内第七位首相"
     },
     {
       "storyId": "markets_oil_big_tech_iran_talks_june22_2026",
@@ -1674,6 +1674,51 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "研究称墨西哥、意大利等地热应激天数比上世纪70年代多出一到两个月"
+    },
+    {
+      "storyId": "daily_global_overview_june23_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "梅西改写世界杯纪录，英国进入首相交接，美伊获得60天谈判窗口"
+    },
+    {
+      "storyId": "ukraine_voronezh_missile_factory_strike_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "乌克兰导弹击中俄罗斯导弹电子设备工厂，俄方称5人死亡"
+    },
+    {
+      "storyId": "europe_heatwave_france_deaths_records_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
+      "latestHeadline": "法国已有至少18人死于极端高温，多座城市刷新纪录"
+    },
+    {
+      "storyId": "ai_model_access_digital_sovereignty_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国限制部分先进AI模型的海外访问，欧洲企业开始同时部署中美欧模型"
+    },
+    {
+      "storyId": "china_us_critical_minerals_export_controls_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "中国将多家美国稀土企业列入出口管制清单"
     }
   ]
 }
