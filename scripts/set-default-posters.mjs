@@ -70,7 +70,7 @@ async function upload(key, content, contentType) {
 const originalJpeg = await readFile(source);
 const original = await sharp(originalJpeg).png({ compressionLevel: 9 }).toBuffer();
 const thumbnail = await sharp(originalJpeg)
-  .resize({ width: 480, withoutEnlargement: true })
+  .resize(640, 1280, { fit: "cover" })
   .webp({ quality: 76, effort: 5 })
   .toBuffer();
 
