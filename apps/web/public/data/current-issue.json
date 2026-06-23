@@ -1,136 +1,133 @@
 {
-  "id": "10000000-0000-4000-8000-000000000009",
-  "slug": "2026-06-22",
-  "assetVersion": "issue-2026-06-22-user-replace-0622-0730-cachefix1",
-  "issueDate": "2026-06-22",
+  "id": "10000000-0000-4000-8000-000000000011",
+  "slug": "2026-06-24",
+  "assetVersion": "issue-2026-06-24-chatgpt-posters-original-v1",
+  "issueDate": "2026-06-24",
   "slotHour": 5,
-  "beijingTimestamp": "2026-06-22T05:00:00+08:00",
-  "gmtTimestamp": "2026-06-21T21:00:00Z",
+  "beijingTimestamp": "2026-06-24T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-23T21:00:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000064",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000082",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000064",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "world-cup",
+      "id": "20000000-0000-4000-8000-000000000082",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "overview",
       "rank": 1,
-      "category": "sports",
+      "category": "overview",
       "region": "Global",
       "countryCodes": [
-        "JP",
-        "TN",
-        "ES",
-        "SA",
-        "CW",
-        "EC",
-        "BE",
-        "IR"
+        "PT",
+        "FR",
+        "NO",
+        "US",
+        "IR",
+        "PE",
+        "BO",
+        "FR",
+        "US",
+        "CN"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "world_cup_japan_spain_curacao_june21_2026",
+      "storyId": "daily_global_overview_june24_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃",
+          "headlineView": "世界一边创造纪录，一边为失控的风险重新设置边界",
+          "headlineFull": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃； 世界一边创造纪录，一边为失控的风险重新设置边界.",
+          "intro": "过去24小时，C罗成为首位在六届世界杯均取得进球的球员，姆巴佩和哈兰德也分别梅开二度；美国参议院首次通过针对伊朗战争的战争权力决议；欧洲热浪继续升级，法国已有40人在避暑游泳时溺亡。与此同时，秘鲁总统选举因极小差距和舞弊指控陷入僵局，玻利维亚政治危机引发多个美洲国家联合表态；SpaceX启动至少250亿美元债券发行，Anthropic把Claude正式带进Slack群聊；美国还将用频谱拍卖所得，加速替换通信网络中的中国设备。",
+          "xiaziQuote": "今天最值得看的，不只是某个事件更大声，而是很多系统同时在重设边界。",
+          "doudouQuote": "球场在破纪录，国会在收权，企业在借钱，通信网在换设备，世界像是在同步更新系统。",
+          "footerTakeaway": "今日关键词：纪录、制衡、高温、选举、秩序、融资、AI同事与通信安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "Ronaldo scored in a sixth straight World Cup, the U.S. Senate moved to rein in war powers, and Europe’s heat reached 44.3 C",
+          "headlineView": "the world is setting new records while rebuilding guardrails around risks that feel out of control",
+          "headlineFull": "Ronaldo scored in a sixth straight World Cup, the U.S. Senate moved to rein in war powers, and Europe’s heat reached 44.3 C； the world is setting new records while rebuilding guardrails around risks that feel out of control.",
+          "intro": "Over the past 24 hours, Cristiano Ronaldo became the first player to score in six World Cups, while Kylian Mbappe and Erling Haaland also scored twice. The U.S. Senate passed its first war-powers resolution aimed at limiting further unilateral action over Iran. Europe’s heatwave intensified, with France reporting 40 drownings as people sought relief from the heat. Peru’s presidential vote entered a narrow and disputed phase, Bolivia’s political crisis drew a joint warning from American states, SpaceX launched a bond offering of at least $25 billion, Anthropic brought Claude into Slack conversations, and U.S. spectrum-auction funds will help replace Chinese telecom equipment.",
+          "xiaziQuote": "What matters today is not only which event is loudest, but how many systems are resetting their limits at once.",
+          "doudouQuote": "The pitch is breaking records, Congress is reclaiming power, companies are borrowing, and networks are being rebuilt. The world is updating in parallel.",
+          "footerTakeaway": "Keywords: records, checks and balances, heat, elections, order, financing, AI colleagues, and telecom security."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000390",
+          "topicId": "20000000-0000-4000-8000-000000000082",
+          "title": "Daily global news overview",
+          "publisher": "Xiazi Says",
+          "url": "https://pluto.hk/zh/",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000083",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "world-cup-ronaldo-record",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "PT",
+        "UZ",
+        "FR",
+        "IQ",
+        "NO",
+        "SN",
+        "JO",
+        "DZ"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "world_cup_ronaldo_record_june23_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "日本、西班牙双双4:0大胜，库拉索拿到队史世界杯第一分",
-          "headlineView": "足球世界最动人的时刻，不只是强者赢球，也是弱者终于被看见",
-          "headlineFull": "日本、西班牙双双4:0大胜，库拉索拿到队史世界杯第一分；足球世界最动人的时刻，不只是强者赢球，也是弱者终于被看见。",
-          "intro": "北京时间6月21日05:00至6月22日05:00，世界杯共结束4场比赛：厄瓜多尔0:0库拉索、突尼斯0:4日本、西班牙4:0沙特阿拉伯、比利时0:0伊朗。日本在世界杯第1000场比赛中大胜突尼斯，上田绮世梅开二度；西班牙则在首轮被佛得角逼平后找回节奏。更值得记住的是库拉索，人口不到20万的加勒比岛国0:0逼平厄瓜多尔，37岁门将埃洛伊·鲁姆完成15次扑救，拿到队史第一个世界杯积分。",
-          "xiaziQuote": "这个比赛日提醒我们：世界杯的价值不只在冠军叙事，也在小国终于拥有被世界认真看见的90分钟。",
-          "doudouQuote": "强队4:0像提交作业，小队0:0像写史诗；库拉索这1分，含金量比很多大胜更有故事。",
-          "footerTakeaway": "两场4:0、两场0:0，世界杯第1000场和库拉索首分共同构成“强者与小国”的一日双线。"
+          "headlineFact": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度",
+          "headlineView": "传奇从来不是永远年轻，而是在不同年代都留下名字",
+          "headlineFull": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度； 传奇从来不是永远年轻，而是在不同年代都留下名字.",
+          "intro": "北京时间6月23日05:00至6月24日05:00，共结束4场世界杯比赛：法国3:0伊拉克，挪威3:2塞内加尔，约旦1:2阿尔及利亚，葡萄牙5:0乌兹别克斯坦。41岁的C罗在葡萄牙大胜中攻入两球，成为首位在六届世界杯均有进球的球员，并以10球超越尤西比奥，成为葡萄牙世界杯队史最佳射手。姆巴佩在个人第100场国家队比赛中梅开二度，帮助法国提前晋级；哈兰德连续第二场双响，率领挪威进入淘汰赛。",
+          "xiaziQuote": "世界杯每天都在换主角，但纪录会把那些真正跨越时代的人留下来。",
+          "doudouQuote": "年轻人负责冲刺，老将负责提醒大家：有些名字不是用来退场的。",
+          "footerTakeaway": "24小时关键词：C罗六届进球、姆巴佩16球、哈兰德四球、法国挪威晋级。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Japan and Spain both won 4-0, while Curaçao earned its first World Cup point",
-          "headlineView": "football’s most moving moments are not only when powers win, but when smaller teams are seen",
-          "headlineFull": "Japan and Spain both won 4-0, while Curaçao earned its first World Cup point；football’s most moving moments are not only when powers win, but when smaller teams are seen。",
-          "intro": "Between 05:00 June 21 and 05:00 June 22 Beijing time, four World Cup matches finished: Ecuador 0-0 Curaçao, Tunisia 0-4 Japan, Spain 4-0 Saudi Arabia, and Belgium 0-0 Iran. Japan routed Tunisia in the 1,000th match in World Cup history, with Ayase Ueda scoring twice, while Spain recovered rhythm after its opening draw. Curaçao may be the story to remember: the Caribbean nation of fewer than 200,000 people held Ecuador 0-0 as 37-year-old goalkeeper Eloy Room made 15 saves and secured its first World Cup point.",
-          "xiaziQuote": "The day shows the World Cup is not only a champion’s story; it is also 90 minutes in which a small country is taken seriously.",
-          "doudouQuote": "A 4-0 from a giant looks like homework submitted. A 0-0 from a small team can read like an epic. Curaçao’s one point has real narrative weight.",
-          "footerTakeaway": "Two 4-0 wins, two 0-0 draws, Japan’s milestone match and Curaçao’s first point defined the day."
+          "headlineFact": "Ronaldo became the first player to score in six World Cups, while Mbappe and Haaland each struck twice",
+          "headlineView": "a legend is not someone who stays young forever, but someone who leaves a name in different eras",
+          "headlineFull": "Ronaldo became the first player to score in six World Cups, while Mbappe and Haaland each struck twice； a legend is not someone who stays young forever, but someone who leaves a name in different eras.",
+          "intro": "From 05:00 on June 23 to 05:00 on June 24 Beijing time, four World Cup matches were completed: France 3-0 Iraq, Norway 3-2 Senegal, Jordan 1-2 Algeria, and Portugal 5-0 Uzbekistan. At 41, Cristiano Ronaldo scored twice for Portugal, becoming the first player to score in six World Cups and passing Eusebio as Portugal’s all-time World Cup scorer with 10 goals. Mbappe scored twice in his 100th France appearance as France advanced early, while Haaland’s second straight brace helped Norway reach the knockout stage.",
+          "xiaziQuote": "The World Cup changes protagonists every day, but records preserve the people who truly cross eras.",
+          "doudouQuote": "The young sprint. The veteran reminds everyone that some names are not built for exits.",
+          "footerTakeaway": "24-hour keywords: Ronaldo scores in six World Cups, Mbappe reaches 16, Haaland reaches four, France and Norway advance."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000281",
-          "topicId": "20000000-0000-4000-8000-000000000064",
-          "title": "Japan rout Tunisia 4-0 as Ueda shines in World Cup's 1,000th match",
+          "id": "30000000-0000-4000-8000-000000000393",
+          "topicId": "20000000-0000-4000-8000-000000000083",
+          "title": "Soccer-'I'm back': Record-breaker Ronaldo fires Portugal to 5-0 win over Uzbekistan",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/japan-rout-tunisia-4-0-world-cups-1000th-match-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "30000000-0000-4000-8000-000000000282",
-          "topicId": "20000000-0000-4000-8000-000000000064",
-          "title": "Curacao keeper Room shines in historic World Cup draw with Ecuador",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/keeper-room-shines-curacao-hold-ecuador-historic-world-cup-draw-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000065",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "cultural-heritage",
-      "rank": 2,
-      "category": "international",
-      "region": "Latin America",
-      "countryCodes": [
-        "CO"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "colombia_presidential_runoff_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "哥伦比亚大选",
-          "headlineFact": "哥伦比亚总统决选进入最后计票，右翼候选人暂时领先",
-          "headlineView": "当差距只剩一个百分点，每一张选票都可能改变国家方向",
-          "headlineFull": "哥伦比亚总统决选进入最后计票，右翼候选人暂时领先；当差距只剩一个百分点，每一张选票都可能改变国家方向。",
-          "intro": "哥伦比亚总统决选计票接近尾声。在约95%的选票完成统计时，右翼候选人阿韦拉多·德拉埃斯普列拉获得接近50%的选票，左翼候选人伊万·塞佩达约为48.4%，两人相差约36.8万票。前者主张强硬打击犯罪、缩减政府规模和发展石油产业；后者希望延续社会福利改革及与武装组织的和平谈判。目前仍是初步计票结果，尚不应视为正式胜选。",
-          "xiaziQuote": "拉美政治的摆动，往往不是左右标签的胜负，而是安全焦虑、福利期待和资源经济重新排序。",
-          "doudouQuote": "差距小到每张票都像董事会表决；国家路线这事，有时候真是一格格数出来的。",
-          "footerTakeaway": "哥伦比亚决选仍在最后计票，安全、福利和能源路线可能随结果转向。"
-        },
-        "en-US": {
-          "categoryLabel": "Colombia Election",
-          "headlineFact": "Colombia’s presidential runoff neared final counting with the right-wing candidate ahead",
-          "headlineView": "when the margin is about one point, every ballot can change a country’s direction",
-          "headlineFull": "Colombia’s presidential runoff neared final counting with the right-wing candidate ahead；when the margin is about one point, every ballot can change a country’s direction。",
-          "intro": "Colombia’s presidential runoff was close to its final count. With roughly 95% of ballots tallied, right-wing candidate Abelardo de la Espriella had nearly 50% of the vote, while leftist Ivan Cepeda had about 48.4%, a gap of roughly 368,000 votes. De la Espriella campaigned on a tougher crime stance, a smaller state and oil development; Cepeda sought to continue welfare reforms and peace talks with armed groups. The result remains preliminary and should not yet be treated as an official victory.",
-          "xiaziQuote": "Latin America’s political swing is not just left versus right; it is security anxiety, welfare expectations and resource economics rearranging.",
-          "doudouQuote": "The margin is so small that every ballot feels like a board vote. Sometimes a national direction is counted one square at a time.",
-          "footerTakeaway": "Colombia’s runoff remains in final counting, with security, welfare and energy policy at stake."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000283",
-          "topicId": "20000000-0000-4000-8000-000000000065",
-          "title": "Colombia right wing candidate De La Espriella has lead in tight presidential race",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/americas/colombia-votes-runoff-pitting-leftist-reformer-against-law-and-order-newcomer-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
+          "url": "https://www.ksl.com/article/51537909/soccer-im-back-record-breaker-ronaldo-fires-portugal-to-5-0-win-over-uzbekistan",
+          "publishedAt": "2026-06-23T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -139,56 +136,54 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000066",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "us-iran-mou-signed",
+      "id": "20000000-0000-4000-8000-000000000084",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "us-iran-war-powers",
       "rank": 3,
       "category": "international",
-      "region": "Middle East",
+      "region": "North America",
       "countryCodes": [
         "US",
-        "IR",
-        "CH",
-        "LB"
+        "IR"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 94,
-      "storyId": "us_iran_switzerland_talks_fragile_2026",
-      "storyStatus": "followup",
-      "followupDay": 7,
-      "informationIncrementScore": 82,
+      "storyId": "us_senate_iran_war_powers_resolution_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "美伊谈判",
-          "headlineFact": "美伊代表团在瑞士展开谈判，特朗普却再次威胁发动打击",
-          "headlineView": "外交桌上最难谈的，往往不是条件，而是双方能否停止同时展示拳头",
-          "headlineFull": "美伊代表团在瑞士展开谈判，特朗普却再次威胁发动打击；外交桌上最难谈的，往往不是条件，而是双方能否停止同时展示拳头。",
-          "intro": "美国副总统万斯与伊朗议会议长卡利巴夫率领代表团，在瑞士就临时停火框架展开谈判。双方需要处理伊朗核计划、铀浓缩、冻结资产、石油制裁及黎巴嫩局势等问题。伊朗称谈判“困难”，特朗普则在会谈期间再次发出军事威胁。谈判已经开始，但距离一份能够真正结束冲突的最终协议仍然很远。",
-          "xiaziQuote": "停火协议最怕的不是条款写得慢，而是每个参与者都还想证明自己没有退。",
-          "doudouQuote": "一边谈判一边亮拳头，像边修桥边试爆破；桥能不能通，先看大家能不能别拆。",
-          "footerTakeaway": "美伊谈判进入实质阶段，但威胁与地区冲突持续削弱协议可信度。"
+          "categoryLabel": "美国政治",
+          "headlineFact": "美国参议院首次通过限制伊朗战争的战争权力决议",
+          "headlineView": "真正的权力制衡，不是在战争开始前说服所有人，而是在战争之后仍敢追问谁有权决定",
+          "headlineFull": "美国参议院首次通过限制伊朗战争的战争权力决议； 真正的权力制衡，不是在战争开始前说服所有人，而是在战争之后仍敢追问谁有权决定.",
+          "intro": "美国参议院以50票对48票，通过一项寻求阻止政府继续单方面对伊朗采取军事行动的战争权力决议。这是参议院第十次尝试限制这场战争，也是第一次获得通过。决议目前主要具有政治和象征意义，并不能立即停止军事行动；但它反映出包括部分共和党人在内的国会议员，对战争成本及美伊临时协议的担忧正在上升。",
+          "xiaziQuote": "当战争已经开始，制衡仍然重要；它至少提醒权力，代价不能只由沉默的人承担。",
+          "doudouQuote": "这不是刹车踩到底，更像是在方向盘旁边贴了一张“请看路”的纸条。",
+          "footerTakeaway": "参议院首次通过相关决议，是美国战争权力争议的新节点。"
         },
         "en-US": {
-          "categoryLabel": "U.S.-Iran Talks",
-          "headlineFact": "U.S. and Iranian delegations began talks in Switzerland as Trump again threatened strikes",
-          "headlineView": "the hardest issue at a diplomatic table is often whether both sides can stop showing their fists",
-          "headlineFull": "U.S. and Iranian delegations began talks in Switzerland as Trump again threatened strikes；the hardest issue at a diplomatic table is often whether both sides can stop showing their fists。",
-          "intro": "Vice President JD Vance and Iranian parliamentary speaker Mohammad Bagher Ghalibaf led delegations into Swiss talks on an interim ceasefire framework. The agenda includes Iran’s nuclear program, uranium enrichment, frozen assets, oil sanctions and Lebanon. Iran described the talks as difficult, while Trump again issued military threats during the process. Talks have begun, but a final agreement capable of ending the conflict remains far away.",
-          "xiaziQuote": "A ceasefire is not only slowed by wording; it is weakened when every actor still wants to prove it has not backed down.",
-          "doudouQuote": "Talking while showing fists is like building a bridge while testing explosives. First, stop dismantling the bridge.",
-          "footerTakeaway": "U.S.-Iran talks moved into substance, but threats and regional conflict still undermine confidence."
+          "categoryLabel": "U.S. Politics",
+          "headlineFact": "The U.S. Senate passed its first war-powers resolution seeking to limit the Iran war",
+          "headlineView": "real checks and balances are not about persuading everyone before a war starts; they are about still asking who decides after it begins",
+          "headlineFull": "The U.S. Senate passed its first war-powers resolution seeking to limit the Iran war； real checks and balances are not about persuading everyone before a war starts; they are about still asking who decides after it begins.",
+          "intro": "The U.S. Senate voted 50-48 to approve a war-powers resolution seeking to block the administration from continuing unilateral military action against Iran. It was the Senate’s tenth attempt to limit the war and the first to pass. The measure is largely political and symbolic for now, and does not immediately end military action, but it shows growing concern among lawmakers, including some Republicans, over the cost of the war and the interim U.S.-Iran arrangement.",
+          "xiaziQuote": "Checks still matter after a war begins, because power has to be reminded that costs cannot be carried only by the silent.",
+          "doudouQuote": "It is not a full brake. It is more like a note on the steering wheel saying: please watch the road.",
+          "footerTakeaway": "The Senate vote marks a new stage in America’s argument over war powers."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000284",
-          "topicId": "20000000-0000-4000-8000-000000000066",
-          "title": "The Latest: Trump threats shake up US-Iran talks in Switzerland on deal's details",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/39f9632b4df3a61a07a2c271da1d5637",
-          "publishedAt": "2026-06-21T00:00:00Z",
+          "id": "30000000-0000-4000-8000-000000000396",
+          "topicId": "20000000-0000-4000-8000-000000000084",
+          "title": "Senate for first time approves a war powers resolution in a rebuke to Trump over Iran conflict",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/senate-iran-war-powers-resolution-trump-7462a9a561103f531d995aac91f9fc96",
+          "publishedAt": "2026-06-23T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -197,290 +192,166 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000067",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "public-health",
+      "id": "20000000-0000-4000-8000-000000000085",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "europe-heatwave-drownings",
       "rank": 4,
-      "category": "international",
+      "category": "climate",
       "region": "Europe",
       "countryCodes": [
-        "GB"
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "europe_heatwave_france_drownings_june24_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡",
+          "headlineView": "极端天气最危险的地方，是人们为了逃离一种风险，反而走进另一种风险",
+          "headlineFull": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡； 极端天气最危险的地方，是人们为了逃离一种风险，反而走进另一种风险.",
+          "intro": "法国经历有记录以来最热的一天，西南部一座城镇测得44.3℃，54个省进入最高级别红色警报。法国总理表示，自6月18日以来已有40人溺亡，其中多数为年轻人，很多人是在高温下进入未经监管的河流、运河和水域避暑。意大利多座城市发布最高级别预警，西班牙部分地区气温也可能达到44℃；铁路、学校、电力和旅游景点均受到影响。",
+          "xiaziQuote": "气候风险不是远方的概念，它会让一个城市的上课、出行、用电和避暑方式同时失灵。",
+          "doudouQuote": "热到去游泳，游到出危险，这就是极端天气最扎心的连锁反应。",
+          "footerTakeaway": "热浪从气温纪录升级为公共安全与城市运行压力。"
+        },
+        "en-US": {
+          "categoryLabel": "European Heatwave",
+          "headlineFact": "France hit 44.3 C, and 40 people drowned while seeking relief from the heat",
+          "headlineView": "the most dangerous part of extreme weather is that escaping one risk can push people into another",
+          "headlineFull": "France hit 44.3 C, and 40 people drowned while seeking relief from the heat； the most dangerous part of extreme weather is that escaping one risk can push people into another.",
+          "intro": "France experienced one of its hottest days on record, with a town in the southwest reaching 44.3 C and 54 departments placed under the highest red alert. The French prime minister said 40 people had drowned since June 18, many of them young people entering unsupervised rivers, canals and other waters to cool down. Italy issued top-level warnings in multiple cities, parts of Spain could also reach 44 C, and railways, schools, power systems and tourist sites came under pressure.",
+          "xiaziQuote": "Climate risk is not an abstract idea. It can break school, travel, electricity and even the way people cool down at the same time.",
+          "doudouQuote": "When it gets so hot that swimming becomes the escape, and the escape becomes dangerous, that is the chain reaction of extreme weather.",
+          "footerTakeaway": "The heatwave has moved from temperature records to public-safety and urban-system stress."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000399",
+          "topicId": "20000000-0000-4000-8000-000000000085",
+          "title": "Forty drown in France as people seek relief from Europe's heatwave",
+          "publisher": "Reuters",
+          "url": "https://x.com/Reuters/status/2069377432692445395",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000086",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "peru-election-fujimori-sanchez",
+      "rank": 5,
+      "category": "international",
+      "region": "Latin America",
+      "countryCodes": [
+        "PE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "peru_fujimori_sanchez_runoff_dispute_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "秘鲁大选",
+          "headlineFact": "藤森以50.11%暂时领先，竞争对手拒绝承认结果",
+          "headlineView": "选举最危险的时刻，不是差距太小，而是各方开始不再相信同一套计票规则",
+          "headlineFull": "藤森以50.11%暂时领先，竞争对手拒绝承认结果； 选举最危险的时刻，不是差距太小，而是各方开始不再相信同一套计票规则.",
+          "intro": "秘鲁总统决选已统计99.72%的选票，保守派候选人藤森以50.11%暂时领先左翼候选人罗伯托·桑切斯的49.89%。桑切斯宣称存在舞弊，要求暂停计票，并表示不会承认藤森政府，但尚未提供证明系统性舞弊的证据。他还要求取消119个海外领事投票点的约30万张选票，但选举机构已驳回相关主张。",
+          "xiaziQuote": "民主最怕的不是分歧，而是分歧大到所有人开始怀疑同一块计分牌。",
+          "doudouQuote": "差0.22个百分点，足够让一个国家的神经绷到最紧。",
+          "footerTakeaway": "秘鲁进入微弱领先与合法性争议并存的后计票阶段。"
+        },
+        "en-US": {
+          "categoryLabel": "Peru Election",
+          "headlineFact": "Fujimori held a 50.11% narrow lead, while her rival refused to recognize the result",
+          "headlineView": "the most dangerous moment in an election is not a narrow margin, but when sides stop trusting the same counting rules",
+          "headlineFull": "Fujimori held a 50.11% narrow lead, while her rival refused to recognize the result； the most dangerous moment in an election is not a narrow margin, but when sides stop trusting the same counting rules.",
+          "intro": "With 99.72% of votes counted in Peru’s presidential runoff, conservative candidate Keiko Fujimori held 50.11% against leftist Roberto Sanchez’s 49.89%. Sanchez alleged fraud, called for a pause in the count and said he would not recognize a Fujimori government, though he had not produced evidence of systemic fraud. He also sought to annul roughly 300,000 overseas votes from 119 consular polling places, a claim rejected by electoral authorities.",
+          "xiaziQuote": "Democracy is not most afraid of disagreement. It is afraid of disagreement so deep that everyone doubts the same scoreboard.",
+          "doudouQuote": "A 0.22-point gap is enough to tighten an entire country’s nerves.",
+          "footerTakeaway": "Peru has entered a post-counting phase where a tiny lead and legitimacy dispute coexist."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000402",
+          "topicId": "20000000-0000-4000-8000-000000000086",
+          "title": "Peru's Sanchez claims fraud as Fujimori holds narrow lead",
+          "publisher": "Reuters",
+          "url": "https://www.devdiscourse.com/article/politics/3939616-perus-sanchez-claims-fraud-as-fujimori-holds-narrow-lead?amp=",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000087",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "bolivia-democracy-protests",
+      "rank": 6,
+      "category": "international",
+      "region": "Latin America",
+      "countryCodes": [
+        "BO",
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 88,
-      "storyId": "uk_starmer_political_future_june22_2026",
+      "storyId": "bolivia_democracy_protests_joint_warning_2026",
       "storyStatus": "followup",
       "followupDay": 2,
-      "informationIncrementScore": 70,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "英国政局",
-          "headlineFact": "斯塔默可能最早周一决定政治去留",
-          "headlineView": "领导人真正失去权力的时刻，往往不是辞职那天，而是所有人都开始公开讨论继任者",
-          "headlineFull": "斯塔默可能最早周一决定政治去留；领导人真正失去权力的时刻，往往不是辞职那天，而是所有人都开始公开讨论继任者。",
-          "intro": "英国首相基尔·斯塔默正面临工党内部不断升级的下台压力，可能最早在周一决定辞职，或迎接党内领导权挑战。美国总统特朗普已经公开称斯塔默将会下台，但英国政府官员仍表示，首相目前继续专注于工作，没有正式辞职决定。曼彻斯特市长安迪·伯纳姆被视为热门继任者之一。",
-          "xiaziQuote": "权力松动最早出现的信号，不是门牌摘下，而是身边人开始把“如果”说成“何时”。",
-          "doudouQuote": "还没辞职，接班人就开始被点名；政治舞台有时候灯还没灭，下一场布景已经进场。",
-          "footerTakeaway": "斯塔默去留仍未正式确定，但工党领导权压力已公开化。"
-        },
-        "en-US": {
-          "categoryLabel": "UK Politics",
-          "headlineFact": "Starmer could decide his political future as early as Monday",
-          "headlineView": "leaders often lose power before resignation day, when everyone starts openly discussing successors",
-          "headlineFull": "Starmer could decide his political future as early as Monday；leaders often lose power before resignation day, when everyone starts openly discussing successors。",
-          "intro": "UK Prime Minister Keir Starmer faces escalating pressure inside Labour and could decide as early as Monday whether to resign or face a leadership challenge. Trump has publicly said Starmer will step down, while UK officials still say the prime minister remains focused on the job and no formal resignation decision has been made. Manchester Mayor Andy Burnham is seen as one possible successor.",
-          "xiaziQuote": "The first sign of weakening power is not the nameplate coming down, but people turning “if” into “when.”",
-          "doudouQuote": "No resignation yet, but the successor list is already being called. Sometimes the next set enters before the stage lights go off.",
-          "footerTakeaway": "Starmer’s future is unresolved, but Labour’s leadership pressure is now public."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000285",
-          "topicId": "20000000-0000-4000-8000-000000000067",
-          "title": "Trump says Starmer will resign as UK prime minister",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/europe/trump-says-starmer-will-resign-uk-prime-minister-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000068",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "climate-adaptation",
-      "rank": 5,
-      "category": "climate",
-      "region": "Europe",
-      "countryCodes": [
-        "FR",
-        "ES",
-        "IT",
-        "DE",
-        "GB"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "europe_heatwave_school_closures_june22_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 75,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "欧洲热浪",
-          "headlineFact": "欧洲多地气温逼近40℃，法国关闭数百所学校并取消列车",
-          "headlineView": "极端天气不再只是天气预报，而是城市运行方式的压力测试",
-          "headlineFull": "欧洲多地气温逼近40℃，法国关闭数百所学校并取消列车；极端天气不再只是天气预报，而是城市运行方式的压力测试。",
-          "intro": "来自撒哈拉地区的高压系统正在欧洲形成持续“热穹顶”。法国约三分之一地区进入最高级别高温警报，约845所学校被要求关闭，法国铁路取消部分列车，并建议老年人等高风险群体推迟出行。西班牙、意大利、德国和英国也发布高温或健康预警，预计极端高温还将持续数日。",
-          "xiaziQuote": "高温正在把城市治理从应急口号拉回到现实：学校、交通、医疗和供电都要一起作答。",
-          "doudouQuote": "天气预报以前是“记得带伞”，现在是“学校停课、火车取消、老人别出门”。夏天开始考城市系统了。",
-          "footerTakeaway": "欧洲热浪进入公共服务调整阶段，极端气候正在改变城市日常运行。"
-        },
-        "en-US": {
-          "categoryLabel": "European Heatwave",
-          "headlineFact": "Temperatures approached 40C across Europe as France closed hundreds of schools and canceled trains",
-          "headlineView": "extreme weather is no longer just a forecast, but a stress test for how cities operate",
-          "headlineFull": "Temperatures approached 40C across Europe as France closed hundreds of schools and canceled trains；extreme weather is no longer just a forecast, but a stress test for how cities operate。",
-          "intro": "A high-pressure system from the Sahara is creating a prolonged heat dome over Europe. About one-third of France is under the highest heat alert, around 845 schools were ordered to close, some French trains were canceled, and high-risk groups such as older people were advised to delay travel. Spain, Italy, Germany and the UK also issued heat or health alerts, with extreme temperatures expected to last for days.",
-          "xiaziQuote": "Heat is pulling urban governance back from slogans to reality: schools, transport, health care and power systems all have to answer together.",
-          "doudouQuote": "Weather forecasts used to mean bring an umbrella. Now they mean schools closed, trains canceled and older people should stay home. Summer is testing city systems.",
-          "footerTakeaway": "Europe’s heatwave has reached the public-service adjustment stage, changing daily urban operations."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000286",
-          "topicId": "20000000-0000-4000-8000-000000000068",
-          "title": "Europe braces for prolonged heatwave as temperatures approach 40C",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/environment/europe-braces-prolonged-heatwave-temperatures-approach-40c-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "30000000-0000-4000-8000-000000000287",
-          "topicId": "20000000-0000-4000-8000-000000000068",
-          "title": "France restricts public alcohol consumption and outdoor sports as heat wave bakes parts of Europe",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/337471b5950543447c92010ca1081a8d",
-          "publishedAt": "2026-06-21T04:00:45Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000069",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "clean-energy",
-      "rank": 6,
-      "category": "business",
-      "region": "Middle East",
-      "countryCodes": [
-        "QA"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 86,
-      "storyId": "qatar_ras_laffan_gas_explosion_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "卡塔尔能源",
-          "headlineFact": "卡塔尔拉斯拉凡天然气工厂发生爆炸，火势已被控制",
-          "headlineView": "能源安全最脆弱的地方，往往不是资源不足，而是关键设施过于集中",
-          "headlineFull": "卡塔尔拉斯拉凡天然气工厂发生爆炸，火势已被控制；能源安全最脆弱的地方，往往不是资源不足，而是关键设施过于集中。",
-          "intro": "卡塔尔能源公司表示，拉斯拉凡工业区的巴尔赞天然气工厂发生“运营事故”，引发爆炸和火灾。火势已经得到控制，事故造成数人受伤，但官方称没有发生威胁公共安全的泄漏。拉斯拉凡是卡塔尔液化天然气产业的核心区域，在全球能源供应仍受中东局势影响的背景下，这类事故尤其容易引发市场关注。",
-          "xiaziQuote": "能源安全不只是有没有气，还包括关键节点一旦出事，全球市场会不会立刻屏住呼吸。",
-          "doudouQuote": "资源大国也怕一个厂区冒烟；供应链最怕的不是没故事，是故事发生在核心节点。",
-          "footerTakeaway": "卡塔尔核心天然气设施事故已受控，但凸显全球能源供应对集中节点的敏感。"
-        },
-        "en-US": {
-          "categoryLabel": "Qatar Energy",
-          "headlineFact": "An explosion hit Qatar’s Ras Laffan gas plant and the fire was brought under control",
-          "headlineView": "energy security is often most fragile not when resources are scarce, but when critical facilities are concentrated",
-          "headlineFull": "An explosion hit Qatar’s Ras Laffan gas plant and the fire was brought under control；energy security is often most fragile not when resources are scarce, but when critical facilities are concentrated。",
-          "intro": "QatarEnergy said an operational incident at the Barzan gas plant in Ras Laffan Industrial City caused an explosion and fire. The fire was brought under control, several people were injured, and officials said there was no leak threatening public safety. Ras Laffan is central to Qatar’s LNG industry, so such accidents draw market attention while global energy supply is already sensitive to Middle East tensions.",
-          "xiaziQuote": "Energy security is not only whether gas exists; it is whether global markets hold their breath when a key node has trouble.",
-          "doudouQuote": "Even resource powers worry when smoke rises from one plant. Supply chains fear stories most when they happen at the core node.",
-          "footerTakeaway": "The Qatar gas facility incident was contained, but it underlined global energy sensitivity to concentrated infrastructure."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000288",
-          "topicId": "20000000-0000-4000-8000-000000000069",
-          "title": "QatarEnergy says 'operational incident' causes explosion at Ras Laffan",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/qatar-reports-explosion-factory-ras-laffan-no-injuries-or-leak-reported-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000070",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "supply-chain",
-      "rank": 7,
-      "category": "international",
-      "region": "Asia",
-      "countryCodes": [
-        "TW",
-        "CN"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 84,
-      "storyId": "taiwan_five_day_combat_readiness_drills_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "台海安全",
-          "headlineFact": "台湾将举行连续五天战备演练",
-          "headlineView": "当军事训练越来越接近真实战争，威慑与紧张往往也会同时上升",
-          "headlineFull": "台湾将举行连续五天战备演练；当军事训练越来越接近真实战争，威慑与紧张往往也会同时上升。",
-          "intro": "台湾防务部门宣布，本周将举行连续五天的战备演练，训练重点将从固定流程展示，转向更加贴近真实作战情境的演习。相关计划是军事现代化的一部分，预计会测试快速反应、部队调动及不同武器系统之间的协同能力。演练也将再次受到北京及地区国家密切关注。",
-          "xiaziQuote": "演训越贴近真实战场，越能提高威慑，也越容易让周边感受到压力。",
-          "doudouQuote": "以前演习像考试彩排，现在越来越像突击测验；问题是旁边所有人都会一起紧张。",
-          "footerTakeaway": "台湾五天战备演练将测试快速反应与联合作战能力，地区安全关注升温。"
-        },
-        "en-US": {
-          "categoryLabel": "Taiwan Security",
-          "headlineFact": "Taiwan will hold five consecutive days of combat-readiness drills",
-          "headlineView": "as military training moves closer to real war conditions, deterrence and tension rise together",
-          "headlineFull": "Taiwan will hold five consecutive days of combat-readiness drills；as military training moves closer to real war conditions, deterrence and tension rise together。",
-          "intro": "Taiwan’s defense ministry said it will hold five consecutive days of combat-readiness drills this week, shifting from fixed-process displays toward exercises closer to real operational conditions. The plan is part of military modernization and is expected to test rapid response, troop movement and coordination across weapons systems. The drills will again be closely watched by Beijing and regional governments.",
-          "xiaziQuote": "The closer drills get to real battlefield conditions, the more they strengthen deterrence and raise pressure around them.",
-          "doudouQuote": "Exercises used to look like exam rehearsals. Now they increasingly feel like pop quizzes, and everyone nearby gets nervous.",
-          "footerTakeaway": "Taiwan’s five-day drills will test rapid response and joint operations as regional security attention rises."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000289",
-          "topicId": "20000000-0000-4000-8000-000000000070",
-          "title": "Taiwan to stage five days of combat readiness drills",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/aerospace-defense/taiwan-stage-five-days-combat-readiness-drills-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000071",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "high-seas",
-      "rank": 8,
-      "category": "international",
-      "region": "Latin America",
-      "countryCodes": [
-        "BO"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 83,
-      "storyId": "bolivia_state_emergency_blockades_ease_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 78,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "玻利维亚危机",
-          "headlineFact": "玻利维亚宣布紧急状态后，封路与物资短缺开始缓解",
-          "headlineView": "危机真正伤害的，往往不是宏观数字，而是普通人突然买不到食物和药品",
-          "headlineFull": "玻利维亚宣布紧急状态后，封路与物资短缺开始缓解；危机真正伤害的，往往不是宏观数字，而是普通人突然买不到食物和药品。",
-          "intro": "玻利维亚议会批准国家紧急状态后，全国道路封锁数量开始下降，但仍有数十处路段受阻。持续封路此前造成食品、燃料和药品供应紧张。与此同时，一架执行援助任务的玻利维亚空军飞机坠毁，造成6人死亡。危机虽然出现缓和迹象，但社会秩序和基本物资供应仍未完全恢复。",
-          "xiaziQuote": "政治危机进入生活层面时，最直接的指标不是汇率，而是货架、油箱和药柜。",
-          "doudouQuote": "宏观危机听起来很远，直到你发现面包、汽油和药都开始排队。",
-          "footerTakeaway": "玻利维亚封路减少但供应仍未完全恢复，紧急状态后的社会修复才刚开始。"
+          "headlineFact": "多个美洲国家联合警告玻利维亚存在推翻政府的风险",
+          "headlineView": "抗议表达不满，暴力争夺权力却可能让所有普通人承担代价",
+          "headlineFull": "多个美洲国家联合警告玻利维亚存在推翻政府的风险； 抗议表达不满，暴力争夺权力却可能让所有普通人承担代价.",
+          "intro": "美国与多个美洲国家发表联合声明，称试图推翻玻利维亚政府的行动，对宪政秩序和民主稳定构成“严重威胁”，并指责一小部分暴力力量试图推翻近期选举所表达的民意。玻利维亚此前因取消燃油补贴、美元短缺和生活成本上升，经历长达数周的道路封锁与抗议。政府已宣布紧急状态并出动安全力量清理道路，但如果经济困境得不到解决，恢复交通并不等于危机真正结束。",
+          "xiaziQuote": "秩序不是没有抗议，而是抗议不会被少数暴力力量改写成夺权。",
+          "doudouQuote": "路可以清开，账单和物价不会自己消失，这才是危机的后半场。",
+          "footerTakeaway": "玻利维亚危机从交通封锁升级为区域民主秩序警报。"
         },
         "en-US": {
           "categoryLabel": "Bolivia Crisis",
-          "headlineFact": "After Bolivia declared a state of emergency, road blockades and shortages began to ease",
-          "headlineView": "crises hurt not only through macro numbers, but when ordinary people suddenly cannot buy food or medicine",
-          "headlineFull": "After Bolivia declared a state of emergency, road blockades and shortages began to ease；crises hurt not only through macro numbers, but when ordinary people suddenly cannot buy food or medicine。",
-          "intro": "After Bolivian lawmakers approved a state of emergency, the number of road blockades began to fall, though dozens of routes remained blocked. The protests had caused shortages of food, fuel and medicine. At the same time, a Bolivian air force plane on an assistance mission crashed, killing six people. The crisis shows signs of easing, but social order and basic supplies have not fully recovered.",
-          "xiaziQuote": "When a political crisis reaches daily life, the clearest indicators are not exchange rates but shelves, fuel tanks and medicine cabinets.",
-          "doudouQuote": "A macro crisis sounds distant until bread, gasoline and medicine all start forming lines.",
-          "footerTakeaway": "Bolivia’s blockades are easing, but supply recovery and social repair are only beginning."
+          "headlineFact": "Several American states warned of an effort to overthrow Bolivia’s government",
+          "headlineView": "protest can express pain, but violent power grabs make ordinary people pay the bill",
+          "headlineFull": "Several American states warned of an effort to overthrow Bolivia’s government； protest can express pain, but violent power grabs make ordinary people pay the bill.",
+          "intro": "The United States and several American states issued a joint statement saying efforts to overthrow Bolivia’s government posed a grave threat to constitutional order and democratic stability. They accused a small violent minority of trying to overturn the will expressed in recent elections. Bolivia had faced weeks of road blockades and protests over fuel-subsidy cuts, dollar shortages and rising living costs. The government declared a state of emergency and deployed security forces to clear roads, but restoring traffic does not resolve the economic stress behind the crisis.",
+          "xiaziQuote": "Order does not mean no protest. It means protest is not rewritten into a power grab by a violent minority.",
+          "doudouQuote": "Roads can be cleared. Bills and prices do not clear themselves. That is the second half of the crisis.",
+          "footerTakeaway": "Bolivia’s crisis has moved from road blockades to a regional warning over democratic order."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000290",
-          "topicId": "20000000-0000-4000-8000-000000000071",
-          "title": "Bolivia crisis begins easing, air force jet on assistance flight crashes",
+          "id": "30000000-0000-4000-8000-000000000405",
+          "topicId": "20000000-0000-4000-8000-000000000087",
+          "title": "US says Bolivia anti-government protests pose grave threat to democracy",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/americas/bolivia-crisis-begins-ease-after-lawmakers-back-state-emergency-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/23/us-says-bolivia-anti-government-protests-pose-grave-threat-to-democracy",
+          "publishedAt": "2026-06-23T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -489,54 +360,164 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000072",
-      "issueId": "10000000-0000-4000-8000-000000000009",
-      "slug": "g7-critical-minerals-alliance",
-      "rank": 9,
+      "id": "20000000-0000-4000-8000-000000000088",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "spacex-bond-offering",
+      "rank": 7,
       "category": "business",
-      "region": "Europe",
+      "region": "North America",
       "countryCodes": [
-        "DE",
-        "FR"
+        "US"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 85,
-      "storyId": "germany_knds_stake_ipo_2026",
+      "scoreTotal": 91,
+      "storyId": "spacex_25b_notes_ai_infrastructure_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "欧洲军工",
-          "headlineFact": "德国政府将收购军工企业KNDS部分股权，为其上市扫清障碍",
-          "headlineView": "欧洲的国防转向，正在从增加预算走向直接掌握产业能力",
-          "headlineFull": "德国政府将收购军工企业KNDS部分股权，为其上市扫清障碍；欧洲的国防转向，正在从增加预算走向直接掌握产业能力。",
-          "intro": "知情人士称，德国政府将从家族股东手中收购欧洲军工集团KNDS约40%的相关持股。这项交易将为KNDS在法兰克福和巴黎两地上市扫清最后障碍。KNDS生产德国“豹2”及法国“勒克莱尔”主战坦克。德国政府直接进入股权结构，显示欧洲国防政策已不再只是增加采购，而是在重新安排军工产业的资本与控制权。",
-          "xiaziQuote": "欧洲再武装不是只多买装备，而是政府重新进入产业链和资本结构。",
-          "doudouQuote": "以前是“我要买坦克”，现在是“我先买点坦克公司股份”；采购单变成股权表了。",
-          "footerTakeaway": "德国拟入股KNDS，显示欧洲防务转向产业控制与资本市场重组。"
+          "categoryLabel": "SpaceX融资",
+          "headlineFact": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元",
+          "headlineView": "资本相信的不只是火箭升空，也是在押注算力、能源和AI基础设施",
+          "headlineFull": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元； 资本相信的不只是火箭升空，也是在押注算力、能源和AI基础设施.",
+          "intro": "SpaceX启动五档债券发行，计划募集至少250亿美元，这是该公司首次发行投资级美元债券，期限覆盖5年至30年。据消息人士称，本次发行已吸引接近850亿美元的投资者订单。资金将用于偿还过桥贷款及支持公司运营。SpaceX正在大规模投资AI数据中心、计算设备和电力基础设施，这意味着一家以火箭和卫星闻名的公司，正逐渐变成同时需要能源、算力和长期资本的综合基础设施企业。",
+          "xiaziQuote": "当火箭公司开始像基础设施公司一样融资，说明太空、通信、AI和能源已经拧成一股绳。",
+          "doudouQuote": "这不是借钱买火箭，这是给下一代基础设施先铺电线。",
+          "footerTakeaway": "SpaceX融资显示航天企业的资本需求正在外溢到AI与能源基础设施。"
         },
         "en-US": {
-          "categoryLabel": "European Defence",
-          "headlineFact": "Germany plans to buy part of KNDS, clearing the way for an IPO",
-          "headlineView": "Europe’s defence shift is moving from bigger budgets to direct control of industrial capability",
-          "headlineFull": "Germany plans to buy part of KNDS, clearing the way for an IPO；Europe’s defence shift is moving from bigger budgets to direct control of industrial capability。",
-          "intro": "People familiar with the matter said Germany will buy about 40% of a relevant family-owned stake in European defence group KNDS, clearing the final obstacle to listings in Frankfurt and Paris. KNDS makes Germany’s Leopard 2 and France’s Leclerc main battle tanks. Germany’s direct move into the ownership structure shows European defence policy is no longer only about procurement; it is also rearranging capital and control in the arms industry.",
-          "xiaziQuote": "European rearmament is not just buying more equipment; governments are re-entering supply chains and ownership structures.",
-          "doudouQuote": "It used to be “we need tanks.” Now it is “we need some shares in the tank company.” The purchase order became a cap table.",
-          "footerTakeaway": "Germany’s planned KNDS stake shows Europe’s defence turn is also about industrial control and capital markets."
+          "categoryLabel": "SpaceX Financing",
+          "headlineFact": "SpaceX launched a bond offering of at least $25 billion, with orders near $85 billion",
+          "headlineView": "capital is betting not only on rockets, but also on compute, energy and AI infrastructure",
+          "headlineFull": "SpaceX launched a bond offering of at least $25 billion, with orders near $85 billion； capital is betting not only on rockets, but also on compute, energy and AI infrastructure.",
+          "intro": "SpaceX launched a five-part bond offering to raise at least $25 billion, its first investment-grade dollar bond sale, with maturities from five to 30 years. People familiar with the deal said investor orders approached $85 billion. Proceeds will repay bridge loans and support general corporate purposes. SpaceX is investing heavily in AI data centers, computing equipment and power infrastructure, meaning a company known for rockets and satellites is increasingly becoming a broader infrastructure business across space, communications, AI and energy.",
+          "xiaziQuote": "When a rocket company finances itself like an infrastructure company, space, communications, AI and energy have already become one system.",
+          "doudouQuote": "This is not just borrowing to buy rockets. It is wiring the next generation of infrastructure first.",
+          "footerTakeaway": "SpaceX’s financing shows how aerospace capital needs now spill into AI and energy infrastructure."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000291",
-          "topicId": "20000000-0000-4000-8000-000000000072",
-          "title": "KNDS family owners to sell 40% stake to German government, Bloomberg News reports",
+          "id": "30000000-0000-4000-8000-000000000408",
+          "topicId": "20000000-0000-4000-8000-000000000088",
+          "title": "SpaceX launches $25 billion notes offering, source says",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/knds-family-owners-sell-40-stake-german-government-bloomberg-news-reports-2026-06-21/",
-          "publishedAt": "2026-06-21T00:00:00Z",
+          "url": "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_L4N42V1CS%3A0-spacex-launches-25-billion-notes-offering-source-says/",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000089",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "anthropic-claude-tag-slack",
+      "rank": 8,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "anthropic_claude_tag_slack_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI职场",
+          "headlineFact": "Anthropic把Claude带进Slack群聊",
+          "headlineView": "AI正在从一个需要单独打开的工具，变成随时参与讨论的虚拟同事",
+          "headlineFull": "Anthropic把Claude带进Slack群聊； AI正在从一个需要单独打开的工具，变成随时参与讨论的虚拟同事.",
+          "intro": "Anthropic推出“Claude Tag”测试版。Slack用户只需在群聊中输入“@Claude”，AI便可以读取对话上下文、拆解任务，并主动提醒组织内部值得关注的更新。该功能目前面向Claude Enterprise和Team客户，管理员可以限制Claude在不同频道中访问的数据和工具。它的意义不只是减少一次复制粘贴，而是让AI从私聊助手进入公开协作空间，人与AI共同工作的过程也会更透明。",
+          "xiaziQuote": "AI真正进入工作流，不是多一个聊天框，而是它开始出现在团队默认沟通场景里。",
+          "doudouQuote": "以前是你去找AI，现在是AI坐进群里听会，打工味一下就浓了。",
+          "footerTakeaway": "Claude Tag把AI从个人工具推向团队协作界面。"
+        },
+        "en-US": {
+          "categoryLabel": "AI at Work",
+          "headlineFact": "Anthropic brought Claude into Slack group conversations",
+          "headlineView": "AI is moving from a separate tool into a virtual teammate that can join discussions in real time",
+          "headlineFull": "Anthropic brought Claude into Slack group conversations； AI is moving from a separate tool into a virtual teammate that can join discussions in real time.",
+          "intro": "Anthropic launched a research preview of Claude Tag. Slack users can type “@Claude” in a channel, allowing the AI to read conversation context, break down tasks and proactively surface relevant updates inside an organization. The feature is available to Claude Enterprise and Team customers, with administrators able to limit what data and tools Claude can access in each channel. The significance is not just fewer copy-and-paste steps; it moves AI from private chat into a shared collaboration space.",
+          "xiaziQuote": "AI truly enters the workflow when it stops being another chat box and starts appearing in the team’s default communication space.",
+          "doudouQuote": "Before, you went to AI. Now AI sits in the group chat and listens to the meeting. That feels much more like work.",
+          "footerTakeaway": "Claude Tag pushes AI from a personal tool into the team collaboration interface."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000411",
+          "topicId": "20000000-0000-4000-8000-000000000089",
+          "title": "Anthropic launches Claude Tag in Slack with plans for wider rollout",
+          "publisher": "Reuters",
+          "url": "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_L6N42V13T%3A0-anthropic-launches-claude-tag-in-slack-with-plans-for-wider-rollout/",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000090",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "us-spectrum-huawei-zte",
+      "rank": 9,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "us_spectrum_auction_replace_chinese_telecom_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中美通信科技",
+          "headlineFact": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备",
+          "headlineView": "通信安全的竞争，正在从禁止购买走向花钱重建整套网络",
+          "headlineFull": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备； 通信安全的竞争，正在从禁止购买走向花钱重建整套网络.",
+          "intro": "美国联邦通信委员会宣布，中频无线频谱拍卖筹集超过35亿美元，其中最多33亿美元将用于支持“拆除并替换”计划，帮助美国运营商移除华为、中兴等中国企业的通信设备。美国此前估计，完整替换相关设备需要49.8亿美元，但最初只获得19亿美元拨款。目前仅有42%的受资助运营商完成了设备更换和处置，许可、供应链、劳动力和极端天气都在拖慢进度。",
+          "xiaziQuote": "技术脱钩最贵的部分，往往不是说不买，而是把已经装进系统里的东西一件件换掉。",
+          "doudouQuote": "安全感不是免费的，尤其是当旧设备已经在塔上、新设备还在路上。",
+          "footerTakeaway": "美国通信安全政策从限制采购进入补钱替换阶段。"
+        },
+        "en-US": {
+          "categoryLabel": "U.S.-China Telecom Tech",
+          "headlineFact": "A U.S. spectrum auction raised $3.5 billion to help replace Huawei and ZTE equipment",
+          "headlineView": "telecom-security competition is moving from banning purchases to paying to rebuild networks",
+          "headlineFull": "A U.S. spectrum auction raised $3.5 billion to help replace Huawei and ZTE equipment； telecom-security competition is moving from banning purchases to paying to rebuild networks.",
+          "intro": "The U.S. Federal Communications Commission said a mid-band wireless spectrum auction raised more than $3.5 billion, with up to $3.3 billion to support the “rip and replace” program helping carriers remove Huawei and ZTE equipment. The U.S. previously estimated the full replacement would cost $4.98 billion, while the original appropriation was only $1.9 billion. Only 42% of funded carriers have completed removal and disposal, with permitting, supply chains, labor and extreme weather slowing progress.",
+          "xiaziQuote": "The most expensive part of tech decoupling is often not saying “do not buy,” but replacing what is already inside the system piece by piece.",
+          "doudouQuote": "Security is not free, especially when old gear is already on towers and new gear is still on the way.",
+          "footerTakeaway": "U.S. telecom-security policy is moving from procurement limits to funded replacement."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000414",
+          "topicId": "20000000-0000-4000-8000-000000000090",
+          "title": "US spectrum auction raises $3.5 billion, will fund replacing Chinese telecom equipment",
+          "publisher": "Reuters",
+          "url": "https://wtvbam.com/2026/06/23/us-spectrum-auction-raises-3-5-billion-will-fund-replacing-chinese-telecom-equipment/",
+          "publishedAt": "2026-06-23T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
