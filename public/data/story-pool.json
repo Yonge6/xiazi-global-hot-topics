@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T07:30:00+08:00",
+  "updatedAt": "2026-06-24T05:00:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -1719,6 +1719,87 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "中国将多家美国稀土企业列入出口管制清单"
+    },
+    {
+      "storyId": "daily_global_overview_june24_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃"
+    },
+    {
+      "storyId": "world_cup_ronaldo_record_june23_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度"
+    },
+    {
+      "storyId": "us_senate_iran_war_powers_resolution_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国参议院首次通过限制伊朗战争的战争权力决议"
+    },
+    {
+      "storyId": "europe_heatwave_france_drownings_june24_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 3,
+      "informationIncrementScore": 88,
+      "latestHeadline": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡"
+    },
+    {
+      "storyId": "peru_fujimori_sanchez_runoff_dispute_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "藤森以50.11%暂时领先，竞争对手拒绝承认结果"
+    },
+    {
+      "storyId": "bolivia_democracy_protests_joint_warning_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 2,
+      "informationIncrementScore": 78,
+      "latestHeadline": "多个美洲国家联合警告玻利维亚存在推翻政府的风险"
+    },
+    {
+      "storyId": "spacex_25b_notes_ai_infrastructure_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元"
+    },
+    {
+      "storyId": "anthropic_claude_tag_slack_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "Anthropic把Claude带进Slack群聊"
+    },
+    {
+      "storyId": "us_spectrum_auction_replace_chinese_telecom_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备"
     }
   ]
 }
