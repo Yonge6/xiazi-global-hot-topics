@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T07:30:00+08:00",
+  "updatedAt": "2026-06-24T05:00:00+08:00",
   "stories": [
     {
       "storyId": "world_cup_germany_curacao_2026",
@@ -1031,10 +1031,10 @@
       "storyId": "us_iran_switzerland_talks_fragile_2026",
       "status": "followup",
       "firstSeen": "2026-06-22",
-      "lastSeen": "2026-06-22",
-      "followupDay": 7,
-      "informationIncrementScore": 82,
-      "latestHeadline": "美伊代表团在瑞士展开谈判，特朗普却再次威胁发动打击"
+      "lastSeen": "2026-06-23",
+      "followupDay": 8,
+      "informationIncrementScore": 90,
+      "latestHeadline": "美国给予伊朗60天制裁豁免，双方为最终协议制定路线图"
     },
     {
       "storyId": "world_bank_global_growth_gep_june_2026",
@@ -1544,10 +1544,10 @@
       "storyId": "colombia_presidential_runoff_2026",
       "status": "new",
       "firstSeen": "2026-06-22",
-      "lastSeen": "2026-06-22",
+      "lastSeen": "2026-06-23",
       "followupDay": 1,
       "informationIncrementScore": 100,
-      "latestHeadline": "哥伦比亚总统决选进入最后计票，右翼候选人暂时领先"
+      "latestHeadline": "哥伦比亚右翼候选人以不到一个百分点的优势胜出"
     },
     {
       "storyId": "uk_starmer_political_future_june22_2026",
@@ -1602,6 +1602,204 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "德国政府将收购军工企业KNDS部分股权，为其上市扫清障碍"
+    },
+    {
+      "storyId": "world_cup_messi_record_argentina_austria_june22_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "latestHeadline": "梅西双响将世界杯进球纪录改写为18球，阿根廷提前晋级"
+    },
+    {
+      "storyId": "nvidia_huang_ai_social_norms_june22_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "英伟达黄仁勋称AI时代需要新的社会规范"
+    },
+    {
+      "storyId": "australia_canada_othr_radar_export_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "澳大利亚与加拿大签署25亿澳元远程雷达出口协议"
+    },
+    {
+      "storyId": "uk_starmer_resignation_burnham_contest_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "斯塔默宣布辞去工党党首职务，英国将迎来十余年内第七位首相"
+    },
+    {
+      "storyId": "markets_oil_big_tech_iran_talks_june22_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "油价因美伊谈判进展下跌，美股在科技股拖累下分化"
+    },
+    {
+      "storyId": "nasa_roman_telescope_arrives_florida_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "NASA罗曼空间望远镜抵达佛州，进入发射前最后准备"
+    },
+    {
+      "storyId": "clive_davis_death_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "音乐产业巨头克莱夫·戴维斯去世，享年94岁"
+    },
+    {
+      "storyId": "global_heat_stress_nature_climate_change_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "研究称墨西哥、意大利等地热应激天数比上世纪70年代多出一到两个月"
+    },
+    {
+      "storyId": "daily_global_overview_june23_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "梅西改写世界杯纪录，英国进入首相交接，美伊获得60天谈判窗口"
+    },
+    {
+      "storyId": "ukraine_voronezh_missile_factory_strike_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "乌克兰导弹击中俄罗斯导弹电子设备工厂，俄方称5人死亡"
+    },
+    {
+      "storyId": "europe_heatwave_france_deaths_records_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
+      "latestHeadline": "法国已有至少18人死于极端高温，多座城市刷新纪录"
+    },
+    {
+      "storyId": "ai_model_access_digital_sovereignty_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国限制部分先进AI模型的海外访问，欧洲企业开始同时部署中美欧模型"
+    },
+    {
+      "storyId": "china_us_critical_minerals_export_controls_2026",
+      "status": "new",
+      "firstSeen": "2026-06-23",
+      "lastSeen": "2026-06-23",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "中国将多家美国稀土企业列入出口管制清单"
+    },
+    {
+      "storyId": "daily_global_overview_june24_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃"
+    },
+    {
+      "storyId": "world_cup_ronaldo_record_june23_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度"
+    },
+    {
+      "storyId": "us_senate_iran_war_powers_resolution_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国参议院首次通过限制伊朗战争的战争权力决议"
+    },
+    {
+      "storyId": "europe_heatwave_france_drownings_june24_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 3,
+      "informationIncrementScore": 88,
+      "latestHeadline": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡"
+    },
+    {
+      "storyId": "peru_fujimori_sanchez_runoff_dispute_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "藤森以50.11%暂时领先，竞争对手拒绝承认结果"
+    },
+    {
+      "storyId": "bolivia_democracy_protests_joint_warning_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 2,
+      "informationIncrementScore": 78,
+      "latestHeadline": "多个美洲国家联合警告玻利维亚存在推翻政府的风险"
+    },
+    {
+      "storyId": "spacex_25b_notes_ai_infrastructure_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元"
+    },
+    {
+      "storyId": "anthropic_claude_tag_slack_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "Anthropic把Claude带进Slack群聊"
+    },
+    {
+      "storyId": "us_spectrum_auction_replace_chinese_telecom_2026",
+      "status": "new",
+      "firstSeen": "2026-06-24",
+      "lastSeen": "2026-06-24",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备"
     }
   ]
 }
