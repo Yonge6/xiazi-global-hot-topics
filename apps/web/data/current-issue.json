@@ -1,7 +1,7 @@
 {
   "id": "10000000-0000-4000-8000-000000000011",
   "slug": "2026-06-24",
-  "assetVersion": "issue-2026-06-24-chatgpt-posters-original-v1",
+  "assetVersion": "issue-2026-06-24-poster-remap-v2",
   "issueDate": "2026-06-24",
   "slotHour": 5,
   "beijingTimestamp": "2026-06-24T05:00:00+08:00",
@@ -76,7 +76,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000083",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "world-cup",
+      "slug": "world-cup-ronaldo-record",
       "rank": 2,
       "category": "sports",
       "region": "Global",
@@ -138,7 +138,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000084",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "uk-politics",
+      "slug": "us-iran-war-powers",
       "rank": 3,
       "category": "international",
       "region": "North America",
@@ -194,7 +194,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000085",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "us-iran-talks",
+      "slug": "europe-heatwave-drownings",
       "rank": 4,
       "category": "climate",
       "region": "Europe",
@@ -251,7 +251,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000086",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "colombia-election",
+      "slug": "peru-election-fujimori-sanchez",
       "rank": 5,
       "category": "international",
       "region": "Latin America",
@@ -306,7 +306,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000087",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "russia-ukraine",
+      "slug": "bolivia-democracy-protests",
       "rank": 6,
       "category": "international",
       "region": "Latin America",
@@ -362,7 +362,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000088",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "europe-heatwave",
+      "slug": "spacex-bond-offering",
       "rank": 7,
       "category": "business",
       "region": "North America",
@@ -417,7 +417,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000089",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "ai-digital-sovereignty",
+      "slug": "anthropic-claude-tag-slack",
       "rank": 8,
       "category": "technology",
       "region": "North America",
@@ -472,7 +472,7 @@
     {
       "id": "20000000-0000-4000-8000-000000000090",
       "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "china-us-critical-minerals",
+      "slug": "us-spectrum-huawei-zte",
       "rank": 9,
       "category": "technology",
       "region": "North America",
