@@ -44,7 +44,7 @@ function topic(slug: string, rank: number, category: Topic["category"] = "intern
 }
 
 describe("sortTopicsForIssue", () => {
-  it("keeps a verified World Cup topic first before rank sorting", () => {
+  it("sorts topics by their fixed issue rank", () => {
     const ordered = sortTopicsForIssue([
       topic("rank-one", 1),
       topic("world-cup-2026-update", 7, "sports"),
@@ -52,9 +52,9 @@ describe("sortTopicsForIssue", () => {
     ]);
 
     expect(ordered.map((item) => item.slug)).toEqual([
-      "world-cup-2026-update",
       "rank-one",
       "rank-two",
+      "world-cup-2026-update",
     ]);
   });
 });
