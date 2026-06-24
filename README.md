@@ -105,6 +105,8 @@ CONTENT_REPOSITORY=json
 
 开关未设置或为 `false` 时，Studio 仍保持纯 GitHub JSON 主写，不调用 Supabase 影子写入和 Compare。打开后，Studio 在 GitHub 主写成功后再尝试 Supabase 影子写和一致性检查；影子失败不能阻断正式发布。紧急回滚优先把 `STUDIO_SHADOW_WRITE_ENABLED` 改回 `false`，不要切换 `CONTENT_REPOSITORY`。
 
+Phase 4B.1 adds a GitHub Action bridge for the daily automation path. When `data/current-issue.json` changes on `main`, the workflow validates the committed Issue and matching archive JSON, writes the same canonical bundle to Supabase Shadow, runs compare, and records `trigger_type=automation` in `studio_publish_runs`. GitHub Actions Secrets must provide `SUPABASE_URL` and `SUPABASE_SECRET_KEY`; they must not be printed, committed, or exposed through `NEXT_PUBLIC_*`. The bridge never writes GitHub, so it cannot recursively publish.
+
 ## 模型与海报配置
 
 所有模型通过环境变量配置。正式海报遵循：

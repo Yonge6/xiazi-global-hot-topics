@@ -50,6 +50,21 @@ When `STUDIO_SHADOW_WRITE_ENABLED` is unset or `false`, Studio keeps the existin
 
 Emergency rollback is to set `STUDIO_SHADOW_WRITE_ENABLED=false` and redeploy. Do not delete the Phase 4B migration, delete `studio_publish_runs`, switch `CONTENT_REPOSITORY`, or remove already published JSON content.
 
+## Phase 4B.1 Automation Shadow Bridge
+
+Daily ChatGPT/Codex automation remains a GitHub JSON primary publisher. It does not hold Production Supabase secrets. After `data/current-issue.json` changes on `main`, `.github/workflows/sync-published-issue-shadow.yml` runs in GitHub Actions, reads the exact pushed commit, validates `data/current-issue.json` and `data/archive/YYYY-MM-DD.json`, computes the canonical checksum, writes Supabase Shadow, runs compare, and records a Publish Run with `trigger_type=automation` and the real GitHub commit SHA.
+
+The workflow requires GitHub Actions Secrets:
+
+```env
+SUPABASE_URL=
+SUPABASE_SECRET_KEY=
+```
+
+The action must not write GitHub, upload posters, or expose secrets in logs or artifacts. Reruns are idempotent through the publish request id `automation:{commitSha}:{issueDate}:{checksum}` and the shared Supabase shadow sync lock.
+
+`GET /api/internal/publish-runs/status` is a protected, read-only observer endpoint for automation checks. It requires `PUBLISH_RUN_STATUS_SECRET`, `SHADOW_COMPARE_SECRET`, or `CRON_SECRET` as a Bearer token and returns only publish status metadata, short commit SHA, counts, retry count, and timestamps.
+
 ## Phase 4A Shadow Reads
 
 The validated hosted Supabase project `cxjftltkdbsxxjgmxvsm` is promoted to the logical Pluto Production Supabase role. There is temporarily no independent hosted Staging project; Vercel Preview defaults back to JSON. A hosted Staging project should be restored later when the project needs paid Supabase capacity, long-lived preview database validation, or parallel team development.
