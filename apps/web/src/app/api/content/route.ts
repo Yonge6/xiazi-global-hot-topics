@@ -44,8 +44,8 @@ export async function GET() {
     });
   } catch {
     return NextResponse.json({
-      ...parseIssue(fallbackIssue),
-      assetVersion: fallbackIssue.beijingTimestamp || fallbackIssue.issueDate,
+      ...fallbackIssue,
+      assetVersion: fallbackIssue.assetVersion || fallbackIssue.beijingTimestamp || fallbackIssue.issueDate,
     }, {
       headers: {
         "Cache-Control": "no-store, no-cache, must-revalidate",
