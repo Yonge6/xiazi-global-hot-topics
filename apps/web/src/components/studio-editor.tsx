@@ -473,7 +473,7 @@ export function StudioEditor() {
       <nav className="studio-topic-tabs">{issue.topics.map((item, index) => <button className={index === active ? "active" : ""} onClick={() => setActive(index)} key={item.id}>{index + 1}</button>)}</nav>
       <section className="studio-card">
         <div className="studio-order"><b>#{topic.rank} {zh.categoryLabel}</b><span><button onClick={() => move(-1)}>上移</button><button onClick={() => move(1)}>下移</button></span></div>
-        {topic.slug.includes("world-cup") && <p className="studio-lock">世界杯硬规则：始终保持第一条</p>}
+        {topic.slug.includes("world-cup") && <p className="studio-lock">世界杯硬规则：始终保持第一条新闻</p>}
         <label>中文分类<input value={zh.categoryLabel} onChange={(e) => updateLocalized("zh-CN", { categoryLabel: e.target.value })} /></label>
         <label>中文事实<input value={zh.headlineFact} onChange={(e) => updateHeadline("zh-CN", "headlineFact", e.target.value)} /></label>
         <label>中文观点<input value={zh.headlineView} onChange={(e) => updateHeadline("zh-CN", "headlineView", e.target.value)} /></label>

@@ -48,9 +48,18 @@ export function validateIssueForImport(value: unknown): { issue: Issue; warnings
   if (!topicIds.has(issue.featuredTopicId)) {
     throw new Error(`${issue.issueDate}: featuredTopicId must belong to this issue`);
   }
+  const overview = issue.topics.filter((topic) => topic.slug === "overview");
+  if (overview.length > 1) {
+    throw new Error(`${issue.issueDate}: only one overview topic is allowed`);
+  }
+  if (overview.length === 1 && overview[0].rank !== 1) {
+    throw new Error(`${issue.issueDate}: overview topic must rank first`);
+  }
+
   const worldCup = issue.topics.filter((topic) => topic.category === "sports" && topic.slug.includes("world-cup"));
-  if (worldCup.length > 0 && !worldCup.some((topic) => topic.rank === 1)) {
-    throw new Error(`${issue.issueDate}: World Cup topic must rank first`);
+  const expectedWorldCupRank = overview.length === 1 ? 2 : 1;
+  if (worldCup.length > 0 && !worldCup.some((topic) => topic.rank === expectedWorldCupRank)) {
+    throw new Error(`${issue.issueDate}: World Cup topic must be the first news topic`);
   }
   if (worldCup.length === 0) warnings.push(`${issue.issueDate}: no World Cup topic found`);
   assertSameInstant(issue);

@@ -321,7 +321,7 @@ export function TopicGallery({
 
   return (
     <>
-      <section id="stories" className="story-columns shell" aria-label={isZh ? "昨日九个热点" : "Nine stories from yesterday"}>
+      <section id="stories" className="story-columns shell" aria-label={isZh ? "今日总览与八件全球热点" : "Daily overview and eight global stories"}>
         <div className="edition-banner">
           <span>{archiveDate ? (isZh ? "往期刊物" : "ARCHIVE EDITION") : (isZh ? "当前刊物" : "CURRENT EDITION")}</span>
           <strong>{displayIssueDate}</strong>
@@ -447,7 +447,7 @@ export function TopicGallery({
             <span>{isZh ? "完整刊期" : "COMPLETE EDITIONS"}</span>
             <h2>{isZh ? "往期归档" : "Archive"}</h2>
           </div>
-          <p>{isZh ? "点击日期，展示当期全部 9 条文字、来源与海报。" : "Choose a date to display all nine stories, sources and posters."}</p>
+          <p>{isZh ? "点击日期，查看当期 1 张今日总览、8 件全球热点的文字、来源与海报。" : "Browse each edition: 1 daily overview, 8 global stories, sources, and bilingual posters."}</p>
         </header>
         <div className="archive-dates">
           {archiveDates.map((date) => (

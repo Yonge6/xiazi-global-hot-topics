@@ -12,6 +12,13 @@ describe("content importer validation", () => {
     expect(issue.topics).toHaveLength(9);
   });
 
+  it("accepts the overview-first structure with World Cup as the first news topic", () => {
+    const { issue } = validateIssueForImport(currentIssue);
+    expect(issue.topics[0].slug).toBe("overview");
+    expect(issue.topics[0].rank).toBe(1);
+    expect(issue.topics.some((topic) => topic.slug.includes("world-cup") && topic.rank === 2)).toBe(true);
+  });
+
   it("rejects duplicate ranks", () => {
     const broken = structuredClone(currentIssue);
     broken.topics[1].rank = broken.topics[0].rank;
