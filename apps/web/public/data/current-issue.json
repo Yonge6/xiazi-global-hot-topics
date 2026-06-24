@@ -1,67 +1,67 @@
 {
-  "id": "10000000-0000-4000-8000-000000000011",
-  "slug": "2026-06-24",
-  "assetVersion": "issue-2026-06-24-poster-remap-v4-categoryfix",
-  "issueDate": "2026-06-24",
+  "id": "10000000-0000-4000-8000-000000000012",
+  "slug": "xiazi-global-hotspots-2026-06-25",
+  "assetVersion": "20260625-chatgpt-tinypng-v2",
+  "issueDate": "2026-06-25",
   "slotHour": 5,
-  "beijingTimestamp": "2026-06-24T05:00:00+08:00",
-  "gmtTimestamp": "2026-06-23T21:00:00Z",
+  "beijingTimestamp": "2026-06-25T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-24T21:00:00Z",
   "status": "published",
-  "featuredTopicId": "20000000-0000-4000-8000-000000000082",
+  "featuredTopicId": "f71f9bf1-b85d-459c-8649-d3e951a997ed",
   "topics": [
     {
-      "id": "20000000-0000-4000-8000-000000000082",
-      "issueId": "10000000-0000-4000-8000-000000000011",
+      "id": "f71f9bf1-b85d-459c-8649-d3e951a997ed",
+      "issueId": "10000000-0000-4000-8000-000000000012",
       "slug": "overview",
       "rank": 1,
       "category": "international",
       "region": "Global",
       "countryCodes": [
-        "PT",
-        "FR",
-        "NO",
-        "US",
+        "CH",
+        "CA",
+        "CO",
         "IR",
-        "PE",
-        "BO",
+        "UA",
         "FR",
+        "GB",
         "US",
+        "KR",
         "CN"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "daily_global_overview_june24_2026",
+      "storyId": "daily_global_overview_june25_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃",
-          "headlineView": "世界一边创造纪录，一边为失控的风险重新设置边界",
-          "headlineFull": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃； 世界一边创造纪录，一边为失控的风险重新设置边界.",
-          "intro": "过去24小时，C罗成为首位在六届世界杯均取得进球的球员，姆巴佩和哈兰德也分别梅开二度；美国参议院首次通过针对伊朗战争的战争权力决议；欧洲热浪继续升级，法国已有40人在避暑游泳时溺亡。与此同时，秘鲁总统选举因极小差距和舞弊指控陷入僵局，玻利维亚政治危机引发多个美洲国家联合表态；SpaceX启动至少250亿美元债券发行，Anthropic把Claude正式带进Slack群聊；美国还将用频谱拍卖所得，加速替换通信网络中的中国设备。",
-          "xiaziQuote": "今天最值得看的，不只是某个事件更大声，而是很多系统同时在重设边界。",
-          "doudouQuote": "球场在破纪录，国会在收权，企业在借钱，通信网在换设备，世界像是在同步更新系统。",
-          "footerTakeaway": "今日关键词：纪录、制衡、高温、选举、秩序、融资、AI同事与通信安全。"
+          "headlineFact": "世界杯小组赛进入生死线，伊核核查重启争议，AI监管、芯片融资与定制算力同时升温",
+          "headlineView": "世界一边寻找安全，一边押注下一轮增长",
+          "headlineFull": "世界杯小组赛进入生死线，伊核核查重启争议，AI监管、芯片融资与定制算力同时升温; 世界一边寻找安全，一边押注下一轮增长.",
+          "intro": "过去24小时，世界杯小组赛进入关键节点，瑞士、加拿大、哥伦比亚和波黑相关赛果牵动晋级形势；国际原子能机构称将恢复伊朗核查，但核查范围仍有争议。与此同时，乌克兰远程打击让克里米亚部分地区停电，欧洲热浪继续刷新纪录；英国首相继任人选逐渐清晰，美国推动Meta接受前沿模型审查，SK海力士拟赴美融资，高通与字节跳动的定制芯片谈判也浮出水面。",
+          "xiaziQuote": "今天最值得看的，不是某一条新闻更响，而是安全、能源、气候、权力和算力几条线同时在收紧。",
+          "doudouQuote": "球场在算分，核查员在排日程，芯片厂在算钱，模型公司在等审查，世界像一台后台全开的电脑。",
+          "footerTakeaway": "今日关键词：晋级、核查、能源前线、极端高温、权力交接、模型审查、AI资本与定制芯片。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "Ronaldo scored in a sixth straight World Cup, the U.S. Senate moved to rein in war powers, and Europe’s heat reached 44.3 C",
-          "headlineView": "the world is setting new records while rebuilding guardrails around risks that feel out of control",
-          "headlineFull": "Ronaldo scored in a sixth straight World Cup, the U.S. Senate moved to rein in war powers, and Europe’s heat reached 44.3 C； the world is setting new records while rebuilding guardrails around risks that feel out of control.",
-          "intro": "Over the past 24 hours, Cristiano Ronaldo became the first player to score in six World Cups, while Kylian Mbappe and Erling Haaland also scored twice. The U.S. Senate passed its first war-powers resolution aimed at limiting further unilateral action over Iran. Europe’s heatwave intensified, with France reporting 40 drownings as people sought relief from the heat. Peru’s presidential vote entered a narrow and disputed phase, Bolivia’s political crisis drew a joint warning from American states, SpaceX launched a bond offering of at least $25 billion, Anthropic brought Claude into Slack conversations, and U.S. spectrum-auction funds will help replace Chinese telecom equipment.",
-          "xiaziQuote": "What matters today is not only which event is loudest, but how many systems are resetting their limits at once.",
-          "doudouQuote": "The pitch is breaking records, Congress is reclaiming power, companies are borrowing, and networks are being rebuilt. The world is updating in parallel.",
-          "footerTakeaway": "Keywords: records, checks and balances, heat, elections, order, financing, AI colleagues, and telecom security."
+          "headlineFact": "World Cup group-stage pressure rose, Iran inspection disputes returned, and AI regulation, chip financing, and custom compute all heated up",
+          "headlineView": "the world is seeking safety while betting heavily on the next growth engine",
+          "headlineFull": "World Cup group-stage pressure rose, Iran inspection disputes returned, and AI regulation, chip financing, and custom compute all heated up; the world is seeking safety while betting heavily on the next growth engine.",
+          "intro": "Over the past 24 hours, World Cup group-stage results reshaped knockout scenarios involving Switzerland, Canada, Colombia, and Bosnia and Herzegovina. The IAEA said Iran inspections will resume, though the scope remains disputed. Ukraine’s long-range strikes disrupted power in Crimea, Europe’s heatwave kept breaking records, Britain’s leadership transition moved closer to Andy Burnham, Washington pressed Meta on frontier-model reviews, SK Hynix prepared a major U.S. listing, and Qualcomm was reported to be discussing custom chip-design work with ByteDance.",
+          "xiaziQuote": "The point today is not one louder headline, but several systems tightening at once: security, energy, climate, power, and compute.",
+          "doudouQuote": "The pitch is counting points, inspectors are setting schedules, chipmakers are counting capital, and model companies are waiting for review. The world has too many background processes open.",
+          "footerTakeaway": "Keywords: qualification, inspections, energy front lines, extreme heat, leadership transition, model review, AI capital, and custom chips."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000390",
-          "topicId": "20000000-0000-4000-8000-000000000082",
+          "id": "8c9eb977-8281-4929-8959-28a0a5c5a05f",
+          "topicId": "f71f9bf1-b85d-459c-8649-d3e951a997ed",
           "title": "Daily global news overview",
           "publisher": "Xiazi Says",
           "url": "https://pluto.hk/zh/",
@@ -74,117 +74,143 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000083",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "world-cup",
+      "id": "6d7cd608-be83-4eea-8afc-88bff7b16b39",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "world-cup-swiss-canada-colombia",
       "rank": 2,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "PT",
-        "UZ",
-        "FR",
-        "IQ",
-        "NO",
-        "SN",
-        "JO",
-        "DZ"
+        "CH",
+        "CA",
+        "CO",
+        "CD",
+        "HR",
+        "PA",
+        "BA",
+        "QA"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 99,
-      "storyId": "world_cup_ronaldo_record_june23_2026",
+      "scoreTotal": 95,
+      "storyId": "world_cup_june25_score_window_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度",
-          "headlineView": "传奇从来不是永远年轻，而是在不同年代都留下名字",
-          "headlineFull": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度； 传奇从来不是永远年轻，而是在不同年代都留下名字.",
-          "intro": "北京时间6月23日05:00至6月24日05:00，共结束4场世界杯比赛：法国3:0伊拉克，挪威3:2塞内加尔，约旦1:2阿尔及利亚，葡萄牙5:0乌兹别克斯坦。41岁的C罗在葡萄牙大胜中攻入两球，成为首位在六届世界杯均有进球的球员，并以10球超越尤西比奥，成为葡萄牙世界杯队史最佳射手。姆巴佩在个人第100场国家队比赛中梅开二度，帮助法国提前晋级；哈兰德连续第二场双响，率领挪威进入淘汰赛。",
-          "xiaziQuote": "世界杯每天都在换主角，但纪录会把那些真正跨越时代的人留下来。",
-          "doudouQuote": "年轻人负责冲刺，老将负责提醒大家：有些名字不是用来退场的。",
-          "footerTakeaway": "24小时关键词：C罗六届进球、姆巴佩16球、哈兰德四球、法国挪威晋级。"
+          "headlineFact": "瑞士与哥伦比亚在小组赛末段抢到关键位置",
+          "headlineView": "真正决定命运的，是能否把场面优势兑现成积分",
+          "headlineFull": "瑞士与哥伦比亚在小组赛末段抢到关键位置; 真正决定命运的，是能否把场面优势兑现成积分.",
+          "intro": "北京时间6月24日05:00至6月25日05:00窗口内，世界杯小组赛进入第三轮与第二轮交错的关键时段。克罗地亚1:0击败巴拿马，哥伦比亚1:0击败刚果（金）；B组方面，公开赛况显示瑞士、加拿大、波黑和卡塔尔的末轮结果牵动小组头名与第三名出线形势。由于不同公开页面更新时间不一致，本条按已核验来源保守呈现赛果与趋势，不把未更新页面当作最终官方表。",
+          "xiaziQuote": "世界杯日报最怕只看比分，真正的信息在于谁已经安全，谁还要等别人脸色。",
+          "doudouQuote": "有些球队赢一场就上岸，有些球队赢了还要看小组数学题，世界杯也是大型表格软件。",
+          "footerTakeaway": "24小时关键词：哥伦比亚晋级、克罗地亚续命、B组出线计算。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Ronaldo became the first player to score in six World Cups, while Mbappe and Haaland each struck twice",
-          "headlineView": "a legend is not someone who stays young forever, but someone who leaves a name in different eras",
-          "headlineFull": "Ronaldo became the first player to score in six World Cups, while Mbappe and Haaland each struck twice； a legend is not someone who stays young forever, but someone who leaves a name in different eras.",
-          "intro": "From 05:00 on June 23 to 05:00 on June 24 Beijing time, four World Cup matches were completed: France 3-0 Iraq, Norway 3-2 Senegal, Jordan 1-2 Algeria, and Portugal 5-0 Uzbekistan. At 41, Cristiano Ronaldo scored twice for Portugal, becoming the first player to score in six World Cups and passing Eusebio as Portugal’s all-time World Cup scorer with 10 goals. Mbappe scored twice in his 100th France appearance as France advanced early, while Haaland’s second straight brace helped Norway reach the knockout stage.",
-          "xiaziQuote": "The World Cup changes protagonists every day, but records preserve the people who truly cross eras.",
-          "doudouQuote": "The young sprint. The veteran reminds everyone that some names are not built for exits.",
-          "footerTakeaway": "24-hour keywords: Ronaldo scores in six World Cups, Mbappe reaches 16, Haaland reaches four, France and Norway advance."
+          "headlineFact": "Switzerland and Colombia moved into key positions as the group stage tightened",
+          "headlineView": "the decisive question is whether territorial control can be converted into points",
+          "headlineFull": "Switzerland and Colombia moved into key positions as the group stage tightened; the decisive question is whether territorial control can be converted into points.",
+          "intro": "Between 05:00 on June 24 and 05:00 on June 25 Beijing time, the World Cup moved into a decisive stretch of group-stage play. Croatia beat Panama 1-0 and Colombia beat DR Congo 1-0. In Group B, public match coverage showed Switzerland, Canada, Bosnia and Herzegovina, and Qatar reshaping the race for first place and possible third-place qualification. Because public result pages were updating at different speeds, this item reports only the verified results and the qualification trend rather than overstating an unrefreshed table as final.",
+          "xiaziQuote": "A World Cup daily should not only read scores. The real signal is who is safe and who must wait for other results.",
+          "doudouQuote": "Some teams win and land safely. Others win and still need a spreadsheet. The World Cup is also a tournament of math.",
+          "footerTakeaway": "24-hour keywords: Colombia through, Croatia alive, Group B qualification math."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000393",
-          "topicId": "20000000-0000-4000-8000-000000000083",
-          "title": "Soccer-'I'm back': Record-breaker Ronaldo fires Portugal to 5-0 win over Uzbekistan",
-          "publisher": "Reuters",
-          "url": "https://www.ksl.com/article/51537909/soccer-im-back-record-breaker-ronaldo-fires-portugal-to-5-0-win-over-uzbekistan",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
+          "id": "d2e77a13-c288-4664-8f64-157352ef9b34",
+          "topicId": "6d7cd608-be83-4eea-8afc-88bff7b16b39",
+          "title": "FIFA World Cup standings",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "25db1c64-9be3-4b76-8a6b-3c1f2d416def",
+          "topicId": "6d7cd608-be83-4eea-8afc-88bff7b16b39",
+          "title": "European teams fixtures and results",
+          "publisher": "UEFA",
+          "url": "https://www.uefa.com/european-qualifiers/news/02a6-20c3aa0fafe2-4a6b4459a3fc-1000--2026-world-cup-all-the-european-sides-group-stage-fixtures-a/",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "015b2672-092f-4897-8f31-cce0431d7e2d",
+          "topicId": "6d7cd608-be83-4eea-8afc-88bff7b16b39",
+          "title": "Bosnia and Herzegovina v Qatar live report",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/live/2026/jun/24/bosnia-and-herzegovina-v-qatar-world-cup-2026-live",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000084",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "uk-politics",
+      "id": "c7add7c8-212c-41c2-86b3-a89d1f65956c",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "iran-inspections",
       "rank": 3,
-      "category": "international",
-      "region": "North America",
+      "category": "politics",
+      "region": "Middle East",
       "countryCodes": [
+        "IR",
         "US",
-        "IR"
+        "AT",
+        "JP"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 94,
-      "storyId": "us_senate_iran_war_powers_resolution_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "storyId": "iran_iaea_inspections_modalities_2026",
+      "storyStatus": "followup",
+      "followupDay": 5,
+      "informationIncrementScore": 80,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "美国政治",
-          "headlineFact": "美国参议院首次通过限制伊朗战争的战争权力决议",
-          "headlineView": "真正的权力制衡，不是在战争开始前说服所有人，而是在战争之后仍敢追问谁有权决定",
-          "headlineFull": "美国参议院首次通过限制伊朗战争的战争权力决议； 真正的权力制衡，不是在战争开始前说服所有人，而是在战争之后仍敢追问谁有权决定.",
-          "intro": "美国参议院以50票对48票，通过一项寻求阻止政府继续单方面对伊朗采取军事行动的战争权力决议。这是参议院第十次尝试限制这场战争，也是第一次获得通过。决议目前主要具有政治和象征意义，并不能立即停止军事行动；但它反映出包括部分共和党人在内的国会议员，对战争成本及美伊临时协议的担忧正在上升。",
-          "xiaziQuote": "当战争已经开始，制衡仍然重要；它至少提醒权力，代价不能只由沉默的人承担。",
-          "doudouQuote": "这不是刹车踩到底，更像是在方向盘旁边贴了一张“请看路”的纸条。",
-          "footerTakeaway": "参议院首次通过相关决议，是美国战争权力争议的新节点。"
+          "categoryLabel": "伊核核查",
+          "headlineFact": "国际原子能机构称伊朗核查即将恢复，伊朗却为关键设施设置前提",
+          "headlineView": "真正能够维持和平的，不只是承诺，而是承诺能否被验证",
+          "headlineFull": "国际原子能机构称伊朗核查即将恢复，伊朗却为关键设施设置前提; 真正能够维持和平的，不只是承诺，而是承诺能否被验证.",
+          "intro": "国际原子能机构总干事格罗西表示，美伊临时和平安排已经明确核活动需要监督，机构将很快与伊朗商定核查的时间、程序和地点。但伊朗方面称，遭袭核设施和相关核材料的核查仍需等待最终协议及美国实际解除制裁。双方同意继续谈判，但核查范围、顺序和执行条件仍是和平安排能否落地的关键。",
+          "xiaziQuote": "停火解决的是枪声，核查解决的才是信任。",
+          "doudouQuote": "谈判桌上说“相信我”很容易，真正难的是让别人带着仪器进门看。",
+          "footerTakeaway": "看点：核查安排是否能从政治承诺进入可执行流程。"
         },
         "en-US": {
-          "categoryLabel": "U.S. Politics",
-          "headlineFact": "The U.S. Senate passed its first war-powers resolution seeking to limit the Iran war",
-          "headlineView": "real checks and balances are not about persuading everyone before a war starts; they are about still asking who decides after it begins",
-          "headlineFull": "The U.S. Senate passed its first war-powers resolution seeking to limit the Iran war； real checks and balances are not about persuading everyone before a war starts; they are about still asking who decides after it begins.",
-          "intro": "The U.S. Senate voted 50-48 to approve a war-powers resolution seeking to block the administration from continuing unilateral military action against Iran. It was the Senate’s tenth attempt to limit the war and the first to pass. The measure is largely political and symbolic for now, and does not immediately end military action, but it shows growing concern among lawmakers, including some Republicans, over the cost of the war and the interim U.S.-Iran arrangement.",
-          "xiaziQuote": "Checks still matter after a war begins, because power has to be reminded that costs cannot be carried only by the silent.",
-          "doudouQuote": "It is not a full brake. It is more like a note on the steering wheel saying: please watch the road.",
-          "footerTakeaway": "The Senate vote marks a new stage in America’s argument over war powers."
+          "categoryLabel": "Iran Nuclear Inspections",
+          "headlineFact": "The IAEA says Iran inspections will resume, while Tehran sets conditions for key sites",
+          "headlineView": "what sustains peace is not only a promise, but whether that promise can be verified",
+          "headlineFull": "The IAEA says Iran inspections will resume, while Tehran sets conditions for key sites; what sustains peace is not only a promise, but whether that promise can be verified.",
+          "intro": "IAEA Director General Rafael Grossi said inspections in Iran will take place under the interim U.S.-Iran arrangement and that dates, procedures, and locations will be worked out soon. Iranian officials, however, said inspections of struck nuclear facilities and related material must wait for a final agreement and practical U.S. sanctions relief. The talks continue, but scope, sequencing, and implementation remain the test of whether the peace framework can become operational.",
+          "xiaziQuote": "A ceasefire quiets the guns. Inspections are what rebuild trust.",
+          "doudouQuote": "It is easy to say “trust me” at the table. The hard part is letting someone walk in with instruments.",
+          "footerTakeaway": "Watch point: whether inspection arrangements move from political language to executable procedure."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000396",
-          "topicId": "20000000-0000-4000-8000-000000000084",
-          "title": "Senate for first time approves a war powers resolution in a rebuke to Trump over Iran conflict",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/senate-iran-war-powers-resolution-trump-7462a9a561103f531d995aac91f9fc96",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
+          "id": "052c546e-8710-4a91-8f25-78250ef0d336",
+          "topicId": "c7add7c8-212c-41c2-86b3-a89d1f65956c",
+          "title": "IAEA chief says Iran inspections will go ahead, working on modalities",
+          "publisher": "Reuters via The Straits Times",
+          "url": "https://www.straitstimes.com/world/middle-east/iaea-chief-says-iran-inspections-will-go-ahead-working-on-modalities",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -192,14 +218,71 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000085",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "us-iran-talks",
+      "id": "947849de-ab86-4b73-84cf-113494d570ef",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "ukraine-crimea-power",
       "rank": 4,
+      "category": "conflict",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "ukraine_crimea_power_strikes_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌局势",
+          "headlineFact": "乌克兰无人机造成塞瓦斯托波尔停电，俄罗斯燃料系统持续承压",
+          "headlineView": "远程战争正在把电网、炼厂和运输线全部变成前线",
+          "headlineFull": "乌克兰无人机造成塞瓦斯托波尔停电，俄罗斯燃料系统持续承压; 远程战争正在把电网、炼厂和运输线全部变成前线.",
+          "intro": "乌克兰对俄罗斯控制的克里米亚发动无人机袭击，公开报道显示塞瓦斯托波尔出现大范围停电，公共交通和城市运行受到影响。与此同时，乌克兰继续把打击重点放在能源、炼油和运输节点上，俄罗斯部分地区的燃料供应也承受压力。战争前线不再只是地图上的接触线，也包括一座城市能否维持电力、燃料和基本服务。",
+          "xiaziQuote": "现代战争争夺的不只是阵地，也是让城市继续运转的能力。",
+          "doudouQuote": "以前看前线看战壕，现在还要看变电站、油库和公交车能不能发车。",
+          "footerTakeaway": "看点：能源基础设施是否继续成为双方远程打击的核心目标。"
+        },
+        "en-US": {
+          "categoryLabel": "Russia-Ukraine War",
+          "headlineFact": "Ukrainian drones caused power outages in Sevastopol as Russia’s fuel system stayed under pressure",
+          "headlineView": "long-range war is turning grids, refineries, and transport lines into front lines",
+          "headlineFull": "Ukrainian drones caused power outages in Sevastopol as Russia’s fuel system stayed under pressure; long-range war is turning grids, refineries, and transport lines into front lines.",
+          "intro": "Ukrainian strikes on Russian-held Crimea triggered reported power outages in Sevastopol and disrupted parts of urban life and transport. At the same time, Kyiv has continued targeting energy, refining, and logistics nodes, adding pressure to fuel supply in parts of Russia. The front line is no longer only the contact line on a map; it is also whether a city can keep electricity, fuel, and basic services running.",
+          "xiaziQuote": "Modern war is not only about holding ground. It is also about keeping cities functioning.",
+          "doudouQuote": "The front used to mean trenches. Now it also means substations, fuel depots, and whether buses can run.",
+          "footerTakeaway": "Watch point: whether energy infrastructure remains a central target of long-range strikes."
+        }
+      },
+      "sources": [
+        {
+          "id": "2b9cbb0a-e409-4e0b-8cba-ac65598de8f5",
+          "topicId": "947849de-ab86-4b73-84cf-113494d570ef",
+          "title": "Ukraine war briefing: Crimea locks down as Putin acknowledges Ukrainian drones",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/24/ukraine-war-briefing-crimea-locks-down-as-putin-acknowledges-huge-stream-of-ukrainian-drones",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a6c86143-5db5-4faa-8557-5e3a44010be3",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "europe-omega-heatwave",
+      "rank": 5,
       "category": "climate",
       "region": "Europe",
       "countryCodes": [
         "FR",
+        "GB",
         "IT",
         "ES"
       ],
@@ -207,41 +290,41 @@
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 93,
-      "storyId": "europe_heatwave_france_drownings_june24_2026",
+      "storyId": "europe_omega_heatwave_june25_2026",
       "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 88,
+      "followupDay": 2,
+      "informationIncrementScore": 80,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "欧洲热浪",
-          "headlineFact": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡",
-          "headlineView": "极端天气最危险的地方，是人们为了逃离一种风险，反而走进另一种风险",
-          "headlineFull": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡； 极端天气最危险的地方，是人们为了逃离一种风险，反而走进另一种风险.",
-          "intro": "法国经历有记录以来最热的一天，西南部一座城镇测得44.3℃，54个省进入最高级别红色警报。法国总理表示，自6月18日以来已有40人溺亡，其中多数为年轻人，很多人是在高温下进入未经监管的河流、运河和水域避暑。意大利多座城市发布最高级别预警，西班牙部分地区气温也可能达到44℃；铁路、学校、电力和旅游景点均受到影响。",
-          "xiaziQuote": "气候风险不是远方的概念，它会让一个城市的上课、出行、用电和避暑方式同时失灵。",
-          "doudouQuote": "热到去游泳，游到出危险，这就是极端天气最扎心的连锁反应。",
-          "footerTakeaway": "热浪从气温纪录升级为公共安全与城市运行压力。"
+          "headlineFact": "欧洲“欧米伽热穹顶”继续刷新高温纪录，英法学校、交通和电力承压",
+          "headlineView": "气候危机不是未来时，而是今天的停课、停电与停运",
+          "headlineFull": "欧洲“欧米伽热穹顶”继续刷新高温纪录，英法学校、交通和电力承压; 气候危机不是未来时，而是今天的停课、停电与停运.",
+          "intro": "西欧持续遭遇极端热浪。英国录得36.1℃并刷新六月最高气温纪录，法国多地高温接近或超过40℃，学校关闭、列车限速、活动取消和电力系统降载同时出现。高温最直接的影响不是抽象曲线，而是城市基础服务突然变得脆弱：孩子能不能上课，老人能不能降温，电网和交通能不能扛住。",
+          "xiaziQuote": "城市真正的韧性，是天气突破纪录时，生活仍能安全继续。",
+          "doudouQuote": "热浪一来，空调、电网、学校、火车全都参加压力测试。",
+          "footerTakeaway": "看点：欧洲城市是否把极端高温当作基础设施问题，而不只是天气新闻。"
         },
         "en-US": {
-          "categoryLabel": "European Heatwave",
-          "headlineFact": "France hit 44.3 C, and 40 people drowned while seeking relief from the heat",
-          "headlineView": "the most dangerous part of extreme weather is that escaping one risk can push people into another",
-          "headlineFull": "France hit 44.3 C, and 40 people drowned while seeking relief from the heat； the most dangerous part of extreme weather is that escaping one risk can push people into another.",
-          "intro": "France experienced one of its hottest days on record, with a town in the southwest reaching 44.3 C and 54 departments placed under the highest red alert. The French prime minister said 40 people had drowned since June 18, many of them young people entering unsupervised rivers, canals and other waters to cool down. Italy issued top-level warnings in multiple cities, parts of Spain could also reach 44 C, and railways, schools, power systems and tourist sites came under pressure.",
-          "xiaziQuote": "Climate risk is not an abstract idea. It can break school, travel, electricity and even the way people cool down at the same time.",
-          "doudouQuote": "When it gets so hot that swimming becomes the escape, and the escape becomes dangerous, that is the chain reaction of extreme weather.",
-          "footerTakeaway": "The heatwave has moved from temperature records to public-safety and urban-system stress."
+          "categoryLabel": "Europe Heatwave",
+          "headlineFact": "Europe’s omega heat dome kept breaking records and strained schools, transport, and power systems",
+          "headlineView": "the climate crisis is not future tense; it is today’s school closures, outages, and service disruption",
+          "headlineFull": "Europe’s omega heat dome kept breaking records and strained schools, transport, and power systems; the climate crisis is not future tense; it is today’s school closures, outages, and service disruption.",
+          "intro": "Western Europe remained under an extreme heatwave. The U.K. recorded 36.1 C, its hottest June day, while parts of France approached or exceeded 40 C. School closures, rail speed restrictions, cancelled events, and power-system stress appeared together. The direct cost of heat is not an abstract curve; it is the sudden fragility of daily services, from classrooms and care for older people to grids and transport.",
+          "xiaziQuote": "Real urban resilience means life can remain safe when weather breaks records.",
+          "doudouQuote": "When the heat arrives, air conditioning, grids, schools, and trains all sit the same stress test.",
+          "footerTakeaway": "Watch point: whether European cities treat extreme heat as infrastructure policy, not just weather news."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000399",
-          "topicId": "20000000-0000-4000-8000-000000000085",
-          "title": "Forty drown in France as people seek relief from Europe's heatwave",
-          "publisher": "Reuters",
-          "url": "https://x.com/Reuters/status/2069377432692445395",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
+          "id": "b0eaa783-f2c8-45af-864e-b094bf76c60a",
+          "topicId": "a6c86143-5db5-4faa-8557-5e3a44010be3",
+          "title": "UK records its hottest June day and France heatwave coverage",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/jun/24/uk-records-hottest-june-day",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -249,54 +332,121 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000086",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "colombia-election",
-      "rank": 5,
-      "category": "international",
-      "region": "Latin America",
+      "id": "b2040892-668e-4fd0-8819-7f7774789c58",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "uk-burnham-transition",
+      "rank": 6,
+      "category": "politics",
+      "region": "Europe",
       "countryCodes": [
-        "PE"
+        "GB"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "uk_burnham_transition_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "英国政局",
+          "headlineFact": "斯塔默核心盟友转而支持伯纳姆，英国首相交接可能接近无竞争产生",
+          "headlineView": "领导人更替越频繁，政策稳定性就越重要",
+          "headlineFull": "斯塔默核心盟友转而支持伯纳姆，英国首相交接可能接近无竞争产生; 领导人更替越频繁，政策稳定性就越重要.",
+          "intro": "英国首相斯塔默宣布辞职后，前大曼彻斯特市长安迪·伯纳姆成为工党领导人和首相继任的主要人选。斯塔默的重要盟友达伦·琼斯公开表示不会参选并支持伯纳姆，称已就经济增长和适度扩大借贷空间获得对方说明。如果没有其他强有力候选人加入，英国可能在短时间内完成又一次首相交接。",
+          "xiaziQuote": "权力可以快速交接，但市场和普通人需要的是可预期的方向。",
+          "doudouQuote": "首相可以换得很快，房贷、工资和账单可没法跟着每天换剧本。",
+          "footerTakeaway": "看点：伯纳姆是否能在接任前给出清晰经济路线。"
+        },
+        "en-US": {
+          "categoryLabel": "UK Politics",
+          "headlineFact": "A Starmer ally backed Andy Burnham, making Britain’s leadership handover look closer to uncontested",
+          "headlineView": "the more often leaders change, the more policy stability matters",
+          "headlineFull": "A Starmer ally backed Andy Burnham, making Britain’s leadership handover look closer to uncontested; the more often leaders change, the more policy stability matters.",
+          "intro": "After Keir Starmer announced his resignation, former Greater Manchester mayor Andy Burnham became the leading candidate to succeed him as Labour leader and prime minister. Darren Jones, a key Starmer ally, said he would not run and endorsed Burnham after discussing economic growth and possible borrowing room. If no strong rival enters, Britain may complete another prime-ministerial transition quickly.",
+          "xiaziQuote": "Power can transfer fast, but markets and households need a predictable direction.",
+          "doudouQuote": "Prime ministers can change quickly. Mortgages, wages, and bills cannot rewrite themselves every day.",
+          "footerTakeaway": "Watch point: whether Burnham offers a clear economic path before taking office."
+        }
+      },
+      "sources": [
+        {
+          "id": "ed6b5f9b-220d-4338-8296-13ea184f2a84",
+          "topicId": "b2040892-668e-4fd0-8819-7f7774789c58",
+          "title": "Darren Jones backs Burnham to be next UK PM",
+          "publisher": "Reuters via Malay Mail",
+          "url": "https://www.malaymail.com/news/world/2026/06/24/starmer-ally-darren-jones-backs-burnham-to-be-next-uk-pm/225005",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "1dbb8d53-3a16-4eba-874f-302163a15d96",
+          "topicId": "b2040892-668e-4fd0-8819-7f7774789c58",
+          "title": "Andy Burnham inches closer to UK premiership",
+          "publisher": "Associated Press via Times of Israel",
+          "url": "https://www.timesofisrael.com/andy-burnham-inches-closer-to-uk-premiership-as-starmer-seeks-legacy-in-final-days/",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "7d8c69d1-823f-4af5-8ada-96dbce10173c",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "meta-ai-model-review",
+      "rank": 7,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
       "scoreTotal": 90,
-      "storyId": "peru_fujimori_sanchez_runoff_dispute_2026",
+      "storyId": "meta_ai_model_review_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "秘鲁大选",
-          "headlineFact": "藤森以50.11%暂时领先，竞争对手拒绝承认结果",
-          "headlineView": "选举最危险的时刻，不是差距太小，而是各方开始不再相信同一套计票规则",
-          "headlineFull": "藤森以50.11%暂时领先，竞争对手拒绝承认结果； 选举最危险的时刻，不是差距太小，而是各方开始不再相信同一套计票规则.",
-          "intro": "秘鲁总统决选已统计99.72%的选票，保守派候选人藤森以50.11%暂时领先左翼候选人罗伯托·桑切斯的49.89%。桑切斯宣称存在舞弊，要求暂停计票，并表示不会承认藤森政府，但尚未提供证明系统性舞弊的证据。他还要求取消119个海外领事投票点的约30万张选票，但选举机构已驳回相关主张。",
-          "xiaziQuote": "民主最怕的不是分歧，而是分歧大到所有人开始怀疑同一块计分牌。",
-          "doudouQuote": "差0.22个百分点，足够让一个国家的神经绷到最紧。",
-          "footerTakeaway": "秘鲁进入微弱领先与合法性争议并存的后计票阶段。"
+          "categoryLabel": "AI模型监管",
+          "headlineFact": "美国推动Meta在发布前提交前沿AI模型接受审查",
+          "headlineView": "模型能力越强，产品发布就越像一次安全许可",
+          "headlineFull": "美国推动Meta在发布前提交前沿AI模型接受审查; 模型能力越强，产品发布就越像一次安全许可.",
+          "intro": "据《纽约时报》报道并由Reuters转述，美国政府正推动Meta签署自愿协议，在部分前沿AI模型正式发布或提供给合作伙伴前，允许政府评估其能力、漏洞和国家安全风险。OpenAI、Anthropic等公司已经参与相关测试。Meta表示认同提升前沿AI安全性的目标，仍在讨论细节。AI产品发布正在从“上线功能”变成“证明风险可控”。",
+          "xiaziQuote": "过去发布软件看功能和Bug，未来发布模型还要评估它可能被谁、用来做什么。",
+          "doudouQuote": "以前发版怕崩溃，现在还怕模型太聪明、聪明到需要先被检查。",
+          "footerTakeaway": "看点：自愿审查会不会变成事实上的行业准入门槛。"
         },
         "en-US": {
-          "categoryLabel": "Peru Election",
-          "headlineFact": "Fujimori held a 50.11% narrow lead, while her rival refused to recognize the result",
-          "headlineView": "the most dangerous moment in an election is not a narrow margin, but when sides stop trusting the same counting rules",
-          "headlineFull": "Fujimori held a 50.11% narrow lead, while her rival refused to recognize the result； the most dangerous moment in an election is not a narrow margin, but when sides stop trusting the same counting rules.",
-          "intro": "With 99.72% of votes counted in Peru’s presidential runoff, conservative candidate Keiko Fujimori held 50.11% against leftist Roberto Sanchez’s 49.89%. Sanchez alleged fraud, called for a pause in the count and said he would not recognize a Fujimori government, though he had not produced evidence of systemic fraud. He also sought to annul roughly 300,000 overseas votes from 119 consular polling places, a claim rejected by electoral authorities.",
-          "xiaziQuote": "Democracy is not most afraid of disagreement. It is afraid of disagreement so deep that everyone doubts the same scoreboard.",
-          "doudouQuote": "A 0.22-point gap is enough to tighten an entire country’s nerves.",
-          "footerTakeaway": "Peru has entered a post-counting phase where a tiny lead and legitimacy dispute coexist."
+          "categoryLabel": "AI Model Oversight",
+          "headlineFact": "The U.S. pressed Meta to submit frontier AI models for pre-release review",
+          "headlineView": "the stronger the model, the more product launch starts to resemble a safety clearance",
+          "headlineFull": "The U.S. pressed Meta to submit frontier AI models for pre-release review; the stronger the model, the more product launch starts to resemble a safety clearance.",
+          "intro": "According to a New York Times report carried by Reuters, the U.S. government is pressing Meta to sign a voluntary agreement allowing federal review of certain frontier AI models before release or partner access. The review would assess capabilities, vulnerabilities, and national-security risks. OpenAI, Anthropic, and others have already participated in related testing. Meta said it shares the goal of improving frontier AI safety while details remain under discussion.",
+          "xiaziQuote": "Software releases used to be about features and bugs. Model releases increasingly ask who might use the system and for what.",
+          "doudouQuote": "A release used to fail if it crashed. Now a model may be too capable to ship without being checked first.",
+          "footerTakeaway": "Watch point: whether voluntary review becomes a de facto gate for the industry."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000402",
-          "topicId": "20000000-0000-4000-8000-000000000086",
-          "title": "Peru's Sanchez claims fraud as Fujimori holds narrow lead",
-          "publisher": "Reuters",
-          "url": "https://www.devdiscourse.com/article/politics/3939616-perus-sanchez-claims-fraud-as-fujimori-holds-narrow-lead?amp=",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
+          "id": "367debf2-eab5-4f80-830f-f17819e2a774",
+          "topicId": "7d8c69d1-823f-4af5-8ada-96dbce10173c",
+          "title": "US presses Meta to agree to AI reviews as security concerns rise",
+          "publisher": "Reuters via WTVB",
+          "url": "https://wtvbam.com/2026/06/23/us-presses-meta-to-agree-to-ai-reviews-as-security-concerns-rise-nyt-reports/",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -304,110 +454,55 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000087",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "russia-ukraine",
-      "rank": 6,
-      "category": "international",
-      "region": "Latin America",
-      "countryCodes": [
-        "BO",
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 88,
-      "storyId": "bolivia_democracy_protests_joint_warning_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 78,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "玻利维亚危机",
-          "headlineFact": "多个美洲国家联合警告玻利维亚存在推翻政府的风险",
-          "headlineView": "抗议表达不满，暴力争夺权力却可能让所有普通人承担代价",
-          "headlineFull": "多个美洲国家联合警告玻利维亚存在推翻政府的风险； 抗议表达不满，暴力争夺权力却可能让所有普通人承担代价.",
-          "intro": "美国与多个美洲国家发表联合声明，称试图推翻玻利维亚政府的行动，对宪政秩序和民主稳定构成“严重威胁”，并指责一小部分暴力力量试图推翻近期选举所表达的民意。玻利维亚此前因取消燃油补贴、美元短缺和生活成本上升，经历长达数周的道路封锁与抗议。政府已宣布紧急状态并出动安全力量清理道路，但如果经济困境得不到解决，恢复交通并不等于危机真正结束。",
-          "xiaziQuote": "秩序不是没有抗议，而是抗议不会被少数暴力力量改写成夺权。",
-          "doudouQuote": "路可以清开，账单和物价不会自己消失，这才是危机的后半场。",
-          "footerTakeaway": "玻利维亚危机从交通封锁升级为区域民主秩序警报。"
-        },
-        "en-US": {
-          "categoryLabel": "Bolivia Crisis",
-          "headlineFact": "Several American states warned of an effort to overthrow Bolivia’s government",
-          "headlineView": "protest can express pain, but violent power grabs make ordinary people pay the bill",
-          "headlineFull": "Several American states warned of an effort to overthrow Bolivia’s government； protest can express pain, but violent power grabs make ordinary people pay the bill.",
-          "intro": "The United States and several American states issued a joint statement saying efforts to overthrow Bolivia’s government posed a grave threat to constitutional order and democratic stability. They accused a small violent minority of trying to overturn the will expressed in recent elections. Bolivia had faced weeks of road blockades and protests over fuel-subsidy cuts, dollar shortages and rising living costs. The government declared a state of emergency and deployed security forces to clear roads, but restoring traffic does not resolve the economic stress behind the crisis.",
-          "xiaziQuote": "Order does not mean no protest. It means protest is not rewritten into a power grab by a violent minority.",
-          "doudouQuote": "Roads can be cleared. Bills and prices do not clear themselves. That is the second half of the crisis.",
-          "footerTakeaway": "Bolivia’s crisis has moved from road blockades to a regional warning over democratic order."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000405",
-          "topicId": "20000000-0000-4000-8000-000000000087",
-          "title": "US says Bolivia anti-government protests pose grave threat to democracy",
-          "publisher": "Reuters",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/23/us-says-bolivia-anti-government-protests-pose-grave-threat-to-democracy",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000088",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "europe-heatwave",
-      "rank": 7,
+      "id": "de780c13-de0e-49d2-8c0b-8e68cea60950",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "sk-hynix-nasdaq-listing",
+      "rank": 8,
       "category": "business",
-      "region": "North America",
+      "region": "Asia",
       "countryCodes": [
+        "KR",
         "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 91,
-      "storyId": "spacex_25b_notes_ai_infrastructure_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "storyId": "sk_hynix_nasdaq_listing_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 75,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "SpaceX融资",
-          "headlineFact": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元",
-          "headlineView": "资本相信的不只是火箭升空，也是在押注算力、能源和AI基础设施",
-          "headlineFull": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元； 资本相信的不只是火箭升空，也是在押注算力、能源和AI基础设施.",
-          "intro": "SpaceX启动五档债券发行，计划募集至少250亿美元，这是该公司首次发行投资级美元债券，期限覆盖5年至30年。据消息人士称，本次发行已吸引接近850亿美元的投资者订单。资金将用于偿还过桥贷款及支持公司运营。SpaceX正在大规模投资AI数据中心、计算设备和电力基础设施，这意味着一家以火箭和卫星闻名的公司，正逐渐变成同时需要能源、算力和长期资本的综合基础设施企业。",
-          "xiaziQuote": "当火箭公司开始像基础设施公司一样融资，说明太空、通信、AI和能源已经拧成一股绳。",
-          "doudouQuote": "这不是借钱买火箭，这是给下一代基础设施先铺电线。",
-          "footerTakeaway": "SpaceX融资显示航天企业的资本需求正在外溢到AI与能源基础设施。"
+          "categoryLabel": "AI芯片资本",
+          "headlineFact": "SK海力士计划通过纳斯达克存托凭证上市融资约294亿美元",
+          "headlineView": "AI竞争正在从卖芯片，升级为用资本市场建设下一代芯片工厂",
+          "headlineFull": "SK海力士计划通过纳斯达克存托凭证上市融资约294亿美元; AI竞争正在从卖芯片，升级为用资本市场建设下一代芯片工厂.",
+          "intro": "韩国存储芯片企业SK海力士计划在纳斯达克发行美国存托凭证，市场报道估值约294亿至297亿美元。公司是高带宽内存的重要供应商，受益于英伟达等AI数据中心需求增长。融资预期将用于新工厂和先进生产设备。AI芯片竞争不只发生在设计图纸上，也发生在谁能更快把资本变成产能。",
+          "xiaziQuote": "AI的下一场竞争，不只是谁设计出更强的芯片，也是看谁有钱把芯片大规模造出来。",
+          "doudouQuote": "芯片公司现在不只拼技术，还拼谁能把资本市场也变成生产线。",
+          "footerTakeaway": "看点：HBM需求是否继续支撑先进存储产能扩张。"
         },
         "en-US": {
-          "categoryLabel": "SpaceX Financing",
-          "headlineFact": "SpaceX launched a bond offering of at least $25 billion, with orders near $85 billion",
-          "headlineView": "capital is betting not only on rockets, but also on compute, energy and AI infrastructure",
-          "headlineFull": "SpaceX launched a bond offering of at least $25 billion, with orders near $85 billion； capital is betting not only on rockets, but also on compute, energy and AI infrastructure.",
-          "intro": "SpaceX launched a five-part bond offering to raise at least $25 billion, its first investment-grade dollar bond sale, with maturities from five to 30 years. People familiar with the deal said investor orders approached $85 billion. Proceeds will repay bridge loans and support general corporate purposes. SpaceX is investing heavily in AI data centers, computing equipment and power infrastructure, meaning a company known for rockets and satellites is increasingly becoming a broader infrastructure business across space, communications, AI and energy.",
-          "xiaziQuote": "When a rocket company finances itself like an infrastructure company, space, communications, AI and energy have already become one system.",
-          "doudouQuote": "This is not just borrowing to buy rockets. It is wiring the next generation of infrastructure first.",
-          "footerTakeaway": "SpaceX’s financing shows how aerospace capital needs now spill into AI and energy infrastructure."
+          "categoryLabel": "AI Chip Capital",
+          "headlineFact": "SK Hynix planned a Nasdaq ADR listing valued around $29.4 billion",
+          "headlineView": "AI competition is moving from selling chips to financing the factories that make the next generation",
+          "headlineFull": "SK Hynix planned a Nasdaq ADR listing valued around $29.4 billion; AI competition is moving from selling chips to financing the factories that make the next generation.",
+          "intro": "South Korean memory-chip maker SK Hynix plans to list American depositary receipts on Nasdaq, with market reports valuing the offering around $29.4 billion to $29.7 billion. The company is a major supplier of high-bandwidth memory used in AI data centers, including by Nvidia-linked supply chains. Proceeds are expected to support new fabrication capacity and advanced equipment. AI chip competition is not only about design; it is also about who can turn capital into capacity fastest.",
+          "xiaziQuote": "The next AI contest is not only who designs the stronger chip, but who can afford to build it at scale.",
+          "doudouQuote": "Chip companies are no longer only competing on technology. They are trying to turn capital markets into production lines.",
+          "footerTakeaway": "Watch point: whether HBM demand keeps justifying advanced memory expansion."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000408",
-          "topicId": "20000000-0000-4000-8000-000000000088",
-          "title": "SpaceX launches $25 billion notes offering, source says",
-          "publisher": "Reuters",
-          "url": "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_L4N42V1CS%3A0-spacex-launches-25-billion-notes-offering-source-says/",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
+          "id": "d00540cb-e372-4250-8cbc-070d69bfb42c",
+          "topicId": "de780c13-de0e-49d2-8c0b-8e68cea60950",
+          "title": "SK Hynix plans depository receipt listing on Nasdaq",
+          "publisher": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/coming-to-america-sk-hynix-plans-depository-receipt-listing-on-the-nasdaq-c3c9695e",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -415,67 +510,12 @@
       ]
     },
     {
-      "id": "20000000-0000-4000-8000-000000000089",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "ai-digital-sovereignty",
-      "rank": 8,
-      "category": "technology",
-      "region": "North America",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "anthropic_claude_tag_slack_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "AI职场",
-          "headlineFact": "Anthropic把Claude带进Slack群聊",
-          "headlineView": "AI正在从一个需要单独打开的工具，变成随时参与讨论的虚拟同事",
-          "headlineFull": "Anthropic把Claude带进Slack群聊； AI正在从一个需要单独打开的工具，变成随时参与讨论的虚拟同事.",
-          "intro": "Anthropic推出“Claude Tag”测试版。Slack用户只需在群聊中输入“@Claude”，AI便可以读取对话上下文、拆解任务，并主动提醒组织内部值得关注的更新。该功能目前面向Claude Enterprise和Team客户，管理员可以限制Claude在不同频道中访问的数据和工具。它的意义不只是减少一次复制粘贴，而是让AI从私聊助手进入公开协作空间，人与AI共同工作的过程也会更透明。",
-          "xiaziQuote": "AI真正进入工作流，不是多一个聊天框，而是它开始出现在团队默认沟通场景里。",
-          "doudouQuote": "以前是你去找AI，现在是AI坐进群里听会，打工味一下就浓了。",
-          "footerTakeaway": "Claude Tag把AI从个人工具推向团队协作界面。"
-        },
-        "en-US": {
-          "categoryLabel": "AI at Work",
-          "headlineFact": "Anthropic brought Claude into Slack group conversations",
-          "headlineView": "AI is moving from a separate tool into a virtual teammate that can join discussions in real time",
-          "headlineFull": "Anthropic brought Claude into Slack group conversations； AI is moving from a separate tool into a virtual teammate that can join discussions in real time.",
-          "intro": "Anthropic launched a research preview of Claude Tag. Slack users can type “@Claude” in a channel, allowing the AI to read conversation context, break down tasks and proactively surface relevant updates inside an organization. The feature is available to Claude Enterprise and Team customers, with administrators able to limit what data and tools Claude can access in each channel. The significance is not just fewer copy-and-paste steps; it moves AI from private chat into a shared collaboration space.",
-          "xiaziQuote": "AI truly enters the workflow when it stops being another chat box and starts appearing in the team’s default communication space.",
-          "doudouQuote": "Before, you went to AI. Now AI sits in the group chat and listens to the meeting. That feels much more like work.",
-          "footerTakeaway": "Claude Tag pushes AI from a personal tool into the team collaboration interface."
-        }
-      },
-      "sources": [
-        {
-          "id": "30000000-0000-4000-8000-000000000411",
-          "topicId": "20000000-0000-4000-8000-000000000089",
-          "title": "Anthropic launches Claude Tag in Slack with plans for wider rollout",
-          "publisher": "Reuters",
-          "url": "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_L6N42V13T%3A0-anthropic-launches-claude-tag-in-slack-with-plans-for-wider-rollout/",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "20000000-0000-4000-8000-000000000090",
-      "issueId": "10000000-0000-4000-8000-000000000011",
-      "slug": "china-us-critical-minerals",
+      "id": "9ce8ec3b-b9b5-458a-81a4-e42cb146e9e5",
+      "issueId": "10000000-0000-4000-8000-000000000012",
+      "slug": "qualcomm-bytedance-chip",
       "rank": 9,
       "category": "technology",
-      "region": "North America",
+      "region": "Asia",
       "countryCodes": [
         "US",
         "CN"
@@ -483,42 +523,42 @@
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 89,
-      "storyId": "us_spectrum_auction_replace_chinese_telecom_2026",
+      "scoreTotal": 88,
+      "storyId": "qualcomm_bytedance_custom_chip_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "中美通信科技",
-          "headlineFact": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备",
-          "headlineView": "通信安全的竞争，正在从禁止购买走向花钱重建整套网络",
-          "headlineFull": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备； 通信安全的竞争，正在从禁止购买走向花钱重建整套网络.",
-          "intro": "美国联邦通信委员会宣布，中频无线频谱拍卖筹集超过35亿美元，其中最多33亿美元将用于支持“拆除并替换”计划，帮助美国运营商移除华为、中兴等中国企业的通信设备。美国此前估计，完整替换相关设备需要49.8亿美元，但最初只获得19亿美元拨款。目前仅有42%的受资助运营商完成了设备更换和处置，许可、供应链、劳动力和极端天气都在拖慢进度。",
-          "xiaziQuote": "技术脱钩最贵的部分，往往不是说不买，而是把已经装进系统里的东西一件件换掉。",
-          "doudouQuote": "安全感不是免费的，尤其是当旧设备已经在塔上、新设备还在路上。",
-          "footerTakeaway": "美国通信安全政策从限制采购进入补钱替换阶段。"
+          "categoryLabel": "中美定制芯片",
+          "headlineFact": "高通被曝正与字节跳动商谈定制芯片设计",
+          "headlineView": "当通用芯片无法满足需求，平台公司就会开始定义自己的算力架构",
+          "headlineFull": "高通被曝正与字节跳动商谈定制芯片设计; 当通用芯片无法满足需求，平台公司就会开始定义自己的算力架构.",
+          "intro": "Reuters援引知情人士称，高通正在与字节跳动商谈提供定制芯片设计服务，可能涉及视频处理单元，并计划在条件成熟时于年底前进入量产阶段。谈判仍在进行，尚不确定是否会形成最终产品。若合作达成，字节跳动将成为高通定制芯片业务的重要早期客户，也说明在中美科技限制持续存在的背景下，商业合作与技术竞争仍在同时发生。",
+          "xiaziQuote": "真正的算力自主，不只是买到多少芯片，而是能不能让芯片按照自己的业务需要生长。",
+          "doudouQuote": "平台公司做大以后，连芯片都想要“私人订制”。",
+          "footerTakeaway": "看点：定制芯片是否成为大型平台降低算力成本的新路径。"
         },
         "en-US": {
-          "categoryLabel": "U.S.-China Telecom Tech",
-          "headlineFact": "A U.S. spectrum auction raised $3.5 billion to help replace Huawei and ZTE equipment",
-          "headlineView": "telecom-security competition is moving from banning purchases to paying to rebuild networks",
-          "headlineFull": "A U.S. spectrum auction raised $3.5 billion to help replace Huawei and ZTE equipment； telecom-security competition is moving from banning purchases to paying to rebuild networks.",
-          "intro": "The U.S. Federal Communications Commission said a mid-band wireless spectrum auction raised more than $3.5 billion, with up to $3.3 billion to support the “rip and replace” program helping carriers remove Huawei and ZTE equipment. The U.S. previously estimated the full replacement would cost $4.98 billion, while the original appropriation was only $1.9 billion. Only 42% of funded carriers have completed removal and disposal, with permitting, supply chains, labor and extreme weather slowing progress.",
-          "xiaziQuote": "The most expensive part of tech decoupling is often not saying “do not buy,” but replacing what is already inside the system piece by piece.",
-          "doudouQuote": "Security is not free, especially when old gear is already on towers and new gear is still on the way.",
-          "footerTakeaway": "U.S. telecom-security policy is moving from procurement limits to funded replacement."
+          "categoryLabel": "U.S.-China Custom Chips",
+          "headlineFact": "Qualcomm was reported to be in talks with ByteDance on custom chip-design services",
+          "headlineView": "when general-purpose chips are not enough, platform companies start defining their own compute architecture",
+          "headlineFull": "Qualcomm was reported to be in talks with ByteDance on custom chip-design services; when general-purpose chips are not enough, platform companies start defining their own compute architecture.",
+          "intro": "Reuters reported, citing people familiar with the matter, that Qualcomm is in talks to provide custom chip-design services to ByteDance, potentially involving video-processing units and possible production by year-end if conditions are met. The talks are ongoing and may not produce a final chip. If completed, ByteDance would become an important early customer for Qualcomm’s custom-chip business, showing that commercial cooperation and strategic technology competition can continue at the same time.",
+          "xiaziQuote": "Real compute independence is not only buying chips. It is whether chips can grow around your own workload.",
+          "doudouQuote": "Once a platform gets large enough, even chips start looking like custom orders.",
+          "footerTakeaway": "Watch point: whether custom silicon becomes a new way for large platforms to lower compute costs."
         }
       },
       "sources": [
         {
-          "id": "30000000-0000-4000-8000-000000000414",
-          "topicId": "20000000-0000-4000-8000-000000000090",
-          "title": "US spectrum auction raises $3.5 billion, will fund replacing Chinese telecom equipment",
-          "publisher": "Reuters",
-          "url": "https://wtvbam.com/2026/06/23/us-spectrum-auction-raises-3-5-billion-will-fund-replacing-chinese-telecom-equipment/",
-          "publishedAt": "2026-06-23T00:00:00Z",
-          "sourceType": "wire",
+          "id": "85bab866-f7c0-4ab5-86fb-e5bf39c87746",
+          "topicId": "9ce8ec3b-b9b5-458a-81a4-e42cb146e9e5",
+          "title": "Qualcomm in talks to provide custom chip-design services to ByteDance",
+          "publisher": "Reuters via Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/articles/qualcomm-talks-custom-chip-design-043638832.html",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
