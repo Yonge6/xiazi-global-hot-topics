@@ -26,8 +26,24 @@ async function readIssueFile(filePath: string, role: IssueFile["role"]): Promise
   return { path: filePath, role, issue, checksum: contentChecksum(issue), warnings };
 }
 
+async function firstExistingDataRoot(root: string) {
+  const candidates = [
+    path.join(root, "data"),
+    path.join(root, "apps/web/data"),
+  ];
+  for (const candidate of candidates) {
+    try {
+      await readdir(path.join(candidate, "archive"));
+      return candidate;
+    } catch {
+      // Try next candidate.
+    }
+  }
+  return candidates[0];
+}
+
 export async function loadContentIssueFiles(root = process.cwd()): Promise<IssueFile[]> {
-  const dataRoot = path.join(root, "apps/web/data");
+  const dataRoot = await firstExistingDataRoot(root);
   const archiveRoot = path.join(dataRoot, "archive");
   const archiveFiles = (await readdir(archiveRoot))
     .filter((file) => /^\d{4}-\d{2}-\d{2}\.json$/.test(file))
