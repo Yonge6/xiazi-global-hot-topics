@@ -45,20 +45,20 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
         <p className="issue-index">DAILY EDITION · {date.getUTCFullYear()}</p>
         <h1 id="issue-title">{isZh ? "昨日世界" : "THE WORLD YESTERDAY"}<span>.</span></h1>
         <p className="issue-deck">
-          {isZh ? "一画一世界 一虾一菩提" : "Nine stories shaping the world"}
+          {isZh ? "1 张今日总览 · 8 件全球热点" : "1 Daily Overview · 8 Global Stories"}
         </p>
         <p className="issue-manifesto">
           {isZh ? (
             <>
               <span>信息纷涌，世界喧哗。</span>
-              <span>每天看懂 9 件重要的事，就够了。</span>
+              <span>每天看懂世界上最重要的 8 件事，就够了。</span>
               <span>剩下的时间，好好生活，享受当下。</span>
             </>
           ) : (
             <>
-              <span>The world is loud and information never stops.</span>
-              <span>Nine important stories a day may be enough.</span>
-              <span>Leave the rest of your time for life—and for the present moment.</span>
+              <span>The world is noisy.</span>
+              <span>Understand the 8 global stories that matter most each day.</span>
+              <span>Then get back to living.</span>
             </>
           )}
         </p>

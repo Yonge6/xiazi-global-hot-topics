@@ -4,7 +4,7 @@
 
 ## Goal
 
-在 `pluto.hk` 建立高品质双语全球热点网站。每天北京时间 05:00 发布一期，对应 GMT 前一日 21:00，固定展示最新且最值得关注的 9 条热点，标题遵循“事实；观点”；自动发布先使用默认海报，正式海报由后台逐张替换。
+在 `pluto.hk` 建立高品质双语全球热点网站。每天北京时间 05:00 发布一期，对应 GMT 前一日 21:00，固定展示 9 张内容卡片：1 张今日总览与 8 件最值得关注的全球热点，标题遵循“事实；观点”；自动发布先使用默认海报，正式海报由后台逐张替换。
 
 ## Architecture
 
@@ -20,7 +20,7 @@
 2. 建立 locale 路由、语言切换、SEO metadata、sitemap 和 robots。
 3. 定义 Issue、Topic、Source、Poster、Job 类型与 Zod schema。
 4. 创建 9 条完整中英文 Mock 热点与来源。
-5. 实现紧凑刊头、9 条目录式 Masonry 卡片、完整海报预览、Lightbox、下载和页脚。
+5. 实现紧凑刊头、9 张目录式 Masonry 卡片、完整海报预览、Lightbox、下载和页脚。
 6. 添加 Supabase 初始 migration、`.env.example` 与 README。
 7. 运行 lint、typecheck、unit、Playwright 和 production build。
 
@@ -34,7 +34,7 @@
 ## Phase 3: AI Research Workflow
 
 1. 先实现 Mock Provider，再实现 OpenAI Responses Provider。
-2. 建立候选发现、去重、评分、选 9 条和双语内容生成。
+2. 建立候选发现、去重、评分、选 1 张总览 + 8 件全球热点和双语内容生成。
 3. 使用定时任务在北京时间每天 `05:00` 创建并执行一期任务，Cron 为 `0 21 * * *`。
 4. 增加幂等锁、断点续跑、重试和成本记录。
 

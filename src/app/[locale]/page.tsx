@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const isZh = locale === "zh";
   const title = isZh ? "昨日世界 | 虾子曰全球热点海报" : "The World Yesterday | Xiazi Global Hot Topics";
   const description = isZh
-    ? "每天 00:05，用 9 条双语内容，看懂正在变化的世界。"
-    : "Nine bilingual stories at 00:05 Beijing Time, capturing a changing world.";
+    ? "每天 05:00，用 1 张今日总览和 8 件全球热点，看懂正在变化的世界。"
+    : "One daily overview and 8 global stories at 05:00 Beijing Time, capturing a changing world.";
 
   return {
     title,

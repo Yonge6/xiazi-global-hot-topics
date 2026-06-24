@@ -35,16 +35,20 @@ function enDate(issueDate: string) {
   }).format(date)} · Published at 05:00 Beijing Time`;
 }
 
-test("renders the Chinese issue and nine stories", async ({ page, request }) => {
+test("renders the Chinese issue with one overview and eight stories", async ({ page, request }) => {
   const { issue } = await latestIssue(request);
   const lead = issue.topics[0].localizations["zh-CN"];
 
   await page.goto("/zh");
   await expect(page.getByRole("heading", { name: "昨日世界." })).toBeVisible();
+  await expect(page.getByText("每天看懂世界上最重要的 8 件事，就够了。")).toBeVisible();
+  await expect(page.getByText("1 张今日总览 · 8 件全球热点")).toBeVisible();
   await expect(page.locator("article")).toHaveCount(9);
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText("pluto.hk").first()).toBeVisible();
   await expect(page.getByText(zhDate(issue.issueDate))).toBeVisible();
+  await expect(page.getByText("点击日期，查看当期 1 张今日总览、8 件全球热点的文字、来源与海报。")).toBeVisible();
+  await expect(page.getByText(/每天看懂\s*9\s*件重要的事/)).toHaveCount(0);
 });
 
 test("renders the Chinese homepage at the root domain", async ({ page }) => {
@@ -64,9 +68,11 @@ test("switches locale while keeping the page context", async ({ page, request })
   await page.getByRole("link", { name: "Switch to English" }).click();
   await expect(page).toHaveURL(/\/en\/$/);
   await expect(page.getByRole("heading", { name: "THE WORLD YESTERDAY." })).toBeVisible();
+  await expect(page.getByText("1 Daily Overview · 8 Global Stories")).toBeVisible();
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText(enDate(issue.issueDate))).toBeVisible();
   await expect(page.locator('article img[src*="/api/posters/en/"]').first()).toBeVisible();
+  await expect(page.getByText("Browse each edition: 1 daily overview, 8 global stories, sources, and bilingual posters.")).toBeVisible();
 });
 
 test("opens, navigates and closes the poster lightbox", async ({ page, request }) => {
@@ -111,12 +117,13 @@ test("opens sharing options for every poster", async ({ page, request }) => {
 test("renders the mobile studio editor", async ({ page }) => {
   await page.goto("/studio");
   await expect(page.getByRole("heading", { name: "手机编辑后台" })).toBeVisible();
-  await expect(page.getByText("世界杯硬规则：始终保持第一条")).toBeHidden();
+  await expect(page.getByText("世界杯硬规则：始终保持第一条新闻")).toBeHidden();
   await page.getByLabel("后台密码").fill("000000");
   await page.getByRole("button", { name: "进入后台" }).click();
   await expect(page.getByText("手机编辑后台")).toBeVisible();
   await page.getByRole("button", { name: "内容编辑" }).click();
-  await expect(page.getByText("世界杯硬规则：始终保持第一条")).toBeVisible();
+  await page.locator(".studio-topic-tabs").getByRole("button", { name: "2" }).click();
+  await expect(page.getByText("世界杯硬规则：始终保持第一条新闻")).toBeVisible();
   await expect(page.getByAltText("中文海报预览")).toBeVisible();
   await expect(page.getByAltText("英文海报预览")).toBeVisible();
   await expect(page.getByRole("button", { name: "发布当前期修改" })).toBeVisible();
