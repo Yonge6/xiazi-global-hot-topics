@@ -4,9 +4,9 @@ import type { Issue } from "@xiazi/contracts";
 
 import { createSupabaseServiceClientFromEnv } from "../content-sync/supabase-service-client";
 import { canonicalIssueBundle } from "./canonical-issue";
+import { completeShadowPublishAfterPrimary } from "./complete-shadow-publish-after-primary";
 import { PublishError, publishErrorCode, publishErrorStage } from "./publish-errors";
 import { publishGitHubPrimary, type PublishTarget } from "./publish-github-primary";
-import { publishSupabaseShadow, withTimeout } from "./publish-supabase-shadow";
 import { startStudioPublishRun, updateStudioPublishRun } from "./studio-publish-runs";
 
 export type StudioPublishResult = {
@@ -126,27 +126,13 @@ export async function publishIssueFromStudio(input: {
   }
 
   try {
-    const shadow = await withTimeout(
-      publishSupabaseShadow(bundle.issue, bundle.checksum, publishRequestId, serviceClient),
-      input.shadowTimeoutMs ?? 8000,
-    );
-    const compareStatus = shadow.compareStatus === "matched" ? "matched" : "mismatched";
-    await updateStudioPublishRun(serviceClient, publishRequestId, {
-      shadowStatus: shadow.status,
-      shadowChanged: shadow.changed,
-      compareStatus,
-      differenceCount: shadow.differenceCount,
-      differencePaths: shadow.differencePaths,
-      errorStage: compareStatus === "mismatched" ? "compare" : "",
-      errorCode: compareStatus === "mismatched" ? "CONTENT_MISMATCH" : "",
-      finished: true,
-    }).catch((error) => {
-      logPublishRunFallback("studio publish shadow audit failed", {
-        publishRequestId,
-        issueDate: bundle.issue.issueDate,
-        errorStage: "audit",
-        errorCode: error instanceof Error ? error.message : "AUDIT_FAILED",
-      });
+    const shadow = await completeShadowPublishAfterPrimary({
+      issue: bundle.issue,
+      triggerType: "studio",
+      publishRequestId,
+      primaryCommitSha: primary.commitSha,
+      shadowTimeoutMs: input.shadowTimeoutMs,
+      throwOnShadowFailure: false,
     });
     return {
       published: true,
@@ -155,9 +141,9 @@ export async function publishIssueFromStudio(input: {
       publishRequestId,
       target: primary.target,
       primary: { target: "github", status: "succeeded", ...(primary.commitSha ? { commitSha: primary.commitSha } : {}) },
-      shadow: { target: "supabase", status: shadow.status, changed: shadow.changed },
+      shadow: { target: "supabase", status: shadow.shadowStatus, changed: shadow.shadow?.changed ?? false },
       compare: {
-        status: compareStatus,
+        status: shadow.compareStatus,
         differenceCount: shadow.differenceCount,
         differencePaths: shadow.differencePaths,
       },

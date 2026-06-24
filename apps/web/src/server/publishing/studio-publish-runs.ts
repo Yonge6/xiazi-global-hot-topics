@@ -1,10 +1,12 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 
-export type StudioPublishRunStatus = {
+export type PublishTriggerType = "studio" | "automation" | "retry";
+
+export type PublishRunStatus = {
   publishRequestId: string;
   issueDate: string;
   checksum: string;
-  triggerType: "studio" | "retry";
+  triggerType: PublishTriggerType;
   primaryStatus: "pending" | "succeeded" | "failed";
   primaryCommitSha?: string;
   shadowStatus: "not_started" | "succeeded" | "skipped" | "failed" | "timeout";
@@ -17,7 +19,9 @@ export type StudioPublishRunStatus = {
   errorCode?: string;
 };
 
-type RunPatch = Partial<Omit<StudioPublishRunStatus, "publishRequestId" | "issueDate" | "checksum">> & {
+export type StudioPublishRunStatus = PublishRunStatus;
+
+type RunPatch = Partial<Omit<PublishRunStatus, "publishRequestId" | "issueDate" | "checksum">> & {
   finished?: boolean;
 };
 
@@ -25,17 +29,17 @@ function deploymentId() {
   return process.env.VERCEL_DEPLOYMENT_ID || process.env.VERCEL_GIT_COMMIT_SHA || undefined;
 }
 
-function mapRun(row: Record<string, unknown>): StudioPublishRunStatus {
+function mapRun(row: Record<string, unknown>): PublishRunStatus {
   return {
     publishRequestId: String(row.publish_request_id),
     issueDate: String(row.issue_date),
     checksum: String(row.checksum),
-    triggerType: row.trigger_type as "studio" | "retry",
-    primaryStatus: row.primary_status as StudioPublishRunStatus["primaryStatus"],
+    triggerType: row.trigger_type as PublishTriggerType,
+    primaryStatus: row.primary_status as PublishRunStatus["primaryStatus"],
     ...(row.primary_commit_sha ? { primaryCommitSha: String(row.primary_commit_sha) } : {}),
-    shadowStatus: row.shadow_status as StudioPublishRunStatus["shadowStatus"],
+    shadowStatus: row.shadow_status as PublishRunStatus["shadowStatus"],
     ...(typeof row.shadow_changed === "boolean" ? { shadowChanged: row.shadow_changed } : {}),
-    compareStatus: row.compare_status as StudioPublishRunStatus["compareStatus"],
+    compareStatus: row.compare_status as PublishRunStatus["compareStatus"],
     differenceCount: Number(row.difference_count || 0),
     differencePaths: Array.isArray(row.difference_paths) ? row.difference_paths.map(String) : [],
     retryCount: Number(row.retry_count || 0),
@@ -61,12 +65,15 @@ function patchToRow(patch: RunPatch) {
   };
 }
 
-export async function startStudioPublishRun(
+export async function startPublishRun(
   client: SupabaseClient | null,
   input: {
     publishRequestId: string;
     issueDate: string;
     checksum: string;
+    triggerType?: PublishTriggerType;
+    primaryStatus?: PublishRunStatus["primaryStatus"];
+    primaryCommitSha?: string;
   },
 ) {
   if (!client) return null;
@@ -76,9 +83,10 @@ export async function startStudioPublishRun(
       publish_request_id: input.publishRequestId,
       issue_date: input.issueDate,
       checksum: input.checksum,
-      trigger_type: "studio",
+      trigger_type: input.triggerType || "studio",
       primary_target: "github",
-      primary_status: "pending",
+      primary_status: input.primaryStatus || "pending",
+      primary_commit_sha: input.primaryCommitSha || null,
       shadow_status: "not_started",
       compare_status: "not_started",
       difference_count: 0,
@@ -95,7 +103,7 @@ export async function startStudioPublishRun(
   return mapRun(data as Record<string, unknown>);
 }
 
-export async function updateStudioPublishRun(
+export async function updatePublishRun(
   client: SupabaseClient | null,
   publishRequestId: string,
   patch: RunPatch,
@@ -111,7 +119,7 @@ export async function updateStudioPublishRun(
   return mapRun(data as Record<string, unknown>);
 }
 
-export async function getStudioPublishRun(client: SupabaseClient | null, publishRequestId: string) {
+export async function getPublishRun(client: SupabaseClient | null, publishRequestId: string) {
   if (!client) return null;
   const { data, error } = await client
     .from("studio_publish_runs")
@@ -122,10 +130,10 @@ export async function getStudioPublishRun(client: SupabaseClient | null, publish
   return data ? mapRun(data as Record<string, unknown>) : null;
 }
 
-export async function incrementStudioPublishRunRetry(client: SupabaseClient | null, publishRequestId: string) {
-  const current = await getStudioPublishRun(client, publishRequestId);
+export async function incrementPublishRunRetry(client: SupabaseClient | null, publishRequestId: string) {
+  const current = await getPublishRun(client, publishRequestId);
   if (!current) return null;
-  return updateStudioPublishRun(client, publishRequestId, {
+  return updatePublishRun(client, publishRequestId, {
     retryCount: current.retryCount + 1,
     triggerType: "retry",
     shadowStatus: "not_started",
@@ -134,3 +142,8 @@ export async function incrementStudioPublishRunRetry(client: SupabaseClient | nu
     errorCode: "",
   });
 }
+
+export const startStudioPublishRun = startPublishRun;
+export const updateStudioPublishRun = updatePublishRun;
+export const getStudioPublishRun = getPublishRun;
+export const incrementStudioPublishRunRetry = incrementPublishRunRetry;

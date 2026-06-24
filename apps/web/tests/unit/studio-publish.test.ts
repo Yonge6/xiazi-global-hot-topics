@@ -33,6 +33,8 @@ vi.mock("@/server/publishing/publish-supabase-shadow", async () => {
 });
 
 vi.mock("@/server/publishing/studio-publish-runs", () => ({
+  startPublishRun: mocks.startStudioPublishRun,
+  updatePublishRun: mocks.updateStudioPublishRun,
   startStudioPublishRun: mocks.startStudioPublishRun,
   updateStudioPublishRun: mocks.updateStudioPublishRun,
 }));
@@ -89,6 +91,7 @@ describe("Studio publish shadow write", () => {
       checksum,
       result.publishRequestId,
       mocks.serviceClient,
+      "studio",
     );
   });
 
