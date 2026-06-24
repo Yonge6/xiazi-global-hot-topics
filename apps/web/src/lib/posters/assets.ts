@@ -1,4 +1,12 @@
 export const POSTER_ASSET_NAMES = [
+  "overview",
+  "uk-politics",
+  "us-iran-talks",
+  "colombia-election",
+  "russia-ukraine",
+  "europe-heatwave",
+  "ai-digital-sovereignty",
+  "china-us-critical-minerals",
   "ai-governance",
   "supply-chain",
   "climate-adaptation",
