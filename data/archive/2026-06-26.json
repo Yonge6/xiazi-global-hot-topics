@@ -166,7 +166,7 @@
       "issueId": "10000000-0000-4000-8000-000000000013",
       "slug": "venezuela-earthquake",
       "rank": 3,
-      "category": "disaster",
+      "category": "international",
       "region": "Americas",
       "countryCodes": [
         "VE"
@@ -233,7 +233,7 @@
       "issueId": "10000000-0000-4000-8000-000000000013",
       "slug": "strait-hormuz-cargo-ship",
       "rank": 4,
-      "category": "conflict",
+      "category": "international",
       "region": "Middle East",
       "countryCodes": [
         "OM",
@@ -373,7 +373,7 @@
       "issueId": "10000000-0000-4000-8000-000000000013",
       "slug": "congo-ebola-france-case",
       "rank": 6,
-      "category": "health",
+      "category": "science",
       "region": "Africa",
       "countryCodes": [
         "CD",
@@ -566,7 +566,7 @@
       "issueId": "10000000-0000-4000-8000-000000000013",
       "slug": "kenya-protest-anniversary",
       "rank": 9,
-      "category": "society",
+      "category": "international",
       "region": "Africa",
       "countryCodes": [
         "KE"
