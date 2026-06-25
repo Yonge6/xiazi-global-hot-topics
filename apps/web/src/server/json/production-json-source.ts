@@ -50,6 +50,10 @@ function dataRootCandidates() {
   ];
 }
 
+function prefersLocalJson() {
+  return process.env.XIAZI_JSON_SOURCE === "local" || process.env.NODE_ENV !== "production";
+}
+
 export function productionDataRoots() {
   const roots = dataRootCandidates().filter((candidate) => existsSync(candidate));
   return roots.length > 0 ? roots : [path.join(process.cwd(), "data")];
@@ -83,6 +87,11 @@ async function localArchiveDates() {
 }
 
 export async function loadLatestProductionIssue(): Promise<LoadedProductionIssue> {
+  if (prefersLocalJson()) {
+    const local = await localIssue("current-issue.json");
+    if (local) return local;
+  }
+
   const remote = await githubJson(
     "contents/data/current-issue.json",
     "application/vnd.github.raw+json",
@@ -97,6 +106,11 @@ export async function loadLatestProductionIssue(): Promise<LoadedProductionIssue
 
 export async function loadProductionIssueByDate(date: string): Promise<LoadedProductionIssue | null> {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return null;
+  if (prefersLocalJson()) {
+    const local = await localIssue(path.join("archive", `${date}.json`));
+    if (local) return local;
+  }
+
   const remote = await githubJson(
     `contents/data/archive/${date}.json`,
     "application/vnd.github.raw+json",
@@ -114,6 +128,18 @@ export async function loadProductionIssueAtRef(relativePath: string, ref: string
 }
 
 export async function listProductionArchiveIssues(): Promise<ArchiveIssueSummary[]> {
+  if (prefersLocalJson()) {
+    const localDates = await localArchiveDates();
+    return localDates
+      .sort((a, b) => b.localeCompare(a))
+      .map((date) => ({
+        issueDate: date,
+        slug: date,
+        status: "published",
+        source: "local",
+      }));
+  }
+
   const files = await githubJson("contents/data/archive").catch(() => null);
   const remoteDates = Array.isArray(files)
     ? (files as GithubFile[])

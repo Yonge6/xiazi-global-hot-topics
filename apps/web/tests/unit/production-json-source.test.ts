@@ -10,9 +10,11 @@ const issue = parseIssue(currentIssue);
 describe("production JSON source", () => {
   afterEach(() => {
     vi.unstubAllGlobals();
+    vi.unstubAllEnvs();
   });
 
   it("uses the same GitHub current issue source for the loader and JSON repository", async () => {
+    vi.stubEnv("NODE_ENV", "production");
     const fetchMock = vi.fn(async () => ({
       ok: true,
       json: async () => issue,
@@ -31,5 +33,19 @@ describe("production JSON source", () => {
         headers: expect.objectContaining({ Accept: "application/vnd.github.raw+json" }),
       }),
     );
+  });
+
+  it("prefers local JSON outside production so tests do not depend on live GitHub", async () => {
+    vi.stubEnv("NODE_ENV", "test");
+    const fetchMock = vi.fn(async () => {
+      throw new Error("GitHub should not be called in local test mode");
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const loaded = await loadLatestProductionIssue();
+
+    expect(loaded.source).toBe("local");
+    expect(loaded.issue.issueDate).toBe(issue.issueDate);
+    expect(fetchMock).not.toHaveBeenCalled();
   });
 });
