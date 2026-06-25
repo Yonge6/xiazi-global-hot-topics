@@ -14,7 +14,7 @@
       "issueId": "10000000-0000-4000-8000-000000000010",
       "slug": "overview",
       "rank": 1,
-      "category": "overview",
+      "category": "international",
       "region": "Global",
       "countryCodes": [
         "AR",
@@ -65,7 +65,7 @@
           "publisher": "Xiazi Says",
           "url": "https://pluto.hk/zh/",
           "publishedAt": "2026-06-22T00:00:00Z",
-          "sourceType": "original",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true

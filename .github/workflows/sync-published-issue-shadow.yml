@@ -1,0 +1,36 @@
+name: Sync published issue shadow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - data/current-issue.json
+
+permissions:
+  contents: read
+
+jobs:
+  sync-shadow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout published commit
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Sync Supabase shadow and compare
+        run: npx tsx scripts/sync-github-publish-to-shadow.ts
+        env:
+          CONTENT_REPOSITORY: json
+          SUPABASE_ENV: production
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          PRIMARY_COMMIT_SHA: ${{ github.sha }}

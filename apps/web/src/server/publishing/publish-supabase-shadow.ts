@@ -21,7 +21,7 @@ export async function publishSupabaseShadow(
   checksum: string,
   publishRequestId: string,
   client: SupabaseClient | null = createSupabaseServiceClientFromEnv(),
-  actorType: "studio" | "retry" = "studio",
+  actorType: "studio" | "automation" | "retry" = "studio",
 ): Promise<SupabaseShadowPublishResult> {
   if (!client) {
     throw new PublishError("Supabase shadow client unavailable", "SUPABASE_SHADOW_FAILED", "supabase");
