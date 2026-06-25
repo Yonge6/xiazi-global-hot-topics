@@ -2,11 +2,11 @@ import { NextResponse } from "next/server";
 
 import { cachedFetchInit, POSTER_CACHE_CONTROL, POSTER_CDN_CACHE_CONTROL, POSTER_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
 import { githubRepo } from "@/lib/github/repo";
-import { POSTER_ASSET_NAMES } from "@/lib/posters/assets";
 
 const repo = githubRepo;
 const locales = new Set(["zh", "en"]);
-const posterNames = new Set<string>(POSTER_ASSET_NAMES);
+const safeName = /^[a-z0-9-]+$/;
+const safeIssueDate = /^\d{4}-\d{2}-\d{2}$/;
 
 export const dynamic = "force-dynamic";
 
@@ -15,7 +15,7 @@ export async function GET(
   context: { params: Promise<{ locale: string; name: string }> },
 ) {
   const { locale, name } = await context.params;
-  if (!locales.has(locale) || !posterNames.has(name)) {
+  if (!locales.has(locale) || !safeName.test(name)) {
     return NextResponse.json({ message: "Poster not found" }, { status: 404 });
   }
 
@@ -23,7 +23,7 @@ export async function GET(
   const thumbnail = searchParams.get("variant") === "thumbnail";
   const issueDate = searchParams.get("issueDate");
   const cacheKey = searchParams.get("v") || "current";
-  if (issueDate && !/^\d{4}-\d{2}-\d{2}$/.test(issueDate)) {
+  if (issueDate && !safeIssueDate.test(issueDate)) {
     return NextResponse.json({ message: "Poster not found" }, { status: 404 });
   }
   const extension = thumbnail ? "webp" : "png";
