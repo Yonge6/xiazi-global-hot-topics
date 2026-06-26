@@ -190,9 +190,9 @@ for (const [index, topic] of topics.entries()) {
   const posterPath = path.join(outputDir, `${topic.file}.png`);
   await sharp(posterSvg(topic, index)).png({ compressionLevel: 9 }).toFile(posterPath);
   await sharp(posterPath)
-    .resize(720, 1440)
-    .jpeg({ quality: 82, mozjpeg: true })
-    .toFile(path.join(thumbnailDir, `${topic.file}.jpg`));
+    .resize(640, 1280, { fit: "cover" })
+    .webp({ quality: 82, effort: 5 })
+    .toFile(path.join(thumbnailDir, `${topic.file}.webp`));
 }
 
 console.log(`Rendered ${topics.length} English posters.`);

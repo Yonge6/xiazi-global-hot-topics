@@ -460,7 +460,7 @@ async function renderPoster(topic, locale, index) {
     .png({ compressionLevel: 9 })
     .toFile(output);
   await sharp(output)
-    .resize({ width: 480 })
+    .resize(640, 1280, { fit: "cover" })
     .webp({ quality: 72, effort: 5 })
     .toFile(path.join(thumbDir, `${topic.file}.webp`));
 }

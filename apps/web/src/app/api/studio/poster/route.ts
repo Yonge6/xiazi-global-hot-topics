@@ -93,7 +93,7 @@ export async function POST(request: Request) {
     const input = Buffer.from(await file.arrayBuffer());
     const original = await sharp(input).png().toBuffer();
     const thumbnail = await sharp(original)
-      .resize({ width: 480, withoutEnlargement: true })
+      .resize(640, 1280, { fit: "cover" })
       .webp({ quality: 72, effort: 5 })
       .toBuffer();
 

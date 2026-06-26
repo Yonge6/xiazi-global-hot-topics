@@ -29,7 +29,7 @@ export async function GET(request: Request) {
     const source = await readFile(path.join(process.cwd(), "public/posters/default-poster.jpg"));
     const original = await sharp(source).png({ compressionLevel: 9 }).toBuffer();
     const thumbnail = await sharp(source)
-      .resize({ width: 480, withoutEnlargement: true })
+      .resize(640, 1280, { fit: "cover" })
       .webp({ quality: 76, effort: 5 })
       .toBuffer();
 

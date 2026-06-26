@@ -551,8 +551,8 @@ button { color: inherit; font: inherit; }
   font-size: 11px;
   letter-spacing: 0.08em;
 }
-.lightbox-toolbar a,
 .lightbox-toolbar button,
+.lightbox-navigation a,
 .lightbox-navigation button {
   display: flex;
   min-height: 44px;
@@ -563,8 +563,8 @@ button { color: inherit; font: inherit; }
   color: white;
   cursor: pointer;
 }
-.lightbox-toolbar a:hover,
 .lightbox-toolbar button:hover,
+.lightbox-navigation a:hover,
 .lightbox-navigation button:hover { color: #f0c87b; }
 .lightbox-image-wrap {
   overflow: auto;

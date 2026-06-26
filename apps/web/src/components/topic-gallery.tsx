@@ -341,14 +341,6 @@ export function TopicGallery({
               <span>
                 {String(activeIndex + 1).padStart(2, "0")} / {String(displayTopics.length).padStart(2, "0")}
               </span>
-              <a
-                href={posterAsset(displayTopics[activeIndex].slug, "original")}
-                download
-                onClick={() => trackAnalytics("download", locale, displayTopics[activeIndex].slug)}
-              >
-                <DownloadSimple size={18} aria-hidden="true" />
-                {isZh ? "下载原图" : "Download"}
-              </a>
               <button type="button" onClick={() => setActiveIndex(null)} aria-label={isZh ? "关闭" : "Close"}>
                 <X size={20} aria-hidden="true" />
               </button>
@@ -367,6 +359,14 @@ export function TopicGallery({
               <button type="button" onClick={() => setActiveIndex((activeIndex - 1 + displayTopics.length) % displayTopics.length)}>
                 ← {isZh ? "上一张" : "Previous"}
               </button>
+              <a
+                href={posterAsset(displayTopics[activeIndex].slug, "original")}
+                download
+                onClick={() => trackAnalytics("download", locale, displayTopics[activeIndex].slug)}
+              >
+                <DownloadSimple size={18} aria-hidden="true" />
+                {isZh ? "下载原图" : "Download"}
+              </a>
               <button type="button" onClick={() => setActiveIndex((activeIndex + 1) % displayTopics.length)}>
                 {isZh ? "下一张" : "Next"} →
               </button>
