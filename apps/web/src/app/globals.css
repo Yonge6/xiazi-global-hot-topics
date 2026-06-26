@@ -493,6 +493,25 @@ button { color: inherit; font: inherit; }
   font-weight: 700;
   line-height: 1.5;
 }
+.contact-qr {
+  display: inline-grid;
+  gap: 10px;
+  margin: 22px 0 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.42);
+}
+.contact-qr img {
+  width: 168px;
+  height: 168px;
+}
+.contact-qr figcaption {
+  max-width: 168px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
 .catalogue-footer {
   border-top: 1px solid var(--line);
   padding: 34px 0 42px;
@@ -631,16 +650,21 @@ button { color: inherit; font: inherit; }
   gap: 13px;
   align-items: center;
   margin: 18px 0 14px;
-  border: 0;
-  background: var(--ink);
-  padding: 15px;
+  min-height: 74px;
+  border: 2px solid var(--vermilion);
+  background: linear-gradient(135deg, var(--ink), #123f5e);
+  padding: 17px;
   color: white;
   cursor: pointer;
   text-align: left;
+  box-shadow: 0 10px 0 rgba(178, 64, 43, .28), 0 18px 34px rgba(18, 35, 50, .22);
+  transition: transform 160ms ease, box-shadow 160ms ease;
 }
+.native-share:hover { transform: translateY(-1px); box-shadow: 0 11px 0 rgba(178, 64, 43, .3), 0 20px 38px rgba(18, 35, 50, .28); }
+.native-share:active { transform: translateY(2px); box-shadow: 0 6px 0 rgba(178, 64, 43, .28), 0 12px 24px rgba(18, 35, 50, .2); }
 .native-share span, .native-share strong, .native-share small { display: block; }
-.native-share strong { font-family: var(--serif); font-size: 15px; }
-.native-share small { margin-top: 4px; color: rgba(255,255,255,.68); font-size: 9px; letter-spacing: .03em; }
+.native-share strong { font-family: var(--serif); font-size: 17px; }
+.native-share small { margin-top: 5px; color: rgba(255,255,255,.78); font-size: 10px; letter-spacing: .03em; }
 .share-platforms {
   position: relative;
   display: grid;
