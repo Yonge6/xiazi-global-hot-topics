@@ -416,7 +416,7 @@ export function TopicGallery({
             <button className="native-share" type="button" onClick={() => nativeShare(displayTopics[shareIndex])}>
               <ShareNetwork size={22} weight="duotone" aria-hidden="true" />
               <span>
-                <strong>{isZh ? "用手机 App 分享" : "Share with an app"}</strong>
+                <strong>{isZh ? "点击用手机 App 分享" : "Tap to share with an app"}</strong>
                 <small>{isZh ? "标题 + 100字介绍 + 海报图片" : "Headline + introduction + poster image"}</small>
               </span>
               <b>↗</b>
