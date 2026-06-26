@@ -60,7 +60,7 @@ describe("content shadow compare", () => {
     expect(logger.insert).toHaveBeenCalledWith(expect.objectContaining({ matched: true }));
   });
 
-  it("detects missing topics, localization changes, source order changes, and asset version drift", () => {
+  it("detects missing topics, localization changes, source field changes, and asset version drift", () => {
     const changed = cloneIssue((draft) => {
       draft.assetVersion = "different-asset-version";
       draft.topics[0].localizations["zh-CN"].headlineFact = "不同的事实标题";
@@ -82,7 +82,12 @@ describe("content shadow compare", () => {
     const reordered = structuredClone(ordered) as Issue;
     reordered.topics[0].sources.reverse();
     const sourcePaths = compareIssueParity(issue.issueDate, ordered, reordered).map((difference) => difference.path);
-    expect(sourcePaths.some((path) => path.includes("topics[0].sources[0]."))).toBe(true);
+    expect(sourcePaths).toHaveLength(0);
+
+    const sourceChanged = structuredClone(ordered) as Issue;
+    sourceChanged.topics[0].sources[1].title = "Changed source title";
+    const changedSourcePaths = compareIssueParity(issue.issueDate, ordered, sourceChanged).map((difference) => difference.path);
+    expect(changedSourcePaths.some((path) => path.endsWith(".title"))).toBe(true);
   });
 
   it("records Supabase read failures without throwing to callers", async () => {

@@ -26,8 +26,26 @@ export function stableJson(value: unknown): string {
   return JSON.stringify(value);
 }
 
+function sourceSortKey(value: unknown) {
+  if (!value || typeof value !== "object") return "";
+  const source = value as Record<string, unknown>;
+  if (typeof source.id === "string") return source.id;
+  if (typeof source.url === "string") return source.url;
+  return stableJson(source);
+}
+
 export function normalizeIssueForParity(value: unknown): unknown {
-  if (Array.isArray(value)) return value.map(normalizeIssueForParity);
+  if (Array.isArray(value)) {
+    const normalized = value.map(normalizeIssueForParity);
+    const sourceLike = normalized.every((entry) =>
+      entry
+      && typeof entry === "object"
+      && "url" in entry
+      && "sourceType" in entry
+      && "publisher" in entry,
+    );
+    return sourceLike ? normalized.sort((left, right) => sourceSortKey(left).localeCompare(sourceSortKey(right))) : normalized;
+  }
   if (value && typeof value === "object") {
     const result: Record<string, unknown> = {};
     for (const [key, entry] of Object.entries(value as Record<string, unknown>)) {
