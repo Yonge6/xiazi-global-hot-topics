@@ -1,0 +1,529 @@
+{
+  "id": "10000000-0000-4000-8000-000000000011",
+  "slug": "2026-06-24",
+  "assetVersion": "issue-2026-06-24-poster-remap-v4-categoryfix",
+  "issueDate": "2026-06-24",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-06-24T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-23T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000082",
+  "topics": [
+    {
+      "id": "20000000-0000-4000-8000-000000000082",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "overview",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [
+        "PT",
+        "FR",
+        "NO",
+        "US",
+        "IR",
+        "PE",
+        "BO",
+        "FR",
+        "US",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "daily_global_overview_june24_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃",
+          "headlineView": "世界一边创造纪录，一边为失控的风险重新设置边界",
+          "headlineFull": "C罗连续六届世界杯进球，美国国会开始收紧战争权力，欧洲高温升至44.3℃； 世界一边创造纪录，一边为失控的风险重新设置边界.",
+          "intro": "过去24小时，C罗成为首位在六届世界杯均取得进球的球员，姆巴佩和哈兰德也分别梅开二度；美国参议院首次通过针对伊朗战争的战争权力决议；欧洲热浪继续升级，法国已有40人在避暑游泳时溺亡。与此同时，秘鲁总统选举因极小差距和舞弊指控陷入僵局，玻利维亚政治危机引发多个美洲国家联合表态；SpaceX启动至少250亿美元债券发行，Anthropic把Claude正式带进Slack群聊；美国还将用频谱拍卖所得，加速替换通信网络中的中国设备。",
+          "xiaziQuote": "今天最值得看的，不只是某个事件更大声，而是很多系统同时在重设边界。",
+          "doudouQuote": "球场在破纪录，国会在收权，企业在借钱，通信网在换设备，世界像是在同步更新系统。",
+          "footerTakeaway": "今日关键词：纪录、制衡、高温、选举、秩序、融资、AI同事与通信安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "Ronaldo scored in a sixth straight World Cup, the U.S. Senate moved to rein in war powers, and Europe’s heat reached 44.3 C",
+          "headlineView": "the world is setting new records while rebuilding guardrails around risks that feel out of control",
+          "headlineFull": "Ronaldo scored in a sixth straight World Cup, the U.S. Senate moved to rein in war powers, and Europe’s heat reached 44.3 C； the world is setting new records while rebuilding guardrails around risks that feel out of control.",
+          "intro": "Over the past 24 hours, Cristiano Ronaldo became the first player to score in six World Cups, while Kylian Mbappe and Erling Haaland also scored twice. The U.S. Senate passed its first war-powers resolution aimed at limiting further unilateral action over Iran. Europe’s heatwave intensified, with France reporting 40 drownings as people sought relief from the heat. Peru’s presidential vote entered a narrow and disputed phase, Bolivia’s political crisis drew a joint warning from American states, SpaceX launched a bond offering of at least $25 billion, Anthropic brought Claude into Slack conversations, and U.S. spectrum-auction funds will help replace Chinese telecom equipment.",
+          "xiaziQuote": "What matters today is not only which event is loudest, but how many systems are resetting their limits at once.",
+          "doudouQuote": "The pitch is breaking records, Congress is reclaiming power, companies are borrowing, and networks are being rebuilt. The world is updating in parallel.",
+          "footerTakeaway": "Keywords: records, checks and balances, heat, elections, order, financing, AI colleagues, and telecom security."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000390",
+          "topicId": "20000000-0000-4000-8000-000000000082",
+          "title": "Daily global news overview",
+          "publisher": "Xiazi Says",
+          "url": "https://pluto.hk/zh/",
+          "publishedAt": "2026-06-24T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000083",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "world-cup",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "PT",
+        "UZ",
+        "FR",
+        "IQ",
+        "NO",
+        "SN",
+        "JO",
+        "DZ"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "world_cup_ronaldo_record_june23_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度",
+          "headlineView": "传奇从来不是永远年轻，而是在不同年代都留下名字",
+          "headlineFull": "C罗成为首位连续六届世界杯进球的球员，姆巴佩、哈兰德同时梅开二度； 传奇从来不是永远年轻，而是在不同年代都留下名字.",
+          "intro": "北京时间6月23日05:00至6月24日05:00，共结束4场世界杯比赛：法国3:0伊拉克，挪威3:2塞内加尔，约旦1:2阿尔及利亚，葡萄牙5:0乌兹别克斯坦。41岁的C罗在葡萄牙大胜中攻入两球，成为首位在六届世界杯均有进球的球员，并以10球超越尤西比奥，成为葡萄牙世界杯队史最佳射手。姆巴佩在个人第100场国家队比赛中梅开二度，帮助法国提前晋级；哈兰德连续第二场双响，率领挪威进入淘汰赛。",
+          "xiaziQuote": "世界杯每天都在换主角，但纪录会把那些真正跨越时代的人留下来。",
+          "doudouQuote": "年轻人负责冲刺，老将负责提醒大家：有些名字不是用来退场的。",
+          "footerTakeaway": "24小时关键词：C罗六届进球、姆巴佩16球、哈兰德四球、法国挪威晋级。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Ronaldo became the first player to score in six World Cups, while Mbappe and Haaland each struck twice",
+          "headlineView": "a legend is not someone who stays young forever, but someone who leaves a name in different eras",
+          "headlineFull": "Ronaldo became the first player to score in six World Cups, while Mbappe and Haaland each struck twice； a legend is not someone who stays young forever, but someone who leaves a name in different eras.",
+          "intro": "From 05:00 on June 23 to 05:00 on June 24 Beijing time, four World Cup matches were completed: France 3-0 Iraq, Norway 3-2 Senegal, Jordan 1-2 Algeria, and Portugal 5-0 Uzbekistan. At 41, Cristiano Ronaldo scored twice for Portugal, becoming the first player to score in six World Cups and passing Eusebio as Portugal’s all-time World Cup scorer with 10 goals. Mbappe scored twice in his 100th France appearance as France advanced early, while Haaland’s second straight brace helped Norway reach the knockout stage.",
+          "xiaziQuote": "The World Cup changes protagonists every day, but records preserve the people who truly cross eras.",
+          "doudouQuote": "The young sprint. The veteran reminds everyone that some names are not built for exits.",
+          "footerTakeaway": "24-hour keywords: Ronaldo scores in six World Cups, Mbappe reaches 16, Haaland reaches four, France and Norway advance."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000393",
+          "topicId": "20000000-0000-4000-8000-000000000083",
+          "title": "Soccer-'I'm back': Record-breaker Ronaldo fires Portugal to 5-0 win over Uzbekistan",
+          "publisher": "Reuters",
+          "url": "https://www.ksl.com/article/51537909/soccer-im-back-record-breaker-ronaldo-fires-portugal-to-5-0-win-over-uzbekistan",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000084",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "uk-politics",
+      "rank": 3,
+      "category": "international",
+      "region": "North America",
+      "countryCodes": [
+        "US",
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "us_senate_iran_war_powers_resolution_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美国政治",
+          "headlineFact": "美国参议院首次通过限制伊朗战争的战争权力决议",
+          "headlineView": "真正的权力制衡，不是在战争开始前说服所有人，而是在战争之后仍敢追问谁有权决定",
+          "headlineFull": "美国参议院首次通过限制伊朗战争的战争权力决议； 真正的权力制衡，不是在战争开始前说服所有人，而是在战争之后仍敢追问谁有权决定.",
+          "intro": "美国参议院以50票对48票，通过一项寻求阻止政府继续单方面对伊朗采取军事行动的战争权力决议。这是参议院第十次尝试限制这场战争，也是第一次获得通过。决议目前主要具有政治和象征意义，并不能立即停止军事行动；但它反映出包括部分共和党人在内的国会议员，对战争成本及美伊临时协议的担忧正在上升。",
+          "xiaziQuote": "当战争已经开始，制衡仍然重要；它至少提醒权力，代价不能只由沉默的人承担。",
+          "doudouQuote": "这不是刹车踩到底，更像是在方向盘旁边贴了一张“请看路”的纸条。",
+          "footerTakeaway": "参议院首次通过相关决议，是美国战争权力争议的新节点。"
+        },
+        "en-US": {
+          "categoryLabel": "U.S. Politics",
+          "headlineFact": "The U.S. Senate passed its first war-powers resolution seeking to limit the Iran war",
+          "headlineView": "real checks and balances are not about persuading everyone before a war starts; they are about still asking who decides after it begins",
+          "headlineFull": "The U.S. Senate passed its first war-powers resolution seeking to limit the Iran war； real checks and balances are not about persuading everyone before a war starts; they are about still asking who decides after it begins.",
+          "intro": "The U.S. Senate voted 50-48 to approve a war-powers resolution seeking to block the administration from continuing unilateral military action against Iran. It was the Senate’s tenth attempt to limit the war and the first to pass. The measure is largely political and symbolic for now, and does not immediately end military action, but it shows growing concern among lawmakers, including some Republicans, over the cost of the war and the interim U.S.-Iran arrangement.",
+          "xiaziQuote": "Checks still matter after a war begins, because power has to be reminded that costs cannot be carried only by the silent.",
+          "doudouQuote": "It is not a full brake. It is more like a note on the steering wheel saying: please watch the road.",
+          "footerTakeaway": "The Senate vote marks a new stage in America’s argument over war powers."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000396",
+          "topicId": "20000000-0000-4000-8000-000000000084",
+          "title": "Senate for first time approves a war powers resolution in a rebuke to Trump over Iran conflict",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/senate-iran-war-powers-resolution-trump-7462a9a561103f531d995aac91f9fc96",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000085",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "us-iran-talks",
+      "rank": 4,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "europe_heatwave_france_drownings_june24_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡",
+          "headlineView": "极端天气最危险的地方，是人们为了逃离一种风险，反而走进另一种风险",
+          "headlineFull": "法国高温达到44.3℃，已有40人在避暑游泳时溺亡； 极端天气最危险的地方，是人们为了逃离一种风险，反而走进另一种风险.",
+          "intro": "法国经历有记录以来最热的一天，西南部一座城镇测得44.3℃，54个省进入最高级别红色警报。法国总理表示，自6月18日以来已有40人溺亡，其中多数为年轻人，很多人是在高温下进入未经监管的河流、运河和水域避暑。意大利多座城市发布最高级别预警，西班牙部分地区气温也可能达到44℃；铁路、学校、电力和旅游景点均受到影响。",
+          "xiaziQuote": "气候风险不是远方的概念，它会让一个城市的上课、出行、用电和避暑方式同时失灵。",
+          "doudouQuote": "热到去游泳，游到出危险，这就是极端天气最扎心的连锁反应。",
+          "footerTakeaway": "热浪从气温纪录升级为公共安全与城市运行压力。"
+        },
+        "en-US": {
+          "categoryLabel": "European Heatwave",
+          "headlineFact": "France hit 44.3 C, and 40 people drowned while seeking relief from the heat",
+          "headlineView": "the most dangerous part of extreme weather is that escaping one risk can push people into another",
+          "headlineFull": "France hit 44.3 C, and 40 people drowned while seeking relief from the heat； the most dangerous part of extreme weather is that escaping one risk can push people into another.",
+          "intro": "France experienced one of its hottest days on record, with a town in the southwest reaching 44.3 C and 54 departments placed under the highest red alert. The French prime minister said 40 people had drowned since June 18, many of them young people entering unsupervised rivers, canals and other waters to cool down. Italy issued top-level warnings in multiple cities, parts of Spain could also reach 44 C, and railways, schools, power systems and tourist sites came under pressure.",
+          "xiaziQuote": "Climate risk is not an abstract idea. It can break school, travel, electricity and even the way people cool down at the same time.",
+          "doudouQuote": "When it gets so hot that swimming becomes the escape, and the escape becomes dangerous, that is the chain reaction of extreme weather.",
+          "footerTakeaway": "The heatwave has moved from temperature records to public-safety and urban-system stress."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000399",
+          "topicId": "20000000-0000-4000-8000-000000000085",
+          "title": "Forty drown in France as people seek relief from Europe's heatwave",
+          "publisher": "Reuters",
+          "url": "https://x.com/Reuters/status/2069377432692445395",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000086",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "colombia-election",
+      "rank": 5,
+      "category": "international",
+      "region": "Latin America",
+      "countryCodes": [
+        "PE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "peru_fujimori_sanchez_runoff_dispute_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "秘鲁大选",
+          "headlineFact": "藤森以50.11%暂时领先，竞争对手拒绝承认结果",
+          "headlineView": "选举最危险的时刻，不是差距太小，而是各方开始不再相信同一套计票规则",
+          "headlineFull": "藤森以50.11%暂时领先，竞争对手拒绝承认结果； 选举最危险的时刻，不是差距太小，而是各方开始不再相信同一套计票规则.",
+          "intro": "秘鲁总统决选已统计99.72%的选票，保守派候选人藤森以50.11%暂时领先左翼候选人罗伯托·桑切斯的49.89%。桑切斯宣称存在舞弊，要求暂停计票，并表示不会承认藤森政府，但尚未提供证明系统性舞弊的证据。他还要求取消119个海外领事投票点的约30万张选票，但选举机构已驳回相关主张。",
+          "xiaziQuote": "民主最怕的不是分歧，而是分歧大到所有人开始怀疑同一块计分牌。",
+          "doudouQuote": "差0.22个百分点，足够让一个国家的神经绷到最紧。",
+          "footerTakeaway": "秘鲁进入微弱领先与合法性争议并存的后计票阶段。"
+        },
+        "en-US": {
+          "categoryLabel": "Peru Election",
+          "headlineFact": "Fujimori held a 50.11% narrow lead, while her rival refused to recognize the result",
+          "headlineView": "the most dangerous moment in an election is not a narrow margin, but when sides stop trusting the same counting rules",
+          "headlineFull": "Fujimori held a 50.11% narrow lead, while her rival refused to recognize the result； the most dangerous moment in an election is not a narrow margin, but when sides stop trusting the same counting rules.",
+          "intro": "With 99.72% of votes counted in Peru’s presidential runoff, conservative candidate Keiko Fujimori held 50.11% against leftist Roberto Sanchez’s 49.89%. Sanchez alleged fraud, called for a pause in the count and said he would not recognize a Fujimori government, though he had not produced evidence of systemic fraud. He also sought to annul roughly 300,000 overseas votes from 119 consular polling places, a claim rejected by electoral authorities.",
+          "xiaziQuote": "Democracy is not most afraid of disagreement. It is afraid of disagreement so deep that everyone doubts the same scoreboard.",
+          "doudouQuote": "A 0.22-point gap is enough to tighten an entire country’s nerves.",
+          "footerTakeaway": "Peru has entered a post-counting phase where a tiny lead and legitimacy dispute coexist."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000402",
+          "topicId": "20000000-0000-4000-8000-000000000086",
+          "title": "Peru's Sanchez claims fraud as Fujimori holds narrow lead",
+          "publisher": "Reuters",
+          "url": "https://www.devdiscourse.com/article/politics/3939616-perus-sanchez-claims-fraud-as-fujimori-holds-narrow-lead?amp=",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000087",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "russia-ukraine",
+      "rank": 6,
+      "category": "international",
+      "region": "Latin America",
+      "countryCodes": [
+        "BO",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "bolivia_democracy_protests_joint_warning_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 78,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "玻利维亚危机",
+          "headlineFact": "多个美洲国家联合警告玻利维亚存在推翻政府的风险",
+          "headlineView": "抗议表达不满，暴力争夺权力却可能让所有普通人承担代价",
+          "headlineFull": "多个美洲国家联合警告玻利维亚存在推翻政府的风险； 抗议表达不满，暴力争夺权力却可能让所有普通人承担代价.",
+          "intro": "美国与多个美洲国家发表联合声明，称试图推翻玻利维亚政府的行动，对宪政秩序和民主稳定构成“严重威胁”，并指责一小部分暴力力量试图推翻近期选举所表达的民意。玻利维亚此前因取消燃油补贴、美元短缺和生活成本上升，经历长达数周的道路封锁与抗议。政府已宣布紧急状态并出动安全力量清理道路，但如果经济困境得不到解决，恢复交通并不等于危机真正结束。",
+          "xiaziQuote": "秩序不是没有抗议，而是抗议不会被少数暴力力量改写成夺权。",
+          "doudouQuote": "路可以清开，账单和物价不会自己消失，这才是危机的后半场。",
+          "footerTakeaway": "玻利维亚危机从交通封锁升级为区域民主秩序警报。"
+        },
+        "en-US": {
+          "categoryLabel": "Bolivia Crisis",
+          "headlineFact": "Several American states warned of an effort to overthrow Bolivia’s government",
+          "headlineView": "protest can express pain, but violent power grabs make ordinary people pay the bill",
+          "headlineFull": "Several American states warned of an effort to overthrow Bolivia’s government； protest can express pain, but violent power grabs make ordinary people pay the bill.",
+          "intro": "The United States and several American states issued a joint statement saying efforts to overthrow Bolivia’s government posed a grave threat to constitutional order and democratic stability. They accused a small violent minority of trying to overturn the will expressed in recent elections. Bolivia had faced weeks of road blockades and protests over fuel-subsidy cuts, dollar shortages and rising living costs. The government declared a state of emergency and deployed security forces to clear roads, but restoring traffic does not resolve the economic stress behind the crisis.",
+          "xiaziQuote": "Order does not mean no protest. It means protest is not rewritten into a power grab by a violent minority.",
+          "doudouQuote": "Roads can be cleared. Bills and prices do not clear themselves. That is the second half of the crisis.",
+          "footerTakeaway": "Bolivia’s crisis has moved from road blockades to a regional warning over democratic order."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000405",
+          "topicId": "20000000-0000-4000-8000-000000000087",
+          "title": "US says Bolivia anti-government protests pose grave threat to democracy",
+          "publisher": "Reuters",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/06/23/us-says-bolivia-anti-government-protests-pose-grave-threat-to-democracy",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000088",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "europe-heatwave",
+      "rank": 7,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "spacex_25b_notes_ai_infrastructure_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "SpaceX融资",
+          "headlineFact": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元",
+          "headlineView": "资本相信的不只是火箭升空，也是在押注算力、能源和AI基础设施",
+          "headlineFull": "SpaceX启动至少250亿美元债券发行，认购订单接近850亿美元； 资本相信的不只是火箭升空，也是在押注算力、能源和AI基础设施.",
+          "intro": "SpaceX启动五档债券发行，计划募集至少250亿美元，这是该公司首次发行投资级美元债券，期限覆盖5年至30年。据消息人士称，本次发行已吸引接近850亿美元的投资者订单。资金将用于偿还过桥贷款及支持公司运营。SpaceX正在大规模投资AI数据中心、计算设备和电力基础设施，这意味着一家以火箭和卫星闻名的公司，正逐渐变成同时需要能源、算力和长期资本的综合基础设施企业。",
+          "xiaziQuote": "当火箭公司开始像基础设施公司一样融资，说明太空、通信、AI和能源已经拧成一股绳。",
+          "doudouQuote": "这不是借钱买火箭，这是给下一代基础设施先铺电线。",
+          "footerTakeaway": "SpaceX融资显示航天企业的资本需求正在外溢到AI与能源基础设施。"
+        },
+        "en-US": {
+          "categoryLabel": "SpaceX Financing",
+          "headlineFact": "SpaceX launched a bond offering of at least $25 billion, with orders near $85 billion",
+          "headlineView": "capital is betting not only on rockets, but also on compute, energy and AI infrastructure",
+          "headlineFull": "SpaceX launched a bond offering of at least $25 billion, with orders near $85 billion； capital is betting not only on rockets, but also on compute, energy and AI infrastructure.",
+          "intro": "SpaceX launched a five-part bond offering to raise at least $25 billion, its first investment-grade dollar bond sale, with maturities from five to 30 years. People familiar with the deal said investor orders approached $85 billion. Proceeds will repay bridge loans and support general corporate purposes. SpaceX is investing heavily in AI data centers, computing equipment and power infrastructure, meaning a company known for rockets and satellites is increasingly becoming a broader infrastructure business across space, communications, AI and energy.",
+          "xiaziQuote": "When a rocket company finances itself like an infrastructure company, space, communications, AI and energy have already become one system.",
+          "doudouQuote": "This is not just borrowing to buy rockets. It is wiring the next generation of infrastructure first.",
+          "footerTakeaway": "SpaceX’s financing shows how aerospace capital needs now spill into AI and energy infrastructure."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000408",
+          "topicId": "20000000-0000-4000-8000-000000000088",
+          "title": "SpaceX launches $25 billion notes offering, source says",
+          "publisher": "Reuters",
+          "url": "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_L4N42V1CS%3A0-spacex-launches-25-billion-notes-offering-source-says/",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000089",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "ai-digital-sovereignty",
+      "rank": 8,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "anthropic_claude_tag_slack_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI职场",
+          "headlineFact": "Anthropic把Claude带进Slack群聊",
+          "headlineView": "AI正在从一个需要单独打开的工具，变成随时参与讨论的虚拟同事",
+          "headlineFull": "Anthropic把Claude带进Slack群聊； AI正在从一个需要单独打开的工具，变成随时参与讨论的虚拟同事.",
+          "intro": "Anthropic推出“Claude Tag”测试版。Slack用户只需在群聊中输入“@Claude”，AI便可以读取对话上下文、拆解任务，并主动提醒组织内部值得关注的更新。该功能目前面向Claude Enterprise和Team客户，管理员可以限制Claude在不同频道中访问的数据和工具。它的意义不只是减少一次复制粘贴，而是让AI从私聊助手进入公开协作空间，人与AI共同工作的过程也会更透明。",
+          "xiaziQuote": "AI真正进入工作流，不是多一个聊天框，而是它开始出现在团队默认沟通场景里。",
+          "doudouQuote": "以前是你去找AI，现在是AI坐进群里听会，打工味一下就浓了。",
+          "footerTakeaway": "Claude Tag把AI从个人工具推向团队协作界面。"
+        },
+        "en-US": {
+          "categoryLabel": "AI at Work",
+          "headlineFact": "Anthropic brought Claude into Slack group conversations",
+          "headlineView": "AI is moving from a separate tool into a virtual teammate that can join discussions in real time",
+          "headlineFull": "Anthropic brought Claude into Slack group conversations； AI is moving from a separate tool into a virtual teammate that can join discussions in real time.",
+          "intro": "Anthropic launched a research preview of Claude Tag. Slack users can type “@Claude” in a channel, allowing the AI to read conversation context, break down tasks and proactively surface relevant updates inside an organization. The feature is available to Claude Enterprise and Team customers, with administrators able to limit what data and tools Claude can access in each channel. The significance is not just fewer copy-and-paste steps; it moves AI from private chat into a shared collaboration space.",
+          "xiaziQuote": "AI truly enters the workflow when it stops being another chat box and starts appearing in the team’s default communication space.",
+          "doudouQuote": "Before, you went to AI. Now AI sits in the group chat and listens to the meeting. That feels much more like work.",
+          "footerTakeaway": "Claude Tag pushes AI from a personal tool into the team collaboration interface."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000411",
+          "topicId": "20000000-0000-4000-8000-000000000089",
+          "title": "Anthropic launches Claude Tag in Slack with plans for wider rollout",
+          "publisher": "Reuters",
+          "url": "https://www.tradingview.com/news/reuters.com%2C2026%3Anewsml_L6N42V13T%3A0-anthropic-launches-claude-tag-in-slack-with-plans-for-wider-rollout/",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000090",
+      "issueId": "10000000-0000-4000-8000-000000000011",
+      "slug": "china-us-critical-minerals",
+      "rank": 9,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "us_spectrum_auction_replace_chinese_telecom_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中美通信科技",
+          "headlineFact": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备",
+          "headlineView": "通信安全的竞争，正在从禁止购买走向花钱重建整套网络",
+          "headlineFull": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备； 通信安全的竞争，正在从禁止购买走向花钱重建整套网络.",
+          "intro": "美国联邦通信委员会宣布，中频无线频谱拍卖筹集超过35亿美元，其中最多33亿美元将用于支持“拆除并替换”计划，帮助美国运营商移除华为、中兴等中国企业的通信设备。美国此前估计，完整替换相关设备需要49.8亿美元，但最初只获得19亿美元拨款。目前仅有42%的受资助运营商完成了设备更换和处置，许可、供应链、劳动力和极端天气都在拖慢进度。",
+          "xiaziQuote": "技术脱钩最贵的部分，往往不是说不买，而是把已经装进系统里的东西一件件换掉。",
+          "doudouQuote": "安全感不是免费的，尤其是当旧设备已经在塔上、新设备还在路上。",
+          "footerTakeaway": "美国通信安全政策从限制采购进入补钱替换阶段。"
+        },
+        "en-US": {
+          "categoryLabel": "U.S.-China Telecom Tech",
+          "headlineFact": "A U.S. spectrum auction raised $3.5 billion to help replace Huawei and ZTE equipment",
+          "headlineView": "telecom-security competition is moving from banning purchases to paying to rebuild networks",
+          "headlineFull": "A U.S. spectrum auction raised $3.5 billion to help replace Huawei and ZTE equipment； telecom-security competition is moving from banning purchases to paying to rebuild networks.",
+          "intro": "The U.S. Federal Communications Commission said a mid-band wireless spectrum auction raised more than $3.5 billion, with up to $3.3 billion to support the “rip and replace” program helping carriers remove Huawei and ZTE equipment. The U.S. previously estimated the full replacement would cost $4.98 billion, while the original appropriation was only $1.9 billion. Only 42% of funded carriers have completed removal and disposal, with permitting, supply chains, labor and extreme weather slowing progress.",
+          "xiaziQuote": "The most expensive part of tech decoupling is often not saying “do not buy,” but replacing what is already inside the system piece by piece.",
+          "doudouQuote": "Security is not free, especially when old gear is already on towers and new gear is still on the way.",
+          "footerTakeaway": "U.S. telecom-security policy is moving from procurement limits to funded replacement."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000414",
+          "topicId": "20000000-0000-4000-8000-000000000090",
+          "title": "US spectrum auction raises $3.5 billion, will fund replacing Chinese telecom equipment",
+          "publisher": "Reuters",
+          "url": "https://wtvbam.com/2026/06/23/us-spectrum-auction-raises-3-5-billion-will-fund-replacing-chinese-telecom-equipment/",
+          "publishedAt": "2026-06-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

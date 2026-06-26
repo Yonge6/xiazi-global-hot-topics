@@ -1,0 +1,632 @@
+{
+  "id": "10000000-0000-4000-8000-000000000013",
+  "slug": "2026-06-26",
+  "assetVersion": "20260626-chatgpt55-tinypng-v3",
+  "issueDate": "2026-06-26",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-06-26T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-25T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "0479a146-6597-4ff0-83f8-d32292c2d0bc",
+  "topics": [
+    {
+      "id": "0479a146-6597-4ff0-83f8-d32292c2d0bc",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "overview",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [
+        "BR",
+        "MX",
+        "MA",
+        "ZA",
+        "VE",
+        "OM",
+        "GB",
+        "CD",
+        "FR",
+        "US",
+        "CN",
+        "KE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "daily_global_overview_june26_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "世界杯小组赛进入最后决战，委内瑞拉遭遇强震，霍尔木兹海峡再起波澜",
+          "headlineView": "世界一边争夺晋级资格，一边应对灾难、疾病与技术竞争",
+          "headlineFull": "世界杯小组赛进入最后决战，委内瑞拉遭遇强震，霍尔木兹海峡再起波澜; 世界一边争夺晋级资格，一边应对灾难、疾病与技术竞争.",
+          "intro": "过去24小时，巴西、墨西哥和摩洛哥晋级世界杯淘汰赛，南非首次闯入世界杯32强；委内瑞拉连续发生强震，霍尔木兹海峡附近一艘货船遇袭，欧洲热浪、刚果（金）埃博拉、AI模型竞争、美光芯片行情和肯尼亚抗议也同时升温。",
+          "xiaziQuote": "真正值得关注的，不只是今天发生了什么，而是世界正在把什么重新摆到台面上。",
+          "doudouQuote": "从球场到港口，从医院到芯片工厂，所有变化都在提醒我们：秩序正在重新排队。",
+          "footerTakeaway": "今日关键词：晋级、救援、航道、高温、疫情、模型竞争、芯片与问责。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "The World Cup group stage entered its final showdown, Venezuela was hit by strong quakes, and the Strait of Hormuz saw fresh turbulence",
+          "headlineView": "the world is fighting for qualification while managing disaster, disease, and technology competition",
+          "headlineFull": "The World Cup group stage entered its final showdown, Venezuela was hit by strong quakes, and the Strait of Hormuz saw fresh turbulence; the world is fighting for qualification while managing disaster, disease, and technology competition.",
+          "intro": "Over the past 24 hours, Brazil, Mexico, and Morocco reached the World Cup knockouts, while South Africa entered the last 32 for the first time. Venezuela suffered powerful earthquakes, a cargo ship was attacked near Oman, Europe endured record heat, Congo tightened Ebola travel rules, Anthropic accused an Alibaba-linked team of extracting Claude capabilities, Micron surged on AI memory demand, and Kenyan protesters were dispersed again.",
+          "xiaziQuote": "What matters is not only what happened today, but what the world is putting back on the table.",
+          "doudouQuote": "From the pitch to the port, from hospitals to chip plants, everything is lining up again.",
+          "footerTakeaway": "Keywords: qualification, rescue, shipping lanes, heat, disease, model competition, chips, and accountability."
+        }
+      },
+      "sources": [
+        {
+          "id": "bed32f5d-5014-41a2-81f9-dfc6149b3ecf",
+          "topicId": "0479a146-6597-4ff0-83f8-d32292c2d0bc",
+          "title": "Daily global news overview",
+          "publisher": "Xiazi Says",
+          "url": "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU0OTQzNjA4MA==&action=getalbum&album_id=4567986158781186049&subscene=126&scenenote=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzU0OTQzNjA4MA%3D%3D%26mid%3D2247484796%26idx%3D1%26sn%3Db7bd9673aca230a727030aba43dd4e0d%26chksm%3Dfa9a13dfe144b3fa5b7be20de5dbe7b818292eec67486e5433b259faf9fe5b24c915975d345f%26scene%3D126%26sessionid%3D0%26subscene%3D0%26clicktime%3D1782458686%26enterid%3D1782458686%26ascene%3D3%26devicetype%3DiOS26.4.2%26version%3D18004b2c%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26countrycode%3DCN%26fontScale%3D94%26exportkey%3Dn_ChQIAhIQ9EfZmiUE%252FqS1N%252F4%252FkxTvqRLVAQIE97dBBAEAAAAAAClhLklA0EMAAAAOpnltbLcz9gKNyK89dVj0WAwlrYgtgXr8JkTvlBJz%252BH39Q7y7lgi3qtu2%252FWdVuYScbWZhetYVFmS0lU3o%252BlY1Pmw2nbB8cNVpwOZmnokO2wOKM9GhyfUpmsjONEdQ4l4OeswDZBQ%252Bk7lGzXJUqkS2eTauozZFIb9vqjzmJC3sy0MoOAy4jbvZp4yWZK74z799PWghMPbm4vllw8B6gxjR6VOqnt46SYCDIhKm2OpBhDpJkMUoTGFoKtNaV64yiQ%253D%253D%26pass_ticket%3D8LaS9D0vZO4Hkk%252BZNylGXguLMSXuMBH1WapRBbHerLHVTcroFNPCjZAMP151sBL9%26wx_header%3D3&nolastread=1#wechat_redirect",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "c34e4da3-3b6f-4a12-837f-89c148ee350f",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "world-cup-mexico-brazil-south-africa",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "BR",
+        "MX",
+        "MA",
+        "HT",
+        "ZA",
+        "KR",
+        "CZ",
+        "SC"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "world_cup_june26_final_group_stage_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "墨西哥三战全胜零失球，南非首次进入世界杯淘汰赛",
+          "headlineView": "小组赛最后一轮，真正的胜利不只是赢球，而是把历史向前推进一步",
+          "headlineFull": "墨西哥三战全胜零失球，南非首次进入世界杯淘汰赛; 小组赛最后一轮，真正的胜利不只是赢球，而是把历史向前推进一步.",
+          "intro": "北京时间6月25日05:00至6月26日05:00窗口内，苏格兰0:3巴西、摩洛哥4:2海地、捷克0:3墨西哥、南非1:0韩国。巴西凭借维尼修斯双响拿到C组第一，墨西哥三战全胜零失球，南非首次突破小组赛。",
+          "xiaziQuote": "世界杯日报最怕只看比分，真正的信息在于谁已经上岸，谁把历史往前推了一步。",
+          "doudouQuote": "有些队赢球是拿三分，有些队赢球是改简历，南非这次属于后者。",
+          "footerTakeaway": "24小时关键词：墨西哥全胜、巴西头名、摩洛哥逆转、南非创造历史。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Mexico finished with three wins and no goals conceded, while South Africa reached the World Cup knockouts for the first time",
+          "headlineView": "in the final group-stage round, victory means more than winning a match; it can move history forward",
+          "headlineFull": "Mexico finished with three wins and no goals conceded, while South Africa reached the World Cup knockouts for the first time; in the final group-stage round, victory means more than winning a match; it can move history forward.",
+          "intro": "Between 05:00 on June 25 and 05:00 on June 26 Beijing time, Scotland lost 3-0 to Brazil, Morocco beat Haiti 4-2, the Czech Republic lost 3-0 to Mexico, and South Africa beat South Korea 1-0. Vinicius led Brazil to first place in Group C, Mexico stayed perfect, and South Africa crossed the group-stage line for the first time.",
+          "xiaziQuote": "A World Cup daily should not only read scores. The signal is who is safe and who has moved history forward.",
+          "doudouQuote": "Some teams win three points. Some rewrite the bio. South Africa did the latter.",
+          "footerTakeaway": "Keywords: Mexico perfect, Brazil first, Morocco comeback, South Africa history."
+        }
+      },
+      "sources": [
+        {
+          "id": "0f94ca67-529b-4726-86b8-b1a55a331585",
+          "topicId": "c34e4da3-3b6f-4a12-837f-89c148ee350f",
+          "title": "Vinicius fires Brazil into World Cup knockouts with 3-0 win over Scotland",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/vinicius-fires-brazil-into-world-cup-knockouts-with-3-0-win-over-scotland-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "34d78868-2624-4bd6-8116-166929a9472d",
+          "topicId": "c34e4da3-3b6f-4a12-837f-89c148ee350f",
+          "title": "Jubilation as South Africa beat South Korea to reach World Cup knockout stage for first time",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/jubilation-south-africa-beat-south-korea-reach-world-cup-knockout-stage-first-time-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "330e849f-3d1e-413d-8c5c-6c290726d6ba",
+          "topicId": "c34e4da3-3b6f-4a12-837f-89c148ee350f",
+          "title": "Mexico stay perfect and bounce Czechs out of World Cup with 3-0 win",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/mexico-stay-perfect-bounce-czechs-out-world-cup-with-3-0-win-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "a06104d9-2539-4576-8b8c-48d485303e32",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "venezuela-earthquake",
+      "rank": 3,
+      "category": "international",
+      "region": "Americas",
+      "countryCodes": [
+        "VE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "venezuela_earthquakes_june26_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "委内瑞拉地震",
+          "headlineFact": "委内瑞拉两次强震已造成至少188人死亡",
+          "headlineView": "灾难发生后，真正稀缺的不只是时间，还有把救援力量送到瓦砾之下的能力",
+          "headlineFull": "委内瑞拉两次强震已造成至少188人死亡; 灾难发生后，真正稀缺的不只是时间，还有把救援力量送到瓦砾之下的能力.",
+          "intro": "委内瑞拉首都加拉加斯及沿海地区遭遇两次强烈地震，截至北京时间05:00，官方确认至少188人死亡、超过1500人受伤，约250栋建筑损毁。拉瓜伊拉受灾严重，居民仍在缺少大型机械的情况下徒手搜救。",
+          "xiaziQuote": "地震之后，黄金时间不是一句口号，而是道路、机械、医院和信息能不能一起跑起来。",
+          "doudouQuote": "最怕的不是地晃完了，而是救援还堵在路上。",
+          "footerTakeaway": "看点：伤亡数字、国际救援抵达速度和医院物资缺口。"
+        },
+        "en-US": {
+          "categoryLabel": "Venezuela Earthquake",
+          "headlineFact": "Two powerful earthquakes in Venezuela have killed at least 188 people",
+          "headlineView": "after a disaster, the scarce resource is not only time, but the ability to get rescue capacity under the rubble",
+          "headlineFull": "Two powerful earthquakes in Venezuela have killed at least 188 people; after a disaster, the scarce resource is not only time, but the ability to get rescue capacity under the rubble.",
+          "intro": "Two powerful earthquakes struck Caracas and coastal Venezuela. By 05:00 Beijing time, officials had confirmed at least 188 deaths, more than 1,500 injuries, and about 250 damaged buildings. La Guaira was among the hardest-hit areas, where residents were still searching without enough heavy equipment.",
+          "xiaziQuote": "After a quake, the golden window is not a slogan. It is roads, machines, hospitals, and information moving together.",
+          "doudouQuote": "The worst part is not only the shaking; it is rescue stuck on the way.",
+          "footerTakeaway": "Watch: casualty updates, international rescue arrivals, and hospital supplies."
+        }
+      },
+      "sources": [
+        {
+          "id": "5ce4023f-d26a-4282-8788-61e27991afa4",
+          "topicId": "a06104d9-2539-4576-8b8c-48d485303e32",
+          "title": "On the streets and in hospitals, Venezuelans scramble to save lives after quake",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/americas/streets-hospitals-venezuelans-scramble-save-lives-after-quake-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "1e375fc9-6541-4850-8460-b3bad7d2a536",
+          "topicId": "a06104d9-2539-4576-8b8c-48d485303e32",
+          "title": "Venezuela earthquakes live: Two powerful quakes shake South American country",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/6/25/venezuela-earthquakes-live-two-powerful-quakes-shake-s-american-country",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "cfb53750-d2b1-4bfe-84e9-c9c9ffe41e5a",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "strait-hormuz-cargo-ship",
+      "rank": 4,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "OM",
+        "IR",
+        "SG",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "hormuz_cargo_ship_attack_june26_2026",
+      "storyStatus": "followup",
+      "followupDay": 6,
+      "informationIncrementScore": 80,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "霍尔木兹海峡",
+          "headlineFact": "一艘货船在阿曼附近遇袭，联合国暂停霍尔木兹海峡撤离行动",
+          "headlineView": "停火协议最脆弱的地方，往往是第一艘不再安全的船",
+          "headlineFull": "一艘货船在阿曼附近遇袭，联合国暂停霍尔木兹海峡撤离行动; 停火协议最脆弱的地方，往往是第一艘不再安全的船.",
+          "intro": "一艘新加坡籍货船在阿曼附近报告遭到投射物袭击，联合国国际海事组织随后暂停协助船只驶离霍尔木兹海峡的行动。美方指称伊朗发动袭击，伊朗则表示只有按其指定航线通行的船只才能获得安全保证。",
+          "xiaziQuote": "协议写在纸上，航线写在海上；真正的稳定要看船能不能安全通过。",
+          "doudouQuote": "油价有时候不是被会议推高的，是被一艘船吓醒的。",
+          "footerTakeaway": "看点：航运保险、油价和美伊协议执行条件。"
+        },
+        "en-US": {
+          "categoryLabel": "Strait of Hormuz",
+          "headlineFact": "A cargo ship was attacked near Oman, and the UN halted evacuation operations in the Strait of Hormuz",
+          "headlineView": "the weakest point in a ceasefire can be the first ship that is no longer safe",
+          "headlineFull": "A cargo ship was attacked near Oman, and the UN halted evacuation operations in the Strait of Hormuz; the weakest point in a ceasefire can be the first ship that is no longer safe.",
+          "intro": "A Singapore-flagged cargo ship reported being hit by a projectile near Oman. The UN maritime agency paused assistance for ships leaving the Strait of Hormuz while safety guarantees were reviewed. U.S. officials blamed Iran; Tehran said only ships using its designated routes would receive safety guarantees.",
+          "xiaziQuote": "Agreements are written on paper; shipping routes are written at sea. Stability is tested by whether ships can pass.",
+          "doudouQuote": "Oil prices are not always moved by meetings. Sometimes one ship wakes them up.",
+          "footerTakeaway": "Watch: shipping insurance, oil prices, and U.S.-Iran implementation terms."
+        }
+      },
+      "sources": [
+        {
+          "id": "cdd4b985-46f0-4833-8cb9-8b81f6c3b0f8",
+          "topicId": "cfb53750-d2b1-4bfe-84e9-c9c9ffe41e5a",
+          "title": "Cargo ship attacked in Gulf of Oman amid fragile US-Iran ceasefire",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/25/cargo-ship-attacked-gulf-of-oman-us-iran-ceasefire",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "a8b73687-8eda-43ef-8355-95498e89c51a",
+          "topicId": "cfb53750-d2b1-4bfe-84e9-c9c9ffe41e5a",
+          "title": "Singapore-flagged cargo ship hit by projectile off Oman coast",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/singapore-flagged-cargo-ship-hit-projectile-off-oman-coast-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "a6abd6ca-b885-4c54-8098-a0f2289c624a",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "europe-heatwave-june-record",
+      "rank": 5,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "GB",
+        "FR",
+        "IT",
+        "DE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "europe_heatwave_june_record_2026",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 80,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "英国打破六月最高温纪录，欧洲数万所学校停课",
+          "headlineView": "极端高温不再只是天气，而是在重新安排人们何时工作、上学和出门",
+          "headlineFull": "英国打破六月最高温纪录，欧洲数万所学校停课; 极端高温不再只是天气，而是在重新安排人们何时工作、上学和出门.",
+          "intro": "英国西南部气温达到36.7℃，刷新该国六月最高温纪录；巴黎达到40.9℃，法国约1.35万所学校关闭或调整课程，英国也有超过1000所学校停课或部分关闭。高温还带来溺水、户外劳动、电网和医疗压力。",
+          "xiaziQuote": "热浪真正改变的，是城市默认还能照常运转的假设。",
+          "doudouQuote": "以前热是天气预报，现在热是学校通知、工地排班和急诊排队。",
+          "footerTakeaway": "看点：学校停课、户外劳动禁令、电网和公共卫生压力。"
+        },
+        "en-US": {
+          "categoryLabel": "European Heatwave",
+          "headlineFact": "Britain broke its June temperature record as tens of thousands of schools closed across Europe",
+          "headlineView": "extreme heat is no longer just weather; it is rearranging when people work, study, and go outside",
+          "headlineFull": "Britain broke its June temperature record as tens of thousands of schools closed across Europe; extreme heat is no longer just weather; it is rearranging when people work, study, and go outside.",
+          "intro": "Southwest Britain reached 36.7 C, setting a new national June record, while Paris reached 40.9 C. About 13,500 schools in France closed or adjusted classes, and more than 1,000 schools in Britain closed fully or partly. The heat also brought drowning risks, outdoor-work restrictions, grid strain, and hospital pressure.",
+          "xiaziQuote": "What heatwaves really change is the assumption that cities can keep running normally.",
+          "doudouQuote": "Heat used to be a forecast. Now it is a school notice, a work schedule, and an emergency-room queue.",
+          "footerTakeaway": "Watch: school closures, outdoor-work bans, power grids, and public-health stress."
+        }
+      },
+      "sources": [
+        {
+          "id": "3c86eb05-9ac3-46cd-8026-cc41ddc2d2c3",
+          "topicId": "a6abd6ca-b885-4c54-8098-a0f2289c624a",
+          "title": "Britain breaks June temperature record as deadly heatwave grips Europe",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/britain-breaks-june-temperature-record-deadly-heatwave-grips-europe-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "e49f0cb9-17cf-49d7-8c87-f9b729c7fade",
+          "topicId": "a6abd6ca-b885-4c54-8098-a0f2289c624a",
+          "title": "Europe heatwave: Climate change made extreme June heat far more likely",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "dd85c0b6-a1f8-41e2-8653-e797bda8e9f8",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "congo-ebola-france-case",
+      "rank": 6,
+      "category": "science",
+      "region": "Africa",
+      "countryCodes": [
+        "CD",
+        "UG",
+        "FR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "congo_ebola_france_case_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "埃博拉疫情",
+          "headlineFact": "刚果（金）埃博拉病例超过1100例，法国确认首例输入病例",
+          "headlineView": "疫情从局部危机变成全球风险，通常只需要一次跨境旅行",
+          "headlineFull": "刚果（金）埃博拉病例超过1100例，法国确认首例输入病例; 疫情从局部危机变成全球风险，通常只需要一次跨境旅行.",
+          "intro": "本轮埃博拉疫情已在刚果（金）感染超过1100人，邻国乌干达也确认病例。法国确认首例相关输入病例后，刚果（金）要求来自疫区或密接者接受21天健康监测，并限制旅行。非洲疾控中心把应对资金需求上调至14亿美元。",
+          "xiaziQuote": "公共卫生最怕的不是边界很长，而是资金、监测和信任都太短。",
+          "doudouQuote": "病毒不坐经济舱头等舱，它只看人流有没有空子。",
+          "footerTakeaway": "看点：21天监测执行、资金到账和跨境病例。"
+        },
+        "en-US": {
+          "categoryLabel": "Ebola Outbreak",
+          "headlineFact": "Congo Ebola outbreak has passed 1,100 cases, and France confirmed its first imported case",
+          "headlineView": "an outbreak can turn from local crisis to global risk with one cross-border trip",
+          "headlineFull": "Congo Ebola outbreak has passed 1,100 cases, and France confirmed its first imported case; an outbreak can turn from local crisis to global risk with one cross-border trip.",
+          "intro": "The Ebola outbreak in Congo has infected more than 1,100 people, with cases also confirmed in Uganda. After France confirmed its first related imported case, Congo required people from affected areas or close contacts to undergo 21 days of monitoring and restrict travel. Africa CDC raised response funding needs to $1.4 billion.",
+          "xiaziQuote": "In public health, the danger is not only long borders. It is short funding, short surveillance, and short trust.",
+          "doudouQuote": "The virus does not care about cabin class. It only looks for gaps in movement.",
+          "footerTakeaway": "Watch: 21-day monitoring, funding delivery, and cross-border cases."
+        }
+      },
+      "sources": [
+        {
+          "id": "1b381223-cbab-4806-8715-a18e85aaad23",
+          "topicId": "dd85c0b6-a1f8-41e2-8653-e797bda8e9f8",
+          "title": "Congo tightens travel rules after Ebola case reaches France",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/africa/congo-tightens-travel-rules-after-ebola-case-reaches-france-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "46c4c3bf-e228-4575-8c66-756c5fc12b9c",
+          "topicId": "dd85c0b6-a1f8-41e2-8653-e797bda8e9f8",
+          "title": "Africa CDC says funding needs for Ebola response three times higher at $1.4 billion",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/africa/africa-cdc-says-funding-needs-ebola-response-three-times-higher-14-billion-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "3342b5f5-ca9d-49b4-87e3-ad15dd1eda49",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "anthropic-alibaba-claude-distillation",
+      "rank": 7,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "anthropic_alibaba_claude_distillation_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI模型竞争",
+          "headlineFact": "Anthropic指控阿里巴巴关联团队大规模提取Claude能力",
+          "headlineView": "AI时代最值钱的资产，可能不只是代码，而是模型回答问题的方式",
+          "headlineFull": "Anthropic指控阿里巴巴关联团队大规模提取Claude能力; AI时代最值钱的资产，可能不只是代码，而是模型回答问题的方式.",
+          "intro": "Anthropic在致美国议员的信中指控，阿里巴巴及通义千问关联人员利用近2.5万个虚假账户，与Claude进行约2880万次交互，以蒸馏方式提取软件开发和智能体推理能力。相关说法目前仍属于Anthropic单方面主张。",
+          "xiaziQuote": "模型竞争开始进入“输出是否也是资产”的阶段，规则还没长好，冲突已经先来了。",
+          "doudouQuote": "以前偷代码，现在连答题风格都可能被说成偷师。",
+          "footerTakeaway": "看点：模型蒸馏边界、平台风控和监管回应。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Model Competition",
+          "headlineFact": "Anthropic accused an Alibaba-linked team of extracting Claude’s capabilities at massive scale",
+          "headlineView": "in the AI era, the valuable asset may be not only code, but how a model answers questions",
+          "headlineFull": "Anthropic accused an Alibaba-linked team of extracting Claude’s capabilities at massive scale; in the AI era, the valuable asset may be not only code, but how a model answers questions.",
+          "intro": "Anthropic told U.S. lawmakers that Alibaba- and Qwen-linked personnel used nearly 25,000 fake accounts and about 28.8 million Claude interactions to extract software-development and agentic reasoning capabilities. The claim remains Anthropic’s allegation unless independently confirmed.",
+          "xiaziQuote": "Model competition is entering the stage where output itself may be treated as an asset. The rules are immature, but the conflicts are already here.",
+          "doudouQuote": "It used to be about stealing code. Now even the way an answer is shaped may be called copying.",
+          "footerTakeaway": "Watch: model-distillation boundaries, platform controls, and regulatory responses."
+        }
+      },
+      "sources": [
+        {
+          "id": "3c9b35eb-f0dd-4727-8edb-69d4643b3455",
+          "topicId": "3342b5f5-ca9d-49b4-87e3-ad15dd1eda49",
+          "title": "Anthropic accuses Alibaba-linked team of extracting Claude capabilities",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/anthropic-accuses-alibaba-linked-team-extracting-claude-capabilities-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2934f490-a422-4d48-88f4-8d6df486b6ed",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "micron-ai-memory-boom",
+      "rank": 8,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "KR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "micron_ai_memory_boom_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI芯片",
+          "headlineFact": "美光市值一度超过Meta和特斯拉",
+          "headlineView": "当所有人都在讨论大模型时，真正赚到钱的可能是为模型提供记忆的人",
+          "headlineFull": "美光市值一度超过Meta和特斯拉; 当所有人都在讨论大模型时，真正赚到钱的可能是为模型提供记忆的人.",
+          "intro": "在强劲业绩预测和AI存储需求推动下，美光科技股价上涨超过18%，市值达到约1.398万亿美元，一度超过Meta，并短暂超过特斯拉。客户已承诺约220亿美元，以提前锁定高带宽内存等芯片供应。",
+          "xiaziQuote": "AI基础设施不只拼GPU，内存、存储、光通信和能源都会变成下一批瓶颈。",
+          "doudouQuote": "大模型在台前回答问题，内存在幕后默默收门票。",
+          "footerTakeaway": "看点：HBM供给、客户预付款和AI基础设施扩散。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Chips",
+          "headlineFact": "Micron’s market value briefly moved above Meta and Tesla",
+          "headlineView": "while everyone talks about large AI models, the money may go to the companies providing memory for those models",
+          "headlineFull": "Micron’s market value briefly moved above Meta and Tesla; while everyone talks about large AI models, the money may go to the companies providing memory for those models.",
+          "intro": "Strong guidance and AI memory demand pushed Micron shares up more than 18%, lifting market value to about $1.398 trillion and briefly above Meta and Tesla. Customers have committed about $22 billion to secure high-bandwidth memory and related chip supply in advance.",
+          "xiaziQuote": "AI infrastructure is not only GPUs. Memory, storage, optical links, and energy can all become bottlenecks.",
+          "doudouQuote": "Large models answer on stage; memory collects tickets backstage.",
+          "footerTakeaway": "Watch: HBM supply, customer prepayments, and AI infrastructure expansion."
+        }
+      },
+      "sources": [
+        {
+          "id": "6841d34b-8b9a-494d-8376-d927431ebe00",
+          "topicId": "2934f490-a422-4d48-88f4-8d6df486b6ed",
+          "title": "Asian stocks surge as Micron earnings ease AI fears",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/global-markets-wrapup-1-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "d48a9c7b-d027-44a9-8b78-c48f2fea3596",
+          "topicId": "2934f490-a422-4d48-88f4-8d6df486b6ed",
+          "title": "Micron joins trillion-dollar club as AI memory demand soars",
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/micron-joins-trilliondollar-club-as-ai-memory-demand-soars-2026-06-25",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "e207cc4a-9118-41f9-8bf2-7f77e19e770f",
+      "issueId": "10000000-0000-4000-8000-000000000013",
+      "slug": "kenya-protest-anniversary",
+      "rank": 9,
+      "category": "international",
+      "region": "Africa",
+      "countryCodes": [
+        "KE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "kenya_protest_anniversary_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "肯尼亚抗议",
+          "headlineFact": "肯尼亚民众纪念两年前抗议遇难者，警方再次使用催泪瓦斯",
+          "headlineView": "纪念真正要求的不是遗忘痛苦，而是避免同样的事情再次发生",
+          "headlineFull": "肯尼亚民众纪念两年前抗议遇难者，警方再次使用催泪瓦斯; 纪念真正要求的不是遗忘痛苦，而是避免同样的事情再次发生.",
+          "intro": "数十名肯尼亚民众在内罗毕纪念2024年反对加税和生活成本上涨抗议中的遇难者。警方在议会外设置路障并使用催泪瓦斯驱散集会，全国共有355人被捕。政府已承诺补偿遭安全部门侵害的民众，但家属和组织要求调查与问责。",
+          "xiaziQuote": "补偿能处理损失，问责才可能处理下一次。",
+          "doudouQuote": "纪念日如果又变成催泪瓦斯日，说明问题还没过去。",
+          "footerTakeaway": "看点：被捕人员处置、赔偿执行和安全部门问责。"
+        },
+        "en-US": {
+          "categoryLabel": "Kenya Protests",
+          "headlineFact": "Kenyans commemorated victims of the 2024 protests, and police again used tear gas",
+          "headlineView": "remembrance asks not only that pain be remembered, but that the same thing not happen again",
+          "headlineFull": "Kenyans commemorated victims of the 2024 protests, and police again used tear gas; remembrance asks not only that pain be remembered, but that the same thing not happen again.",
+          "intro": "Kenyans gathered in Nairobi to commemorate victims of the 2024 protests against tax hikes and living costs. Police set up barriers outside parliament and used tear gas to disperse crowds; 355 people were arrested nationwide. The government has promised compensation for abuses by security forces, while families and civic groups want investigations and accountability.",
+          "xiaziQuote": "Compensation can address loss. Accountability is what may prevent the next one.",
+          "doudouQuote": "If an anniversary becomes another tear-gas day, the issue is not over.",
+          "footerTakeaway": "Watch: detainee handling, compensation delivery, and security-force accountability."
+        }
+      },
+      "sources": [
+        {
+          "id": "badb0a1b-ee4b-4bed-8fe8-bd396dcb1c69",
+          "topicId": "e207cc4a-9118-41f9-8bf2-7f77e19e770f",
+          "title": "Kenyans commemorate victims of the 2024 protests, and police again use tear gas",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/kenya-protests-anniversary-police-tear-gas-2026-06-25",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "5d3e4dc0-be0b-4dc1-871e-b693a18ae6a4",
+          "topicId": "e207cc4a-9118-41f9-8bf2-7f77e19e770f",
+          "title": "Kenya protesters dispersed as police mark protest anniversary",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/africa/kenya-protesters-dispersed-police-mark-protest-anniversary-2026-06-25/",
+          "publishedAt": "2026-06-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    }
+  ]
+}

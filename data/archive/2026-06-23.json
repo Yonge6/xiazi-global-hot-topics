@@ -1,0 +1,529 @@
+{
+  "id": "10000000-0000-4000-8000-000000000010",
+  "slug": "2026-06-23",
+  "assetVersion": "issue-2026-06-23-user-posters-v2",
+  "issueDate": "2026-06-23",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-06-23T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-22T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "20000000-0000-4000-8000-000000000073",
+  "topics": [
+    {
+      "id": "20000000-0000-4000-8000-000000000073",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "overview",
+      "rank": 1,
+      "category": "overview",
+      "region": "Global",
+      "countryCodes": [
+        "AR",
+        "GB",
+        "US",
+        "IR",
+        "CO",
+        "UA",
+        "RU",
+        "FR",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "daily_global_overview_june23_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "梅西改写世界杯纪录，英国进入首相交接，美伊获得60天谈判窗口",
+          "headlineView": "世界真正变化的地方，往往藏在纪录、权力与规则重新排列的瞬间",
+          "headlineFull": "梅西改写世界杯纪录，英国进入首相交接，美伊获得60天谈判窗口；世界真正变化的地方，往往藏在纪录、权力与规则重新排列的瞬间。",
+          "intro": "过去一天，梅西以18粒世界杯进球创造新纪录，阿根廷提前晋级；英国首相斯塔默宣布辞去工党党首职务，英国政治进入新领导人竞逐；美伊首轮谈判取得进展，美国给予伊朗60天制裁豁免。与此同时，哥伦比亚大选向右转，俄乌远程打击继续深入军工设施，欧洲极端热浪造成伤亡，欧洲企业开始分散AI模型供应风险，中国则把多家美国关键矿产企业列入出口管制清单。",
+          "xiaziQuote": "真正值得看见的，不只是事件本身，而是世界底层秩序正在怎么换位。",
+          "doudouQuote": "一天之内，球场、政坛、谈判桌、服务器和矿产供应链，都在重新排队。",
+          "footerTakeaway": "今日关键词：纪录、交接、谈判、转向、纵深、高温、数字主权与关键矿产。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "Messi rewrote the World Cup scoring record, Britain entered a prime-ministerial transition, and the U.S. and Iran gained a 60-day negotiating window",
+          "headlineView": "the places where the world truly changes are often hidden in moments when records, power and rules are rearranged",
+          "headlineFull": "Messi rewrote the World Cup scoring record, Britain entered a prime-ministerial transition, and the U.S. and Iran gained a 60-day negotiating window; the places where the world truly changes are often hidden in moments when records, power and rules are rearranged.",
+          "intro": "Over the past day, Messi set a new World Cup record with 18 goals and sent Argentina through early; British Prime Minister Keir Starmer announced he would step down as Labour leader; and the first round of U.S.-Iran talks produced progress, with Washington granting Iran a 60-day sanctions waiver. At the same time, Colombia’s presidential race tilted to the right, Russia and Ukraine pushed deeper into each other’s military-industry systems, Europe’s extreme heat caused casualties, European companies diversified AI model suppliers, and China placed multiple major U.S. critical-minerals companies on its export-control list.",
+          "xiaziQuote": "What matters is not only the events themselves, but how the underlying order of the world is changing places.",
+          "doudouQuote": "In a single day, football, politics, diplomacy, servers and mineral supply chains all started lining up again.",
+          "footerTakeaway": "Today’s keywords: record, transition, negotiation, shift, depth, heat, digital sovereignty, and critical minerals."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000330",
+          "topicId": "20000000-0000-4000-8000-000000000073",
+          "title": "Daily global news overview",
+          "publisher": "Xiazi Says",
+          "url": "https://pluto.hk/zh/",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "original",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000074",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "world-cup",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "AR",
+        "AT",
+        "UY",
+        "CV",
+        "NZ",
+        "EG"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "world_cup_messi_record_argentina_austria_june22_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "梅西双响将世界杯进球纪录改写为18球，阿根廷提前晋级",
+          "headlineView": "伟大不是从不失误，而是失误之后依然能够决定比赛",
+          "headlineFull": "梅西双响将世界杯进球纪录改写为18球，阿根廷提前晋级；伟大不是从不失误，而是失误之后依然能够决定比赛。",
+          "intro": "北京时间6月22日05:00至6月23日05:00，世界杯共结束3场比赛：乌拉圭2:2佛得角，新西兰1:3埃及，阿根廷2:0奥地利。梅西面对奥地利先罚失点球，随后梅开二度，将世界杯总进球数提高到18球，超越克洛泽和玛塔保持的17球纪录。阿根廷取得两连胜，提前锁定淘汰赛席位。佛得角继续制造黑马故事，新西兰虽先进球，却被埃及逆转。",
+          "xiaziQuote": "纪录之所以动人，不只是数字变了，而是失误之后仍能继续改写结局。",
+          "doudouQuote": "昨天属于进球，也属于第一次被世界记住的小球队。",
+          "footerTakeaway": "24小时关键词：梅西18球、阿根廷晋级、两支世界杯新军创造历史。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Messi’s brace lifted his World Cup scoring record to 18, and Argentina advanced early",
+          "headlineView": "greatness is not never making mistakes; it is still deciding the match after making one",
+          "headlineFull": "Messi’s brace lifted his World Cup scoring record to 18, and Argentina advanced early; greatness is not never making mistakes; it is still deciding the match after making one.",
+          "intro": "From 05:00 on June 22 to 05:00 on June 23 Beijing time, three World Cup matches were completed: Uruguay 2-2 Cape Verde, New Zealand 1-3 Egypt and Argentina 2-0 Austria. Against Austria, Messi missed an early penalty, then scored twice to raise his World Cup tally to 18 goals, surpassing both Klose’s men’s record and Marta’s 17-goal World Cup mark. Argentina won twice in a row and sealed qualification for the knockout stage. Cape Verde kept its surprise story alive, while Egypt came from behind to beat New Zealand.",
+          "xiaziQuote": "What makes a record moving is not just that the number changed, but that the ending can still be rewritten after a mistake.",
+          "doudouQuote": "Yesterday belonged to great goals, but also to little teams being remembered by the world for the first time.",
+          "footerTakeaway": "24-hour keywords: Messi 18 goals, Argentina through, and two World Cup newcomers making history."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000331",
+          "topicId": "20000000-0000-4000-8000-000000000074",
+          "title": "Messi sets World Cup scoring record as defending champion Argentina advances to knockout stage",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/3ad605618a23e1d71fc539d8c596e33e",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000075",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "uk-politics",
+      "rank": 3,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "uk_starmer_resignation_burnham_contest_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "英国政局",
+          "headlineFact": "斯塔默宣布辞去工党党首职务，英国将迎来十余年内第七位首相",
+          "headlineView": "频繁更换领导人，往往说明真正需要改变的不是名字，而是系统",
+          "headlineFull": "斯塔默宣布辞去工党党首职务，英国将迎来十余年内第七位首相；频繁更换领导人，往往说明真正需要改变的不是名字，而是系统。",
+          "intro": "英国首相基尔·斯塔默宣布辞去执政党工党党首职务，但会继续担任首相，直到继任者产生。工党领导人提名将于7月9日启动，最迟9月1日前完成交接。前大曼彻斯特市长安迪·伯纳姆已确认参选，并被视为热门人选。斯塔默在2024年带领工党取得压倒性胜利，但其政府随后在税收、福利、移民和生活成本问题上承受越来越大的党内与民意压力。",
+          "xiaziQuote": "当所有人都开始讨论下一位是谁，权力其实已经开始离场。",
+          "doudouQuote": "换人很快，修系统很慢，这才是英国政局真正的难题。",
+          "footerTakeaway": "英国进入领导权过渡期，真正考验在于政策连续性和治理修复。"
+        },
+        "en-US": {
+          "categoryLabel": "UK Politics",
+          "headlineFact": "Starmer resigned as Labour leader, and Britain is set to get its seventh prime minister in a little over a decade",
+          "headlineView": "when leaders change this often, the real problem is usually not the name but the system",
+          "headlineFull": "Starmer resigned as Labour leader, and Britain is set to get its seventh prime minister in a little over a decade; when leaders change this often, the real problem is usually not the name but the system.",
+          "intro": "British Prime Minister Keir Starmer announced that he is stepping down as leader of the governing Labour Party, though he will remain caretaker prime minister until a successor is chosen. Labour will open nominations for a new leader on July 9 and aims to complete the transition by September 1. Former Greater Manchester mayor Andy Burnham has confirmed his candidacy and is seen as one of the leading contenders. Starmer led Labour to a commanding victory in 2024, but his government later came under growing pressure over taxes, welfare, immigration and the cost of living.",
+          "xiaziQuote": "Once everyone starts asking who comes next, power has already begun to leave the room.",
+          "doudouQuote": "Changing people is fast. Repairing the system is slow. That is the real difficulty in British politics.",
+          "footerTakeaway": "Britain enters a leadership transition in which continuity and system repair matter more than names."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000332",
+          "topicId": "20000000-0000-4000-8000-000000000075",
+          "title": "Starmer says he will resign as UK prime minister, roiling British politics yet again",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/keir-starmer-resignation-pressure-burnham-uk-politics-8aa1c427418c487fe644f5d5c40d1518",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000076",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "us-iran-talks",
+      "rank": 4,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "CH"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "us_iran_switzerland_talks_fragile_2026",
+      "storyStatus": "followup",
+      "followupDay": 8,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美伊谈判",
+          "headlineFact": "美国给予伊朗60天制裁豁免，双方为最终协议制定路线图",
+          "headlineView": "真正的和平不是一次握手，而是让航道、核查与资金重新运转",
+          "headlineFull": "美国给予伊朗60天制裁豁免，双方为最终协议制定路线图；真正的和平不是一次握手，而是让航道、核查与资金重新运转。",
+          "intro": "美国与伊朗在瑞士完成首轮高级别谈判，并同意在60天内推动一份永久协议。美国财政部宣布制裁豁免持续至8月21日，允许伊朗销售石油及相关产品并收取款项；双方还建立了保障霍尔木兹海峡商船安全通行的沟通机制。美方称伊朗同意恢复核查，但伊朗外交部表示，核问题尚未正式进入谈判，也没有作出新的承诺。谈判迈出第一步，但双方对协议内容的表述仍存在明显差异。",
+          "xiaziQuote": "和平真正难的，不是坐下来，而是让航道、制裁与核查一起恢复秩序。",
+          "doudouQuote": "60天像一座桥，能不能走到对岸，还得看桥下的水有没有继续流。",
+          "footerTakeaway": "制裁豁免、航运通道和核查安排构成美伊谈判的实质增量。"
+        },
+        "en-US": {
+          "categoryLabel": "U.S.-Iran Talks",
+          "headlineFact": "The United States granted Iran a 60-day sanctions waiver, and both sides drew up a roadmap for a final agreement",
+          "headlineView": "real peace is not a handshake; it is making shipping lanes, inspections and money move again",
+          "headlineFull": "The United States granted Iran a 60-day sanctions waiver, and both sides drew up a roadmap for a final agreement; real peace is not a handshake; it is making shipping lanes, inspections and money move again.",
+          "intro": "The United States and Iran completed a first round of high-level talks in Switzerland and agreed to push toward a permanent agreement within 60 days. The U.S. Treasury said the waiver would last through August 21, allowing Iran to sell oil and related products and receive payment. The two sides also created a communication channel to protect commercial shipping through the Strait of Hormuz. Washington says Iran has agreed to restore inspections, while Tehran says the nuclear issue has not formally entered the talks and that no new commitments have been made.",
+          "xiaziQuote": "What makes peace difficult is not sitting down. It is restoring order to shipping, sanctions and inspections at the same time.",
+          "doudouQuote": "Sixty days is like a bridge. Whether it reaches the other side depends on whether the water beneath it keeps flowing.",
+          "footerTakeaway": "The waiver, shipping channel and inspection path give the talks real operational substance."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000333",
+          "topicId": "20000000-0000-4000-8000-000000000076",
+          "title": "Vance says talks with Iranian officials set good foundation for a deal to end the war",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/united-states-iran-war-nuclear-negotiations-4bbde727c7095c4ad9da0285ca79f1e1",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000077",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "colombia-election",
+      "rank": 5,
+      "category": "international",
+      "region": "Latin America",
+      "countryCodes": [
+        "CO"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "colombia_presidential_runoff_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "哥伦比亚大选",
+          "headlineFact": "哥伦比亚右翼候选人以不到一个百分点的优势胜出",
+          "headlineView": "赢下一场高度分裂的选举，只意味着更艰难的治理刚开始",
+          "headlineFull": "哥伦比亚右翼候选人以不到一个百分点的优势胜出；赢下一场高度分裂的选举，只意味着更艰难的治理刚开始。",
+          "intro": "右翼律师阿韦拉多·德拉埃斯普列拉在总统决选初步计票中获得49.66%的选票，左翼候选人伊万·塞佩达获得48.70%，两人相差约25万票。德拉埃斯普列拉主张严厉打击犯罪、结束与部分武装组织的和平谈判、扩大油气生产，并缩减政府规模。不过，哥伦比亚国会仍高度分裂，塞佩达也对结果提出异议。新政府即便最终确认胜选，也将面对治安、财政和社会撕裂等多重挑战。",
+          "xiaziQuote": "票差越小，胜利越像一张入场券，而不是一张通行证。",
+          "doudouQuote": "真正的难题不在赢下选举，而在如何穿过分裂之后的治理迷宫。",
+          "footerTakeaway": "哥伦比亚决选右转，但微弱优势和国会分裂意味着治理压力刚开始。"
+        },
+        "en-US": {
+          "categoryLabel": "Colombia Election",
+          "headlineFact": "Colombia’s right-wing candidate won by less than one percentage point",
+          "headlineView": "winning a deeply divided election only means the harder task of governing has just begun",
+          "headlineFull": "Colombia’s right-wing candidate won by less than one percentage point; winning a deeply divided election only means the harder task of governing has just begun.",
+          "intro": "In the preliminary count of Colombia’s presidential runoff, right-wing lawyer Abelardo de la Espriella won 49.66% of the vote, while left-wing candidate Ivan Cepeda took 48.70%, a margin of roughly 250,000 votes. De la Espriella advocates a tougher crackdown on crime, ending peace talks with some armed groups, expanding oil and gas production, and shrinking the size of government. Colombia’s congress, however, remains deeply divided, and Cepeda has challenged the result.",
+          "xiaziQuote": "The narrower the margin, the more victory looks like a ticket in, not a pass to do whatever you want.",
+          "doudouQuote": "The hard part is not winning the vote, but finding a path through the maze of governing after division.",
+          "footerTakeaway": "Colombia’s runoff tilted right, but the narrow margin and divided congress make governing difficult."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000334",
+          "topicId": "20000000-0000-4000-8000-000000000077",
+          "title": "Colombia right wing candidate De La Espriella has lead in tight presidential race",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/americas/colombia-votes-runoff-pitting-leftist-reformer-against-law-and-order-newcomer-2026-06-21/",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000078",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "russia-ukraine",
+      "rank": 6,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "ukraine_voronezh_missile_factory_strike_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌局势",
+          "headlineFact": "乌克兰导弹击中俄罗斯导弹电子设备工厂，俄方称5人死亡",
+          "headlineView": "当军工厂与居民区越来越接近，战争的边界也越来越难划清",
+          "headlineFull": "乌克兰导弹击中俄罗斯导弹电子设备工厂，俄方称5人死亡；当军工厂与居民区越来越接近，战争的边界也越来越难划清。",
+          "intro": "乌克兰军方表示，使用空射巡航导弹打击了俄罗斯沃罗涅日的一家军工企业。乌方称该工厂生产“伊斯坎德尔”等导弹所需电子设备，是俄罗斯国防生产体系的关键环节。俄罗斯地方政府称袭击造成5人死亡、数十人就医，并损坏多栋住宅。俄乌双方正在越来越频繁地把远程打击瞄准武器制造、能源和工业基础设施。",
+          "xiaziQuote": "当打击越来越瞄准工业与能源，战争就不再只是一条前线。",
+          "doudouQuote": "最难划清的，往往不是地图边界，而是工厂、城市与居民生活之间的界线。",
+          "footerTakeaway": "俄乌远程打击继续深入军工体系，战争纵深和民用风险同步扩大。"
+        },
+        "en-US": {
+          "categoryLabel": "Russia-Ukraine",
+          "headlineFact": "A Ukrainian missile strike hit a Russian missile-electronics factory, and Russian officials said five people were killed",
+          "headlineView": "as military factories move closer to residential areas, the boundaries of war become harder to draw",
+          "headlineFull": "A Ukrainian missile strike hit a Russian missile-electronics factory, and Russian officials said five people were killed; as military factories move closer to residential areas, the boundaries of war become harder to draw.",
+          "intro": "Ukraine’s military said it used an air-launched cruise missile to strike a military-industrial enterprise in Voronezh, Russia. Kyiv said the factory produces electronic components used in missiles such as the Iskander and is a key part of Russia’s defense production system. Local Russian officials said the strike killed five people, sent dozens to hospitals and damaged multiple homes. Both Russia and Ukraine are increasingly directing long-range strikes at each other’s weapons manufacturing, energy systems and industrial infrastructure.",
+          "xiaziQuote": "When strikes focus more and more on industry and energy, war is no longer only a front line.",
+          "doudouQuote": "The hardest boundary to draw is often not the one on a map, but the one between factories, cities and civilian life.",
+          "footerTakeaway": "Long-range strikes are moving deeper into military industry, expanding both strategic depth and civilian risk."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000335",
+          "topicId": "20000000-0000-4000-8000-000000000078",
+          "title": "Ukraine strikes Russian missile-electronics factory in Voronezh region",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000079",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "europe-heatwave",
+      "rank": 7,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "IT",
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "europe_heatwave_france_deaths_records_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "法国已有至少18人死于极端高温，多座城市刷新纪录",
+          "headlineView": "气候变化最直接的代价，是城市突然无法按照原来的方式运行",
+          "headlineFull": "法国已有至少18人死于极端高温，多座城市刷新纪录；气候变化最直接的代价，是城市突然无法按照原来的方式运行。",
+          "intro": "欧洲新一轮热浪继续升级。法国至少18人死亡，波尔多气温达到41.9℃，普瓦捷达到41.2℃，均打破当地历史纪录；法国多所学校关闭或调整课程，意大利多座城市发布红色高温警报，部分电网也开始承受压力。英国预计气温可能超过39℃，大幅突破保持多年的六月纪录。欧洲升温速度超过全球平均水平，极端高温正在同时冲击医疗、交通、电力和教育系统。",
+          "xiaziQuote": "当学校停课、铁路受阻、医院承压，天气就已经变成城市治理问题。",
+          "doudouQuote": "高温最可怕的地方，不只是热，而是整座城市忽然开始失去原来的节奏。",
+          "footerTakeaway": "欧洲热浪造成死亡和基础系统压力，极端天气从气象事件变成治理考验。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Heatwave",
+          "headlineFact": "At least 18 people have died in extreme heat in France, and multiple cities have set new records",
+          "headlineView": "the most direct cost of climate change is that cities suddenly can no longer run the way they used to",
+          "headlineFull": "At least 18 people have died in extreme heat in France, and multiple cities have set new records; the most direct cost of climate change is that cities suddenly can no longer run the way they used to.",
+          "intro": "Europe’s latest heatwave continues to intensify. At least 18 people have died in France. Bordeaux reached 41.9C and Poitiers hit 41.2C, both setting local records. Many French schools have closed or adjusted classes. Several Italian cities issued red heat alerts, and parts of the power grid have started to come under pressure. Britain could see temperatures above 39C, smashing a long-standing June record.",
+          "xiaziQuote": "When schools close, railways are disrupted and hospitals come under strain, weather has already become a question of city governance.",
+          "doudouQuote": "What makes heat most frightening is not just the temperature. It is the moment an entire city starts losing its original rhythm.",
+          "footerTakeaway": "Europe’s heatwave is now a governance stress test for health, transport, power and education systems."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000336",
+          "topicId": "20000000-0000-4000-8000-000000000079",
+          "title": "Europe swelters under heatwave, France restricts alcohol consumption",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/europe-swelters-under-heatwave-prompting-crisis-talks-france-2026-06-20/",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000080",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "ai-digital-sovereignty",
+      "rank": 8,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "EU",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "ai_model_access_digital_sovereignty_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI数字主权",
+          "headlineFact": "美国限制部分先进AI模型的海外访问，欧洲企业开始同时部署中美欧模型",
+          "headlineView": "数字主权不是拒绝外部技术，而是始终拥有第二个选择",
+          "headlineFull": "美国限制部分先进AI模型的海外访问，欧洲企业开始同时部署中美欧模型；数字主权不是拒绝外部技术，而是始终拥有第二个选择。",
+          "intro": "美国对部分先进AI服务施加海外访问限制后，西门子、雷诺、Orange和ChapsVision等欧洲企业开始加快分散供应商风险，同时使用美国、中国和欧洲模型，以防单一服务被突然关闭导致业务中断。相关企业认为，远程提供的专有模型无法在本地独立运行，一旦服务商或政府限制访问，企业就可能失去关键能力。AI时代的供应链风险，已经从芯片和材料延伸到模型本身能否继续调用。",
+          "xiaziQuote": "真正的数字主权，不是只选一家，而是任何一家掉线时你都还能继续运转。",
+          "doudouQuote": "当模型像水电一样重要，第二套方案就不再是备份，而是生存能力。",
+          "footerTakeaway": "欧洲企业开始多模型并行，AI供应链风险从硬件扩展到模型访问权。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Digital Sovereignty",
+          "headlineFact": "The United States restricted overseas access to some advanced AI models, and European companies began deploying American, Chinese and European models in parallel",
+          "headlineView": "digital sovereignty is not rejecting outside technology; it is always having a second option",
+          "headlineFull": "The United States restricted overseas access to some advanced AI models, and European companies began deploying American, Chinese and European models in parallel; digital sovereignty is not rejecting outside technology; it is always having a second option.",
+          "intro": "After the United States imposed overseas access restrictions on some advanced AI services, European companies such as Siemens, Renault, Orange and ChapsVision accelerated efforts to diversify supplier risk by using American, Chinese and European models at the same time, so that business operations would not be disrupted if a single provider were suddenly cut off. In the AI era, supply-chain risk has expanded from chips and materials to whether a model itself remains available.",
+          "xiaziQuote": "Real digital sovereignty is not choosing only one provider. It is being able to keep running when any one of them goes offline.",
+          "doudouQuote": "When models become as essential as water or electricity, a second option is no longer backup. It is survival capacity.",
+          "footerTakeaway": "AI model access is becoming part of industrial resilience and digital sovereignty."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000337",
+          "topicId": "20000000-0000-4000-8000-000000000080",
+          "title": "European companies diversify AI model suppliers after U.S. access limits",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000081",
+      "issueId": "10000000-0000-4000-8000-000000000010",
+      "slug": "china-us-critical-minerals",
+      "rank": 9,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "CN",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "china_us_critical_minerals_export_controls_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中美关键矿产",
+          "headlineFact": "中国将多家美国稀土企业列入出口管制清单",
+          "headlineView": "关键矿产竞争正在从资源储备，走向谁有权决定材料流向",
+          "headlineFull": "中国将多家美国稀土企业列入出口管制清单；关键矿产竞争正在从资源储备，走向谁有权决定材料流向。",
+          "intro": "中国宣布把MP Materials、USA Rare Earth等10家美国实体列入出口管制清单，理由是这些企业与美国军事用途存在关联。措施将阻止中国企业向这些公司出口受管制的军民两用产品。这项行动被视为对美国近期限制多家中国企业的回应。稀土和关键矿产已成为芯片、国防、新能源和先进制造共同依赖的基础资源，贸易摩擦也因此从成品关税进一步深入到材料和供应链上游。",
+          "xiaziQuote": "谁控制上游材料流向，谁就更能影响下游产业节奏。",
+          "doudouQuote": "当竞争走到矿山和材料，供应链就不再只是物流，而是规则本身。",
+          "footerTakeaway": "中国对美国稀土企业实施出口管制，关键矿产成为中美产业竞争的新前线。"
+        },
+        "en-US": {
+          "categoryLabel": "China-U.S. Critical Minerals",
+          "headlineFact": "China placed multiple U.S. rare-earth companies on its export-control list",
+          "headlineView": "competition over critical minerals is moving beyond stockpiles toward the power to decide where materials can flow",
+          "headlineFull": "China placed multiple U.S. rare-earth companies on its export-control list; competition over critical minerals is moving beyond stockpiles toward the power to decide where materials can flow.",
+          "intro": "China announced that it had placed 10 U.S. entities, including MP Materials and USA Rare Earth, on an export-control list, saying the companies are linked to U.S. military uses. The measure blocks Chinese firms from exporting controlled dual-use goods to those companies. The move is widely viewed as a response to recent U.S. restrictions on several Chinese firms. Rare earths and other critical minerals have become essential inputs for chips, defense, new energy and advanced manufacturing.",
+          "xiaziQuote": "Whoever controls the upstream flow of materials can shape the rhythm of downstream industry.",
+          "doudouQuote": "Once competition reaches mines and materials, the supply chain is no longer just logistics. It becomes the rules themselves.",
+          "footerTakeaway": "Critical minerals are becoming a front line in U.S.-China industrial competition."
+        }
+      },
+      "sources": [
+        {
+          "id": "30000000-0000-4000-8000-000000000338",
+          "topicId": "20000000-0000-4000-8000-000000000081",
+          "title": "China places U.S. rare-earth companies on export-control list",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/",
+          "publishedAt": "2026-06-22T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
