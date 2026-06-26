@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-06-24T05:00:00+08:00",
+  "updatedAt": "2026-06-26T05:00:00+08:00",
   "stories": [
+    {
+      "storyId": "us_china_tech_controls_import_ban_june27_2026",
+      "status": "new",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-06-27",
+      "followupDay": 1,
+      "informationIncrementScore": 83,
+      "latestHeadline": "美国将禁止进口部分中国厂商设备，科技管制从芯片延伸到通信与安防硬件"
+    },
+    {
+      "storyId": "ai_model_regulation_openai_gpt56_june27_2026",
+      "status": "new",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-06-27",
+      "followupDay": 1,
+      "informationIncrementScore": 86,
+      "latestHeadline": "OpenAI推迟GPT-5.6公开发布，美国政府要求先行接入前沿模型"
+    },
+    {
+      "storyId": "israel_lebanon_framework_june27_2026",
+      "status": "new",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-06-27",
+      "followupDay": 1,
+      "informationIncrementScore": 84,
+      "latestHeadline": "以色列与黎巴嫩签署框架协议，目标包括解除真主党武装"
+    },
+    {
+      "storyId": "east_asia_storms_june27_2026",
+      "status": "new",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-06-27",
+      "followupDay": 1,
+      "informationIncrementScore": 82,
+      "latestHeadline": "日本面临双热带风暴逼近，台湾强降雨导致部分铁路中断"
+    },
+    {
+      "storyId": "world_cup_june27_final_group_stage_2026",
+      "status": "new",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-06-27",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "latestHeadline": "厄瓜多尔逆转德国，法国、荷兰锁定头名，塞内加尔5:0改写非洲纪录"
+    },
+    {
+      "storyId": "daily_global_overview_june27_2026",
+      "status": "new",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-06-27",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "世界杯一天8场25球，霍尔木兹再响战火，委内瑞拉地震救援进入黄金窗口"
+    },
     {
       "storyId": "world_cup_germany_curacao_2026",
       "status": "finished",
@@ -39,12 +93,12 @@
     },
     {
       "storyId": "sk_hynix_nasdaq_listing_2026",
-      "status": "finished",
+      "status": "followup",
       "firstSeen": "2026-06-15",
-      "lastSeen": "2026-06-16",
-      "followupDay": 1,
-      "informationIncrementScore": 20,
-      "latestHeadline": "SK 海力士考虑纳斯达克上市"
+      "lastSeen": "2026-06-25",
+      "followupDay": 2,
+      "informationIncrementScore": 75,
+      "latestHeadline": "SK海力士计划通过纳斯达克存托凭证上市融资约294亿美元"
     },
     {
       "storyId": "taiwan_intelligence_tip_channel_2026",
@@ -1800,6 +1854,159 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "美国频谱拍卖筹得35亿美元，用于替换华为和中兴设备"
+    },
+    {
+      "storyId": "daily_global_overview_june25_2026",
+      "status": "new",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "世界杯小组赛进入生死线，伊核核查重启争议，AI监管、芯片融资与定制算力同时升温"
+    },
+    {
+      "storyId": "world_cup_june25_score_window_2026",
+      "status": "new",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "瑞士与哥伦比亚在小组赛末段抢到关键位置"
+    },
+    {
+      "storyId": "iran_iaea_inspections_modalities_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 5,
+      "informationIncrementScore": 80,
+      "latestHeadline": "国际原子能机构称伊朗核查即将恢复，伊朗却为关键设施设置前提"
+    },
+    {
+      "storyId": "ukraine_crimea_power_strikes_2026",
+      "status": "new",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "乌克兰无人机造成塞瓦斯托波尔停电，俄罗斯燃料系统持续承压"
+    },
+    {
+      "storyId": "europe_omega_heatwave_june25_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "欧洲“欧米伽热穹顶”继续刷新高温纪录，英法学校、交通和电力承压"
+    },
+    {
+      "storyId": "uk_burnham_transition_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 2,
+      "informationIncrementScore": 70,
+      "latestHeadline": "斯塔默核心盟友转而支持伯纳姆，英国首相交接可能接近无竞争产生"
+    },
+    {
+      "storyId": "meta_ai_model_review_2026",
+      "status": "new",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国推动Meta在发布前提交前沿AI模型接受审查"
+    },
+    {
+      "storyId": "qualcomm_bytedance_custom_chip_2026",
+      "status": "new",
+      "firstSeen": "2026-06-25",
+      "lastSeen": "2026-06-25",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "高通被曝正与字节跳动商谈定制芯片设计"
+    },
+    {
+      "storyId": "daily_global_overview_june26_2026",
+      "status": "new",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-26",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "世界杯小组赛进入最后决战，委内瑞拉遭遇强震，霍尔木兹海峡再起波澜"
+    },
+    {
+      "storyId": "world_cup_june26_final_group_stage_2026",
+      "status": "new",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-26",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "墨西哥三战全胜零失球，南非首次进入世界杯淘汰赛"
+    },
+    {
+      "storyId": "venezuela_earthquakes_june26_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-27",
+      "followupDay": 2,
+      "informationIncrementScore": 90,
+      "latestHeadline": "委内瑞拉双震已致至少920人死亡，超过5万人登记失联"
+    },
+    {
+      "storyId": "hormuz_cargo_ship_attack_june26_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-27",
+      "followupDay": 7,
+      "informationIncrementScore": 82,
+      "latestHeadline": "美国空袭伊朗导弹与无人机目标，霍尔木兹停火窗口遭遇第一场压力测试"
+    },
+    {
+      "storyId": "europe_heatwave_june_record_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-27",
+      "followupDay": 4,
+      "informationIncrementScore": 78,
+      "latestHeadline": "欧洲热浪继续向东南扩展，巴黎急救系统一天报告55例高温相关死亡"
+    },
+    {
+      "storyId": "congo_ebola_france_case_2026",
+      "status": "followup",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-26",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "刚果（金）埃博拉病例超过1100例，法国确认首例输入病例"
+    },
+    {
+      "storyId": "anthropic_alibaba_claude_distillation_2026",
+      "status": "new",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-26",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "Anthropic指控阿里巴巴关联团队大规模提取Claude能力"
+    },
+    {
+      "storyId": "micron_ai_memory_boom_2026",
+      "status": "new",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-26",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美光市值一度超过Meta和特斯拉"
+    },
+    {
+      "storyId": "kenya_protest_anniversary_2026",
+      "status": "new",
+      "firstSeen": "2026-06-26",
+      "lastSeen": "2026-06-26",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "肯尼亚民众纪念两年前抗议遇难者，警方再次使用催泪瓦斯"
     }
   ]
 }
