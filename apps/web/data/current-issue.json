@@ -6,7 +6,7 @@
   "gmtTimestamp": "2026-06-27T21:05:00Z",
   "slotHour": 5,
   "status": "published",
-  "assetVersion": "20260628-chatgpt55-proext-uncompressed-v2",
+  "assetVersion": "20260628-chatgpt55-proext-uncompressed-v3",
   "featuredTopicId": "ca00d33b-198f-4d48-a5f2-0c4670c4404f",
   "topics": [
     {
@@ -158,7 +158,7 @@
       "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
       "slug": "hormuz-strait-bahrain-strike",
       "rank": 3,
-      "category": "geopolitics",
+      "category": "international",
       "region": "Middle East",
       "countryCodes": [
         "IR",
@@ -215,7 +215,7 @@
       "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
       "slug": "venezuela-earthquake-rescue",
       "rank": 4,
-      "category": "disaster",
+      "category": "international",
       "region": "Latin America",
       "countryCodes": [
         "VE"
@@ -328,7 +328,7 @@
       "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
       "slug": "ukraine-volgograd-strike",
       "rank": 6,
-      "category": "conflict",
+      "category": "international",
       "region": "Europe",
       "countryCodes": [
         "UA",
@@ -384,7 +384,7 @@
       "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
       "slug": "serbia-vucic-resignation",
       "rank": 7,
-      "category": "politics",
+      "category": "international",
       "region": "Europe",
       "countryCodes": [
         "RS"
