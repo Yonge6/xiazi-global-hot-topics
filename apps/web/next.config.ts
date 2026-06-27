@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
-const githubPagesBasePath = process.env.GITHUB_PAGES_BASE_PATH || "/xiazi-global-hot-topics";
+const isPlutoDomain = (process.env.NEXT_PUBLIC_SITE_URL || "").includes("pluto.hk");
+const githubPagesBasePath = isPlutoDomain ? "" : process.env.GITHUB_PAGES_BASE_PATH || "/xiazi-global-hot-topics";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1"],
