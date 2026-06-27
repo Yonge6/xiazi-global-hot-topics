@@ -51,7 +51,7 @@ function dataRootCandidates() {
 }
 
 function prefersLocalJson() {
-  return process.env.XIAZI_JSON_SOURCE === "local" || process.env.NODE_ENV !== "production";
+  return process.env.XIAZI_JSON_SOURCE !== "github";
 }
 
 export function productionDataRoots() {
