@@ -1,77 +1,77 @@
 {
-  "id": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-  "slug": "2026-06-27",
-  "assetVersion": "20260627-chatgpt55-proext-uncompressed-v1",
-  "issueDate": "2026-06-27",
+  "id": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+  "slug": "2026-06-28",
+  "issueDate": "2026-06-28",
+  "beijingTimestamp": "2026-06-28T05:05:00+08:00",
+  "gmtTimestamp": "2026-06-27T21:05:00Z",
   "slotHour": 5,
-  "beijingTimestamp": "2026-06-27T05:05:00+08:00",
-  "gmtTimestamp": "2026-06-26T21:05:00Z",
   "status": "published",
-  "featuredTopicId": "4c4dff0a-aa5b-41bd-aa65-dc003ea5d057",
+  "assetVersion": "20260628-chatgpt55-proext-uncompressed-v1",
+  "featuredTopicId": "ca00d33b-198f-4d48-a5f2-0c4670c4404f",
   "topics": [
     {
-      "id": "4c4dff0a-aa5b-41bd-aa65-dc003ea5d057",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
+      "id": "ca00d33b-198f-4d48-a5f2-0c4670c4404f",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
       "slug": "overview",
       "rank": 1,
       "category": "international",
       "region": "Global",
       "countryCodes": [
-        "EC",
-        "DE",
-        "CI",
-        "CW",
-        "FR",
-        "NL",
-        "SN",
-        "IQ",
-        "US",
+        "ES",
+        "UY",
+        "CV",
+        "SA",
+        "BE",
+        "NZ",
+        "EG",
         "IR",
+        "BH",
         "VE",
-        "JP",
-        "TW",
-        "IL",
-        "LB",
-        "CN"
+        "EU",
+        "UA",
+        "RU",
+        "RS",
+        "AU",
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "daily_global_overview_june27_2026",
+      "storyId": "daily_global_overview_june28_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "世界杯一天8场25球，霍尔木兹再响战火，委内瑞拉地震救援进入黄金窗口",
-          "headlineView": "今天的世界，一边在球场上决定晋级，一边在现实里测试韧性",
-          "headlineFull": "世界杯一天8场25球，霍尔木兹再响战火，委内瑞拉地震救援进入黄金窗口; 今天的世界，一边在球场上决定晋级，一边在现实里测试韧性.",
-          "intro": "过去一个发布周期，世界杯进入多个小组收官战：厄瓜多尔逆转德国，科特迪瓦首次晋级淘汰赛，法国与荷兰锁定小组头名，塞内加尔5:0大胜伊拉克。球场之外，美国因霍尔木兹货船遇袭再次打击伊朗目标；委内瑞拉双震已造成至少920人死亡；欧洲热浪继续打破纪录，东亚则面临双风暴与强降雨冲击。与此同时，以色列与黎巴嫩签署框架协议，OpenAI推迟GPT-5.6公开发布，美国也将禁止进口部分中国厂商设备。",
+          "headlineFact": "世界杯小国继续创造历史，霍尔木兹海峡再度紧张，欧洲热浪与委内瑞拉地震同时考验治理能力",
+          "headlineView": "世界不是缺少新闻，而是缺少真正看懂新闻的耐心",
+          "headlineFull": "世界杯小国继续创造历史，霍尔木兹海峡再度紧张，欧洲热浪与委内瑞拉地震同时考验治理能力; 世界不是缺少新闻，而是缺少真正看懂新闻的耐心.",
+          "intro": "过去一天，世界杯小组赛继续收官：西班牙1:0击败乌拉圭并头名出线，佛得角以三连平晋级32强，比利时5:1大胜新西兰，埃及1:1战平伊朗后晋级。球场之外，霍尔木兹海峡再度出现船只遇袭和美伊互相打击，委内瑞拉地震死亡人数升至1430人，欧洲多国刷新高温纪录，乌克兰继续打击俄罗斯军工与能源设施，塞尔维亚总统武契奇宣布将辞职并提前选举，澳大利亚加码儿童社交媒体禁令，SpaceX即将被纳入纳斯达克100指数。",
           "xiaziQuote": "真正值得关注的，不只是今天发生了什么，而是世界同时把哪些系统推到压力边缘。",
-          "doudouQuote": "从球场到海峡，从废墟到模型审批表，今天的关键词都是韧性测试。",
-          "footerTakeaway": "今日关键词：晋级、海峡、地震、高温、风暴、停火、AI审批、科技管制。"
+          "doudouQuote": "今天从球场到海峡，从灾害救援到资本市场，关键词都是压力测试。",
+          "footerTakeaway": "今日关键词：小国晋级、航道风险、灾害救援、极端高温、远程战争、提前选举、儿童网络保护、资本市场重排。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "Eight World Cup matches brought 25 goals, Hormuz flared again, and Venezuela entered the earthquake rescue window",
-          "headlineView": "the world is deciding qualification on the pitch while testing resilience in real life",
-          "headlineFull": "Eight World Cup matches brought 25 goals, Hormuz flared again, and Venezuela entered the earthquake rescue window; the world is deciding qualification on the pitch while testing resilience in real life.",
-          "intro": "Over the past publishing cycle, the World Cup moved through decisive group finales: Ecuador came back against Germany, Ivory Coast reached the knockouts for the first time, France and the Netherlands locked up first place, and Senegal beat Iraq 5-0. Away from the pitch, the United States struck Iranian targets after a cargo-ship attack near Hormuz; Venezuela reported at least 920 earthquake deaths; Europe stayed under record heat; East Asia faced storms and heavy rain; Israel and Lebanon signed a framework agreement; OpenAI delayed a wider GPT-5.6 rollout; and Washington moved toward new import restrictions on some Chinese equipment.",
-          "xiaziQuote": "What matters today is not only the event list, but which systems are being pushed to the edge at the same time.",
-          "doudouQuote": "From stadiums to straits, from rubble to model approvals, the shared word is resilience.",
-          "footerTakeaway": "Keywords: qualification, Hormuz, earthquakes, heat, storms, ceasefire, AI review, and technology controls."
+          "headlineFact": "World Cup underdogs kept making history, Hormuz tightened again, and heat plus earthquake response tested governance",
+          "headlineView": "the world does not lack news, it lacks patience to understand what the news means",
+          "headlineFull": "World Cup underdogs kept making history, Hormuz tightened again, and heat plus earthquake response tested governance; the world does not lack news, it lacks patience to understand what the news means.",
+          "intro": "Over the past day, the World Cup group stage kept closing: Spain beat Uruguay 1-0 and topped the group, Cape Verde advanced after three draws, Belgium beat New Zealand 5-1, and Egypt moved on after a 1-1 draw with Iran. Beyond the pitch, the Strait of Hormuz saw fresh attacks and retaliation, Venezuela's earthquake toll rose to 1,430, Europe kept breaking heat records, Ukraine struck Russian military and energy infrastructure, Serbia's President Aleksandar Vucic said he would resign and call an early election, Australia raised penalties for child social-media violations, and SpaceX was set to join the Nasdaq-100.",
+          "xiaziQuote": "The point is not only the event list, but which systems are being pushed toward the edge at the same time.",
+          "doudouQuote": "From stadiums to straits, from rescue work to markets, today's shared word is stress test.",
+          "footerTakeaway": "Keywords: underdog qualification, shipping risk, disaster rescue, heat, long-range war, early elections, child online safety, and market reshuffling."
         }
       },
       "sources": [
         {
-          "id": "4c217b4f-81ca-4766-8ce0-72b7d7ebe1ba",
-          "topicId": "4c4dff0a-aa5b-41bd-aa65-dc003ea5d057",
+          "id": "d97b0848-eec5-45ec-a05c-b77ef0ec4f01",
+          "topicId": "ca00d33b-198f-4d48-a5f2-0c4670c4404f",
           "title": "Daily ChatGPT hotspot source",
           "publisher": "ChatGPT",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
-          "publishedAt": "2026-06-26T00:00:00Z",
+          "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "zh-CN",
@@ -80,408 +80,421 @@
       ]
     },
     {
-      "id": "42eabe3f-b541-4b6a-8f8c-a887c00a3290",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "world-cup-june27-final-group-stage",
+      "id": "5e8ae009-b920-4466-bb02-28287e22a352",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "world-cup-june28-group-finale",
       "rank": 2,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "EC",
-        "DE",
-        "CI",
-        "CW",
-        "NL",
-        "TN",
-        "JP",
-        "SE",
-        "US",
-        "TR",
-        "AU",
-        "PY",
-        "FR",
-        "NO",
-        "SN",
-        "IQ"
+        "ES",
+        "UY",
+        "CV",
+        "SA",
+        "NZ",
+        "BE",
+        "EG",
+        "IR"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "world_cup_june27_final_group_stage_2026",
+      "scoreTotal": 96,
+      "storyId": "world_cup_june28_group_finale_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯日报",
-          "headlineFact": "厄瓜多尔逆转德国，法国、荷兰锁定头名，塞内加尔5:0改写非洲纪录",
-          "headlineView": "小组赛最后一轮，最考验的不是实力，而是命运窗口打开时能不能冲进去",
-          "headlineFull": "厄瓜多尔逆转德国，法国、荷兰锁定头名，塞内加尔5:0改写非洲纪录; 小组赛最后一轮，最考验的不是实力，而是命运窗口打开时能不能冲进去.",
-          "intro": "北京时间6月26日05:00至6月27日05:00，世界杯结束8场比赛：厄瓜多尔2:1德国、科特迪瓦2:0库拉索、荷兰3:1突尼斯、日本1:1瑞典、美国2:3土耳其、澳大利亚0:0巴拉圭、法国3:1挪威、塞内加尔5:0伊拉克。法国、荷兰锁定小组头名，科特迪瓦首次进入淘汰赛，塞内加尔则用大比分继续保留晋级希望。",
-          "xiaziQuote": "世界杯的残酷在于，准备三年半，真正改变命运的可能只有90分钟。",
-          "doudouQuote": "8场25球不是热闹，是小组赛最后一批门票被抢走的声音。",
-          "footerTakeaway": "24小时关键词：8场比赛、25粒进球、冷门逆转、非洲纪录、淘汰赛门票。"
+          "headlineFact": "西班牙头名晋级，佛得角三连平出线",
+          "headlineView": "世界杯真正动人的地方，是强队兑现实力，也是小国第一次被全世界记住",
+          "headlineFull": "西班牙头名晋级，佛得角三连平出线; 世界杯真正动人的地方，是强队兑现实力，也是小国第一次被全世界记住.",
+          "intro": "北京时间6月27日05:00至6月28日05:00，世界杯共结束4场比赛：乌拉圭0:1西班牙、佛得角0:0沙特阿拉伯、新西兰1:5比利时、埃及1:1伊朗。西班牙凭借巴埃纳的进球击败乌拉圭并进入淘汰赛；佛得角三连平出线，将在32强面对阿根廷；比利时大胜新西兰，埃及则在与伊朗的平局后晋级。",
+          "xiaziQuote": "强队赢球是秩序，小国晋级是世界杯最珍贵的意外。",
+          "doudouQuote": "三连平还能出线，佛得角这剧本比很多励志片都硬。",
+          "footerTakeaway": "24小时关键词：西班牙头名、佛得角出线、比利时大胜、埃及晋级。"
         },
         "en-US": {
           "categoryLabel": "World Cup Daily",
-          "headlineFact": "Ecuador beat Germany, France and the Netherlands topped their groups, and Senegal won 5-0",
-          "headlineView": "the final group round tests whether teams can enter when the window opens",
-          "headlineFull": "Ecuador beat Germany, France and the Netherlands topped their groups, and Senegal won 5-0; the final group round tests whether teams can enter when the window opens.",
-          "intro": "From 05:00 June 26 to 05:00 June 27 Beijing time, eight World Cup matches finished: Ecuador 2-1 Germany, Ivory Coast 2-0 Curacao, Netherlands 3-1 Tunisia, Japan 1-1 Sweden, United States 2-3 Turkey, Australia 0-0 Paraguay, France 3-1 Norway, and Senegal 5-0 Iraq. France and the Netherlands secured top spots, Ivory Coast reached the knockouts for the first time, and Senegal kept its path alive with a statement win.",
-          "xiaziQuote": "The cruelty of the World Cup is that years of preparation can turn on one 90-minute opening.",
-          "doudouQuote": "Eight matches and 25 goals were not noise. They were the sound of the last group-stage tickets being taken.",
-          "footerTakeaway": "Keywords: eight matches, 25 goals, comeback, African record, knockout tickets."
+          "headlineFact": "Spain advanced as group winner, while Cape Verde reached the knockouts after three draws",
+          "headlineView": "the World Cup matters because favorites can confirm power and small nations can enter global memory",
+          "headlineFull": "Spain advanced as group winner, while Cape Verde reached the knockouts after three draws; the World Cup matters because favorites can confirm power and small nations can enter global memory.",
+          "intro": "From 05:00 June 27 to 05:00 June 28 Beijing time, four World Cup matches finished: Uruguay 0-1 Spain, Cape Verde 0-0 Saudi Arabia, New Zealand 1-5 Belgium, and Egypt 1-1 Iran. Spain beat Uruguay through a Baena goal and moved into the knockouts. Cape Verde advanced after three draws and earned a last-32 date with Argentina. Belgium routed New Zealand, while Egypt progressed after holding Iran.",
+          "xiaziQuote": "Favorites winning is order. A small nation advancing is the World Cup's best surprise.",
+          "doudouQuote": "Three draws and still through. Cape Verde wrote a better script than most sports films.",
+          "footerTakeaway": "Keywords: Spain top, Cape Verde through, Belgium rout, Egypt advance."
         }
       },
       "sources": [
         {
-          "id": "49ba5436-0a8f-4daf-b119-e6bd0a3d90e8",
-          "topicId": "42eabe3f-b541-4b6a-8f8c-a887c00a3290",
-          "title": "Ivory Coast advance to World Cup last 32 as Pepe scores twice to send Curacao home",
-          "publisher": "Channel NewsAsia / Reuters",
-          "url": "https://www.channelnewsasia.com/sport/world-cup-ivory-coast-advance-pepe-scores-twice-send-curacao-home-6211446",
-          "publishedAt": "2026-06-26T00:00:00Z",
+          "id": "28a380e0-4455-4d30-84bd-07c84bd80270",
+          "topicId": "5e8ae009-b920-4466-bb02-28287e22a352",
+          "title": "Baena strike sends Spain past Uruguay into World Cup knockouts",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/",
+          "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "d063acc0-060d-4ce7-9c00-f1797a3e38e7",
-          "topicId": "42eabe3f-b541-4b6a-8f8c-a887c00a3290",
-          "title": "Senegal v Iraq: World Cup 2026 live",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/world-cup-2026",
-          "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "id": "991a1ce9-f7a5-41a5-8769-39a6f0a43c17",
+          "topicId": "5e8ae009-b920-4466-bb02-28287e22a352",
+          "title": "Jubilant Cape Verde set date with Argentina in World Cup round of 32",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
         }
       ]
     },
     {
-      "id": "00cf0774-9447-4627-8bc9-52b5620f012f",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "hormuz-ceasefire-stress-test",
+      "id": "d88f71f6-fdba-440b-aff0-37495c875cfe",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "hormuz-strait-bahrain-strike",
       "rank": 3,
-      "category": "international",
+      "category": "geopolitics",
       "region": "Middle East",
       "countryCodes": [
-        "US",
         "IR",
-        "OM"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 88,
-      "storyId": "hormuz_cargo_ship_attack_june26_2026",
-      "storyStatus": "followup",
-      "followupDay": 7,
-      "informationIncrementScore": 82,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "霍尔木兹局势",
-          "headlineFact": "美国空袭伊朗导弹与无人机目标，霍尔木兹停火窗口遭遇第一场压力测试",
-          "headlineView": "协议最脆弱的时刻，往往是第一艘货船被击中之后",
-          "headlineFull": "美国空袭伊朗导弹与无人机目标，霍尔木兹停火窗口遭遇第一场压力测试; 协议最脆弱的时刻，往往是第一艘货船被击中之后.",
-          "intro": "美国表示，一艘货船在霍尔木兹海峡附近遭无人机袭击后，总统特朗普认定伊朗违反停火协议，美军随后打击伊朗境内导弹、无人机阵地和沿海雷达设施。英国军方称，遇袭船只在阿曼附近海域被击中，但没有人员受伤。国际海事组织协助撤离的行动被迫暂停，商业航运和能源市场重新紧张。",
-          "xiaziQuote": "停火协议真正开始受考验，不是在签字那一刻，而是在第一起擦枪走火之后。",
-          "doudouQuote": "海峡看起来很窄，但它牵动的是油价、保险费和每一条供应链。",
-          "footerTakeaway": "观察点：60天谈判窗口是否还能维持，航运撤离能否恢复。"
-        },
-        "en-US": {
-          "categoryLabel": "Hormuz",
-          "headlineFact": "The United States struck Iranian missile and drone targets after a cargo-ship attack near Hormuz",
-          "headlineView": "a ceasefire is often most fragile after the first vessel is hit",
-          "headlineFull": "The United States struck Iranian missile and drone targets after a cargo-ship attack near Hormuz; a ceasefire is often most fragile after the first vessel is hit.",
-          "intro": "The United States said a drone attack on a cargo ship near the Strait of Hormuz led President Trump to conclude that Iran had violated the ceasefire, after which U.S. forces struck missile, drone, and coastal radar targets inside Iran. British officials said the ship was hit near Oman with no injuries reported. International maritime evacuation work was paused, adding new stress to shipping and energy markets.",
-          "xiaziQuote": "A ceasefire starts its real test not at the signing table, but after the first dangerous incident.",
-          "doudouQuote": "The strait is narrow on a map, but it touches oil prices, insurance costs, and supply chains everywhere.",
-          "footerTakeaway": "Watch whether the 60-day talks window survives and whether maritime evacuation work resumes."
-        }
-      },
-      "sources": [
-        {
-          "id": "df7e6876-30cb-4164-9769-88488e6a6012",
-          "topicId": "00cf0774-9447-4627-8bc9-52b5620f012f",
-          "title": "Associated Press Middle East coverage",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/hub/middle-east",
-          "publishedAt": "2026-06-26T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "2e91de10-1ef2-49a6-a5d5-320ad3b25c33",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "venezuela-earthquake-rescue",
-      "rank": 4,
-      "category": "international",
-      "region": "South America",
-      "countryCodes": [
-        "VE",
-        "US",
-        "MX",
-        "SV",
-        "ES",
-        "IN",
-        "CH"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "venezuela_earthquakes_june26_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "委内瑞拉地震",
-          "headlineFact": "委内瑞拉双震已致至少920人死亡，超过5万人登记失联",
-          "headlineView": "灾难最残酷的倒计时，不在新闻标题里，而在废墟下每一分钟的流逝",
-          "headlineFull": "委内瑞拉双震已致至少920人死亡，超过5万人登记失联; 灾难最残酷的倒计时，不在新闻标题里，而在废墟下每一分钟的流逝.",
-          "intro": "委内瑞拉发生7.2级和7.5级双震，震中位于加拉加斯以西约160公里。官方确认至少920人死亡、3360人受伤，失联登记网站上的未联系人员超过5万人。多国救援队陆续抵达，使用无人机、热成像仪和搜救犬寻找幸存者；美国也表示将动员援助并放宽部分制裁以便利救灾。",
-          "xiaziQuote": "灾难报道里最重要的数字，往往不是死亡人数，而是还有多少人正在等待被找到。",
-          "doudouQuote": "黄金救援窗口每过去一小时，新闻里的数字就更接近真实的人生。",
-          "footerTakeaway": "观察点：国际救援通道、医疗系统承压和失联名单核实。"
-        },
-        "en-US": {
-          "categoryLabel": "Venezuela Quakes",
-          "headlineFact": "Twin earthquakes in Venezuela have killed at least 920 people, with more than 50,000 listed as unreachable",
-          "headlineView": "the harshest countdown is not in the headline but under the rubble",
-          "headlineFull": "Twin earthquakes in Venezuela have killed at least 920 people, with more than 50,000 listed as unreachable; the harshest countdown is not in the headline but under the rubble.",
-          "intro": "Venezuela was hit by 7.2 and 7.5 magnitude earthquakes roughly 160 kilometers west of Caracas. Officials reported at least 920 deaths and 3,360 injuries, while more than 50,000 people were registered as unreachable. International rescue teams arrived with drones, thermal imaging, and search dogs, while the United States said it would mobilize aid and ease some sanctions for relief work.",
-          "xiaziQuote": "In disaster coverage, the most important number is often how many people are still waiting to be found.",
-          "doudouQuote": "Every hour in the rescue window turns a statistic back into a life.",
-          "footerTakeaway": "Watch international rescue access, hospital pressure, and verification of missing-person lists."
-        }
-      },
-      "sources": [
-        {
-          "id": "792dcc21-f659-4d8d-81cb-a10f55817036",
-          "topicId": "2e91de10-1ef2-49a6-a5d5-320ad3b25c33",
-          "title": "Venezuela earthquakes live updates: death toll rises to at least 920",
-          "publisher": "ABC News / AP",
-          "url": "https://abcnews.com/International/live-updates/venezuela-earthquakes-updates/?id=134196335",
-          "publishedAt": "2026-06-26T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "ade0c1c6-85e8-41ce-bb58-b0aa1a6d8a08",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "europe-heatwave-deaths",
-      "rank": 5,
-      "category": "climate",
-      "region": "Europe",
-      "countryCodes": [
-        "FR",
-        "GB",
-        "NL",
-        "IT",
-        "DE",
-        "SE"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 86,
-      "storyId": "europe_heatwave_june_record_2026",
-      "storyStatus": "followup",
-      "followupDay": 4,
-      "informationIncrementScore": 78,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "欧洲热浪",
-          "headlineFact": "欧洲热浪继续向东南扩展，巴黎急救系统一天报告55例高温相关死亡",
-          "headlineView": "气候危机最直接的后果，是城市突然无法按原来的方式运转",
-          "headlineFull": "欧洲热浪继续向东南扩展，巴黎急救系统一天报告55例高温相关死亡; 气候危机最直接的后果，是城市突然无法按原来的方式运转.",
-          "intro": "欧洲多国继续处于极端高温警戒状态。巴黎气温达到40.9摄氏度，英国连续三天打破六月最高温纪录，荷兰发布大范围红色警报，意大利周末可能迎来40摄氏度高温。高温已经造成基础设施故障：德国高速公路路面热胀破裂，瑞典因铁轨弯曲导致货运列车脱轨，英国医院报告急救电话上升，部分关键医疗设备受到影响。",
-          "xiaziQuote": "热浪不是天气插曲，而是城市系统的一次压力测试。",
-          "doudouQuote": "当路面、铁轨和医院同时变脆，气候危机就不再是远方概念。",
-          "footerTakeaway": "观察点：急救容量、电网与交通韧性、学校和医院应急。"
-        },
-        "en-US": {
-          "categoryLabel": "Europe Heatwave",
-          "headlineFact": "Europe heat expanded southeast as Paris emergency services reported 55 heat-related deaths in one day",
-          "headlineView": "the climate crisis becomes concrete when cities stop working as designed",
-          "headlineFull": "Europe heat expanded southeast as Paris emergency services reported 55 heat-related deaths in one day; the climate crisis becomes concrete when cities stop working as designed.",
-          "intro": "Multiple European countries remained under extreme heat alerts. Paris reached 40.9 degrees Celsius, the United Kingdom broke June temperature records for three straight days, the Netherlands issued broad red alerts, and Italy faced the possibility of 40-degree heat over the weekend. Infrastructure strain spread as road surfaces buckled in Germany, rails warped in Sweden, emergency calls rose in Britain, and some hospital equipment was affected.",
-          "xiaziQuote": "A heatwave is not a weather footnote. It is a stress test for urban systems.",
-          "doudouQuote": "When roads, rails, and hospitals turn fragile together, climate risk is no longer abstract.",
-          "footerTakeaway": "Watch emergency capacity, grid and transport resilience, and hospital and school response."
-        }
-      },
-      "sources": [
-        {
-          "id": "c80c438f-9d45-4285-a1b8-51ff819080c9",
-          "topicId": "ade0c1c6-85e8-41ce-bb58-b0aa1a6d8a08",
-          "title": "Europe heatwave coverage",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/europe/",
-          "publishedAt": "2026-06-26T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "1aa13eec-d76d-481e-b33c-7dd707c08ac6",
-          "topicId": "ade0c1c6-85e8-41ce-bb58-b0aa1a6d8a08",
-          "title": "World Weather Attribution",
-          "publisher": "World Weather Attribution",
-          "url": "https://www.worldweatherattribution.org/",
-          "publishedAt": null,
-          "sourceType": "research",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "dbc90e90-860a-4839-b37c-571177607c98",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "east-asia-storms",
-      "rank": 6,
-      "category": "climate",
-      "region": "East Asia",
-      "countryCodes": [
-        "JP",
-        "TW"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 82,
-      "storyId": "east_asia_storms_june27_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 82,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "东亚风暴",
-          "headlineFact": "日本面临双热带风暴逼近，台湾强降雨导致部分铁路中断",
-          "headlineView": "供应链的脆弱，有时不是从制裁开始，而是从一场暴雨开始",
-          "headlineFull": "日本面临双热带风暴逼近，台湾强降雨导致部分铁路中断; 供应链的脆弱，有时不是从制裁开始，而是从一场暴雨开始.",
-          "intro": "日本西部和南部遭遇持续强降雨，并面临热带风暴“米克拉”和“海高斯”先后逼近。日本已发布高级别山体滑坡和洪水警告，约100万人面对疏散命令，超过200个航班取消，部分铁路和高速公路暂停运行。台湾强降雨导致部分地区停班停课，南部一段主要南北铁路中断，新竹也从中午起关闭办公室。",
-          "xiaziQuote": "极端天气不是孤立事件，它会沿着交通、制造和电力网络扩散。",
-          "doudouQuote": "一场暴雨能让铁路、航班和芯片城市同时放慢脚步。",
-          "footerTakeaway": "观察点：疏散执行、铁路恢复、半导体城市运行。"
-        },
-        "en-US": {
-          "categoryLabel": "East Asia Storms",
-          "headlineFact": "Japan faced twin tropical storms while heavy rain disrupted parts of Taiwan rail service",
-          "headlineView": "supply-chain fragility can begin with rainfall, not only sanctions",
-          "headlineFull": "Japan faced twin tropical storms while heavy rain disrupted parts of Taiwan rail service; supply-chain fragility can begin with rainfall, not only sanctions.",
-          "intro": "Western and southern Japan faced persistent heavy rain as tropical storms Mitag and Haigos approached in sequence. Authorities issued high-level landslide and flood warnings, roughly one million people faced evacuation orders, more than 200 flights were canceled, and some railways and highways were suspended. In Taiwan, heavy rain shut offices and schools in some areas, interrupted a major north-south railway segment, and closed offices in Hsinchu, a key semiconductor hub.",
-          "xiaziQuote": "Extreme weather spreads through transport, manufacturing, and power networks.",
-          "doudouQuote": "One storm can slow railways, flights, and chip cities at the same time.",
-          "footerTakeaway": "Watch evacuation execution, rail restoration, and semiconductor-city operations."
-        }
-      },
-      "sources": [
-        {
-          "id": "20ff538b-de24-4395-b14e-6663987be14e",
-          "topicId": "dbc90e90-860a-4839-b37c-571177607c98",
-          "title": "Asia weather and storm coverage",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/",
-          "publishedAt": "2026-06-26T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "e67b08ad-3787-4be7-aca2-718f27f18101",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "israel-lebanon-framework",
-      "rank": 7,
-      "category": "international",
-      "region": "Middle East",
-      "countryCodes": [
-        "IL",
-        "LB",
+        "BH",
         "US"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "hormuz_bahrain_ship_attack_june28_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中东航道",
+          "headlineFact": "伊朗无人机袭击巴林并有船只在海峡遇袭",
+          "headlineView": "霍尔木兹海峡每一次紧张，都会把地区冲突变成全球账单",
+          "headlineFull": "伊朗无人机袭击巴林并有船只在海峡遇袭; 霍尔木兹海峡每一次紧张，都会把地区冲突变成全球账单.",
+          "intro": "在美国空袭伊朗目标后，伊朗无人机袭击巴林，一艘船只也在海峡附近遭到打击。巴林是美国第五舰队所在地，霍尔木兹海峡又是全球能源运输关键通道，因此局势升级不只是中东安全问题，也会传导到油价、保险、航运和各国通胀预期。",
+          "xiaziQuote": "和平从来不只是在谈判桌上，也在航道、保险单和每一艘商船的通行风险里。",
+          "doudouQuote": "油轮一紧张，全世界的油价表情都跟着紧张。",
+          "footerTakeaway": "关键词：霍尔木兹、巴林、无人机、能源航道、油价风险。"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East Shipping Lane",
+          "headlineFact": "Iranian drones attacked Bahrain and a ship was struck near the strait",
+          "headlineView": "every flare-up in Hormuz turns a regional fight into a global bill",
+          "headlineFull": "Iranian drones attacked Bahrain and a ship was struck near the strait; every flare-up in Hormuz turns a regional fight into a global bill.",
+          "intro": "After U.S. strikes on Iranian targets, Iranian drones attacked Bahrain and a ship was hit near the strait. Bahrain hosts the U.S. Fifth Fleet, while the Strait of Hormuz remains a core artery for global energy flows. Escalation there is not only a Middle East security story; it moves through oil prices, insurance, shipping, and inflation expectations.",
+          "xiaziQuote": "Peace is not only negotiated at tables. It is tested in shipping lanes, insurance contracts, and every commercial vessel's risk premium.",
+          "doudouQuote": "When tankers get nervous, oil prices get nervous too.",
+          "footerTakeaway": "Keywords: Hormuz, Bahrain, drones, energy shipping, oil risk."
+        }
+      },
+      "sources": [
+        {
+          "id": "55cf93ac-a393-4ec0-8def-1185b6edce51",
+          "topicId": "d88f71f6-fdba-440b-aff0-37495c875cfe",
+          "title": "Iranian drones attack Bahrain and a ship is struck in the strait after US airstrikes",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/hub/middle-east",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2ff7fb0d-b46f-44c2-8a2a-ab77530e9671",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "venezuela-earthquake-rescue",
+      "rank": 4,
+      "category": "disaster",
+      "region": "Latin America",
+      "countryCodes": [
+        "VE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "venezuela_earthquake_rescue_june28_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "委内瑞拉地震",
+          "headlineFact": "委内瑞拉地震死亡人数升至1430人",
+          "headlineView": "灾害真正考验的不是震级，而是救援体系能不能跑赢时间",
+          "headlineFull": "委内瑞拉地震死亡人数升至1430人; 灾害真正考验的不是震级，而是救援体系能不能跑赢时间.",
+          "intro": "委内瑞拉地震后的死亡人数升至1430人，救援仍在废墟、医院、电力和交通中展开。灾害发生后，黄金救援窗口迅速缩短，真正决定伤亡规模的，除了地震本身，还有建筑质量、城市应急能力、医疗系统承压和国际援助能否快速抵达。",
+          "xiaziQuote": "自然灾害是瞬间发生的，治理能力却是在平时一点点攒出来的。",
+          "doudouQuote": "地震摇的是地面，最后被测试的是整个城市的底盘。",
+          "footerTakeaway": "关键词：地震、黄金救援、基础设施、医疗压力、城市韧性。"
+        },
+        "en-US": {
+          "categoryLabel": "Venezuela Earthquake",
+          "headlineFact": "Venezuela's earthquake death toll rose to 1,430",
+          "headlineView": "disasters test not only magnitude, but whether response systems can outrun time",
+          "headlineFull": "Venezuela's earthquake death toll rose to 1,430; disasters test not only magnitude, but whether response systems can outrun time.",
+          "intro": "Venezuela's earthquake death toll rose to 1,430 as rescue work continued across rubble, hospitals, power systems, and transport routes. After a major quake, the rescue window narrows quickly. The final human cost depends not only on the shaking, but on building quality, emergency capacity, medical strain, and whether aid can arrive fast enough.",
+          "xiaziQuote": "A natural disaster happens in an instant. Governance capacity is built long before the instant arrives.",
+          "doudouQuote": "The quake shakes the ground. What gets tested is the city's foundation.",
+          "footerTakeaway": "Keywords: earthquake, rescue window, infrastructure, medical pressure, urban resilience."
+        }
+      },
+      "sources": [
+        {
+          "id": "859044ff-2301-4dee-b8e3-c3d566ec364d",
+          "topicId": "2ff7fb0d-b46f-44c2-8a2a-ab77530e9671",
+          "title": "Frustration grows in Venezuela as earthquake death toll reaches 1,430",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/hub/latin-america",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f507458f-257a-4e8b-b1f8-f4be0c738fa5",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "europe-heatwave-june-record",
+      "rank": 5,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "IT",
+        "GB",
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "europe_heatwave_june_records_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "欧洲多国刷新六月高温纪录",
+          "headlineView": "气候变化最现实的一面，是城市突然不能按旧规则运转",
+          "headlineFull": "欧洲多国刷新六月高温纪录; 气候变化最现实的一面，是城市突然不能按旧规则运转.",
+          "intro": "欧洲新一轮热浪继续扩散，多地刷新六月气温纪录，法国、意大利、英国等地的学校、电力、铁路和医疗系统都面临压力。极端高温不再只是天气新闻，而是城市运行问题：老人护理、儿童上课、工人户外作业、空调用电和公共交通都可能被同时推到边缘。",
+          "xiaziQuote": "热浪不是温度计上的数字，而是城市服务能力的压力测试。",
+          "doudouQuote": "以前是天热多喝水，现在是城市也得多备几套应急预案。",
+          "footerTakeaway": "关键词：高温纪录、学校关闭、电力压力、公共健康、气候适应。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Heatwave",
+          "headlineFact": "Several European countries broke June heat records",
+          "headlineView": "the practical face of climate change is a city suddenly unable to run by old rules",
+          "headlineFull": "Several European countries broke June heat records; the practical face of climate change is a city suddenly unable to run by old rules.",
+          "intro": "Europe's latest heatwave kept spreading, with June temperature records broken in several places and schools, power grids, rail systems, and hospitals under pressure in France, Italy, Britain, and beyond. Extreme heat is no longer only weather news. It is an operations story about elder care, classrooms, outdoor work, air-conditioning demand, and public transport all being pushed at once.",
+          "xiaziQuote": "A heatwave is not just a number on a thermometer. It is a stress test for urban services.",
+          "doudouQuote": "It used to be 'drink more water.' Now the city itself needs backup plans.",
+          "footerTakeaway": "Keywords: heat records, school closures, power stress, public health, climate adaptation."
+        }
+      },
+      "sources": [
+        {
+          "id": "470d05e6-ce5b-4f80-aafc-d8a07b53b89f",
+          "topicId": "f507458f-257a-4e8b-b1f8-f4be0c738fa5",
+          "title": "Europe heatwave coverage",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "52435eaa-7eac-49dd-ab3e-8cad9a994f41",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "ukraine-volgograd-strike",
+      "rank": 6,
+      "category": "conflict",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "ukraine_volgograd_industrial_strike_june28_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌局势",
+          "headlineFact": "乌克兰打击俄罗斯伏尔加格勒工业设施",
+          "headlineView": "战争越打到后方，前线和供应链的边界就越模糊",
+          "headlineFull": "乌克兰打击俄罗斯伏尔加格勒工业设施; 战争越打到后方，前线和供应链的边界就越模糊.",
+          "intro": "乌克兰袭击俄罗斯伏尔加格勒一处工业设施，俄方同日继续发动无人机袭击并造成伤亡。俄乌战争的重心越来越多地延伸到能源、军工、物流和城市基础设施。远程打击的目的不只是制造战术损失，也是削弱对方持续作战的工业底盘。",
+          "xiaziQuote": "现代战争打的不只是阵地，也是谁能让自己的系统继续转下去。",
+          "doudouQuote": "前线在地图上，后勤在账本和工厂里。",
+          "footerTakeaway": "关键词：伏尔加格勒、工业设施、无人机、远程打击、战争后勤。"
+        },
+        "en-US": {
+          "categoryLabel": "Russia-Ukraine War",
+          "headlineFact": "Ukraine struck an industrial facility in Russia's Volgograd region",
+          "headlineView": "as war moves deeper into the rear, the line between frontline and supply chain blurs",
+          "headlineFull": "Ukraine struck an industrial facility in Russia's Volgograd region; as war moves deeper into the rear, the line between frontline and supply chain blurs.",
+          "intro": "Ukraine struck an industrial facility in Russia's Volgograd region, while Russia continued drone attacks that caused casualties. The war is increasingly reaching energy assets, military industry, logistics, and urban infrastructure. Long-range strikes are meant not only to inflict tactical damage, but to weaken the industrial base that keeps the other side fighting.",
+          "xiaziQuote": "Modern war is not only about positions. It is about whose system keeps running.",
+          "doudouQuote": "The frontline is on the map; logistics live in factories and ledgers.",
+          "footerTakeaway": "Keywords: Volgograd, industrial facility, drones, long-range strikes, war logistics."
+        }
+      },
+      "sources": [
+        {
+          "id": "76c7a5a2-0fe3-4a42-8bd2-bba16cffee18",
+          "topicId": "52435eaa-7eac-49dd-ab3e-8cad9a994f41",
+          "title": "Ukraine strikes industrial facility in Russia's Volgograd as Russian drone attack kills 1",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/hub/russia-ukraine",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "23847e8c-87e5-4c4b-a134-cbf3bc975545",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "serbia-vucic-resignation",
+      "rank": 7,
+      "category": "politics",
+      "region": "Europe",
+      "countryCodes": [
+        "RS"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 86,
+      "storyId": "serbia_vucic_resignation_election_june28_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 86,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "塞尔维亚政局",
+          "headlineFact": "武契奇称将在数周内辞去总统职务并提前选举",
+          "headlineView": "真正的转折不在于谁离开职位，而在于权力结构是否改变",
+          "headlineFull": "武契奇称将在数周内辞去总统职务并提前选举; 真正的转折不在于谁离开职位，而在于权力结构是否改变.",
+          "intro": "塞尔维亚总统武契奇表示将在数周内辞职，并推动提前选举。此前塞尔维亚经历长期反政府抗议，抗议与诺维萨德火车站坍塌事故及腐败指控有关。武契奇仍表示会帮助执政党赢得选举，外界关注他是否会通过其他职位继续保持影响力。",
+          "xiaziQuote": "政治人物离场不等于系统改写，关键要看规则、责任和权力通道有没有变化。",
+          "doudouQuote": "换座位不难，难的是别把同一张桌子又搬回来。",
+          "footerTakeaway": "关键词：塞尔维亚、武契奇、提前选举、抗议、权力结构。"
+        },
+        "en-US": {
+          "categoryLabel": "Serbian Politics",
+          "headlineFact": "Vucic said he would resign within weeks and seek an early election",
+          "headlineView": "the real turn is not who leaves office, but whether the power structure changes",
+          "headlineFull": "Vucic said he would resign within weeks and seek an early election; the real turn is not who leaves office, but whether the power structure changes.",
+          "intro": "Serbian President Aleksandar Vucic said he would resign within weeks and push for an early election. Serbia has faced sustained anti-government protests linked to the Novi Sad railway station collapse and corruption allegations. Vucic still said he would help the ruling party win, leaving observers focused on whether he could retain influence through another role.",
+          "xiaziQuote": "A politician leaving office does not automatically rewrite the system. The question is whether rules, accountability, and power channels change.",
+          "doudouQuote": "Changing seats is easy. The hard part is not carrying the same table back in.",
+          "footerTakeaway": "Keywords: Serbia, Vucic, early election, protests, power structure."
+        }
+      },
+      "sources": [
+        {
+          "id": "e6d42ebf-a4d7-4303-a5f8-acd400d9b04e",
+          "topicId": "23847e8c-87e5-4c4b-a134-cbf3bc975545",
+          "title": "Serbia's populist President Vucic says he will resign within weeks as election nears",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/hub/serbia",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "bf065149-0d91-4c1f-adc6-426f16c8e2cd",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "australia-child-social-ban",
+      "rank": 8,
+      "category": "technology",
+      "region": "Asia-Pacific",
+      "countryCodes": [
+        "AU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
       "scoreTotal": 84,
-      "storyId": "israel_lebanon_framework_june27_2026",
+      "storyId": "australia_child_social_media_penalties_june28_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 84,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "以黎框架协议",
-          "headlineFact": "以色列与黎巴嫩签署框架协议，目标包括解除真主党武装",
-          "headlineView": "真正困难的不是签字，而是谁撤出、谁接管、谁监督",
-          "headlineFull": "以色列与黎巴嫩签署框架协议，目标包括解除真主党武装; 真正困难的不是签字，而是谁撤出、谁接管、谁监督.",
-          "intro": "美国国务卿鲁比奥表示，以色列与黎巴嫩达成的框架协议，将建立恢复黎巴嫩主权、解除真主党武装并拆除其基础设施的流程。协议还将创建一个由美国协助的黎巴嫩三方军事协调小组。以色列方面强调，在真主党被解除武装、不再构成威胁前，以军仍将留在南黎安全区。",
-          "xiaziQuote": "框架协议解决的是方向，真正决定成败的是执行细节。",
-          "doudouQuote": "停火之后最难的问题，往往是枪放在哪里、人撤到哪里。",
-          "footerTakeaway": "观察点：解除武装路线图、南黎安全区、美国协调机制。"
+          "categoryLabel": "未成年人网络保护",
+          "headlineFact": "澳大利亚加码儿童社交媒体禁令，科技公司最高罚款翻倍",
+          "headlineView": "监管的难点不是写下一条禁令，而是让平台真的执行它",
+          "headlineFull": "澳大利亚加码儿童社交媒体禁令，科技公司最高罚款翻倍; 监管的难点不是写下一条禁令，而是让平台真的执行它.",
+          "intro": "澳大利亚政府宣布，将科技公司系统性违反儿童社交媒体禁令的最高罚款从4950万澳元提高到9900万澳元，并扩大网络安全监管机构的信息获取权。监管机构可要求平台证明其如何阻止16岁以下儿童开设账号。儿童网络保护的下一步，已经从“平台应该做什么”变成“平台有没有真的做到”。",
+          "xiaziQuote": "数字监管进入执行阶段后，最值钱的不是口号，而是可核查的证据。",
+          "doudouQuote": "年龄验证这事，难点不是问几岁，是平台别装不知道。",
+          "footerTakeaway": "关键词：儿童保护、社交媒体、平台责任、罚款、年龄验证。"
         },
         "en-US": {
-          "categoryLabel": "Israel-Lebanon Framework",
-          "headlineFact": "Israel and Lebanon signed a framework agreement that includes a process for disarming Hezbollah",
-          "headlineView": "the hard part is not the signature but who withdraws, who takes over, and who supervises",
-          "headlineFull": "Israel and Lebanon signed a framework agreement that includes a process for disarming Hezbollah; the hard part is not the signature but who withdraws, who takes over, and who supervises.",
-          "intro": "U.S. Secretary of State Marco Rubio said the Israel-Lebanon framework agreement would create a process to restore Lebanese sovereignty, disarm Hezbollah, and dismantle its infrastructure. It would also establish a U.S.-assisted Lebanese military coordination group. Israel said its forces would remain in a southern Lebanon security zone until Hezbollah is disarmed and no longer poses a threat.",
-          "xiaziQuote": "A framework agreement settles direction. Execution decides whether it matters.",
-          "doudouQuote": "After a ceasefire, the hardest questions are where the guns go and who leaves first.",
-          "footerTakeaway": "Watch the disarmament roadmap, the southern Lebanon security zone, and U.S. coordination."
+          "categoryLabel": "Child Online Safety",
+          "headlineFact": "Australia doubled maximum penalties for child social-media ban violations",
+          "headlineView": "the hard part of regulation is not writing a ban, but making platforms enforce it",
+          "headlineFull": "Australia doubled maximum penalties for child social-media ban violations; the hard part of regulation is not writing a ban, but making platforms enforce it.",
+          "intro": "Australia said it would raise maximum penalties for systemic violations of its child social-media ban from A$49.5 million to A$99 million and expand the eSafety Commissioner's information-gathering powers. Regulators can ask platforms to prove how they stop children under 16 from opening accounts. The next phase of child online protection is shifting from what platforms promise to what they can prove.",
+          "xiaziQuote": "Once digital regulation enters enforcement, the valuable thing is not a slogan but verifiable evidence.",
+          "doudouQuote": "The hard part of age checks is not asking a birthday. It is stopping platforms from pretending not to know.",
+          "footerTakeaway": "Keywords: child safety, social media, platform responsibility, penalties, age verification."
         }
       },
       "sources": [
         {
-          "id": "08102eb3-40f5-4cc1-89bd-308e4343994e",
-          "topicId": "e67b08ad-3787-4be7-aca2-718f27f18101",
-          "title": "Israel and Lebanon coverage",
+          "id": "46ebc305-bb17-4457-8155-9b352c616d7f",
+          "topicId": "bf065149-0d91-4c1f-adc6-426f16c8e2cd",
+          "title": "Australia child social media ban coverage",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/middle-east/",
-          "publishedAt": "2026-06-26T00:00:00Z",
+          "url": "https://www.reuters.com/world/asia-pacific/",
+          "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
-        },
-        {
-          "id": "6c2cdd90-0963-4bbc-b5da-e9b347219689",
-          "topicId": "e67b08ad-3787-4be7-aca2-718f27f18101",
-          "title": "Associated Press Middle East coverage",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/hub/middle-east",
-          "publishedAt": null,
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
         }
       ]
     },
     {
-      "id": "b1a3192a-3cf3-4f75-bc84-f96f66ae8694",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "ai-model-regulation",
-      "rank": 8,
-      "category": "technology",
+      "id": "8aa2d7bb-f79a-421d-83ad-391d4799c1cb",
+      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "slug": "spacex-nasdaq100-inclusion",
+      "rank": 9,
+      "category": "business",
       "region": "United States",
       "countryCodes": [
         "US"
@@ -489,125 +502,45 @@
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 86,
-      "storyId": "ai_model_regulation_openai_gpt56_june27_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 86,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "AI模型监管",
-          "headlineFact": "OpenAI推迟GPT-5.6公开发布，美国政府要求先行接入前沿模型",
-          "headlineView": "最先进的AI发布按钮，正在越来越像国家安全审批表",
-          "headlineFull": "OpenAI推迟GPT-5.6公开发布，美国政府要求先行接入前沿模型; 最先进的AI发布按钮，正在越来越像国家安全审批表.",
-          "intro": "OpenAI表示，应美国政府要求，将推迟GPT-5.6的完整公开发布，初期只向少数经过审查的合作伙伴开放，并将相关合作伙伴信息提供给美国 authorities。美国本月早些时候签署行政令，建立自愿框架，让AI开发者在向可信合作伙伴发布前，向政府提供前沿模型最多30天的早期接入。OpenAI同时警告，这种政府接入和监督不应成为永久标准。",
-          "xiaziQuote": "前沿模型发布正在从产品节奏，变成安全、外交和产业政策的交叉点。",
-          "doudouQuote": "当模型发布要排队等审批，AI竞争就不只是技术竞赛了。",
-          "footerTakeaway": "观察点：GPT-5.6公开时间、政府早期接入边界、伙伴名单审查。"
-        },
-        "en-US": {
-          "categoryLabel": "AI Model Regulation",
-          "headlineFact": "OpenAI delayed the wider GPT-5.6 rollout after a U.S. government request for early access",
-          "headlineView": "the release button for frontier AI is starting to resemble a national-security review form",
-          "headlineFull": "OpenAI delayed the wider GPT-5.6 rollout after a U.S. government request for early access; the release button for frontier AI is starting to resemble a national-security review form.",
-          "intro": "OpenAI said it would delay a full public launch of GPT-5.6 at the U.S. government request, initially limiting access to a small group of vetted partners and sharing partner details with authorities. A recent executive order created a voluntary framework for AI developers to provide the government with up to 30 days of early access to covered frontier models before release to trusted partners. OpenAI warned that such access and oversight should not become a permanent norm.",
-          "xiaziQuote": "Frontier model releases are becoming an intersection of product timing, security, diplomacy, and industrial policy.",
-          "doudouQuote": "When a model launch waits for review, AI competition is no longer only a technical race.",
-          "footerTakeaway": "Watch GPT-5.6 public timing, the limits of government early access, and partner approval."
-        }
-      },
-      "sources": [
-        {
-          "id": "8abd7730-fae8-4a29-804c-1077a660fde2",
-          "topicId": "b1a3192a-3cf3-4f75-bc84-f96f66ae8694",
-          "title": "OpenAI says access to its new GPT-5.6 model is limited at the US government request",
-          "publisher": "Business Insider",
-          "url": "https://www.businessinsider.com/openai-gpt-5-6-limited-preview-us-government-ai-security-2026-6",
-          "publishedAt": "2026-06-26T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "e75b3242-db25-4360-b0df-13759c139937",
-          "topicId": "b1a3192a-3cf3-4f75-bc84-f96f66ae8694",
-          "title": "OpenAI staggers AI model release after Trump administration request",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/jun/26/openai-ai-model-release-trump-us-sam-altman-gpt-anthropic-mythos",
-          "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "9b910a6e-2e62-46be-9859-5dc90abc6f4e",
-      "issueId": "f07b8c55-1cc0-48b1-91f8-f481a2fa2bf1",
-      "slug": "us-china-tech-controls",
-      "rank": 9,
-      "category": "technology",
-      "region": "United States / China",
-      "countryCodes": [
-        "US",
-        "CN"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
       "scoreTotal": 83,
-      "storyId": "us_china_tech_controls_import_ban_june27_2026",
+      "storyId": "spacex_nasdaq100_inclusion_june28_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 83,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "中美科技管制",
-          "headlineFact": "美国将禁止进口部分中国厂商设备，科技管制从芯片延伸到通信与安防硬件",
-          "headlineView": "真正的脱钩，不是少买一件产品，而是重新划定谁能进入基础设施",
-          "headlineFull": "美国将禁止进口部分中国厂商设备，科技管制从芯片延伸到通信与安防硬件; 真正的脱钩，不是少买一件产品，而是重新划定谁能进入基础设施.",
-          "intro": "美国联邦通信委员会表示，将禁止进口一批中国制造商的设备。美国此前已在2022年禁止审批华为、中兴、海能达、海康威视、大华等公司的部分新电信和视频监控设备，理由是这些企业被列为存在美国国家安全风险。新的进口限制显示，中美科技竞争已经从先进芯片和AI模型，延伸到通信设备、视频监控和基础设施入口。",
-          "xiaziQuote": "科技管制的边界正在从芯片车间，扩大到基础设施入口。",
-          "doudouQuote": "设备清单看起来很枯燥，但它决定谁能接入一座城市的神经系统。",
-          "footerTakeaway": "观察点：7月执行范围、已授权设备处理、企业替代采购。"
+          "categoryLabel": "资本市场",
+          "headlineFact": "SpaceX将被纳入纳斯达克100指数，预计带来数十亿美元被动资金买入",
+          "headlineView": "资本市场有时不是在奖励盈利，而是在提前定价想象力",
+          "headlineFull": "SpaceX将被纳入纳斯达克100指数，预计带来数十亿美元被动资金买入; 资本市场有时不是在奖励盈利，而是在提前定价想象力.",
+          "intro": "纳斯达克确认，SpaceX将于7月7日被纳入纳斯达克100指数。跟踪该指数的ETF和共同基金将被动买入相关股票，摩根大通估计可能带来约43亿美元资金流入。指数规则正在适应新一代超大型科技公司，但争议也在于市场是否过早把火箭、卫星、AI和未来基础设施的想象力打包进价格。",
+          "xiaziQuote": "指数纳入不是商业成功的终点，而是资本市场开始强制所有人参与定价。",
+          "doudouQuote": "被动资金一点都不被动，它只是按规则很主动地买。",
+          "footerTakeaway": "关键词：SpaceX、纳斯达克100、被动资金、指数规则、科技估值。"
         },
         "en-US": {
-          "categoryLabel": "U.S.-China Tech Controls",
-          "headlineFact": "The United States moved to ban imports of some Chinese-made equipment",
-          "headlineView": "decoupling is less about one product than about who can enter infrastructure",
-          "headlineFull": "The United States moved to ban imports of some Chinese-made equipment; decoupling is less about one product than about who can enter infrastructure.",
-          "intro": "The Federal Communications Commission said it would bar imports of equipment from a group of Chinese manufacturers. Washington had already banned approvals for some new telecom and video-surveillance equipment from Huawei, ZTE, Hytera, Hikvision, Dahua, and others in 2022, citing national-security risks. The new import restrictions show U.S.-China technology competition expanding from advanced chips and AI models into communications gear, surveillance hardware, and infrastructure gateways.",
-          "xiaziQuote": "The boundary of technology controls is moving from chip fabs toward infrastructure access points.",
-          "doudouQuote": "An equipment list looks dry, but it decides who can plug into a city nervous system.",
-          "footerTakeaway": "Watch the July enforcement scope, treatment of already authorized equipment, and replacement procurement."
+          "categoryLabel": "Capital Markets",
+          "headlineFact": "SpaceX will join the Nasdaq-100, potentially drawing billions in passive buying",
+          "headlineView": "markets sometimes price imagination before they reward profits",
+          "headlineFull": "SpaceX will join the Nasdaq-100, potentially drawing billions in passive buying; markets sometimes price imagination before they reward profits.",
+          "intro": "Nasdaq confirmed that SpaceX will join the Nasdaq-100 on July 7. ETFs and mutual funds tracking the index will need to buy the stock, with JPMorgan estimating about $4.3 billion of passive inflows. Index rules are adapting to a new generation of giant technology companies, but the debate is whether markets are pricing rockets, satellites, AI, and future infrastructure too early.",
+          "xiaziQuote": "Index inclusion is not the end of commercial success. It is the point when markets force everyone to price the story.",
+          "doudouQuote": "Passive money is not that passive. It buys very actively when the rules say so.",
+          "footerTakeaway": "Keywords: SpaceX, Nasdaq-100, passive flows, index rules, tech valuation."
         }
       },
       "sources": [
         {
-          "id": "cf6c95b1-2b5f-492f-ad13-0f269a6aa52a",
-          "topicId": "9b910a6e-2e62-46be-9859-5dc90abc6f4e",
-          "title": "FCC covered list import restrictions",
-          "publisher": "Federal Communications Commission",
-          "url": "https://docs.fcc.gov/public/attachments/DOC-420034A1.pdf",
-          "publishedAt": "2026-06-26T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "05afce63-cc63-407f-b364-686eb8cff3ef",
-          "topicId": "9b910a6e-2e62-46be-9859-5dc90abc6f4e",
-          "title": "FCC banning imports of new Chinese-made routers, citing security risks",
-          "publisher": "Yahoo Finance / Reuters",
-          "url": "https://ca.finance.yahoo.com/news/fcc-banning-imports-chinese-made-211509612.html",
-          "publishedAt": null,
+          "id": "bdc8e606-9d5c-4af4-8c9c-9fba5ce9f41a",
+          "topicId": "8aa2d7bb-f79a-421d-83ad-391d4799c1cb",
+          "title": "SpaceX Nasdaq-100 inclusion coverage",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/",
+          "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     }
