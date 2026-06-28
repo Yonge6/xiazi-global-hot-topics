@@ -1,73 +1,67 @@
 {
-  "id": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-  "slug": "2026-06-28",
-  "issueDate": "2026-06-28",
-  "beijingTimestamp": "2026-06-28T05:05:00+08:00",
-  "gmtTimestamp": "2026-06-27T21:05:00Z",
+  "id": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+  "slug": "2026-06-29",
+  "issueDate": "2026-06-29",
+  "beijingTimestamp": "2026-06-29T05:00:00+08:00",
+  "gmtTimestamp": "2026-06-28T21:00:00Z",
   "slotHour": 5,
   "status": "published",
-  "assetVersion": "20260628-chatgpt55-proext-uncompressed-v3",
-  "featuredTopicId": "ca00d33b-198f-4d48-a5f2-0c4670c4404f",
+  "assetVersion": "20260629-chatgpt-tinypng-0535",
+  "featuredTopicId": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
   "topics": [
     {
-      "id": "ca00d33b-198f-4d48-a5f2-0c4670c4404f",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "id": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
       "slug": "overview",
       "rank": 1,
       "category": "international",
       "region": "Global",
       "countryCodes": [
-        "ES",
-        "UY",
-        "CV",
-        "SA",
-        "BE",
-        "NZ",
-        "EG",
-        "IR",
-        "BH",
-        "VE",
+        "CA",
+        "ZA",
         "EU",
+        "VE",
+        "US",
+        "IR",
         "UA",
         "RU",
-        "RS",
-        "AU",
-        "US"
+        "SA",
+        "LB"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "daily_global_overview_june28_2026",
+      "storyId": "daily_global_overview_june29_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "世界杯小国继续创造历史，霍尔木兹海峡再度紧张，欧洲热浪与委内瑞拉地震同时考验治理能力",
-          "headlineView": "世界不是缺少新闻，而是缺少真正看懂新闻的耐心",
-          "headlineFull": "世界杯小国继续创造历史，霍尔木兹海峡再度紧张，欧洲热浪与委内瑞拉地震同时考验治理能力; 世界不是缺少新闻，而是缺少真正看懂新闻的耐心.",
-          "intro": "过去一天，世界杯小组赛继续收官：西班牙1:0击败乌拉圭并头名出线，佛得角以三连平晋级32强，比利时5:1大胜新西兰，埃及1:1战平伊朗后晋级。球场之外，霍尔木兹海峡再度出现船只遇袭和美伊互相打击，委内瑞拉地震死亡人数升至1430人，欧洲多国刷新高温纪录，乌克兰继续打击俄罗斯军工与能源设施，塞尔维亚总统武契奇宣布将辞职并提前选举，澳大利亚加码儿童社交媒体禁令，SpaceX即将被纳入纳斯达克100指数。",
-          "xiaziQuote": "真正值得关注的，不只是今天发生了什么，而是世界同时把哪些系统推到压力边缘。",
-          "doudouQuote": "今天从球场到海峡，从灾害救援到资本市场，关键词都是压力测试。",
-          "footerTakeaway": "今日关键词：小国晋级、航道风险、灾害救援、极端高温、远程战争、提前选举、儿童网络保护、资本市场重排。"
+          "headlineFact": "世界杯进入淘汰赛，加拿大绝杀晋级，场外世界也在高温、地震、战争与AI泡沫压力下继续加速",
+          "headlineView": "世界的变化，往往同时发生在球场、灾区、海峡和市场里",
+          "headlineFull": "世界杯进入淘汰赛，加拿大绝杀晋级，场外世界也在高温、地震、战争与AI泡沫压力下继续加速; 世界的变化，往往同时发生在球场、灾区、海峡和市场里.",
+          "intro": "过去24小时，世界杯从小组赛正式切入淘汰赛，加拿大1:0击败南非，拿下队史世界杯淘汰赛首胜；欧洲热浪继续扩大，法国报告约1000例超额死亡；委内瑞拉双震救援仍在黄金窗口外艰难推进，死亡人数已超过1400人。与此同时，美伊在海湾继续交火，俄乌互袭能源与城市目标，沙特阿美直升机坠毁造成14人死亡，国际清算银行警告全球债务、金融脆弱性与AI投资热潮正在叠加风险，以色列则称摧毁了黎巴嫩南部真主党地下设施。",
+          "xiaziQuote": "真正值得关注的，是这些事件一起把哪些系统推到压力边缘。",
+          "doudouQuote": "今天从球场到海峡，从灾区到市场，关键词都是压力测试。",
+          "footerTakeaway": "今日关键词：淘汰赛、极端高温、地震救援、海湾升级、能源安全、AI泡沫、地下战场。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "World Cup underdogs kept making history, Hormuz tightened again, and heat plus earthquake response tested governance",
-          "headlineView": "the world does not lack news, it lacks patience to understand what the news means",
-          "headlineFull": "World Cup underdogs kept making history, Hormuz tightened again, and heat plus earthquake response tested governance; the world does not lack news, it lacks patience to understand what the news means.",
-          "intro": "Over the past day, the World Cup group stage kept closing: Spain beat Uruguay 1-0 and topped the group, Cape Verde advanced after three draws, Belgium beat New Zealand 5-1, and Egypt moved on after a 1-1 draw with Iran. Beyond the pitch, the Strait of Hormuz saw fresh attacks and retaliation, Venezuela's earthquake toll rose to 1,430, Europe kept breaking heat records, Ukraine struck Russian military and energy infrastructure, Serbia's President Aleksandar Vucic said he would resign and call an early election, Australia raised penalties for child social-media violations, and SpaceX was set to join the Nasdaq-100.",
-          "xiaziQuote": "The point is not only the event list, but which systems are being pushed toward the edge at the same time.",
-          "doudouQuote": "From stadiums to straits, from rescue work to markets, today's shared word is stress test.",
-          "footerTakeaway": "Keywords: underdog qualification, shipping risk, disaster rescue, heat, long-range war, early elections, child online safety, and market reshuffling."
+          "headlineFact": "The World Cup entered the knockout stage, Canada advanced late, and heat, quakes, war and AI-market risks kept accelerating",
+          "headlineView": "global change often appears at once on pitches, in disaster zones, across straits and inside markets",
+          "headlineFull": "The World Cup entered the knockout stage, Canada advanced late, and heat, quakes, war and AI-market risks kept accelerating; global change often appears at once on pitches, in disaster zones, across straits and inside markets.",
+          "intro": "Over the past 24 hours, the World Cup moved from group-stage closure into the knockout round, with Canada beating South Africa 1-0 for its first knockout-stage win. Europe’s heatwave widened, France reported around 1,000 excess deaths, and Venezuela’s quake response remained under pressure after the death toll passed 1,400. At the same time, the United States and Iran kept trading blows in the Gulf, Russia and Ukraine struck energy and city targets, a Saudi Aramco helicopter crash killed 14, the BIS warned about debt, financial fragility and AI-investment risk, and Israel said it destroyed Hezbollah underground infrastructure in southern Lebanon.",
+          "xiaziQuote": "The real signal is which systems are being pushed toward the edge at the same time.",
+          "doudouQuote": "From stadiums to straits, disaster zones to markets, today’s shared phrase is stress test.",
+          "footerTakeaway": "Keywords: knockouts, extreme heat, quake rescue, Gulf escalation, energy security, AI risk and underground conflict."
         }
       },
       "sources": [
         {
-          "id": "d97b0848-eec5-45ec-a05c-b77ef0ec4f01",
-          "topicId": "ca00d33b-198f-4d48-a5f2-0c4670c4404f",
+          "id": "6298ac85-d0ac-47e9-8abd-6886bd30a8f6",
+          "topicId": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
           "title": "Daily ChatGPT hotspot source",
           "publisher": "ChatGPT",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -80,466 +74,461 @@
       ]
     },
     {
-      "id": "5e8ae009-b920-4466-bb02-28287e22a352",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-      "slug": "world-cup-june28-group-finale",
+      "id": "87c2a4dc-31d5-415a-a8e1-9eeb3a8c97f5",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+      "slug": "world-cup-june29-canada-south-africa",
       "rank": 2,
       "category": "sports",
-      "region": "Global",
+      "region": "North America",
       "countryCodes": [
-        "ES",
-        "UY",
-        "CV",
-        "SA",
-        "NZ",
-        "BE",
-        "EG",
-        "IR"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "world_cup_june28_group_finale_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 95,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "世界杯日报",
-          "headlineFact": "西班牙头名晋级，佛得角三连平出线",
-          "headlineView": "世界杯真正动人的地方，是强队兑现实力，也是小国第一次被全世界记住",
-          "headlineFull": "西班牙头名晋级，佛得角三连平出线; 世界杯真正动人的地方，是强队兑现实力，也是小国第一次被全世界记住.",
-          "intro": "北京时间6月27日05:00至6月28日05:00，世界杯共结束4场比赛：乌拉圭0:1西班牙、佛得角0:0沙特阿拉伯、新西兰1:5比利时、埃及1:1伊朗。西班牙凭借巴埃纳的进球击败乌拉圭并进入淘汰赛；佛得角三连平出线，将在32强面对阿根廷；比利时大胜新西兰，埃及则在与伊朗的平局后晋级。",
-          "xiaziQuote": "强队赢球是秩序，小国晋级是世界杯最珍贵的意外。",
-          "doudouQuote": "三连平还能出线，佛得角这剧本比很多励志片都硬。",
-          "footerTakeaway": "24小时关键词：西班牙头名、佛得角出线、比利时大胜、埃及晋级。"
-        },
-        "en-US": {
-          "categoryLabel": "World Cup Daily",
-          "headlineFact": "Spain advanced as group winner, while Cape Verde reached the knockouts after three draws",
-          "headlineView": "the World Cup matters because favorites can confirm power and small nations can enter global memory",
-          "headlineFull": "Spain advanced as group winner, while Cape Verde reached the knockouts after three draws; the World Cup matters because favorites can confirm power and small nations can enter global memory.",
-          "intro": "From 05:00 June 27 to 05:00 June 28 Beijing time, four World Cup matches finished: Uruguay 0-1 Spain, Cape Verde 0-0 Saudi Arabia, New Zealand 1-5 Belgium, and Egypt 1-1 Iran. Spain beat Uruguay through a Baena goal and moved into the knockouts. Cape Verde advanced after three draws and earned a last-32 date with Argentina. Belgium routed New Zealand, while Egypt progressed after holding Iran.",
-          "xiaziQuote": "Favorites winning is order. A small nation advancing is the World Cup's best surprise.",
-          "doudouQuote": "Three draws and still through. Cape Verde wrote a better script than most sports films.",
-          "footerTakeaway": "Keywords: Spain top, Cape Verde through, Belgium rout, Egypt advance."
-        }
-      },
-      "sources": [
-        {
-          "id": "28a380e0-4455-4d30-84bd-07c84bd80270",
-          "topicId": "5e8ae009-b920-4466-bb02-28287e22a352",
-          "title": "Baena strike sends Spain past Uruguay into World Cup knockouts",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/",
-          "publishedAt": "2026-06-28T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "991a1ce9-f7a5-41a5-8769-39a6f0a43c17",
-          "topicId": "5e8ae009-b920-4466-bb02-28287e22a352",
-          "title": "Jubilant Cape Verde set date with Argentina in World Cup round of 32",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/",
-          "publishedAt": "2026-06-28T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "d88f71f6-fdba-440b-aff0-37495c875cfe",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-      "slug": "hormuz-strait-bahrain-strike",
-      "rank": 3,
-      "category": "international",
-      "region": "Middle East",
-      "countryCodes": [
-        "IR",
-        "BH",
-        "US"
+        "CA",
+        "ZA",
+        "GB",
+        "PA",
+        "HR",
+        "GH",
+        "CO",
+        "PT",
+        "CD",
+        "UZ",
+        "AR",
+        "JO",
+        "DZ",
+        "AT"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "hormuz_bahrain_ship_attack_june28_2026",
+      "scoreTotal": 93,
+      "storyId": "world_cup_june29_canada_south_africa_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 94,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "中东航道",
-          "headlineFact": "伊朗无人机袭击巴林并有船只在海峡遇袭",
-          "headlineView": "霍尔木兹海峡每一次紧张，都会把地区冲突变成全球账单",
-          "headlineFull": "伊朗无人机袭击巴林并有船只在海峡遇袭; 霍尔木兹海峡每一次紧张，都会把地区冲突变成全球账单.",
-          "intro": "在美国空袭伊朗目标后，伊朗无人机袭击巴林，一艘船只也在海峡附近遭到打击。巴林是美国第五舰队所在地，霍尔木兹海峡又是全球能源运输关键通道，因此局势升级不只是中东安全问题，也会传导到油价、保险、航运和各国通胀预期。",
-          "xiaziQuote": "和平从来不只是在谈判桌上，也在航道、保险单和每一艘商船的通行风险里。",
-          "doudouQuote": "油轮一紧张，全世界的油价表情都跟着紧张。",
-          "footerTakeaway": "关键词：霍尔木兹、巴林、无人机、能源航道、油价风险。"
+          "categoryLabel": "世界杯",
+          "headlineFact": "加拿大1:0绝杀南非，世界杯淘汰赛正式开打",
+          "headlineView": "真正的淘汰赛，从来不奖励控球，只奖励最后一次把球送进门的人",
+          "headlineFull": "加拿大1:0绝杀南非，世界杯淘汰赛正式开打; 真正的淘汰赛，从来不奖励控球，只奖励最后一次把球送进门的人.",
+          "intro": "北京时间6月28日05:00至6月29日05:00，世界杯共结束7场比赛：巴拿马0:2英格兰，克罗地亚2:1加纳，哥伦比亚0:0葡萄牙，民主刚果3:1乌兹别克斯坦，约旦1:3阿根廷，阿尔及利亚3:3奥地利，南非0:1加拿大。英格兰、克罗地亚、哥伦比亚、民主刚果、阿根廷、阿尔及利亚和奥地利各自完成关键出线节点，加拿大则凭补时进球赢下淘汰赛首战。",
+          "xiaziQuote": "大赛进入淘汰赛后，漂亮过程会让位给最后一脚的确定性。",
+          "doudouQuote": "控球率可以写进报告，晋级只认比分牌。",
+          "footerTakeaway": "24小时关键词：加拿大绝杀、民主刚果创历史、梅西连续破门、阿尔及利亚奥地利双双晋级。"
         },
         "en-US": {
-          "categoryLabel": "Middle East Shipping Lane",
-          "headlineFact": "Iranian drones attacked Bahrain and a ship was struck near the strait",
-          "headlineView": "every flare-up in Hormuz turns a regional fight into a global bill",
-          "headlineFull": "Iranian drones attacked Bahrain and a ship was struck near the strait; every flare-up in Hormuz turns a regional fight into a global bill.",
-          "intro": "After U.S. strikes on Iranian targets, Iranian drones attacked Bahrain and a ship was hit near the strait. Bahrain hosts the U.S. Fifth Fleet, while the Strait of Hormuz remains a core artery for global energy flows. Escalation there is not only a Middle East security story; it moves through oil prices, insurance, shipping, and inflation expectations.",
-          "xiaziQuote": "Peace is not only negotiated at tables. It is tested in shipping lanes, insurance contracts, and every commercial vessel's risk premium.",
-          "doudouQuote": "When tankers get nervous, oil prices get nervous too.",
-          "footerTakeaway": "Keywords: Hormuz, Bahrain, drones, energy shipping, oil risk."
+          "categoryLabel": "World Cup",
+          "headlineFact": "Canada beat South Africa 1-0 as the World Cup knockout stage began",
+          "headlineView": "knockout football does not reward possession, only the final ball into the net",
+          "headlineFull": "Canada beat South Africa 1-0 as the World Cup knockout stage began; knockout football does not reward possession, only the final ball into the net.",
+          "intro": "From 05:00 on June 28 to 05:00 on June 29 Beijing time, seven World Cup matches ended: Panama 0-2 England, Croatia 2-1 Ghana, Colombia 0-0 Portugal, DR Congo 3-1 Uzbekistan, Jordan 1-3 Argentina, Algeria 3-3 Austria, and South Africa 0-1 Canada. Several groups settled qualification, while Canada opened the knockout round with a stoppage-time winner.",
+          "xiaziQuote": "Once the knockouts begin, the beautiful process gives way to the certainty of the last touch.",
+          "doudouQuote": "Possession belongs in the report. Advancement belongs on the scoreboard.",
+          "footerTakeaway": "Keywords: Canada’s late winner, DR Congo history, Messi scoring run, Algeria and Austria advancing."
         }
       },
       "sources": [
         {
-          "id": "55cf93ac-a393-4ec0-8def-1185b6edce51",
-          "topicId": "d88f71f6-fdba-440b-aff0-37495c875cfe",
-          "title": "Iranian drones attack Bahrain and a ship is struck in the strait after US airstrikes",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/hub/middle-east",
+          "id": "218b9d76-9a22-4a62-aca5-041f0d708d37",
+          "topicId": "87c2a4dc-31d5-415a-a8e1-9eeb3a8c97f5",
+          "title": "South Africa vs Canada live: score, commentary, latest from World Cup 2026",
+          "publisher": "The Times",
+          "url": "https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-18-ft279cnt6?utm_source=chatgpt.com",
           "publishedAt": "2026-06-28T00:00:00Z",
-          "sourceType": "wire",
+          "sourceType": "publisher",
           "sourceTier": 1,
-          "locale": "en-US",
+          "locale": "zh-CN",
           "isPrimary": true
         }
       ]
     },
     {
-      "id": "2ff7fb0d-b46f-44c2-8a2a-ab77530e9671",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
+      "id": "e948555b-5127-482c-86a1-b277f99b312c",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+      "slug": "europe-heatwave-excess-deaths",
+      "rank": 3,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "DE",
+        "PL",
+        "CZ",
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "europe_heatwave_excess_deaths_june29_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "法国报告约1000例高温期间超额死亡，欧洲多国刷新纪录",
+          "headlineView": "极端天气不再只是气象新闻，而是公共系统的压力测试",
+          "headlineFull": "法国报告约1000例高温期间超额死亡，欧洲多国刷新纪录; 极端天气不再只是气象新闻，而是公共系统的压力测试.",
+          "intro": "欧洲热浪继续向东推进，法国公共卫生机构报告热浪期间约1000例超额死亡，其中多数为老年人。德国、波兰、捷克等地也刷新高温纪录，部分地区气温突破40℃。高温同时影响交通、电力、医疗和消防系统，世界卫生组织警告欧洲对越来越频繁的热浪仍准备不足。",
+          "xiaziQuote": "气候风险真正变贵，是从医院、学校、电网和交通系统同时吃紧开始的。",
+          "doudouQuote": "温度计只是报数，账单在城市系统里结。",
+          "footerTakeaway": "高温正在从异常天气变成常态治理题。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Heatwave",
+          "headlineFact": "France reported around 1,000 excess deaths during the heatwave as European records fell",
+          "headlineView": "extreme weather is now a stress test for public systems, not just a weather story",
+          "headlineFull": "France reported around 1,000 excess deaths during the heatwave as European records fell; extreme weather is now a stress test for public systems, not just a weather story.",
+          "intro": "Europe’s heatwave kept moving east as French health authorities reported around 1,000 excess deaths during the period, mostly among older people. Germany, Poland, the Czech Republic and other countries also broke heat records, with some areas passing 40C. Transport, power, healthcare and fire services all came under pressure, while the WHO warned Europe remains underprepared for more frequent heatwaves.",
+          "xiaziQuote": "Climate risk becomes expensive when hospitals, schools, grids and transport strain at the same time.",
+          "doudouQuote": "The thermometer reports the number; the city pays the bill.",
+          "footerTakeaway": "Heat is shifting from unusual weather to routine governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "60d5211b-e082-4888-9fa6-d94eb995443c",
+          "topicId": "e948555b-5127-482c-86a1-b277f99b312c",
+          "title": "France records around 1,000 additional deaths as extreme heat breaks European records",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/61f444317600cf1bd9af5af84cb582bd?utm_source=chatgpt.com",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3067f0ca-9d64-4e01-a521-1d83d2691fe4",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
       "slug": "venezuela-earthquake-rescue",
       "rank": 4,
       "category": "international",
-      "region": "Latin America",
+      "region": "Venezuela",
       "countryCodes": [
         "VE"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "venezuela_earthquake_rescue_june28_2026",
+      "scoreTotal": 95,
+      "storyId": "venezuela_quake_rescue_june29_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 92,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "委内瑞拉地震",
-          "headlineFact": "委内瑞拉地震死亡人数升至1430人",
-          "headlineView": "灾害真正考验的不是震级，而是救援体系能不能跑赢时间",
-          "headlineFull": "委内瑞拉地震死亡人数升至1430人; 灾害真正考验的不是震级，而是救援体系能不能跑赢时间.",
-          "intro": "委内瑞拉地震后的死亡人数升至1430人，救援仍在废墟、医院、电力和交通中展开。灾害发生后，黄金救援窗口迅速缩短，真正决定伤亡规模的，除了地震本身，还有建筑质量、城市应急能力、医疗系统承压和国际援助能否快速抵达。",
-          "xiaziQuote": "自然灾害是瞬间发生的，治理能力却是在平时一点点攒出来的。",
-          "doudouQuote": "地震摇的是地面，最后被测试的是整个城市的底盘。",
-          "footerTakeaway": "关键词：地震、黄金救援、基础设施、医疗压力、城市韧性。"
+          "headlineFact": "委内瑞拉双震死亡人数超过1400人，仍有数万人下落不明",
+          "headlineView": "灾难最残酷的地方，是时间先于救援耗尽",
+          "headlineFull": "委内瑞拉双震死亡人数超过1400人，仍有数万人下落不明; 灾难最残酷的地方，是时间先于救援耗尽.",
+          "intro": "委内瑞拉两次强震后，死亡人数已升至1400人以上，仍有数万人下落不明。救援人员在周末又救出33人，包括多名儿童，但寻找幸存者的关键72小时窗口已经过去。受灾最重的拉瓜伊拉州面临余震、道路受限、重型设备不足和官方力量有限等多重困难，国际救援队已陆续进入。",
+          "xiaziQuote": "灾害救援考验的不是一时善意，而是道路、设备、组织和信息的总和。",
+          "doudouQuote": "黄金72小时走得太快，铲车和通信可不能慢。",
+          "footerTakeaway": "灾后黄金窗口之外，系统能力决定更多人的命运。"
         },
         "en-US": {
           "categoryLabel": "Venezuela Earthquake",
-          "headlineFact": "Venezuela's earthquake death toll rose to 1,430",
-          "headlineView": "disasters test not only magnitude, but whether response systems can outrun time",
-          "headlineFull": "Venezuela's earthquake death toll rose to 1,430; disasters test not only magnitude, but whether response systems can outrun time.",
-          "intro": "Venezuela's earthquake death toll rose to 1,430 as rescue work continued across rubble, hospitals, power systems, and transport routes. After a major quake, the rescue window narrows quickly. The final human cost depends not only on the shaking, but on building quality, emergency capacity, medical strain, and whether aid can arrive fast enough.",
-          "xiaziQuote": "A natural disaster happens in an instant. Governance capacity is built long before the instant arrives.",
-          "doudouQuote": "The quake shakes the ground. What gets tested is the city's foundation.",
-          "footerTakeaway": "Keywords: earthquake, rescue window, infrastructure, medical pressure, urban resilience."
+          "headlineFact": "Venezuela’s twin quakes left more than 1,400 dead and tens of thousands missing",
+          "headlineView": "the harshest part of disaster is when time runs out before rescue does",
+          "headlineFull": "Venezuela’s twin quakes left more than 1,400 dead and tens of thousands missing; the harshest part of disaster is when time runs out before rescue does.",
+          "intro": "After two major earthquakes in Venezuela, the death toll rose above 1,400 and tens of thousands remained missing. Rescuers pulled out 33 more people over the weekend, including children, but the crucial 72-hour search window had passed. Hard-hit La Guaira faced aftershocks, damaged roads, limited heavy equipment and constrained official capacity as international rescue teams arrived.",
+          "xiaziQuote": "Disaster response is not only goodwill; it is roads, equipment, organization and information working together.",
+          "doudouQuote": "The golden 72 hours move fast. Excavators and communications cannot move slowly.",
+          "footerTakeaway": "Beyond the golden window, system capacity shapes survival."
         }
       },
       "sources": [
         {
-          "id": "859044ff-2301-4dee-b8e3-c3d566ec364d",
-          "topicId": "2ff7fb0d-b46f-44c2-8a2a-ab77530e9671",
-          "title": "Frustration grows in Venezuela as earthquake death toll reaches 1,430",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/hub/latin-america",
+          "id": "d0c79c29-a2a2-444a-bdeb-747a5414c5d4",
+          "topicId": "3067f0ca-9d64-4e01-a521-1d83d2691fe4",
+          "title": "Thirty-three people rescued, thousands still missing after Venezuela quakes",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/thirty-three-people-rescued-thousands-still-missing-after-venezuela-quakes-2026-06-28/?utm_source=chatgpt.com",
           "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
-          "locale": "en-US",
+          "locale": "zh-CN",
           "isPrimary": true
         }
       ]
     },
     {
-      "id": "f507458f-257a-4e8b-b1f8-f4be0c738fa5",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-      "slug": "europe-heatwave-june-record",
+      "id": "95b31596-42fa-4dde-9c3d-705ae204d48b",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+      "slug": "us-iran-gulf-escalation",
       "rank": 5,
-      "category": "climate",
-      "region": "Europe",
+      "category": "international",
+      "region": "Middle East",
       "countryCodes": [
-        "FR",
-        "IT",
-        "GB",
-        "EU"
+        "US",
+        "IR",
+        "BH",
+        "KW"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "europe_heatwave_june_records_2026",
+      "scoreTotal": 94,
+      "storyId": "us_iran_gulf_escalation_june29_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 90,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "欧洲热浪",
-          "headlineFact": "欧洲多国刷新六月高温纪录",
-          "headlineView": "气候变化最现实的一面，是城市突然不能按旧规则运转",
-          "headlineFull": "欧洲多国刷新六月高温纪录; 气候变化最现实的一面，是城市突然不能按旧规则运转.",
-          "intro": "欧洲新一轮热浪继续扩散，多地刷新六月气温纪录，法国、意大利、英国等地的学校、电力、铁路和医疗系统都面临压力。极端高温不再只是天气新闻，而是城市运行问题：老人护理、儿童上课、工人户外作业、空调用电和公共交通都可能被同时推到边缘。",
-          "xiaziQuote": "热浪不是温度计上的数字，而是城市服务能力的压力测试。",
-          "doudouQuote": "以前是天热多喝水，现在是城市也得多备几套应急预案。",
-          "footerTakeaway": "关键词：高温纪录、学校关闭、电力压力、公共健康、气候适应。"
+          "categoryLabel": "美伊冲突",
+          "headlineFact": "美伊在海湾继续互相打击，临时和平协议面临撕裂",
+          "headlineView": "最危险的不是谈判破裂，而是双方都还说自己没有退出谈判",
+          "headlineFull": "美伊在海湾继续互相打击，临时和平协议面临撕裂; 最危险的不是谈判破裂，而是双方都还说自己没有退出谈判.",
+          "intro": "美国和伊朗在海湾地区继续升级军事行动。伊朗称袭击了与美国有关的目标，以回应美国对伊朗南部海岸的空袭；美国则指责伊朗威胁商业航运。海湾股市因此表现分化，巴林、科威特等地一度响起警报。美伊仍未正式宣布退出临时和平框架，但攻击与威胁正在不断消耗协议可信度。",
+          "xiaziQuote": "和平框架最怕的不是没有纸面文字，而是现场行动不断把纸面信用花掉。",
+          "doudouQuote": "嘴上还在谈，手上还在打，这种默契最贵。",
+          "footerTakeaway": "协议可信度正在被每一次警报和袭击重新定价。"
         },
         "en-US": {
-          "categoryLabel": "Europe Heatwave",
-          "headlineFact": "Several European countries broke June heat records",
-          "headlineView": "the practical face of climate change is a city suddenly unable to run by old rules",
-          "headlineFull": "Several European countries broke June heat records; the practical face of climate change is a city suddenly unable to run by old rules.",
-          "intro": "Europe's latest heatwave kept spreading, with June temperature records broken in several places and schools, power grids, rail systems, and hospitals under pressure in France, Italy, Britain, and beyond. Extreme heat is no longer only weather news. It is an operations story about elder care, classrooms, outdoor work, air-conditioning demand, and public transport all being pushed at once.",
-          "xiaziQuote": "A heatwave is not just a number on a thermometer. It is a stress test for urban services.",
-          "doudouQuote": "It used to be 'drink more water.' Now the city itself needs backup plans.",
-          "footerTakeaway": "Keywords: heat records, school closures, power stress, public health, climate adaptation."
+          "categoryLabel": "U.S.-Iran Conflict",
+          "headlineFact": "The United States and Iran kept exchanging attacks in the Gulf, straining the temporary peace framework",
+          "headlineView": "the most dangerous moment is not when talks collapse, but when both sides say they remain inside them",
+          "headlineFull": "The United States and Iran kept exchanging attacks in the Gulf, straining the temporary peace framework; the most dangerous moment is not when talks collapse, but when both sides say they remain inside them.",
+          "intro": "The United States and Iran continued escalating military action around the Gulf. Iran said it struck U.S.-linked targets after U.S. strikes near Iran’s southern coast, while Washington accused Tehran of threatening commercial shipping. Gulf markets moved unevenly and alerts sounded in Bahrain and Kuwait. Neither side formally exited the temporary framework, but each attack weakened its credibility.",
+          "xiaziQuote": "A peace framework loses value when actions on the ground keep spending its credibility.",
+          "doudouQuote": "Talking with one hand and striking with the other is an expensive kind of coordination.",
+          "footerTakeaway": "Every alert and attack reprices the credibility of the framework."
         }
       },
       "sources": [
         {
-          "id": "470d05e6-ce5b-4f80-aafc-d8a07b53b89f",
-          "topicId": "f507458f-257a-4e8b-b1f8-f4be0c738fa5",
-          "title": "Europe heatwave coverage",
+          "id": "017d2ea3-15ff-4ffb-926a-df46683bb86c",
+          "topicId": "95b31596-42fa-4dde-9c3d-705ae204d48b",
+          "title": "Iran and US step up attacks and threaten to escalate",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/europe/",
+          "url": "https://www.reuters.com/world/asia-pacific/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-hormuz-escalating-2026-06-27/?utm_source=chatgpt.com",
           "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
-          "locale": "en-US",
+          "locale": "zh-CN",
           "isPrimary": true
         }
       ]
     },
     {
-      "id": "52435eaa-7eac-49dd-ab3e-8cad9a994f41",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-      "slug": "ukraine-volgograd-strike",
+      "id": "25a447ea-f59e-4568-9e23-18e587635d2e",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+      "slug": "russia-ukraine-refinery-strikes",
       "rank": 6,
       "category": "international",
       "region": "Europe",
       "countryCodes": [
-        "UA",
-        "RU"
+        "RU",
+        "UA"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 88,
-      "storyId": "ukraine_volgograd_industrial_strike_june28_2026",
+      "scoreTotal": 93,
+      "storyId": "russia_ukraine_refinery_strikes_june29_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 88,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "俄乌局势",
-          "headlineFact": "乌克兰打击俄罗斯伏尔加格勒工业设施",
-          "headlineView": "战争越打到后方，前线和供应链的边界就越模糊",
-          "headlineFull": "乌克兰打击俄罗斯伏尔加格勒工业设施; 战争越打到后方，前线和供应链的边界就越模糊.",
-          "intro": "乌克兰袭击俄罗斯伏尔加格勒一处工业设施，俄方同日继续发动无人机袭击并造成伤亡。俄乌战争的重心越来越多地延伸到能源、军工、物流和城市基础设施。远程打击的目的不只是制造战术损失，也是削弱对方持续作战的工业底盘。",
-          "xiaziQuote": "现代战争打的不只是阵地，也是谁能让自己的系统继续转下去。",
-          "doudouQuote": "前线在地图上，后勤在账本和工厂里。",
-          "footerTakeaway": "关键词：伏尔加格勒、工业设施、无人机、远程打击、战争后勤。"
+          "headlineFact": "俄乌互袭继续扩大，乌克兰打击俄罗斯炼油设施",
+          "headlineView": "战争的纵深越来越远，普通人的风险却越来越近",
+          "headlineFull": "俄乌互袭继续扩大，乌克兰打击俄罗斯炼油设施; 战争的纵深越来越远，普通人的风险却越来越近.",
+          "intro": "俄罗斯对乌克兰东南部和东北部发动袭击，乌方地方官员称至少4人死亡。与此同时，乌克兰继续加大对俄罗斯能源基础设施的远程打击，一座俄罗斯炼油厂起火，相关交通和机场运行受到影响。双方都在把打击重点推向能源、物流和军工体系，战争已经从前线延伸到更深层的国家运行系统。",
+          "xiaziQuote": "当能源、物流和机场都成为战场，战争影响的就不只是前线。",
+          "doudouQuote": "地图上的距离变远了，生活里的风险反而更近了。",
+          "footerTakeaway": "远程打击正在把国家运行系统变成战争目标。"
         },
         "en-US": {
           "categoryLabel": "Russia-Ukraine War",
-          "headlineFact": "Ukraine struck an industrial facility in Russia's Volgograd region",
-          "headlineView": "as war moves deeper into the rear, the line between frontline and supply chain blurs",
-          "headlineFull": "Ukraine struck an industrial facility in Russia's Volgograd region; as war moves deeper into the rear, the line between frontline and supply chain blurs.",
-          "intro": "Ukraine struck an industrial facility in Russia's Volgograd region, while Russia continued drone attacks that caused casualties. The war is increasingly reaching energy assets, military industry, logistics, and urban infrastructure. Long-range strikes are meant not only to inflict tactical damage, but to weaken the industrial base that keeps the other side fighting.",
-          "xiaziQuote": "Modern war is not only about positions. It is about whose system keeps running.",
-          "doudouQuote": "The frontline is on the map; logistics live in factories and ledgers.",
-          "footerTakeaway": "Keywords: Volgograd, industrial facility, drones, long-range strikes, war logistics."
+          "headlineFact": "Russia and Ukraine continued exchanging strikes, while Ukraine targeted Russian refining infrastructure",
+          "headlineView": "the war’s depth keeps expanding while ordinary risk moves closer",
+          "headlineFull": "Russia and Ukraine continued exchanging strikes, while Ukraine targeted Russian refining infrastructure; the war’s depth keeps expanding while ordinary risk moves closer.",
+          "intro": "Russia launched attacks on southeastern and northeastern Ukraine, with local officials reporting at least four deaths. Ukraine, meanwhile, intensified long-range strikes on Russian energy infrastructure, setting a refinery on fire and disrupting transport and airport operations. Both sides are pushing deeper into energy, logistics and military-industrial systems.",
+          "xiaziQuote": "When energy, logistics and airports become targets, the war no longer belongs only to the front line.",
+          "doudouQuote": "The distance on the map grows, but the risk in daily life moves closer.",
+          "footerTakeaway": "Long-range strikes are turning state operating systems into targets."
         }
       },
       "sources": [
         {
-          "id": "76c7a5a2-0fe3-4a42-8bd2-bba16cffee18",
-          "topicId": "52435eaa-7eac-49dd-ab3e-8cad9a994f41",
-          "title": "Ukraine strikes industrial facility in Russia's Volgograd as Russian drone attack kills 1",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/hub/russia-ukraine",
+          "id": "68b39956-b8fb-4f56-a2a4-257bf975dbec",
+          "topicId": "25a447ea-f59e-4568-9e23-18e587635d2e",
+          "title": "Russian attacks kills four in Ukraine, local officials say",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/russian-attacks-kills-four-ukraine-local-officials-say-2026-06-28/?utm_source=chatgpt.com",
           "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
-          "locale": "en-US",
+          "locale": "zh-CN",
           "isPrimary": true
         }
       ]
     },
     {
-      "id": "23847e8c-87e5-4c4b-a134-cbf3bc975545",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-      "slug": "serbia-vucic-resignation",
+      "id": "a8d45100-6759-40b9-9374-592af964d26b",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+      "slug": "saudi-aramco-helicopter-crash",
       "rank": 7,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "RS"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 86,
-      "storyId": "serbia_vucic_resignation_election_june28_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 86,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "塞尔维亚政局",
-          "headlineFact": "武契奇称将在数周内辞去总统职务并提前选举",
-          "headlineView": "真正的转折不在于谁离开职位，而在于权力结构是否改变",
-          "headlineFull": "武契奇称将在数周内辞去总统职务并提前选举; 真正的转折不在于谁离开职位，而在于权力结构是否改变.",
-          "intro": "塞尔维亚总统武契奇表示将在数周内辞职，并推动提前选举。此前塞尔维亚经历长期反政府抗议，抗议与诺维萨德火车站坍塌事故及腐败指控有关。武契奇仍表示会帮助执政党赢得选举，外界关注他是否会通过其他职位继续保持影响力。",
-          "xiaziQuote": "政治人物离场不等于系统改写，关键要看规则、责任和权力通道有没有变化。",
-          "doudouQuote": "换座位不难，难的是别把同一张桌子又搬回来。",
-          "footerTakeaway": "关键词：塞尔维亚、武契奇、提前选举、抗议、权力结构。"
-        },
-        "en-US": {
-          "categoryLabel": "Serbian Politics",
-          "headlineFact": "Vucic said he would resign within weeks and seek an early election",
-          "headlineView": "the real turn is not who leaves office, but whether the power structure changes",
-          "headlineFull": "Vucic said he would resign within weeks and seek an early election; the real turn is not who leaves office, but whether the power structure changes.",
-          "intro": "Serbian President Aleksandar Vucic said he would resign within weeks and push for an early election. Serbia has faced sustained anti-government protests linked to the Novi Sad railway station collapse and corruption allegations. Vucic still said he would help the ruling party win, leaving observers focused on whether he could retain influence through another role.",
-          "xiaziQuote": "A politician leaving office does not automatically rewrite the system. The question is whether rules, accountability, and power channels change.",
-          "doudouQuote": "Changing seats is easy. The hard part is not carrying the same table back in.",
-          "footerTakeaway": "Keywords: Serbia, Vucic, early election, protests, power structure."
-        }
-      },
-      "sources": [
-        {
-          "id": "e6d42ebf-a4d7-4303-a5f8-acd400d9b04e",
-          "topicId": "23847e8c-87e5-4c4b-a134-cbf3bc975545",
-          "title": "Serbia's populist President Vucic says he will resign within weeks as election nears",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/hub/serbia",
-          "publishedAt": "2026-06-28T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "bf065149-0d91-4c1f-adc6-426f16c8e2cd",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-      "slug": "australia-child-social-ban",
-      "rank": 8,
-      "category": "technology",
-      "region": "Asia-Pacific",
-      "countryCodes": [
-        "AU"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 84,
-      "storyId": "australia_child_social_media_penalties_june28_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 84,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "未成年人网络保护",
-          "headlineFact": "澳大利亚加码儿童社交媒体禁令，科技公司最高罚款翻倍",
-          "headlineView": "监管的难点不是写下一条禁令，而是让平台真的执行它",
-          "headlineFull": "澳大利亚加码儿童社交媒体禁令，科技公司最高罚款翻倍; 监管的难点不是写下一条禁令，而是让平台真的执行它.",
-          "intro": "澳大利亚政府宣布，将科技公司系统性违反儿童社交媒体禁令的最高罚款从4950万澳元提高到9900万澳元，并扩大网络安全监管机构的信息获取权。监管机构可要求平台证明其如何阻止16岁以下儿童开设账号。儿童网络保护的下一步，已经从“平台应该做什么”变成“平台有没有真的做到”。",
-          "xiaziQuote": "数字监管进入执行阶段后，最值钱的不是口号，而是可核查的证据。",
-          "doudouQuote": "年龄验证这事，难点不是问几岁，是平台别装不知道。",
-          "footerTakeaway": "关键词：儿童保护、社交媒体、平台责任、罚款、年龄验证。"
-        },
-        "en-US": {
-          "categoryLabel": "Child Online Safety",
-          "headlineFact": "Australia doubled maximum penalties for child social-media ban violations",
-          "headlineView": "the hard part of regulation is not writing a ban, but making platforms enforce it",
-          "headlineFull": "Australia doubled maximum penalties for child social-media ban violations; the hard part of regulation is not writing a ban, but making platforms enforce it.",
-          "intro": "Australia said it would raise maximum penalties for systemic violations of its child social-media ban from A$49.5 million to A$99 million and expand the eSafety Commissioner's information-gathering powers. Regulators can ask platforms to prove how they stop children under 16 from opening accounts. The next phase of child online protection is shifting from what platforms promise to what they can prove.",
-          "xiaziQuote": "Once digital regulation enters enforcement, the valuable thing is not a slogan but verifiable evidence.",
-          "doudouQuote": "The hard part of age checks is not asking a birthday. It is stopping platforms from pretending not to know.",
-          "footerTakeaway": "Keywords: child safety, social media, platform responsibility, penalties, age verification."
-        }
-      },
-      "sources": [
-        {
-          "id": "46ebc305-bb17-4457-8155-9b352c616d7f",
-          "topicId": "bf065149-0d91-4c1f-adc6-426f16c8e2cd",
-          "title": "Australia child social media ban coverage",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/asia-pacific/",
-          "publishedAt": "2026-06-28T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "8aa2d7bb-f79a-421d-83ad-391d4799c1cb",
-      "issueId": "e7fb3da9-e943-453e-a2f2-a8070b590ffc",
-      "slug": "spacex-nasdaq100-inclusion",
-      "rank": 9,
       "category": "business",
-      "region": "United States",
+      "region": "Saudi Arabia",
       "countryCodes": [
-        "US"
+        "SA"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 83,
-      "storyId": "spacex_nasdaq100_inclusion_june28_2026",
+      "scoreTotal": 92,
+      "storyId": "saudi_aramco_helicopter_crash_june29_2026",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 83,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "资本市场",
-          "headlineFact": "SpaceX将被纳入纳斯达克100指数，预计带来数十亿美元被动资金买入",
-          "headlineView": "资本市场有时不是在奖励盈利，而是在提前定价想象力",
-          "headlineFull": "SpaceX将被纳入纳斯达克100指数，预计带来数十亿美元被动资金买入; 资本市场有时不是在奖励盈利，而是在提前定价想象力.",
-          "intro": "纳斯达克确认，SpaceX将于7月7日被纳入纳斯达克100指数。跟踪该指数的ETF和共同基金将被动买入相关股票，摩根大通估计可能带来约43亿美元资金流入。指数规则正在适应新一代超大型科技公司，但争议也在于市场是否过早把火箭、卫星、AI和未来基础设施的想象力打包进价格。",
-          "xiaziQuote": "指数纳入不是商业成功的终点，而是资本市场开始强制所有人参与定价。",
-          "doudouQuote": "被动资金一点都不被动，它只是按规则很主动地买。",
-          "footerTakeaway": "关键词：SpaceX、纳斯达克100、被动资金、指数规则、科技估值。"
+          "categoryLabel": "沙特阿美事故",
+          "headlineFact": "沙特阿美直升机在拉斯坦努拉坠毁，14人全部遇难",
+          "headlineView": "能源巨头最怕的，不只是市场波动，还有关键节点上的突然事故",
+          "headlineFull": "沙特阿美直升机在拉斯坦努拉坠毁，14人全部遇难; 能源巨头最怕的，不只是市场波动，还有关键节点上的突然事故.",
+          "intro": "沙特能源部表示，一架隶属于沙特阿美的直升机在东部海湾城市拉斯坦努拉坠毁，机上14人全部遇难，遇难者均为沙特公民。事故发生在当地时间清晨6点左右，相关部门已启动调查。拉斯坦努拉是沙特重要石油工业与出口节点，在海湾局势紧张背景下，任何重大事故都会被市场格外关注。",
+          "xiaziQuote": "大型能源系统的脆弱点，不一定在油价，也可能在日常运转的关键节点。",
+          "doudouQuote": "市场盯着价格，事故提醒大家别忘了现场。",
+          "footerTakeaway": "关键能源节点上的安全事件，会被地缘紧张放大。"
         },
         "en-US": {
-          "categoryLabel": "Capital Markets",
-          "headlineFact": "SpaceX will join the Nasdaq-100, potentially drawing billions in passive buying",
-          "headlineView": "markets sometimes price imagination before they reward profits",
-          "headlineFull": "SpaceX will join the Nasdaq-100, potentially drawing billions in passive buying; markets sometimes price imagination before they reward profits.",
-          "intro": "Nasdaq confirmed that SpaceX will join the Nasdaq-100 on July 7. ETFs and mutual funds tracking the index will need to buy the stock, with JPMorgan estimating about $4.3 billion of passive inflows. Index rules are adapting to a new generation of giant technology companies, but the debate is whether markets are pricing rockets, satellites, AI, and future infrastructure too early.",
-          "xiaziQuote": "Index inclusion is not the end of commercial success. It is the point when markets force everyone to price the story.",
-          "doudouQuote": "Passive money is not that passive. It buys very actively when the rules say so.",
-          "footerTakeaway": "Keywords: SpaceX, Nasdaq-100, passive flows, index rules, tech valuation."
+          "categoryLabel": "Saudi Aramco Accident",
+          "headlineFact": "A Saudi Aramco helicopter crashed in Ras Tanura, killing all 14 people aboard",
+          "headlineView": "energy giants fear not only market swings, but sudden failures at critical nodes",
+          "headlineFull": "A Saudi Aramco helicopter crashed in Ras Tanura, killing all 14 people aboard; energy giants fear not only market swings, but sudden failures at critical nodes.",
+          "intro": "Saudi authorities said a helicopter belonging to Saudi Aramco crashed in the eastern Gulf city of Ras Tanura, killing all 14 people on board, all Saudi nationals. The crash happened around 6 a.m. local time and an investigation was opened. Ras Tanura is a major oil-industry and export node, so any serious accident draws extra market attention during Gulf tension.",
+          "xiaziQuote": "A large energy system’s weak point may not be oil prices, but a critical node in daily operations.",
+          "doudouQuote": "Markets watch the price. Accidents remind everyone to watch the site.",
+          "footerTakeaway": "Safety incidents at key energy nodes are amplified by geopolitical stress."
         }
       },
       "sources": [
         {
-          "id": "bdc8e606-9d5c-4af4-8c9c-9fba5ce9f41a",
-          "topicId": "8aa2d7bb-f79a-421d-83ad-391d4799c1cb",
-          "title": "SpaceX Nasdaq-100 inclusion coverage",
+          "id": "687c14f2-9b53-4d47-8ac7-fab44eb8f217",
+          "topicId": "a8d45100-6759-40b9-9374-592af964d26b",
+          "title": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/markets/",
+          "url": "https://www.reuters.com/world/saudi-aramco-helicopter-crash-kills-14-state-new-agency-says-2026-06-28/?utm_source=chatgpt.com",
           "publishedAt": "2026-06-28T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
-          "locale": "en-US",
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "5f4c36b5-1b86-4408-8481-fb297f8cbbed",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+      "slug": "bis-global-financial-risk",
+      "rank": 8,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "bis_global_financial_risk_ai_debt_june29_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球金融风险",
+          "headlineFact": "国际清算银行警告债务、金融脆弱性与AI热潮叠加风险",
+          "headlineView": "当所有人都相信增长会继续，风险往往已经开始定价",
+          "headlineFull": "国际清算银行警告债务、金融脆弱性与AI热潮叠加风险; 当所有人都相信增长会继续，风险往往已经开始定价.",
+          "intro": "国际清算银行在年度经济报告中警告，全球高公共债务、金融市场脆弱性、持续供应冲击以及AI投资热潮的不确定性，正在共同抬高系统性风险。报告特别提到，AI相关投资和复杂债务融资可能加剧核心债券市场脆弱性，政策制定者需要更早控制债务、维护价格稳定，并加强非银行金融监管。",
+          "xiaziQuote": "金融风险常常不是从坏消息开始，而是从好故事被过度融资开始。",
+          "doudouQuote": "AI讲的是未来，债务账单可不会等到未来再来。",
+          "footerTakeaway": "债务、流动性和AI投资热潮正在进入同一张风险表。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Financial Risk",
+          "headlineFact": "The BIS warned that debt, financial fragility and the AI boom are adding to global risk",
+          "headlineView": "when everyone believes growth will continue, risk may already be getting priced",
+          "headlineFull": "The BIS warned that debt, financial fragility and the AI boom are adding to global risk; when everyone believes growth will continue, risk may already be getting priced.",
+          "intro": "In its annual economic report, the Bank for International Settlements warned that high public debt, financial-market fragility, ongoing supply shocks and uncertainty around the AI investment boom are jointly raising systemic risks. It noted that AI-related investment and complex debt financing could deepen vulnerabilities in core bond markets, calling for earlier debt control, price stability and stronger nonbank oversight.",
+          "xiaziQuote": "Financial risk often begins not with bad news, but with a good story overfinanced.",
+          "doudouQuote": "AI talks about the future. Debt bills do not wait for it.",
+          "footerTakeaway": "Debt, liquidity and the AI investment boom are moving onto the same risk sheet."
+        }
+      },
+      "sources": [
+        {
+          "id": "50a91037-97e9-4104-9e72-b890c7842260",
+          "topicId": "5f4c36b5-1b86-4408-8481-fb297f8cbbed",
+          "title": "BIS says debt, AI boom and fragilities raise global risks",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/finance/global-markets-bis-pix-2026-06-28/?utm_source=chatgpt.com",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "84b0f7a8-45a7-4ea8-b6de-710760841d67",
+      "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+      "slug": "israel-hezbollah-underground-infrastructure",
+      "rank": 9,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IL",
+        "LB"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "israel_hezbollah_underground_infrastructure_june29_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "黎巴嫩局势",
+          "headlineFact": "以色列称摧毁黎巴嫩南部真主党地下设施",
+          "headlineView": "地面上看似停火，地下的战争结构却仍在延伸",
+          "headlineFull": "以色列称摧毁黎巴嫩南部真主党地下设施; 地面上看似停火，地下的战争结构却仍在延伸.",
+          "intro": "以色列表示，其军方摧毁了黎巴嫩南部Majdal Zoun村一处真主党地下设施，并称该设施包含约200米长的隧道。以方称已提前向美国通报相关行动。该事件显示，即便地区外交仍在推进，边境地下设施、武装组织和安全缓冲区问题，仍可能持续引发新的军事行动。",
+          "xiaziQuote": "停火能降低声量，却不一定拆掉地下的战争基础设施。",
+          "doudouQuote": "地面安静一点，地下不代表也下班了。",
+          "footerTakeaway": "边境安全问题仍会在地下设施和缓冲区上反复爆发。"
+        },
+        "en-US": {
+          "categoryLabel": "Lebanon Situation",
+          "headlineFact": "Israel said it destroyed Hezbollah underground infrastructure in southern Lebanon",
+          "headlineView": "the surface may look quieter, but underground conflict structures can keep extending",
+          "headlineFull": "Israel said it destroyed Hezbollah underground infrastructure in southern Lebanon; the surface may look quieter, but underground conflict structures can keep extending.",
+          "intro": "Israel said its military destroyed Hezbollah underground infrastructure in the southern Lebanese village of Majdal Zoun, including a tunnel about 200 meters long. Israel said it had notified the United States in advance. The episode shows that even while regional diplomacy continues, tunnels, armed groups and border security zones can still trigger fresh military action.",
+          "xiaziQuote": "A ceasefire can lower the volume without dismantling the underground infrastructure of conflict.",
+          "doudouQuote": "The surface may quiet down; that does not mean the underground clocked out.",
+          "footerTakeaway": "Border security risks will keep recurring around tunnels and buffer zones."
+        }
+      },
+      "sources": [
+        {
+          "id": "ae3352cc-af43-42dc-a263-23736c5b2540",
+          "topicId": "84b0f7a8-45a7-4ea8-b6de-710760841d67",
+          "title": "Israel destroys Hezbollah underground infrastructure in southern Lebanon",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/israel-destroys-hezbollah-underground-infrastructure-southern-lebanon-2026-06-28/?utm_source=chatgpt.com",
+          "publishedAt": "2026-06-28T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
           "isPrimary": true
         }
       ]
