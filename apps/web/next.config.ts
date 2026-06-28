@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
   assetPrefix: isGitHubPages ? githubPagesBasePath : "",
   env: {
     NEXT_PUBLIC_BASE_PATH: isGitHubPages ? githubPagesBasePath : "",
-    NEXT_PUBLIC_POSTER_API_ORIGIN: isGitHubPages ? "https://pluto.hk" : "",
+    NEXT_PUBLIC_POSTER_API_ORIGIN: isGitHubPages ? "https://xiazishuo.com" : "",
   },
   async headers() {
     return [

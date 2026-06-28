@@ -1,6 +1,6 @@
 # 虾子曰全球热点海报
 
-`pluto.hk` 的生产级基础项目。每天北京时间 05:00，用 1 张今日总览和 8 件全球热点的双语内容解释正在变化的世界。
+`xiazishuo.com` 的生产级基础项目。每天北京时间 05:00，用 1 张今日总览和 8 件全球热点的双语内容解释正在变化的世界。`pluto.hk` 保留为旧入口。
 
 ## 当前阶段
 
@@ -114,7 +114,7 @@ Phase 4B.1 adds a GitHub Action bridge for the daily automation path. When `data
 1. 每个热点分别生成一张中文完整海报和一张英文完整海报。
 2. 两种语言海报独立存储、独立替换、独立 QA，不在前端覆盖或替换海报内部文字。
 3. 内容核验完成后生成中文与英文完整海报，通过 QA 后发布。
-4. 中文海报显示北京时间，英文海报显示 GMT；两种海报都必须含 `pluto.hk`、虾子曰和豆豆龙。
+4. 中文海报显示北京时间，英文海报显示 GMT；两种海报都必须含 `xiazishuo.com`、虾子曰和豆豆龙。
 5. 每张海报包含二维码，最终指向 `/{locale}/topics/{topicSlug}`。
 6. 视觉保持欢快、阳光、正向，同时不弱化事实的严肃性。
 
@@ -134,7 +134,7 @@ Cron 更新最新 9 张双语内容卡片并发布，其中包含 1 张今日总
 
 1. 将仓库导入 Vercel。
 2. 配置 `apps/web/.env.example` 中全部生产变量。
-3. 将 `NEXT_PUBLIC_SITE_URL` 设置为 `https://pluto.hk`。
+3. 将 `NEXT_PUBLIC_SITE_URL` 设置为 `https://xiazishuo.com`。
 4. 在本地 Docker Supabase 执行 migration 并跑内容导入验证；Phase 4A 可对 Production Supabase 执行受控影子读取验证，但不切主数据源。
 5. 将域名 DNS 指向 Vercel。
 6. 部署前运行 `npm run check`、`npm run test:e2e` 和 `npm run build`。

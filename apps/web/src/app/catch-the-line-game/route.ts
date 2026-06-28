@@ -1,11 +1,13 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
+import { productConfig } from "@xiazi/config";
+
 export const dynamic = "force-dynamic";
 
 const SOURCE_URL = "https://raw.githubusercontent.com/Yonge6/Design/main/catch-the-line-game/index.html";
 const RAW_ASSET_BASE = "https://raw.githubusercontent.com/Yonge6/Design/main/catch-the-line-game/assets/";
-const PLUTO_PAGE_URL = "https://pluto.hk/catch-the-line-game/";
+const GAME_PAGE_URL = `${productConfig.siteUrl}/catch-the-line-game/`;
 
 async function loadFallbackHtml() {
   const htmlPath = path.join(process.cwd(), "public", "catch-the-line-game", "index.html");
@@ -22,7 +24,7 @@ function rewriteForPluto(html: string) {
     .replace(
       /<head>/i,
       `<head>
-  <link rel="canonical" href="${PLUTO_PAGE_URL}" />`,
+  <link rel="canonical" href="${GAME_PAGE_URL}" />`,
     );
 }
 

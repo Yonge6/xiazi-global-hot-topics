@@ -14,7 +14,7 @@ describe("production JSON source", () => {
   });
 
   it("uses the same GitHub current issue source for the loader and JSON repository", async () => {
-    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("XIAZI_JSON_SOURCE", "github");
     const fetchMock = vi.fn(async () => ({
       ok: true,
       json: async () => issue,
