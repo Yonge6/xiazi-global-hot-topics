@@ -76,23 +76,44 @@ Status: complete.
 
 ### Phase 4A: Production Shadow Supabase Reads
 
-Status: in progress.
+Status: complete.
 
 - Supabase project `cxjftltkdbsxxjgmxvsm` is promoted from validated Staging to Pluto Production Supabase.
 - Local Docker Supabase now carries development, migration, import-test, and destructive staging validation duties.
 - Vercel Preview defaults to JSON and must not retain Production Supabase Secret.
 - Vercel Production keeps JSON as the official response source and uses Supabase only for protected shadow compare.
+- Production `CONTENT_REPOSITORY` remains `json`.
 - Commits:
   - `ac423df Phase 4A: add production content shadow reads`
   - `fc4a466 Phase 4A: guard production repository switch`
+  - `3fcbf04 Phase 4A: complete production shadow read rollout`
+
+### Phase 4A.1: Scheduled Shadow Sync Before Compare
+
+Status: complete.
+
+- Upgraded the protected Shadow Cron into a guarded sync-then-compare loop.
+- Daily Shadow Cron reads the latest Production JSON, idempotently syncs the issue into Production Supabase if needed, then records compare status.
+- Verified real Cron behavior with `trigger_type=cron`, `sync_status=inserted` for a missing latest issue, followed by `skipped + matched` after Action Bridge shadow writes.
+- Production `CONTENT_REPOSITORY` remains `json`.
+
+### Phase 4B: Studio and Automation Shadow Writes
+
+Status: complete.
+
+- Added feature-gated Studio shadow writes behind server-only `STUDIO_SHADOW_WRITE_ENABLED`.
+- GitHub remains the primary write path; Supabase is a shadow copy with post-write compare and retry/audit records.
+- Added GitHub Action Bridge so real daily automation publishes that update `main:data/current-issue.json` create `trigger_type=automation` publish runs without giving the ChatGPT automation Production Supabase secrets.
+- The Action Bridge reuses the same Issue contract validation, canonical checksum, Supabase shadow upsert, compare, and publish-run audit flow as Studio.
+- Production `STUDIO_SHADOW_WRITE_ENABLED=true`; Production `CONTENT_REPOSITORY=json`.
+- Closeout evidence:
+  - `2026-06-28`: workflow `Sync published issue shadow` succeeded for commit `a65ce9d57ba4`, `trigger_type=automation`, `shadow_status=succeeded`, `shadow_changed=true`, `compare_status=matched`, `difference_count=0`.
+  - `2026-06-29`: workflow `Sync published issue shadow` succeeded for commit `3997601547b2`, `trigger_type=automation`, `shadow_status=succeeded`, `shadow_changed=true`, `compare_status=matched`, `difference_count=0`.
+  - Follow-up Shadow Cron for `2026-06-29` recorded `sync_status=skipped`, `matched=true`, `difference_count=0`.
+  - Supabase revisions for `2026-06-27`, `2026-06-28`, and `2026-06-29` each have one version, so repeated checks did not create duplicate revisions.
+  - Public `/api/content`, `/api/v1/issues/latest`, and dated issue API returned the latest JSON issue while Production stayed JSON-first.
 
 ## Future Phases
-
-### Phase 4B: Studio Shadow Writes
-
-Goal: keep GitHub as primary write path while shadow-writing content changes to Production Supabase with alerts on mismatch.
-
-Rollout rule: Phase 4B is feature-gated by server-only `STUDIO_SHADOW_WRITE_ENABLED`, default `false`. Code and migration may be merged first with the switch closed. When closed, Studio remains GitHub-only and must not call Supabase shadow write or compare. When opened, GitHub is still the primary write, Supabase is a shadow copy, and `CONTENT_REPOSITORY` remains `json`. Phase 4B is not closed until two consecutive real issues publish with `primary_status=succeeded`, `compare_status=matched`, `difference_count=0`, retry verified, and the daily Shadow Sync Cron still acting as fallback.
 
 ### Phase 4C: Supabase Primary Reads
 

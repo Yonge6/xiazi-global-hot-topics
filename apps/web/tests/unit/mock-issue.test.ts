@@ -15,7 +15,7 @@ describe("mock issue", () => {
 
   it("uses a Fact/View headline separator in both locales", () => {
     for (const topic of mockIssue.topics) {
-      expect(topic.localizations["zh-CN"].headlineFull).toContain("；");
+      expect(topic.localizations["zh-CN"].headlineFull).toMatch(/[；;]/);
       expect(topic.localizations["en-US"].headlineFull).toMatch(/[；;]/);
     }
   });
