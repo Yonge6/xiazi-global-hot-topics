@@ -4,7 +4,10 @@ import currentIssue from "@/data/current-issue.json";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
 import { JsonContentRepository } from "@/server/repositories/json-content-repository";
 import { mapSupabaseIssueForTest } from "@/server/repositories/supabase-content-repository";
+import { SupabasePrimaryWithJsonFallbackRepository } from "@/server/repositories/supabase-primary-with-json-fallback-repository";
+import { withReadTimeout } from "@/server/repositories/read-health";
 import { parseIssue } from "@xiazi/contracts";
+import type { ContentRepository } from "@/server/repositories/content-repository";
 
 const issue = parseIssue(currentIssue);
 const firstTopic = issue.topics[0];
@@ -24,12 +27,84 @@ describe("content repository selector", () => {
     vi.unstubAllEnvs();
   });
 
-  it("rejects production Supabase as the primary repository during Phase 4A", () => {
+  it("guards production Supabase primary reads unless both rollout switches are enabled", () => {
     vi.stubEnv("CONTENT_REPOSITORY", "supabase");
     vi.stubEnv("SUPABASE_ENV", "production");
     vi.stubEnv("NODE_ENV", "production");
-    expect(() => getContentRepository()).toThrow(/Phase 4A forbids production CONTENT_REPOSITORY=supabase/);
+    expect(getContentRepository()).toBeInstanceOf(JsonContentRepository);
     vi.unstubAllEnvs();
+  });
+
+  it("returns Supabase primary with JSON fallback when the Phase 4C switches are enabled", () => {
+    vi.stubEnv("CONTENT_REPOSITORY", "supabase");
+    vi.stubEnv("SUPABASE_ENV", "production");
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("SUPABASE_PRIMARY_READS_ENABLED", "true");
+    vi.stubEnv("JSON_READ_FALLBACK_ENABLED", "true");
+    vi.stubEnv("SUPABASE_URL", "https://example.supabase.co");
+    vi.stubEnv("SUPABASE_PUBLISHABLE_KEY", "publishable-test-key");
+    expect(getContentRepository()).toBeInstanceOf(SupabasePrimaryWithJsonFallbackRepository);
+    vi.unstubAllEnvs();
+  });
+});
+
+class FakeRepository implements ContentRepository {
+  constructor(
+    private readonly value = issue,
+    private readonly options: { fail?: boolean; missing?: boolean; never?: boolean } = {},
+  ) {}
+
+  private async read() {
+    if (this.options.never) return new Promise<never>(() => {});
+    if (this.options.fail) throw new Error("read failed");
+    return this.value;
+  }
+
+  async getLatestPublishedIssue() {
+    return this.read();
+  }
+
+  async getIssueByDate() {
+    if (this.options.missing) return null;
+    return this.read();
+  }
+
+  async listPublishedIssues() {
+    if (this.options.fail) throw new Error("archive failed");
+    return [{ issueDate: this.value.issueDate, slug: this.value.slug, status: this.value.status, source: "supabase" as const }];
+  }
+}
+
+describe("Supabase primary with JSON fallback repository", () => {
+  it("uses Supabase when primary reads succeed", async () => {
+    const repository = new SupabasePrimaryWithJsonFallbackRepository(
+      new FakeRepository({ ...issue, slug: "from-supabase" }),
+      new FakeRepository({ ...issue, slug: "from-json" }),
+    );
+
+    await expect(repository.getLatestPublishedIssue()).resolves.toMatchObject({ slug: "from-supabase" });
+  });
+
+  it("falls back to JSON when Supabase is missing a dated issue", async () => {
+    const repository = new SupabasePrimaryWithJsonFallbackRepository(
+      new FakeRepository(issue, { missing: true }),
+      new FakeRepository({ ...issue, slug: "from-json" }),
+    );
+
+    await expect(repository.getIssueByDate(issue.issueDate)).resolves.toMatchObject({ slug: "from-json" });
+  });
+
+  it("falls back to JSON when Supabase fails", async () => {
+    const repository = new SupabasePrimaryWithJsonFallbackRepository(
+      new FakeRepository(issue, { fail: true }),
+      new FakeRepository({ ...issue, slug: "from-json" }),
+    );
+
+    await expect(repository.getLatestPublishedIssue()).resolves.toMatchObject({ slug: "from-json" });
+  });
+
+  it("classifies stalled Supabase reads as timeout failures", async () => {
+    await expect(withReadTimeout(new Promise<never>(() => {}), 1)).rejects.toThrow("SUPABASE_TIMEOUT");
   });
 });
 
