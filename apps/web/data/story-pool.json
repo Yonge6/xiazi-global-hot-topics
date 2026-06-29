@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-06-29T05:00:00+08:00",
+  "updatedAt": "2026-06-29T21:00:00Z",
   "stories": [
+    {
+      "storyId": "daily_global_overview_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "巴西补时绝杀日本，美国最高法院守住美联储独立性，美伊谈判又陷入拉扯"
+    },
+    {
+      "storyId": "world_cup_june30_brazil_japan_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "巴西2:1逆转日本，马丁内利补时绝杀"
+    },
+    {
+      "storyId": "fed_independence_cook_ruling_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国最高法院阻止特朗普解雇美联储理事库克"
+    },
+    {
+      "storyId": "us_iran_doha_talks_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美伊技术团队前往多哈，但伊朗否认近期会与美国会谈"
+    },
+    {
+      "storyId": "venezuela_quake_rescue_fairness_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "委内瑞拉强震后民众质疑救援不均，灾区进入第五天搜救"
+    },
+    {
+      "storyId": "extreme_heat_europe_us_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "意大利和巴尔干半岛继续遭遇热浪，美国也迎来高温周"
+    },
+    {
+      "storyId": "south_korea_ai_chip_plan_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "韩国联合三星、SK海力士推出5760亿美元AI芯片计划"
+    },
+    {
+      "storyId": "pakistan_afghanistan_airstrikes_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "联合国称巴基斯坦对阿富汗空袭造成至少28名平民死亡"
+    },
+    {
+      "storyId": "russia_fuel_shortage_ukraine_strikes_june30_2026",
+      "status": "new",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "乌克兰打击导致俄罗斯燃油短缺扩散，莫斯科也出现排队"
+    },
     {
       "storyId": "israel_hezbollah_underground_infrastructure_june29_2026",
       "status": "new",
