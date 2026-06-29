@@ -22,8 +22,8 @@ describe("poster assets", () => {
   });
 
   it("can serve poster API URLs from the production origin for static mirrors", () => {
-    process.env.NEXT_PUBLIC_POSTER_API_ORIGIN = "https://pluto.hk/";
+    process.env.NEXT_PUBLIC_POSTER_API_ORIGIN = "https://xiazishuo.com/";
     expect(getPosterAsset("world-cup-global-stage", "zh", "thumbnail", "abc123"))
-      .toBe("https://pluto.hk/api/posters/zh/world-cup/?variant=thumbnail&v=abc123");
+      .toBe("https://xiazishuo.com/api/posters/zh/world-cup/?variant=thumbnail&v=abc123");
   });
 });

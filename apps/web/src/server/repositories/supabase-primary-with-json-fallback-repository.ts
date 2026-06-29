@@ -44,12 +44,29 @@ export class SupabasePrimaryWithJsonFallbackRepository implements ContentReposit
     const supabaseStart = nowMs();
     try {
       const issue = await withReadTimeout(this.supabase.getLatestPublishedIssue());
+      const supabaseDurationMs = nowMs() - supabaseStart;
+      const jsonStart = nowMs();
+      const jsonIssue = await this.json.getLatestPublishedIssue();
+      const jsonDurationMs = nowMs() - jsonStart;
+      if (jsonIssue.issueDate > issue.issueDate) {
+        await recordContentReadRun({
+          pathType: "latest",
+          issueDate: jsonIssue.issueDate,
+          primarySource: "supabase",
+          fallbackUsed: true,
+          fallbackReason: "SUPABASE_ISSUE_MISSING",
+          supabaseDurationMs,
+          jsonDurationMs,
+        });
+        return jsonIssue;
+      }
       await recordContentReadRun({
         pathType: "latest",
         issueDate: issue.issueDate,
         primarySource: "supabase",
         fallbackUsed: false,
-        supabaseDurationMs: nowMs() - supabaseStart,
+        supabaseDurationMs,
+        jsonDurationMs,
       });
       return issue;
     } catch (error) {

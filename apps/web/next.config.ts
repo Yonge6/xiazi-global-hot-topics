@@ -2,8 +2,9 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
-const isPlutoDomain = (process.env.NEXT_PUBLIC_SITE_URL || "").includes("pluto.hk");
-const githubPagesBasePath = isPlutoDomain ? "" : process.env.GITHUB_PAGES_BASE_PATH || "/xiazi-global-hot-topics";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://xiazishuo.com";
+const isCustomDomain = siteUrl.includes("xiazishuo.com") || siteUrl.includes("pluto.hk");
+const githubPagesBasePath = isCustomDomain ? "" : process.env.GITHUB_PAGES_BASE_PATH || "/xiazi-global-hot-topics";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1"],
@@ -19,7 +20,7 @@ const nextConfig: NextConfig = {
   assetPrefix: isGitHubPages ? githubPagesBasePath : "",
   env: {
     NEXT_PUBLIC_BASE_PATH: isGitHubPages ? githubPagesBasePath : "",
-    NEXT_PUBLIC_POSTER_API_ORIGIN: isGitHubPages ? "https://pluto.hk" : "",
+    NEXT_PUBLIC_POSTER_API_ORIGIN: isGitHubPages ? "https://xiazishuo.com" : "",
   },
   async headers() {
     return [

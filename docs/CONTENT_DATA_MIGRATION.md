@@ -1,6 +1,6 @@
 # Content Data Migration
 
-Phase 3 establishes a Supabase content base while keeping Pluto.hk production on JSON. Phase 4A may use Production Supabase for shadow reads only; public responses must still come from JSON.
+Phase 3 establishes a Supabase content base while keeping xiazishuo.com production on JSON. Phase 4A may use Production Supabase for shadow reads only; public responses must still come from JSON.
 
 ## Scope
 
@@ -79,7 +79,7 @@ The action must not write GitHub, upload posters, or expose secrets in logs or a
 
 ## Phase 4A Shadow Reads
 
-The validated hosted Supabase project `cxjftltkdbsxxjgmxvsm` is promoted to the logical Pluto Production Supabase role. There is temporarily no independent hosted Staging project; Vercel Preview defaults back to JSON. A hosted Staging project should be restored later when the project needs paid Supabase capacity, long-lived preview database validation, or parallel team development.
+The validated hosted Supabase project `cxjftltkdbsxxjgmxvsm` is promoted to the logical Xiazi Production Supabase role. There is temporarily no independent hosted Staging project; Vercel Preview defaults back to JSON. A hosted Staging project should be restored later when the project needs paid Supabase capacity, long-lived preview database validation, or parallel team development.
 
 Production shadow compare uses these server-only variables:
 

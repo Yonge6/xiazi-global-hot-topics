@@ -1,6 +1,6 @@
 # Multi-Platform Roadmap
 
-Current source of truth for Pluto.hk / 虾子曰 multi-platform migration phases.
+Current source of truth for xiazishuo.com / 虾子曰 multi-platform migration phases. `pluto.hk` remains a legacy entry during the domain transition.
 
 ## Guardrails
 

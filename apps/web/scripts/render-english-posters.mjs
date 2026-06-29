@@ -178,7 +178,7 @@ function posterSvg(topic, index) {
       <text x="54" y="1784" fill="${topic.accent}" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="4">EDITORIAL INSIGHT</text>
       ${textLines(insightLines, 54, 1848, 36, 46, "#101418", 600)}
       <text x="54" y="1988" fill="#155f61" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="5">BEIJING 05:00  ·  ISSUE 193</text>
-      <text x="970" y="1988" text-anchor="end" fill="#101418" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="700" letter-spacing="2">vilesaint.com</text>
+      <text x="970" y="1988" text-anchor="end" fill="#101418" font-family="Georgia, Times New Roman, serif" font-size="24" font-weight="700" letter-spacing="2">xiazishuo.com</text>
     </svg>
   `);
 }

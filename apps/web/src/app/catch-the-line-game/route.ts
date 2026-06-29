@@ -5,7 +5,7 @@ export const dynamic = "force-dynamic";
 
 const SOURCE_URL = "https://raw.githubusercontent.com/Yonge6/Design/main/catch-the-line-game/index.html";
 const RAW_ASSET_BASE = "https://raw.githubusercontent.com/Yonge6/Design/main/catch-the-line-game/assets/";
-const PLUTO_PAGE_URL = "https://pluto.hk/catch-the-line-game/";
+const PLUTO_PAGE_URL = "https://xiazishuo.com/catch-the-line-game/";
 
 async function loadFallbackHtml() {
   const htmlPath = path.join(process.cwd(), "public", "catch-the-line-game", "index.html");

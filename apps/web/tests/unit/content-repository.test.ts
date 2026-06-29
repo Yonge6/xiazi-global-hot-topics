@@ -103,6 +103,15 @@ describe("Supabase primary with JSON fallback repository", () => {
     await expect(repository.getLatestPublishedIssue()).resolves.toMatchObject({ slug: "from-json" });
   });
 
+  it("falls back to JSON when Supabase latest is stale", async () => {
+    const repository = new SupabasePrimaryWithJsonFallbackRepository(
+      new FakeRepository({ ...issue, issueDate: "2026-01-01", slug: "stale-supabase" }),
+      new FakeRepository({ ...issue, slug: "from-json" }),
+    );
+
+    await expect(repository.getLatestPublishedIssue()).resolves.toMatchObject({ slug: "from-json" });
+  });
+
   it("classifies stalled Supabase reads as timeout failures", async () => {
     await expect(withReadTimeout(new Promise<never>(() => {}), 1)).rejects.toThrow("SUPABASE_TIMEOUT");
   });
