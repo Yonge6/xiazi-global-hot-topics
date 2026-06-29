@@ -50,6 +50,18 @@ When `STUDIO_SHADOW_WRITE_ENABLED` is unset or `false`, Studio keeps the existin
 
 Emergency rollback is to set `STUDIO_SHADOW_WRITE_ENABLED=false` and redeploy. Do not delete the Phase 4B migration, delete `studio_publish_runs`, switch `CONTENT_REPOSITORY`, or remove already published JSON content.
 
+## Phase 4C Supabase Primary Reads
+
+Phase 4C changes public reads only. GitHub remains the primary write path.
+
+```env
+CONTENT_REPOSITORY=supabase
+SUPABASE_PRIMARY_READS_ENABLED=true
+JSON_READ_FALLBACK_ENABLED=true
+```
+
+If Supabase primary reads fail, public routes fall back to JSON and record `content_read_runs` metadata. Emergency read rollback is `CONTENT_REPOSITORY=json` plus redeploy. Do not delete Supabase data, migrations, JSON content, or GitHub publishing.
+
 ## Phase 4B.1 Automation Shadow Bridge
 
 Daily ChatGPT/Codex automation remains a GitHub JSON primary publisher. It does not hold Production Supabase secrets. After `data/current-issue.json` changes on `main`, `.github/workflows/sync-published-issue-shadow.yml` runs in GitHub Actions, reads the exact pushed commit, validates `data/current-issue.json` and `data/archive/YYYY-MM-DD.json`, computes the canonical checksum, writes Supabase Shadow, runs compare, and records a Publish Run with `trigger_type=automation` and the real GitHub commit SHA.

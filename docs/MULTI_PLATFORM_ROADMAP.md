@@ -119,6 +119,8 @@ Status: complete.
 
 Goal: switch production reads to Supabase with JSON fallback after a clean observation window.
 
+Rollout rule: Production Supabase primary reads require all three server-side switches: `CONTENT_REPOSITORY=supabase`, `SUPABASE_PRIMARY_READS_ENABLED=true`, and `JSON_READ_FALLBACK_ENABLED=true`. If any switch is missing, Production must stay JSON-backed or fall back to JSON. Phase 4C changes public reads only; GitHub remains the primary write path and Studio shadow writes remain Phase 4B behavior.
+
 ### Phase 4D: Supabase Primary Writes
 
 Goal: make Supabase the primary content write path while retaining emergency snapshots.

@@ -107,6 +107,16 @@ CONTENT_REPOSITORY=json
 
 Phase 4B.1 adds a GitHub Action bridge for the daily automation path. When `data/current-issue.json` changes on `main`, the workflow validates the committed Issue and matching archive JSON, writes the same canonical bundle to Supabase Shadow, runs compare, and records `trigger_type=automation` in `studio_publish_runs`. GitHub Actions Secrets must provide `SUPABASE_URL` and `SUPABASE_SECRET_KEY`; they must not be printed, committed, or exposed through `NEXT_PUBLIC_*`. The bridge never writes GitHub, so it cannot recursively publish.
 
+Phase 4C public reads use Supabase only behind three server-side guards:
+
+```env
+CONTENT_REPOSITORY=supabase
+SUPABASE_PRIMARY_READS_ENABLED=true
+JSON_READ_FALLBACK_ENABLED=true
+```
+
+If any guard is missing in Production, the app falls back to JSON and logs a warning. Emergency read rollback is `CONTENT_REPOSITORY=json` plus redeploy. Studio and daily automation still write GitHub first; Phase 4C does not make Supabase the primary write path.
+
 ## 模型与海报配置
 
 所有模型通过环境变量配置。正式海报遵循：
