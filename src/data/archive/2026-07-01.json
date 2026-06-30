@@ -1,5 +1,5 @@
 {
-  "id": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+  "id": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
   "slug": "2026-07-01",
   "issueDate": "2026-07-01",
   "assetVersion": "issue-2026-07-01-image2-v1",
@@ -7,11 +7,11 @@
   "slotHour": 5,
   "beijingTimestamp": "2026-07-01T05:00:00+08:00",
   "gmtTimestamp": "2026-06-30T21:00:00Z",
-  "featuredTopicId": "610f1e40-c68a-48f2-86da-48e507bf2eee",
+  "featuredTopicId": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
   "topics": [
     {
-      "id": "610f1e40-c68a-48f2-86da-48e507bf2eee",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -49,8 +49,8 @@
       },
       "sources": [
         {
-          "id": "8273af8e-9870-4c4b-b8ad-20672ef03264",
-          "topicId": "610f1e40-c68a-48f2-86da-48e507bf2eee",
+          "id": "01440ea8-2d21-4d0c-96e7-8c10e340b53e",
+          "topicId": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
           "title": "Daily ChatGPT hotspot source",
           "publisher": "ChatGPT",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -63,8 +63,8 @@
       ]
     },
     {
-      "id": "df315e18-7260-48e4-a0d6-f8b5cd38c062",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "204498bd-9ea9-407b-bf78-00652025822e",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "world-cup-morocco-norway",
       "rank": 2,
       "category": "sports",
@@ -102,8 +102,8 @@
       },
       "sources": [
         {
-          "id": "75757e28-8431-4fee-bd94-c57934fc2c88",
-          "topicId": "df315e18-7260-48e4-a0d6-f8b5cd38c062",
+          "id": "0e83c9ad-da7b-4efc-bac2-7e7aec211f9f",
+          "topicId": "204498bd-9ea9-407b-bf78-00652025822e",
           "title": "Morocco advance after penalty shootout win over Netherlands in Monterrey thriller",
           "publisher": "Reuters",
           "url": "https://www.reuters.com/",
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "id": "457f6e24-49ac-4845-a58c-ba3beb221566",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "0bffac59-37e8-4c2b-9319-3de9e34b145b",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "us-birthright-citizenship",
       "rank": 3,
       "category": "international",
@@ -155,8 +155,8 @@
       },
       "sources": [
         {
-          "id": "dd3e672d-d76f-41d0-bf51-0fdc58f34901",
-          "topicId": "457f6e24-49ac-4845-a58c-ba3beb221566",
+          "id": "859c534c-f887-4364-8dd8-8d21502da7ce",
+          "topicId": "0bffac59-37e8-4c2b-9319-3de9e34b145b",
           "title": "Supreme Court birthright citizenship ruling",
           "publisher": "Reuters",
           "url": "https://www.reuters.com/",
@@ -169,11 +169,11 @@
       ]
     },
     {
-      "id": "bfcd0b44-fb85-4f1b-8e64-5dc0ffe0dec9",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "57b933f1-9077-4173-a083-575ee5e002f7",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "venezuela-quake-child-rescue",
       "rank": 4,
-      "category": "society",
+      "category": "culture",
       "region": "Venezuela",
       "countryCodes": [],
       "eventTime": null,
@@ -208,8 +208,8 @@
       },
       "sources": [
         {
-          "id": "61865c71-180c-4797-99d7-bd5e86f7a3d7",
-          "topicId": "bfcd0b44-fb85-4f1b-8e64-5dc0ffe0dec9",
+          "id": "46d17436-7b75-42c2-b2ff-812cb817b46c",
+          "topicId": "57b933f1-9077-4173-a083-575ee5e002f7",
           "title": "Rescuers in Venezuela pluck child alive from collapsed building",
           "publisher": "Reuters",
           "url": "https://www.reuters.com/",
@@ -222,8 +222,8 @@
       ]
     },
     {
-      "id": "d0bb864f-16f4-429b-a50a-66389d9de399",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "f24346b4-d8e9-45d9-9320-35967cb850c7",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "israel-lebanon-south",
       "rank": 5,
       "category": "international",
@@ -261,8 +261,8 @@
       },
       "sources": [
         {
-          "id": "91aa6f72-0062-45bd-b772-4e8bed592de2",
-          "topicId": "d0bb864f-16f4-429b-a50a-66389d9de399",
+          "id": "e0fe7af6-173a-4ff3-9d01-b1d99af8f823",
+          "topicId": "f24346b4-d8e9-45d9-9320-35967cb850c7",
           "title": "Netanyahu visits occupied southern Lebanon, says Israel won't leave yet",
           "publisher": "Reuters",
           "url": "https://www.reuters.com/",
@@ -275,8 +275,8 @@
       ]
     },
     {
-      "id": "f4d865d2-0a31-41b8-b162-8b6ddebd209b",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "80406bf8-df6f-4878-9036-d5b6c26ae944",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "russia-fuel-shortage-ukraine-strikes",
       "rank": 6,
       "category": "international",
@@ -314,8 +314,8 @@
       },
       "sources": [
         {
-          "id": "7a23554a-631f-4e99-b912-ef0459896c48",
-          "topicId": "f4d865d2-0a31-41b8-b162-8b6ddebd209b",
+          "id": "dfd22e90-31ac-4002-92fb-ccaaddf617ee",
+          "topicId": "80406bf8-df6f-4878-9036-d5b6c26ae944",
           "title": "Russian fuel shortages linked to Ukrainian strikes",
           "publisher": "Reuters",
           "url": "https://www.reuters.com/",
@@ -328,8 +328,8 @@
       ]
     },
     {
-      "id": "53cc99c8-8000-45d5-a07a-0e36177081d6",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "3355255f-f4e7-4c32-a6c5-f7e101c22c82",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "europe-heatwave-work",
       "rank": 7,
       "category": "climate",
@@ -367,8 +367,8 @@
       },
       "sources": [
         {
-          "id": "cb43228d-9092-4eb6-bb80-acf38a32ed9c",
-          "topicId": "53cc99c8-8000-45d5-a07a-0e36177081d6",
+          "id": "7b5074ad-c273-4f1e-88f8-a46d1134231c",
+          "topicId": "3355255f-f4e7-4c32-a6c5-f7e101c22c82",
           "title": "Europe heatwave disrupts work and public services",
           "publisher": "Reuters",
           "url": "https://www.reuters.com/",
@@ -381,8 +381,8 @@
       ]
     },
     {
-      "id": "e72003d2-5b47-498d-bf1b-beeb29811b2f",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "f85b1ae0-6c5b-46de-8ccb-bd9998856c39",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "google-ai-energy",
       "rank": 8,
       "category": "technology",
@@ -420,8 +420,8 @@
       },
       "sources": [
         {
-          "id": "94f07e65-5724-4400-adce-5349762dc6cf",
-          "topicId": "e72003d2-5b47-498d-bf1b-beeb29811b2f",
+          "id": "385155e3-0312-45d2-95b0-c079ab704d72",
+          "topicId": "f85b1ae0-6c5b-46de-8ccb-bd9998856c39",
           "title": "Google's AI boom sends emissions, power use soaring",
           "publisher": "Axios",
           "url": "https://www.axios.com/",
@@ -434,8 +434,8 @@
       ]
     },
     {
-      "id": "4f48dc49-1d6b-4db5-bf62-19dd4a69f55b",
-      "issueId": "6dc32290-b81c-4da8-a71b-5de1550ac42a",
+      "id": "88f69f90-e3ad-4a4b-a5a6-e8608c55f4bf",
+      "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
       "slug": "china-japan-export-controls",
       "rank": 9,
       "category": "business",
@@ -473,8 +473,8 @@
       },
       "sources": [
         {
-          "id": "2f35f2f2-4a9a-4ab6-badf-9a25291efc83",
-          "topicId": "4f48dc49-1d6b-4db5-bf62-19dd4a69f55b",
+          "id": "729dfa9a-34bd-43cf-ba07-0652729522c0",
+          "topicId": "88f69f90-e3ad-4a4b-a5a6-e8608c55f4bf",
           "title": "China adds Japanese entities to export-control list",
           "publisher": "Reuters",
           "url": "https://www.reuters.com/",
