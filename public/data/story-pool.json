@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T05:00:00+08:00",
+  "updatedAt": "2026-07-02T05:00:00+08:00",
   "stories": [
     {
       "storyId": "daily_global_overview_june30_2026",
@@ -2331,6 +2331,87 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "中国将20家日本实体列入两用物项出口管制清单"
+    },
+    {
+      "storyId": "daily_global_overview_july2_2026",
+      "status": "new",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "法国、墨西哥、英格兰晋级世界杯16强，美国拒绝延长美加墨贸易协定，霍尔木兹海峡再成谈判焦点"
+    },
+    {
+      "storyId": "world_cup_july2_knockouts_2026",
+      "status": "new",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "法国、墨西哥、英格兰同日晋级16强"
+    },
+    {
+      "storyId": "usmca_review_countdown_2026",
+      "status": "new",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国拒绝按现状延长USMCA，美加墨贸易协定进入十年倒计时"
+    },
+    {
+      "storyId": "iran_hormuz_control_fees_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "伊朗坚持对霍尔木兹海峡拥有控制与收费权"
+    },
+    {
+      "storyId": "taiwan_coast_guard_boarding_requests_2026",
+      "status": "new",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "台湾要求船只无视中国海警登检要求"
+    },
+    {
+      "storyId": "ukraine_fuel_stations_poland_sabotage_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "俄罗斯袭击乌克兰多处民用加油站，波兰警告俄方可能发动破坏行动"
+    },
+    {
+      "storyId": "spain_heat_excess_deaths_june_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "西班牙6月因高温造成1029例超额死亡，欧洲热浪继续刷新纪录"
+    },
+    {
+      "storyId": "un_ai_risk_panel_2026",
+      "status": "new",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "联合国专家警告AI发展正快于监管和科学理解"
+    },
+    {
+      "storyId": "meta_ai_cloud_compute_2026",
+      "status": "new",
+      "firstSeen": "2026-07-02",
+      "lastSeen": "2026-07-02",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "Meta计划出售过剩AI算力，科技巨头开始把烧钱基建变成云服务"
     }
   ]
 }
