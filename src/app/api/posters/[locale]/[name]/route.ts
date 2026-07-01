@@ -46,8 +46,8 @@ export async function GET(
     return new NextResponse(await response.arrayBuffer(), {
       headers: {
         "Content-Type": thumbnail ? "image/webp" : "image/png",
-        "Cache-Control": "public, max-age=300, s-maxage=300, stale-while-revalidate=86400",
-        "CDN-Cache-Control": "public, max-age=300, stale-while-revalidate=86400",
+        "Cache-Control": "no-store, max-age=0",
+        "CDN-Cache-Control": "no-store",
       },
     });
   } catch {
