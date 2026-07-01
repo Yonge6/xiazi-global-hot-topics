@@ -131,10 +131,12 @@ export function getArchivedPosterAsset(
   cacheKey?: string | number,
 ) {
   const name = resolvePosterName(slug);
-  const query = new URLSearchParams({ issueDate });
-  if (variant === "thumbnail") query.set("variant", "thumbnail");
+  const path = variant === "thumbnail"
+    ? `/archive/${issueDate}/posters/thumb/${locale}/${name}.webp`
+    : `/archive/${issueDate}/posters/${locale}/${name}.png`;
+  const query = new URLSearchParams();
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
-  return posterApiPath(`/api/posters/${locale}/${name}/?${query.toString()}`);
+  return withBasePath(`${path}${query.size ? `?${query.toString()}` : ""}`);
 }
 
 export function getPosterAsset(
@@ -144,11 +146,12 @@ export function getPosterAsset(
   cacheKey?: string | number,
 ) {
   const name = resolvePosterName(slug);
+  const path = variant === "thumbnail"
+    ? `/posters/thumb/${locale}/${name}.webp`
+    : `/posters/${locale}/${name}.png`;
   const query = new URLSearchParams();
-  if (variant === "thumbnail") query.set("variant", "thumbnail");
   if (cacheKey !== undefined) query.set("v", String(cacheKey));
-  const suffix = query.size ? `?${query.toString()}` : "";
-  return posterApiPath(`/api/posters/${locale}/${name}/${suffix}`);
+  return withBasePath(`${path}${query.size ? `?${query.toString()}` : ""}`);
 }
 
 function posterApiPath(path: string) {
