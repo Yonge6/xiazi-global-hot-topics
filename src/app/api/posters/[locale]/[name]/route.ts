@@ -21,6 +21,7 @@ export async function GET(
   const params = new URL(request.url).searchParams;
   const thumbnail = params.get("variant") === "thumbnail";
   const issueDate = params.get("issueDate");
+  const cacheKey = params.get("v");
   const extension = thumbnail ? "webp" : "png";
   const pathPrefix = issueDate && safeIssueDate.test(issueDate)
     ? `archive/${issueDate}/posters${thumbnail ? "/thumb" : ""}`
@@ -31,9 +32,10 @@ export async function GET(
 
   try {
     const response = await fetch(
-      `https://api.github.com/repos/${repo}/contents/${path}?ref=main`,
+      `https://api.github.com/repos/${repo}/contents/${path}?ref=main${cacheKey ? `&v=${encodeURIComponent(cacheKey)}` : ""}`,
       {
         cache: "no-store",
+        next: { revalidate: 0 },
         headers: {
           Accept: "application/vnd.github.raw+json",
           ...(token ? { Authorization: `Bearer ${token}` } : {}),
