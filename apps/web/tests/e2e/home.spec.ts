@@ -45,7 +45,7 @@ test("renders the Chinese issue with one overview and eight stories", async ({ p
   await expect(page.getByText("1 张今日总览 · 8 件全球热点")).toBeVisible();
   await expect(page.locator("article")).toHaveCount(9);
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
-  await expect(page.getByText("pluto.hk").first()).toBeVisible();
+  await expect(page.getByText("xiazishuo.com").first()).toBeVisible();
   await expect(page.getByText(zhDate(issue.issueDate))).toBeVisible();
   await expect(page.getByText("点击日期，查看当期 1 张今日总览、8 件全球热点的文字、来源与海报。")).toBeVisible();
   await expect(page.getByText(/每天看懂\s*9\s*件重要的事/)).toHaveCount(0);
