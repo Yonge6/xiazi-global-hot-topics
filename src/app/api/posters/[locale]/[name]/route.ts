@@ -32,7 +32,7 @@ export async function GET(
 
   try {
     const response = await fetch(
-      `https://api.github.com/repos/${repo}/contents/${path}?ref=main${cacheKey ? `&v=${encodeURIComponent(cacheKey)}` : ""}`,
+      `https://api.github.com/repos/${repo}/contents/public/${path}?ref=main${cacheKey ? `&v=${encodeURIComponent(cacheKey)}` : ""}`,
       {
         cache: "no-store",
         next: { revalidate: 0 },
