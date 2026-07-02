@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T05:00:00+08:00",
+  "updatedAt": "2026-07-03T05:00:00+08:00",
   "stories": [
     {
       "storyId": "daily_global_overview_june30_2026",
@@ -2412,6 +2412,87 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "Meta计划出售过剩AI算力，科技巨头开始把烧钱基建变成云服务"
+    },
+    {
+      "storyId": "daily_global_overview_july3_2026",
+      "status": "new",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国和西班牙晋级世界杯16强，全球同时在司法、灾难、战争、气候、历史道歉与AI规则里重新设限"
+    },
+    {
+      "storyId": "world_cup_july3_usa_spain_2026",
+      "status": "new",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国十人作战仍2:0晋级，西班牙3:0零封奥地利"
+    },
+    {
+      "storyId": "us_rejects_icc_jurisdiction_2026",
+      "status": "new",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国司法部称国际刑事法院无权管辖美国人"
+    },
+    {
+      "storyId": "venezuela_quake_survivor_rescue_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "委内瑞拉地震后8天，一名保安从废墟中获救"
+    },
+    {
+      "storyId": "kyiv_massive_russian_strike_july2026",
+      "status": "followup",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "俄罗斯对基辅发动大规模袭击，造成重大平民伤亡"
+    },
+    {
+      "storyId": "russia_yabloko_perepelitsa_detained_2026",
+      "status": "new",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "俄罗斯反战自由派人士在莫斯科被拘"
+    },
+    {
+      "storyId": "europe_heat_adaptation_gap_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "latestHeadline": "欧洲热浪暴露气候适应短板"
+    },
+    {
+      "storyId": "uk_forced_adoption_state_apology_2026",
+      "status": "new",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "英国政府为战后强制收养制度正式道歉"
+    },
+    {
+      "storyId": "us_ai_model_release_standards_2026",
+      "status": "new",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "美国与AI公司讨论新模型发布自愿标准"
     }
   ]
 }
