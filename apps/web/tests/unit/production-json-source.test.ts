@@ -48,4 +48,11 @@ describe("production JSON source", () => {
     expect(loaded.issue.issueDate).toBe(issue.issueDate);
     expect(fetchMock).not.toHaveBeenCalled();
   });
+
+  it("does not bundle local JSON fallback in production", async () => {
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubGlobal("fetch", vi.fn(async () => ({ ok: false, status: 404 })));
+
+    await expect(loadLatestProductionIssue()).rejects.toThrow("Current issue unavailable");
+  });
 });

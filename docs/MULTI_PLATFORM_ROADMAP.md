@@ -1,6 +1,6 @@
 # Multi-Platform Roadmap
 
-Current source of truth for Pluto.hk / 虾子曰 multi-platform migration phases.
+Current source of truth for xiazishuo.com / 虾子曰 multi-platform migration phases. `pluto.hk` remains a legacy entry during the domain transition.
 
 ## Guardrails
 
@@ -118,6 +118,8 @@ Status: complete.
 ### Phase 4C: Supabase Primary Reads
 
 Goal: switch production reads to Supabase with JSON fallback after a clean observation window.
+
+Rollout rule: Production Supabase primary reads require all three server-side switches: `CONTENT_REPOSITORY=supabase`, `SUPABASE_PRIMARY_READS_ENABLED=true`, and `JSON_READ_FALLBACK_ENABLED=true`. If any switch is missing, Production must stay JSON-backed or fall back to JSON. Phase 4C changes public reads only; GitHub remains the primary write path and Studio shadow writes remain Phase 4B behavior.
 
 ### Phase 4D: Supabase Primary Writes
 
