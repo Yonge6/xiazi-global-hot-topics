@@ -1,0 +1,516 @@
+{
+  "id": "issue-2026-07-04",
+  "slug": "2026-07-04",
+  "issueDate": "2026-07-04",
+  "assetVersion": "issue-2026-07-04-editorial-infographic-v1",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-04T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-03T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-04-01",
+  "topics": [
+    {
+      "id": "topic-2026-07-04-01",
+      "issueId": "issue-2026-07-04",
+      "slug": "overview",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "daily_global_overview_july04_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "葡萄牙、瑞士、埃及晋级，伊朗国葬、基辅哀悼、委内瑞拉灾情、北约援乌、秘鲁大选、欧洲热浪与AI就业同时推进",
+          "headlineView": "世界不是只有胜负，也在不断清算代价",
+          "headlineFull": "葡萄牙、瑞士、埃及晋级，伊朗国葬、基辅哀悼、委内瑞拉灾情、北约援乌、秘鲁大选、欧洲热浪与AI就业同时推进；世界不是只有胜负，也在不断清算代价。",
+          "intro": "过去24小时，世界杯淘汰赛继续推进：葡萄牙2:1绝杀克罗地亚，瑞士2:0淘汰阿尔及利亚，埃及点球淘汰澳大利亚。场外，伊朗开启哈梅内伊国葬，基辅哀悼今年最致命俄袭，委内瑞拉地震灾情扩大，北约准备重申集体防御与援乌承诺，秘鲁确认藤森胜选，欧洲热浪死亡数据上修，印度AI岗位逆势增长。",
+          "xiaziQuote": "今天的共同线索是代价：球场上的胜利有掌声，现实里的清算却更漫长。",
+          "doudouQuote": "有人晋级，有人哀悼，有人找工作，世界这张日报真的很重。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "Portugal, Switzerland and Egypt advance as Iran mourns, Kyiv searches rubble, Venezuela counts quake losses, NATO drafts pledges, Peru confirms a president, Europe counts heat deaths and India rewires tech hiring",
+          "headlineView": "the world is not only keeping score; it is counting costs",
+          "headlineFull": "Portugal, Switzerland and Egypt advance as Iran mourns, Kyiv searches rubble, Venezuela counts quake losses, NATO drafts pledges, Peru confirms a president, Europe counts heat deaths and India rewires tech hiring; the world is not only keeping score; it is counting costs.",
+          "intro": "In the past 24 hours, Portugal beat Croatia 2-1, Switzerland defeated Algeria 2-0 and Egypt advanced on penalties over Australia. Beyond football, Iran began funeral ceremonies for Ali Khamenei, Kyiv mourned a deadly Russian strike, Venezuela's quake losses widened, NATO prepared Article 5 and Ukraine-aid language, Peru confirmed Keiko Fujimori's win, Europe revised heatwave deaths and India reported stronger AI hiring.",
+          "xiaziQuote": "The thread today is cost: wins are immediate, but political, climate and war costs keep arriving later.",
+          "doudouQuote": "A scoreboard is simple. A world ledger is not.",
+          "footerTakeaway": "Keyword: Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-01",
+          "topicId": "topic-2026-07-04-01",
+          "title": "Daily ChatGPT hotspot source verified and corrected by Codex",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-02",
+      "issueId": "issue-2026-07-04",
+      "slug": "world-cup-july04-portugal-swiss-egypt",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "PT",
+        "CH",
+        "EG",
+        "HR",
+        "DZ",
+        "AU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "world_cup_july04_portugal_swiss_egypt_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "葡萄牙绝杀克罗地亚，瑞士88年来首赢淘汰赛，埃及点球过关",
+          "headlineView": "淘汰赛真正考验的，是最后一分钟还敢不敢出手",
+          "headlineFull": "葡萄牙绝杀克罗地亚，瑞士88年来首赢淘汰赛，埃及点球过关；淘汰赛真正考验的，是最后一分钟还敢不敢出手。",
+          "intro": "北京时间7月3日05:00至7月4日05:00，世界杯完成3场32强赛：葡萄牙2:1克罗地亚，C罗点球扳平，拉莫斯补时绝杀；瑞士2:0淘汰阿尔及利亚，取得1938年以来首场世界杯淘汰赛胜利；澳大利亚1:1埃及，点球2:4，埃及晋级。",
+          "xiaziQuote": "淘汰赛不讲情面，强队也会发抖，老将也要重新证明自己。",
+          "doudouQuote": "点球大战太刺激，心脏差点跟着球一起飞出去。",
+          "footerTakeaway": "今日关键词：世界杯。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "Portugal edge Croatia, Switzerland beat Algeria and Egypt eliminate Australia on penalties",
+          "headlineView": "knockout football tests who still dares to act at the end",
+          "headlineFull": "Portugal edge Croatia, Switzerland beat Algeria and Egypt eliminate Australia on penalties; knockout football tests who still dares to act at the end.",
+          "intro": "Between 05:00 July 3 and 05:00 July 4 Beijing time, Portugal beat Croatia 2-1, Switzerland defeated Algeria 2-0, and Egypt beat Australia 4-2 on penalties after a 1-1 draw. Portugal face Spain next, Switzerland await Colombia or Ghana, and Egypt reach the last 16.",
+          "xiaziQuote": "Knockout games measure nerve after the plan breaks.",
+          "doudouQuote": "Penalties are football's shortest horror movie.",
+          "footerTakeaway": "Keyword: World Cup."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-02",
+          "topicId": "topic-2026-07-04-02",
+          "title": "2026 World Cup European sides results and Egypt-Australia live report",
+          "publisher": "UEFA / The Guardian",
+          "url": "https://www.uefa.com/european-qualifiers/news/02a6-20c3aa0fafe2-4a6b4459a3fc-1000--2026-world-cup-all-the-european-sides-group-stage-and-knock/",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-03",
+      "issueId": "issue-2026-07-04",
+      "slug": "iran-khamenei-funeral",
+      "rank": 3,
+      "category": "international",
+      "region": "Iran",
+      "countryCodes": [
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "iran_khamenei_funeral_july04_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "伊朗政局",
+          "headlineFact": "哈梅内伊遗体在德黑兰供公众悼念",
+          "headlineView": "一场国葬既是告别，也是新权力秩序的公开亮相",
+          "headlineFull": "哈梅内伊遗体在德黑兰供公众悼念；一场国葬既是告别，也是新权力秩序的公开亮相。",
+          "intro": "伊朗开始为已故最高领袖哈梅内伊举行一周国葬，遗体在德黑兰公开停灵，之后还将举行多地悼念与安葬安排。多国官员抵达德黑兰参加仪式。对伊朗而言，这不只是葬礼，也是新权力结构展示稳定性的关键时刻。",
+          "xiaziQuote": "国葬表面是悼念，深层是权力交接：谁站在灵柩旁边，谁就站在新时代入口。",
+          "doudouQuote": "历史有时候很安静，但每个站位都很响。",
+          "footerTakeaway": "今日关键词：伊朗政局。"
+        },
+        "en-US": {
+          "categoryLabel": "Iran",
+          "headlineFact": "Khamenei lies in state as Iran opens funeral ceremonies",
+          "headlineView": "a state funeral is both farewell and a public staging of the next order",
+          "headlineFull": "Khamenei lies in state as Iran opens funeral ceremonies; a state funeral is both farewell and a public staging of the next order.",
+          "intro": "Iran began funeral ceremonies for late Supreme Leader Ali Khamenei, with his body lying in state in Tehran and officials and foreign dignitaries attending. The ceremonies are also a test of continuity at a fragile political moment.",
+          "xiaziQuote": "A funeral can be mourning on the surface and succession beneath it.",
+          "doudouQuote": "In politics, even silence has a seating chart.",
+          "footerTakeaway": "Keyword: Iran."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-03",
+          "topicId": "topic-2026-07-04-03",
+          "title": "Iran begins week of funeral ceremonies for slain Supreme Leader Khamenei",
+          "publisher": "Al Jazeera / Reuters / AFP",
+          "url": "https://www.aljazeera.com/news/2026/7/3/iran-begins-week-of-funeral-ceremonies-for-slain-supreme-leader-khamenei",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-04",
+      "issueId": "issue-2026-07-04",
+      "slug": "kyiv-mourning-russian-strike",
+      "rank": 4,
+      "category": "international",
+      "region": "Ukraine",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "kyiv_mourning_russian_strike_july04_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌战争",
+          "headlineFact": "基辅哀悼今年最致命俄袭，仍有失踪者待搜救",
+          "headlineView": "战争最残酷的地方，是城市每天都在重新失去日常",
+          "headlineFull": "基辅哀悼今年最致命俄袭，仍有失踪者待搜救；战争最残酷的地方，是城市每天都在重新失去日常。",
+          "intro": "基辅7月3日进入哀悼日。此前俄罗斯导弹与无人机袭击造成至少30人死亡、92人受伤。救援人员仍在废墟中寻找失踪者，泽连斯基称仍有10人下落不明。俄罗斯称袭击是对乌克兰打击俄方目标的报复。",
+          "xiaziQuote": "战争不只发生在地图上，也发生在每一扇被震碎的窗和每一栋回不去的家里。",
+          "doudouQuote": "希望失踪的人还能被找到，也希望城市能早点安静下来。",
+          "footerTakeaway": "今日关键词：俄乌战争。"
+        },
+        "en-US": {
+          "categoryLabel": "Ukraine War",
+          "headlineFact": "Kyiv mourns after the deadliest Russian strike on the capital this year",
+          "headlineView": "the cruelty is city life being torn open again and again",
+          "headlineFull": "Kyiv mourns after the deadliest Russian strike on the capital this year; the cruelty is city life being torn open again and again.",
+          "intro": "Kyiv observed a day of mourning after a Russian missile and drone attack killed at least 30 people and wounded 92. Rescue teams continued searching rubble, with President Volodymyr Zelenskiy saying 10 people were still missing.",
+          "xiaziQuote": "The depth of war now reaches apartment blocks, hospitals, energy systems and ordinary nights.",
+          "doudouQuote": "A delayed defence battery can become another city night held together by luck.",
+          "footerTakeaway": "Keyword: Ukraine War."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-04",
+          "topicId": "topic-2026-07-04-04",
+          "title": "Rescuers scour rubble as Kyiv mourns deadliest Russian attack this year",
+          "publisher": "Thomson Reuters / WIKY",
+          "url": "https://wiky.com/2026/07/03/ukrainian-rescuers-clear-rubble-as-kyiv-mourns-30-killed-in-russian-attack/",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-05",
+      "issueId": "issue-2026-07-04",
+      "slug": "venezuela-quake-toll",
+      "rank": 5,
+      "category": "international",
+      "region": "Venezuela",
+      "countryCodes": [
+        "VE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "venezuela_quake_toll_july04_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "委内瑞拉地震",
+          "headlineFact": "委内瑞拉地震死亡人数继续攀升",
+          "headlineView": "灾难进入第二阶段，救援压力开始转向医疗、安置和公共卫生",
+          "headlineFull": "委内瑞拉地震死亡人数继续攀升；灾难进入第二阶段，救援压力开始转向医疗、安置和公共卫生。",
+          "intro": "委内瑞拉双震造成的死亡人数继续上升，官方与救援报告显示数千人遇难、上万人受伤，大量建筑受损。灾害正在从最初搜救转向医疗救治、遗体辨认、临时安置、公共卫生和长期重建压力。",
+          "xiaziQuote": "灾难新闻最容易被一串数字带过，但每一个数字背后，都是一个家庭被重写。",
+          "doudouQuote": "救援物资快一点，再快一点。",
+          "footerTakeaway": "今日关键词：委内瑞拉地震。"
+        },
+        "en-US": {
+          "categoryLabel": "Venezuela Quake",
+          "headlineFact": "Venezuela's earthquake toll keeps climbing",
+          "headlineView": "the second stage of disaster is medicine, shelter, identification and recovery",
+          "headlineFull": "Venezuela's earthquake toll keeps climbing; the second stage of disaster is medicine, shelter, identification and recovery.",
+          "intro": "Venezuela's twin earthquakes have left thousands dead, more than 12,000 injured and widespread building damage, according to official and rescue reports. The crisis is shifting from emergency rescue toward health care, shelter and long-term recovery.",
+          "xiaziQuote": "Disaster numbers are never abstract; each one rewrites a household.",
+          "doudouQuote": "Relief supplies need to move faster than despair.",
+          "footerTakeaway": "Keyword: Venezuela Quake."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-05",
+          "topicId": "topic-2026-07-04-05",
+          "title": "Venezuela earthquakes latest: Death toll climbs as rescuers continue work",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/International/venezuela-earthquakes-latest-50000-unaccounted-death-toll-climbs/story?id=134386173",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-06",
+      "issueId": "issue-2026-07-04",
+      "slug": "nato-article5-ukraine-aid",
+      "rank": 6,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "TR",
+        "UA",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "nato_article5_ukraine_aid_july04_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "北约峰会",
+          "headlineFact": "北约峰会文本将重申第五条集体防御承诺",
+          "headlineView": "联盟最重要的是美国还愿不愿意把承诺写进文本",
+          "headlineFull": "北约峰会文本将重申第五条集体防御承诺；联盟最重要的是美国还愿不愿意把承诺写进文本。",
+          "intro": "北约成员准备在安卡拉峰会上重申对第五条集体防御的承诺，并讨论2026年向乌克兰提供约700亿欧元军事援助、2027年维持相当水平。文本仍待领导人最终批准，但已被视为对跨大西洋承诺的一次再确认。",
+          "xiaziQuote": "北约这次最重要的不是多说一句口号，而是美国还愿不愿意把这句话写进文件里。",
+          "doudouQuote": "联盟关系像组队打副本，最怕队友突然说“不一定来”。",
+          "footerTakeaway": "今日关键词：北约峰会。"
+        },
+        "en-US": {
+          "categoryLabel": "NATO",
+          "headlineFact": "NATO summit language is set to reaffirm Article 5 and Ukraine aid",
+          "headlineView": "the real question is whether Washington still signs the promise",
+          "headlineFull": "NATO summit language is set to reaffirm Article 5 and Ukraine aid; the real question is whether Washington still signs the promise.",
+          "intro": "NATO members are preparing Ankara summit language reaffirming Article 5 collective defence and discussing about 70 billion euros in military aid for Ukraine in 2026, with comparable support in 2027. Final approval remains for leaders.",
+          "xiaziQuote": "The key is not the slogan; it is whether the United States keeps writing it into the document.",
+          "doudouQuote": "Alliances are teams. The scary part is a teammate saying maybe.",
+          "footerTakeaway": "Keyword: NATO."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-06",
+          "topicId": "topic-2026-07-04-06",
+          "title": "NATO summit: European members and Canada pledge Ukraine aid",
+          "publisher": "DW / Reuters / AFP / dpa",
+          "url": "https://amp.dw.com/en/nato-summit-european-members-and-canada-pledge-long-term-ukraine-aid/a-77825447",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-07",
+      "issueId": "issue-2026-07-04",
+      "slug": "peru-election-fujimori-sanchez",
+      "rank": 7,
+      "category": "international",
+      "region": "Peru",
+      "countryCodes": [
+        "PE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "peru_fujimori_election_july04_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "秘鲁大选",
+          "headlineFact": "藤森正式赢得秘鲁总统选举",
+          "headlineView": "微弱胜利之后，真正难题是修复撕裂",
+          "headlineFull": "藤森正式赢得秘鲁总统选举；微弱胜利之后，真正难题是修复撕裂。",
+          "intro": "秘鲁选举机构正式宣布保守派候选人藤森赢得总统选举。她以50.135%对49.865%击败左翼候选人罗伯托·桑切斯，差距约5万票。经历抗议、舞弊指控和争议选票审查后，挑战将从赢下选举转向如何治理。",
+          "xiaziQuote": "票数能决定总统，不能自动修复信任。",
+          "doudouQuote": "差这么一点点赢，后面每一步都要更会团结人。",
+          "footerTakeaway": "今日关键词：秘鲁大选。"
+        },
+        "en-US": {
+          "categoryLabel": "Peru Election",
+          "headlineFact": "Keiko Fujimori is officially declared winner of Peru's presidential race",
+          "headlineView": "a razor-thin win now faces the harder work of governing a split country",
+          "headlineFull": "Keiko Fujimori is officially declared winner of Peru's presidential race; a razor-thin win now faces the harder work of governing a split country.",
+          "intro": "Peru's electoral office declared Keiko Fujimori winner after weeks of protests, fraud accusations and ballot reviews. She won 50.135% against Roberto Sanchez's 49.865%, a margin of about 50,000 votes.",
+          "xiaziQuote": "Votes can choose a president; they cannot automatically repair trust.",
+          "doudouQuote": "Winning by a sliver means governing needs a wider bridge.",
+          "footerTakeaway": "Keyword: Peru Election."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-07",
+          "topicId": "topic-2026-07-04-07",
+          "title": "Keiko Fujimori declared winner of Peru presidential race",
+          "publisher": "Reuters / Internazionale",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/03/keiko-fujimori-declared-winner-of-peru-presidential-race",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-08",
+      "issueId": "issue-2026-07-04",
+      "slug": "europe-heatwave-excess-deaths",
+      "rank": 8,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "BE",
+        "NL"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "europe_heatwave_excess_deaths_july04_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "法国、比利时、荷兰热浪超额死亡至少3700人",
+          "headlineView": "气候变化最可怕的不是热，而是社会系统突然不够用了",
+          "headlineFull": "法国、比利时、荷兰热浪超额死亡至少3700人；气候变化最可怕的不是热，而是社会系统突然不够用了。",
+          "intro": "法国、比利时和荷兰在6月热浪期间记录至少3700例超额死亡，且官方称数据仍是初步估算。法国单国报告2025例超额死亡。专家称本轮热浪几乎确定受到气候变化推动，并已冲击电力、基础设施和医疗系统。",
+          "xiaziQuote": "热浪不是天气热一点，而是医疗、电力、养老、住房同时接受压力测试。",
+          "doudouQuote": "以后城市要学会防暑，就像学会防火、防洪一样重要。",
+          "footerTakeaway": "今日关键词：欧洲热浪。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Heatwave",
+          "headlineFact": "France, Belgium and the Netherlands report at least 3,700 excess heatwave deaths",
+          "headlineView": "the danger is not only heat; it is systems suddenly running out of margin",
+          "headlineFull": "France, Belgium and the Netherlands report at least 3,700 excess heatwave deaths; the danger is not only heat; it is systems suddenly running out of margin.",
+          "intro": "France, Belgium and the Netherlands recorded at least 3,700 excess deaths during the June heatwave, with authorities warning the figures are preliminary. France reported 2,025 excess deaths as heat strained power, infrastructure and healthcare.",
+          "xiaziQuote": "Heatwaves test hospitals, power grids, housing and care systems all at once.",
+          "doudouQuote": "Cities now need heat defence the way they need fire and flood defence.",
+          "footerTakeaway": "Keyword: Europe Heatwave."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-08",
+          "topicId": "topic-2026-07-04-08",
+          "title": "At least 3,700 excess deaths reported during heatwave in France, Belgium and Netherlands",
+          "publisher": "Thomson Reuters / WTVB",
+          "url": "https://wtvbam.com/2026/07/03/at-least-3700-excess-deaths-reported-during-heatwave-in-france-belgium-and-netherlands/",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-04-09",
+      "issueId": "issue-2026-07-04",
+      "slug": "india-ai-hiring",
+      "rank": 9,
+      "category": "technology",
+      "region": "India",
+      "countryCodes": [
+        "IN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "india_ai_hiring_july04_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 84,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI与就业",
+          "headlineFact": "印度IT行业AI岗位增长，整体招聘却下滑",
+          "headlineView": "AI不是简单抢走工作，而是在把工作重新分层",
+          "headlineFull": "印度IT行业AI岗位增长，整体招聘却下滑；AI不是简单抢走工作，而是在把工作重新分层。",
+          "intro": "印度招聘平台Naukri数据显示，6月印度IT行业AI岗位招聘同比增长16%，但整体IT招聘下降3%。印度庞大的IT外包产业正同时面对客户缩减技术支出与AI重塑传统服务模式，招聘需求从通用岗位转向AI与机器学习能力。",
+          "xiaziQuote": "AI时代不是有没有工作，而是工作被重新切成两类：会用AI放大自己的人，和被AI重新定价的人。",
+          "doudouQuote": "不一定人人都当AI工程师，但人人都得学会和AI同桌干活。",
+          "footerTakeaway": "今日关键词：AI与就业。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Jobs",
+          "headlineFact": "AI hiring rises in India's IT sector while overall tech recruitment falls",
+          "headlineView": "AI is not simply removing work; it is repricing skills",
+          "headlineFull": "AI hiring rises in India's IT sector while overall tech recruitment falls; AI is not simply removing work; it is repricing skills.",
+          "intro": "Naukri's JobSpeak report showed AI roles in India's IT sector rose 16% year on year in June while overall IT recruitment fell 3%. The shift points to companies reallocating hiring toward AI and machine-learning capabilities.",
+          "xiaziQuote": "The labour market is splitting between people who amplify themselves with AI and roles AI reprices.",
+          "doudouQuote": "Not everyone becomes an AI engineer, but everyone needs to work next to AI.",
+          "footerTakeaway": "Keyword: AI Jobs."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-04-09",
+          "topicId": "topic-2026-07-04-09",
+          "title": "AI hiring outpaces overall IT recruitment in India: report",
+          "publisher": "Economic Times",
+          "url": "https://m.economictimes.com/tech/artificial-intelligence/ai-hiring-outpaces-overall-it-recruitment-in-india-report/articleshow/132161120.cms",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
