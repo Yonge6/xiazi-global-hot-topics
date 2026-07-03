@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T05:00:00+08:00",
+  "updatedAt": "2026-07-04T05:00:00+08:00",
   "stories": [
     {
       "storyId": "daily_global_overview_june30_2026",
@@ -2493,6 +2493,87 @@
       "followupDay": 1,
       "informationIncrementScore": 100,
       "latestHeadline": "美国与AI公司讨论新模型发布自愿标准"
+    },
+    {
+      "storyId": "daily_global_overview_july04_2026",
+      "status": "new",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "latestHeadline": "葡萄牙、瑞士、埃及晋级，伊朗国葬、基辅哀悼、委内瑞拉灾情、北约援乌、秘鲁大选、欧洲热浪与AI就业同时推进；世界不是只有胜负，也在不断清算代价。"
+    },
+    {
+      "storyId": "world_cup_july04_portugal_swiss_egypt_2026",
+      "status": "new",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "latestHeadline": "葡萄牙绝杀克罗地亚，瑞士88年来首赢淘汰赛，埃及点球过关；淘汰赛真正考验的，是最后一分钟还敢不敢出手。"
+    },
+    {
+      "storyId": "iran_khamenei_funeral_july04_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
+      "latestHeadline": "哈梅内伊遗体在德黑兰供公众悼念；一场国葬既是告别，也是新权力秩序的公开亮相。"
+    },
+    {
+      "storyId": "kyiv_mourning_russian_strike_july04_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 2,
+      "informationIncrementScore": 88,
+      "latestHeadline": "基辅哀悼今年最致命俄袭，仍有失踪者待搜救；战争最残酷的地方，是城市每天都在重新失去日常。"
+    },
+    {
+      "storyId": "venezuela_quake_toll_july04_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "latestHeadline": "委内瑞拉地震死亡人数继续攀升；灾难进入第二阶段，救援压力开始转向医疗、安置和公共卫生。"
+    },
+    {
+      "storyId": "nato_article5_ukraine_aid_july04_2026",
+      "status": "new",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "latestHeadline": "北约峰会文本将重申第五条集体防御承诺；联盟最重要的是美国还愿不愿意把承诺写进文本。"
+    },
+    {
+      "storyId": "peru_fujimori_election_july04_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 2,
+      "informationIncrementScore": 93,
+      "latestHeadline": "藤森正式赢得秘鲁总统选举；微弱胜利之后，真正难题是修复撕裂。"
+    },
+    {
+      "storyId": "europe_heatwave_excess_deaths_july04_2026",
+      "status": "followup",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "latestHeadline": "法国、比利时、荷兰热浪超额死亡至少3700人；气候变化最可怕的不是热，而是社会系统突然不够用了。"
+    },
+    {
+      "storyId": "india_ai_hiring_july04_2026",
+      "status": "new",
+      "firstSeen": "2026-07-04",
+      "lastSeen": "2026-07-04",
+      "followupDay": 1,
+      "informationIncrementScore": 84,
+      "latestHeadline": "印度IT行业AI岗位增长，整体招聘却下滑；AI不是简单抢走工作，而是在把工作重新分层。"
     }
   ]
 }
