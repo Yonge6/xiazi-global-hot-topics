@@ -2,16 +2,16 @@
   "id": "issue-2026-07-05",
   "slug": "global-hot-topics-2026-07-05",
   "issueDate": "2026-07-05",
-  "assetVersion": "issue-2026-07-05-surreal-news-atlas-v1",
+  "assetVersion": "issue-2026-07-05-user-tinified-v1",
   "status": "published",
   "slotHour": 5,
   "beijingTimestamp": "2026-07-05T05:00:00+08:00",
   "gmtTimestamp": "2026-07-04T21:00:00Z",
   "featuredTopicId": "topic-2026-07-05-01",
   "style": {
-    "name": "阳光超现实新闻地图拼贴",
-    "introZh": "今日主视觉采用阳光超现实新闻地图拼贴：金色日光、漂浮地图、球场弧线、报纸纹理与清晰信息块，把世界杯、台海、热浪、战争、移民、地震与萨赫勒安全放进同一张明亮但有重量的世界地图。",
-    "introEn": "Today uses a sunny surreal news-atlas collage: golden light, floating maps, football arcs, newspaper texture and clear information blocks, placing football, Taiwan, heat, war, migration, earthquakes and Sahel security into one bright but weighty world map."
+    "name": "用户提供 Tinified 今日海报",
+    "introZh": "今日海报使用用户提供的压缩成图，按中文与英文 NO.01—NO.09 一一替换上线。",
+    "introEn": "Today uses the user-provided compressed poster set, mapped one-to-one from NO.01 to NO.09 in Chinese and English."
   },
   "topics": [
     {
@@ -26,29 +26,29 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "daily_global_overview_july05_2026",
+      "storyId": "daily_global_overview_july05_2026_user",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "摩洛哥晋级八强，台海巡航、美国热浪、基辅搜救、移民呼吁、委内瑞拉救灾、马里袭击与伊朗国葬同日推进",
+          "headlineFact": "摩洛哥晋级八强，伊朗举行国葬，乌克兰呼吁美国继续介入，热浪、地震、台海与萨赫勒安全同时升温",
           "headlineView": "世界不是只在比赛里淘汰，也在现实里筛选韧性",
-          "headlineFull": "摩洛哥晋级八强，台海巡航、美国热浪、基辅搜救、移民呼吁、委内瑞拉救灾、马里袭击与伊朗国葬同日推进；世界不是只在比赛里淘汰，也在现实里筛选韧性。",
-          "intro": "过去24小时，世界杯淘汰赛开启16强阶段，摩洛哥3:0击败东道主加拿大，率先进入八强。场外，中国海警在台湾以东启动巡航，美国独立日活动被极端高温打乱，基辅继续清理俄袭废墟，教宗良十四世在兰佩杜萨呼吁保护移民，委内瑞拉地震救援继续，马里多地遭袭，伊朗举行哈梅内伊国葬。",
+          "headlineFull": "摩洛哥晋级八强，伊朗举行国葬，乌克兰呼吁美国继续介入，热浪、地震、台海与萨赫勒安全同时升温；世界不是只在比赛里淘汰，也在现实里筛选韧性。",
+          "intro": "过去24小时，世界杯淘汰赛进入新阶段：阿根廷惊险淘汰佛得角，哥伦比亚击败加纳，摩洛哥3:0送别东道主加拿大，成为首支晋级八强球队。球场之外，伊朗为已故最高领袖哈梅内伊举行大规模悼念；泽连斯基与特朗普通话，呼吁美国继续推动结束俄乌战争；美国和欧洲继续遭遇异常高温，委内瑞拉地震死亡人数升至2954人，中国海警在台湾以东海域巡航，马里多地遭遇武装袭击，教宗良十四世则在兰佩杜萨呼吁保护移民。",
           "xiaziQuote": "今天的共同线索是韧性：球场看比分，现实看系统还能不能撑住。",
-          "doudouQuote": "一边淘汰赛，一边救援队，一边高温预警，世界日报很难轻松。",
+          "doudouQuote": "淘汰赛、国葬、热浪、地震和迁徙挤在同一天，世界日报一点都不轻。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "Morocco reach the quarter-finals as Taiwan patrols, US heat, Kyiv rescue work, migration appeals, Venezuela relief, Mali attacks and Iran mourning move together",
+          "headlineFact": "Morocco reached the quarter-finals as Iran mourned, Ukraine sought continued US resolve, and heat, earthquakes, Taiwan Strait patrols and Sahel insecurity all intensified",
           "headlineView": "the world is not only eliminating teams; it is testing resilience",
-          "headlineFull": "Morocco reach the quarter-finals as Taiwan patrols, US heat, Kyiv rescue work, migration appeals, Venezuela relief, Mali attacks and Iran mourning move together; the world is not only eliminating teams; it is testing resilience.",
-          "intro": "Over the past 24 hours, Morocco beat co-hosts Canada 3-0 to become the first World Cup quarter-finalist. Beyond football, China launched patrols east of Taiwan, extreme heat disrupted US Independence Day events, Kyiv rescue work continued after a deadly Russian strike, Pope Leo appealed for migrant protection in Lampedusa, Venezuela kept counting earthquake losses, Mali faced coordinated attacks and Iran held funeral ceremonies for Ali Khamenei.",
-          "xiaziQuote": "The common thread is resilience: sport keeps score, reality tests whether systems hold.",
-          "doudouQuote": "Knockout games, rescue teams and heat alerts make for a heavy daily brief.",
+          "headlineFull": "Morocco reached the quarter-finals as Iran mourned, Ukraine sought continued US resolve, and heat, earthquakes, Taiwan Strait patrols and Sahel insecurity all intensified; the world is not only eliminating teams; it is testing resilience.",
+          "intro": "Over the past 24 hours, World Cup knockouts moved into a new stage: Argentina edged Cape Verde, Colombia beat Ghana, and Morocco defeated co-host Canada 3-0 to become the first quarter-finalist. Beyond football, Iran held mass mourning for Ali Khamenei, Zelenskiy spoke with Trump about ending the war, heat strained the US and Europe, Venezuela raised its quake death toll to 2,954, China patrolled east of Taiwan, Mali faced attacks, and Pope Leo appealed for migrant protection in Lampedusa.",
+          "xiaziQuote": "The shared thread is resilience: sport keeps score, reality tests whether systems hold.",
+          "doudouQuote": "Knockouts, funerals, heat, earthquakes and migration make for a heavy daily brief.",
           "footerTakeaway": "Keyword: Overview."
         }
       },
@@ -56,12 +56,12 @@
         {
           "id": "source-2026-07-05-01",
           "topicId": "topic-2026-07-05-01",
-          "title": "Daily ChatGPT hotspot source verified and corrected by Codex",
-          "publisher": "ChatGPT + live source checks",
-          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "title": "Clinical Morocco ease past Canada 3-0 to reach World Cup quarter-finals",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/morocco-beat-canada-3-0-reach-world-cup-quarter-finals-2026-07-04/",
           "publishedAt": "2026-07-04T00:00:00Z",
           "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
         }
@@ -75,36 +75,40 @@
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "MA",
-        "CA"
+        "AR",
+        "CV",
+        "CO",
+        "GH",
+        "CA",
+        "MA"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "world_cup_morocco_canada_july05_2026",
+      "storyId": "world_cup_july05_knockouts_user",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "摩洛哥3:0击败加拿大，成为本届世界杯首支八强球队",
-          "headlineView": "淘汰赛最残酷的地方，是主场故事也必须服从实力",
-          "headlineFull": "摩洛哥3:0击败加拿大，成为本届世界杯首支八强球队；淘汰赛最残酷的地方，是主场故事也必须服从实力。",
-          "intro": "北京时间7月4日05:00至7月5日05:00，世界杯16强赛窗口内最明确的赛果是摩洛哥3:0击败加拿大。奥纳希下半场梅开二度，拉希米补时锁定胜局。加拿大作为东道主之一结束旅程，摩洛哥连续两届世界杯闯入八强。",
-          "xiaziQuote": "淘汰赛不奖励故事线，只奖励在关键时刻把机会打进去的人。",
-          "doudouQuote": "东道主剧本没写完，摩洛哥直接把下一章拿走了。",
+          "headlineFact": "摩洛哥3:0击败加拿大晋级八强，阿根廷、哥伦比亚也完成晋级",
+          "headlineView": "淘汰赛真正残酷的地方，是机会错过之后，很快就没有下一次",
+          "headlineFull": "摩洛哥3:0击败加拿大晋级八强，阿根廷、哥伦比亚也完成晋级；淘汰赛真正残酷的地方，是机会错过之后，很快就没有下一次。",
+          "intro": "北京时间7月4日05:00至7月5日05:00，世界杯共结束3场比赛：阿根廷3:2佛得角，哥伦比亚1:0加纳，加拿大0:3摩洛哥。阿根廷加时险胜，哥伦比亚凭借阿里亚斯第14分钟进球晋级，摩洛哥则送别东道主加拿大，成为本届世界杯首支八强球队。法国与巴拉圭在北京时间05:00开球，未计入今日完赛窗口。",
+          "xiaziQuote": "淘汰赛不讲故事完整度，只看你有没有把那一次机会变成比分。",
+          "doudouQuote": "主场光环不保命，加时赛也不讲情面。",
           "footerTakeaway": "今日关键词：世界杯。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Morocco beat Canada 3-0 to become the first 2026 World Cup quarter-finalist",
-          "headlineView": "knockout football makes even a host-nation story answer to quality",
-          "headlineFull": "Morocco beat Canada 3-0 to become the first 2026 World Cup quarter-finalist; knockout football makes even a host-nation story answer to quality.",
-          "intro": "In the Beijing-time window from 05:00 July 4 to 05:00 July 5, the clear World Cup result was Morocco 3-0 Canada. Azzedine Ounahi scored twice after halftime and Soufiane Rahimi sealed the win in stoppage time, ending Canada’s home run and sending Morocco to a second straight quarter-final.",
-          "xiaziQuote": "Knockout games do not reward narratives; they reward execution under pressure.",
-          "doudouQuote": "Canada had the home script. Morocco took the next chapter.",
+          "headlineFact": "Morocco beat Canada 3-0 to reach the quarter-finals, while Argentina and Colombia also advanced",
+          "headlineView": "the cruelty of knockouts is that missed chances rarely get a second life",
+          "headlineFull": "Morocco beat Canada 3-0 to reach the quarter-finals, while Argentina and Colombia also advanced; the cruelty of knockouts is that missed chances rarely get a second life.",
+          "intro": "From 05:00 July 4 to 05:00 July 5 Beijing time, three World Cup matches finished: Argentina 3-2 Cape Verde, Colombia 1-0 Ghana, and Canada 0-3 Morocco. Argentina survived extra time, Colombia advanced through Arias’ 14th-minute goal, and Morocco eliminated co-host Canada to become the first quarter-finalist. France v Paraguay kicked off at 05:00 Beijing time and is outside this completed-results window.",
+          "xiaziQuote": "Knockout football does not care how good the story is; it cares whether the chance becomes a goal.",
+          "doudouQuote": "Home advantage is not armour, and extra time is not mercy.",
           "footerTakeaway": "Keyword: World Cup."
         }
       },
@@ -112,9 +116,9 @@
         {
           "id": "source-2026-07-05-02",
           "topicId": "topic-2026-07-05-02",
-          "title": "Canada 0-3 Morocco: FIFA World Cup 2026 as it happened",
-          "publisher": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/liveblog/2026/7/4/canada-vs-morocco-live-fifa-world-cup-2026-last-16",
+          "title": "Argentina beat Cape Verde 3-2 in extra time thriller",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/argentina-beat-cape-verde-3-2-extra-time-thriller-2026-07-04/",
           "publishedAt": "2026-07-04T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
@@ -126,53 +130,52 @@
     {
       "id": "topic-2026-07-05-03",
       "issueId": "issue-2026-07-05",
-      "slug": "china-taiwan-coast-guard-patrol",
+      "slug": "iran-khamenei-funeral-july05",
       "rank": 3,
       "category": "international",
-      "region": "Taiwan Strait",
+      "region": "Iran",
       "countryCodes": [
-        "CN",
-        "TW"
+        "IR"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "china_taiwan_coast_guard_patrol_july05_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 95,
+      "scoreTotal": 94,
+      "storyId": "iran_khamenei_funeral_july05",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "台海局势",
-          "headlineFact": "中国海警在台湾以东启动巡航，台湾批评其为挑衅",
-          "headlineView": "压力测试不一定开火，也可以是每天把边界往前推一点",
-          "headlineFull": "中国海警在台湾以东启动巡航，台湾批评其为挑衅；压力测试不一定开火，也可以是每天把边界往前推一点。",
-          "intro": "中国海警宣布在台湾以东海域开展巡航，并称将加强相关水域执法。台湾方面批评这是挑衅举动，相关动向也引发国际关注。台海紧张常常不是突然爆发，而是在巡航、执法、军演和外交表态中逐步累积压力。",
-          "xiaziQuote": "地缘政治的危险，有时不在一声巨响，而在边界感被一点点磨薄。",
-          "doudouQuote": "每天多走一步，地图上的线就越来越紧。",
-          "footerTakeaway": "今日关键词：台海局势。"
+          "categoryLabel": "伊朗国葬",
+          "headlineFact": "伊朗为哈梅内伊举行大规模悼念，停火后的权力展示正式开始",
+          "headlineView": "国葬从来不只是告别逝者，也是新秩序向国内外展示自己仍然稳固",
+          "headlineFull": "伊朗为哈梅内伊举行大规模悼念，停火后的权力展示正式开始；国葬从来不只是告别逝者，也是新秩序向国内外展示自己仍然稳固。",
+          "intro": "数以万计伊朗民众聚集在德黑兰大型祈祷场所，悼念在美以对伊朗战争初期遇袭身亡的已故最高领袖哈梅内伊。伊朗计划举行一周悼念活动，并将遗体送往多个宗教城市。葬礼发生在伊朗与美国达成临时停火之后，也被官方塑造成政权仍保持凝聚力的展示。",
+          "xiaziQuote": "国葬看似是告别，深处其实是权力、秩序和动员能力的公开体检。",
+          "doudouQuote": "悼念很安静，但政治信号一点都不安静。",
+          "footerTakeaway": "今日关键词：伊朗国葬。"
         },
         "en-US": {
-          "categoryLabel": "Taiwan Strait",
-          "headlineFact": "China launched coast guard patrols east of Taiwan, drawing criticism from Taipei",
-          "headlineView": "a pressure test does not need gunfire; it can move the boundary a little each day",
-          "headlineFull": "China launched coast guard patrols east of Taiwan, drawing criticism from Taipei; a pressure test does not need gunfire; it can move the boundary a little each day.",
-          "intro": "China said its coast guard had begun patrols east of Taiwan and would strengthen law enforcement in waters it claims. Taiwan criticised the move as provocative, adding another layer to a pattern of patrols, drills and diplomatic pressure around the island.",
-          "xiaziQuote": "The danger in geopolitics can be a boundary being worn thinner day by day.",
-          "doudouQuote": "One more patrol, one tighter map line.",
-          "footerTakeaway": "Keyword: Taiwan Strait."
+          "categoryLabel": "Iran Funeral",
+          "headlineFact": "Iran held mass mourning for Khamenei as a post-ceasefire display of power began",
+          "headlineView": "a state funeral is never only farewell; it is also the new order proving it still stands",
+          "headlineFull": "Iran held mass mourning for Khamenei as a post-ceasefire display of power began; a state funeral is never only farewell; it is also the new order proving it still stands.",
+          "intro": "Tens of thousands gathered at a major prayer site in Tehran to mourn late Supreme Leader Ali Khamenei, who was killed early in the US-Israel war with Iran. Iran planned a week of rites and transfers to multiple religious cities. Coming after a temporary ceasefire with the United States, the funeral was also framed as a display of regime cohesion.",
+          "xiaziQuote": "A state funeral says farewell on the surface and tests power, order and mobilisation underneath.",
+          "doudouQuote": "The mourning may be quiet, but the political signal is loud.",
+          "footerTakeaway": "Keyword: Iran Funeral."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-05-03",
           "topicId": "topic-2026-07-05-03",
-          "title": "China launches coast guard patrol east of Taiwan despite international pushback",
-          "publisher": "Reuters via Threads / 8AM Media",
-          "url": "https://8am.media/eng/china-announces-new-coast-guard-patrols-east-of-taiwan/",
+          "title": "Mass grief in Iran at Khamenei funeral after US, Israel war killing",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/iranians-flock-week-long-funeral-rites-khamenei-2026-07-04/",
           "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "wire",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -182,52 +185,54 @@
     {
       "id": "topic-2026-07-05-04",
       "issueId": "issue-2026-07-05",
-      "slug": "us-july-fourth-heatwave",
+      "slug": "zelensky-trump-us-resolve",
       "rank": 4,
-      "category": "climate",
-      "region": "United States",
+      "category": "international",
+      "region": "Ukraine",
       "countryCodes": [
-        "US"
+        "UA",
+        "US",
+        "RU"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "us_july_fourth_heatwave_2026",
+      "scoreTotal": 95,
+      "storyId": "zelensky_trump_us_resolve_july05",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 94,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "美国热浪",
-          "headlineFact": "美国独立日活动遭热浪打乱，电网与城市服务承压",
-          "headlineView": "气候风险最现实的时刻，是节日也不得不为温度让路",
-          "headlineFull": "美国独立日活动遭热浪打乱，电网与城市服务承压；气候风险最现实的时刻，是节日也不得不为温度让路。",
-          "intro": "美国东部热浪打乱多地独立日活动，华盛顿特区游行被取消，部分庆典、集市和户外活动调整或暂停。报道显示，高温和风暴同时影响出行、电力和公共安全，说明极端天气已经开始改变城市如何组织大型公共活动。",
-          "xiaziQuote": "气候变化不是抽象议题，而是游行取消、急救增加、电网吃紧。",
-          "doudouQuote": "连烟花都得先看温度计脸色。",
-          "footerTakeaway": "今日关键词：美国热浪。"
+          "categoryLabel": "俄乌局势",
+          "headlineFact": "泽连斯基与特朗普通话，呼吁美国继续展现“决心”",
+          "headlineView": "战争打到第五年，真正稀缺的不只是武器，还有大国持续投入的耐心",
+          "headlineFull": "泽连斯基与特朗普通话，呼吁美国继续展现“决心”；战争打到第五年，真正稀缺的不只是武器，还有大国持续投入的耐心。",
+          "intro": "乌克兰总统泽连斯基表示，他在美国独立日当天与特朗普通话，讨论前线局势，并称“美国的决心”对结束俄乌战争至关重要。双方同意在下周土耳其举行的北约峰会上继续沟通。此前，基辅刚经历今年最致命的俄军袭击之一，救援人员仍在废墟中搜寻失踪者。",
+          "xiaziQuote": "援助不只是武器清单，也是一种政治耐力测试。",
+          "doudouQuote": "战争最怕的不是没新闻，是大家看久了就累了。",
+          "footerTakeaway": "今日关键词：俄乌局势。"
         },
         "en-US": {
-          "categoryLabel": "US Heatwave",
-          "headlineFact": "Extreme heat disrupted July Fourth events and strained power grids across the US",
-          "headlineView": "climate risk becomes real when even a national holiday has to yield to temperature",
-          "headlineFull": "Extreme heat disrupted July Fourth events and strained power grids across the US; climate risk becomes real when even a national holiday has to yield to temperature.",
-          "intro": "A heat wave disrupted Independence Day events across the eastern United States, with Washington DC cancelling its parade and other fairs or outdoor gatherings delayed or adjusted. Heat and storms strained transport, power and public safety systems.",
-          "xiaziQuote": "Climate change is not abstract when parades are cancelled, medics are busy and grids are strained.",
-          "doudouQuote": "Even fireworks now check the thermometer first.",
-          "footerTakeaway": "Keyword: US Heatwave."
+          "categoryLabel": "Ukraine War",
+          "headlineFact": "Zelenskiy spoke with Trump and urged continued American resolve",
+          "headlineView": "in year five of war, weapons are scarce, but sustained great-power patience is scarcer",
+          "headlineFull": "Zelenskiy spoke with Trump and urged continued American resolve; in year five of war, weapons are scarce, but sustained great-power patience is scarcer.",
+          "intro": "Ukrainian President Volodymyr Zelenskiy said he spoke with Donald Trump on US Independence Day about the front line and called American resolve crucial to ending Russia’s war. The two agreed to continue talks at next week’s NATO summit in Turkey. Kyiv had just suffered one of this year’s deadliest Russian attacks, with rescue teams still searching rubble.",
+          "xiaziQuote": "Aid is not only an inventory of weapons; it is a test of political endurance.",
+          "doudouQuote": "The danger is not just bad news; it is the world getting tired of it.",
+          "footerTakeaway": "Keyword: Ukraine War."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-05-04",
           "topicId": "topic-2026-07-05-04",
-          "title": "Heat wave disrupts Fourth of July events across US, strains power grids",
-          "publisher": "Reuters via AOL",
-          "url": "https://www.aol.com/articles/heat-wave-disrupts-fourth-july-193227000.html",
+          "title": "Ukraine's Zelenskiy says he spoke to Trump, calls for 'American resolve' to help end war",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-he-spoke-trump-calls-american-resolve-help-end-war-2026-07-04/",
           "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "wire",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -237,53 +242,52 @@
     {
       "id": "topic-2026-07-05-05",
       "issueId": "issue-2026-07-05",
-      "slug": "kyiv-russian-strike-death-toll",
+      "slug": "global-extreme-heat-july05",
       "rank": 5,
-      "category": "international",
-      "region": "Ukraine",
+      "category": "climate",
+      "region": "Global",
       "countryCodes": [
-        "UA",
-        "RU"
+        "US"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "kyiv_russian_strike_death_toll_july05_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 88,
+      "scoreTotal": 94,
+      "storyId": "global_extreme_heat_july05",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "俄乌战争",
-          "headlineFact": "基辅俄袭死亡人数升至30人，救援人员继续清理废墟",
-          "headlineView": "战争最冷的统计，是城市一边点名一边等待回应",
-          "headlineFull": "基辅俄袭死亡人数升至30人，救援人员继续清理废墟；战争最冷的统计，是城市一边点名一边等待回应。",
-          "intro": "乌克兰国家紧急服务部门表示，俄罗斯对基辅的大规模袭击死亡人数升至30人，近百人受伤，搜救仍在继续。基辅此前已为今年最致命的首都袭击进入哀悼。远程导弹和无人机袭击正在反复把城市生活拖回战争中心。",
-          "xiaziQuote": "战争不是新闻地图上的箭头，而是每一栋楼里突然消失的日常。",
-          "doudouQuote": "希望废墟下面还有好消息。",
-          "footerTakeaway": "今日关键词：俄乌战争。"
+          "categoryLabel": "极端高温",
+          "headlineFact": "美国独立日活动被热浪打乱，全球多地气温继续异常",
+          "headlineView": "极端天气正在从背景音，变成影响节日、赛事、电网和城市秩序的主角",
+          "headlineFull": "美国独立日活动被热浪打乱，全球多地气温继续异常；极端天气正在从背景音，变成影响节日、赛事、电网和城市秩序的主角。",
+          "intro": "美国中部和东部多地遭遇危险热浪，华盛顿、费城等地部分独立日活动取消或推迟，超过1.85亿人处于高温警报之下，电网也承受压力。Reuters Climate Monitor显示，7月4日全球平均最高气温预计比历史正常值高约1℃，其中非洲偏高最明显，欧洲近期热浪也被认为与人为气候变化密切相关。",
+          "xiaziQuote": "气候变化不是远方的图表，而是活动取消、电网吃紧、城市节奏被迫改写。",
+          "doudouQuote": "以后办节日活动，天气预案可能比节目单还重要。",
+          "footerTakeaway": "今日关键词：极端高温。"
         },
         "en-US": {
-          "categoryLabel": "Ukraine War",
-          "headlineFact": "The death toll from Russia’s Kyiv attack rose to 30 as rescue work continued",
-          "headlineView": "the coldest statistic of war is a city calling names and waiting for answers",
-          "headlineFull": "The death toll from Russia’s Kyiv attack rose to 30 as rescue work continued; the coldest statistic of war is a city calling names and waiting for answers.",
-          "intro": "Ukraine’s emergency service said the death toll from Russia’s large attack on Kyiv had risen to 30, with nearly 100 injured and rescue work continuing. The capital had already observed mourning after its deadliest strike this year.",
-          "xiaziQuote": "War is not only arrows on a map; it is ordinary life disappearing inside buildings.",
-          "doudouQuote": "May the rubble still return some good news.",
-          "footerTakeaway": "Keyword: Ukraine War."
+          "categoryLabel": "Extreme Heat",
+          "headlineFact": "US Independence Day events were disrupted by heat as temperatures stayed abnormal across many regions",
+          "headlineView": "extreme weather is moving from background noise to the main actor shaping holidays, grids and city order",
+          "headlineFull": "US Independence Day events were disrupted by heat as temperatures stayed abnormal across many regions; extreme weather is moving from background noise to the main actor shaping holidays, grids and city order.",
+          "intro": "Dangerous heat hit much of the central and eastern United States, cancelling or delaying some Independence Day events in Washington, Philadelphia and elsewhere, while more than 185 million people were under heat alerts and power grids came under pressure. Reuters Climate Monitor showed July 4 global average maximum temperatures about 1 C above normal, with Africa especially hot and Europe’s recent heat linked to human-driven climate change.",
+          "xiaziQuote": "Climate change is not a distant chart; it is cancelled events, strained grids and cities rewriting their rhythm.",
+          "doudouQuote": "The weather plan may soon matter more than the event programme.",
+          "footerTakeaway": "Keyword: Extreme Heat."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-05-05",
           "topicId": "topic-2026-07-05-05",
-          "title": "Death toll rises to 30 in Russian attack on Kyiv",
-          "publisher": "Reuters Connect",
-          "url": "https://www.reutersconnect.com/item/death-toll-rises-to-30-in-russian-attack-on-kyiv/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XTFRBQzVYSExMR0JSMU1aSjc0QUZHS0hVTExaWFE",
+          "title": "Heat wave disrupts Fourth of July events across US, strains power grids",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/us/heat-wave-disrupts-fourth-july-events-across-eastern-us-2026-07-03/",
           "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "wire",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -293,8 +297,174 @@
     {
       "id": "topic-2026-07-05-06",
       "issueId": "issue-2026-07-05",
-      "slug": "pope-leo-lampedusa-migrants",
+      "slug": "china-taiwan-coast-guard-patrol",
       "rank": 6,
+      "category": "international",
+      "region": "Taiwan Strait",
+      "countryCodes": [
+        "CN",
+        "TW"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "china_taiwan_coast_guard_patrol_july05_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "台海安全",
+          "headlineFact": "中国海警在台湾以东展开巡航，台方称其“非法扩权”",
+          "headlineView": "灰色地带最危险的地方，是每一次执法动作都可能被当成主权边界的试探",
+          "headlineFull": "中国海警在台湾以东展开巡航，台方称其“非法扩权”；灰色地带最危险的地方，是每一次执法动作都可能被当成主权边界的试探。",
+          "intro": "中国海警宣布在台湾以东海域展开新一轮巡航，称将维护所谓“管辖海域”的海上权益。台湾方面强烈反对，表示中国大陆在台湾以东海域没有执法权，并派出海巡船只监控。路透社称，这是约一个月内中国海警第二次进入台湾东部附近海域，已引发美、法、德、英等国关注。",
+          "xiaziQuote": "灰色地带的麻烦，是它每天都不像战争，却每天都在改变战争前的距离。",
+          "doudouQuote": "地图上的线没动，船已经替它往前走了。",
+          "footerTakeaway": "今日关键词：台海安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Taiwan Strait",
+          "headlineFact": "China’s coast guard patrolled east of Taiwan, while Taipei called it illegal expansion",
+          "headlineView": "the danger of the grey zone is that each law-enforcement move can become a sovereignty test",
+          "headlineFull": "China’s coast guard patrolled east of Taiwan, while Taipei called it illegal expansion; the danger of the grey zone is that each law-enforcement move can become a sovereignty test.",
+          "intro": "China’s coast guard announced a new patrol east of Taiwan, saying it would defend maritime rights in waters it claims. Taiwan objected strongly, said Beijing had no law-enforcement authority there, and sent coast guard vessels to monitor. Reuters said it was the second Chinese coast guard entry near Taiwan’s east in about a month, drawing attention from the US, France, Germany and Britain.",
+          "xiaziQuote": "The grey zone rarely looks like war, but it can shorten the distance to one every day.",
+          "doudouQuote": "The line on the map may not move, but the ships move for it.",
+          "footerTakeaway": "Keyword: Taiwan Strait."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-05-06",
+          "topicId": "topic-2026-07-05-06",
+          "title": "China launches coast guard patrol east of Taiwan despite international pushback",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/china-launches-coast-guard-patrol-east-taiwan-despite-international-pushback-2026-07-04/",
+          "publishedAt": "2026-07-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-05-07",
+      "issueId": "issue-2026-07-05",
+      "slug": "mali-insurgent-attacks-july05",
+      "rank": 7,
+      "category": "international",
+      "region": "Mali",
+      "countryCodes": [
+        "ML"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "mali_insurgent_attacks_july05_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "马里安全",
+          "headlineFact": "马里多地遭遇武装袭击，军方称局势已受控",
+          "headlineView": "安全承诺最怕的不是一次失败，而是每隔一段时间就被现实重新验证",
+          "headlineFull": "马里多地遭遇武装袭击，军方称局势已受控；安全承诺最怕的不是一次失败，而是每隔一段时间就被现实重新验证。",
+          "intro": "马里军方表示，武装人员在北部、中部和南部至少5个地点发动袭击，目标包括军队驻地和靠近首都巴马科南部的城镇。军方称已击退袭击并控制局势，部分袭击涉及图阿雷格领导的武装团体。路透社指出，马里军政府曾承诺改善安全，但萨赫勒地区的不稳定仍持续蔓延。",
+          "xiaziQuote": "当“局势受控”需要反复宣布，说明真正稀缺的是稳定本身。",
+          "doudouQuote": "安全感不是通报里写出来的，是晚上真的能睡着。",
+          "footerTakeaway": "今日关键词：马里安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Mali Security",
+          "headlineFact": "Armed attacks hit multiple areas of Mali, while the army said the situation was under control",
+          "headlineView": "security promises suffer most when reality keeps retesting them",
+          "headlineFull": "Armed attacks hit multiple areas of Mali, while the army said the situation was under control; security promises suffer most when reality keeps retesting them.",
+          "intro": "Mali’s army said armed attackers struck at least five locations across the north, centre and south, targeting military posts and towns south of Bamako. The army said it repelled the attacks and controlled the situation, with some attacks linked to Tuareg-led groups. Reuters noted that Mali’s junta had promised to improve security, while instability across the Sahel continues to spread.",
+          "xiaziQuote": "When control has to be announced again and again, stability itself is the scarce thing.",
+          "doudouQuote": "Security is not written in a bulletin; it is being able to sleep at night.",
+          "footerTakeaway": "Keyword: Mali Security."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-05-07",
+          "topicId": "topic-2026-07-05-07",
+          "title": "Insurgents stage attacks across Mali, army says situation under control",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/africa/insurgents-attack-multiple-towns-northern-central-mali-sources-say-2026-07-04/",
+          "publishedAt": "2026-07-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-05-08",
+      "issueId": "issue-2026-07-05",
+      "slug": "venezuela-earthquake-death-toll-2954",
+      "rank": 8,
+      "category": "international",
+      "region": "Venezuela",
+      "countryCodes": [
+        "VE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "venezuela_quake_toll_july05_user",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "委内瑞拉地震",
+          "headlineFact": "委内瑞拉双震死亡人数升至2954人，救援仍在废墟中继续",
+          "headlineView": "灾难最沉重的数字，不只是死亡人数，还有那些突然失去住所和日常的人",
+          "headlineFull": "委内瑞拉双震死亡人数升至2954人，救援仍在废墟中继续；灾难最沉重的数字，不只是死亡人数，还有那些突然失去住所和日常的人。",
+          "intro": "委内瑞拉政府最新通报显示，上周发生的双重地震已造成2954人死亡、16592人受伤，16309人无家可归。官方称，已有超过2.2万人接受医疗救治，近3万名国内工作人员和3281名国际救援人员参与救灾，搜救行动仍在继续。",
+          "xiaziQuote": "灾难从来不只是一个伤亡数字，而是住所、医疗、秩序和生活感一起被震碎。",
+          "doudouQuote": "希望救援能比坏消息更快一点。",
+          "footerTakeaway": "今日关键词：委内瑞拉地震。"
+        },
+        "en-US": {
+          "categoryLabel": "Venezuela Quake",
+          "headlineFact": "Venezuela’s twin-quake death toll rose to 2,954 as rescue work continued in the rubble",
+          "headlineView": "the heaviest disaster number is not only deaths, but lives suddenly stripped of home and routine",
+          "headlineFull": "Venezuela’s twin-quake death toll rose to 2,954 as rescue work continued in the rubble; the heaviest disaster number is not only deaths, but lives suddenly stripped of home and routine.",
+          "intro": "Venezuela’s government said the twin earthquakes last week had killed 2,954 people, injured 16,592 and left 16,309 homeless. Officials said more than 22,000 people had received medical treatment, while nearly 30,000 domestic workers and 3,281 international rescuers were involved and search operations continued.",
+          "xiaziQuote": "A disaster is never just a casualty figure; it breaks shelter, medicine, order and the feel of daily life at once.",
+          "doudouQuote": "May relief move faster than the bad news.",
+          "footerTakeaway": "Keyword: Venezuela Quake."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-05-08",
+          "topicId": "topic-2026-07-05-08",
+          "title": "Death toll from Venezuela quakes rises to 2,954",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/americas/death-toll-venezuela-quakes-rises-2954-2026-07-04/",
+          "publishedAt": "2026-07-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-05-09",
+      "issueId": "issue-2026-07-05",
+      "slug": "pope-leo-lampedusa-migrants",
+      "rank": 9,
       "category": "society",
       "region": "Italy",
       "countryCodes": [
@@ -313,197 +483,32 @@
       "localizations": {
         "zh-CN": {
           "categoryLabel": "移民议题",
-          "headlineFact": "教宗良十四世在兰佩杜萨呼吁保护、接纳和帮助移民",
-          "headlineView": "迁徙问题考验的不是口号，而是边界与尊严能否同时存在",
-          "headlineFull": "教宗良十四世在兰佩杜萨呼吁保护、接纳和帮助移民；迁徙问题考验的不是口号，而是边界与尊严能否同时存在。",
-          "intro": "教宗良十四世在美国独立日访问意大利兰佩杜萨岛，纪念在地中海迁徙途中遇难者，并呼吁欧洲与美国欢迎、保护和帮助移民。兰佩杜萨长期是非洲移民抵达欧洲的重要入口，移民议题继续考验边境治理、人道救援和社会接纳。",
-          "xiaziQuote": "一个社会如何对待抵达边界的人，常常暴露它如何理解自己。",
-          "doudouQuote": "边界要管理，人也要被当成人。",
+          "headlineFact": "教宗良十四世在兰佩杜萨呼吁美国欢迎移民",
+          "headlineView": "迁徙问题最难的地方，是它同时考验边界、资源和一个社会愿不愿意承认人的尊严",
+          "headlineFull": "教宗良十四世在兰佩杜萨呼吁美国欢迎移民；迁徙问题最难的地方，是它同时考验边界、资源和一个社会愿不愿意承认人的尊严。",
+          "intro": "教宗良十四世在美国独立250周年当天访问意大利兰佩杜萨岛，并向美国发出呼吁，要求欢迎、保护和帮助移民。兰佩杜萨是非洲移民跨越地中海进入欧洲的重要入口，今年已有超过1.4万人经海路抵达意大利，其中超过一半抵达兰佩杜萨；今年已有超过1400人在地中海迁徙途中死亡或失踪。",
+          "xiaziQuote": "边界需要治理，但一个社会如何对待抵达边界的人，也在说明它如何理解自己。",
+          "doudouQuote": "管理边界可以硬一点，对待人别硬到没温度。",
           "footerTakeaway": "今日关键词：移民议题。"
         },
         "en-US": {
           "categoryLabel": "Migration",
-          "headlineFact": "Pope Leo used a Lampedusa visit to call for migrant protection and welcome",
-          "headlineView": "migration tests whether borders and dignity can coexist",
-          "headlineFull": "Pope Leo used a Lampedusa visit to call for migrant protection and welcome; migration tests whether borders and dignity can coexist.",
-          "intro": "Pope Leo XIV visited Lampedusa on US Independence Day, honouring migrants who died crossing the Mediterranean and urging Europe and the United States to welcome, protect and assist migrants. The island remains a symbolic gateway for arrivals from Africa.",
-          "xiaziQuote": "How a society treats people at its border reveals how it understands itself.",
-          "doudouQuote": "Manage the border, but do not misplace the human being.",
+          "headlineFact": "Pope Leo used Lampedusa to urge the United States to welcome migrants",
+          "headlineView": "migration tests borders, resources and whether a society still recognises human dignity",
+          "headlineFull": "Pope Leo used Lampedusa to urge the United States to welcome migrants; migration tests borders, resources and whether a society still recognises human dignity.",
+          "intro": "Pope Leo XIV visited Italy’s Lampedusa island on the 250th anniversary of US independence and appealed to the United States to welcome, protect and assist migrants. Lampedusa is a major entry point for Africans crossing the Mediterranean to Europe. More than 14,000 people have reached Italy by sea this year, over half via Lampedusa, while more than 1,400 have died or gone missing in Mediterranean crossings.",
+          "xiaziQuote": "Borders need governance, but how a society treats people at the edge reveals how it understands itself.",
+          "doudouQuote": "Manage the border firmly; do not treat people coldly.",
           "footerTakeaway": "Keyword: Migration."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-05-06",
-          "topicId": "topic-2026-07-05-06",
-          "title": "Pope urges protection, integration of migrants on visit to island frontier",
-          "publisher": "Al Jazeera / AP / Reuters",
-          "url": "https://www.aljazeera.com/news/2026/7/4/pope-urges-protection-integration-of-migrants-on-visit-to-island-frontier",
-          "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-05-07",
-      "issueId": "issue-2026-07-05",
-      "slug": "venezuela-earthquake-rescue-july05",
-      "rank": 7,
-      "category": "international",
-      "region": "Venezuela",
-      "countryCodes": [
-        "VE"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "venezuela_earthquake_rescue_july05_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 85,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "委内瑞拉地震",
-          "headlineFact": "委内瑞拉双震救援继续，死亡和失踪数字仍在上升",
-          "headlineView": "灾难第二阶段，最难的是把救援变成长期安置",
-          "headlineFull": "委内瑞拉双震救援继续，死亡和失踪数字仍在上升；灾难第二阶段，最难的是把救援变成长期安置。",
-          "intro": "委内瑞拉双重地震后的搜救和安置仍在继续。多家报道显示，死亡、受伤和无家可归人数仍在更新，国际救援人员与本地工作人员继续参与医疗救治、废墟搜救和临时安置。对灾区而言，真正漫长的阶段刚刚开始。",
-          "xiaziQuote": "灾害从来不只是一瞬间的破坏，后面还有医疗、住所、秩序和心理重建。",
-          "doudouQuote": "救援快一点，统计数字就少一点冰冷。",
-          "footerTakeaway": "今日关键词：委内瑞拉地震。"
-        },
-        "en-US": {
-          "categoryLabel": "Venezuela Quake",
-          "headlineFact": "Rescue and shelter work continued after Venezuela’s twin earthquakes",
-          "headlineView": "the second stage of disaster is turning rescue into long-term shelter",
-          "headlineFull": "Rescue and shelter work continued after Venezuela’s twin earthquakes; the second stage of disaster is turning rescue into long-term shelter.",
-          "intro": "Search, medical and shelter work continued after Venezuela’s twin earthquakes. Reports showed casualty, injury and displacement figures still being updated as local workers and international rescue teams handled treatment, debris searches and temporary housing.",
-          "xiaziQuote": "A disaster is not only the moment of damage; it is medicine, shelter, order and recovery afterward.",
-          "doudouQuote": "The faster relief moves, the less cold the numbers feel.",
-          "footerTakeaway": "Keyword: Venezuela Quake."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-05-07",
-          "topicId": "topic-2026-07-05-07",
-          "title": "2026 Venezuela earthquakes latest death toll and rescue reports",
-          "publisher": "Reuters Connect / ABC News",
-          "url": "https://www.reutersconnect.com/item/venezuela-raises-death-toll-to-1450-and-number-of-missing-to-over-70000-after-earthquakes/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX09XTFRBQ0JLMUNQOU4wWllERlhMQzlHWjAwQjlUQg",
-          "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-05-08",
-      "issueId": "issue-2026-07-05",
-      "slug": "mali-insurgent-attacks-july05",
-      "rank": 8,
-      "category": "international",
-      "region": "Mali",
-      "countryCodes": [
-        "ML"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "mali_insurgent_attacks_july05_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "马里安全",
-          "headlineFact": "马里多地遭武装袭击，军方称局势仍有威胁",
-          "headlineView": "安全承诺最怕的不是一次失败，而是反复被现实验证",
-          "headlineFull": "马里多地遭武装袭击，军方称局势仍有威胁；安全承诺最怕的不是一次失败，而是反复被现实验证。",
-          "intro": "路透社报道，马里武装人员在至少五个地点发动袭击，目标包括北部有政府军与俄罗斯人员驻扎的城镇，以及靠近首都巴马科南部的地区。军方称已采取行动，但也承认威胁仍然存在。萨赫勒安全危机仍在向政治稳定施压。",
-          "xiaziQuote": "当一个国家需要反复证明“局势受控”，往往说明控制本身已经很脆。",
-          "doudouQuote": "安全感不能只靠公告，得靠晚上真的安静。",
-          "footerTakeaway": "今日关键词：马里安全。"
-        },
-        "en-US": {
-          "categoryLabel": "Mali Security",
-          "headlineFact": "Insurgents attacked multiple locations in Mali as the army said the threat remained",
-          "headlineView": "security promises are weakest when reality keeps retesting them",
-          "headlineFull": "Insurgents attacked multiple locations in Mali as the army said the threat remained; security promises are weakest when reality keeps retesting them.",
-          "intro": "Reuters reported insurgent attacks in at least five locations in Mali, including a northern town hosting government and Russian fighters and an area south of Bamako. The army said it had disrupted attackers but warned the threat was still present.",
-          "xiaziQuote": "When a state must keep proving control, control itself is already fragile.",
-          "doudouQuote": "Security is not an announcement; it is a quiet night.",
-          "footerTakeaway": "Keyword: Mali Security."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-05-08",
-          "topicId": "topic-2026-07-05-08",
-          "title": "Insurgents attack multiple towns in northern and central Mali, sources say",
-          "publisher": "Reuters via Internazionale",
-          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/04/insurgents-attack-multiple-towns-in-northern-and-central-mali-sources-say",
-          "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-05-09",
-      "issueId": "issue-2026-07-05",
-      "slug": "iran-khamenei-funeral-july05",
-      "rank": 9,
-      "category": "international",
-      "region": "Iran",
-      "countryCodes": [
-        "IR"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "iran_khamenei_funeral_july05_2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 82,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "伊朗政局",
-          "headlineFact": "伊朗为哈梅内伊举行多日国葬，悼念也成为权力展示",
-          "headlineView": "国葬既是告别，也是新秩序对外亮相",
-          "headlineFull": "伊朗为哈梅内伊举行多日国葬，悼念也成为权力展示；国葬既是告别，也是新秩序对外亮相。",
-          "intro": "伊朗为前最高领袖阿里·哈梅内伊举行多日国葬和悼念活动，德黑兰出现大规模人群与强烈政治口号。葬礼既承载宗教与国家哀悼，也成为新权力结构展示稳定、动员支持者和回应外部压力的公共舞台。",
-          "xiaziQuote": "国葬表面看的是灵柩，深层看的是谁站位、谁发声、谁接住权力。",
-          "doudouQuote": "悼念很安静，政治一点都不安静。",
-          "footerTakeaway": "今日关键词：伊朗政局。"
-        },
-        "en-US": {
-          "categoryLabel": "Iran",
-          "headlineFact": "Iran held multi-day funeral ceremonies for Ali Khamenei",
-          "headlineView": "a state funeral is farewell and a public staging of the next order",
-          "headlineFull": "Iran held multi-day funeral ceremonies for Ali Khamenei; a state funeral is farewell and a public staging of the next order.",
-          "intro": "Iran held multi-day funeral ceremonies for former Supreme Leader Ali Khamenei, with large crowds and political slogans in Tehran. The mourning also served as a public display of continuity, mobilisation and defiance under pressure.",
-          "xiaziQuote": "A state funeral shows the coffin on the surface and the power map underneath.",
-          "doudouQuote": "Mourning can be quiet. Politics rarely is.",
-          "footerTakeaway": "Keyword: Iran."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-05-09",
           "topicId": "topic-2026-07-05-09",
-          "title": "Crowds gather as six-day funeral for former Iranian supreme leader begins",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/04/crowds-gather-six-day-funeral-former-iranian-supreme-leader-ali-khamenei",
+          "title": "Pope Leo urges US to welcome immigrants in July 4 appeal from Lampedusa",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/pope-leo-marks-us-anniversary-with-migrant-appeal-lampedusa-2026-07-04/",
           "publishedAt": "2026-07-04T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,

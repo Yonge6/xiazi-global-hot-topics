@@ -2601,7 +2601,7 @@
       "storyId": "china_taiwan_coast_guard_patrol_july05_2026",
       "status": "new",
       "firstSeen": "2026-07-05",
-      "appearances": 1,
+      "appearances": 2,
       "lastSeen": "2026-07-05",
       "followupDay": 1,
       "informationIncrementScore": 95,
@@ -2634,7 +2634,7 @@
       "storyId": "pope_leo_lampedusa_migrants_july05_2026",
       "status": "new",
       "firstSeen": "2026-07-05",
-      "appearances": 1,
+      "appearances": 2,
       "lastSeen": "2026-07-05",
       "followupDay": 1,
       "informationIncrementScore": 92,
@@ -2656,7 +2656,7 @@
       "storyId": "mali_insurgent_attacks_july05_2026",
       "status": "new",
       "firstSeen": "2026-07-05",
-      "appearances": 1,
+      "appearances": 2,
       "lastSeen": "2026-07-05",
       "followupDay": 1,
       "informationIncrementScore": 90,
@@ -2673,6 +2673,72 @@
       "informationIncrementScore": 82,
       "updatedAt": "2026-07-05T05:00:00+08:00",
       "latestSlug": "iran-khamenei-funeral-july05"
+    },
+    {
+      "storyId": "daily_global_overview_july05_2026_user",
+      "firstSeen": "2026-07-05",
+      "appearances": 1,
+      "status": "new",
+      "lastSeen": "2026-07-05",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "updatedAt": "2026-07-05T05:00:00+08:00",
+      "latestSlug": "overview"
+    },
+    {
+      "storyId": "world_cup_july05_knockouts_user",
+      "firstSeen": "2026-07-05",
+      "appearances": 1,
+      "status": "new",
+      "lastSeen": "2026-07-05",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "updatedAt": "2026-07-05T05:00:00+08:00",
+      "latestSlug": "world-cup-july05-morocco-canada"
+    },
+    {
+      "storyId": "iran_khamenei_funeral_july05",
+      "firstSeen": "2026-07-05",
+      "appearances": 1,
+      "status": "followup",
+      "lastSeen": "2026-07-05",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
+      "updatedAt": "2026-07-05T05:00:00+08:00",
+      "latestSlug": "iran-khamenei-funeral-july05"
+    },
+    {
+      "storyId": "zelensky_trump_us_resolve_july05",
+      "firstSeen": "2026-07-05",
+      "appearances": 1,
+      "status": "new",
+      "lastSeen": "2026-07-05",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "updatedAt": "2026-07-05T05:00:00+08:00",
+      "latestSlug": "zelensky-trump-us-resolve"
+    },
+    {
+      "storyId": "global_extreme_heat_july05",
+      "firstSeen": "2026-07-05",
+      "appearances": 1,
+      "status": "new",
+      "lastSeen": "2026-07-05",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "updatedAt": "2026-07-05T05:00:00+08:00",
+      "latestSlug": "global-extreme-heat-july05"
+    },
+    {
+      "storyId": "venezuela_quake_toll_july05_user",
+      "firstSeen": "2026-07-05",
+      "appearances": 1,
+      "status": "followup",
+      "lastSeen": "2026-07-05",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "updatedAt": "2026-07-05T05:00:00+08:00",
+      "latestSlug": "venezuela-earthquake-death-toll-2954"
     }
   ]
 }
