@@ -82,8 +82,8 @@ export async function POST(request: Request) {
     if (!(file instanceof File) || (locale !== "zh" && locale !== "en")) {
       return NextResponse.json({ message: "海报文件无效" }, { status: 400 });
     }
-    if (file.size > 4 * 1024 * 1024) {
-      return NextResponse.json({ message: "海报需小于 4MB" }, { status: 413 });
+    if (file.size > 12 * 1024 * 1024) {
+      return NextResponse.json({ message: "海报需小于 12MB" }, { status: 413 });
     }
 
     const name = resolvePosterName(slug);
@@ -126,7 +126,12 @@ export async function POST(request: Request) {
         tryCos(() => uploadToCos(archiveThumbnail, thumbnail, "image/webp"), warnings),
       ]);
     }
-    return NextResponse.json({ ok: true, version: Date.now(), warnings });
+    return NextResponse.json({
+      ok: warnings.length === 0,
+      partial: warnings.length > 0,
+      version: Date.now(),
+      warnings,
+    });
   } catch (error) {
     return NextResponse.json(
       { message: error instanceof Error ? error.message : "海报上传失败" },
