@@ -59,7 +59,7 @@ export default async function LocaleHome({ params }: PageProps) {
         topics={mockIssue.topics}
         locale={locale}
         issueDate={mockIssue.issueDate}
-        initialAssetVersion={mockIssue.beijingTimestamp || mockIssue.issueDate}
+        initialAssetVersion={mockIssue.assetVersion || mockIssue.beijingTimestamp || mockIssue.issueDate}
       />
 
       <AboutSection locale={locale} />
