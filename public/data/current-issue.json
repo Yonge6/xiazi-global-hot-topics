@@ -1,125 +1,118 @@
 {
-  "id": "issue-2026-07-05",
-  "slug": "global-hot-topics-2026-07-05",
-  "issueDate": "2026-07-05",
-  "assetVersion": "issue-2026-07-05-user-tinified-v1",
+  "id": "314163e1-e474-4fb5-b933-3ed405d60b18",
+  "slug": "2026-07-06",
+  "issueDate": "2026-07-06",
+  "assetVersion": "issue-2026-07-06-chatgpt-sop-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-05T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-04T21:00:00Z",
-  "featuredTopicId": "topic-2026-07-05-01",
+  "beijingTimestamp": "2026-07-06T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-05T21:00:00Z",
+  "featuredTopicId": "5a6d1ec6-ff18-4057-8236-74f6d6af0c96",
   "style": {
-    "name": "用户提供 Tinified 今日海报",
-    "introZh": "今日海报使用用户提供的压缩成图，按中文与英文 NO.01—NO.09 一一替换上线。",
-    "introEn": "Today uses the user-provided compressed poster set, mapped one-to-one from NO.01 to NO.09 in Chinese and English."
+    "name": "Baroque newsroom collage",
+    "zhName": "巴洛克新闻拼贴",
+    "description": "Ornate editorial poster language with deep navy, antique gold, parchment, red accents and layered geopolitical news vignettes."
   },
   "topics": [
     {
-      "id": "topic-2026-07-05-01",
-      "issueId": "issue-2026-07-05",
+      "id": "5a6d1ec6-ff18-4057-8236-74f6d6af0c96",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
       "slug": "overview",
       "rank": 1,
       "category": "international",
       "region": "Global",
       "countryCodes": [],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "daily_global_overview_july05_2026_user",
+      "storyId": "daily_global_overview_july06_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "摩洛哥晋级八强，伊朗举行国葬，乌克兰呼吁美国继续介入，热浪、地震、台海与萨赫勒安全同时升温",
-          "headlineView": "世界不是只在比赛里淘汰，也在现实里筛选韧性",
-          "headlineFull": "摩洛哥晋级八强，伊朗举行国葬，乌克兰呼吁美国继续介入，热浪、地震、台海与萨赫勒安全同时升温；世界不是只在比赛里淘汰，也在现实里筛选韧性。",
-          "intro": "过去24小时，世界杯淘汰赛进入新阶段：阿根廷惊险淘汰佛得角，哥伦比亚击败加纳，摩洛哥3:0送别东道主加拿大，成为首支晋级八强球队。球场之外，伊朗为已故最高领袖哈梅内伊举行大规模悼念；泽连斯基与特朗普通话，呼吁美国继续推动结束俄乌战争；美国和欧洲继续遭遇异常高温，委内瑞拉地震死亡人数升至2954人，中国海警在台湾以东海域巡航，马里多地遭遇武装袭击，教宗良十四世则在兰佩杜萨呼吁保护移民。",
-          "xiaziQuote": "今天的共同线索是韧性：球场看比分，现实看系统还能不能撑住。",
-          "doudouQuote": "淘汰赛、国葬、热浪、地震和迁徙挤在同一天，世界日报一点都不轻。",
+          "headlineFact": "法国点球淘汰巴拉圭，伊朗继任疑云、北约会晤、俄乌遗体交接、中俄军演、能源、山火和以色列司法同时升温",
+          "headlineView": "世界不是没有秩序，而是每个秩序都在被重新测试",
+          "headlineFull": "法国点球淘汰巴拉圭，伊朗继任疑云、北约会晤、俄乌遗体交接、中俄军演、能源、山火和以色列司法同时升温；世界不是没有秩序，而是每个秩序都在被重新测试。",
+          "intro": "过去24小时，世界杯窗口内只有一场已完赛：法国1:0淘汰巴拉圭，巴西对挪威截至05:00仍在进行。场外，伊朗举行哈梅内伊葬礼但新任最高领袖未公开露面；特朗普将在北约峰会期间会见乌克兰与叙利亚领导人；俄乌围绕遗体交接停火互相指责；中俄海军将在青岛外海军演；OPEC+继续增产；法国山火影响环法；以色列政府挑战最高法院裁决。",
+          "xiaziQuote": "今天这组新闻很像一张压力测试表：球场看临门一脚，政治看制度边界，能源和气候看系统韧性。",
+          "doudouQuote": "世界像同时开了8个副本，问题是每个副本都不是简单模式。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "Morocco reached the quarter-finals as Iran mourned, Ukraine sought continued US resolve, and heat, earthquakes, Taiwan Strait patrols and Sahel insecurity all intensified",
-          "headlineView": "the world is not only eliminating teams; it is testing resilience",
-          "headlineFull": "Morocco reached the quarter-finals as Iran mourned, Ukraine sought continued US resolve, and heat, earthquakes, Taiwan Strait patrols and Sahel insecurity all intensified; the world is not only eliminating teams; it is testing resilience.",
-          "intro": "Over the past 24 hours, World Cup knockouts moved into a new stage: Argentina edged Cape Verde, Colombia beat Ghana, and Morocco defeated co-host Canada 3-0 to become the first quarter-finalist. Beyond football, Iran held mass mourning for Ali Khamenei, Zelenskiy spoke with Trump about ending the war, heat strained the US and Europe, Venezuela raised its quake death toll to 2,954, China patrolled east of Taiwan, Mali faced attacks, and Pope Leo appealed for migrant protection in Lampedusa.",
-          "xiaziQuote": "The shared thread is resilience: sport keeps score, reality tests whether systems hold.",
-          "doudouQuote": "Knockouts, funerals, heat, earthquakes and migration make for a heavy daily brief.",
+          "headlineFact": "France edged Paraguay as Iran succession questions, NATO meetings, Russia-Ukraine claims, China-Russia drills, energy, wildfire and Israeli courts all tested order",
+          "headlineView": "the world is not orderless; every order is being stress-tested",
+          "headlineFull": "France edged Paraguay as Iran succession questions, NATO meetings, Russia-Ukraine claims, China-Russia drills, energy, wildfire and Israeli courts all tested order; the world is not orderless; every order is being stress-tested.",
+          "intro": "France edged Paraguay 1-0 in the only completed World Cup match inside the Beijing-time window, while Brazil v Norway was still live at 05:00. Beyond football, Iran's funeral ceremonies raised succession questions, Trump prepared NATO-side meetings with Ukraine and Syria, Russia and Ukraine traded claims over a local ceasefire for body handover, China and Russia announced naval drills, OPEC+ agreed to raise output, French wildfires disrupted the Tour de France, and Israel's cabinet defied a Supreme Court ruling.",
+          "xiaziQuote": "Today reads like a stress test: football tests finishing, politics tests institutional limits, and energy and climate test system resilience.",
+          "doudouQuote": "The world looks like eight missions running at once, and none of them is easy mode.",
           "footerTakeaway": "Keyword: Overview."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-05-01",
-          "topicId": "topic-2026-07-05-01",
-          "title": "Clinical Morocco ease past Canada 3-0 to reach World Cup quarter-finals",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/morocco-beat-canada-3-0-reach-world-cup-quarter-finals-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
+          "id": "47bc50a9-2d05-4083-bee6-e30474867548",
+          "topicId": "5a6d1ec6-ff18-4057-8236-74f6d6af0c96",
+          "title": "Daily ChatGPT hotspot source",
+          "publisher": "ChatGPT + Reuters references",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-06T00:00:00Z",
           "sourceType": "publisher",
-          "sourceTier": 1,
+          "sourceTier": 2,
           "locale": "zh-CN",
           "isPrimary": true
         }
       ]
     },
     {
-      "id": "topic-2026-07-05-02",
-      "issueId": "issue-2026-07-05",
-      "slug": "world-cup-july05-morocco-canada",
+      "id": "9b3b5f0d-998b-464c-b8e4-d77393f46ce3",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "world-cup-july06-france-paraguay",
       "rank": 2,
       "category": "sports",
       "region": "Global",
-      "countryCodes": [
-        "AR",
-        "CV",
-        "CO",
-        "GH",
-        "CA",
-        "MA"
-      ],
+      "countryCodes": [],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "world_cup_july05_knockouts_user",
+      "storyId": "world_cup_july06_france_paraguay_2026",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯",
-          "headlineFact": "摩洛哥3:0击败加拿大晋级八强，阿根廷、哥伦比亚也完成晋级",
-          "headlineView": "淘汰赛真正残酷的地方，是机会错过之后，很快就没有下一次",
-          "headlineFull": "摩洛哥3:0击败加拿大晋级八强，阿根廷、哥伦比亚也完成晋级；淘汰赛真正残酷的地方，是机会错过之后，很快就没有下一次。",
-          "intro": "北京时间7月4日05:00至7月5日05:00，世界杯共结束3场比赛：阿根廷3:2佛得角，哥伦比亚1:0加纳，加拿大0:3摩洛哥。阿根廷加时险胜，哥伦比亚凭借阿里亚斯第14分钟进球晋级，摩洛哥则送别东道主加拿大，成为本届世界杯首支八强球队。法国与巴拉圭在北京时间05:00开球，未计入今日完赛窗口。",
-          "xiaziQuote": "淘汰赛不讲故事完整度，只看你有没有把那一次机会变成比分。",
-          "doudouQuote": "主场光环不保命，加时赛也不讲情面。",
+          "headlineFact": "姆巴佩点球送法国进八强，巴西对挪威截至05:00仍未完赛",
+          "headlineView": "淘汰赛最残酷的地方，是一脚点球就能决定一个国家的夏天",
+          "headlineFull": "姆巴佩点球送法国进八强，巴西对挪威截至05:00仍未完赛；淘汰赛最残酷的地方，是一脚点球就能决定一个国家的夏天。",
+          "intro": "北京时间2026年7月5日05:00至7月6日05:00，世界杯窗口内已完赛1场：法国1:0击败巴拉圭，姆巴佩第70分钟罚入点球，法国晋级八强，将对阵摩洛哥。巴西对挪威于北京时间04:00开球，截至05:00仍在进行，因此不计入本期完赛赛果。",
+          "xiaziQuote": "强队不是每场都踢得漂亮，但真正的强队能在难看的比赛里把门票拿走。",
+          "doudouQuote": "巴拉圭把法国折腾得够呛，结果姆巴佩一脚点球：下班。",
           "footerTakeaway": "今日关键词：世界杯。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "Morocco beat Canada 3-0 to reach the quarter-finals, while Argentina and Colombia also advanced",
-          "headlineView": "the cruelty of knockouts is that missed chances rarely get a second life",
-          "headlineFull": "Morocco beat Canada 3-0 to reach the quarter-finals, while Argentina and Colombia also advanced; the cruelty of knockouts is that missed chances rarely get a second life.",
-          "intro": "From 05:00 July 4 to 05:00 July 5 Beijing time, three World Cup matches finished: Argentina 3-2 Cape Verde, Colombia 1-0 Ghana, and Canada 0-3 Morocco. Argentina survived extra time, Colombia advanced through Arias’ 14th-minute goal, and Morocco eliminated co-host Canada to become the first quarter-finalist. France v Paraguay kicked off at 05:00 Beijing time and is outside this completed-results window.",
-          "xiaziQuote": "Knockout football does not care how good the story is; it cares whether the chance becomes a goal.",
-          "doudouQuote": "Home advantage is not armour, and extra time is not mercy.",
+          "headlineFact": "Mbappe's penalty sent France into the quarter-finals, while Brazil v Norway was still unfinished at 05:00",
+          "headlineView": "the cruelty of knockouts is that one penalty can decide a nation's summer",
+          "headlineFull": "Mbappe's penalty sent France into the quarter-finals, while Brazil v Norway was still unfinished at 05:00; the cruelty of knockouts is that one penalty can decide a nation's summer.",
+          "intro": "Between 05:00 July 5 and 05:00 July 6 Beijing time, one World Cup match had finished: France beat Paraguay 1-0 through a 70th-minute Kylian Mbappe penalty and reached the quarter-finals against Morocco. Brazil v Norway kicked off at 04:00 Beijing time but was still live at the 05:00 cutoff, so it is not counted as a completed result.",
+          "xiaziQuote": "Great teams do not always play beautifully; they still find the ticket in ugly matches.",
+          "doudouQuote": "Paraguay made France suffer, then Mbappe took one penalty and clocked out.",
           "footerTakeaway": "Keyword: World Cup."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-05-02",
-          "topicId": "topic-2026-07-05-02",
-          "title": "Argentina beat Cape Verde 3-2 in extra time thriller",
+          "id": "16112297-a6df-4f86-9e3f-af19e7ff9bde",
+          "topicId": "9b3b5f0d-998b-464c-b8e4-d77393f46ce3",
+          "title": "Reuters World Cup match report",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/argentina-beat-cape-verde-3-2-extra-time-thriller-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
+          "url": "https://www.reuters.com/sports/soccer/",
+          "publishedAt": "2026-07-06T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
@@ -128,53 +121,51 @@
       ]
     },
     {
-      "id": "topic-2026-07-05-03",
-      "issueId": "issue-2026-07-05",
-      "slug": "iran-khamenei-funeral-july05",
+      "id": "b5d7b868-d809-4855-84f9-bd2e2172073c",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "iran-succession-funeral",
       "rank": 3,
       "category": "international",
-      "region": "Iran",
-      "countryCodes": [
-        "IR"
-      ],
+      "region": "Global",
+      "countryCodes": [],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "iran_khamenei_funeral_july05",
+      "scoreTotal": 93,
+      "storyId": "iran_succession_funeral_july06_2026",
       "storyStatus": "followup",
       "followupDay": 2,
-      "informationIncrementScore": 86,
+      "informationIncrementScore": 85,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "伊朗国葬",
-          "headlineFact": "伊朗为哈梅内伊举行大规模悼念，停火后的权力展示正式开始",
-          "headlineView": "国葬从来不只是告别逝者，也是新秩序向国内外展示自己仍然稳固",
-          "headlineFull": "伊朗为哈梅内伊举行大规模悼念，停火后的权力展示正式开始；国葬从来不只是告别逝者，也是新秩序向国内外展示自己仍然稳固。",
-          "intro": "数以万计伊朗民众聚集在德黑兰大型祈祷场所，悼念在美以对伊朗战争初期遇袭身亡的已故最高领袖哈梅内伊。伊朗计划举行一周悼念活动，并将遗体送往多个宗教城市。葬礼发生在伊朗与美国达成临时停火之后，也被官方塑造成政权仍保持凝聚力的展示。",
-          "xiaziQuote": "国葬看似是告别，深处其实是权力、秩序和动员能力的公开体检。",
-          "doudouQuote": "悼念很安静，但政治信号一点都不安静。",
-          "footerTakeaway": "今日关键词：伊朗国葬。"
+          "categoryLabel": "伊朗政局",
+          "headlineFact": "哈梅内伊三子现身葬礼，新任最高领袖未公开露面",
+          "headlineView": "权力交接最敏感的时刻，往往不是谁出现，而是谁没有出现",
+          "headlineFull": "哈梅内伊三子现身葬礼，新任最高领袖未公开露面；权力交接最敏感的时刻，往往不是谁出现，而是谁没有出现。",
+          "intro": "路透社报道，哈梅内伊三名儿子在德黑兰葬礼祈祷中现身，但继任最高领袖的莫杰塔巴·哈梅内伊没有公开露面。伊朗正举行持续一周的国葬，遗体将前往库姆、纳杰夫、卡尔巴拉和马什哈德等地。这个缺席让外界继续关注伊朗权力交接的稳定性。",
+          "xiaziQuote": "国葬是悼念，也是政治舞台。站在灵柩旁边的人重要，没站出来的人更重要。",
+          "doudouQuote": "这种时候没出现，比出现还容易让人脑补一整季政治剧。",
+          "footerTakeaway": "今日关键词：伊朗政局。"
         },
         "en-US": {
-          "categoryLabel": "Iran Funeral",
-          "headlineFact": "Iran held mass mourning for Khamenei as a post-ceasefire display of power began",
-          "headlineView": "a state funeral is never only farewell; it is also the new order proving it still stands",
-          "headlineFull": "Iran held mass mourning for Khamenei as a post-ceasefire display of power began; a state funeral is never only farewell; it is also the new order proving it still stands.",
-          "intro": "Tens of thousands gathered at a major prayer site in Tehran to mourn late Supreme Leader Ali Khamenei, who was killed early in the US-Israel war with Iran. Iran planned a week of rites and transfers to multiple religious cities. Coming after a temporary ceasefire with the United States, the funeral was also framed as a display of regime cohesion.",
-          "xiaziQuote": "A state funeral says farewell on the surface and tests power, order and mobilisation underneath.",
-          "doudouQuote": "The mourning may be quiet, but the political signal is loud.",
-          "footerTakeaway": "Keyword: Iran Funeral."
+          "categoryLabel": "Iran Politics",
+          "headlineFact": "Khamenei's three sons appeared at funeral prayers, while the new supreme leader stayed out of public view",
+          "headlineView": "in a succession, absence can speak louder than presence",
+          "headlineFull": "Khamenei's three sons appeared at funeral prayers, while the new supreme leader stayed out of public view; in a succession, absence can speak louder than presence.",
+          "intro": "Reuters reported that three of Ali Khamenei's sons appeared at funeral prayers in Tehran, but Mojtaba Khamenei, who succeeded him as supreme leader, did not make a public appearance. Iran is staging week-long funeral ceremonies across Qom, Najaf, Karbala and Mashhad, keeping attention on the stability of the transition.",
+          "xiaziQuote": "A state funeral is mourning and a political stage; who stands by the coffin matters, and who does not appear may matter more.",
+          "doudouQuote": "At a moment like this, not appearing can launch a whole season of political drama.",
+          "footerTakeaway": "Keyword: Iran Politics."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-05-03",
-          "topicId": "topic-2026-07-05-03",
-          "title": "Mass grief in Iran at Khamenei funeral after US, Israel war killing",
+          "id": "0d9e87a5-ccbf-4480-9c60-e2d24fded1b7",
+          "topicId": "b5d7b868-d809-4855-84f9-bd2e2172073c",
+          "title": "Mass grief in Iran at Khamenei funeral",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/media-telecom/iranians-flock-week-long-funeral-rites-khamenei-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
+          "url": "https://www.reuters.com/world/middle-east/",
+          "publishedAt": "2026-07-06T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
@@ -183,276 +174,51 @@
       ]
     },
     {
-      "id": "topic-2026-07-05-04",
-      "issueId": "issue-2026-07-05",
-      "slug": "zelensky-trump-us-resolve",
+      "id": "f9b28e29-c62e-495b-80c7-8c72ff56b2f5",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "nato-trump-zelenskiy-syria-meetings",
       "rank": 4,
       "category": "international",
-      "region": "Ukraine",
-      "countryCodes": [
-        "UA",
-        "US",
-        "RU"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "zelensky_trump_us_resolve_july05",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 94,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "俄乌局势",
-          "headlineFact": "泽连斯基与特朗普通话，呼吁美国继续展现“决心”",
-          "headlineView": "战争打到第五年，真正稀缺的不只是武器，还有大国持续投入的耐心",
-          "headlineFull": "泽连斯基与特朗普通话，呼吁美国继续展现“决心”；战争打到第五年，真正稀缺的不只是武器，还有大国持续投入的耐心。",
-          "intro": "乌克兰总统泽连斯基表示，他在美国独立日当天与特朗普通话，讨论前线局势，并称“美国的决心”对结束俄乌战争至关重要。双方同意在下周土耳其举行的北约峰会上继续沟通。此前，基辅刚经历今年最致命的俄军袭击之一，救援人员仍在废墟中搜寻失踪者。",
-          "xiaziQuote": "援助不只是武器清单，也是一种政治耐力测试。",
-          "doudouQuote": "战争最怕的不是没新闻，是大家看久了就累了。",
-          "footerTakeaway": "今日关键词：俄乌局势。"
-        },
-        "en-US": {
-          "categoryLabel": "Ukraine War",
-          "headlineFact": "Zelenskiy spoke with Trump and urged continued American resolve",
-          "headlineView": "in year five of war, weapons are scarce, but sustained great-power patience is scarcer",
-          "headlineFull": "Zelenskiy spoke with Trump and urged continued American resolve; in year five of war, weapons are scarce, but sustained great-power patience is scarcer.",
-          "intro": "Ukrainian President Volodymyr Zelenskiy said he spoke with Donald Trump on US Independence Day about the front line and called American resolve crucial to ending Russia’s war. The two agreed to continue talks at next week’s NATO summit in Turkey. Kyiv had just suffered one of this year’s deadliest Russian attacks, with rescue teams still searching rubble.",
-          "xiaziQuote": "Aid is not only an inventory of weapons; it is a test of political endurance.",
-          "doudouQuote": "The danger is not just bad news; it is the world getting tired of it.",
-          "footerTakeaway": "Keyword: Ukraine War."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-05-04",
-          "topicId": "topic-2026-07-05-04",
-          "title": "Ukraine's Zelenskiy says he spoke to Trump, calls for 'American resolve' to help end war",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-he-spoke-trump-calls-american-resolve-help-end-war-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-05-05",
-      "issueId": "issue-2026-07-05",
-      "slug": "global-extreme-heat-july05",
-      "rank": 5,
-      "category": "climate",
       "region": "Global",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "global_extreme_heat_july05",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 94,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "极端高温",
-          "headlineFact": "美国独立日活动被热浪打乱，全球多地气温继续异常",
-          "headlineView": "极端天气正在从背景音，变成影响节日、赛事、电网和城市秩序的主角",
-          "headlineFull": "美国独立日活动被热浪打乱，全球多地气温继续异常；极端天气正在从背景音，变成影响节日、赛事、电网和城市秩序的主角。",
-          "intro": "美国中部和东部多地遭遇危险热浪，华盛顿、费城等地部分独立日活动取消或推迟，超过1.85亿人处于高温警报之下，电网也承受压力。Reuters Climate Monitor显示，7月4日全球平均最高气温预计比历史正常值高约1℃，其中非洲偏高最明显，欧洲近期热浪也被认为与人为气候变化密切相关。",
-          "xiaziQuote": "气候变化不是远方的图表，而是活动取消、电网吃紧、城市节奏被迫改写。",
-          "doudouQuote": "以后办节日活动，天气预案可能比节目单还重要。",
-          "footerTakeaway": "今日关键词：极端高温。"
-        },
-        "en-US": {
-          "categoryLabel": "Extreme Heat",
-          "headlineFact": "US Independence Day events were disrupted by heat as temperatures stayed abnormal across many regions",
-          "headlineView": "extreme weather is moving from background noise to the main actor shaping holidays, grids and city order",
-          "headlineFull": "US Independence Day events were disrupted by heat as temperatures stayed abnormal across many regions; extreme weather is moving from background noise to the main actor shaping holidays, grids and city order.",
-          "intro": "Dangerous heat hit much of the central and eastern United States, cancelling or delaying some Independence Day events in Washington, Philadelphia and elsewhere, while more than 185 million people were under heat alerts and power grids came under pressure. Reuters Climate Monitor showed July 4 global average maximum temperatures about 1 C above normal, with Africa especially hot and Europe’s recent heat linked to human-driven climate change.",
-          "xiaziQuote": "Climate change is not a distant chart; it is cancelled events, strained grids and cities rewriting their rhythm.",
-          "doudouQuote": "The weather plan may soon matter more than the event programme.",
-          "footerTakeaway": "Keyword: Extreme Heat."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-05-05",
-          "topicId": "topic-2026-07-05-05",
-          "title": "Heat wave disrupts Fourth of July events across US, strains power grids",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/us/heat-wave-disrupts-fourth-july-events-across-eastern-us-2026-07-03/",
-          "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-05-06",
-      "issueId": "issue-2026-07-05",
-      "slug": "china-taiwan-coast-guard-patrol",
-      "rank": 6,
-      "category": "international",
-      "region": "Taiwan Strait",
-      "countryCodes": [
-        "CN",
-        "TW"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "china_taiwan_coast_guard_patrol_july05_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 95,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "台海安全",
-          "headlineFact": "中国海警在台湾以东展开巡航，台方称其“非法扩权”",
-          "headlineView": "灰色地带最危险的地方，是每一次执法动作都可能被当成主权边界的试探",
-          "headlineFull": "中国海警在台湾以东展开巡航，台方称其“非法扩权”；灰色地带最危险的地方，是每一次执法动作都可能被当成主权边界的试探。",
-          "intro": "中国海警宣布在台湾以东海域展开新一轮巡航，称将维护所谓“管辖海域”的海上权益。台湾方面强烈反对，表示中国大陆在台湾以东海域没有执法权，并派出海巡船只监控。路透社称，这是约一个月内中国海警第二次进入台湾东部附近海域，已引发美、法、德、英等国关注。",
-          "xiaziQuote": "灰色地带的麻烦，是它每天都不像战争，却每天都在改变战争前的距离。",
-          "doudouQuote": "地图上的线没动，船已经替它往前走了。",
-          "footerTakeaway": "今日关键词：台海安全。"
-        },
-        "en-US": {
-          "categoryLabel": "Taiwan Strait",
-          "headlineFact": "China’s coast guard patrolled east of Taiwan, while Taipei called it illegal expansion",
-          "headlineView": "the danger of the grey zone is that each law-enforcement move can become a sovereignty test",
-          "headlineFull": "China’s coast guard patrolled east of Taiwan, while Taipei called it illegal expansion; the danger of the grey zone is that each law-enforcement move can become a sovereignty test.",
-          "intro": "China’s coast guard announced a new patrol east of Taiwan, saying it would defend maritime rights in waters it claims. Taiwan objected strongly, said Beijing had no law-enforcement authority there, and sent coast guard vessels to monitor. Reuters said it was the second Chinese coast guard entry near Taiwan’s east in about a month, drawing attention from the US, France, Germany and Britain.",
-          "xiaziQuote": "The grey zone rarely looks like war, but it can shorten the distance to one every day.",
-          "doudouQuote": "The line on the map may not move, but the ships move for it.",
-          "footerTakeaway": "Keyword: Taiwan Strait."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-05-06",
-          "topicId": "topic-2026-07-05-06",
-          "title": "China launches coast guard patrol east of Taiwan despite international pushback",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/china/china-launches-coast-guard-patrol-east-taiwan-despite-international-pushback-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-05-07",
-      "issueId": "issue-2026-07-05",
-      "slug": "mali-insurgent-attacks-july05",
-      "rank": 7,
-      "category": "international",
-      "region": "Mali",
-      "countryCodes": [
-        "ML"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "mali_insurgent_attacks_july05_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "马里安全",
-          "headlineFact": "马里多地遭遇武装袭击，军方称局势已受控",
-          "headlineView": "安全承诺最怕的不是一次失败，而是每隔一段时间就被现实重新验证",
-          "headlineFull": "马里多地遭遇武装袭击，军方称局势已受控；安全承诺最怕的不是一次失败，而是每隔一段时间就被现实重新验证。",
-          "intro": "马里军方表示，武装人员在北部、中部和南部至少5个地点发动袭击，目标包括军队驻地和靠近首都巴马科南部的城镇。军方称已击退袭击并控制局势，部分袭击涉及图阿雷格领导的武装团体。路透社指出，马里军政府曾承诺改善安全，但萨赫勒地区的不稳定仍持续蔓延。",
-          "xiaziQuote": "当“局势受控”需要反复宣布，说明真正稀缺的是稳定本身。",
-          "doudouQuote": "安全感不是通报里写出来的，是晚上真的能睡着。",
-          "footerTakeaway": "今日关键词：马里安全。"
-        },
-        "en-US": {
-          "categoryLabel": "Mali Security",
-          "headlineFact": "Armed attacks hit multiple areas of Mali, while the army said the situation was under control",
-          "headlineView": "security promises suffer most when reality keeps retesting them",
-          "headlineFull": "Armed attacks hit multiple areas of Mali, while the army said the situation was under control; security promises suffer most when reality keeps retesting them.",
-          "intro": "Mali’s army said armed attackers struck at least five locations across the north, centre and south, targeting military posts and towns south of Bamako. The army said it repelled the attacks and controlled the situation, with some attacks linked to Tuareg-led groups. Reuters noted that Mali’s junta had promised to improve security, while instability across the Sahel continues to spread.",
-          "xiaziQuote": "When control has to be announced again and again, stability itself is the scarce thing.",
-          "doudouQuote": "Security is not written in a bulletin; it is being able to sleep at night.",
-          "footerTakeaway": "Keyword: Mali Security."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-05-07",
-          "topicId": "topic-2026-07-05-07",
-          "title": "Insurgents stage attacks across Mali, army says situation under control",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/africa/insurgents-attack-multiple-towns-northern-central-mali-sources-say-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-05-08",
-      "issueId": "issue-2026-07-05",
-      "slug": "venezuela-earthquake-death-toll-2954",
-      "rank": 8,
-      "category": "international",
-      "region": "Venezuela",
-      "countryCodes": [
-        "VE"
-      ],
+      "countryCodes": [],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "venezuela_quake_toll_july05_user",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 96,
+      "scoreTotal": 91,
+      "storyId": "nato_trump_zelenskiy_syria_meetings_july06_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "委内瑞拉地震",
-          "headlineFact": "委内瑞拉双震死亡人数升至2954人，救援仍在废墟中继续",
-          "headlineView": "灾难最沉重的数字，不只是死亡人数，还有那些突然失去住所和日常的人",
-          "headlineFull": "委内瑞拉双震死亡人数升至2954人，救援仍在废墟中继续；灾难最沉重的数字，不只是死亡人数，还有那些突然失去住所和日常的人。",
-          "intro": "委内瑞拉政府最新通报显示，上周发生的双重地震已造成2954人死亡、16592人受伤，16309人无家可归。官方称，已有超过2.2万人接受医疗救治，近3万名国内工作人员和3281名国际救援人员参与救灾，搜救行动仍在继续。",
-          "xiaziQuote": "灾难从来不只是一个伤亡数字，而是住所、医疗、秩序和生活感一起被震碎。",
-          "doudouQuote": "希望救援能比坏消息更快一点。",
-          "footerTakeaway": "今日关键词：委内瑞拉地震。"
+          "categoryLabel": "北约峰会",
+          "headlineFact": "特朗普将在北约峰会期间会见泽连斯基和叙利亚领导人",
+          "headlineView": "一次峰会能不能止战，先看各方愿不愿意坐到同一张桌子旁",
+          "headlineFull": "特朗普将在北约峰会期间会见泽连斯基和叙利亚领导人；一次峰会能不能止战，先看各方愿不愿意坐到同一张桌子旁。",
+          "intro": "白宫官员称，特朗普将在土耳其北约峰会期间会见乌克兰总统泽连斯基，讨论如何结束俄乌战争；他还将会见叙利亚总统艾哈迈德·沙拉，并先与土耳其总统埃尔多安会面。峰会前，乌克兰、叙利亚与中东局势都被推到同一外交日程上。",
+          "xiaziQuote": "外交不是万能药，但在战场冻结时，能不能开启下一轮谈判，往往就看这些会面有没有实质安排。",
+          "doudouQuote": "一场峰会排了好几个火药桶议题，主持人压力应该比门将还大。",
+          "footerTakeaway": "今日关键词：北约峰会。"
         },
         "en-US": {
-          "categoryLabel": "Venezuela Quake",
-          "headlineFact": "Venezuela’s twin-quake death toll rose to 2,954 as rescue work continued in the rubble",
-          "headlineView": "the heaviest disaster number is not only deaths, but lives suddenly stripped of home and routine",
-          "headlineFull": "Venezuela’s twin-quake death toll rose to 2,954 as rescue work continued in the rubble; the heaviest disaster number is not only deaths, but lives suddenly stripped of home and routine.",
-          "intro": "Venezuela’s government said the twin earthquakes last week had killed 2,954 people, injured 16,592 and left 16,309 homeless. Officials said more than 22,000 people had received medical treatment, while nearly 30,000 domestic workers and 3,281 international rescuers were involved and search operations continued.",
-          "xiaziQuote": "A disaster is never just a casualty figure; it breaks shelter, medicine, order and the feel of daily life at once.",
-          "doudouQuote": "May relief move faster than the bad news.",
-          "footerTakeaway": "Keyword: Venezuela Quake."
+          "categoryLabel": "NATO Summit",
+          "headlineFact": "Trump is set to meet Zelenskiy and Syria's leader during the NATO summit",
+          "headlineView": "before a summit can stop wars, the sides must agree to sit at the same table",
+          "headlineFull": "Trump is set to meet Zelenskiy and Syria's leader during the NATO summit; before a summit can stop wars, the sides must agree to sit at the same table.",
+          "intro": "A White House official said President Trump is set to meet Ukrainian President Volodymyr Zelenskiy during the NATO summit in Turkey to discuss ways to end the Ukraine war. He is also expected to meet Syrian President Ahmed al-Sharaa after meeting Turkish President Tayyip Erdogan, putting Ukraine, Syria and Middle East diplomacy on the same schedule.",
+          "xiaziQuote": "Diplomacy is not a cure-all, but when battle lines freeze, the next opening often depends on whether meetings produce real arrangements.",
+          "doudouQuote": "One summit has several powder-keg topics; the host may feel more pressure than a goalkeeper.",
+          "footerTakeaway": "Keyword: NATO Summit."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-05-08",
-          "topicId": "topic-2026-07-05-08",
-          "title": "Death toll from Venezuela quakes rises to 2,954",
+          "id": "0d63c7d7-1451-4b7b-a1ea-dfacf9f7ca3e",
+          "topicId": "f9b28e29-c62e-495b-80c7-8c72ff56b2f5",
+          "title": "Trump to meet Zelenskiy and Syrian leader at NATO summit",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/americas/death-toll-venezuela-quakes-rises-2954-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
+          "url": "https://www.reuters.com/world/",
+          "publishedAt": "2026-07-06T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
@@ -461,55 +227,263 @@
       ]
     },
     {
-      "id": "topic-2026-07-05-09",
-      "issueId": "issue-2026-07-05",
-      "slug": "pope-leo-lampedusa-migrants",
-      "rank": 9,
-      "category": "society",
-      "region": "Italy",
-      "countryCodes": [
-        "VA",
-        "IT",
-        "US"
-      ],
+      "id": "03672953-e9fe-4f19-bf0c-6dcb073c561a",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "russia-ukraine-body-handover",
+      "rank": 5,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "pope_leo_lampedusa_migrants_july05_2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 92,
+      "scoreTotal": 90,
+      "storyId": "russia_ukraine_body_handover_july06_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 85,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "移民议题",
-          "headlineFact": "教宗良十四世在兰佩杜萨呼吁美国欢迎移民",
-          "headlineView": "迁徙问题最难的地方，是它同时考验边界、资源和一个社会愿不愿意承认人的尊严",
-          "headlineFull": "教宗良十四世在兰佩杜萨呼吁美国欢迎移民；迁徙问题最难的地方，是它同时考验边界、资源和一个社会愿不愿意承认人的尊严。",
-          "intro": "教宗良十四世在美国独立250周年当天访问意大利兰佩杜萨岛，并向美国发出呼吁，要求欢迎、保护和帮助移民。兰佩杜萨是非洲移民跨越地中海进入欧洲的重要入口，今年已有超过1.4万人经海路抵达意大利，其中超过一半抵达兰佩杜萨；今年已有超过1400人在地中海迁徙途中死亡或失踪。",
-          "xiaziQuote": "边界需要治理，但一个社会如何对待抵达边界的人，也在说明它如何理解自己。",
-          "doudouQuote": "管理边界可以硬一点，对待人别硬到没温度。",
-          "footerTakeaway": "今日关键词：移民议题。"
+          "categoryLabel": "俄乌战争",
+          "headlineFact": "俄方称乌克兰拒绝局部停火交接遗体",
+          "headlineView": "战争打到最后，连归还死者也会变成谈判筹码",
+          "headlineFull": "俄方称乌克兰拒绝局部停火交接遗体；战争打到最后，连归还死者也会变成谈判筹码。",
+          "intro": "俄罗斯国防部称，乌克兰拒绝在东部科斯坚季尼夫卡周边暂停炮击，以便俄方向乌方交接阵亡士兵遗体。俄方此前称已控制该镇，乌克兰否认并称仍掌控当地。路透社报道，乌克兰国防部和总参谋部暂未回应置评请求，因此这仍是俄方单方说法。",
+          "xiaziQuote": "战争最让人难受的不是只有输赢，而是连最后的体面都可能被卷进信息战。",
+          "doudouQuote": "连遗体交接都谈不顺，说明这场仗真的把人性磨得太薄了。",
+          "footerTakeaway": "今日关键词：俄乌战争。"
         },
         "en-US": {
-          "categoryLabel": "Migration",
-          "headlineFact": "Pope Leo used Lampedusa to urge the United States to welcome migrants",
-          "headlineView": "migration tests borders, resources and whether a society still recognises human dignity",
-          "headlineFull": "Pope Leo used Lampedusa to urge the United States to welcome migrants; migration tests borders, resources and whether a society still recognises human dignity.",
-          "intro": "Pope Leo XIV visited Italy’s Lampedusa island on the 250th anniversary of US independence and appealed to the United States to welcome, protect and assist migrants. Lampedusa is a major entry point for Africans crossing the Mediterranean to Europe. More than 14,000 people have reached Italy by sea this year, over half via Lampedusa, while more than 1,400 have died or gone missing in Mediterranean crossings.",
-          "xiaziQuote": "Borders need governance, but how a society treats people at the edge reveals how it understands itself.",
-          "doudouQuote": "Manage the border firmly; do not treat people coldly.",
-          "footerTakeaway": "Keyword: Migration."
+          "categoryLabel": "Russia-Ukraine War",
+          "headlineFact": "Russia said Ukraine rejected a local ceasefire for handing over bodies",
+          "headlineView": "when war drags on, even returning the dead can become leverage",
+          "headlineFull": "Russia said Ukraine rejected a local ceasefire for handing over bodies; when war drags on, even returning the dead can become leverage.",
+          "intro": "Russia's defence ministry said Ukraine rejected a local pause in shelling around Kostiantynivka so Russian forces could hand over fallen Ukrainian soldiers' bodies. Russia had claimed control of the town; Ukraine denies that and says it remains in control. Reuters noted Ukrainian defence officials had not immediately commented, so the claim remains Russia's account.",
+          "xiaziQuote": "War is painful not only because of victory and defeat, but because even the last dignity can be pulled into information war.",
+          "doudouQuote": "If even body handovers cannot be agreed, this war has worn humanity very thin.",
+          "footerTakeaway": "Keyword: Russia-Ukraine War."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-05-09",
-          "topicId": "topic-2026-07-05-09",
-          "title": "Pope Leo urges US to welcome immigrants in July 4 appeal from Lampedusa",
+          "id": "70266958-2169-4744-a7ef-87d6c0085cff",
+          "topicId": "03672953-e9fe-4f19-bf0c-6dcb073c561a",
+          "title": "Russia says Ukraine rejected local ceasefire for body handover",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/europe/pope-leo-marks-us-anniversary-with-migrant-appeal-lampedusa-2026-07-04/",
-          "publishedAt": "2026-07-04T00:00:00Z",
+          "url": "https://www.reuters.com/world/europe/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f66b608d-3530-49fb-bd25-8663abd95047",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "china-russia-qingdao-naval-drills",
+      "rank": 6,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "china_russia_qingdao_naval_drills_july06_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中俄军演",
+          "headlineFact": "中俄海军将在青岛外海举行联合演习",
+          "headlineView": "所谓例行军演，真正传递的是谁和谁正在靠得更近",
+          "headlineFull": "中俄海军将在青岛外海举行联合演习；所谓例行军演，真正传递的是谁和谁正在靠得更近。",
+          "intro": "中国国防部和俄罗斯国家媒体称，中俄海军将于下周在青岛附近海空域举行联合演习，随后部分兵力将赴太平洋相关海域开展联合海上巡逻。俄方称太平洋舰队一艘巡洋舰、一艘护卫舰、一艘柴电潜艇和一艘救援船已抵达青岛。",
+          "xiaziQuote": "军演的重点不只是演什么科目，而是让谁看见：中俄安全协作正在继续外显。",
+          "doudouQuote": "这类新闻表面写例行，实际大家都在看地图。",
+          "footerTakeaway": "今日关键词：中俄军演。"
+        },
+        "en-US": {
+          "categoryLabel": "China-Russia Drills",
+          "headlineFact": "China and Russia will hold joint naval exercises off Qingdao",
+          "headlineView": "routine drills often signal who is moving closer to whom",
+          "headlineFull": "China and Russia will hold joint naval exercises off Qingdao; routine drills often signal who is moving closer to whom.",
+          "intro": "China's defence ministry and Russian state media said Chinese and Russian navies will hold joint exercises in waters and airspace near Qingdao next week, followed by joint maritime patrols in parts of the Pacific. Russian reports said a cruiser, frigate, diesel-electric submarine and rescue vessel from the Pacific Fleet had arrived in Qingdao.",
+          "xiaziQuote": "The point of a drill is not only what is practised, but who is meant to see the cooperation becoming visible.",
+          "doudouQuote": "These stories say routine on the surface; everyone is really looking at the map.",
+          "footerTakeaway": "Keyword: China-Russia Drills."
+        }
+      },
+      "sources": [
+        {
+          "id": "287b753f-8f6e-4d8e-8e30-966bea5b5442",
+          "topicId": "f66b608d-3530-49fb-bd25-8663abd95047",
+          "title": "China and Russia to hold joint naval drills",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "bd94e1ed-3579-4535-a9d8-4335d6c26073",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "opec-hormuz-output-recovery",
+      "rank": 7,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "opec_hormuz_output_recovery_july06_2026",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 85,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球能源",
+          "headlineFact": "OPEC+同意8月继续增产，霍尔木兹出口开始恢复",
+          "headlineView": "油价不是只看供需，也看航道、战争和谁愿意多开一点阀门",
+          "headlineFull": "OPEC+同意8月继续增产，霍尔木兹出口开始恢复；油价不是只看供需，也看航道、战争和谁愿意多开一点阀门。",
+          "intro": "OPEC+同意从8月起把产量目标再提高18.8万桶/日。路透社称，随着霍尔木兹海峡石油出口逐步恢复，油价因供应过剩担忧回落到战前水平附近；但海湾出口仍低于战前水平，能源市场仍在消化中东局势和产油国配额变化。",
+          "xiaziQuote": "能源市场最怕的不是单一坏消息，而是航道、产量、库存和战争预期同时变化。",
+          "doudouQuote": "油价像情绪曲线，一会儿怕断供，一会儿又怕太多。",
+          "footerTakeaway": "今日关键词：全球能源。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Energy",
+          "headlineFact": "OPEC+ agreed to keep raising output as Hormuz exports began recovering",
+          "headlineView": "oil prices watch supply, but also sea lanes, war and who opens the taps",
+          "headlineFull": "OPEC+ agreed to keep raising output as Hormuz exports began recovering; oil prices watch supply, but also sea lanes, war and who opens the taps.",
+          "intro": "OPEC+ agreed to raise output targets by another 188,000 barrels per day from August. Reuters said oil exports through the Strait of Hormuz were gradually recovering and prices had fallen toward pre-war levels amid concerns about excess supply, though Gulf exports remained below pre-war levels.",
+          "xiaziQuote": "Energy markets do not fear one bad signal as much as sea lanes, production, inventories and war expectations changing at once.",
+          "doudouQuote": "Oil prices are an emotion curve: first fear shortage, then fear too much supply.",
+          "footerTakeaway": "Keyword: Global Energy."
+        }
+      },
+      "sources": [
+        {
+          "id": "dc4e2878-ef99-4c62-b998-d14ff0ae9a22",
+          "topicId": "bd94e1ed-3579-4535-a9d8-4335d6c26073",
+          "title": "OPEC+ agrees August output increase as Hormuz exports recover",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/energy/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7ef07607-f2f9-461c-b4a8-b5644d19e503",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "tour-de-france-wildfire",
+      "rank": 8,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 87,
+      "storyId": "tour_de_france_wildfire_july06_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "法国山火",
+          "headlineFact": "法国山火迫使环法第三赛段禁止观众进入",
+          "headlineView": "气候风险不再只是天气预报，而是连体育赛事都要改运行规则",
+          "headlineFull": "法国山火迫使环法第三赛段禁止观众进入；气候风险不再只是天气预报，而是连体育赛事都要改运行规则。",
+          "intro": "法国官员称，因西南部山火仍在蔓延，环法自行车赛第三赛段将禁止公众到场。火灾已烧毁超过1600公顷土地，距离终点约60公里，现场出现浓烟、灼热地面和低能见度。赛事路线保留，但宣传车队不会进入最后40公里，车手仅由必要人员保障。",
+          "xiaziQuote": "极端天气正在从影响体验，升级成改变组织方式：旅游、赛事、工作都得重写预案。",
+          "doudouQuote": "以前看环法是看爬坡冲刺，现在还得看风向和烟雾。",
+          "footerTakeaway": "今日关键词：法国山火。"
+        },
+        "en-US": {
+          "categoryLabel": "France Wildfire",
+          "headlineFact": "French wildfires forced Tour de France stage three to close to spectators",
+          "headlineView": "climate risk is no longer a forecast; it changes how sports events operate",
+          "headlineFull": "French wildfires forced Tour de France stage three to close to spectators; climate risk is no longer a forecast; it changes how sports events operate.",
+          "intro": "French officials closed the Tour de France's third stage to the public because a wildfire in southwestern France was still spreading. The fire had burned more than 1,600 hectares about 60 km from the finish, with smoke, hot ground and poor visibility. The route remains unchanged, but the publicity caravan will skip the final 40 km and only essential staff will support riders.",
+          "xiaziQuote": "Extreme weather is moving from affecting experience to changing organisation: travel, sport and work all need new playbooks.",
+          "doudouQuote": "Watching the Tour used to mean climbs and sprints; now it also means wind direction and smoke.",
+          "footerTakeaway": "Keyword: France Wildfire."
+        }
+      },
+      "sources": [
+        {
+          "id": "9a75d1fe-a260-4177-bc21-0b7f6d3ad815",
+          "topicId": "7ef07607-f2f9-461c-b4a8-b5644d19e503",
+          "title": "Wildfire disrupts Tour de France stage",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/cycling/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8b8dcb9d-e8f0-4e10-9a8e-e03659ae1691",
+      "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
+      "slug": "israel-court-media-regulator",
+      "rank": 9,
+      "category": "politics",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 86,
+      "storyId": "israel_court_media_regulator_july06_2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "以色列司法",
+          "headlineFact": "以色列政府称将不执行最高法院关于媒体监管机构的裁决",
+          "headlineView": "当政府公开挑战法院，真正被测试的是制度还能不能自我刹车",
+          "headlineFull": "以色列政府称将不执行最高法院关于媒体监管机构的裁决；当政府公开挑战法院，真正被测试的是制度还能不能自我刹车。",
+          "intro": "以色列内阁成员投票决定不执行最高法院关于广播监管机构的裁决，路透社称这引发外界对宪政危机的担忧。政府称相关委员会不满足法定成员人数，因而无权继续作出决定；但最高法院此前要求其继续运作。此举可能影响以色列电视台交易和监管安排。",
+          "xiaziQuote": "媒体监管表面是机构问题，深层是政府、法院和舆论权力边界的再碰撞。",
+          "doudouQuote": "这不是吵架，这是制度在拉扯：到底谁说了算？",
+          "footerTakeaway": "今日关键词：以色列司法。"
+        },
+        "en-US": {
+          "categoryLabel": "Israel Courts",
+          "headlineFact": "Israel's government said it would defy a Supreme Court ruling on a media regulator",
+          "headlineView": "when a government openly challenges a court, institutions test whether they can brake themselves",
+          "headlineFull": "Israel's government said it would defy a Supreme Court ruling on a media regulator; when a government openly challenges a court, institutions test whether they can brake themselves.",
+          "intro": "Israel's cabinet voted to defy a Supreme Court decision on the country's broadcast regulator, raising concerns about a constitutional crisis. The government says the regulator lacks the legal membership threshold, while the court had ordered it to continue operating. The move may affect television deals and regulatory arrangements.",
+          "xiaziQuote": "Media regulation looks institutional on the surface, but underneath it is a clash over government, courts and public opinion.",
+          "doudouQuote": "This is not just an argument; it is the system pulling on itself over who gets the final say.",
+          "footerTakeaway": "Keyword: Israel Courts."
+        }
+      },
+      "sources": [
+        {
+          "id": "90198d6d-cecc-4de4-8ed8-1ca67a3f8a58",
+          "topicId": "8b8dcb9d-e8f0-4e10-9a8e-e03659ae1691",
+          "title": "Israel cabinet defies Supreme Court decision on broadcast regulator",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/",
+          "publishedAt": "2026-07-06T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
