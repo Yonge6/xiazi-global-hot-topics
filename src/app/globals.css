@@ -1050,6 +1050,7 @@ button { color: inherit; font: inherit; }
   width: 100%; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); padding: 12px; font: 14px/1.6 var(--sans);
 }
 .studio-card textarea { min-height: 132px; resize: vertical; }
+.studio-card .studio-batch-copy { min-height: 280px; font-size: 13px; line-height: 1.55; }
 .studio-topic-tabs { display: grid; grid-template-columns: repeat(9, 1fr); gap: 5px; margin-bottom: 14px; }
 .studio-topic-tabs button { min-height: 38px; border: 1px solid var(--line); border-radius: 8px; background: transparent; }
 .studio-topic-tabs button.active { border-color: var(--vermilion); background: var(--vermilion); color: white; }
@@ -1073,6 +1074,17 @@ button { color: inherit; font: inherit; }
 .studio-upload { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; border-top: 1px solid var(--line); padding-top: 16px; }
 .studio-upload label { display: block; color: var(--ink); text-align: center; }
 .studio-upload input { display: none; }
+.studio-batch { margin-bottom: 82px; }
+.studio-batch .studio-order span { color: var(--muted); font-size: 11px; }
+.studio-batch-upload { border-top: 0; padding-top: 0; }
+.studio-batch-files {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px; border-top: 1px solid var(--line); padding-top: 14px;
+}
+.studio-batch-files section {
+  display: grid; gap: 6px; min-width: 0; border: 1px solid var(--line); border-radius: 10px; background: white; padding: 10px;
+}
+.studio-batch-files b { font-family: var(--serif); font-size: 14px; }
+.studio-batch-files small { overflow: hidden; color: var(--muted); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
 .studio-publish-bar {
   position: fixed; z-index: 20; bottom: 12px; left: 50%; width: min(calc(100% - 24px), 536px);
   transform: translateX(-50%); border: 1px solid rgba(98,38,30,.12); border-radius: 16px; background: rgba(251,250,247,.96);
