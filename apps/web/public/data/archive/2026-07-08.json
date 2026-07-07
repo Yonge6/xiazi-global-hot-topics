@@ -1,0 +1,495 @@
+{
+  "id": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+  "slug": "2026-07-08",
+  "issueDate": "2026-07-08",
+  "assetVersion": "issue-2026-07-08-chatgpt-art-deco-atlas-v1",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-08T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-07T21:00:00Z",
+  "featuredTopicId": "afca97f9-041f-4bca-bcc9-17b8cc06ae92",
+  "style": {
+    "name": "Art Deco global atlas newsroom",
+    "zhName": "装饰艺术全球地图新闻风",
+    "description": "A unified Art Deco atlas poster system with dark teal panels, brass linework, global map motifs, fixed Xiazi and Doudoulong IP characters, and structured editorial cards."
+  },
+  "topics": [
+    {
+      "id": "afca97f9-041f-4bca-bcc9-17b8cc06ae92",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "overview",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "daily_global_overview_2026_07_08",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "比利时大胜美国，阿根廷绝境逆转，世界同时在能源航道、北约安全、AI规则与司法边界里重新拉线。",
+          "headlineView": "",
+          "headlineFull": "比利时大胜美国，阿根廷绝境逆转，世界同时在能源航道、北约安全、AI规则与司法边界里重新拉线。；。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "比利时大胜美国，阿根廷绝境逆转，世界同时在能源航道、北约安全、AI规则与司法边界里重新拉线。",
+          "headlineView": "boundaries are being redrawn across sport, energy and institutions",
+          "headlineFull": "比利时大胜美国，阿根廷绝境逆转，世界同时在能源航道、北约安全、AI规则与司法边界里重新拉线。; boundaries are being redrawn across sport, energy and institutions.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "5c6249a2-c0a6-4cdb-b3de-4fa5826558fa",
+          "topicId": "afca97f9-041f-4bca-bcc9-17b8cc06ae92",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "c188c0db-a610-4705-ba79-e8c8fa213b52",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "world-cup-july08-round16",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "world_cup_july08_round16",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "比利时4:1终结美国世界杯之旅，阿根廷3球逆转埃及",
+          "headlineView": "淘汰赛最残酷的地方，是主场、名气和剧本都救不了最后比分",
+          "headlineFull": "比利时4:1终结美国世界杯之旅，阿根廷3球逆转埃及；淘汰赛最残酷的地方，是主场、名气和剧本都救不了最后比分。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：世界杯日报。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "比利时4:1终结美国世界杯之旅，阿根廷3球逆转埃及",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "比利时4:1终结美国世界杯之旅，阿根廷3球逆转埃及; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: World Cup."
+        }
+      },
+      "sources": [
+        {
+          "id": "9d6f40a6-f88d-4787-85a7-7795e7f3e1be",
+          "topicId": "c188c0db-a610-4705-ba79-e8c8fa213b52",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "107a59e8-da33-4091-b1cb-a0ebef173f95",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "hormuz-iran-oil-license",
+      "rank": 3,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "hormuz_iran_oil_license_2026_07_08",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中东能源",
+          "headlineFact": "霍尔木兹附近油轮遇袭，美国撤销伊朗石油销售许可",
+          "headlineView": "能源市场最怕的不是一条坏消息，而是航道、制裁和战争预期同时变化",
+          "headlineFull": "霍尔木兹附近油轮遇袭，美国撤销伊朗石油销售许可；能源市场最怕的不是一条坏消息，而是航道、制裁和战争预期同时变化。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：中东能源。"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East Energy",
+          "headlineFact": "霍尔木兹附近油轮遇袭，美国撤销伊朗石油销售许可",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "霍尔木兹附近油轮遇袭，美国撤销伊朗石油销售许可; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: Middle East Energy."
+        }
+      },
+      "sources": [
+        {
+          "id": "cd2a299e-d08f-490b-902d-153f2af52241",
+          "topicId": "107a59e8-da33-4091-b1cb-a0ebef173f95",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e22903ac-9581-4563-a2b8-9d0311093cee",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "nato-ankara-arms-deals",
+      "rank": 4,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "nato_ankara_arms_deals",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "北约峰会",
+          "headlineFact": "北约峰会前展示大额军购，特朗普继续施压欧洲提高军费",
+          "headlineView": "联盟最难的不是宣布团结，而是每个成员愿意掏多少钱",
+          "headlineFull": "北约峰会前展示大额军购，特朗普继续施压欧洲提高军费；联盟最难的不是宣布团结，而是每个成员愿意掏多少钱。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：北约峰会。"
+        },
+        "en-US": {
+          "categoryLabel": "NATO",
+          "headlineFact": "北约峰会前展示大额军购，特朗普继续施压欧洲提高军费",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "北约峰会前展示大额军购，特朗普继续施压欧洲提高军费; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: NATO."
+        }
+      },
+      "sources": [
+        {
+          "id": "830084bd-a977-4eda-b111-81678478d222",
+          "topicId": "e22903ac-9581-4563-a2b8-9d0311093cee",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7aa04f8c-7bd5-49f9-9208-f0b437a7f12e",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "russia-ukraine-sleep-airstrikes",
+      "rank": 5,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "russia_ukraine_sleep_airstrikes",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌战争",
+          "headlineFact": "乌克兰民众在反复空袭中难以入睡",
+          "headlineView": "战争打到城市上空，最先被消耗的是普通人的安全感",
+          "headlineFull": "乌克兰民众在反复空袭中难以入睡；战争打到城市上空，最先被消耗的是普通人的安全感。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：俄乌战争。"
+        },
+        "en-US": {
+          "categoryLabel": "Russia-Ukraine",
+          "headlineFact": "乌克兰民众在反复空袭中难以入睡",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "乌克兰民众在反复空袭中难以入睡; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: Russia-Ukraine."
+        }
+      },
+      "sources": [
+        {
+          "id": "de63567c-cb25-4077-af00-3cd337658ead",
+          "topicId": "7aa04f8c-7bd5-49f9-9208-f0b437a7f12e",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "5cb82e72-fe29-43df-9e4d-6b2186e02486",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "europe-heatwave-who-deadly-weeks",
+      "rank": 6,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "europe_heatwave_who_deadly_weeks",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲高温",
+          "headlineFact": "世卫组织警告欧洲可能迎来更多致命高温周",
+          "headlineView": "气候危机不是未来某天的灾难，而是今天医院和城市已经开始超载",
+          "headlineFull": "世卫组织警告欧洲可能迎来更多致命高温周；气候危机不是未来某天的灾难，而是今天医院和城市已经开始超载。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：欧洲高温。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Heatwave",
+          "headlineFact": "世卫组织警告欧洲可能迎来更多致命高温周",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "世卫组织警告欧洲可能迎来更多致命高温周; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: Europe Heatwave."
+        }
+      },
+      "sources": [
+        {
+          "id": "25eaa786-e1dc-4089-8fc6-6e118ee3d4b4",
+          "topicId": "5cb82e72-fe29-43df-9e4d-6b2186e02486",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "d264b208-4318-42d8-b8b1-bbc77ef6f269",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "un-ai-governance-children",
+      "rank": 7,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "un_ai_governance_children",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI监管",
+          "headlineFact": "联合国秘书长警告AI发展快过规则，呼吁全球机制保护儿童",
+          "headlineView": "AI越像基础设施，越不能只靠企业自觉踩刹车",
+          "headlineFull": "联合国秘书长警告AI发展快过规则，呼吁全球机制保护儿童；AI越像基础设施，越不能只靠企业自觉踩刹车。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：AI监管。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Regulation",
+          "headlineFact": "联合国秘书长警告AI发展快过规则，呼吁全球机制保护儿童",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "联合国秘书长警告AI发展快过规则，呼吁全球机制保护儿童; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: AI Regulation."
+        }
+      },
+      "sources": [
+        {
+          "id": "99937630-7a51-4bef-a92f-0795bce9364e",
+          "topicId": "d264b208-4318-42d8-b8b1-bbc77ef6f269",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a9a59c78-8c1b-4075-81cf-b911a72a833e",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "taiwan-china-naval-upward-trend",
+      "rank": 8,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "taiwan_china_naval_upward_trend",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "台海安全",
+          "headlineFact": "台湾称正在追踪中国海军活动上升趋势",
+          "headlineView": "海上力量的变化，往往比一次单独演习更能说明长期压力",
+          "headlineFull": "台湾称正在追踪中国海军活动上升趋势；海上力量的变化，往往比一次单独演习更能说明长期压力。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：台海安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Taiwan Security",
+          "headlineFact": "台湾称正在追踪中国海军活动上升趋势",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "台湾称正在追踪中国海军活动上升趋势; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: Taiwan Security."
+        }
+      },
+      "sources": [
+        {
+          "id": "a3ccefb7-8347-44fe-a1ff-8350960a266e",
+          "topicId": "a9a59c78-8c1b-4075-81cf-b911a72a833e",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "6483e8eb-f7f7-4566-a088-bd39cc840584",
+      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "slug": "israel-broadcast-regulator-court",
+      "rank": 9,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 87,
+      "storyId": "israel_broadcast_regulator_court",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 80,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "以色列司法",
+          "headlineFact": "以色列政府挑战最高法院关于媒体监管机构的裁决",
+          "headlineView": "制度最紧张的时刻，是行政权和司法权都说自己才是最后一句话",
+          "headlineFull": "以色列政府挑战最高法院关于媒体监管机构的裁决；制度最紧张的时刻，是行政权和司法权都说自己才是最后一句话。",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "今日关键词：以色列司法。"
+        },
+        "en-US": {
+          "categoryLabel": "Israel Judiciary",
+          "headlineFact": "以色列政府挑战最高法院关于媒体监管机构的裁决",
+          "headlineView": "the real pressure is moving from statements to systems",
+          "headlineFull": "以色列政府挑战最高法院关于媒体监管机构的裁决; the real pressure is moving from statements to systems.",
+          "intro": "",
+          "xiaziQuote": "",
+          "doudouQuote": "",
+          "footerTakeaway": "Keyword: Israel Judiciary."
+        }
+      },
+      "sources": [
+        {
+          "id": "aedf55cf-e65b-4261-b4df-82b8c3669ce8",
+          "topicId": "6483e8eb-f7f7-4566-a088-bd39cc840584",
+          "title": "ChatGPT cited news sources",
+          "publisher": "ChatGPT cited sources",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
