@@ -1,5 +1,5 @@
 {
-  "id": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+  "id": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
   "slug": "2026-07-08",
   "issueDate": "2026-07-08",
   "assetVersion": "issue-2026-07-08-chatgpt-art-deco-atlas-v1",
@@ -7,7 +7,7 @@
   "slotHour": 5,
   "beijingTimestamp": "2026-07-08T05:00:00+08:00",
   "gmtTimestamp": "2026-07-07T21:00:00Z",
-  "featuredTopicId": "afca97f9-041f-4bca-bcc9-17b8cc06ae92",
+  "featuredTopicId": "857aef37-94b0-4af3-9f62-799274a9a8d2",
   "style": {
     "name": "Art Deco global atlas newsroom",
     "zhName": "装饰艺术全球地图新闻风",
@@ -15,8 +15,8 @@
   },
   "topics": [
     {
-      "id": "afca97f9-041f-4bca-bcc9-17b8cc06ae92",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "857aef37-94b0-4af3-9f62-799274a9a8d2",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -43,9 +43,9 @@
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "比利时大胜美国，阿根廷绝境逆转，世界同时在能源航道、北约安全、AI规则与司法边界里重新拉线。",
-          "headlineView": "boundaries are being redrawn across sport, energy and institutions",
-          "headlineFull": "比利时大胜美国，阿根廷绝境逆转，世界同时在能源航道、北约安全、AI规则与司法边界里重新拉线。; boundaries are being redrawn across sport, energy and institutions.",
+          "headlineFact": "Belgium and Argentina reshape the knockout bracket",
+          "headlineView": "sport, energy and institutional boundaries are being redrawn at once",
+          "headlineFull": "Belgium and Argentina reshape the knockout bracket; sport, energy and institutional boundaries are being redrawn at once.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -54,8 +54,8 @@
       },
       "sources": [
         {
-          "id": "5c6249a2-c0a6-4cdb-b3de-4fa5826558fa",
-          "topicId": "afca97f9-041f-4bca-bcc9-17b8cc06ae92",
+          "id": "345f436f-9675-41f0-8b60-52fd8b22c551",
+          "topicId": "857aef37-94b0-4af3-9f62-799274a9a8d2",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "id": "c188c0db-a610-4705-ba79-e8c8fa213b52",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "d3edae5d-a7b4-454d-9abb-4c2a011e20e5",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "world-cup-july08-round16",
       "rank": 2,
       "category": "sports",
@@ -96,9 +96,9 @@
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "比利时4:1终结美国世界杯之旅，阿根廷3球逆转埃及",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "比利时4:1终结美国世界杯之旅，阿根廷3球逆转埃及; the real pressure is moving from statements to systems.",
+          "headlineFact": "Belgium ends the U.S. World Cup run, Argentina survives Egypt",
+          "headlineView": "knockout football respects the final score, not the script",
+          "headlineFull": "Belgium ends the U.S. World Cup run, Argentina survives Egypt; knockout football respects the final score, not the script.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -107,8 +107,8 @@
       },
       "sources": [
         {
-          "id": "9d6f40a6-f88d-4787-85a7-7795e7f3e1be",
-          "topicId": "c188c0db-a610-4705-ba79-e8c8fa213b52",
+          "id": "2eb79923-22af-489c-989a-8c3a0d9b550e",
+          "topicId": "d3edae5d-a7b4-454d-9abb-4c2a011e20e5",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -121,8 +121,8 @@
       ]
     },
     {
-      "id": "107a59e8-da33-4091-b1cb-a0ebef173f95",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "4e98f3ba-0fbb-4735-9d27-8a63654d85c8",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "hormuz-iran-oil-license",
       "rank": 3,
       "category": "business",
@@ -149,9 +149,9 @@
         },
         "en-US": {
           "categoryLabel": "Middle East Energy",
-          "headlineFact": "霍尔木兹附近油轮遇袭，美国撤销伊朗石油销售许可",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "霍尔木兹附近油轮遇袭，美国撤销伊朗石油销售许可; the real pressure is moving from statements to systems.",
+          "headlineFact": "Tanker attacks near Hormuz trigger a U.S. move on Iranian oil",
+          "headlineView": "energy risk is also about who can safely pass through the chokepoint",
+          "headlineFull": "Tanker attacks near Hormuz trigger a U.S. move on Iranian oil; energy risk is also about who can safely pass through the chokepoint.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -160,8 +160,8 @@
       },
       "sources": [
         {
-          "id": "cd2a299e-d08f-490b-902d-153f2af52241",
-          "topicId": "107a59e8-da33-4091-b1cb-a0ebef173f95",
+          "id": "ef0dbccd-8509-4f78-a5f1-3dae382fd3f1",
+          "topicId": "4e98f3ba-0fbb-4735-9d27-8a63654d85c8",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -174,8 +174,8 @@
       ]
     },
     {
-      "id": "e22903ac-9581-4563-a2b8-9d0311093cee",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "d55a8bcd-d357-41fe-817d-8d89c07a99d8",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "nato-ankara-arms-deals",
       "rank": 4,
       "category": "international",
@@ -202,9 +202,9 @@
         },
         "en-US": {
           "categoryLabel": "NATO",
-          "headlineFact": "北约峰会前展示大额军购，特朗普继续施压欧洲提高军费",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "北约峰会前展示大额军购，特朗普继续施压欧洲提高军费; the real pressure is moving from statements to systems.",
+          "headlineFact": "NATO showcases arms deals before the Ankara summit",
+          "headlineView": "alliance unity is tested in budgets, not communiques",
+          "headlineFull": "NATO showcases arms deals before the Ankara summit; alliance unity is tested in budgets, not communiques.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -213,8 +213,8 @@
       },
       "sources": [
         {
-          "id": "830084bd-a977-4eda-b111-81678478d222",
-          "topicId": "e22903ac-9581-4563-a2b8-9d0311093cee",
+          "id": "d47c7962-bd4c-4744-bb32-7959ac1563c3",
+          "topicId": "d55a8bcd-d357-41fe-817d-8d89c07a99d8",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -227,8 +227,8 @@
       ]
     },
     {
-      "id": "7aa04f8c-7bd5-49f9-9208-f0b437a7f12e",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "396fa59c-c3c3-4c4f-bc2c-2c052f8ae01f",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "russia-ukraine-sleep-airstrikes",
       "rank": 5,
       "category": "international",
@@ -255,9 +255,9 @@
         },
         "en-US": {
           "categoryLabel": "Russia-Ukraine",
-          "headlineFact": "乌克兰民众在反复空袭中难以入睡",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "乌克兰民众在反复空袭中难以入睡; the real pressure is moving from statements to systems.",
+          "headlineFact": "Ukrainians struggle to sleep under repeated air attacks",
+          "headlineView": "war now consumes civilian routines as much as front lines",
+          "headlineFull": "Ukrainians struggle to sleep under repeated air attacks; war now consumes civilian routines as much as front lines.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -266,8 +266,8 @@
       },
       "sources": [
         {
-          "id": "de63567c-cb25-4077-af00-3cd337658ead",
-          "topicId": "7aa04f8c-7bd5-49f9-9208-f0b437a7f12e",
+          "id": "c7f29565-9ea6-4cb5-acb1-1c09a0d06229",
+          "topicId": "396fa59c-c3c3-4c4f-bc2c-2c052f8ae01f",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -280,8 +280,8 @@
       ]
     },
     {
-      "id": "5cb82e72-fe29-43df-9e4d-6b2186e02486",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "c4477389-d4cc-45ff-a04c-8d697a76bde8",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "europe-heatwave-who-deadly-weeks",
       "rank": 6,
       "category": "climate",
@@ -308,9 +308,9 @@
         },
         "en-US": {
           "categoryLabel": "Europe Heatwave",
-          "headlineFact": "世卫组织警告欧洲可能迎来更多致命高温周",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "世卫组织警告欧洲可能迎来更多致命高温周; the real pressure is moving from statements to systems.",
+          "headlineFact": "WHO warns Europe may face more deadly heat weeks",
+          "headlineView": "climate risk is becoming a city-management test",
+          "headlineFull": "WHO warns Europe may face more deadly heat weeks; climate risk is becoming a city-management test.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -319,8 +319,8 @@
       },
       "sources": [
         {
-          "id": "25eaa786-e1dc-4089-8fc6-6e118ee3d4b4",
-          "topicId": "5cb82e72-fe29-43df-9e4d-6b2186e02486",
+          "id": "1fea32fc-bac2-4d8b-9fd5-5f52c42e72eb",
+          "topicId": "c4477389-d4cc-45ff-a04c-8d697a76bde8",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -333,8 +333,8 @@
       ]
     },
     {
-      "id": "d264b208-4318-42d8-b8b1-bbc77ef6f269",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "5828777d-b884-4b26-889e-563bce3221b2",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "un-ai-governance-children",
       "rank": 7,
       "category": "technology",
@@ -361,9 +361,9 @@
         },
         "en-US": {
           "categoryLabel": "AI Regulation",
-          "headlineFact": "联合国秘书长警告AI发展快过规则，呼吁全球机制保护儿童",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "联合国秘书长警告AI发展快过规则，呼吁全球机制保护儿童; the real pressure is moving from statements to systems.",
+          "headlineFact": "The UN warns AI is outrunning global rules",
+          "headlineView": "public benefit needs guardrails before harm scales",
+          "headlineFull": "The UN warns AI is outrunning global rules; public benefit needs guardrails before harm scales.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -372,8 +372,8 @@
       },
       "sources": [
         {
-          "id": "99937630-7a51-4bef-a92f-0795bce9364e",
-          "topicId": "d264b208-4318-42d8-b8b1-bbc77ef6f269",
+          "id": "ec49aceb-8b12-4f27-a703-aa5bb5c7dc9e",
+          "topicId": "5828777d-b884-4b26-889e-563bce3221b2",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -386,8 +386,8 @@
       ]
     },
     {
-      "id": "a9a59c78-8c1b-4075-81cf-b911a72a833e",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "2296b6cc-0d86-4ea7-8eb5-e3814f576e4c",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "taiwan-china-naval-upward-trend",
       "rank": 8,
       "category": "international",
@@ -414,9 +414,9 @@
         },
         "en-US": {
           "categoryLabel": "Taiwan Security",
-          "headlineFact": "台湾称正在追踪中国海军活动上升趋势",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "台湾称正在追踪中国海军活动上升趋势; the real pressure is moving from statements to systems.",
+          "headlineFact": "Taiwan tracks an upward trend in Chinese naval activity",
+          "headlineView": "frequency can matter more than one single deployment",
+          "headlineFull": "Taiwan tracks an upward trend in Chinese naval activity; frequency can matter more than one single deployment.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -425,8 +425,8 @@
       },
       "sources": [
         {
-          "id": "a3ccefb7-8347-44fe-a1ff-8350960a266e",
-          "topicId": "a9a59c78-8c1b-4075-81cf-b911a72a833e",
+          "id": "ca8729ac-42fa-4ca9-95c3-e34bf823cd34",
+          "topicId": "2296b6cc-0d86-4ea7-8eb5-e3814f576e4c",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
@@ -439,8 +439,8 @@
       ]
     },
     {
-      "id": "6483e8eb-f7f7-4566-a088-bd39cc840584",
-      "issueId": "e625027a-7ec7-4685-832a-48b4ebf5cc3f",
+      "id": "6f9759fc-4b8a-447f-aac7-c26475a169a7",
+      "issueId": "7a683d0f-265b-46e0-94b5-4ae6287c8734",
       "slug": "israel-broadcast-regulator-court",
       "rank": 9,
       "category": "international",
@@ -467,9 +467,9 @@
         },
         "en-US": {
           "categoryLabel": "Israel Judiciary",
-          "headlineFact": "以色列政府挑战最高法院关于媒体监管机构的裁决",
-          "headlineView": "the real pressure is moving from statements to systems",
-          "headlineFull": "以色列政府挑战最高法院关于媒体监管机构的裁决; the real pressure is moving from statements to systems.",
+          "headlineFact": "Israel challenges a Supreme Court ruling on media regulation",
+          "headlineView": "institutional brakes are being stress-tested",
+          "headlineFull": "Israel challenges a Supreme Court ruling on media regulation; institutional brakes are being stress-tested.",
           "intro": "",
           "xiaziQuote": "",
           "doudouQuote": "",
@@ -478,8 +478,8 @@
       },
       "sources": [
         {
-          "id": "aedf55cf-e65b-4261-b4df-82b8c3669ce8",
-          "topicId": "6483e8eb-f7f7-4566-a088-bd39cc840584",
+          "id": "e0167c29-1ee0-4350-adce-11b6184116fe",
+          "topicId": "6f9759fc-4b8a-447f-aac7-c26475a169a7",
           "title": "ChatGPT cited news sources",
           "publisher": "ChatGPT cited sources",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
