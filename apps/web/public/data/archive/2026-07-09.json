@@ -1,0 +1,495 @@
+{
+  "id": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+  "slug": "2026-07-09",
+  "issueDate": "2026-07-09",
+  "assetVersion": "issue-2026-07-09-geopolitical-signal-atlas-v1",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-09T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-08T21:00:00Z",
+  "featuredTopicId": "906b0072-7336-4653-8224-e2e2d8bc7349",
+  "style": {
+    "name": "Geopolitical signal atlas",
+    "zhName": "地缘信号地图新闻风",
+    "description": "A unified editorial atlas system with warm paper, black command bars, red and teal signal geometry, map lines, fixed Xiazi and Doudoulong IP marks, and dense readable news hierarchy."
+  },
+  "topics": [
+    {
+      "id": "906b0072-7336-4653-8224-e2e2d8bc7349",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "overview",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "daily_global_overview_2026_07_09",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "世界杯进入八强休赛日，美伊冲突重新升级，AI模型发布也被纳入国家安全审查",
+          "headlineView": "世界的主线越来越清楚：球场拼体能，国家拼韧性，企业拼备用方案",
+          "headlineFull": "世界杯进入八强休赛日，美伊冲突重新升级，AI模型发布也被纳入国家安全审查；世界的主线越来越清楚：球场拼体能，国家拼韧性，企业拼备用方案。",
+          "intro": "过去24小时，世界杯没有完赛，八强对阵已经排定，法国与摩洛哥即将打响第一场四分之一决赛；中东方面，美国完成新一轮对伊朗打击，并撤销伊朗售油许可；乌克兰获得在本土生产“爱国者”防空系统的许可。与此同时，乌克兰无人机继续打击俄罗斯能源设施，俄罗斯被迫临时禁止柴油出口；OpenAI准备发布GPT-5.6；IMF下调2026全球增长预期；中国南方洪灾叠加超强台风风险；美联储会议纪要显示通胀担忧升温。",
+          "xiaziQuote": "今天的关键词不是单点爆炸，而是备用方案：国家、企业和城市都在问自己还能不能扛下一次冲击。",
+          "doudouQuote": "世界像同时开了八个预警弹窗，关掉一个，又跳出三个。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "The World Cup pauses before the quarterfinals as Iran, Ukraine, AI, growth, weather and inflation risks all move at once",
+          "headlineView": "the main global question is resilience under repeated shocks",
+          "headlineFull": "The World Cup pauses before the quarterfinals as Iran, Ukraine, AI, growth, weather and inflation risks all move at once; the main global question is resilience under repeated shocks.",
+          "intro": "Over the past 24 hours, the World Cup had no completed matches while the quarterfinal bracket settled. Beyond football, new U.S. strikes on Iran, Ukraine's air-defense production push, refinery attacks, Russia's diesel export ban, OpenAI's GPT-5.6 rollout, the IMF's lower 2026 growth view, Chinese flood and typhoon risk, and Fed inflation concerns shaped the day.",
+          "xiaziQuote": "今天的关键词不是单点爆炸，而是备用方案：国家、企业和城市都在问自己还能不能扛下一次冲击。",
+          "doudouQuote": "世界像同时开了八个预警弹窗，关掉一个，又跳出三个。",
+          "footerTakeaway": "Keyword: Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "49467c33-0d0f-4e24-8c05-1b72b18bbe07",
+          "topicId": "906b0072-7336-4653-8224-e2e2d8bc7349",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f6014f21-29cd-425b-a841-e74dcb4b66e0",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "world-cup-july09-quarterfinals",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "world_cup_july09_quarterfinals",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯",
+          "headlineFact": "世界杯进入八强前休赛日，法国与摩洛哥即将打响四分之一决赛",
+          "headlineView": "真正的淘汰赛，从休息日就已经开始",
+          "headlineFull": "世界杯进入八强前休赛日，法国与摩洛哥即将打响四分之一决赛；真正的淘汰赛，从休息日就已经开始。",
+          "intro": "北京时间7月8日05:00至7月9日05:00，世界杯没有完赛比赛。上一轮最后两场16强赛在窗口前结束：阿根廷3:2击败埃及，瑞士点球淘汰哥伦比亚。八强对阵已经确定：法国vs摩洛哥、西班牙vs比利时、挪威vs英格兰、阿根廷vs瑞士。第一场四分之一决赛将是法国对摩洛哥，摩洛哥已经不再只是“黑马”，而是法国本届世界杯真正的强度测试。",
+          "xiaziQuote": "休赛日不是空白，它是体能、伤病、情报和心理的暗战。",
+          "doudouQuote": "没有比赛的一天，教练组可能比球迷还睡不着。",
+          "footerTakeaway": "今日关键词：世界杯。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "The World Cup reaches a quarterfinal rest day before France face Morocco",
+          "headlineView": "the knockout battle starts before the whistle",
+          "headlineFull": "The World Cup reaches a quarterfinal rest day before France face Morocco; the knockout battle starts before the whistle.",
+          "intro": "No World Cup matches were completed between 05:00 July 8 and 05:00 July 9 Beijing time. The quarterfinal lineup is set: France vs Morocco, Spain vs Belgium, Norway vs England, and Argentina vs Switzerland. France's meeting with Morocco opens the next phase and gives the former champions their first real pressure test.",
+          "xiaziQuote": "休赛日不是空白，它是体能、伤病、情报和心理的暗战。",
+          "doudouQuote": "没有比赛的一天，教练组可能比球迷还睡不着。",
+          "footerTakeaway": "Keyword: World Cup."
+        }
+      },
+      "sources": [
+        {
+          "id": "e80d3f53-a257-49e5-81dc-ed6a3e2c7cfe",
+          "topicId": "f6014f21-29cd-425b-a841-e74dcb4b66e0",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "0294a65c-9bbd-4fdd-882f-50f811bea947",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "us-iran-july09-strikes",
+      "rank": 3,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "us_iran_july09_strikes",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 85,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中东局势",
+          "headlineFact": "美国完成新一轮对伊朗打击，临时停火再次摇摇欲坠",
+          "headlineView": "真正危险的不是冲突重启，而是所有人都开始习惯冲突重启",
+          "headlineFull": "美国完成新一轮对伊朗打击，临时停火再次摇摇欲坠；真正危险的不是冲突重启，而是所有人都开始习惯冲突重启。",
+          "intro": "美国中央司令部称，美军已完成新一轮对伊朗打击，命中超过80个目标，包括防空系统、指挥网络、岸基雷达、反舰导弹能力以及伊朗革命卫队小艇。华盛顿还撤销了允许伊朗出售石油的许可，原因是霍尔木兹海峡三艘油轮遭到袭击。伊朗方面则称将作出“压倒性回应”。",
+          "xiaziQuote": "停火协议最怕的不是被撕毁，而是变成下一轮升级前的中场休息。",
+          "doudouQuote": "中场休息如果只用来换弹药，那就不叫和平。",
+          "footerTakeaway": "今日关键词：中东局势。"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East",
+          "headlineFact": "New U.S. strikes on Iran put a fragile pause back under pressure",
+          "headlineView": "the bigger risk is conflict becoming routine",
+          "headlineFull": "New U.S. strikes on Iran put a fragile pause back under pressure; the bigger risk is conflict becoming routine.",
+          "intro": "The U.S. military said it struck more than 80 Iranian targets after attacks on tankers near the Strait of Hormuz. Washington also revoked permission for Iranian oil sales. Tehran warned of a forceful response, raising the risk that a fragile pause becomes another escalation cycle.",
+          "xiaziQuote": "停火协议最怕的不是被撕毁，而是变成下一轮升级前的中场休息。",
+          "doudouQuote": "中场休息如果只用来换弹药，那就不叫和平。",
+          "footerTakeaway": "Keyword: Middle East."
+        }
+      },
+      "sources": [
+        {
+          "id": "85175662-a455-451c-b740-f64a533c3a0b",
+          "topicId": "0294a65c-9bbd-4fdd-882f-50f811bea947",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "60c0cdba-9a39-4f5c-8efc-6a41dc4f9f60",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "ukraine-patriot-production",
+      "rank": 4,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "ukraine_patriot_production_2026_07_09",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌战争",
+          "headlineFact": "美国将授权乌克兰生产“爱国者”防空系统",
+          "headlineView": "战争进入第五年，防空能力已经从援助物资变成国家工业能力",
+          "headlineFull": "美国将授权乌克兰生产“爱国者”防空系统；战争进入第五年，防空能力已经从援助物资变成国家工业能力。",
+          "intro": "美国总统特朗普表示，美国将给予乌克兰许可，让其生产“爱国者”防空系统。这对乌克兰来说是重大防空能力补强，也意味着援助逻辑正在从“给装备”，转向“给生产能力”。在俄罗斯持续空袭城市和基础设施的背景下，防空系统本土化生产，将直接影响乌克兰未来数年的战争韧性。",
+          "xiaziQuote": "真正的安全感，不是别人送来一套盾，而是你自己能造盾。",
+          "doudouQuote": "借来的伞能挡雨，会造伞才敢看天气预报。",
+          "footerTakeaway": "今日关键词：俄乌战争。"
+        },
+        "en-US": {
+          "categoryLabel": "Ukraine War",
+          "headlineFact": "The U.S. will allow Ukraine to produce Patriot air-defense systems",
+          "headlineView": "air defense is shifting from aid delivery to industrial capacity",
+          "headlineFull": "The U.S. will allow Ukraine to produce Patriot air-defense systems; air defense is shifting from aid delivery to industrial capacity.",
+          "intro": "Washington is set to license Ukraine to produce Patriot air-defense systems. The move would strengthen Ukraine's protection against Russian missile and drone attacks while changing the aid logic from sending weapons toward enabling domestic production and longer-term resilience.",
+          "xiaziQuote": "真正的安全感，不是别人送来一套盾，而是你自己能造盾。",
+          "doudouQuote": "借来的伞能挡雨，会造伞才敢看天气预报。",
+          "footerTakeaway": "Keyword: Ukraine War."
+        }
+      },
+      "sources": [
+        {
+          "id": "6ed671bd-aaee-49f8-9660-1b4450d0184c",
+          "topicId": "60c0cdba-9a39-4f5c-8efc-6a41dc4f9f60",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a6856a21-0fca-447f-bd31-519b5206a888",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "ukraine-russia-refinery-diesel-ban",
+      "rank": 5,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "ukraine_russia_refinery_diesel_ban_2026_07_09",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 85,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "能源战线",
+          "headlineFact": "乌克兰无人机打击俄罗斯炼油体系，俄罗斯宣布禁止柴油出口",
+          "headlineView": "能源战最狠的地方，是它会从前线一路烧到加油站",
+          "headlineFull": "乌克兰无人机打击俄罗斯炼油体系，俄罗斯宣布禁止柴油出口；能源战最狠的地方，是它会从前线一路烧到加油站。",
+          "intro": "乌克兰无人机在一夜之间打击俄罗斯三座炼油厂、亚速海油轮和管道泵站，目标从边境一路延伸到乌拉尔地区。俄罗斯国防部称击落415架无人机，但多个地区仍确认遭袭。随后，俄罗斯宣布禁止柴油出口至7月31日，以缓解国内燃料短缺和价格上涨。这项禁令已经推高欧洲柴油利润率，也可能让传统俄罗斯柴油买家转向其他供应来源。",
+          "xiaziQuote": "打炼油厂，不只是打能源，也是打一个国家日常运转的信心。",
+          "doudouQuote": "前线一冒烟，后方油价先咳嗽。",
+          "footerTakeaway": "今日关键词：能源战线。"
+        },
+        "en-US": {
+          "categoryLabel": "Energy War",
+          "headlineFact": "Ukraine hits Russian refinery infrastructure and Moscow bans diesel exports",
+          "headlineView": "energy war travels from the front line to the fuel pump",
+          "headlineFull": "Ukraine hits Russian refinery infrastructure and Moscow bans diesel exports; energy war travels from the front line to the fuel pump.",
+          "intro": "Ukrainian drones struck Russian refineries, a tanker and pipeline infrastructure, while Moscow said it intercepted hundreds of drones. Russia then banned diesel exports until July 31 to ease domestic shortages and price pressure, a move likely to ripple through European margins and import routes.",
+          "xiaziQuote": "打炼油厂，不只是打能源，也是打一个国家日常运转的信心。",
+          "doudouQuote": "前线一冒烟，后方油价先咳嗽。",
+          "footerTakeaway": "Keyword: Energy War."
+        }
+      },
+      "sources": [
+        {
+          "id": "1d56fb2d-1b58-41c1-9920-f29b783c6c93",
+          "topicId": "a6856a21-0fca-447f-bd31-519b5206a888",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "719cf5c0-b5db-4819-a955-27d8c7a5efd5",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "openai-gpt56-security-review",
+      "rank": 6,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "openai_gpt56_security_review_2026_07_09",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI前沿",
+          "headlineFact": "OpenAI准备发布GPT-5.6，先进模型发布被纳入国家安全审查",
+          "headlineView": "AI不再只是产品发布会，而越来越像一场技术外交",
+          "headlineFull": "OpenAI准备发布GPT-5.6，先进模型发布被纳入国家安全审查；AI不再只是产品发布会，而越来越像一场技术外交。",
+          "intro": "OpenAI将公开发布GPT-5.6，包括Sol、Terra和Luna三个模型。此前，这一发布因美国政府提出国家安全层面的额外测试要求而推迟，OpenAI也曾将GPT-5.6限制给少数经过审查的合作伙伴使用。华盛顿正在加强对前沿AI模型发布的审查，担心这些能力被用于网络攻击或军事情报用途。",
+          "xiaziQuote": "越强的模型，越不像一个App更新，越像一份需要外交部看过的技术文件。",
+          "doudouQuote": "以前更新模型看发布会，现在更新模型还得看地缘政治天气。",
+          "footerTakeaway": "今日关键词：AI前沿。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Frontier",
+          "headlineFact": "OpenAI prepares GPT-5.6 after security review",
+          "headlineView": "frontier AI launches now look like technology diplomacy",
+          "headlineFull": "OpenAI prepares GPT-5.6 after security review; frontier AI launches now look like technology diplomacy.",
+          "intro": "OpenAI is preparing to release GPT-5.6, including Sol, Terra and Luna tiers, after a delay tied to U.S. national-security testing. The rollout shows how advanced AI models are increasingly treated not only as products, but as strategic capabilities with cybersecurity and intelligence implications.",
+          "xiaziQuote": "越强的模型，越不像一个App更新，越像一份需要外交部看过的技术文件。",
+          "doudouQuote": "以前更新模型看发布会，现在更新模型还得看地缘政治天气。",
+          "footerTakeaway": "Keyword: AI Frontier."
+        }
+      },
+      "sources": [
+        {
+          "id": "e385c664-1909-4a4e-bfd5-a2aab8f96498",
+          "topicId": "719cf5c0-b5db-4819-a955-27d8c7a5efd5",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "96ba4237-f1c0-49f9-ac9c-ce4536d698bf",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "imf-2026-growth-ai-war",
+      "rank": 7,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "imf_2026_growth_ai_war_2026_07_09",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球经济",
+          "headlineFact": "IMF下调2026全球增长预期至3.0%，同时警告AI市场可能修正",
+          "headlineView": "世界经济还在增长，但每一步都踩在更薄的冰上",
+          "headlineFull": "IMF下调2026全球增长预期至3.0%，同时警告AI市场可能修正；世界经济还在增长，但每一步都踩在更薄的冰上。",
+          "intro": "IMF将2026年全球经济增长预期从4月的3.1%下调至3.0%，并预计2027年反弹至3.4%。IMF认为，全球经济比预期更能承受中东战争冲击，但风险依然明显，包括中东局势、贸易碎片化以及AI市场预期可能出现修正。IMF还将2026年全球通胀预测上调至4.7%。",
+          "xiaziQuote": "增长还在，但世界已经从“追求高增长”，切换到“别出大事故”。",
+          "doudouQuote": "3.0%听起来还行，问题是脚下这块冰越来越薄。",
+          "footerTakeaway": "今日关键词：全球经济。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Economy",
+          "headlineFact": "The IMF trims 2026 global growth to 3.0%",
+          "headlineView": "growth continues, but on thinner ice",
+          "headlineFull": "The IMF trims 2026 global growth to 3.0%; growth continues, but on thinner ice.",
+          "intro": "The IMF cut its 2026 global growth forecast to 3.0% from 3.1% and projected 3.4% growth in 2027. It cited resilience despite the Middle East war, but warned about conflict risk, trade fragmentation, inflation pressure and a possible correction in AI-related markets.",
+          "xiaziQuote": "增长还在，但世界已经从“追求高增长”，切换到“别出大事故”。",
+          "doudouQuote": "3.0%听起来还行，问题是脚下这块冰越来越薄。",
+          "footerTakeaway": "Keyword: Global Economy."
+        }
+      },
+      "sources": [
+        {
+          "id": "9f6c2d60-2b0a-45df-b5e3-9eed5f43a701",
+          "topicId": "96ba4237-f1c0-49f9-ac9c-ce4536d698bf",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "eeb53bf6-8816-4c39-9ab5-c32043712a7d",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "china-floods-typhoon-bavi",
+      "rank": 8,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 89,
+      "storyId": "china_floods_typhoon_bavi_2026_07_09",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "极端天气",
+          "headlineFact": "中国南方洪灾未退，超强台风Bavi又将来袭",
+          "headlineView": "气候风险最残酷的地方，是灾害之间不再给人恢复时间",
+          "headlineFull": "中国南方洪灾未退，超强台风Bavi又将来袭；气候风险最残酷的地方，是灾害之间不再给人恢复时间。",
+          "intro": "中国南方刚经历台风Maysak带来的严重洪灾，广西至少6人死亡、37.5万人受影响；国家气候中心预计7月西北太平洋和南海可能生成多达6个台风，其中最多3个登陆，均高于常年平均。超强台风Bavi预计周六逼近中国，风速一度超过290公里/小时，覆盖范围超过1000公里。",
+          "xiaziQuote": "极端天气不是偶尔来一次的麻烦，而是在逼城市重新设计自己的承受力。",
+          "doudouQuote": "上一场雨还没擦干，下一场风已经在排队。",
+          "footerTakeaway": "今日关键词：极端天气。"
+        },
+        "en-US": {
+          "categoryLabel": "Extreme Weather",
+          "headlineFact": "Flooding in southern China is followed by Super Typhoon Bavi risk",
+          "headlineView": "climate risk leaves less recovery time between shocks",
+          "headlineFull": "Flooding in southern China is followed by Super Typhoon Bavi risk; climate risk leaves less recovery time between shocks.",
+          "intro": "Southern China is still dealing with severe flooding after Typhoon Maysak, with deaths and hundreds of thousands affected in Guangxi. Forecasters expect an unusually active July for storms, while Super Typhoon Bavi is projected to approach China with extreme winds and a very large circulation.",
+          "xiaziQuote": "极端天气不是偶尔来一次的麻烦，而是在逼城市重新设计自己的承受力。",
+          "doudouQuote": "上一场雨还没擦干，下一场风已经在排队。",
+          "footerTakeaway": "Keyword: Extreme Weather."
+        }
+      },
+      "sources": [
+        {
+          "id": "74085075-5f4a-4692-833e-08ffc3a571c3",
+          "topicId": "eeb53bf6-8816-4c39-9ab5-c32043712a7d",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e09462a3-3d7d-494c-b4b9-f319cb26b661",
+      "issueId": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
+      "slug": "fed-minutes-inflation-warsh",
+      "rank": 9,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 88,
+      "storyId": "fed_minutes_inflation_warsh_2026_07_09",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美联储",
+          "headlineFact": "美联储会议纪要显示通胀担忧升温，年内加息预期重新抬头",
+          "headlineView": "高利率时代最难的，是不知道战争、能源和AI会把成本推到哪里",
+          "headlineFull": "美联储会议纪要显示通胀担忧升温，年内加息预期重新抬头；高利率时代最难的，是不知道战争、能源和AI会把成本推到哪里。",
+          "intro": "美联储6月会议纪要显示，政策制定者对高通胀的担忧上升。虽然利率维持在3.50%—3.75%区间，但部分官员认为，如果通胀持续偏高，可能需要加息。纪要还显示，美联储在新主席Kevin Warsh领导下减少前瞻指引，转向更短、更少承诺的政策声明。",
+          "xiaziQuote": "以前市场等美联储给方向，现在美联储也在等世界别再突然爆雷。",
+          "doudouQuote": "央行最怕的不是没剧本，是每天都有人临场加戏。",
+          "footerTakeaway": "今日关键词：美联储。"
+        },
+        "en-US": {
+          "categoryLabel": "Federal Reserve",
+          "headlineFact": "Fed minutes show rising inflation concern and revived hike risk",
+          "headlineView": "policy is harder when war, energy and AI keep moving costs",
+          "headlineFull": "Fed minutes show rising inflation concern and revived hike risk; policy is harder when war, energy and AI keep moving costs.",
+          "intro": "Minutes from the Federal Reserve's June meeting showed deeper concern about inflation. Rates stayed at 3.50% to 3.75%, but some officials suggested hikes could be needed if price pressure remains high. The Fed also reduced forward guidance under Chair Kevin Warsh.",
+          "xiaziQuote": "以前市场等美联储给方向，现在美联储也在等世界别再突然爆雷。",
+          "doudouQuote": "央行最怕的不是没剧本，是每天都有人临场加戏。",
+          "footerTakeaway": "Keyword: Federal Reserve."
+        }
+      },
+      "sources": [
+        {
+          "id": "bd07f944-ebe9-4fe2-8362-f806a4548c18",
+          "topicId": "e09462a3-3d7d-494c-b4b9-f319cb26b661",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
