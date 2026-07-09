@@ -2,15 +2,15 @@
   "id": "b3a424c2-cd3e-4760-8df2-ce1ae8968b34",
   "slug": "2026-07-09",
   "issueDate": "2026-07-09",
-  "assetVersion": "issue-2026-07-09-geopolitical-signal-atlas-v1",
+  "assetVersion": "issue-2026-07-09-gpt-image2-v1",
   "status": "published",
   "slotHour": 5,
   "beijingTimestamp": "2026-07-09T05:00:00+08:00",
   "gmtTimestamp": "2026-07-08T21:00:00Z",
   "featuredTopicId": "906b0072-7336-4653-8224-e2e2d8bc7349",
   "style": {
-    "name": "Geopolitical signal atlas",
-    "zhName": "地缘信号地图新闻风",
+    "name": "Geopolitical signal atlas by GPT Image 2",
+    "zhName": "GPT Image 2 地缘信号地图新闻风",
     "description": "A unified editorial atlas system with warm paper, black command bars, red and teal signal geometry, map lines, fixed Xiazi and Doudoulong IP marks, and dense readable news hierarchy."
   },
   "topics": [
@@ -47,8 +47,8 @@
           "headlineView": "the main global question is resilience under repeated shocks",
           "headlineFull": "The World Cup pauses before the quarterfinals as Iran, Ukraine, AI, growth, weather and inflation risks all move at once; the main global question is resilience under repeated shocks.",
           "intro": "Over the past 24 hours, the World Cup had no completed matches while the quarterfinal bracket settled. Beyond football, new U.S. strikes on Iran, Ukraine's air-defense production push, refinery attacks, Russia's diesel export ban, OpenAI's GPT-5.6 rollout, the IMF's lower 2026 growth view, Chinese flood and typhoon risk, and Fed inflation concerns shaped the day.",
-          "xiaziQuote": "今天的关键词不是单点爆炸，而是备用方案：国家、企业和城市都在问自己还能不能扛下一次冲击。",
-          "doudouQuote": "世界像同时开了八个预警弹窗，关掉一个，又跳出三个。",
+          "xiaziQuote": "Today's keyword is not one explosion, but backup plans: countries, companies and cities are asking whether they can absorb the next shock.",
+          "doudouQuote": "The world has eight warning pop-ups open at once; close one, and three more appear.",
           "footerTakeaway": "Keyword: Overview."
         }
       },
@@ -56,7 +56,7 @@
         {
           "id": "49467c33-0d0f-4e24-8c05-1b72b18bbe07",
           "topicId": "906b0072-7336-4653-8224-e2e2d8bc7349",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -100,8 +100,8 @@
           "headlineView": "the knockout battle starts before the whistle",
           "headlineFull": "The World Cup reaches a quarterfinal rest day before France face Morocco; the knockout battle starts before the whistle.",
           "intro": "No World Cup matches were completed between 05:00 July 8 and 05:00 July 9 Beijing time. The quarterfinal lineup is set: France vs Morocco, Spain vs Belgium, Norway vs England, and Argentina vs Switzerland. France's meeting with Morocco opens the next phase and gives the former champions their first real pressure test.",
-          "xiaziQuote": "休赛日不是空白，它是体能、伤病、情报和心理的暗战。",
-          "doudouQuote": "没有比赛的一天，教练组可能比球迷还睡不着。",
+          "xiaziQuote": "A rest day is not empty. It is a quiet battle of fitness, injuries, intelligence and nerves.",
+          "doudouQuote": "On a day without matches, coaching staffs may sleep worse than fans.",
           "footerTakeaway": "Keyword: World Cup."
         }
       },
@@ -109,7 +109,7 @@
         {
           "id": "e80d3f53-a257-49e5-81dc-ed6a3e2c7cfe",
           "topicId": "f6014f21-29cd-425b-a841-e74dcb4b66e0",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -153,8 +153,8 @@
           "headlineView": "the bigger risk is conflict becoming routine",
           "headlineFull": "New U.S. strikes on Iran put a fragile pause back under pressure; the bigger risk is conflict becoming routine.",
           "intro": "The U.S. military said it struck more than 80 Iranian targets after attacks on tankers near the Strait of Hormuz. Washington also revoked permission for Iranian oil sales. Tehran warned of a forceful response, raising the risk that a fragile pause becomes another escalation cycle.",
-          "xiaziQuote": "停火协议最怕的不是被撕毁，而是变成下一轮升级前的中场休息。",
-          "doudouQuote": "中场休息如果只用来换弹药，那就不叫和平。",
+          "xiaziQuote": "A ceasefire is most fragile when it becomes an intermission before the next escalation.",
+          "doudouQuote": "If halftime is only used to reload, it is not peace.",
           "footerTakeaway": "Keyword: Middle East."
         }
       },
@@ -162,7 +162,7 @@
         {
           "id": "85175662-a455-451c-b740-f64a533c3a0b",
           "topicId": "0294a65c-9bbd-4fdd-882f-50f811bea947",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -206,8 +206,8 @@
           "headlineView": "air defense is shifting from aid delivery to industrial capacity",
           "headlineFull": "The U.S. will allow Ukraine to produce Patriot air-defense systems; air defense is shifting from aid delivery to industrial capacity.",
           "intro": "Washington is set to license Ukraine to produce Patriot air-defense systems. The move would strengthen Ukraine's protection against Russian missile and drone attacks while changing the aid logic from sending weapons toward enabling domestic production and longer-term resilience.",
-          "xiaziQuote": "真正的安全感，不是别人送来一套盾，而是你自己能造盾。",
-          "doudouQuote": "借来的伞能挡雨，会造伞才敢看天气预报。",
+          "xiaziQuote": "Real security is not just receiving a shield; it is being able to build one yourself.",
+          "doudouQuote": "A borrowed umbrella helps in rain. Making umbrellas changes how you read the forecast.",
           "footerTakeaway": "Keyword: Ukraine War."
         }
       },
@@ -215,7 +215,7 @@
         {
           "id": "6ed671bd-aaee-49f8-9660-1b4450d0184c",
           "topicId": "60c0cdba-9a39-4f5c-8efc-6a41dc4f9f60",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -259,8 +259,8 @@
           "headlineView": "energy war travels from the front line to the fuel pump",
           "headlineFull": "Ukraine hits Russian refinery infrastructure and Moscow bans diesel exports; energy war travels from the front line to the fuel pump.",
           "intro": "Ukrainian drones struck Russian refineries, a tanker and pipeline infrastructure, while Moscow said it intercepted hundreds of drones. Russia then banned diesel exports until July 31 to ease domestic shortages and price pressure, a move likely to ripple through European margins and import routes.",
-          "xiaziQuote": "打炼油厂，不只是打能源，也是打一个国家日常运转的信心。",
-          "doudouQuote": "前线一冒烟，后方油价先咳嗽。",
+          "xiaziQuote": "Hitting refineries is not only about energy. It hits confidence in daily national operations.",
+          "doudouQuote": "Smoke at the front line can make fuel prices cough in the rear.",
           "footerTakeaway": "Keyword: Energy War."
         }
       },
@@ -268,7 +268,7 @@
         {
           "id": "1d56fb2d-1b58-41c1-9920-f29b783c6c93",
           "topicId": "a6856a21-0fca-447f-bd31-519b5206a888",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -312,8 +312,8 @@
           "headlineView": "frontier AI launches now look like technology diplomacy",
           "headlineFull": "OpenAI prepares GPT-5.6 after security review; frontier AI launches now look like technology diplomacy.",
           "intro": "OpenAI is preparing to release GPT-5.6, including Sol, Terra and Luna tiers, after a delay tied to U.S. national-security testing. The rollout shows how advanced AI models are increasingly treated not only as products, but as strategic capabilities with cybersecurity and intelligence implications.",
-          "xiaziQuote": "越强的模型，越不像一个App更新，越像一份需要外交部看过的技术文件。",
-          "doudouQuote": "以前更新模型看发布会，现在更新模型还得看地缘政治天气。",
+          "xiaziQuote": "The stronger the model, the less it looks like an app update and the more it looks like a technical memo for diplomats.",
+          "doudouQuote": "Model updates used to be launch events; now they come with a geopolitical weather report.",
           "footerTakeaway": "Keyword: AI Frontier."
         }
       },
@@ -321,7 +321,7 @@
         {
           "id": "e385c664-1909-4a4e-bfd5-a2aab8f96498",
           "topicId": "719cf5c0-b5db-4819-a955-27d8c7a5efd5",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -365,8 +365,8 @@
           "headlineView": "growth continues, but on thinner ice",
           "headlineFull": "The IMF trims 2026 global growth to 3.0%; growth continues, but on thinner ice.",
           "intro": "The IMF cut its 2026 global growth forecast to 3.0% from 3.1% and projected 3.4% growth in 2027. It cited resilience despite the Middle East war, but warned about conflict risk, trade fragmentation, inflation pressure and a possible correction in AI-related markets.",
-          "xiaziQuote": "增长还在，但世界已经从“追求高增长”，切换到“别出大事故”。",
-          "doudouQuote": "3.0%听起来还行，问题是脚下这块冰越来越薄。",
+          "xiaziQuote": "Growth is still here, but the world has shifted from chasing high growth to avoiding major accidents.",
+          "doudouQuote": "Three percent sounds acceptable. The problem is that the ice underneath is thinner.",
           "footerTakeaway": "Keyword: Global Economy."
         }
       },
@@ -374,7 +374,7 @@
         {
           "id": "9f6c2d60-2b0a-45df-b5e3-9eed5f43a701",
           "topicId": "96ba4237-f1c0-49f9-ac9c-ce4536d698bf",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -418,8 +418,8 @@
           "headlineView": "climate risk leaves less recovery time between shocks",
           "headlineFull": "Flooding in southern China is followed by Super Typhoon Bavi risk; climate risk leaves less recovery time between shocks.",
           "intro": "Southern China is still dealing with severe flooding after Typhoon Maysak, with deaths and hundreds of thousands affected in Guangxi. Forecasters expect an unusually active July for storms, while Super Typhoon Bavi is projected to approach China with extreme winds and a very large circulation.",
-          "xiaziQuote": "极端天气不是偶尔来一次的麻烦，而是在逼城市重新设计自己的承受力。",
-          "doudouQuote": "上一场雨还没擦干，下一场风已经在排队。",
+          "xiaziQuote": "Extreme weather is no longer an occasional inconvenience. It is forcing cities to redesign their capacity to endure.",
+          "doudouQuote": "The last rain is not dry yet, and the next storm is already in line.",
           "footerTakeaway": "Keyword: Extreme Weather."
         }
       },
@@ -427,7 +427,7 @@
         {
           "id": "74085075-5f4a-4692-833e-08ffc3a571c3",
           "topicId": "eeb53bf6-8816-4c39-9ab5-c32043712a7d",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
@@ -471,8 +471,8 @@
           "headlineView": "policy is harder when war, energy and AI keep moving costs",
           "headlineFull": "Fed minutes show rising inflation concern and revived hike risk; policy is harder when war, energy and AI keep moving costs.",
           "intro": "Minutes from the Federal Reserve's June meeting showed deeper concern about inflation. Rates stayed at 3.50% to 3.75%, but some officials suggested hikes could be needed if price pressure remains high. The Fed also reduced forward guidance under Chair Kevin Warsh.",
-          "xiaziQuote": "以前市场等美联储给方向，现在美联储也在等世界别再突然爆雷。",
-          "doudouQuote": "央行最怕的不是没剧本，是每天都有人临场加戏。",
+          "xiaziQuote": "Markets used to wait for the Fed's direction. Now the Fed is also waiting for the world not to explode again.",
+          "doudouQuote": "Central banks do not fear having no script as much as everyone improvising new scenes every day.",
           "footerTakeaway": "Keyword: Federal Reserve."
         }
       },
@@ -480,7 +480,7 @@
         {
           "id": "bd07f944-ebe9-4fe2-8362-f806a4548c18",
           "topicId": "e09462a3-3d7d-494c-b4b9-f319cb26b661",
-          "title": "ChatGPT generated hotspot source, spot-checked against live search",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
           "publishedAt": "2026-07-09T00:00:00Z",
