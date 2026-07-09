@@ -5,6 +5,7 @@ import sharp from "sharp";
 import { copyCosObject, uploadToCos } from "@/lib/cos/storage";
 import { githubRepo } from "@/lib/github/repo";
 import { resolvePosterName } from "@/lib/posters/assets";
+import { imageContentType, posterVersion } from "@/lib/posters/image-bytes";
 import { studioCookieName, validStudioSession } from "@/lib/studio/auth";
 
 function encode(content: Buffer) {
@@ -88,7 +89,9 @@ export async function POST(request: Request) {
 
     const name = resolvePosterName(slug);
     const input = Buffer.from(await file.arrayBuffer());
-    const original = await sharp(input).png().toBuffer();
+    const original = input;
+    const originalType = imageContentType(original);
+    const version = posterVersion(original);
     const thumbnail = await sharp(original)
       .resize(640, 1280, { fit: "cover" })
       .webp({ quality: 72, effort: 5 })
@@ -109,8 +112,8 @@ export async function POST(request: Request) {
         writeGitHubAsset(`public/${archiveThumbnail}`, thumbnail, `Archive ${locale} poster thumbnail ${issueDate} ${name}`),
       ]);
       await Promise.all([
-        tryCos(() => uploadToCos(`posters/${locale}/${name}.png`, original, "image/png"), warnings),
-        tryCos(() => uploadToCos(`posters/thumb/${locale}/${name}.webp`, thumbnail, "image/webp"), warnings),
+        tryCos(() => uploadToCos(`posters/${locale}/${name}.png`, original, originalType, "no-store, max-age=0"), warnings),
+        tryCos(() => uploadToCos(`posters/thumb/${locale}/${name}.webp`, thumbnail, "image/webp", "no-store, max-age=0"), warnings),
       ]);
       await Promise.all([
         tryCos(() => copyCosObject(`posters/${locale}/${name}.png`, archiveOriginal), warnings),
@@ -122,14 +125,15 @@ export async function POST(request: Request) {
         writeGitHubAsset(`public/${archiveThumbnail}`, thumbnail, `Update archive ${locale} poster thumbnail ${issueDate} ${name}`),
       ]);
       await Promise.all([
-        tryCos(() => uploadToCos(archiveOriginal, original, "image/png"), warnings),
-        tryCos(() => uploadToCos(archiveThumbnail, thumbnail, "image/webp"), warnings),
+        tryCos(() => uploadToCos(archiveOriginal, original, originalType, "no-store, max-age=0"), warnings),
+        tryCos(() => uploadToCos(archiveThumbnail, thumbnail, "image/webp", "no-store, max-age=0"), warnings),
       ]);
     }
     return NextResponse.json({
       ok: warnings.length === 0,
       partial: warnings.length > 0,
-      version: Date.now(),
+      version,
+      contentType: originalType,
       warnings,
     });
   } catch (error) {
