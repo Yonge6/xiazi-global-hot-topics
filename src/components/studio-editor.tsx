@@ -182,8 +182,19 @@ export function StudioEditor() {
       const response = await fetch("/api/studio/poster", { method: "POST", body: form });
       const detail = await response.json().catch(() => null);
       if (!response.ok) throw new Error(detail?.message || "海报上传失败");
-      setPosterCacheKey(detail?.version || Date.now());
-      setStatus(selectedIssue?.source === "current" ? "海报已替换，刷新首页即可看到新图" : "往期海报已替换");
+      const version = detail?.version || Date.now();
+      setPosterPreviews((current) => {
+        const previous = current[previewKey];
+        if (previous?.startsWith("blob:")) URL.revokeObjectURL(previous);
+        const next = { ...current };
+        delete next[previewKey];
+        return next;
+      });
+      setPosterCacheKey(version);
+      if (selectedIssue?.source === "current") {
+        setIssue((current) => current ? { ...current, assetVersion: `studio-poster-${version}` } : current);
+      }
+      setStatus(selectedIssue?.source === "current" ? "海报已替换，预览和下载已切到新图" : "往期海报已替换，预览和下载已切到新图");
     } catch (error) {
       const message = error instanceof Error ? error.message : "海报上传失败";
       setStatus(message);
