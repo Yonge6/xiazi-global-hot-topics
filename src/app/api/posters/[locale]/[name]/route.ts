@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { githubRepo } from "@/lib/github/repo";
+import { imageContentType } from "@/lib/posters/image-bytes";
 
 const repo = githubRepo;
 const locales = new Set(["zh", "en"]);
@@ -44,10 +45,11 @@ export async function GET(
       },
     );
     if (!response.ok) throw new Error("Poster source unavailable");
+    const content = Buffer.from(await response.arrayBuffer());
 
-    return new NextResponse(await response.arrayBuffer(), {
+    return new NextResponse(content, {
       headers: {
-        "Content-Type": thumbnail ? "image/webp" : "image/png",
+        "Content-Type": thumbnail ? "image/webp" : imageContentType(content),
         "Cache-Control": "no-store, max-age=0",
         "CDN-Cache-Control": "no-store",
       },
