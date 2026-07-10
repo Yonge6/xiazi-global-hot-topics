@@ -1,0 +1,524 @@
+{
+  "id": "issue-2026-07-10",
+  "slug": "2026-07-10",
+  "issueDate": "2026-07-10",
+  "assetVersion": "issue-2026-07-10-chatgpt-sop-v1",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-10T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-09T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-10-01",
+  "style": {
+    "name": "Signal atlas editorial collage",
+    "zhName": "信号地图编辑拼贴风",
+    "description": "Warm paper, dark ink hierarchy, red and teal signal geometry, abstract maps, fixed Xiazi and Doudoulong IP figures, dense readable news layout."
+  },
+  "topics": [
+    {
+      "id": "topic-2026-07-10-01",
+      "issueId": "issue-2026-07-10",
+      "slug": "overview",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "xzs-20260710-overview",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "法国进四强，美伊再交火，AI芯片与AI代理同时升温",
+          "headlineView": "世界的主线越来越清楚，安全、算力和气候都在重新定价",
+          "headlineFull": "法国进四强，美伊再交火，AI芯片与AI代理同时升温；世界的主线越来越清楚，安全、算力和气候都在重新定价。",
+          "intro": "过去24小时，法国2:0击败摩洛哥进入世界杯四强；美伊再度互相打击，脆弱停火承压；北约峰会暂时稳住美国承诺；俄乌战争仍有升级信号。科技线上，Meta自研AI芯片即将量产，联合国推动AI代理可信框架，市场继续押注AI算力；欧洲高温死亡数字继续上升。",
+          "xiaziQuote": "今天不是单点新闻，而是三条线同时加速：地缘安全、AI算力、气候风险。",
+          "doudouQuote": "世界像开了八个后台任务，CPU快满了，人类还在点“稍后提醒”。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Overview",
+          "headlineFact": "France reaches the semis, U.S.-Iran tensions flare again, and AI infrastructure moves to center stage",
+          "headlineView": "security, compute and climate are all being repriced",
+          "headlineFull": "France reaches the semis, U.S.-Iran tensions flare again, and AI infrastructure moves to center stage; security, compute and climate are all being repriced.",
+          "intro": "France beat Morocco 2-0 to reach the World Cup semifinals. U.S.-Iran attacks put a fragile ceasefire under pressure, NATO tried to stabilize transatlantic ties, and Ukraine-war risks rose again. Meanwhile, Meta moved closer to producing its own AI chip, the UN pushed for trusted AI agents, markets rallied on AI-chip hopes, and Europe's heat toll worsened.",
+          "xiaziQuote": "Today is not one story, but three accelerations: security, AI compute and climate risk.",
+          "doudouQuote": "The world has eight background tasks running and still keeps clicking remind me later.",
+          "footerTakeaway": "Keyword: Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-01",
+          "topicId": "topic-2026-07-10-01",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-02",
+      "issueId": "issue-2026-07-10",
+      "slug": "world-cup-france-morocco",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "FR",
+        "MA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-20260710-worldcup-france-morocco",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯日报",
+          "headlineFact": "法国2:0击败摩洛哥进四强",
+          "headlineView": "真正的冠军相，是关键时刻有人能把门踹开",
+          "headlineFull": "法国2:0击败摩洛哥进四强；真正的冠军相，是关键时刻有人能把门踹开。",
+          "intro": "北京时间7月10日04:00，法国2:0击败摩洛哥，成为首支进入本届世界杯四强的球队。姆巴佩先罚丢点球，随后破门打开局面，登贝莱再下一城。法国将在半决赛等待西班牙与比利时之间的胜者。",
+          "xiaziQuote": "法国这场最可怕的不是2:0，而是失误之后还能迅速恢复秩序。",
+          "doudouQuote": "姆巴佩：点球丢了没事，我自己写个补丁。",
+          "footerTakeaway": "今日关键词：世界杯日报。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup",
+          "headlineFact": "France beat Morocco 2-0 to reach the semifinals",
+          "headlineView": "champion teams know how to break the door open when it matters",
+          "headlineFull": "France beat Morocco 2-0 to reach the semifinals; champion teams know how to break the door open when it matters.",
+          "intro": "France defeated Morocco 2-0 in the first World Cup quarterfinal. Kylian Mbappe missed a penalty but later scored, before Ousmane Dembele sealed the win. France now wait for the winner of Spain vs Belgium in the semifinals.",
+          "xiaziQuote": "France's warning sign is not just 2-0, but how quickly it recovered after a mistake.",
+          "doudouQuote": "Mbappe missed the penalty, then shipped his own patch.",
+          "footerTakeaway": "Keyword: World Cup."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-02",
+          "topicId": "topic-2026-07-10-02",
+          "title": "Kylian Mbappe, Ousmane Dembele fire France into World Cup semi-finals with 2-0 win over Morocco",
+          "publisher": "Reuters / The Straits Times",
+          "url": "https://www.straitstimes.com/sport/kylian-mbappe-ousmane-dembele-fire-france-into-world-cup-semi-finals-with-2-0-win-over-morocco",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-03",
+      "issueId": "issue-2026-07-10",
+      "slug": "us-iran-ceasefire-threat",
+      "rank": 3,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "BH",
+        "KW",
+        "QA"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-20260710-us-iran-ceasefire-threat",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美伊冲突",
+          "headlineFact": "美国与伊朗再度互相打击，海湾三国被卷入",
+          "headlineView": "停火最怕的不是没有协议，而是每一方都觉得自己还能再打一轮",
+          "headlineFull": "美国与伊朗再度互相打击，海湾三国被卷入；停火最怕的不是没有协议，而是每一方都觉得自己还能再打一轮。",
+          "intro": "美国称已结束最新一轮对伊空袭，打击约90个目标；伊朗随后以导弹和无人机攻击美国盟友所在海湾国家。冲突再次威胁试图结束波斯湾战争的脆弱停火，能源航道和地区安全同时承压。",
+          "xiaziQuote": "停火不是一句话，而是一套各方都愿意克制的机制；现在机制又在漏气。",
+          "doudouQuote": "这不是暂停键，这是大家手指还放在发射键上的暂停键。",
+          "footerTakeaway": "今日关键词：美伊冲突。"
+        },
+        "en-US": {
+          "categoryLabel": "U.S.-Iran",
+          "headlineFact": "The U.S. and Iran exchange more attacks, pulling Gulf states into the fire",
+          "headlineView": "ceasefires fail when every side thinks one more round is affordable",
+          "headlineFull": "The U.S. and Iran exchange more attacks, pulling Gulf states into the fire; ceasefires fail when every side thinks one more round is affordable.",
+          "intro": "The U.S. said it ended its latest airstrikes on Iran after hitting about 90 targets. Iran retaliated with missile and drone attacks on U.S.-aligned Gulf states, again threatening a fragile ceasefire meant to wind down the Persian Gulf war.",
+          "xiaziQuote": "A ceasefire is not a sentence; it is a working restraint system. This one is leaking again.",
+          "doudouQuote": "This is a pause button with everyone's finger still on launch.",
+          "footerTakeaway": "Keyword: U.S.-Iran."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-03",
+          "topicId": "topic-2026-07-10-03",
+          "title": "US and Iran exchange intensifying fire across Mideast, threatening ceasefire deal",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/iran-us-israel-war-oil-july-9-2026-0472764b119d7aa204de4f7f5e44a9bf",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-04",
+      "issueId": "issue-2026-07-10",
+      "slug": "nato-ankara-trump-storm",
+      "rank": 4,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "TR",
+        "US",
+        "UA"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-20260710-nato-ankara-trump-storm",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 74,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "北约峰会",
+          "headlineFact": "北约安卡拉峰会熬过特朗普风暴",
+          "headlineView": "联盟最难的不是合影，而是会后还能不能继续互相信任",
+          "headlineFull": "北约安卡拉峰会熬过特朗普风暴；联盟最难的不是合影，而是会后还能不能继续互相信任。",
+          "intro": "北约在安卡拉峰会后暂时稳住局面，但美国承诺、欧洲防务自主和对乌支持仍是核心疑问。特朗普在峰会期间对盟友与伊朗议题持续施压，欧洲国家也更清楚地意识到，安全不能只靠一次峰会声明续命。",
+          "xiaziQuote": "北约的真正问题不是这次有没有散，而是下一次危机来时谁还愿意先站出来。",
+          "doudouQuote": "合影能拍得很齐，账单就没那么好排队了。",
+          "footerTakeaway": "今日关键词：北约峰会。"
+        },
+        "en-US": {
+          "categoryLabel": "NATO",
+          "headlineFact": "NATO weathers the Ankara summit storm",
+          "headlineView": "the hard part is whether trust survives after the photo op",
+          "headlineFull": "NATO weathers the Ankara summit storm; the hard part is whether trust survives after the photo op.",
+          "intro": "NATO emerged from the Ankara summit intact, but questions over U.S. guarantees, European defence autonomy and Ukraine support remain central. Trump's pressure on allies and Iran sharpened Europe's realization that security cannot live on summit language alone.",
+          "xiaziQuote": "The question is not whether NATO survived this week, but who steps forward in the next crisis.",
+          "doudouQuote": "The group photo is easy. Splitting the bill is harder.",
+          "footerTakeaway": "Keyword: NATO."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-04",
+          "topicId": "topic-2026-07-10-04",
+          "title": "Thursday briefing: Nato can no longer count on US protection - so what now for Europe?",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/09/thursday-briefing-nato-can-no-longer-count-on-us-protection-so-what-now-for-europe",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-05",
+      "issueId": "issue-2026-07-10",
+      "slug": "ukraine-patriot-production",
+      "rank": 5,
+      "category": "international",
+      "region": "Ukraine",
+      "countryCodes": [
+        "UA",
+        "US",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-20260710-ukraine-patriot-production",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 72,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌战争",
+          "headlineFact": "乌克兰防空生产与远程战风险继续升高",
+          "headlineView": "战争进入第五年，防御能力正在变成工业能力",
+          "headlineFull": "乌克兰防空生产与远程战风险继续升高；战争进入第五年，防御能力正在变成工业能力。",
+          "intro": "俄乌战争继续向纵深与工业能力竞争演变。乌克兰寻求把“爱国者”等防空能力本土化生产，俄罗斯能源和军事设施仍面临远程打击压力。前线之外，谁能持续制造、维修和补给，越来越决定长期韧性。",
+          "xiaziQuote": "战争打到这个阶段，拼的不只是武器库存，而是能不能把库存变成生产线。",
+          "doudouQuote": "以前是等快递，现在是想自己开厂。",
+          "footerTakeaway": "今日关键词：俄乌战争。"
+        },
+        "en-US": {
+          "categoryLabel": "Ukraine War",
+          "headlineFact": "Ukraine's air-defence production push highlights a deeper war of industrial capacity",
+          "headlineView": "in year five, defence is becoming manufacturing power",
+          "headlineFull": "Ukraine's air-defence production push highlights a deeper war of industrial capacity; in year five, defence is becoming manufacturing power.",
+          "intro": "The war keeps shifting toward depth and industrial resilience. Ukraine is trying to localize air-defence capacity while Russian energy and military sites remain exposed to long-range pressure. Sustainment now matters as much as headline weapons.",
+          "xiaziQuote": "At this stage, the contest is not just stockpiles, but turning stockpiles into production lines.",
+          "doudouQuote": "The old plan was wait for delivery. The new plan is build the factory.",
+          "footerTakeaway": "Keyword: Ukraine War."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-05",
+          "topicId": "topic-2026-07-10-05",
+          "title": "ChatGPT generated hotspot source, spot-checked against live search.",
+          "publisher": "ChatGPT + live source checks",
+          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-06",
+      "issueId": "issue-2026-07-10",
+      "slug": "meta-iris-ai-chip",
+      "rank": 6,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-20260710-meta-iris-ai-chip",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 84,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI芯片",
+          "headlineFact": "Meta计划9月量产自研AI芯片Iris",
+          "headlineView": "算力焦虑正在把科技巨头推向更深的自造",
+          "headlineFull": "Meta计划9月量产自研AI芯片Iris；算力焦虑正在把科技巨头推向更深的自造。",
+          "intro": "据路透报道，Meta计划9月开始生产首款自研AI芯片Iris，并希望到2027年把算力容量从7GW提升到14GW。大模型竞争已经不只是软件能力，还是芯片、数据中心、能源和资本开支的系统工程。",
+          "xiaziQuote": "AI竞争正在从“谁模型聪明”变成“谁能长期供得起算力”。",
+          "doudouQuote": "大厂以前卷App，现在卷发电量，听起来就很费电。",
+          "footerTakeaway": "今日关键词：AI芯片。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Chips",
+          "headlineFact": "Meta plans to produce its Iris AI chip in September",
+          "headlineView": "compute anxiety is pushing tech giants deeper into self-supply",
+          "headlineFull": "Meta plans to produce its Iris AI chip in September; compute anxiety is pushing tech giants deeper into self-supply.",
+          "intro": "Reuters reported that Meta plans to begin manufacturing its first in-house AI chip, Iris, in September and aims to double computing capacity from 7GW to 14GW by 2027. AI competition is now chips, data centers, energy and capex, not just model quality.",
+          "xiaziQuote": "AI competition is shifting from whose model is smarter to who can keep feeding compute.",
+          "doudouQuote": "Big Tech used to compete on apps. Now it competes on gigawatts.",
+          "footerTakeaway": "Keyword: AI Chips."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-06",
+          "topicId": "topic-2026-07-10-06",
+          "title": "Meta to start production of Iris AI chip in September 2026",
+          "publisher": "Reuters / Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-07",
+      "issueId": "issue-2026-07-10",
+      "slug": "un-ai-agents-trust",
+      "rank": 7,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-20260710-un-ai-agents-trust",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 84,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI治理",
+          "headlineFact": "联合国数字技术机构启动AI代理可信倡议",
+          "headlineView": "AI代理像数字员工，必须先有身份和责任边界",
+          "headlineFull": "联合国数字技术机构启动AI代理可信倡议；AI代理像数字员工，必须先有身份和责任边界。",
+          "intro": "联合国国际电信联盟启动新倡议，推动AI代理保持可识别、可信且受有意义的人类控制。随着代理能够自动执行任务、连接服务甚至替人决策，治理重点正从“模型会说什么”转向“代理能做什么”。",
+          "xiaziQuote": "AI代理不是普通工具，它更像数字员工，所以必须先有身份证和责任书。",
+          "doudouQuote": "以后AI帮你下单买奶茶，买错了到底骂谁？骂提示词吗？",
+          "footerTakeaway": "今日关键词：AI治理。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Governance",
+          "headlineFact": "The UN digital tech agency launches an initiative to improve trust in AI agents",
+          "headlineView": "AI agents need identity and accountability before autonomy scales",
+          "headlineFull": "The UN digital tech agency launches an initiative to improve trust in AI agents; AI agents need identity and accountability before autonomy scales.",
+          "intro": "The International Telecommunication Union launched an initiative to keep AI agents identifiable, trustworthy and subject to meaningful human control. As agents execute tasks and connect services, governance is moving from model speech to agent action.",
+          "xiaziQuote": "AI agents are closer to digital workers than ordinary tools; they need IDs and responsibility lines.",
+          "doudouQuote": "When an AI orders the wrong drink, who gets blamed: the prompt?",
+          "footerTakeaway": "Keyword: AI Governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-07",
+          "topicId": "topic-2026-07-10-07",
+          "title": "UN digital tech agency launches initiative to improve trust in AI agents",
+          "publisher": "Reuters / AOL",
+          "url": "https://www.aol.com/articles/un-digital-tech-agency-launches-132942000.html",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-08",
+      "issueId": "issue-2026-07-10",
+      "slug": "ai-market-chips-oil",
+      "rank": 8,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "CN",
+        "KR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-20260710-ai-market-chips-oil",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 80,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI市场",
+          "headlineFact": "美股科技股上涨，油价反而回落",
+          "headlineView": "市场正在用脚投票，AI算力叙事暂时压过中东风险",
+          "headlineFull": "美股科技股上涨，油价反而回落；市场正在用脚投票，AI算力叙事暂时压过中东风险。",
+          "intro": "尽管中东紧张，美股三大指数仍上涨，纳指领涨，芯片股连续走强。投资者受到中国可能有限放行英伟达H200芯片、SK Hynix美国上市需求火爆等消息刺激；油价在冲高后回落。",
+          "xiaziQuote": "当市场愿意无视油价风险去追AI，说明算力已经成为新的宏观变量。",
+          "doudouQuote": "地缘政治在冒烟，交易员却在问：H200还能买吗？",
+          "footerTakeaway": "今日关键词：AI市场。"
+        },
+        "en-US": {
+          "categoryLabel": "AI Markets",
+          "headlineFact": "Tech stocks rise while oil falls",
+          "headlineView": "markets are voting that AI compute can outweigh Middle East risk for now",
+          "headlineFull": "Tech stocks rise while oil falls; markets are voting that AI compute can outweigh Middle East risk for now.",
+          "intro": "Despite renewed Middle East tension, U.S. stocks climbed with the Nasdaq leading gains and chip shares strong. Investors reacted to possible limited Nvidia H200 access in China and heavy demand for SK Hynix's U.S. listing, while oil retreated.",
+          "xiaziQuote": "When markets chase AI through oil risk, compute has become a macro variable.",
+          "doudouQuote": "Geopolitics is smoking and traders are asking whether H200s are still available.",
+          "footerTakeaway": "Keyword: AI Markets."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-08",
+          "topicId": "topic-2026-07-10-08",
+          "title": "Stocks climb, oil slides as tech hopes outlast Middle East worries",
+          "publisher": "Reuters / Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-climb-chip-rally-014926610.html",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-10-09",
+      "issueId": "issue-2026-07-10",
+      "slug": "europe-heat-deaths",
+      "rank": 9,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "DE",
+        "FR",
+        "BE",
+        "ES",
+        "NL"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-20260710-europe-heat-deaths",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 87,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲高温",
+          "headlineFact": "德国今年已有约5120人死于高温，西欧经历最热六月",
+          "headlineView": "气候风险已经从未来问题，变成死亡统计",
+          "headlineFull": "德国今年已有约5120人死于高温，西欧经历最热六月；气候风险已经从未来问题，变成死亡统计。",
+          "intro": "德国罗伯特·科赫研究所称，今年德国已有约5120人死于高温，多数发生在6月底热浪期间，其中约4270人为75岁以上老人。欧盟哥白尼气候变化服务也表示，西欧经历了有记录以来最热的六月。",
+          "xiaziQuote": "气候变化最残酷的地方，是它不再需要说服你，它直接出现在死亡数字里。",
+          "doudouQuote": "以前说“天气真热”，现在得说“城市系统正在烤机”。",
+          "footerTakeaway": "今日关键词：欧洲高温。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Heat",
+          "headlineFact": "Germany records about 5,120 heat-related deaths as Western Europe logs its hottest June",
+          "headlineView": "climate risk has moved from future warning to mortality data",
+          "headlineFull": "Germany records about 5,120 heat-related deaths as Western Europe logs its hottest June; climate risk has moved from future warning to mortality data.",
+          "intro": "Germany's Robert Koch Institute estimates around 5,120 heat-related deaths this year, mostly during the late-June heatwave and mainly among the elderly. Copernicus said Western Europe had its hottest June on record.",
+          "xiaziQuote": "The harshest part of climate change is that it no longer needs persuasion; it shows up in mortality data.",
+          "doudouQuote": "We used to say it is hot. Now cities are stress-testing.",
+          "footerTakeaway": "Keyword: Europe Heat."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-10-09",
+          "topicId": "topic-2026-07-10-09",
+          "title": "Heatwave linked to more than 5,000 deaths in Germany, RKI says",
+          "publisher": "Reuters / WTVB",
+          "url": "https://wtvbam.com/2026/07/09/heat-wave-linked-to-more-than-5000-deaths-in-germany-rki-says/",
+          "publishedAt": "2026-07-09T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
