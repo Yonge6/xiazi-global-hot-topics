@@ -1,22 +1,22 @@
 {
-  "id": "issue-2026-07-11",
-  "slug": "2026-07-11",
-  "issueDate": "2026-07-11",
-  "assetVersion": "issue-2026-07-11-swiss-style-v1",
+  "id": "issue-2026-07-12",
+  "slug": "2026-07-12",
+  "issueDate": "2026-07-12",
+  "assetVersion": "issue-2026-07-12-celestial-cartography-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-11T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-10T21:00:00Z",
-  "featuredTopicId": "topic-2026-07-11-01",
+  "beijingTimestamp": "2026-07-12T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-11T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-12-01",
   "style": {
-    "name": "Swiss Style newsroom grid",
-    "zhName": "瑞士国际主义新闻栅格风",
-    "description": "Strict modular grid, clean sans typography, red-blue-black accents, disciplined white space, fixed Xiazi and Doudoulong IP figures, high-end editorial poster system."
+    "name": "Celestial Cartography",
+    "zhName": "Celestial Cartography 天体航海图风格",
+    "description": "A unified editorial poster system using deep ocean ink, parchment gold, constellation lines, instrument-grid maps and restrained coral accents, with fixed Xiazi and Doudoulong IP figures adapted through props, posture and scene roles."
   },
   "topics": [
     {
-      "id": "topic-2026-07-11-01",
-      "issueId": "issue-2026-07-11",
+      "id": "topic-2026-07-12-01",
+      "issueId": "issue-2026-07-12",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -26,40 +26,40 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 99,
-      "storyId": "xzs-20260711-overview",
+      "storyId": "xzs-20260712-overview",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "法国西班牙会师四强，美伊重启谈判",
-          "headlineView": "世界在争夺冠军、航道、算力与安全感",
-          "headlineFull": "法国西班牙会师四强，美伊重启谈判；世界在争夺冠军、航道、算力与安全感。",
-          "intro": "过去24小时，法国和西班牙晋级世界杯四强；美伊同意继续谈判，但停火已被宣布结束。台风巴威压向东亚，西班牙山火造成重大伤亡。科技与市场线上，SpaceX地面算力、腾讯洽谈Manus、SK海力士美股首秀和日本通胀，共同指向资源重新定价。",
-          "xiaziQuote": "今天的主线不是热闹，而是稀缺：冠军、航道、算力、气候安全和物价稳定都在被重新竞价。",
-          "doudouQuote": "足球抢四强，企业抢算力，天气抢头条，钱包负责最后买单。",
+          "headlineFact": "霍尔木兹谈判、巴威登陆与AI资本同日升温",
+          "headlineView": "世界在给航道、天气、芯片和公共卫生重新标价",
+          "headlineFull": "霍尔木兹谈判、巴威登陆与AI资本同日升温；世界在给航道、天气、芯片和公共卫生重新标价。",
+          "intro": "过去24小时，世界杯窗口没有新增完赛结果，但四强席位争夺进入临界点；美伊围绕霍尔木兹继续互放狠话，台风巴威登陆中国东部，西班牙山火和刚果埃博拉敲响气候与公共卫生警报。资本市场则继续押注AI芯片，关键资源从油气延伸到氦气和高带宽内存。",
+          "xiaziQuote": "今天的共同主题是基础设施：航道、城市、医院、芯片和赛事日程，任何一环失灵，世界都会立刻感到价格。",
+          "doudouQuote": "天气、油价、芯片和足球都在催更，钱包先替大家点了订阅。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "France and Spain reach the semis as diplomacy, weather and AI capital reshape the day",
-          "headlineView": "the world is bidding for trophies, routes, compute and security",
-          "headlineFull": "France and Spain reach the semis as diplomacy, weather and AI capital reshape the day; the world is bidding for trophies, routes, compute and security.",
-          "intro": "France and Spain reached the World Cup semifinals. The U.S. and Iran agreed to continue talks, though the previous ceasefire was declared over. Typhoon Bavi threatened East Asia, a Spanish wildfire caused heavy casualties, and AI infrastructure, Tencent-Manus talks, SK Hynix and Japan inflation all pointed to repriced scarcity.",
-          "xiaziQuote": "The day is about scarcity: trophies, shipping lanes, compute, climate safety and price stability are all being repriced.",
-          "doudouQuote": "Football chases semifinals, companies chase compute, weather grabs the headline, and wallets get the bill.",
+          "headlineFact": "Hormuz talks, Typhoon Bavi and AI capital all heat up in one day",
+          "headlineView": "the world is repricing routes, weather, chips and public health",
+          "headlineFull": "Hormuz talks, Typhoon Bavi and AI capital all heat up in one day; the world is repricing routes, weather, chips and public health.",
+          "intro": "In the latest 24-hour window, the World Cup had no newly completed match by Beijing 05:00, while the next quarterfinals reached kickoff. U.S.-Iran threats kept Hormuz diplomacy fragile, Typhoon Bavi made landfall in eastern China, Spain's wildfire and Congo's Ebola outbreak sharpened climate and health risks, and AI capital kept flowing into chip supply chains.",
+          "xiaziQuote": "Today is about infrastructure: routes, cities, hospitals, chips and match calendars. When one layer fails, the price is immediate.",
+          "doudouQuote": "Weather, oil, chips and football are all asking for updates; the wallet already subscribed.",
           "footerTakeaway": "Keyword: Overview."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-11-01",
-          "topicId": "topic-2026-07-11-01",
-          "title": "ChatGPT hotspot draft verified against live web sources",
+          "id": "source-2026-07-12-01-1",
+          "topicId": "topic-2026-07-12-01",
+          "title": "ChatGPT prompt submitted; live source checks replaced stale output",
           "publisher": "ChatGPT + live source checks",
           "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
-          "publishedAt": "2026-07-10T00:00:00Z",
+          "publishedAt": "2026-07-11T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "zh-CN",
@@ -68,56 +68,125 @@
       ]
     },
     {
-      "id": "topic-2026-07-11-02",
-      "issueId": "issue-2026-07-11",
-      "slug": "world-cup-july11-quarterfinals",
+      "id": "topic-2026-07-12-02",
+      "issueId": "issue-2026-07-12",
+      "slug": "world-cup-july12-no-new-results",
       "rank": 2,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "FR",
-        "MA",
-        "ES",
-        "BE"
+        "NO",
+        "GB",
+        "AR",
+        "CH"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 98,
-      "storyId": "xzs-world-cup-daily-20260711",
+      "scoreTotal": 96,
+      "storyId": "xzs-world-cup-daily-20260712",
       "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 90,
+      "followupDay": 3,
+      "informationIncrementScore": 80,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯日报",
-          "headlineFact": "法国2:0摩洛哥，西班牙2:1比利时",
-          "headlineView": "淘汰赛奖励能在最难十分钟解决问题的人",
-          "headlineFull": "法国2:0摩洛哥，西班牙2:1比利时；淘汰赛奖励能在最难十分钟解决问题的人。",
-          "intro": "北京时间7月10日05:00至7月11日05:00，世界杯四分之一决赛产生两场结果：法国2:0击败摩洛哥，西班牙2:1击败比利时。法国与西班牙将在半决赛相遇，比赛主线从个人球星转向球队在压力下的纠错能力。",
-          "xiaziQuote": "顶级球队不是不犯错，而是犯错后还能把比赛拉回自己的节奏。",
-          "doudouQuote": "第88分钟才交答案，这叫压轴，不叫拖延。",
+          "headlineFact": "05点截稿前世界杯没有新增完赛结果",
+          "headlineView": "淘汰赛最紧张的时刻，是结果还没写出来",
+          "headlineFull": "05点截稿前世界杯没有新增完赛结果；淘汰赛最紧张的时刻，是结果还没写出来。",
+          "intro": "本期统计窗口为北京时间7月11日05:00至7月12日05:00。FIFA赛程显示，7月11日两场四分之一决赛为挪威对英格兰、阿根廷对瑞士；其中挪威对英格兰在北京时间05:00开球，截稿时尚未形成完赛赛果。因此今天世界杯日报记录为无新增完赛结果，并提示四强最后两个席位即将决出。",
+          "xiaziQuote": "日报不应该为了热闹把未完赛写成结果；真正专业的更新，有时就是承认钟点线还没越过终场哨。",
+          "doudouQuote": "球刚开踢就要比分，这不是日报，是许愿池。",
           "footerTakeaway": "今日关键词：世界杯日报。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "France beat Morocco 2-0, Spain beat Belgium 2-1",
-          "headlineView": "knockout football rewards teams that solve the hardest minutes",
-          "headlineFull": "France beat Morocco 2-0, Spain beat Belgium 2-1; knockout football rewards teams that solve the hardest minutes.",
-          "intro": "During the Beijing-time reporting window, France beat Morocco 2-0 and Spain defeated Belgium 2-1 in World Cup quarterfinals. France and Spain will meet in the semifinals, shifting the storyline from star power to how teams recover under pressure.",
-          "xiaziQuote": "Elite teams are not error-free; they pull the match back into their rhythm after the error.",
-          "doudouQuote": "Submitting the answer in minute 88 is a finale, not procrastination.",
+          "headlineFact": "No World Cup match was completed before the 05:00 Beijing cutoff",
+          "headlineView": "the tensest knockout moment is before the result exists",
+          "headlineFull": "No World Cup match was completed before the 05:00 Beijing cutoff; the tensest knockout moment is before the result exists.",
+          "intro": "The reporting window runs from Beijing time July 11 05:00 to July 12 05:00. FIFA's schedule lists Norway vs England and Argentina vs Switzerland for July 11, with Norway vs England kicking off exactly at the Beijing cutoff. No full-time result existed inside the window, so today's World Cup Daily records no new completed match and flags the final semifinal spots as imminent.",
+          "xiaziQuote": "A daily report should not turn an unfinished match into a result. Sometimes the professional update is simply respecting the whistle.",
+          "doudouQuote": "Asking for a score at kickoff is not reporting; it is wishing.",
           "footerTakeaway": "Keyword: World Cup."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-11-02",
-          "topicId": "topic-2026-07-11-02",
-          "title": "Spain v Belgium: World Cup 2026 quarter-final - live",
+          "id": "source-2026-07-12-02-1",
+          "topicId": "topic-2026-07-12-02",
+          "title": "FIFA World Cup 2026 match schedule and fixtures",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "publishedAt": "2026-07-11T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-12-02-2",
+          "topicId": "topic-2026-07-12-02",
+          "title": "World Cup schedule today: Norway v England and Argentina v Switzerland",
           "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/live/2026/jul/10/spain-v-belgium-world-cup-2026-quarter-final-live",
-          "publishedAt": "2026-07-10T00:00:00Z",
+          "url": "https://www.theguardian.com/football/2026/jul/11/how-to-watch-world-cup-england-norway-argentina-switzerland",
+          "publishedAt": "2026-07-11T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-12-03",
+      "issueId": "issue-2026-07-12",
+      "slug": "us-iran-hormuz-threats",
+      "rank": 3,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "OM"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-us-iran-hormuz-20260712",
+      "storyStatus": "followup",
+      "followupDay": 4,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美伊局势",
+          "headlineFact": "特朗普与伊朗最高领袖互放威胁",
+          "headlineView": "霍尔木兹的安全感仍卡在一句公开保证上",
+          "headlineFull": "特朗普与伊朗最高领袖互放威胁；霍尔木兹的安全感仍卡在一句公开保证上。",
+          "intro": "AP报道，美伊围绕霍尔木兹海峡通行继续紧张。美国要求伊朗公开保证航道安全开放，伊朗强硬派则坚持对海峡拥有控制权并提出收费主张。特朗普与伊朗新任最高领袖互相威胁，同时阿曼等调解方仍试图保住谈判渠道。",
+          "xiaziQuote": "当一条海峡承载全球油气价格，外交就不只是发声明，而是要让商船敢重新排队通过。",
+          "doudouQuote": "航道最怕嘴炮开得比船还快。",
+          "footerTakeaway": "今日关键词：美伊局势。"
+        },
+        "en-US": {
+          "categoryLabel": "U.S.-Iran",
+          "headlineFact": "Trump and Iran's supreme leader trade threats",
+          "headlineView": "Hormuz confidence still depends on one public guarantee",
+          "headlineFull": "Trump and Iran's supreme leader trade threats; Hormuz confidence still depends on one public guarantee.",
+          "intro": "AP reported renewed U.S.-Iran tension around the Strait of Hormuz. Washington wants Tehran to publicly guarantee safe shipping, while Iranian hard-liners insist on control and fees. Trump and Iran's new supreme leader traded threats even as Oman and other mediators tried to preserve talks.",
+          "xiaziQuote": "When one strait carries global energy prices, diplomacy is not a statement; it is making ships willing to queue again.",
+          "doudouQuote": "The fastest traffic in the strait today may be the rhetoric.",
+          "footerTakeaway": "Keyword: U.S.-Iran."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-12-03-1",
+          "topicId": "topic-2026-07-12-03",
+          "title": "Trump and Iran's supreme leader trade threats as the fate of Strait of Hormuz challenges talks",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/533b52cf249314ba1d9b5f9a30b1ca43",
+          "publishedAt": "2026-07-11T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
@@ -126,66 +195,9 @@
       ]
     },
     {
-      "id": "topic-2026-07-11-03",
-      "issueId": "issue-2026-07-11",
-      "slug": "us-iran-talks-ceasefire-over",
-      "rank": 3,
-      "category": "international",
-      "region": "Middle East",
-      "countryCodes": [
-        "US",
-        "IR",
-        "QA"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "xzs-us-iran-ceasefire-20260711",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 86,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "美伊局势",
-          "headlineFact": "美伊同意继续谈判，停火却已结束",
-          "headlineView": "谈判桌还在，安全感已经先离场",
-          "headlineFull": "美伊同意继续谈判，停火却已结束；谈判桌还在，安全感已经先离场。",
-          "intro": "美国同意伊朗继续谈判的请求，但特朗普同时称此前停火已经结束。此前油轮遇袭与双方军事打击使霍尔木兹海峡通行承压，卡塔尔调解人员也赴伊朗推动降温。周五未报告新袭击，但新停火安排仍未成形。",
-          "xiaziQuote": "当谈判和打击同时存在，外交首先要做的是防止误判，而不是立刻解决所有矛盾。",
-          "doudouQuote": "一边说继续谈，一边说停火结束，这桌外交打得像乒乓球。",
-          "footerTakeaway": "今日关键词：美伊局势。"
-        },
-        "en-US": {
-          "categoryLabel": "U.S.-Iran",
-          "headlineFact": "The U.S. and Iran agree to keep talking, but the ceasefire is over",
-          "headlineView": "the table remains, but confidence has left first",
-          "headlineFull": "The U.S. and Iran agree to keep talking, but the ceasefire is over; the table remains, but confidence has left first.",
-          "intro": "The U.S. agreed to Iran's request to continue negotiations, while Trump said the previous ceasefire was no longer in effect. Tanker attacks and reciprocal strikes strained the Strait of Hormuz, and Qatari mediators moved to revive diplomacy. No new Friday attacks were reported, but a replacement ceasefire remains unclear.",
-          "xiaziQuote": "When talks and strikes coexist, diplomacy first has to prevent miscalculation.",
-          "doudouQuote": "They are talking and ending the ceasefire at the same time; the table sounds like ping-pong.",
-          "footerTakeaway": "Keyword: U.S.-Iran."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-11-03",
-          "topicId": "topic-2026-07-11-03",
-          "title": "Iran wants talks but ceasefire over, says Trump",
-          "publisher": "Times of India / Reuters cited",
-          "url": "https://timesofindia.indiatimes.com/world/us/iran-wants-talks-but-ceasefire-over-says-trump-as-tehran-begins-restoring-nuclear-plant-operations/articleshow/132315258.cms",
-          "publishedAt": "2026-07-10T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-11-04",
-      "issueId": "issue-2026-07-11",
-      "slug": "typhoon-bavi-east-asia",
+      "id": "topic-2026-07-12-04",
+      "issueId": "issue-2026-07-12",
+      "slug": "typhoon-bavi-china-landfall",
       "rank": 4,
       "category": "climate",
       "region": "East Asia",
@@ -196,43 +208,43 @@
         "PH"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-typhoon-bavi-20260711",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
+      "scoreTotal": 95,
+      "storyId": "xzs-typhoon-bavi-landfall-20260712",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 86,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "台风巴威",
-          "headlineFact": "台风巴威逼近台湾、日本与中国东部",
-          "headlineView": "风暴还没登陆，城市系统已开始考试",
-          "headlineFull": "台风巴威逼近台湾、日本与中国东部；风暴还没登陆，城市系统已开始考试。",
-          "intro": "台风巴威逼近东亚，多地提前停课、取消航班、渔船回港并部署救援力量。AP称台湾北部和中国东部沿海面临强风暴雨，浙江已疏散人员，福建暂停渡运。此前菲律宾强降雨与山体滑坡已造成伤亡。",
-          "xiaziQuote": "极端天气考验的不只是预报，而是预警之后城市和家庭能否立刻执行。",
-          "doudouQuote": "这次别和风讲道理，门窗、船和行程都先听预警。",
+          "headlineFact": "台风巴威登陆浙江，东亚大范围应急",
+          "headlineView": "极端天气考的是城市执行力",
+          "headlineFull": "台风巴威登陆浙江，东亚大范围应急；极端天气考的是城市执行力。",
+          "intro": "AP称，台风巴威在中国浙江登陆，强风暴雨影响中国东部、台湾、日本南部岛屿和菲律宾季风区。中国东部超过170万人转移，上海、福建、浙江等地启动停课、停航、救援和雨暴预警；台湾疏散逾万人，日本冲绳也取消大量航班。",
+          "xiaziQuote": "预报只是第一步，真正决定损失的是学校、港口、社区和家庭能不能同步行动。",
+          "doudouQuote": "别跟台风讲道理，先把窗、船、行程都收回来。",
           "footerTakeaway": "今日关键词：台风巴威。"
         },
         "en-US": {
           "categoryLabel": "Typhoon Bavi",
-          "headlineFact": "Typhoon Bavi approaches Taiwan, Japan and eastern China",
-          "headlineView": "the storm has not landed, but systems are already being tested",
-          "headlineFull": "Typhoon Bavi approaches Taiwan, Japan and eastern China; the storm has not landed, but systems are already being tested.",
-          "intro": "Typhoon Bavi pushed toward East Asia, prompting school closures, flight cancellations, returning fishing boats and emergency deployments. AP reported risks for northern Taiwan and China's east coast, with evacuations in Zhejiang and ferry suspensions in Fujian after deadly regional rain impacts.",
-          "xiaziQuote": "Extreme weather tests not just forecasts, but whether cities and families act after warnings.",
-          "doudouQuote": "Do not debate the wind; windows, boats and schedules should listen first.",
+          "headlineFact": "Typhoon Bavi makes landfall in Zhejiang",
+          "headlineView": "extreme weather tests execution, not slogans",
+          "headlineFull": "Typhoon Bavi makes landfall in Zhejiang; extreme weather tests execution, not slogans.",
+          "intro": "AP said Typhoon Bavi made landfall in Zhejiang, affecting eastern China, Taiwan, Japan's southern islands and monsoon-hit parts of the Philippines. More than 1.7 million people were evacuated in eastern China, while schools, ferries, flights and emergency teams shifted into storm mode across the region.",
+          "xiaziQuote": "Forecasting is step one. Losses are decided by whether schools, ports, communities and families act together.",
+          "doudouQuote": "Do not debate the typhoon; bring back the windows, boats and schedules first.",
           "footerTakeaway": "Keyword: Typhoon Bavi."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-11-04",
-          "topicId": "topic-2026-07-11-04",
-          "title": "Typhoon Bavi takes aim at China as Taiwan's capital shuts schools",
+          "id": "source-2026-07-12-04-1",
+          "topicId": "topic-2026-07-12-04",
+          "title": "Typhoon Bavi makes landfall in eastern China as more than 1 million are evacuated",
           "publisher": "Associated Press",
-          "url": "https://apnews.com/article/b24529aa2b014bf55a6d7fecc4172e6b",
-          "publishedAt": "2026-07-10T00:00:00Z",
+          "url": "https://apnews.com/article/bfdfdbb239f38b6c22a54c8349ce8d28",
+          "publishedAt": "2026-07-11T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
@@ -241,53 +253,110 @@
       ]
     },
     {
-      "id": "topic-2026-07-11-05",
-      "issueId": "issue-2026-07-11",
-      "slug": "spain-almeria-wildfire",
+      "id": "topic-2026-07-12-05",
+      "issueId": "issue-2026-07-12",
+      "slug": "spain-wildfire-almeria-deaths",
       "rank": 5,
       "category": "climate",
-      "region": "Spain",
+      "region": "Europe",
       "countryCodes": [
-        "ES"
+        "ES",
+        "FR"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "xzs-spain-wildfire-20260711",
+      "scoreTotal": 94,
+      "storyId": "xzs-spain-wildfire-almeria-20260712",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 84,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲山火",
+          "headlineFact": "西班牙山火已致至少12人死亡",
+          "headlineView": "热浪正在把度假地变成系统压力测试",
+          "headlineFull": "西班牙山火已致至少12人死亡；热浪正在把度假地变成系统压力测试。",
+          "intro": "AP报道，西班牙安达卢西亚阿尔梅里亚省贝达尔附近山火已造成至少12人死亡，约66平方公里森林和农地被烧毁，1400多人疏散。大火发生在西班牙六周内第三轮热浪期间，欧洲多地仍处高火险状态，法国也出现大面积火情。",
+          "xiaziQuote": "气候风险最可怕之处，是它会把旅游、养老、消防、交通和医疗一次性拖进同一张考卷。",
+          "doudouQuote": "以为是海边假期，结果系统弹出火险考试。",
+          "footerTakeaway": "今日关键词：欧洲山火。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Wildfires",
+          "headlineFact": "A Spanish wildfire has killed at least 12",
+          "headlineView": "heat is turning holiday zones into stress tests",
+          "headlineFull": "A Spanish wildfire has killed at least 12; heat is turning holiday zones into stress tests.",
+          "intro": "AP reported that a wildfire near Bedar in Spain's Almeria province killed at least 12 people, burned about 66 square kilometers of forest and farmland, and forced more than 1,400 evacuations. It came during Spain's third heat wave in six weeks, while France and other European regions faced high fire risk.",
+          "xiaziQuote": "The danger of climate risk is that tourism, retirement, firefighting, transport and hospitals sit for the same exam.",
+          "doudouQuote": "You booked a seaside holiday; the system opened a wildfire test.",
+          "footerTakeaway": "Keyword: Europe Wildfires."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-12-05-1",
+          "topicId": "topic-2026-07-12-05",
+          "title": "Hundreds of firefighters battle wildfire in southern Spain that killed at least 12",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/1bc964a58201bbba8a2fcb309e3ec6e6",
+          "publishedAt": "2026-07-11T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-12-06",
+      "issueId": "issue-2026-07-12",
+      "slug": "congo-ebola-us-case",
+      "rank": 6,
+      "category": "health",
+      "region": "Africa",
+      "countryCodes": [
+        "CD",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-congo-ebola-us-case-20260712",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "西班牙山火",
-          "headlineFact": "西班牙南部山火致12死23失踪",
-          "headlineView": "危险不是火看得见，而是它跑得比指令更快",
-          "headlineFull": "西班牙南部山火致12死23失踪；危险不是火看得见，而是它跑得比指令更快。",
-          "intro": "西班牙阿尔梅里亚省山火已造成至少12人死亡、23人失踪。AP和卫报报道称，火势在高温和大风中快速穿过干燥山区，部分遇难者在撤离途中被困。灾害也暴露出极端高温下应急指令执行的重要性。",
-          "xiaziQuote": "山火应对不是胆量测试，而是统一指令、通信和撤离路线的系统工程。",
-          "doudouQuote": "跑得快不一定跑得过风向，听指令有时就是保命技能。",
-          "footerTakeaway": "今日关键词：西班牙山火。"
+          "categoryLabel": "公共卫生",
+          "headlineFact": "美国公民在刚果埃博拉疫情中确诊",
+          "headlineView": "病毒不会等援助预算重新开会",
+          "headlineFull": "美国公民在刚果埃博拉疫情中确诊；病毒不会等援助预算重新开会。",
+          "intro": "AP报道，一名在刚果人道组织工作的美国公民埃博拉检测呈阳性。非洲疾控称，本轮疫情已达1830例确诊、648人死亡，由暂无获批疫苗或疗法的Bundibugyo毒株引发。资金短缺、医疗设施遇袭和东部冲突正在削弱防控。",
+          "xiaziQuote": "公共卫生的短板往往不是医学知识，而是钱、人、信任和安全能不能同时到位。",
+          "doudouQuote": "病毒不看预算表，防线却常常卡在预算表。",
+          "footerTakeaway": "今日关键词：公共卫生。"
         },
         "en-US": {
-          "categoryLabel": "Spain Wildfire",
-          "headlineFact": "Southern Spain wildfire kills 12 and leaves 23 missing",
-          "headlineView": "the danger is not visible flame, but speed faster than orders",
-          "headlineFull": "Southern Spain wildfire kills 12 and leaves 23 missing; the danger is not visible flame, but speed faster than orders.",
-          "intro": "A wildfire in Almeria, Spain, killed at least 12 people and left 23 missing. AP and The Guardian reported fast spread through dry terrain under heat and wind, with some victims trapped while fleeing. The disaster underlines emergency discipline under extreme heat.",
-          "xiaziQuote": "Wildfire response is not a bravery test; it is a system of commands, communications and routes.",
-          "doudouQuote": "Fast legs may not outrun shifting wind; following orders can be survival.",
-          "footerTakeaway": "Keyword: Spain Wildfire."
+          "categoryLabel": "Public Health",
+          "headlineFact": "A U.S. citizen tests positive in Congo's Ebola outbreak",
+          "headlineView": "viruses do not wait for aid budgets to reconvene",
+          "headlineFull": "A U.S. citizen tests positive in Congo's Ebola outbreak; viruses do not wait for aid budgets to reconvene.",
+          "intro": "AP reported that a U.S. citizen working for a humanitarian group in Congo tested positive for Ebola. Africa CDC figures cited 1,830 confirmed cases and 648 deaths, driven by the Bundibugyo strain with no approved vaccine or treatment, while funding gaps, attacks on medical sites and conflict undermine control.",
+          "xiaziQuote": "The weak link in public health is often not knowledge, but whether money, staff, trust and security arrive together.",
+          "doudouQuote": "The virus does not read budgets, but the defense line often gets stuck there.",
+          "footerTakeaway": "Keyword: Public Health."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-11-05",
-          "topicId": "topic-2026-07-11-05",
-          "title": "Wildfire devastates an expat community in southern Spain, killing at least 12 with 23 missing",
+          "id": "source-2026-07-12-06-1",
+          "topicId": "topic-2026-07-12-06",
+          "title": "US citizen tests positive for Ebola in Congo",
           "publisher": "Associated Press",
-          "url": "https://apnews.com/article/760ecfff1316d56837888de4ab9efa21",
-          "publishedAt": "2026-07-10T00:00:00Z",
+          "url": "https://apnews.com/article/ae30c59e66e6efdafa11b42969e2c834",
+          "publishedAt": "2026-07-11T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
@@ -296,124 +365,12 @@
       ]
     },
     {
-      "id": "topic-2026-07-11-06",
-      "issueId": "issue-2026-07-11",
-      "slug": "spacex-ai-compute-ground",
-      "rank": 6,
-      "category": "technology",
-      "region": "United States",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-spacex-ai-compute-20260711",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 88,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "AI算力",
-          "headlineFact": "SpaceX的AI收入短期仍靠地面算力",
-          "headlineView": "星辰大海负责估值，地面机房负责现金流",
-          "headlineFull": "SpaceX的AI收入短期仍靠地面算力；星辰大海负责估值，地面机房负责现金流。",
-          "intro": "市场分析称，SpaceX近期AI故事并不主要来自轨道数据中心，而是地面Colossus算力协议。Finimize称相关协议年收入预期可能超过280亿美元，轨道计算仍更像下一阶段想象，现金流先由地面数据中心承担。",
-          "xiaziQuote": "宏大愿景要靠现实业务供血，先赚钱的往往不是最浪漫的那一段。",
-          "doudouQuote": "火箭仰望星空，账单先在服务器机房里结。",
-          "footerTakeaway": "今日关键词：AI算力。"
-        },
-        "en-US": {
-          "categoryLabel": "AI Compute",
-          "headlineFact": "SpaceX's near-term AI story is ground compute, not orbital data centers",
-          "headlineView": "space sells the dream, data centers pay the bills",
-          "headlineFull": "SpaceX's near-term AI story is ground compute, not orbital data centers; space sells the dream, data centers pay the bills.",
-          "intro": "Market analysis says SpaceX's near-term AI story is less about orbital data centers and more about Colossus ground-compute deals. Finimize cited expectations that these deals could top $28 billion a year, while orbital compute remains a next-decade bet.",
-          "xiaziQuote": "Grand visions need cashflow; the first business to pay is often not the most romantic one.",
-          "doudouQuote": "Rockets look at the stars; the invoice lands in the server room.",
-          "footerTakeaway": "Keyword: AI Compute."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-11-06",
-          "topicId": "topic-2026-07-11-06",
-          "title": "SpaceX’s AI Story Starts With Data Centers, Not Space",
-          "publisher": "Finimize",
-          "url": "https://finimize.com/content/spacexs-ai-story-starts-with-data-centers-not-space",
-          "publishedAt": "2026-07-10T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-11-07",
-      "issueId": "issue-2026-07-11",
-      "slug": "tencent-manus-largest-shareholder",
+      "id": "topic-2026-07-12-07",
+      "issueId": "issue-2026-07-12",
+      "slug": "sk-hynix-wall-street-debut",
       "rank": 7,
-      "category": "technology",
-      "region": "China",
-      "countryCodes": [
-        "CN",
-        "US",
-        "SG"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-tencent-manus-20260711",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 85,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "AI代理",
-          "headlineFact": "腾讯洽谈成为Manus最大股东",
-          "headlineView": "AI代理争夺进入资本、数据与监管重排",
-          "headlineFull": "腾讯洽谈成为Manus最大股东；AI代理争夺进入资本、数据与监管重排。",
-          "intro": "路透援引知情人士称，腾讯正洽谈成为AI代理公司Manus最大股东，背景是北京要求Meta撤销约20亿美元收购。交易尚未最终落地，但它说明AI代理不只是产品竞赛，也牵动数据流向、控制权和监管许可。",
-          "xiaziQuote": "AI大交易买的不只是模型，还包括数据、入口、牌照和谁能继续控制系统。",
-          "doudouQuote": "AI代理还没完全学会自动办事，大股东名单先自动刷新了。",
-          "footerTakeaway": "今日关键词：AI代理。"
-        },
-        "en-US": {
-          "categoryLabel": "AI Agents",
-          "headlineFact": "Tencent is in talks to become Manus' largest shareholder",
-          "headlineView": "AI-agent competition is now capital, data and regulatory reshuffling",
-          "headlineFull": "Tencent is in talks to become Manus' largest shareholder; AI-agent competition is now capital, data and regulatory reshuffling.",
-          "intro": "Reuters reported that Tencent is in talks to become the largest shareholder in AI-agent company Manus after Beijing ordered Meta to unwind a roughly $2 billion acquisition. The deal is not final, but it shows agentic AI is about data flows, control and regulatory permission as much as products.",
-          "xiaziQuote": "Big AI deals buy more than models: data, access, licences and control.",
-          "doudouQuote": "The agents are still learning tasks; the shareholder list already auto-refreshes.",
-          "footerTakeaway": "Keyword: AI Agents."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-11-07",
-          "topicId": "topic-2026-07-11-07",
-          "title": "Tencent in talks to become AI startup Manus’ largest shareholder, sources say",
-          "publisher": "Reuters / WMBD",
-          "url": "https://wmbdradio.com/2026/07/09/tencent-in-talks-to-become-ai-start-up-manus-largest-shareholder-ft-reports/",
-          "publishedAt": "2026-07-10T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-11-08",
-      "issueId": "issue-2026-07-11",
-      "slug": "sk-hynix-nasdaq-debut",
-      "rank": 8,
       "category": "business",
-      "region": "United States",
+      "region": "Global",
       "countryCodes": [
         "KR",
         "US"
@@ -421,41 +378,41 @@
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "xzs-sk-hynix-nasdaq-20260711",
+      "scoreTotal": 92,
+      "storyId": "xzs-sk-hynix-wall-street-debut-20260712",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 82,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI内存",
-          "headlineFact": "SK海力士美股首秀上涨约13%",
-          "headlineView": "资本追逐AI内存，也要系好估值安全带",
-          "headlineFull": "SK海力士美股首秀上涨约13%；资本追逐AI内存，也要系好估值安全带。",
-          "intro": "SK海力士美国存托凭证在纳斯达克首日上涨约13%，此前以每份149美元定价并募资约265亿美元。AP称这是外资公司在美国最大规模IPO之一，背后是AI高带宽内存需求持续升温。",
-          "xiaziQuote": "AI内存从半导体配角变成算力军备竞赛核心，但好行业不等于任何价格都合理。",
-          "doudouQuote": "首日上涨很热闹，周期拐弯从来不会提前发短信。",
-          "footerTakeaway": "今日关键词：AI内存。"
+          "categoryLabel": "AI资本",
+          "headlineFact": "SK海力士美股首秀大涨近13%",
+          "headlineView": "AI热潮正在把内存芯片推到资本舞台中央",
+          "headlineFull": "SK海力士美股首秀大涨近13%；AI热潮正在把内存芯片推到资本舞台中央。",
+          "intro": "AP报道，韩国存储芯片巨头SK海力士在华尔街首秀上涨12.8%，ADR发行价149美元、收于168.01美元，融资约265亿美元，成为外资公司在美国最大规模IPO之一。高带宽内存需求、英伟达合作和美国建厂计划让AI基础设施继续吸引资本。",
+          "xiaziQuote": "AI不是只消耗模型想象力，它还消耗内存、土地、电力、资本和供应链耐心。",
+          "doudouQuote": "以前追风口，现在风口要先排队买内存条。",
+          "footerTakeaway": "今日关键词：AI资本。"
         },
         "en-US": {
-          "categoryLabel": "AI Memory",
-          "headlineFact": "SK Hynix rises about 13% in its U.S. trading debut",
-          "headlineView": "capital loves AI memory, but valuations still need a seatbelt",
-          "headlineFull": "SK Hynix rises about 13% in its U.S. trading debut; capital loves AI memory, but valuations still need a seatbelt.",
-          "intro": "SK Hynix ADRs rose about 13% in their Nasdaq debut after pricing at $149 and raising about $26.5 billion. AP said it was one of the largest U.S. offerings by a foreign company, powered by demand for high-bandwidth memory in AI systems.",
-          "xiaziQuote": "AI memory has moved from supporting cast to core asset, but a good sector is not any-price-safe.",
-          "doudouQuote": "The debut is loud; the memory cycle does not text before turning.",
-          "footerTakeaway": "Keyword: AI Memory."
+          "categoryLabel": "AI Capital",
+          "headlineFact": "SK Hynix jumps nearly 13% in its Wall Street debut",
+          "headlineView": "the AI boom is pushing memory chips onto center stage",
+          "headlineFull": "SK Hynix jumps nearly 13% in its Wall Street debut; the AI boom is pushing memory chips onto center stage.",
+          "intro": "AP reported that South Korean memory-chip maker SK Hynix rose 12.8% in its Wall Street debut, pricing ADRs at $149 and closing at $168.01 after raising about $26.5 billion. Demand for high-bandwidth memory, Nvidia ties and a planned U.S. site keep AI infrastructure at the center of capital markets.",
+          "xiaziQuote": "AI consumes more than model imagination; it consumes memory, land, power, capital and supply-chain patience.",
+          "doudouQuote": "The new gold rush starts with waiting in line for memory chips.",
+          "footerTakeaway": "Keyword: AI Capital."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-11-08",
-          "topicId": "topic-2026-07-11-08",
-          "title": "SK Hynix rises 13% in debut on Wall Street as demand for memory chips soars amid AI frenzy",
+          "id": "source-2026-07-12-07-1",
+          "topicId": "topic-2026-07-12-07",
+          "title": "SK Hynix rises nearly 13% in debut on Wall Street as demand for memory chips soars amid AI frenzy",
           "publisher": "Associated Press",
           "url": "https://apnews.com/article/73f13a85ae00e30bad0540281bbe44f3",
-          "publishedAt": "2026-07-10T00:00:00Z",
+          "publishedAt": "2026-07-11T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "zh-CN",
@@ -464,55 +421,115 @@
       ]
     },
     {
-      "id": "topic-2026-07-11-09",
-      "issueId": "issue-2026-07-11",
-      "slug": "japan-wholesale-inflation-june",
-      "rank": 9,
-      "category": "business",
-      "region": "Japan",
+      "id": "topic-2026-07-12-08",
+      "issueId": "issue-2026-07-12",
+      "slug": "china-helium-export-ban",
+      "rank": 8,
+      "category": "technology",
+      "region": "Asia",
       "countryCodes": [
-        "JP"
+        "CN",
+        "US",
+        "QA"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-china-helium-export-ban-20260712",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "关键资源",
+          "headlineFact": "中国临时禁止氦气出口",
+          "headlineView": "芯片竞争连冷却气体都变成战略变量",
+          "headlineFull": "中国临时禁止氦气出口；芯片竞争连冷却气体都变成战略变量。",
+          "intro": "AP报道，中国宣布临时禁止氦气出口，理由是保护国内产业供应。伊朗战争扰乱全球供应并推高价格，氦气又是半导体制造和核磁共振等医疗设备的重要资源。中国本身也依赖卡塔尔等来源进口氦气，因此此举更像供应安全防守。",
+          "xiaziQuote": "高科技竞争最后会落到很朴素的问题：谁有气体、谁有电、谁能稳定交付。",
+          "doudouQuote": "芯片很先进，冷却它的气体也突然不普通了。",
+          "footerTakeaway": "今日关键词：关键资源。"
+        },
+        "en-US": {
+          "categoryLabel": "Critical Resources",
+          "headlineFact": "China temporarily bans helium exports",
+          "headlineView": "chip competition now reaches even cooling gases",
+          "headlineFull": "China temporarily bans helium exports; chip competition now reaches even cooling gases.",
+          "intro": "AP reported that China temporarily banned helium exports to protect domestic supply. The Iran war has disrupted global availability and raised prices, while helium remains essential for semiconductor manufacturing and MRI systems. Because China also relies on imports, the move looks more like supply-defense than simple leverage.",
+          "xiaziQuote": "High-tech competition often ends with plain questions: who has gas, power and reliable delivery?",
+          "doudouQuote": "The chip is advanced, and now the gas that cools it has become strategic.",
+          "footerTakeaway": "Keyword: Critical Resources."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-12-08-1",
+          "topicId": "topic-2026-07-12-08",
+          "title": "China blocks exports of helium, key for chipmaking, as Iran war squeezes supply",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/346d8806f8ba410d81de6ced150acb87",
+          "publishedAt": "2026-07-11T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-12-09",
+      "issueId": "issue-2026-07-12",
+      "slug": "ap-frontline-ai-scam-industry",
+      "rank": 9,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "KH",
+        "MM",
+        "VN"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 89,
-      "storyId": "xzs-japan-ppi-20260711",
+      "storyId": "xzs-ai-scam-industry-20260712",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 80,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "日本通胀",
-          "headlineFact": "日本批发通胀升至7.1%",
-          "headlineView": "远方冲突和弱日元，最后都会写进身边账单",
-          "headlineFull": "日本批发通胀升至7.1%；远方冲突和弱日元，最后都会写进身边账单。",
-          "intro": "日本6月企业商品价格指数同比上涨7.1%，高于预期并创2023年3月以来最快增速。能源、燃料和金属成本上升，加上日元走弱，使企业成本压力可能继续向消费价格传导，也让日本央行加息讨论升温。",
-          "xiaziQuote": "进口型经济体的物价账单，往往把汇率、能源和地缘风险写在同一行。",
-          "doudouQuote": "工资追物价像赶地铁，弱日元还在背后推了一把。",
-          "footerTakeaway": "今日关键词：日本通胀。"
+          "categoryLabel": "AI与欺诈",
+          "headlineFact": "AP调查揭示美国AI技术被诈骗产业滥用",
+          "headlineView": "工具越强，责任链越不能装作看不见",
+          "headlineFull": "AP调查揭示美国AI技术被诈骗产业滥用；工具越强，责任链越不能装作看不见。",
+          "intro": "AP与FRONTLINE调查显示，美国AI和其他技术被东南亚诈骗园区用于工业化诈骗。报道指出，相关工具帮助诈骗者生成话术、翻译、伪装身份和扩大触达，让跨国诈骗从人工密集型变成软件驱动型产业。",
+          "xiaziQuote": "技术中立不等于责任中立，平台、支付、云服务和监管都不能只看增长曲线。",
+          "doudouQuote": "AI帮人提高效率，也可能帮坏人提高KPI。",
+          "footerTakeaway": "今日关键词：AI与欺诈。"
         },
         "en-US": {
-          "categoryLabel": "Japan Inflation",
-          "headlineFact": "Japan's wholesale inflation accelerates to 7.1%",
-          "headlineView": "distant conflict and a weak yen end up on local bills",
-          "headlineFull": "Japan's wholesale inflation accelerates to 7.1%; distant conflict and a weak yen end up on local bills.",
-          "intro": "Japan's producer prices rose 7.1% year on year in June, above forecasts and the fastest since March 2023. Higher energy, fuel and metals costs, along with a weaker yen, may keep passing through to consumer prices and intensify BOJ rate-hike debate.",
-          "xiaziQuote": "For import-dependent economies, currency, energy and geopolitics meet on the same bill.",
-          "doudouQuote": "Wages are chasing the train while the weak yen gives inflation a shove.",
-          "footerTakeaway": "Keyword: Japan Inflation."
+          "categoryLabel": "AI and Fraud",
+          "headlineFact": "AP investigation shows U.S. AI tech abused by scam compounds",
+          "headlineView": "the stronger the tool, the harder it is to ignore responsibility",
+          "headlineFull": "AP investigation shows U.S. AI tech abused by scam compounds; the stronger the tool, the harder it is to ignore responsibility.",
+          "intro": "An AP and FRONTLINE investigation found that American AI and other technologies are being used by Southeast Asian scam compounds to industrialize fraud. The tools help generate scripts, translate, impersonate and scale outreach, turning cross-border scams into software-driven operations.",
+          "xiaziQuote": "Technological neutrality does not mean responsibility neutrality. Platforms, payments, cloud services and regulators cannot watch only growth curves.",
+          "doudouQuote": "AI improves productivity, including for people with very bad KPIs.",
+          "footerTakeaway": "Keyword: AI and Fraud."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-11-09",
-          "topicId": "topic-2026-07-11-09",
-          "title": "Japan’s Wholesale Inflation Picks Up Speed As Costs Hit Home",
-          "publisher": "Finimize",
-          "url": "https://finimize.com/content/japans-wholesale-inflation-heated-up-in-june",
-          "publishedAt": "2026-07-10T00:00:00Z",
+          "id": "source-2026-07-12-09-1",
+          "topicId": "topic-2026-07-12-09",
+          "title": "Takeaways from AP/'FRONTLINE' investigation into how US tech is abused for global scams",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/scams-fraud-technology-ai-imposter-phishing-takeaways-46553cd53a3daee8ab30e7cac7e12985",
+          "publishedAt": "2026-07-11T00:00:00Z",
           "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
         }
