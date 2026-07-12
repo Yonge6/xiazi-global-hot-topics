@@ -69,18 +69,11 @@ async function upload(key, content, contentType) {
 
 const originalJpeg = await readFile(source);
 const original = await sharp(originalJpeg).png({ compressionLevel: 9 }).toBuffer();
-const thumbnail = await sharp(originalJpeg)
-  .resize(640, 1280, { fit: "cover" })
-  .webp({ quality: 76, effort: 5 })
-  .toBuffer();
-
 for (const locale of ["zh", "en"]) {
   for (const name of posterNames) {
     await Promise.all([
       upload(`posters/${locale}/${name}.png`, original, "image/png"),
-      upload(`posters/thumb/${locale}/${name}.webp`, thumbnail, "image/webp"),
       upload(`archive/${issueDate}/posters/${locale}/${name}.png`, original, "image/png"),
-      upload(`archive/${issueDate}/posters/thumb/${locale}/${name}.webp`, thumbnail, "image/webp"),
     ]);
   }
 }
