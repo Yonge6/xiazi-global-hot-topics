@@ -2,7 +2,7 @@
   "id": "issue-2026-07-12",
   "slug": "2026-07-12",
   "issueDate": "2026-07-12",
-  "assetVersion": "issue-2026-07-12-chatgpt56-tinypng-v2",
+  "assetVersion": "issue-2026-07-12-chatgpt56-tinypng-v3",
   "status": "published",
   "slotHour": 5,
   "beijingTimestamp": "2026-07-12T05:00:00+08:00",
@@ -33,35 +33,35 @@
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "霍尔木兹谈判、巴威登陆与AI资本同日升温",
-          "headlineView": "世界在给航道、天气、芯片和公共卫生重新标价",
-          "headlineFull": "霍尔木兹谈判、巴威登陆与AI资本同日升温；世界在给航道、天气、芯片和公共卫生重新标价。",
-          "intro": "过去24小时，世界杯窗口没有新增完赛结果，但四强席位争夺进入临界点；美伊围绕霍尔木兹继续互放狠话，台风巴威登陆中国东部，西班牙山火和刚果埃博拉敲响气候与公共卫生警报。资本市场则继续押注AI芯片，关键资源从油气延伸到氦气和高带宽内存。",
-          "xiaziQuote": "今天的共同主题是基础设施：航道、城市、医院、芯片和赛事日程，任何一环失灵，世界都会立刻感到价格。",
-          "doudouQuote": "天气、油价、芯片和足球都在催更，钱包先替大家点了订阅。",
-          "footerTakeaway": "今日关键词：今日总览。"
+          "headlineFact": "世界杯四强最后两席今日决出，美伊边打边谈，亚洲多地遭遇台风与洪水",
+          "headlineView": "世界最重要的变化，正在赛场、航道、灾区与AI规则里同时发生",
+          "intro": "过去一天，世界杯没有比赛在统计窗口内完赛，但挪威与英格兰恰在今日05:00开球，阿根廷将在09:00迎战瑞士。球场之外，美伊同意继续谈判，俄乌防空压力上升，台风巴威登陆中国东部，孟加拉国洪灾造成至少44人死亡；Meta隐私争议、印尼反腐调查和印新战略伙伴关系也在同步推进。",
+          "xiaziQuote": "赛场、航道、防空、灾区与AI规则看似分散，其实都在回答同一个问题：系统能否在压力到来前做好准备。",
+          "doudouQuote": "今天的世界像九宫格直播，比分、风速、水位和规则一起刷新。",
+          "footerTakeaway": "今日关键词：四强、航道、防空、转移、洪水、隐私、反腐与印太。",
+          "headlineFull": "世界杯四强最后两席今日决出，美伊边打边谈，亚洲多地遭遇台风与洪水；世界最重要的变化，正在赛场、航道、灾区与AI规则里同时发生。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "Hormuz talks, Typhoon Bavi and AI capital all heat up in one day",
-          "headlineView": "the world is repricing routes, weather, chips and public health",
-          "headlineFull": "Hormuz talks, Typhoon Bavi and AI capital all heat up in one day; the world is repricing routes, weather, chips and public health.",
-          "intro": "In the latest 24-hour window, the World Cup had no newly completed match by Beijing 05:00, while the next quarterfinals reached kickoff. U.S.-Iran threats kept Hormuz diplomacy fragile, Typhoon Bavi made landfall in eastern China, Spain's wildfire and Congo's Ebola outbreak sharpened climate and health risks, and AI capital kept flowing into chip supply chains.",
-          "xiaziQuote": "Today is about infrastructure: routes, cities, hospitals, chips and match calendars. When one layer fails, the price is immediate.",
-          "doudouQuote": "Weather, oil, chips and football are all asking for updates; the wallet already subscribed.",
-          "footerTakeaway": "Keyword: Overview."
+          "headlineFact": "The last two World Cup semifinal places are decided today as U.S.-Iran talks continue and Asian disasters intensify",
+          "headlineView": "the day's biggest shifts are unfolding across stadiums, sea lanes, disaster zones and AI rules",
+          "intro": "No World Cup match finished inside the reporting window, but Norway versus England kicked off at 05:00 Beijing time and Argentina meets Switzerland at 09:00. Beyond football, U.S.-Iran talks continued, Ukraine pressed for air defenses, Typhoon Bavi hit eastern China, Bangladesh floods killed at least 44, and new disputes emerged around Meta privacy, Indonesian anti-corruption and India-New Zealand ties.",
+          "xiaziQuote": "Stadiums, sea lanes, air defenses, disaster zones and AI rules all ask whether systems prepare before pressure arrives.",
+          "doudouQuote": "Today looks like a nine-panel live feed: scores, wind, water and rules updating together.",
+          "footerTakeaway": "Keywords: semifinals, Hormuz, air defense, evacuations, floods, privacy, corruption and the Indo-Pacific.",
+          "headlineFull": "The last two World Cup semifinal places are decided today as U.S.-Iran talks continue and Asian disasters intensify; the day's biggest shifts are unfolding across stadiums, sea lanes, disaster zones and AI rules."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-01-1",
           "topicId": "topic-2026-07-12-01",
-          "title": "ChatGPT prompt submitted; live source checks replaced stale output",
-          "publisher": "ChatGPT + live source checks",
-          "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+          "title": "World Cup schedule today: Norway v England and Argentina v Switzerland",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/2026/jul/11/how-to-watch-world-cup-england-norway-argentina-switzerland",
           "publishedAt": "2026-07-11T00:00:00Z",
           "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
         }
@@ -90,50 +90,38 @@
       "informationIncrementScore": 80,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "世界杯日报",
-          "headlineFact": "05点截稿前世界杯没有新增完赛结果",
-          "headlineView": "淘汰赛最紧张的时刻，是结果还没写出来",
-          "headlineFull": "05点截稿前世界杯没有新增完赛结果；淘汰赛最紧张的时刻，是结果还没写出来。",
-          "intro": "本期统计窗口为北京时间7月11日05:00至7月12日05:00。FIFA赛程显示，7月11日两场四分之一决赛为挪威对英格兰、阿根廷对瑞士；其中挪威对英格兰在北京时间05:00开球，截稿时尚未形成完赛赛果。因此今天世界杯日报记录为无新增完赛结果，并提示四强最后两个席位即将决出。",
-          "xiaziQuote": "日报不应该为了热闹把未完赛写成结果；真正专业的更新，有时就是承认钟点线还没越过终场哨。",
-          "doudouQuote": "球刚开踢就要比分，这不是日报，是许愿池。",
-          "footerTakeaway": "今日关键词：世界杯日报。"
+          "categoryLabel": "世界杯",
+          "headlineFact": "过去24小时没有比赛完赛，挪威与英格兰05:00开球，阿根廷与瑞士09:00登场",
+          "headlineView": "淘汰赛越到最后，等待本身也成为剧情",
+          "intro": "北京时间7月11日05:00至7月12日05:00，世界杯没有比赛在窗口内完赛。西班牙2:1击败比利时的比赛早于窗口结束。今天最后两场四分之一决赛为05:00挪威对英格兰、09:00阿根廷对瑞士，两场胜者将在半决赛相遇。",
+          "xiaziQuote": "没有赛果的一天，不代表没有故事，只是悬念被留到了下一分钟。",
+          "doudouQuote": "球刚开踢就催比分，不是日报，是许愿池。",
+          "footerTakeaway": "24小时关键词：零完赛、四强倒计时、哈兰德对凯恩、梅西再登场。",
+          "headlineFull": "过去24小时没有比赛完赛，挪威与英格兰05:00开球，阿根廷与瑞士09:00登场；淘汰赛越到最后，等待本身也成为剧情。"
         },
         "en-US": {
           "categoryLabel": "World Cup",
-          "headlineFact": "No World Cup match was completed before the 05:00 Beijing cutoff",
-          "headlineView": "the tensest knockout moment is before the result exists",
-          "headlineFull": "No World Cup match was completed before the 05:00 Beijing cutoff; the tensest knockout moment is before the result exists.",
-          "intro": "The reporting window runs from Beijing time July 11 05:00 to July 12 05:00. FIFA's schedule lists Norway vs England and Argentina vs Switzerland for July 11, with Norway vs England kicking off exactly at the Beijing cutoff. No full-time result existed inside the window, so today's World Cup Daily records no new completed match and flags the final semifinal spots as imminent.",
-          "xiaziQuote": "A daily report should not turn an unfinished match into a result. Sometimes the professional update is simply respecting the whistle.",
-          "doudouQuote": "Asking for a score at kickoff is not reporting; it is wishing.",
-          "footerTakeaway": "Keyword: World Cup."
+          "headlineFact": "No match finished in the past 24 hours as Norway-England kicks off at 05:00 and Argentina-Switzerland at 09:00",
+          "headlineView": "late in the knockout stage, waiting becomes part of the drama",
+          "intro": "From July 11 05:00 to July 12 05:00 Beijing time, no World Cup match finished inside the window. Spain's 2-1 win over Belgium ended before it began. The final quarterfinals are Norway versus England at 05:00 and Argentina versus Switzerland at 09:00, with the winners meeting in the semifinal.",
+          "xiaziQuote": "A day without a result is not a day without a story; the suspense simply carries into the next minute.",
+          "doudouQuote": "Demanding a score at kickoff is not reporting; it is wishing.",
+          "footerTakeaway": "Keywords: zero final whistles, semifinal countdown, Haaland versus Kane and Messi returns.",
+          "headlineFull": "No match finished in the past 24 hours as Norway-England kicks off at 05:00 and Argentina-Switzerland at 09:00; late in the knockout stage, waiting becomes part of the drama."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-02-1",
           "topicId": "topic-2026-07-12-02",
-          "title": "FIFA World Cup 2026 match schedule and fixtures",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "title": "England get fitness boost ahead of World Cup quarter-final v Norway",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/sports/soccer/england-get-fitness-boost-ahead-world-cup-quarter-final-v-norway-2026-07-11/",
           "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "official",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
-        },
-        {
-          "id": "source-2026-07-12-02-2",
-          "topicId": "topic-2026-07-12-02",
-          "title": "World Cup schedule today: Norway v England and Argentina v Switzerland",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/2026/jul/11/how-to-watch-world-cup-england-norway-argentina-switzerland",
-          "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": false
         }
       ]
     },
@@ -160,34 +148,34 @@
       "localizations": {
         "zh-CN": {
           "categoryLabel": "美伊局势",
-          "headlineFact": "特朗普与伊朗最高领袖互放威胁",
-          "headlineView": "霍尔木兹的安全感仍卡在一句公开保证上",
-          "headlineFull": "特朗普与伊朗最高领袖互放威胁；霍尔木兹的安全感仍卡在一句公开保证上。",
-          "intro": "AP报道，美伊围绕霍尔木兹海峡通行继续紧张。美国要求伊朗公开保证航道安全开放，伊朗强硬派则坚持对海峡拥有控制权并提出收费主张。特朗普与伊朗新任最高领袖互相威胁，同时阿曼等调解方仍试图保住谈判渠道。",
-          "xiaziQuote": "当一条海峡承载全球油气价格，外交就不只是发声明，而是要让商船敢重新排队通过。",
-          "doudouQuote": "航道最怕嘴炮开得比船还快。",
-          "footerTakeaway": "今日关键词：美伊局势。"
+          "headlineFact": "美伊同意继续谈判，特朗普却宣布停火已经结束",
+          "headlineView": "真正危险的不是谈判破裂，而是谈判与攻击同时进行",
+          "intro": "美国同意伊朗提出的继续谈判请求，但要求伊朗停止袭击，并确保霍尔木兹海峡安全、免费通行。伊朗通过中间方讨论新的航运安排，希望保留部分水域管理权。油轮遇袭、航运放缓与相互打击继续推高能源供应和通胀风险。",
+          "xiaziQuote": "一边谈和平，一边准备下一轮攻击，是国际政治最常见也最危险的双线程运行。",
+          "doudouQuote": "谈判桌和发射台同时亮灯，谁都不敢先眨眼。",
+          "footerTakeaway": "今日关键词：谈判、航运、油价与停火。",
+          "headlineFull": "美伊同意继续谈判，特朗普却宣布停火已经结束；真正危险的不是谈判破裂，而是谈判与攻击同时进行。"
         },
         "en-US": {
           "categoryLabel": "U.S.-Iran",
-          "headlineFact": "Trump and Iran's supreme leader trade threats",
-          "headlineView": "Hormuz confidence still depends on one public guarantee",
-          "headlineFull": "Trump and Iran's supreme leader trade threats; Hormuz confidence still depends on one public guarantee.",
-          "intro": "AP reported renewed U.S.-Iran tension around the Strait of Hormuz. Washington wants Tehran to publicly guarantee safe shipping, while Iranian hard-liners insist on control and fees. Trump and Iran's new supreme leader traded threats even as Oman and other mediators tried to preserve talks.",
-          "xiaziQuote": "When one strait carries global energy prices, diplomacy is not a statement; it is making ships willing to queue again.",
-          "doudouQuote": "The fastest traffic in the strait today may be the rhetoric.",
-          "footerTakeaway": "Keyword: U.S.-Iran."
+          "headlineFact": "The U.S. and Iran agree to continue talks even as Trump says the ceasefire is over",
+          "headlineView": "the greater danger is negotiation and attack running at the same time",
+          "intro": "Washington accepted Iran's request to continue talks but demanded an end to attacks and safe, free passage through the Strait of Hormuz. Iran discussed new shipping arrangements through intermediaries while seeking authority over some waters. Tanker attacks, slower shipping and reciprocal strikes continue to raise energy and inflation risks.",
+          "xiaziQuote": "Talking peace while preparing the next strike is geopolitics' most familiar and dangerous dual process.",
+          "doudouQuote": "The negotiating table and launch pad are both lit, and nobody wants to blink first.",
+          "footerTakeaway": "Keywords: talks, shipping, oil prices and ceasefire.",
+          "headlineFull": "The U.S. and Iran agree to continue talks even as Trump says the ceasefire is over; the greater danger is negotiation and attack running at the same time."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-03-1",
           "topicId": "topic-2026-07-12-03",
-          "title": "Trump and Iran's supreme leader trade threats as the fate of Strait of Hormuz challenges talks",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/533b52cf249314ba1d9b5f9a30b1ca43",
+          "title": "US seeks free Hormuz access from Iran as talks focus on strait",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/trump-says-us-iran-agree-continue-talks-ceasefire-over-2026-07-11/",
           "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -197,8 +185,64 @@
     {
       "id": "topic-2026-07-12-04",
       "issueId": "issue-2026-07-12",
-      "slug": "typhoon-bavi-china-landfall",
+      "slug": "russia-ukraine-air-defense-shortage",
       "rank": 4,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-russia-ukraine-air-defense-20260712",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌局势",
+          "headlineFact": "俄罗斯新一轮导弹与无人机袭击造成7人死亡，乌克兰再催防空武器",
+          "headlineView": "战争最昂贵的短缺，是拦截导弹所剩的时间",
+          "intro": "俄罗斯对基辅、苏梅、敖德萨、哈尔科夫和扎波罗热等地发动导弹、无人机及滑翔炸弹袭击，造成至少7人死亡、数十人受伤。泽连斯基称爱国者防空弹药持续短缺，要求盟友加快武器交付。",
+          "xiaziQuote": "进攻武器决定战争能打多远，防空武器决定普通人还能不能正常生活。",
+          "doudouQuote": "战争里最残酷的倒计时，是危险抵达前还剩多少拦截机会。",
+          "footerTakeaway": "今日关键词：空袭、防空、交付与平民安全。",
+          "headlineFull": "俄罗斯新一轮导弹与无人机袭击造成7人死亡，乌克兰再催防空武器；战争最昂贵的短缺，是拦截导弹所剩的时间。"
+        },
+        "en-US": {
+          "categoryLabel": "Russia-Ukraine",
+          "headlineFact": "Russian missile and drone strikes kill seven as Ukraine presses for air defenses",
+          "headlineView": "the costliest shortage in war is interception time",
+          "intro": "Russian missiles, drones and glide bombs hit Kyiv, Sumy, Odesa, Kharkiv and Zaporizhzhia, killing at least seven and wounding dozens. President Zelenskiy said Patriot ammunition remains scarce and urged allies to accelerate weapons deliveries.",
+          "xiaziQuote": "Offensive weapons decide how far war travels; air defenses decide whether civilians can live normally.",
+          "doudouQuote": "War's harshest countdown is how many interception chances remain before danger arrives.",
+          "footerTakeaway": "Keywords: strikes, air defense, deliveries and civilian safety.",
+          "headlineFull": "Russian missile and drone strikes kill seven as Ukraine presses for air defenses; the costliest shortage in war is interception time."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-12-04-1",
+          "topicId": "topic-2026-07-12-04",
+          "title": "Russian strikes kill seven, wound dozens, Ukraine seeks faster weapons deliveries",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/europe/kyiv-under-russian-missile-attack-officials-say-2026-07-11/",
+          "publishedAt": "2026-07-11T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "zh-CN",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-12-05",
+      "issueId": "issue-2026-07-12",
+      "slug": "typhoon-bavi-taizhou-evacuations",
+      "rank": 5,
       "category": "climate",
       "region": "East Asia",
       "countryCodes": [
@@ -218,90 +262,34 @@
       "localizations": {
         "zh-CN": {
           "categoryLabel": "台风巴威",
-          "headlineFact": "台风巴威登陆浙江，东亚大范围应急",
-          "headlineView": "极端天气考的是城市执行力",
-          "headlineFull": "台风巴威登陆浙江，东亚大范围应急；极端天气考的是城市执行力。",
-          "intro": "AP称，台风巴威在中国浙江登陆，强风暴雨影响中国东部、台湾、日本南部岛屿和菲律宾季风区。中国东部超过170万人转移，上海、福建、浙江等地启动停课、停航、救援和雨暴预警；台湾疏散逾万人，日本冲绳也取消大量航班。",
-          "xiaziQuote": "预报只是第一步，真正决定损失的是学校、港口、社区和家庭能不能同步行动。",
-          "doudouQuote": "别跟台风讲道理，先把窗、船、行程都收回来。",
-          "footerTakeaway": "今日关键词：台风巴威。"
+          "headlineFact": "台风巴威登陆浙江台州，近200万人提前转移",
+          "headlineView": "灾害治理最重要的成绩，往往是那些最终没有发生的伤亡",
+          "intro": "巴威登陆中国东部沿海时最大持续风速约每小时144公里。浙江转移超过170万人，福建、上海等地也采取转移、停航和停运措施，累计接近200万人。台风此前还影响日本、台湾和菲律宾。",
+          "xiaziQuote": "提前转移看起来没有戏剧性，但真正成熟的防灾，就是让灾难失去制造悲剧的机会。",
+          "doudouQuote": "最好的灾害新闻，是最后没有更坏的新闻。",
+          "footerTakeaway": "今日关键词：登陆、转移、停航与预防。",
+          "headlineFull": "台风巴威登陆浙江台州，近200万人提前转移；灾害治理最重要的成绩，往往是那些最终没有发生的伤亡。"
         },
         "en-US": {
           "categoryLabel": "Typhoon Bavi",
-          "headlineFact": "Typhoon Bavi makes landfall in Zhejiang",
-          "headlineView": "extreme weather tests execution, not slogans",
-          "headlineFull": "Typhoon Bavi makes landfall in Zhejiang; extreme weather tests execution, not slogans.",
-          "intro": "AP said Typhoon Bavi made landfall in Zhejiang, affecting eastern China, Taiwan, Japan's southern islands and monsoon-hit parts of the Philippines. More than 1.7 million people were evacuated in eastern China, while schools, ferries, flights and emergency teams shifted into storm mode across the region.",
-          "xiaziQuote": "Forecasting is step one. Losses are decided by whether schools, ports, communities and families act together.",
-          "doudouQuote": "Do not debate the typhoon; bring back the windows, boats and schedules first.",
-          "footerTakeaway": "Keyword: Typhoon Bavi."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-12-04-1",
-          "topicId": "topic-2026-07-12-04",
-          "title": "Typhoon Bavi makes landfall in eastern China as more than 1 million are evacuated",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/bfdfdbb239f38b6c22a54c8349ce8d28",
-          "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "zh-CN",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-12-05",
-      "issueId": "issue-2026-07-12",
-      "slug": "spain-wildfire-almeria-deaths",
-      "rank": 5,
-      "category": "climate",
-      "region": "Europe",
-      "countryCodes": [
-        "ES",
-        "FR"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-spain-wildfire-almeria-20260712",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 84,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "欧洲山火",
-          "headlineFact": "西班牙山火已致至少12人死亡",
-          "headlineView": "热浪正在把度假地变成系统压力测试",
-          "headlineFull": "西班牙山火已致至少12人死亡；热浪正在把度假地变成系统压力测试。",
-          "intro": "AP报道，西班牙安达卢西亚阿尔梅里亚省贝达尔附近山火已造成至少12人死亡，约66平方公里森林和农地被烧毁，1400多人疏散。大火发生在西班牙六周内第三轮热浪期间，欧洲多地仍处高火险状态，法国也出现大面积火情。",
-          "xiaziQuote": "气候风险最可怕之处，是它会把旅游、养老、消防、交通和医疗一次性拖进同一张考卷。",
-          "doudouQuote": "以为是海边假期，结果系统弹出火险考试。",
-          "footerTakeaway": "今日关键词：欧洲山火。"
-        },
-        "en-US": {
-          "categoryLabel": "Europe Wildfires",
-          "headlineFact": "A Spanish wildfire has killed at least 12",
-          "headlineView": "heat is turning holiday zones into stress tests",
-          "headlineFull": "A Spanish wildfire has killed at least 12; heat is turning holiday zones into stress tests.",
-          "intro": "AP reported that a wildfire near Bedar in Spain's Almeria province killed at least 12 people, burned about 66 square kilometers of forest and farmland, and forced more than 1,400 evacuations. It came during Spain's third heat wave in six weeks, while France and other European regions faced high fire risk.",
-          "xiaziQuote": "The danger of climate risk is that tourism, retirement, firefighting, transport and hospitals sit for the same exam.",
-          "doudouQuote": "You booked a seaside holiday; the system opened a wildfire test.",
-          "footerTakeaway": "Keyword: Europe Wildfires."
+          "headlineFact": "Typhoon Bavi lands in Taizhou after nearly two million people evacuate",
+          "headlineView": "disaster prevention is measured by casualties that never happen",
+          "intro": "Bavi made landfall on China's eastern coast with sustained winds near 144 kilometers per hour. Zhejiang evacuated more than 1.7 million people, while Fujian, Shanghai and other areas suspended transport and moved residents, bringing the regional total close to two million.",
+          "xiaziQuote": "Evacuation looks undramatic, but mature prevention means denying disaster the chance to become tragedy.",
+          "doudouQuote": "The best disaster update is the worse headline that never arrives.",
+          "footerTakeaway": "Keywords: landfall, evacuation, closures and prevention.",
+          "headlineFull": "Typhoon Bavi lands in Taizhou after nearly two million people evacuate; disaster prevention is measured by casualties that never happen."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-05-1",
           "topicId": "topic-2026-07-12-05",
-          "title": "Hundreds of firefighters battle wildfire in southern Spain that killed at least 12",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/1bc964a58201bbba8a2fcb309e3ec6e6",
+          "title": "Typhoon Bavi makes landfall in eastern China after nearly 2 million evacuated",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/thousands-evacuated-taiwan-shuts-down-typhoon-bavi-2026-07-11/",
           "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -311,53 +299,52 @@
     {
       "id": "topic-2026-07-12-06",
       "issueId": "issue-2026-07-12",
-      "slug": "congo-ebola-us-case",
+      "slug": "bangladesh-floods-44-dead",
       "rank": 6,
-      "category": "health",
-      "region": "Africa",
+      "category": "climate",
+      "region": "South Asia",
       "countryCodes": [
-        "CD",
-        "US"
+        "BD"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "xzs-congo-ebola-us-case-20260712",
+      "scoreTotal": 94,
+      "storyId": "xzs-bangladesh-floods-20260712",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "公共卫生",
-          "headlineFact": "美国公民在刚果埃博拉疫情中确诊",
-          "headlineView": "病毒不会等援助预算重新开会",
-          "headlineFull": "美国公民在刚果埃博拉疫情中确诊；病毒不会等援助预算重新开会。",
-          "intro": "AP报道，一名在刚果人道组织工作的美国公民埃博拉检测呈阳性。非洲疾控称，本轮疫情已达1830例确诊、648人死亡，由暂无获批疫苗或疗法的Bundibugyo毒株引发。资金短缺、医疗设施遇袭和东部冲突正在削弱防控。",
-          "xiaziQuote": "公共卫生的短板往往不是医学知识，而是钱、人、信任和安全能不能同时到位。",
-          "doudouQuote": "病毒不看预算表，防线却常常卡在预算表。",
-          "footerTakeaway": "今日关键词：公共卫生。"
+          "categoryLabel": "孟加拉国洪灾",
+          "headlineFact": "孟加拉国洪水与山体滑坡造成至少44人死亡，超过百万人受困",
+          "headlineView": "灾难真正拉开差距的，是救援能否抵达最后一户人家",
+          "intro": "连续强降雨在孟加拉国东南部引发洪水和山体滑坡，至少44人死亡，超过100万人受困。七个地区约26.8万户家庭受影响，停电、道路损毁和通信中断进一步拖慢救援。",
+          "xiaziQuote": "洪水淹没的不只是房屋，也会淹没道路、通信和一个地区自救的能力。",
+          "doudouQuote": "水位上涨时，最后一公里往往比第一千公里更难。",
+          "footerTakeaway": "今日关键词：洪水、滑坡、断电与救援。",
+          "headlineFull": "孟加拉国洪水与山体滑坡造成至少44人死亡，超过百万人受困；灾难真正拉开差距的，是救援能否抵达最后一户人家。"
         },
         "en-US": {
-          "categoryLabel": "Public Health",
-          "headlineFact": "A U.S. citizen tests positive in Congo's Ebola outbreak",
-          "headlineView": "viruses do not wait for aid budgets to reconvene",
-          "headlineFull": "A U.S. citizen tests positive in Congo's Ebola outbreak; viruses do not wait for aid budgets to reconvene.",
-          "intro": "AP reported that a U.S. citizen working for a humanitarian group in Congo tested positive for Ebola. Africa CDC figures cited 1,830 confirmed cases and 648 deaths, driven by the Bundibugyo strain with no approved vaccine or treatment, while funding gaps, attacks on medical sites and conflict undermine control.",
-          "xiaziQuote": "The weak link in public health is often not knowledge, but whether money, staff, trust and security arrive together.",
-          "doudouQuote": "The virus does not read budgets, but the defense line often gets stuck there.",
-          "footerTakeaway": "Keyword: Public Health."
+          "categoryLabel": "Bangladesh Floods",
+          "headlineFact": "Floods and landslides kill at least 44 and strand more than one million in Bangladesh",
+          "headlineView": "the real test is whether aid reaches the last household",
+          "intro": "Heavy rain triggered floods and landslides in southeastern Bangladesh, killing at least 44 and stranding more than one million people. About 268,000 households across seven districts were affected as power cuts, damaged roads and communications failures slowed rescue work.",
+          "xiaziQuote": "Floodwater submerges more than homes; it can erase roads, communications and a region's ability to help itself.",
+          "doudouQuote": "When water rises, the last mile is often harder than the first thousand.",
+          "footerTakeaway": "Keywords: floods, landslides, outages and rescue.",
+          "headlineFull": "Floods and landslides kill at least 44 and strand more than one million in Bangladesh; the real test is whether aid reaches the last household."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-06-1",
           "topicId": "topic-2026-07-12-06",
-          "title": "US citizen tests positive for Ebola in Congo",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/ae30c59e66e6efdafa11b42969e2c834",
+          "title": "Floods in Bangladesh kill 44, leave over a million stranded",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/floods-bangladesh-kill-44-leave-over-million-stranded-2026-07-11/",
           "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -367,53 +354,52 @@
     {
       "id": "topic-2026-07-12-07",
       "issueId": "issue-2026-07-12",
-      "slug": "sk-hynix-wall-street-debut",
+      "slug": "meta-muse-image-privacy",
       "rank": 7,
-      "category": "business",
+      "category": "technology",
       "region": "Global",
       "countryCodes": [
-        "KR",
         "US"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-sk-hynix-wall-street-debut-20260712",
+      "scoreTotal": 93,
+      "storyId": "xzs-meta-muse-privacy-20260712",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI资本",
-          "headlineFact": "SK海力士美股首秀大涨近13%",
-          "headlineView": "AI热潮正在把内存芯片推到资本舞台中央",
-          "headlineFull": "SK海力士美股首秀大涨近13%；AI热潮正在把内存芯片推到资本舞台中央。",
-          "intro": "AP报道，韩国存储芯片巨头SK海力士在华尔街首秀上涨12.8%，ADR发行价149美元、收于168.01美元，融资约265亿美元，成为外资公司在美国最大规模IPO之一。高带宽内存需求、英伟达合作和美国建厂计划让AI基础设施继续吸引资本。",
-          "xiaziQuote": "AI不是只消耗模型想象力，它还消耗内存、土地、电力、资本和供应链耐心。",
-          "doudouQuote": "以前追风口，现在风口要先排队买内存条。",
-          "footerTakeaway": "今日关键词：AI资本。"
+          "categoryLabel": "AI与隐私",
+          "headlineFact": "Meta推出AI图像功能仅数日便紧急下架",
+          "headlineView": "创新速度再快，也不能把用户同意当成默认选项",
+          "intro": "Meta停止使用刚推出的Muse Image功能。该工具可利用公开Instagram账号内容生成和编辑图片，但因自动开启、用户缺乏明确选择权，引发演员、创作者和行业组织批评。Meta承认功能没有达到预期并将其撤下。",
+          "xiaziQuote": "技术可以默认开启，权利不能默认放弃。",
+          "doudouQuote": "公开可见不是一张无限次复印许可证。",
+          "footerTakeaway": "今日关键词：AI图像、同意、隐私与下架。",
+          "headlineFull": "Meta推出AI图像功能仅数日便紧急下架；创新速度再快，也不能把用户同意当成默认选项。"
         },
         "en-US": {
-          "categoryLabel": "AI Capital",
-          "headlineFact": "SK Hynix jumps nearly 13% in its Wall Street debut",
-          "headlineView": "the AI boom is pushing memory chips onto center stage",
-          "headlineFull": "SK Hynix jumps nearly 13% in its Wall Street debut; the AI boom is pushing memory chips onto center stage.",
-          "intro": "AP reported that South Korean memory-chip maker SK Hynix rose 12.8% in its Wall Street debut, pricing ADRs at $149 and closing at $168.01 after raising about $26.5 billion. Demand for high-bandwidth memory, Nvidia ties and a planned U.S. site keep AI infrastructure at the center of capital markets.",
-          "xiaziQuote": "AI consumes more than model imagination; it consumes memory, land, power, capital and supply-chain patience.",
-          "doudouQuote": "The new gold rush starts with waiting in line for memory chips.",
-          "footerTakeaway": "Keyword: AI Capital."
+          "categoryLabel": "AI and Privacy",
+          "headlineFact": "Meta removes its AI image feature only days after launch",
+          "headlineView": "fast innovation cannot treat consent as the default",
+          "intro": "Meta discontinued the newly launched Muse Image feature, which could use public Instagram content to generate and edit images. Automatic activation and weak user choice drew criticism from actors, creators and industry groups, and Meta acknowledged the feature did not meet expectations.",
+          "xiaziQuote": "Technology may switch on by default; rights cannot switch off by default.",
+          "doudouQuote": "Publicly visible is not an unlimited photocopy license.",
+          "footerTakeaway": "Keywords: AI images, consent, privacy and removal.",
+          "headlineFull": "Meta removes its AI image feature only days after launch; fast innovation cannot treat consent as the default."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-07-1",
           "topicId": "topic-2026-07-12-07",
-          "title": "SK Hynix rises nearly 13% in debut on Wall Street as demand for memory chips soars amid AI frenzy",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/73f13a85ae00e30bad0540281bbe44f3",
+          "title": "Meta scraps AI image feature days after launch following privacy backlash",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/meta-discontinues-ai-image-feature-days-after-launch-2026-07-10/",
           "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -423,54 +409,52 @@
     {
       "id": "topic-2026-07-12-08",
       "issueId": "issue-2026-07-12",
-      "slug": "china-helium-export-ban",
+      "slug": "indonesia-prosecutor-corruption",
       "rank": 8,
-      "category": "technology",
-      "region": "Asia",
+      "category": "international",
+      "region": "Southeast Asia",
       "countryCodes": [
-        "CN",
-        "US",
-        "QA"
+        "ID"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "xzs-china-helium-export-ban-20260712",
+      "scoreTotal": 92,
+      "storyId": "xzs-indonesia-prosecutor-corruption-20260712",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "关键资源",
-          "headlineFact": "中国临时禁止氦气出口",
-          "headlineView": "芯片竞争连冷却气体都变成战略变量",
-          "headlineFull": "中国临时禁止氦气出口；芯片竞争连冷却气体都变成战略变量。",
-          "intro": "AP报道，中国宣布临时禁止氦气出口，理由是保护国内产业供应。伊朗战争扰乱全球供应并推高价格，氦气又是半导体制造和核磁共振等医疗设备的重要资源。中国本身也依赖卡塔尔等来源进口氦气，因此此举更像供应安全防守。",
-          "xiaziQuote": "高科技竞争最后会落到很朴素的问题：谁有气体、谁有电、谁能稳定交付。",
-          "doudouQuote": "芯片很先进，冷却它的气体也突然不普通了。",
-          "footerTakeaway": "今日关键词：关键资源。"
+          "categoryLabel": "印尼反腐",
+          "headlineFact": "印尼高级反腐检察官在调查中辞职，警方查获逾2000万美元现金和74公斤黄金",
+          "headlineView": "监督者一旦失去监督，权力就会开始自我保护",
+          "intro": "印尼总检察院特别犯罪部门负责人Febrie Adriansyah宣布辞职。警方将其列为涉嫌敲诈、受贿和洗钱案件的嫌疑人，并称相关行动查获超过2000万美元现金及约74公斤金条。Febrie否认指控。",
+          "xiaziQuote": "反腐最难的部分，从来不是调查别人，而是允许调查者也被调查。",
+          "doudouQuote": "监督者也要过安检，尤其是行李特别重的时候。",
+          "footerTakeaway": "今日关键词：辞职、调查、现金与黄金。",
+          "headlineFull": "印尼高级反腐检察官在调查中辞职，警方查获逾2000万美元现金和74公斤黄金；监督者一旦失去监督，权力就会开始自我保护。"
         },
         "en-US": {
-          "categoryLabel": "Critical Resources",
-          "headlineFact": "China temporarily bans helium exports",
-          "headlineView": "chip competition now reaches even cooling gases",
-          "headlineFull": "China temporarily bans helium exports; chip competition now reaches even cooling gases.",
-          "intro": "AP reported that China temporarily banned helium exports to protect domestic supply. The Iran war has disrupted global availability and raised prices, while helium remains essential for semiconductor manufacturing and MRI systems. Because China also relies on imports, the move looks more like supply-defense than simple leverage.",
-          "xiaziQuote": "High-tech competition often ends with plain questions: who has gas, power and reliable delivery?",
-          "doudouQuote": "The chip is advanced, and now the gas that cools it has become strategic.",
-          "footerTakeaway": "Keyword: Critical Resources."
+          "categoryLabel": "Indonesia Anti-Graft",
+          "headlineFact": "A senior Indonesian anti-graft prosecutor resigns as police seize over $20 million and 74 kilograms of gold",
+          "headlineView": "when watchdogs lose oversight, power starts protecting itself",
+          "intro": "Febrie Adriansyah, head of special crimes at Indonesia's attorney general's office, resigned after police named him a suspect in an extortion, bribery and money-laundering probe. Police reported seizing more than $20 million in cash and about 74 kilograms of gold. He denies wrongdoing.",
+          "xiaziQuote": "The hardest part of anti-corruption is not investigating others, but allowing investigators to be investigated.",
+          "doudouQuote": "Watchdogs need security checks too, especially when the luggage is unusually heavy.",
+          "footerTakeaway": "Keywords: resignation, investigation, cash and gold.",
+          "headlineFull": "A senior Indonesian anti-graft prosecutor resigns as police seize over $20 million and 74 kilograms of gold; when watchdogs lose oversight, power starts protecting itself."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-08-1",
           "topicId": "topic-2026-07-12-08",
-          "title": "China blocks exports of helium, key for chipmaking, as Iran war squeezes supply",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/346d8806f8ba410d81de6ced150acb87",
+          "title": "Top Indonesian prosecutor resigns amid corruption probe",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/top-indonesian-prosecutor-resigns-amid-corruption-probe-2026-07-11/",
           "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
@@ -480,55 +464,53 @@
     {
       "id": "topic-2026-07-12-09",
       "issueId": "issue-2026-07-12",
-      "slug": "ap-frontline-ai-scam-industry",
+      "slug": "india-new-zealand-strategic-partnership",
       "rank": 9,
-      "category": "technology",
-      "region": "Global",
+      "category": "international",
+      "region": "Indo-Pacific",
       "countryCodes": [
-        "US",
-        "KH",
-        "MM",
-        "VN"
+        "IN",
+        "NZ"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 89,
-      "storyId": "xzs-ai-scam-industry-20260712",
+      "scoreTotal": 91,
+      "storyId": "xzs-india-new-zealand-partnership-20260712",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI与欺诈",
-          "headlineFact": "AP调查揭示美国AI技术被诈骗产业滥用",
-          "headlineView": "工具越强，责任链越不能装作看不见",
-          "headlineFull": "AP调查揭示美国AI技术被诈骗产业滥用；工具越强，责任链越不能装作看不见。",
-          "intro": "AP与FRONTLINE调查显示，美国AI和其他技术被东南亚诈骗园区用于工业化诈骗。报道指出，相关工具帮助诈骗者生成话术、翻译、伪装身份和扩大触达，让跨国诈骗从人工密集型变成软件驱动型产业。",
-          "xiaziQuote": "技术中立不等于责任中立，平台、支付、云服务和监管都不能只看增长曲线。",
-          "doudouQuote": "AI帮人提高效率，也可能帮坏人提高KPI。",
-          "footerTakeaway": "今日关键词：AI与欺诈。"
+          "categoryLabel": "印太关系",
+          "headlineFact": "印度与新西兰将关系升级为战略伙伴",
+          "headlineView": "印太竞争正在把曾经遥远的双边关系，变成新的安全支点",
+          "intro": "印度总理莫迪访问奥克兰，这是印度总理40年来首次访问新西兰。两国宣布升级为战略伙伴关系，并签署新的防务合作安排，加强海上安全、经贸和地区事务合作。",
+          "xiaziQuote": "国家之间没有永远遥远的关系，只有还没有变得足够重要的利益。",
+          "doudouQuote": "地图上的距离没变，战略上的距离突然缩短了。",
+          "footerTakeaway": "今日关键词：战略伙伴、防务、海上安全与印太。",
+          "headlineFull": "印度与新西兰将关系升级为战略伙伴；印太竞争正在把曾经遥远的双边关系，变成新的安全支点。"
         },
         "en-US": {
-          "categoryLabel": "AI and Fraud",
-          "headlineFact": "AP investigation shows U.S. AI tech abused by scam compounds",
-          "headlineView": "the stronger the tool, the harder it is to ignore responsibility",
-          "headlineFull": "AP investigation shows U.S. AI tech abused by scam compounds; the stronger the tool, the harder it is to ignore responsibility.",
-          "intro": "An AP and FRONTLINE investigation found that American AI and other technologies are being used by Southeast Asian scam compounds to industrialize fraud. The tools help generate scripts, translate, impersonate and scale outreach, turning cross-border scams into software-driven operations.",
-          "xiaziQuote": "Technological neutrality does not mean responsibility neutrality. Platforms, payments, cloud services and regulators cannot watch only growth curves.",
-          "doudouQuote": "AI improves productivity, including for people with very bad KPIs.",
-          "footerTakeaway": "Keyword: AI and Fraud."
+          "categoryLabel": "Indo-Pacific",
+          "headlineFact": "India and New Zealand upgrade relations to a strategic partnership",
+          "headlineView": "Indo-Pacific competition is turning distant bilateral ties into new security anchors",
+          "intro": "Prime Minister Narendra Modi visited Auckland in the first visit by an Indian prime minister to New Zealand in 40 years. The countries upgraded relations to a strategic partnership and signed new defense arrangements covering maritime security, trade and regional cooperation.",
+          "xiaziQuote": "Countries are never permanently distant; their interests simply have not yet become important enough.",
+          "doudouQuote": "The map did not shrink, but the strategic distance suddenly did.",
+          "footerTakeaway": "Keywords: strategic partnership, defense, maritime security and the Indo-Pacific.",
+          "headlineFull": "India and New Zealand upgrade relations to a strategic partnership; Indo-Pacific competition is turning distant bilateral ties into new security anchors."
         }
       },
       "sources": [
         {
           "id": "source-2026-07-12-09-1",
           "topicId": "topic-2026-07-12-09",
-          "title": "Takeaways from AP/'FRONTLINE' investigation into how US tech is abused for global scams",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/scams-fraud-technology-ai-imposter-phishing-takeaways-46553cd53a3daee8ab30e7cac7e12985",
+          "title": "New Zealand, India upgrade ties as PM Modi visits Auckland",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/new-zealand-india-upgrade-ties-pm-modi-visits-auckland-2026-07-11/",
           "publishedAt": "2026-07-11T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "zh-CN",
           "isPrimary": true
