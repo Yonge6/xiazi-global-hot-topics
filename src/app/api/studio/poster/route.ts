@@ -1,6 +1,5 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
-import sharp from "sharp";
 
 import { copyCosObject, uploadToCos } from "@/lib/cos/storage";
 import { githubRepo } from "@/lib/github/repo";
@@ -92,41 +91,29 @@ export async function POST(request: Request) {
     const original = input;
     const originalType = imageContentType(original);
     const version = posterVersion(original);
-    const thumbnail = await sharp(original)
-      .resize(640, 1280, { fit: "cover" })
-      .webp({ quality: 72, effort: 5 })
-      .toBuffer();
-
     if (!/^\d{4}-\d{2}-\d{2}$/.test(issueDate)) {
       return NextResponse.json({ message: "刊期日期无效" }, { status: 400 });
     }
     const archiveOriginal = `archive/${issueDate}/posters/${locale}/${name}.png`;
-    const archiveThumbnail = `archive/${issueDate}/posters/thumb/${locale}/${name}.webp`;
     const warnings: string[] = [];
 
     if (isCurrent) {
       await Promise.all([
         writeGitHubAsset(`public/posters/${locale}/${name}.png`, original, `Update ${locale} poster ${name}`),
-        writeGitHubAsset(`public/posters/thumb/${locale}/${name}.webp`, thumbnail, `Update ${locale} poster thumbnail ${name}`),
         writeGitHubAsset(`public/${archiveOriginal}`, original, `Archive ${locale} poster ${issueDate} ${name}`),
-        writeGitHubAsset(`public/${archiveThumbnail}`, thumbnail, `Archive ${locale} poster thumbnail ${issueDate} ${name}`),
       ]);
       await Promise.all([
         tryCos(() => uploadToCos(`posters/${locale}/${name}.png`, original, originalType, "no-store, max-age=0"), warnings),
-        tryCos(() => uploadToCos(`posters/thumb/${locale}/${name}.webp`, thumbnail, "image/webp", "no-store, max-age=0"), warnings),
       ]);
       await Promise.all([
         tryCos(() => copyCosObject(`posters/${locale}/${name}.png`, archiveOriginal), warnings),
-        tryCos(() => copyCosObject(`posters/thumb/${locale}/${name}.webp`, archiveThumbnail), warnings),
       ]);
     } else {
       await Promise.all([
         writeGitHubAsset(`public/${archiveOriginal}`, original, `Update archive ${locale} poster ${issueDate} ${name}`),
-        writeGitHubAsset(`public/${archiveThumbnail}`, thumbnail, `Update archive ${locale} poster thumbnail ${issueDate} ${name}`),
       ]);
       await Promise.all([
         tryCos(() => uploadToCos(archiveOriginal, original, originalType, "no-store, max-age=0"), warnings),
-        tryCos(() => uploadToCos(archiveThumbnail, thumbnail, "image/webp", "no-store, max-age=0"), warnings),
       ]);
     }
     return NextResponse.json({
