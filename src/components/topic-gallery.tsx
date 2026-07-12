@@ -333,7 +333,6 @@ export function TopicGallery({
           const content = topic.localizations[isZh ? "zh-CN" : "en-US"];
           const source = primarySource(topic.sources);
           const poster = posterAsset(topic.slug, "original");
-          const thumbnail = posterAsset(topic.slug, "thumbnail");
 
           return (
             <article id={topic.slug} className="catalogue-entry" key={topic.id}>
@@ -370,8 +369,8 @@ export function TopicGallery({
                 aria-label={isZh ? `查看${content.headlineFact}海报原图` : `View poster for ${content.headlineFact}`}
               >
                 <ProgressivePoster
-                  key={thumbnail}
-                  src={thumbnail}
+                  key={poster}
+                  src={poster}
                   alt={content.headlineFull}
                   sizes="(max-width: 767px) calc(100vw - 36px), (max-width: 1100px) 46vw, 31vw"
                   className="poster-image"
