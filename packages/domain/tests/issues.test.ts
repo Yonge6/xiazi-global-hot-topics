@@ -61,9 +61,9 @@ describe("sortTopicsForIssue", () => {
 
 describe("topicShareDetails", () => {
   it("builds a locale-specific canonical share payload", () => {
-    const details = topicShareDetails(topic("sample-story", 1), "en", "https://pluto.hk/");
+    const details = topicShareDetails(topic("sample-story", 1), "en", "https://xiazishuo.com/");
 
-    expect(details.url).toBe("https://pluto.hk/en/#sample-story");
+    expect(details.url).toBe("https://xiazishuo.com/en/#sample-story");
     expect(details.text).toContain(details.title);
     expect(details.text).toContain(details.url);
   });
