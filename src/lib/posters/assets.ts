@@ -106,6 +106,12 @@ export const POSTER_ASSET_NAMES = [
   "sk-hynix-wall-street-debut",
   "china-helium-export-ban",
   "ap-frontline-ai-scam-industry",
+  "russia-ukraine-air-defense-shortage",
+  "typhoon-bavi-taizhou-evacuations",
+  "bangladesh-floods-44-dead",
+  "meta-muse-image-privacy",
+  "indonesia-prosecutor-corruption",
+  "india-new-zealand-strategic-partnership",
 ] as const;
 
 export const posterNames: Record<string, string> = {
