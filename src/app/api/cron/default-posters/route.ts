@@ -20,7 +20,10 @@ function beijingIssueDate() {
 
 export async function GET(request: Request) {
   const cronSecret = process.env.CRON_SECRET;
-  if (cronSecret && request.headers.get("authorization") !== `Bearer ${cronSecret}`) {
+  if (!cronSecret) {
+    return NextResponse.json({ message: "CRON_SECRET is not configured" }, { status: 500 });
+  }
+  if (request.headers.get("authorization") !== `Bearer ${cronSecret}`) {
     return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
   }
 
@@ -28,17 +31,10 @@ export async function GET(request: Request) {
     const issueDate = beijingIssueDate();
     const source = await readFile(path.join(process.cwd(), "public/posters/default-poster.jpg"));
     const original = await sharp(source).png({ compressionLevel: 9 }).toBuffer();
-    const thumbnail = await sharp(source)
-      .resize(640, 1280, { fit: "cover" })
-      .webp({ quality: 76, effort: 5 })
-      .toBuffer();
-
     const assets = ["zh", "en"].flatMap((locale) =>
       POSTER_ASSET_NAMES.flatMap((name) => [
         { key: `posters/${locale}/${name}.png`, content: original, type: "image/png" },
-        { key: `posters/thumb/${locale}/${name}.webp`, content: thumbnail, type: "image/webp" },
         { key: `archive/${issueDate}/posters/${locale}/${name}.png`, content: original, type: "image/png" },
-        { key: `archive/${issueDate}/posters/thumb/${locale}/${name}.webp`, content: thumbnail, type: "image/webp" },
       ]),
     );
 
