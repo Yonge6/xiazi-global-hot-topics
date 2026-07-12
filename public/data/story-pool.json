@@ -513,57 +513,57 @@
     "category": "international"
   },
   {
+    "storyId": "xzs-russia-ukraine-air-defense-20260712",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 100,
+    "lastIssueDate": "2026-07-12",
+    "lastTopicSlug": "russia-ukraine-air-defense-shortage",
+    "category": "international"
+  },
+  {
     "storyId": "xzs-typhoon-bavi-landfall-20260712",
     "storyStatus": "followup",
     "followupDay": 2,
     "informationIncrementScore": 86,
     "lastIssueDate": "2026-07-12",
-    "lastTopicSlug": "typhoon-bavi-china-landfall",
+    "lastTopicSlug": "typhoon-bavi-taizhou-evacuations",
     "category": "climate"
   },
   {
-    "storyId": "xzs-spain-wildfire-almeria-20260712",
-    "storyStatus": "followup",
-    "followupDay": 2,
-    "informationIncrementScore": 84,
+    "storyId": "xzs-bangladesh-floods-20260712",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 100,
     "lastIssueDate": "2026-07-12",
-    "lastTopicSlug": "spain-wildfire-almeria-deaths",
+    "lastTopicSlug": "bangladesh-floods-44-dead",
     "category": "climate"
   },
   {
-    "storyId": "xzs-congo-ebola-us-case-20260712",
+    "storyId": "xzs-meta-muse-privacy-20260712",
     "storyStatus": "new",
     "followupDay": 1,
     "informationIncrementScore": 100,
     "lastIssueDate": "2026-07-12",
-    "lastTopicSlug": "congo-ebola-us-case",
-    "category": "health"
-  },
-  {
-    "storyId": "xzs-sk-hynix-wall-street-debut-20260712",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 100,
-    "lastIssueDate": "2026-07-12",
-    "lastTopicSlug": "sk-hynix-wall-street-debut",
-    "category": "business"
-  },
-  {
-    "storyId": "xzs-china-helium-export-ban-20260712",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 100,
-    "lastIssueDate": "2026-07-12",
-    "lastTopicSlug": "china-helium-export-ban",
+    "lastTopicSlug": "meta-muse-image-privacy",
     "category": "technology"
   },
   {
-    "storyId": "xzs-ai-scam-industry-20260712",
+    "storyId": "xzs-indonesia-prosecutor-corruption-20260712",
     "storyStatus": "new",
     "followupDay": 1,
     "informationIncrementScore": 100,
     "lastIssueDate": "2026-07-12",
-    "lastTopicSlug": "ap-frontline-ai-scam-industry",
-    "category": "technology"
+    "lastTopicSlug": "indonesia-prosecutor-corruption",
+    "category": "international"
+  },
+  {
+    "storyId": "xzs-india-new-zealand-partnership-20260712",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 100,
+    "lastIssueDate": "2026-07-12",
+    "lastTopicSlug": "india-new-zealand-strategic-partnership",
+    "category": "international"
   }
 ]
