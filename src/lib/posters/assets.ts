@@ -120,6 +120,14 @@ export const POSTER_ASSET_NAMES = [
   "apple-openai-trade-secrets",
   "israel-election-october27",
   "micron-us-investment-250b",
+  "world-cup-july14-semifinal-preview",
+  "us-iran-hormuz-blockade-fee",
+  "ukraine-government-reshuffle",
+  "europe-wildfires-paris-spain",
+  "northern-china-floods-bavi",
+  "congo-ebola-two-provinces",
+  "ai-economic-transition-warning",
+  "ai-power-cost-protection",
 ] as const;
 
 export const posterNames: Record<string, string> = {
