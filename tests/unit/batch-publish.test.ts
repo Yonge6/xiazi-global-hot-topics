@@ -19,6 +19,29 @@ describe("batch publish helpers", () => {
     expect(stories[8].en.intro).toBe("English intro 9; English view 9");
   });
 
+  it("parses ChatGPT Markdown headings pasted from a phone", () => {
+    const markdown = Array.from({ length: 9 }, (_, index) => {
+      const rank = index + 1;
+      return `## NO.${String(rank).padStart(2, "0")}｜${rank === 1 ? "今日总览" : `热点 ${rank}`}
+
+### 中文标题${rank}；中文观点${rank}
+
+**中文正文：**
+中文正文 ${rank}
+
+**English version:**
+English intro ${rank}; English view ${rank}
+
+**虾子曰评价：** Xiazi ${rank}
+**豆豆龙评价：** Doudou ${rank}`;
+    }).join("\n\n");
+
+    const stories = parseBatchCopy(markdown);
+    expect(stories).toHaveLength(9);
+    expect(stories.map((story) => story.rank)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+    expect(stories[0].categoryLabel).toBe("今日总览");
+  });
+
   it("extracts poster order from common mobile filenames", () => {
     expect(posterOrder("NO.01-中文.png")).toBe(1);
     expect(posterOrder("海报 09 英文.png")).toBe(9);
