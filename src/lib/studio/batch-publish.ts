@@ -86,7 +86,10 @@ function headerParts(header: string, fallback: string) {
 
 export function parseBatchCopy(copy: string): BatchStory[] {
   const normalized = copy.replace(/\r/g, "");
-  const matches = [...normalized.matchAll(/^NO\.?\s*0?([1-9])\b[^\n]*/gim)];
+  // Mobile users commonly paste ChatGPT Markdown headings such as
+  // `## NO.01｜今日总览`. Keep the marker anchored to a line start so a
+  // numbered reference inside body copy cannot create a false story block.
+  const matches = [...normalized.matchAll(/^\s{0,3}(?:#{1,6}\s*)?NO\.?\s*0?([1-9])\b[^\n]*/gim)];
   if (matches.length !== 9) {
     throw new Error(`文案需要刚好 9 条 NO.01-NO.09，目前识别到 ${matches.length} 条`);
   }
@@ -97,7 +100,7 @@ export function parseBatchCopy(copy: string): BatchStory[] {
     const block = clean(normalized.slice(start, end));
     const rank = Number(match[1]);
     const fallbackCategory = rank === 1 ? "今日总览" : rank === 2 ? "世界杯" : `热点 ${rank}`;
-    const header = clean(match[0]);
+    const header = clean(match[0].replace(/^\s*#{1,6}\s*/, ""));
     const parts = headerParts(header, fallbackCategory);
     const lines = block.split("\n").map(clean).filter(Boolean);
     const firstBodyLine = lines.find((line) => !/^NO\.?/i.test(line) && !/[:：]$/.test(line));
