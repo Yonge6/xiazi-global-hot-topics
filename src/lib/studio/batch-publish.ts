@@ -31,6 +31,7 @@ function sectionValue(block: string, labels: string[], stopLabels: string[]) {
 function clean(value: string) {
   return value
     .replace(/\r/g, "")
+    .replace(/^\s*#{1,6}\s+/gm, "")
     .replace(/\n{3,}/g, "\n\n")
     .replace(/^[\s\-•]+|[\s\-•]+$/g, "")
     .trim();
@@ -43,7 +44,7 @@ function escapeRegExp(value: string) {
 function splitHeadline(title: string, locale: "zh-CN" | "en-US") {
   const trimmed = clean(title);
   const parts = trimmed.split(locale === "zh-CN" ? /[；;]/ : /;\s*/);
-  const fact = clean(parts[0] || trimmed);
+  const fact = clean(parts[0] || trimmed).replace(/[.。!?！？]+$/g, "");
   const view = clean(parts.slice(1).join(locale === "zh-CN" ? "；" : "; ")) || (locale === "zh-CN"
     ? "真正重要的是后续影响如何扩散"
     : "the real test is what happens next");
@@ -77,7 +78,15 @@ function localized(
 
 function headerParts(header: string, fallback: string) {
   const withoutNo = clean(header.replace(/^NO\.?\s*0?[1-9]\s*/i, ""));
-  const [category, ...rest] = withoutNo.split(/\s*[｜|:：\-—]\s*/);
+  const beginsWithSeparator = /^[｜|:：\-—]/.test(withoutNo);
+  const segments = withoutNo.split(/\s*[｜|:：\-—]\s*/).map(clean).filter(Boolean);
+  if (beginsWithSeparator) {
+    return {
+      category: segments[0] || fallback,
+      title: clean(segments.slice(1).join("；")),
+    };
+  }
+  const [category, ...rest] = segments;
   return {
     category: clean(category || fallback),
     title: clean(rest.join("；")),
@@ -85,7 +94,9 @@ function headerParts(header: string, fallback: string) {
 }
 
 export function parseBatchCopy(copy: string): BatchStory[] {
-  const normalized = copy.replace(/\r/g, "");
+  // Bold Markdown wrappers are presentation-only. Removing them up front lets
+  // labels such as `**中文正文：**` use the same parser as plain text labels.
+  const normalized = copy.replace(/\r/g, "").replace(/\*\*/g, "");
   // Mobile users commonly paste ChatGPT Markdown headings such as
   // `## NO.01｜今日总览`. Keep the marker anchored to a line start so a
   // numbered reference inside body copy cannot create a false story block.
@@ -106,19 +117,19 @@ export function parseBatchCopy(copy: string): BatchStory[] {
     const firstBodyLine = lines.find((line) => !/^NO\.?/i.test(line) && !/[:：]$/.test(line));
 
     const zhTitle = parts.title || sectionValue(block, ["中文标题", "中文题目", "标题"], [
-      "中文正文", "正文", "English Version", "English", "英文标题", "英文正文", "推荐阅读来源", "虾子曰评价", "豆豆龙评价",
+      "中文正文", "正文", "English Version", "English", "英文标题", "英文正文", "推荐阅读来源", "虾子曰评价", "虾子曰洞察", "豆豆龙评价", "豆豆龙吐槽",
     ]) || firstBodyLine || parts.category;
     const zhIntro = sectionValue(block, ["中文正文", "正文", "中文"], [
-      "English Version", "English", "英文标题", "英文正文", "推荐阅读来源", "虾子曰评价", "豆豆龙评价",
+      "English Version", "English", "英文标题", "英文正文", "推荐阅读来源", "虾子曰评价", "虾子曰洞察", "豆豆龙评价", "豆豆龙吐槽",
     ]) || zhTitle;
     const enTitle = sectionValue(block, ["English Title", "英文标题"], [
-      "English Version", "English", "英文正文", "推荐阅读来源", "虾子曰评价", "豆豆龙评价",
+      "English Version", "English", "英文正文", "推荐阅读来源", "虾子曰评价", "虾子曰洞察", "豆豆龙评价", "豆豆龙吐槽",
     ]) || zhTitle;
     const enIntro = sectionValue(block, ["English Version", "English", "英文正文", "英文"], [
-      "推荐阅读来源", "Source", "虾子曰评价", "豆豆龙评价",
+      "推荐阅读来源", "Source", "虾子曰评价", "虾子曰洞察", "豆豆龙评价", "豆豆龙吐槽",
     ]) || enTitle;
-    const xiazi = sectionValue(block, ["虾子曰评价", "虾子曰"], ["豆豆龙评价", "豆豆龙", "推荐阅读来源", "Source"]) || "";
-    const doudou = sectionValue(block, ["豆豆龙评价", "豆豆龙"], ["推荐阅读来源", "Source"]) || "";
+    const xiazi = sectionValue(block, ["虾子曰评价", "虾子曰洞察", "虾子曰"], ["豆豆龙评价", "豆豆龙吐槽", "豆豆龙", "推荐阅读来源", "Source"]) || "";
+    const doudou = sectionValue(block, ["豆豆龙评价", "豆豆龙吐槽", "豆豆龙"], ["推荐阅读来源", "Source"]) || "";
 
     return {
       rank,
@@ -128,7 +139,7 @@ export function parseBatchCopy(copy: string): BatchStory[] {
         intro: zhIntro,
         xiaziQuote: xiazi,
         doudouQuote: doudou,
-        source: sectionValue(block, ["推荐阅读来源", "来源", "Source"], ["虾子曰评价", "豆豆龙评价"]) || "ChatGPT cited sources",
+        source: sectionValue(block, ["推荐阅读来源", "来源", "Source"], ["虾子曰评价", "虾子曰洞察", "豆豆龙评价", "豆豆龙吐槽"]) || "ChatGPT cited sources",
       },
       en: {
         title: enTitle,

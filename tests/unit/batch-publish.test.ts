@@ -32,14 +32,21 @@ describe("batch publish helpers", () => {
 **English version:**
 English intro ${rank}; English view ${rank}
 
-**虾子曰评价：** Xiazi ${rank}
-**豆豆龙评价：** Doudou ${rank}`;
+**推荐阅读来源：** Reuters ${rank}
+**虾子曰洞察：** Xiazi ${rank}
+**豆豆龙吐槽：** Doudou ${rank}`;
     }).join("\n\n");
 
     const stories = parseBatchCopy(markdown);
     expect(stories).toHaveLength(9);
     expect(stories.map((story) => story.rank)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
     expect(stories[0].categoryLabel).toBe("今日总览");
+    expect(stories[0].zh.title).toBe("中文标题1；中文观点1");
+    expect(stories[0].zh.intro).toBe("中文正文 1");
+    expect(stories[0].en.intro).toBe("English intro 1; English view 1");
+    expect(stories[0].zh.source).toBe("Reuters 1");
+    expect(stories[0].zh.xiaziQuote).toBe("Xiazi 1");
+    expect(stories[0].zh.doudouQuote).toBe("Doudou 1");
   });
 
   it("extracts poster order from common mobile filenames", () => {

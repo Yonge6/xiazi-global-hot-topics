@@ -112,6 +112,14 @@ export const POSTER_ASSET_NAMES = [
   "meta-muse-image-privacy",
   "indonesia-prosecutor-corruption",
   "india-new-zealand-strategic-partnership",
+  "world-cup-july13-quarterfinals",
+  "us-iran-hormuz-escalation-july13",
+  "ukraine-azov-tanker",
+  "europe-heatwave-excess-deaths",
+  "south-china-sea-joint-statement",
+  "apple-openai-trade-secrets",
+  "israel-election-october27",
+  "micron-us-investment-250b",
 ] as const;
 
 export const posterNames: Record<string, string> = {
