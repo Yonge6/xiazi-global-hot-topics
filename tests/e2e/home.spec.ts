@@ -6,7 +6,7 @@ test("renders the Chinese issue and nine stories", async ({ page }) => {
   await expect(page.locator("article")).toHaveCount(9);
   await expect(page.locator("article").filter({ hasText: "美国队 4:1 击败巴拉圭" })).toBeVisible();
   await expect(page.getByText("xiazishuo.com").first()).toBeVisible();
-  await expect(page.getByText("2026.06.14 · 北京时间 00:05 发布")).toBeVisible();
+  await expect(page.getByText("2026.06.14 · 北京时间 06:00 发布")).toBeVisible();
 });
 
 test("renders the Chinese homepage at the root domain", async ({ page }) => {
@@ -24,7 +24,7 @@ test("switches locale while keeping the page context", async ({ page }) => {
   await expect(page).toHaveURL(/\/en\/$/);
   await expect(page.getByRole("heading", { name: "THE WORLD YESTERDAY." })).toBeVisible();
   await expect(page.locator("article").filter({ hasText: "USA beat Paraguay 4-1" })).toBeVisible();
-  await expect(page.getByText("June 14, 2026 · Published at 00:05 Beijing Time")).toBeVisible();
+  await expect(page.getByText("June 14, 2026 · Published at 06:00 Beijing Time")).toBeVisible();
   await expect(page.locator('article img[src*="/posters/thumb/en/"]').first()).toBeVisible();
 });
 

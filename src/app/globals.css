@@ -435,10 +435,48 @@ button { color: inherit; font: inherit; }
   color: var(--muted);
   line-height: 1.7;
 }
-.archive-dates {
+.archive-months {
+  display: grid;
+  gap: 12px;
+}
+.archive-month {
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.16);
+}
+.archive-month > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 64px;
+  padding: 16px 18px;
+  cursor: pointer;
+  list-style: none;
+}
+.archive-month > summary::-webkit-details-marker { display: none; }
+.archive-month > summary::after {
+  content: "+";
+  color: var(--vermilion);
+  font-size: 22px;
+  line-height: 1;
+}
+.archive-month[open] > summary::after { content: "−"; }
+.archive-month > summary strong {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 500;
+}
+.archive-month > summary span {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 11px;
+}
+.archive-month .archive-dates {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
+  border-top: 1px solid var(--line);
+  padding: 12px;
 }
 .archive-dates button {
   display: flex;
@@ -844,9 +882,14 @@ button { color: inherit; font: inherit; }
     align-items: start;
     flex-direction: column;
   }
-  .archive-dates {
+  .archive-month .archive-dates {
     grid-template-columns: 1fr;
   }
+  .archive-month > summary {
+    min-height: 58px;
+    padding: 14px 16px;
+  }
+  .archive-month > summary strong { font-size: 19px; }
   .archive-dates button {
     min-height: 68px;
     padding: 16px;

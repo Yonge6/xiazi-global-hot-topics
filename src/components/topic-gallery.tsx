@@ -2,10 +2,11 @@
 
 import { Check, DownloadSimple, LinkSimple, ShareNetwork, X } from "@phosphor-icons/react";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
+import { groupArchiveDatesByMonth } from "@/lib/issues/archive-groups";
 import { DEFAULT_POSTER_ASSET, getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
 import type { Issue, Source, Topic } from "@/types/content";
 
@@ -127,9 +128,11 @@ export function TopicGallery({
   const [shareStatus, setShareStatus] = useState("");
   const [posterCacheKey, setPosterCacheKey] = useState<string | number>(initialAssetVersion);
   const [archiveDates, setArchiveDates] = useState<string[]>([]);
+  const [expandedArchiveMonths, setExpandedArchiveMonths] = useState<Set<string>>(new Set());
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [archiveStatus, setArchiveStatus] = useState("");
   const isZh = locale === "zh";
+  const archiveMonths = useMemo(() => groupArchiveDatesByMonth(archiveDates), [archiveDates]);
 
   useEffect(() => {
     trackAnalytics("page_view", locale);
@@ -184,7 +187,11 @@ export function TopicGallery({
   useEffect(() => {
     loadArchiveDates()
       .then((detail) => {
-        if (Array.isArray(detail.issues)) setArchiveDates(detail.issues);
+        if (Array.isArray(detail.issues)) {
+          const groups = groupArchiveDatesByMonth(detail.issues);
+          setArchiveDates(detail.issues);
+          if (groups[0]) setExpandedArchiveMonths(new Set([groups[0].month]));
+        }
       })
       .catch(() => undefined);
   }, []);
@@ -450,18 +457,51 @@ export function TopicGallery({
           </div>
           <p>{isZh ? "点击日期，展示当期全部 9 条文字、来源与海报。" : "Choose a date to display all nine stories, sources and posters."}</p>
         </header>
-        <div className="archive-dates">
-          {archiveDates.map((date) => (
-            <button
-              type="button"
-              className={archiveDate === date ? "active" : ""}
-              onClick={() => openArchive(date)}
-              key={date}
-            >
-              <time dateTime={date}>{date.replaceAll("-", ".")}</time>
-              <span>{isZh ? "打开本期" : "Open edition"} ↗</span>
-            </button>
-          ))}
+        <div className="archive-months">
+          {archiveMonths.map((group, index) => {
+            const isOpen = expandedArchiveMonths.has(group.month);
+            const monthDate = new Date(`${group.month}-01T00:00:00+08:00`);
+            const monthLabel = new Intl.DateTimeFormat(isZh ? "zh-CN" : "en-US", {
+              year: "numeric",
+              month: isZh ? "long" : "long",
+              timeZone: "Asia/Shanghai",
+            }).format(monthDate);
+
+            return (
+              <details
+                className="archive-month"
+                open={isOpen}
+                onToggle={(event) => {
+                  const open = event.currentTarget.open;
+                  setExpandedArchiveMonths((current) => {
+                    const next = new Set(current);
+                    if (open) next.add(group.month);
+                    else next.delete(group.month);
+                    return next;
+                  });
+                }}
+                key={group.month}
+              >
+                <summary>
+                  <strong>{monthLabel}{index === 0 ? (isZh ? " · 本月" : " · Current month") : ""}</strong>
+                  <span>{group.dates.length} {isZh ? "期" : group.dates.length === 1 ? "edition" : "editions"} · {isOpen ? (isZh ? "收起" : "Collapse") : (isZh ? "展开" : "Expand")}</span>
+                </summary>
+                <div className="archive-dates">
+                  {group.dates.map((date) => (
+                    <button
+                      type="button"
+                      className={archiveDate === date ? "active" : ""}
+                      onClick={() => openArchive(date)}
+                      key={date}
+                    >
+                      <time dateTime={date}>{date.replaceAll("-", ".")}</time>
+                      <span>{isZh ? "打开本期" : "Open edition"} ↗</span>
+                    </button>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
         </div>
         {archiveStatus ? <p className="archive-status" role="status">{archiveStatus}</p> : null}
       </section>
