@@ -43,10 +43,9 @@ async function githubJson(apiPath: string, accept = "application/vnd.github+json
 }
 
 function dataRootCandidates() {
-  const cwd = process.cwd();
   return [
-    path.join(cwd, "data"),
-    path.join(cwd, "apps/web/data"),
+    path.join(/* turbopackIgnore: true */ process.cwd(), "data"),
+    path.join(/* turbopackIgnore: true */ process.cwd(), "apps/web/data"),
   ];
 }
 
@@ -55,9 +54,14 @@ function prefersLocalJson() {
   return process.env.NODE_ENV !== "production";
 }
 
+function allowsLocalJsonFallback() {
+  return prefersLocalJson();
+}
+
 export function productionDataRoots() {
+  if (!allowsLocalJsonFallback()) return [];
   const roots = dataRootCandidates().filter((candidate) => existsSync(candidate));
-  return roots.length > 0 ? roots : [path.join(process.cwd(), "data")];
+  return roots.length > 0 ? roots : [path.join(/* turbopackIgnore: true */ process.cwd(), "data")];
 }
 
 async function localIssue(relativePath: string): Promise<LoadedProductionIssue | null> {
@@ -99,8 +103,10 @@ export async function loadLatestProductionIssue(): Promise<LoadedProductionIssue
   ).catch(() => null);
   if (remote) return { issue: parseIssue(remote), source: "github" };
 
-  const local = await localIssue("current-issue.json");
-  if (local) return local;
+  if (allowsLocalJsonFallback()) {
+    const local = await localIssue("current-issue.json");
+    if (local) return local;
+  }
 
   throw new Error("Current issue unavailable");
 }
@@ -117,7 +123,7 @@ export async function loadProductionIssueByDate(date: string): Promise<LoadedPro
     "application/vnd.github.raw+json",
   ).catch(() => null);
   if (remote) return { issue: parseIssue(remote), source: "github" };
-  return localIssue(path.join("archive", `${date}.json`));
+  return allowsLocalJsonFallback() ? localIssue(path.join("archive", `${date}.json`)) : null;
 }
 
 export async function loadProductionIssueAtRef(relativePath: string, ref: string) {
@@ -147,7 +153,7 @@ export async function listProductionArchiveIssues(): Promise<ArchiveIssueSummary
         .filter((file) => file.type === "file" && /^\d{4}-\d{2}-\d{2}\.json$/.test(file.name))
         .map((file) => file.name.replace(".json", ""))
     : [];
-  const localDates = await localArchiveDates();
+  const localDates = allowsLocalJsonFallback() ? await localArchiveDates() : [];
   const dates = Array.from(new Set([...remoteDates, ...localDates])).sort((a, b) => b.localeCompare(a));
   return dates.map((date) => ({
     issueDate: date,

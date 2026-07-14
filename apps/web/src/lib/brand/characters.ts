@@ -84,7 +84,7 @@ export const posterBrandRules = {
     "Xiazi and Doudoulong both clearly visible",
     "Beijing Time on Chinese posters",
     "Greenwich Mean Time on English posters",
-    "pluto.hk",
+    "xiazishuo.com",
     "scannable topic-specific QR code",
   ],
   compositionRules: [
