@@ -1,22 +1,22 @@
 {
-  "id": "issue-2026-07-14",
-  "slug": "2026-07-14",
-  "issueDate": "2026-07-14",
-  "assetVersion": "issue-2026-07-14-swiss-style-chatgpt56-tinypng-v1",
+  "id": "issue-2026-07-15",
+  "slug": "2026-07-15",
+  "issueDate": "2026-07-15",
+  "assetVersion": "issue-2026-07-15-art-deco-chatgpt56-sharp-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-14T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-13T21:00:00Z",
-  "featuredTopicId": "issue-2026-07-14-topic-01",
+  "beijingTimestamp": "2026-07-15T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-14T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-15-01",
   "style": {
-    "name": "Swiss Style 瑞士国际主义",
-    "zhName": "Swiss Style 瑞士国际主义",
-    "description": "Swiss Style 瑞士国际主义 visual system for Xiazi global hot topics posters."
+    "name": "Art Deco 装饰艺术风格",
+    "zhName": "Art Deco 装饰艺术风格",
+    "description": "象牙白、深孔雀蓝、哑光金、酒红与墨黑构成的装饰艺术视觉系统。"
   },
   "topics": [
     {
-      "id": "topic-2026-07-14-01",
-      "issueId": "issue-2026-07-14",
+      "id": "topic-2026-07-15-01",
+      "issueId": "issue-2026-07-15",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -25,41 +25,41 @@
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 99,
-      "storyId": "xzs-overview-20260714",
+      "scoreTotal": 95,
+      "storyId": "xzs-overview-20260715",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "世界杯四强进入最后备战，美伊冲突再度升级，AI开始同时考验就业、能源与社会治理",
-          "headlineView": "今天的风险都在追问系统能否提前准备。",
-          "headlineFull": "世界杯四强进入最后备战，美伊冲突再度升级，AI开始同时考验就业、能源与社会治理；今天的风险都在追问系统能否提前准备。",
-          "intro": "过去24小时，世界杯没有新比赛完赛，法国与西班牙、英格兰与阿根廷即将争夺决赛席位。场外，美国宣布恢复对伊朗航运的封锁并提出对霍尔木兹海峡货运收费；乌克兰启动战时政府改组。巴黎附近山火、中国北方洪水和刚果（金）埃博拉疫情继续考验公共系统，AI则同时把就业转型与电网成本推到政策桌面。\n\nEnglish Title:\nThe World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy; every risk now asks whether systems prepared early enough.",
-          "xiaziQuote": "赛场、航道、灾区、医院和电网看似分散，其实都在回答同一个问题：系统有没有在压力到来前准备好。",
-          "doudouQuote": "今天的世界像九宫格直播，比分、油价、水位、病例和电费一起刷新。",
+          "headlineFact": "西班牙率先闯入世界杯决赛，前沿人工智能监管与一人公司进入政策核心",
+          "headlineView": "战争、台风、移民、贸易与领土争议同时重塑世界。",
+          "headlineFull": "西班牙率先闯入世界杯决赛，前沿人工智能监管与一人公司进入政策核心；战争、台风、移民、贸易与领土争议同时重塑世界。",
+          "intro": "过去24小时，西班牙2:0击败法国，成为首支晋级世界杯决赛的球队；谷歌深度思维负责人呼吁建立由美国牵头的前沿人工智能测试机构；美国国会专门讨论人工智能如何改变小企业和个人创业者。\n\n球场之外，美伊冲突再次升级并推高油价；台风巴威迫使中国东北超过26万人转移；一艘移民船在利比亚附近倾覆，约50人恐已失踪；中国6月进出口增速明显超出预期；以色列批准为约旦河西岸34个新定居点拨款。",
+          "xiaziQuote": "今天的八条新闻看似分散，其实都在讲同一件事：旧规则正在追赶新的力量。",
+          "doudouQuote": "足球在争决赛席位，国家在争航道，企业在争智能，普通人则在争一个更安全的明天。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
-          "categoryLabel": "Overview",
-          "headlineFact": "The World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy",
-          "headlineView": "every risk now asks whether systems prepared early enough.",
-          "headlineFull": "The World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy; every risk now asks whether systems prepared early enough.",
-          "intro": "No World Cup match finished in the Beijing-time reporting window, with France versus Spain and England versus Argentina next. Beyond football, U.S.-Iran shipping tensions escalated, Ukraine began a wartime government reshuffle, wildfires and floods strained public systems, Congo's Ebola outbreak spread, and AI forced new debates over jobs and electricity costs.",
-          "xiaziQuote": "Stadiums, sea lanes, disaster zones, hospitals and power grids all ask the same question: did the system prepare before pressure arrived?",
-          "doudouQuote": "Today feels like a nine-window live feed: scores, oil, water, cases and electricity bills all refreshing together.",
-          "footerTakeaway": "Keyword: Overview."
+          "categoryLabel": "Global Overview",
+          "headlineFact": "Spain reaches the World Cup final as frontier-AI oversight and one-person businesses enter the policy spotlight",
+          "headlineView": "war, storms, migration, trade and territorial disputes reshape the world at the same time.",
+          "headlineFull": "Spain reaches the World Cup final as frontier-AI oversight and one-person businesses enter the policy spotlight; war, storms, migration, trade and territorial disputes reshape the world at the same time.",
+          "intro": "Over the past 24 hours, Spain defeated France 2–0 to become the first finalist of the 2026 World Cup. Google DeepMind’s chief called for a U.S.-led body to test frontier AI models, while the U.S. Congress examined how AI is transforming small businesses and solo operators.\n\nBeyond those developments, U.S.-Iran hostilities intensified, Typhoon Bavi forced mass evacuations in northeastern China, a migrant boat capsized off Libya, Chinese trade growth exceeded expectations, and Israel approved funding for 34 new West Bank settlements.",
+          "xiaziQuote": "Today’s stories may look unrelated, but they share one theme: old rules are struggling to catch up with new forces.",
+          "doudouQuote": "Teams are fighting for a final, countries for shipping lanes, businesses for intelligence, and ordinary people for a safer tomorrow.",
+          "footerTakeaway": "Keyword: Global Overview."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-14-01-1",
-          "topicId": "topic-2026-07-14-01",
-          "title": "The World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/middle-east/iran-escalates-attacks-us-bases-gulf-states-warns-more-incidents-strait-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
+          "id": "source-2026-07-15-01-1",
+          "topicId": "topic-2026-07-15-01",
+          "title": "Spain reaches the World Cup final as frontier-AI oversight and one-person businesses enter the policy spotlight",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/87fb7740fa552edf4bfd28d0e8727c23",
+          "publishedAt": "2026-07-14T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -68,227 +68,54 @@
       ]
     },
     {
-      "id": "topic-2026-07-14-02",
-      "issueId": "issue-2026-07-14",
-      "slug": "world-cup-july14-semifinal-preview",
+      "id": "topic-2026-07-15-02",
+      "issueId": "issue-2026-07-15",
+      "slug": "world-cup-spain-france-semifinal",
       "rank": 2,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "NO",
-        "GB",
-        "AR",
-        "CH"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "xzs-world-cup-july13-quarterfinals-20260713",
-      "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "世界杯日报",
-          "headlineFact": "世界杯休赛一天，法国、西班牙准备争夺首张决赛门票",
-          "headlineView": "到了半决赛，决定胜负的往往是谁先让对方失去耐心。",
-          "headlineFull": "世界杯休赛一天，法国、西班牙准备争夺首张决赛门票；到了半决赛，决定胜负的往往是谁先让对方失去耐心。",
-          "intro": "北京时间7月13日05:00至7月14日05:00，没有世界杯比赛完赛。法国将在7月15日03:00迎战西班牙，英格兰将在7月16日03:00对阵阿根廷。法国依靠高速攻击群，西班牙强调中场控球；另一场则让梅西首次在正式比赛中面对英格兰。休赛日没有比分，但战术、体能与心理博弈已经开始。\n\nEnglish Title:\nThe World Cup pauses for a day before France face Spain for the first final berth; at semifinal level, patience can matter more than systems.",
-          "xiaziQuote": "半决赛拼的不只是技术，而是谁能把节奏、体能和情绪都留到最后一次正确决定。",
-          "doudouQuote": "休赛日没有进球，但教练的白板大概已经踢满了九十分钟。",
-          "footerTakeaway": "今日关键词：世界杯日报。"
-        },
-        "en-US": {
-          "categoryLabel": "World Cup",
-          "headlineFact": "The World Cup pauses for a day before France face Spain for the first final berth",
-          "headlineView": "at semifinal level, patience can matter more than systems.",
-          "headlineFull": "The World Cup pauses for a day before France face Spain for the first final berth; at semifinal level, patience can matter more than systems.",
-          "intro": "No World Cup match finished between 05:00 Beijing time on July 13 and 05:00 on July 14. France face Spain at 03:00 on July 15, followed by England against Argentina at 03:00 on July 16. France's pace meets Spain's midfield control, while Lionel Messi prepares for his first competitive meeting with England.",
-          "xiaziQuote": "Semifinals are not only technical contests; the decisive edge is saving rhythm, energy and composure for the last correct choice.",
-          "doudouQuote": "No goals on the rest day, but the coaches' whiteboards have probably already played 90 minutes.",
-          "footerTakeaway": "Keyword: World Cup."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-14-02-1",
-          "topicId": "topic-2026-07-14-02",
-          "title": "The World Cup pauses for a day before France face Spain for the first final berth",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/sports/soccer/spain-bank-midfield-control-contain-french-fab-four-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-14-03",
-      "issueId": "issue-2026-07-14",
-      "slug": "us-iran-hormuz-blockade-fee",
-      "rank": 3,
-      "category": "international",
-      "region": "Middle East",
-      "countryCodes": [
-        "US",
-        "IR",
-        "OM"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 98,
-      "storyId": "xzs-us-iran-hormuz-escalation-july13-20260713",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "美伊冲突",
-          "headlineFact": "美国宣布恢复对伊朗航运封锁，并提出收取20%货运费用",
-          "headlineView": "当海峡变成收费站，全球能源运输就不再只是一门生意。",
-          "headlineFull": "美国宣布恢复对伊朗航运封锁，并提出收取20%货运费用；当海峡变成收费站，全球能源运输就不再只是一门生意。",
-          "intro": "美国与伊朗再次交换导弹和无人机攻击后，特朗普宣布恢复对伊朗港口及航运的封锁，并提出由美国保障霍尔木兹海峡开放，同时向通过海峡的货运收取20%费用。伊朗表示美国无权决定海峡未来，国际海事机构也质疑强制收费的法律依据。紧张升级一度推动油价上涨超过9%。\n\nEnglish Title:\nThe United States restores its shipping blockade on Iran and proposes a 20% cargo fee; when a strait becomes a toll booth, energy transport stops being ordinary business.",
-          "xiaziQuote": "能源通道一旦被武器化，最先收到战争账单的，往往是全球普通消费者。",
-          "doudouQuote": "海峡一变收费站，油价就先把账单寄到全世界。",
-          "footerTakeaway": "今日关键词：美伊冲突。"
-        },
-        "en-US": {
-          "categoryLabel": "U.S.-Iran",
-          "headlineFact": "The United States restores its shipping blockade on Iran and proposes a 20% cargo fee",
-          "headlineView": "when a strait becomes a toll booth, energy transport stops being ordinary business.",
-          "headlineFull": "The United States restores its shipping blockade on Iran and proposes a 20% cargo fee; when a strait becomes a toll booth, energy transport stops being ordinary business.",
-          "intro": "After renewed missile and drone exchanges, President Trump announced the restoration of a blockade on Iranian ports and shipping, while proposing that U.S.-protected cargo passing through the Strait of Hormuz pay a 20% fee. Iran rejected Washington's authority over the waterway, and the escalation sent oil prices sharply higher.",
-          "xiaziQuote": "Once an energy corridor is weaponised, ordinary consumers around the world receive the first bill.",
-          "doudouQuote": "Turn a strait into a toll booth and oil prices mail the invoice worldwide.",
-          "footerTakeaway": "Keyword: U.S.-Iran."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-14-03-1",
-          "topicId": "topic-2026-07-14-03",
-          "title": "The United States restores its shipping blockade on Iran and proposes a 20% cargo fee",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/middle-east/iran-escalates-attacks-us-bases-gulf-states-warns-more-incidents-strait-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-14-04",
-      "issueId": "issue-2026-07-14",
-      "slug": "ukraine-government-reshuffle",
-      "rank": 4,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "UA",
-        "RU"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "xzs-ukraine-government-reshuffle-20260714",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "乌克兰政府改组",
-          "headlineFact": "泽连斯基突然撤换总理，乌克兰准备组建新政府",
-          "headlineView": "战争越持久，领导层越需要在稳定与变化之间冒险。",
-          "headlineFull": "泽连斯基突然撤换总理，乌克兰准备组建新政府；战争越持久，领导层越需要在稳定与变化之间冒险。",
-          "intro": "泽连斯基宣布撤换任职约一年的总理尤利娅·斯维里登科，乌克兰议会最快本周开始审议新政府人选。乌克兰国家油气公司负责人、能源部长和国防部长均被视为可能继任者。泽连斯基称改组是为了更新政府、加强能源安全、争取更多防空系统并推进加入欧盟。\n\nEnglish Title:\nZelenskiy dismisses Ukraine's prime minister and prepares a new government; the longer a war lasts, the harder it is to balance stability with change.",
-          "xiaziQuote": "战时换人不难，难的是新的人必须马上接住旧的问题。",
-          "doudouQuote": "和平时期有交接期，战时新班子上岗就得直接接急单。",
-          "footerTakeaway": "今日关键词：乌克兰政府改组。"
-        },
-        "en-US": {
-          "categoryLabel": "Ukraine Government",
-          "headlineFact": "Zelenskiy dismisses Ukraine's prime minister and prepares a new government",
-          "headlineView": "the longer a war lasts, the harder it is to balance stability with change.",
-          "headlineFull": "Zelenskiy dismisses Ukraine's prime minister and prepares a new government; the longer a war lasts, the harder it is to balance stability with change.",
-          "intro": "President Volodymyr Zelenskiy dismissed Prime Minister Yulia Svyrydenko after roughly a year in office, opening the way for parliament to consider a new wartime government. The reshuffle is intended to strengthen energy security, speed air-defense support and advance Ukraine's European Union ambitions, but it also risks management disruption.",
-          "xiaziQuote": "Changing people in wartime is easy; the hard part is making the new team carry old problems immediately.",
-          "doudouQuote": "In peacetime there is a handover. In wartime, the new cabinet starts with an urgent ticket.",
-          "footerTakeaway": "Keyword: Russia-Ukraine."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-14-04-1",
-          "topicId": "topic-2026-07-14-04",
-          "title": "Zelenskiy dismisses Ukraine's prime minister and prepares a new government",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/europe/ukraine-awaits-new-government-after-prime-ministers-shock-dismissal-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-14-05",
-      "issueId": "issue-2026-07-14",
-      "slug": "europe-wildfires-paris-spain",
-      "rank": 5,
-      "category": "climate",
-      "region": "East Asia",
-      "countryCodes": [
-        "CN",
-        "TW",
-        "JP",
-        "PH"
+        "ES",
+        "FR"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 95,
-      "storyId": "xzs-europe-wildfires-paris-spain-20260714",
+      "storyId": "xzs-world-cup-spain-france-semifinal-20260715",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "欧洲山火",
-          "headlineFact": "巴黎附近森林突发大火，西班牙山火死亡人数升至13人",
-          "headlineView": "极端高温正在把欧洲熟悉的夏天变成长期应急状态。",
-          "headlineFull": "巴黎附近森林突发大火，西班牙山火死亡人数升至13人；极端高温正在把欧洲熟悉的夏天变成长期应急状态。",
-          "intro": "法国枫丹白露附近森林发生快速蔓延的大火，迫使A6高速公路和部分铁路暂停运行，最多约800人撤离。法国首次在巴黎大区部署大型水上灭火飞机。西班牙阿尔梅里亚山火死亡人数升至13人，另有10人失踪；法国约2600万人处于最高级别高温警报之下。\n\nEnglish Title:\nA wildfire erupts near Paris as Spain's fire death toll reaches 13; extreme heat is turning Europe's familiar summer into a prolonged emergency.",
-          "xiaziQuote": "当高温同时影响交通、电力、农业和生命安全，它就不再只是天气。",
-          "doudouQuote": "夏天不该是一张全年有效的应急响应单。",
-          "footerTakeaway": "今日关键词：欧洲山火。"
+          "categoryLabel": "世界杯日报",
+          "headlineFact": "西班牙2:0淘汰法国率先晋级决赛",
+          "headlineView": "真正成熟的强队，不一定制造最多机会，却能把关键机会变成结果。",
+          "headlineFull": "西班牙2:0淘汰法国率先晋级决赛；真正成熟的强队，不一定制造最多机会，却能把关键机会变成结果。",
+          "intro": "北京时间7月14日05:00至7月15日05:00，世界杯共结束1场比赛：法国 0:2 西班牙。西班牙在第22分钟由奥亚萨瓦尔罚入点球，第58分钟波罗完成第二粒进球。西班牙此后守住优势，队史第二次闯入世界杯决赛，也是自2010年夺冠后首次回到决赛舞台。窗口内没有其他世界杯比赛完赛。",
+          "xiaziQuote": "淘汰赛不奖励纸面实力，只奖励能在九十分钟里把优势兑现的人。",
+          "doudouQuote": "两次射中最关键的位置，就足以把通往决赛的大门推开。",
+          "footerTakeaway": "今日关键词：世界杯日报。"
         },
         "en-US": {
-          "categoryLabel": "European Wildfires",
-          "headlineFact": "A wildfire erupts near Paris as Spain's fire death toll reaches 13",
-          "headlineView": "extreme heat is turning Europe's familiar summer into a prolonged emergency.",
-          "headlineFull": "A wildfire erupts near Paris as Spain's fire death toll reaches 13; extreme heat is turning Europe's familiar summer into a prolonged emergency.",
-          "intro": "A fast-moving wildfire near Fontainebleau forced closures on the A6 motorway and rail lines and led to the evacuation of up to 800 people. France deployed large water-bombing aircraft in the Paris region for the first time. In Spain, the Almeria wildfire death toll rose to 13, with ten people still missing.",
-          "xiaziQuote": "When heat disrupts transport, power, agriculture and life at once, it is no longer just weather.",
-          "doudouQuote": "Summer should not become a year-round emergency response order.",
-          "footerTakeaway": "Keyword: Typhoon Bavi."
+          "categoryLabel": "World Cup Daily",
+          "headlineFact": "Spain eliminates France 2–0 to reach the final",
+          "headlineView": "mature teams do not always create the most chances, but they turn decisive chances into results.",
+          "headlineFull": "Spain eliminates France 2–0 to reach the final; mature teams do not always create the most chances, but they turn decisive chances into results.",
+          "intro": "Only one World Cup match was completed between 05:00 on July 14 and 05:00 on July 15, Beijing time: Spain’s 2–0 semifinal victory over France. Mikel Oyarzabal converted a 22nd-minute penalty and Pedro Porro doubled the lead in the 58th minute. Spain then protected its advantage to reach its second World Cup final and its first since winning the tournament in 2010.",
+          "xiaziQuote": "Knockout football does not reward reputation. It rewards the team that converts superiority within 90 minutes.",
+          "doudouQuote": "Two finishes in the moments that mattered were enough to push open the door to the final.",
+          "footerTakeaway": "Keyword: World Cup Daily."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-14-05-1",
-          "topicId": "topic-2026-07-14-05",
-          "title": "A wildfire erupts near Paris as Spain's fire death toll reaches 13",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/environment/france-sends-water-bombers-tackle-wildfire-outside-paris-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
+          "id": "source-2026-07-15-02-1",
+          "topicId": "topic-2026-07-15-02",
+          "title": "Spain eliminates France 2–0 to reach the final",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/87fb7740fa552edf4bfd28d0e8727c23",
+          "publishedAt": "2026-07-14T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -297,54 +124,55 @@
       ]
     },
     {
-      "id": "topic-2026-07-14-06",
-      "issueId": "issue-2026-07-14",
-      "slug": "northern-china-floods-bavi",
-      "rank": 6,
-      "category": "climate",
-      "region": "South Asia",
+      "id": "topic-2026-07-15-03",
+      "issueId": "issue-2026-07-15",
+      "slug": "ai-frontier-standards-body",
+      "rank": 3,
+      "category": "technology",
+      "region": "Global",
       "countryCodes": [
-        "BD"
+        "US",
+        "GB"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-northern-china-floods-20260714",
+      "scoreTotal": 95,
+      "storyId": "xzs-ai-frontier-standards-body-20260715",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "中国北方洪水",
-          "headlineFact": "台风“巴威”残余水汽北上，中国北方多地严重积水",
-          "headlineView": "台风登陆结束，不代表灾害也已经结束。",
-          "headlineFull": "台风“巴威”残余水汽北上，中国北方多地严重积水；台风登陆结束，不代表灾害也已经结束。",
-          "intro": "河北、辽宁等地遭遇严重洪水，河北宽城部分道路水深超过两米，车辆被洪水冲走，约1800名村民一度受困。沈阳多条铁路线路暂停运行，吉林等地关闭部分学校。“巴威”登陆后仍继续向北输送强降雨，全国已有46条河流超过警戒水位。\n\nEnglish Title:\nTyphoon Bavi's residual moisture triggers severe flooding across northern China; landfall ending does not mean the disaster has ended.",
-          "xiaziQuote": "真正考验城市韧性的，不是风最大的时候，而是水开始进入道路、社区和交通系统之后。",
-          "doudouQuote": "台风下班了，积水和抢修还在加班。",
-          "footerTakeaway": "今日关键词：中国北方洪水。"
+          "categoryLabel": "人工智能",
+          "headlineFact": "谷歌深度思维负责人提议建立全球前沿模型测试机构",
+          "headlineView": "人工智能竞赛正在从“谁发布得快”，转向“谁有资格允许它发布”。",
+          "headlineFull": "谷歌深度思维负责人提议建立全球前沿模型测试机构；人工智能竞赛正在从“谁发布得快”，转向“谁有资格允许它发布”。",
+          "intro": "谷歌深度思维负责人德米斯·哈萨比斯公开提出，由美国牵头建立一个全球性的前沿人工智能监管和测试机构，在最先进模型公开部署前，对网络安全、生物安全及其他国家安全风险进行压力测试。其设想类似金融业自律监管机构，由行业出资、顶尖技术专家参与并接受政府监督；若发现严重风险，可要求开发者延迟发布或协调放慢进度。",
+          "xiaziQuote": "真正危险的不是人工智能太聪明，而是发布速度已经超过了社会建立规则的速度。",
+          "doudouQuote": "以后最厉害的产品发布会，可能先要通过一场比考试还严格的安全测试。",
+          "footerTakeaway": "今日关键词：人工智能。"
         },
         "en-US": {
-          "categoryLabel": "North China Floods",
-          "headlineFact": "Typhoon Bavi's residual moisture triggers severe flooding across northern China",
-          "headlineView": "landfall ending does not mean the disaster has ended.",
-          "headlineFull": "Typhoon Bavi's residual moisture triggers severe flooding across northern China; landfall ending does not mean the disaster has ended.",
-          "intro": "Flooding hit Hebei, Liaoning and other northern regions, with water more than two metres deep on some roads in Kuancheng and about 1,800 villagers temporarily stranded. Rail services were suspended around Shenyang and schools closed in parts of Jilin. Authorities said 46 rivers nationwide had exceeded warning levels.",
-          "xiaziQuote": "Urban resilience is tested after the strongest wind, when water enters roads, homes and transport systems.",
-          "doudouQuote": "The typhoon clocked out, but flooding and repairs are still working overtime.",
-          "footerTakeaway": "Keyword: Bangladesh Floods."
+          "categoryLabel": "Artificial Intelligence",
+          "headlineFact": "Google DeepMind’s chief proposes a global testing body for frontier models",
+          "headlineView": "the AI race is shifting from who can release fastest to who has the authority to approve a release.",
+          "headlineFull": "Google DeepMind’s chief proposes a global testing body for frontier models; the AI race is shifting from who can release fastest to who has the authority to approve a release.",
+          "intro": "Google DeepMind CEO Demis Hassabis proposed a U.S.-led international body to test the most advanced AI models before deployment, examining cybersecurity, biological and other national-security risks. The industry-funded, government-overseen body could recommend delaying a release or coordinating a slowdown when serious dangers emerge.",
+          "xiaziQuote": "The danger is not simply that AI is becoming smarter. It is that release cycles are moving faster than society can build rules.",
+          "doudouQuote": "The most powerful product launches of the future may first have to pass the world’s toughest safety examination.",
+          "footerTakeaway": "Keyword: Artificial Intelligence."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-14-06-1",
-          "topicId": "topic-2026-07-14-06",
-          "title": "Typhoon Bavi's residual moisture triggers severe flooding across northern China",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/environment/heavy-floods-submerge-roads-vehicles-northern-china-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
-          "sourceType": "wire",
+          "id": "source-2026-07-15-03-1",
+          "topicId": "topic-2026-07-15-03",
+          "title": "Google DeepMind’s chief proposes a global testing body for frontier models",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind",
+          "publishedAt": "2026-07-14T00:00:00Z",
+          "sourceType": "report",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -352,53 +180,53 @@
       ]
     },
     {
-      "id": "topic-2026-07-14-07",
-      "issueId": "issue-2026-07-14",
-      "slug": "congo-ebola-two-provinces",
-      "rank": 7,
-      "category": "international",
-      "region": "Global",
+      "id": "topic-2026-07-15-04",
+      "issueId": "issue-2026-07-15",
+      "slug": "opc-ai-main-street-hearing",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
       "countryCodes": [
         "US"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "congo_ebola_france_case_2026",
-      "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 92,
+      "scoreTotal": 95,
+      "storyId": "xzs-opc-ai-main-street-hearing-20260715",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "埃博拉疫情",
-          "headlineFact": "刚果（金）埃博拉疫情扩散至另外两个省份，确诊病例升至1926例",
-          "headlineView": "疫情追踪不上病例时，地图上的边界会迅速失去意义。",
-          "headlineFull": "刚果（金）埃博拉疫情扩散至另外两个省份，确诊病例升至1926例；疫情追踪不上病例时，地图上的边界会迅速失去意义。",
-          "intro": "刚果（金）公共卫生机构确认，埃博拉疫情已经扩散至上韦莱省和乔波省，全国累计确诊病例升至1926例，其中702人死亡。世界卫生组织官员警告，真实感染规模可能达到官方数字的两至四倍，因为大量新增病例无法找到与已知患者之间的传播联系。\n\nEnglish Title:\nCongo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926; when tracing falls behind, borders on a map lose meaning quickly.",
-          "xiaziQuote": "疫情最危险的信号，不只是病例增加，而是越来越多病例无法找到源头。",
-          "doudouQuote": "病例跑得比追踪快，地图上的省界就只剩装饰线。",
-          "footerTakeaway": "今日关键词：埃博拉疫情。"
+          "categoryLabel": "一人公司",
+          "headlineFact": "美国国会举行人工智能与小企业专题听证会",
+          "headlineView": "一人公司正在从个人效率实验，变成需要培训、融资与政策支持的新型商业基础设施。",
+          "headlineFull": "美国国会举行人工智能与小企业专题听证会；一人公司正在从个人效率实验，变成需要培训、融资与政策支持的新型商业基础设施。",
+          "intro": "美国众议院小企业委员会举行专题听证会，讨论人工智能如何改变小企业经营、竞争力和经济机会。听证会关注客服、库存管理、网络安全和文书自动化，也讨论成本、数据安全、学习门槛和监管不确定性。对一人公司而言，竞争重点正升级为能否把多个智能工具组合成稳定的获客、交付、客服与财务工作流。",
+          "xiaziQuote": "一人公司真正的护城河不是工具数量，而是把自己的经验固化成一套可以重复运行的系统。",
+          "doudouQuote": "一个人加上一群智能助手，不代表不用管理，而是要学会管理一支看不见的团队。",
+          "footerTakeaway": "今日关键词：一人公司。"
         },
         "en-US": {
-          "categoryLabel": "Ebola Outbreak",
-          "headlineFact": "Congo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926",
-          "headlineView": "when tracing falls behind, borders on a map lose meaning quickly.",
-          "headlineFull": "Congo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926; when tracing falls behind, borders on a map lose meaning quickly.",
-          "intro": "Health authorities in the Democratic Republic of Congo confirmed that the Ebola outbreak had spread to Haut-Uele and Tshopo provinces. Confirmed cases reached 1,926, including 702 deaths. WHO officials warned the true infection count could be two to four times higher because many new cases have no known epidemiological link.",
-          "xiaziQuote": "The most dangerous outbreak signal is not only more cases, but more cases whose source cannot be found.",
-          "doudouQuote": "When cases outrun contact tracing, provincial borders become decorative lines.",
-          "footerTakeaway": "Keyword: AI and Privacy."
+          "categoryLabel": "One-Person Company",
+          "headlineFact": "The U.S. Congress holds a hearing on AI and small business",
+          "headlineView": "one-person companies are moving from personal productivity experiments toward a new form of business infrastructure.",
+          "headlineFull": "The U.S. Congress holds a hearing on AI and small business; one-person companies are moving from personal productivity experiments toward a new form of business infrastructure.",
+          "intro": "The U.S. House Committee on Small Business examined how AI is changing operations, competitiveness and economic opportunity. The discussion covered customer service, inventory management, cybersecurity and administrative automation, alongside cost, data, skills and regulatory uncertainty. For solo companies, the strategic question is how to connect multiple AI tools into dependable sales, delivery, support and financial workflows.",
+          "xiaziQuote": "A one-person company’s real moat is not the number of tools it uses, but the system that turns personal expertise into repeatable delivery.",
+          "doudouQuote": "One person with many AI assistants still needs management skills—it is simply a team that cannot be seen.",
+          "footerTakeaway": "Keyword: One-Person Company."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-14-07-1",
-          "topicId": "topic-2026-07-14-07",
-          "title": "Congo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-outbreak-spreads-two-more-provinces-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
+          "id": "source-2026-07-15-04-1",
+          "topicId": "topic-2026-07-15-04",
+          "title": "The U.S. Congress holds a hearing on AI and small business",
+          "publisher": "U.S. House Committee on Small Business",
+          "url": "https://smallbusiness.house.gov/news/documentsingle.aspx?DocumentID=407478",
+          "publishedAt": "2026-07-14T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -407,53 +235,219 @@
       ]
     },
     {
-      "id": "topic-2026-07-14-08",
-      "issueId": "issue-2026-07-14",
-      "slug": "ai-economic-transition-warning",
+      "id": "topic-2026-07-15-05",
+      "issueId": "issue-2026-07-15",
+      "slug": "us-iran-hormuz-blockade",
+      "rank": 5,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-us-iran-hormuz-blockade-20260715",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中东局势",
+          "headlineFact": "美伊再次互相发动袭击，美国恢复对伊朗港口的海上封锁",
+          "headlineView": "霍尔木兹海峡正从能源通道变成全球经济的收费站与火药桶。",
+          "headlineFull": "美伊再次互相发动袭击，美国恢复对伊朗港口的海上封锁；霍尔木兹海峡正从能源通道变成全球经济的收费站与火药桶。",
+          "intro": "美国再次对伊朗发动军事打击，伊朗以导弹和无人机回应，地区冲突重新升级。美国恢复针对伊朗港口的海上封锁，但特朗普随后淡化此前向过往船只收取安全费用的提议。市场担忧中东原油运输进一步受影响，国际油价上涨约2%，达到近一个月高位。",
+          "xiaziQuote": "全球化最昂贵的时刻，就是一条所有人都依赖的航道，突然变成少数人的谈判筹码。",
+          "doudouQuote": "海峡没有变窄，但冲突让每一艘船的路都变得更贵了。",
+          "footerTakeaway": "今日关键词：中东局势。"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East",
+          "headlineFact": "The United States and Iran exchange new attacks as Washington restores its blockade of Iranian ports",
+          "headlineView": "the Strait of Hormuz is becoming both a global tollgate and a flashpoint.",
+          "headlineFull": "The United States and Iran exchange new attacks as Washington restores its blockade of Iranian ports; the Strait of Hormuz is becoming both a global tollgate and a flashpoint.",
+          "intro": "The United States carried out new strikes against Iran, while Tehran responded with missiles and drones. Washington restored a naval blockade of Iranian ports, although President Trump stepped back from an earlier proposal to charge vessels for protected passage. Oil rose about 2% to a one-month high as markets assessed possible disruptions.",
+          "xiaziQuote": "Globalization becomes most expensive when a route everyone depends on becomes bargaining power for a few.",
+          "doudouQuote": "The strait has not become narrower, but conflict has made every journey through it more expensive.",
+          "footerTakeaway": "Keyword: Middle East."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-15-05-1",
+          "topicId": "topic-2026-07-15-05",
+          "title": "The United States and Iran exchange new attacks as Washington restores its blockade of Iranian ports",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/abd060c55feea216625689e57d8f76be",
+          "publishedAt": "2026-07-14T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-15-06",
+      "issueId": "issue-2026-07-15",
+      "slug": "typhoon-bavi-northeast-china",
+      "rank": 6,
+      "category": "climate",
+      "region": "Asia",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-typhoon-bavi-northeast-china-20260715",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "极端天气",
+          "headlineFact": "台风巴威造成中国东北严重洪灾，超过26万人紧急转移",
+          "headlineView": "极端天气真正考验的，不是预报能力，而是城市能否在预报之后迅速行动。",
+          "headlineFull": "台风巴威造成中国东北严重洪灾，超过26万人紧急转移；极端天气真正考验的，不是预报能力，而是城市能否在预报之后迅速行动。",
+          "intro": "台风巴威携带大量水汽进入中国东北，辽宁省超过26万人被转移。沈阳、吉林等地出现严重积水和交通中断，学校及培训机构暂停上课，部分公共设施被洪水冲走。随着风暴移动速度下降并向朝鲜半岛方向移动，部分地区仍面临持续强降雨和次生灾害风险。",
+          "xiaziQuote": "灾害的强度由自然决定，伤害的大小却往往取决于基础设施和响应速度。",
+          "doudouQuote": "预报告诉你雨要来，真正救人的，是提前转移、停课和关闭危险道路。",
+          "footerTakeaway": "今日关键词：极端天气。"
+        },
+        "en-US": {
+          "categoryLabel": "Extreme Weather",
+          "headlineFact": "Typhoon Bavi brings severe flooding to northeastern China and forces more than 260,000 people to evacuate",
+          "headlineView": "the real test is whether cities can act after receiving a warning.",
+          "headlineFull": "Typhoon Bavi brings severe flooding to northeastern China and forces more than 260,000 people to evacuate; the real test is whether cities can act after receiving a warning.",
+          "intro": "Typhoon Bavi carried tropical moisture into northeastern China, forcing more than 260,000 people to leave their homes in Liaoning. Flooding disrupted transport and suspended classes. As the storm slows and moves toward the Korean Peninsula, prolonged rainfall and secondary disasters remain a concern.",
+          "xiaziQuote": "Nature determines the strength of a storm, but infrastructure and response speed often determine the scale of the damage.",
+          "doudouQuote": "Forecasts tell people that rain is coming. Evacuations, school closures and blocked roads are what save lives.",
+          "footerTakeaway": "Keyword: Extreme Weather."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-15-06-1",
+          "topicId": "topic-2026-07-15-06",
+          "title": "Typhoon Bavi brings severe flooding to northeastern China and forces more than 260,000 people to evacuate",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/environment/more-than-260000-evacuated-typhoon-bavi-brings-severe-floods-2026-07-14/",
+          "publishedAt": "2026-07-14T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-15-07",
+      "issueId": "issue-2026-07-15",
+      "slug": "libya-migrant-boat",
+      "rank": 7,
+      "category": "humanitarian",
+      "region": "Africa",
+      "countryCodes": [
+        "LY"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-libya-migrant-boat-20260715",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "移民危机",
+          "headlineFact": "移民船在利比亚附近海域倾覆，约50人恐已失踪",
+          "headlineView": "当合法迁徙通道被堵住，大海就会成为最残酷的中介。",
+          "headlineFull": "移民船在利比亚附近海域倾覆，约50人恐已失踪；当合法迁徙通道被堵住，大海就会成为最残酷的中介。",
+          "intro": "一艘载有移民的木船在利比亚东部海岸附近倾覆。当地安全部门称，救援人员在靠近巴尔达岛的海域救起10名幸存者，但约50人，包括妇女和儿童，仍然下落不明，恐已葬身海中。地中海移民路线长期受到走私网络、超载船只、天气变化和救援资源不足影响。",
+          "xiaziQuote": "人不会因为喜欢危险而登上破船，他们只是认为留下来的风险更大。",
+          "doudouQuote": "新闻里的“失踪人数”，在另一个家庭里，可能就是再也等不到的人。",
+          "footerTakeaway": "今日关键词：移民危机。"
+        },
+        "en-US": {
+          "categoryLabel": "Migration Crisis",
+          "headlineFact": "A migrant boat capsizes off Libya, with about 50 people feared missing",
+          "headlineView": "when legal routes close, the sea becomes the cruelest intermediary.",
+          "headlineFull": "A migrant boat capsizes off Libya, with about 50 people feared missing; when legal routes close, the sea becomes the cruelest intermediary.",
+          "intro": "A wooden vessel carrying migrants capsized off Libya’s eastern coast. Rescuers found 10 survivors near El-Bardaa Island, while roughly 50 others—including women and children—remained missing and were feared dead. Mediterranean routes continue to expose passengers to overcrowding, trafficking, changing weather and limited rescue capacity.",
+          "xiaziQuote": "People do not board unsafe boats because they enjoy danger. They do it because staying appears even more dangerous.",
+          "doudouQuote": "A missing-person figure in a headline may be someone another family will wait for forever.",
+          "footerTakeaway": "Keyword: Migration Crisis."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-15-07-1",
+          "topicId": "topic-2026-07-15-07",
+          "title": "A migrant boat capsizes off Libya, with about 50 people feared missing",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/africa/fifty-migrants-feared-lost-mediterranean-10-survive-after-boat-capsizes-security-2026-07-14/",
+          "publishedAt": "2026-07-14T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-15-08",
+      "issueId": "issue-2026-07-15",
+      "slug": "china-june-trade",
       "rank": 8,
-      "category": "technology",
-      "region": "Southeast Asia",
+      "category": "business",
+      "region": "Asia",
       "countryCodes": [
-        "ID"
+        "CN"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-ai-economic-transition-20260714",
+      "scoreTotal": 95,
+      "storyId": "xzs-china-june-trade-20260715",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI经济冲击",
-          "headlineFact": "超过200名专家呼吁立即准备AI经济转型",
-          "headlineView": "工业革命给了人类几十年，AI可能只给我们几年。",
-          "headlineFull": "超过200名专家呼吁立即准备AI经济转型；工业革命给了人类几十年，AI可能只给我们几年。",
-          "intro": "超过200名经济学家和研究人员联合发表声明，签署者包括15名诺贝尔奖得主，以及来自OpenAI、Anthropic和Google的研究人员及高管。他们认为AI可能在远短于工业革命的时间内带来更大规模的经济重构，各国应提前建立新的劳动、教育与社会保障政策。\n\nEnglish Title:\nMore than 200 experts call for immediate preparation for an AI economic transition; industrialisation gave society decades, while AI may offer only years.",
-          "xiaziQuote": "AI真正的问题不是会不会改变工作，而是社会能不能比变化更早做好准备。",
-          "doudouQuote": "技术按快进键，政策可别还在看缓冲圈。",
-          "footerTakeaway": "今日关键词：AI经济冲击。"
+          "categoryLabel": "全球贸易",
+          "headlineFact": "中国6月出口同比增长27%，进口增长36%",
+          "headlineView": "贸易数字越亮眼，越需要分清增长来自真实需求、价格上涨，还是提前备货。",
+          "headlineFull": "中国6月出口同比增长27%，进口增长36%；贸易数字越亮眼，越需要分清增长来自真实需求、价格上涨，还是提前备货。",
+          "intro": "中国海关公布的美元计价数据显示，6月出口同比增长27%，高于市场预期和5月增速；进口同比增长36%，月度贸易顺差扩大至约1256亿美元。上半年中国货物贸易总额同比增长16.9%，首次在同期突破25万亿元人民币；外部贸易壁垒、能源价格和国内需求将决定增速能否持续。",
+          "xiaziQuote": "出口增长证明制造能力仍然强大，但真正健康的经济不能只依靠别人不断下单。",
+          "doudouQuote": "订单变多是好消息，钱包愿不愿意在国内打开，同样重要。",
+          "footerTakeaway": "今日关键词：全球贸易。"
         },
         "en-US": {
-          "categoryLabel": "AI Economy",
-          "headlineFact": "More than 200 experts call for immediate preparation for an AI economic transition",
-          "headlineView": "industrialisation gave society decades, while AI may offer only years.",
-          "headlineFull": "More than 200 experts call for immediate preparation for an AI economic transition; industrialisation gave society decades, while AI may offer only years.",
-          "intro": "More than 200 economists and researchers, including 15 Nobel laureates and people from OpenAI, Anthropic and Google, signed a statement urging governments to prepare now for AI-driven economic disruption. They warned that changes to jobs, wealth distribution and public institutions could arrive much faster than during the Industrial Revolution.",
-          "xiaziQuote": "The real AI question is not whether work will change, but whether society can prepare before the change arrives.",
-          "doudouQuote": "Technology pressed fast-forward; policy should stop staring at the loading wheel.",
-          "footerTakeaway": "Keyword: Indonesia Anti-Graft."
+          "categoryLabel": "Global Trade",
+          "headlineFact": "China’s June exports rise 27% and imports increase 36%",
+          "headlineView": "strong trade figures still need to be separated into real demand, higher prices and advance purchasing.",
+          "headlineFull": "China’s June exports rise 27% and imports increase 36%; strong trade figures still need to be separated into real demand, higher prices and advance purchasing.",
+          "intro": "Chinese customs data showed dollar-denominated exports rising 27% year on year in June and imports increasing 36%, while the trade surplus widened to about $125.6 billion. First-half goods trade increased 16.9%, exceeding 25 trillion yuan for the first time in the same reporting period.",
+          "xiaziQuote": "Export growth demonstrates manufacturing strength, but a healthy economy cannot rely only on other countries continuing to place orders.",
+          "doudouQuote": "More orders are good news. Whether consumers at home are willing to open their wallets matters just as much.",
+          "footerTakeaway": "Keyword: Global Trade."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-14-08-1",
-          "topicId": "topic-2026-07-14-08",
-          "title": "More than 200 experts call for immediate preparation for an AI economic transition",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/over-200-experts-call-urgent-action-tackle-ais-economic-impact-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
+          "id": "source-2026-07-15-08-1",
+          "topicId": "topic-2026-07-15-08",
+          "title": "China’s June exports rise 27% and imports increase 36%",
+          "publisher": "State Council of China",
+          "url": "https://english.www.gov.cn/archive/statistics/202607/14/content_WS6a55c183c6d00ca5f9a0c2da.html",
+          "publishedAt": "2026-07-14T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -462,54 +456,54 @@
       ]
     },
     {
-      "id": "topic-2026-07-14-09",
-      "issueId": "issue-2026-07-14",
-      "slug": "ai-power-cost-protection",
+      "id": "topic-2026-07-15-09",
+      "issueId": "issue-2026-07-15",
+      "slug": "west-bank-34-settlements",
       "rank": 9,
-      "category": "technology",
-      "region": "Indo-Pacific",
+      "category": "international",
+      "region": "Middle East",
       "countryCodes": [
-        "IN",
-        "NZ"
+        "IL",
+        "PS"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-ai-power-cost-protection-20260714",
+      "scoreTotal": 95,
+      "storyId": "xzs-west-bank-34-settlements-20260715",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI电力成本",
-          "headlineFact": "美国准备扩大“AI电费保护承诺”",
-          "headlineView": "科技公司建设数据中心，不能让普通家庭替它们支付电网升级费用。",
-          "headlineFull": "美国准备扩大“AI电费保护承诺”；科技公司建设数据中心，不能让普通家庭替它们支付电网升级费用。",
-          "intro": "白宫计划召集电力公司、数据中心开发商和地方政府，推动一项自愿承诺，防止AI基础设施快速扩张推高家庭和中小企业电费。Amazon、Google、Meta、Microsoft、OpenAI、Oracle和xAI此前已承诺，为其数据中心所需的新发电设施、电网升级和预留容量承担相应成本。\n\nEnglish Title:\nThe United States moves to expand an AI power-bill protection pledge; households should not fund grid upgrades built for technology companies' data centres.",
-          "xiaziQuote": "AI的成本不只写在芯片账单上，也写在每一根电缆和每个月的电费单里。",
-          "doudouQuote": "模型住进大机房，电费单别寄到普通人家里。",
-          "footerTakeaway": "今日关键词：AI电力成本。"
+          "categoryLabel": "巴以局势",
+          "headlineFact": "以色列批准为约旦河西岸34个新定居点拨款",
+          "headlineView": "地图上的每一次扩张，都会让未来谈判桌上的空间更小。",
+          "headlineFull": "以色列批准为约旦河西岸34个新定居点拨款；地图上的每一次扩张，都会让未来谈判桌上的空间更小。",
+          "intro": "以色列安全内阁批准约13亿谢克尔资金，用于在约旦河西岸建设34个新定居点，并计划追加道路等基础设施投入。以色列财政部长称，这些项目将使其任期内推动建立的定居点总数达到103个。联合国、巴勒斯坦方面及多数国家认为相关定居点违反国际法并阻碍“两国方案”，以色列政府对此持不同立场。",
+          "xiaziQuote": "和平谈判最怕的不是双方暂时不说话，而是一方不断改变谈判对象本身。",
+          "doudouQuote": "土地不会在新闻里移动，但道路、房屋和围栏会让地图一天一天变得不同。",
+          "footerTakeaway": "今日关键词：巴以局势。"
         },
         "en-US": {
-          "categoryLabel": "AI Power Costs",
-          "headlineFact": "The United States moves to expand an AI power-bill protection pledge",
-          "headlineView": "households should not fund grid upgrades built for technology companies' data centres.",
-          "headlineFull": "The United States moves to expand an AI power-bill protection pledge; households should not fund grid upgrades built for technology companies' data centres.",
-          "intro": "The White House plans to bring together utilities, data-centre developers and local governments to prevent rapid AI infrastructure growth from raising household and small-business power bills. Major technology companies have pledged to cover the generation, grid upgrades and reserved capacity required by their data centres.",
-          "xiaziQuote": "AI costs are written not only on chip invoices, but in every cable and monthly power bill.",
-          "doudouQuote": "If models move into giant data centres, do not send the electricity bill to ordinary homes.",
-          "footerTakeaway": "Keyword: Indo-Pacific."
+          "categoryLabel": "Israel-Palestine",
+          "headlineFact": "Israel approves funding for 34 new West Bank settlements",
+          "headlineView": "every expansion on the map leaves less room at a future negotiating table.",
+          "headlineFull": "Israel approves funding for 34 new West Bank settlements; every expansion on the map leaves less room at a future negotiating table.",
+          "intro": "Israel’s security cabinet approved about 1.3 billion shekels for 34 new settlements in the occupied West Bank, with additional infrastructure and road funding planned. The United Nations, Palestinians and most governments consider the settlements illegal under international law and an obstacle to a two-state solution, a position disputed by Israel.",
+          "xiaziQuote": "The greatest danger to peace talks is not temporary silence, but one side continuously changing the subject of the negotiation itself.",
+          "doudouQuote": "Land does not move inside a headline, but roads, houses and barriers can change the map day by day.",
+          "footerTakeaway": "Keyword: Israel-Palestine."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-14-09-1",
-          "topicId": "topic-2026-07-14-09",
-          "title": "The United States moves to expand an AI power-bill protection pledge",
+          "id": "source-2026-07-15-09-1",
+          "topicId": "topic-2026-07-15-09",
+          "title": "Israel approves funding for 34 new West Bank settlements",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/legal/litigation/white-house-rally-utilities-data-centers-over-ai-power-costs-2026-07-13/",
-          "publishedAt": "2026-07-13T00:00:00Z",
+          "url": "https://www.reuters.com/world/middle-east/israel-allocates-434-million-34-new-west-bank-settlements-2026-07-14/",
+          "publishedAt": "2026-07-14T00:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
