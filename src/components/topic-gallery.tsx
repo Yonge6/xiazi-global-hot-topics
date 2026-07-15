@@ -8,6 +8,7 @@ import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { groupArchiveDatesByMonth } from "@/lib/issues/archive-groups";
 import { DEFAULT_POSTER_ASSET, getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
+import { PRODUCTION_ORIGIN } from "@/lib/site/domain";
 import type { Issue, Source, Topic } from "@/types/content";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -228,7 +229,7 @@ export function TopicGallery({
 
   function shareDetails(topic: Topic) {
     const content = topic.localizations[isZh ? "zh-CN" : "en-US"];
-    const url = `https://xiazishuo.com/${locale}/#${topic.slug}`;
+    const url = `${PRODUCTION_ORIGIN}/${locale}/#${topic.slug}`;
     return {
       title: content.headlineFull,
       intro: content.intro,

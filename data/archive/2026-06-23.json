@@ -14,7 +14,7 @@
       "issueId": "10000000-0000-4000-8000-000000000010",
       "slug": "overview",
       "rank": 1,
-      "category": "international",
+      "category": "overview",
       "region": "Global",
       "countryCodes": [
         "AR",
@@ -63,9 +63,9 @@
           "topicId": "20000000-0000-4000-8000-000000000073",
           "title": "Daily global news overview",
           "publisher": "Xiazi Says",
-          "url": "https://pluto.hk/zh/",
+          "url": "https://xiazishuo.com/zh/",
           "publishedAt": "2026-06-22T00:00:00Z",
-          "sourceType": "publisher",
+          "sourceType": "original",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true

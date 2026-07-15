@@ -206,6 +206,5 @@ export function getPosterAsset(
 }
 
 function posterApiPath(path: string) {
-  const origin = process.env.NEXT_PUBLIC_POSTER_API_ORIGIN?.replace(/\/$/, "");
-  return origin ? `${origin}${path}` : withBasePath(path);
+  return withBasePath(path);
 }
