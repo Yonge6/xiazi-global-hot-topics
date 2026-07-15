@@ -10,6 +10,7 @@
 
 - `https://xiazishuo.com` 是虾子曰全球热点唯一生产域名，也是每日发布、API、中文页、英文页和往期归档的唯一线上验收入口。
 - 每日生产部署只允许绑定或更新 `xiazishuo.com` 与 `www.xiazishuo.com`，不得再绑定、alias、跳转、引用或验收任何已退役的旧域名。
+- 每日发布只允许更新 `Yonge6/xiazi-global-hot-topics` 仓库与 Vercel `xiazishuo` 项目；`Yonge6/vilesaint`、Vercel `vilesaint` 项目和 `vilesaint.com` 属于独立产品，严禁由本流程读写、部署或验收。
 - 海报 API 必须使用同源相对路径，禁止通过环境变量把生产海报请求转发到另一个域名。
 - 发布完成门槛：`https://xiazishuo.com/api/content/` 显示当天 `issueDate`，`/zh/`、`/en/` 和至少一个往期归档的中英文海报全部验证通过。
 

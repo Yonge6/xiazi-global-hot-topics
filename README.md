@@ -4,6 +4,8 @@
 
 生产发布只使用 `https://xiazishuo.com`（含 `www` 跳转）；不要为本项目绑定或验收其他域名。海报 API 使用同源相对路径，避免跨域生产地址漂移。
 
+发布边界：只更新 `Yonge6/xiazi-global-hot-topics` 与 Vercel `xiazishuo` 项目。VileSaint 的仓库、Vercel 项目和域名是独立产品，不得从本项目发布链路触碰。
+
 ## 当前阶段
 
 - Next.js App Router、TypeScript strict、Tailwind CSS 4、next-intl
