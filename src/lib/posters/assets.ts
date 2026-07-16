@@ -144,6 +144,14 @@ export const POSTER_ASSET_NAMES = [
   "uk-starmer-final-pmqs",
   "pjm-grid-heat-alerts",
   "germany-energy-relief-2027",
+  "world-cup-argentina-england-semifinal",
+  "waico-29-country-ai-body",
+  "opc-altshare-solo-founders-q2",
+  "iran-houthi-red-sea-threat",
+  "ukraine-fedorov-protests-koretskyi-pm",
+  "tsmc-q2-us-investment",
+  "texas-guadalupe-flood-wave",
+  "rohingya-myanmar-shipwrecks",
 ] as const;
 
 export const posterNames: Record<string, string> = {

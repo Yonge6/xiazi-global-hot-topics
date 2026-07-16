@@ -653,14 +653,14 @@
   },
   {
     "storyId": "xzs-ukraine-government-reshuffle-20260714",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 100,
+    "storyStatus": "followup",
+    "followupDay": 2,
+    "informationIncrementScore": 92,
     "firstSeenDate": "2026-07-14",
-    "lastSeenDate": "2026-07-14",
-    "lastIssueDate": "2026-07-14",
-    "lastTopicSlug": "ukraine-government-reshuffle",
-    "slug": "ukraine-government-reshuffle"
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "ukraine-fedorov-protests-koretskyi-pm",
+    "slug": "ukraine-fedorov-protests-koretskyi-pm"
   },
   {
     "storyId": "xzs-europe-wildfires-paris-spain-20260714",
@@ -753,13 +753,13 @@
   {
     "storyId": "xzs-us-iran-hormuz-blockade-20260715",
     "storyStatus": "followup",
-    "followupDay": 2,
-    "informationIncrementScore": 99,
+    "followupDay": 3,
+    "informationIncrementScore": 98,
     "firstSeenDate": "2026-07-15",
-    "lastSeenDate": "2026-07-16",
-    "lastIssueDate": "2026-07-16",
-    "lastTopicSlug": "us-iran-blockade-strikes-july15",
-    "slug": "us-iran-blockade-strikes-july15"
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "iran-houthi-red-sea-threat",
+    "slug": "iran-houthi-red-sea-threat"
   },
   {
     "storyId": "xzs-typhoon-bavi-northeast-china-20260715",
@@ -881,5 +881,93 @@
     "lastIssueDate": "2026-07-16",
     "lastTopicSlug": "germany-energy-relief-2027",
     "slug": "germany-energy-relief-2027"
+  },
+  {
+    "storyId": "xzs-world-cup-rest-day-final-set-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 96,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "world-cup-rest-day-final-set",
+    "slug": "world-cup-rest-day-final-set"
+  },
+  {
+    "storyId": "xzs-waico-29-country-ai-body-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 94,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "waico-29-country-ai-body",
+    "slug": "waico-29-country-ai-body"
+  },
+  {
+    "storyId": "xzs-opc-altshare-solo-founders-q2-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 86,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "opc-altshare-solo-founders-q2",
+    "slug": "opc-altshare-solo-founders-q2"
+  },
+  {
+    "storyId": "xzs-tsmc-q2-us-investment-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 95,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "tsmc-q2-us-investment",
+    "slug": "tsmc-q2-us-investment"
+  },
+  {
+    "storyId": "xzs-texas-guadalupe-flood-wave-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 94,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "texas-guadalupe-flood-wave",
+    "slug": "texas-guadalupe-flood-wave"
+  },
+  {
+    "storyId": "xzs-hong-kong-bookstore-arrests-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 89,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "hong-kong-bookstore-arrests",
+    "slug": "hong-kong-bookstore-arrests"
+  },
+  {
+    "storyId": "xzs-rohingya-myanmar-shipwrecks-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 96,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "rohingya-myanmar-shipwrecks",
+    "slug": "rohingya-myanmar-shipwrecks"
+  },
+  {
+    "storyId": "xzs-world-cup-argentina-england-semifinal-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 96,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "world-cup-argentina-england-semifinal",
+    "slug": "world-cup-argentina-england-semifinal"
   }
 ]
