@@ -19,7 +19,7 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
       .catch(() => undefined);
   }, []);
 
-  const date = new Date(`${currentIssueDate}T00:05:00+08:00`);
+  const date = new Date(`${currentIssueDate}T05:00:00+08:00`);
   const formattedDate = new Intl.DateTimeFormat(isZh ? "zh-CN" : "en-US", {
     year: "numeric",
     month: isZh ? "2-digit" : "long",
@@ -64,8 +64,8 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
         </p>
         <p className="issue-date">
           {isZh
-            ? `${compactDate} · 北京时间 06:00 发布`
-            : `${formattedDate} · Published at 06:00 Beijing Time`}
+            ? `${compactDate} · 北京时间 05:00 发布`
+            : `${formattedDate} · Published at 05:00 Beijing Time`}
         </p>
       </div>
 

@@ -20,8 +20,8 @@ export function IssueFooter({ issueDate, slogan }: { issueDate: string; slogan: 
         <p>{slogan}</p>
         <div>
           <span>ISSN {currentIssueDate.replaceAll("-", "-")}</span>
-          <span>BEIJING · 00:05 DAILY</span>
-          <strong>pluto.hk</strong>
+          <span>BEIJING · 05:00 DAILY</span>
+          <strong>xiazishuo.com</strong>
         </div>
       </div>
     </footer>
