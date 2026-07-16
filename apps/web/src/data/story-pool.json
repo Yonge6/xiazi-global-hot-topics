@@ -752,14 +752,14 @@
   },
   {
     "storyId": "xzs-us-iran-hormuz-blockade-20260715",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 100,
+    "storyStatus": "followup",
+    "followupDay": 2,
+    "informationIncrementScore": 99,
     "firstSeenDate": "2026-07-15",
-    "lastSeenDate": "2026-07-15",
-    "lastIssueDate": "2026-07-15",
-    "lastTopicSlug": "us-iran-hormuz-blockade",
-    "slug": "us-iran-hormuz-blockade"
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "us-iran-blockade-strikes-july15",
+    "slug": "us-iran-blockade-strikes-july15"
   },
   {
     "storyId": "xzs-typhoon-bavi-northeast-china-20260715",
@@ -804,5 +804,82 @@
     "lastIssueDate": "2026-07-15",
     "lastTopicSlug": "west-bank-34-settlements",
     "slug": "west-bank-34-settlements"
+  },
+  {
+    "storyId": "xzs-world-cup-england-argentina-semifinal-20260716",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 98,
+    "firstSeenDate": "2026-07-16",
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "world-cup-england-argentina-semifinal",
+    "slug": "world-cup-england-argentina-semifinal"
+  },
+  {
+    "storyId": "xzs-apple-intelligence-china-registration-20260716",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 91,
+    "firstSeenDate": "2026-07-16",
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "apple-intelligence-china-registration",
+    "slug": "apple-intelligence-china-registration"
+  },
+  {
+    "storyId": "xzs-opc-stripe-atlas-solo-founders-20260716",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 84,
+    "firstSeenDate": "2026-07-16",
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "opc-stripe-atlas-solo-founders",
+    "slug": "opc-stripe-atlas-solo-founders"
+  },
+  {
+    "storyId": "xzs-us-brazil-tariffs-july15-20260716",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 90,
+    "firstSeenDate": "2026-07-16",
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "us-brazil-tariffs-july15",
+    "slug": "us-brazil-tariffs-july15"
+  },
+  {
+    "storyId": "xzs-uk-starmer-final-pmqs-20260716",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 88,
+    "firstSeenDate": "2026-07-16",
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "uk-starmer-final-pmqs",
+    "slug": "uk-starmer-final-pmqs"
+  },
+  {
+    "storyId": "xzs-pjm-grid-heat-alerts-20260716",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 93,
+    "firstSeenDate": "2026-07-16",
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "pjm-grid-heat-alerts",
+    "slug": "pjm-grid-heat-alerts"
+  },
+  {
+    "storyId": "xzs-germany-energy-relief-2027-20260716",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 83,
+    "firstSeenDate": "2026-07-16",
+    "lastSeenDate": "2026-07-16",
+    "lastIssueDate": "2026-07-16",
+    "lastTopicSlug": "germany-energy-relief-2027",
+    "slug": "germany-energy-relief-2027"
   }
 ]
