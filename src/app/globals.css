@@ -834,7 +834,7 @@ button { color: inherit; font: inherit; }
   .locale-zh .masthead-doudou { animation-delay: -2.7s; }
   .story-columns {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 0;
     padding-top: 34px;
     padding-bottom: 42px;
   }
