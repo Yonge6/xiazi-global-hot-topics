@@ -81,9 +81,20 @@ export function resolvePosterName(slug: string) {
 }
 
 export function getCosAsset(path: string) {
-  const baseUrl = process.env.NEXT_PUBLIC_COS_BASE_URL?.replace(/\/$/, "");
+  const baseUrl = validPublicAssetOrigin(process.env.NEXT_PUBLIC_COS_BASE_URL);
   const relativePath = path.replace(/^\//, "");
   return baseUrl ? `${baseUrl}/${relativePath}` : withBasePath(`/${relativePath}`);
+}
+
+function validPublicAssetOrigin(value: string | undefined) {
+  if (!value) return "";
+  try {
+    const url = new URL(value);
+    if (url.protocol !== "http:" && url.protocol !== "https:") return "";
+    return value.replace(/\/$/, "");
+  } catch {
+    return "";
+  }
 }
 
 export function getArchivedPosterAsset(
