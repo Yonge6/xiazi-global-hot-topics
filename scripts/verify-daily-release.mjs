@@ -321,6 +321,9 @@ async function runLiveChecks() {
       assertFirstParty(response, `${locale} page`);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const html = await response.text();
+      if (/variant=(?:thumbnail|thumb)/i.test(html)) {
+        throw new Error("current issue page still references a thumbnail poster variant");
+      }
       const copy = issue.topics?.[0]?.localizations?.[locale === "zh" ? "zh-CN" : "en-US"];
       if (!html.includes(copy?.headlineFact || "__missing__")) throw new Error("NO.01 headline is missing from server-rendered HTML");
       if (!html.includes(issue.issueDate)) throw new Error("issueDate is missing from server-rendered HTML");
