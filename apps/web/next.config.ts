@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
   outputFileTracingExcludes: {
     "/*": ["./public/**/*"],
   },
+  outputFileTracingIncludes: {
+    "/*": ["./data/**/*"],
+  },
   poweredByHeader: false,
   reactStrictMode: true,
   trailingSlash: true,

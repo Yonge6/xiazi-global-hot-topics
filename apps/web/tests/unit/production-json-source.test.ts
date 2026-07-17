@@ -48,4 +48,18 @@ describe("production JSON source", () => {
     expect(loaded.issue.issueDate).toBe(issue.issueDate);
     expect(fetchMock).not.toHaveBeenCalled();
   });
+
+  it("falls back to packaged current JSON when GitHub returns an invalid payload", async () => {
+    vi.stubEnv("NODE_ENV", "production");
+    const fetchMock = vi.fn(async () => ({
+      ok: true,
+      json: async () => ({ message: "redacted or malformed response" }),
+    }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const loaded = await loadLatestProductionIssue();
+
+    expect(loaded.issue.issueDate).toBe(issue.issueDate);
+    expect(["local", "github"]).toContain(loaded.source);
+  });
 });

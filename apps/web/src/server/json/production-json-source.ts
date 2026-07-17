@@ -2,6 +2,7 @@ import { existsSync } from "node:fs";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 
+import bundledCurrentIssue from "@/data/current-issue.json";
 import { parseIssue, type Issue } from "@xiazi/contracts";
 
 import { cachedFetchInit, CONTENT_REVALIDATE_SECONDS } from "../../lib/cache/public-cache";
@@ -87,6 +88,10 @@ async function localArchiveDates() {
   return Array.from(dates);
 }
 
+function bundledIssue(): LoadedProductionIssue {
+  return { issue: parseIssue(bundledCurrentIssue), source: "local" };
+}
+
 export async function loadLatestProductionIssue(): Promise<LoadedProductionIssue> {
   if (prefersLocalJson()) {
     const local = await localIssue("current-issue.json");
@@ -97,12 +102,18 @@ export async function loadLatestProductionIssue(): Promise<LoadedProductionIssue
     "contents/data/current-issue.json",
     "application/vnd.github.raw+json",
   ).catch(() => null);
-  if (remote) return { issue: parseIssue(remote), source: "github" };
+  if (remote) {
+    try {
+      return { issue: parseIssue(remote), source: "github" };
+    } catch {
+      // Fall through to the packaged JSON when GitHub returns an invalid payload.
+    }
+  }
 
   const local = await localIssue("current-issue.json");
   if (local) return local;
 
-  throw new Error("Current issue unavailable");
+  return bundledIssue();
 }
 
 export async function loadProductionIssueByDate(date: string): Promise<LoadedProductionIssue | null> {
@@ -116,8 +127,17 @@ export async function loadProductionIssueByDate(date: string): Promise<LoadedPro
     `contents/data/archive/${date}.json`,
     "application/vnd.github.raw+json",
   ).catch(() => null);
-  if (remote) return { issue: parseIssue(remote), source: "github" };
-  return localIssue(path.join("archive", `${date}.json`));
+  if (remote) {
+    try {
+      return { issue: parseIssue(remote), source: "github" };
+    } catch {
+      // Fall through to packaged data when the remote payload is invalid.
+    }
+  }
+  const local = await localIssue(path.join("archive", `${date}.json`));
+  if (local) return local;
+  const bundled = bundledIssue();
+  return bundled.issue.issueDate === date ? bundled : null;
 }
 
 export async function loadProductionIssueAtRef(relativePath: string, ref: string) {
@@ -148,7 +168,8 @@ export async function listProductionArchiveIssues(): Promise<ArchiveIssueSummary
         .map((file) => file.name.replace(".json", ""))
     : [];
   const localDates = await localArchiveDates();
-  const dates = Array.from(new Set([...remoteDates, ...localDates])).sort((a, b) => b.localeCompare(a));
+  const bundledDate = bundledIssue().issue.issueDate;
+  const dates = Array.from(new Set([...remoteDates, ...localDates, bundledDate])).sort((a, b) => b.localeCompare(a));
   return dates.map((date) => ({
     issueDate: date,
     slug: date,
