@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  outputFileTracingExcludes: {
+    "/*": ["./public/**/*"],
+  },
   poweredByHeader: false,
   reactStrictMode: true,
   trailingSlash: true,
