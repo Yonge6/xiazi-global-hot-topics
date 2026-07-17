@@ -807,7 +807,7 @@ button { color: inherit; font: inherit; }
     padding-bottom: 42px;
   }
   .catalogue-entry,
-  .catalogue-entry:nth-child(even) { margin: 0 0 48px; }
+  .catalogue-entry:nth-child(even) { margin: 0; }
   .locale-zh .catalogue-entry {
     animation: page-awaken 720ms cubic-bezier(.2,.75,.2,1) both;
     transform-origin: 50% 0;
