@@ -754,12 +754,12 @@
     "storyId": "xzs-us-iran-hormuz-blockade-20260715",
     "storyStatus": "followup",
     "followupDay": 3,
-    "informationIncrementScore": 98,
+    "informationIncrementScore": 96,
     "firstSeenDate": "2026-07-15",
     "lastSeenDate": "2026-07-17",
     "lastIssueDate": "2026-07-17",
-    "lastTopicSlug": "iran-houthi-red-sea-threat",
-    "slug": "iran-houthi-red-sea-threat"
+    "lastTopicSlug": "us-iran-hormuz-sixth-night",
+    "slug": "us-iran-hormuz-sixth-night"
   },
   {
     "storyId": "xzs-typhoon-bavi-northeast-china-20260715",
@@ -829,12 +829,12 @@
   },
   {
     "storyId": "xzs-opc-stripe-atlas-solo-founders-20260716",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 84,
+    "storyStatus": "followup",
+    "followupDay": 2,
+    "informationIncrementScore": 60,
     "firstSeenDate": "2026-07-16",
-    "lastSeenDate": "2026-07-16",
-    "lastIssueDate": "2026-07-16",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
     "lastTopicSlug": "opc-stripe-atlas-solo-founders",
     "slug": "opc-stripe-atlas-solo-founders"
   },
@@ -969,5 +969,60 @@
     "lastIssueDate": "2026-07-17",
     "lastTopicSlug": "world-cup-argentina-england-semifinal",
     "slug": "world-cup-argentina-england-semifinal"
+  },
+  {
+    "storyId": "xzs-world-cup-final-rest-day-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 82,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "world-cup-final-rest-day",
+    "slug": "world-cup-final-rest-day"
+  },
+  {
+    "storyId": "xzs-ukraine-koretskyi-pm-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 92,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "ukraine-koretskyi-prime-minister",
+    "slug": "ukraine-koretskyi-prime-minister"
+  },
+  {
+    "storyId": "xzs-ai-data-center-backlash-michigan-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 91,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "ai-data-center-backlash-michigan",
+    "slug": "ai-data-center-backlash-michigan"
+  },
+  {
+    "storyId": "xzs-italy-electoral-reform-42-percent-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 90,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "italy-electoral-reform-42-percent",
+    "slug": "italy-electoral-reform-42-percent"
+  },
+  {
+    "storyId": "xzs-ecb-september-hike-oil-rebound-20260717",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 89,
+    "firstSeenDate": "2026-07-17",
+    "lastSeenDate": "2026-07-17",
+    "lastIssueDate": "2026-07-17",
+    "lastTopicSlug": "ecb-september-hike-oil-rebound",
+    "slug": "ecb-september-hike-oil-rebound"
   }
 ]
