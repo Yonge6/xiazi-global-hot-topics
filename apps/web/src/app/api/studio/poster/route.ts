@@ -6,6 +6,7 @@ import { copyCosObject, uploadToCos } from "@/lib/cos/storage";
 import { githubRepo } from "@/lib/github/repo";
 import { resolvePosterName } from "@/lib/posters/assets";
 import { studioCookieName, validStudioOrigin, validStudioSession } from "@/lib/studio/auth";
+import { releaseV2Enabled } from "@/server/releases/release-runtime";
 
 function encode(content: Buffer) {
   return content.toString("base64");
@@ -73,6 +74,12 @@ export async function POST(request: Request) {
   const cookieStore = await cookies();
   if (!validStudioSession(cookieStore.get(studioCookieName)?.value)) {
     return NextResponse.json({ message: "登录已过期，请重新进入后台" }, { status: 401 });
+  }
+  if (releaseV2Enabled()) {
+    return NextResponse.json(
+      { message: "Release V2 已启用：请上传到不可变 releaseId 路径并通过完整图片验收，禁止写 current 海报。" },
+      { status: 409 },
+    );
   }
 
   try {

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { issueSchema } from "../src";
+import { issueSchema, stagePublicationReleaseSchema } from "../src";
 
 const validIssue = {
   id: "issue-2026-06-19",
@@ -71,5 +71,27 @@ describe("issueSchema", () => {
 
   it("rejects malformed issue dates", () => {
     expect(() => issueSchema.parse({ ...validIssue, issueDate: "06/19/2026" })).toThrow();
+  });
+});
+
+describe("stagePublicationReleaseSchema", () => {
+  it("requires exactly 18 immutable poster candidates", () => {
+    const posters = Array.from({ length: 18 }, (_, index) => ({
+      topicId: `topic-${Math.floor(index / 2) + 1}`,
+      locale: index % 2 === 0 ? "zh" : "en",
+      url: `https://assets.example.com/releases/rel-1/${index}.png`,
+    }));
+    expect(stagePublicationReleaseSchema.parse({
+      issue: validIssue,
+      posters,
+      idempotencyKey: "automation:2026-06-19:abc",
+      leaseOwner: "automation-test",
+    }).posters).toHaveLength(18);
+    expect(() => stagePublicationReleaseSchema.parse({
+      issue: validIssue,
+      posters: posters.slice(1),
+      idempotencyKey: "automation:2026-06-19:abc",
+      leaseOwner: "automation-test",
+    })).toThrow();
   });
 });

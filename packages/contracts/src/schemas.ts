@@ -110,6 +110,31 @@ export const posterRequestSchema = z.object({
   }),
 });
 
+export const posterCandidateSchema = z.object({
+  topicId: z.string().min(1),
+  locale: z.enum(["zh", "en"]),
+  url: z.string().url().refine((value) => {
+    const url = new URL(value);
+    return url.protocol === "https:" || (url.protocol === "http:" && ["localhost", "127.0.0.1"].includes(url.hostname));
+  }, { message: "Poster URL must use https outside local development" }),
+});
+
+export const stagePublicationReleaseSchema = z.object({
+  issue: issueSchema,
+  posters: z.array(posterCandidateSchema).length(18),
+  idempotencyKey: z.string().min(12),
+  leaseOwner: z.string().min(3),
+});
+
+export const approvePublicationReleaseSchema = z.object({
+  activationKey: z.string().min(12),
+});
+
+export const rollbackPublicationReleaseSchema = z.object({
+  activationKey: z.string().min(12),
+  reason: z.string().min(12),
+});
+
 export function parseIssue(value: unknown) {
   return issueSchema.parse(value);
 }

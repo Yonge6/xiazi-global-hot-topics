@@ -4,6 +4,7 @@ import { NextResponse } from "next/server";
 import { studioCookieName, validStudioOrigin, validStudioSession } from "@/lib/studio/auth";
 import { publishIssueFromStudio } from "@/server/publishing/publish-issue";
 import type { PublishTarget } from "@/server/publishing/publish-github-primary";
+import { releaseV2Enabled } from "@/server/releases/release-runtime";
 
 export async function POST(request: Request) {
   if (!validStudioOrigin(request)) {
@@ -12,6 +13,11 @@ export async function POST(request: Request) {
   const cookieStore = await cookies();
   if (!validStudioSession(cookieStore.get(studioCookieName)?.value)) {
     return NextResponse.json({ message: "登录已过期，请重新进入后台" }, { status: 401 });
+  }
+  if (releaseV2Enabled()) {
+    return NextResponse.json({
+      message: "Release V2 已启用：直接发布已关闭。请先由自动化完成硬门并暂存 Release，再在待确认列表中人工激活。",
+    }, { status: 409 });
   }
 
   try {

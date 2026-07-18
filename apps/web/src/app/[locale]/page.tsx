@@ -13,6 +13,7 @@ import { isAppLocale } from "@/i18n/config";
 import en from "@/messages/en.json";
 import zh from "@/messages/zh.json";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
+import { releaseV2Enabled } from "@/server/releases/release-runtime";
 
 export const revalidate = 60;
 
@@ -62,6 +63,7 @@ export default async function LocaleHome({ params }: PageProps) {
     repository.getLatestPublishedIssue(),
     repository.listPublishedIssues(),
   ]);
+  if (releaseV2Enabled() && issueResult.status === "rejected") throw issueResult.reason;
   const issue = issueResult.status === "fulfilled"
     ? { ...issueResult.value, topics: sortTopicsForIssue(issueResult.value.topics) }
     : mockIssue;
