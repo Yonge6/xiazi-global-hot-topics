@@ -4,7 +4,11 @@
 
 This change applies only to issues after `2026-07-18`. It does not edit, retract, regenerate, archive, redistribute or republish the 2026-07-18 issue.
 
-## New publication flow
+## Audit status
+
+The audit remains **D / failed**. This PR is intentionally a draft: it adds the future hard gates but does not enable them in production. Unattended publishing must remain disabled until the staging migration, reviewer services, storage policy and fault/rollback rehearsal are complete.
+
+## Architecture change
 
 ```text
 automatic generation
@@ -94,5 +98,7 @@ Executed in the isolated `codex/future-release-safety` worktree on 2026-07-18:
 | `npx supabase db reset` | Passed: clean database recreated with every migration |
 | `npx supabase db lint --local --level warning` | New migration clean; three warnings remain in pre-existing `upsert_issue_bundle` |
 | `scripts/verify-future-release-rpcs.sql` | Passed in real local Postgres and rolled back its fixtures |
+
+## Fault injection and rollback verification
 
 The SQL fault suite verifies the 2026-07-18 cutoff, conflicting lease rejection, staging without activation, explicit human activation, activation idempotency, atomic pointer changes, immutable release payloads, auditable events and rollback to the previous release.
