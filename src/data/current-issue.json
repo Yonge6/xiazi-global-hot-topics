@@ -1,22 +1,22 @@
 {
-  "id": "issue-2026-07-17",
-  "slug": "2026-07-17",
-  "issueDate": "2026-07-17",
-  "assetVersion": "issue-2026-07-17-retro-futurist-user-replacement-v2",
+  "id": "issue-2026-07-18",
+  "slug": "2026-07-18",
+  "issueDate": "2026-07-18",
+  "assetVersion": "issue-2026-07-18-style-atlas-075-image2-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-17T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-16T21:00:00Z",
-  "featuredTopicId": "topic-2026-07-17-01",
+  "beijingTimestamp": "2026-07-18T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-17T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-18-01",
   "style": {
-    "name": "Retro-Futurist Editorial Infographic 复古未来主义编辑信息图",
-    "zhName": "Retro-Futurist Editorial Infographic 复古未来主义编辑信息图",
-    "description": "暖白纸张、深海军蓝、铜橙与金色组成的复古未来主义新闻信息图系统，结合技术档案、数据面板、编辑插画和统一信息网格。"
+    "name": "Style Atlas #75 North American Indigenous Art",
+    "zhName": "Style Atlas #75 北美原住民艺术",
+    "description": "Earth-pigment editorial poster language with woven texture, handcrafted print character, rhythmic geometry, and symbolic sun, mountain, river, and sky composition; sacred and tribe-specific symbols are excluded."
   },
   "topics": [
     {
-      "id": "topic-2026-07-17-01",
-      "issueId": "issue-2026-07-17",
+      "id": "topic-2026-07-18-01",
+      "issueId": "issue-2026-07-18",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -25,42 +25,42 @@
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "xzs-overview-20260717-replacement",
+      "scoreTotal": 98,
+      "storyId": "xzs-overview-20260718",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 95,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "世界杯进入决赛前空窗，29国成立AI合作组织，单人创业占比创纪录",
-          "headlineView": "球场短暂停下来，技术、战争与制度仍在加速重排。",
-          "headlineFull": "世界杯进入决赛前空窗，29国成立AI合作组织，单人创业占比创纪录；球场短暂停下来，技术、战争与制度仍在加速重排。",
-          "intro": "本期世界杯窗口内没有完赛，西班牙与阿根廷已进入决赛。场外，29国签署协议成立全球AI合作机构；Stripe Atlas数据显示单人创业占比升至历史新高；美伊连续互袭并再次扰动霍尔木兹航运；乌克兰任命新总理；美国地方社会反对AI数据中心扩张；意大利推进选举法改革；油价反弹重新推高欧洲加息预期。",
-          "xiaziQuote": "今天8条新闻的共同点，是“规模变大之后，谁来承担代价”：AI要规则，创业要分销，战争要航道，数据中心要土地和电。",
-          "doudouQuote": "世界杯休息一天，世界其他频道却一个都没暂停。",
+          "headlineFact": "世界杯进入决赛周末，Kimi K3与单人创业继续扩张",
+          "headlineView": "效率越高，安全、规则与公共系统越要跟上。",
+          "headlineFull": "世界杯进入决赛周末，Kimi K3与单人创业继续扩张；效率越高，安全、规则与公共系统越要跟上。",
+          "intro": "世界杯在统计窗口内无完赛，西班牙与阿根廷等待决赛；月之暗面公布Kimi K3，最新创业研究显示单人创始人比例继续上升。与此同时，航空监管、海底矿产、气候归因、新西兰禽流感与美港贸易安排都出现新变化。",
+          "xiaziQuote": "今天八条新闻的共同主线，是技术和效率向前冲时，监督、生态与公共系统必须同步升级。",
+          "doudouQuote": "世界按下加速键，别忘了先检查安全带、说明书和备用电源。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Overview",
-          "headlineFact": "The World Cup pauses before the final, 29 countries form an AI body, and solo founding reaches a record share",
-          "headlineView": "football briefly stops while technology, war and institutions keep accelerating.",
-          "headlineFull": "The World Cup pauses before the final, 29 countries form an AI body, and solo founding reaches a record share; football briefly stops while technology, war and institutions keep accelerating.",
-          "intro": "No World Cup match finished inside today’s reporting window, while Spain and Argentina await the final. Beyond football, 29 countries formed a global AI cooperation body, solo founding reached a record share, U.S.-Iran fighting disrupted Hormuz again, Ukraine appointed a new prime minister, American communities pushed back against AI data centers, Italy advanced electoral reform, and rising oil prices revived European rate-hike expectations.",
-          "xiaziQuote": "Today’s eight stories share one question: after systems scale, who carries the cost? AI needs rules, startups need distribution, war needs sea lanes, and data centers need land and power.",
-          "doudouQuote": "Football took a day off, but every other channel in the world kept running.",
+          "headlineFact": "The World Cup enters its final weekend as Kimi K3 and solo entrepreneurship expand",
+          "headlineView": "the faster efficiency rises, the more safety, rules and public systems must keep pace.",
+          "headlineFull": "The World Cup enters its final weekend as Kimi K3 and solo entrepreneurship expand; the faster efficiency rises, the more safety, rules and public systems must keep pace.",
+          "intro": "No World Cup match finished inside the reporting window as Spain and Argentina awaited the final. Moonshot unveiled Kimi K3, while new startup research showed solo founders becoming more common. Aviation oversight, seabed minerals, climate attribution, New Zealand bird flu and U.S.-Hong Kong trade treatment also shifted.",
+          "xiaziQuote": "Across today’s eight stories, speed and efficiency are rising faster than the systems meant to supervise, protect and absorb their costs.",
+          "doudouQuote": "The world pressed fast-forward; please check the seat belt, manual and backup power first.",
           "footerTakeaway": "Keyword: Overview."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-17-01-1",
-          "topicId": "topic-2026-07-17-01",
-          "title": "The World Cup pauses before the final, 29 countries form an AI body, and solo founding reaches a record share",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
-          "publishedAt": "2026-07-16T00:00:00Z",
-          "sourceType": "official",
+          "id": "source-2026-07-18-01-1",
+          "topicId": "topic-2026-07-18-01",
+          "title": "US restores Hong Kong's preferential privileges",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/hong-kong-us-china-preferential-trade-b0a7e46fac0906bba975e3a1f52ebe7d",
+          "publishedAt": "2026-07-17T16:45:03Z",
+          "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -68,9 +68,9 @@
       ]
     },
     {
-      "id": "topic-2026-07-17-02",
-      "issueId": "issue-2026-07-17",
-      "slug": "world-cup-final-rest-day",
+      "id": "topic-2026-07-18-02",
+      "issueId": "issue-2026-07-18",
+      "slug": "world-cup-final-weekend-rest-day",
       "rank": 2,
       "category": "sports",
       "region": "Global",
@@ -81,43 +81,43 @@
         "GB"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 96,
+      "scoreTotal": 94,
       "storyId": "xzs-world-cup-final-rest-day-20260717",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 82,
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 72,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯日报",
-          "headlineFact": "窗口内没有完赛，西班牙与阿根廷等待决赛",
-          "headlineView": "没有哨声的24小时，是终局前最后一次集体喘息。",
-          "headlineFull": "窗口内没有完赛，西班牙与阿根廷等待决赛；没有哨声的24小时，是终局前最后一次集体喘息。",
-          "intro": "北京时间7月16日05:00至7月17日05:00没有世界杯比赛完赛。最近一场半决赛在窗口开始前结束：阿根廷2:1击败英格兰，与西班牙会师决赛。季军赛为法国对英格兰，决赛为西班牙对阿根廷。",
-          "xiaziQuote": "决赛前的空窗不是没有内容，而是所有战术、体能和情绪都在暗处重新计算。",
-          "doudouQuote": "今天没有比分更新，球迷的任务只有两个：补觉，以及继续猜冠军。",
+          "headlineFact": "统计窗口内仍无完赛，法国与英格兰、西班牙与阿根廷等待终局",
+          "headlineView": "大赛最后的空窗，也是一场体能与情绪管理。",
+          "headlineFull": "统计窗口内仍无完赛，法国与英格兰、西班牙与阿根廷等待终局；大赛最后的空窗，也是一场体能与情绪管理。",
+          "intro": "北京时间7月17日05:00至7月18日05:00没有世界杯比赛完赛。法国与英格兰将争夺季军，西班牙与阿根廷将争夺冠军，两场比赛均在本期统计窗口之后进行，因此不得提前写入赛果。",
+          "xiaziQuote": "决赛周末的空窗并不空白，球队正在把最后的体能、战术和情绪压缩成一次选择。",
+          "doudouQuote": "今天没有新比分，只有全世界一起刷新倒计时。",
           "footerTakeaway": "今日关键词：世界杯日报。"
         },
         "en-US": {
           "categoryLabel": "World Cup Daily",
-          "headlineFact": "No World Cup match is completed in the reporting window as Spain and Argentina await the final",
-          "headlineView": "the quiet 24 hours are the tournament’s last collective reset before the finish.",
-          "headlineFull": "No World Cup match is completed in the reporting window as Spain and Argentina await the final; the quiet 24 hours are the tournament’s last collective reset before the finish.",
-          "intro": "No World Cup match was completed between 05:00 on July 16 and 05:00 on July 17 Beijing time. Argentina’s 2–1 semi-final victory over England finished before the window, setting up a final against Spain. France and England will contest the third-place playoff.",
-          "xiaziQuote": "A quiet day before the final is not empty at all—tactics, fitness, and emotion are all being recalculated out of sight.",
-          "doudouQuote": "No score update today, so fans have only two jobs: catch up on sleep and keep guessing the champion.",
+          "headlineFact": "No match finishes in the reporting window as France and England, then Spain and Argentina, await the finale",
+          "headlineView": "the final pause is also a test of fitness and emotional control.",
+          "headlineFull": "No match finishes in the reporting window as France and England, then Spain and Argentina, await the finale; the final pause is also a test of fitness and emotional control.",
+          "intro": "No World Cup match was completed between 05:00 on July 17 and 05:00 on July 18 Beijing time. France versus England in the third-place playoff and Spain versus Argentina in the final both fall outside this issue’s reporting window, so no result is recorded early.",
+          "xiaziQuote": "The final weekend’s quiet interval is not empty; teams are compressing their remaining fitness, tactics and emotion into one last decision.",
+          "doudouQuote": "No new score today—only the whole world refreshing the countdown.",
           "footerTakeaway": "Keyword: World Cup Daily."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-17-02-1",
-          "topicId": "topic-2026-07-17-02",
-          "title": "No World Cup match is completed in the reporting window as Spain and Argentina await the final",
+          "id": "source-2026-07-18-02-1",
+          "topicId": "topic-2026-07-18-02",
+          "title": "FIFA World Cup 2026 match schedule, fixtures and results",
           "publisher": "FIFA",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
-          "publishedAt": "2026-07-16T00:00:00Z",
+          "publishedAt": "2026-07-17T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -126,56 +126,53 @@
       ]
     },
     {
-      "id": "topic-2026-07-17-03",
-      "issueId": "issue-2026-07-17",
-      "slug": "waico-29-country-ai-body",
+      "id": "topic-2026-07-18-03",
+      "issueId": "issue-2026-07-18",
+      "slug": "moonshot-kimi-k3-open-model",
       "rank": 3,
       "category": "technology",
-      "region": "Global",
+      "region": "Asia",
       "countryCodes": [
-        "CN",
-        "RU",
-        "BR",
-        "RS"
+        "CN"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "xzs-waico-29-country-ai-body-20260717",
+      "scoreTotal": 96,
+      "storyId": "xzs-moonshot-kimi-k3-20260718",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 94,
+      "informationIncrementScore": 96,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "AI热点",
-          "headlineFact": "29国签署协议成立世界人工智能合作组织",
-          "headlineView": "AI竞争开始从模型榜单，走向谁来制定全球规则。",
-          "headlineFull": "29国签署协议成立世界人工智能合作组织；AI竞争开始从模型榜单，走向谁来制定全球规则。",
-          "intro": "包括俄罗斯、巴西、塞尔维亚以及多个亚洲、非洲国家在内的29国签署协议，成立“世界人工智能合作组织”。该机构总部将设在上海，目标是推动人工智能国际合作与全球治理，并在上海世界人工智能大会前正式亮相。",
-          "xiaziQuote": "AI下半场不只比谁的模型更强，也比谁能把自己的技术理念写进国际规则。",
-          "doudouQuote": "以前AI开会讨论参数，现在已经开始讨论“谁负责管全世界的参数”。",
+          "headlineFact": "月之暗面公布2.8万亿参数Kimi K3",
+          "headlineView": "开放模型的竞争，正从追赶速度转向生态吸引力。",
+          "headlineFull": "月之暗面公布2.8万亿参数Kimi K3；开放模型的竞争，正从追赶速度转向生态吸引力。",
+          "intro": "据路透社，月之暗面公布总参数2.8万亿的Kimi K3，并称其为全球最大开放权重模型，权重计划于7月27日发布。参数规模不是胜负本身，开发者采用、推理成本和真实任务可靠性才决定长期影响。",
+          "xiaziQuote": "开放权重把竞争从一家公司内部，推向全球开发者共同验证的市场。",
+          "doudouQuote": "参数已经大到能绕月球，接下来请用真实任务证明它不是只会摆造型。",
           "footerTakeaway": "今日关键词：AI热点。"
         },
         "en-US": {
           "categoryLabel": "Artificial Intelligence",
-          "headlineFact": "Twenty-nine countries sign an agreement to establish the World AI Cooperation Organization",
-          "headlineView": "AI competition is shifting from model rankings to who gets to shape global rules.",
-          "headlineFull": "Twenty-nine countries sign an agreement to establish the World AI Cooperation Organization; AI competition is shifting from model rankings to who gets to shape global rules.",
-          "intro": "Twenty-nine countries signed an agreement to establish the World AI Cooperation Organization, an intergovernmental body intended to promote international cooperation and global AI governance. Its headquarters will be based in Shanghai.",
-          "xiaziQuote": "The next phase of AI competition is not only about stronger models, but also about whose ideas get written into international rules.",
-          "doudouQuote": "AI meetings used to debate parameters; now they are starting to debate who gets to govern the world’s parameters.",
+          "headlineFact": "Moonshot unveils the 2.8-trillion-parameter Kimi K3",
+          "headlineView": "open-model competition is shifting from catch-up speed to ecosystem appeal.",
+          "headlineFull": "Moonshot unveils the 2.8-trillion-parameter Kimi K3; open-model competition is shifting from catch-up speed to ecosystem appeal.",
+          "intro": "Reuters reported that Moonshot unveiled Kimi K3, a 2.8-trillion-parameter model it describes as the world’s largest open-weight system, with weights scheduled for release on July 27. Parameter count alone is not victory; adoption, inference cost and reliability on real tasks will determine lasting impact.",
+          "xiaziQuote": "Open weights move competition from one company’s lab into a global market of developer testing and adoption.",
+          "doudouQuote": "The parameter count can orbit the moon; now let real work prove it is more than a pose.",
           "footerTakeaway": "Keyword: Artificial Intelligence."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-17-03-1",
-          "topicId": "topic-2026-07-17-03",
-          "title": "Twenty-nine countries sign an agreement to establish the World AI Cooperation Organization",
+          "id": "source-2026-07-18-03-1",
+          "topicId": "topic-2026-07-18-03",
+          "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/china/twenty-nine-countries-sign-agreement-establish-global-ai-cooperation-body-2026-07-16/",
-          "publishedAt": "2026-07-16T03:22:00Z",
+          "url": "https://www.reuters.com/world/china/chinas-moonshot-unveils-worlds-largest-open-ai-model-closing-us-rivals-2026-07-17/",
+          "publishedAt": "2026-07-17T08:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -184,54 +181,52 @@
       ]
     },
     {
-      "id": "topic-2026-07-17-04",
-      "issueId": "issue-2026-07-17",
-      "slug": "opc-stripe-atlas-solo-founders",
+      "id": "topic-2026-07-18-04",
+      "issueId": "issue-2026-07-18",
+      "slug": "altshare-solo-founder-q2-2026",
       "rank": 4,
       "category": "business",
       "region": "Global",
-      "countryCodes": [
-        "US"
-      ],
+      "countryCodes": [],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-opc-stripe-atlas-solo-founders-20260716",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 60,
+      "scoreTotal": 92,
+      "storyId": "xzs-altshare-solo-founder-q2-20260718",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "OPC一人公司",
-          "headlineFact": "Stripe Atlas第二季度新设公司中，单人创始人占63%",
-          "headlineView": "一个人更容易开公司了，但更容易成立不等于更容易成功。",
-          "headlineFull": "Stripe Atlas第二季度新设公司中，单人创始人占63%；一个人更容易开公司了，但更容易成立不等于更容易成功。",
-          "intro": "Stripe Atlas数据显示，2026年第二季度迄今，其协助成立的美国C类公司中，63%没有联合创始人，创历史新高。不过，头部与普通单人公司的收入差距也在扩大：2025年头部一成公司的早期收入约为中位数公司的61倍。",
-          "xiaziQuote": "AI让一个人拥有过去一个团队的生产力，但真正的壁垒正在转向选题、信任、分销和复购。",
-          "doudouQuote": "一个人可以当老板、产品、设计和客服，但最好别顺便当24小时不下班的机器人。",
+          "headlineFact": "近四分之一新创公司由单人创办，较四年前接近翻倍",
+          "headlineView": "AI减少了人手，却没有替代商业验证。",
+          "headlineFull": "近四分之一新创公司由单人创办，较四年前接近翻倍；AI减少了人手，却没有替代商业验证。",
+          "intro": "股权管理平台altshare的2026年第二季度创业股权报告显示，近四分之一新设创业公司由单人创办，比例接近四年前的两倍。AI让小团队更容易启动，但投资人同时要求更清晰的商业牵引力与里程碑。",
+          "xiaziQuote": "一人公司真正的优势不是永远一个人，而是先用更小成本证明需求，再决定何时扩张。",
+          "doudouQuote": "团队可以先不招满，客户可不能等到以后再找。",
           "footerTakeaway": "今日关键词：OPC一人公司。"
         },
         "en-US": {
           "categoryLabel": "OPC Solo Company",
-          "headlineFact": "Solo founders account for 63% of new Stripe Atlas companies in the second quarter",
-          "headlineView": "incorporating alone is easier, but easier formation does not mean easier success.",
-          "headlineFull": "Solo founders account for 63% of new Stripe Atlas companies in the second quarter; incorporating alone is easier, but easier formation does not mean easier success.",
-          "intro": "Solo founders accounted for 63% of C corporations formed through Stripe Atlas so far in the second quarter of 2026, an all-time high. At the same time, the revenue gap is widening: top-decile solo startups generated about 61 times the early revenue of the median company in 2025.",
-          "xiaziQuote": "AI gives one person the productivity of a former team, but the real moat is shifting toward ideas, trust, distribution, and repeat purchase.",
-          "doudouQuote": "One person can start a company, but one person should not have to carry every role forever. Borrow tools, and also borrow people and networks.",
+          "headlineFact": "Nearly one in four new startups has a solo founder, almost double the share four years ago",
+          "headlineView": "AI reduces headcount but does not replace market validation.",
+          "headlineFull": "Nearly one in four new startups has a solo founder, almost double the share four years ago; AI reduces headcount but does not replace market validation.",
+          "intro": "Altshare’s Q2 2026 Startup Equity Report says nearly one-quarter of newly established startups now have a single founder, almost twice the share four years ago. AI makes leaner launches possible, while investors demand clearer commercial traction and milestones before committing capital.",
+          "xiaziQuote": "A solo company’s real advantage is not staying alone forever, but proving demand cheaply before deciding when to expand.",
+          "doudouQuote": "You can postpone hiring the whole team; you cannot postpone finding customers.",
           "footerTakeaway": "Keyword: OPC Solo Company."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-17-04-1",
-          "topicId": "topic-2026-07-17-04",
-          "title": "Solo founders account for 63% of new Stripe Atlas companies in the second quarter",
-          "publisher": "Stripe Atlas",
-          "url": "https://stripe.com/blog/top-solo-founder-traits",
-          "publishedAt": "2026-05-28T00:00:00Z",
-          "sourceType": "official",
+          "id": "source-2026-07-18-04-1",
+          "topicId": "topic-2026-07-18-04",
+          "title": "One in four startups now has a solo founder as AI transforms entrepreneurship",
+          "publisher": "CTech / altshare",
+          "url": "https://www.calcalistech.com/ctechnews/article/rknbfqmemx",
+          "publishedAt": "2026-07-14T11:16:23Z",
+          "sourceType": "publisher",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -239,122 +234,11 @@
       ]
     },
     {
-      "id": "topic-2026-07-17-05",
-      "issueId": "issue-2026-07-17",
-      "slug": "us-iran-hormuz-sixth-night",
+      "id": "topic-2026-07-18-05",
+      "issueId": "issue-2026-07-18",
+      "slug": "faa-boeing-airworthiness-certificates",
       "rank": 5,
-      "category": "international",
-      "region": "Middle East",
-      "countryCodes": [
-        "US",
-        "IR"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "xzs-us-iran-hormuz-blockade-20260715",
-      "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 96,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "中东局势",
-          "headlineFact": "美伊连续第六夜互袭，霍尔木兹航运再次大幅停滞",
-          "headlineView": "世界经济最脆弱的开关，仍藏在少数关键海峡里。",
-          "headlineFull": "美伊连续第六夜互袭，霍尔木兹航运再次大幅停滞；世界经济最脆弱的开关，仍藏在少数关键海峡里。",
-          "intro": "美国表示连续第六夜打击伊朗军事目标，伊朗则以导弹和无人机攻击邻国境内的美军基地。持续一周的升级已大幅瓦解上月停火安排，并使霍尔木兹海峡交通再次基本停顿，全球能源价格随之上升。",
-          "xiaziQuote": "战争看起来发生在远方，最终却会通过油价、运费、通胀和利率进入每个人的生活。",
-          "doudouQuote": "霍尔木兹一堵车，全世界的账单都开始排队涨价。",
-          "footerTakeaway": "今日关键词：中东局势。"
-        },
-        "en-US": {
-          "categoryLabel": "Middle East",
-          "headlineFact": "A sixth consecutive night of U.S.-Iran strikes stalls Hormuz shipping again",
-          "headlineView": "the world economy’s most fragile switches still sit inside a few strategic straits.",
-          "headlineFull": "A sixth consecutive night of U.S.-Iran strikes stalls Hormuz shipping again; the world economy’s most fragile switches still sit inside a few strategic straits.",
-          "intro": "The United States carried out a sixth consecutive night of strikes on Iranian targets, while Iran launched missiles and drones at U.S. bases in neighboring countries. The escalation has largely unraveled last month’s truce and again severely disrupted shipping through the Strait of Hormuz.",
-          "xiaziQuote": "War may look far away, but it reaches everyday life through oil prices, freight rates, inflation, and interest rates.",
-          "doudouQuote": "When Hormuz gets jammed, the whole world’s bills line up to get more expensive.",
-          "footerTakeaway": "Keyword: Middle East."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-17-05-1",
-          "topicId": "topic-2026-07-17-05",
-          "title": "A sixth consecutive night of U.S.-Iran strikes stalls Hormuz shipping again",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/iran-warns-strait-hormuz-is-red-line-will-resist-until-end-2026-07-16/",
-          "publishedAt": "2026-07-16T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-17-06",
-      "issueId": "issue-2026-07-17",
-      "slug": "ukraine-koretskyi-prime-minister",
-      "rank": 6,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "UA"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-ukraine-koretskyi-pm-20260717",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 92,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "乌克兰政局",
-          "headlineFact": "乌克兰议会任命能源高管科列茨基为新总理",
-          "headlineView": "战时政府换帅，最先要守住的是能源、经济与民众信心。",
-          "headlineFull": "乌克兰议会任命能源高管科列茨基为新总理；战时政府换帅，最先要守住的是能源、经济与民众信心。",
-          "intro": "乌克兰议会以289票支持，任命前国家能源公司Naftogaz首席执行官谢尔希·科列茨基为总理，这是俄罗斯全面入侵以来乌克兰第三位总理。科列茨基表示，国防、经济稳定和融入欧盟将是政府的主要任务。",
-          "xiaziQuote": "让能源管理者在战争中接管政府，说明乌克兰面对的不只是前线压力，还有下一轮冬季与经济韧性。",
-          "doudouQuote": "战时总理的待办事项，大概从“保住电网”一直排到“加入欧盟”。",
-          "footerTakeaway": "今日关键词：乌克兰政局。"
-        },
-        "en-US": {
-          "categoryLabel": "Ukraine Politics",
-          "headlineFact": "Ukraine appoints energy executive Sergii Koretskyi as prime minister",
-          "headlineView": "a wartime leadership change puts energy, economic resilience, and public confidence first.",
-          "headlineFull": "Ukraine appoints energy executive Sergii Koretskyi as prime minister; a wartime leadership change puts energy, economic resilience, and public confidence first.",
-          "intro": "Ukraine’s parliament appointed former Naftogaz chief Sergii Koretskyi as prime minister with 289 votes. He is the country’s third prime minister since Russia’s full-scale invasion and named defense, economic stability and European integration as his priorities.",
-          "xiaziQuote": "Choosing an energy manager to lead a country at war shows that Ukraine is facing not only front-line pressure, but also the next winter and its economic resilience.",
-          "doudouQuote": "A wartime prime minister’s to-do list probably runs from keeping the grid alive all the way to joining the EU.",
-          "footerTakeaway": "Keyword: Ukraine Politics."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-17-06-1",
-          "topicId": "topic-2026-07-17-06",
-          "title": "Ukraine appoints energy executive Sergii Koretskyi as prime minister",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/ukraine-parliament-approves-energy-executive-koretskyi-new-pm-2026-07-16/",
-          "publishedAt": "2026-07-16T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-17-07",
-      "issueId": "issue-2026-07-17",
-      "slug": "ai-data-center-backlash-michigan",
-      "rank": 7,
-      "category": "technology",
+      "category": "business",
       "region": "North America",
       "countryCodes": [
         "US"
@@ -363,41 +247,41 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 91,
-      "storyId": "xzs-ai-data-center-backlash-michigan-20260717",
+      "storyId": "xzs-faa-boeing-certificates-20260718",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 91,
+      "informationIncrementScore": 94,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "美国基础设施",
-          "headlineFact": "160亿美元AI数据中心引爆美国小镇反对，只有14%受访者愿意在社区附近建设",
-          "headlineView": "算力越宏大，地方成本越无法隐藏。",
-          "headlineFull": "160亿美元AI数据中心引爆美国小镇反对，只有14%受访者愿意在社区附近建设；算力越宏大，地方成本越无法隐藏。",
-          "intro": "密歇根州人口约2400人的萨林镇正在建设一座占地超过250英亩、投资160亿美元的AI数据中心，引发土地、用水和资源争议。Reuters/Ipsos调查显示，仅14%的美国受访者支持在自己的社区建设数据中心。",
-          "xiaziQuote": "AI看起来在云端，真正落地时却要占土地、接电网、用水，并与当地居民重新谈判利益分配。",
-          "doudouQuote": "人人都想要更聪明的AI，但数据中心最好建在“别人家隔壁”。",
-          "footerTakeaway": "今日关键词：美国基础设施。"
+          "categoryLabel": "航空监管",
+          "headlineFact": "FAA允许波音恢复737 MAX与787适航证签发",
+          "headlineView": "监管放权的前提，是把数据与持续监督写进流程。",
+          "headlineFull": "FAA允许波音恢复737 MAX与787适航证签发；监管放权的前提，是把数据与持续监督写进流程。",
+          "intro": "美国联邦航空管理局表示，经过八个月数据与安全审查，波音可自7月20日起恢复为全部737 MAX和787签发适航证。FAA仍将持续检查、审计和监控制造体系；这不是监督退出，而是责任边界重新调整。",
+          "xiaziQuote": "高风险行业的信任不能靠一句恢复，而要靠长期可审计的数据积累。",
+          "doudouQuote": "把印章交回去可以，检查清单可千万别一起打包退货。",
+          "footerTakeaway": "今日关键词：航空监管。"
         },
         "en-US": {
-          "categoryLabel": "U.S. Data Centers",
-          "headlineFact": "A $16 billion AI data center sparks backlash in a small American town",
-          "headlineView": "the larger compute becomes, the harder its local land, power, and water costs are to hide.",
-          "headlineFull": "A $16 billion AI data center sparks backlash in a small American town; the larger compute becomes, the harder its local land, power, and water costs are to hide.",
-          "intro": "A $16 billion AI data-center project spanning more than 250 acres has turned a small Michigan farming community into a national flashpoint. A Reuters/Ipsos poll found that only 14% of Americans would support a data center being built in their own community.",
-          "xiaziQuote": "AI may seem to live in the cloud, but when it lands, it takes land, grid capacity, and water—and forces a new negotiation with local residents.",
-          "doudouQuote": "Everyone wants smarter AI, but most people still hope the data center gets built next to somebody else’s home.",
-          "footerTakeaway": "Keyword: U.S. Data Centers."
+          "categoryLabel": "Aviation Oversight",
+          "headlineFact": "The FAA lets Boeing resume issuing airworthiness certificates for 737 MAX and 787 aircraft",
+          "headlineView": "delegation works only when data and continuous oversight remain in the process.",
+          "headlineFull": "The FAA lets Boeing resume issuing airworthiness certificates for 737 MAX and 787 aircraft; delegation works only when data and continuous oversight remain in the process.",
+          "intro": "After eight months of data and safety review, the FAA said Boeing may resume issuing airworthiness certificates for all 737 MAX and 787 aircraft from July 20. The agency will continue inspections, audits and production monitoring; this changes responsibility without ending oversight.",
+          "xiaziQuote": "Trust in a high-risk industry cannot return through one announcement; it must be rebuilt with auditable evidence over time.",
+          "doudouQuote": "Return the stamp if you must, but please keep the inspection checklist on the desk.",
+          "footerTakeaway": "Keyword: Aviation Oversight."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-17-07-1",
-          "topicId": "topic-2026-07-17-07",
-          "title": "A $16 billion AI data center sparks backlash in a small American town",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/us/americans-are-angry-about-data-centers-politicians-are-feeling-pressure-2026-07-16/",
-          "publishedAt": "2026-07-16T00:00:00Z",
-          "sourceType": "wire",
+          "id": "source-2026-07-18-05-1",
+          "topicId": "topic-2026-07-18-05",
+          "title": "After Months of Safety Review, FAA Allows Boeing to Resume Issuing Certificates for New Airplanes",
+          "publisher": "Federal Aviation Administration",
+          "url": "https://www.faa.gov/newsroom/after-months-safety-review-faa-allows-boeing-resume-issuing-certificates-new-airplanes",
+          "publishedAt": "2026-07-17T12:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -405,54 +289,54 @@
       ]
     },
     {
-      "id": "topic-2026-07-17-08",
-      "issueId": "issue-2026-07-17",
-      "slug": "italy-electoral-reform-42-percent",
-      "rank": 8,
-      "category": "international",
-      "region": "Europe",
+      "id": "topic-2026-07-18-06",
+      "issueId": "issue-2026-07-18",
+      "slug": "american-samoa-minerals-lease-plan",
+      "rank": 6,
+      "category": "economy",
+      "region": "Pacific",
       "countryCodes": [
-        "IT"
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 90,
-      "storyId": "xzs-italy-electoral-reform-42-percent-20260717",
+      "storyId": "xzs-american-samoa-minerals-20260718",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 90,
+      "informationIncrementScore": 91,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "意大利政治",
-          "headlineFact": "意大利众议院通过争议选举法改革",
-          "headlineView": "“保证稳定多数”的制度设计，也可能变成执政者延长优势的工具。",
-          "headlineFull": "意大利众议院通过争议选举法改革；“保证稳定多数”的制度设计，也可能变成执政者延长优势的工具。",
-          "intro": "意大利众议院以217票对152票通过选举法改革方案。新制度拟取消部分简单多数制席位，全面转向比例代表制，并向全国得票超过42%的联盟追加席位。反对派指责改革有利于梅洛尼政府，法案仍需参议院批准。",
-          "xiaziQuote": "选举制度从来不是中性的计算公式，规则怎么设计，往往会提前改变下一场比赛的起跑线。",
-          "doudouQuote": "还没开始投票，大家先为“怎么算赢”吵起来了。",
-          "footerTakeaway": "今日关键词：意大利政治。"
+          "categoryLabel": "关键矿产",
+          "headlineFact": "美国推进美属萨摩亚近海矿产租赁",
+          "headlineView": "关键矿产安全不能跳过海洋生态账本。",
+          "headlineFull": "美国推进美属萨摩亚近海矿产租赁；关键矿产安全不能跳过海洋生态账本。",
+          "intro": "美国海洋能源管理局7月16日公布拟议租赁通知，推动年内举行美属萨摩亚外大陆架矿产租赁。当前环境评估仅覆盖勘察等前期活动，并不等于批准商业开采；供应链目标仍需接受生态与程序审查。",
+          "xiaziQuote": "关键矿产的地缘价值越高，越需要把环境代价和地方利益写进起点，而不是留到终点。",
+          "doudouQuote": "海底宝藏不是抽屉里的备用电池，打开前先问问海洋邻居。",
+          "footerTakeaway": "今日关键词：关键矿产。"
         },
         "en-US": {
-          "categoryLabel": "Italian Politics",
-          "headlineFact": "Italy’s lower house passes a contested electoral reform bill",
-          "headlineView": "rules designed to guarantee a stable majority can also extend an incumbent’s advantage.",
-          "headlineFull": "Italy’s lower house passes a contested electoral reform bill; rules designed to guarantee a stable majority can also extend an incumbent’s advantage.",
-          "intro": "Italy’s lower house approved a contested electoral reform by 217 votes to 152. The proposal would introduce a fully proportional system and grant extra seats to a coalition winning more than 42% nationally. It still requires Senate approval.",
-          "xiaziQuote": "Electoral rules are never neutral math. The way a system is designed often changes the starting line of the next contest before voting begins.",
-          "doudouQuote": "Before the ballots even arrive, everyone is already arguing about how winning should be counted.",
-          "footerTakeaway": "Keyword: Italian Politics."
+          "categoryLabel": "Critical Minerals",
+          "headlineFact": "The United States advances an offshore minerals lease sale near American Samoa",
+          "headlineView": "critical-mineral security cannot skip the ocean’s ecological ledger.",
+          "headlineFull": "The United States advances an offshore minerals lease sale near American Samoa; critical-mineral security cannot skip the ocean’s ecological ledger.",
+          "intro": "The Bureau of Ocean Energy Management issued a proposed leasing notice on July 16 for a possible American Samoa offshore minerals sale later this year. Its environmental review covers preliminary surveys, not commercial extraction approval, leaving ecological and procedural scrutiny ahead.",
+          "xiaziQuote": "The greater a mineral’s strategic value, the earlier environmental costs and local interests must enter the decision.",
+          "doudouQuote": "The seabed is not a spare-battery drawer; ask the ocean’s neighbors before opening it.",
+          "footerTakeaway": "Keyword: Critical Minerals."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-17-08-1",
-          "topicId": "topic-2026-07-17-08",
-          "title": "Italy’s lower house passes a contested electoral reform bill",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/italys-parliament-backs-melonis-contested-electoral-reform-2026-07-16/",
-          "publishedAt": "2026-07-16T00:00:00Z",
-          "sourceType": "wire",
+          "id": "source-2026-07-18-06-1",
+          "topicId": "topic-2026-07-18-06",
+          "title": "Potential American Samoa Offshore Minerals Lease Sale",
+          "publisher": "Bureau of Ocean Energy Management",
+          "url": "https://www.boem.gov/marine-minerals/potential-american-samoa-offshore-minerals-lease-sale",
+          "publishedAt": "2026-07-16T12:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -460,53 +344,165 @@
       ]
     },
     {
-      "id": "topic-2026-07-17-09",
-      "issueId": "issue-2026-07-17",
-      "slug": "ecb-september-hike-oil-rebound",
-      "rank": 9,
-      "category": "business",
-      "region": "Europe",
+      "id": "topic-2026-07-18-07",
+      "issueId": "issue-2026-07-18",
+      "slug": "national-academies-extreme-event-attribution",
+      "rank": 7,
+      "category": "climate",
+      "region": "Global",
       "countryCodes": [
-        "EU"
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 89,
-      "storyId": "xzs-ecb-september-hike-oil-rebound-20260717",
+      "storyId": "xzs-extreme-event-attribution-20260718",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 89,
+      "informationIncrementScore": 88,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "欧洲经济",
-          "headlineFact": "油价反弹约20%，欧洲央行9月加息预期升温",
-          "headlineView": "能源冲突最远的回声，往往出现在家庭贷款与企业成本里。",
-          "headlineFull": "油价反弹约20%，欧洲央行9月加息预期升温；能源冲突最远的回声，往往出现在家庭贷款与企业成本里。",
-          "intro": "Reuters对74名经济学家的调查显示，受中东冲突推动油价近期上涨约20%的影响，所有受访者预计欧洲央行7月23日维持利率不变，但约70%预计年内还将加息一次，多数判断时间可能在9月。",
-          "xiaziQuote": "一场能源冲突不仅影响加油站，也会通过通胀预期，改变房贷、融资和企业扩张计划。",
-          "doudouQuote": "海峡那边油价一涨，欧洲这边房贷先紧张起来。",
-          "footerTakeaway": "今日关键词：欧洲经济。"
+          "categoryLabel": "气候科学",
+          "headlineFact": "美国国家科学院更新极端天气归因评估",
+          "headlineView": "能解释多少气候影响，正在决定城市如何准备与追责。",
+          "headlineFull": "美国国家科学院更新极端天气归因评估；能解释多少气候影响，正在决定城市如何准备与追责。",
+          "intro": "美国国家科学院新报告称，极端事件归因科学过去十年显著进步，对极端高温、低温和大范围强降雨的结论信心最高；对雷暴、龙卷风等小尺度过程仍有限。更可靠的归因将影响规划、保险与公共政策。",
+          "xiaziQuote": "把气候变化从长期趋势连接到具体灾害，是风险治理从争论走向行动的一步。",
+          "doudouQuote": "天气会变脸，科学至少要把它的变脸记录得更清楚。",
+          "footerTakeaway": "今日关键词：气候科学。"
         },
         "en-US": {
-          "categoryLabel": "European Economy",
-          "headlineFact": "Oil’s 20% rebound lifts expectations of a September ECB rate hike",
-          "headlineView": "the farthest echo of an energy shock often reaches household loans and business financing.",
-          "headlineFull": "Oil’s 20% rebound lifts expectations of a September ECB rate hike; the farthest echo of an energy shock often reaches household loans and business financing.",
-          "intro": "All 74 economists in a Reuters poll expect the European Central Bank to hold rates on July 23, but roughly 70% anticipate another increase this year, most likely in September, as a renewed energy-price surge revives inflation risks.",
-          "xiaziQuote": "An energy conflict does not stop at the gas station. Through inflation expectations, it reshapes mortgages, financing, and corporate expansion plans.",
-          "doudouQuote": "Oil rises near a distant strait, and suddenly mortgages and business costs start to tense up in Europe.",
-          "footerTakeaway": "Keyword: European Economy."
+          "categoryLabel": "Climate Science",
+          "headlineFact": "The U.S. National Academies updates its assessment of extreme-event attribution",
+          "headlineView": "what science can explain increasingly shapes how cities prepare and assign responsibility.",
+          "headlineFull": "The U.S. National Academies updates its assessment of extreme-event attribution; what science can explain increasingly shapes how cities prepare and assign responsibility.",
+          "intro": "A new National Academies report says extreme-event attribution has advanced substantially in a decade. Confidence is highest for extreme heat, cold and large-scale heavy rainfall, but remains lower for small-scale processes such as thunderstorms and tornadoes. Stronger attribution can inform planning, insurance and policy.",
+          "xiaziQuote": "Connecting climate change to specific disasters helps risk governance move from abstract argument toward practical action.",
+          "doudouQuote": "Weather changes its face quickly; science should at least keep a clearer record.",
+          "footerTakeaway": "Keyword: Climate Science."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-17-09-1",
-          "topicId": "topic-2026-07-17-09",
-          "title": "Oil’s 20% rebound lifts expectations of a September ECB rate hike",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/ecb-hold-rates-now-energy-price-resurgence-points-september-hike-2026-07-16/",
-          "publishedAt": "2026-07-16T00:00:00Z",
+          "id": "source-2026-07-18-07-1",
+          "topicId": "topic-2026-07-18-07",
+          "title": "The Science of Extreme Event Attribution Has Advanced, But Challenges Remain",
+          "publisher": "National Academies of Sciences, Engineering, and Medicine",
+          "url": "https://www.nationalacademies.org/news/the-science-of-extreme-event-attribution-which-analyzes-climate-change-s-influence-on-specific-weather-events-has-advanced-but-challenges-remain",
+          "publishedAt": "2026-07-15T13:51:40Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-18-08",
+      "issueId": "issue-2026-07-18",
+      "slug": "new-zealand-second-h5-bird-flu-case",
+      "rank": 8,
+      "category": "health",
+      "region": "Oceania",
+      "countryCodes": [
+        "NZ"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-new-zealand-second-h5-20260718",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "公共健康",
+          "headlineFact": "新西兰确认第二例H5禽流感，首次涉及本土猛禽",
+          "headlineView": "早发现不等于可松懈，监测与保护必须同时加速。",
+          "headlineFull": "新西兰确认第二例H5禽流感，首次涉及本土猛禽；早发现不等于可松懈，监测与保护必须同时加速。",
+          "intro": "新西兰7月17日确认，一只在怀拉拉帕发现的沼泽鹞成为该国第二只感染H5禽流感的鸟，也是首只确认感染的本土鸟类。政府称家禽中尚未检出，并将加强野鸟监测、家禽业支持和濒危鸟类疫苗接种。",
+          "xiaziQuote": "从迁徙海鸟到本土猛禽，病毒跨越的不是一条物种名单，而是生态系统的连接。",
+          "doudouQuote": "第二只鸟就是第二次提醒：看见异常，离远一点，快点报告。",
+          "footerTakeaway": "今日关键词：公共健康。"
+        },
+        "en-US": {
+          "categoryLabel": "Public Health",
+          "headlineFact": "New Zealand confirms a second H5 bird-flu case, its first in a native raptor",
+          "headlineView": "early detection is not permission to relax; monitoring and protection must accelerate together.",
+          "headlineFull": "New Zealand confirms a second H5 bird-flu case, its first in a native raptor; early detection is not permission to relax; monitoring and protection must accelerate together.",
+          "intro": "New Zealand confirmed on July 17 that a swamp harrier found in Wairarapa was the country’s second bird with H5 avian influenza and the first confirmed native bird. Officials said poultry remained unaffected and announced stronger wildlife checks, industry support and vaccination for threatened birds.",
+          "xiaziQuote": "From a migratory seabird to a native raptor, the virus is crossing connections inside an ecosystem, not merely a species list.",
+          "doudouQuote": "A second bird is a second reminder: keep your distance, notice problems and report quickly.",
+          "footerTakeaway": "Keyword: Public Health."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-18-08-1",
+          "topicId": "topic-2026-07-18-08",
+          "title": "Bird flu work steps up – second case confirmed",
+          "publisher": "New Zealand Department of Conservation",
+          "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/bird-flu-work-steps-up-second-case-confirmed/",
+          "publishedAt": "2026-07-17T04:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-18-09",
+      "issueId": "issue-2026-07-18",
+      "slug": "us-restores-hong-kong-preferences",
+      "rank": 9,
+      "category": "economy",
+      "region": "Asia",
+      "countryCodes": [
+        "US",
+        "CN",
+        "HK"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-us-hong-kong-preferences-20260718",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球贸易",
+          "headlineFact": "美国恢复香港优惠待遇",
+          "headlineView": "贸易关系回暖时，制度与制裁的不确定性仍会留在企业账上。",
+          "headlineFull": "美国恢复香港优惠待遇；贸易关系回暖时，制度与制裁的不确定性仍会留在企业账上。",
+          "intro": "美方7月17日确认，不续签此前撤销香港特殊贸易地位的行政令，恢复相关优惠待遇。美国财政部称该行政令下的国家紧急状态已到期；部分个人在不同制裁清单间调整，显示关系缓和并不等于所有限制归零。",
+          "xiaziQuote": "政策转向可以很快，企业重新建立供应链、合规判断和信心却需要更长时间。",
+          "doudouQuote": "优惠回来了，合规团队的咖啡大概还不能停。",
+          "footerTakeaway": "今日关键词：全球贸易。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Trade",
+          "headlineFact": "The United States restores Hong Kong’s preferential treatment",
+          "headlineView": "even as trade ties warm, regulatory and sanctions uncertainty stays on corporate balance sheets.",
+          "headlineFull": "The United States restores Hong Kong’s preferential treatment; even as trade ties warm, regulatory and sanctions uncertainty stays on corporate balance sheets.",
+          "intro": "The United States confirmed on July 17 that it would not renew the executive order revoking Hong Kong’s special trading status, restoring related privileges. The Treasury said the national emergency under that order had expired, while some people moved between sanctions lists, showing that easing does not erase every restriction.",
+          "xiaziQuote": "Policy can turn quickly, but rebuilding supply chains, compliance judgments and business confidence takes much longer.",
+          "doudouQuote": "The preferences are back; the compliance team probably should not stop brewing coffee yet.",
+          "footerTakeaway": "Keyword: Global Trade."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-18-09-1",
+          "topicId": "topic-2026-07-18-09",
+          "title": "US restores Hong Kong's preferential privileges",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/hong-kong-us-china-preferential-trade-b0a7e46fac0906bba975e3a1f52ebe7d",
+          "publishedAt": "2026-07-17T16:45:03Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",

@@ -972,14 +972,14 @@
   },
   {
     "storyId": "xzs-world-cup-final-rest-day-20260717",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 82,
+    "storyStatus": "followup",
+    "followupDay": 2,
+    "informationIncrementScore": 72,
     "firstSeenDate": "2026-07-17",
-    "lastSeenDate": "2026-07-17",
-    "lastIssueDate": "2026-07-17",
-    "lastTopicSlug": "world-cup-final-rest-day",
-    "slug": "world-cup-final-rest-day"
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "world-cup-final-weekend-rest-day",
+    "slug": "world-cup-final-weekend-rest-day"
   },
   {
     "storyId": "xzs-ukraine-koretskyi-pm-20260717",
@@ -1024,5 +1024,82 @@
     "lastIssueDate": "2026-07-17",
     "lastTopicSlug": "ecb-september-hike-oil-rebound",
     "slug": "ecb-september-hike-oil-rebound"
+  },
+  {
+    "storyId": "xzs-moonshot-kimi-k3-20260718",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 96,
+    "firstSeenDate": "2026-07-18",
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "moonshot-kimi-k3-open-model",
+    "slug": "moonshot-kimi-k3-open-model"
+  },
+  {
+    "storyId": "xzs-altshare-solo-founder-q2-20260718",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 90,
+    "firstSeenDate": "2026-07-18",
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "altshare-solo-founder-q2-2026",
+    "slug": "altshare-solo-founder-q2-2026"
+  },
+  {
+    "storyId": "xzs-faa-boeing-certificates-20260718",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 94,
+    "firstSeenDate": "2026-07-18",
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "faa-boeing-airworthiness-certificates",
+    "slug": "faa-boeing-airworthiness-certificates"
+  },
+  {
+    "storyId": "xzs-american-samoa-minerals-20260718",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 91,
+    "firstSeenDate": "2026-07-18",
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "american-samoa-minerals-lease-plan",
+    "slug": "american-samoa-minerals-lease-plan"
+  },
+  {
+    "storyId": "xzs-extreme-event-attribution-20260718",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 88,
+    "firstSeenDate": "2026-07-18",
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "national-academies-extreme-event-attribution",
+    "slug": "national-academies-extreme-event-attribution"
+  },
+  {
+    "storyId": "xzs-new-zealand-second-h5-20260718",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 95,
+    "firstSeenDate": "2026-07-18",
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "new-zealand-second-h5-bird-flu-case",
+    "slug": "new-zealand-second-h5-bird-flu-case"
+  },
+  {
+    "storyId": "xzs-us-hong-kong-preferences-20260718",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 93,
+    "firstSeenDate": "2026-07-18",
+    "lastSeenDate": "2026-07-18",
+    "lastIssueDate": "2026-07-18",
+    "lastTopicSlug": "us-restores-hong-kong-preferences",
+    "slug": "us-restores-hong-kong-preferences"
   }
 ]
