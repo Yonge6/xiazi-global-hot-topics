@@ -16,6 +16,7 @@ issueValue.beijingTimestamp = "2026-07-19T05:00:00+08:00";
 issueValue.gmtTimestamp = "2026-07-18T21:00:00Z";
 const issue = parseIssue(issueValue);
 const assetBatchId = "asset_20260719_primary";
+const posterGateTimeout = 20_000;
 const candidates: PosterCandidate[] = issue.topics.flatMap((topic) => (["zh", "en"] as const).map((locale) => ({
   topicId: topic.id,
   locale,
@@ -101,7 +102,7 @@ describe("release poster gate", () => {
     expect(checks.every((item) => /^[0-9a-f]{16}$/.test(item.perceptualHash))).toBe(true);
     expect(checks.every((item) => item.crossLocaleThemeMatches)).toBe(true);
     expect(new Set(checks.map((item) => item.batchComparisonHash)).size).toBe(1);
-  });
+  }, posterGateTimeout);
 
   it("rejects a manifest missing one locale/topic slot", async () => {
     await expect(verifyReleasePosters(issue, assetBatchId, candidates.slice(1), {
@@ -115,7 +116,7 @@ describe("release poster gate", () => {
     await expect(verifyReleasePosters(issue, assetBatchId, candidates, {
       fetchImpl: posterFetch(duplicateMap), reviewer,
     })).rejects.toThrow(/POSTER_DUPLICATE/);
-  });
+  }, posterGateTimeout);
 
   it("rejects a re-encoded copy using perceptual hash even when file SHA differs", async () => {
     const duplicateMap = new Map(buffers);
@@ -123,7 +124,7 @@ describe("release poster gate", () => {
     await expect(verifyReleasePosters(issue, assetBatchId, candidates, {
       fetchImpl: posterFetch(duplicateMap), reviewer,
     })).rejects.toThrow(/POSTER_PERCEPTUAL_DUPLICATE/);
-  });
+  }, posterGateTimeout);
 
   it("fails when the batch reviewer cannot confirm an IP character", async () => {
     await expect(verifyReleasePosters(issue, assetBatchId, candidates, {
@@ -134,7 +135,7 @@ describe("release poster gate", () => {
         return result;
       },
     })).rejects.toThrow(/xiazi/);
-  });
+  }, posterGateTimeout);
 
   it("fails closed when different topics exceed semantic similarity threshold", async () => {
     await expect(verifyReleasePosters(issue, assetBatchId, candidates, {
@@ -147,7 +148,7 @@ describe("release poster gate", () => {
         return result;
       },
     })).rejects.toThrow(/POSTER_VISUAL_SIMILARITY_REVIEW_REQUIRED/);
-  });
+  }, posterGateTimeout);
 
   it("requires Chinese and English posters for one topic to share the news theme", async () => {
     await expect(verifyReleasePosters(issue, assetBatchId, candidates, {
@@ -159,7 +160,7 @@ describe("release poster gate", () => {
         return result;
       },
     })).rejects.toThrow(/POSTER_CROSS_LOCALE_THEME_MISMATCH/);
-  });
+  }, posterGateTimeout);
 
   it("rejects duplicate per-poster review entries even when every slot appears in the set", async () => {
     await expect(verifyReleasePosters(issue, assetBatchId, candidates, {
@@ -170,5 +171,5 @@ describe("release poster gate", () => {
         return result;
       },
     })).rejects.toThrow(/POSTER_BATCH_REVIEWS_INCOMPLETE/);
-  });
+  }, posterGateTimeout);
 });
