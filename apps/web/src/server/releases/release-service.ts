@@ -58,6 +58,7 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
   const now = dependencies.now || (() => new Date());
   const leaseSeconds = dependencies.leaseSeconds || 180;
   const heartbeatIntervalMs = dependencies.heartbeatIntervalMs || Math.min(45_000, Math.floor(leaseSeconds * 1000 / 3));
+  const releaseCandidateId = `candidate-${bundle.issue.issueDate}-${bundle.checksum.slice(0, 16)}`;
 
   const lease = await rpc<LeaseResult>(client, "acquire_publication_lease", {
     p_issue_date: bundle.issue.issueDate,
@@ -101,7 +102,7 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
         .catch((error) => { heartbeatFailure = error; });
     }, heartbeatIntervalMs);
     [sources, posters] = await Promise.all([
-      (dependencies.sourceGate || verifyReleaseSources)(bundle.issue),
+      (dependencies.sourceGate || verifyReleaseSources)(bundle.issue, { releaseCandidateId }),
       (dependencies.posterGate || verifyReleasePosters)(bundle.issue, request.assetBatchId, request.posters),
     ]);
     await heartbeatInFlight;

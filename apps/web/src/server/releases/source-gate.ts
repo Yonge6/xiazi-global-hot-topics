@@ -6,6 +6,7 @@ import type {
 } from "@xiazi/contracts";
 
 import { sha256 } from "./release-hash";
+import { requestSemanticReview } from "./reviewer-client";
 import { assertSafeSourceUrl, fetchSafeSource, type SafeSourceResponse } from "./safe-source-fetch";
 
 const correctionPattern = /(?:this (?:story|article|report) has been (?:updated|corrected)|correction:|updated to correct|更正|撤稿|撤回)/i;
@@ -17,23 +18,34 @@ export type SourceSemanticReview = {
   rationale: string;
   provider: string;
   model?: string;
+  modelVersion?: string;
+  protocolVersion?: string;
+  rulesetVersion?: string;
+  requestId?: string;
+  inputHash?: string;
+  reviewedAt?: string;
+  durationMs?: number;
 };
 
 export type SourceSemanticReviewer = (input: {
+  releaseCandidateId: string;
+  sourceId: string;
+  topicId: string;
   url: string;
   title: string;
   snapshotText: string;
   claims: FactualClaim[];
   correctionMarkerDetected: boolean;
+  retractionMarkerDetected: boolean;
 }) => Promise<SourceSemanticReview>;
 
 type SourceGateOptions = {
-  fetchImpl?: typeof fetch;
   sourceFetcher?: (url: string, options: { timeoutMs: number; maxBytes: number }) => Promise<SafeSourceResponse>;
   reviewer?: SourceSemanticReviewer;
   now?: () => Date;
   timeoutMs?: number;
   maxBytes?: number;
+  releaseCandidateId?: string;
 };
 
 function htmlTitle(html: string) {
@@ -54,29 +66,35 @@ function normalizeText(value: string) {
     .trim();
 }
 
-function reviewServiceFromEnv(fetchImpl: typeof fetch): SourceSemanticReviewer {
+function reviewServiceFromEnv(): SourceSemanticReviewer {
   return async (input) => {
-    const endpoint = process.env.SOURCE_SEMANTIC_REVIEW_URL;
-    const secret = process.env.RELEASE_REVIEW_SECRET;
-    if (!endpoint || !secret) throw new Error("SOURCE_SEMANTIC_REVIEW_UNAVAILABLE");
-    const response = await fetchImpl(endpoint, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${secret}`,
+    const response = await requestSemanticReview({
+      releaseCandidateId: input.releaseCandidateId,
+      source: {
+        sourceId: input.sourceId,
+        topicId: input.topicId,
+        finalUrl: input.url,
+        pageTitle: input.title,
+        snapshotText: input.snapshotText,
+        correctionMarkerDetected: input.correctionMarkerDetected,
+        retractionMarkerDetected: input.retractionMarkerDetected,
+        claims: input.claims,
       },
-      body: JSON.stringify(input),
-      cache: "no-store",
     });
-    if (!response.ok) throw new Error(`SOURCE_SEMANTIC_REVIEW_FAILED:${response.status}`);
-    const detail = await response.json() as Partial<SourceSemanticReview>;
-    if (!Array.isArray(detail.claimResults)
-      || !["clear", "corrected", "retracted"].includes(String(detail.correctionStatus))
-      || typeof detail.rationale !== "string"
-      || typeof detail.provider !== "string") {
-      throw new Error("SOURCE_SEMANTIC_REVIEW_INVALID");
-    }
-    return detail as SourceSemanticReview;
+    return {
+      claimResults: response.result.claimResults,
+      correctionStatus: response.result.correctionStatus,
+      rationale: response.result.rationale,
+      provider: response.metadata.provider,
+      model: response.metadata.model,
+      modelVersion: response.metadata.modelVersion,
+      protocolVersion: response.metadata.protocolVersion,
+      rulesetVersion: response.metadata.rulesetVersion,
+      requestId: response.metadata.requestId,
+      inputHash: response.metadata.inputHash,
+      reviewedAt: response.metadata.reviewedAt,
+      durationMs: response.metadata.durationMs,
+    };
   };
 }
 
@@ -109,12 +127,12 @@ function assertCompleteClaimReview(sourceId: string, expected: FactualClaim[], a
 }
 
 export async function verifyReleaseSources(issue: Issue, options: SourceGateOptions = {}) {
-  const fetchImpl = options.fetchImpl || fetch;
-  const reviewer = options.reviewer || reviewServiceFromEnv(fetchImpl);
+  const reviewer = options.reviewer || reviewServiceFromEnv();
   const sourceFetcher = options.sourceFetcher || ((url, limits) => fetchSafeSource(url, limits));
   const now = options.now || (() => new Date());
   const timeoutMs = options.timeoutMs || 20_000;
   const maxBytes = options.maxBytes || 500_000;
+  const releaseCandidateId = options.releaseCandidateId || `candidate-${issue.issueDate}`;
   const snapshots: SourceSnapshot[] = [];
 
   for (const topic of issue.topics) {
@@ -129,15 +147,20 @@ export async function verifyReleaseSources(issue: Issue, options: SourceGateOpti
       const snapshotText = normalizeText(html);
       if (snapshotText.length < 120) throw new Error(`SOURCE_TEXT_TOO_SMALL:${source.id}`);
       const correctionMarkerDetected = correctionPattern.test(snapshotText);
+      const retractionMarkerDetected = retractionPattern.test(snapshotText);
       const claims = factualClaims(issue, topic.id);
       const review = await reviewer({
+        releaseCandidateId,
+        sourceId: source.id,
+        topicId: topic.id,
         url: finalUrl,
         title: htmlTitle(html) || source.title,
         snapshotText,
         claims,
         correctionMarkerDetected,
+        retractionMarkerDetected,
       });
-      if (retractionPattern.test(snapshotText) || review.correctionStatus === "retracted") {
+      if (retractionMarkerDetected || review.correctionStatus === "retracted") {
         throw new Error(`SOURCE_RETRACTED:${source.id}`);
       }
       if (correctionMarkerDetected && review.correctionStatus === "clear") {
@@ -160,6 +183,13 @@ export async function verifyReleaseSources(issue: Issue, options: SourceGateOpti
         claimResults: review.claimResults,
         reviewProvider: review.provider,
         ...(review.model ? { reviewModel: review.model } : {}),
+        ...(review.modelVersion ? { reviewModelVersion: review.modelVersion } : {}),
+        ...(review.protocolVersion ? { reviewProtocolVersion: review.protocolVersion } : {}),
+        ...(review.rulesetVersion ? { reviewRulesetVersion: review.rulesetVersion } : {}),
+        ...(review.requestId ? { reviewRequestId: review.requestId } : {}),
+        ...(review.inputHash ? { reviewInputHash: review.inputHash } : {}),
+        ...(review.reviewedAt ? { reviewedAt: review.reviewedAt } : {}),
+        ...(typeof review.durationMs === "number" ? { reviewDurationMs: review.durationMs } : {}),
         rationale: review.rationale,
       });
     }

@@ -3,6 +3,7 @@ import sharp from "sharp";
 import type { Issue, PosterCandidate, PosterCheck } from "@xiazi/contracts";
 
 import { sha256, stableHash } from "./release-hash";
+import { requestVisualReview } from "./reviewer-client";
 
 export type PosterVisionReview = {
   topicId: string;
@@ -16,6 +17,9 @@ export type PosterVisionReview = {
   themeMatches: boolean;
   xiaziMatches: boolean;
   doudoulongMatches: boolean;
+  nearDuplicate: boolean;
+  needsHumanReview: boolean;
+  rationale: string;
 };
 
 export type PosterPairComparison = {
@@ -35,9 +39,17 @@ export type PosterBatchVisionReview = {
   comparisons: PosterPairComparison[];
   provider: string;
   model?: string;
+  modelVersion?: string;
+  protocolVersion?: string;
+  rulesetVersion?: string;
+  requestId?: string;
+  inputHash?: string;
+  reviewedAt?: string;
+  durationMs?: number;
 };
 
 export type PosterBatchVisionReviewer = (input: {
+  assetBatchId: string;
   posters: Array<{
     url: string;
     topicId: string;
@@ -66,28 +78,22 @@ type PreparedPoster = {
   height: number;
 };
 
-function reviewerFromEnv(fetchImpl: typeof fetch): PosterBatchVisionReviewer {
+function reviewerFromEnv(): PosterBatchVisionReviewer {
   return async (input) => {
-    const endpoint = process.env.POSTER_VISION_REVIEW_URL;
-    const secret = process.env.RELEASE_REVIEW_SECRET;
-    if (!endpoint || !secret) throw new Error("POSTER_VISION_REVIEW_UNAVAILABLE");
-    const response = await fetchImpl(endpoint, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${secret}`,
-      },
-      body: JSON.stringify(input),
-      cache: "no-store",
-    });
-    if (!response.ok) throw new Error(`POSTER_VISION_REVIEW_FAILED:${response.status}`);
-    const detail = await response.json() as Partial<PosterBatchVisionReview>;
-    if (!Array.isArray(detail.reviews)
-      || !Array.isArray(detail.comparisons)
-      || typeof detail.provider !== "string") {
-      throw new Error("POSTER_VISION_REVIEW_INVALID");
-    }
-    return detail as PosterBatchVisionReview;
+    const response = await requestVisualReview(input);
+    return {
+      reviews: response.result.reviews,
+      comparisons: response.result.comparisons,
+      provider: response.metadata.provider,
+      model: response.metadata.model,
+      modelVersion: response.metadata.modelVersion,
+      protocolVersion: response.metadata.protocolVersion,
+      rulesetVersion: response.metadata.rulesetVersion,
+      requestId: response.metadata.requestId,
+      inputHash: response.metadata.inputHash,
+      reviewedAt: response.metadata.reviewedAt,
+      durationMs: response.metadata.durationMs,
+    };
   };
 }
 
@@ -160,6 +166,9 @@ function assertVisionReview(review: PosterVisionReview, expectedRank: number, ex
   if (!review.themeMatches) failures.push("theme");
   if (!review.xiaziMatches) failures.push("xiazi");
   if (!review.doudoulongMatches) failures.push("doudoulong");
+  if (review.nearDuplicate) failures.push("nearDuplicate");
+  if (review.needsHumanReview) failures.push("humanReview");
+  if (!review.rationale.trim()) failures.push("rationale");
   if (failures.length) throw new Error(`POSTER_VISION_GATE_FAILED:${topicId}:${expectedLocale}:${failures.join(",")}`);
 }
 
@@ -256,7 +265,7 @@ export async function verifyReleasePosters(
   if (actual.join("|") !== expected.join("|")) throw new Error("POSTER_MANIFEST_MUST_MATCH_18_RELEASE_SLOTS");
 
   const fetchImpl = options.fetchImpl || fetch;
-  const reviewer = options.reviewer || reviewerFromEnv(fetchImpl);
+  const reviewer = options.reviewer || reviewerFromEnv();
   const now = options.now || (() => new Date());
   const maxBytes = options.maxBytes || 10 * 1024 * 1024;
   const perceptualDistanceThreshold = options.perceptualDistanceThreshold ?? 4;
@@ -306,6 +315,7 @@ export async function verifyReleasePosters(
   }
 
   const batchInput = {
+    assetBatchId,
     posters: candidates.map((candidate) => {
       const topic = issue.topics.find((item) => item.id === candidate.topicId)!;
       return {
@@ -324,6 +334,11 @@ export async function verifyReleasePosters(
   const batchComparisonHash = stableHash({
     provider: batchReview.provider,
     model: batchReview.model || null,
+    modelVersion: batchReview.modelVersion || null,
+    protocolVersion: batchReview.protocolVersion || null,
+    rulesetVersion: batchReview.rulesetVersion || null,
+    requestId: batchReview.requestId || null,
+    inputHash: batchReview.inputHash || null,
     comparisons: batchReview.comparisons,
   });
   const reviewBySlot = new Map(batchReview.reviews.map((item) => [slotKey(item.topicId, item.locale), item]));
@@ -363,6 +378,13 @@ export async function verifyReleasePosters(
       batchComparisonHash,
       reviewProvider: batchReview.provider,
       ...(batchReview.model ? { reviewModel: batchReview.model } : {}),
+      ...(batchReview.modelVersion ? { reviewModelVersion: batchReview.modelVersion } : {}),
+      ...(batchReview.protocolVersion ? { reviewProtocolVersion: batchReview.protocolVersion } : {}),
+      ...(batchReview.rulesetVersion ? { reviewRulesetVersion: batchReview.rulesetVersion } : {}),
+      ...(batchReview.requestId ? { reviewRequestId: batchReview.requestId } : {}),
+      ...(batchReview.inputHash ? { reviewInputHash: batchReview.inputHash } : {}),
+      ...(batchReview.reviewedAt ? { reviewedAt: batchReview.reviewedAt } : {}),
+      ...(typeof batchReview.durationMs === "number" ? { reviewDurationMs: batchReview.durationMs } : {}),
       checkedAt: now().toISOString(),
     };
   });

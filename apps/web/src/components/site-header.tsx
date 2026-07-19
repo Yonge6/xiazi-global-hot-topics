@@ -10,7 +10,7 @@ export function SiteHeader({ locale, messages }: { locale: AppLocale; messages: 
   const isZh = locale === "zh";
   const mobileNavItems = [
     { href: "#stories", label: isZh ? "昨日世界" : "Yesterday" },
-    { href: "https://pluto.hk/english-quote-log/", label: isZh ? "英语句子" : "English Lines" },
+    { href: "https://xiazishuo.com/english-quote-log/", label: isZh ? "英语句子" : "English Lines" },
     { href: "#archive", label: isZh ? "往期归档" : "Archive" },
     { href: "#about", label: isZh ? "关于我们" : "About" },
   ];

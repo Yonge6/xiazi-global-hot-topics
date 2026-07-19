@@ -41,6 +41,13 @@ export type SourceSnapshot = {
   claimResults: FactualClaimReview[];
   reviewProvider: string;
   reviewModel?: string;
+  reviewModelVersion?: string;
+  reviewProtocolVersion?: string;
+  reviewRulesetVersion?: string;
+  reviewRequestId?: string;
+  reviewInputHash?: string;
+  reviewedAt?: string;
+  reviewDurationMs?: number;
   rationale: string;
 };
 
@@ -68,6 +75,13 @@ export type PosterCheck = {
   duplicateOf?: string;
   reviewProvider: string;
   reviewModel?: string;
+  reviewModelVersion?: string;
+  reviewProtocolVersion?: string;
+  reviewRulesetVersion?: string;
+  reviewRequestId?: string;
+  reviewInputHash?: string;
+  reviewedAt?: string;
+  reviewDurationMs?: number;
   checkedAt: string;
 };
 

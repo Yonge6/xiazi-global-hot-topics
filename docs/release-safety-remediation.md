@@ -47,7 +47,7 @@ automatic generation
 
 1. Merge code and migration without enabling `RELEASE_V2_ENABLED`.
 2. Apply `20260718230000_future_release_safety.sql` and `20260719010000_release_safety_hardening.sql` to staging Supabase.
-3. Configure server-only `SOURCE_SEMANTIC_REVIEW_URL`, `POSTER_VISION_REVIEW_URL` and `RELEASE_REVIEW_SECRET`.
+3. Configure server-only `SOURCE_SEMANTIC_REVIEW_URL`, `POSTER_VISION_REVIEW_URL`, `RELEASE_REVIEW_BEARER_SECRET` and `RELEASE_REVIEW_SIGNING_SECRET`.
 4. Run source, poster, concurrency, activation and rollback tests against staging.
 5. Generate the first future candidate through `/api/internal/releases/stage/`.
 6. Confirm the candidate appears in Studio as `ready_for_approval`; verify that the current site still shows the old active issue.
@@ -67,7 +67,9 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 | `RELEASE_EXPLICIT_DEGRADED_FALLBACK` | Permit marked emergency legacy reads | Off returns 503 |
 | `SOURCE_SEMANTIC_REVIEW_URL` | Server-side source claim/correction reviewer | Missing blocks staging |
 | `POSTER_VISION_REVIEW_URL` | Server-side OCR, semantic and IP reviewer | Missing blocks staging |
-| `RELEASE_REVIEW_SECRET` | Bearer secret for both review services | Missing blocks staging |
+| `RELEASE_REVIEW_BEARER_SECRET` | Bearer credential for both review services | Missing blocks staging |
+| `RELEASE_REVIEW_SIGNING_SECRET` | HMAC key binding timestamp, nonce, path and raw body | Missing blocks staging |
+| `RELEASE_REVIEW_TIMEOUT_MS` | Reviewer client hard timeout | Timeout blocks staging |
 | `RELEASE_STAGE_SECRET` | Optional dedicated automation stage secret; falls back to `CRON_SECRET` | Missing both rejects staging |
 
 ## Operational gates before unattended publishing
@@ -87,7 +89,7 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 
 ## Remaining risks
 
-- The external semantic and vision reviewer services must be deployed, versioned and monitored separately.
+- The external semantic and vision reviewer implementation, versioned protocol, HMAC/replay controls and fail-closed client are provided by the stacked reviewer-services PR. A dedicated staging deployment, durable replay store, model credential and monitoring export remain required before production enablement.
 - The immutable object prefix still needs a storage-side deny-overwrite policy; the application prevents mutable Studio writes but cannot stop out-of-band credential misuse.
 - GitHub audit export is intentionally outside the activation transaction and needs a retry worker.
 - Existing mutable Studio poster upload remains a legacy-only path and must stay disabled for future Release V2 automation.

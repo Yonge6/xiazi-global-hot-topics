@@ -1,0 +1,32 @@
+{
+  "name": "@xiazi/reviewer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "audit:config": "node scripts/audit-config.mjs",
+    "check": "eslint . && tsc --noEmit && vitest run && node scripts/audit-config.mjs"
+  },
+  "dependencies": {
+    "@xiazi/contracts": "0.1.0",
+    "@xiazi/domain": "0.1.0",
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "typescript": "^5",
+    "vitest": "^4.1.0"
+  }
+}

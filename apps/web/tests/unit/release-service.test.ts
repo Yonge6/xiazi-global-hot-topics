@@ -175,6 +175,18 @@ describe("future release service", () => {
     expect(client.rpc.mock.calls.at(-1)?.[1]).toMatchObject({ p_lease_owner: "automation-0550" });
   });
 
+  it("does not create a Release when the external reviewer service is unavailable", async () => {
+    const client = fakeClient();
+    await expect(stageFuturePublication(stageInput("automation:2026-07-19:reviewer-down"), {
+      client: client as never,
+      sourceGate: vi.fn(async () => { throw new Error("SOURCE_SEMANTIC_REVIEW_FAILED:503"); }),
+      posterGate: vi.fn(async () => posters),
+      heartbeatIntervalMs: 60_000,
+    })).rejects.toThrow(/SOURCE_SEMANTIC_REVIEW_FAILED:503/);
+    expect(client.rpc.mock.calls.some(([name]) => name === "stage_publication_release")).toBe(false);
+    expect(client.rpc.mock.calls.some(([name]) => name === "fail_publication_job")).toBe(true);
+  });
+
   it("uses separate explicit RPCs for activation and rollback", async () => {
     const client = fakeClient();
     const releaseId = expectedReleaseId();

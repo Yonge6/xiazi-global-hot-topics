@@ -1,0 +1,47 @@
+name: Reviewer services CI
+
+on:
+  pull_request:
+    branches:
+      - codex/future-release-safety
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reviewer-services-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  reviewer:
+    name: Protocol and reviewer service
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run check -w @xiazi/contracts
+      - run: npm run check -w @xiazi/domain
+      - run: npm run check -w @xiazi/reviewer
+      - run: npm run build -w @xiazi/reviewer
+
+  application-integration:
+    name: Main application fail-closed integration
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run check -w @xiazi/web
+      - run: npm run build -w @xiazi/web
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e -w @xiazi/web

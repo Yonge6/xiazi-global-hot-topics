@@ -109,6 +109,27 @@ describe("release source gate", () => {
     })).rejects.toThrow(/SOURCE_CLAIM_NOT_SUPPORTED.*intro:en-US:unsupported/);
   });
 
+  it("fails closed when any claim is uncertain", async () => {
+    await expect(verifyReleaseSources(futureIssue(), {
+      sourceFetcher: sourceFetcher(),
+      reviewer: async (input) => ({
+        ...(await supportedReviewer(input)),
+        claimResults: input.claims.map((claim) => ({
+          ...claim,
+          status: claim.field === "headlineFact" && claim.locale === "zh-CN" ? "uncertain" as const : "supported" as const,
+          rationale: "Per-claim uncertainty test.",
+        })),
+      }),
+    })).rejects.toThrow(/SOURCE_CLAIM_NOT_SUPPORTED.*uncertain/);
+  });
+
+  it("fails closed on a retraction marker even when the reviewer claims clear", async () => {
+    await expect(verifyReleaseSources(futureIssue(), {
+      sourceFetcher: sourceFetcher(" This story has been retracted and replaced."),
+      reviewer: supportedReviewer,
+    })).rejects.toThrow(/SOURCE_RETRACTED/);
+  });
+
   it("fails closed when the reviewer omits one factual claim", async () => {
     await expect(verifyReleaseSources(futureIssue(), {
       sourceFetcher: sourceFetcher(),
