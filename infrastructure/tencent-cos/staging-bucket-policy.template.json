@@ -51,7 +51,8 @@
       },
       "effect": "allow",
       "action": [
-        "name/cos:GetObject"
+        "name/cos:GetObject",
+        "name/cos:HeadObject"
       ],
       "resource": [
         "qcs::cos:${COS_REGION}:uid/${APP_ID}:${STAGING_BUCKET}/release-assets/*"
@@ -91,7 +92,8 @@
       },
       "effect": "allow",
       "action": [
-        "name/cos:GetObject"
+        "name/cos:GetObject",
+        "name/cos:HeadObject"
       ],
       "resource": [
         "qcs::cos:${COS_REGION}:uid/${APP_ID}:${STAGING_BUCKET}/release-assets/*"
@@ -105,12 +107,14 @@
     {
       "principal": {
         "qcs": [
-          "qcs::cam::uin/${OWNER_UIN}:uin/${CDN_READER_UIN}"
+          "qcs::cam::uin/${OWNER_UIN}:service/cdn"
         ]
       },
       "effect": "allow",
       "action": [
-        "name/cos:GetObject"
+        "name/cos:GetObject",
+        "name/cos:HeadObject",
+        "name/cos:OptionsObject"
       ],
       "resource": [
         "qcs::cos:${COS_REGION}:uid/${APP_ID}:${STAGING_BUCKET}/release-assets/*"

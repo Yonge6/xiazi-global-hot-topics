@@ -51,7 +51,8 @@
       },
       "effect": "allow",
       "action": [
-        "name/cos:GetObject"
+        "name/cos:GetObject",
+        "name/cos:HeadObject"
       ],
       "resource": [
         "qcs::cos:${COS_REGION}:uid/${APP_ID}:${STAGING_BUCKET}/release-assets/*"

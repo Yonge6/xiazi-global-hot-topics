@@ -20,7 +20,7 @@ Tencent COS documents that the no-overwrite header is ineffective after versioni
 
 `auditor-policy.template.json` grants only the bucket-state reads used by the protected verifier plus proof-object reads. It cannot upload, delete or mutate policy.
 
-`public-reader-policy.template.json` grants only HTTPS `GetObject` to the CDN/read identity.
+`public-reader-policy.template.json` grants only HTTPS `GetObject`, `HeadObject` and `OptionsObject` to Tencent CDN's account-scoped `service/cdn` identity. The CDN runtime does not receive a CAM user's long-lived secret.
 
 Break-glass administration is intentionally not represented as an application policy. It must remain outside runtime and ordinary CI, require MFA or independent approval, and write CloudAudit records.
 

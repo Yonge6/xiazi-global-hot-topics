@@ -34,9 +34,10 @@ for (const [name, text] of [["uploader", uploaderText], ["reader", readerText], 
   }
 }
 
-for (const placeholder of ["${UPLOADER_UIN}", "${AUDITOR_UIN}", "${CDN_READER_UIN}"]) {
+for (const placeholder of ["${UPLOADER_UIN}", "${AUDITOR_UIN}"]) {
   if (!bucketText.includes(placeholder)) fail(`bucket:missing-placeholder:${placeholder}`);
 }
+if (!bucketText.includes("qcs::cam::uin/${OWNER_UIN}:service/cdn")) fail("bucket:cdn-service-principal-missing");
 
 const statements = uploader.statement;
 if (!Array.isArray(statements)) fail("uploader:statement-missing");
@@ -62,7 +63,7 @@ for (const statement of statements) {
   }
   if (statement.effect === "allow") {
     for (const action of statement.action || []) {
-      if (!["name/cos:PutObject", "name/cos:GetObject"].includes(action)) fail(`uploader:unexpected-allow:${action}`);
+      if (!["name/cos:PutObject", "name/cos:GetObject", "name/cos:HeadObject"].includes(action)) fail(`uploader:unexpected-allow:${action}`);
     }
   }
   if (statement.effect === "deny" && !actions(statement).has("name/cos:PutObject")) {
@@ -70,10 +71,14 @@ for (const statement of statements) {
   }
 }
 
-if (!readerText.includes("${CDN_READER_UIN}")) fail("reader:identity-placeholder-missing");
+if (!readerText.includes("qcs::cam::uin/${OWNER_UIN}:service/cdn")) fail("reader:cdn-service-principal-missing");
 if (reader.statement.length !== 1
   || reader.statement[0].effect !== "allow"
-  || JSON.stringify(reader.statement[0].action) !== JSON.stringify(["name/cos:GetObject"])
+  || JSON.stringify(reader.statement[0].action) !== JSON.stringify([
+    "name/cos:GetObject",
+    "name/cos:HeadObject",
+    "name/cos:OptionsObject",
+  ])
   || reader.statement[0].condition?.bool_equal?.["cos:secure-transport"] !== "true") {
   fail("reader:not-strict-read-only");
 }
@@ -81,7 +86,7 @@ if (reader.statement.length !== 1
 if (!auditorText.includes("${AUDITOR_UIN}")) fail("auditor:identity-placeholder-missing");
 const auditorAllowed = new Set(auditor.statement.flatMap((statement) => statement.action || []));
 for (const action of auditorAllowed) {
-  if (!["name/cos:GetBucketVersioning", "name/cos:GetBucketPolicy", "name/cos:GetBucketEncryption", "name/cos:GetObject"].includes(action)) {
+  if (!["name/cos:GetBucketVersioning", "name/cos:GetBucketPolicy", "name/cos:GetBucketEncryption", "name/cos:GetObject", "name/cos:HeadObject"].includes(action)) {
     fail(`auditor:unexpected-allow:${action}`);
   }
 }
