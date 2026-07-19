@@ -1,22 +1,22 @@
 {
-  "id": "issue-2026-07-18",
-  "slug": "2026-07-18",
-  "issueDate": "2026-07-18",
-  "assetVersion": "issue-2026-07-18-style-atlas-075-image2-v1",
+  "id": "issue-2026-07-19",
+  "slug": "2026-07-19",
+  "issueDate": "2026-07-19",
+  "assetVersion": "issue-2026-07-19-style-atlas-076-image2-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-18T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-17T21:00:00Z",
-  "featuredTopicId": "topic-2026-07-18-01",
+  "beijingTimestamp": "2026-07-19T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-18T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-19-01",
   "style": {
-    "name": "Style Atlas #75 North American Indigenous Art",
-    "zhName": "Style Atlas #75 北美原住民艺术",
-    "description": "Earth-pigment editorial poster language with woven texture, handcrafted print character, rhythmic geometry, and symbolic sun, mountain, river, and sky composition; sacred and tribe-specific symbols are excluded."
+    "name": "Style Atlas #76 Russian Lubok",
+    "zhName": "Style Atlas #76 俄罗斯民间版画",
+    "description": "Premium sunlit Russian-lubok-inspired editorial language with carved-line texture, warm ivory, vermilion, cobalt, gold and symmetrical floral framing; sacred symbols are excluded."
   },
   "topics": [
     {
-      "id": "topic-2026-07-18-01",
-      "issueId": "issue-2026-07-18",
+      "id": "topic-2026-07-19-01",
+      "issueId": "issue-2026-07-19",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -26,98 +26,40 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-overview-20260718",
+      "storyId": "xzs-overview-20260719",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 100,
+      "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "世界杯进入决赛周末，Kimi K3与单人创业继续扩张",
-          "headlineView": "效率越高，安全、规则与公共系统越要跟上。",
-          "headlineFull": "世界杯进入决赛周末，Kimi K3与单人创业继续扩张；效率越高，安全、规则与公共系统越要跟上。",
-          "intro": "世界杯在统计窗口内无完赛，西班牙与阿根廷等待决赛；月之暗面公布Kimi K3，最新创业研究显示单人创始人比例继续上升。与此同时，航空监管、海底矿产、气候归因、新西兰禽流感与美港贸易安排都出现新变化。",
-          "xiaziQuote": "今天八条新闻的共同主线，是技术和效率向前冲时，监督、生态与公共系统必须同步升级。",
-          "doudouQuote": "世界按下加速键，别忘了先检查安全带、说明书和备用电源。",
+          "headlineFact": "决赛将至，世界在加速与承压之间摆动",
+          "headlineView": "扩张速度正在撞上资源、信任与治理边界。",
+          "headlineFull": "决赛将至，世界在加速与承压之间摆动；扩张速度正在撞上资源、信任与治理边界。",
+          "intro": "世界杯决赛将至；AI数据中心遭遇抗议，一人公司增长。美伊冲突、印度民营火箭、加拿大山火、埃博拉应对与一英里纪录，呈现扩张与治理的拉扯。",
+          "xiaziQuote": "扩张速度正在撞上资源、信任与治理边界。",
+          "doudouQuote": "世界一边紧张，一边继续向前跑。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
-          "categoryLabel": "Overview",
-          "headlineFact": "The World Cup enters its final weekend as Kimi K3 and solo entrepreneurship expand",
-          "headlineView": "the faster efficiency rises, the more safety, rules and public systems must keep pace.",
-          "headlineFull": "The World Cup enters its final weekend as Kimi K3 and solo entrepreneurship expand; the faster efficiency rises, the more safety, rules and public systems must keep pace.",
-          "intro": "No World Cup match finished inside the reporting window as Spain and Argentina awaited the final. Moonshot unveiled Kimi K3, while new startup research showed solo founders becoming more common. Aviation oversight, seabed minerals, climate attribution, New Zealand bird flu and U.S.-Hong Kong trade treatment also shifted.",
-          "xiaziQuote": "Across today’s eight stories, speed and efficiency are rising faster than the systems meant to supervise, protect and absorb their costs.",
-          "doudouQuote": "The world pressed fast-forward; please check the seat belt, manual and backup power first.",
-          "footerTakeaway": "Keyword: Overview."
+          "categoryLabel": "Today's Overview",
+          "headlineFact": "The final approaches as the world swings between acceleration and pressure",
+          "headlineView": "Expansion is colliding with limits of resources, trust and governance.",
+          "headlineFull": "The final approaches as the world swings between acceleration and pressure; Expansion is colliding with limits of resources, trust and governance.",
+          "intro": "The World Cup final nears. AI data-center protests and solo founding grow, while U.S.-Iran fighting, India’s private orbital launch, Canadian wildfires, Ebola response and a mile record expose tension between expansion and governance.",
+          "xiaziQuote": "Expansion is colliding with limits of resources, trust and governance.",
+          "doudouQuote": "The world is tense, but it keeps moving forward.",
+          "footerTakeaway": "Keyword: Today's Overview."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-18-01-1",
-          "topicId": "topic-2026-07-18-01",
-          "title": "US restores Hong Kong's preferential privileges",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/hong-kong-us-china-preferential-trade-b0a7e46fac0906bba975e3a1f52ebe7d",
-          "publishedAt": "2026-07-17T16:45:03Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-18-02",
-      "issueId": "issue-2026-07-18",
-      "slug": "world-cup-final-weekend-rest-day",
-      "rank": 2,
-      "category": "sports",
-      "region": "Global",
-      "countryCodes": [
-        "ES",
-        "AR",
-        "FR",
-        "GB"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-world-cup-final-rest-day-20260717",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 72,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "世界杯日报",
-          "headlineFact": "统计窗口内仍无完赛，法国与英格兰、西班牙与阿根廷等待终局",
-          "headlineView": "大赛最后的空窗，也是一场体能与情绪管理。",
-          "headlineFull": "统计窗口内仍无完赛，法国与英格兰、西班牙与阿根廷等待终局；大赛最后的空窗，也是一场体能与情绪管理。",
-          "intro": "北京时间7月17日05:00至7月18日05:00没有世界杯比赛完赛。法国与英格兰将争夺季军，西班牙与阿根廷将争夺冠军，两场比赛均在本期统计窗口之后进行，因此不得提前写入赛果。",
-          "xiaziQuote": "决赛周末的空窗并不空白，球队正在把最后的体能、战术和情绪压缩成一次选择。",
-          "doudouQuote": "今天没有新比分，只有全世界一起刷新倒计时。",
-          "footerTakeaway": "今日关键词：世界杯日报。"
-        },
-        "en-US": {
-          "categoryLabel": "World Cup Daily",
-          "headlineFact": "No match finishes in the reporting window as France and England, then Spain and Argentina, await the finale",
-          "headlineView": "the final pause is also a test of fitness and emotional control.",
-          "headlineFull": "No match finishes in the reporting window as France and England, then Spain and Argentina, await the finale; the final pause is also a test of fitness and emotional control.",
-          "intro": "No World Cup match was completed between 05:00 on July 17 and 05:00 on July 18 Beijing time. France versus England in the third-place playoff and Spain versus Argentina in the final both fall outside this issue’s reporting window, so no result is recorded early.",
-          "xiaziQuote": "The final weekend’s quiet interval is not empty; teams are compressing their remaining fitness, tactics and emotion into one last decision.",
-          "doudouQuote": "No new score today—only the whole world refreshing the countdown.",
-          "footerTakeaway": "Keyword: World Cup Daily."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-18-02-1",
-          "topicId": "topic-2026-07-18-02",
+          "id": "source-2026-07-19-01-1",
+          "topicId": "topic-2026-07-19-01",
           "title": "FIFA World Cup 2026 match schedule, fixtures and results",
           "publisher": "FIFA",
           "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
-          "publishedAt": "2026-07-17T00:00:00Z",
+          "publishedAt": "2026-07-18T12:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -126,53 +68,111 @@
       ]
     },
     {
-      "id": "topic-2026-07-18-03",
-      "issueId": "issue-2026-07-18",
-      "slug": "moonshot-kimi-k3-open-model",
+      "id": "topic-2026-07-19-02",
+      "issueId": "issue-2026-07-19",
+      "slug": "world-cup-july19-cutoff",
+      "rank": 2,
+      "category": "sports",
+      "region": "Global",
+      "countryCodes": [
+        "FR",
+        "GB",
+        "ES",
+        "AR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-world-cup-july19-cutoff-20260719",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "世界杯日报",
+          "headlineFact": "窗口内无完赛；季军战截止时刚开球，决赛即将上演",
+          "headlineView": "窗口规则比“今天有球”更重要，边界必须一致。",
+          "headlineFull": "窗口内无完赛；季军战截止时刚开球，决赛即将上演；窗口规则比“今天有球”更重要，边界必须一致。",
+          "intro": "北京时间7月18日05:00至19日05:00无完赛。法国对英格兰于截止时开球，不计入本期；西班牙对阿根廷决赛将于20日03:00进行。",
+          "xiaziQuote": "窗口规则比“今天有球”更重要，边界必须一致。",
+          "doudouQuote": "哨响在截止线上，下一期再算比分。",
+          "footerTakeaway": "今日关键词：世界杯日报。"
+        },
+        "en-US": {
+          "categoryLabel": "World Cup Daily",
+          "headlineFact": "No match finished in the window; third-place play began at the cutoff",
+          "headlineView": "A fixed reporting window matters more than saying there was a match today.",
+          "headlineFull": "No match finished in the window; third-place play began at the cutoff; A fixed reporting window matters more than saying there was a match today.",
+          "intro": "No match finished from 05:00 Jul 18 to 05:00 Jul 19 Beijing time. France vs England kicked off at the cutoff and is excluded. Spain vs Argentina starts at 03:00 Jul 20.",
+          "xiaziQuote": "A fixed reporting window matters more than saying there was a match today.",
+          "doudouQuote": "The whistle came at the cutoff; score it next issue.",
+          "footerTakeaway": "Keyword: World Cup Daily."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-19-02-1",
+          "topicId": "topic-2026-07-19-02",
+          "title": "FIFA World Cup 2026 match schedule, fixtures and results",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+          "publishedAt": "2026-07-18T12:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-19-03",
+      "issueId": "issue-2026-07-19",
+      "slug": "us-ai-datacenter-protests-125",
       "rank": 3,
       "category": "technology",
-      "region": "Asia",
+      "region": "North America",
       "countryCodes": [
-        "CN"
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 96,
-      "storyId": "xzs-moonshot-kimi-k3-20260718",
+      "storyId": "xzs-us-ai-datacenter-protests-125-20260719",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 96,
+      "informationIncrementScore": 93,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "AI热点",
-          "headlineFact": "月之暗面公布2.8万亿参数Kimi K3",
-          "headlineView": "开放模型的竞争，正从追赶速度转向生态吸引力。",
-          "headlineFull": "月之暗面公布2.8万亿参数Kimi K3；开放模型的竞争，正从追赶速度转向生态吸引力。",
-          "intro": "据路透社，月之暗面公布总参数2.8万亿的Kimi K3，并称其为全球最大开放权重模型，权重计划于7月27日发布。参数规模不是胜负本身，开发者采用、推理成本和真实任务可靠性才决定长期影响。",
-          "xiaziQuote": "开放权重把竞争从一家公司内部，推向全球开发者共同验证的市场。",
-          "doudouQuote": "参数已经大到能绕月球，接下来请用真实任务证明它不是只会摆造型。",
+          "headlineFact": "全美至少125地抗议AI数据中心；算力扩张撞上社区边界",
+          "headlineView": "AI竞争也要回答谁承担电力、水与环境成本。",
+          "headlineFull": "全美至少125地抗议AI数据中心；算力扩张撞上社区边界；AI竞争也要回答谁承担电力、水与环境成本。",
+          "intro": "路透社称抗议覆盖至少125地。6月Reuters/Ipsos调查仅14%支持在本社区建AI数据中心，争议集中于电费、水与污染。",
+          "xiaziQuote": "AI竞争也要回答谁承担电力、水与环境成本。",
+          "doudouQuote": "云端很轻，落地却是电站、水管和账单。",
           "footerTakeaway": "今日关键词：AI热点。"
         },
         "en-US": {
-          "categoryLabel": "Artificial Intelligence",
-          "headlineFact": "Moonshot unveils the 2.8-trillion-parameter Kimi K3",
-          "headlineView": "open-model competition is shifting from catch-up speed to ecosystem appeal.",
-          "headlineFull": "Moonshot unveils the 2.8-trillion-parameter Kimi K3; open-model competition is shifting from catch-up speed to ecosystem appeal.",
-          "intro": "Reuters reported that Moonshot unveiled Kimi K3, a 2.8-trillion-parameter model it describes as the world’s largest open-weight system, with weights scheduled for release on July 27. Parameter count alone is not victory; adoption, inference cost and reliability on real tasks will determine lasting impact.",
-          "xiaziQuote": "Open weights move competition from one company’s lab into a global market of developer testing and adoption.",
-          "doudouQuote": "The parameter count can orbit the moon; now let real work prove it is more than a pose.",
-          "footerTakeaway": "Keyword: Artificial Intelligence."
+          "categoryLabel": "AI Watch",
+          "headlineFact": "AI data centers face protests in at least 125 U.S. locations",
+          "headlineView": "AI competition must answer who pays the power, water and environmental costs.",
+          "headlineFull": "AI data centers face protests in at least 125 U.S. locations; AI competition must answer who pays the power, water and environmental costs.",
+          "intro": "Reuters reports protests in at least 125 locations. A June Reuters/Ipsos poll found only 14% support an AI data center in their own community, amid power, water and pollution concerns.",
+          "xiaziQuote": "AI competition must answer who pays the power, water and environmental costs.",
+          "doudouQuote": "The cloud feels light; on the ground it is plants, pipes and bills.",
+          "footerTakeaway": "Keyword: AI Watch."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-18-03-1",
-          "topicId": "topic-2026-07-18-03",
-          "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
+          "id": "source-2026-07-19-03-1",
+          "topicId": "topic-2026-07-19-03",
+          "title": "US data center protests go national as backlash grows",
           "publisher": "Reuters",
-          "url": "https://www.reuters.com/world/china/chinas-moonshot-unveils-worlds-largest-open-ai-model-closing-us-rivals-2026-07-17/",
-          "publishedAt": "2026-07-17T08:00:00Z",
+          "url": "https://www.investing.com/news/stock-market-news/us-data-center-protests-go-national-as-backlash-grows-4799582",
+          "publishedAt": "2026-07-18T12:00:00Z",
           "sourceType": "wire",
           "sourceTier": 1,
           "locale": "en-US",
@@ -181,9 +181,9 @@
       ]
     },
     {
-      "id": "topic-2026-07-18-04",
-      "issueId": "issue-2026-07-18",
-      "slug": "altshare-solo-founder-q2-2026",
+      "id": "topic-2026-07-19-04",
+      "issueId": "issue-2026-07-19",
+      "slug": "stripe-atlas-solo-founders-q2-2026",
       "rank": 4,
       "category": "business",
       "region": "Global",
@@ -191,96 +191,41 @@
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-altshare-solo-founder-q2-20260718",
+      "scoreTotal": 95,
+      "storyId": "xzs-stripe-atlas-solo-founders-q2-2026-20260719",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 90,
+      "informationIncrementScore": 92,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "OPC一人公司",
-          "headlineFact": "近四分之一新创公司由单人创办，较四年前接近翻倍",
-          "headlineView": "AI减少了人手，却没有替代商业验证。",
-          "headlineFull": "近四分之一新创公司由单人创办，较四年前接近翻倍；AI减少了人手，却没有替代商业验证。",
-          "intro": "股权管理平台altshare的2026年第二季度创业股权报告显示，近四分之一新设创业公司由单人创办，比例接近四年前的两倍。AI让小团队更容易启动，但投资人同时要求更清晰的商业牵引力与里程碑。",
-          "xiaziQuote": "一人公司真正的优势不是永远一个人，而是先用更小成本证明需求，再决定何时扩张。",
-          "doudouQuote": "团队可以先不招满，客户可不能等到以后再找。",
+          "headlineFact": "Stripe Atlas新设公司63%由独立创始人创建；AI降低门槛却不替代验证",
+          "headlineView": "AI降低开工门槛，却不替代需求验证、分销、信任与复购。",
+          "headlineFull": "Stripe Atlas新设公司63%由独立创始人创建；AI降低门槛却不替代验证；AI降低开工门槛，却不替代需求验证、分销、信任与复购。",
+          "intro": "Stripe称2026年二季度迄今63% Atlas C类公司由单人创办；AI原生一人公司两年收入接近其他样本两倍。",
+          "xiaziQuote": "AI降低开工门槛，却不替代需求验证、分销、信任与复购。",
+          "doudouQuote": "一个人可以先出发，但别拒绝协作。",
           "footerTakeaway": "今日关键词：OPC一人公司。"
         },
         "en-US": {
-          "categoryLabel": "OPC Solo Company",
-          "headlineFact": "Nearly one in four new startups has a solo founder, almost double the share four years ago",
-          "headlineView": "AI reduces headcount but does not replace market validation.",
-          "headlineFull": "Nearly one in four new startups has a solo founder, almost double the share four years ago; AI reduces headcount but does not replace market validation.",
-          "intro": "Altshare’s Q2 2026 Startup Equity Report says nearly one-quarter of newly established startups now have a single founder, almost twice the share four years ago. AI makes leaner launches possible, while investors demand clearer commercial traction and milestones before committing capital.",
-          "xiaziQuote": "A solo company’s real advantage is not staying alone forever, but proving demand cheaply before deciding when to expand.",
-          "doudouQuote": "You can postpone hiring the whole team; you cannot postpone finding customers.",
-          "footerTakeaway": "Keyword: OPC Solo Company."
+          "categoryLabel": "OPC One-Person Company",
+          "headlineFact": "63% of new Stripe Atlas companies have solo founders",
+          "headlineView": "AI lowers the starting barrier, but not the need for validation, distribution, trust and retention.",
+          "headlineFull": "63% of new Stripe Atlas companies have solo founders; AI lowers the starting barrier, but not the need for validation, distribution, trust and retention.",
+          "intro": "Stripe says 63% of Atlas C corporations created so far in Q2 2026 are solo-founded. AI-native solo startups approach twice the two-year revenue of other samples.",
+          "xiaziQuote": "AI lowers the starting barrier, but not the need for validation, distribution, trust and retention.",
+          "doudouQuote": "One person can start the journey; collaboration still matters.",
+          "footerTakeaway": "Keyword: OPC One-Person Company."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-18-04-1",
-          "topicId": "topic-2026-07-18-04",
-          "title": "One in four startups now has a solo founder as AI transforms entrepreneurship",
-          "publisher": "CTech / altshare",
-          "url": "https://www.calcalistech.com/ctechnews/article/rknbfqmemx",
-          "publishedAt": "2026-07-14T11:16:23Z",
-          "sourceType": "publisher",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-18-05",
-      "issueId": "issue-2026-07-18",
-      "slug": "faa-boeing-airworthiness-certificates",
-      "rank": 5,
-      "category": "business",
-      "region": "North America",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-faa-boeing-certificates-20260718",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 94,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "航空监管",
-          "headlineFact": "FAA允许波音恢复737 MAX与787适航证签发",
-          "headlineView": "监管放权的前提，是把数据与持续监督写进流程。",
-          "headlineFull": "FAA允许波音恢复737 MAX与787适航证签发；监管放权的前提，是把数据与持续监督写进流程。",
-          "intro": "美国联邦航空管理局表示，经过八个月数据与安全审查，波音可自7月20日起恢复为全部737 MAX和787签发适航证。FAA仍将持续检查、审计和监控制造体系；这不是监督退出，而是责任边界重新调整。",
-          "xiaziQuote": "高风险行业的信任不能靠一句恢复，而要靠长期可审计的数据积累。",
-          "doudouQuote": "把印章交回去可以，检查清单可千万别一起打包退货。",
-          "footerTakeaway": "今日关键词：航空监管。"
-        },
-        "en-US": {
-          "categoryLabel": "Aviation Oversight",
-          "headlineFact": "The FAA lets Boeing resume issuing airworthiness certificates for 737 MAX and 787 aircraft",
-          "headlineView": "delegation works only when data and continuous oversight remain in the process.",
-          "headlineFull": "The FAA lets Boeing resume issuing airworthiness certificates for 737 MAX and 787 aircraft; delegation works only when data and continuous oversight remain in the process.",
-          "intro": "After eight months of data and safety review, the FAA said Boeing may resume issuing airworthiness certificates for all 737 MAX and 787 aircraft from July 20. The agency will continue inspections, audits and production monitoring; this changes responsibility without ending oversight.",
-          "xiaziQuote": "Trust in a high-risk industry cannot return through one announcement; it must be rebuilt with auditable evidence over time.",
-          "doudouQuote": "Return the stamp if you must, but please keep the inspection checklist on the desk.",
-          "footerTakeaway": "Keyword: Aviation Oversight."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-18-05-1",
-          "topicId": "topic-2026-07-18-05",
-          "title": "After Months of Safety Review, FAA Allows Boeing to Resume Issuing Certificates for New Airplanes",
-          "publisher": "Federal Aviation Administration",
-          "url": "https://www.faa.gov/newsroom/after-months-safety-review-faa-allows-boeing-resume-issuing-certificates-new-airplanes",
-          "publishedAt": "2026-07-17T12:00:00Z",
+          "id": "source-2026-07-19-04-1",
+          "topicId": "topic-2026-07-19-04",
+          "title": "Solo founding is at an all-time high",
+          "publisher": "Stripe",
+          "url": "https://stripe.com/blog/top-solo-founder-traits",
+          "publishedAt": "2026-07-18T12:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -289,53 +234,110 @@
       ]
     },
     {
-      "id": "topic-2026-07-18-06",
-      "issueId": "issue-2026-07-18",
-      "slug": "american-samoa-minerals-lease-plan",
-      "rank": 6,
-      "category": "business",
-      "region": "Pacific",
+      "id": "topic-2026-07-19-05",
+      "issueId": "issue-2026-07-19",
+      "slug": "iran-strike-us-troops-jordan",
+      "rank": 5,
+      "category": "international",
+      "region": "Middle East",
       "countryCodes": [
-        "US"
+        "IR",
+        "US",
+        "JO"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "xzs-american-samoa-minerals-20260718",
+      "scoreTotal": 94,
+      "storyId": "xzs-iran-strike-us-troops-jordan-20260719",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 91,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "关键矿产",
-          "headlineFact": "美国推进美属萨摩亚近海矿产租赁",
-          "headlineView": "关键矿产安全不能跳过海洋生态账本。",
-          "headlineFull": "美国推进美属萨摩亚近海矿产租赁；关键矿产安全不能跳过海洋生态账本。",
-          "intro": "美国海洋能源管理局7月16日公布拟议租赁通知，推动年内举行美属萨摩亚外大陆架矿产租赁。当前环境评估仅覆盖勘察等前期活动，并不等于批准商业开采；供应链目标仍需接受生态与程序审查。",
-          "xiaziQuote": "关键矿产的地缘价值越高，越需要把环境代价和地方利益写进起点，而不是留到终点。",
-          "doudouQuote": "海底宝藏不是抽屉里的备用电池，打开前先问问海洋邻居。",
-          "footerTakeaway": "今日关键词：关键矿产。"
+          "categoryLabel": "中东局势",
+          "headlineFact": "伊朗袭击致两名美军在约旦死亡；升级时更要分清事实与说法",
+          "headlineView": "冲突升级时，要分开已证实事实、单方说法与推测。",
+          "headlineFull": "伊朗袭击致两名美军在约旦死亡；升级时更要分清事实与说法；冲突升级时，要分开已证实事实、单方说法与推测。",
+          "intro": "美军称两人死亡、一人失踪；美方随后扩大空袭。伊朗方面另有多项战果说法，部分尚未独立核实。",
+          "xiaziQuote": "冲突升级时，要分开已证实事实、单方说法与推测。",
+          "doudouQuote": "看到“某方称”，先别自动改成“事情就是这样”。",
+          "footerTakeaway": "今日关键词：中东局势。"
         },
         "en-US": {
-          "categoryLabel": "Critical Minerals",
-          "headlineFact": "The United States advances an offshore minerals lease sale near American Samoa",
-          "headlineView": "critical-mineral security cannot skip the ocean’s ecological ledger.",
-          "headlineFull": "The United States advances an offshore minerals lease sale near American Samoa; critical-mineral security cannot skip the ocean’s ecological ledger.",
-          "intro": "The Bureau of Ocean Energy Management issued a proposed leasing notice on July 16 for a possible American Samoa offshore minerals sale later this year. Its environmental review covers preliminary surveys, not commercial extraction approval, leaving ecological and procedural scrutiny ahead.",
-          "xiaziQuote": "The greater a mineral’s strategic value, the earlier environmental costs and local interests must enter the decision.",
-          "doudouQuote": "The seabed is not a spare-battery drawer; ask the ocean’s neighbors before opening it.",
-          "footerTakeaway": "Keyword: Critical Minerals."
+          "categoryLabel": "Middle East",
+          "headlineFact": "Iranian strike kills two U.S. troops in Jordan",
+          "headlineView": "In escalation, separate confirmed facts, one-sided claims and inference.",
+          "headlineFull": "Iranian strike kills two U.S. troops in Jordan; In escalation, separate confirmed facts, one-sided claims and inference.",
+          "intro": "The U.S. military says two troops died and one is missing; Washington then expanded airstrikes. Iran made additional claims, some not independently verified.",
+          "xiaziQuote": "In escalation, separate confirmed facts, one-sided claims and inference.",
+          "doudouQuote": "When a report says one side claims, do not turn it into certainty.",
+          "footerTakeaway": "Keyword: Middle East."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-18-06-1",
-          "topicId": "topic-2026-07-18-06",
-          "title": "Potential American Samoa Offshore Minerals Lease Sale",
-          "publisher": "Bureau of Ocean Energy Management",
-          "url": "https://www.boem.gov/marine-minerals/potential-american-samoa-offshore-minerals-lease-sale",
-          "publishedAt": "2026-07-16T12:00:00Z",
+          "id": "source-2026-07-19-05-1",
+          "topicId": "topic-2026-07-19-05",
+          "title": "US military personnel killed in Iranian attacks on Jordan",
+          "publisher": "Reuters",
+          "url": "https://theprint.in/world/us-says-military-personnel-killed-in-jordan-as-irans-leader-issues-warning/2990264/",
+          "publishedAt": "2026-07-18T12:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-19-06",
+      "issueId": "issue-2026-07-19",
+      "slug": "india-vikram1-private-orbital-launch",
+      "rank": 6,
+      "category": "technology",
+      "region": "Asia",
+      "countryCodes": [
+        "IN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-india-vikram1-private-orbital-launch-20260719",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "太空产业",
+          "headlineFact": "印度首枚民营轨道火箭Vikram-1入轨；商业航天迈过关键门槛",
+          "headlineView": "民营航天的价值，不只是一枚火箭，而是更灵活的发射供给。",
+          "headlineFull": "印度首枚民营轨道火箭Vikram-1入轨；商业航天迈过关键门槛；民营航天的价值，不只是一枚火箭，而是更灵活的发射供给。",
+          "intro": "ISRO确认，Skyroot的Vikram-1于7月18日从斯里哈里科塔升空，成为印度首枚民营轨道运载火箭，并将载荷送入约450公里轨道。",
+          "xiaziQuote": "民营航天的价值，不只是一枚火箭，而是更灵活的发射供给。",
+          "doudouQuote": "从“能造”到“能入轨”，这一步真的飞起来了。",
+          "footerTakeaway": "今日关键词：太空产业。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Industry",
+          "headlineFact": "India’s first private orbital rocket Vikram-1 reaches orbit",
+          "headlineView": "Private spaceflight expands flexible launch supply.",
+          "headlineFull": "India’s first private orbital rocket Vikram-1 reaches orbit; Private spaceflight expands flexible launch supply.",
+          "intro": "ISRO confirms Skyroot’s Vikram-1 launched from Sriharikota on July 18, becoming India’s first privately built orbital launcher and placing payloads near 450 km.",
+          "xiaziQuote": "Private spaceflight expands flexible launch supply.",
+          "doudouQuote": "From can build to can orbit—this one truly flew.",
+          "footerTakeaway": "Keyword: Space Industry."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-19-06-1",
+          "topicId": "topic-2026-07-19-06",
+          "title": "First private orbital launch lifts off from Sriharikota",
+          "publisher": "ISRO",
+          "url": "https://www.isro.gov.in/First_private_orbital_launch_lifts_from_Sriharikota.html",
+          "publishedAt": "2026-07-18T12:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -344,53 +346,109 @@
       ]
     },
     {
-      "id": "topic-2026-07-18-07",
-      "issueId": "issue-2026-07-18",
-      "slug": "national-academies-extreme-event-attribution",
+      "id": "topic-2026-07-19-07",
+      "issueId": "issue-2026-07-19",
+      "slug": "canada-july-wildfires-796",
       "rank": 7,
       "category": "climate",
-      "region": "Global",
+      "region": "North America",
       "countryCodes": [
-        "US"
+        "CA"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 89,
-      "storyId": "xzs-extreme-event-attribution-20260718",
+      "scoreTotal": 92,
+      "storyId": "xzs-canada-july-wildfires-796-20260719",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候与环境",
+          "headlineFact": "加拿大7月仍有796处山火活跃；跨区域烟霾再次提醒气候风险",
+          "headlineView": "烟雾越过边界时，环境风险从来不是单一国家的内部事务。",
+          "headlineFull": "加拿大7月仍有796处山火活跃；跨区域烟霾再次提醒气候风险；烟雾越过边界时，环境风险从来不是单一国家的内部事务。",
+          "intro": "加拿大政府7月更新称全国有796处活跃山火，其中60处失控；北部与安大略、魁北克部分地区风险仍高。",
+          "xiaziQuote": "烟雾越过边界时，环境风险从来不是单一国家的内部事务。",
+          "doudouQuote": "风不会查护照，烟也不会在边境线停下。",
+          "footerTakeaway": "今日关键词：气候与环境。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate & Environment",
+          "headlineFact": "Canada still has 796 active wildfires in July",
+          "headlineView": "When smoke crosses borders, environmental risk is never one country’s internal affair.",
+          "headlineFull": "Canada still has 796 active wildfires in July; When smoke crosses borders, environmental risk is never one country’s internal affair.",
+          "intro": "Canada’s July update reports 796 active wildfires nationwide, including 60 out of control. Risks remain high in the north and parts of Ontario and Quebec.",
+          "xiaziQuote": "When smoke crosses borders, environmental risk is never one country’s internal affair.",
+          "doudouQuote": "Wind checks no passport; smoke does not stop at a border.",
+          "footerTakeaway": "Keyword: Climate & Environment."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-19-07-1",
+          "topicId": "topic-2026-07-19-07",
+          "title": "The Government of Canada provides an update regarding the 2026 wildfire season",
+          "publisher": "Government of Canada",
+          "url": "https://www.canada.ca/en/public-safety-canada/news/2026/07/the-government-of-canada-provides-an-update-regarding-the-2026-wildfire-season--july-update.html",
+          "publishedAt": "2026-07-18T12:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-19-08",
+      "issueId": "issue-2026-07-19",
+      "slug": "bundibugyo-ebola-who-july14",
+      "rank": 8,
+      "category": "health",
+      "region": "Africa",
+      "countryCodes": [
+        "CD",
+        "UG"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-bundibugyo-ebola-who-july14-20260719",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 88,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "气候科学",
-          "headlineFact": "美国国家科学院更新极端天气归因评估",
-          "headlineView": "能解释多少气候影响，正在决定城市如何准备与追责。",
-          "headlineFull": "美国国家科学院更新极端天气归因评估；能解释多少气候影响，正在决定城市如何准备与追责。",
-          "intro": "美国国家科学院新报告称，极端事件归因科学过去十年显著进步，对极端高温、低温和大范围强降雨的结论信心最高；对雷暴、龙卷风等小尺度过程仍有限。更可靠的归因将影响规划、保险与公共政策。",
-          "xiaziQuote": "把气候变化从长期趋势连接到具体灾害，是风险治理从争论走向行动的一步。",
-          "doudouQuote": "天气会变脸，科学至少要把它的变脸记录得更清楚。",
-          "footerTakeaway": "今日关键词：气候科学。"
+          "categoryLabel": "全球健康",
+          "headlineFact": "WHO确认本迪布焦型埃博拉仍在外溢；防控依赖医学也依赖一线安全",
+          "headlineView": "防控依赖医学，也依赖信任、安全和一线人员持续工作。",
+          "headlineFull": "WHO确认本迪布焦型埃博拉仍在外溢；防控依赖医学也依赖一线安全；防控依赖医学，也依赖信任、安全和一线人员持续工作。",
+          "intro": "WHO称截至7月14日累计20例确认病例，含两例输入性死亡，另有一例疑似死亡；一名美国援助人员被转运德国治疗。",
+          "xiaziQuote": "防控依赖医学，也依赖信任、安全和一线人员持续工作。",
+          "doudouQuote": "防护服能挡病毒，却挡不住薄弱的防控系统。",
+          "footerTakeaway": "今日关键词：全球健康。"
         },
         "en-US": {
-          "categoryLabel": "Climate Science",
-          "headlineFact": "The U.S. National Academies updates its assessment of extreme-event attribution",
-          "headlineView": "what science can explain increasingly shapes how cities prepare and assign responsibility.",
-          "headlineFull": "The U.S. National Academies updates its assessment of extreme-event attribution; what science can explain increasingly shapes how cities prepare and assign responsibility.",
-          "intro": "A new National Academies report says extreme-event attribution has advanced substantially in a decade. Confidence is highest for extreme heat, cold and large-scale heavy rainfall, but remains lower for small-scale processes such as thunderstorms and tornadoes. Stronger attribution can inform planning, insurance and policy.",
-          "xiaziQuote": "Connecting climate change to specific disasters helps risk governance move from abstract argument toward practical action.",
-          "doudouQuote": "Weather changes its face quickly; science should at least keep a clearer record.",
-          "footerTakeaway": "Keyword: Climate Science."
+          "categoryLabel": "Global Health",
+          "headlineFact": "WHO confirms continued spillover of Bundibugyo Ebola",
+          "headlineView": "Control depends on medicine, trust, safety and sustained frontline work.",
+          "headlineFull": "WHO confirms continued spillover of Bundibugyo Ebola; Control depends on medicine, trust, safety and sustained frontline work.",
+          "intro": "WHO reports 20 confirmed cases through July 14, including two deaths in imported cases and one probable death. A U.S. aid worker was transferred to Germany for treatment.",
+          "xiaziQuote": "Control depends on medicine, trust, safety and sustained frontline work.",
+          "doudouQuote": "Protective suits can block a virus, not a fragile response system.",
+          "footerTakeaway": "Keyword: Global Health."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-18-07-1",
-          "topicId": "topic-2026-07-18-07",
-          "title": "The Science of Extreme Event Attribution Has Advanced, But Challenges Remain",
-          "publisher": "National Academies of Sciences, Engineering, and Medicine",
-          "url": "https://www.nationalacademies.org/news/the-science-of-extreme-event-attribution-which-analyzes-climate-change-s-influence-on-specific-weather-events-has-advanced-but-challenges-remain",
-          "publishedAt": "2026-07-15T13:51:40Z",
+          "id": "source-2026-07-19-08-1",
+          "topicId": "topic-2026-07-19-08",
+          "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+          "publishedAt": "2026-07-18T12:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -399,111 +457,54 @@
       ]
     },
     {
-      "id": "topic-2026-07-18-08",
-      "issueId": "issue-2026-07-18",
-      "slug": "new-zealand-second-h5-bird-flu-case",
-      "rank": 8,
-      "category": "science",
-      "region": "Oceania",
-      "countryCodes": [
-        "NZ"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-new-zealand-second-h5-20260718",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 95,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "公共健康",
-          "headlineFact": "新西兰确认第二例H5禽流感，首次涉及本土猛禽",
-          "headlineView": "早发现不等于可松懈，监测与保护必须同时加速。",
-          "headlineFull": "新西兰确认第二例H5禽流感，首次涉及本土猛禽；早发现不等于可松懈，监测与保护必须同时加速。",
-          "intro": "新西兰7月17日确认，一只在怀拉拉帕发现的沼泽鹞成为该国第二只感染H5禽流感的鸟，也是首只确认感染的本土鸟类。政府称家禽中尚未检出，并将加强野鸟监测、家禽业支持和濒危鸟类疫苗接种。",
-          "xiaziQuote": "从迁徙海鸟到本土猛禽，病毒跨越的不是一条物种名单，而是生态系统的连接。",
-          "doudouQuote": "第二只鸟就是第二次提醒：看见异常，离远一点，快点报告。",
-          "footerTakeaway": "今日关键词：公共健康。"
-        },
-        "en-US": {
-          "categoryLabel": "Public Health",
-          "headlineFact": "New Zealand confirms a second H5 bird-flu case, its first in a native raptor",
-          "headlineView": "early detection is not permission to relax; monitoring and protection must accelerate together.",
-          "headlineFull": "New Zealand confirms a second H5 bird-flu case, its first in a native raptor; early detection is not permission to relax; monitoring and protection must accelerate together.",
-          "intro": "New Zealand confirmed on July 17 that a swamp harrier found in Wairarapa was the country’s second bird with H5 avian influenza and the first confirmed native bird. Officials said poultry remained unaffected and announced stronger wildlife checks, industry support and vaccination for threatened birds.",
-          "xiaziQuote": "From a migratory seabird to a native raptor, the virus is crossing connections inside an ecosystem, not merely a species list.",
-          "doudouQuote": "A second bird is a second reminder: keep your distance, notice problems and report quickly.",
-          "footerTakeaway": "Keyword: Public Health."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-18-08-1",
-          "topicId": "topic-2026-07-18-08",
-          "title": "Bird flu work steps up – second case confirmed",
-          "publisher": "New Zealand Department of Conservation",
-          "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/bird-flu-work-steps-up-second-case-confirmed/",
-          "publishedAt": "2026-07-17T04:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-18-09",
-      "issueId": "issue-2026-07-18",
-      "slug": "us-restores-hong-kong-preferences",
+      "id": "topic-2026-07-19-09",
+      "issueId": "issue-2026-07-19",
+      "slug": "josh-kerr-mile-world-record",
       "rank": 9,
-      "category": "business",
-      "region": "Asia",
+      "category": "sports",
+      "region": "Europe",
       "countryCodes": [
-        "US",
-        "CN",
-        "HK"
+        "GB"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-us-hong-kong-preferences-20260718",
+      "scoreTotal": 90,
+      "storyId": "xzs-josh-kerr-mile-world-record-20260719",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 93,
+      "informationIncrementScore": 87,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "全球贸易",
-          "headlineFact": "美国恢复香港优惠待遇",
-          "headlineView": "贸易关系回暖时，制度与制裁的不确定性仍会留在企业账上。",
-          "headlineFull": "美国恢复香港优惠待遇；贸易关系回暖时，制度与制裁的不确定性仍会留在企业账上。",
-          "intro": "美方7月17日确认，不续签此前撤销香港特殊贸易地位的行政令，恢复相关优惠待遇。美国财政部称该行政令下的国家紧急状态已到期；部分个人在不同制裁清单间调整，显示关系缓和并不等于所有限制归零。",
-          "xiaziQuote": "政策转向可以很快，企业重新建立供应链、合规判断和信心却需要更长时间。",
-          "doudouQuote": "优惠回来了，合规团队的咖啡大概还不能停。",
-          "footerTakeaway": "今日关键词：全球贸易。"
+          "categoryLabel": "体育纪录",
+          "headlineFact": "乔什·科尔3分42秒66打破27年一英里纪录；多年训练终于越线",
+          "headlineView": "纪录被打破的瞬间，背后是多年训练、节奏与信念。",
+          "headlineFull": "乔什·科尔3分42秒66打破27年一英里纪录；多年训练终于越线；纪录被打破的瞬间，背后是多年训练、节奏与信念。",
+          "intro": "世界田联确认，英国选手乔什·科尔7月18日在伦敦跑出3分42秒66，刷新希沙姆·埃尔·盖鲁伊1999年的3分43秒13纪录。",
+          "xiaziQuote": "纪录被打破的瞬间，背后是多年训练、节奏与信念。",
+          "doudouQuote": "27年的墙倒下，只用了不到四分钟。",
+          "footerTakeaway": "今日关键词：体育纪录。"
         },
         "en-US": {
-          "categoryLabel": "Global Trade",
-          "headlineFact": "The United States restores Hong Kong’s preferential treatment",
-          "headlineView": "even as trade ties warm, regulatory and sanctions uncertainty stays on corporate balance sheets.",
-          "headlineFull": "The United States restores Hong Kong’s preferential treatment; even as trade ties warm, regulatory and sanctions uncertainty stays on corporate balance sheets.",
-          "intro": "The United States confirmed on July 17 that it would not renew the executive order revoking Hong Kong’s special trading status, restoring related privileges. The Treasury said the national emergency under that order had expired, while some people moved between sanctions lists, showing that easing does not erase every restriction.",
-          "xiaziQuote": "Policy can turn quickly, but rebuilding supply chains, compliance judgments and business confidence takes much longer.",
-          "doudouQuote": "The preferences are back; the compliance team probably should not stop brewing coffee yet.",
-          "footerTakeaway": "Keyword: Global Trade."
+          "categoryLabel": "Sports Record",
+          "headlineFact": "Josh Kerr runs 3:42.66 to break the 27-year mile record",
+          "headlineView": "A record falls in a moment; behind it stand years of training, rhythm and belief.",
+          "headlineFull": "Josh Kerr runs 3:42.66 to break the 27-year mile record; A record falls in a moment; behind it stand years of training, rhythm and belief.",
+          "intro": "World Athletics confirms Britain’s Josh Kerr ran 3:42.66 in London on July 18, breaking Hicham El Guerrouj’s 1999 mark of 3:43.13.",
+          "xiaziQuote": "A record falls in a moment; behind it stand years of training, rhythm and belief.",
+          "doudouQuote": "A 27-year wall fell in under four minutes.",
+          "footerTakeaway": "Keyword: Sports Record."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-18-09-1",
-          "topicId": "topic-2026-07-18-09",
-          "title": "US restores Hong Kong's preferential privileges",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/hong-kong-us-china-preferential-trade-b0a7e46fac0906bba975e3a1f52ebe7d",
-          "publishedAt": "2026-07-17T16:45:03Z",
-          "sourceType": "wire",
+          "id": "source-2026-07-19-09-1",
+          "topicId": "topic-2026-07-19-09",
+          "title": "Kerr breaks world mile record with 3:42.66 in London",
+          "publisher": "World Athletics",
+          "url": "https://worldathletics.org/competitions/diamond-league/news/london-athletics-meet-2026-josh-kerr-world-mile-record",
+          "publishedAt": "2026-07-18T12:00:00Z",
+          "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
