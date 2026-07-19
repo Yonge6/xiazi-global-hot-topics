@@ -25,10 +25,14 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm run check -w @xiazi/contracts
-      - run: npm run check -w @xiazi/domain
-      - run: npm run check -w @xiazi/reviewer
-      - run: npm run build -w @xiazi/reviewer
+      - name: Check shared review contracts
+        run: npm run check -w @xiazi/contracts
+      - name: Check release domain
+        run: npm run check -w @xiazi/domain
+      - name: Check reviewer service
+        run: npm run check -w @xiazi/reviewer
+      - name: Build reviewer service
+        run: npm run build -w @xiazi/reviewer
 
   application-integration:
     name: Main application fail-closed integration
@@ -41,7 +45,13 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm run check -w @xiazi/web
-      - run: npm run build -w @xiazi/web
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:e2e -w @xiazi/web
+      - name: Check web integration
+        run: npm run check -w @xiazi/web
+      - name: Run fail-closed staging smoke test
+        run: npm run test -w @xiazi/web -- tests/unit/release-service.test.ts
+      - name: Build web application
+        run: npm run build -w @xiazi/web
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run browser E2E
+        run: npm run test:e2e -w @xiazi/web

@@ -6,6 +6,8 @@ This evidence applies only to future issues after `2026-07-18`. No historical is
 
 Repository implementation is complete; dedicated staging deployment evidence remains pending until staging-only model, replay-store and hosting credentials are available. The service and main application fail closed when that deployment is absent.
 
+This work package must remain a stacked Draft pull request against `codex/future-release-safety`. It is not approved for merge, production migration, production configuration changes or enabling Release V2.
+
 ## Versioned protocol
 
 | Component | Version |
@@ -94,6 +96,6 @@ All credentials must be staging-only and different from production. Neither PR c
 
 ## Remaining evidence boundary
 
-The local credential audit found no `VERCEL_TOKEN`, model API key, durable replay-store URL/token, staging Supabase URL/service role, staging environment file or linked Vercel project in this worktree. GitHub CLI authentication is also currently invalid. Therefore no third-party project was created and no deployment was attempted.
+The local credential audit found no `VERCEL_TOKEN`, model API key, durable replay-store URL/token, staging Supabase URL/service role, staging environment file or linked Vercel project in this worktree. The implementation branch is published for Draft review only; no third-party project was created and no deployment was attempted.
 
 The following cannot be claimed from repository tests alone and must remain unchecked until real staging resources are supplied: public staging service reachability, deployed model/ruleset version, durable replay behavior across instances, external monitoring screenshots/exports, and active-pointer invariance against a real staging Supabase project. Their absence keeps production enablement failed and does not authorize a mock deployment.
