@@ -62,10 +62,10 @@ Executed in the isolated `codex/release-review-services` worktree on 2026-07-19.
 
 - Draft PR: [#12 Release V2: versioned reviewer services](https://github.com/Yonge6/xiazi-global-hot-topics/pull/12)
 - Stacked base: `codex/future-release-safety`
-- Validated implementation head: `85ba1a6d943dd8fcb579bebc2f2768a80ba853d9`
-- Initial successful run: [Reviewer services CI #29684476644](https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29684476644)
-- `Protocol and reviewer service`: success. The job checked shared contracts (6 tests), the release domain (8 tests), reviewer service lint/type/config and 20 tests, then built the reviewer service.
-- `Main application fail-closed integration`: success. The job checked the web application (101 tests), independently reran the 7-test release-service fail-closed smoke suite, built the web application and ran browser E2E (21 passed, 7 staging-only skipped).
+- Validated head: `7b792f454843c2cca32e9dd94ac561eebda759db`
+- Final CI Run: [Reviewer services CI #29684581022](https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29684581022)
+- `Protocol and reviewer service`: **SUCCESS**. The job checked shared contracts (6 tests), the release domain (8 tests), reviewer service lint/type/config and 20 tests, then built the reviewer service.
+- `Main application fail-closed integration`: **SUCCESS**. The job checked the web application (101 tests), independently reran the 7-test release-service fail-closed smoke suite, built the web application and ran browser E2E (21 passed, 7 staging-only skipped).
 
 The skipped staging-only cases require real hosted reviewer, replay-store and staging Supabase resources. Their absence is not treated as a passing deployment result; it keeps this work package conditional and the PR Draft.
 
