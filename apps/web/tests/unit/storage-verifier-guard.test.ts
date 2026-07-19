@@ -35,6 +35,12 @@ describe("staging storage verifier safety guards", () => {
     expect(`${result.stdout}${result.stderr}`).toContain("STAGING_BUCKET_NAME_REQUIRED");
   });
 
+  it("refuses a legacy VileSaint bucket even when its name contains staging", () => {
+    const result = run({ STORAGE_ENV: "staging", COS_BUCKET: "vilesaint-staging-assets-1258992379" });
+    expect(result.status).not.toBe(0);
+    expect(`${result.stdout}${result.stderr}`).toContain("STAGING_BUCKET_NAME_REQUIRED");
+  });
+
   it("refuses a mutable or traversal test prefix", () => {
     const result = run({
       STORAGE_ENV: "staging",

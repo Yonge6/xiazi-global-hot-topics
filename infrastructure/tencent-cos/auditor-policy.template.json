@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "statement": [
+    {
+      "principal": {
+        "qcs": [
+          "qcs::cam::uin/${OWNER_UIN}:uin/${AUDITOR_UIN}"
+        ]
+      },
+      "effect": "allow",
+      "action": [
+        "name/cos:GetBucketVersioning",
+        "name/cos:GetBucketPolicy",
+        "name/cos:GetBucketEncryption"
+      ],
+      "resource": [
+        "qcs::cos:${COS_REGION}:uid/${APP_ID}:${STAGING_BUCKET}/*"
+      ],
+      "condition": {
+        "bool_equal": {
+          "cos:secure-transport": "true"
+        }
+      }
+    },
+    {
+      "principal": {
+        "qcs": [
+          "qcs::cam::uin/${OWNER_UIN}:uin/${AUDITOR_UIN}"
+        ]
+      },
+      "effect": "allow",
+      "action": [
+        "name/cos:GetObject"
+      ],
+      "resource": [
+        "qcs::cos:${COS_REGION}:uid/${APP_ID}:${STAGING_BUCKET}/release-assets/*"
+      ],
+      "condition": {
+        "bool_equal": {
+          "cos:secure-transport": "true"
+        }
+      }
+    }
+  ]
+}

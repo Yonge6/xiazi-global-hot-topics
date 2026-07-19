@@ -2,7 +2,7 @@
 
 Policy version: `xiazi-cos-immutable-v1`.
 
-These files are redacted templates, not applied cloud configuration. Replace placeholders only in an approved staging change record; never commit rendered account IDs, credentials or production bucket names.
+These files are redacted templates. `staging-bucket-policy.template.json` is the deployable composition of the uploader, auditor and CDN-reader grants; the narrower files document each runtime boundary. Replace placeholders only in an approved staging change record; never commit rendered account IDs, credentials or production bucket names.
 
 ## Required bucket state
 
@@ -16,7 +16,9 @@ Tencent COS documents that the no-overwrite header is ineffective after versioni
 
 ## Identities
 
-`immutable-uploader-policy.template.json` grants only create-with-no-overwrite plus GET/HEAD-equivalent verification under `release-assets/`. It explicitly denies deletion, object ACL/tag/retention mutation, copy/multipart operations and bucket policy/versioning/object-lock/default-encryption changes.
+`immutable-uploader-policy.template.json` grants only create-with-no-overwrite plus GET/HEAD-equivalent verification under `release-assets/`. All deletion, object ACL/tag/retention mutation, copy/multipart operations and bucket policy/versioning/object-lock/default-encryption changes remain implicitly denied because the runtime identity receives no other COS policy. The protected verifier proves those denials against the provider rather than trusting action names in a static template.
+
+`auditor-policy.template.json` grants only the bucket-state reads used by the protected verifier plus proof-object reads. It cannot upload, delete or mutate policy.
 
 `public-reader-policy.template.json` grants only HTTPS `GetObject` to the CDN/read identity.
 

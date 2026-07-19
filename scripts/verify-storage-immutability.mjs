@@ -12,7 +12,7 @@ function required(name) {
 function refuseUnsafeTarget() {
   if (process.env.STORAGE_ENV !== "staging") throw new Error("STORAGE_ENV_MUST_BE_STAGING");
   const bucket = required("COS_BUCKET");
-  if (!/staging/i.test(bucket) || /prod|production|vilesaint|1258992379/i.test(bucket)) {
+  if (!/xiazi/i.test(bucket) || !/staging/i.test(bucket) || /prod|production|vilesaint/i.test(bucket)) {
     throw new Error("STAGING_BUCKET_NAME_REQUIRED");
   }
   const prefix = process.env.STORAGE_TEST_PREFIX || "release-assets/immutability-verification";
@@ -130,10 +130,8 @@ const policyResponse = await request(auditor, "GET", "", { query: { policy: "" }
 const appliedPolicy = await responseText(policyResponse);
 if (!policyResponse.ok
   || !appliedPolicy.includes("cos:x-cos-forbid-overwrite")
-  || !appliedPolicy.includes("name/cos:DeleteObject")
-  || !appliedPolicy.includes("name/cos:PutBucketPolicy")
-  || !appliedPolicy.includes("name/cos:PutBucketEncryption")
-  || !appliedPolicy.includes("name/cos:DeleteBucketEncryption")) {
+  || !appliedPolicy.includes("name/cos:PutObject")
+  || !appliedPolicy.includes("name/cos:GetObject")) {
   throw new Error(`COS_APPLIED_POLICY_NOT_VERIFIED:${policyResponse.status}`);
 }
 
