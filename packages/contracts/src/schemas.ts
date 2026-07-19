@@ -122,6 +122,7 @@ export const posterCandidateSchema = z.object({
 export const stagePublicationReleaseSchema = z.object({
   issue: issueSchema,
   posters: z.array(posterCandidateSchema).length(18),
+  assetBatchId: z.string().regex(/^asset_[A-Za-z0-9_-]{12,80}$/),
   idempotencyKey: z.string().min(12),
   leaseOwner: z.string().min(3),
 });

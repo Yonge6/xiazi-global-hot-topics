@@ -12,6 +12,7 @@ export type CurrentPublicationResponse = Issue & PublicationMetadata;
 export type StagePublicationRequest = {
   issue: Issue;
   posters: PosterCandidate[];
+  assetBatchId: string;
   idempotencyKey: string;
   leaseOwner: string;
 };
@@ -59,11 +60,12 @@ export class ApiClient {
   stagePublication(input: StagePublicationRequest) {
     return this.getJson<{
       ok: true;
-      published: false;
-      status: "ready_for_approval";
-      releaseId: string;
+      published: boolean;
+      status: "ready_for_approval" | "in_progress" | "already_active";
+      releaseId: string | null;
       issueDate: string;
       contentHash: string;
+      reused?: boolean;
     }>("/api/internal/releases/stage/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

@@ -28,6 +28,7 @@ describe("release-aware content API", () => {
       issue,
       metadata: {
         releaseId: "rel_20260719_aaaaaaaaaaaaaaaaaaaaaaaa",
+        releaseSchemaVersion: "release-v2.1",
         contentHash: "a".repeat(64),
         dataSource: "supabase-release",
         deployedAt: "2026-07-19T00:40:00.000Z",
@@ -52,6 +53,7 @@ describe("release-aware content API", () => {
     expect(response.headers.get("x-release-id")).toBe(detail.releaseId);
     expect(detail).toMatchObject({
       releaseId: "rel_20260719_aaaaaaaaaaaaaaaaaaaaaaaa",
+      releaseSchemaVersion: "release-v2.1",
       contentHash: "a".repeat(64),
       dataSource: "supabase-release",
       publicationHealth: "healthy",

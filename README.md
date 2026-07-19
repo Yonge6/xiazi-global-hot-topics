@@ -51,7 +51,7 @@ npm run build
 supabase db push
 ```
 
-迁移位于 `supabase/migrations/`。`20260718230000_future_release_safety.sql` 新增未来刊物的不可变 Release、发布租约、原子指针、人工确认、来源快照、海报验收证据和回滚事件；迁移本身不会更新历史刊物。
+迁移位于 `supabase/migrations/`。`20260718230000_future_release_safety.sql` 新增未来刊物的不可变 Release、发布租约、原子指针、人工确认、来源快照、海报验收证据和回滚事件；`20260719010000_release_safety_hardening.sql` 再绑定完整 Release 身份、owner/heartbeat、正文事实声明和感知级海报证据。迁移本身不会更新历史刊物。
 
 ## 模型与海报配置
 
@@ -72,7 +72,7 @@ supabase db push
 0 21 * * *
 ```
 
-生成任务先把 18 张完整 PNG 上传到 `releases/{releaseId}/...` 不可变路径，再调用 `/api/internal/releases/stage/`。只有全部来源和海报硬门通过后，候选才会出现在 Studio 待确认列表。人工确认调用单事务激活 RPC；05:50、06:00 和重复任务由数据库租约与幂等键协调。
+生成任务先把 18 张完整 PNG 上传到 `release-assets/{assetBatchId}/...` 不可变路径，再调用 `/api/internal/releases/stage/`。来源快照和海报清单通过硬门后，系统才用两者的哈希、文案哈希和 schema 版本计算最终 `releaseId`。只有完整候选会出现在 Studio 待确认列表。人工确认调用单事务激活 RPC；05:50、06:00 和重复任务由 owner 租约、heartbeat 与幂等键协调。
 
 ## 部署
 

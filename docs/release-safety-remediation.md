@@ -12,12 +12,16 @@ The audit remains **D / failed**. This PR is intentionally a draft: it adds the 
 
 ```text
 automatic generation
-  -> compute contentHash and releaseId
-  -> upload 18 posters to immutable release paths
+  -> compute contentHash and an immutable assetBatchId
+  -> upload 18 posters to release-assets/{assetBatchId}/...
   -> acquire expiring publication lease
+  -> renew the owner-bound lease while gates run
   -> re-fetch and snapshot every real source
-  -> semantic correction/retraction review
-  -> deterministic image + OCR/vision/IP/duplicate review
+  -> review headline + intro claims in both languages and check corrections/retractions
+  -> deterministic image + OCR/vision/IP + 18-poster perceptual/semantic comparison
+  -> compute sourceSnapshotHash + posterManifestHash
+  -> releaseHash = SHA256(schemaVersion + contentHash + sourceSnapshotHash + posterManifestHash)
+  -> compute releaseId from issueDate + releaseHash
   -> stage immutable ready_for_approval release
   -> human Studio approval
   -> one transaction activates current pointer
@@ -30,11 +34,11 @@ automatic generation
 | Concern | Previous flow | Future Release V2 flow |
 |---|---|---|
 | Human gate | Direct publish from Studio/automation | Staging never activates; Studio approval is mandatory |
-| Identity | Date, mutable current JSON | Unique immutable `releaseId` plus `contentHash` |
+| Identity | Date, mutable current JSON | `releaseId` binds schema, copy, source snapshots and the full poster manifest |
 | Atomicity | Multiple GitHub PUTs | One `activate_publication_release` transaction |
-| Concurrency | Prompt/local lock | Database lease with expiry, owner and idempotency key |
-| Sources | URL availability; batch parser could replace URL | Real URL, snapshot, hash, fetch time and semantic review required |
-| Posters | Decode/size/basic parity | 18 exact slots, PNG/ratio/hash, OCR, language, number, title, date, site, theme, IP and duplicate checks |
+| Concurrency | Prompt/local lock | Owner-bound expiring database lease, heartbeat and retry short-circuit |
+| Sources | URL availability; batch parser could replace URL | Real URL, pinned public DNS/IP, manual redirects, bounded stream, snapshot/hash/fetch time and four-claim review |
+| Posters | Decode/size/basic parity | 18 exact slots, PNG/ratio/hash, OCR, language, number, title, date, site, theme, IP, perceptual hash and all-pairs semantic checks |
 | Production proof | Issue body only | `releaseId`, `contentHash`, `dataSource`, `deployedAt`, health and stale flags |
 | Fallback | Silent packaged/local JSON | Explicit 503 or visibly degraded/stale emergency fallback |
 | Rollback | Rewrite many files | Atomic pointer change to a prior immutable release |
@@ -42,7 +46,7 @@ automatic generation
 ## Migration plan
 
 1. Merge code and migration without enabling `RELEASE_V2_ENABLED`.
-2. Apply `20260718230000_future_release_safety.sql` to staging Supabase.
+2. Apply `20260718230000_future_release_safety.sql` and `20260719010000_release_safety_hardening.sql` to staging Supabase.
 3. Configure server-only `SOURCE_SEMANTIC_REVIEW_URL`, `POSTER_VISION_REVIEW_URL` and `RELEASE_REVIEW_SECRET`.
 4. Run source, poster, concurrency, activation and rollback tests against staging.
 5. Generate the first future candidate through `/api/internal/releases/stage/`.
@@ -72,8 +76,14 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 - A Studio session and same-origin request are required for approval and rollback.
 - A release dated on or before 2026-07-18 is rejected by application and database constraints.
 - A reviewer timeout or malformed response fails closed.
+- A source is fetched only after every redirect hop and its resolved IPv4/IPv6 addresses pass the public-network policy; the connection is pinned to the checked address and the body is stream-limited.
+- Every topic must return `supported` for `headlineFact` and `intro` in both `zh-CN` and `en-US`.
+- The poster batch must contain 18 image reviews and all 153 pair comparisons. Cross-language pairs must share a theme; distinct topics above the similarity threshold require rejection or human review.
+- Staging requires the live lease owner and a non-expired lease. An active idempotent retry returns the existing job/release without rerunning source and poster gates.
+- Reusing an existing `releaseId` with any payload, source, poster or validation difference raises `RELEASE_PAYLOAD_CONFLICT`.
 - The API never labels a legacy response healthy when Release V2 is enabled.
 - Rollback requires a reason and records the previous and target release IDs.
+- Repeated activation and rollback requests report both the requested release and the actual current active pointer; they never claim a rolled-back release is active.
 
 ## Remaining risks
 
@@ -87,18 +97,19 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 
 ## Verification evidence
 
-Executed in the isolated `codex/future-release-safety` worktree on 2026-07-18:
+Executed in the isolated `codex/future-release-safety` worktree on 2026-07-19. Counts below are refreshed after the final full verification run:
 
 | Check | Result |
 |---|---|
 | `npm run check` | Passed: lint, TypeScript, config audit and all package tests |
-| `npm run test` | Passed: web 77, domain 6, contracts 3 tests |
+| `npm run test` | Passed: web 91, domain 6, contracts 3 tests (100 total) |
 | `npm run build` | Passed; one pre-existing Turbopack NFT trace warning remains |
 | `npm run test:e2e` | Passed: 21 tests, 7 staging-only tests skipped because no staging URL was supplied |
 | `npx supabase db reset` | Passed: clean database recreated with every migration |
 | `npx supabase db lint --local --level warning` | New migration clean; three warnings remain in pre-existing `upsert_issue_bundle` |
 | `scripts/verify-future-release-rpcs.sql` | Passed in real local Postgres and rolled back its fixtures |
+| `.github/workflows/release-safety-ci.yml` | Runs the application gates and real Supabase fault suite on every PR; remote run must be green before Draft can advance |
 
 ## Fault injection and rollback verification
 
-The SQL fault suite verifies the 2026-07-18 cutoff, conflicting lease rejection, staging without activation, explicit human activation, activation idempotency, atomic pointer changes, immutable release payloads, auditable events and rollback to the previous release.
+The SQL fault suite verifies the 2026-07-18 cutoff, active retry short-circuit, owner preservation, heartbeat renewal, expired-worker rejection, takeover rejection of the old owner, full-payload conflict detection, same-copy/different-asset release identities, staging without activation, explicit human activation, truthful activation/rollback retries, atomic pointer changes, immutable release payloads, auditable events and rollback to the previous release.

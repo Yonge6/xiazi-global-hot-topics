@@ -21,16 +21,18 @@ The remediation must:
 
 Supabase becomes the activation authority for future issues.
 
-1. A producer computes a stable content hash and deterministic release ID.
-2. Posters are uploaded to immutable `releases/{releaseId}/...` paths.
-3. The server re-fetches sources, stores snapshots and hashes, and runs semantic correction/retraction review.
-4. The server validates all 18 posters with deterministic image checks and a fail-closed OCR/vision reviewer.
-5. A validated candidate is inserted as an immutable `ready_for_approval` release.
-6. A human Studio action calls one database RPC that records approval and atomically changes the `current` channel pointer.
-7. Production reads only the pointed release when Release V2 is enabled.
+1. A producer computes a stable content hash and allocates an immutable `assetBatchId`.
+2. Posters are uploaded to `release-assets/{assetBatchId}/...`; the final release ID is intentionally not known yet.
+3. The server acquires an owner-bound expiring lease, renews it while validation runs, and short-circuits active retries with the same idempotency key.
+4. The server re-fetches each source through manual redirects with public DNS/IP validation, a pinned connection and a streaming byte cap. It stores the snapshot/hash and reviews correction status plus headline and intro claims in both languages.
+5. The server validates all 18 posters with deterministic image checks, perceptual hashes and a fail-closed batch OCR/vision reviewer that returns all 153 pair comparisons.
+6. The server computes `releaseHash = SHA256(schemaVersion + contentHash + sourceSnapshotHash + posterManifestHash)` and derives `releaseId` from the date and that complete identity.
+7. A validated candidate is inserted as an immutable `ready_for_approval` release. Reusing an ID with any different payload raises `RELEASE_PAYLOAD_CONFLICT`.
+8. A human Studio action calls one database RPC that records approval and atomically changes the `current` channel pointer.
+9. Production reads only the pointed release when Release V2 is enabled.
    Content and poster requests carry the same `releaseId`; poster delivery resolves only the verified manifest for that immutable release.
-8. If the release store is unavailable, any legacy response is explicitly marked `degraded` and `stale`; it is never a silent fallback.
-9. GitHub JSON becomes an asynchronous audit export and disaster-recovery artifact, not the activation transaction.
+10. If the release store is unavailable, any legacy response is explicitly marked `degraded` and `stale`; it is never a silent fallback.
+11. GitHub JSON becomes an asynchronous audit export and disaster-recovery artifact, not the activation transaction.
 
 The database owns publication leases, release immutability, activation idempotency, pointer serialization and rollback history. External source and vision reviewers run before the short activation transaction.
 
@@ -76,9 +78,12 @@ Rejected because it destroys release immutability and makes rollback and correct
 | Failure | Required behavior |
 |---|---|
 | Source or vision reviewer unavailable | Staging fails; active pointer is unchanged |
-| Duplicate 05:50/06:00 job | Lease or idempotency key returns the existing result |
+| Duplicate 05:50/06:00 job | The live owner lease is preserved; same-key retry returns the existing job/release without rerunning gates |
+| Worker lease expires during validation | Staging fails for that owner; a heartbeat or a fresh owner must hold the live lease |
+| Source redirects to private/reserved infrastructure | Redirect is rejected before the next request; active pointer is unchanged |
+| Same copy is paired with changed sources or posters | Complete release hash creates a different release ID; conflicting reuse fails closed |
 | Candidate validation fails | Release is not ready for approval; active pointer is unchanged |
-| Approval request repeats | Activation key returns the already activated release |
+| Approval or rollback request repeats | Response reports the requested release and actual current pointer without falsely claiming active status |
 | Supabase read fails | API returns 503, or an explicitly `degraded` and `stale` legacy response when emergency fallback is enabled |
 | GitHub audit export fails | Active release stays online; export failure is recorded and retried |
 | Bad release activated despite gates | Rollback RPC atomically points to a previously active immutable release |
@@ -87,4 +92,5 @@ Rejected because it destroys release immutability and makes rollback and correct
 
 - `docs/release-safety-remediation.md`
 - `supabase/migrations/20260718230000_future_release_safety.sql`
+- `supabase/migrations/20260719010000_release_safety_hardening.sql`
 - `docs/MASTER-PRD-v3.1.md`

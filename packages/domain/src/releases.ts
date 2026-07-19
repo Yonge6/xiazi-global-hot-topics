@@ -1,4 +1,5 @@
 export const HISTORICAL_RELEASE_CUTOFF = "2026-07-18";
+export const PUBLICATION_RELEASE_SCHEMA_VERSION = "release-v2.1";
 
 export function assertFutureReleaseDate(issueDate: string) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(issueDate)) throw new Error("Invalid issueDate");
@@ -7,10 +8,10 @@ export function assertFutureReleaseDate(issueDate: string) {
   }
 }
 
-export function publicationReleaseId(issueDate: string, contentHash: string) {
+export function publicationReleaseId(issueDate: string, releaseHash: string) {
   assertFutureReleaseDate(issueDate);
-  if (!/^[a-f0-9]{64}$/.test(contentHash)) throw new Error("contentHash must be a SHA-256 hex digest");
-  return `rel_${issueDate.replaceAll("-", "")}_${contentHash.slice(0, 24)}`;
+  if (!/^[a-f0-9]{64}$/.test(releaseHash)) throw new Error("releaseHash must be a SHA-256 hex digest");
+  return `rel_${issueDate.replaceAll("-", "")}_${releaseHash.slice(0, 24)}`;
 }
 
 export function publicationLeaseKey(issueDate: string) {

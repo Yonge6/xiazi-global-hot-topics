@@ -79,17 +79,19 @@ describe("stagePublicationReleaseSchema", () => {
     const posters = Array.from({ length: 18 }, (_, index) => ({
       topicId: `topic-${Math.floor(index / 2) + 1}`,
       locale: index % 2 === 0 ? "zh" : "en",
-      url: `https://assets.example.com/releases/rel-1/${index}.png`,
+      url: `https://assets.example.com/release-assets/asset_20260619_primary/${index}.png`,
     }));
     expect(stagePublicationReleaseSchema.parse({
       issue: validIssue,
       posters,
+      assetBatchId: "asset_20260619_primary",
       idempotencyKey: "automation:2026-06-19:abc",
       leaseOwner: "automation-test",
     }).posters).toHaveLength(18);
     expect(() => stagePublicationReleaseSchema.parse({
       issue: validIssue,
       posters: posters.slice(1),
+      assetBatchId: "asset_20260619_primary",
       idempotencyKey: "automation:2026-06-19:abc",
       leaseOwner: "automation-test",
     })).toThrow();

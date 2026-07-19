@@ -9,7 +9,11 @@ import {
   type PublicationValidationReport,
   type SourceSnapshot,
 } from "@xiazi/contracts";
-import { assertFutureReleaseDate, publicationReleaseId } from "@xiazi/domain";
+import {
+  assertFutureReleaseDate,
+  PUBLICATION_RELEASE_SCHEMA_VERSION,
+  publicationReleaseId,
+} from "@xiazi/domain";
 
 import { canonicalIssueBundle } from "../publishing/canonical-issue";
 import { createSupabaseServiceClientFromEnv } from "../content-sync/supabase-service-client";
@@ -22,6 +26,16 @@ type StageDependencies = {
   sourceGate?: typeof verifyReleaseSources;
   posterGate?: typeof verifyReleasePosters;
   now?: () => Date;
+  leaseSeconds?: number;
+  heartbeatIntervalMs?: number;
+};
+
+type LeaseResult = {
+  acquired: boolean;
+  status: "leased" | "validating" | "staged" | "activated" | "failed";
+  releaseId?: string | null;
+  leaseOwner: string;
+  leaseExpiresAt: string;
 };
 
 function requiredClient(client?: SupabaseClient | null) {
@@ -40,28 +54,71 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
   const request = stagePublicationReleaseSchema.parse(input);
   const bundle = canonicalIssueBundle(request.issue);
   assertFutureReleaseDate(bundle.issue.issueDate);
-  const releaseId = publicationReleaseId(bundle.issue.issueDate, bundle.checksum);
   const client = requiredClient(dependencies.client);
   const now = dependencies.now || (() => new Date());
+  const leaseSeconds = dependencies.leaseSeconds || 180;
+  const heartbeatIntervalMs = dependencies.heartbeatIntervalMs || Math.min(45_000, Math.floor(leaseSeconds * 1000 / 3));
 
-  await rpc(client, "acquire_publication_lease", {
+  const lease = await rpc<LeaseResult>(client, "acquire_publication_lease", {
     p_issue_date: bundle.issue.issueDate,
     p_idempotency_key: request.idempotencyKey,
     p_lease_owner: request.leaseOwner,
-    p_lease_seconds: 900,
+    p_lease_seconds: leaseSeconds,
   });
+  if (!lease.acquired) {
+    return {
+      published: lease.status === "activated",
+      status: lease.status === "staged"
+        ? "ready_for_approval" as const
+        : lease.status === "activated"
+          ? "already_active" as const
+          : "in_progress" as const,
+      releaseId: lease.releaseId || null,
+      issueDate: bundle.issue.issueDate,
+      contentHash: bundle.checksum,
+      reused: true,
+    };
+  }
 
   let sources: SourceSnapshot[] = [];
   let posters: PosterCheck[] = [];
+  let heartbeatFailure: unknown;
+  let heartbeatInFlight = Promise.resolve();
+  const renewLease = async () => {
+    await rpc(client, "renew_publication_lease", {
+      p_issue_date: bundle.issue.issueDate,
+      p_idempotency_key: request.idempotencyKey,
+      p_lease_owner: request.leaseOwner,
+      p_lease_seconds: leaseSeconds,
+    });
+  };
+  let heartbeat: ReturnType<typeof setInterval> | undefined;
   try {
+    await renewLease();
+    heartbeat = setInterval(() => {
+      heartbeatInFlight = heartbeatInFlight
+        .then(renewLease)
+        .catch((error) => { heartbeatFailure = error; });
+    }, heartbeatIntervalMs);
     [sources, posters] = await Promise.all([
       (dependencies.sourceGate || verifyReleaseSources)(bundle.issue),
-      (dependencies.posterGate || verifyReleasePosters)(bundle.issue, releaseId, request.posters),
+      (dependencies.posterGate || verifyReleasePosters)(bundle.issue, request.assetBatchId, request.posters),
     ]);
+    await heartbeatInFlight;
+    if (heartbeatFailure) throw heartbeatFailure;
+    await renewLease();
     const sourceSnapshotHash = stableHash(sources);
     const posterManifestHash = stableHash(posters);
+    const releaseHash = stableHash({
+      schemaVersion: PUBLICATION_RELEASE_SCHEMA_VERSION,
+      contentHash: bundle.checksum,
+      sourceSnapshotHash,
+      posterManifestHash,
+    });
+    const releaseId = publicationReleaseId(bundle.issue.issueDate, releaseHash);
     const validationReport: PublicationValidationReport = {
       passed: true,
+      schemaVersion: PUBLICATION_RELEASE_SCHEMA_VERSION,
       checkedAt: now().toISOString(),
       sourceSnapshotHash,
       posterManifestHash,
@@ -72,9 +129,12 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
     const staged = await rpc<Record<string, unknown>>(client, "stage_publication_release", {
       payload: {
         releaseId,
+        releaseHash,
+        schemaVersion: PUBLICATION_RELEASE_SCHEMA_VERSION,
         issueDate: bundle.issue.issueDate,
         contentHash: bundle.checksum,
         idempotencyKey: request.idempotencyKey,
+        leaseOwner: request.leaseOwner,
         issue: bundle.issue,
         sources,
         posters,
@@ -97,12 +157,15 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
       await client.rpc("fail_publication_job", {
         p_issue_date: bundle.issue.issueDate,
         p_idempotency_key: request.idempotencyKey,
+        p_lease_owner: request.leaseOwner,
         p_error_code: error instanceof Error ? error.message : "RELEASE_VALIDATION_FAILED",
       });
     } catch {
       // Preserve the original hard-gate failure even if audit recording is unavailable.
     }
     throw error;
+  } finally {
+    if (heartbeat) clearInterval(heartbeat);
   }
 }
 
@@ -143,6 +206,7 @@ export async function loadActivePublication(client?: SupabaseClient | null): Pro
   const issue = parseIssue(detail.issue);
   const metadata = detail.metadata;
   if (typeof metadata.releaseId !== "string"
+    || typeof metadata.releaseSchemaVersion !== "string"
     || typeof metadata.contentHash !== "string"
     || metadata.dataSource !== "supabase-release"
     || metadata.publicationHealth !== "healthy"
@@ -153,6 +217,7 @@ export async function loadActivePublication(client?: SupabaseClient | null): Pro
     issue: { ...issue, assetVersion: metadata.releaseId },
     metadata: {
       releaseId: metadata.releaseId,
+      releaseSchemaVersion: metadata.releaseSchemaVersion,
       contentHash: metadata.contentHash,
       dataSource: "supabase-release",
       deployedAt: typeof metadata.deployedAt === "string" ? metadata.deployedAt : null,
@@ -168,6 +233,7 @@ type StoredReleaseRow = {
   issue: unknown;
   status: "active" | "superseded";
   deployed_at: string | null;
+  schema_version: string;
 };
 
 function publicationFromRow(row: StoredReleaseRow): ActivePublication {
@@ -176,6 +242,7 @@ function publicationFromRow(row: StoredReleaseRow): ActivePublication {
     issue: { ...issue, assetVersion: row.release_id },
     metadata: {
       releaseId: row.release_id,
+      releaseSchemaVersion: row.schema_version,
       contentHash: row.content_hash,
       dataSource: "supabase-release",
       deployedAt: row.deployed_at,
@@ -191,7 +258,7 @@ export async function loadPublicationByReleaseId(
 ): Promise<ActivePublication | null> {
   const { data, error } = await requiredClient(client)
     .from("publication_releases")
-    .select("release_id, content_hash, issue, status, deployed_at")
+    .select("release_id, content_hash, issue, status, deployed_at, schema_version")
     .eq("release_id", releaseId)
     .in("status", ["active", "superseded"])
     .maybeSingle();
@@ -205,7 +272,7 @@ export async function loadPublicationByDate(
 ): Promise<ActivePublication | null> {
   const { data, error } = await requiredClient(client)
     .from("publication_releases")
-    .select("release_id, content_hash, issue, status, deployed_at")
+    .select("release_id, content_hash, issue, status, deployed_at, schema_version")
     .eq("issue_date", issueDate)
     .in("status", ["active", "superseded"])
     .order("activated_at", { ascending: false })
@@ -218,7 +285,7 @@ export async function loadPublicationByDate(
 export async function listPublishedPublications(client?: SupabaseClient | null) {
   const { data, error } = await requiredClient(client)
     .from("publication_releases")
-    .select("release_id, issue_date, content_hash, issue, status, deployed_at")
+    .select("release_id, issue_date, content_hash, issue, status, deployed_at, schema_version")
     .in("status", ["active", "superseded"])
     .order("issue_date", { ascending: false })
     .order("activated_at", { ascending: false });

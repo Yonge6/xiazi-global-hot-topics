@@ -15,6 +15,17 @@ export type PosterCandidate = {
   url: string;
 };
 
+export type FactualClaim = {
+  field: "headlineFact" | "intro";
+  locale: "zh-CN" | "en-US";
+  text: string;
+};
+
+export type FactualClaimReview = FactualClaim & {
+  status: "supported" | "unsupported" | "uncertain";
+  rationale: string;
+};
+
 export type SourceSnapshot = {
   sourceId: string;
   topicId: string;
@@ -27,6 +38,7 @@ export type SourceSnapshot = {
   snapshotText: string;
   correctionStatus: "clear" | "corrected" | "retracted";
   supportsClaim: boolean;
+  claimResults: FactualClaimReview[];
   reviewProvider: string;
   reviewModel?: string;
   rationale: string;
@@ -37,6 +49,7 @@ export type PosterCheck = {
   locale: "zh" | "en";
   url: string;
   contentHash: string;
+  perceptualHash: string;
   width: number;
   height: number;
   format: "png";
@@ -49,6 +62,9 @@ export type PosterCheck = {
   themeMatches: boolean;
   xiaziMatches: boolean;
   doudoulongMatches: boolean;
+  crossLocaleThemeMatches: boolean;
+  maxDistinctTopicSimilarity: number;
+  batchComparisonHash: string;
   duplicateOf?: string;
   reviewProvider: string;
   reviewModel?: string;
@@ -57,6 +73,7 @@ export type PosterCheck = {
 
 export type PublicationValidationReport = {
   passed: boolean;
+  schemaVersion: string;
   checkedAt: string;
   sourceSnapshotHash: string;
   posterManifestHash: string;
@@ -67,6 +84,7 @@ export type PublicationValidationReport = {
 
 export type PublicationMetadata = {
   releaseId: string;
+  releaseSchemaVersion: string;
   contentHash: string;
   dataSource: "supabase-release" | "github" | "local";
   deployedAt: string | null;

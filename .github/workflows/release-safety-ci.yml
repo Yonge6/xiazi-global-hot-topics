@@ -1,0 +1,76 @@
+name: Release safety CI
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-safety-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  application:
+    name: Application gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout pull request
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run lint, typecheck, unit tests, and config audit
+        run: npm run check
+
+      - name: Build production application
+        run: npm run build
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run browser E2E tests
+        run: npm run test:e2e
+
+  database:
+    name: Database release invariants
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout pull request
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Start local Supabase
+        run: npx supabase start
+
+      - name: Rebuild database from migrations
+        run: npx supabase db reset
+
+      - name: Lint database schema
+        run: npx supabase db lint --local --level warning
+
+      - name: Verify leases, immutable releases, activation, and rollback
+        run: docker exec -i supabase_db_supabase psql -v ON_ERROR_STOP=1 -U postgres -d postgres < scripts/verify-future-release-rpcs.sql
+
+      - name: Stop local Supabase
+        if: always()
+        run: npx supabase stop --no-backup
