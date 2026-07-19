@@ -6,6 +6,10 @@ This evidence applies only to future issues after `2026-07-18`. Historical conte
 
 Current status: code implementation and local/remote verification are tracked in this Draft work package. Real Tencent COS staging policy verification is not complete and must not be represented as passed.
 
+- Draft PR: https://github.com/Yonge6/xiazi-global-hot-topics/pull/13
+- Base: `codex/release-review-services`
+- Validated implementation head: `c102e77a98e7f0c08ab5c5296bcf4e5b176412bd`
+
 ## Identified provider
 
 Provider: **Tencent Cloud Object Storage (COS)**.
@@ -76,6 +80,18 @@ The storage tests cover first create, same-content idempotency, different-conten
 
 These results prove the application protocol and local COS adapter behavior. They do **not** prove that a real Tencent account currently enforces the supplied CAM policy.
 
+## Remote CI
+
+GitHub Actions run: https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29689829132
+
+| Check | Conclusion | Duration |
+|---|---|---|
+| `Storage protocol and policy` | SUCCESS | 1m39s |
+| `Release storage fail-closed integration` | SUCCESS | 3m09s |
+| `Protected Tencent COS staging verification` | SKIPPED | protected manual-only job; no cloud credentials used |
+
+This run validates the implementation head above. Any evidence-only follow-up commit must rerun the same PR checks; the PR check rollup is the final source of truth for the Draft head.
+
 ## Staging-only verifier
 
 Implemented as `scripts/verify-storage-immutability.mjs`, but deliberately not executed against cloud resources. It requires `STORAGE_ENV=staging`, rejects production-looking bucket/prefix/CDN values, creates a random isolated proof key, never deletes that proof object, never prints credentials and exits nonzero on any failed invariant.
@@ -122,6 +138,8 @@ Not executed. The following remain unchecked:
 - CloudAudit or equivalent evidence.
 
 No real bucket key, version ID, ETag or request failure evidence can be supplied until authorized staging-only resources exist.
+
+Production environment touched: **No**. No Supabase migration, Vercel/DNS/environment change, COS policy/bucket operation, Release V2 flag change or historical content/asset write was performed.
 
 Required operator evidence before this work package can pass:
 
