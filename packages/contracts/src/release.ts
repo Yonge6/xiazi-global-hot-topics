@@ -1,4 +1,5 @@
 import type { Issue } from "./content";
+import type { StorageVerificationReport } from "./storage";
 
 export type PublicationReleaseStatus =
   | "validating"
@@ -56,6 +57,13 @@ export type PosterCheck = {
   locale: "zh" | "en";
   url: string;
   contentHash: string;
+  sizeBytes: number;
+  contentType: "image/png";
+  storageProvider: "tencent-cos";
+  storageVersionId: string;
+  etag: string;
+  storageCreatedAt: string;
+  uploaderVersion: string;
   perceptualHash: string;
   width: number;
   height: number;
@@ -93,6 +101,7 @@ export type PublicationValidationReport = {
   posterManifestHash: string;
   sourceCount: number;
   posterCount: number;
+  storageVerification: StorageVerificationReport;
   failures: string[];
 };
 

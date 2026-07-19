@@ -19,7 +19,7 @@ automatic generation
   -> re-fetch and snapshot every real source
   -> review headline + intro claims in both languages and check corrections/retractions
   -> deterministic image + OCR/vision/IP + 18-poster perceptual/semantic comparison
-  -> compute sourceSnapshotHash + posterManifestHash
+  -> compute sourceSnapshotHash + posterManifestHash (including immutable object identities and storage policy version)
   -> releaseHash = SHA256(schemaVersion + contentHash + sourceSnapshotHash + posterManifestHash)
   -> compute releaseId from issueDate + releaseHash
   -> stage immutable ready_for_approval release
@@ -91,6 +91,7 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 
 - The external semantic and vision reviewer implementation, versioned protocol, HMAC/replay controls and fail-closed client are provided by the stacked reviewer-services PR. A dedicated staging deployment, durable replay store, model credential and monitoring export remain required before production enablement.
 - The immutable object prefix still needs a storage-side deny-overwrite policy; the application prevents mutable Studio writes but cannot stop out-of-band credential misuse.
+- The stacked storage-immutability PR adds a Tencent COS create-only adapter, complete object proof and fail-closed policy gate. Real staging CAM/bucket enforcement remains unverified until the protected cloud test succeeds.
 - GitHub audit export is intentionally outside the activation transaction and needs a retry worker.
 - Existing mutable Studio poster upload remains a legacy-only path and must stay disabled for future Release V2 automation.
 - Studio currently records a configured approver label for the shared session; individual user identity and stronger session controls remain a separate authentication hardening task.

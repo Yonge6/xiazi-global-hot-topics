@@ -4,7 +4,15 @@ import currentIssue from "@/data/current-issue.json";
 import { contentChecksum } from "@/server/content-sync/issue-bundle";
 import { stableHash } from "@/server/releases/release-hash";
 import { approveFuturePublication, rollbackFuturePublication, stageFuturePublication } from "@/server/releases/release-service";
-import { parseIssue, type PosterCheck, type SourceSnapshot } from "@xiazi/contracts";
+import type { PosterImageCheck } from "@/server/releases/poster-gate";
+import { bindStorageProofsToPosterChecks } from "@/server/storage/storage-gate";
+import {
+  parseIssue,
+  type ImmutableAssetObjectProof,
+  type PosterCheck,
+  type SourceSnapshot,
+  type StorageVerificationReport,
+} from "@xiazi/contracts";
 import { PUBLICATION_RELEASE_SCHEMA_VERSION, publicationReleaseId } from "@xiazi/domain";
 
 const issueValue = structuredClone(currentIssue);
@@ -42,7 +50,7 @@ const sources: SourceSnapshot[] = issue.topics.slice(0, 8).map((topic, index) =>
   reviewProvider: "test",
   rationale: "supported",
 }));
-const posters: PosterCheck[] = posterCandidates.map((candidate, index) => ({
+const imagePosters: PosterImageCheck[] = posterCandidates.map((candidate, index) => ({
   ...candidate,
   contentHash: index.toString(16).padStart(64, "0"),
   perceptualHash: index.toString(16).padStart(16, "0"),
@@ -64,13 +72,55 @@ const posters: PosterCheck[] = posterCandidates.map((candidate, index) => ({
   reviewProvider: "test",
   checkedAt: "2026-07-19T00:00:00.000Z",
 }));
+const storageObjects: ImmutableAssetObjectProof[] = posterCandidates.map((candidate, index) => ({
+  assetBatchId,
+  topicId: candidate.topicId,
+  locale: candidate.locale,
+  key: new URL(candidate.url).pathname.replace(/^\//, ""),
+  url: candidate.url,
+  sha256: imagePosters[index].contentHash,
+  contentType: "image/png",
+  sizeBytes: 100_000 + index,
+  createdAt: "2026-07-19T00:00:00.000Z",
+  uploaderVersion: "uploader-v1",
+  storageVersionId: `version-${index}`,
+  etag: `etag-${index}`,
+  serverSideEncryption: "AES256" as const,
+}));
 
-function expectedReleaseId(posterChecks = posters) {
+function storageReport(objects = storageObjects): StorageVerificationReport {
+  return {
+    provider: "tencent-cos",
+    policyVersion: "xiazi-cos-immutable-v1",
+    assetBatchId,
+    objectManifestHash: stableHash(objects),
+    objects,
+    verifiedAt: "2026-07-19T00:20:00.000Z",
+    verificationToolVersion: "xiazi-storage-verifier-v1",
+    overwriteDenied: true,
+    deleteDenied: true,
+    policyVerified: true,
+  };
+}
+const posters: PosterCheck[] = bindStorageProofsToPosterChecks(imagePosters, storageReport());
+
+function expectedReleaseId(
+  posterChecks = posters,
+  storageVerification = storageReport(),
+) {
+  const posterManifestHash = stableHash({
+    posters: posterChecks,
+    storage: {
+      provider: storageVerification.provider,
+      policyVersion: storageVerification.policyVersion,
+      objectManifestHash: storageVerification.objectManifestHash,
+    },
+  });
   const releaseHash = stableHash({
     schemaVersion: PUBLICATION_RELEASE_SCHEMA_VERSION,
     contentHash: contentChecksum(issue),
     sourceSnapshotHash: stableHash(sources),
-    posterManifestHash: stableHash(posterChecks),
+    posterManifestHash,
   });
   return publicationReleaseId(issue.issueDate, releaseHash);
 }
@@ -107,7 +157,8 @@ describe("future release service", () => {
     const result = await stageFuturePublication(stageInput("automation:2026-07-19:primary"), {
       client: client as never,
       sourceGate: vi.fn(async () => sources),
-      posterGate: vi.fn(async () => posters),
+      posterGate: vi.fn(async () => imagePosters),
+      storageGate: vi.fn(async () => storageReport()),
       now: () => new Date("2026-07-19T00:30:00Z"),
       heartbeatIntervalMs: 60_000,
     });
@@ -130,16 +181,21 @@ describe("future release service", () => {
   });
 
   it("creates a different release when only poster content changes", async () => {
-    const changedPosters = structuredClone(posters);
-    changedPosters[0].contentHash = "f".repeat(64);
+    const changedImagePosters = structuredClone(imagePosters);
+    changedImagePosters[0].contentHash = "f".repeat(64);
+    const changedObjects = structuredClone(storageObjects);
+    changedObjects[0].sha256 = "f".repeat(64);
+    const changedStorage = storageReport(changedObjects);
+    const changedPosters = bindStorageProofsToPosterChecks(changedImagePosters, changedStorage);
     const client = fakeClient();
     const result = await stageFuturePublication(stageInput("automation:2026-07-19:poster-change"), {
       client: client as never,
       sourceGate: vi.fn(async () => sources),
-      posterGate: vi.fn(async () => changedPosters),
+      posterGate: vi.fn(async () => changedImagePosters),
+      storageGate: vi.fn(async () => changedStorage),
       heartbeatIntervalMs: 60_000,
     });
-    expect(result.releaseId).toBe(expectedReleaseId(changedPosters));
+    expect(result.releaseId).toBe(expectedReleaseId(changedPosters, changedStorage));
     expect(result.releaseId).not.toBe(expectedReleaseId());
   });
 
@@ -148,14 +204,17 @@ describe("future release service", () => {
     const client = fakeClient({ acquired: false, status: "staged", releaseId });
     const sourceGate = vi.fn();
     const posterGate = vi.fn();
+    const storageGate = vi.fn();
     const result = await stageFuturePublication(stageInput("automation:2026-07-19:retry"), {
       client: client as never,
       sourceGate,
       posterGate,
+      storageGate,
     });
     expect(result).toMatchObject({ status: "ready_for_approval", releaseId, reused: true });
     expect(sourceGate).not.toHaveBeenCalled();
     expect(posterGate).not.toHaveBeenCalled();
+    expect(storageGate).not.toHaveBeenCalled();
     expect(client.rpc).toHaveBeenCalledTimes(1);
   });
 
@@ -164,7 +223,8 @@ describe("future release service", () => {
     await expect(stageFuturePublication(stageInput("automation:2026-07-19:failure"), {
       client: client as never,
       sourceGate: vi.fn(async () => { throw new Error("SOURCE_RETRACTED"); }),
-      posterGate: vi.fn(async () => posters),
+      posterGate: vi.fn(async () => imagePosters),
+      storageGate: vi.fn(async () => storageReport()),
       heartbeatIntervalMs: 60_000,
     })).rejects.toThrow(/SOURCE_RETRACTED/);
     expect(client.rpc.mock.calls.map(([name]) => name)).toEqual([
@@ -180,9 +240,23 @@ describe("future release service", () => {
     await expect(stageFuturePublication(stageInput("automation:2026-07-19:reviewer-down"), {
       client: client as never,
       sourceGate: vi.fn(async () => { throw new Error("SOURCE_SEMANTIC_REVIEW_FAILED:503"); }),
-      posterGate: vi.fn(async () => posters),
+      posterGate: vi.fn(async () => imagePosters),
+      storageGate: vi.fn(async () => storageReport()),
       heartbeatIntervalMs: 60_000,
     })).rejects.toThrow(/SOURCE_SEMANTIC_REVIEW_FAILED:503/);
+    expect(client.rpc.mock.calls.some(([name]) => name === "stage_publication_release")).toBe(false);
+    expect(client.rpc.mock.calls.some(([name]) => name === "fail_publication_job")).toBe(true);
+  });
+
+  it("does not create a Release when immutable storage policy is unverified", async () => {
+    const client = fakeClient();
+    await expect(stageFuturePublication(stageInput("automation:2026-07-19:storage-unverified"), {
+      client: client as never,
+      sourceGate: vi.fn(async () => sources),
+      posterGate: vi.fn(async () => imagePosters),
+      storageGate: vi.fn(async () => { throw new Error("IMMUTABLE_ASSET_POLICY_UNVERIFIED"); }),
+      heartbeatIntervalMs: 60_000,
+    })).rejects.toThrow(/IMMUTABLE_ASSET_POLICY_UNVERIFIED/);
     expect(client.rpc.mock.calls.some(([name]) => name === "stage_publication_release")).toBe(false);
     expect(client.rpc.mock.calls.some(([name]) => name === "fail_publication_job")).toBe(true);
   });

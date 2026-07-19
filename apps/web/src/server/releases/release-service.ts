@@ -20,11 +20,13 @@ import { createSupabaseServiceClientFromEnv } from "../content-sync/supabase-ser
 import { stableHash } from "./release-hash";
 import { verifyReleasePosters } from "./poster-gate";
 import { verifyReleaseSources } from "./source-gate";
+import { bindStorageProofsToPosterChecks, verifyReleaseStorage } from "../storage/storage-gate";
 
 type StageDependencies = {
   client?: SupabaseClient | null;
   sourceGate?: typeof verifyReleaseSources;
   posterGate?: typeof verifyReleasePosters;
+  storageGate?: typeof verifyReleaseStorage;
   now?: () => Date;
   leaseSeconds?: number;
   heartbeatIntervalMs?: number;
@@ -83,6 +85,7 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
 
   let sources: SourceSnapshot[] = [];
   let posters: PosterCheck[] = [];
+  let storageVerification: PublicationValidationReport["storageVerification"] | undefined;
   let heartbeatFailure: unknown;
   let heartbeatInFlight = Promise.resolve();
   const renewLease = async () => {
@@ -101,15 +104,26 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
         .then(renewLease)
         .catch((error) => { heartbeatFailure = error; });
     }, heartbeatIntervalMs);
-    [sources, posters] = await Promise.all([
+    const [verifiedSources, imageChecks, verifiedStorage] = await Promise.all([
       (dependencies.sourceGate || verifyReleaseSources)(bundle.issue, { releaseCandidateId }),
       (dependencies.posterGate || verifyReleasePosters)(bundle.issue, request.assetBatchId, request.posters),
+      (dependencies.storageGate || verifyReleaseStorage)(bundle.issue, request.assetBatchId, request.posters),
     ]);
+    sources = verifiedSources;
+    storageVerification = verifiedStorage;
+    posters = bindStorageProofsToPosterChecks(imageChecks, storageVerification);
     await heartbeatInFlight;
     if (heartbeatFailure) throw heartbeatFailure;
     await renewLease();
     const sourceSnapshotHash = stableHash(sources);
-    const posterManifestHash = stableHash(posters);
+    const posterManifestHash = stableHash({
+      posters,
+      storage: {
+        provider: storageVerification.provider,
+        policyVersion: storageVerification.policyVersion,
+        objectManifestHash: storageVerification.objectManifestHash,
+      },
+    });
     const releaseHash = stableHash({
       schemaVersion: PUBLICATION_RELEASE_SCHEMA_VERSION,
       contentHash: bundle.checksum,
@@ -125,6 +139,7 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
       posterManifestHash,
       sourceCount: sources.length,
       posterCount: posters.length,
+      storageVerification,
       failures: [],
     };
     const staged = await rpc<Record<string, unknown>>(client, "stage_publication_release", {

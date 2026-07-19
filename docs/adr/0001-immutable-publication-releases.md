@@ -22,10 +22,10 @@ The remediation must:
 Supabase becomes the activation authority for future issues.
 
 1. A producer computes a stable content hash and allocates an immutable `assetBatchId`.
-2. Posters are uploaded to `release-assets/{assetBatchId}/...`; the final release ID is intentionally not known yet.
+2. Posters are created under `release-assets/{assetBatchId}/...` through a create-only storage identity and a provider-side atomic no-overwrite condition. The server rereads each object and binds its SHA-256, byte length, media type, ETag and immutable provider identity into the manifest; the final release ID is intentionally not known yet.
 3. The server acquires an owner-bound expiring lease, renews it while validation runs, and short-circuits active retries with the same idempotency key.
 4. The server re-fetches each source through manual redirects with public DNS/IP validation, a pinned connection and a streaming byte cap. It stores the snapshot/hash and reviews correction status plus headline and intro claims in both languages.
-5. The server validates all 18 posters with deterministic image checks, perceptual hashes and a fail-closed batch OCR/vision reviewer that returns all 153 pair comparisons.
+5. The server validates all 18 posters with deterministic image checks, perceptual hashes and a fail-closed batch OCR/vision reviewer that returns all 153 pair comparisons. It also requires a current storage-policy attestation proving overwrite and delete denial and rejects an incomplete, mutable or origin-mismatched object manifest.
 6. The server computes `releaseHash = SHA256(schemaVersion + contentHash + sourceSnapshotHash + posterManifestHash)` and derives `releaseId` from the date and that complete identity.
 7. A validated candidate is inserted as an immutable `ready_for_approval` release. Reusing an ID with any different payload raises `RELEASE_PAYLOAD_CONFLICT`.
 8. A human Studio action calls one database RPC that records approval and atomically changes the `current` channel pointer.
@@ -46,12 +46,14 @@ The database owns publication leases, release immutability, activation idempoten
 - Every response can identify its release, content hash, source and deployment time.
 - Corrections and rollbacks create audit events instead of rewriting evidence.
 - Missing semantic/OCR infrastructure blocks staging instead of weakening the gate.
+- Missing storage-policy proof, conditional-create support or any object identity mismatch blocks staging before the release row is created.
 
 ### Negative
 
 - Supabase becomes required for Release V2 activation and reads.
 - A source semantic reviewer and poster vision reviewer must be provisioned before the feature flag can be enabled.
 - Existing poster upload UI cannot be used as the future automation path because it writes mutable current assets.
+- A dedicated immutable asset bucket and separated create-only/read/break-glass identities must be operated and audited.
 - GitHub export becomes eventually consistent and needs separate monitoring.
 
 ### Neutral
@@ -82,6 +84,9 @@ Rejected because it destroys release immutability and makes rollback and correct
 | Worker lease expires during validation | Staging fails for that owner; a heartbeat or a fresh owner must hold the live lease |
 | Source redirects to private/reserved infrastructure | Redirect is rejected before the next request; active pointer is unchanged |
 | Same copy is paired with changed sources or posters | Complete release hash creates a different release ID; conflicting reuse fails closed |
+| Storage policy is absent, stale or not server-enforced | Staging fails; the active pointer is unchanged |
+| Existing asset key is reused with different bytes | Provider atomic create rejects the write; application reports a non-retryable content conflict |
+| Stored bytes, metadata or provider identity change during verification | Manifest verification fails; no release is staged |
 | Candidate validation fails | Release is not ready for approval; active pointer is unchanged |
 | Approval or rollback request repeats | Response reports the requested release and actual current pointer without falsely claiming active status |
 | Supabase read fails | API returns 503, or an explicitly `degraded` and `stale` legacy response when emergency fallback is enabled |

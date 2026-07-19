@@ -1,0 +1,88 @@
+name: Storage immutability CI
+
+on:
+  pull_request:
+    branches:
+      - codex/release-review-services
+  workflow_dispatch:
+    inputs:
+      run_staging_storage_verification:
+        description: Run protected Tencent COS staging verification
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: storage-immutability-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  storage-protocol:
+    name: Storage protocol and policy
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Check storage contracts
+        run: npm run check -w @xiazi/contracts
+      - name: Check storage domain rules
+        run: npm run check -w @xiazi/domain
+      - name: Audit Tencent COS policy templates
+        run: npm run audit:storage-policy
+      - name: Run adapter, path, manifest and local concurrency tests
+        run: npm run test -w @xiazi/web -- tests/unit/immutable-asset-store.test.ts tests/unit/release-storage-gate.test.ts tests/unit/storage-verifier-guard.test.ts tests/integration/cos-immutable-store.test.ts
+
+  application-integration:
+    name: Release storage fail-closed integration
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Check web integration
+        run: npm run check -w @xiazi/web
+      - name: Run storage fail-closed smoke test
+        run: npm run test -w @xiazi/web -- tests/unit/release-service.test.ts tests/unit/release-storage-gate.test.ts
+      - name: Build web application
+        run: npm run build -w @xiazi/web
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run browser E2E
+        run: npm run test:e2e -w @xiazi/web
+
+  staging-storage-verification:
+    name: Protected Tencent COS staging verification
+    if: github.event_name == 'workflow_dispatch' && inputs.run_staging_storage_verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: release-v2-storage-staging
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Verify server-enforced staging immutability
+        env:
+          STORAGE_ENV: staging
+          COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
+          STORAGE_CDN_BASE_URL: ${{ secrets.STORAGE_CDN_BASE_URL }}
+          STORAGE_APP_SECRET_ID: ${{ secrets.STORAGE_APP_SECRET_ID }}
+          STORAGE_APP_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
+          STORAGE_AUDIT_SECRET_ID: ${{ secrets.STORAGE_AUDIT_SECRET_ID }}
+          STORAGE_AUDIT_SECRET_KEY: ${{ secrets.STORAGE_AUDIT_SECRET_KEY }}
+        run: npm run storage:verify:staging

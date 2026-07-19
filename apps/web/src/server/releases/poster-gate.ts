@@ -1,6 +1,7 @@
 import sharp from "sharp";
 
 import type { Issue, PosterCandidate, PosterCheck } from "@xiazi/contracts";
+import { assertImmutableAssetUrl } from "@xiazi/domain";
 
 import { sha256, stableHash } from "./release-hash";
 import { requestVisualReview } from "./reviewer-client";
@@ -78,6 +79,16 @@ type PreparedPoster = {
   height: number;
 };
 
+export type PosterImageCheck = Omit<PosterCheck,
+  | "sizeBytes"
+  | "contentType"
+  | "storageProvider"
+  | "storageVersionId"
+  | "etag"
+  | "storageCreatedAt"
+  | "uploaderVersion"
+>;
+
 function reviewerFromEnv(): PosterBatchVisionReviewer {
   return async (input) => {
     const response = await requestVisualReview(input);
@@ -115,10 +126,10 @@ function allowedPosterOrigins() {
 }
 
 function assertImmutablePosterUrl(value: string, assetBatchId: string) {
-  const url = new URL(value);
-  if (!allowedPosterOrigins().has(url.origin)) throw new Error(`POSTER_ORIGIN_NOT_ALLOWED:${url.origin}`);
-  if (!url.pathname.includes(`/release-assets/${assetBatchId}/`)) {
-    throw new Error(`POSTER_PATH_NOT_IMMUTABLE:${value}`);
+  try {
+    assertImmutableAssetUrl(value, assetBatchId, allowedPosterOrigins());
+  } catch (error) {
+    throw new Error(`POSTER_PATH_NOT_IMMUTABLE:${error instanceof Error ? error.message : value}`);
   }
 }
 
@@ -343,7 +354,7 @@ export async function verifyReleasePosters(
   });
   const reviewBySlot = new Map(batchReview.reviews.map((item) => [slotKey(item.topicId, item.locale), item]));
 
-  const checks: PosterCheck[] = prepared.map(({ candidate, ...image }) => {
+  const checks: PosterImageCheck[] = prepared.map(({ candidate, ...image }) => {
     const topic = issue.topics.find((item) => item.id === candidate.topicId)!;
     const review = reviewBySlot.get(slotKey(candidate.topicId, candidate.locale));
     if (!review) throw new Error(`POSTER_REVIEW_NOT_FOUND:${slotKey(candidate.topicId, candidate.locale)}`);

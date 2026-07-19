@@ -19,6 +19,8 @@
     "content:verify": "tsx scripts/verify-supabase-content.ts",
     "content:compare": "tsx scripts/compare-content-sources.ts",
     "audit:config": "turbo audit:config",
+    "audit:storage-policy": "node scripts/audit-storage-policy.mjs",
+    "storage:verify:staging": "node scripts/verify-storage-immutability.mjs",
     "check": "turbo check",
     "web:dev": "npm run dev -w @xiazi/web",
     "posters:default": "npm run posters:default -w @xiazi/web"
