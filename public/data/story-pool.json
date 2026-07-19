@@ -851,14 +851,14 @@
   },
   {
     "storyId": "xzs-uk-starmer-final-pmqs-20260716",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 88,
+    "storyStatus": "followup",
+    "followupDay": 2,
+    "informationIncrementScore": 90,
     "firstSeenDate": "2026-07-16",
-    "lastSeenDate": "2026-07-16",
-    "lastIssueDate": "2026-07-16",
-    "lastTopicSlug": "uk-starmer-final-pmqs",
-    "slug": "uk-starmer-final-pmqs"
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "uk-burnham-downing-street-handover",
+    "slug": "uk-burnham-downing-street-handover"
   },
   {
     "storyId": "xzs-pjm-grid-heat-alerts-20260716",
@@ -1137,14 +1137,14 @@
   },
   {
     "storyId": "xzs-iran-strike-us-troops-jordan-20260719",
-    "storyStatus": "new",
-    "followupDay": 1,
-    "informationIncrementScore": 91,
+    "storyStatus": "followup",
+    "followupDay": 2,
+    "informationIncrementScore": 92,
     "firstSeenDate": "2026-07-19",
-    "lastSeenDate": "2026-07-19",
-    "lastIssueDate": "2026-07-19",
-    "lastTopicSlug": "iran-strike-us-troops-jordan",
-    "slug": "iran-strike-us-troops-jordan"
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "iran-drone-ordnance-us-troop-death",
+    "slug": "iran-drone-ordnance-us-troop-death"
   },
   {
     "storyId": "xzs-india-vikram1-private-orbital-launch-20260719",
@@ -1189,5 +1189,71 @@
     "lastIssueDate": "2026-07-19",
     "lastTopicSlug": "josh-kerr-mile-world-record",
     "slug": "josh-kerr-mile-world-record"
+  },
+  {
+    "storyId": "xzs-world-cup-england-france-bronze-20260720",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 100,
+    "firstSeenDate": "2026-07-20",
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "world-cup-england-france-bronze",
+    "slug": "world-cup-england-france-bronze"
+  },
+  {
+    "storyId": "xzs-openai-useful-intelligence-scorecard-20260720",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 92,
+    "firstSeenDate": "2026-07-20",
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "openai-useful-intelligence-scorecard",
+    "slug": "openai-useful-intelligence-scorecard"
+  },
+  {
+    "storyId": "xzs-nfib-small-business-optimism-june-2026-20260720",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 82,
+    "firstSeenDate": "2026-07-20",
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "nfib-small-business-optimism-june-2026",
+    "slug": "nfib-small-business-optimism-june-2026"
+  },
+  {
+    "storyId": "xzs-peru-sicaya-earthquake-july19-20260720",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 100,
+    "firstSeenDate": "2026-07-20",
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "peru-sicaya-earthquake-july19",
+    "slug": "peru-sicaya-earthquake-july19"
+  },
+  {
+    "storyId": "xzs-china-q2-gdp-2026-20260720",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 88,
+    "firstSeenDate": "2026-07-20",
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "china-q2-gdp-2026",
+    "slug": "china-q2-gdp-2026"
+  },
+  {
+    "storyId": "xzs-nyc-legionnaires-second-death-ues-20260720",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 90,
+    "firstSeenDate": "2026-07-20",
+    "lastSeenDate": "2026-07-20",
+    "lastIssueDate": "2026-07-20",
+    "lastTopicSlug": "nyc-legionnaires-second-death-ues",
+    "slug": "nyc-legionnaires-second-death-ues"
   }
 ]

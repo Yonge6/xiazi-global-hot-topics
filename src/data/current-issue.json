@@ -1,22 +1,22 @@
 {
-  "id": "issue-2026-07-19",
-  "slug": "2026-07-19",
-  "issueDate": "2026-07-19",
-  "assetVersion": "issue-2026-07-19-style-atlas-076-image2-v1",
+  "id": "issue-2026-07-20",
+  "slug": "2026-07-20",
+  "issueDate": "2026-07-20",
+  "assetVersion": "issue-2026-07-20-style-atlas-098-image2-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-19T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-18T21:00:00Z",
-  "featuredTopicId": "topic-2026-07-19-01",
+  "beijingTimestamp": "2026-07-20T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-19T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-20-01",
   "style": {
-    "name": "Style Atlas #76 Russian Lubok",
-    "zhName": "Style Atlas #76 俄罗斯民间版画",
-    "description": "Premium sunlit Russian-lubok-inspired editorial language with carved-line texture, warm ivory, vermilion, cobalt, gold and symmetrical floral framing; sacred symbols are excluded."
+    "name": "Style Atlas #98 Scientific Illustration",
+    "zhName": "Style Atlas #98 科学插画风格",
+    "description": "Sunny premium scientific editorial illustration with warm ivory paper, precise ink lines, navy and terracotta accents, specimen-like diagrams and clear hierarchy."
   },
   "topics": [
     {
-      "id": "topic-2026-07-19-01",
-      "issueId": "issue-2026-07-19",
+      "id": "topic-2026-07-20-01",
+      "issueId": "issue-2026-07-20",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -26,40 +26,40 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-overview-20260719",
+      "storyId": "xzs-overview-20260720",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 95,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "决赛将至，世界在加速与承压之间摆动",
-          "headlineView": "扩张速度正在撞上资源、信任与治理边界。",
-          "headlineFull": "决赛将至，世界在加速与承压之间摆动；扩张速度正在撞上资源、信任与治理边界。",
-          "intro": "世界杯决赛将至；AI数据中心遭遇抗议，一人公司增长。美伊冲突、印度民营火箭、加拿大山火、埃博拉应对与一英里纪录，呈现扩张与治理的拉扯。",
-          "xiaziQuote": "扩张速度正在撞上资源、信任与治理边界。",
-          "doudouQuote": "世界一边紧张，一边继续向前跑。",
+          "headlineFact": "十球铜牌战落幕",
+          "headlineView": "世界在交接与风险边界间前行",
+          "headlineFull": "十球铜牌战落幕；世界在交接与风险边界间前行",
+          "intro": "世界杯铜牌战、AI价值与OPC信心，与美伊冲突、英国换帅、秘鲁地震、中国经济和纽约疫情，共同指向治理、韧性与可验证的结果。",
+          "xiaziQuote": "变化越快，越要用清楚的边界、可靠的系统和能落地的指标判断进展。",
+          "doudouQuote": "今天信息很多，先把事实排好队。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Today's Overview",
-          "headlineFact": "The final approaches as the world swings between acceleration and pressure",
-          "headlineView": "Expansion is colliding with limits of resources, trust and governance.",
-          "headlineFull": "The final approaches as the world swings between acceleration and pressure; Expansion is colliding with limits of resources, trust and governance.",
-          "intro": "The World Cup final nears. AI data-center protests and solo founding grow, while U.S.-Iran fighting, India’s private orbital launch, Canadian wildfires, Ebola response and a mile record expose tension between expansion and governance.",
-          "xiaziQuote": "Expansion is colliding with limits of resources, trust and governance.",
-          "doudouQuote": "The world is tense, but it keeps moving forward.",
+          "headlineFact": "A ten-goal bronze match closes",
+          "headlineView": "the world moves through handovers and risk limits",
+          "headlineFull": "A ten-goal bronze match closes; the world tests handovers and risk limits",
+          "intro": "The World Cup bronze match, AI value and OPC confidence join U.S.-Iran escalation, Britain's handover, Peru's earthquake, China's economy and New York's outbreak in one theme: governance, resilience and verifiable outcomes.",
+          "xiaziQuote": "The faster change moves, the more we need clear boundaries, reliable systems and measurable results.",
+          "doudouQuote": "Lots of news today; line up the facts first.",
           "footerTakeaway": "Keyword: Today's Overview."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-19-01-1",
-          "topicId": "topic-2026-07-19-01",
-          "title": "FIFA World Cup 2026 match schedule, fixtures and results",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
-          "publishedAt": "2026-07-18T12:00:00Z",
+          "id": "source-2026-07-20-01-1",
+          "topicId": "topic-2026-07-20-01",
+          "title": "England men achieve best World Cup finish since 1966",
+          "publisher": "England Football",
+          "url": "https://www.englandfootball.com/articles/2026/Jul/18/england-men-achieve-best-world-cup-finish-since-1966-20261807",
+          "publishedAt": "2026-07-20T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -68,164 +68,123 @@
       ]
     },
     {
-      "id": "topic-2026-07-19-02",
-      "issueId": "issue-2026-07-19",
-      "slug": "world-cup-july19-cutoff",
+      "id": "topic-2026-07-20-02",
+      "issueId": "issue-2026-07-20",
+      "slug": "world-cup-england-france-bronze",
       "rank": 2,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "FR",
         "GB",
+        "FR",
         "ES",
         "AR"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 97,
-      "storyId": "xzs-world-cup-july19-cutoff-20260719",
+      "storyId": "xzs-world-cup-england-france-bronze-20260720",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 94,
+      "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯日报",
-          "headlineFact": "窗口内无完赛；季军战截止时刚开球，决赛即将上演",
-          "headlineView": "窗口规则比“今天有球”更重要，边界必须一致。",
-          "headlineFull": "窗口内无完赛；季军战截止时刚开球，决赛即将上演；窗口规则比“今天有球”更重要，边界必须一致。",
-          "intro": "北京时间7月18日05:00至19日05:00无完赛。法国对英格兰于截止时开球，不计入本期；西班牙对阿根廷决赛将于20日03:00进行。",
-          "xiaziQuote": "窗口规则比“今天有球”更重要，边界必须一致。",
-          "doudouQuote": "哨响在截止线上，下一期再算比分。",
+          "headlineFact": "英格兰6比4击败法国获季军",
+          "headlineView": "决赛结果留到下一期",
+          "headlineFull": "英格兰6比4击败法国获季军；决赛结果留到下一期",
+          "intro": "北京时间7月19日05:00至20日05:00，英格兰6比4战胜法国获得季军，萨卡上演帽子戏法。西班牙对阿根廷决赛在截止时仍未完赛，结果不计入本期。",
+          "xiaziQuote": "固定窗口让每日赛果可比较，热度不能替代统计边界。",
+          "doudouQuote": "十个进球够热闹，截止线还是要守。",
           "footerTakeaway": "今日关键词：世界杯日报。"
         },
         "en-US": {
           "categoryLabel": "World Cup Daily",
-          "headlineFact": "No match finished in the window; third-place play began at the cutoff",
-          "headlineView": "A fixed reporting window matters more than saying there was a match today.",
-          "headlineFull": "No match finished in the window; third-place play began at the cutoff; A fixed reporting window matters more than saying there was a match today.",
-          "intro": "No match finished from 05:00 Jul 18 to 05:00 Jul 19 Beijing time. France vs England kicked off at the cutoff and is excluded. Spain vs Argentina starts at 03:00 Jul 20.",
-          "xiaziQuote": "A fixed reporting window matters more than saying there was a match today.",
-          "doudouQuote": "The whistle came at the cutoff; score it next issue.",
+          "headlineFact": "England beat France 6-4 for bronze",
+          "headlineView": "the final belongs to the next issue",
+          "headlineFull": "England beat France 6-4 for bronze; the final belongs to the next issue",
+          "intro": "From 05:00 Jul 19 to 05:00 Jul 20 Beijing time, England beat France 6-4 for bronze as Bukayo Saka scored a hat-trick. Spain-Argentina was unfinished at the cutoff and is excluded.",
+          "xiaziQuote": "A fixed window keeps daily results comparable; excitement cannot replace the cutoff.",
+          "doudouQuote": "Ten goals were plenty; the deadline still stands.",
           "footerTakeaway": "Keyword: World Cup Daily."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-19-02-1",
-          "topicId": "topic-2026-07-19-02",
-          "title": "FIFA World Cup 2026 match schedule, fixtures and results",
-          "publisher": "FIFA",
-          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
-          "publishedAt": "2026-07-18T12:00:00Z",
+          "id": "source-2026-07-20-02-1",
+          "topicId": "topic-2026-07-20-02",
+          "title": "England men achieve best World Cup finish since 1966",
+          "publisher": "England Football",
+          "url": "https://www.englandfootball.com/articles/2026/Jul/18/england-men-achieve-best-world-cup-finish-since-1966-20261807",
+          "publishedAt": "2026-07-20T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-20-02-2",
+          "topicId": "topic-2026-07-20-02",
+          "title": "Saka hat-trick seals 6-4 England win over France",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "topic-2026-07-19-03",
-      "issueId": "issue-2026-07-19",
-      "slug": "us-ai-datacenter-protests-125",
+      "id": "topic-2026-07-20-03",
+      "issueId": "issue-2026-07-20",
+      "slug": "openai-useful-intelligence-scorecard",
       "rank": 3,
       "category": "technology",
-      "region": "North America",
+      "region": "Global",
       "countryCodes": [
         "US"
       ],
       "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "xzs-us-ai-datacenter-protests-125-20260719",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 93,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "AI热点",
-          "headlineFact": "全美至少125地抗议AI数据中心；算力扩张撞上社区边界",
-          "headlineView": "AI竞争也要回答谁承担电力、水与环境成本。",
-          "headlineFull": "全美至少125地抗议AI数据中心；算力扩张撞上社区边界；AI竞争也要回答谁承担电力、水与环境成本。",
-          "intro": "路透社称抗议覆盖至少125地。6月Reuters/Ipsos调查仅14%支持在本社区建AI数据中心，争议集中于电费、水与污染。",
-          "xiaziQuote": "AI竞争也要回答谁承担电力、水与环境成本。",
-          "doudouQuote": "云端很轻，落地却是电站、水管和账单。",
-          "footerTakeaway": "今日关键词：AI热点。"
-        },
-        "en-US": {
-          "categoryLabel": "AI Watch",
-          "headlineFact": "AI data centers face protests in at least 125 U.S. locations",
-          "headlineView": "AI competition must answer who pays the power, water and environmental costs.",
-          "headlineFull": "AI data centers face protests in at least 125 U.S. locations; AI competition must answer who pays the power, water and environmental costs.",
-          "intro": "Reuters reports protests in at least 125 locations. A June Reuters/Ipsos poll found only 14% support an AI data center in their own community, amid power, water and pollution concerns.",
-          "xiaziQuote": "AI competition must answer who pays the power, water and environmental costs.",
-          "doudouQuote": "The cloud feels light; on the ground it is plants, pipes and bills.",
-          "footerTakeaway": "Keyword: AI Watch."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-19-03-1",
-          "topicId": "topic-2026-07-19-03",
-          "title": "US data center protests go national as backlash grows",
-          "publisher": "Reuters",
-          "url": "https://www.investing.com/news/stock-market-news/us-data-center-protests-go-national-as-backlash-grows-4799582",
-          "publishedAt": "2026-07-18T12:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-19-04",
-      "issueId": "issue-2026-07-19",
-      "slug": "stripe-atlas-solo-founders-q2-2026",
-      "rank": 4,
-      "category": "business",
-      "region": "Global",
-      "countryCodes": [],
-      "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "xzs-stripe-atlas-solo-founders-q2-2026-20260719",
+      "scoreTotal": 96,
+      "storyId": "xzs-openai-useful-intelligence-scorecard-20260720",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 92,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "OPC一人公司",
-          "headlineFact": "Stripe Atlas新设公司63%由独立创始人创建；AI降低门槛却不替代验证",
-          "headlineView": "AI降低开工门槛，却不替代需求验证、分销、信任与复购。",
-          "headlineFull": "Stripe Atlas新设公司63%由独立创始人创建；AI降低门槛却不替代验证；AI降低开工门槛，却不替代需求验证、分销、信任与复购。",
-          "intro": "Stripe称2026年二季度迄今63% Atlas C类公司由单人创办；AI原生一人公司两年收入接近其他样本两倍。",
-          "xiaziQuote": "AI降低开工门槛，却不替代需求验证、分销、信任与复购。",
-          "doudouQuote": "一个人可以先出发，但别拒绝协作。",
-          "footerTakeaway": "今日关键词：OPC一人公司。"
+          "categoryLabel": "AI热点",
+          "headlineFact": "OpenAI提出AI价值四项记分卡",
+          "headlineView": "Token低价不等于任务便宜",
+          "headlineFull": "OpenAI提出AI价值四项记分卡；Token低价不等于任务便宜",
+          "intro": "OpenAI建议企业用有用工作量、成功任务成本、可靠性和规模价值衡量AI投入，把注意力从每Token价格转向真正完成且可用的成果。",
+          "xiaziQuote": "AI采购真正要算的是一次成功交付的总成本，包括重试、复核和返工。",
+          "doudouQuote": "便宜的Token若要改五遍，也可能最贵。",
+          "footerTakeaway": "今日关键词：AI热点。"
         },
         "en-US": {
-          "categoryLabel": "OPC One-Person Company",
-          "headlineFact": "63% of new Stripe Atlas companies have solo founders",
-          "headlineView": "AI lowers the starting barrier, but not the need for validation, distribution, trust and retention.",
-          "headlineFull": "63% of new Stripe Atlas companies have solo founders; AI lowers the starting barrier, but not the need for validation, distribution, trust and retention.",
-          "intro": "Stripe says 63% of Atlas C corporations created so far in Q2 2026 are solo-founded. AI-native solo startups approach twice the two-year revenue of other samples.",
-          "xiaziQuote": "AI lowers the starting barrier, but not the need for validation, distribution, trust and retention.",
-          "doudouQuote": "One person can start the journey; collaboration still matters.",
-          "footerTakeaway": "Keyword: OPC One-Person Company."
+          "categoryLabel": "AI Watch",
+          "headlineFact": "OpenAI proposes four measures for AI value",
+          "headlineView": "cheap tokens do not mean cheap outcomes",
+          "headlineFull": "OpenAI proposes four AI-value measures; cheap tokens do not mean cheap outcomes",
+          "intro": "OpenAI says companies should measure useful work, cost per successful task, dependability and value at scale, shifting attention from token price to outcomes people can actually use.",
+          "xiaziQuote": "The real AI cost includes retries, review and rework needed for one successful delivery.",
+          "doudouQuote": "A cheap token can be expensive after five rewrites.",
+          "footerTakeaway": "Keyword: AI Watch."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-19-04-1",
-          "topicId": "topic-2026-07-19-04",
-          "title": "Solo founding is at an all-time high",
-          "publisher": "Stripe",
-          "url": "https://stripe.com/blog/top-solo-founder-traits",
-          "publishedAt": "2026-07-18T12:00:00Z",
+          "id": "source-2026-07-20-03-1",
+          "topicId": "topic-2026-07-20-03",
+          "title": "A scorecard for the AI age",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+          "publishedAt": "2026-07-20T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -234,15 +193,71 @@
       ]
     },
     {
-      "id": "topic-2026-07-19-05",
-      "issueId": "issue-2026-07-19",
-      "slug": "iran-strike-us-troops-jordan",
+      "id": "topic-2026-07-20-04",
+      "issueId": "issue-2026-07-20",
+      "slug": "nfib-small-business-optimism-june-2026",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-nfib-small-business-optimism-june-2026-20260720",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 82,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "OPC一人公司",
+          "headlineFact": "美国小企业乐观指数升至97.4",
+          "headlineView": "回暖不等于现金流无忧",
+          "headlineFull": "美国小企业乐观指数升至97.4；回暖不等于现金流无忧",
+          "intro": "NFIB称6月小企业乐观指数上升2.1点至97.4，接近52年均值；不确定性仍高，32%的受访企业报告岗位难以招满。",
+          "xiaziQuote": "一人公司先看需求、现金流与交付，不要把宏观回暖直接当成自己的订单。",
+          "doudouQuote": "信心回来了，账单可没休假。",
+          "footerTakeaway": "今日关键词：OPC一人公司。"
+        },
+        "en-US": {
+          "categoryLabel": "OPC One-Person Company",
+          "headlineFact": "U.S. small-business optimism rises to 97.4",
+          "headlineView": "better mood does not erase cash-flow risk",
+          "headlineFull": "U.S. small-business optimism rises to 97.4; cash-flow risk remains",
+          "intro": "NFIB says its June index rose 2.1 points to 97.4, near its 52-year average. Uncertainty stayed high, while 32% of firms reported openings they could not fill.",
+          "xiaziQuote": "Solo firms should track demand, cash flow and delivery—not mistake a macro rebound for orders.",
+          "doudouQuote": "Confidence is back; the bills never took leave.",
+          "footerTakeaway": "Keyword: OPC One-Person Company."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-20-04-1",
+          "topicId": "topic-2026-07-20-04",
+          "title": "Small Business Optimism Picks Up in June",
+          "publisher": "NFIB",
+          "url": "https://www.nfib.com/news/monthly_report/sbet/embed/",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-20-05",
+      "issueId": "issue-2026-07-20",
+      "slug": "iran-drone-ordnance-us-troop-death",
       "rank": 5,
       "category": "international",
       "region": "Middle East",
       "countryCodes": [
-        "IR",
         "US",
+        "IR",
+        "IQ",
         "JO"
       ],
       "eventTime": null,
@@ -250,264 +265,323 @@
       "verificationStatus": "verified",
       "scoreTotal": 94,
       "storyId": "xzs-iran-strike-us-troops-jordan-20260719",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 91,
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 92,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "中东局势",
-          "headlineFact": "伊朗袭击致两名美军在约旦死亡；升级时更要分清事实与说法",
-          "headlineView": "冲突升级时，要分开已证实事实、单方说法与推测。",
-          "headlineFull": "伊朗袭击致两名美军在约旦死亡；升级时更要分清事实与说法；冲突升级时，要分开已证实事实、单方说法与推测。",
-          "intro": "美军称两人死亡、一人失踪；美方随后扩大空袭。伊朗方面另有多项战果说法，部分尚未独立核实。",
-          "xiaziQuote": "冲突升级时，要分开已证实事实、单方说法与推测。",
-          "doudouQuote": "看到“某方称”，先别自动改成“事情就是这样”。",
+          "headlineFact": "美军再报告一人死于伊朗无人机残骸",
+          "headlineView": "战争成本延伸到未爆弹",
+          "headlineFull": "美军再报告一人死于伊朗无人机残骸；战争成本延伸到未爆弹",
+          "intro": "美军称一名人员在伊拉克处置被击落伊朗无人机的未爆弹时死亡；此前约旦袭击已致两名美军死亡、另有一人失踪。",
+          "xiaziQuote": "冲突的危险不会随拦截结束，残骸、误判和报复都在延长风险链条。",
+          "doudouQuote": "天空安静了，地上的危险还没清零。",
           "footerTakeaway": "今日关键词：中东局势。"
         },
         "en-US": {
           "categoryLabel": "Middle East",
-          "headlineFact": "Iranian strike kills two U.S. troops in Jordan",
-          "headlineView": "In escalation, separate confirmed facts, one-sided claims and inference.",
-          "headlineFull": "Iranian strike kills two U.S. troops in Jordan; In escalation, separate confirmed facts, one-sided claims and inference.",
-          "intro": "The U.S. military says two troops died and one is missing; Washington then expanded airstrikes. Iran made additional claims, some not independently verified.",
-          "xiaziQuote": "In escalation, separate confirmed facts, one-sided claims and inference.",
-          "doudouQuote": "When a report says one side claims, do not turn it into certainty.",
+          "headlineFact": "Another U.S. troop dies handling Iranian drone ordnance",
+          "headlineView": "war's cost extends beyond interception",
+          "headlineFull": "Another U.S. troop dies handling Iranian drone ordnance; war's risk chain widens",
+          "intro": "The U.S. military says a service member died in Iraq during a controlled detonation of unexploded ordnance from a downed Iranian drone, following the deadly Jordan attack.",
+          "xiaziQuote": "Danger does not end with interception; debris, miscalculation and retaliation extend the risk chain.",
+          "doudouQuote": "The sky is quiet; the danger on the ground is not.",
           "footerTakeaway": "Keyword: Middle East."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-19-05-1",
-          "topicId": "topic-2026-07-19-05",
-          "title": "US military personnel killed in Iranian attacks on Jordan",
-          "publisher": "Reuters",
-          "url": "https://theprint.in/world/us-says-military-personnel-killed-in-jordan-as-irans-leader-issues-warning/2990264/",
-          "publishedAt": "2026-07-18T12:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 1,
+          "id": "source-2026-07-20-05-1",
+          "topicId": "topic-2026-07-20-05",
+          "title": "US announces another troop death as Israel warns Tehran's attacks are coming close",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/63996576847424ab5f22887f38037ce8",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-20-05-2",
+          "topicId": "topic-2026-07-20-05",
+          "title": "U.S. military finds service member's remains after missile attack",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/07/19/us-military-finds-service-member-remains-jordan",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "topic-2026-07-19-06",
-      "issueId": "issue-2026-07-19",
-      "slug": "india-vikram1-private-orbital-launch",
+      "id": "topic-2026-07-20-06",
+      "issueId": "issue-2026-07-20",
+      "slug": "uk-burnham-downing-street-handover",
       "rank": 6,
-      "category": "technology",
-      "region": "Asia",
-      "countryCodes": [
-        "IN"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "xzs-india-vikram1-private-orbital-launch-20260719",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "太空产业",
-          "headlineFact": "印度首枚民营轨道火箭Vikram-1入轨；商业航天迈过关键门槛",
-          "headlineView": "民营航天的价值，不只是一枚火箭，而是更灵活的发射供给。",
-          "headlineFull": "印度首枚民营轨道火箭Vikram-1入轨；商业航天迈过关键门槛；民营航天的价值，不只是一枚火箭，而是更灵活的发射供给。",
-          "intro": "ISRO确认，Skyroot的Vikram-1于7月18日从斯里哈里科塔升空，成为印度首枚民营轨道运载火箭，并将载荷送入约450公里轨道。",
-          "xiaziQuote": "民营航天的价值，不只是一枚火箭，而是更灵活的发射供给。",
-          "doudouQuote": "从“能造”到“能入轨”，这一步真的飞起来了。",
-          "footerTakeaway": "今日关键词：太空产业。"
-        },
-        "en-US": {
-          "categoryLabel": "Space Industry",
-          "headlineFact": "India’s first private orbital rocket Vikram-1 reaches orbit",
-          "headlineView": "Private spaceflight expands flexible launch supply.",
-          "headlineFull": "India’s first private orbital rocket Vikram-1 reaches orbit; Private spaceflight expands flexible launch supply.",
-          "intro": "ISRO confirms Skyroot’s Vikram-1 launched from Sriharikota on July 18, becoming India’s first privately built orbital launcher and placing payloads near 450 km.",
-          "xiaziQuote": "Private spaceflight expands flexible launch supply.",
-          "doudouQuote": "From can build to can orbit—this one truly flew.",
-          "footerTakeaway": "Keyword: Space Industry."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-19-06-1",
-          "topicId": "topic-2026-07-19-06",
-          "title": "First private orbital launch lifts off from Sriharikota",
-          "publisher": "ISRO",
-          "url": "https://www.isro.gov.in/First_private_orbital_launch_lifts_from_Sriharikota.html",
-          "publishedAt": "2026-07-18T12:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-19-07",
-      "issueId": "issue-2026-07-19",
-      "slug": "canada-july-wildfires-796",
-      "rank": 7,
-      "category": "climate",
-      "region": "North America",
-      "countryCodes": [
-        "CA"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-canada-july-wildfires-796-20260719",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 89,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "气候与环境",
-          "headlineFact": "加拿大7月仍有796处山火活跃；跨区域烟霾再次提醒气候风险",
-          "headlineView": "烟雾越过边界时，环境风险从来不是单一国家的内部事务。",
-          "headlineFull": "加拿大7月仍有796处山火活跃；跨区域烟霾再次提醒气候风险；烟雾越过边界时，环境风险从来不是单一国家的内部事务。",
-          "intro": "加拿大政府7月更新称全国有796处活跃山火，其中60处失控；北部与安大略、魁北克部分地区风险仍高。",
-          "xiaziQuote": "烟雾越过边界时，环境风险从来不是单一国家的内部事务。",
-          "doudouQuote": "风不会查护照，烟也不会在边境线停下。",
-          "footerTakeaway": "今日关键词：气候与环境。"
-        },
-        "en-US": {
-          "categoryLabel": "Climate & Environment",
-          "headlineFact": "Canada still has 796 active wildfires in July",
-          "headlineView": "When smoke crosses borders, environmental risk is never one country’s internal affair.",
-          "headlineFull": "Canada still has 796 active wildfires in July; When smoke crosses borders, environmental risk is never one country’s internal affair.",
-          "intro": "Canada’s July update reports 796 active wildfires nationwide, including 60 out of control. Risks remain high in the north and parts of Ontario and Quebec.",
-          "xiaziQuote": "When smoke crosses borders, environmental risk is never one country’s internal affair.",
-          "doudouQuote": "Wind checks no passport; smoke does not stop at a border.",
-          "footerTakeaway": "Keyword: Climate & Environment."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-19-07-1",
-          "topicId": "topic-2026-07-19-07",
-          "title": "The Government of Canada provides an update regarding the 2026 wildfire season",
-          "publisher": "Government of Canada",
-          "url": "https://www.canada.ca/en/public-safety-canada/news/2026/07/the-government-of-canada-provides-an-update-regarding-the-2026-wildfire-season--july-update.html",
-          "publishedAt": "2026-07-18T12:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-19-08",
-      "issueId": "issue-2026-07-19",
-      "slug": "bundibugyo-ebola-who-july14",
-      "rank": 8,
-      "category": "science",
-      "region": "Africa",
-      "countryCodes": [
-        "CD",
-        "UG"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-bundibugyo-ebola-who-july14-20260719",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 88,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "全球健康",
-          "headlineFact": "WHO确认本迪布焦型埃博拉仍在外溢；防控依赖医学也依赖一线安全",
-          "headlineView": "防控依赖医学，也依赖信任、安全和一线人员持续工作。",
-          "headlineFull": "WHO确认本迪布焦型埃博拉仍在外溢；防控依赖医学也依赖一线安全；防控依赖医学，也依赖信任、安全和一线人员持续工作。",
-          "intro": "WHO称截至7月14日累计20例确认病例，含两例输入性死亡，另有一例疑似死亡；一名美国援助人员被转运德国治疗。",
-          "xiaziQuote": "防控依赖医学，也依赖信任、安全和一线人员持续工作。",
-          "doudouQuote": "防护服能挡病毒，却挡不住薄弱的防控系统。",
-          "footerTakeaway": "今日关键词：全球健康。"
-        },
-        "en-US": {
-          "categoryLabel": "Global Health",
-          "headlineFact": "WHO confirms continued spillover of Bundibugyo Ebola",
-          "headlineView": "Control depends on medicine, trust, safety and sustained frontline work.",
-          "headlineFull": "WHO confirms continued spillover of Bundibugyo Ebola; Control depends on medicine, trust, safety and sustained frontline work.",
-          "intro": "WHO reports 20 confirmed cases through July 14, including two deaths in imported cases and one probable death. A U.S. aid worker was transferred to Germany for treatment.",
-          "xiaziQuote": "Control depends on medicine, trust, safety and sustained frontline work.",
-          "doudouQuote": "Protective suits can block a virus, not a fragile response system.",
-          "footerTakeaway": "Keyword: Global Health."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-19-08-1",
-          "topicId": "topic-2026-07-19-08",
-          "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
-          "publisher": "World Health Organization",
-          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
-          "publishedAt": "2026-07-18T12:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-19-09",
-      "issueId": "issue-2026-07-19",
-      "slug": "josh-kerr-mile-world-record",
-      "rank": 9,
-      "category": "sports",
+      "category": "international",
       "region": "Europe",
       "countryCodes": [
         "GB"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "xzs-josh-kerr-mile-world-record-20260719",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 87,
+      "scoreTotal": 93,
+      "storyId": "xzs-uk-starmer-final-pmqs-20260716",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 90,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "体育纪录",
-          "headlineFact": "乔什·科尔3分42秒66打破27年一英里纪录；多年训练终于越线",
-          "headlineView": "纪录被打破的瞬间，背后是多年训练、节奏与信念。",
-          "headlineFull": "乔什·科尔3分42秒66打破27年一英里纪录；多年训练终于越线；纪录被打破的瞬间，背后是多年训练、节奏与信念。",
-          "intro": "世界田联确认，英国选手乔什·科尔7月18日在伦敦跑出3分42秒66，刷新希沙姆·埃尔·盖鲁伊1999年的3分43秒13纪录。",
-          "xiaziQuote": "纪录被打破的瞬间，背后是多年训练、节奏与信念。",
-          "doudouQuote": "27年的墙倒下，只用了不到四分钟。",
-          "footerTakeaway": "今日关键词：体育纪录。"
+          "categoryLabel": "英国政治",
+          "headlineFact": "伯纳姆将于周一入主唐宁街",
+          "headlineView": "换帅易，财政难题不会自动换掉",
+          "headlineFull": "伯纳姆将于周一入主唐宁街；财政难题不会自动换掉",
+          "intro": "工党新领袖安迪·伯纳姆将于周一接任英国首相，面对生活成本、公共服务、移民、财政空间与对外政策等多重压力。",
+          "xiaziQuote": "领导人更替能重置叙事，却不能跳过预算、执行和信任修复。",
+          "doudouQuote": "钥匙能交接，待办清单不会消失。",
+          "footerTakeaway": "今日关键词：英国政治。"
         },
         "en-US": {
-          "categoryLabel": "Sports Record",
-          "headlineFact": "Josh Kerr runs 3:42.66 to break the 27-year mile record",
-          "headlineView": "A record falls in a moment; behind it stand years of training, rhythm and belief.",
-          "headlineFull": "Josh Kerr runs 3:42.66 to break the 27-year mile record; A record falls in a moment; behind it stand years of training, rhythm and belief.",
-          "intro": "World Athletics confirms Britain’s Josh Kerr ran 3:42.66 in London on July 18, breaking Hicham El Guerrouj’s 1999 mark of 3:43.13.",
-          "xiaziQuote": "A record falls in a moment; behind it stand years of training, rhythm and belief.",
-          "doudouQuote": "A 27-year wall fell in under four minutes.",
-          "footerTakeaway": "Keyword: Sports Record."
+          "categoryLabel": "UK Politics",
+          "headlineFact": "Andy Burnham enters Downing Street Monday",
+          "headlineView": "a new leader does not erase fiscal constraints",
+          "headlineFull": "Andy Burnham enters Downing Street Monday; fiscal constraints remain",
+          "intro": "Labour's new leader is set to become U.K. prime minister Monday, facing pressure over living costs, public services, migration, limited fiscal room and foreign policy.",
+          "xiaziQuote": "A leadership change can reset the story, but not skip budgets, execution or rebuilding trust.",
+          "doudouQuote": "The keys transfer; the task list stays.",
+          "footerTakeaway": "Keyword: UK Politics."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-19-09-1",
-          "topicId": "topic-2026-07-19-09",
-          "title": "Kerr breaks world mile record with 3:42.66 in London",
-          "publisher": "World Athletics",
-          "url": "https://worldathletics.org/competitions/diamond-league/news/london-athletics-meet-2026-josh-kerr-world-mile-record",
-          "publishedAt": "2026-07-18T12:00:00Z",
+          "id": "source-2026-07-20-06-1",
+          "topicId": "topic-2026-07-20-06",
+          "title": "What to know about the challenges Andy Burnham will face as UK prime minister",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/britain-burnham-prime-minister-starmer-economy-immigration-19deb2ceb705703310db55bf4802fce7",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-20-06-2",
+          "topicId": "topic-2026-07-20-06",
+          "title": "Andy Burnham becomes British Labour leader; next stop prime minister",
+          "publisher": "Reuters",
+          "url": "https://www.investing.com/news/world-news/andy-burnham-becomes-uk-labour-leader-next-stop--prime-minister-4798202",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-20-07",
+      "issueId": "issue-2026-07-20",
+      "slug": "peru-sicaya-earthquake-july19",
+      "rank": 7,
+      "category": "science",
+      "region": "Latin America",
+      "countryCodes": [
+        "PE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-peru-sicaya-earthquake-july19-20260720",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 100,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "自然灾害",
+          "headlineFact": "秘鲁5.5级地震致至少6人死亡",
+          "headlineView": "建筑韧性决定灾害放大倍数",
+          "headlineFull": "秘鲁5.5级地震致至少6人死亡；建筑韧性决定灾害放大倍数",
+          "intro": "秘鲁安第斯地区5.5级地震致至少6人死亡、30多人受伤、300人流离失所。当地部门称土坯材料加重了建筑损毁。",
+          "xiaziQuote": "同样的震级落在不同建筑与治理体系上，会变成完全不同的代价。",
+          "doudouQuote": "地震很短，重建要很久。",
+          "footerTakeaway": "今日关键词：自然灾害。"
+        },
+        "en-US": {
+          "categoryLabel": "Natural Disaster",
+          "headlineFact": "Peru's 5.5 quake kills at least six",
+          "headlineView": "building resilience shapes the human cost",
+          "headlineFull": "Peru's 5.5 quake kills at least six; building resilience shapes the human cost",
+          "intro": "A magnitude-5.5 quake in Peru's Andes killed at least six, injured more than 30 and displaced 300. Local officials said adobe construction worsened damage.",
+          "xiaziQuote": "The same magnitude can produce a different cost under different buildings and public systems.",
+          "doudouQuote": "The quake was brief; rebuilding will not be.",
+          "footerTakeaway": "Keyword: Natural Disaster."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-20-07-1",
+          "topicId": "topic-2026-07-20-07",
+          "title": "5.5 magnitude earthquake hits Peru's Andes region and kills at least 6 people",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/b913ea98c255d3854804e35401425325",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-20-07-2",
+          "topicId": "topic-2026-07-20-07",
+          "title": "Earthquake in Peru leaves at least six dead",
+          "publisher": "The Guardian / AP",
+          "url": "https://www.theguardian.com/world/2026/jul/19/55-magnitude-earthquake-hits-perus-andes-region-and-kills-at-least-5-people",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-20-08",
+      "issueId": "issue-2026-07-20",
+      "slug": "china-q2-gdp-2026",
+      "rank": 8,
+      "category": "business",
+      "region": "Asia",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-china-q2-gdp-2026-20260720",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球经济",
+          "headlineFact": "中国二季度GDP增长4.3%",
+          "headlineView": "出口韧性难掩内需失衡",
+          "headlineFull": "中国二季度GDP增长4.3%；出口韧性难掩内需失衡",
+          "intro": "国家统计局称上半年GDP同比增长4.7%，二季度增长4.3%。官方同时指出外部不稳定上升，供强需弱的矛盾仍较突出。",
+          "xiaziQuote": "供给与出口能托住增长，但居民信心和内需决定修复能否持续。",
+          "doudouQuote": "生产线跑得快，购物车也得跟上。",
+          "footerTakeaway": "今日关键词：全球经济。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Economy",
+          "headlineFact": "China's Q2 GDP grows 4.3%",
+          "headlineView": "export resilience cannot hide weak demand",
+          "headlineFull": "China's Q2 GDP grows 4.3%; export resilience cannot hide weak demand",
+          "intro": "China's statistics bureau says first-half GDP grew 4.7% and Q2 grew 4.3%. Officials also highlighted rising external uncertainty and a persistent supply-demand imbalance.",
+          "xiaziQuote": "Supply and exports can support growth, but household confidence and demand decide its durability.",
+          "doudouQuote": "Fast factories still need fuller shopping carts.",
+          "footerTakeaway": "Keyword: Global Economy."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-20-08-1",
+          "topicId": "topic-2026-07-20-08",
+          "title": "National Economy Operated within an Appropriate Range with New Growth Drivers Developing Rapidly in the First Half Year",
+          "publisher": "National Bureau of Statistics of China",
+          "url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260715_1964120.html",
+          "publishedAt": "2026-07-20T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-20-08-2",
+          "topicId": "topic-2026-07-20-08",
+          "title": "China's economy grew at a 4.3% annual pace in the 2nd quarter",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/95136222f87d5a1e62918f41efab00be",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-20-09",
+      "issueId": "issue-2026-07-20",
+      "slug": "nyc-legionnaires-second-death-ues",
+      "rank": 9,
+      "category": "science",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-nyc-legionnaires-second-death-ues-20260720",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "公共卫生",
+          "headlineFact": "纽约军团菌病疫情报告第二例死亡",
+          "headlineView": "源头控制仍需持续验证",
+          "headlineFull": "纽约军团菌病疫情报告第二例死亡；源头控制仍需持续验证",
+          "intro": "纽约市卫生部门报告上东区军团菌病聚集性疫情出现第二例相关死亡，并称现有证据显示暴露源可能已经消除。",
+          "xiaziQuote": "公共卫生的信任来自透明更新、快速排查和把“可能”与“确认”分开。",
+          "doudouQuote": "冷却塔洗干净，监测表还不能收。",
+          "footerTakeaway": "今日关键词：公共卫生。"
+        },
+        "en-US": {
+          "categoryLabel": "Public Health",
+          "headlineFact": "NYC Legionnaires' cluster reports a second death",
+          "headlineView": "source control still needs verification",
+          "headlineFull": "NYC Legionnaires' cluster reports a second death; source control needs verification",
+          "intro": "New York City's health department reported a second death linked to the Upper East Side cluster and said evidence suggests the exposure source has likely been eliminated.",
+          "xiaziQuote": "Public-health trust comes from rapid investigation and keeping likely separate from confirmed.",
+          "doudouQuote": "The towers are cleaned; the monitoring sheet stays open.",
+          "footerTakeaway": "Keyword: Public Health."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-20-09-1",
+          "topicId": "topic-2026-07-20-09",
+          "title": "Second death reported in Legionnaires' disease outbreak in New York City",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/78365fb2954c0781181216e409b78718",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-20-09-2",
+          "topicId": "topic-2026-07-20-09",
+          "title": "NYC Health Department Reports Second Death in Upper East Side Legionnaires' Disease Cluster",
+          "publisher": "NYC Health Department",
+          "url": "https://www.nyc.gov/site/doh/about/press/pr2026/second-death-in-ues-legionnaires-disease-cluster.page",
+          "publishedAt": "2026-07-20T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     }
