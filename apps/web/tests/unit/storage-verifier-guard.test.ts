@@ -59,4 +59,10 @@ describe("staging storage verifier safety guards", () => {
     expect(result.status).not.toBe(0);
     expect(`${result.stdout}${result.stderr}`).toContain("STORAGE_CDN_VERIFICATION_INVALID");
   });
+
+  it("rejects the retired skip mode so Direct COS Origin is explicit", () => {
+    const result = run({ STORAGE_ENV: "staging", STORAGE_CDN_VERIFICATION: "skip" });
+    expect(result.status).not.toBe(0);
+    expect(`${result.stdout}${result.stderr}`).toContain("STORAGE_CDN_VERIFICATION_INVALID");
+  });
 });

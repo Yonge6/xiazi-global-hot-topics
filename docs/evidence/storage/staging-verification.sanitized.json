@@ -34,7 +34,7 @@
   },
   "identitySeparationVerified": true,
   "sourceReadbackSha256Matches": true,
-  "cdnVerificationStatus": "not-executed",
+  "cdnVerificationStatus": "not-applicable-for-direct-cos-origin",
   "cdnSourceHashMatches": null,
   "denials": [
     { "operation": "same-key-same-content-put", "httpStatus": 409, "providerCode": "FileAlreadyExists" },

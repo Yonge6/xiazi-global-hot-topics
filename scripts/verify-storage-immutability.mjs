@@ -23,7 +23,7 @@ function refuseUnsafeTarget() {
     throw new Error("STAGING_TEST_PREFIX_INVALID");
   }
   const cdnVerification = process.env.STORAGE_CDN_VERIFICATION?.trim() || "required";
-  if (!new Set(["required", "skip"]).has(cdnVerification)) {
+  if (!new Set(["required", "direct-cos-origin"]).has(cdnVerification)) {
     throw new Error("STORAGE_CDN_VERIFICATION_INVALID");
   }
   let cdn = null;
@@ -332,7 +332,7 @@ const idempotentHash = sha256(Buffer.from(await idempotentRead.arrayBuffer()));
 if (!idempotentRead.ok || idempotentHash !== expectedHash) throw new Error("IDEMPOTENT_CONTENT_CHANGED");
 
 let cdnSourceHashMatches = null;
-let cdnVerificationStatus = "not-executed";
+let cdnVerificationStatus = "not-applicable-for-direct-cos-origin";
 if (safe.cdnVerification === "required") {
   const cdnUrl = new URL(key, safe.cdn.toString().endsWith("/") ? safe.cdn : `${safe.cdn}/`);
   const cdnResponse = await fetch(cdnUrl, { cache: "no-store", redirect: "error", signal: AbortSignal.timeout(30_000) });

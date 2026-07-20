@@ -33,6 +33,7 @@ Supabase becomes the activation authority for future issues.
    Content and poster requests carry the same `releaseId`; poster delivery resolves only the verified manifest for that immutable release.
 10. If the release store is unavailable, any legacy response is explicitly marked `degraded` and `stale`; it is never a silent fallback.
 11. GitHub JSON becomes an asynchronous audit export and disaster-recovery artifact, not the activation transaction.
+12. The approved initial poster delivery topology is Direct COS Origin. A CDN is not part of Release V2 until a separate acceptance gate proves hash equality, cache invalidation, private-origin authentication and error fallback.
 
 The database owns publication leases, release immutability, activation idempotency, pointer serialization and rollback history. External source and vision reviewers run before the short activation transaction.
 
@@ -60,6 +61,7 @@ The database owns publication leases, release immutability, activation idempoten
 
 - Legacy publication remains available behind a feature flag during migration, but cannot publish issues on or before the historical cutoff through Release V2.
 - Multiple immutable candidates for a date are allowed, but only one release can be active on the `current` channel.
+- `cdnVerificationStatus=not-applicable-for-direct-cos-origin` and `cdnSourceHashMatches=null` are the correct storage evidence values while Direct COS Origin is active; they are not a degraded or skipped state.
 
 ## Alternatives Considered
 
@@ -92,6 +94,7 @@ Rejected because it destroys release immutability and makes rollback and correct
 | Supabase read fails | API returns 503, or an explicitly `degraded` and `stale` legacy response when emergency fallback is enabled |
 | GitHub audit export fails | Active release stays online; export failure is recorded and retried |
 | Bad release activated despite gates | Rollback RPC atomically points to a previously active immutable release |
+| A CDN is proposed later | It remains disconnected until an independent gate verifies source/CDN SHA-256, cache refresh, private-origin authentication and error fallback |
 
 ## References
 

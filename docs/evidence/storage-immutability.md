@@ -11,7 +11,7 @@ This work applies only to future issues after `2026-07-18`. Historical content, 
 - Policy version: `xiazi-cos-immutable-v3`
 - Policy SHA-256: `5c518a862d9b65023b2ed4821d1a11f21931d765e87ad2b04a6a7719acec1e1f`
 
-The dedicated Tencent COS staging controls and all non-CDN provider checks passed. Source/CDN SHA-256 comparison remains explicitly `not-executed` because no staging CDN or domain was created. Work package two therefore remains **conditional pass** and work package three must not start.
+The dedicated Tencent COS staging controls passed. Release V2's approved first-stage topology is **Direct COS Origin**, with no CDN and no staging domain. Source/CDN comparison is therefore recorded as `not-applicable-for-direct-cos-origin`, not as a skipped or failed gate. Work package two is **passed within the Direct COS Origin scope**, and work package three may start.
 
 ## Dedicated staging resources
 
@@ -26,7 +26,8 @@ The dedicated Tencent COS staging controls and all non-CDN provider checks passe
 - GitHub Environment: `release-v2-storage-staging`, protected by manual approval
 - Runtime identities: uploader, auditor and reader are separate
 - Test-only identity: multipart fixture, limited to initiate/upload-part/abort under the verification prefix and unable to complete
-- CDN: not provisioned; no production DNS or CDN was changed
+- Approved delivery origin: Direct COS Origin
+- CDN: not provisioned and not part of the approved scope; no production DNS or CDN was changed
 
 The legacy VileSaint example and all production buckets were excluded.
 
@@ -107,13 +108,13 @@ The earlier protected run `29721333624` was rejected because a malformed policy 
 
 Secrets, complete Secret IDs, account IDs, reusable signed URLs and production identifiers are intentionally excluded.
 
-## Deferred item and remaining decision
+## Approved origin scope and future CDN gate
 
-`STORAGE_CDN_VERIFICATION=skip` was explicitly selected. Machine output records:
+The successful protected run predated the formal completion-gate wording and emitted `not-executed`. The audit owner subsequently approved Direct COS Origin as the Release V2 first-stage topology. The authoritative evidence status is now:
 
 ```json
 {
-  "cdnVerificationStatus": "not-executed",
+  "cdnVerificationStatus": "not-applicable-for-direct-cos-origin",
   "cdnSourceHashMatches": null
 }
 ```
@@ -122,9 +123,11 @@ Therefore:
 
 - COS service-side immutability controls: passed;
 - versioning history, encryption, identity separation and CloudAudit: passed;
-- Source/CDN SHA-256 equality: not executed;
-- work package two: **conditional pass**;
-- work package three: **must not start**;
+- Source/CDN SHA-256 equality: not applicable to Direct COS Origin;
+- work package two: **passed for Direct COS Origin**;
+- work package three: **allowed to start in isolated staging**;
 - production environment touched: **No**.
 
-PR #13 must remain Draft. Do not merge, enable Release V2, create production credentials, change production DNS/CDN or reuse this staging proof as production authorization.
+Any future CDN introduction is a separate architecture and acceptance change. Before a CDN may serve Release V2, its independent gate must verify source/CDN byte hashes, cache invalidation, private-origin authentication and error fallback. Until that gate passes, Direct COS Origin is the only approved delivery path.
+
+PR #13 must remain Draft. Do not merge, enable production Release V2, create production credentials, change production DNS/CDN or reuse this staging proof as production authorization.

@@ -4,7 +4,7 @@
 
 This work package applies only to future issues after `2026-07-18`. It does not alter historical content, posters, archives or Story Pool records, does not enable Release V2 and does not modify production Supabase, Vercel, DNS, COS buckets, credentials or policies.
 
-The branch is stacked on `codex/release-review-services` and must remain a Draft pull request. Work package three is out of scope.
+The branch is stacked on `codex/release-review-services` and must remain a Draft pull request. Work package three is implemented separately after this storage gate passes.
 
 ## Provider identification
 
@@ -75,7 +75,7 @@ Application upload identity:
 - PUT is allowed only when `x-cos-forbid-overwrite=true` and over HTTPS;
 - no DELETE, ACL/tag/metadata replacement, multipart, retention, bucket policy, versioning or object-lock administration.
 
-Public/CDN identity:
+Read identity for Direct COS Origin:
 
 - read accepted objects only;
 - no write, delete or policy rights.
@@ -88,4 +88,4 @@ Break-glass identity:
 
 ## Stop conditions and current blockers
 
-No cloud mutation is authorized. Real staging policy verification stops until all of the following exist: a dedicated Xiazi staging COS bucket, proof that versioning has never been enabled, a create-only application identity, a separate read/CDN path, policy-management access for an authorized operator and safe staging-only credentials. WORM/Object Lock cannot be enabled by this PR because it is allowlist-gated and irreversible.
+Cloud verification was completed against a dedicated Xiazi staging bucket with a never-enabled versioning history, create-only uploader, separate auditor/reader identities and protected credentials. Direct COS Origin is the approved scope. WORM/Object Lock remains disabled because it is allowlist-gated and irreversible. Any future CDN requires a separate acceptance gate.
