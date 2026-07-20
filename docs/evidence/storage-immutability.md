@@ -59,7 +59,7 @@ Release staging requires a complete 18-object manifest and a storage verificatio
 ## Credential separation
 
 - Application uploader: create-only under the staging `release-assets/` prefix plus HEAD/GET verification. No delete, metadata replacement, copy overwrite, multipart completion, retention, bucket policy or versioning controls.
-- Staging reader/CDN reader: read-only. The protected verifier uses a separate CAM identity to prove read success and write/delete/policy denial; future CDN access remains the account-scoped Tencent service identity. Neither path has write, delete or policy permissions.
+- Staging reader: read-only. The protected verifier uses a separate CAM identity to prove read success and write/delete/policy denial. No CDN service identity is included while CDN verification is explicitly deferred; any future CDN grant requires separate review. The staging reader has no write, delete or policy permissions.
 - Break-glass administrator: excluded from runtime and ordinary CI; MFA/independent approval and cloud audit logging required.
 
 ## Machine-verifiable results

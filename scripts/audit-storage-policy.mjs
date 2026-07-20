@@ -37,7 +37,6 @@ for (const [name, text] of [["uploader", uploaderText], ["reader", readerText], 
 for (const placeholder of ["${UPLOADER_UIN}", "${AUDITOR_UIN}", "${READER_UIN}"]) {
   if (!bucketText.includes(placeholder)) fail(`bucket:missing-placeholder:${placeholder}`);
 }
-if (!bucketText.includes("qcs::cam::uin/${OWNER_UIN}:service/cdn")) fail("bucket:cdn-service-principal-missing");
 
 const statements = uploader.statement;
 if (!Array.isArray(statements)) fail("uploader:statement-missing");
@@ -72,7 +71,6 @@ for (const statement of statements) {
 }
 
 if (!readerText.includes("qcs::cam::uin/${OWNER_UIN}:uin/${READER_UIN}")) fail("reader:identity-placeholder-missing");
-if (!readerText.includes("qcs::cam::uin/${OWNER_UIN}:service/cdn")) fail("reader:cdn-service-principal-missing");
 if (reader.statement.length !== 1
   || reader.statement[0].effect !== "allow"
   || JSON.stringify(reader.statement[0].action) !== JSON.stringify([
