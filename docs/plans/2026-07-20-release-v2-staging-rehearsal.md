@@ -58,3 +58,4 @@ Work package three can be reported complete only when code, remote CI, real isol
 - Remote replay reservation proved atomic (`true` then `false` for the same nonce hash).
 - Dedicated Reviewer and Web Vercel projects created with no custom domains and no production resources.
 - Live model requests, A/B releases, fault injection, rollback, and evidence export remain blocked on a staging-only OpenAI API credential.
+- The protected workflow now includes deterministic negative fault transport, real multi-instance replay protection, source/visual/lease/COS/Supabase fault suites, explicit 503/degraded deployments, and sanitized lifecycle evidence export. The negative provider cannot run outside the staging environment and is never used for the normal A/B release path.

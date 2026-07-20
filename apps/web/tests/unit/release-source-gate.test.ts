@@ -95,6 +95,13 @@ describe("release source gate", () => {
     })).rejects.toThrow(/SOURCE_CORRECTION_REVIEW_MISMATCH/);
   });
 
+  it("blocks a recognized correction until the candidate claims are reviewed and regenerated", async () => {
+    await expect(verifyReleaseSources(futureIssue(), {
+      sourceFetcher: sourceFetcher(" Correction: the controlled source changed its conclusion."),
+      reviewer: async (input) => ({ ...(await supportedReviewer(input)), correctionStatus: "corrected" }),
+    })).rejects.toThrow("SOURCE_CORRECTED_REVIEW_REQUIRED");
+  });
+
   it("fails closed when any introduction claim is unsupported", async () => {
     await expect(verifyReleaseSources(futureIssue(), {
       sourceFetcher: sourceFetcher(),

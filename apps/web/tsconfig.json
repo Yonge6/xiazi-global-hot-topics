@@ -29,7 +29,10 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
-    "../../scripts/prepare-staging-release.ts"
+    "../../scripts/prepare-staging-release.ts",
+    "../../scripts/staging-source-faults.ts",
+    "../../scripts/staging-storage-faults.ts",
+    "../../scripts/staging-visual-faults.ts"
   ],
   "exclude": ["node_modules"]
 }

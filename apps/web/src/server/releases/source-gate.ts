@@ -166,6 +166,9 @@ export async function verifyReleaseSources(issue: Issue, options: SourceGateOpti
       if (correctionMarkerDetected && review.correctionStatus === "clear") {
         throw new Error(`SOURCE_CORRECTION_REVIEW_MISMATCH:${source.id}`);
       }
+      if (correctionMarkerDetected || review.correctionStatus === "corrected") {
+        throw new Error(`SOURCE_CORRECTED_REVIEW_REQUIRED:${source.id}`);
+      }
       assertCompleteClaimReview(source.id, claims, review.claimResults);
 
       snapshots.push({

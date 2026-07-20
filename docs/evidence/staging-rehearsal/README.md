@@ -18,6 +18,15 @@ This directory contains only sanitized, machine-verifiable evidence for the isol
 - `scripts/prepare-staging-release.ts` creates isolated `STAGING ONLY` Release A/B candidates with 18 bilingual posters using the fixed Xiazi and Doudoulong masters, then uploads them through the verified create-only COS adapter.
 - `20260720010000_reviewer_replay_nonce_store.sql` provides a persistent, atomic, service-role-only replay reservation RPC. Only nonce hashes are stored.
 - `.github/workflows/release-v2-staging-rehearsal.yml` keeps ordinary code/database gates separate from the protected live staging proof.
+- `scripts/staging-reviewer-faults.mjs` proves authentication failure, provider 401/429/500, malformed output, timeout, outage, and cross-instance nonce replay while checking the active pointer before and after every scenario.
+- `scripts/staging-source-faults.ts` exercises unsupported and uncertain claims, correction and retraction markers, private redirects, redirect loops, mixed public/private DNS, and streaming body limits.
+- `scripts/staging-visual-faults.ts` uses the real uploaded poster bytes with a staging-only controlled negative provider to prove IP, 153-comparison, bilingual-theme, and near-duplicate gates fail closed. The controlled provider is never used for Release A or B.
+- `scripts/staging-database-faults.mjs` covers 05:50/06:00 lease contention, idempotent retry, owner isolation, heartbeat, expiry/takeover, old-worker rejection, transactional staging failure, activation failure, authorization failure, and client disconnect.
+- `scripts/staging-storage-faults.ts` plus the protected COS verifier cover missing objects, incomplete manifests, manifest hash changes, overwrite, delete, copy, multipart, policy mutation, encryption, and identity separation.
+- `scripts/staging-degraded-fallback.mjs` requires explicit 503 with fallback off and explicit `degraded=true`, `stale=true` with fallback on.
+- `scripts/staging-lifecycle-evidence.mjs` exports Release A/B identities, 36 poster hashes, source counts, the final pointer, and ordered activation/rollback events.
+
+The controlled OpenAI-compatible provider route exists only when both `RELEASE_ENVIRONMENT=staging` and `STAGING_FAULT_PROVIDER_ENABLED=true` are set and the protected bearer token matches. It is used solely to inject negative transport and result faults. Normal Release A/B generation and the first cross-instance replay request use the real, version-locked external model.
 
 ## Environment status
 
@@ -30,7 +39,7 @@ This directory contains only sanitized, machine-verifiable evidence for the isol
 | Version-locked model | Selected, credential pending | `gpt-4o-2024-11-20` (text + image snapshot) |
 | Direct COS Origin | Approved and verified in WP2 | Protected run `29721577122` |
 | Normal A/B lifecycle | Pending | Requires live Reviewer credential and deployment |
-| Fault matrix and rollback | Pending | Must run after normal staging path |
+| Fault matrix and rollback | Code and local gates complete; live run pending | Protected workflow only |
 
 ## Required completion evidence
 

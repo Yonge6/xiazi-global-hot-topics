@@ -26,6 +26,13 @@
     "staging:prepare-release": "tsx scripts/prepare-staging-release.ts",
     "staging:stage-release": "node scripts/stage-staging-release.mjs",
     "staging:publication-rpc": "node scripts/staging-publication-rpc.mjs",
+    "staging:faults:reviewer": "node scripts/staging-reviewer-faults.mjs",
+    "staging:faults:source": "tsx scripts/staging-source-faults.ts",
+    "staging:faults:visual": "tsx scripts/staging-visual-faults.ts",
+    "staging:faults:database": "node scripts/staging-database-faults.mjs",
+    "staging:faults:storage": "tsx scripts/staging-storage-faults.ts",
+    "staging:faults:degraded": "node scripts/staging-degraded-fallback.mjs",
+    "staging:evidence:lifecycle": "node scripts/staging-lifecycle-evidence.mjs",
     "check": "turbo check",
     "web:dev": "npm run dev -w @xiazi/web",
     "posters:default": "npm run posters:default -w @xiazi/web"

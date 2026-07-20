@@ -72,7 +72,7 @@ jobs:
     name: Protected live staging proof
     if: github.event_name == 'workflow_dispatch' && inputs.run_live_rehearsal
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 90
     environment: release-v2-storage-staging
     steps:
       - uses: actions/checkout@v4
@@ -111,6 +111,7 @@ jobs:
           reviewer_origin="https://${COS_BUCKET}.cos.${COS_REGION}.myqcloud.com"
           export VERCEL_PROJECT_ID="$REVIEWER_PROJECT_ID"
           npx vercel deploy --prod --yes --token "$VERCEL_TOKEN" --local-config apps/reviewer/vercel.staging.json \
+            --env "REVIEW_ENVIRONMENT=staging" \
             --env "REVIEW_BEARER_SECRET=$REVIEW_BEARER_SECRET" \
             --env "REVIEW_HMAC_SECRET=$REVIEW_HMAC_SECRET" \
             --env "REVIEW_PROVIDER_NAME=openai" \
@@ -124,6 +125,26 @@ jobs:
             --env "REVIEW_PROVIDER_TIMEOUT_MS=120000" \
             --env "REVIEW_MAX_CONCURRENCY=2" \
             --env "REVIEW_DEPLOYMENT_VERSION=${GITHUB_SHA}" >/tmp/reviewer-deploy-url.txt
+          reviewer_instance_a=$(tail -n 1 /tmp/reviewer-deploy-url.txt)
+          test "${reviewer_instance_a#https://}" != "$reviewer_instance_a"
+
+          npx vercel deploy --yes --token "$VERCEL_TOKEN" --local-config apps/reviewer/vercel.staging.json \
+            --env "REVIEW_ENVIRONMENT=staging" \
+            --env "REVIEW_BEARER_SECRET=$REVIEW_BEARER_SECRET" \
+            --env "REVIEW_HMAC_SECRET=$REVIEW_HMAC_SECRET" \
+            --env "REVIEW_PROVIDER_NAME=openai" \
+            --env "REVIEW_MODEL=gpt-4o-2024-11-20" \
+            --env "REVIEW_MODEL_VERSION=gpt-4o-2024-11-20" \
+            --env "OPENAI_API_KEY=$OPENAI_API_KEY" \
+            --env "REVIEW_REPLAY_STORE_PROVIDER=supabase" \
+            --env "REVIEW_REPLAY_STORE_URL=$SUPABASE_URL" \
+            --env "REVIEW_REPLAY_STORE_TOKEN=$SUPABASE_SERVICE_ROLE_KEY" \
+            --env "REVIEW_ALLOWED_ASSET_ORIGINS=$reviewer_origin" \
+            --env "REVIEW_PROVIDER_TIMEOUT_MS=120000" \
+            --env "REVIEW_MAX_CONCURRENCY=2" \
+            --env "REVIEW_DEPLOYMENT_VERSION=${GITHUB_SHA}" >/tmp/reviewer-replica-url.txt
+          reviewer_instance_b=$(tail -n 1 /tmp/reviewer-replica-url.txt)
+          test "${reviewer_instance_b#https://}" != "$reviewer_instance_b"
           reviewer_url="https://xiazi-release-v2-reviewer-staging.vercel.app"
           export VERCEL_PROJECT_ID="$WEB_PROJECT_ID"
           npx vercel deploy --prod --yes --token "$VERCEL_TOKEN" --local-config apps/web/vercel.staging.json \
@@ -140,6 +161,8 @@ jobs:
             --env "RELEASE_REVIEW_SIGNING_SECRET=$REVIEW_HMAC_SECRET" \
             --env "RELEASE_REVIEW_TIMEOUT_MS=150000" \
             --env "RELEASE_STAGE_SECRET=$RELEASE_STAGE_SECRET" \
+            --env "STAGING_FAULT_PROVIDER_ENABLED=true" \
+            --env "STAGING_FAULT_PROVIDER_TOKEN=$RELEASE_STAGE_SECRET" \
             --env "COS_SECRET_ID=$COS_SECRET_ID" \
             --env "COS_SECRET_KEY=$COS_SECRET_KEY" \
             --env "COS_BUCKET=$COS_BUCKET" \
@@ -153,16 +176,46 @@ jobs:
             --env "RELEASE_STORAGE_VERIFICATION_TOOL_VERSION=xiazi-storage-verifier-v3" \
             --env "RELEASE_STORAGE_OVERWRITE_DENIED=true" \
             --env "RELEASE_STORAGE_DELETE_DENIED=true" >/tmp/web-deploy-url.txt
+
+          web_url="https://xiazi-release-v2-web-staging.vercel.app"
+          export VERCEL_PROJECT_ID="$REVIEWER_PROJECT_ID"
+          npx vercel deploy --yes --token "$VERCEL_TOKEN" --local-config apps/reviewer/vercel.staging.json \
+            --env "REVIEW_ENVIRONMENT=staging" \
+            --env "REVIEW_BEARER_SECRET=$REVIEW_BEARER_SECRET" \
+            --env "REVIEW_HMAC_SECRET=$REVIEW_HMAC_SECRET" \
+            --env "REVIEW_PROVIDER_NAME=staging-fault-fixture" \
+            --env "REVIEW_MODEL=staging-fault-provider-v1" \
+            --env "REVIEW_MODEL_VERSION=staging-fault-provider-v1" \
+            --env "OPENAI_API_KEY=$RELEASE_STAGE_SECRET" \
+            --env "OPENAI_BASE_URL=${web_url}/api/staging/openai-fixture" \
+            --env "REVIEW_REPLAY_STORE_PROVIDER=supabase" \
+            --env "REVIEW_REPLAY_STORE_URL=$SUPABASE_URL" \
+            --env "REVIEW_REPLAY_STORE_TOKEN=$SUPABASE_SERVICE_ROLE_KEY" \
+            --env "REVIEW_ALLOWED_ASSET_ORIGINS=$reviewer_origin" \
+            --env "REVIEW_PROVIDER_TIMEOUT_MS=1000" \
+            --env "REVIEW_MAX_CONCURRENCY=2" \
+            --env "REVIEW_DEPLOYMENT_VERSION=${GITHUB_SHA}-fault" >/tmp/fault-reviewer-url.txt
+          fault_reviewer_url=$(tail -n 1 /tmp/fault-reviewer-url.txt)
+          test "${fault_reviewer_url#https://}" != "$fault_reviewer_url"
           echo "reviewer_url=${reviewer_url}" >> "$GITHUB_OUTPUT"
-          echo "web_url=https://xiazi-release-v2-web-staging.vercel.app" >> "$GITHUB_OUTPUT"
+          echo "reviewer_instance_a=${reviewer_instance_a}" >> "$GITHUB_OUTPUT"
+          echo "reviewer_instance_b=${reviewer_instance_b}" >> "$GITHUB_OUTPUT"
+          echo "fault_reviewer_url=${fault_reviewer_url}" >> "$GITHUB_OUTPUT"
+          echo "web_url=${web_url}" >> "$GITHUB_OUTPUT"
       - name: Wait for isolated deployments
         if: inputs.execute_full_lifecycle
         env:
           REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          REVIEWER_INSTANCE_A: ${{ steps.deploy.outputs.reviewer_instance_a }}
+          REVIEWER_INSTANCE_B: ${{ steps.deploy.outputs.reviewer_instance_b }}
+          FAULT_REVIEWER_URL: ${{ steps.deploy.outputs.fault_reviewer_url }}
           WEB_URL: ${{ steps.deploy.outputs.web_url }}
         run: |
           for attempt in $(seq 1 30); do curl -fsS "$REVIEWER_URL/api/health" >/dev/null && break; sleep 2; done
           curl -fsS "$REVIEWER_URL/api/version" | jq -e --arg sha "$GITHUB_SHA" '.deploymentVersion == $sha and .modelVersion == "gpt-4o-2024-11-20"'
+          curl -fsS "$REVIEWER_INSTANCE_A/api/version" | jq -e --arg sha "$GITHUB_SHA" '.deploymentVersion == $sha and .modelVersion == "gpt-4o-2024-11-20"'
+          curl -fsS "$REVIEWER_INSTANCE_B/api/version" | jq -e --arg sha "$GITHUB_SHA" '.deploymentVersion == $sha and .modelVersion == "gpt-4o-2024-11-20"'
+          curl -fsS "$FAULT_REVIEWER_URL/api/version" | jq -e --arg sha "$GITHUB_SHA" '.deploymentVersion == ($sha + "-fault") and .provider == "staging-fault-fixture"'
           curl -fsS "$WEB_URL/api/staging/source-fixture/staging-topic-01" | grep -q 'STAGING ONLY'
       - name: Prepare and stage Release A without activation
         if: inputs.execute_full_lifecycle
@@ -238,6 +291,7 @@ jobs:
           RELEASE_STORAGE_DELETE_DENIED: "true"
         run: |
           release_a=$(jq -r '.releaseId' artifacts/stage-a.json)
+          printf '%s' "$release_a" > artifacts/release-a-id.txt
           export STAGING_RPC_ACTION=activate STAGING_RPC_RELEASE_ID="$release_a"
           export STAGING_RPC_KEY="staging-activate-a-${GITHUB_RUN_ID}"
           export STAGING_EXPECTED_CURRENT_RELEASE_ID="$release_a"
@@ -254,6 +308,7 @@ jobs:
           export STAGING_STAGE_OUTPUT=artifacts/stage-b.json
           npm run staging:stage-release
           release_b=$(jq -r '.releaseId' artifacts/stage-b.json)
+          printf '%s' "$release_b" > artifacts/release-b-id.txt
           test "$release_a" != "$release_b"
 
           export STAGING_RPC_ACTION=activate STAGING_RPC_RELEASE_ID="$release_b"
@@ -284,6 +339,36 @@ jobs:
           export STAGING_RPC_OUTPUT=artifacts/old-rollback-truth.json
           npm run staging:publication-rpc
           printf '%s' "$release_b" > artifacts/final-release-id.txt
+      - name: Deploy isolated Supabase failure variants for explicit degraded behavior
+        if: inputs.execute_full_lifecycle
+        id: degraded
+        env:
+          VERCEL_TOKEN: ${{ secrets.STAGING_VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ vars.STAGING_VERCEL_ORG_ID }}
+          WEB_PROJECT_ID: ${{ vars.STAGING_WEB_PROJECT_ID }}
+        run: |
+          export VERCEL_PROJECT_ID="$WEB_PROJECT_ID"
+          npx vercel deploy --yes --token "$VERCEL_TOKEN" --local-config apps/web/vercel.staging.json \
+            --env "NEXT_PUBLIC_SITE_URL=https://staging-fallback-off.invalid" \
+            --env "RELEASE_ENVIRONMENT=staging" \
+            --env "RELEASE_V2_ENABLED=true" \
+            --env "RELEASE_EXPLICIT_DEGRADED_FALLBACK=false" \
+            --env "SUPABASE_URL=https://invalid-release-v2-staging.supabase.co" \
+            --env "SUPABASE_SERVICE_ROLE_KEY=invalid-staging-service-role" >/tmp/fallback-off-url.txt
+          fallback_off_url=$(tail -n 1 /tmp/fallback-off-url.txt)
+          test "${fallback_off_url#https://}" != "$fallback_off_url"
+
+          npx vercel deploy --yes --token "$VERCEL_TOKEN" --local-config apps/web/vercel.staging.json \
+            --env "NEXT_PUBLIC_SITE_URL=https://staging-fallback-on.invalid" \
+            --env "RELEASE_ENVIRONMENT=staging" \
+            --env "RELEASE_V2_ENABLED=true" \
+            --env "RELEASE_EXPLICIT_DEGRADED_FALLBACK=true" \
+            --env "SUPABASE_URL=https://invalid-release-v2-staging.supabase.co" \
+            --env "SUPABASE_SERVICE_ROLE_KEY=invalid-staging-service-role" >/tmp/fallback-on-url.txt
+          fallback_on_url=$(tail -n 1 /tmp/fallback-on-url.txt)
+          test "${fallback_on_url#https://}" != "$fallback_on_url"
+          echo "fallback_off_url=${fallback_off_url}" >> "$GITHUB_OUTPUT"
+          echo "fallback_on_url=${fallback_on_url}" >> "$GITHUB_OUTPUT"
       - name: Verify final B across DB, API, pages, and 18 Direct COS posters
         if: inputs.execute_full_lifecycle
         env:
@@ -302,6 +387,166 @@ jobs:
           sleep 65
           export STAGING_EXPECTED_RELEASE_ID=$(cat artifacts/final-release-id.txt)
           npm run staging:verify
+      - name: Inject Reviewer, provider, outage, and cross-instance replay faults
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_REVIEWER_INSTANCE_A_URL: ${{ steps.deploy.outputs.reviewer_instance_a }}
+          STAGING_REVIEWER_INSTANCE_B_URL: ${{ steps.deploy.outputs.reviewer_instance_b }}
+          STAGING_FAULT_REVIEWER_URL: ${{ steps.deploy.outputs.fault_reviewer_url }}
+          STAGING_REVIEW_BEARER_SECRET: ${{ secrets.STAGING_REVIEW_BEARER_SECRET }}
+          STAGING_REVIEW_HMAC_SECRET: ${{ secrets.STAGING_REVIEW_HMAC_SECRET }}
+          STAGING_REVIEWER_FAULT_OUTPUT: artifacts/reviewer-faults.sanitized.json
+        run: |
+          export STAGING_EXPECTED_ACTIVE_RELEASE_ID=$(cat artifacts/final-release-id.txt)
+          npm run staging:faults:reviewer
+      - name: Inject claim, correction, retraction, SSRF, redirect, DNS, and body-limit faults
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_FAULT_REVIEWER_URL: ${{ steps.deploy.outputs.fault_reviewer_url }}
+          STAGING_REVIEW_BEARER_SECRET: ${{ secrets.STAGING_REVIEW_BEARER_SECRET }}
+          STAGING_REVIEW_HMAC_SECRET: ${{ secrets.STAGING_REVIEW_HMAC_SECRET }}
+          STAGING_SOURCE_FAULT_OUTPUT: artifacts/source-faults.sanitized.json
+        run: |
+          export STAGING_EXPECTED_ACTIVE_RELEASE_ID=$(cat artifacts/final-release-id.txt)
+          npm run staging:faults:source
+      - name: Inject IP, comparison-count, bilingual-theme, and near-duplicate visual faults
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_FAULT_REVIEWER_URL: ${{ steps.deploy.outputs.fault_reviewer_url }}
+          STAGING_REVIEW_BEARER_SECRET: ${{ secrets.STAGING_REVIEW_BEARER_SECRET }}
+          STAGING_REVIEW_HMAC_SECRET: ${{ secrets.STAGING_REVIEW_HMAC_SECRET }}
+          STAGING_RELEASE_A_PAYLOAD: artifacts/release-a-payload.json
+          STAGING_VISUAL_FAULT_OUTPUT: artifacts/visual-faults.sanitized.json
+          NEXT_PUBLIC_COS_BASE_URL: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+          RELEASE_ASSET_ORIGINS: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+        run: |
+          export STAGING_EXPECTED_ACTIVE_RELEASE_ID=$(cat artifacts/final-release-id.txt)
+          npm run staging:faults:visual
+      - name: Inject lease, heartbeat, transaction, authorization, activation, and disconnect faults
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_DATABASE_FAULT_OUTPUT: artifacts/database-faults.sanitized.json
+        run: |
+          export STAGING_EXPECTED_ACTIVE_RELEASE_ID=$(cat artifacts/final-release-id.txt)
+          export STAGING_RELEASE_A_ID=$(cat artifacts/release-a-id.txt)
+          npm run staging:faults:database
+      - name: Re-run live COS deny-overwrite proof for this rehearsal
+        if: inputs.execute_full_lifecycle
+        env:
+          STORAGE_ENV: staging
+          STORAGE_CDN_VERIFICATION: direct-cos-origin
+          COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
+          STORAGE_APP_SECRET_ID: ${{ secrets.STORAGE_APP_SECRET_ID }}
+          STORAGE_APP_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
+          STORAGE_AUDIT_SECRET_ID: ${{ secrets.STORAGE_AUDIT_SECRET_ID }}
+          STORAGE_AUDIT_SECRET_KEY: ${{ secrets.STORAGE_AUDIT_SECRET_KEY }}
+          STORAGE_READER_SECRET_ID: ${{ secrets.STORAGE_READER_SECRET_ID }}
+          STORAGE_READER_SECRET_KEY: ${{ secrets.STORAGE_READER_SECRET_KEY }}
+          STORAGE_FIXTURE_SECRET_ID: ${{ secrets.STORAGE_FIXTURE_SECRET_ID }}
+          STORAGE_FIXTURE_SECRET_KEY: ${{ secrets.STORAGE_FIXTURE_SECRET_KEY }}
+        run: npm run storage:verify:staging > artifacts/cos-immutability-rerun.sanitized.json
+      - name: Inject COS object, manifest, and hash faults
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_RELEASE_A_PAYLOAD: artifacts/release-a-payload.json
+          STAGING_STORAGE_FAULT_OUTPUT: artifacts/storage-faults.sanitized.json
+          COS_SECRET_ID: ${{ secrets.STORAGE_APP_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
+          NEXT_PUBLIC_COS_BASE_URL: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+          COS_IMMUTABLE_VERSIONING_STATE: never-enabled
+          RELEASE_ASSET_ORIGINS: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+          RELEASE_STORAGE_POLICY_VERSION: xiazi-cos-immutable-v3
+          RELEASE_STORAGE_POLICY_VERIFIED: "true"
+          RELEASE_STORAGE_POLICY_VERIFIED_AT: "2026-07-20T06:25:48.967Z"
+          RELEASE_STORAGE_VERIFICATION_TOOL_VERSION: xiazi-storage-verifier-v3
+          RELEASE_STORAGE_OVERWRITE_DENIED: "true"
+          RELEASE_STORAGE_DELETE_DENIED: "true"
+        run: |
+          export STAGING_EXPECTED_ACTIVE_RELEASE_ID=$(cat artifacts/final-release-id.txt)
+          npm run staging:faults:storage
+      - name: Verify explicit 503 and explicit degraded stale fallback
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_FALLBACK_OFF_URL: ${{ steps.degraded.outputs.fallback_off_url }}
+          STAGING_FALLBACK_ON_URL: ${{ steps.degraded.outputs.fallback_on_url }}
+          STAGING_DEGRADED_OUTPUT: artifacts/degraded-fallback.sanitized.json
+        run: |
+          export STAGING_EXPECTED_ACTIVE_RELEASE_ID=$(cat artifacts/final-release-id.txt)
+          npm run staging:faults:degraded
+      - name: Export A-B-rollback-reactivate lifecycle and audit evidence
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_LIFECYCLE_OUTPUT: artifacts/lifecycle.sanitized.json
+        run: |
+          export STAGING_RELEASE_A_ID=$(cat artifacts/release-a-id.txt)
+          export STAGING_RELEASE_B_ID=$(cat artifacts/release-b-id.txt)
+          npm run staging:evidence:lifecycle
       - name: Verify one releaseId across DB, API, pages, and 18 Direct COS posters
         if: ${{ !inputs.execute_full_lifecycle }}
         env:
@@ -318,7 +563,8 @@ jobs:
           STAGING_EXPECTED_DEPLOYMENT_VERSION: ${{ github.sha }}
           STAGING_EVIDENCE_OUTPUT: artifacts/staging-verification.sanitized.json
         run: npm run staging:verify
-      - uses: actions/upload-artifact@v4
+      - if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: staging-verification-sanitized
           path: artifacts/

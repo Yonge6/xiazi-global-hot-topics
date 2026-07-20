@@ -42,6 +42,15 @@ describe("reviewer production configuration", () => {
     expect(() => reviewerConfigFromEnv()).toThrow(/REVIEW_REPLAY_STORE_PROVIDER/);
   });
 
+  it("allows the controlled fault provider only in staging", () => {
+    validEnvironment();
+    vi.stubEnv("REVIEW_PROVIDER_NAME", "staging-fault-fixture");
+    vi.stubEnv("OPENAI_BASE_URL", "https://web-staging.example/api/staging/openai-fixture");
+    expect(() => reviewerConfigFromEnv()).toThrow("REVIEWER_FAULT_PROVIDER_STAGING_ONLY");
+    vi.stubEnv("REVIEW_ENVIRONMENT", "staging");
+    expect(reviewerConfigFromEnv().provider).toBe("staging-fault-fixture");
+  });
+
   it("requires explicit model and model-version configuration", () => {
     validEnvironment();
     vi.stubEnv("REVIEW_MODEL", "");
