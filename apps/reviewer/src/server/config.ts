@@ -13,6 +13,7 @@ export type ReviewerConfig = {
   allowedAssetOrigins: string[];
   replayStoreUrl?: string;
   replayStoreToken?: string;
+  replayStoreProvider: "redis-rest" | "supabase";
 };
 
 function required(name: string) {
@@ -34,6 +35,10 @@ export function reviewerConfigFromEnv(): ReviewerConfig {
   const bearerSecret = required("REVIEW_BEARER_SECRET");
   const hmacSecret = required("REVIEW_HMAC_SECRET");
   if (bearerSecret.length < 32 || hmacSecret.length < 32) throw new Error("REVIEWER_SECRET_TOO_SHORT");
+  const replayStoreProvider = process.env.REVIEW_REPLAY_STORE_PROVIDER || "redis-rest";
+  if (replayStoreProvider !== "redis-rest" && replayStoreProvider !== "supabase") {
+    throw new Error("REVIEWER_CONFIG_INVALID:REVIEW_REPLAY_STORE_PROVIDER");
+  }
   const config: ReviewerConfig = {
     bearerSecret,
     hmacSecret,
@@ -51,6 +56,7 @@ export function reviewerConfigFromEnv(): ReviewerConfig {
       .map((value) => new URL(value.trim()).origin),
     replayStoreUrl: process.env.REVIEW_REPLAY_STORE_URL,
     replayStoreToken: process.env.REVIEW_REPLAY_STORE_TOKEN,
+    replayStoreProvider,
   };
   const providerUrl = new URL(config.providerBaseUrl);
   if (process.env.NODE_ENV === "production" && providerUrl.protocol !== "https:") {

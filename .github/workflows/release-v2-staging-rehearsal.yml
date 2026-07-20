@@ -1,0 +1,325 @@
+name: Release V2 staging rehearsal
+
+on:
+  pull_request:
+    branches:
+      - codex/release-storage-immutability
+  workflow_dispatch:
+    inputs:
+      run_live_rehearsal:
+        description: Run protected live staging verification
+        required: true
+        default: false
+        type: boolean
+      execute_full_lifecycle:
+        description: Deploy isolated staging and execute A-B-rollback-reactivate lifecycle
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-v2-staging-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  application:
+    name: Staging application and guard gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Test production-resource staging guard
+        run: node --test scripts/tests/staging-rehearsal.test.mjs
+      - name: Check reviewer service
+        run: npm run check -w @xiazi/reviewer
+      - name: Check web application
+        run: npm run check -w @xiazi/web
+      - name: Build reviewer and web
+        run: npm run build -w @xiazi/reviewer && npm run build -w @xiazi/web
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run browser E2E
+        run: npm run test:e2e -w @xiazi/web
+
+  database:
+    name: Staging database lifecycle invariants
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx supabase start
+      - run: npx supabase db reset
+      - run: npx supabase db lint --local --level warning
+      - name: Verify release and replay-store invariants
+        run: docker exec -i supabase_db_supabase psql -v ON_ERROR_STOP=1 -U postgres -d postgres < scripts/verify-future-release-rpcs.sql
+      - if: always()
+        run: npx supabase stop --no-backup
+
+  live-staging:
+    name: Protected live staging proof
+    if: github.event_name == 'workflow_dispatch' && inputs.run_live_rehearsal
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: release-v2-storage-staging
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Refuse missing live staging credentials
+        if: inputs.execute_full_lifecycle
+        env:
+          OPENAI_KEY: ${{ secrets.STAGING_OPENAI_API_KEY }}
+          VERCEL_TOKEN: ${{ secrets.STAGING_VERCEL_TOKEN }}
+        run: |
+          test -n "$OPENAI_KEY" || { echo 'STAGING_OPENAI_API_KEY is required'; exit 1; }
+          test -n "$VERCEL_TOKEN" || { echo 'STAGING_VERCEL_TOKEN is required'; exit 1; }
+      - name: Deploy isolated Reviewer and Web
+        if: inputs.execute_full_lifecycle
+        id: deploy
+        env:
+          VERCEL_TOKEN: ${{ secrets.STAGING_VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ vars.STAGING_VERCEL_ORG_ID }}
+          REVIEWER_PROJECT_ID: ${{ vars.STAGING_REVIEWER_PROJECT_ID }}
+          WEB_PROJECT_ID: ${{ vars.STAGING_WEB_PROJECT_ID }}
+          OPENAI_API_KEY: ${{ secrets.STAGING_OPENAI_API_KEY }}
+          REVIEW_BEARER_SECRET: ${{ secrets.STAGING_REVIEW_BEARER_SECRET }}
+          REVIEW_HMAC_SECRET: ${{ secrets.STAGING_REVIEW_HMAC_SECRET }}
+          SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
+          COS_SECRET_ID: ${{ secrets.STORAGE_APP_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
+          RELEASE_STAGE_SECRET: ${{ secrets.STAGING_RELEASE_STAGE_SECRET }}
+        run: |
+          reviewer_origin="https://${COS_BUCKET}.cos.${COS_REGION}.myqcloud.com"
+          export VERCEL_PROJECT_ID="$REVIEWER_PROJECT_ID"
+          npx vercel deploy --prod --yes --token "$VERCEL_TOKEN" --local-config apps/reviewer/vercel.staging.json \
+            --env "REVIEW_BEARER_SECRET=$REVIEW_BEARER_SECRET" \
+            --env "REVIEW_HMAC_SECRET=$REVIEW_HMAC_SECRET" \
+            --env "REVIEW_PROVIDER_NAME=openai" \
+            --env "REVIEW_MODEL=gpt-4o-2024-11-20" \
+            --env "REVIEW_MODEL_VERSION=gpt-4o-2024-11-20" \
+            --env "OPENAI_API_KEY=$OPENAI_API_KEY" \
+            --env "REVIEW_REPLAY_STORE_PROVIDER=supabase" \
+            --env "REVIEW_REPLAY_STORE_URL=$SUPABASE_URL" \
+            --env "REVIEW_REPLAY_STORE_TOKEN=$SUPABASE_SERVICE_ROLE_KEY" \
+            --env "REVIEW_ALLOWED_ASSET_ORIGINS=$reviewer_origin" \
+            --env "REVIEW_PROVIDER_TIMEOUT_MS=120000" \
+            --env "REVIEW_MAX_CONCURRENCY=2" \
+            --env "REVIEW_DEPLOYMENT_VERSION=${GITHUB_SHA}" >/tmp/reviewer-deploy-url.txt
+          reviewer_url="https://xiazi-release-v2-reviewer-staging.vercel.app"
+          export VERCEL_PROJECT_ID="$WEB_PROJECT_ID"
+          npx vercel deploy --prod --yes --token "$VERCEL_TOKEN" --local-config apps/web/vercel.staging.json \
+            --env "NEXT_PUBLIC_SITE_URL=https://xiazi-release-v2-web-staging.vercel.app" \
+            --env "RELEASE_ENVIRONMENT=staging" \
+            --env "RELEASE_V2_ENABLED=true" \
+            --env "RELEASE_EXPLICIT_DEGRADED_FALLBACK=false" \
+            --env "RELEASE_LEASE_SECONDS=30" \
+            --env "SUPABASE_URL=$SUPABASE_URL" \
+            --env "SUPABASE_SERVICE_ROLE_KEY=$SUPABASE_SERVICE_ROLE_KEY" \
+            --env "SOURCE_SEMANTIC_REVIEW_URL=${reviewer_url}/api/review/semantic" \
+            --env "POSTER_VISION_REVIEW_URL=${reviewer_url}/api/review/visual" \
+            --env "RELEASE_REVIEW_BEARER_SECRET=$REVIEW_BEARER_SECRET" \
+            --env "RELEASE_REVIEW_SIGNING_SECRET=$REVIEW_HMAC_SECRET" \
+            --env "RELEASE_REVIEW_TIMEOUT_MS=150000" \
+            --env "RELEASE_STAGE_SECRET=$RELEASE_STAGE_SECRET" \
+            --env "COS_SECRET_ID=$COS_SECRET_ID" \
+            --env "COS_SECRET_KEY=$COS_SECRET_KEY" \
+            --env "COS_BUCKET=$COS_BUCKET" \
+            --env "COS_REGION=$COS_REGION" \
+            --env "NEXT_PUBLIC_COS_BASE_URL=$reviewer_origin" \
+            --env "RELEASE_ASSET_ORIGINS=$reviewer_origin" \
+            --env "COS_IMMUTABLE_VERSIONING_STATE=never-enabled" \
+            --env "RELEASE_STORAGE_POLICY_VERSION=xiazi-cos-immutable-v3" \
+            --env "RELEASE_STORAGE_POLICY_VERIFIED=true" \
+            --env "RELEASE_STORAGE_POLICY_VERIFIED_AT=2026-07-20T06:25:48.967Z" \
+            --env "RELEASE_STORAGE_VERIFICATION_TOOL_VERSION=xiazi-storage-verifier-v3" \
+            --env "RELEASE_STORAGE_OVERWRITE_DENIED=true" \
+            --env "RELEASE_STORAGE_DELETE_DENIED=true" >/tmp/web-deploy-url.txt
+          echo "reviewer_url=${reviewer_url}" >> "$GITHUB_OUTPUT"
+          echo "web_url=https://xiazi-release-v2-web-staging.vercel.app" >> "$GITHUB_OUTPUT"
+      - name: Wait for isolated deployments
+        if: inputs.execute_full_lifecycle
+        env:
+          REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          WEB_URL: ${{ steps.deploy.outputs.web_url }}
+        run: |
+          for attempt in $(seq 1 30); do curl -fsS "$REVIEWER_URL/api/health" >/dev/null && break; sleep 2; done
+          curl -fsS "$REVIEWER_URL/api/version" | jq -e --arg sha "$GITHUB_SHA" '.deploymentVersion == $sha and .modelVersion == "gpt-4o-2024-11-20"'
+          curl -fsS "$WEB_URL/api/staging/source-fixture/staging-topic-01" | grep -q 'STAGING ONLY'
+      - name: Prepare and stage Release A without activation
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_ISSUE_DATE: "2026-07-21"
+          STAGING_ASSET_BATCH_ID: asset_staging_release_a_20260721
+          STAGING_RELEASE_VARIANT: A
+          STAGING_RELEASE_PAYLOAD_OUTPUT: artifacts/release-a-payload.json
+          STAGING_RELEASE_PAYLOAD: artifacts/release-a-payload.json
+          STAGING_STAGE_OUTPUT: artifacts/stage-a.json
+          STAGING_RELEASE_STAGE_SECRET: ${{ secrets.STAGING_RELEASE_STAGE_SECRET }}
+          COS_SECRET_ID: ${{ secrets.STORAGE_APP_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
+          NEXT_PUBLIC_COS_BASE_URL: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+          COS_IMMUTABLE_VERSIONING_STATE: never-enabled
+          RELEASE_STORAGE_POLICY_VERSION: xiazi-cos-immutable-v3
+          RELEASE_STORAGE_POLICY_VERIFIED: "true"
+          RELEASE_STORAGE_POLICY_VERIFIED_AT: "2026-07-20T06:25:48.967Z"
+          RELEASE_STORAGE_VERIFICATION_TOOL_VERSION: xiazi-storage-verifier-v3
+          RELEASE_STORAGE_OVERWRITE_DENIED: "true"
+          RELEASE_STORAGE_DELETE_DENIED: "true"
+        run: npm run staging:prepare-release && npm run staging:stage-release
+      - name: Prove A is staged but current pointer is unchanged
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_RPC_ACTION: get-active
+          STAGING_RPC_OUTPUT: artifacts/before-approval.json
+        run: npm run staging:publication-rpc
+      - name: Activate A, stage and activate B, rollback A, and reactivate B
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_RELEASE_STAGE_SECRET: ${{ secrets.STAGING_RELEASE_STAGE_SECRET }}
+          COS_SECRET_ID: ${{ secrets.STORAGE_APP_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
+          NEXT_PUBLIC_COS_BASE_URL: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+          COS_IMMUTABLE_VERSIONING_STATE: never-enabled
+          RELEASE_STORAGE_POLICY_VERSION: xiazi-cos-immutable-v3
+          RELEASE_STORAGE_POLICY_VERIFIED: "true"
+          RELEASE_STORAGE_POLICY_VERIFIED_AT: "2026-07-20T06:25:48.967Z"
+          RELEASE_STORAGE_VERIFICATION_TOOL_VERSION: xiazi-storage-verifier-v3
+          RELEASE_STORAGE_OVERWRITE_DENIED: "true"
+          RELEASE_STORAGE_DELETE_DENIED: "true"
+        run: |
+          release_a=$(jq -r '.releaseId' artifacts/stage-a.json)
+          export STAGING_RPC_ACTION=activate STAGING_RPC_RELEASE_ID="$release_a"
+          export STAGING_RPC_KEY="staging-activate-a-${GITHUB_RUN_ID}"
+          export STAGING_EXPECTED_CURRENT_RELEASE_ID="$release_a"
+          export STAGING_RPC_OUTPUT=artifacts/activate-a.json
+          npm run staging:publication-rpc
+
+          sleep 31
+          export STAGING_ISSUE_DATE=2026-07-21
+          export STAGING_ASSET_BATCH_ID=asset_staging_release_b_20260721
+          export STAGING_RELEASE_VARIANT=B
+          export STAGING_RELEASE_PAYLOAD_OUTPUT=artifacts/release-b-payload.json
+          npm run staging:prepare-release
+          export STAGING_RELEASE_PAYLOAD=artifacts/release-b-payload.json
+          export STAGING_STAGE_OUTPUT=artifacts/stage-b.json
+          npm run staging:stage-release
+          release_b=$(jq -r '.releaseId' artifacts/stage-b.json)
+          test "$release_a" != "$release_b"
+
+          export STAGING_RPC_ACTION=activate STAGING_RPC_RELEASE_ID="$release_b"
+          export STAGING_RPC_KEY="staging-activate-b-${GITHUB_RUN_ID}"
+          export STAGING_EXPECTED_CURRENT_RELEASE_ID="$release_b"
+          export STAGING_RPC_OUTPUT=artifacts/activate-b.json
+          npm run staging:publication-rpc
+
+          export STAGING_RPC_ACTION=rollback STAGING_RPC_RELEASE_ID="$release_a"
+          export STAGING_RPC_KEY="staging-rollback-a-${GITHUB_RUN_ID}"
+          export STAGING_RPC_REASON="Release V2 isolated staging rollback from B to A"
+          export STAGING_EXPECTED_CURRENT_RELEASE_ID="$release_a"
+          export STAGING_RPC_OUTPUT=artifacts/rollback-a.json
+          npm run staging:publication-rpc
+
+          export STAGING_RPC_OUTPUT=artifacts/rollback-a-idempotent.json
+          npm run staging:publication-rpc
+
+          export STAGING_RPC_ACTION=activate STAGING_RPC_RELEASE_ID="$release_b"
+          export STAGING_RPC_KEY="staging-reactivate-b-${GITHUB_RUN_ID}"
+          export STAGING_EXPECTED_CURRENT_RELEASE_ID="$release_b"
+          export STAGING_RPC_OUTPUT=artifacts/reactivate-b.json
+          npm run staging:publication-rpc
+
+          export STAGING_RPC_ACTION=rollback STAGING_RPC_RELEASE_ID="$release_a"
+          export STAGING_RPC_KEY="staging-rollback-a-${GITHUB_RUN_ID}"
+          export STAGING_EXPECTED_CURRENT_RELEASE_ID="$release_b"
+          export STAGING_RPC_OUTPUT=artifacts/old-rollback-truth.json
+          npm run staging:publication-rpc
+          printf '%s' "$release_b" > artifacts/final-release-id.txt
+      - name: Verify final B across DB, API, pages, and 18 Direct COS posters
+        if: inputs.execute_full_lifecycle
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ steps.deploy.outputs.web_url }}
+          STAGING_REVIEWER_URL: ${{ steps.deploy.outputs.reviewer_url }}
+          STAGING_EXPECTED_DEPLOYMENT_VERSION: ${{ github.sha }}
+          STAGING_EVIDENCE_OUTPUT: artifacts/staging-verification.sanitized.json
+        run: |
+          sleep 65
+          export STAGING_EXPECTED_RELEASE_ID=$(cat artifacts/final-release-id.txt)
+          npm run staging:verify
+      - name: Verify one releaseId across DB, API, pages, and 18 Direct COS posters
+        if: ${{ !inputs.execute_full_lifecycle }}
+        env:
+          RELEASE_ENVIRONMENT: staging
+          RELEASE_V2_ENABLED: "true"
+          STAGING_DIRECT_COS_ORIGIN: "true"
+          STAGING_COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+          STAGING_SUPABASE_PROJECT_REF: ${{ secrets.STAGING_SUPABASE_PROJECT_REF }}
+          STAGING_SUPABASE_URL: ${{ secrets.STAGING_SUPABASE_URL }}
+          STAGING_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          STAGING_WEB_URL: ${{ secrets.STAGING_WEB_URL }}
+          STAGING_REVIEWER_URL: ${{ secrets.STAGING_REVIEWER_URL }}
+          STAGING_EXPECTED_RELEASE_ID: ${{ secrets.STAGING_EXPECTED_RELEASE_ID }}
+          STAGING_EXPECTED_DEPLOYMENT_VERSION: ${{ github.sha }}
+          STAGING_EVIDENCE_OUTPUT: artifacts/staging-verification.sanitized.json
+        run: npm run staging:verify
+      - uses: actions/upload-artifact@v4
+        with:
+          name: staging-verification-sanitized
+          path: artifacts/
+          if-no-files-found: error

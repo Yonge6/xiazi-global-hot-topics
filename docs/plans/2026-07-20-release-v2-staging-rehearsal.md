@@ -50,3 +50,11 @@ Any future CDN is a separate acceptance gate.
 ## Completion gate
 
 Work package three can be reported complete only when code, remote CI, real isolated staging deployments and every normal/fault/rollback scenario have machine-verifiable evidence. Completion does not authorize production enablement, merging or marking any stacked PR Ready.
+
+## Current execution record
+
+- Independent Supabase staging project created in Singapore and all migrations applied through `20260720010000_reviewer_replay_nonce_store.sql`.
+- Remote schema lint completed; only pre-existing `upsert_issue_bundle` warnings remain.
+- Remote replay reservation proved atomic (`true` then `false` for the same nonce hash).
+- Dedicated Reviewer and Web Vercel projects created with no custom domains and no production resources.
+- Live model requests, A/B releases, fault injection, rollback, and evidence export remain blocked on a staging-only OpenAI API credential.

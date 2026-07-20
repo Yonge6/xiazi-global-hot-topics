@@ -27,6 +27,21 @@ describe("reviewer production configuration", () => {
     expect(() => reviewerConfigFromEnv()).toThrow(/DURABLE_REPLAY_STORE_REQUIRED/);
   });
 
+  it("accepts an explicit Supabase durable replay store", () => {
+    validEnvironment();
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("REVIEW_REPLAY_STORE_PROVIDER", "supabase");
+    vi.stubEnv("REVIEW_REPLAY_STORE_URL", "https://staging-project.supabase.co");
+    vi.stubEnv("REVIEW_REPLAY_STORE_TOKEN", "staging-service-role-test-token");
+    expect(reviewerConfigFromEnv().replayStoreProvider).toBe("supabase");
+  });
+
+  it("rejects unknown replay store providers", () => {
+    validEnvironment();
+    vi.stubEnv("REVIEW_REPLAY_STORE_PROVIDER", "memory");
+    expect(() => reviewerConfigFromEnv()).toThrow(/REVIEW_REPLAY_STORE_PROVIDER/);
+  });
+
   it("requires explicit model and model-version configuration", () => {
     validEnvironment();
     vi.stubEnv("REVIEW_MODEL", "");

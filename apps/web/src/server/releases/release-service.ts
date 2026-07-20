@@ -58,7 +58,11 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
   assertFutureReleaseDate(bundle.issue.issueDate);
   const client = requiredClient(dependencies.client);
   const now = dependencies.now || (() => new Date());
-  const leaseSeconds = dependencies.leaseSeconds || 180;
+  const configuredLeaseSeconds = Number.parseInt(process.env.RELEASE_LEASE_SECONDS || "180", 10);
+  const leaseSeconds = dependencies.leaseSeconds ?? configuredLeaseSeconds;
+  if (!Number.isSafeInteger(leaseSeconds) || leaseSeconds < 30 || leaseSeconds > 900) {
+    throw new Error("INVALID_LEASE_DURATION");
+  }
   const heartbeatIntervalMs = dependencies.heartbeatIntervalMs || Math.min(45_000, Math.floor(leaseSeconds * 1000 / 3));
   const releaseCandidateId = `candidate-${bundle.issue.issueDate}-${bundle.checksum.slice(0, 16)}`;
 
