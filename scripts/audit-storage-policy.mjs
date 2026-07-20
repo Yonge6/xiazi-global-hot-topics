@@ -6,14 +6,17 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const uploaderPath = path.join(root, "infrastructure/tencent-cos/immutable-uploader-policy.template.json");
 const readerPath = path.join(root, "infrastructure/tencent-cos/public-reader-policy.template.json");
 const auditorPath = path.join(root, "infrastructure/tencent-cos/auditor-policy.template.json");
+const fixturePath = path.join(root, "infrastructure/tencent-cos/multipart-fixture-policy.template.json");
 const bucketPath = path.join(root, "infrastructure/tencent-cos/staging-bucket-policy.template.json");
 const uploaderText = await readFile(uploaderPath, "utf8");
 const readerText = await readFile(readerPath, "utf8");
 const auditorText = await readFile(auditorPath, "utf8");
+const fixtureText = await readFile(fixturePath, "utf8");
 const bucketText = await readFile(bucketPath, "utf8");
 const uploader = JSON.parse(uploaderText);
 const reader = JSON.parse(readerText);
 const auditor = JSON.parse(auditorText);
+const fixture = JSON.parse(fixtureText);
 const bucket = JSON.parse(bucketText);
 
 function fail(message) {
@@ -27,14 +30,14 @@ const forbiddenText = [
   /xiazishuo\.com/i,
   /-----BEGIN [A-Z ]+PRIVATE KEY-----/,
 ];
-for (const [name, text] of [["uploader", uploaderText], ["reader", readerText], ["auditor", auditorText], ["bucket", bucketText]]) {
+for (const [name, text] of [["uploader", uploaderText], ["reader", readerText], ["auditor", auditorText], ["fixture", fixtureText], ["bucket", bucketText]]) {
   if (forbiddenText.some((pattern) => pattern.test(text))) fail(`${name}:sensitive-or-production-value`);
   for (const placeholder of ["${OWNER_UIN}", "${APP_ID}", "${COS_REGION}", "${STAGING_BUCKET}"]) {
     if (!text.includes(placeholder)) fail(`${name}:missing-placeholder:${placeholder}`);
   }
 }
 
-for (const placeholder of ["${UPLOADER_UIN}", "${AUDITOR_UIN}", "${READER_UIN}"]) {
+for (const placeholder of ["${UPLOADER_UIN}", "${AUDITOR_UIN}", "${READER_UIN}", "${FIXTURE_UIN}"]) {
   if (!bucketText.includes(placeholder)) fail(`bucket:missing-placeholder:${placeholder}`);
 }
 
@@ -89,10 +92,23 @@ for (const action of auditorAllowed) {
     fail(`auditor:unexpected-allow:${action}`);
   }
 }
-if (bucket.statement.length !== uploader.statement.length + auditor.statement.length + reader.statement.length) {
+if (!fixtureText.includes("${FIXTURE_UIN}")) fail("fixture:identity-placeholder-missing");
+if (fixture.statement.length !== 1
+  || fixture.statement[0].effect !== "allow"
+  || JSON.stringify(fixture.statement[0].action) !== JSON.stringify([
+    "name/cos:InitiateMultipartUpload",
+    "name/cos:UploadPart",
+    "name/cos:AbortMultipartUpload",
+  ])
+  || !fixture.statement[0].resource?.[0]?.endsWith("/release-assets/immutability-verification/*")
+  || fixture.statement[0].condition?.bool_equal?.["cos:secure-transport"] !== "true") {
+  fail("fixture:not-strict-staging-multipart-setup");
+}
+if (fixtureText.includes("CompleteMultipartUpload")) fail("fixture:complete-permission-forbidden");
+if (bucket.statement.length !== uploader.statement.length + auditor.statement.length + reader.statement.length + fixture.statement.length) {
   fail("bucket:composition-size-mismatch");
 }
-const composed = [...uploader.statement, ...auditor.statement, ...reader.statement];
+const composed = [...uploader.statement, ...auditor.statement, ...reader.statement, ...fixture.statement];
 if (JSON.stringify(bucket.statement) !== JSON.stringify(composed)) fail("bucket:composition-mismatch");
 
-console.log("Storage policy template audit passed (xiazi-cos-immutable-v2).");
+console.log("Storage policy template audit passed (xiazi-cos-immutable-v3).");

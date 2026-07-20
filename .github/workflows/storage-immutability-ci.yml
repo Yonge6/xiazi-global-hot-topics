@@ -93,4 +93,6 @@ jobs:
           STORAGE_AUDIT_SECRET_KEY: ${{ secrets.STORAGE_AUDIT_SECRET_KEY }}
           STORAGE_READER_SECRET_ID: ${{ secrets.STORAGE_READER_SECRET_ID }}
           STORAGE_READER_SECRET_KEY: ${{ secrets.STORAGE_READER_SECRET_KEY }}
+          STORAGE_FIXTURE_SECRET_ID: ${{ secrets.STORAGE_FIXTURE_SECRET_ID }}
+          STORAGE_FIXTURE_SECRET_KEY: ${{ secrets.STORAGE_FIXTURE_SECRET_KEY }}
         run: npm run storage:verify:staging

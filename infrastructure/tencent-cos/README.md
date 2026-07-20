@@ -1,6 +1,6 @@
 # Tencent COS immutable release asset policy
 
-Policy version: `xiazi-cos-immutable-v2`.
+Policy version: `xiazi-cos-immutable-v3`.
 
 These files are redacted templates. `staging-bucket-policy.template.json` is the deployable composition of the uploader, auditor and CDN-reader grants; the narrower files document each runtime boundary. Replace placeholders only in an approved staging change record; never commit rendered account IDs, credentials or production bucket names.
 
@@ -21,6 +21,8 @@ Tencent COS documents that the no-overwrite header is ineffective after versioni
 `auditor-policy.template.json` grants only the bucket-state reads used by the protected verifier plus proof-object reads. It cannot upload, delete or mutate policy.
 
 `public-reader-policy.template.json` grants only HTTPS `GetObject`, `HeadObject` and `OptionsObject` to a staging read-only CAM identity. The protected verifier uses this identity to prove read access and write/delete/policy denial without requiring CDN activation. A future CDN service identity is intentionally absent from the current staging policy and must be reviewed separately when CDN verification is enabled.
+
+`multipart-fixture-policy.template.json` is staging-test-only. It can initiate, upload and abort a multipart session only under `release-assets/immutability-verification/`; it cannot complete a multipart upload. The verifier uses the resulting real upload ID to prove that the application identity cannot complete an overwrite. This identity is never part of application runtime.
 
 Break-glass administration is intentionally not represented as an application policy. It must remain outside runtime and ordinary CI, require MFA or independent approval, and write CloudAudit records.
 

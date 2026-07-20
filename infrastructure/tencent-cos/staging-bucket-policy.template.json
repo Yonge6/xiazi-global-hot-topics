@@ -124,6 +124,27 @@
           "cos:secure-transport": "true"
         }
       }
+    },
+    {
+      "principal": {
+        "qcs": [
+          "qcs::cam::uin/${OWNER_UIN}:uin/${FIXTURE_UIN}"
+        ]
+      },
+      "effect": "allow",
+      "action": [
+        "name/cos:InitiateMultipartUpload",
+        "name/cos:UploadPart",
+        "name/cos:AbortMultipartUpload"
+      ],
+      "resource": [
+        "qcs::cos:${COS_REGION}:uid/${APP_ID}:${STAGING_BUCKET}/release-assets/immutability-verification/*"
+      ],
+      "condition": {
+        "bool_equal": {
+          "cos:secure-transport": "true"
+        }
+      }
     }
   ]
 }

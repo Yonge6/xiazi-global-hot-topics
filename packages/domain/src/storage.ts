@@ -1,8 +1,8 @@
 import type { ImmutableAssetLocale, ImmutableAssetObjectProof, Issue } from "@xiazi/contracts";
 
 export const IMMUTABLE_ASSET_PREFIX = "release-assets";
-export const IMMUTABLE_STORAGE_POLICY_VERSION = "xiazi-cos-immutable-v2";
-export const IMMUTABLE_STORAGE_VERIFIER_VERSION = "xiazi-storage-verifier-v2";
+export const IMMUTABLE_STORAGE_POLICY_VERSION = "xiazi-cos-immutable-v3";
+export const IMMUTABLE_STORAGE_VERIFIER_VERSION = "xiazi-storage-verifier-v3";
 
 const ASSET_BATCH_PATTERN = /^asset_[A-Za-z0-9_-]{12,80}$/;
 const TOPIC_OR_SLOT_PATTERN = /^[a-z0-9](?:[a-z0-9-]{0,62}[a-z0-9])?$/;

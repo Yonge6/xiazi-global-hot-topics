@@ -1,7 +1,7 @@
 import { createHash, createHmac, randomUUID } from "node:crypto";
 
-const POLICY_VERSION = "xiazi-cos-immutable-v2";
-const TOOL_VERSION = "xiazi-storage-verifier-v2";
+const POLICY_VERSION = "xiazi-cos-immutable-v3";
+const TOOL_VERSION = "xiazi-storage-verifier-v3";
 
 function required(name) {
   const value = process.env[name]?.trim();
@@ -90,6 +90,7 @@ const region = required("COS_REGION");
 const app = identity("STORAGE_APP");
 const auditor = identity("STORAGE_AUDIT");
 const reader = identity("STORAGE_READER");
+const fixture = identity("STORAGE_FIXTURE");
 const endpoint = new URL(`https://${safe.bucket}.cos.${region}.myqcloud.com`);
 
 async function request(actor, method, key = "", options = {}) {
@@ -139,7 +140,12 @@ const appliedPolicy = await responseText(policyResponse);
 if (!policyResponse.ok
   || !appliedPolicy.includes("cos:x-cos-forbid-overwrite")
   || !appliedPolicy.includes("name/cos:PutObject")
-  || !appliedPolicy.includes("name/cos:GetObject")) {
+  || !appliedPolicy.includes("name/cos:GetObject")
+  || !appliedPolicy.includes("name/cos:HeadObject")
+  || !appliedPolicy.includes("name/cos:InitiateMultipartUpload")
+  || !appliedPolicy.includes("name/cos:UploadPart")
+  || !appliedPolicy.includes("name/cos:AbortMultipartUpload")
+  || appliedPolicy.includes("name/cos:CompleteMultipartUpload")) {
   throw new Error(`COS_APPLIED_POLICY_NOT_VERIFIED:${policyResponse.status}`);
 }
 
@@ -219,11 +225,69 @@ denials.push(await expectDenied("METADATA_REPLACEMENT", await request(app, "PUT"
   headers: { ...copyHeaders, "x-cos-metadata-directive": "Replaced", "x-cos-meta-sha256": sha256(different) },
 }), [409, 403]));
 denials.push(await expectDenied("COPY_OVERWRITE", await request(app, "PUT", key, { headers: copyHeaders }), [409, 403]));
-denials.push(await expectDenied("MULTIPART_COMPLETE", await request(app, "POST", key, {
-  query: { uploadId: "immutable-verification-denied" },
-  headers: { "Content-Type": "application/xml", "x-cos-forbid-overwrite": "true" },
-  body: "<CompleteMultipartUpload></CompleteMultipartUpload>",
+denials.push(await expectDenied("INITIATE_MULTIPART", await request(app, "POST", key, {
+  query: { uploads: "" },
 })));
+
+const multipartKey = `${safe.prefix}/${runId}/multipart-overwrite.png`;
+const multipartBaseline = Buffer.from(`xiazi multipart overwrite baseline ${runId}`);
+const multipartBaselineMetadata = {
+  ...metadata,
+  "Content-Length": String(multipartBaseline.length),
+  "Content-MD5": md5(multipartBaseline),
+  "x-cos-meta-sha256": sha256(multipartBaseline),
+};
+const multipartBaselineUpload = await request(app, "PUT", multipartKey, {
+  headers: multipartBaselineMetadata,
+  body: multipartBaseline,
+});
+if (!multipartBaselineUpload.ok) throw new Error(`MULTIPART_BASELINE_UPLOAD_FAILED:${multipartBaselineUpload.status}`);
+
+const multipartInitiate = await request(fixture, "POST", multipartKey, {
+  query: { uploads: "" },
+  headers: { "Content-Type": "image/png" },
+});
+const multipartInitiateBody = await responseText(multipartInitiate);
+const uploadId = multipartInitiateBody.match(/<UploadId>([^<]+)<\/UploadId>/)?.[1];
+if (!multipartInitiate.ok || !uploadId) {
+  throw new Error(`MULTIPART_FIXTURE_INITIATE_FAILED:${multipartInitiate.status}`);
+}
+
+denials.push(await expectDenied("UPLOAD_PART", await request(app, "PUT", multipartKey, {
+  query: { partNumber: "1", uploadId },
+  headers: { "Content-Type": "image/png" },
+  body: different,
+})));
+
+const multipartPart = await request(fixture, "PUT", multipartKey, {
+  query: { partNumber: "1", uploadId },
+  headers: { "Content-Type": "image/png", "Content-Length": String(different.length), "Content-MD5": md5(different) },
+  body: different,
+});
+const multipartPartEtag = multipartPart.headers.get("etag");
+if (!multipartPart.ok || !multipartPartEtag) {
+  throw new Error(`MULTIPART_FIXTURE_PART_FAILED:${multipartPart.status}`);
+}
+
+const completeBody = `<CompleteMultipartUpload><Part><PartNumber>1</PartNumber><ETag>${multipartPartEtag}</ETag></Part></CompleteMultipartUpload>`;
+const completeResponse = await request(app, "POST", multipartKey, {
+  query: { uploadId },
+  headers: { "Content-Type": "application/xml", "x-cos-forbid-overwrite": "true" },
+  body: completeBody,
+});
+const completeDetail = await responseText(completeResponse);
+const abortResponse = await request(fixture, "DELETE", multipartKey, { query: { uploadId } });
+if (!abortResponse.ok) throw new Error(`MULTIPART_FIXTURE_ABORT_FAILED:${abortResponse.status}`);
+if (completeResponse.status !== 403 || !/AccessDenied|Forbidden/i.test(completeDetail)) {
+  throw new Error(`MULTIPART_COMPLETE_NOT_DENIED:${completeResponse.status}`);
+}
+denials.push({ label: "MULTIPART_COMPLETE", status: completeResponse.status });
+
+const multipartUnchanged = await request(app, "GET", multipartKey);
+if (!multipartUnchanged.ok
+  || sha256(Buffer.from(await multipartUnchanged.arrayBuffer())) !== sha256(multipartBaseline)) {
+  throw new Error("MULTIPART_OVERWRITE_CHANGED_OBJECT");
+}
 denials.push(await expectDenied("PUT_BUCKET_POLICY", await request(app, "PUT", "", {
   query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: "{}",
 })));

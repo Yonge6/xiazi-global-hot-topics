@@ -91,12 +91,12 @@ const storageObjects: ImmutableAssetObjectProof[] = posterCandidates.map((candid
 function storageReport(objects = storageObjects): StorageVerificationReport {
   return {
     provider: "tencent-cos",
-    policyVersion: "xiazi-cos-immutable-v2",
+    policyVersion: "xiazi-cos-immutable-v3",
     assetBatchId,
     objectManifestHash: stableHash(objects),
     objects,
     verifiedAt: "2026-07-19T00:20:00.000Z",
-    verificationToolVersion: "xiazi-storage-verifier-v2",
+    verificationToolVersion: "xiazi-storage-verifier-v3",
     overwriteDenied: true,
     deleteDenied: true,
     policyVerified: true,

@@ -27,7 +27,7 @@ The checked-in legacy example references a VileSaint bucket and is forbidden for
 
 ## Provider capability and policy version
 
-Policy template version: `xiazi-cos-immutable-v2`.
+Policy template version: `xiazi-cos-immutable-v3`.
 
 Tencent COS provides an atomic no-overwrite request header, `x-cos-forbid-overwrite:true`, and returns `409 FileAlreadyExists` for an existing key. CAM condition `cos:x-cos-forbid-overwrite` can require this header. Official documentation also states that this header is ineffective if versioning has ever been enabled or suspended. The target must therefore be a dedicated bucket that has never enabled versioning, and this state must be verified in staging.
 
@@ -60,6 +60,7 @@ Release staging requires a complete 18-object manifest and a storage verificatio
 
 - Application uploader: create-only under the staging `release-assets/` prefix plus HEAD/GET verification. No delete, metadata replacement, copy overwrite, multipart completion, retention, bucket policy or versioning controls.
 - Staging reader: read-only. The protected verifier uses a separate CAM identity to prove read success and write/delete/policy denial. No CDN service identity is included while CDN verification is explicitly deferred; any future CDN grant requires separate review. The staging reader has no write, delete or policy permissions.
+- Multipart fixture: staging-test-only and prefix-limited. It may initiate, upload and abort a multipart session only under the verifier prefix, but cannot complete one. This lets the application attempt a real upload-ID-based multipart overwrite while keeping auditor and reader identities read-only.
 - Break-glass administrator: excluded from runtime and ordinary CI; MFA/independent approval and cloud audit logging required.
 
 ## Machine-verifiable results
@@ -68,7 +69,7 @@ Local verification on 2026-07-19 (QClaw Node.js 22 runtime; no cloud credentials
 
 | Gate | Result |
 |---|---|
-| `npm run audit:storage-policy` | passed; `xiazi-cos-immutable-v2` template and deny set accepted |
+| `npm run audit:storage-policy` | passed; `xiazi-cos-immutable-v3` template and deny set accepted |
 | `npm run check` | passed; 20/20 Turbo tasks |
 | Contracts | 2 files, 6 tests passed |
 | Domain | 5 files, 19 tests passed, including 11 immutable-path/manifest tests |
@@ -125,6 +126,8 @@ STORAGE_AUDIT_SECRET_ID='<read-policy-identity>' \
 STORAGE_AUDIT_SECRET_KEY='<redacted>' \
 STORAGE_READER_SECRET_ID='<read-only-object-identity>' \
 STORAGE_READER_SECRET_KEY='<redacted>' \
+STORAGE_FIXTURE_SECRET_ID='<staging-multipart-fixture-identity>' \
+STORAGE_FIXTURE_SECRET_KEY='<redacted>' \
 npm run storage:verify:staging
 ```
 
