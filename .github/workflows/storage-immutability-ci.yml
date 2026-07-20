@@ -11,6 +11,11 @@ on:
         required: true
         default: false
         type: boolean
+      run_cdn_hash_verification:
+        description: Require source/CDN SHA-256 equality (leave false when no staging CDN exists)
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -78,6 +83,7 @@ jobs:
       - name: Verify server-enforced staging immutability
         env:
           STORAGE_ENV: staging
+          STORAGE_CDN_VERIFICATION: ${{ inputs.run_cdn_hash_verification && 'required' || 'skip' }}
           COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
           COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
           STORAGE_CDN_BASE_URL: ${{ secrets.STORAGE_CDN_BASE_URL }}
@@ -85,4 +91,6 @@ jobs:
           STORAGE_APP_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
           STORAGE_AUDIT_SECRET_ID: ${{ secrets.STORAGE_AUDIT_SECRET_ID }}
           STORAGE_AUDIT_SECRET_KEY: ${{ secrets.STORAGE_AUDIT_SECRET_KEY }}
+          STORAGE_READER_SECRET_ID: ${{ secrets.STORAGE_READER_SECRET_ID }}
+          STORAGE_READER_SECRET_KEY: ${{ secrets.STORAGE_READER_SECRET_KEY }}
         run: npm run storage:verify:staging

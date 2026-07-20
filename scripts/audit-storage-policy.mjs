@@ -34,7 +34,7 @@ for (const [name, text] of [["uploader", uploaderText], ["reader", readerText], 
   }
 }
 
-for (const placeholder of ["${UPLOADER_UIN}", "${AUDITOR_UIN}"]) {
+for (const placeholder of ["${UPLOADER_UIN}", "${AUDITOR_UIN}", "${READER_UIN}"]) {
   if (!bucketText.includes(placeholder)) fail(`bucket:missing-placeholder:${placeholder}`);
 }
 if (!bucketText.includes("qcs::cam::uin/${OWNER_UIN}:service/cdn")) fail("bucket:cdn-service-principal-missing");
@@ -71,6 +71,7 @@ for (const statement of statements) {
   }
 }
 
+if (!readerText.includes("qcs::cam::uin/${OWNER_UIN}:uin/${READER_UIN}")) fail("reader:identity-placeholder-missing");
 if (!readerText.includes("qcs::cam::uin/${OWNER_UIN}:service/cdn")) fail("reader:cdn-service-principal-missing");
 if (reader.statement.length !== 1
   || reader.statement[0].effect !== "allow"
@@ -96,4 +97,4 @@ if (bucket.statement.length !== uploader.statement.length + auditor.statement.le
 const composed = [...uploader.statement, ...auditor.statement, ...reader.statement];
 if (JSON.stringify(bucket.statement) !== JSON.stringify(composed)) fail("bucket:composition-mismatch");
 
-console.log("Storage policy template audit passed (xiazi-cos-immutable-v1).");
+console.log("Storage policy template audit passed (xiazi-cos-immutable-v2).");

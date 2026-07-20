@@ -107,6 +107,7 @@
     {
       "principal": {
         "qcs": [
+          "qcs::cam::uin/${OWNER_UIN}:uin/${READER_UIN}",
           "qcs::cam::uin/${OWNER_UIN}:service/cdn"
         ]
       },

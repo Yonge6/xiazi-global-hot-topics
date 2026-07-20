@@ -12,9 +12,9 @@ const issue = parseIssue(issueValue);
 const assetBatchId = "asset_20260720_primary";
 const policy = {
   provider: "tencent-cos" as const,
-  policyVersion: "xiazi-cos-immutable-v1",
+  policyVersion: "xiazi-cos-immutable-v2",
   verifiedAt: "2026-07-20T00:00:00.000Z",
-  verificationToolVersion: "xiazi-storage-verifier-v1",
+  verificationToolVersion: "xiazi-storage-verifier-v2",
   overwriteDenied: true,
   deleteDenied: true,
   policyVerified: true,

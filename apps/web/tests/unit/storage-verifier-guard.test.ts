@@ -9,6 +9,8 @@ const base = {
   STORAGE_APP_SECRET_KEY: "DO_NOT_PRINT_THIS_APP_SECRET",
   STORAGE_AUDIT_SECRET_ID: "audit-id",
   STORAGE_AUDIT_SECRET_KEY: "DO_NOT_PRINT_THIS_AUDIT_SECRET",
+  STORAGE_READER_SECRET_ID: "reader-id",
+  STORAGE_READER_SECRET_KEY: "DO_NOT_PRINT_THIS_READER_SECRET",
   COS_BUCKET: "xiazi-staging-assets-0000000000",
   COS_REGION: "ap-hongkong",
   STORAGE_CDN_BASE_URL: "https://assets-staging.example.com/",
@@ -48,5 +50,11 @@ describe("staging storage verifier safety guards", () => {
     });
     expect(result.status).not.toBe(0);
     expect(`${result.stdout}${result.stderr}`).toContain("STAGING_TEST_PREFIX_INVALID");
+  });
+
+  it("requires an explicit valid CDN verification mode", () => {
+    const result = run({ STORAGE_ENV: "staging", STORAGE_CDN_VERIFICATION: "later" });
+    expect(result.status).not.toBe(0);
+    expect(`${result.stdout}${result.stderr}`).toContain("STORAGE_CDN_VERIFICATION_INVALID");
   });
 });

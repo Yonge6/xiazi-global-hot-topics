@@ -1,7 +1,7 @@
 import { createHash, createHmac, randomUUID } from "node:crypto";
 
-const POLICY_VERSION = "xiazi-cos-immutable-v1";
-const TOOL_VERSION = "xiazi-storage-verifier-v1";
+const POLICY_VERSION = "xiazi-cos-immutable-v2";
+const TOOL_VERSION = "xiazi-storage-verifier-v2";
 
 function required(name) {
   const value = process.env[name]?.trim();
@@ -22,11 +22,18 @@ function refuseUnsafeTarget() {
     || prefix.includes("//")) {
     throw new Error("STAGING_TEST_PREFIX_INVALID");
   }
-  const cdn = new URL(required("STORAGE_CDN_BASE_URL"));
-  if (cdn.protocol !== "https:" || /xiazishuo\.com|vilesaint/i.test(cdn.hostname)) {
-    throw new Error("STAGING_CDN_ORIGIN_REQUIRED");
+  const cdnVerification = process.env.STORAGE_CDN_VERIFICATION?.trim() || "required";
+  if (!new Set(["required", "skip"]).has(cdnVerification)) {
+    throw new Error("STORAGE_CDN_VERIFICATION_INVALID");
   }
-  return { bucket, prefix: prefix.replace(/\/$/, ""), cdn };
+  let cdn = null;
+  if (cdnVerification === "required") {
+    cdn = new URL(required("STORAGE_CDN_BASE_URL"));
+    if (cdn.protocol !== "https:" || /xiazishuo\.com|vilesaint/i.test(cdn.hostname)) {
+      throw new Error("STAGING_CDN_ORIGIN_REQUIRED");
+    }
+  }
+  return { bucket, prefix: prefix.replace(/\/$/, ""), cdn, cdnVerification };
 }
 
 function sha1(value) {
@@ -82,6 +89,7 @@ const safe = refuseUnsafeTarget();
 const region = required("COS_REGION");
 const app = identity("STORAGE_APP");
 const auditor = identity("STORAGE_AUDIT");
+const reader = identity("STORAGE_READER");
 const endpoint = new URL(`https://${safe.bucket}.cos.${region}.myqcloud.com`);
 
 async function request(actor, method, key = "", options = {}) {
@@ -181,6 +189,17 @@ if (!sourceRead.ok) throw new Error(`SOURCE_READ_FAILED:${sourceRead.status}`);
 const sourceBytes = Buffer.from(await sourceRead.arrayBuffer());
 if (sha256(sourceBytes) !== expectedHash) throw new Error("SOURCE_HASH_MISMATCH");
 
+const readerHead = await request(reader, "HEAD", key);
+if (!readerHead.ok
+  || Number(readerHead.headers.get("content-length")) !== content.length
+  || readerHead.headers.get("x-cos-server-side-encryption") !== "AES256") {
+  throw new Error(`READER_HEAD_FAILED:${readerHead.status}`);
+}
+const readerRead = await request(reader, "GET", key);
+if (!readerRead.ok || sha256(Buffer.from(await readerRead.arrayBuffer())) !== expectedHash) {
+  throw new Error(`READER_READ_FAILED:${readerRead.status}`);
+}
+
 const denials = [];
 denials.push(await expectDenied("SAME_KEY_SAME_CONTENT", await request(app, "PUT", key, { headers: metadata, body: content }), [409]));
 denials.push(await expectDenied("SAME_KEY_DIFFERENT_CONTENT", await request(app, "PUT", key, {
@@ -224,15 +243,41 @@ denials.push(await expectDenied("DELETE_BUCKET_ENCRYPTION", await request(app, "
   query: { encryption: "" },
 })));
 
+const readerDeniedKey = `${safe.prefix}/${runId}/reader-write-denied.png`;
+denials.push(await expectDenied("READER_PUT_OBJECT", await request(reader, "PUT", readerDeniedKey, {
+  headers: metadata,
+  body: content,
+})));
+denials.push(await expectDenied("READER_DELETE_OBJECT", await request(reader, "DELETE", key)));
+denials.push(await expectDenied("READER_PUT_BUCKET_POLICY", await request(reader, "PUT", "", {
+  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: "{}",
+})));
+
+const auditorDeniedKey = `${safe.prefix}/${runId}/auditor-write-denied.png`;
+denials.push(await expectDenied("AUDITOR_PUT_OBJECT", await request(auditor, "PUT", auditorDeniedKey, {
+  headers: metadata,
+  body: content,
+})));
+denials.push(await expectDenied("AUDITOR_DELETE_OBJECT", await request(auditor, "DELETE", key)));
+denials.push(await expectDenied("AUDITOR_PUT_BUCKET_POLICY", await request(auditor, "PUT", "", {
+  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: "{}",
+})));
+
 const idempotentRead = await request(app, "GET", key);
 const idempotentHash = sha256(Buffer.from(await idempotentRead.arrayBuffer()));
 if (!idempotentRead.ok || idempotentHash !== expectedHash) throw new Error("IDEMPOTENT_CONTENT_CHANGED");
 
-const cdnUrl = new URL(key, safe.cdn.toString().endsWith("/") ? safe.cdn : `${safe.cdn}/`);
-const cdnResponse = await fetch(cdnUrl, { cache: "no-store", redirect: "error", signal: AbortSignal.timeout(30_000) });
-if (!cdnResponse.ok) throw new Error(`CDN_READ_FAILED:${cdnResponse.status}`);
-const cdnHash = sha256(Buffer.from(await cdnResponse.arrayBuffer()));
-if (cdnHash !== expectedHash) throw new Error("CDN_SOURCE_HASH_MISMATCH");
+let cdnSourceHashMatches = null;
+let cdnVerificationStatus = "not-executed";
+if (safe.cdnVerification === "required") {
+  const cdnUrl = new URL(key, safe.cdn.toString().endsWith("/") ? safe.cdn : `${safe.cdn}/`);
+  const cdnResponse = await fetch(cdnUrl, { cache: "no-store", redirect: "error", signal: AbortSignal.timeout(30_000) });
+  if (!cdnResponse.ok) throw new Error(`CDN_READ_FAILED:${cdnResponse.status}`);
+  const cdnHash = sha256(Buffer.from(await cdnResponse.arrayBuffer()));
+  if (cdnHash !== expectedHash) throw new Error("CDN_SOURCE_HASH_MISMATCH");
+  cdnSourceHashMatches = true;
+  cdnVerificationStatus = "passed";
+}
 
 console.log(JSON.stringify({
   ok: true,
@@ -250,8 +295,10 @@ console.log(JSON.stringify({
   serverSideEncryption: "AES256",
   overwriteDenied: true,
   deleteDenied: true,
+  identitySeparationVerified: true,
   policyVerified: true,
-  cdnSourceHashMatches: true,
+  cdnVerificationStatus,
+  cdnSourceHashMatches,
   denials,
   verifiedAt: new Date().toISOString(),
 }, null, 2));

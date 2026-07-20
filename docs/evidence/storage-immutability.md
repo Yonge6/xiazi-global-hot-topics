@@ -27,7 +27,7 @@ The checked-in legacy example references a VileSaint bucket and is forbidden for
 
 ## Provider capability and policy version
 
-Policy template version: `xiazi-cos-immutable-v1`.
+Policy template version: `xiazi-cos-immutable-v2`.
 
 Tencent COS provides an atomic no-overwrite request header, `x-cos-forbid-overwrite:true`, and returns `409 FileAlreadyExists` for an existing key. CAM condition `cos:x-cos-forbid-overwrite` can require this header. Official documentation also states that this header is ineffective if versioning has ever been enabled or suspended. The target must therefore be a dedicated bucket that has never enabled versioning, and this state must be verified in staging.
 
@@ -59,7 +59,7 @@ Release staging requires a complete 18-object manifest and a storage verificatio
 ## Credential separation
 
 - Application uploader: create-only under the staging `release-assets/` prefix plus HEAD/GET verification. No delete, metadata replacement, copy overwrite, multipart completion, retention, bucket policy or versioning controls.
-- Public/CDN reader: read-only. No write, delete or policy permissions.
+- Staging reader/CDN reader: read-only. The protected verifier uses a separate CAM identity to prove read success and write/delete/policy denial; future CDN access remains the account-scoped Tencent service identity. Neither path has write, delete or policy permissions.
 - Break-glass administrator: excluded from runtime and ordinary CI; MFA/independent approval and cloud audit logging required.
 
 ## Machine-verifiable results
@@ -68,7 +68,7 @@ Local verification on 2026-07-19 (QClaw Node.js 22 runtime; no cloud credentials
 
 | Gate | Result |
 |---|---|
-| `npm run audit:storage-policy` | passed; `xiazi-cos-immutable-v1` template and deny set accepted |
+| `npm run audit:storage-policy` | passed; `xiazi-cos-immutable-v2` template and deny set accepted |
 | `npm run check` | passed; 20/20 Turbo tasks |
 | Contracts | 2 files, 6 tests passed |
 | Domain | 5 files, 19 tests passed, including 11 immutable-path/manifest tests |
@@ -109,23 +109,26 @@ The protected workflow job is manual-only and uses the `release-v2-storage-stagi
 7. multipart complete denial;
 8. bucket policy, versioning, Object Lock and default-encryption mutation denial by the application identity;
 9. bucket default encryption and object response both prove `AES256`;
-10. source and CDN SHA-256 equality.
+10. read-only and audit identities can read their required scope but cannot upload, delete or mutate policy;
+11. source and CDN SHA-256 equality when `STORAGE_CDN_VERIFICATION=required`.
 
 Authorized staging execution command:
 
 ```bash
 STORAGE_ENV=staging \
+STORAGE_CDN_VERIFICATION='skip' \
 COS_BUCKET='<dedicated-xiazi-staging-bucket>' \
 COS_REGION='<region>' \
-STORAGE_CDN_BASE_URL='https://<staging-cdn-origin>' \
 STORAGE_APP_SECRET_ID='<create-only-identity>' \
 STORAGE_APP_SECRET_KEY='<redacted>' \
 STORAGE_AUDIT_SECRET_ID='<read-policy-identity>' \
 STORAGE_AUDIT_SECRET_KEY='<redacted>' \
+STORAGE_READER_SECRET_ID='<read-only-object-identity>' \
+STORAGE_READER_SECRET_KEY='<redacted>' \
 npm run storage:verify:staging
 ```
 
-Credentials must be injected by the protected environment, never copied into a command transcript or evidence file.
+Credentials must be injected by the protected environment, never copied into a command transcript or evidence file. CDN equality may be skipped only by the explicit `STORAGE_CDN_VERIFICATION=skip` mode; machine output then records `cdnVerificationStatus=not-executed` and `cdnSourceHashMatches=null`, so the omission cannot be mistaken for a pass.
 
 ## Real cloud verification
 
