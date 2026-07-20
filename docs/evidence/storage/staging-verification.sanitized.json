@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "xiazi-storage-evidence-v1",
+  "commitSha": "e004f7749cb4f9f19277faf77b3c9290f48ea03c",
+  "workflowRun": {
+    "id": "29721577122",
+    "url": "https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29721577122",
+    "protectedJob": "Protected Tencent COS staging verification",
+    "conclusion": "success"
+  },
+  "provider": "tencent-cos",
+  "storageEnv": "staging",
+  "bucket": "xiazi-release-v2-staging-20260719-REDACTED",
+  "region": "ap-guangzhou",
+  "policyVersion": "xiazi-cos-immutable-v3",
+  "policySha256": "5c518a862d9b65023b2ed4821d1a11f21931d765e87ad2b04a6a7719acec1e1f",
+  "verificationToolVersion": "xiazi-storage-verifier-v3",
+  "verifiedAt": "2026-07-20T06:25:48.967Z",
+  "proofObject": {
+    "key": "release-assets/immutability-verification/20260720062536-3d01c98f-3ee7-487c-93f7-f45382991d13/proof.png",
+    "etag": "68c085f81f474ee78d628bbbdc94298f",
+    "sha256": "bec5b991d8bacf1fd93a1702ac39dc90157e574e800995d4308acfec578cb5db",
+    "sizeBytes": 88,
+    "contentType": "image/png",
+    "serverSideEncryption": "AES256",
+    "providerVersionId": null,
+    "providerObjectIdentity": "cos-unversioned:68c085f81f474ee78d628bbbdc94298f:bec5b991d8bacf1fd93a1702ac39dc90157e574e800995d4308acfec578cb5db",
+    "retained": true
+  },
+  "bucketState": {
+    "defaultEncryption": "SSE-COS AES256",
+    "versioning": "never-enabled",
+    "objectLock": "not-enabled",
+    "policyVerified": true
+  },
+  "identitySeparationVerified": true,
+  "sourceReadbackSha256Matches": true,
+  "cdnVerificationStatus": "not-executed",
+  "cdnSourceHashMatches": null,
+  "denials": [
+    { "operation": "same-key-same-content-put", "httpStatus": 409, "providerCode": "FileAlreadyExists" },
+    { "operation": "same-key-different-content-put", "httpStatus": 409, "providerCode": "FileAlreadyExists" },
+    { "operation": "delete-object", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "delete-object-version", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "metadata-replacement", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "copy-over-existing-key", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "uploader-initiate-multipart", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "uploader-upload-part", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "multipart-complete-real-upload-id", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "put-bucket-policy", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "put-bucket-versioning", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "put-bucket-object-lock", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "put-bucket-encryption", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "delete-bucket-encryption", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "reader-put-object", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "reader-delete-object", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "reader-put-bucket-policy", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "auditor-put-object", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "auditor-delete-object", "httpStatus": 403, "providerCode": "AccessDenied" },
+    { "operation": "auditor-put-bucket-policy", "httpStatus": 403, "providerCode": "AccessDenied" }
+  ],
+  "secretsIncluded": false,
+  "productionResourcesIncluded": false
+}

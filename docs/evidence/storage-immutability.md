@@ -1,172 +1,130 @@
 # Storage immutability evidence
 
-## Scope and status
+## Scope and decision
 
-This evidence applies only to future issues after `2026-07-18`. Historical content, posters, archive and Story Pool records are unchanged. Production Supabase, Vercel, DNS, COS buckets/policies/credentials and `RELEASE_V2_ENABLED` are untouched.
-
-Current status: code implementation and local/remote verification are tracked in this Draft work package. Real Tencent COS staging policy verification is not complete and must not be represented as passed.
+This work applies only to future issues after `2026-07-18`. Historical content, posters, archive and Story Pool records are unchanged. Production Supabase, Vercel, DNS, CDN, COS and `RELEASE_V2_ENABLED` were not touched.
 
 - Draft PR: https://github.com/Yonge6/xiazi-global-hot-topics/pull/13
 - Base: `codex/release-review-services`
-- Validated head: `9611bb95c23b3534953faf53f8abb0501806e3fb`
+- Successful implementation head: `e004f7749cb4f9f19277faf77b3c9290f48ea03c`
+- Successful protected run: https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29721577122
+- Policy version: `xiazi-cos-immutable-v3`
+- Policy SHA-256: `5c518a862d9b65023b2ed4821d1a11f21931d765e87ad2b04a6a7719acec1e1f`
 
-Code and ordinary remote CI success do **not** establish that Tencent COS enforces the proposed cloud policy. Real COS staging verification has not been executed. Work package three must not start while this provider-side evidence remains incomplete.
+The dedicated Tencent COS staging controls and all non-CDN provider checks passed. Source/CDN SHA-256 comparison remains explicitly `not-executed` because no staging CDN or domain was created. Work package two therefore remains **conditional pass** and work package three must not start.
 
-## Identified provider
+## Dedicated staging resources
 
-Provider: **Tencent Cloud Object Storage (COS)**.
+- Provider: Tencent Cloud Object Storage (COS)
+- Bucket evidence identifier: `xiazi-release-v2-staging-20260719-…`
+- Region: `ap-guangzhou`
+- Access: private read/write
+- Default encryption: SSE-COS `AES256`
+- Versioning: disabled and never enabled; proof described below
+- Lifecycle rules affecting `release-assets/`: none
+- Object Lock/WORM: not enabled
+- GitHub Environment: `release-v2-storage-staging`, protected by manual approval
+- Runtime identities: uploader, auditor and reader are separate
+- Test-only identity: multipart fixture, limited to initiate/upload-part/abort under the verification prefix and unable to complete
+- CDN: not provisioned; no production DNS or CDN was changed
 
-Repository evidence:
+The legacy VileSaint example and all production buckets were excluded.
 
-- `apps/web/src/lib/cos/storage.ts` implements Tencent COS REST signing and upload/copy operations.
-- configuration names are `COS_SECRET_ID`, `COS_SECRET_KEY`, `COS_BUCKET`, `COS_REGION` and `NEXT_PUBLIC_COS_BASE_URL`.
-- `DECISIONS.md` D-016 retains COS for binary assets.
-- no alternative object-upload provider SDK exists in the application.
+## Provider protocol
 
-The checked-in legacy example references a VileSaint bucket and is forbidden for this Xiazi work package. Cloud verification requires a separate Xiazi staging bucket. No linked Vercel project or Vercel CLI was available in the isolated worktree, so deployed environment values were neither read nor inferred.
-
-## Provider capability and policy version
-
-Policy template version: `xiazi-cos-immutable-v3`.
-
-Tencent COS provides an atomic no-overwrite request header, `x-cos-forbid-overwrite:true`, and returns `409 FileAlreadyExists` for an existing key. CAM condition `cos:x-cos-forbid-overwrite` can require this header. Official documentation also states that this header is ineffective if versioning has ever been enabled or suspended. The target must therefore be a dedicated bucket that has never enabled versioning, and this state must be verified in staging.
-
-COS Object Lock/WORM is available only to allowlisted customers and cannot be safely or reversibly enabled from this PR. It remains an optional stronger control requiring separate approval.
-
-Official references:
-
-- https://cloud.tencent.com/document/product/436/7749
-- https://intl.cloud.tencent.com/zh/document/product/436/46206
-- https://cloud.tencent.com/document/product/436/55294
-- https://cloud.tencent.com/document/product/436/19884
-- https://cloud.tencent.com/document/product/436/40136
-- https://cloud.tencent.com/document/product/436/40137
-
-## Storage architecture
-
-Immutable keys use:
+Immutable paths use:
 
 ```text
 release-assets/{assetBatchId}/{locale}/{slot}.png
 ```
 
-The application stores and verifies asset batch, topic, locale, SHA-256, content type, byte size, creation time, uploader version, ETag, `AES256` server-side-encryption evidence and a provider version identity or equivalent immutable proof. ETag is never treated as SHA-256.
+Creation requires HTTPS and `x-cos-forbid-overwrite:true`. COS returned `409 FileAlreadyExists` for both same-content and different-content writes to an existing key. The application rereads metadata and bytes and verifies SHA-256, size, content type, ETag, object encryption and the immutable path.
 
-The runtime interface exposes only create, HEAD and read. Creation uses the provider's atomic no-overwrite header, then rereads metadata and bytes to validate SHA-256, size and content type. Same-key/same-content retries are explicit idempotent results; same-key/different-content is a non-retryable conflict.
+The runtime credential can create under `release-assets/` and GET/HEAD for verification. It cannot delete, replace metadata, copy over an existing key, initiate or complete multipart upload, mutate bucket policy, change versioning, change encryption or enable Object Lock. The reader and auditor also fail closed on writes, deletes and policy mutation.
 
-Release staging requires a complete 18-object manifest and a storage verification report with `overwriteDenied=true`, `deleteDenied=true` and `policyVerified=true`. Until a real staging policy is verified, `policyVerified=false` and staging fails closed.
+## Versioning-never-enabled proof
 
-## Credential separation
+`x-cos-forbid-overwrite:true` is not treated as a safety boundary if bucket versioning has ever been enabled or suspended. The following evidence establishes the history for this new staging bucket:
 
-- Application uploader: create-only under the staging `release-assets/` prefix plus HEAD/GET verification. No delete, metadata replacement, copy overwrite, multipart completion, retention, bucket policy or versioning controls.
-- Staging reader: read-only. The protected verifier uses a separate CAM identity to prove read success and write/delete/policy denial. No CDN service identity is included while CDN verification is explicitly deferred; any future CDN grant requires separate review. The staging reader has no write, delete or policy permissions.
-- Multipart fixture: staging-test-only and prefix-limited. It may initiate, upload and abort a multipart session only under the verifier prefix, but cannot complete one. This lets the application attempt a real upload-ID-based multipart overwrite while keeping auditor and reader identities read-only.
-- Break-glass administrator: excluded from runtime and ordinary CI; MFA/independent approval and cloud audit logging required.
+1. CloudAudit records successful `PutBucket` creation by the root administrator at `2026-07-19 23:55:05 +08:00`, region `ap-guangzhou`, with no CAM error.
+2. A CloudAudit query covering bucket creation through the successful verification returned exactly one `PutBucketVersioning` event.
+3. That event occurred at `2026-07-20 14:25:45 +08:00`, was performed by the staging uploader during the negative test and failed with CAM error `11008` (`not authorized`).
+4. The auditor's live `GetBucketVersioning` response contained neither `Enabled` nor `Suspended`; the protected verifier rejects either state.
+5. No successful `PutBucketVersioning` event exists between creation and verification.
 
-## Machine-verifiable results
+The sanitized event export is in `docs/evidence/storage/cloud-audit.sanitized.json`.
 
-Local verification on 2026-07-19 (QClaw Node.js 22 runtime; no cloud credentials):
+## Protected cloud verification
+
+Run `29721577122` checked out `e004f7749cb4f9f19277faf77b3c9290f48ea03c` and completed all three jobs:
+
+| Job | Result | Duration |
+|---|---|---:|
+| Storage protocol and policy | SUCCESS | 1m31s |
+| Protected Tencent COS staging verification | SUCCESS | 1m36s |
+| Release storage fail-closed integration | SUCCESS | 3m01s |
+
+The cloud verifier produced an immutable retained proof object with:
+
+- content SHA-256 `bec5b991d8bacf1fd93a1702ac39dc90157e574e800995d4308acfec578cb5db`;
+- ETag `68c085f81f474ee78d628bbbdc94298f`;
+- 88 bytes, `image/png`;
+- object response encryption `AES256`;
+- no provider version ID, consistent with never-enabled versioning;
+- source readback SHA-256 equal to the uploaded content hash.
+
+The provider returned:
+
+- `409` for same-key/same-content and same-key/different-content replacement attempts;
+- `403` for object and version deletion;
+- `403` for metadata replacement and copy overwrite;
+- `403` for uploader multipart initiate/upload-part and for a real upload-ID-based complete attempt;
+- `403` for policy, versioning, encryption and Object Lock mutation;
+- `403` for reader and auditor write/delete/policy mutation attempts.
+
+The multipart complete result is based on a real upload ID and real part ETag. A fixture identity created the incomplete multipart session but could not complete it; the application attempted completion and was denied; the fixture then aborted the incomplete session. The existing baseline object remained byte-for-byte unchanged.
+
+Machine output is in `docs/evidence/storage/staging-verification.sanitized.json`.
+
+## Local verification
+
+After correcting the negative `PutBucketPolicy` test to send the current valid policy rather than malformed `{}` JSON:
 
 | Gate | Result |
 |---|---|
-| `npm run audit:storage-policy` | passed; `xiazi-cos-immutable-v3` template and deny set accepted |
-| `npm run check` | passed; 20/20 Turbo tasks |
-| Contracts | 2 files, 6 tests passed |
-| Domain | 5 files, 19 tests passed, including 11 immutable-path/manifest tests |
-| Reviewer inherited baseline | 2 files, 20 tests passed |
-| Web | 29 files, 121 tests passed |
-| Storage-focused rerun | 6 files, 27 tests passed |
-| `npm run build` | passed; reviewer and web production builds succeeded |
-| Playwright, one worker and unchanged assertions | 21 passed, 7 staging-only skipped |
+| `npm run audit:storage-policy` | passed, policy v3 |
+| `npm run check -w @xiazi/domain` | 5 files, 19 tests passed |
+| `npm run check -w @xiazi/web` | 29 files, 123 tests passed |
 
-The storage tests cover first create, same-content idempotency, different-content conflict, simultaneous same-key writers, unsupported conditional writes, post-upload SHA-256/size/metadata mismatch, strict immutable URL parsing, complete 18-object manifests, policy-attestation failure, source-object tampering, COS request headers and versioning fail-closed behavior.
+The earlier protected run `29721333624` was rejected because a malformed policy body returned `400`; it was not accepted as denial proof. Commit `e004f77` changed all policy-mutation checks to send a valid, currently applied policy. The final provider result was `403`, which proves authorization denial rather than input rejection.
 
-These results prove the application protocol and local COS adapter behavior. They do **not** prove that a real Tencent account currently enforces the supplied CAM policy.
+## Identity and policy evidence
 
-## Remote CI
+- Sanitized CAM/effective identity grants: `docs/evidence/storage/cam-policies.sanitized.json`
+- Sanitized applied bucket policy: `docs/evidence/storage/bucket-policy.sanitized.json`
+- Break-glass process: `docs/evidence/storage/break-glass.md`
+- Sanitized CloudAudit export: `docs/evidence/storage/cloud-audit.sanitized.json`
 
-Final GitHub Actions run: https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29690056491
+Secrets, complete Secret IDs, account IDs, reusable signed URLs and production identifiers are intentionally excluded.
 
-| Check | Conclusion | Duration |
-|---|---|---|
-| `Storage protocol and policy` | SUCCESS | 1m27s |
-| `Release storage fail-closed integration` | SUCCESS | 3m06s |
-| `Protected Tencent COS staging verification` | SKIPPED | protected manual-only job; no cloud credentials used |
+## Deferred item and remaining decision
 
-This final run validates the head above. Any evidence-only follow-up commit must rerun the same PR checks; the PR check rollup is the final source of truth for the Draft head.
+`STORAGE_CDN_VERIFICATION=skip` was explicitly selected. Machine output records:
 
-## Staging-only verifier
-
-Implemented as `scripts/verify-storage-immutability.mjs`, but deliberately not executed against cloud resources. It requires `STORAGE_ENV=staging`, rejects production-looking bucket/prefix/CDN values, creates a random isolated proof key, never deletes that proof object, never prints credentials and exits nonzero on any failed invariant.
-
-The protected workflow job is manual-only and uses the `release-v2-storage-staging` GitHub Environment. It requires separate application and audit identities. A run attempts all of the following and accepts only the documented denial response codes:
-
-1. first create and source readback;
-2. same-key same-content PUT denial plus idempotent read verification;
-3. same-key different-content PUT denial;
-4. object delete and version delete denial;
-5. metadata-replacing self-copy denial;
-6. copy-over-existing-key denial;
-7. multipart complete denial;
-8. bucket policy, versioning, Object Lock and default-encryption mutation denial by the application identity;
-9. bucket default encryption and object response both prove `AES256`;
-10. read-only and audit identities can read their required scope but cannot upload, delete or mutate policy;
-11. source and CDN SHA-256 equality when `STORAGE_CDN_VERIFICATION=required`.
-
-Authorized staging execution command:
-
-```bash
-STORAGE_ENV=staging \
-STORAGE_CDN_VERIFICATION='skip' \
-COS_BUCKET='<dedicated-xiazi-staging-bucket>' \
-COS_REGION='<region>' \
-STORAGE_APP_SECRET_ID='<create-only-identity>' \
-STORAGE_APP_SECRET_KEY='<redacted>' \
-STORAGE_AUDIT_SECRET_ID='<read-policy-identity>' \
-STORAGE_AUDIT_SECRET_KEY='<redacted>' \
-STORAGE_READER_SECRET_ID='<read-only-object-identity>' \
-STORAGE_READER_SECRET_KEY='<redacted>' \
-STORAGE_FIXTURE_SECRET_ID='<staging-multipart-fixture-identity>' \
-STORAGE_FIXTURE_SECRET_KEY='<redacted>' \
-npm run storage:verify:staging
+```json
+{
+  "cdnVerificationStatus": "not-executed",
+  "cdnSourceHashMatches": null
+}
 ```
 
-Credentials must be injected by the protected environment, never copied into a command transcript or evidence file. CDN equality may be skipped only by the explicit `STORAGE_CDN_VERIFICATION=skip` mode; machine output then records `cdnVerificationStatus=not-executed` and `cdnSourceHashMatches=null`, so the omission cannot be mistaken for a pass.
+Therefore:
 
-## Real cloud verification
+- COS service-side immutability controls: passed;
+- versioning history, encryption, identity separation and CloudAudit: passed;
+- Source/CDN SHA-256 equality: not executed;
+- work package two: **conditional pass**;
+- work package three: **must not start**;
+- production environment touched: **No**.
 
-Not executed. The following remain unchecked:
-
-- dedicated staging COS bucket identity and versioning-never-enabled proof;
-- bucket default SSE-COS `AES256` state and per-object encryption response proof;
-- applied application/CAM and bucket policies;
-- overwrite/delete/version-delete/metadata/copy/multipart denial;
-- inability of application credentials to change policy, versioning or retention;
-- source/CDN SHA-256 equality;
-- CloudAudit or equivalent evidence.
-
-No real bucket key, version ID, ETag or request failure evidence can be supplied until authorized staging-only resources exist.
-
-Work package status remains **conditional pass only**. Work package three must not start until the protected COS staging verification succeeds and the sanitized provider, versioning-history, identity-separation, encryption, CDN equality and CloudAudit evidence is committed against the actual validated head and run.
-
-Production environment touched: **No**. No Supabase migration, Vercel/DNS/environment change, COS policy/bucket operation, Release V2 flag change or historical content/asset write was performed.
-
-Required operator evidence before this work package can pass:
-
-- sanitized bucket identity, region and proof that versioning has never been enabled;
-- SHA-256 of the rendered CAM/bucket policy and the policy audit output;
-- protected workflow run URL and commit SHA;
-- sanitized verifier JSON containing proof key, ETag, storage identity, SHA-256 and denial status codes;
-- source/CDN SHA-256 equality result;
-- CloudAudit export proving which separated identities performed the test;
-- documented break-glass owner, approval path and recovery drill.
-
-## Remaining risks
-
-- The existing legacy environment example points to a VileSaint bucket and cannot be reused.
-- `x-cos-forbid-overwrite` is not a safety boundary on a bucket with enabled or suspended versioning.
-- The repository requires default bucket SSE-COS plus an `AES256` object response, but no real bucket encryption state has been inspected.
-- COS Object Lock is allowlist-only and irreversible; it has not been enabled.
-- Repository tests prove application protocol, not provider-side IAM enforcement.
-- The protected staging workflow has no verified credentials or successful cloud run yet.
-- Work package three must not start until real cloud denial and CDN/source equality evidence are attached.
+PR #13 must remain Draft. Do not merge, enable Release V2, create production credentials, change production DNS/CDN or reuse this staging proof as production authorization.
