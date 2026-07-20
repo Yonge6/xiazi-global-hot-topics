@@ -289,7 +289,7 @@ if (!multipartUnchanged.ok
   throw new Error("MULTIPART_OVERWRITE_CHANGED_OBJECT");
 }
 denials.push(await expectDenied("PUT_BUCKET_POLICY", await request(app, "PUT", "", {
-  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: "{}",
+  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: appliedPolicy,
 })));
 denials.push(await expectDenied("PUT_BUCKET_VERSIONING", await request(app, "PUT", "", {
   query: { versioning: "" }, headers: { "Content-Type": "application/xml" },
@@ -314,7 +314,7 @@ denials.push(await expectDenied("READER_PUT_OBJECT", await request(reader, "PUT"
 })));
 denials.push(await expectDenied("READER_DELETE_OBJECT", await request(reader, "DELETE", key)));
 denials.push(await expectDenied("READER_PUT_BUCKET_POLICY", await request(reader, "PUT", "", {
-  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: "{}",
+  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: appliedPolicy,
 })));
 
 const auditorDeniedKey = `${safe.prefix}/${runId}/auditor-write-denied.png`;
@@ -324,7 +324,7 @@ denials.push(await expectDenied("AUDITOR_PUT_OBJECT", await request(auditor, "PU
 })));
 denials.push(await expectDenied("AUDITOR_DELETE_OBJECT", await request(auditor, "DELETE", key)));
 denials.push(await expectDenied("AUDITOR_PUT_BUCKET_POLICY", await request(auditor, "PUT", "", {
-  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: "{}",
+  query: { policy: "" }, headers: { "Content-Type": "application/json" }, body: appliedPolicy,
 })));
 
 const idempotentRead = await request(app, "GET", key);
