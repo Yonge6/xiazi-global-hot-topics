@@ -50,6 +50,7 @@ function requiredEnv(name: string) {
 
 export function cosImmutableStoreFromEnv() {
   const configuredTimeout = Number.parseInt(process.env.COS_REQUEST_TIMEOUT_MS || "25000", 10);
+  const configuredAttempts = Number.parseInt(process.env.COS_REQUEST_ATTEMPTS || "3", 10);
   return new CosImmutableAssetStore({
     secretId: requiredEnv("COS_SECRET_ID"),
     secretKey: requiredEnv("COS_SECRET_KEY"),
@@ -59,6 +60,7 @@ export function cosImmutableStoreFromEnv() {
     versioningState: (process.env.COS_IMMUTABLE_VERSIONING_STATE || "unknown") as
       | "never-enabled" | "enabled" | "suspended" | "unknown",
     requestTimeoutMs: configuredTimeout,
+    requestAttempts: configuredAttempts,
   });
 }
 

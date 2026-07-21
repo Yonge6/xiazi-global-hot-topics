@@ -24,6 +24,13 @@ type UploadOptions = {
   policy?: StoragePolicyAttestation;
   now?: () => Date;
   uploaderVersion?: string;
+  onProgress?: (progress: {
+    completed: number;
+    total: number;
+    key: string;
+    created: boolean;
+    idempotent: boolean;
+  }) => void;
 };
 
 function slotKey(topicId: string, locale: ImmutableAssetLocale) {
@@ -71,6 +78,13 @@ export async function uploadImmutableReleasePosters(
     objects.push(result.object);
     if (result.created) createdCount += 1;
     if (result.idempotent) idempotentCount += 1;
+    options.onProgress?.({
+      completed: objects.length,
+      total: uploads.length,
+      key: result.object.key,
+      created: result.created,
+      idempotent: result.idempotent,
+    });
   }
   assertCompleteImmutableAssetManifest(issue, assetBatchId, objects);
   const posters: PosterCandidate[] = objects.map((object) => ({

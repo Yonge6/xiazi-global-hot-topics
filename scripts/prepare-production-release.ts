@@ -62,6 +62,9 @@ async function main() {
 
   const uploaded = await uploadImmutableReleasePosters(issue, assetBatchId, uploads, {
     uploaderVersion: `xiazi-production-rollout-${variant.toLowerCase()}-${required("PRODUCTION_COMMIT_SHA").slice(0, 12)}`,
+    onProgress: ({ completed, total, key, created, idempotent }) => {
+      console.error(`[production-upload] ${completed}/${total} ${key} created=${created} idempotent=${idempotent}`);
+    },
   });
   const payload = {
     issue,

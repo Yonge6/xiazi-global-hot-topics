@@ -90,6 +90,21 @@ function store(versioningState: "never-enabled" | "enabled" = "never-enabled") {
   });
 }
 
+function storeWithFetch(fetchImpl: typeof fetch, requestAttempts = 3) {
+  return new CosImmutableAssetStore({
+    secretId: "test-id",
+    secretKey: "test-secret",
+    bucket: "xiazi-staging-0000000000",
+    region: "ap-hongkong",
+    publicOrigin: endpoint,
+    endpointOrigin: endpoint,
+    versioningState: "never-enabled",
+    fetchImpl,
+    requestAttempts,
+    retryBaseDelayMs: 0,
+  });
+}
+
 const assetBatchId = "asset_20260720_primary";
 function input(content = "simulated png bytes"): ImmutableCreateInput {
   return {
@@ -149,5 +164,63 @@ describe("Tencent COS create-only adapter against local simulator", () => {
       versioningState: "never-enabled",
       requestTimeoutMs: 300_001,
     })).toThrow(/COS_REQUEST_TIMEOUT_INVALID/);
+  });
+
+  it("retries a transient timeout without changing the immutable key", async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (url, init) => {
+      calls += 1;
+      if (calls === 1) throw new DOMException("The operation was aborted due to timeout", "TimeoutError");
+      return fetch(url, init);
+    };
+    const result = await createVerifiedImmutableObject(storeWithFetch(fetchImpl), input());
+    expect(result.created).toBe(true);
+    expect(calls).toBeGreaterThan(1);
+    expect(result.object.key).toBe(input().key);
+  });
+
+  it("retries transient COS status codes", async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (url, init) => {
+      calls += 1;
+      if (calls === 1) return new Response("busy", { status: 503 });
+      return fetch(url, init);
+    };
+    const result = await createVerifiedImmutableObject(storeWithFetch(fetchImpl), input());
+    expect(result.created).toBe(true);
+    expect(calls).toBeGreaterThan(1);
+  });
+
+  it("does not retry a non-transient authorization failure", async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async () => {
+      calls += 1;
+      return new Response("forbidden", { status: 403 });
+    };
+    await expect(createVerifiedImmutableObject(storeWithFetch(fetchImpl), input()))
+      .rejects.toThrow(/COS_IMMUTABLE_HEAD_FAILED:403/);
+    expect(calls).toBe(1);
+  });
+
+  it("fails with the object key and attempt count after transient retries are exhausted", async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async () => {
+      calls += 1;
+      throw new DOMException("The operation was aborted due to timeout", "TimeoutError");
+    };
+    await expect(createVerifiedImmutableObject(storeWithFetch(fetchImpl, 2), input()))
+      .rejects.toThrow(new RegExp(`COS_REQUEST_FAILED:HEAD:${input().key}:attempt=2/2:TIMEOUTERROR`));
+    expect(calls).toBe(2);
+  });
+
+  it("fails with the terminal transient COS status after bounded retries", async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async () => {
+      calls += 1;
+      return new Response("busy", { status: 503 });
+    };
+    await expect(createVerifiedImmutableObject(storeWithFetch(fetchImpl, 2), input()))
+      .rejects.toThrow(new RegExp(`COS_REQUEST_FAILED:HEAD:${input().key}:attempt=2/2:HTTP_503`));
+    expect(calls).toBe(2);
   });
 });

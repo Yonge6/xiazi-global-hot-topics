@@ -1,4 +1,5 @@
 import { createHash, createHmac } from "node:crypto";
+import { setTimeout as delay } from "node:timers/promises";
 
 import type { ImmutableAssetStore, ImmutableCreateInput, ImmutableObjectMetadata } from "./immutable-asset-store";
 import { ImmutableAssetError } from "./immutable-asset-store";
@@ -13,6 +14,8 @@ export type CosImmutableStoreConfig = {
   versioningState: "never-enabled" | "enabled" | "suspended" | "unknown";
   fetchImpl?: typeof fetch;
   requestTimeoutMs?: number;
+  requestAttempts?: number;
+  retryBaseDelayMs?: number;
 };
 
 function hmacSha1(key: string, value: string) {
@@ -60,6 +63,38 @@ function cleanEtag(value: string | null) {
   return (value || "").replace(/^"|"$/g, "");
 }
 
+const TRANSIENT_STATUS_CODES = new Set([408, 425, 429, 500, 502, 503, 504]);
+const TRANSIENT_NETWORK_CODES = new Set([
+  "EAI_AGAIN",
+  "ECONNREFUSED",
+  "ECONNRESET",
+  "ENETUNREACH",
+  "ETIMEDOUT",
+  "UND_ERR_BODY_TIMEOUT",
+  "UND_ERR_CONNECT_TIMEOUT",
+  "UND_ERR_HEADERS_TIMEOUT",
+  "UND_ERR_SOCKET",
+]);
+
+function errorCode(error: unknown) {
+  if (!(error instanceof Error)) return "UNKNOWN";
+  if (error.name === "AbortError" || error.name === "TimeoutError") return error.name.toUpperCase();
+  const cause = error.cause;
+  if (cause && typeof cause === "object" && "code" in cause && typeof cause.code === "string") {
+    return cause.code;
+  }
+  return error.name.toUpperCase();
+}
+
+function isTransientNetworkError(error: unknown) {
+  if (!(error instanceof Error)) return false;
+  const code = errorCode(error);
+  return error instanceof TypeError
+    || code === "ABORTERROR"
+    || code === "TIMEOUTERROR"
+    || TRANSIENT_NETWORK_CODES.has(code);
+}
+
 export class CosImmutableAssetStore implements ImmutableAssetStore {
   readonly provider = "tencent-cos" as const;
   readonly publicOrigin: string;
@@ -67,6 +102,8 @@ export class CosImmutableAssetStore implements ImmutableAssetStore {
   private readonly endpoint: URL;
   private readonly fetchImpl: typeof fetch;
   private readonly requestTimeoutMs: number;
+  private readonly requestAttempts: number;
+  private readonly retryBaseDelayMs: number;
 
   constructor(private readonly config: CosImmutableStoreConfig) {
     if (!config.secretId || !config.secretKey || !config.bucket || !config.region) {
@@ -91,10 +128,22 @@ export class CosImmutableAssetStore implements ImmutableAssetStore {
     this.conditionalCreateSupported = config.versioningState === "never-enabled";
     this.fetchImpl = config.fetchImpl || fetch;
     this.requestTimeoutMs = config.requestTimeoutMs ?? 25_000;
+    this.requestAttempts = config.requestAttempts ?? 3;
+    this.retryBaseDelayMs = config.retryBaseDelayMs ?? 250;
     if (!Number.isSafeInteger(this.requestTimeoutMs)
       || this.requestTimeoutMs < 5_000
       || this.requestTimeoutMs > 300_000) {
       throw new ImmutableAssetError("IMMUTABLE_ASSET_POLICY_UNVERIFIED", "COS_REQUEST_TIMEOUT_INVALID");
+    }
+    if (!Number.isSafeInteger(this.requestAttempts)
+      || this.requestAttempts < 1
+      || this.requestAttempts > 5) {
+      throw new ImmutableAssetError("IMMUTABLE_ASSET_POLICY_UNVERIFIED", "COS_REQUEST_ATTEMPTS_INVALID");
+    }
+    if (!Number.isSafeInteger(this.retryBaseDelayMs)
+      || this.retryBaseDelayMs < 0
+      || this.retryBaseDelayMs > 5_000) {
+      throw new ImmutableAssetError("IMMUTABLE_ASSET_POLICY_UNVERIFIED", "COS_RETRY_DELAY_INVALID");
     }
   }
 
@@ -102,17 +151,35 @@ export class CosImmutableAssetStore implements ImmutableAssetStore {
     const pathname = encodePath(key);
     const url = new URL(pathname, this.endpoint);
     const host = this.endpoint.host;
-    return this.fetchImpl(url, {
-      ...init,
-      method,
-      headers: {
-        Authorization: authorization(this.config.secretId, this.config.secretKey, method, pathname, host),
-        Host: host,
-        ...init.headers,
-      },
-      redirect: "error",
-      signal: init.signal || AbortSignal.timeout(this.requestTimeoutMs),
-    });
+    for (let attempt = 1; attempt <= this.requestAttempts; attempt += 1) {
+      try {
+        const response = await this.fetchImpl(url, {
+          ...init,
+          method,
+          headers: {
+            Authorization: authorization(this.config.secretId, this.config.secretKey, method, pathname, host),
+            Host: host,
+            ...init.headers,
+          },
+          redirect: "error",
+          signal: init.signal || AbortSignal.timeout(this.requestTimeoutMs),
+        });
+        if (!TRANSIENT_STATUS_CODES.has(response.status)) return response;
+        if (attempt === this.requestAttempts) {
+          await response.body?.cancel();
+          throw new Error(`COS_REQUEST_FAILED:${method}:${key}:attempt=${attempt}/${this.requestAttempts}:HTTP_${response.status}`);
+        }
+        await response.body?.cancel();
+      } catch (error) {
+        if (error instanceof Error && error.message.startsWith("COS_REQUEST_FAILED:")) throw error;
+        if (!isTransientNetworkError(error) || attempt === this.requestAttempts) {
+          const code = errorCode(error);
+          throw new Error(`COS_REQUEST_FAILED:${method}:${key}:attempt=${attempt}/${this.requestAttempts}:${code}`);
+        }
+      }
+      await delay(this.retryBaseDelayMs * (2 ** (attempt - 1)));
+    }
+    throw new Error(`COS_REQUEST_FAILED:${method}:${key}:RETRY_EXHAUSTED`);
   }
 
   async createObject(input: ImmutableCreateInput & { sha256: string }) {

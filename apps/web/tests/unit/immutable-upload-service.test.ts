@@ -28,8 +28,10 @@ const uploads = issue.topics.flatMap((topic) => (["zh", "en"] as const).map((loc
 describe("immutable 18-poster upload service", () => {
   it("creates a complete manifest and makes retries explicitly idempotent", async () => {
     const store = new MemoryImmutableAssetStore();
+    const progress: string[] = [];
     const first = await uploadImmutableReleasePosters(issue, assetBatchId, uploads, {
       store, policy, now: () => new Date("2026-07-20T00:00:00.000Z"),
+      onProgress: ({ completed, total, key }) => progress.push(`${completed}/${total}:${key}`),
     });
     const retry = await uploadImmutableReleasePosters(issue, assetBatchId, uploads, {
       store, policy, now: () => new Date("2026-07-20T01:00:00.000Z"),
@@ -39,6 +41,8 @@ describe("immutable 18-poster upload service", () => {
     expect(first).toMatchObject({ createdCount: 18, idempotentCount: 0 });
     expect(retry).toMatchObject({ createdCount: 0, idempotentCount: 18 });
     expect(retry.objectManifestHash).toBe(first.objectManifestHash);
+    expect(progress).toHaveLength(18);
+    expect(progress.at(-1)).toMatch(/^18\/18:release-assets\//);
   });
 
   it("rejects an incomplete batch before writing", async () => {
