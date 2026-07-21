@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import sharp from "sharp";
 
 const root = process.cwd();
@@ -40,6 +41,14 @@ const localized = (story, locale) => {
   };
 };
 
+const deterministicUuid = (seed) => {
+  const bytes = Buffer.from(createHash("sha256").update(seed).digest().subarray(0, 16));
+  bytes[6] = (bytes[6] & 0x0f) | 0x50;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+  const hex = bytes.toString("hex");
+  return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+};
+
 const previousIssueDate = new Date(`${issueDate}T00:00:00Z`);
 previousIssueDate.setUTCDate(previousIssueDate.getUTCDate() - 1);
 const previousIssueSlug = previousIssueDate.toISOString().slice(0, 10);
@@ -49,9 +58,10 @@ const base = JSON.parse(
     "utf8",
   ),
 );
-const issueId = `issue-${issueDate}`;
+const issueId = deterministicUuid(`xiazi:issue:${issueDate}`);
 const topics = stories.map((story, index) => {
-  const id = `topic-${issueDate}-${String(index + 1).padStart(2, "0")}`;
+  const number = String(index + 1).padStart(2, "0");
+  const id = deterministicUuid(`xiazi:topic:${issueDate}:${number}`);
   return {
     ...base.topics[index],
     id,
@@ -74,7 +84,9 @@ const topics = stories.map((story, index) => {
       "en-US": localized(story, "en-US"),
     },
     sources: story.sources.map((source, sourceIndex) => ({
-      id: `source-${issueDate}-${String(index + 1).padStart(2, "0")}-${sourceIndex + 1}`,
+      id: deterministicUuid(
+        `xiazi:source:${issueDate}:${number}:${sourceIndex + 1}:${source.url}`,
+      ),
       topicId: id,
       title: source.title,
       publisher: source.publisher,
