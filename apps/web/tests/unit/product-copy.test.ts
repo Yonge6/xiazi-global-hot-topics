@@ -24,7 +24,7 @@ describe("overview plus eight-story product rules", () => {
     expect(overviewTopics).toHaveLength(1);
     expect(overviewTopics[0].rank).toBe(1);
     expect(newsTopics).toHaveLength(8);
-    expect(newsTopics.some((topic) => topic.slug.includes("world-cup"))).toBe(true);
+    expect(newsTopics[0]?.localizations["en-US"].categoryLabel).toMatch(/open hotspot/i);
   });
 
   it("uses eight-story public copy without regressing to nine-story wording", () => {

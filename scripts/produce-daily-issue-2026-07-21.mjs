@@ -40,8 +40,14 @@ const localized = (story, locale) => {
   };
 };
 
+const previousIssueDate = new Date(`${issueDate}T00:00:00Z`);
+previousIssueDate.setUTCDate(previousIssueDate.getUTCDate() - 1);
+const previousIssueSlug = previousIssueDate.toISOString().slice(0, 10);
 const base = JSON.parse(
-  await fs.readFile(path.join(root, "data/archive/2026-07-20.json"), "utf8"),
+  await fs.readFile(
+    path.join(root, `data/archive/${previousIssueSlug}.json`),
+    "utf8",
+  ),
 );
 const issueId = `issue-${issueDate}`;
 const topics = stories.map((story, index) => {
@@ -87,11 +93,12 @@ const issue = {
   id: issueId,
   slug: issueDate,
   issueDate,
-  assetVersion: `issue-${issueDate}-style-atlas-099-image2-v1`,
+  assetVersion:
+    spec.assetVersion || `issue-${issueDate}-style-atlas-099-chatgpt-v1`,
   status: "published",
   slotHour: 5,
   beijingTimestamp: `${issueDate}T05:00:00+08:00`,
-  gmtTimestamp: "2026-07-20T21:00:00Z",
+  gmtTimestamp: new Date(`${issueDate}T05:00:00+08:00`).toISOString(),
   featuredTopicId: topics[0].id,
   style: {
     name: "Style Atlas #99 Isometric Illustration",

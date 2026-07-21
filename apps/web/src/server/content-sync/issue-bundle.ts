@@ -56,12 +56,6 @@ export function validateIssueForImport(value: unknown): { issue: Issue; warnings
     throw new Error(`${issue.issueDate}: overview topic must rank first`);
   }
 
-  const worldCup = issue.topics.filter((topic) => topic.category === "sports" && topic.slug.includes("world-cup"));
-  const expectedWorldCupRank = overview.length === 1 ? 2 : 1;
-  if (worldCup.length > 0 && !worldCup.some((topic) => topic.rank === expectedWorldCupRank)) {
-    throw new Error(`${issue.issueDate}: World Cup topic must be the first news topic`);
-  }
-  if (worldCup.length === 0) warnings.push(`${issue.issueDate}: no World Cup topic found`);
   assertSameInstant(issue);
 
   return { issue, warnings };

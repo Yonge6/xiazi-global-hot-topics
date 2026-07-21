@@ -9,8 +9,8 @@ describe("mock issue", () => {
     expect(mockIssue.topics.map((topic) => topic.rank)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
   });
 
-  it("contains a World Cup topic in every edition", () => {
-    expect(mockIssue.topics.some((topic) => topic.slug.includes("world-cup"))).toBe(true);
+  it("uses the open-hotspot lane for the first news topic", () => {
+    expect(mockIssue.topics[1]?.localizations["en-US"].categoryLabel).toMatch(/open hotspot/i);
   });
 
   it("uses a Fact/View headline separator in both locales", () => {

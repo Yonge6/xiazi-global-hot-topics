@@ -118,7 +118,7 @@ export function validateIssue(issue, options = {}) {
 
   const fixedSlots = [
     { rank: 1, id: "SLOT-001", zh: /总览/, en: /overview/i },
-    { rank: 2, id: "SLOT-002", zh: /世界杯/, en: /world cup/i },
+    { rank: 2, id: "SLOT-002", zh: /开放热点/, en: /open hotspot/i },
     { rank: 3, id: "SLOT-003", zh: /人工智能|\bAI\b/i, en: /artificial intelligence|\bAI\b/i },
     { rank: 4, id: "SLOT-004", zh: /一人公司|\bOPC\b/i, en: /one[- ]person|solo|\bOPC\b/i },
   ];
