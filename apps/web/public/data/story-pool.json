@@ -753,13 +753,13 @@
   {
     "storyId": "xzs-us-iran-hormuz-blockade-20260715",
     "storyStatus": "followup",
-    "followupDay": 3,
-    "informationIncrementScore": 96,
+    "followupDay": 4,
+    "informationIncrementScore": 92,
     "firstSeenDate": "2026-07-15",
-    "lastSeenDate": "2026-07-17",
-    "lastIssueDate": "2026-07-17",
-    "lastTopicSlug": "us-iran-hormuz-sixth-night",
-    "slug": "us-iran-hormuz-sixth-night"
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "brent-oil-above-90-gulf-escalation",
+    "slug": "brent-oil-above-90-gulf-escalation"
   },
   {
     "storyId": "xzs-typhoon-bavi-northeast-china-20260715",
@@ -1255,5 +1255,82 @@
     "lastIssueDate": "2026-07-20",
     "lastTopicSlug": "nyc-legionnaires-second-death-ues",
     "slug": "nyc-legionnaires-second-death-ues"
+  },
+  {
+    "storyId": "xzs-world-cup-spain-argentina-final-20260721",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 100,
+    "firstSeenDate": "2026-07-21",
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "world-cup-spain-argentina-final",
+    "slug": "world-cup-spain-argentina-final"
+  },
+  {
+    "storyId": "xzs-eu-ai-act-transparency-guidelines-20260721",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 96,
+    "firstSeenDate": "2026-07-21",
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "eu-ai-act-transparency-guidelines",
+    "slug": "eu-ai-act-transparency-guidelines"
+  },
+  {
+    "storyId": "xzs-nas-one-photo-ai-business-20260721",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 88,
+    "firstSeenDate": "2026-07-21",
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "nas-one-photo-ai-business",
+    "slug": "nas-one-photo-ai-business"
+  },
+  {
+    "storyId": "xzs-russia-italy-diplomatic-expulsions-20260721",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 86,
+    "firstSeenDate": "2026-07-21",
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "russia-italy-diplomatic-expulsions",
+    "slug": "russia-italy-diplomatic-expulsions"
+  },
+  {
+    "storyId": "xzs-canada-pakistan-trade-reset-20260721",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 84,
+    "firstSeenDate": "2026-07-21",
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "canada-pakistan-trade-reset",
+    "slug": "canada-pakistan-trade-reset"
+  },
+  {
+    "storyId": "xzs-ucsd-igi-genome-editing-partnership-20260721",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 87,
+    "firstSeenDate": "2026-07-21",
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "ucsd-igi-genome-editing-partnership",
+    "slug": "ucsd-igi-genome-editing-partnership"
+  },
+  {
+    "storyId": "xzs-who-pabs-annex-negotiations-20260721",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 90,
+    "firstSeenDate": "2026-07-21",
+    "lastSeenDate": "2026-07-21",
+    "lastIssueDate": "2026-07-21",
+    "lastTopicSlug": "who-pabs-annex-negotiations-july2026",
+    "slug": "who-pabs-annex-negotiations-july2026"
   }
 ]

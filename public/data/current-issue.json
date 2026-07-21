@@ -1,22 +1,22 @@
 {
-  "id": "issue-2026-07-20",
-  "slug": "2026-07-20",
-  "issueDate": "2026-07-20",
-  "assetVersion": "issue-2026-07-20-style-atlas-098-image2-v1",
+  "id": "issue-2026-07-21",
+  "slug": "2026-07-21",
+  "issueDate": "2026-07-21",
+  "assetVersion": "issue-2026-07-21-style-atlas-099-image2-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-20T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-19T21:00:00Z",
-  "featuredTopicId": "topic-2026-07-20-01",
+  "beijingTimestamp": "2026-07-21T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-20T21:00:00Z",
+  "featuredTopicId": "topic-2026-07-21-01",
   "style": {
-    "name": "Style Atlas #98 Scientific Illustration",
-    "zhName": "Style Atlas #98 科学插画风格",
-    "description": "Sunny premium scientific editorial illustration with warm ivory paper, precise ink lines, navy and terracotta accents, specimen-like diagrams and clear hierarchy."
+    "name": "Style Atlas #99 Isometric Illustration",
+    "zhName": "Style Atlas #99 等距插画风格",
+    "description": "Sunlit premium isometric editorial miniatures on warm ivory, with precise stepped geometry, navy and terracotta accents, realistic materials and clear hierarchy."
   },
   "topics": [
     {
-      "id": "topic-2026-07-20-01",
-      "issueId": "issue-2026-07-20",
+      "id": "topic-2026-07-21-01",
+      "issueId": "issue-2026-07-21",
       "slug": "overview",
       "rank": 1,
       "category": "international",
@@ -26,40 +26,40 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-overview-20260720",
+      "storyId": "xzs-overview-20260721",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "十球铜牌战落幕",
-          "headlineView": "世界在交接与风险边界间前行",
-          "headlineFull": "十球铜牌战落幕；世界在交接与风险边界间前行",
-          "intro": "世界杯铜牌战、AI价值与OPC信心，与美伊冲突、英国换帅、秘鲁地震、中国经济和纽约疫情，共同指向治理、韧性与可验证的结果。",
-          "xiaziQuote": "变化越快，越要用清楚的边界、可靠的系统和能落地的指标判断进展。",
-          "doudouQuote": "今天信息很多，先把事实排好队。",
+          "headlineFact": "西班牙登顶，AI规则落地",
+          "headlineView": "世界在效率、开放与风险之间重排",
+          "headlineFull": "西班牙登顶，AI规则落地；世界在效率、开放与风险之间重排",
+          "intro": "西班牙世界杯夺冠、欧盟AI透明规则与Nas.com一人创业工具，与俄意外交摩擦、加巴经贸重启、基因编辑合作、疫情协议谈判和油价冲击，共同指向效率、开放与风险的再平衡。",
+          "xiaziQuote": "工具和连接越快，越要把规则、信任与风险管理做在增长之前。",
+          "doudouQuote": "世界按下快进键，护栏也得跟上。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Today's Overview",
-          "headlineFact": "A ten-goal bronze match closes",
-          "headlineView": "the world moves through handovers and risk limits",
-          "headlineFull": "A ten-goal bronze match closes; the world tests handovers and risk limits",
-          "intro": "The World Cup bronze match, AI value and OPC confidence join U.S.-Iran escalation, Britain's handover, Peru's earthquake, China's economy and New York's outbreak in one theme: governance, resilience and verifiable outcomes.",
-          "xiaziQuote": "The faster change moves, the more we need clear boundaries, reliable systems and measurable results.",
-          "doudouQuote": "Lots of news today; line up the facts first.",
+          "headlineFact": "Spain lift the trophy as AI rules arrive",
+          "headlineView": "the world rebalances speed, openness and risk",
+          "headlineFull": "Spain lift the trophy as AI rules arrive; the world rebalances speed, openness and risk",
+          "intro": "Spain's World Cup win, EU AI transparency rules and Nas.com's solo-business tools join Russia-Italy expulsions, Canada-Pakistan ties, genome editing, pandemic talks and an oil shock in one theme: balancing speed, openness and risk.",
+          "xiaziQuote": "As tools and connections accelerate, rules, trust and risk control must come before growth.",
+          "doudouQuote": "The world pressed fast-forward; the guardrails need to keep up.",
           "footerTakeaway": "Keyword: Today's Overview."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-20-01-1",
-          "topicId": "topic-2026-07-20-01",
-          "title": "England men achieve best World Cup finish since 1966",
-          "publisher": "England Football",
-          "url": "https://www.englandfootball.com/articles/2026/Jul/18/england-men-achieve-best-world-cup-finish-since-1966-20261807",
-          "publishedAt": "2026-07-20T00:00:00Z",
+          "id": "source-2026-07-21-01-1",
+          "topicId": "topic-2026-07-21-01",
+          "title": "Spain 1-0 Argentina | World Cup 2026 report and highlights",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-argentina-final-report-highlights",
+          "publishedAt": "2026-07-21T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -68,15 +68,13 @@
       ]
     },
     {
-      "id": "topic-2026-07-20-02",
-      "issueId": "issue-2026-07-20",
-      "slug": "world-cup-england-france-bronze",
+      "id": "topic-2026-07-21-02",
+      "issueId": "issue-2026-07-21",
+      "slug": "world-cup-spain-argentina-final",
       "rank": 2,
       "category": "sports",
       "region": "Global",
       "countryCodes": [
-        "GB",
-        "FR",
         "ES",
         "AR"
       ],
@@ -84,52 +82,52 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 97,
-      "storyId": "xzs-world-cup-england-france-bronze-20260720",
+      "storyId": "xzs-world-cup-spain-argentina-final-20260721",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 100,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "世界杯日报",
-          "headlineFact": "英格兰6比4击败法国获季军",
-          "headlineView": "决赛结果留到下一期",
-          "headlineFull": "英格兰6比4击败法国获季军；决赛结果留到下一期",
-          "intro": "北京时间7月19日05:00至20日05:00，英格兰6比4战胜法国获得季军，萨卡上演帽子戏法。西班牙对阿根廷决赛在截止时仍未完赛，结果不计入本期。",
-          "xiaziQuote": "固定窗口让每日赛果可比较，热度不能替代统计边界。",
-          "doudouQuote": "十个进球够热闹，截止线还是要守。",
+          "headlineFact": "西班牙加时1比0击败阿根廷",
+          "headlineView": "冠军属于能把控制转成一击的球队",
+          "headlineFull": "西班牙加时1比0击败阿根廷；冠军属于能把控制转成一击的球队",
+          "intro": "北京时间7月20日05:00至21日05:00，窗口内唯一完赛是世界杯决赛：费兰·托雷斯第106分钟破门，西班牙加时1比0击败阿根廷，队史第二次夺冠。",
+          "xiaziQuote": "决赛把耐心压缩成一次执行，控制比赛最终仍要落到得分。",
+          "doudouQuote": "等了106分钟，这一脚把奖杯送到西班牙。",
           "footerTakeaway": "今日关键词：世界杯日报。"
         },
         "en-US": {
           "categoryLabel": "World Cup Daily",
-          "headlineFact": "England beat France 6-4 for bronze",
-          "headlineView": "the final belongs to the next issue",
-          "headlineFull": "England beat France 6-4 for bronze; the final belongs to the next issue",
-          "intro": "From 05:00 Jul 19 to 05:00 Jul 20 Beijing time, England beat France 6-4 for bronze as Bukayo Saka scored a hat-trick. Spain-Argentina was unfinished at the cutoff and is excluded.",
-          "xiaziQuote": "A fixed window keeps daily results comparable; excitement cannot replace the cutoff.",
-          "doudouQuote": "Ten goals were plenty; the deadline still stands.",
+          "headlineFact": "Spain beat Argentina 1-0 after extra time",
+          "headlineView": "control matters only when it becomes a goal",
+          "headlineFull": "Spain beat Argentina 1-0 after extra time; control matters only when it becomes a goal",
+          "intro": "The only match completed in the Beijing-time window was the World Cup final. Ferran Torres scored in the 106th minute as Spain beat Argentina 1-0 after extra time for a second title.",
+          "xiaziQuote": "A final compresses patience into execution; control still has to become a goal.",
+          "doudouQuote": "After 106 minutes, one strike sent the trophy to Spain.",
           "footerTakeaway": "Keyword: World Cup Daily."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-20-02-1",
-          "topicId": "topic-2026-07-20-02",
-          "title": "England men achieve best World Cup finish since 1966",
-          "publisher": "England Football",
-          "url": "https://www.englandfootball.com/articles/2026/Jul/18/england-men-achieve-best-world-cup-finish-since-1966-20261807",
-          "publishedAt": "2026-07-20T00:00:00Z",
+          "id": "source-2026-07-21-02-1",
+          "topicId": "topic-2026-07-21-02",
+          "title": "Spain 1-0 Argentina | World Cup 2026 report and highlights",
+          "publisher": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-argentina-final-report-highlights",
+          "publishedAt": "2026-07-21T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "source-2026-07-20-02-2",
-          "topicId": "topic-2026-07-20-02",
-          "title": "Saka hat-trick seals 6-4 England win over France",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/football/2026/jul/19/england-france-world-cup-third-place-playoff-match-report",
-          "publishedAt": "2026-07-20T00:00:00Z",
+          "id": "source-2026-07-21-02-2",
+          "topicId": "topic-2026-07-21-02",
+          "title": "Spain wins the World Cup by beating Argentina 1-0 on Ferran Torres' goal in extra time",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/fccc26aa12d9226e63d06b601b770617",
+          "publishedAt": "2026-07-21T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
@@ -138,53 +136,53 @@
       ]
     },
     {
-      "id": "topic-2026-07-20-03",
-      "issueId": "issue-2026-07-20",
-      "slug": "openai-useful-intelligence-scorecard",
+      "id": "topic-2026-07-21-03",
+      "issueId": "issue-2026-07-21",
+      "slug": "eu-ai-act-transparency-guidelines",
       "rank": 3,
       "category": "technology",
-      "region": "Global",
+      "region": "Europe",
       "countryCodes": [
-        "US"
+        "EU"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 96,
-      "storyId": "xzs-openai-useful-intelligence-scorecard-20260720",
+      "storyId": "xzs-eu-ai-act-transparency-guidelines-20260721",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 92,
+      "informationIncrementScore": 96,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "AI热点",
-          "headlineFact": "OpenAI提出AI价值四项记分卡",
-          "headlineView": "Token低价不等于任务便宜",
-          "headlineFull": "OpenAI提出AI价值四项记分卡；Token低价不等于任务便宜",
-          "intro": "OpenAI建议企业用有用工作量、成功任务成本、可靠性和规模价值衡量AI投入，把注意力从每Token价格转向真正完成且可用的成果。",
-          "xiaziQuote": "AI采购真正要算的是一次成功交付的总成本，包括重试、复核和返工。",
-          "doudouQuote": "便宜的Token若要改五遍，也可能最贵。",
+          "headlineFact": "欧盟发布AI透明义务指南",
+          "headlineView": "生成能力正在绑定可识别责任",
+          "headlineFull": "欧盟发布AI透明义务指南；生成能力正在绑定可识别责任",
+          "intro": "欧委会发布AI法案第50条透明义务指南，8月2日起适用。互动式AI需告知用户，AI生成或篡改内容要有机器可读标记，深度伪造与公共事务内容也须披露。",
+          "xiaziQuote": "AI进入规模化应用后，可信度不只来自效果，也来自能否说明来源与责任。",
+          "doudouQuote": "会生成还不够，得让人看得出是谁生成的。",
           "footerTakeaway": "今日关键词：AI热点。"
         },
         "en-US": {
           "categoryLabel": "AI Watch",
-          "headlineFact": "OpenAI proposes four measures for AI value",
-          "headlineView": "cheap tokens do not mean cheap outcomes",
-          "headlineFull": "OpenAI proposes four AI-value measures; cheap tokens do not mean cheap outcomes",
-          "intro": "OpenAI says companies should measure useful work, cost per successful task, dependability and value at scale, shifting attention from token price to outcomes people can actually use.",
-          "xiaziQuote": "The real AI cost includes retries, review and rework needed for one successful delivery.",
-          "doudouQuote": "A cheap token can be expensive after five rewrites.",
+          "headlineFact": "EU issues AI transparency guidelines",
+          "headlineView": "generative power now carries visible duties",
+          "headlineFull": "EU issues AI transparency guidelines; generative power now carries visible duties",
+          "intro": "The Commission issued guidance for AI Act Article 50 duties applying August 2. Interactive AI must notify users, while generated content, deepfakes and some public-interest material require marking or disclosure.",
+          "xiaziQuote": "At scale, AI earns trust not only through results but by making origins and responsibility legible.",
+          "doudouQuote": "Generating is not enough; people need to know who did it.",
           "footerTakeaway": "Keyword: AI Watch."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-20-03-1",
-          "topicId": "topic-2026-07-20-03",
-          "title": "A scorecard for the AI age",
-          "publisher": "OpenAI",
-          "url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
-          "publishedAt": "2026-07-20T00:00:00Z",
+          "id": "source-2026-07-21-03-1",
+          "topicId": "topic-2026-07-21-03",
+          "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+          "publisher": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+          "publishedAt": "2026-07-21T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -193,336 +191,214 @@
       ]
     },
     {
-      "id": "topic-2026-07-20-04",
-      "issueId": "issue-2026-07-20",
-      "slug": "nfib-small-business-optimism-june-2026",
+      "id": "topic-2026-07-21-04",
+      "issueId": "issue-2026-07-21",
+      "slug": "nas-one-photo-ai-business",
       "rank": 4,
       "category": "business",
-      "region": "North America",
+      "region": "Global",
       "countryCodes": [
+        "SG",
         "US"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 95,
-      "storyId": "xzs-nfib-small-business-optimism-june-2026-20260720",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 82,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "OPC一人公司",
-          "headlineFact": "美国小企业乐观指数升至97.4",
-          "headlineView": "回暖不等于现金流无忧",
-          "headlineFull": "美国小企业乐观指数升至97.4；回暖不等于现金流无忧",
-          "intro": "NFIB称6月小企业乐观指数上升2.1点至97.4，接近52年均值；不确定性仍高，32%的受访企业报告岗位难以招满。",
-          "xiaziQuote": "一人公司先看需求、现金流与交付，不要把宏观回暖直接当成自己的订单。",
-          "doudouQuote": "信心回来了，账单可没休假。",
-          "footerTakeaway": "今日关键词：OPC一人公司。"
-        },
-        "en-US": {
-          "categoryLabel": "OPC One-Person Company",
-          "headlineFact": "U.S. small-business optimism rises to 97.4",
-          "headlineView": "better mood does not erase cash-flow risk",
-          "headlineFull": "U.S. small-business optimism rises to 97.4; cash-flow risk remains",
-          "intro": "NFIB says its June index rose 2.1 points to 97.4, near its 52-year average. Uncertainty stayed high, while 32% of firms reported openings they could not fill.",
-          "xiaziQuote": "Solo firms should track demand, cash flow and delivery—not mistake a macro rebound for orders.",
-          "doudouQuote": "Confidence is back; the bills never took leave.",
-          "footerTakeaway": "Keyword: OPC One-Person Company."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-20-04-1",
-          "topicId": "topic-2026-07-20-04",
-          "title": "Small Business Optimism Picks Up in June",
-          "publisher": "NFIB",
-          "url": "https://www.nfib.com/news/monthly_report/sbet/embed/",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-20-05",
-      "issueId": "issue-2026-07-20",
-      "slug": "iran-drone-ordnance-us-troop-death",
-      "rank": 5,
-      "category": "international",
-      "region": "Middle East",
-      "countryCodes": [
-        "US",
-        "IR",
-        "IQ",
-        "JO"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-iran-strike-us-troops-jordan-20260719",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 92,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "中东局势",
-          "headlineFact": "美军再报告一人死于伊朗无人机残骸",
-          "headlineView": "战争成本延伸到未爆弹",
-          "headlineFull": "美军再报告一人死于伊朗无人机残骸；战争成本延伸到未爆弹",
-          "intro": "美军称一名人员在伊拉克处置被击落伊朗无人机的未爆弹时死亡；此前约旦袭击已致两名美军死亡、另有一人失踪。",
-          "xiaziQuote": "冲突的危险不会随拦截结束，残骸、误判和报复都在延长风险链条。",
-          "doudouQuote": "天空安静了，地上的危险还没清零。",
-          "footerTakeaway": "今日关键词：中东局势。"
-        },
-        "en-US": {
-          "categoryLabel": "Middle East",
-          "headlineFact": "Another U.S. troop dies handling Iranian drone ordnance",
-          "headlineView": "war's cost extends beyond interception",
-          "headlineFull": "Another U.S. troop dies handling Iranian drone ordnance; war's risk chain widens",
-          "intro": "The U.S. military says a service member died in Iraq during a controlled detonation of unexploded ordnance from a downed Iranian drone, following the deadly Jordan attack.",
-          "xiaziQuote": "Danger does not end with interception; debris, miscalculation and retaliation extend the risk chain.",
-          "doudouQuote": "The sky is quiet; the danger on the ground is not.",
-          "footerTakeaway": "Keyword: Middle East."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-20-05-1",
-          "topicId": "topic-2026-07-20-05",
-          "title": "US announces another troop death as Israel warns Tehran's attacks are coming close",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/63996576847424ab5f22887f38037ce8",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "source-2026-07-20-05-2",
-          "topicId": "topic-2026-07-20-05",
-          "title": "U.S. military finds service member's remains after missile attack",
-          "publisher": "Axios",
-          "url": "https://www.axios.com/2026/07/19/us-military-finds-service-member-remains-jordan",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-20-06",
-      "issueId": "issue-2026-07-20",
-      "slug": "uk-burnham-downing-street-handover",
-      "rank": 6,
-      "category": "international",
-      "region": "Europe",
-      "countryCodes": [
-        "GB"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "xzs-uk-starmer-final-pmqs-20260716",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "英国政治",
-          "headlineFact": "伯纳姆将于周一入主唐宁街",
-          "headlineView": "换帅易，财政难题不会自动换掉",
-          "headlineFull": "伯纳姆将于周一入主唐宁街；财政难题不会自动换掉",
-          "intro": "工党新领袖安迪·伯纳姆将于周一接任英国首相，面对生活成本、公共服务、移民、财政空间与对外政策等多重压力。",
-          "xiaziQuote": "领导人更替能重置叙事，却不能跳过预算、执行和信任修复。",
-          "doudouQuote": "钥匙能交接，待办清单不会消失。",
-          "footerTakeaway": "今日关键词：英国政治。"
-        },
-        "en-US": {
-          "categoryLabel": "UK Politics",
-          "headlineFact": "Andy Burnham enters Downing Street Monday",
-          "headlineView": "a new leader does not erase fiscal constraints",
-          "headlineFull": "Andy Burnham enters Downing Street Monday; fiscal constraints remain",
-          "intro": "Labour's new leader is set to become U.K. prime minister Monday, facing pressure over living costs, public services, migration, limited fiscal room and foreign policy.",
-          "xiaziQuote": "A leadership change can reset the story, but not skip budgets, execution or rebuilding trust.",
-          "doudouQuote": "The keys transfer; the task list stays.",
-          "footerTakeaway": "Keyword: UK Politics."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-20-06-1",
-          "topicId": "topic-2026-07-20-06",
-          "title": "What to know about the challenges Andy Burnham will face as UK prime minister",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/britain-burnham-prime-minister-starmer-economy-immigration-19deb2ceb705703310db55bf4802fce7",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "source-2026-07-20-06-2",
-          "topicId": "topic-2026-07-20-06",
-          "title": "Andy Burnham becomes British Labour leader; next stop prime minister",
-          "publisher": "Reuters",
-          "url": "https://www.investing.com/news/world-news/andy-burnham-becomes-uk-labour-leader-next-stop--prime-minister-4798202",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "wire",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-20-07",
-      "issueId": "issue-2026-07-20",
-      "slug": "peru-sicaya-earthquake-july19",
-      "rank": 7,
-      "category": "science",
-      "region": "Latin America",
-      "countryCodes": [
-        "PE"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-peru-sicaya-earthquake-july19-20260720",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 100,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "自然灾害",
-          "headlineFact": "秘鲁5.5级地震致至少6人死亡",
-          "headlineView": "建筑韧性决定灾害放大倍数",
-          "headlineFull": "秘鲁5.5级地震致至少6人死亡；建筑韧性决定灾害放大倍数",
-          "intro": "秘鲁安第斯地区5.5级地震致至少6人死亡、30多人受伤、300人流离失所。当地部门称土坯材料加重了建筑损毁。",
-          "xiaziQuote": "同样的震级落在不同建筑与治理体系上，会变成完全不同的代价。",
-          "doudouQuote": "地震很短，重建要很久。",
-          "footerTakeaway": "今日关键词：自然灾害。"
-        },
-        "en-US": {
-          "categoryLabel": "Natural Disaster",
-          "headlineFact": "Peru's 5.5 quake kills at least six",
-          "headlineView": "building resilience shapes the human cost",
-          "headlineFull": "Peru's 5.5 quake kills at least six; building resilience shapes the human cost",
-          "intro": "A magnitude-5.5 quake in Peru's Andes killed at least six, injured more than 30 and displaced 300. Local officials said adobe construction worsened damage.",
-          "xiaziQuote": "The same magnitude can produce a different cost under different buildings and public systems.",
-          "doudouQuote": "The quake was brief; rebuilding will not be.",
-          "footerTakeaway": "Keyword: Natural Disaster."
-        }
-      },
-      "sources": [
-        {
-          "id": "source-2026-07-20-07-1",
-          "topicId": "topic-2026-07-20-07",
-          "title": "5.5 magnitude earthquake hits Peru's Andes region and kills at least 6 people",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/b913ea98c255d3854804e35401425325",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "source-2026-07-20-07-2",
-          "topicId": "topic-2026-07-20-07",
-          "title": "Earthquake in Peru leaves at least six dead",
-          "publisher": "The Guardian / AP",
-          "url": "https://www.theguardian.com/world/2026/jul/19/55-magnitude-earthquake-hits-perus-andes-region-and-kills-at-least-5-people",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
-        }
-      ]
-    },
-    {
-      "id": "topic-2026-07-20-08",
-      "issueId": "issue-2026-07-20",
-      "slug": "china-q2-gdp-2026",
-      "rank": 8,
-      "category": "business",
-      "region": "Asia",
-      "countryCodes": [
-        "CN"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-china-q2-gdp-2026-20260720",
+      "storyId": "xzs-nas-one-photo-ai-business-20260721",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 88,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "全球经济",
-          "headlineFact": "中国二季度GDP增长4.3%",
-          "headlineView": "出口韧性难掩内需失衡",
-          "headlineFull": "中国二季度GDP增长4.3%；出口韧性难掩内需失衡",
-          "intro": "国家统计局称上半年GDP同比增长4.7%，二季度增长4.3%。官方同时指出外部不稳定上升，供强需弱的矛盾仍较突出。",
-          "xiaziQuote": "供给与出口能托住增长，但居民信心和内需决定修复能否持续。",
-          "doudouQuote": "生产线跑得快，购物车也得跟上。",
-          "footerTakeaway": "今日关键词：全球经济。"
+          "categoryLabel": "OPC一人公司",
+          "headlineFact": "Nas.com用一张照片生成生意",
+          "headlineView": "一人公司的瓶颈转向获客",
+          "headlineFull": "Nas.com用一张照片生成生意；一人公司的瓶颈转向获客",
+          "intro": "Nas.com的AI入驻流程让用户提交一个想法和一张产品或个人照片，自动生成品牌、店铺与营销素材；官网称平台服务35万创业者，但当前完整流程仍以桌面网页为主。",
+          "xiaziQuote": "建店成本继续下降，真正稀缺的仍是需求判断、信任和稳定获客。",
+          "doudouQuote": "店铺几分钟能开，顾客不会自动排队。",
+          "footerTakeaway": "今日关键词：OPC一人公司。"
         },
         "en-US": {
-          "categoryLabel": "Global Economy",
-          "headlineFact": "China's Q2 GDP grows 4.3%",
-          "headlineView": "export resilience cannot hide weak demand",
-          "headlineFull": "China's Q2 GDP grows 4.3%; export resilience cannot hide weak demand",
-          "intro": "China's statistics bureau says first-half GDP grew 4.7% and Q2 grew 4.3%. Officials also highlighted rising external uncertainty and a persistent supply-demand imbalance.",
-          "xiaziQuote": "Supply and exports can support growth, but household confidence and demand decide its durability.",
-          "doudouQuote": "Fast factories still need fuller shopping carts.",
-          "footerTakeaway": "Keyword: Global Economy."
+          "categoryLabel": "OPC One-Person Company",
+          "headlineFact": "Nas.com turns one photo into a business",
+          "headlineView": "customer acquisition becomes the real bottleneck",
+          "headlineFull": "Nas.com turns one photo into a business; customer acquisition becomes the real bottleneck",
+          "intro": "Nas.com's AI onboarding takes one idea plus a product or personal photo and generates branding, a storefront and marketing assets. The site says it serves 350,000 entrepreneurs; the full flow is currently desktop-web first.",
+          "xiaziQuote": "As setup gets cheaper, demand judgment, trust and repeatable acquisition remain scarce.",
+          "doudouQuote": "A store can open in minutes; customers do not queue automatically.",
+          "footerTakeaway": "Keyword: OPC One-Person Company."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-20-08-1",
-          "topicId": "topic-2026-07-20-08",
-          "title": "National Economy Operated within an Appropriate Range with New Growth Drivers Developing Rapidly in the First Half Year",
-          "publisher": "National Bureau of Statistics of China",
-          "url": "https://www.stats.gov.cn/english/PressRelease/202607/t20260715_1964120.html",
-          "publishedAt": "2026-07-20T00:00:00Z",
+          "id": "source-2026-07-21-04-1",
+          "topicId": "topic-2026-07-21-04",
+          "title": "Create Your Business in Minutes with AI",
+          "publisher": "Nas.com Help Center",
+          "url": "https://help.nas.com/en/articles/14319603-create-your-business-in-minutes-with-ai",
+          "publishedAt": "2026-07-21T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "source-2026-07-20-08-2",
-          "topicId": "topic-2026-07-20-08",
-          "title": "China's economy grew at a 4.3% annual pace in the 2nd quarter",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/95136222f87d5a1e62918f41efab00be",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "id": "source-2026-07-21-04-2",
+          "topicId": "topic-2026-07-21-04",
+          "title": "Start selling from a single photo",
+          "publisher": "Nas.com",
+          "url": "https://nas.com/",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
         }
       ]
     },
     {
-      "id": "topic-2026-07-20-09",
-      "issueId": "issue-2026-07-20",
-      "slug": "nyc-legionnaires-second-death-ues",
-      "rank": 9,
+      "id": "topic-2026-07-21-05",
+      "issueId": "issue-2026-07-21",
+      "slug": "russia-italy-diplomatic-expulsions",
+      "rank": 5,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "RU",
+        "IT"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-russia-italy-diplomatic-expulsions-20260721",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 86,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际外交",
+          "headlineFact": "俄罗斯驱逐两名意大利外交人员",
+          "headlineView": "对等报复继续压缩沟通空间",
+          "headlineFull": "俄罗斯驱逐两名意大利外交人员；对等报复继续压缩沟通空间",
+          "intro": "俄外交部召见意大利驻俄临时代办，并以对等原则宣布两名意方外交人员为不受欢迎人物，要求三日内离境；此举回应意大利7月9日驱逐两名俄方军事外交人员。",
+          "xiaziQuote": "外交报复容易做到对称，却会让危机时刻可用的沟通渠道越来越少。",
+          "doudouQuote": "门越关越快，话就越难说清。",
+          "footerTakeaway": "今日关键词：国际外交。"
+        },
+        "en-US": {
+          "categoryLabel": "Diplomacy",
+          "headlineFact": "Russia expels two Italian diplomats",
+          "headlineView": "reciprocity keeps shrinking room for dialogue",
+          "headlineFull": "Russia expels two Italian diplomats; reciprocity keeps shrinking room for dialogue",
+          "intro": "Russia summoned Italy's acting chargé d'affaires and declared two embassy staff personae non gratae, ordering them to leave within three days in response to Italy's July 9 expulsion of two Russian military diplomats.",
+          "xiaziQuote": "Reciprocal expulsions are easy to mirror, but they leave fewer channels when a crisis needs dialogue.",
+          "doudouQuote": "The faster doors close, the harder it is to talk clearly.",
+          "footerTakeaway": "Keyword: Diplomacy."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-21-05-1",
+          "topicId": "topic-2026-07-21-05",
+          "title": "Russia summons Italy's acting charge d'affaires and announces reciprocal expulsions",
+          "publisher": "Lenta.ru citing the Russian Foreign Ministry",
+          "url": "https://lenta.ru/news/2026/07/20/mid-vyzval-vremennogo-poverennogo-italii-v-rossii/",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-21-05-2",
+          "topicId": "topic-2026-07-21-05",
+          "title": "Summoning of the Ambassador of the Russian Federation to Italy. Expulsion of two military attaches",
+          "publisher": "Italian Ministry of Foreign Affairs",
+          "url": "https://www.esteri.it/en/sala_stampa/archivionotizie/comunicati/2026/07/convocato-lambasciatore-della-federazione-russa-in-italia-espulsione-di-due-addetti-militari/",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-21-06",
+      "issueId": "issue-2026-07-21",
+      "slug": "canada-pakistan-trade-reset",
+      "rank": 6,
+      "category": "business",
+      "region": "Asia-Pacific",
+      "countryCodes": [
+        "CA",
+        "PK"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-canada-pakistan-trade-reset-20260721",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 84,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际经贸",
+          "headlineFact": "加拿大外长近20年来首访巴基斯坦",
+          "headlineView": "经贸重启需要制度化跟进",
+          "headlineFull": "加拿大外长近20年来首访巴基斯坦；经贸重启需要制度化跟进",
+          "intro": "加拿大外长安妮塔·阿南德访问巴基斯坦，双方同意扩大贸易、投资、安全与发展合作，并恢复年度双边磋商；巴方称这是近20年来加拿大外长首次到访。",
+          "xiaziQuote": "一次高层访问能打开门，真正的关系修复靠持续会议、项目和可兑现承诺。",
+          "doudouQuote": "握手是开场，项目落地才算正文。",
+          "footerTakeaway": "今日关键词：国际经贸。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Trade",
+          "headlineFact": "Canada's foreign minister visits Pakistan after nearly 20 years",
+          "headlineView": "a reset needs institutional follow-through",
+          "headlineFull": "Canada's foreign minister visits Pakistan after nearly 20 years; a reset needs institutional follow-through",
+          "intro": "Anita Anand visited Pakistan as both sides agreed to expand trade, investment, security and development cooperation and restore annual bilateral consultations. Pakistani officials called it the first such Canadian visit in nearly 20 years.",
+          "xiaziQuote": "A senior visit opens the door; durable ties need recurring meetings, projects and deliverable promises.",
+          "doudouQuote": "The handshake starts it; delivered projects write the story.",
+          "footerTakeaway": "Keyword: Global Trade."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-21-06-1",
+          "topicId": "topic-2026-07-21-06",
+          "title": "Pakistan-Canada Joint Statement: Strengthening Bilateral and Trade Relations",
+          "publisher": "Pakistan Ministry of Foreign Affairs",
+          "url": "https://mofa.gov.pk/press-releases/pakistan-canada-joint-statement-strengthening-bilateral-and-trade-relations",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "source-2026-07-21-06-2",
+          "topicId": "topic-2026-07-21-06",
+          "title": "Minister Anand to travel to Pakistan and the Philippines to strengthen Indo-Pacific partnerships",
+          "publisher": "Global Affairs Canada",
+          "url": "https://www.canada.ca/en/global-affairs/news/2026/07/minister-anand-to-travel-to-pakistan-and-the-philippines-to-strengthen-indo-pacific-partnerships.html",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-21-07",
+      "issueId": "issue-2026-07-21",
+      "slug": "ucsd-igi-genome-editing-partnership",
+      "rank": 7,
       "category": "science",
       "region": "North America",
       "countryCodes": [
@@ -531,55 +407,164 @@
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "xzs-nyc-legionnaires-second-death-ues-20260720",
+      "scoreTotal": 92,
+      "storyId": "xzs-ucsd-igi-genome-editing-partnership-20260721",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 87,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "生命科学",
+          "headlineFact": "UCSD加入创新基因组研究所",
+          "headlineView": "基因编辑走向跨学科规模化",
+          "headlineFull": "UCSD加入创新基因组研究所；基因编辑走向跨学科规模化",
+          "intro": "加州大学圣迭戈分校成为创新基因组研究所第四个加州大学合作校区，将把海洋、环境、工程、计算机与生物医学能力接入下一代基因编辑工具研发。",
+          "xiaziQuote": "前沿技术从论文走向社会，需要跨学科团队把工具、场景与安全一起设计。",
+          "doudouQuote": "剪刀更锋利了，说明书和护栏也要更厚。",
+          "footerTakeaway": "今日关键词：生命科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Life Science",
+          "headlineFact": "UC San Diego joins the Innovative Genomics Institute",
+          "headlineView": "genome editing moves toward multidisciplinary scale",
+          "headlineFull": "UC San Diego joins the Innovative Genomics Institute; genome editing moves toward multidisciplinary scale",
+          "intro": "UC San Diego became IGI's fourth UC partner campus, bringing ocean, environmental, engineering, computing and biomedical strengths into the development of next-generation genome-editing tools.",
+          "xiaziQuote": "Moving frontier science into society means designing tools, use cases and safeguards together.",
+          "doudouQuote": "Sharper scissors need a thicker manual and stronger guardrails.",
+          "footerTakeaway": "Keyword: Life Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-21-07-1",
+          "topicId": "topic-2026-07-21-07",
+          "title": "UC San Diego Partners with Innovative Genomics Institute on the Next Generation of Genome Editing",
+          "publisher": "UC San Diego",
+          "url": "https://today.ucsd.edu/story/uc-san-diego-partners-with-innovative-genomics-institute-on-the-next-generation-of-genome-editing",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-21-08",
+      "issueId": "issue-2026-07-21",
+      "slug": "who-pabs-annex-negotiations-july2026",
+      "rank": 8,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-who-pabs-annex-negotiations-20260721",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 90,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "公共卫生",
-          "headlineFact": "纽约军团菌病疫情报告第二例死亡",
-          "headlineView": "源头控制仍需持续验证",
-          "headlineFull": "纽约军团菌病疫情报告第二例死亡；源头控制仍需持续验证",
-          "intro": "纽约市卫生部门报告上东区军团菌病聚集性疫情出现第二例相关死亡，并称现有证据显示暴露源可能已经消除。",
-          "xiaziQuote": "公共卫生的信任来自透明更新、快速排查和把“可能”与“确认”分开。",
-          "doudouQuote": "冷却塔洗干净，监测表还不能收。",
-          "footerTakeaway": "今日关键词：公共卫生。"
+          "categoryLabel": "全球健康",
+          "headlineFact": "WHO推进病原体共享附件谈判",
+          "headlineView": "下一场疫情不会等共识",
+          "headlineFull": "WHO推进病原体共享附件谈判；下一场疫情不会等共识",
+          "intro": "WHO成员国完成两周谈判，进一步精简《大流行协定》病原体获取与惠益分享附件文本，但合同安排、实验室网络与惠益定义仍有分歧；下一轮会议定于9月14日至18日。",
+          "xiaziQuote": "公共卫生合作的难点，是让快速共享样本与公平获得疫苗药物同时成立。",
+          "doudouQuote": "病毒不参加会议，规则得抓紧。",
+          "footerTakeaway": "今日关键词：全球健康。"
         },
         "en-US": {
-          "categoryLabel": "Public Health",
-          "headlineFact": "NYC Legionnaires' cluster reports a second death",
-          "headlineView": "source control still needs verification",
-          "headlineFull": "NYC Legionnaires' cluster reports a second death; source control needs verification",
-          "intro": "New York City's health department reported a second death linked to the Upper East Side cluster and said evidence suggests the exposure source has likely been eliminated.",
-          "xiaziQuote": "Public-health trust comes from rapid investigation and keeping likely separate from confirmed.",
-          "doudouQuote": "The towers are cleaned; the monitoring sheet stays open.",
-          "footerTakeaway": "Keyword: Public Health."
+          "categoryLabel": "Global Health",
+          "headlineFact": "WHO members advance pathogen-sharing annex talks",
+          "headlineView": "the next pandemic will not wait for consensus",
+          "headlineFull": "WHO members advance pathogen-sharing annex talks; the next pandemic will not wait for consensus",
+          "intro": "After two weeks of talks, members streamlined the PABS annex to the Pandemic Agreement, but contracts, laboratory networks and benefit definitions remain unresolved. The next meeting is September 14-18.",
+          "xiaziQuote": "The challenge is making rapid sample sharing and fair access to vaccines and medicines work together.",
+          "doudouQuote": "Viruses skip meetings; the rules need to hurry.",
+          "footerTakeaway": "Keyword: Global Health."
         }
       },
       "sources": [
         {
-          "id": "source-2026-07-20-09-1",
-          "topicId": "topic-2026-07-20-09",
-          "title": "Second death reported in Legionnaires' disease outbreak in New York City",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/78365fb2954c0781181216e409b78718",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "publisher",
+          "id": "source-2026-07-21-08-1",
+          "topicId": "topic-2026-07-21-08",
+          "title": "WHO Member States continue negotiations on the Pathogen Access and Benefit Sharing Annex",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news/item/20-07-2026-who-member-states-continue-negotiations-on-the-pathogen-access-and-benefit-sharing-annex",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "topic-2026-07-21-09",
+      "issueId": "issue-2026-07-21",
+      "slug": "brent-oil-above-90-gulf-escalation",
+      "rank": 9,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-us-iran-hormuz-blockade-20260715",
+      "storyStatus": "followup",
+      "followupDay": 4,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "能源市场",
+          "headlineFact": "布伦特原油突破90美元",
+          "headlineView": "海峡风险正传导到全球通胀",
+          "headlineFull": "布伦特原油突破90美元；海峡风险正传导到全球通胀",
+          "intro": "美伊冲突扩大并压缩霍尔木兹海峡能源运输，布伦特原油周一上涨约3%并突破每桶90美元。供应紧张正在把地缘风险传导至燃油、货运、物价与利率预期。",
+          "xiaziQuote": "能源冲击会沿着运输、生产和利率层层传递，离战场很远的家庭也会买单。",
+          "doudouQuote": "海峡一堵，账单就会绕到每个人桌上。",
+          "footerTakeaway": "今日关键词：能源市场。"
+        },
+        "en-US": {
+          "categoryLabel": "Energy Markets",
+          "headlineFact": "Brent crude rises above $90",
+          "headlineView": "Strait risk is feeding global inflation",
+          "headlineFull": "Brent crude rises above $90; Strait risk is feeding global inflation",
+          "intro": "As U.S.-Iran fighting expanded and curbed energy shipments through the Strait of Hormuz, Brent gained about 3% above $90. Supply stress is reaching fuel, freight, prices and rate expectations.",
+          "xiaziQuote": "Energy shocks travel through freight, production and rates, reaching households far from the battlefield.",
+          "doudouQuote": "Block one strait and the bill detours to everyone's table.",
+          "footerTakeaway": "Keyword: Energy Markets."
+        }
+      },
+      "sources": [
+        {
+          "id": "source-2026-07-21-09-1",
+          "topicId": "topic-2026-07-21-09",
+          "title": "Brent oil tops $90 as US, Iran intensify attacks in Middle East",
+          "publisher": "Reuters via MarketScreener",
+          "url": "https://au.marketscreener.com/news/brent-oil-tops-90-as-us-iran-intensify-attacks-in-middle-east-ce7f51dade8dff26",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "wire",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "source-2026-07-20-09-2",
-          "topicId": "topic-2026-07-20-09",
-          "title": "NYC Health Department Reports Second Death in Upper East Side Legionnaires' Disease Cluster",
-          "publisher": "NYC Health Department",
-          "url": "https://www.nyc.gov/site/doh/about/press/pr2026/second-death-in-ues-legionnaires-disease-cluster.page",
-          "publishedAt": "2026-07-20T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
+          "id": "source-2026-07-21-09-2",
+          "topicId": "topic-2026-07-21-09",
+          "title": "Oil tops $90 as Middle East fighting escalates",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/07/19/oil-prices-90-middle-east-fighting-gas-prices",
+          "publishedAt": "2026-07-21T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": false
         }
