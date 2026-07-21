@@ -1,0 +1,182 @@
+name: Release V2 production rollout
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Guarded rollout operation
+        required: true
+        type: choice
+        options:
+          - configure-closed-human
+          - stage-release-a
+          - stage-release-b
+          - enable-v2-human
+          - enable-automatic
+          - disable-v2
+      issue_date:
+        description: Future issue date; required for stage operations
+        required: false
+        default: "2026-07-21"
+        type: string
+      asset_batch_id:
+        description: Unique immutable asset batch; required for stage operations
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-v2-production-rollout
+  cancel-in-progress: false
+
+jobs:
+  rollout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment: release-v2-storage-staging
+    env:
+      VERCEL_ORG_ID: team_iWvRd90nKK9CgQXCF3LzRN14
+      VERCEL_PROJECT_ID: prj_b7JcLUGZb13obWlVrOEvDYM0Y9uG
+      VERCEL_TOKEN: ${{ secrets.STAGING_VERCEL_TOKEN }}
+      RELEASE_STAGE_SECRET: ${{ secrets.STAGING_RELEASE_STAGE_SECRET }}
+      COS_BUCKET: ${{ secrets.STORAGE_COS_BUCKET }}
+      COS_REGION: ${{ secrets.STORAGE_COS_REGION }}
+      COS_SECRET_ID: ${{ secrets.STORAGE_APP_SECRET_ID }}
+      COS_SECRET_KEY: ${{ secrets.STORAGE_APP_SECRET_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Guard production scope and credentials
+        env:
+          OPERATION: ${{ inputs.operation }}
+          ISSUE_DATE: ${{ inputs.issue_date }}
+          ASSET_BATCH_ID: ${{ inputs.asset_batch_id }}
+        run: |
+          set -euo pipefail
+          test -n "$VERCEL_TOKEN"
+          test -n "$RELEASE_STAGE_SECRET"
+          test -n "$COS_BUCKET"
+          test -n "$COS_REGION"
+          test -n "$COS_SECRET_ID"
+          test -n "$COS_SECRET_KEY"
+          case "$OPERATION" in
+            configure-closed-human|enable-v2-human|enable-automatic|disable-v2) ;;
+            stage-release-a|stage-release-b)
+              test "$ISSUE_DATE" \> "2026-07-18"
+              compact_date="${ISSUE_DATE//-/}"
+              case "$ASSET_BATCH_ID" in
+                "asset_prod_${compact_date}_"*) ;;
+                *) echo "Invalid immutable asset batch" >&2; exit 1 ;;
+              esac
+              ;;
+            *) echo "Unknown operation" >&2; exit 1 ;;
+          esac
+      - name: Configure production environment and deploy
+        if: contains(fromJSON('["configure-closed-human","enable-v2-human","enable-automatic","disable-v2"]'), inputs.operation)
+        env:
+          OPERATION: ${{ inputs.operation }}
+        run: |
+          set -euo pipefail
+          direct_origin="https://${COS_BUCKET}.cos.${COS_REGION}.myqcloud.com"
+          waiver_at="2026-07-21T05:00:00.000Z"
+          set_env() {
+            name="$1"
+            value="$2"
+            printf '%s' "$value" | npx vercel env add "$name" production --force --token "$VERCEL_TOKEN" >/dev/null
+          }
+          set_env NEXT_PUBLIC_SITE_URL https://xiazishuo.com
+          set_env NEXT_PUBLIC_COS_BASE_URL "$direct_origin"
+          set_env RELEASE_ASSET_ORIGINS "$direct_origin"
+          set_env COS_BUCKET "$COS_BUCKET"
+          set_env COS_REGION "$COS_REGION"
+          set_env COS_SECRET_ID "$COS_SECRET_ID"
+          set_env COS_SECRET_KEY "$COS_SECRET_KEY"
+          set_env COS_IMMUTABLE_VERSIONING_STATE never-enabled
+          set_env RELEASE_STORAGE_POLICY_VERSION xiazi-cos-immutable-v3
+          set_env RELEASE_STORAGE_POLICY_VERIFIED_AT 2026-07-20T06:25:48.967Z
+          set_env RELEASE_STORAGE_VERIFICATION_TOOL_VERSION xiazi-storage-verifier-v3
+          set_env RELEASE_STORAGE_OVERWRITE_DENIED true
+          set_env RELEASE_STORAGE_DELETE_DENIED true
+          set_env RELEASE_STORAGE_POLICY_VERIFIED true
+          set_env RELEASE_ENVIRONMENT production
+          set_env RELEASE_EXPLICIT_DEGRADED_FALLBACK false
+          set_env RELEASE_REVIEW_MODE waived
+          set_env RELEASE_REVIEW_WAIVER_ID owner-risk-acceptance-2026-07
+          set_env RELEASE_REVIEW_WAIVER_REASON 'Owner explicitly accepts semantic and visual reviewer risk for initial Release V2 launch'
+          set_env RELEASE_REVIEW_WAIVER_CONFIGURED_BY project-owner
+          set_env RELEASE_REVIEW_WAIVER_CONFIGURED_AT "$waiver_at"
+          set_env RELEASE_STAGE_SECRET "$RELEASE_STAGE_SECRET"
+          case "$OPERATION" in
+            configure-closed-human)
+              set_env RELEASE_V2_ENABLED false
+              set_env RELEASE_APPROVAL_MODE human
+              ;;
+            enable-v2-human)
+              set_env RELEASE_V2_ENABLED true
+              set_env RELEASE_APPROVAL_MODE human
+              ;;
+            enable-automatic)
+              set_env RELEASE_V2_ENABLED true
+              set_env RELEASE_APPROVAL_MODE automatic
+              ;;
+            disable-v2)
+              set_env RELEASE_V2_ENABLED false
+              set_env RELEASE_APPROVAL_MODE human
+              ;;
+          esac
+          npx vercel deploy --prod --yes --token "$VERCEL_TOKEN" > /tmp/deployment-url.txt
+          deployment_url="$(tail -n 1 /tmp/deployment-url.txt)"
+          test "${deployment_url#https://}" != "$deployment_url"
+          printf 'deploymentUrl=%s\n' "$deployment_url" >> "$GITHUB_STEP_SUMMARY"
+          printf 'operation=%s\n' "$OPERATION" >> "$GITHUB_STEP_SUMMARY"
+      - name: Prepare and stage immutable release candidate
+        if: startsWith(inputs.operation, 'stage-release-')
+        env:
+          RELEASE_ENVIRONMENT: production
+          PRODUCTION_WEB_URL: https://xiazishuo.com
+          PRODUCTION_ISSUE_DATE: ${{ inputs.issue_date }}
+          PRODUCTION_ASSET_BATCH_ID: ${{ inputs.asset_batch_id }}
+          PRODUCTION_RELEASE_VARIANT: ${{ inputs.operation == 'stage-release-a' && 'A' || 'B' }}
+          PRODUCTION_RELEASE_PAYLOAD_OUTPUT: /tmp/production-release-payload.json
+          PRODUCTION_COMMIT_SHA: ${{ github.sha }}
+          NEXT_PUBLIC_COS_BASE_URL: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+          RELEASE_ASSET_ORIGINS: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
+          COS_IMMUTABLE_VERSIONING_STATE: never-enabled
+          RELEASE_STORAGE_POLICY_VERSION: xiazi-cos-immutable-v3
+          RELEASE_STORAGE_POLICY_VERIFIED_AT: 2026-07-20T06:25:48.967Z
+          RELEASE_STORAGE_VERIFICATION_TOOL_VERSION: xiazi-storage-verifier-v3
+          RELEASE_STORAGE_OVERWRITE_DENIED: "true"
+          RELEASE_STORAGE_DELETE_DENIED: "true"
+          RELEASE_STORAGE_POLICY_VERIFIED: "true"
+        run: |
+          set -euo pipefail
+          npx tsx scripts/prepare-production-release.ts > /tmp/production-upload-proof.json
+          curl --fail-with-body --silent --show-error \
+            --request POST \
+            --header "Authorization: Bearer ${RELEASE_STAGE_SECRET}" \
+            --header 'Content-Type: application/json' \
+            --data-binary @/tmp/production-release-payload.json \
+            https://xiazishuo.com/api/internal/releases/stage/ \
+            > /tmp/production-stage-response.json
+          jq -e '.ok == true and .status == "ready_for_approval" and (.releaseId | type == "string")' /tmp/production-stage-response.json >/dev/null
+          jq '{ok,status,releaseId,issueDate,contentHash,validationReport:{passed:.validationReport.passed,reviewStatus:.validationReport.reviewStatus,reviewPassed:.validationReport.reviewPassed,reviewWaived:.validationReport.reviewWaived,waiverId:.validationReport.waiverId,sourceCount:.validationReport.sourceCount,posterCount:.validationReport.posterCount,storageVerification:{provider:.validationReport.storageVerification.provider,policyVersion:.validationReport.storageVerification.policyVersion,policyVerified:.validationReport.storageVerification.policyVerified,overwriteDenied:.validationReport.storageVerification.overwriteDenied,deleteDenied:.validationReport.storageVerification.deleteDenied,objectManifestHash:.validationReport.storageVerification.objectManifestHash}}}' \
+            /tmp/production-stage-response.json > /tmp/production-stage-sanitized.json
+          cat /tmp/production-upload-proof.json >> "$GITHUB_STEP_SUMMARY"
+          cat /tmp/production-stage-sanitized.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload sanitized rollout proof
+        if: startsWith(inputs.operation, 'stage-release-')
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-${{ inputs.operation }}-${{ github.run_id }}
+          path: |
+            /tmp/production-upload-proof.json
+            /tmp/production-stage-sanitized.json
+          if-no-files-found: error
+          retention-days: 30
