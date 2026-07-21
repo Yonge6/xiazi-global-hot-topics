@@ -2,6 +2,8 @@
   "schemaVersion": "release-v2-owner-waiver-status-v1",
   "recordedAt": "2026-07-21T01:49:13Z",
   "implementationHead": "2690ebb872556d92d534b3c3b31c7024e53d421f",
+  "waiverImplementationHead": "7ac1775968783564068c90324575db6086b4c36e",
+  "waiverRecordedAt": "2026-07-21T02:58:26Z",
   "ordinaryCi": {
     "runId": "29734829434",
     "runUrl": "https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29734829434",
@@ -12,7 +14,7 @@
   "localVerification": {
     "stagingGuardTests": 8,
     "reviewerTests": 25,
-    "webTests": 137,
+    "webTests": 146,
     "browserE2ePassed": 21,
     "browserE2eSkippedStagingOnly": 7,
     "reviewerBuild": "success",

@@ -131,6 +131,7 @@ Adding any CDN is a future independent change gate. It must prove origin/CDN SHA
 ## Work Package 3 waiver record
 
 - Implementation head: `2690ebb872556d92d534b3c3b31c7024e53d421f`.
+- Reviewer-waiver and automatic-approval implementation head: `7ac1775968783564068c90324575db6086b4c36e`.
 - Ordinary CI run: `29734829434`; application/guard and database lifecycle jobs succeeded.
 - Protected live Reviewer proof: not executed and explicitly waived by the owner; it is not recorded as passed.
 - Real Release A/B publication, full fault injection, rollback, and reactivation: not executed.
@@ -144,8 +145,7 @@ Executed in the isolated `codex/future-release-safety` worktree on 2026-07-19. C
 
 | Check | Result |
 |---|---|
-| `npm run check` | Passed: lint, TypeScript, config audit and all package tests |
-| `npm run test` | Passed: web 91, domain 6, contracts 3 tests (100 total) |
+| `npm run check` | Passed: 196 distinct package tests (web 146, reviewer 25, domain 19, contracts 6), lint, TypeScript and config audits |
 | `npm run build` | Passed; one pre-existing Turbopack NFT trace warning remains |
 | `npm run test:e2e` | Passed: 21 tests, 7 staging-only tests skipped because no staging URL was supplied |
 | `npx supabase db reset` | Passed: clean database recreated with every migration |
@@ -155,4 +155,4 @@ Executed in the isolated `codex/future-release-safety` worktree on 2026-07-19. C
 
 ## Fault injection and rollback verification
 
-The SQL fault suite verifies the 2026-07-18 cutoff, active retry short-circuit, owner preservation, heartbeat renewal, expired-worker rejection, takeover rejection of the old owner, full-payload conflict detection, same-copy/different-asset release identities, staging without activation, explicit human activation, truthful activation/rollback retries, atomic pointer changes, immutable release payloads, auditable events and rollback to the previous release.
+The SQL fault suite verifies the 2026-07-18 cutoff, active retry short-circuit, owner preservation, heartbeat renewal, expired-worker rejection, takeover rejection of the old owner, full-payload conflict detection, same-copy/different-asset release identities, explicit human activation, coherent Reviewer waiver persistence, automatic activation audit context, truthful activation/rollback retries, atomic pointer changes, immutable release payloads and rollback to the previous release.
