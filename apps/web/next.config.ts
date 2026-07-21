@@ -2,7 +2,15 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
-const isXiaziDomain = (process.env.NEXT_PUBLIC_SITE_URL || "").includes("xiazishuo.com");
+const configuredSiteHostname = (() => {
+  try {
+    return new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://xiazishuo.com").hostname.toLowerCase();
+  } catch {
+    return "";
+  }
+})();
+const isXiaziDomain = configuredSiteHostname === "xiazishuo.com"
+  || configuredSiteHostname.endsWith(".xiazishuo.com");
 const githubPagesBasePath = isXiaziDomain ? "" : process.env.GITHUB_PAGES_BASE_PATH || "/xiazi-global-hot-topics";
 
 const nextConfig: NextConfig = {

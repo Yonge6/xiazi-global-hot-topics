@@ -60,11 +60,16 @@ describe("sortTopicsForIssue", () => {
 });
 
 describe("topicShareDetails", () => {
-  it("builds a locale-specific canonical share payload", () => {
-    const details = topicShareDetails(topic("sample-story", 1), "en", "https://pluto.hk/");
+  it.each([
+    "https://pluto.hk/",
+    "https://example.com/",
+    "not-a-url",
+  ])("pins a locale-specific share payload to Xiazi for configured origin %s", (configuredOrigin) => {
+    const details = topicShareDetails(topic("sample-story", 1), "en", configuredOrigin);
 
     expect(details.url).toBe("https://xiazishuo.com/en/#sample-story");
     expect(details.text).not.toContain("pluto.hk");
+    expect(details.text).not.toContain("example.com");
     expect(details.text).toContain(details.title);
     expect(details.text).toContain(details.url);
   });
