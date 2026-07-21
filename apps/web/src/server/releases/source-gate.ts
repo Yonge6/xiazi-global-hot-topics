@@ -2,6 +2,7 @@ import type {
   FactualClaim,
   FactualClaimReview,
   Issue,
+  PublicationReviewDecision,
   SourceSnapshot,
 } from "@xiazi/contracts";
 
@@ -46,6 +47,7 @@ type SourceGateOptions = {
   timeoutMs?: number;
   maxBytes?: number;
   releaseCandidateId?: string;
+  reviewDecision?: PublicationReviewDecision;
 };
 
 function htmlTitle(html: string) {
@@ -127,7 +129,8 @@ function assertCompleteClaimReview(sourceId: string, expected: FactualClaim[], a
 }
 
 export async function verifyReleaseSources(issue: Issue, options: SourceGateOptions = {}) {
-  const reviewer = options.reviewer || reviewServiceFromEnv();
+  const reviewDecision = options.reviewDecision || { reviewStatus: "passed", reviewPassed: true, reviewWaived: false };
+  const reviewer = reviewDecision.reviewWaived ? null : options.reviewer || reviewServiceFromEnv();
   const sourceFetcher = options.sourceFetcher || ((url, limits) => fetchSafeSource(url, limits));
   const now = options.now || (() => new Date());
   const timeoutMs = options.timeoutMs || 20_000;
@@ -149,7 +152,33 @@ export async function verifyReleaseSources(issue: Issue, options: SourceGateOpti
       const correctionMarkerDetected = correctionPattern.test(snapshotText);
       const retractionMarkerDetected = retractionPattern.test(snapshotText);
       const claims = factualClaims(issue, topic.id);
-      const review = await reviewer({
+      if (retractionMarkerDetected) {
+        throw new Error(`SOURCE_RETRACTED:${source.id}`);
+      }
+      if (correctionMarkerDetected) {
+        throw new Error(`SOURCE_CORRECTED_REVIEW_REQUIRED:${source.id}`);
+      }
+      if (reviewDecision.reviewWaived) {
+        snapshots.push({
+          sourceId: source.id,
+          topicId: topic.id,
+          url: source.url,
+          finalUrl,
+          fetchedAt: now().toISOString(),
+          httpStatus: response.status,
+          title: htmlTitle(html) || source.title,
+          contentHash: sha256(snapshotText),
+          snapshotText,
+          correctionStatus: "clear",
+          supportsClaim: false,
+          claimResults: [],
+          reviewStatus: "waived",
+          reviewProvider: "none",
+          rationale: `Semantic review waived by change record ${reviewDecision.waiverId}`,
+        });
+        continue;
+      }
+      const review = await reviewer!({
         releaseCandidateId,
         sourceId: source.id,
         topicId: topic.id,
@@ -160,15 +189,8 @@ export async function verifyReleaseSources(issue: Issue, options: SourceGateOpti
         correctionMarkerDetected,
         retractionMarkerDetected,
       });
-      if (retractionMarkerDetected || review.correctionStatus === "retracted") {
-        throw new Error(`SOURCE_RETRACTED:${source.id}`);
-      }
-      if (correctionMarkerDetected && review.correctionStatus === "clear") {
-        throw new Error(`SOURCE_CORRECTION_REVIEW_MISMATCH:${source.id}`);
-      }
-      if (correctionMarkerDetected || review.correctionStatus === "corrected") {
-        throw new Error(`SOURCE_CORRECTED_REVIEW_REQUIRED:${source.id}`);
-      }
+      if (review.correctionStatus === "retracted") throw new Error(`SOURCE_RETRACTED:${source.id}`);
+      if (review.correctionStatus === "corrected") throw new Error(`SOURCE_CORRECTED_REVIEW_REQUIRED:${source.id}`);
       assertCompleteClaimReview(source.id, claims, review.claimResults);
 
       snapshots.push({
@@ -184,6 +206,7 @@ export async function verifyReleaseSources(issue: Issue, options: SourceGateOpti
         correctionStatus: review.correctionStatus,
         supportsClaim: true,
         claimResults: review.claimResults,
+        reviewStatus: "passed",
         reviewProvider: review.provider,
         ...(review.model ? { reviewModel: review.model } : {}),
         ...(review.modelVersion ? { reviewModelVersion: review.modelVersion } : {}),

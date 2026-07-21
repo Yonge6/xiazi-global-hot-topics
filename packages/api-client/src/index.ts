@@ -61,7 +61,7 @@ export class ApiClient {
     return this.getJson<{
       ok: true;
       published: boolean;
-      status: "ready_for_approval" | "in_progress" | "already_active";
+      status: "ready_for_approval" | "in_progress" | "already_active" | "active";
       releaseId: string | null;
       issueDate: string;
       contentHash: string;

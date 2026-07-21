@@ -6,6 +6,7 @@ import {
   stagePublicationReleaseSchema,
   type ActivePublication,
   type PosterCheck,
+  type PublicationReviewDecision,
   type PublicationValidationReport,
   type SourceSnapshot,
 } from "@xiazi/contracts";
@@ -20,6 +21,12 @@ import { createSupabaseServiceClientFromEnv } from "../content-sync/supabase-ser
 import { stableHash } from "./release-hash";
 import { verifyReleasePosters } from "./poster-gate";
 import { verifyReleaseSources } from "./source-gate";
+import {
+  releaseApprovalMode,
+  releaseCommitSha,
+  releaseReviewDecision,
+  type ReleaseApprovalMode,
+} from "./release-runtime";
 import { bindStorageProofsToPosterChecks, verifyReleaseStorage } from "../storage/storage-gate";
 
 type StageDependencies = {
@@ -30,6 +37,9 @@ type StageDependencies = {
   now?: () => Date;
   leaseSeconds?: number;
   heartbeatIntervalMs?: number;
+  reviewDecision?: PublicationReviewDecision;
+  approvalMode?: ReleaseApprovalMode;
+  commitSha?: string;
 };
 
 type LeaseResult = {
@@ -65,6 +75,8 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
   }
   const heartbeatIntervalMs = dependencies.heartbeatIntervalMs || Math.min(45_000, Math.floor(leaseSeconds * 1000 / 3));
   const releaseCandidateId = `candidate-${bundle.issue.issueDate}-${bundle.checksum.slice(0, 16)}`;
+  const reviewDecision = dependencies.reviewDecision || releaseReviewDecision();
+  const approvalMode = dependencies.approvalMode || releaseApprovalMode();
 
   const lease = await rpc<LeaseResult>(client, "acquire_publication_lease", {
     p_issue_date: bundle.issue.issueDate,
@@ -109,8 +121,8 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
         .catch((error) => { heartbeatFailure = error; });
     }, heartbeatIntervalMs);
     const [verifiedSources, imageChecks, verifiedStorage] = await Promise.all([
-      (dependencies.sourceGate || verifyReleaseSources)(bundle.issue, { releaseCandidateId }),
-      (dependencies.posterGate || verifyReleasePosters)(bundle.issue, request.assetBatchId, request.posters),
+      (dependencies.sourceGate || verifyReleaseSources)(bundle.issue, { releaseCandidateId, reviewDecision }),
+      (dependencies.posterGate || verifyReleasePosters)(bundle.issue, request.assetBatchId, request.posters, { reviewDecision }),
       (dependencies.storageGate || verifyReleaseStorage)(bundle.issue, request.assetBatchId, request.posters),
     ]);
     sources = verifiedSources;
@@ -133,6 +145,7 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
       contentHash: bundle.checksum,
       sourceSnapshotHash,
       posterManifestHash,
+      reviewDecision,
     });
     const releaseId = publicationReleaseId(bundle.issue.issueDate, releaseHash);
     const validationReport: PublicationValidationReport = {
@@ -144,6 +157,7 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
       sourceCount: sources.length,
       posterCount: posters.length,
       storageVerification,
+      ...reviewDecision,
       failures: [],
     };
     const staged = await rpc<Record<string, unknown>>(client, "stage_publication_release", {
@@ -163,6 +177,28 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
         validationReport,
       },
     });
+    if (approvalMode === "automatic") {
+      const commitSha = dependencies.commitSha || releaseCommitSha();
+      const validationHash = stableHash(validationReport);
+      const activation = await rpc<Record<string, unknown>>(client, "activate_publication_release", {
+        p_release_id: releaseId,
+        p_approver: `release-automation:${request.leaseOwner}`,
+        p_activation_key: `automatic:${releaseId}:${request.idempotencyKey}`,
+        p_activation_mode: "automatic",
+        p_commit_sha: commitSha,
+        p_validation_hash: validationHash,
+      });
+      return {
+        published: true,
+        status: "active" as const,
+        releaseId,
+        issueDate: bundle.issue.issueDate,
+        contentHash: bundle.checksum,
+        validationReport,
+        staged,
+        activation,
+      };
+    }
     return {
       published: false,
       status: "ready_for_approval" as const,
@@ -200,6 +236,8 @@ export async function approveFuturePublication(
     p_release_id: releaseId,
     p_approver: approver,
     p_activation_key: request.activationKey,
+    p_activation_mode: "human",
+    p_commit_sha: null,
   });
 }
 
@@ -230,7 +268,10 @@ export async function loadActivePublication(client?: SupabaseClient | null): Pro
     || typeof metadata.contentHash !== "string"
     || metadata.dataSource !== "supabase-release"
     || metadata.publicationHealth !== "healthy"
-    || metadata.stale !== false) {
+    || metadata.stale !== false
+    || !["passed", "waived"].includes(String(metadata.reviewStatus))
+    || typeof metadata.reviewPassed !== "boolean"
+    || typeof metadata.reviewWaived !== "boolean") {
     throw new Error("ACTIVE_RELEASE_METADATA_INVALID");
   }
   return {
@@ -243,6 +284,13 @@ export async function loadActivePublication(client?: SupabaseClient | null): Pro
       deployedAt: typeof metadata.deployedAt === "string" ? metadata.deployedAt : null,
       publicationHealth: "healthy",
       stale: false,
+      reviewStatus: metadata.reviewStatus as "passed" | "waived",
+      reviewPassed: metadata.reviewPassed,
+      reviewWaived: metadata.reviewWaived,
+      ...(typeof metadata.waiverId === "string" ? { waiverId: metadata.waiverId } : {}),
+      ...(typeof metadata.waiverReason === "string" ? { waiverReason: metadata.waiverReason } : {}),
+      ...(typeof metadata.configuredBy === "string" ? { configuredBy: metadata.configuredBy } : {}),
+      ...(typeof metadata.configuredAt === "string" ? { configuredAt: metadata.configuredAt } : {}),
     },
   };
 }
@@ -254,6 +302,13 @@ type StoredReleaseRow = {
   status: "active" | "superseded";
   deployed_at: string | null;
   schema_version: string;
+  review_status: "passed" | "waived";
+  review_passed: boolean;
+  review_waived: boolean;
+  waiver_id: string | null;
+  waiver_reason: string | null;
+  waiver_configured_by: string | null;
+  waiver_configured_at: string | null;
 };
 
 function publicationFromRow(row: StoredReleaseRow): ActivePublication {
@@ -268,6 +323,13 @@ function publicationFromRow(row: StoredReleaseRow): ActivePublication {
       deployedAt: row.deployed_at,
       publicationHealth: "healthy",
       stale: false,
+      reviewStatus: row.review_status,
+      reviewPassed: row.review_passed,
+      reviewWaived: row.review_waived,
+      ...(row.waiver_id ? { waiverId: row.waiver_id } : {}),
+      ...(row.waiver_reason ? { waiverReason: row.waiver_reason } : {}),
+      ...(row.waiver_configured_by ? { configuredBy: row.waiver_configured_by } : {}),
+      ...(row.waiver_configured_at ? { configuredAt: row.waiver_configured_at } : {}),
     },
   };
 }
@@ -278,7 +340,7 @@ export async function loadPublicationByReleaseId(
 ): Promise<ActivePublication | null> {
   const { data, error } = await requiredClient(client)
     .from("publication_releases")
-    .select("release_id, content_hash, issue, status, deployed_at, schema_version")
+    .select("release_id, content_hash, issue, status, deployed_at, schema_version, review_status, review_passed, review_waived, waiver_id, waiver_reason, waiver_configured_by, waiver_configured_at")
     .eq("release_id", releaseId)
     .in("status", ["active", "superseded"])
     .maybeSingle();
@@ -292,7 +354,7 @@ export async function loadPublicationByDate(
 ): Promise<ActivePublication | null> {
   const { data, error } = await requiredClient(client)
     .from("publication_releases")
-    .select("release_id, content_hash, issue, status, deployed_at, schema_version")
+    .select("release_id, content_hash, issue, status, deployed_at, schema_version, review_status, review_passed, review_waived, waiver_id, waiver_reason, waiver_configured_by, waiver_configured_at")
     .eq("issue_date", issueDate)
     .in("status", ["active", "superseded"])
     .order("activated_at", { ascending: false })
@@ -305,7 +367,7 @@ export async function loadPublicationByDate(
 export async function listPublishedPublications(client?: SupabaseClient | null) {
   const { data, error } = await requiredClient(client)
     .from("publication_releases")
-    .select("release_id, issue_date, content_hash, issue, status, deployed_at, schema_version")
+    .select("release_id, issue_date, content_hash, issue, status, deployed_at, schema_version, review_status, review_passed, review_waived, waiver_id, waiver_reason, waiver_configured_by, waiver_configured_at")
     .in("status", ["active", "superseded"])
     .order("issue_date", { ascending: false })
     .order("activated_at", { ascending: false });

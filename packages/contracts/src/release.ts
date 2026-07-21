@@ -10,6 +10,18 @@ export type PublicationReleaseStatus =
 
 export type PublicationHealth = "healthy" | "degraded" | "stale";
 
+export type PublicationReviewStatus = "passed" | "waived";
+
+export type PublicationReviewDecision = {
+  reviewStatus: PublicationReviewStatus;
+  reviewPassed: boolean;
+  reviewWaived: boolean;
+  waiverId?: string;
+  waiverReason?: string;
+  configuredBy?: string;
+  configuredAt?: string;
+};
+
 export type PosterCandidate = {
   topicId: string;
   locale: "zh" | "en";
@@ -40,7 +52,8 @@ export type SourceSnapshot = {
   correctionStatus: "clear" | "corrected" | "retracted";
   supportsClaim: boolean;
   claimResults: FactualClaimReview[];
-  reviewProvider: string;
+  reviewStatus: PublicationReviewStatus;
+  reviewProvider?: string;
   reviewModel?: string;
   reviewModelVersion?: string;
   reviewProtocolVersion?: string;
@@ -68,20 +81,28 @@ export type PosterCheck = {
   width: number;
   height: number;
   format: "png";
-  ocrTextHash: string;
-  detectedNumber: number;
-  detectedLanguage: "zh" | "en";
-  titleMatches: boolean;
-  dateMatches: boolean;
-  siteMatches: boolean;
-  themeMatches: boolean;
-  xiaziMatches: boolean;
-  doudoulongMatches: boolean;
-  crossLocaleThemeMatches: boolean;
-  maxDistinctTopicSimilarity: number;
-  batchComparisonHash: string;
+  verificationMethod: "reviewer" | "deterministic-manifest";
+  manifestNumber: number;
+  manifestLanguage: "zh" | "en";
+  manifestIssueDate: string;
+  manifestSite: "xiazishuo.com";
+  ocrPerformed: boolean;
+  semanticComparisonPerformed: boolean;
+  ocrTextHash?: string;
+  detectedNumber?: number;
+  detectedLanguage?: "zh" | "en";
+  titleMatches?: boolean;
+  dateMatches?: boolean;
+  siteMatches?: boolean;
+  themeMatches?: boolean;
+  xiaziMatches?: boolean;
+  doudoulongMatches?: boolean;
+  crossLocaleThemeMatches?: boolean;
+  maxDistinctTopicSimilarity?: number;
+  batchComparisonHash?: string;
   duplicateOf?: string;
-  reviewProvider: string;
+  reviewStatus: PublicationReviewStatus;
+  reviewProvider?: string;
   reviewModel?: string;
   reviewModelVersion?: string;
   reviewProtocolVersion?: string;
@@ -102,6 +123,13 @@ export type PublicationValidationReport = {
   sourceCount: number;
   posterCount: number;
   storageVerification: StorageVerificationReport;
+  reviewStatus: PublicationReviewStatus;
+  reviewPassed: boolean;
+  reviewWaived: boolean;
+  waiverId?: string;
+  waiverReason?: string;
+  configuredBy?: string;
+  configuredAt?: string;
   failures: string[];
 };
 
@@ -113,6 +141,13 @@ export type PublicationMetadata = {
   deployedAt: string | null;
   publicationHealth: PublicationHealth;
   stale: boolean;
+  reviewStatus: PublicationReviewStatus;
+  reviewPassed: boolean;
+  reviewWaived: boolean;
+  waiverId?: string;
+  waiverReason?: string;
+  configuredBy?: string;
+  configuredAt?: string;
   degradationReason?: string;
 };
 

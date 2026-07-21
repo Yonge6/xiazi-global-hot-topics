@@ -34,6 +34,10 @@ describe("release-aware content API", () => {
         deployedAt: "2026-07-19T00:40:00.000Z",
         publicationHealth: "healthy",
         stale: false,
+        reviewStatus: "waived",
+        reviewPassed: false,
+        reviewWaived: true,
+        waiverId: "owner-risk-acceptance-2026-07",
       },
     });
     mocks.loadLatestProductionIssue.mockResolvedValue({ issue, source: "github" });
@@ -51,6 +55,7 @@ describe("release-aware content API", () => {
     expect(response.status).toBe(200);
     expect(response.headers.get("x-publication-health")).toBe("healthy");
     expect(response.headers.get("x-release-id")).toBe(detail.releaseId);
+    expect(response.headers.get("x-review-status")).toBe("waived");
     expect(detail).toMatchObject({
       releaseId: "rel_20260719_aaaaaaaaaaaaaaaaaaaaaaaa",
       releaseSchemaVersion: "release-v2.1",
@@ -58,6 +63,10 @@ describe("release-aware content API", () => {
       dataSource: "supabase-release",
       publicationHealth: "healthy",
       stale: false,
+      reviewStatus: "waived",
+      reviewPassed: false,
+      reviewWaived: true,
+      waiverId: "owner-risk-acceptance-2026-07",
     });
   });
 

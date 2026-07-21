@@ -105,6 +105,7 @@ describe("release poster gate", () => {
     expect(checks.every((item) => /^[0-9a-f]{16}$/.test(item.perceptualHash))).toBe(true);
     expect(checks.every((item) => item.crossLocaleThemeMatches)).toBe(true);
     expect(new Set(checks.map((item) => item.batchComparisonHash)).size).toBe(1);
+    expect(checks.every((item) => item.verificationMethod === "reviewer" && item.reviewStatus === "passed")).toBe(true);
   }, posterGateTimeout);
 
   it("rejects a manifest missing one locale/topic slot", async () => {
@@ -174,5 +175,30 @@ describe("release poster gate", () => {
         return result;
       },
     })).rejects.toThrow(/POSTER_BATCH_REVIEWS_INCOMPLETE/);
+  }, posterGateTimeout);
+
+  it("keeps deterministic poster gates while explicitly waiving OCR and vision evidence", async () => {
+    const reviewerSpy = vi.fn(reviewer);
+    const checks = await verifyReleasePosters(issue, assetBatchId, candidates, {
+      fetchImpl: posterFetch(),
+      reviewer: reviewerSpy,
+      reviewDecision: {
+        reviewStatus: "waived",
+        reviewPassed: false,
+        reviewWaived: true,
+        waiverId: "owner-risk-acceptance-2026-07",
+        waiverReason: "Owner explicitly accepts reviewer risk for launch",
+        configuredBy: "project-owner",
+        configuredAt: "2026-07-21T02:00:00.000Z",
+      },
+    });
+    expect(reviewerSpy).not.toHaveBeenCalled();
+    expect(checks).toHaveLength(18);
+    expect(checks.every((item) => item.verificationMethod === "deterministic-manifest")).toBe(true);
+    expect(checks.every((item) => item.reviewStatus === "waived" && item.reviewProvider === "none")).toBe(true);
+    expect(checks.every((item) => !item.ocrPerformed && !item.semanticComparisonPerformed)).toBe(true);
+    expect(checks.every((item) => !item.titleMatches && !item.dateMatches && !item.siteMatches)).toBe(true);
+    expect(checks.every((item) => !item.themeMatches && !item.xiaziMatches && !item.doudoulongMatches)).toBe(true);
+    expect(checks.map((item) => item.manifestNumber)).toEqual(candidates.map((candidate) => issue.topics.find((topic) => topic.id === candidate.topicId)!.rank));
   }, posterGateTimeout);
 });

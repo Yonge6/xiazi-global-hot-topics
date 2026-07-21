@@ -4,22 +4,22 @@
 
 This change applies only to issues after `2026-07-18`. It does not edit, retract, regenerate, archive, redistribute or republish the 2026-07-18 issue.
 
-## Audit status
+## Audit status and owner authorization
 
-The audit remains **D / failed**. This PR is intentionally a draft: it adds the future hard gates but does not enable them in production. Unattended publishing must remain disabled until the staging migration, reviewer services, storage policy and fault/rollback rehearsal are complete.
+The engineering audit originally remained **D / failed** because the real Reviewer and protected Reviewer rehearsal were not executed. On 2026-07-21 the project owner explicitly accepted that residual risk and authorized production enablement and automatic publishing under change record `owner-risk-acceptance-2026-07`.
 
-Work Package 3 is currently **conditional pass**. Its ordinary application/database CI, isolated Supabase migrations, persistent replay store, and staging guards are verified. Because no `STAGING_OPENAI_API_KEY` was provided, the real Reviewer and protected staging rehearsal were not executed:
+This authorization is a waiver, not evidence that Reviewer checks passed:
 
 ```json
 {
   "realReviewerStatus": "not-executed",
-  "protectedStagingRehearsal": "blocked",
-  "workPackageThree": "conditional-pass",
-  "productionEnablementReview": "failed"
+  "protectedReviewerRehearsal": "waived",
+  "workPackageThree": "accepted-with-reviewer-waiver",
+  "productionEnablement": "authorized"
 }
 ```
 
-Mock output, fixed JSON, local simulation, and the staging-only negative fault provider are not substitutes for a real Reviewer and are not counted as protected staging evidence.
+Mock output, fixed JSON, local simulation, and the staging-only negative fault provider remain unacceptable as Reviewer evidence. Production records must expose `reviewStatus=waived`, `reviewPassed=false`, `reviewWaived=true`, the waiver identity, reason, config actor and config timestamp.
 
 ## Architecture change
 
@@ -30,13 +30,14 @@ automatic generation
   -> acquire expiring publication lease
   -> renew the owner-bound lease while gates run
   -> re-fetch and snapshot every real source
-  -> review headline + intro claims in both languages and check corrections/retractions
-  -> deterministic image + OCR/vision/IP + 18-poster perceptual/semantic comparison
+  -> always block known correction/retraction markers and preserve source snapshot hashes
+  -> run semantic and OCR/vision/IP review when RELEASE_REVIEW_MODE=enforced
+  -> otherwise record the explicit owner waiver and run deterministic source/image/manifest gates
   -> compute sourceSnapshotHash + posterManifestHash (including immutable object identities and storage policy version)
   -> releaseHash = SHA256(schemaVersion + contentHash + sourceSnapshotHash + posterManifestHash)
   -> compute releaseId from issueDate + releaseHash
   -> stage immutable ready_for_approval release
-  -> human Studio approval
+  -> human Studio approval, or audited automatic activation when explicitly configured
   -> one transaction activates current pointer
   -> production API/page read the same releaseId
   -> asynchronous GitHub audit export
@@ -46,12 +47,12 @@ automatic generation
 
 | Concern | Previous flow | Future Release V2 flow |
 |---|---|---|
-| Human gate | Direct publish from Studio/automation | Staging never activates; Studio approval is mandatory |
+| Approval | Direct publish from Studio/automation | Default human approval; explicit production `automatic` mode still requires all deterministic/storage/lease gates |
 | Identity | Date, mutable current JSON | `releaseId` binds schema, copy, source snapshots and the full poster manifest |
 | Atomicity | Multiple GitHub PUTs | One `activate_publication_release` transaction |
 | Concurrency | Prompt/local lock | Owner-bound expiring database lease, heartbeat and retry short-circuit |
-| Sources | URL availability; batch parser could replace URL | Real URL, pinned public DNS/IP, manual redirects, bounded stream, snapshot/hash/fetch time and four-claim review |
-| Posters | Decode/size/basic parity | 18 exact slots, PNG/ratio/hash, OCR, language, number, title, date, site, theme, IP, perceptual hash and all-pairs semantic checks |
+| Sources | URL availability; batch parser could replace URL | Real URL, pinned public DNS/IP, manual redirects, bounded stream and snapshot/hash/fetch time; semantic review is enforced or explicitly waived |
+| Posters | Decode/size/basic parity | Always: 18 exact slots, immutable metadata, PNG/ratio/hash and perceptual duplicate checks. Enforced mode additionally requires OCR, theme/IP and all-pairs semantic checks |
 | Production proof | Issue body only | `releaseId`, `contentHash`, `dataSource`, `deployedAt`, health and stale flags |
 | Fallback | Silent packaged/local JSON | Explicit 503 or visibly degraded/stale emergency fallback |
 | Rollback | Rewrite many files | Atomic pointer change to a prior immutable release |
@@ -78,6 +79,9 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 |---|---|---|
 | `RELEASE_V2_ENABLED` | Switch future production reads and publish route to Release V2 | Off keeps legacy behavior |
 | `RELEASE_EXPLICIT_DEGRADED_FALLBACK` | Permit marked emergency legacy reads | Off returns 503 |
+| `RELEASE_REVIEW_MODE` | `enforced` by default; explicit production `waived` records accepted Reviewer risk | Invalid/incomplete waiver blocks staging |
+| `RELEASE_REVIEW_WAIVER_*` | Waiver ID, reason, configured-by and configured-at audit identity | Any missing field blocks staging |
+| `RELEASE_APPROVAL_MODE` | `human` by default; explicit production `automatic` activates after all hard gates | Invalid environment or missing commit/audit proof blocks activation |
 | `SOURCE_SEMANTIC_REVIEW_URL` | Server-side source claim/correction reviewer | Missing blocks staging |
 | `POSTER_VISION_REVIEW_URL` | Server-side OCR, semantic and IP reviewer | Missing blocks staging |
 | `RELEASE_REVIEW_BEARER_SECRET` | Bearer credential for both review services | Missing blocks staging |
@@ -85,15 +89,14 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 | `RELEASE_REVIEW_TIMEOUT_MS` | Reviewer client hard timeout | Timeout blocks staging |
 | `RELEASE_STAGE_SECRET` | Optional dedicated automation stage secret; falls back to `CRON_SECRET` | Missing both rejects staging |
 
-## Operational gates before unattended publishing
+## Operational gates retained under the waiver
 
 - A staged release cannot activate without `validation_report.passed=true`.
-- A Studio session and same-origin request are required for approval and rollback.
+- Human approval requires a Studio session and same-origin request. Automatic approval is production-only and writes activation mode, release/previous IDs, validation hash, waiver ID, job ID, commit SHA and activation time.
 - A release dated on or before 2026-07-18 is rejected by application and database constraints.
-- A reviewer timeout or malformed response fails closed.
+- In `enforced` mode a Reviewer timeout or malformed response fails closed. In `waived` mode no Reviewer is called and the release must never be labelled reviewed or passed.
 - A source is fetched only after every redirect hop and its resolved IPv4/IPv6 addresses pass the public-network policy; the connection is pinned to the checked address and the body is stream-limited.
-- Every topic must return `supported` for `headlineFact` and `intro` in both `zh-CN` and `en-US`.
-- The poster batch must contain 18 image reviews and all 153 pair comparisons. Cross-language pairs must share a theme; distinct topics above the similarity threshold require rejection or human review.
+- Enforced mode requires four supported claims per topic and 18 image reviews plus all 153 comparisons. Waived mode stores no claim support or OCR/vision evidence and relies only on the retained deterministic gates.
 - Staging requires the live lease owner and a non-expired lease. An active idempotent retry returns the existing job/release without rerunning source and poster gates.
 - Reusing an existing `releaseId` with any payload, source, poster or validation difference raises `RELEASE_PAYLOAD_CONFLICT`.
 - The API never labels a legacy response healthy when Release V2 is enabled.
@@ -115,23 +118,23 @@ The Tencent COS service-side immutability work package is passed for this topolo
 
 Adding any CDN is a future independent change gate. It must prove origin/CDN SHA-256 equality, cache refresh behavior, private-origin authentication and error fallback before CDN URLs can enter a Release manifest or public read path.
 
-## Remaining risks
+## Accepted and remaining risks
 
-- The external semantic and vision reviewer implementation, versioned protocol, HMAC/replay controls and fail-closed client are provided by the stacked reviewer-services PR. The durable replay store is verified in isolated staging Supabase, but a real Reviewer deployment, staging-only model credential, pinned-model calls and monitoring export remain required before production enablement.
+- The real semantic and vision Reviewer was not deployed or rehearsed. The owner accepted this risk for the initial Release V2 launch. Switching back to `enforced` remains supported without rewriting the release architecture.
 - Tencent COS immutability is verified and passed for the approved Direct COS Origin topology. CDN delivery remains outside the approved scope and requires its own future acceptance gate.
 - GitHub audit export is intentionally outside the activation transaction and needs a retry worker.
 - Existing mutable Studio poster upload remains a legacy-only path and must stay disabled for future Release V2 automation.
 - Studio currently records a configured approver label for the shared session; individual user identity and stronger session controls remain a separate authentication hardening task.
 - Downstream channel delivery receipts are audited separately and are not part of the database pointer transaction.
-- Full production validation requires staging/production credentials and cannot be proven by repository unit tests alone.
+- Production migration, A/B activation, rollback/reactivation, first automatic release and monitoring evidence must still be captured in `docs/evidence/production-deployment.md`; authorization does not turn an unexecuted step into a pass.
 
-## Work Package 3 conditional evidence
+## Work Package 3 waiver record
 
 - Implementation head: `2690ebb872556d92d534b3c3b31c7024e53d421f`.
 - Ordinary CI run: `29734829434`; application/guard and database lifecycle jobs succeeded.
-- Protected live staging proof: skipped on the pull-request event and intentionally not dispatched without a staging-only model credential.
+- Protected live Reviewer proof: not executed and explicitly waived by the owner; it is not recorded as passed.
 - Real Release A/B publication, full fault injection, rollback, and reactivation: not executed.
-- Production resources: untouched; production `RELEASE_V2_ENABLED` remains off and unattended publishing remains paused.
+- Production rollout is authorized but remains incomplete until the phased deployment record is filled with live results.
 
 The exact machine-readable status is stored in `docs/evidence/staging-rehearsal/status.sanitized.json`.
 

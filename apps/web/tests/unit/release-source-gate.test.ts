@@ -88,11 +88,11 @@ describe("release source gate", () => {
     })).rejects.toThrow(/SOURCE_DNS_ADDRESS_NOT_PUBLIC/);
   });
 
-  it("fails closed when a correction marker is ignored by the reviewer", async () => {
+  it("fails closed on a correction marker before reviewer interpretation", async () => {
     await expect(verifyReleaseSources(futureIssue(), {
       sourceFetcher: sourceFetcher(" This story has been updated to correct the decision."),
       reviewer: supportedReviewer,
-    })).rejects.toThrow(/SOURCE_CORRECTION_REVIEW_MISMATCH/);
+    })).rejects.toThrow(/SOURCE_CORRECTED_REVIEW_REQUIRED/);
   });
 
   it("blocks a recognized correction until the candidate claims are reviewed and regenerated", async () => {
@@ -145,5 +145,25 @@ describe("release source gate", () => {
         claimResults: (await supportedReviewer(input)).claimResults.slice(1),
       }),
     })).rejects.toThrow(/SOURCE_CLAIM_REVIEW_INCOMPLETE/);
+  });
+
+  it("waives semantic review without inventing provider or claim evidence", async () => {
+    const reviewer = vi.fn(supportedReviewer);
+    const snapshots = await verifyReleaseSources(futureIssue(), {
+      sourceFetcher: sourceFetcher(),
+      reviewer,
+      reviewDecision: {
+        reviewStatus: "waived",
+        reviewPassed: false,
+        reviewWaived: true,
+        waiverId: "owner-risk-acceptance-2026-07",
+        waiverReason: "Owner explicitly accepts reviewer risk for launch",
+        configuredBy: "project-owner",
+        configuredAt: "2026-07-21T02:00:00.000Z",
+      },
+    });
+    expect(reviewer).not.toHaveBeenCalled();
+    expect(snapshots.every((item) => item.reviewStatus === "waived" && !item.supportsClaim)).toBe(true);
+    expect(snapshots.every((item) => item.claimResults.length === 0 && item.reviewProvider === "none")).toBe(true);
   });
 });

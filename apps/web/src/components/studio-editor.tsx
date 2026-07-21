@@ -46,6 +46,11 @@ type PendingRelease = {
     sourceCount: number;
     posterCount: number;
     failures: string[];
+    reviewStatus: "passed" | "waived";
+    reviewPassed: boolean;
+    reviewWaived: boolean;
+    waiverId?: string;
+    waiverReason?: string;
   };
 };
 
@@ -568,6 +573,11 @@ export function StudioEditor() {
                 <span>{release.issueDate}</span>
                 <code>{release.releaseId}</code>
                 <small>来源 {release.validationReport.sourceCount} · 海报 {release.validationReport.posterCount} · {release.contentHash.slice(0, 12)}</small>
+                {release.validationReport.reviewWaived ? (
+                  <small>Reviewer 已豁免（未通过审核） · {release.validationReport.waiverId}</small>
+                ) : (
+                  <small>Reviewer 已验证通过</small>
+                )}
                 <button
                   type="button"
                   onClick={() => approveRelease(release)}

@@ -1,6 +1,6 @@
 # Release V2 evidence index
 
-This index separates implemented controls from evidence obtained against isolated external services. No item here authorizes production enablement.
+This index separates implemented controls, unexecuted Reviewer evidence and the project owner's explicit production authorization.
 
 | Hard gate | Evidence | Current status |
 | --- | --- | --- |
@@ -9,17 +9,19 @@ This index separates implemented controls from evidence obtained against isolate
 | Isolated staging guards and database invariants | `staging-rehearsal/status.sanitized.json` | Passed |
 | Persistent replay store | `staging-rehearsal/README.md` | Verified in isolated staging Supabase |
 | Real Reviewer deployment and pinned-model calls | `staging-rehearsal/environment-versions.md` | `not-executed` |
-| Protected Release A/B lifecycle | `staging-rehearsal/` | Blocked by absent staging-only model credential |
+| Reviewer risk acceptance | `reviewer-waiver-decision.md` | Authorized; does not assert Reviewer pass |
+| Waiver and automatic approval code/database gates | migration, unit tests and RPC suite | Local code, Build, E2E and real local Postgres suite passed |
+| Protected Release A/B lifecycle | `staging-rehearsal/` | Reviewer portion waived; production A/B execution still pending |
 | Live fault injection, rollback, and reactivation | `staging-rehearsal/` | Not executed |
-| Production enablement review | `staging-rehearsal/status.sanitized.json` | Failed |
+| Production deployment and rollback | `production-deployment.md` | Authorized; execution evidence pending |
 
 Current formal state:
 
 ```json
 {
   "realReviewerStatus": "not-executed",
-  "protectedStagingRehearsal": "blocked",
-  "workPackageThree": "conditional-pass",
-  "productionEnablementReview": "failed"
+  "protectedReviewerRehearsal": "waived",
+  "workPackageThree": "accepted-with-reviewer-waiver",
+  "productionEnablement": "authorized"
 }
 ```

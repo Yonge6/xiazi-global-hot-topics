@@ -62,6 +62,9 @@ export async function uploadImmutableReleasePosters(
       assetBatchId,
       topicId: upload.topicId,
       locale: upload.locale,
+      issueDate: issue.issueDate,
+      expectedNumber: topic.rank,
+      expectedSite: "xiazishuo.com",
       createdAt,
       uploaderVersion,
     });

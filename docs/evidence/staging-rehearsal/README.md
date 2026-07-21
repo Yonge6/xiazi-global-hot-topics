@@ -7,13 +7,13 @@ This directory contains only sanitized, machine-verifiable evidence for the isol
 ```json
 {
   "realReviewerStatus": "not-executed",
-  "protectedStagingRehearsal": "blocked",
-  "workPackageThree": "conditional-pass",
-  "productionEnablementReview": "failed"
+  "protectedReviewerRehearsal": "waived",
+  "workPackageThree": "accepted-with-reviewer-waiver",
+  "productionEnablement": "authorized"
 }
 ```
 
-`STAGING_OPENAI_API_KEY` has not been provided. That is an intentional fail-closed condition, not a test failure. No production key, mock response, fixed JSON, local provider, or controlled fault provider is accepted as evidence of a real staging Reviewer. The protected rehearsal, Release A/B lifecycle, live fault matrix, rollback, and reactivation have therefore not been executed.
+`STAGING_OPENAI_API_KEY` was not provided. No production key, mock response, fixed JSON, local provider, or controlled fault provider is accepted as evidence of a real staging Reviewer. The project owner subsequently waived that Reviewer requirement under `owner-risk-acceptance-2026-07`; the evidence remains `not-executed`, never `passed`.
 
 ## Approved scope
 
@@ -66,4 +66,4 @@ The evidence update was locally revalidated with 8 staging guard tests, 25 Revie
 - Release A/B IDs, content/release hashes, 18-object manifests, pointer queries, audit events, fault results, rollback, and reactivation.
 - Reviewer timeout/shutdown, source correction/retraction and SSRF, lease conflict, COS tamper, Supabase 503/degraded behavior.
 
-The current work-package result is **conditional pass** for code, ordinary CI, isolated Supabase migrations/replay storage, and staging guards only. The protected rehearsal remains blocked and production enablement review remains failed. PR #14 stays Draft; production Release V2 and unattended publishing remain disabled.
+The original work-package result was **conditional pass**. It is now **accepted with a Reviewer waiver** for production rollout. This changes the decision gate, not the historical evidence: live Reviewer, normal staging A/B and the full live fault matrix remain unexecuted. Production rollout results must be recorded separately.

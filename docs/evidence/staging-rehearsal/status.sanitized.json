@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "release-v2-staging-conditional-status-v1",
+  "schemaVersion": "release-v2-owner-waiver-status-v1",
   "recordedAt": "2026-07-21T01:49:13Z",
   "implementationHead": "2690ebb872556d92d534b3c3b31c7024e53d421f",
   "ordinaryCi": {
@@ -19,10 +19,11 @@
     "webBuild": "success"
   },
   "realReviewerStatus": "not-executed",
-  "protectedStagingRehearsal": "blocked",
-  "workPackageThree": "conditional-pass",
-  "productionEnablementReview": "failed",
-  "blockingReason": "STAGING_OPENAI_API_KEY was intentionally not provided",
+  "protectedReviewerRehearsal": "waived",
+  "workPackageThree": "accepted-with-reviewer-waiver",
+  "productionEnablement": "authorized",
+  "waiverId": "owner-risk-acceptance-2026-07",
+  "waiverScope": "semantic-and-visual-reviewer-only",
   "acceptedEvidence": {
     "isolatedSupabaseMigrations": true,
     "persistentReplayReservation": true,
@@ -37,5 +38,6 @@
   "mockOrSimulatedReviewerEvidenceAccepted": false,
   "productionResourcesTouched": false,
   "releaseV2EnabledInProduction": false,
-  "unattendedPublishingRestored": false
+  "unattendedPublishingRestored": false,
+  "note": "Reviewer evidence remains not-executed and is not represented as passed; production rollout evidence is pending."
 }

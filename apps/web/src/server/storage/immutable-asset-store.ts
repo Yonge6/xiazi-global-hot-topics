@@ -39,6 +39,9 @@ export type ImmutableCreateInput = {
   assetBatchId: string;
   topicId: string;
   locale: ImmutableAssetLocale;
+  issueDate: string;
+  expectedNumber: number;
+  expectedSite: "xiazishuo.com";
   createdAt: string;
   uploaderVersion: string;
 };
@@ -84,6 +87,9 @@ function expectedCustomMetadata(input: ImmutableCreateInput, sha256: string) {
     "asset-batch-id": input.assetBatchId,
     "topic-id": input.topicId,
     locale: input.locale,
+    "issue-date": input.issueDate,
+    "expected-number": String(input.expectedNumber),
+    "expected-site": input.expectedSite,
     sha256,
     "created-at": input.createdAt,
     "uploader-version": input.uploaderVersion,
@@ -137,6 +143,9 @@ function proof(store: ImmutableAssetStore, input: ImmutableCreateInput, sha256: 
     assetBatchId: input.assetBatchId,
     topicId: input.topicId,
     locale: input.locale,
+    issueDate: input.issueDate,
+    expectedNumber: input.expectedNumber,
+    expectedSite: input.expectedSite,
     key: input.key,
     url: new URL(input.key, store.publicOrigin.endsWith("/") ? store.publicOrigin : `${store.publicOrigin}/`).toString(),
     sha256,

@@ -99,6 +99,9 @@ function input(content = "simulated png bytes"): ImmutableCreateInput {
     assetBatchId,
     topicId: "topic-1",
     locale: "zh",
+    issueDate: "2026-07-20",
+    expectedNumber: 1,
+    expectedSite: "xiazishuo.com",
     createdAt: "2026-07-20T00:00:00.000Z",
     uploaderVersion: "uploader-v1",
   };

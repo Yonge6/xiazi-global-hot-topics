@@ -25,6 +25,7 @@ export async function GET() {
           "X-Release-Id": active.metadata.releaseId,
           "X-Content-Hash": active.metadata.contentHash,
           "X-Publication-Health": active.metadata.publicationHealth,
+          "X-Review-Status": active.metadata.reviewStatus,
         },
       });
     } catch (error) {
