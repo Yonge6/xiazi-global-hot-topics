@@ -8,6 +8,7 @@ import sharp from "sharp";
 
 import {
   beijingDate,
+  normalizeIssueForArchiveComparison,
   validateIssue,
   validateStoryPool,
 } from "./lib/daily-release-validator.mjs";
@@ -383,7 +384,14 @@ async function runLiveChecks() {
       throw new Error(`${options.expectedDate} is missing from the archive list`);
     }
     const detail = await fetchJson(`${PRODUCTION_ORIGIN}/api/archive/?date=${options.expectedDate}`, "archive detail API");
-    if (stableJson(detail.value.issue) !== stableJson(issue)) throw new Error("archive issue does not match current production issue");
+    const currentReleaseId = issue.releaseId || issue.assetVersion;
+    if (detail.value.assetVersion !== currentReleaseId) {
+      throw new Error(`archive releaseId ${detail.value.assetVersion || "missing"} does not match active ${currentReleaseId || "missing"}`);
+    }
+    if (stableJson(normalizeIssueForArchiveComparison(detail.value.issue))
+      !== stableJson(normalizeIssueForArchiveComparison(issue))) {
+      throw new Error("archive issue content does not match current production issue");
+    }
     pass("LIVE-005", "Archive list and archive detail match the current issue");
   } catch (cause) {
     fail("LIVE-005", "Production archive API failed", String(cause));

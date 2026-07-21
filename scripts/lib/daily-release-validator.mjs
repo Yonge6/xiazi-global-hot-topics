@@ -1,6 +1,22 @@
 const datePattern = /^\d{4}-\d{2}-\d{2}$/;
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const allowedStoryStatuses = new Set(["new", "followup", "finished"]);
+const runtimePublicationFields = new Set([
+  "configuredAt",
+  "configuredBy",
+  "contentHash",
+  "dataSource",
+  "deployedAt",
+  "publicationHealth",
+  "releaseId",
+  "releaseSchemaVersion",
+  "reviewPassed",
+  "reviewStatus",
+  "reviewWaived",
+  "stale",
+  "waiverId",
+  "waiverReason",
+]);
 
 function error(id, message, path) {
   return { id, message, ...(path ? { path } : {}) };
@@ -28,6 +44,13 @@ export function beijingDate(now = new Date()) {
   }).formatToParts(now);
   const value = Object.fromEntries(parts.map((part) => [part.type, part.value]));
   return `${value.year}-${value.month}-${value.day}`;
+}
+
+export function normalizeIssueForArchiveComparison(issue) {
+  if (!issue || typeof issue !== "object" || Array.isArray(issue)) return issue;
+  return Object.fromEntries(
+    Object.entries(issue).filter(([key]) => !runtimePublicationFields.has(key)),
+  );
 }
 
 /**
