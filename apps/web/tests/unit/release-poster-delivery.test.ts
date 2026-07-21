@@ -75,6 +75,27 @@ describe("release-bound poster delivery", () => {
     expect(await response.json()).toMatchObject({ publicationHealth: "degraded", stale: true });
   });
 
+  it("serves the unchanged legacy GitHub archive through the cutoff when Release V2 is enabled", async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(new Uint8Array([1, 2, 3]), { status: 200 }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const response = await request("?issueDate=2026-07-18&v=2026-07-18T05%3A00%3A00%2B08%3A00");
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("content-type")).toBe("image/png");
+    expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
+    const requestedUrl = fetchMock.mock.calls[0]?.[0] as URL;
+    expect(requestedUrl.pathname).toBe(
+      "/Yonge6/xiazi-global-hot-topics/main/public/archive/2026-07-18/posters/zh/overview.png",
+    );
+  });
+
+  it("still requires a releaseId for future dated poster requests", async () => {
+    const response = await request("?issueDate=2026-07-19&v=2026-07-19T05%3A00%3A00%2B08%3A00");
+    expect(response.status).toBe(409);
+    expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
+  });
+
   it("fails closed when the remote legacy GitHub archive is unavailable", async () => {
     mocks.releaseV2Enabled = false;
     vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new Error("GitHub unavailable")));

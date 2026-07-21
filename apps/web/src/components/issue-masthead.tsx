@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { productConfig, publicationTimeLabel } from "@xiazi/config";
 import type { AppLocale } from "@/i18n/config";
-import { getCosAsset } from "@/lib/posters/assets";
+import { getBrandAsset } from "@/lib/posters/assets";
 
 export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueDate: string }) {
   const isZh = locale === "zh";
@@ -20,7 +20,7 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
     <section className="issue-masthead shell" aria-labelledby="issue-title">
       <div className="masthead-character masthead-xiazi" aria-hidden="true">
         <Image
-          src={getCosAsset("brand/characters/xiazi/xiazi-master-front.webp")}
+          src={getBrandAsset("brand/characters/xiazi/xiazi-master-front.webp")}
           alt=""
           fill
           priority
@@ -59,7 +59,7 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
 
       <div className="masthead-character masthead-doudou" aria-hidden="true">
         <Image
-          src={getCosAsset("brand/characters/doudou/doudou-master-front.webp")}
+          src={getBrandAsset("brand/characters/doudou/doudou-master-front.webp")}
           alt=""
           fill
           priority
