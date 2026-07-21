@@ -12,6 +12,7 @@ export type CosImmutableStoreConfig = {
   endpointOrigin?: string;
   versioningState: "never-enabled" | "enabled" | "suspended" | "unknown";
   fetchImpl?: typeof fetch;
+  requestTimeoutMs?: number;
 };
 
 function hmacSha1(key: string, value: string) {
@@ -65,6 +66,7 @@ export class CosImmutableAssetStore implements ImmutableAssetStore {
   readonly conditionalCreateSupported: boolean;
   private readonly endpoint: URL;
   private readonly fetchImpl: typeof fetch;
+  private readonly requestTimeoutMs: number;
 
   constructor(private readonly config: CosImmutableStoreConfig) {
     if (!config.secretId || !config.secretKey || !config.bucket || !config.region) {
@@ -88,6 +90,12 @@ export class CosImmutableAssetStore implements ImmutableAssetStore {
     }
     this.conditionalCreateSupported = config.versioningState === "never-enabled";
     this.fetchImpl = config.fetchImpl || fetch;
+    this.requestTimeoutMs = config.requestTimeoutMs ?? 25_000;
+    if (!Number.isSafeInteger(this.requestTimeoutMs)
+      || this.requestTimeoutMs < 5_000
+      || this.requestTimeoutMs > 300_000) {
+      throw new ImmutableAssetError("IMMUTABLE_ASSET_POLICY_UNVERIFIED", "COS_REQUEST_TIMEOUT_INVALID");
+    }
   }
 
   private async request(method: string, key: string, init: RequestInit = {}) {
@@ -103,7 +111,7 @@ export class CosImmutableAssetStore implements ImmutableAssetStore {
         ...init.headers,
       },
       redirect: "error",
-      signal: init.signal || AbortSignal.timeout(25_000),
+      signal: init.signal || AbortSignal.timeout(this.requestTimeoutMs),
     });
   }
 
