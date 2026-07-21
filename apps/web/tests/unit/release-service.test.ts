@@ -358,8 +358,15 @@ describe("future release service", () => {
 
   it("rejects historical issues before acquiring a lease", async () => {
     const client = fakeClient();
+    const historicalIssueValue = structuredClone(issue);
+    historicalIssueValue.issueDate = "2026-07-18";
+    historicalIssueValue.slug = "2026-07-18";
+    historicalIssueValue.beijingTimestamp = "2026-07-18T05:00:00+08:00";
+    historicalIssueValue.gmtTimestamp = "2026-07-17T21:00:00Z";
+    const historicalIssue = parseIssue(historicalIssueValue);
+    expect(historicalIssue.issueDate).toBe("2026-07-18");
     await expect(stageFuturePublication({
-      issue: parseIssue(currentIssue),
+      issue: historicalIssue,
       posters: posterCandidates,
       assetBatchId,
       idempotencyKey: "automation:2026-07-18:blocked",
