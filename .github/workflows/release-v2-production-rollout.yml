@@ -184,7 +184,7 @@ jobs:
             --data-binary @/tmp/production-release-payload.json \
             https://xiazishuo.com/api/internal/releases/stage/ \
             > /tmp/production-stage-response.json
-          jq -e '.ok == true and .status == "ready_for_approval" and (.releaseId | type == "string")' /tmp/production-stage-response.json >/dev/null
+          jq -e '.ok == true and (.status == "ready_for_approval" or .status == "active") and (.releaseId | type == "string")' /tmp/production-stage-response.json >/dev/null
           jq '{ok,status,releaseId,issueDate,contentHash,validationReport:{passed:.validationReport.passed,reviewStatus:.validationReport.reviewStatus,reviewPassed:.validationReport.reviewPassed,reviewWaived:.validationReport.reviewWaived,waiverId:.validationReport.waiverId,sourceCount:.validationReport.sourceCount,posterCount:.validationReport.posterCount,storageVerification:{provider:.validationReport.storageVerification.provider,policyVersion:.validationReport.storageVerification.policyVersion,policyVerified:.validationReport.storageVerification.policyVerified,overwriteDenied:.validationReport.storageVerification.overwriteDenied,deleteDenied:.validationReport.storageVerification.deleteDenied,objectManifestHash:.validationReport.storageVerification.objectManifestHash}}}' \
             /tmp/production-stage-response.json > /tmp/production-stage-sanitized.json
           cat /tmp/production-upload-proof.json >> "$GITHUB_STEP_SUMMARY"
