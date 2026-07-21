@@ -1,8 +1,11 @@
 import { readFile } from "node:fs/promises";
+import type { LookupAddress } from "node:dns";
 
 import { stagePublicationReleaseSchema } from "@xiazi/contracts";
 
 import { stageFuturePublication } from "../apps/web/src/server/releases/release-service";
+import { fetchSafeSource } from "../apps/web/src/server/releases/safe-source-fetch";
+import { verifyReleaseSources } from "../apps/web/src/server/releases/source-gate";
 
 const CANONICAL_ORIGIN = "https://xiazishuo.com";
 
@@ -10,6 +13,28 @@ function required(name: string) {
   const value = process.env[name]?.trim();
   if (!value) throw new Error(`PRODUCTION_LOCAL_STAGE_CONFIG_MISSING:${name}`);
   return value;
+}
+
+type DohAnswer = { type?: number; data?: string };
+
+async function resolveWithDoh(hostname: string): Promise<LookupAddress[]> {
+  const answers = await Promise.all((["A", "AAAA"] as const).map(async (type) => {
+    const response = await fetch(`https://cloudflare-dns.com/dns-query?name=${encodeURIComponent(hostname)}&type=${type}`, {
+      headers: { accept: "application/dns-json" },
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!response.ok) throw new Error(`OPERATOR_DOH_FAILED:${type}:${response.status}`);
+    const body = await response.json() as { Status?: number; Answer?: DohAnswer[] };
+    if (body.Status !== 0 && body.Status !== 3) throw new Error(`OPERATOR_DOH_INVALID:${type}:${body.Status}`);
+    return (body.Answer || []).flatMap((answer): LookupAddress[] => {
+      if (answer.type === 1 && answer.data) return [{ address: answer.data, family: 4 }];
+      if (answer.type === 28 && answer.data) return [{ address: answer.data, family: 6 }];
+      return [];
+    });
+  }));
+  const resolved = answers.flat();
+  if (!resolved.length) throw new Error(`OPERATOR_DOH_EMPTY:${hostname}`);
+  return resolved;
 }
 
 async function main() {
@@ -24,7 +49,12 @@ async function main() {
   if (JSON.stringify(payload).toLowerCase().includes("pluto.hk")) {
     throw new Error("RETIRED_DOMAIN_IN_PRODUCTION_RELEASE");
   }
-  const result = await stageFuturePublication(payload);
+  const result = await stageFuturePublication(payload, {
+    sourceGate: (issue, options) => verifyReleaseSources(issue, {
+      ...options,
+      sourceFetcher: (url, limits) => fetchSafeSource(url, { ...limits, resolver: resolveWithDoh }),
+    }),
+  });
   if (result.status !== "ready_for_approval" || !result.releaseId || !result.validationReport?.passed) {
     throw new Error(`PRODUCTION_RELEASE_NOT_READY:${result.status}`);
   }
