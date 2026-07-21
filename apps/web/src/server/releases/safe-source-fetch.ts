@@ -126,6 +126,16 @@ async function defaultResolver(hostname: string) {
   return dnsLookup(hostname, { all: true, verbatim: true });
 }
 
+export function createPinnedLookup(resolved: LookupAddress): LookupFunction {
+  return (_hostname, options, callback) => {
+    if (typeof options === "object" && options.all) {
+      callback(null, [resolved]);
+      return;
+    }
+    callback(null, resolved.address, resolved.family);
+  };
+}
+
 async function resolvePublicAddress(hostname: string, resolver: (hostname: string) => Promise<LookupAddress[]>) {
   const normalized = normalizeHostname(hostname);
   if (isIP(normalized)) {
@@ -160,9 +170,7 @@ async function defaultRequestOnce(
   limits: { timeoutMs: number; maxBytes: number },
 ): Promise<HopResponse> {
   return new Promise((resolve, reject) => {
-    const lookup: LookupFunction = (_hostname, _options, callback) => {
-      callback(null, resolved.address, resolved.family);
-    };
+    const lookup = createPinnedLookup(resolved);
     const request = httpsRequest(url, {
       method: "GET",
       headers: {
