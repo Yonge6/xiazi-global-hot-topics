@@ -12,6 +12,7 @@ import {
   validateIssue,
   validateStoryPool,
 } from "./lib/daily-release-validator.mjs";
+import { fetchBufferWithRetry } from "./lib/remote-file-fetch.mjs";
 
 const PRODUCTION_ORIGIN = "https://xiazishuo.com";
 const CURRENT_MIRRORS = [
@@ -453,11 +454,16 @@ async function runRemoteArchiveChecks() {
       const targets = ["zh", "en"].flatMap((locale) => issue.topics.map((topic) => ({ locale, topic })));
       const details = await mapLimit(targets, 4, async ({ locale, topic }) => {
         const posterUrl = `https://raw.githubusercontent.com/Yonge6/xiazi-global-hot-topics/main/public/archive/${options.expectedDate}/posters/${locale}/${topic.slug}.png`;
-        const response = await fetchWithRetry(posterUrl, { redirect: "error" });
-        if (!response.ok || !/^image\//i.test(response.headers.get("content-type") || "")) {
-          throw new Error(`${locale}/${topic.slug} GitHub archive returned HTTP ${response.status}`);
+        const remote = await fetchBufferWithRetry(posterUrl, {
+          attempts: 3,
+          timeoutMs: 90_000,
+          maxBytes: 50 * 1024 * 1024,
+          init: { redirect: "error", headers: { "user-agent": "xiazishuo-release-gate/1.0" } },
+        });
+        if (!/^image\//i.test(remote.headers.get("content-type") || "")) {
+          throw new Error(`${locale}/${topic.slug} GitHub archive did not return an image`);
         }
-        const buffer = Buffer.from(await response.arrayBuffer());
+        const buffer = remote.buffer;
         return { locale, slug: topic.slug, sha256: sha256(buffer), ...(await validateImage(buffer, posterUrl)) };
       });
       if (details.length !== 18) throw new Error(`Expected 18 GitHub posters, received ${details.length}`);
