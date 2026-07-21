@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "xiazi-sanitized-cam-identity-v1",
+  "scope": "dedicated Xiazi Release V2 staging COS only",
+  "identities": [
+    {
+      "name": "xiazi-rv2-staging-uploader",
+      "purpose": "create-only upload and readback verification",
+      "effectiveAllowed": ["PutObject with forbid-overwrite", "GetObject", "HeadObject"],
+      "verifiedDenied": ["DeleteObject", "DeleteObjectVersion", "Copy overwrite", "Multipart", "Bucket policy", "Versioning", "Encryption", "Object Lock"]
+    },
+    {
+      "name": "xiazi-rv2-staging-auditor",
+      "purpose": "read policy, versioning, encryption and proof objects",
+      "effectiveAllowed": ["GetBucketVersioning", "GetBucketPolicy", "GetBucketEncryption", "GetObject", "HeadObject"],
+      "verifiedDenied": ["PutObject", "DeleteObject", "PutBucketPolicy"]
+    },
+    {
+      "name": "xiazi-rv2-staging-reader",
+      "purpose": "read verified assets without CDN",
+      "effectiveAllowed": ["GetObject", "HeadObject", "OptionsObject"],
+      "verifiedDenied": ["PutObject", "DeleteObject", "PutBucketPolicy"]
+    },
+    {
+      "name": "xiazi-rv2-staging-multipart-fixture",
+      "purpose": "staging-only real multipart denial fixture",
+      "effectiveAllowed": ["InitiateMultipartUpload", "UploadPart", "AbortMultipartUpload"],
+      "verifiedDenied": ["CompleteMultipartUpload"],
+      "prefix": "release-assets/immutability-verification/"
+    }
+  ],
+  "runtimeDoesNotHoldBreakGlassCredentials": true,
+  "githubEnvironment": "release-v2-storage-staging",
+  "completePrincipalIdsRedacted": true,
+  "secretsIncluded": false
+}

@@ -13,13 +13,13 @@ The audit remains **D / failed**. This PR is intentionally a draft: it adds the 
 ```text
 automatic generation
   -> compute contentHash and an immutable assetBatchId
-  -> upload 18 posters to release-assets/{assetBatchId}/...
+  -> upload 18 posters to release-assets/{assetBatchId}/... through the approved Direct COS Origin path
   -> acquire expiring publication lease
   -> renew the owner-bound lease while gates run
   -> re-fetch and snapshot every real source
   -> review headline + intro claims in both languages and check corrections/retractions
   -> deterministic image + OCR/vision/IP + 18-poster perceptual/semantic comparison
-  -> compute sourceSnapshotHash + posterManifestHash
+  -> compute sourceSnapshotHash + posterManifestHash (including immutable object identities and storage policy version)
   -> releaseHash = SHA256(schemaVersion + contentHash + sourceSnapshotHash + posterManifestHash)
   -> compute releaseId from issueDate + releaseHash
   -> stage immutable ready_for_approval release
@@ -87,10 +87,25 @@ Historical archives through 2026-07-18 remain on the existing read-only JSON pat
 - Rollback requires a reason and records the previous and target release IDs.
 - Repeated activation and rollback requests report both the requested release and the actual current active pointer; they never claim a rolled-back release is active.
 
+## Approved asset origin
+
+Release V2 staging and its initial approved production design use **Direct COS Origin**. No CDN or staging domain is part of this scope. Storage evidence records:
+
+```json
+{
+  "cdnVerificationStatus": "not-applicable-for-direct-cos-origin",
+  "cdnSourceHashMatches": null
+}
+```
+
+The Tencent COS service-side immutability work package is passed for this topology: conditional create, overwrite/delete/copy/multipart denial, separated identities, AES256 and versioning history were verified in protected run `29721577122`.
+
+Adding any CDN is a future independent change gate. It must prove origin/CDN SHA-256 equality, cache refresh behavior, private-origin authentication and error fallback before CDN URLs can enter a Release manifest or public read path.
+
 ## Remaining risks
 
 - The external semantic and vision reviewer implementation, versioned protocol, HMAC/replay controls and fail-closed client are provided by the stacked reviewer-services PR. A dedicated staging deployment, durable replay store, model credential and monitoring export remain required before production enablement.
-- The immutable object prefix still needs a storage-side deny-overwrite policy; the application prevents mutable Studio writes but cannot stop out-of-band credential misuse.
+- Tencent COS immutability is verified and passed for the approved Direct COS Origin topology. CDN delivery remains outside the approved scope and requires its own future acceptance gate.
 - GitHub audit export is intentionally outside the activation transaction and needs a retry worker.
 - Existing mutable Studio poster upload remains a legacy-only path and must stay disabled for future Release V2 automation.
 - Studio currently records a configured approver label for the shared session; individual user identity and stronger session controls remain a separate authentication hardening task.

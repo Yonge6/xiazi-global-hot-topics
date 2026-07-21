@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "xiazi-sanitized-bucket-policy-v1",
+  "policyVersion": "xiazi-cos-immutable-v3",
+  "policySha256": "5c518a862d9b65023b2ed4821d1a11f21931d765e87ad2b04a6a7719acec1e1f",
+  "bucket": "xiazi-release-v2-staging-20260719-REDACTED",
+  "region": "ap-guangzhou",
+  "resourcePrefix": "release-assets/",
+  "statements": [
+    {
+      "principal": "staging-uploader",
+      "effect": "allow",
+      "actions": ["PutObject"],
+      "conditions": {
+        "x-cos-forbid-overwrite": "true",
+        "content-type": "image/png",
+        "secure-transport": "true"
+      }
+    },
+    {
+      "principal": "staging-uploader",
+      "effect": "deny",
+      "actions": ["PutObject"],
+      "condition": "x-cos-forbid-overwrite is absent or not true"
+    },
+    {
+      "principal": "staging-uploader",
+      "effect": "allow",
+      "actions": ["GetObject", "HeadObject"],
+      "condition": "secure-transport=true"
+    },
+    {
+      "principal": "staging-auditor",
+      "effect": "allow",
+      "actions": ["GetBucketVersioning", "GetBucketPolicy", "GetBucketEncryption", "GetObject", "HeadObject"],
+      "condition": "secure-transport=true"
+    },
+    {
+      "principal": "staging-reader",
+      "effect": "allow",
+      "actions": ["GetObject", "HeadObject", "OptionsObject"],
+      "condition": "secure-transport=true"
+    },
+    {
+      "principal": "staging-multipart-fixture",
+      "effect": "allow",
+      "actions": ["InitiateMultipartUpload", "UploadPart", "AbortMultipartUpload"],
+      "resourcePrefix": "release-assets/immutability-verification/",
+      "condition": "secure-transport=true"
+    }
+  ],
+  "explicitlyAbsentGrants": [
+    "DeleteObject",
+    "DeleteObjectVersion",
+    "CompleteMultipartUpload for all non-admin identities",
+    "PutBucketPolicy",
+    "PutBucketVersioning",
+    "PutBucketEncryption",
+    "PutBucketObjectLock"
+  ],
+  "principalIdsRedacted": true
+}

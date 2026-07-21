@@ -22,10 +22,10 @@ The remediation must:
 Supabase becomes the activation authority for future issues.
 
 1. A producer computes a stable content hash and allocates an immutable `assetBatchId`.
-2. Posters are uploaded to `release-assets/{assetBatchId}/...`; the final release ID is intentionally not known yet.
+2. Posters are created under `release-assets/{assetBatchId}/...` through a create-only storage identity and a provider-side atomic no-overwrite condition. The server rereads each object and binds its SHA-256, byte length, media type, ETag and immutable provider identity into the manifest; the final release ID is intentionally not known yet.
 3. The server acquires an owner-bound expiring lease, renews it while validation runs, and short-circuits active retries with the same idempotency key.
 4. The server re-fetches each source through manual redirects with public DNS/IP validation, a pinned connection and a streaming byte cap. It stores the snapshot/hash and reviews correction status plus headline and intro claims in both languages.
-5. The server validates all 18 posters with deterministic image checks, perceptual hashes and a fail-closed batch OCR/vision reviewer that returns all 153 pair comparisons.
+5. The server validates all 18 posters with deterministic image checks, perceptual hashes and a fail-closed batch OCR/vision reviewer that returns all 153 pair comparisons. It also requires a current storage-policy attestation proving overwrite and delete denial and rejects an incomplete, mutable or origin-mismatched object manifest.
 6. The server computes `releaseHash = SHA256(schemaVersion + contentHash + sourceSnapshotHash + posterManifestHash)` and derives `releaseId` from the date and that complete identity.
 7. A validated candidate is inserted as an immutable `ready_for_approval` release. Reusing an ID with any different payload raises `RELEASE_PAYLOAD_CONFLICT`.
 8. A human Studio action calls one database RPC that records approval and atomically changes the `current` channel pointer.
@@ -33,6 +33,7 @@ Supabase becomes the activation authority for future issues.
    Content and poster requests carry the same `releaseId`; poster delivery resolves only the verified manifest for that immutable release.
 10. If the release store is unavailable, any legacy response is explicitly marked `degraded` and `stale`; it is never a silent fallback.
 11. GitHub JSON becomes an asynchronous audit export and disaster-recovery artifact, not the activation transaction.
+12. The approved initial poster delivery topology is Direct COS Origin. A CDN is not part of Release V2 until a separate acceptance gate proves hash equality, cache invalidation, private-origin authentication and error fallback.
 
 The database owns publication leases, release immutability, activation idempotency, pointer serialization and rollback history. External source and vision reviewers run before the short activation transaction.
 
@@ -46,18 +47,21 @@ The database owns publication leases, release immutability, activation idempoten
 - Every response can identify its release, content hash, source and deployment time.
 - Corrections and rollbacks create audit events instead of rewriting evidence.
 - Missing semantic/OCR infrastructure blocks staging instead of weakening the gate.
+- Missing storage-policy proof, conditional-create support or any object identity mismatch blocks staging before the release row is created.
 
 ### Negative
 
 - Supabase becomes required for Release V2 activation and reads.
 - A source semantic reviewer and poster vision reviewer must be provisioned before the feature flag can be enabled.
 - Existing poster upload UI cannot be used as the future automation path because it writes mutable current assets.
+- A dedicated immutable asset bucket and separated create-only/read/break-glass identities must be operated and audited.
 - GitHub export becomes eventually consistent and needs separate monitoring.
 
 ### Neutral
 
 - Legacy publication remains available behind a feature flag during migration, but cannot publish issues on or before the historical cutoff through Release V2.
 - Multiple immutable candidates for a date are allowed, but only one release can be active on the `current` channel.
+- `cdnVerificationStatus=not-applicable-for-direct-cos-origin` and `cdnSourceHashMatches=null` are the correct storage evidence values while Direct COS Origin is active; they are not a degraded or skipped state.
 
 ## Alternatives Considered
 
@@ -82,11 +86,15 @@ Rejected because it destroys release immutability and makes rollback and correct
 | Worker lease expires during validation | Staging fails for that owner; a heartbeat or a fresh owner must hold the live lease |
 | Source redirects to private/reserved infrastructure | Redirect is rejected before the next request; active pointer is unchanged |
 | Same copy is paired with changed sources or posters | Complete release hash creates a different release ID; conflicting reuse fails closed |
+| Storage policy is absent, stale or not server-enforced | Staging fails; the active pointer is unchanged |
+| Existing asset key is reused with different bytes | Provider atomic create rejects the write; application reports a non-retryable content conflict |
+| Stored bytes, metadata or provider identity change during verification | Manifest verification fails; no release is staged |
 | Candidate validation fails | Release is not ready for approval; active pointer is unchanged |
 | Approval or rollback request repeats | Response reports the requested release and actual current pointer without falsely claiming active status |
 | Supabase read fails | API returns 503, or an explicitly `degraded` and `stale` legacy response when emergency fallback is enabled |
 | GitHub audit export fails | Active release stays online; export failure is recorded and retried |
 | Bad release activated despite gates | Rollback RPC atomically points to a previously active immutable release |
+| A CDN is proposed later | It remains disconnected until an independent gate verifies source/CDN SHA-256, cache refresh, private-origin authentication and error fallback |
 
 ## References
 
