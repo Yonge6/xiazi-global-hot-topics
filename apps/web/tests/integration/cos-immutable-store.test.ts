@@ -137,4 +137,17 @@ describe("Tencent COS create-only adapter against local simulator", () => {
     await expect(createVerifiedImmutableObject(store("enabled"), input()))
       .rejects.toThrow(/IMMUTABLE_ASSET_CONDITIONAL_WRITE_REQUIRED/);
   });
+
+  it("rejects an unbounded COS request timeout", () => {
+    expect(() => new CosImmutableAssetStore({
+      secretId: "test-id",
+      secretKey: "test-secret",
+      bucket: "xiazi-staging-0000000000",
+      region: "ap-hongkong",
+      publicOrigin: endpoint,
+      endpointOrigin: endpoint,
+      versioningState: "never-enabled",
+      requestTimeoutMs: 300_001,
+    })).toThrow(/COS_REQUEST_TIMEOUT_INVALID/);
+  });
 });
