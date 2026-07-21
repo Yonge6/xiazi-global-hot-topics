@@ -57,5 +57,7 @@ Work package three can be reported complete only when code, remote CI, real isol
 - Remote schema lint completed; only pre-existing `upsert_issue_bundle` warnings remain.
 - Remote replay reservation proved atomic (`true` then `false` for the same nonce hash).
 - Dedicated Reviewer and Web Vercel projects created with no custom domains and no production resources.
-- Live model requests, A/B releases, fault injection, rollback, and evidence export remain blocked on a staging-only OpenAI API credential.
+- `STAGING_OPENAI_API_KEY` is intentionally not provided. Consequently `realReviewerStatus: not-executed` and `protectedStagingRehearsal: blocked`.
+- Live model requests, A/B releases, fault injection, rollback, and protected lifecycle evidence export remain not executed; no mock, fixed JSON, local simulation, or controlled provider result is accepted in their place.
 - The protected workflow now includes deterministic negative fault transport, real multi-instance replay protection, source/visual/lease/COS/Supabase fault suites, explicit 503/degraded deployments, and sanitized lifecycle evidence export. The negative provider cannot run outside the staging environment and is never used for the normal A/B release path.
+- Work Package 3 is `conditional-pass`; production enablement review remains `failed`. PR #14 stays Draft, production Release V2 remains disabled, and unattended publishing remains paused.

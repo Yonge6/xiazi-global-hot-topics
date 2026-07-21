@@ -4,6 +4,8 @@
 
 Accepted for future issues after 2026-07-18. Historical issues are explicitly out of scope.
 
+Architecture acceptance does not constitute production enablement. Work Package 3 is currently `conditional-pass`: the real Reviewer and protected staging rehearsal are not executed because a staging-only model credential was not provided, and `productionEnablementReview` remains `failed`.
+
 ## Context
 
 The existing publisher writes archive and current JSON through separate GitHub Contents API calls and then mirrors the result to Supabase. A partial GitHub write, a failed deployment, or overlapping 05:50/06:00 jobs can expose a mixed release. Production also silently falls back from GitHub to packaged JSON, so a 200 response does not prove that the current issue is fresh.
@@ -62,6 +64,7 @@ The database owns publication leases, release immutability, activation idempoten
 - Legacy publication remains available behind a feature flag during migration, but cannot publish issues on or before the historical cutoff through Release V2.
 - Multiple immutable candidates for a date are allowed, but only one release can be active on the `current` channel.
 - `cdnVerificationStatus=not-applicable-for-direct-cos-origin` and `cdnSourceHashMatches=null` are the correct storage evidence values while Direct COS Origin is active; they are not a degraded or skipped state.
+- Repository tests, controlled negative providers, fixed responses, and local simulations can validate fail-closed code paths but cannot satisfy the real Reviewer or protected staging rehearsal gates.
 
 ## Alternatives Considered
 

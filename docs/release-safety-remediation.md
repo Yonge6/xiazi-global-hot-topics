@@ -8,6 +8,19 @@ This change applies only to issues after `2026-07-18`. It does not edit, retract
 
 The audit remains **D / failed**. This PR is intentionally a draft: it adds the future hard gates but does not enable them in production. Unattended publishing must remain disabled until the staging migration, reviewer services, storage policy and fault/rollback rehearsal are complete.
 
+Work Package 3 is currently **conditional pass**. Its ordinary application/database CI, isolated Supabase migrations, persistent replay store, and staging guards are verified. Because no `STAGING_OPENAI_API_KEY` was provided, the real Reviewer and protected staging rehearsal were not executed:
+
+```json
+{
+  "realReviewerStatus": "not-executed",
+  "protectedStagingRehearsal": "blocked",
+  "workPackageThree": "conditional-pass",
+  "productionEnablementReview": "failed"
+}
+```
+
+Mock output, fixed JSON, local simulation, and the staging-only negative fault provider are not substitutes for a real Reviewer and are not counted as protected staging evidence.
+
 ## Architecture change
 
 ```text
@@ -104,13 +117,23 @@ Adding any CDN is a future independent change gate. It must prove origin/CDN SHA
 
 ## Remaining risks
 
-- The external semantic and vision reviewer implementation, versioned protocol, HMAC/replay controls and fail-closed client are provided by the stacked reviewer-services PR. A dedicated staging deployment, durable replay store, model credential and monitoring export remain required before production enablement.
+- The external semantic and vision reviewer implementation, versioned protocol, HMAC/replay controls and fail-closed client are provided by the stacked reviewer-services PR. The durable replay store is verified in isolated staging Supabase, but a real Reviewer deployment, staging-only model credential, pinned-model calls and monitoring export remain required before production enablement.
 - Tencent COS immutability is verified and passed for the approved Direct COS Origin topology. CDN delivery remains outside the approved scope and requires its own future acceptance gate.
 - GitHub audit export is intentionally outside the activation transaction and needs a retry worker.
 - Existing mutable Studio poster upload remains a legacy-only path and must stay disabled for future Release V2 automation.
 - Studio currently records a configured approver label for the shared session; individual user identity and stronger session controls remain a separate authentication hardening task.
 - Downstream channel delivery receipts are audited separately and are not part of the database pointer transaction.
 - Full production validation requires staging/production credentials and cannot be proven by repository unit tests alone.
+
+## Work Package 3 conditional evidence
+
+- Implementation head: `2690ebb872556d92d534b3c3b31c7024e53d421f`.
+- Ordinary CI run: `29734829434`; application/guard and database lifecycle jobs succeeded.
+- Protected live staging proof: skipped on the pull-request event and intentionally not dispatched without a staging-only model credential.
+- Real Release A/B publication, full fault injection, rollback, and reactivation: not executed.
+- Production resources: untouched; production `RELEASE_V2_ENABLED` remains off and unattended publishing remains paused.
+
+The exact machine-readable status is stored in `docs/evidence/staging-rehearsal/status.sanitized.json`.
 
 ## Verification evidence
 

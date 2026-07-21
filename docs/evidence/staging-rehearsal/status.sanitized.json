@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "release-v2-staging-conditional-status-v1",
+  "recordedAt": "2026-07-21T01:49:13Z",
+  "implementationHead": "2690ebb872556d92d534b3c3b31c7024e53d421f",
+  "ordinaryCi": {
+    "runId": "29734829434",
+    "runUrl": "https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29734829434",
+    "applicationAndGuardGates": "success",
+    "databaseLifecycleInvariants": "success",
+    "protectedLiveStagingProof": "skipped-on-pull-request"
+  },
+  "localVerification": {
+    "stagingGuardTests": 8,
+    "reviewerTests": 25,
+    "webTests": 137,
+    "browserE2ePassed": 21,
+    "browserE2eSkippedStagingOnly": 7,
+    "reviewerBuild": "success",
+    "webBuild": "success"
+  },
+  "realReviewerStatus": "not-executed",
+  "protectedStagingRehearsal": "blocked",
+  "workPackageThree": "conditional-pass",
+  "productionEnablementReview": "failed",
+  "blockingReason": "STAGING_OPENAI_API_KEY was intentionally not provided",
+  "acceptedEvidence": {
+    "isolatedSupabaseMigrations": true,
+    "persistentReplayReservation": true,
+    "ordinaryApplicationGates": true,
+    "ordinaryDatabaseGates": true,
+    "directCosOriginWorkPackage": true,
+    "realReviewerDeployment": false,
+    "normalReleaseABLifecycle": false,
+    "liveFaultInjection": false,
+    "rollbackAndReactivation": false
+  },
+  "mockOrSimulatedReviewerEvidenceAccepted": false,
+  "productionResourcesTouched": false,
+  "releaseV2EnabledInProduction": false,
+  "unattendedPublishingRestored": false
+}
