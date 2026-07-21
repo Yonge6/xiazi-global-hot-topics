@@ -12,7 +12,7 @@
 - 每日生产部署只允许绑定或更新 `xiazishuo.com` 与 `www.xiazishuo.com`，不得再绑定、alias、跳转、引用或验收任何已退役的旧域名。
 - 每日发布只允许更新 `Yonge6/xiazi-global-hot-topics` 仓库与 Vercel `xiazishuo` 项目；`Yonge6/vilesaint`、Vercel `vilesaint` 项目和 `vilesaint.com` 属于独立产品，严禁由本流程读写、部署或验收。
 - 海报 API 必须使用同源相对路径，禁止通过环境变量把生产海报请求转发到另一个域名。
-- 发布完成门槛：`https://xiazishuo.com/api/content/` 显示当天 `issueDate`，`/zh/`、`/en/` 和至少一个往期归档的中英文海报全部验证通过。
+- 发布完成门槛：`https://xiazishuo.com/api/content/` 显示当天 `issueDate`，`/zh/`、`/en/` 和当天 18 张远程归档海报全部验证通过。2026-07-18 及以前查 GitHub 根归档；Release V2 查不可变 COS、`releaseId` 和内容哈希。本地历史文件不属于上线门槛。
 
 ## 固定 9 条内容结构
 
@@ -115,6 +115,7 @@
 11. 检查事实、来源、增量、排序、双语内容、海报与手机端。
 12. 北京时间 05:00 生成发布候选；更新候选 Story Pool，记录本次出现日期、状态和跟进天数。
 13. 对未来刊物创建唯一不可变 `releaseId`，保存真实来源 URL、重新抓取的正文快照、内容哈希、抓取时间和 18 张海报验收证据。
+14. 海报上传、远程验收和原子激活成功后，只在本地保留当前刊 18 张及最近 3 期根归档；历史海报由 GitHub/COS 承担。不得继续向 `apps/web/public/archive` 写入未来刊物副本。
 14. 自动化只能把通过硬门的 Release 暂存为 `ready_for_approval`；未经人工确认不得切换生产内容。
 15. 人工确认后由单一数据库事务切换 active pointer。生产只能看到完整旧 Release 或完整新 Release；降级读取必须明确标记 `stale/degraded`。
 16. 05:50、06:00 和重复任务必须使用带租约的数据库幂等锁。完成故障注入、并发和回滚测试前，不恢复完全无人值守发布。

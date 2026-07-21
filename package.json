@@ -33,7 +33,10 @@
     "staging:faults:storage": "tsx scripts/staging-storage-faults.ts",
     "staging:faults:degraded": "node scripts/staging-degraded-fallback.mjs",
     "staging:evidence:lifecycle": "node scripts/staging-lifecycle-evidence.mjs",
-    "check": "turbo check",
+    "check": "turbo check && node --test scripts/tests/local-poster-retention.test.mjs",
+    "posters:cleanup:local": "node scripts/cleanup-local-poster-cache.mjs --retain 3 --apply",
+    "posters:cleanup:preview": "node scripts/cleanup-local-poster-cache.mjs --retain 3",
+    "posters:verify:remote": "node scripts/verify-daily-release.mjs --remote-archive --today",
     "web:dev": "npm run dev -w @xiazi/web",
     "posters:default": "npm run posters:default -w @xiazi/web"
   },

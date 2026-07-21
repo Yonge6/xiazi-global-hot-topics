@@ -199,6 +199,9 @@ jobs:
             /tmp/production-stage-sanitized.json
           if-no-files-found: error
           retention-days: 30
+      - name: Apply local poster retention after successful release
+        if: startsWith(inputs.operation, 'stage-release-') && success()
+        run: npm run posters:cleanup:local
       - name: Encrypt short-lived operator session
         if: inputs.operation == 'export-operator-session'
         env:

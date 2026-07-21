@@ -15,6 +15,13 @@ fix-20260625-contract-fields
 /out
 phase-4a-closeout-clean
 /posters
+apps/web/public/archive
+apps/web/public/posters/zh/*.png
+apps/web/public/posters/en/*.png
+apps/web/public/posters/thumb/zh/*.webp
+apps/web/public/posters/thumb/en/*.webp
+apps/web/public/posters/zh/thumb/*.webp
+apps/web/public/posters/en/thumb/*.webp
 supabase/.branches
 supabase/.temp
 test-results

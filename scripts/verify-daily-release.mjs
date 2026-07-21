@@ -36,6 +36,7 @@ function usage() {
 Options:
   --local                 Check local data mirrors, Story Pool, and poster files
   --live                  Check https://xiazishuo.com production surfaces
+  --remote-archive        Check the dated GitHub (legacy) or COS (Release V2) poster archive
   --today                 Require today's Asia/Shanghai issueDate
   --date YYYY-MM-DD       Require an explicit issueDate
   --check-sources         Probe recommended-reading URLs (live mode)
@@ -50,6 +51,7 @@ function parseArgs(argv) {
   const options = {
     local: false,
     live: false,
+    remoteArchive: false,
     checkSources: false,
     strictSchedule: true,
     expectedDate: null,
@@ -60,6 +62,7 @@ function parseArgs(argv) {
     const arg = argv[index];
     if (arg === "--local") options.local = true;
     else if (arg === "--live") options.live = true;
+    else if (arg === "--remote-archive") options.remoteArchive = true;
     else if (arg === "--check-sources") options.checkSources = true;
     else if (arg === "--no-strict-schedule") options.strictSchedule = false;
     else if (arg === "--today") options.expectedDate = beijingDate();
@@ -73,7 +76,7 @@ function parseArgs(argv) {
     }
   }
 
-  if (!options.local && !options.live) options.local = true;
+  if (!options.local && !options.live && !options.remoteArchive) options.local = true;
   if (!options.expectedDate) options.expectedDate = beijingDate();
   if (!/^\d{4}-\d{2}-\d{2}$/.test(options.expectedDate || "")) {
     throw new Error(`Invalid expected date: ${options.expectedDate || "missing"}`);
@@ -205,19 +208,14 @@ async function runLocalChecks() {
   const assetErrors = [];
   for (const locale of ["zh", "en"]) {
     for (const topic of issue.topics || []) {
-      const currentPath = `public/posters/${locale}/${topic.slug}.png`;
-      const archivePath = `public/archive/${options.expectedDate}/posters/${locale}/${topic.slug}.png`;
+      const currentPath = `apps/web/public/posters/${locale}/${topic.slug}.png`;
       try {
-        const [current, archived, currentStat, archiveStat] = await Promise.all([
+        const [current, currentStat] = await Promise.all([
           readFile(currentPath),
-          readFile(archivePath),
           stat(currentPath),
-          stat(archivePath),
         ]);
         const metadata = await validateImage(current, currentPath);
-        await validateImage(archived, archivePath);
-        if (!current.equals(archived)) throw new Error("current and archive bytes differ");
-        if (currentStat.size !== archiveStat.size) throw new Error("current and archive sizes differ");
+        if (current.length !== currentStat.size) throw new Error("poster size changed while reading");
         assetDetails.push({ locale, slug: topic.slug, sha256: sha256(current), ...metadata });
       } catch (cause) {
         assetErrors.push(`${locale}/${topic.slug}: ${String(cause)}`);
@@ -225,15 +223,15 @@ async function runLocalChecks() {
     }
   }
   if (assetErrors.length === 0 && assetDetails.length === 18) {
-    pass("ASSET-001", "All 18 current posters decode and match their archive copies byte-for-byte", assetDetails);
+    pass("ASSET-001", "All 18 current workspace posters decode; historical copies are verified remotely", assetDetails);
   } else {
-    fail("ASSET-001", "Current/archive poster integrity failed", assetErrors);
+    fail("ASSET-001", "Current workspace poster integrity failed", assetErrors);
   }
 
   const requiredStatic = [
     "public/posters/default-poster.jpg",
-    "public/brand/characters/xiazi/xiazi-master-front.webp",
-    "public/brand/characters/doudou/doudou-master-front.webp",
+    "apps/web/public/brand/characters/xiazi/xiazi-master-front.webp",
+    "apps/web/public/brand/characters/doudou/doudou-master-front.webp",
   ];
   try {
     await Promise.all(requiredStatic.map((file) => stat(file)));
@@ -272,6 +270,45 @@ function assertFirstParty(response, label) {
   if (finalUrl.protocol !== "https:" || finalUrl.hostname !== "xiazishuo.com") {
     throw new Error(`${label} escaped the production origin to ${response.url}`);
   }
+}
+
+function assertCosPosterUrl(value, label) {
+  const url = new URL(value);
+  const cosHost = /\.cos\.[a-z0-9-]+\.myqcloud\.com$/i.test(url.hostname);
+  if (url.protocol !== "https:"
+    || !cosHost
+    || !url.pathname.startsWith("/release-assets/")
+    || /pluto\.hk/i.test(url.toString())) {
+    throw new Error(`${label} returned an unapproved COS location`);
+  }
+  return url;
+}
+
+async function fetchVerifiedRemotePoster(url, label, releaseId) {
+  const route = await fetchWithRetry(url, { redirect: "manual" });
+  assertFirstParty(route, `${label} route`);
+  if (route.status !== 307) {
+    if (!route.ok || !/^image\//i.test(route.headers.get("content-type") || "")) {
+      throw new Error(`${label} route returned HTTP ${route.status}`);
+    }
+    const buffer = Buffer.from(await route.arrayBuffer());
+    return { buffer, declaredHash: sha256(buffer), source: "github-proxy", routeStatus: route.status };
+  }
+  const location = route.headers.get("location");
+  if (!location) throw new Error(`${label} is missing its COS redirect`);
+  const destination = assertCosPosterUrl(location, label);
+  const declaredHash = route.headers.get("x-xiazi-content-hash") || "";
+  if (!/^[0-9a-f]{64}$/.test(declaredHash)) throw new Error(`${label} is missing a valid content hash`);
+  if (releaseId && route.headers.get("x-xiazi-release-id") !== releaseId) {
+    throw new Error(`${label} returned the wrong releaseId`);
+  }
+  const source = await fetchWithRetry(destination, { redirect: "error" });
+  if (!source.ok || !/^image\//i.test(source.headers.get("content-type") || "")) {
+    throw new Error(`${label} COS object returned HTTP ${source.status}`);
+  }
+  const buffer = Buffer.from(await source.arrayBuffer());
+  if (sha256(buffer) !== declaredHash) throw new Error(`${label} COS hash does not match the route proof`);
+  return { buffer, declaredHash, source: "tencent-cos", routeStatus: route.status };
 }
 
 async function fetchJson(url, label) {
@@ -355,32 +392,23 @@ async function runLiveChecks() {
   const posterTargets = ["zh", "en"].flatMap((locale) => (issue.topics || []).map((topic) => ({ locale, topic })));
   try {
     const details = await mapLimit(posterTargets, 4, async ({ locale, topic }) => {
-      const suffix = `v=${encodeURIComponent(issue.assetVersion || issue.issueDate)}`;
+      const releaseId = issue.releaseId || issue.assetVersion || issue.issueDate;
+      const suffix = `v=${encodeURIComponent(releaseId)}`;
       const currentUrl = `${PRODUCTION_ORIGIN}/api/posters/${locale}/${topic.slug}/?${suffix}`;
       const archiveUrl = `${PRODUCTION_ORIGIN}/api/posters/${locale}/${topic.slug}/?issueDate=${options.expectedDate}&${suffix}`;
-      const [currentResponse, archiveResponse] = await Promise.all([
-        fetchWithRetry(currentUrl),
-        fetchWithRetry(archiveUrl),
+      const [currentRemote, archiveRemote] = await Promise.all([
+        fetchVerifiedRemotePoster(currentUrl, `${locale}/${topic.slug} current poster`, releaseId),
+        fetchVerifiedRemotePoster(archiveUrl, `${locale}/${topic.slug} archive poster`, releaseId),
       ]);
-      assertFirstParty(currentResponse, `${locale}/${topic.slug} current poster`);
-      assertFirstParty(archiveResponse, `${locale}/${topic.slug} archive poster`);
-      if (!currentResponse.ok || !archiveResponse.ok) {
-        throw new Error(`${locale}/${topic.slug} returned ${currentResponse.status}/${archiveResponse.status}`);
-      }
-      if (!/^image\//i.test(currentResponse.headers.get("content-type") || "") || !/^image\//i.test(archiveResponse.headers.get("content-type") || "")) {
-        throw new Error(`${locale}/${topic.slug} returned a non-image content type`);
-      }
-      const [current, archived] = await Promise.all([
-        Buffer.from(await currentResponse.arrayBuffer()),
-        Buffer.from(await archiveResponse.arrayBuffer()),
-      ]);
+      const current = currentRemote.buffer;
+      const archived = archiveRemote.buffer;
       const metadata = await validateImage(current, `${locale}/${topic.slug}`);
       await validateImage(archived, `archive ${locale}/${topic.slug}`);
       if (!current.equals(archived)) throw new Error(`${locale}/${topic.slug} current/archive bytes differ`);
-      return { locale, slug: topic.slug, sha256: sha256(current), ...metadata };
+      return { locale, slug: topic.slug, sha256: sha256(current), source: currentRemote.source, ...metadata };
     });
     if (details.length !== 18) throw new Error(`Expected 18 poster pairs, received ${details.length}`);
-    pass("LIVE-006", "All 18 live posters decode and match same-origin archive bytes", details);
+    pass("LIVE-006", "All 18 live routes resolve to verified remote archive bytes", details);
   } catch (cause) {
     fail("LIVE-006", "Production poster verification failed", String(cause));
   }
@@ -406,8 +434,55 @@ async function runLiveChecks() {
   }
 }
 
+async function runRemoteArchiveChecks() {
+  const legacyCutoff = "2026-07-18";
+  if (options.expectedDate <= legacyCutoff) {
+    try {
+      const issueUrl = `https://raw.githubusercontent.com/Yonge6/xiazi-global-hot-topics/main/data/archive/${options.expectedDate}.json`;
+      const issueResponse = await fetchWithRetry(issueUrl, { redirect: "error" });
+      if (!issueResponse.ok) throw new Error(`GitHub issue archive returned HTTP ${issueResponse.status}`);
+      const issue = await issueResponse.json();
+      const targets = ["zh", "en"].flatMap((locale) => issue.topics.map((topic) => ({ locale, topic })));
+      const details = await mapLimit(targets, 4, async ({ locale, topic }) => {
+        const posterUrl = `https://raw.githubusercontent.com/Yonge6/xiazi-global-hot-topics/main/public/archive/${options.expectedDate}/posters/${locale}/${topic.slug}.png`;
+        const response = await fetchWithRetry(posterUrl, { redirect: "error" });
+        if (!response.ok || !/^image\//i.test(response.headers.get("content-type") || "")) {
+          throw new Error(`${locale}/${topic.slug} GitHub archive returned HTTP ${response.status}`);
+        }
+        const buffer = Buffer.from(await response.arrayBuffer());
+        return { locale, slug: topic.slug, sha256: sha256(buffer), ...(await validateImage(buffer, posterUrl)) };
+      });
+      if (details.length !== 18) throw new Error(`Expected 18 GitHub posters, received ${details.length}`);
+      pass("ARCHIVE-GITHUB-001", "Legacy issue has 18 valid posters in the remote GitHub archive", details);
+    } catch (cause) {
+      fail("ARCHIVE-GITHUB-001", "Remote GitHub poster archive verification failed", String(cause));
+    }
+    return;
+  }
+
+  try {
+    const detail = await fetchJson(`${PRODUCTION_ORIGIN}/api/archive/?date=${options.expectedDate}`, "archive detail API");
+    const issue = detail.value.issue;
+    const releaseId = detail.value.assetVersion;
+    if (!issue || !/^rel_\d{8}_[0-9a-f]{24}$/.test(releaseId || "")) {
+      throw new Error("Release V2 archive is missing its immutable releaseId");
+    }
+    const targets = ["zh", "en"].flatMap((locale) => issue.topics.map((topic) => ({ locale, topic })));
+    const details = await mapLimit(targets, 4, async ({ locale, topic }) => {
+      const posterUrl = `${PRODUCTION_ORIGIN}/api/posters/${locale}/${topic.slug}/?issueDate=${options.expectedDate}&v=${encodeURIComponent(releaseId)}`;
+      const remote = await fetchVerifiedRemotePoster(posterUrl, `${locale}/${topic.slug} archive poster`, releaseId);
+      return { locale, slug: topic.slug, sha256: remote.declaredHash, source: remote.source, ...(await validateImage(remote.buffer, posterUrl)) };
+    });
+    if (details.length !== 18) throw new Error(`Expected 18 COS posters, received ${details.length}`);
+    pass("ARCHIVE-COS-001", "Release V2 issue has 18 hash-verified posters in COS", { releaseId, posters: details });
+  } catch (cause) {
+    fail("ARCHIVE-COS-001", "Remote COS poster archive verification failed", String(cause));
+  }
+}
+
 if (options.local) await runLocalChecks();
 if (options.live) await runLiveChecks();
+if (options.remoteArchive) await runRemoteArchiveChecks();
 
 const summary = {
   passed: checks.filter((check) => check.status === "pass").length,
@@ -419,7 +494,7 @@ const report = {
   finishedAt: new Date().toISOString(),
   expectedDate: options.expectedDate,
   productionOrigin: PRODUCTION_ORIGIN,
-  modes: { local: options.local, live: options.live, checkSources: options.checkSources, strictSchedule: options.strictSchedule },
+  modes: { local: options.local, live: options.live, remoteArchive: options.remoteArchive, checkSources: options.checkSources, strictSchedule: options.strictSchedule },
   summary,
   checks,
 };

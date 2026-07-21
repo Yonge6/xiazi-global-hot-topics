@@ -74,6 +74,14 @@ supabase db push
 
 生成任务先把 18 张完整 PNG 上传到 `release-assets/{assetBatchId}/...` 不可变路径，再调用 `/api/internal/releases/stage/`。来源快照和海报清单通过硬门后，系统才用两者的哈希、文案哈希和 schema 版本计算最终 `releaseId`。只有完整候选会出现在 Studio 待确认列表。人工确认调用单事务激活 RPC；05:50、06:00 和重复任务由 owner 租约、heartbeat 与幂等键协调。
 
+## 海报归档与本地空间
+
+- Release V2 海报的唯一运行时归档源是不可变 COS；2026-07-18 及以前的旧刊继续使用 GitHub 根目录归档。`apps/web/public/archive` 不再作为线上回退源，也不进入 Vercel 上传包。
+- 本地只展开最近 3 期 GitHub 归档；`apps/web/public/posters` 和 `public/posters` 只展开当前刊 18 张。远程验收不要求旧海报存在于本地。
+- 预览本地保留窗口：`npm run posters:cleanup:preview`；确认工作区海报路径干净后执行：`npm run posters:cleanup:local`。该命令使用 sparse checkout，不删除 GitHub 历史，也不会制造海报删除提交。
+- 验证当天远程归档：`npm run posters:verify:remote`。旧刊检查 GitHub，Release V2 检查同源路由、COS 地址和路由声明的 SHA-256。
+- 生产 staging/激活成功后，受保护 workflow 会自动应用同一保留策略；失败运行不会清理候选或改变 active pointer。
+
 ## 部署
 
 1. 将仓库导入 Vercel。
