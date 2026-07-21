@@ -72,7 +72,6 @@ export async function GET(
   const path = issueDate
     ? `public/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}`
     : `public/posters/${folder}${locale}/${name}.${extension}`;
-  const fallbackPath = `/${path.replace(/^public\//, "")}`;
   const [owner, repository] = repo.split("/");
   const rawUrl = new URL(`https://raw.githubusercontent.com/${owner}/${repository}/main/${path}`);
   rawUrl.searchParams.set("v", cacheKey);
@@ -89,6 +88,9 @@ export async function GET(
       },
     });
   } catch {
-    return NextResponse.redirect(new URL(fallbackPath, request.url), 307);
+    return NextResponse.json(
+      { message: "Remote poster archive unavailable", publicationHealth: "degraded", stale: true },
+      { status: 503, headers: { "Cache-Control": "no-store" } },
+    );
   }
 }

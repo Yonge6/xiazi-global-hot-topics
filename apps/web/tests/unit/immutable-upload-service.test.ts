@@ -57,4 +57,33 @@ describe("immutable 18-poster upload service", () => {
       policy: { ...policy, policyVerified: false },
     })).rejects.toThrow(/IMMUTABLE_ASSET_POLICY_UNVERIFIED/);
   });
+
+  it("uses bounded concurrency while preserving manifest order", async () => {
+    const store = new MemoryImmutableAssetStore();
+    const create = store.createObject.bind(store);
+    let active = 0;
+    let maximum = 0;
+    store.createObject = async (input) => {
+      active += 1;
+      maximum = Math.max(maximum, active);
+      await new Promise((resolve) => setTimeout(resolve, 5));
+      try {
+        return await create(input);
+      } finally {
+        active -= 1;
+      }
+    };
+    const result = await uploadImmutableReleasePosters(issue, `${assetBatchId}_parallel`, uploads, {
+      store, policy, concurrency: 3,
+    });
+    expect(maximum).toBe(3);
+    expect(result.objects.map((object) => `${object.topicId}:${object.locale}`))
+      .toEqual(uploads.map((upload) => `${upload.topicId}:${upload.locale}`));
+  });
+
+  it("rejects unsafe upload concurrency", async () => {
+    await expect(uploadImmutableReleasePosters(issue, assetBatchId, uploads, {
+      store: new MemoryImmutableAssetStore(), policy, concurrency: 5,
+    })).rejects.toThrow(/UPLOAD_CONCURRENCY_INVALID/);
+  });
 });

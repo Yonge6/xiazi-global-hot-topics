@@ -168,6 +168,7 @@ jobs:
           RELEASE_ASSET_ORIGINS: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
           COS_IMMUTABLE_VERSIONING_STATE: never-enabled
           COS_REQUEST_TIMEOUT_MS: "120000"
+          COS_UPLOAD_CONCURRENCY: "3"
           RELEASE_STORAGE_POLICY_VERSION: xiazi-cos-immutable-v3
           RELEASE_STORAGE_POLICY_VERIFIED_AT: 2026-07-20T06:25:48.967Z
           RELEASE_STORAGE_VERIFICATION_TOOL_VERSION: xiazi-storage-verifier-v3
@@ -199,6 +200,9 @@ jobs:
             /tmp/production-stage-sanitized.json
           if-no-files-found: error
           retention-days: 30
+      - name: Apply local poster retention after successful release
+        if: startsWith(inputs.operation, 'stage-release-') && success()
+        run: npm run posters:cleanup:local
       - name: Encrypt short-lived operator session
         if: inputs.operation == 'export-operator-session'
         env:

@@ -73,6 +73,8 @@ automatic generation
 No migration statement updates existing issue, archive, Story Pool or poster rows. The `current` channel is created without an active pointer.
 Historical archives through 2026-07-18 remain on the existing read-only JSON path; only future archive entries are read from immutable releases.
 
+Poster retention follows the same split. Legacy posters through 2026-07-18 remain in the canonical GitHub root archive, while Release V2 posters are served from immutable COS objects. Local verification requires only the current 18 workspace posters; remote archive verification checks GitHub or COS and validates Release V2 route hashes. The local checkout keeps the three latest root archives, keeps only the current issue in mutable poster workspaces, and excludes the duplicate `apps/web/public/archive` tree through sparse checkout. Vercel does not upload either historical mirror.
+
 ## Required configuration
 
 | Variable | Purpose | Failure behavior |

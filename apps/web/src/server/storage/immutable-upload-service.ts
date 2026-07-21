@@ -24,6 +24,7 @@ type UploadOptions = {
   policy?: StoragePolicyAttestation;
   now?: () => Date;
   uploaderVersion?: string;
+  concurrency?: number;
   onProgress?: (progress: {
     completed: number;
     total: number;
@@ -56,36 +57,49 @@ export async function uploadImmutableReleasePosters(
   const now = options.now || (() => new Date());
   const createdAt = now().toISOString();
   const uploaderVersion = options.uploaderVersion || "xiazi-release-uploader-v1";
-  const objects: ImmutableAssetObjectProof[] = [];
-  let createdCount = 0;
-  let idempotentCount = 0;
-  for (const upload of uploads) {
-    const topic = issue.topics.find((item) => item.id === upload.topicId);
-    if (!topic) throw new Error(`IMMUTABLE_ASSET_TOPIC_NOT_FOUND:${upload.topicId}`);
-    const result = await createVerifiedImmutableObject(store, {
-      key: immutableAssetKey(assetBatchId, upload.locale, topic.slug),
-      content: upload.content,
-      contentType: "image/png",
-      assetBatchId,
-      topicId: upload.topicId,
-      locale: upload.locale,
-      issueDate: issue.issueDate,
-      expectedNumber: topic.rank,
-      expectedSite: "xiazishuo.com",
-      createdAt,
-      uploaderVersion,
-    });
-    objects.push(result.object);
-    if (result.created) createdCount += 1;
-    if (result.idempotent) idempotentCount += 1;
-    options.onProgress?.({
-      completed: objects.length,
-      total: uploads.length,
-      key: result.object.key,
-      created: result.created,
-      idempotent: result.idempotent,
-    });
+  const concurrency = options.concurrency
+    ?? Number.parseInt(process.env.COS_UPLOAD_CONCURRENCY || "3", 10);
+  if (!Number.isSafeInteger(concurrency) || concurrency < 1 || concurrency > 4) {
+    throw new Error("IMMUTABLE_ASSET_UPLOAD_CONCURRENCY_INVALID");
   }
+  const results = new Array<Awaited<ReturnType<typeof createVerifiedImmutableObject>>>(uploads.length);
+  let nextIndex = 0;
+  let completed = 0;
+  async function uploadNext() {
+    while (nextIndex < uploads.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      const upload = uploads[index];
+      const topic = issue.topics.find((item) => item.id === upload.topicId);
+      if (!topic) throw new Error(`IMMUTABLE_ASSET_TOPIC_NOT_FOUND:${upload.topicId}`);
+      const result = await createVerifiedImmutableObject(store, {
+        key: immutableAssetKey(assetBatchId, upload.locale, topic.slug),
+        content: upload.content,
+        contentType: "image/png",
+        assetBatchId,
+        topicId: upload.topicId,
+        locale: upload.locale,
+        issueDate: issue.issueDate,
+        expectedNumber: topic.rank,
+        expectedSite: "xiazishuo.com",
+        createdAt,
+        uploaderVersion,
+      });
+      results[index] = result;
+      completed += 1;
+      options.onProgress?.({
+        completed,
+        total: uploads.length,
+        key: result.object.key,
+        created: result.created,
+        idempotent: result.idempotent,
+      });
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, uploads.length) }, uploadNext));
+  const objects: ImmutableAssetObjectProof[] = results.map((result) => result.object);
+  const createdCount = results.filter((result) => result.created).length;
+  const idempotentCount = results.filter((result) => result.idempotent).length;
   assertCompleteImmutableAssetManifest(issue, assetBatchId, objects);
   const posters: PosterCandidate[] = objects.map((object) => ({
     topicId: object.topicId,
