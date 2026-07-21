@@ -11,9 +11,9 @@ This index separates implemented controls, unexecuted Reviewer evidence and the 
 | Real Reviewer deployment and pinned-model calls | `staging-rehearsal/environment-versions.md` | `not-executed` |
 | Reviewer risk acceptance | `reviewer-waiver-decision.md` | Authorized; does not assert Reviewer pass |
 | Waiver and automatic approval code/database gates | migration, unit tests and RPC suite | Local code, Build, E2E and real local Postgres suite passed |
-| Protected Release A/B lifecycle | `staging-rehearsal/` | Reviewer portion waived; production A/B execution still pending |
-| Live fault injection, rollback, and reactivation | `staging-rehearsal/` | Not executed |
-| Production deployment and rollback | `production-deployment.md` | Authorized; execution evidence pending |
+| Protected Release A/B lifecycle | `staging-rehearsal/` | Reviewer portion waived; prior active Release B observed, but the full A/B export is not re-claimed by the monitored-run record |
+| Live fault injection, rollback, and reactivation | `staging-rehearsal/` | Not re-executed by the first automatic-release run |
+| Production deployment and first automatic release | `production-deployment.md` | Release C active; live API/page/archive/18-poster consistency passed |
 
 Current formal state:
 
