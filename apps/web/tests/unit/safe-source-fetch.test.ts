@@ -4,12 +4,35 @@ import { describe, expect, it, vi } from "vitest";
 import {
   assertPublicIpAddress,
   collectLimitedBody,
+  createPinnedLookup,
   fetchSafeSource,
 } from "@/server/releases/safe-source-fetch";
 
 const publicDns = async () => [{ address: "93.184.216.34", family: 4 as const }];
 
 describe("safe source fetch", () => {
+  it("returns the pinned address array when Node 22 requests all lookup results", async () => {
+    const lookup = createPinnedLookup({ address: "93.184.216.34", family: 4 });
+    const addresses = await new Promise((resolve, reject) => {
+      lookup("public.example", { all: true }, (error, result) => {
+        if (error) reject(error);
+        else resolve(result);
+      });
+    });
+    expect(addresses).toEqual([{ address: "93.184.216.34", family: 4 }]);
+  });
+
+  it("returns the pinned scalar address for the legacy lookup callback", async () => {
+    const lookup = createPinnedLookup({ address: "93.184.216.34", family: 4 });
+    const result = await new Promise((resolve, reject) => {
+      lookup("public.example", {}, (error, address, family) => {
+        if (error) reject(error);
+        else resolve({ address, family });
+      });
+    });
+    expect(result).toEqual({ address: "93.184.216.34", family: 4 });
+  });
+
   it("blocks a public URL redirecting to loopback before the second request occurs", async () => {
     const requestOnce = vi.fn(async () => ({
       status: 302,
