@@ -103,6 +103,7 @@ function expectedObjectName(issue: Issue, topicId: string, actual: string) {
 }
 
 function assertObjectMetadata(
+  issue: Issue,
   candidate: PosterCandidate,
   key: string,
   metadata: Awaited<ReturnType<ImmutableAssetStore["headObject"]>>,
@@ -117,6 +118,9 @@ function assertObjectMetadata(
     || metadata.customMetadata["asset-batch-id"] === undefined
     || metadata.customMetadata["topic-id"] !== candidate.topicId
     || metadata.customMetadata.locale !== candidate.locale
+    || metadata.customMetadata["issue-date"] !== issue.issueDate
+    || metadata.customMetadata["expected-number"] !== String(issue.topics.find((item) => item.id === candidate.topicId)?.rank || "")
+    || metadata.customMetadata["expected-site"] !== "xiazishuo.com"
     || !/^[0-9a-f]{64}$/.test(metadata.customMetadata.sha256 || "")
     || !metadata.customMetadata["created-at"]
     || !metadata.customMetadata["uploader-version"]) {
@@ -145,12 +149,12 @@ export async function verifyReleaseStorage(
       throw new ImmutableAssetError("IMMUTABLE_ASSET_METADATA_MISMATCH", `${candidate.topicId}:locale-path`);
     }
     expectedObjectName(issue, candidate.topicId, parsedUrl.topicOrSlot);
-    const metadata = assertObjectMetadata(candidate, parsedUrl.key, await store.headObject(parsedUrl.key));
+    const metadata = assertObjectMetadata(issue, candidate, parsedUrl.key, await store.headObject(parsedUrl.key));
     if (metadata.customMetadata["asset-batch-id"] !== assetBatchId) {
       throw new ImmutableAssetError("IMMUTABLE_ASSET_METADATA_MISMATCH", `${candidate.topicId}:asset-batch`);
     }
     const read = await hashImmutableObjectStream(await store.readObject(parsedUrl.key));
-    const afterRead = assertObjectMetadata(candidate, parsedUrl.key, await store.headObject(parsedUrl.key));
+    const afterRead = assertObjectMetadata(issue, candidate, parsedUrl.key, await store.headObject(parsedUrl.key));
     if (afterRead.storageVersionId !== metadata.storageVersionId
       || afterRead.etag !== metadata.etag
       || afterRead.sizeBytes !== metadata.sizeBytes
@@ -167,6 +171,9 @@ export async function verifyReleaseStorage(
       assetBatchId,
       topicId: candidate.topicId,
       locale: candidate.locale,
+      issueDate: metadata.customMetadata["issue-date"],
+      expectedNumber: Number(metadata.customMetadata["expected-number"]),
+      expectedSite: "xiazishuo.com",
       key: parsedUrl.key,
       url: candidate.url,
       sha256: read.sha256,

@@ -4,6 +4,9 @@ export type ImmutableAssetObjectProof = {
   assetBatchId: string;
   topicId: string;
   locale: ImmutableAssetLocale;
+  issueDate: string;
+  expectedNumber: number;
+  expectedSite: "xiazishuo.com";
   key: string;
   url: string;
   sha256: string;

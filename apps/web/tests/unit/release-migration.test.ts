@@ -4,6 +4,10 @@ import { describe, expect, it } from "vitest";
 
 const migrationPath = path.resolve(process.cwd(), "../../supabase/migrations/20260718230000_future_release_safety.sql");
 const hardeningMigrationPath = path.resolve(process.cwd(), "../../supabase/migrations/20260719010000_release_safety_hardening.sql");
+const reviewWaiverMigrationPath = path.resolve(
+  process.cwd(),
+  "../../supabase/migrations/20260721030000_release_review_waiver_and_automatic_approval.sql",
+);
 
 describe("future release migration", () => {
   it("contains the atomic pointer, lease, idempotency and rollback primitives", async () => {
@@ -19,7 +23,7 @@ describe("future release migration", () => {
   });
 
   it("does not update any legacy issue, archive or story-pool table", async () => {
-    const sql = `${await readFile(migrationPath, "utf8")}\n${await readFile(hardeningMigrationPath, "utf8")}`;
+    const sql = `${await readFile(migrationPath, "utf8")}\n${await readFile(hardeningMigrationPath, "utf8")}\n${await readFile(reviewWaiverMigrationPath, "utf8")}`;
     expect(sql).not.toMatch(/update\s+public\.issues\b/i);
     expect(sql).not.toMatch(/insert\s+into\s+public\.issues\b/i);
     expect(sql).not.toMatch(/story_pool/i);
@@ -39,5 +43,20 @@ describe("future release migration", () => {
     expect(sql).toContain("poster.batch_comparison_hash = poster_item->>'batchComparisonHash'");
     expect(sql).toContain("currentActiveReleaseId");
     expect(sql).not.toMatch(/'status',\s*'active',\s*'idempotent',\s*true/i);
+  });
+
+  it("records explicit reviewer waivers and constrains automatic activation", async () => {
+    const sql = await readFile(reviewWaiverMigrationPath, "utf8");
+    expect(sql).toContain("review_status");
+    expect(sql).toContain("review_passed");
+    expect(sql).toContain("review_waived");
+    expect(sql).toContain("waiver_id");
+    expect(sql).toContain("publication_releases_review_status_check");
+    expect(sql).toContain("activation_mode");
+    expect(sql).toContain("AUTOMATIC_ACTIVATION_LIVE_LEASE_REQUIRED");
+    expect(sql).toContain("AUTOMATIC_ACTIVATION_STORAGE_UNVERIFIED");
+    expect(sql).toContain("AUTOMATIC_ACTIVATION_COMMIT_SHA_REQUIRED");
+    expect(sql).toContain("validation_hash");
+    expect(sql).toContain("commit_sha");
   });
 });

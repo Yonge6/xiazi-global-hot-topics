@@ -30,6 +30,7 @@ const config: ReviewerConfig = {
   maxBodyBytes: 700_000,
   deploymentVersion: "test-sha",
   allowedAssetOrigins: ["https://assets.example.com"],
+  replayStoreProvider: "redis-rest",
 };
 
 const semanticPayload: SemanticReviewPayload = {

@@ -47,6 +47,7 @@ const sources: SourceSnapshot[] = issue.topics.slice(0, 8).map((topic, index) =>
     status: "supported" as const,
     rationale: "supported",
   }))),
+  reviewStatus: "passed",
   reviewProvider: "test",
   rationale: "supported",
 }));
@@ -57,6 +58,13 @@ const imagePosters: PosterImageCheck[] = posterCandidates.map((candidate, index)
   width: 800,
   height: 1600,
   format: "png",
+  verificationMethod: "reviewer",
+  manifestNumber: Math.floor(index / 2) + 1,
+  manifestLanguage: candidate.locale,
+  manifestIssueDate: "2026-07-19",
+  manifestSite: "xiazishuo.com",
+  ocrPerformed: true,
+  semanticComparisonPerformed: true,
   ocrTextHash: (index + 20).toString(16).padStart(64, "0"),
   detectedNumber: Math.floor(index / 2) + 1,
   detectedLanguage: candidate.locale,
@@ -69,6 +77,7 @@ const imagePosters: PosterImageCheck[] = posterCandidates.map((candidate, index)
   crossLocaleThemeMatches: true,
   maxDistinctTopicSimilarity: 0.2,
   batchComparisonHash: "b".repeat(64),
+  reviewStatus: "passed",
   reviewProvider: "test",
   checkedAt: "2026-07-19T00:00:00.000Z",
 }));
@@ -76,6 +85,9 @@ const storageObjects: ImmutableAssetObjectProof[] = posterCandidates.map((candid
   assetBatchId,
   topicId: candidate.topicId,
   locale: candidate.locale,
+  issueDate: "2026-07-19",
+  expectedNumber: Math.floor(index / 2) + 1,
+  expectedSite: "xiazishuo.com",
   key: new URL(candidate.url).pathname.replace(/^\//, ""),
   url: candidate.url,
   sha256: imagePosters[index].contentHash,
@@ -121,6 +133,7 @@ function expectedReleaseId(
     contentHash: contentChecksum(issue),
     sourceSnapshotHash: stableHash(sources),
     posterManifestHash,
+    reviewDecision: { reviewStatus: "passed", reviewPassed: true, reviewWaived: false },
   });
   return publicationReleaseId(issue.issueDate, releaseHash);
 }
@@ -275,10 +288,85 @@ describe("future release service", () => {
     ]);
   });
 
+  it("records a complete reviewer waiver without claiming review passed", async () => {
+    const client = fakeClient();
+    const waiver = {
+      reviewStatus: "waived" as const,
+      reviewPassed: false,
+      reviewWaived: true,
+      waiverId: "owner-risk-acceptance-2026-07",
+      waiverReason: "Owner explicitly accepts reviewer risk for launch",
+      configuredBy: "project-owner",
+      configuredAt: "2026-07-21T02:00:00.000Z",
+    };
+    const waivedSources = sources.map((source) => ({
+      ...source,
+      supportsClaim: false,
+      claimResults: [],
+      reviewStatus: "waived" as const,
+      reviewProvider: "none",
+      rationale: `Semantic review waived by change record ${waiver.waiverId}`,
+    }));
+    const waivedPosters = imagePosters.map((poster) => ({
+      ...poster,
+      verificationMethod: "deterministic-manifest" as const,
+      reviewStatus: "waived" as const,
+      reviewProvider: "none",
+    }));
+    const result = await stageFuturePublication(stageInput("automation:2026-07-19:waived"), {
+      client: client as never,
+      reviewDecision: waiver,
+      sourceGate: vi.fn(async () => waivedSources),
+      posterGate: vi.fn(async () => waivedPosters),
+      storageGate: vi.fn(async () => storageReport()),
+      heartbeatIntervalMs: 60_000,
+    });
+    expect(result.validationReport).toMatchObject({
+      passed: true,
+      reviewStatus: "waived",
+      reviewPassed: false,
+      reviewWaived: true,
+      waiverId: waiver.waiverId,
+    });
+    const stagePayload = client.rpc.mock.calls.find(([name]) => name === "stage_publication_release")?.[1]?.payload as
+      | { validationReport: { reviewPassed: boolean } }
+      | undefined;
+    expect(stagePayload?.validationReport.reviewPassed).toBe(false);
+    expect(JSON.stringify(stagePayload)).not.toContain("reviewModel");
+  });
+
+  it("automatically activates only after staging with explicit audit context", async () => {
+    const client = fakeClient();
+    const result = await stageFuturePublication(stageInput("automation:2026-07-19:auto"), {
+      client: client as never,
+      approvalMode: "automatic",
+      commitSha: "a".repeat(40),
+      sourceGate: vi.fn(async () => sources),
+      posterGate: vi.fn(async () => imagePosters),
+      storageGate: vi.fn(async () => storageReport()),
+      heartbeatIntervalMs: 60_000,
+    });
+    expect(result).toMatchObject({ published: true, status: "active" });
+    const activation = client.rpc.mock.calls.find(([name]) => name === "activate_publication_release")?.[1];
+    expect(activation).toMatchObject({
+      p_release_id: expectedReleaseId(),
+      p_activation_mode: "automatic",
+      p_commit_sha: "a".repeat(40),
+      p_validation_hash: expect.stringMatching(/^[0-9a-f]{64}$/),
+    });
+  });
+
   it("rejects historical issues before acquiring a lease", async () => {
     const client = fakeClient();
+    const historicalIssueValue = structuredClone(issue);
+    historicalIssueValue.issueDate = "2026-07-18";
+    historicalIssueValue.slug = "2026-07-18";
+    historicalIssueValue.beijingTimestamp = "2026-07-18T05:00:00+08:00";
+    historicalIssueValue.gmtTimestamp = "2026-07-17T21:00:00Z";
+    const historicalIssue = parseIssue(historicalIssueValue);
+    expect(historicalIssue.issueDate).toBe("2026-07-18");
     await expect(stageFuturePublication({
-      issue: parseIssue(currentIssue),
+      issue: historicalIssue,
       posters: posterCandidates,
       assetBatchId,
       idempotencyKey: "automation:2026-07-18:blocked",

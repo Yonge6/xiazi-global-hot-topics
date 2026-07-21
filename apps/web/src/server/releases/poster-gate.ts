@@ -1,6 +1,6 @@
 import sharp from "sharp";
 
-import type { Issue, PosterCandidate, PosterCheck } from "@xiazi/contracts";
+import type { Issue, PosterCandidate, PosterCheck, PublicationReviewDecision } from "@xiazi/contracts";
 import { assertImmutableAssetUrl } from "@xiazi/domain";
 
 import { sha256, stableHash } from "./release-hash";
@@ -69,6 +69,7 @@ type PosterGateOptions = {
   maxBytes?: number;
   perceptualDistanceThreshold?: number;
   semanticSimilarityThreshold?: number;
+  reviewDecision?: PublicationReviewDecision;
 };
 
 type PreparedPoster = {
@@ -271,12 +272,16 @@ export async function verifyReleasePosters(
   candidates: PosterCandidate[],
   options: PosterGateOptions = {},
 ) {
+  const reviewDecision = options.reviewDecision || { reviewStatus: "passed", reviewPassed: true, reviewWaived: false };
   const actual = candidates.map((item) => slotKey(item.topicId, item.locale)).sort();
   const expected = expectedCandidates(issue);
   if (actual.join("|") !== expected.join("|")) throw new Error("POSTER_MANIFEST_MUST_MATCH_18_RELEASE_SLOTS");
+  if (reviewDecision.reviewWaived && !assetBatchId.includes(issue.issueDate.replaceAll("-", ""))) {
+    throw new Error("POSTER_MANIFEST_DATE_IDENTITY_MISMATCH");
+  }
 
   const fetchImpl = options.fetchImpl || fetch;
-  const reviewer = options.reviewer || reviewerFromEnv();
+  const reviewer = reviewDecision.reviewWaived ? null : options.reviewer || reviewerFromEnv();
   const now = options.now || (() => new Date());
   const maxBytes = options.maxBytes || 10 * 1024 * 1024;
   const perceptualDistanceThreshold = options.perceptualDistanceThreshold ?? 4;
@@ -325,6 +330,57 @@ export async function verifyReleasePosters(
     }
   }
 
+  if (reviewDecision.reviewWaived) {
+    const batchComparisonHash = stableHash({
+      verificationMethod: "deterministic-manifest",
+      issueDate: issue.issueDate,
+      assetBatchId,
+      posters: prepared.map((item) => ({
+        topicId: item.candidate.topicId,
+        locale: item.candidate.locale,
+        contentHash: item.contentHash,
+        perceptualHash: item.perceptualHash,
+      })),
+    });
+    const checks: PosterImageCheck[] = prepared.map(({ candidate, ...image }) => {
+      const topic = issue.topics.find((item) => item.id === candidate.topicId)!;
+      return {
+        topicId: candidate.topicId,
+        locale: candidate.locale,
+        url: candidate.url,
+        contentHash: image.contentHash,
+        perceptualHash: image.perceptualHash,
+        width: image.width,
+        height: image.height,
+        format: "png",
+        verificationMethod: "deterministic-manifest",
+        manifestNumber: topic.rank,
+        manifestLanguage: candidate.locale,
+        manifestIssueDate: issue.issueDate,
+        manifestSite: "xiazishuo.com",
+        ocrPerformed: false,
+        semanticComparisonPerformed: false,
+        ocrTextHash: sha256("review-waived:no-ocr"),
+        detectedNumber: topic.rank,
+        detectedLanguage: candidate.locale,
+        titleMatches: false,
+        dateMatches: false,
+        siteMatches: false,
+        themeMatches: false,
+        xiaziMatches: false,
+        doudoulongMatches: false,
+        crossLocaleThemeMatches: false,
+        maxDistinctTopicSimilarity: 0,
+        batchComparisonHash,
+        reviewStatus: "waived",
+        reviewProvider: "none",
+        checkedAt: now().toISOString(),
+      };
+    });
+    if (checks.length !== 18) throw new Error("EXPECTED_18_POSTER_CHECKS");
+    return checks;
+  }
+
   const batchInput = {
     assetBatchId,
     posters: candidates.map((candidate) => {
@@ -340,7 +396,7 @@ export async function verifyReleasePosters(
       };
     }),
   };
-  const batchReview = await reviewer(batchInput);
+  const batchReview = await reviewer!(batchInput);
   const comparisons = assertBatchReview(batchReview, candidates, semanticSimilarityThreshold);
   const batchComparisonHash = stableHash({
     provider: batchReview.provider,
@@ -375,6 +431,13 @@ export async function verifyReleasePosters(
       width: image.width,
       height: image.height,
       format: "png" as const,
+      verificationMethod: "reviewer" as const,
+      manifestNumber: topic.rank,
+      manifestLanguage: candidate.locale,
+      manifestIssueDate: issue.issueDate,
+      manifestSite: "xiazishuo.com" as const,
+      ocrPerformed: true,
+      semanticComparisonPerformed: true,
       ocrTextHash: sha256(review.ocrText.trim()),
       detectedNumber: review.detectedNumber,
       detectedLanguage: review.detectedLanguage,
@@ -387,6 +450,7 @@ export async function verifyReleasePosters(
       crossLocaleThemeMatches: sameTopicComparison.sameTheme,
       maxDistinctTopicSimilarity,
       batchComparisonHash,
+      reviewStatus: "passed" as const,
       reviewProvider: batchReview.provider,
       ...(batchReview.model ? { reviewModel: batchReview.model } : {}),
       ...(batchReview.modelVersion ? { reviewModelVersion: batchReview.modelVersion } : {}),

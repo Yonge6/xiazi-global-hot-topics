@@ -35,6 +35,9 @@ async function fixture() {
         assetBatchId,
         topicId: topic.id,
         locale,
+        issueDate: issue.issueDate,
+        expectedNumber: topic.rank,
+        expectedSite: "xiazishuo.com",
         createdAt: "2026-07-20T00:00:00.000Z",
         uploaderVersion: "uploader-v1",
       });

@@ -82,14 +82,69 @@ begin
     'posterManifestHash', p_poster_hash,
     'validationReport', jsonb_build_object(
       'passed', true,
+      'reviewStatus', 'passed',
+      'reviewPassed', true,
+      'reviewWaived', false,
       'schemaVersion', 'release-v2.1',
       'checkedAt', now(),
       'sourceSnapshotHash', p_source_hash,
       'posterManifestHash', p_poster_hash,
       'sourceCount', 8,
       'posterCount', 18,
+      'storageVerification', jsonb_build_object(
+        'provider', 'tencent-cos',
+        'policyVersion', 'xiazi-cos-immutable-v3',
+        'policyVerified', true,
+        'overwriteDenied', true,
+        'deleteDenied', true
+      ),
       'failures', jsonb_build_array()
     )
+  );
+end;
+$$;
+
+create or replace function pg_temp.with_reviewer_waiver(payload jsonb)
+returns jsonb
+language plpgsql
+as $$
+declare
+  sources jsonb;
+  posters jsonb;
+  validation jsonb;
+begin
+  select jsonb_agg(
+    (item - 'reviewModel') || jsonb_build_object(
+      'supportsClaim', false,
+      'claimResults', jsonb_build_array(),
+      'reviewProvider', 'none',
+      'rationale', 'Semantic review waived by change record owner-risk-acceptance-2026-07'
+    )
+  ) into sources from jsonb_array_elements(payload->'sources') item;
+  select jsonb_agg(
+    (item - 'reviewModel') || jsonb_build_object(
+      'reviewProvider', 'none',
+      'titleMatches', false,
+      'dateMatches', false,
+      'siteMatches', false,
+      'themeMatches', false,
+      'xiaziMatches', false,
+      'doudoulongMatches', false,
+      'crossLocaleThemeMatches', false
+    )
+  ) into posters from jsonb_array_elements(payload->'posters') item;
+  validation := (payload->'validationReport') || jsonb_build_object(
+    'reviewStatus', 'waived',
+    'reviewPassed', false,
+    'reviewWaived', true,
+    'waiverId', 'owner-risk-acceptance-2026-07',
+    'waiverReason', 'Owner explicitly accepts semantic and visual reviewer risk for initial Release V2 launch',
+    'configuredBy', 'project-owner',
+    'configuredAt', '2026-07-21T02:00:00.000Z'
+  );
+  return jsonb_set(
+    jsonb_set(jsonb_set(payload, '{sources}', sources), '{posters}', posters),
+    '{validationReport}', validation
   );
 end;
 $$;
@@ -234,19 +289,48 @@ begin
   where issue_date = date '2026-07-19';
   perform public.acquire_publication_lease(date '2026-07-19', 'release-b-stage', 'owner-b', 300);
   perform public.renew_publication_lease(date '2026-07-19', 'release-b-stage', 'owner-b', 300);
-  perform public.stage_publication_release(pg_temp.make_release_payload(
+  perform public.stage_publication_release(pg_temp.with_reviewer_waiver(pg_temp.make_release_payload(
     date '2026-07-19',
     'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb', repeat('b', 64), repeat('e', 64), repeat('f', 64),
     'release-b-stage', 'owner-b', 2
-  ));
+  )));
   select count(*) into release_count
   from public.publication_releases
   where issue_date = date '2026-07-19' and content_hash = repeat('a', 64);
   if release_count <> 2 then raise exception 'poster/source-only release identity was not preserved'; end if;
+  if not exists (
+    select 1 from public.publication_releases
+    where release_id = 'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb'
+      and review_status = 'waived' and not review_passed and review_waived
+      and waiver_id = 'owner-risk-acceptance-2026-07'
+  ) then raise exception 'reviewer waiver was not persisted coherently'; end if;
+  if (select count(*) from public.publication_source_snapshots
+      where release_id = 'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb'
+        and review_status = 'waived' and review_provider = 'none' and not supports_claim) <> 8 then
+    raise exception 'waived source records are incomplete or falsely passed';
+  end if;
+  if (select count(*) from public.publication_poster_checks
+      where release_id = 'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb'
+        and review_status = 'waived' and verification_method = 'deterministic-manifest'
+        and not ocr_performed and not semantic_comparison_performed) <> 18 then
+    raise exception 'waived poster records are incomplete or falsely reviewed';
+  end if;
 
   perform public.activate_publication_release(
-    'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb', 'human@example.com', 'activate-b'
+    'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb', 'release-v2-automation', 'activate-b',
+    'automatic', repeat('c', 40), repeat('d', 64)
   );
+  if not exists (
+    select 1
+    from public.publication_activation_requests
+    where activation_key = 'activate-b'
+      and activation_mode = 'automatic'
+      and commit_sha = repeat('c', 40)
+      and validation_hash = repeat('d', 64)
+      and waiver_id = 'owner-risk-acceptance-2026-07'
+  ) then
+    raise exception 'automatic activation audit context was not persisted';
+  end if;
   result := public.activate_publication_release(
     'rel_20260719_aaaaaaaaaaaaaaaaaaaaaaaa', 'human@example.com', 'activate-a'
   );
