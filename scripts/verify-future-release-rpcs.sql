@@ -343,10 +343,15 @@ begin
     'rel_20260719_aaaaaaaaaaaaaaaaaaaaaaaa', 'human@example.com', 'rollback-to-a',
     'Fault injection rollback verification to release A'
   );
-  perform public.rollback_publication_release(
-    'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb', 'human@example.com', 'rollback-to-b',
-    'Fault injection pointer change after first rollback'
+  result := public.activate_publication_release(
+    'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb', 'human@example.com', 'reactivate-b',
+    'human', null, null
   );
+  if result->>'currentActiveReleaseId' <> 'rel_20260719_bbbbbbbbbbbbbbbbbbbbbbbb'
+    or result->>'previousReleaseId' <> 'rel_20260719_aaaaaaaaaaaaaaaaaaaaaaaa'
+    or result->>'activationMode' <> 'human' then
+    raise exception 'release B was not reactivated after rollback';
+  end if;
   result := public.rollback_publication_release(
     'rel_20260719_aaaaaaaaaaaaaaaaaaaaaaaa', 'human@example.com', 'rollback-to-a',
     'Fault injection rollback verification to release A'
