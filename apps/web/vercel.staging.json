@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build -w @xiazi/web",
+  "installCommand": "npm install",
+  "outputDirectory": ".next",
+  "framework": "nextjs"
+}

@@ -1,8 +1,20 @@
+import type { Issue, PosterCandidate, PublicationMetadata } from "@xiazi/contracts";
+
 export type ApiClientOptions = {
   baseUrl?: string;
   token?: string;
   fetchImpl?: typeof fetch;
   timeoutMs?: number;
+};
+
+export type CurrentPublicationResponse = Issue & PublicationMetadata;
+
+export type StagePublicationRequest = {
+  issue: Issue;
+  posters: PosterCandidate[];
+  assetBatchId: string;
+  idempotencyKey: string;
+  leaseOwner: string;
 };
 
 export class ApiClient {
@@ -39,6 +51,26 @@ export class ApiClient {
     } finally {
       clearTimeout(timeout);
     }
+  }
+
+  getCurrentPublication() {
+    return this.getJson<CurrentPublicationResponse>("/api/content/");
+  }
+
+  stagePublication(input: StagePublicationRequest) {
+    return this.getJson<{
+      ok: true;
+      published: boolean;
+      status: "ready_for_approval" | "in_progress" | "already_active" | "active";
+      releaseId: string | null;
+      issueDate: string;
+      contentHash: string;
+      reused?: boolean;
+    }>("/api/internal/releases/stage/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(input),
+    });
   }
 }
 

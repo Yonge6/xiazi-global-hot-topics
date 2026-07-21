@@ -38,8 +38,8 @@ const checks = [
   },
   {
     file: ".env.example",
-    disallow: [/NEXT_PUBLIC_SITE_URL=https:\/\/vilesaint\.com/, /STUDIO_PASSWORD=000000/, /NEXT_PUBLIC_STUDIO_SHADOW_WRITE_ENABLED/],
-    message: "Example env should use Pluto and no default Studio password",
+    disallow: [/NEXT_PUBLIC_SITE_URL=https:\/\/(?:vilesaint\.com|pluto\.hk)/, /STUDIO_PASSWORD=000000/, /NEXT_PUBLIC_STUDIO_SHADOW_WRITE_ENABLED/],
+    message: "Example env should use xiazishuo.com and no default Studio password",
   },
 ];
 

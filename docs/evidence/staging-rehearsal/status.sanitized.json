@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "release-v2-owner-waiver-status-v1",
+  "recordedAt": "2026-07-21T01:49:13Z",
+  "implementationHead": "2690ebb872556d92d534b3c3b31c7024e53d421f",
+  "waiverImplementationHead": "7ac1775968783564068c90324575db6086b4c36e",
+  "waiverRecordedAt": "2026-07-21T02:58:26Z",
+  "ordinaryCi": {
+    "runId": "29734829434",
+    "runUrl": "https://github.com/Yonge6/xiazi-global-hot-topics/actions/runs/29734829434",
+    "applicationAndGuardGates": "success",
+    "databaseLifecycleInvariants": "success",
+    "protectedLiveStagingProof": "skipped-on-pull-request"
+  },
+  "localVerification": {
+    "stagingGuardTests": 8,
+    "reviewerTests": 25,
+    "webTests": 146,
+    "browserE2ePassed": 21,
+    "browserE2eSkippedStagingOnly": 7,
+    "reviewerBuild": "success",
+    "webBuild": "success"
+  },
+  "realReviewerStatus": "not-executed",
+  "protectedReviewerRehearsal": "waived",
+  "workPackageThree": "accepted-with-reviewer-waiver",
+  "productionEnablement": "authorized",
+  "waiverId": "owner-risk-acceptance-2026-07",
+  "waiverScope": "semantic-and-visual-reviewer-only",
+  "acceptedEvidence": {
+    "isolatedSupabaseMigrations": true,
+    "persistentReplayReservation": true,
+    "ordinaryApplicationGates": true,
+    "ordinaryDatabaseGates": true,
+    "directCosOriginWorkPackage": true,
+    "realReviewerDeployment": false,
+    "normalReleaseABLifecycle": false,
+    "liveFaultInjection": false,
+    "rollbackAndReactivation": false
+  },
+  "mockOrSimulatedReviewerEvidenceAccepted": false,
+  "productionResourcesTouched": false,
+  "releaseV2EnabledInProduction": false,
+  "unattendedPublishingRestored": false,
+  "note": "Reviewer evidence remains not-executed and is not represented as passed; production rollout evidence is pending."
+}

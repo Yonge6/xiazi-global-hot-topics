@@ -1,0 +1,8 @@
+{
+  "framework": "nextjs",
+  "regions": ["hkg1"],
+  "functions": {
+    "src/app/api/review/semantic/route.ts": { "maxDuration": 60 },
+    "src/app/api/review/visual/route.ts": { "maxDuration": 120 }
+  }
+}

@@ -35,6 +35,25 @@ type PublishResult = {
   };
 };
 
+type PendingRelease = {
+  releaseId: string;
+  issueDate: string;
+  contentHash: string;
+  status: "ready_for_approval";
+  readyAt: string;
+  validationReport: {
+    passed: boolean;
+    sourceCount: number;
+    posterCount: number;
+    failures: string[];
+    reviewStatus: "passed" | "waived";
+    reviewPassed: boolean;
+    reviewWaived: boolean;
+    waiverId?: string;
+    waiverReason?: string;
+  };
+};
+
 export function StudioEditor() {
   const [unlocked, setUnlocked] = useState(false);
   const [password, setPassword] = useState("");
@@ -51,14 +70,49 @@ export function StudioEditor() {
   const [selectedIssue, setSelectedIssue] = useState<IssueEntry | null>(null);
   const [lastPublishResult, setLastPublishResult] = useState<PublishResult | null>(null);
   const [retryingShadow, setRetryingShadow] = useState(false);
+  const [pendingReleases, setPendingReleases] = useState<PendingRelease[]>([]);
+  const [approvingRelease, setApprovingRelease] = useState<string | null>(null);
 
   useEffect(() => {
     if (!unlocked) return;
     loadIssueEntries();
     loadAnalytics();
+    loadPendingReleases();
     // Authentication is the only trigger; the loaders are stable for this mounted editor.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [unlocked]);
+
+  async function loadPendingReleases() {
+    const response = await fetch("/api/studio/releases", { cache: "no-store" });
+    if (!response.ok) return;
+    const detail = await response.json().catch(() => null);
+    if (Array.isArray(detail?.releases)) setPendingReleases(detail.releases);
+  }
+
+  async function approveRelease(release: PendingRelease) {
+    if (!release.validationReport?.passed) {
+      setStatus("该 Release 未通过硬门，不能激活");
+      return;
+    }
+    if (!window.confirm(`确认将 ${release.issueDate} 的 ${release.releaseId} 切换为生产当前刊物？`)) return;
+    setApprovingRelease(release.releaseId);
+    setStatus(`正在原子激活 ${release.releaseId}…`);
+    try {
+      const response = await fetch(`/api/studio/releases/${encodeURIComponent(release.releaseId)}/approve`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ activationKey: `studio-activate:${release.releaseId}` }),
+      });
+      const detail = await response.json().catch(() => null);
+      if (!response.ok) throw new Error(detail?.message || "Release 激活失败");
+      setStatus(`${release.releaseId} 已原子激活，正在刷新刊期列表…`);
+      await Promise.all([loadPendingReleases(), loadIssueEntries()]);
+    } catch (error) {
+      setStatus(error instanceof Error ? error.message : "Release 激活失败");
+    } finally {
+      setApprovingRelease(null);
+    }
+  }
 
   async function loadIssueEntries(preferred?: IssueEntry) {
     const response = await fetch("/api/studio/issues", { cache: "no-store" });
@@ -511,6 +565,30 @@ export function StudioEditor() {
       )}
       {studioView === "editor" ? <div className="studio-publish-bar">
         <p role="status" aria-live="polite">{status}</p>
+        {pendingReleases.length ? (
+          <section className="studio-release-approval" aria-label="待人工确认 Release">
+            <strong>待人工确认（不会自动上线）</strong>
+            {pendingReleases.map((release) => (
+              <article key={release.releaseId}>
+                <span>{release.issueDate}</span>
+                <code>{release.releaseId}</code>
+                <small>来源 {release.validationReport.sourceCount} · 海报 {release.validationReport.posterCount} · {release.contentHash.slice(0, 12)}</small>
+                {release.validationReport.reviewWaived ? (
+                  <small>Reviewer 已豁免（未通过审核） · {release.validationReport.waiverId}</small>
+                ) : (
+                  <small>Reviewer 已验证通过</small>
+                )}
+                <button
+                  type="button"
+                  onClick={() => approveRelease(release)}
+                  disabled={approvingRelease !== null || !release.validationReport.passed}
+                >
+                  {approvingRelease === release.releaseId ? "正在激活…" : "人工确认并切换生产"}
+                </button>
+              </article>
+            ))}
+          </section>
+        ) : null}
         {lastPublishResult?.published ? (
           <div className={`studio-shadow-status ${lastPublishResult.compare?.status === "matched" || lastPublishResult.shadow?.status === "disabled" ? "ok" : "warn"}`}>
             <strong>

@@ -160,6 +160,21 @@ export function posterOrder(name: string) {
   return no ? Number(no[1]) : 99;
 }
 
+export function extractSourceReference(value: string) {
+  const match = value.match(/https?:\/\/[^\s)\]}>]+/i);
+  if (!match) throw new Error("每条推荐阅读必须保留真实 http/https 来源 URL，不能使用固定 ChatGPT 分享链接");
+  const url = new URL(match[0].replace(/[.,;，。；]+$/g, ""));
+  if (url.hostname === "chatgpt.com" || url.hostname.endsWith(".chatgpt.com")) {
+    throw new Error("推荐阅读不能使用 ChatGPT 分享链接代替真实来源");
+  }
+  const title = clean(value.replace(match[0], "").replace(/^[\s\-—:：|｜]+|[\s\-—:：|｜]+$/g, ""));
+  return {
+    url: url.toString(),
+    title: title || url.hostname,
+    publisher: url.hostname.replace(/^www\./, ""),
+  };
+}
+
 export function buildIssueFromBatch(baseIssue: Issue, issueDate: string, copy: string, styleZhName?: string): Issue {
   if (!datePattern.test(issueDate)) throw new Error("刊期日期无效");
   if (baseIssue.topics.length !== 9) throw new Error("当前刊期不是 9 条，不能作为批量发布模板");
@@ -169,6 +184,7 @@ export function buildIssueFromBatch(baseIssue: Issue, issueDate: string, copy: s
   const topics: Topic[] = stories.map((story, index) => {
     const base = baseIssue.topics[index];
     const topicId = `${issueId}-topic-${String(index + 1).padStart(2, "0")}`;
+    const sourceReference = extractSourceReference(story.zh.source);
     return {
       ...base,
       id: topicId,
@@ -182,9 +198,9 @@ export function buildIssueFromBatch(baseIssue: Issue, issueDate: string, copy: s
       sources: [{
         id: `${topicId}-source-1`,
         topicId,
-        title: story.zh.source,
-        publisher: "ChatGPT cited sources",
-        url: "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+        title: sourceReference.title,
+        publisher: sourceReference.publisher,
+        url: sourceReference.url,
         publishedAt: `${issueDate}T00:00:00Z`,
         sourceType: "publisher",
         sourceTier: 2,

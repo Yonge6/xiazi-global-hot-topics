@@ -5,14 +5,14 @@ export const dynamic = "force-dynamic";
 
 const SOURCE_URL = "https://raw.githubusercontent.com/Yonge6/Design/main/catch-the-line-game/index.html";
 const RAW_ASSET_BASE = "https://raw.githubusercontent.com/Yonge6/Design/main/catch-the-line-game/assets/";
-const PLUTO_PAGE_URL = "https://pluto.hk/catch-the-line-game/";
+const XIAZI_PAGE_URL = "https://xiazishuo.com/catch-the-line-game/";
 
 async function loadFallbackHtml() {
   const htmlPath = path.join(process.cwd(), "public", "catch-the-line-game", "index.html");
   return readFile(htmlPath, "utf8");
 }
 
-function rewriteForPluto(html: string) {
+function rewriteForXiazi(html: string) {
   return html
     .replace(/<base[^>]*>/gi, "")
     .replaceAll('src="assets/', `src="${RAW_ASSET_BASE}`)
@@ -22,7 +22,7 @@ function rewriteForPluto(html: string) {
     .replace(
       /<head>/i,
       `<head>
-  <link rel="canonical" href="${PLUTO_PAGE_URL}" />`,
+  <link rel="canonical" href="${XIAZI_PAGE_URL}" />`,
     );
 }
 
@@ -37,7 +37,7 @@ export async function GET() {
     html = await loadFallbackHtml();
   }
 
-  return new Response(rewriteForPluto(html), {
+  return new Response(rewriteForXiazi(html), {
     headers: {
       "Cache-Control": "no-store",
       "Content-Type": "text/html; charset=utf-8",

@@ -1,25 +1,24 @@
 # 虾子曰全球热点海报
 
-`xiazishuo.com` 的生产级基础项目。每天北京时间 00:05，用 9 条全球热点和双语内容解释正在变化的世界。
+`xiazishuo.com` 的生产项目。每天北京时间 05:00，用 9 条全球热点和双语内容解释正在变化的世界。
 
 生产发布只使用 `https://xiazishuo.com`（含 `www` 跳转）；不要为本项目绑定或验收其他域名。海报 API 使用同源相对路径，避免跨域生产地址漂移。
 
 发布边界：只更新 `Yonge6/xiazi-global-hot-topics` 与 Vercel `xiazishuo` 项目。VileSaint 的仓库、Vercel 项目和域名是独立产品，不得从本项目发布链路触碰。
 
-## 当前阶段
+## 当前架构
 
 - Next.js App Router、TypeScript strict、Tailwind CSS 4、next-intl
 - `/zh` 与 `/en` 双语首页及同路径语言切换
-- 9 条中英文 Mock 热点和推荐阅读
+- 9 条中英文正式热点、真实推荐阅读来源和不可变 Release 迁移链
 - 当代艺术目录风格首页、响应式 Masonry 瀑布流
 - 海报 Lightbox、键盘切换、原图查看和下载
 - 用户提供的虾子曰、豆豆龙品牌参考图
 - 完整角色三视图、表情、动作、色板与禁用造型规范
-- 每条海报可扫描二维码，指向对应语言和热点
-- Issue、Topic、Source、Poster、Job 类型与 Supabase migration
+- Issue、Topic、Source、Poster、Job、Publication Release 类型与 Supabase migration
 - 基础 SEO、sitemap、robots、Vitest 和 Playwright
 
-Mock 内容只用于产品演示，不代表实时新闻。
+2026-07-18 及更早刊物属于历史范围，不由 Release V2 追溯修改。未来刊物先完成来源与海报硬门，再由人工确认原子切换生产指针；未确认的自动生成结果不会上线。
 
 ## 本地运行
 
@@ -52,7 +51,7 @@ npm run build
 supabase db push
 ```
 
-初始 migration 位于 `supabase/migrations/202606140001_initial_content_schema.sql`，包含基础表、枚举、索引和公开读取 RLS。管理员写入策略、Auth 角色和审计日志将在 Phase 2 加入。
+迁移位于 `supabase/migrations/`。`20260718230000_future_release_safety.sql` 新增未来刊物的不可变 Release、发布租约、原子指针、人工确认、来源快照、海报验收证据和回滚事件；`20260719010000_release_safety_hardening.sql` 再绑定完整 Release 身份、owner/heartbeat、正文事实声明和感知级海报证据。迁移本身不会更新历史刊物。
 
 ## 模型与海报配置
 
@@ -62,27 +61,25 @@ supabase db push
 2. 两种语言海报独立存储、独立替换、独立 QA，不在前端覆盖或替换海报内部文字。
 3. 内容核验完成后生成中文与英文完整海报，通过 QA 后发布。
 4. 中文海报显示北京时间，英文海报显示 GMT；两种海报都必须含 `xiazishuo.com`、虾子曰和豆豆龙。
-5. 每张海报包含二维码，最终指向 `/{locale}/topics/{topicSlug}`。
+5. 发布前必须验证 OCR、语言、编号、标题、日期、网址、主题、固定 IP 和跨图重复。
 6. 视觉保持欢快、阳光、正向，同时不弱化事实的严肃性。
 
 ## 定时任务
 
-生产环境定时任务在北京时间每天 `00:05` 运行，对应前一日 UTC `16:05`：
+生产候选生成按北京时间 05:00 工作流运行；自动化只允许暂存候选，不允许绕过人工门直接切换生产：
 
 ```cron
-5 16 * * *
+0 21 * * *
 ```
 
-Cron 更新最新 9 条双语内容并发布。Vercel Cron 同时调用 `/api/cron/default-posters`，使用线上 COS 密钥将默认海报铺到中英文 18 个位置并写入当日归档；正式海报由后台上传后逐张替换。页面在慢网或图片失败时也会立即显示默认海报。
-
-当前仓库包含 9 张中文视觉海报和 9 张独立英文整图海报。两种语言使用各自的原图与缩略图资源。
+生成任务先把 18 张完整 PNG 上传到 `release-assets/{assetBatchId}/...` 不可变路径，再调用 `/api/internal/releases/stage/`。来源快照和海报清单通过硬门后，系统才用两者的哈希、文案哈希和 schema 版本计算最终 `releaseId`。只有完整候选会出现在 Studio 待确认列表。人工确认调用单事务激活 RPC；05:50、06:00 和重复任务由 owner 租约、heartbeat 与幂等键协调。
 
 ## 部署
 
 1. 将仓库导入 Vercel。
 2. 配置 `.env.example` 中全部生产变量。
 3. 将 `NEXT_PUBLIC_SITE_URL` 设置为 `https://xiazishuo.com`。
-4. 在 Supabase 执行 migration，并创建 Storage buckets。
+4. 在 Supabase 执行 migration，并按 [未来发布整改说明](./docs/release-safety-remediation.md) 完成 staged rollout。
 5. 将域名 DNS 指向 Vercel。
 6. 部署前运行 `npm run check`、`npm run test:e2e` 和 `npm run build`。
 
@@ -90,4 +87,6 @@ Cron 更新最新 9 条双语内容并发布。Vercel Cron 同时调用 `/api/cr
 
 - [实施计划](./IMPLEMENTATION_PLAN.md)
 - [技术决策](./DECISIONS.md)
+- [不可变 Release ADR](./docs/adr/0001-immutable-publication-releases.md)
+- [未来发布整改说明](./docs/release-safety-remediation.md)
 - [品牌资产清单](./docs/BRAND_ASSETS.md)

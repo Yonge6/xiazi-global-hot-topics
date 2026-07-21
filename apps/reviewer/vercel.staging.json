@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build -w @xiazi/reviewer",
+  "installCommand": "npm install",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["hkg1"],
+  "functions": {
+    "src/app/api/review/semantic/route.ts": { "maxDuration": 120 },
+    "src/app/api/review/visual/route.ts": { "maxDuration": 180 }
+  }
+}

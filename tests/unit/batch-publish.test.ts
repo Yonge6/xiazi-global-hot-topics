@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { parseBatchCopy, posterOrder } from "@/lib/studio/batch-publish";
+import { extractSourceReference, parseBatchCopy, posterOrder } from "@/lib/studio/batch-publish";
 
 const block = (rank: number) => `NO.${String(rank).padStart(2, "0")} 分类${rank}｜中文标题${rank}；中文观点${rank}
 中文正文：中文正文 ${rank}
@@ -53,5 +53,15 @@ English intro ${rank}; English view ${rank}
     expect(posterOrder("NO.01-中文.png")).toBe(1);
     expect(posterOrder("海报 09 英文.png")).toBe(9);
     expect(posterOrder("poster-without-number.png")).toBe(99);
+  });
+
+  it("preserves a real source URL instead of replacing it with a ChatGPT share", () => {
+    expect(extractSourceReference("Associated Press https://apnews.com/article/example")).toEqual({
+      title: "Associated Press",
+      publisher: "apnews.com",
+      url: "https://apnews.com/article/example",
+    });
+    expect(() => extractSourceReference("ChatGPT cited sources")).toThrow(/真实/);
+    expect(() => extractSourceReference("https://chatgpt.com/share/fixed")).toThrow(/不能使用 ChatGPT/);
   });
 });

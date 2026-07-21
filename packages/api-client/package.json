@@ -11,6 +11,7 @@
     "check": "tsc --noEmit"
   },
   "devDependencies": {
+    "@xiazi/contracts": "0.1.0",
     "typescript": "^5"
   }
 }

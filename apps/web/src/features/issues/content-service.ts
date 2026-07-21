@@ -14,8 +14,7 @@ async function getJson<T>(path: string) {
 }
 
 export async function loadCurrentIssue() {
-  const issue = await getJson<unknown>("/api/content/")
-    .catch(() => getJson<unknown>("/data/current-issue.json"));
+  const issue = await getJson<unknown>("/api/content/");
   const parsed = parseIssue(issue);
   return {
     ...parsed,

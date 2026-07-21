@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const posterOrigin = process.env.NEXT_PUBLIC_COS_BASE_URL
-    ?? "https://vilesaint-posters-1258992379.cos-website.ap-hongkong.myqcloud.com";
+    ?? productConfig.siteUrl;
 
   return (
     <html lang="zh-CN" data-scroll-behavior="smooth">

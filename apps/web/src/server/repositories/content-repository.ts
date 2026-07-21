@@ -4,7 +4,7 @@ export type IssueSummary = {
   issueDate: string;
   slug: string;
   status: Issue["status"];
-  source: "github" | "local" | "public-fallback" | "supabase";
+  source: "github" | "local" | "public-fallback" | "supabase" | "supabase-release";
 };
 
 export interface ContentRepository {

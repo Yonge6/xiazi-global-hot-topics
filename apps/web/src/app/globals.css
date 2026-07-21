@@ -1101,6 +1101,17 @@ button { color: inherit; font: inherit; }
   min-height: 34px; border: 1px solid rgba(178,64,43,.32); border-radius: 9px; background: white; color: var(--vermilion);
   font-weight: 700;
 }
+.studio-release-approval {
+  display: grid; gap: 7px; margin: 0 0 8px; border: 1px solid rgba(180,128,28,.3); border-radius: 12px;
+  background: rgba(255,247,219,.9); padding: 10px;
+}
+.studio-release-approval > strong { color: #76540c; font-size: 12px; }
+.studio-release-approval article { display: grid; gap: 4px; border-top: 1px solid rgba(180,128,28,.18); padding-top: 8px; }
+.studio-release-approval code, .studio-release-approval small { overflow-wrap: anywhere; color: var(--muted); font-size: 10px; }
+.studio-release-approval button {
+  min-height: 38px; border: 0; border-radius: 9px; background: #76540c; color: white; font-weight: 700;
+}
+.studio-release-approval button:disabled { cursor: wait; opacity: .6; }
 .studio-publish {
   width: 100%; min-height: 52px; border: 0; border-radius: 12px; background: var(--vermilion); color: white; font-weight: 700;
 }
