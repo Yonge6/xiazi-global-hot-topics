@@ -105,7 +105,7 @@ jobs:
           set_env() {
             name="$1"
             value="$2"
-            printf '%s' "$value" | npx vercel env add "$name" production --force --token "$VERCEL_TOKEN" >/dev/null
+            printf '%s' "$value" | npx vercel env add "$name" production --force --scope "$VERCEL_ORG_ID" --token "$VERCEL_TOKEN" >/dev/null
           }
           set_env NEXT_PUBLIC_SITE_URL https://xiazishuo.com
           set_env NEXT_PUBLIC_COS_BASE_URL "$direct_origin"
@@ -149,7 +149,7 @@ jobs:
               set_env RELEASE_APPROVAL_MODE human
               ;;
           esac
-          npx vercel deploy --prod --yes --token "$VERCEL_TOKEN" > /tmp/deployment-url.txt
+          npx vercel deploy --prod --yes --scope "$VERCEL_ORG_ID" --token "$VERCEL_TOKEN" > /tmp/deployment-url.txt
           deployment_url="$(tail -n 1 /tmp/deployment-url.txt)"
           test "${deployment_url#https://}" != "$deployment_url"
           printf 'deploymentUrl=%s\n' "$deployment_url" >> "$GITHUB_STEP_SUMMARY"
