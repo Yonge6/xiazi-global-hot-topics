@@ -11,6 +11,7 @@ on:
           - configure-closed-human
           - stage-release-a
           - stage-release-b
+          - activate-staged-human
           - enable-v2-human
           - enable-automatic
           - disable-v2
@@ -92,6 +93,9 @@ jobs:
                 *) echo "Invalid immutable asset batch" >&2; exit 1 ;;
               esac
               ;;
+            activate-staged-human)
+              test "$ISSUE_DATE" \> "2026-07-18"
+              ;;
             *) echo "Unknown operation" >&2; exit 1 ;;
           esac
       - name: Configure production environment and deploy
@@ -102,15 +106,10 @@ jobs:
           set -euo pipefail
           direct_origin="https://${COS_BUCKET}.cos.${COS_REGION}.myqcloud.com"
           waiver_at="2026-07-21T05:00:00.000Z"
-          vercel_scope="$(curl --fail --silent --show-error \
-            --header "Authorization: Bearer ${VERCEL_TOKEN}" \
-            'https://api.vercel.com/v2/teams?limit=100' \
-            | jq -r --arg id "$VERCEL_ORG_ID" '.teams[] | select(.id == $id) | .slug')"
-          test -n "$vercel_scope"
           set_env() {
             name="$1"
             value="$2"
-            printf '%s' "$value" | npx vercel env add "$name" production --force --scope "$vercel_scope" --token "$VERCEL_TOKEN" >/dev/null
+            printf '%s' "$value" | npx vercel env add "$name" production --force --token "$VERCEL_TOKEN" >/dev/null
           }
           set_env NEXT_PUBLIC_SITE_URL https://xiazishuo.com
           set_env NEXT_PUBLIC_COS_BASE_URL "$direct_origin"
@@ -154,7 +153,7 @@ jobs:
               set_env RELEASE_APPROVAL_MODE human
               ;;
           esac
-          npx vercel deploy --prod --yes --scope "$vercel_scope" --token "$VERCEL_TOKEN" > /tmp/deployment-url.txt
+          npx vercel deploy --prod --yes --token "$VERCEL_TOKEN" > /tmp/deployment-url.txt
           deployment_url="$(tail -n 1 /tmp/deployment-url.txt)"
           test "${deployment_url#https://}" != "$deployment_url"
           printf 'deploymentUrl=%s\n' "$deployment_url" >> "$GITHUB_STEP_SUMMARY"
@@ -200,6 +199,54 @@ jobs:
             /tmp/production-stage-response.json > /tmp/production-stage-sanitized.json
           cat /tmp/production-upload-proof.json >> "$GITHUB_STEP_SUMMARY"
           cat /tmp/production-stage-sanitized.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Activate one fully validated staged release
+        if: inputs.operation == 'activate-staged-human'
+        env:
+          ISSUE_DATE: ${{ inputs.issue_date }}
+        run: |
+          set -euo pipefail
+          expected_hash="$(npx tsx -e 'import { readFileSync } from "node:fs"; import { canonicalIssueBundle } from "./apps/web/src/server/publishing/canonical-issue.ts"; const issue = JSON.parse(readFileSync("data/current-issue.json", "utf8")); console.log(canonicalIssueBundle(issue).checksum);')"
+          release_rows="$(curl --fail --silent --show-error \
+            --get "${SUPABASE_URL}/rest/v1/publication_releases" \
+            --header "apikey: ${SUPABASE_SERVICE_ROLE_KEY}" \
+            --header "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+            --data-urlencode "issue_date=eq.${ISSUE_DATE}" \
+            --data-urlencode "content_hash=eq.${expected_hash}" \
+            --data-urlencode "select=release_id,status,validation_report")"
+          printf '%s' "$release_rows" | jq -e '
+            length == 1
+            and .[0].status == "ready_for_approval"
+            and .[0].validation_report.passed == true
+            and .[0].validation_report.sourceCount >= 8
+            and .[0].validation_report.posterCount == 18
+            and .[0].validation_report.storageVerification.policyVerified == true
+            and .[0].validation_report.storageVerification.overwriteDenied == true
+            and .[0].validation_report.storageVerification.deleteDenied == true
+          ' >/dev/null
+          release_id="$(printf '%s' "$release_rows" | jq -r '.[0].release_id')"
+          activation_payload="$(jq -n \
+            --arg release_id "$release_id" \
+            --arg activation_key "daily-human-fallback:${ISSUE_DATE}:${release_id}" \
+            '{
+              p_release_id: $release_id,
+              p_approver: "release-automation:github-human-fallback",
+              p_activation_key: $activation_key,
+              p_activation_mode: "human",
+              p_commit_sha: null,
+              p_validation_hash: null
+            }')"
+          activation_response="$(curl --fail --silent --show-error \
+            --request POST "${SUPABASE_URL}/rest/v1/rpc/activate_publication_release" \
+            --header "apikey: ${SUPABASE_SERVICE_ROLE_KEY}" \
+            --header "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+            --header 'Content-Type: application/json' \
+            --data-binary "$activation_payload")"
+          printf '%s' "$activation_response" | jq -e --arg release_id "$release_id" \
+            '.currentActiveReleaseId == $release_id' >/dev/null
+          printf '%s' "$activation_response" | jq \
+            '{currentActiveReleaseId,previousReleaseId,activationMode,deployedAt,idempotent}' \
+            > /tmp/production-human-activation-sanitized.json
+          cat /tmp/production-human-activation-sanitized.json >> "$GITHUB_STEP_SUMMARY"
       - name: Upload sanitized rollout proof
         if: startsWith(inputs.operation, 'stage-release-')
         uses: actions/upload-artifact@v4
