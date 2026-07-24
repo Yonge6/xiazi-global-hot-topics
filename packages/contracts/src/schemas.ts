@@ -125,6 +125,7 @@ export const stagePublicationReleaseSchema = z.object({
   assetBatchId: z.string().regex(/^asset_[A-Za-z0-9_-]{12,80}$/),
   idempotencyKey: z.string().min(12),
   leaseOwner: z.string().min(3),
+  commitSha: z.string().regex(/^[0-9a-f]{40}$/).optional(),
 });
 
 export const approvePublicationReleaseSchema = z.object({

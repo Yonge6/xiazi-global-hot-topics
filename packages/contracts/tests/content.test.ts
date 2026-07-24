@@ -87,6 +87,7 @@ describe("stagePublicationReleaseSchema", () => {
       assetBatchId: "asset_20260619_primary",
       idempotencyKey: "automation:2026-06-19:abc",
       leaseOwner: "automation-test",
+      commitSha: "a".repeat(40),
     }).posters).toHaveLength(18);
     expect(() => stagePublicationReleaseSchema.parse({
       issue: validIssue,
@@ -94,6 +95,14 @@ describe("stagePublicationReleaseSchema", () => {
       assetBatchId: "asset_20260619_primary",
       idempotencyKey: "automation:2026-06-19:abc",
       leaseOwner: "automation-test",
+    })).toThrow();
+    expect(() => stagePublicationReleaseSchema.parse({
+      issue: validIssue,
+      posters,
+      assetBatchId: "asset_20260619_primary",
+      idempotencyKey: "automation:2026-06-19:abc",
+      leaseOwner: "automation-test",
+      commitSha: "not-a-commit-sha",
     })).toThrow();
   });
 });

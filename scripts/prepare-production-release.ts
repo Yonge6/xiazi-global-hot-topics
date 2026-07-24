@@ -72,6 +72,7 @@ async function main() {
     assetBatchId,
     idempotencyKey: `production-${issueDate}-${variant.toLowerCase()}-${assetBatchId}`,
     leaseOwner: `production-rollout-${variant.toLowerCase()}`,
+    commitSha: required("PRODUCTION_COMMIT_SHA"),
   };
   await mkdir(path.dirname(output), { recursive: true });
   await writeFile(output, `${JSON.stringify(payload, null, 2)}\n`, { flag: "wx" });

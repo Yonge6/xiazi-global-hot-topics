@@ -178,7 +178,7 @@ export async function stageFuturePublication(input: unknown, dependencies: Stage
       },
     });
     if (approvalMode === "automatic") {
-      const commitSha = dependencies.commitSha || releaseCommitSha();
+      const commitSha = dependencies.commitSha || request.commitSha || releaseCommitSha();
       const validationHash = stableHash(validationReport);
       const activation = await rpc<Record<string, unknown>>(client, "activate_publication_release", {
         p_release_id: releaseId,
