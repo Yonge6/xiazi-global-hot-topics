@@ -39,6 +39,7 @@ async function main() {
   const assetBatchId = required("PRODUCTION_ASSET_BATCH_ID");
   const variant = required("PRODUCTION_RELEASE_VARIANT").toUpperCase();
   const output = required("PRODUCTION_RELEASE_PAYLOAD_OUTPUT");
+  const posterRoot = process.env.PRODUCTION_POSTER_ROOT?.trim();
   if (variant !== "A" && variant !== "B") throw new Error("PRODUCTION_RELEASE_VARIANT_INVALID");
   assertProductionGuard(issueDate, assetBatchId);
 
@@ -49,9 +50,11 @@ async function main() {
   }
 
   const uploads = [];
-  for (const topic of issue.topics) {
+  for (const [index, topic] of issue.topics.entries()) {
     for (const locale of ["zh", "en"] as const) {
-      const posterPath = path.join("apps", "web", "public", "posters", locale, `${topic.slug}.png`);
+      const posterPath = posterRoot
+        ? path.join(posterRoot, `${locale}-NO.${String(index + 1).padStart(2, "0")}.png`)
+        : path.join("apps", "web", "public", "posters", locale, `${topic.slug}.png`);
       uploads.push({
         topicId: topic.id,
         locale,

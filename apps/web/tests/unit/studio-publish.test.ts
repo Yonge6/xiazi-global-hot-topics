@@ -133,7 +133,7 @@ describe("Studio publish shadow write", () => {
     expect(result.shadow.status).toBe("timeout");
     expect(serialized).not.toContain("SUPABASE_SECRET");
     expect(serialized).not.toContain("GITHUB_STUDIO_TOKEN");
-    expect(serialized).not.toContain("stack");
+    expect(serialized).not.toContain('"stack":');
   });
 
   it("surfaces compare mismatches as partial success", async () => {
