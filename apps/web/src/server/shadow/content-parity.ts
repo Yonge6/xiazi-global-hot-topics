@@ -51,6 +51,10 @@ export function normalizeIssueForParity(value: unknown): unknown {
     for (const [key, entry] of Object.entries(value as Record<string, unknown>)) {
       if (key === "updatedAt" || key === "revisionId") continue;
       if (key === "assetVersion" && typeof entry === "string" && /^[0-9a-f]{40}$/i.test(entry)) continue;
+      if (key === "gmtTimestamp" && typeof entry === "string") {
+        result[key] = new Date(entry).toISOString();
+        continue;
+      }
       result[key] = normalizeIssueForParity(entry);
     }
     return result;

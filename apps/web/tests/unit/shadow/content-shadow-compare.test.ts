@@ -60,6 +60,14 @@ describe("content shadow compare", () => {
     expect(logger.insert).toHaveBeenCalledWith(expect.objectContaining({ matched: true }));
   });
 
+  it("treats equivalent UTC timestamp precision as equal", () => {
+    const equivalent = cloneIssue((draft) => {
+      draft.gmtTimestamp = draft.gmtTimestamp.replace(".000Z", "Z");
+    });
+
+    expect(compareIssueParity(issue.issueDate, issue, equivalent)).toHaveLength(0);
+  });
+
   it("detects missing topics, localization changes, source field changes, and asset version drift", () => {
     const changed = cloneIssue((draft) => {
       draft.assetVersion = "different-asset-version";
