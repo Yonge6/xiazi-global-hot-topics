@@ -64,6 +64,7 @@ async function main() {
     shadowChanged: result.shadow?.changed ?? false,
     compareStatus: result.compareStatus,
     differenceCount: result.differenceCount,
+    differencePaths: result.differencePaths,
     errorCode: result.errorCode || null,
   };
   console.log(JSON.stringify(output));
