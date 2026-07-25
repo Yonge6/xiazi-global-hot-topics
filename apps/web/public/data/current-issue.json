@@ -174,18 +174,6 @@
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
-        },
-        {
-          "id": "e39b7b03-901f-5b2c-bc80-3c2384d40e98",
-          "topicId": "348ef98c-06e2-5844-a02a-e41e8026e024",
-          "title": "Security incident July 2026",
-          "publisher": "Hugging Face",
-          "url": "https://huggingface.co/blog/security-incident-july-2026",
-          "publishedAt": "2026-07-26T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
         }
       ]
     },
