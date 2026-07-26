@@ -38,5 +38,8 @@ export async function loadArchiveIssue(date: string) {
       return { issue: parsed, assetVersion: parsed.assetVersion };
     });
   const issue = parseIssue(detail.issue);
-  return { issue: { ...issue, topics: sortTopicsForIssue(issue.topics) } satisfies Issue, assetVersion: detail.assetVersion };
+  return {
+    issue: { ...issue, topics: sortTopicsForIssue(issue.topics) } satisfies Issue,
+    assetVersion: detail.assetVersion || issue.assetVersion,
+  };
 }
