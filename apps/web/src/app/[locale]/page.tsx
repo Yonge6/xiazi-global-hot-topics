@@ -71,6 +71,8 @@ export default async function LocaleHome({ params }: PageProps) {
   const archiveDates = archiveResult.status === "fulfilled"
     ? archiveResult.value.map((item) => item.issueDate)
     : [];
+  const issueStyle = issue.style
+    ?? (issue.issueDate === mockIssue.issueDate ? mockIssue.style : undefined);
 
   return (
     <main>
@@ -82,7 +84,7 @@ export default async function LocaleHome({ params }: PageProps) {
         issueDate={issue.issueDate}
         initialAssetVersion={issue.assetVersion || issue.beijingTimestamp || issue.issueDate}
         initialArchiveDates={archiveDates}
-        initialStyle={issue.style}
+        initialStyle={issueStyle}
       />
 
       <AboutSection locale={locale} />
