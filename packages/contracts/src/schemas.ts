@@ -28,6 +28,12 @@ export const topicCategorySchema = z.enum([
 export const sourceTypeSchema = z.enum(["official", "wire", "publisher", "research"]);
 export const sourceTierSchema = z.union([z.literal(1), z.literal(2), z.literal(3)]);
 
+export const issueStyleSchema = z.object({
+  name: z.string().min(1),
+  zhName: z.string().min(1),
+  description: z.string().optional(),
+});
+
 export const localizedTopicSchema = z.object({
   categoryLabel: z.string().min(1),
   headlineFact: z.string().min(6),
@@ -88,6 +94,7 @@ export const issueSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
   assetVersion: z.string().optional(),
+  style: issueStyleSchema.optional(),
   issueDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   slotHour: z.number().int(),
   beijingTimestamp: z.string(),

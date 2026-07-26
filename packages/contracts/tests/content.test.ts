@@ -69,6 +69,15 @@ describe("issueSchema", () => {
     expect(issueSchema.parse(validIssue).topics).toHaveLength(1);
   });
 
+  it("preserves optional Style Atlas metadata", () => {
+    const style = {
+      name: "Style Atlas #104 Y2K",
+      zhName: "Style Atlas #104 千禧风格",
+      description: "Silver chrome and optimistic early-internet cues.",
+    };
+    expect(issueSchema.parse({ ...validIssue, style }).style).toEqual(style);
+  });
+
   it("rejects malformed issue dates", () => {
     expect(() => issueSchema.parse({ ...validIssue, issueDate: "06/19/2026" })).toThrow();
   });

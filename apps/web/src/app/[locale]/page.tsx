@@ -6,7 +6,7 @@ import { AboutSection } from "@/components/about-section";
 import { IssueMasthead } from "@/components/issue-masthead";
 import { SiteHeader } from "@/components/site-header";
 import { TopicGallery } from "@/components/topic-gallery";
-import { productConfig, publicationTimeLabel } from "@xiazi/config";
+import { productConfig } from "@xiazi/config";
 import { sortTopicsForIssue } from "@xiazi/domain";
 import { mockIssue } from "@/data/mock-issue";
 import { isAppLocale } from "@/i18n/config";
@@ -14,6 +14,7 @@ import en from "@/messages/en.json";
 import zh from "@/messages/zh.json";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
 import { releaseV2Enabled } from "@/server/releases/release-runtime";
+import { PUBLICATION_DISPLAY_TIME } from "@/lib/site/publication-display";
 
 export const revalidate = 60;
 
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale } = await params;
   if (!isAppLocale(locale)) return {};
   const isZh = locale === "zh";
-  const timeLabel = publicationTimeLabel();
+  const timeLabel = PUBLICATION_DISPLAY_TIME;
   const title = isZh ? "昨日世界 | 虾子曰全球热点海报" : "The World Yesterday | Xiazi Global Hot Topics";
   const description = isZh
     ? `每天 ${timeLabel}，用 1 张今日总览和 8 件全球热点，看懂正在变化的世界。`
@@ -57,7 +58,7 @@ export default async function LocaleHome({ params }: PageProps) {
   setRequestLocale(locale);
 
   const messages = (locale === "zh" ? zh : en) as Record<string, string>;
-  const timeLabel = publicationTimeLabel();
+  const timeLabel = PUBLICATION_DISPLAY_TIME;
   const repository = getContentRepository();
   const [issueResult, archiveResult] = await Promise.allSettled([
     repository.getLatestPublishedIssue(),
@@ -81,6 +82,7 @@ export default async function LocaleHome({ params }: PageProps) {
         issueDate={issue.issueDate}
         initialAssetVersion={issue.assetVersion || issue.beijingTimestamp || issue.issueDate}
         initialArchiveDates={archiveDates}
+        initialStyle={issue.style}
       />
 
       <AboutSection locale={locale} />

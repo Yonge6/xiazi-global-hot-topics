@@ -22,17 +22,17 @@ async function latestIssue(request: APIRequestContext) {
 }
 
 function zhDate(issueDate: string) {
-  return `${issueDate.replaceAll("-", ".")} · 北京时间 05:00 发布`;
+  return `${issueDate.replaceAll("-", ".")} · 北京时间 07:00 发布`;
 }
 
 function enDate(issueDate: string) {
-  const date = new Date(`${issueDate}T05:00:00+08:00`);
+  const date = new Date(`${issueDate}T07:00:00+08:00`);
   return `${new Intl.DateTimeFormat("en-US", {
     year: "numeric",
     month: "long",
     day: "2-digit",
     timeZone: "Asia/Shanghai",
-  }).format(date)} · Published at 05:00 Beijing Time`;
+  }).format(date)} · Published at 07:00 Beijing Time`;
 }
 
 test("renders the Chinese issue with one overview and eight stories", async ({ page, request }) => {
@@ -47,6 +47,10 @@ test("renders the Chinese issue with one overview and eight stories", async ({ p
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText("xiazishuo.com").first()).toBeVisible();
   await expect(page.getByText(zhDate(issue.issueDate))).toBeVisible();
+  await expect(page.getByRole("link", { name: /今日风格.*Style Atlas/ })).toHaveAttribute(
+    "href",
+    "https://style-atlas.wonderelian.com/",
+  );
   await expect(page.getByText("点击日期，查看当期 1 张今日总览、8 件全球热点的文字、来源与海报。")).toBeVisible();
   await expect(page.getByText(/每天看懂\s*9\s*件重要的事/)).toHaveCount(0);
 });
@@ -90,6 +94,10 @@ test("switches locale while keeping the page context", async ({ page, request })
   await expect(page.getByText("1 Daily Overview · 8 Global Stories")).toBeVisible();
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText(enDate(issue.issueDate))).toBeVisible();
+  await expect(page.getByRole("link", { name: /TODAY'S STYLE.*Style Atlas/ })).toHaveAttribute(
+    "href",
+    "https://style-atlas.wonderelian.com/",
+  );
   await expect(page.locator('article img[src*="/api/posters/en/"]').first()).toBeVisible();
   await expect(page.getByText("Browse each edition: 1 daily overview, 8 global stories, sources, and bilingual posters.")).toBeVisible();
 });
@@ -144,7 +152,7 @@ test("renders the mobile studio editor", async ({ page }) => {
   await expect(page.getByText("手机编辑后台")).toBeVisible();
   await page.getByRole("button", { name: "内容编辑" }).click();
   await page.locator(".studio-topic-tabs").getByRole("button", { name: "2" }).click();
-  await expect(page.getByText("世界杯硬规则：始终保持第一条新闻")).toBeVisible();
+  await expect(page.getByText("世界杯硬规则：始终保持第一条新闻")).toBeHidden();
   await expect(page.getByAltText("中文海报预览")).toBeVisible();
   await expect(page.getByAltText("英文海报预览")).toBeVisible();
   await expect(page.getByRole("button", { name: "发布当前期修改" })).toBeVisible();

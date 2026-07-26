@@ -1,12 +1,13 @@
 import Image from "next/image";
 
-import { productConfig, publicationTimeLabel } from "@xiazi/config";
+import { productConfig } from "@xiazi/config";
 import type { AppLocale } from "@/i18n/config";
 import { getBrandAsset } from "@/lib/posters/assets";
+import { PUBLICATION_DISPLAY_TIME } from "@/lib/site/publication-display";
 
 export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueDate: string }) {
   const isZh = locale === "zh";
-  const timeLabel = publicationTimeLabel();
+  const timeLabel = PUBLICATION_DISPLAY_TIME;
   const date = new Date(`${issueDate}T${timeLabel}:00+08:00`);
   const formattedDate = new Intl.DateTimeFormat(isZh ? "zh-CN" : "en-US", {
     year: "numeric",

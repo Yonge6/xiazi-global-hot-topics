@@ -8,6 +8,12 @@ export type PosterAssetType = "poster_zh" | "poster_en" | "thumbnail";
 export type ContentLocale = "zh-CN" | "en-US";
 export type AppLanguage = "zh" | "en";
 
+export interface IssueStyle {
+  name: string;
+  zhName: string;
+  description?: string;
+}
+
 export interface LocalizedTopic {
   categoryLabel: string;
   headlineFact: string;
@@ -56,6 +62,7 @@ export interface Issue {
   id: string;
   slug: string;
   assetVersion?: string;
+  style?: IssueStyle;
   issueDate: string;
   slotHour: number;
   beijingTimestamp: string;

@@ -1,9 +1,9 @@
 import type { AppLocale } from "@/i18n/config";
-import { publicationTimeLabel } from "@xiazi/config";
+import { PUBLICATION_DISPLAY_TIME } from "@/lib/site/publication-display";
 
 export function AboutSection({ locale }: { locale: AppLocale }) {
   const isZh = locale === "zh";
-  const timeLabel = publicationTimeLabel();
+  const timeLabel = PUBLICATION_DISPLAY_TIME;
 
   return (
     <section id="about" className="about-section">
@@ -16,7 +16,7 @@ export function AboutSection({ locale }: { locale: AppLocale }) {
           {isZh ? (
             <>
               <p>这个世界每天都很热闹，也很容易把人带跑。</p>
-              <p>世界杯进了几个球，AI又进化到了哪一步，谁在谈判，谁在发射火箭，谁又悄悄改写了未来……信息像潮水一样涌来，浪花很大，真正重要的变化却常常藏在水面之下。</p>
+              <p>AI又进化到了哪一步，谁在谈判，谁在发射火箭，谁又悄悄改写了未来……信息像潮水一样涌来，浪花很大，真正重要的变化却常常藏在水面之下。</p>
               <p>所以，我们做了「虾子曰」。每天 {timeLabel}，从全球新闻里筛出最值得关注的 8 件事，再配上 1 张今日总览：先把事实讲清楚，再把门道说明白，配上简短介绍、推荐阅读和可以保存分享的中英文海报。</p>
               <p>我们想用一点烟火气，讲商业、人性与时代变化。不装深刻，不贩焦虑，不带节奏，也不急着替复杂世界下结论。</p>
               <p>虾子曰负责看门道，豆豆龙负责说人话，偶尔补一刀，也始终留一点余地。幽默但不油滑，犀利但不刻薄，达观但不犬儒，通俗但不浅薄。</p>
@@ -27,7 +27,7 @@ export function AboutSection({ locale }: { locale: AppLocale }) {
           ) : (
             <>
               <p>The world is loud, busy, and very good at pulling us off course.</p>
-              <p>World Cup goals, the next leap in AI, negotiations, rocket launches, and quiet decisions that may reshape the future: information arrives like a tide. The splash gets attention, while the changes that matter often move beneath the surface.</p>
+              <p>The next leap in AI, negotiations, rocket launches, and quiet decisions that may reshape the future: information arrives like a tide. The splash gets attention, while the changes that matter often move beneath the surface.</p>
               <p>Every day at {timeLabel} Beijing time, Xiazi Says selects the 8 global stories that matter most and pairs them with 1 daily overview. We clarify the facts, explain what lies beneath them, and provide concise context, recommended reading, and bilingual posters made to save and share.</p>
               <p>We bring everyday warmth to clear-eyed observations about business, human nature, and a changing world. No borrowed profundity, manufactured anxiety, engineered outrage, or rushed verdicts.</p>
               <p>Xiazi looks beneath the surface. Doudoulong speaks plainly and occasionally lands a sharp punchline, always leaving room for complexity. Humorous, never slick. Sharp, never cruel. Optimistic, never cynical. Accessible, never shallow.</p>

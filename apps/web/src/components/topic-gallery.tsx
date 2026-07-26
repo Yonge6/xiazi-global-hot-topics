@@ -4,13 +4,14 @@ import { Check, DownloadSimple, LinkSimple, ShareNetwork, X } from "@phosphor-ic
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import type { Topic } from "@xiazi/contracts";
+import type { IssueStyle, Topic } from "@xiazi/contracts";
 import { loadArchiveIssue, loadCurrentIssue } from "@/features/issues/content-service";
 import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues/share";
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { groupArchiveDatesByMonth } from "@/lib/issues/archive-groups";
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
+import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
 
 function ProgressivePoster({
   src,
@@ -62,12 +63,14 @@ export function TopicGallery({
   issueDate,
   initialAssetVersion,
   initialArchiveDates = [],
+  initialStyle,
 }: {
   topics: Topic[];
   locale: AppLocale;
   issueDate: string;
   initialAssetVersion: string;
   initialArchiveDates?: string[];
+  initialStyle?: IssueStyle;
 }) {
   const [displayTopics, setDisplayTopics] = useState(topics);
   const [displayIssueDate, setDisplayIssueDate] = useState(issueDate);
@@ -75,6 +78,7 @@ export function TopicGallery({
   const [shareIndex, setShareIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState("");
   const [posterCacheKey, setPosterCacheKey] = useState<string | number>(initialAssetVersion);
+  const [displayStyle, setDisplayStyle] = useState<IssueStyle | undefined>(initialStyle);
   const [archiveDates] = useState<string[]>(initialArchiveDates);
   const [expandedArchiveMonths, setExpandedArchiveMonths] = useState<Set<string>>(
     () => new Set(groupArchiveDatesByMonth(initialArchiveDates).slice(0, 1).map((group) => group.month)),
@@ -184,6 +188,7 @@ export function TopicGallery({
     }
     setDisplayTopics(detail.issue.topics);
     setDisplayIssueDate(detail.issue.issueDate);
+    setDisplayStyle(detail.issue.style);
     setPosterCacheKey(detail.assetVersion || detail.issue.beijingTimestamp || detail.issue.issueDate);
     setArchiveDate(detail.issue.issueDate);
     setArchiveStatus(isZh ? `正在查看 ${detail.issue.issueDate} 往期` : `Viewing the ${detail.issue.issueDate} edition`);
@@ -197,6 +202,7 @@ export function TopicGallery({
     const issue = await loadCurrentIssue();
     setDisplayTopics(issue.topics);
     setDisplayIssueDate(issue.issueDate);
+    setDisplayStyle(issue.style);
     setPosterCacheKey(issue.assetVersion || issue.beijingTimestamp || issue.issueDate);
     setArchiveDate(null);
     setArchiveStatus("");
@@ -262,8 +268,15 @@ export function TopicGallery({
     <>
       <section id="stories" className="story-columns shell" aria-label={isZh ? "今日总览与八件全球热点" : "Daily overview and eight global stories"}>
         <div className="edition-banner">
-          <span>{archiveDate ? (isZh ? "往期刊物" : "ARCHIVE EDITION") : (isZh ? "当前刊物" : "CURRENT EDITION")}</span>
-          <strong>{displayIssueDate}</strong>
+          <div className="edition-current">
+            <span>{archiveDate ? (isZh ? "往期刊物" : "ARCHIVE EDITION") : (isZh ? "当前刊物" : "CURRENT EDITION")}</span>
+            <strong>{displayIssueDate}</strong>
+          </div>
+          <a className="edition-style" href={STYLE_ATLAS_URL} target="_blank" rel="noreferrer">
+            <span>{isZh ? "今日风格" : "TODAY'S STYLE"}</span>
+            <strong>{displayStyle ? (isZh ? displayStyle.zhName : displayStyle.name) : "Style Atlas"}</strong>
+            <span aria-hidden="true">↗</span>
+          </a>
           {archiveDate ? <button type="button" onClick={returnToCurrent}>{isZh ? "返回当前期" : "Back to current"}</button> : null}
         </div>
         {displayTopics.map((topic, index) => {
