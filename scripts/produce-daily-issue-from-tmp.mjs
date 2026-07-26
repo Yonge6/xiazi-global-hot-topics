@@ -6,6 +6,7 @@ import sharp from "sharp";
 const root = process.cwd();
 const issueSpecPath = process.env.ISSUE_SPEC;
 const posterRoot = process.env.POSTER_ROOT;
+const archiveOnly = process.env.ARCHIVE_ONLY === "1";
 
 if (!issueSpecPath || !posterRoot) {
   throw new Error("ISSUE_SPEC and POSTER_ROOT are required");
@@ -147,7 +148,9 @@ const dataRoots = [
   "apps/web/public/data",
 ];
 for (const dataRoot of dataRoots) {
-  await writeJson(`${dataRoot}/current-issue.json`, issue);
+  if (!archiveOnly) {
+    await writeJson(`${dataRoot}/current-issue.json`, issue);
+  }
   await writeJson(`${dataRoot}/archive/${issueDate}.json`, issue);
 }
 
@@ -184,6 +187,7 @@ for (const relativePath of [
 
 console.log(JSON.stringify({
   issueDate,
+  archiveOnly,
   topicCount: topics.length,
   posterCount: compression.length,
   compression: "Sharp PNG lossless; 887x1774 preserved; thumbnails generated: 0",

@@ -40,10 +40,11 @@ async function main() {
   const variant = required("PRODUCTION_RELEASE_VARIANT").toUpperCase();
   const output = required("PRODUCTION_RELEASE_PAYLOAD_OUTPUT");
   const posterRoot = process.env.PRODUCTION_POSTER_ROOT?.trim();
+  const issueInput = process.env.PRODUCTION_ISSUE_INPUT?.trim() || "data/current-issue.json";
   if (variant !== "A" && variant !== "B") throw new Error("PRODUCTION_RELEASE_VARIANT_INVALID");
   assertProductionGuard(issueDate, assetBatchId);
 
-  const issue = parseIssue(JSON.parse(await readFile("data/current-issue.json", "utf8")));
+  const issue = parseIssue(JSON.parse(await readFile(issueInput, "utf8")));
   if (issue.issueDate !== issueDate) throw new Error("PRODUCTION_ISSUE_DATE_MISMATCH");
   if (JSON.stringify(issue).toLowerCase().includes("pluto.hk")) {
     throw new Error("RETIRED_DOMAIN_IN_PRODUCTION_RELEASE");

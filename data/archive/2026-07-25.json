@@ -1,0 +1,527 @@
+{
+  "id": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+  "slug": "2026-07-25",
+  "issueDate": "2026-07-25",
+  "assetVersion": "issue-2026-07-25-style-atlas-103-chatgpt-v1",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-25T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-24T21:00:00.000Z",
+  "featuredTopicId": "70a0dcdb-55c4-51e9-92ef-f9158ba0487b",
+  "style": {
+    "name": "Style Atlas #103 Synthwave",
+    "zhName": "Style Atlas #103 合成波",
+    "description": "Sunlit premium Synthwave editorial illustration with a warm ivory base, restrained red and navy geometry, retro-futurist grids, crisp information hierarchy and optimistic daylight rather than dark neon."
+  },
+  "topics": [
+    {
+      "id": "70a0dcdb-55c4-51e9-92ef-f9158ba0487b",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "overview",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-overview-20260725",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "韩国押注AI供给、美国重塑贸易规则",
+          "headlineView": "全球竞争正从产品转向基础设施与系统韧性",
+          "headlineFull": "韩国押注AI供给、美国重塑贸易规则；全球竞争正从产品转向基础设施与系统韧性",
+          "intro": "韩国推出大型AI合作项目，开放权重联盟争取政策空间，Meta把卖家后台独立成App。美国以强迫劳动为由对60个经济体加征关税；刚果（金）埃博拉逼近3000例，法西山火、中东冲突和印度教育问责继续考验治理韧性。",
+          "xiaziQuote": "今天的竞争不只是谁推出新产品，而是谁能把算力、规则、供应链和公共系统组织成可靠能力。",
+          "doudouQuote": "订单、模型、关税和警报看似各说各话，其实都在问系统扛不扛得住。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today's Overview",
+          "headlineFact": "Korea bets on AI supply as the U.S. rewrites trade rules",
+          "headlineView": "global competition shifts from products to infrastructure and resilience",
+          "headlineFull": "Korea bets on AI supply as the U.S. rewrites trade rules; global competition shifts from products to infrastructure and resilience",
+          "intro": "Korea unveiled large AI cooperation projects, an open-weight coalition sought policy support, and Meta turned seller operations into a standalone app. U.S. forced-labor tariffs, Congo's Ebola outbreak, fires in France and Spain, Middle East conflict and Indian education accountability all tested institutional resilience.",
+          "xiaziQuote": "Competition is no longer only about products; it is about organizing compute, rules, supply chains and public systems into dependable capacity.",
+          "doudouQuote": "Orders, models, tariffs and alarms all ask the same question: can the system take the strain?",
+          "footerTakeaway": "Keyword: Today's Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "aa984e88-81fa-5f75-ae62-2b5dda3fa749",
+          "topicId": "70a0dcdb-55c4-51e9-92ef-f9158ba0487b",
+          "title": "Samsung and Broadcom expand strategic collaboration",
+          "publisher": "Samsung Newsroom",
+          "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "56438847-a3fd-5eb7-a546-8e6b1d9fc7f2",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "south-korea-ai-cooperation-950-billion",
+      "rank": 2,
+      "category": "technology",
+      "region": "Asia",
+      "countryCodes": [
+        "KR",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-south-korea-ai-cooperation-20260724",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "开放热点",
+          "headlineFact": "韩方公布9500亿美元AI合作计划",
+          "headlineView": "超级订单不等于已经到账",
+          "headlineFull": "韩方公布9500亿美元AI合作计划；超级订单不等于已经到账",
+          "intro": "韩国总统府称，三星、SK集团与美国科技企业达成总额约9500亿美元的AI合作项目，其中SK相关项目约7500亿美元。相关数字涵盖多年供货、数据中心与合作意向，不能直接视作当期营收或已经到账的投资。",
+          "xiaziQuote": "超大项目最重要的不是发布会上的总额，而是合同结构、交付周期、资本来源和最终确认的收入。",
+          "doudouQuote": "数字先上了天，现金还得一笔一笔落地。",
+          "footerTakeaway": "今日关键词：开放热点。"
+        },
+        "en-US": {
+          "categoryLabel": "Open Global Hotspot",
+          "headlineFact": "Korea announces a $950 billion AI cooperation plan",
+          "headlineView": "mega deals are not revenue already in the bank",
+          "headlineFull": "Korea announces a $950 billion AI cooperation plan; mega deals are not revenue already in the bank",
+          "intro": "South Korea said Samsung, SK Group and U.S. technology companies agreed to AI cooperation projects worth about $950 billion, including roughly $750 billion tied to SK. The headline amount spans multiyear supply, data-center and partnership plans and should not be treated as current-period revenue or cash received.",
+          "xiaziQuote": "For a mega project, the contract structure, delivery schedule, funding source and recognized revenue matter more than the launch-day total.",
+          "doudouQuote": "The number reached the sky first; the cash still has to land one payment at a time.",
+          "footerTakeaway": "Keyword: Open Global Hotspot."
+        }
+      },
+      "sources": [
+        {
+          "id": "28d3d461-97a2-5e6e-a878-24a669a674b5",
+          "topicId": "56438847-a3fd-5eb7-a546-8e6b1d9fc7f2",
+          "title": "Samsung and Broadcom expand strategic collaboration",
+          "publisher": "Samsung Newsroom",
+          "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "aca26c2d-5c66-52b4-b551-c3c58e04a16c",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "open-weight-ai-letter-25-signers",
+      "rank": 3,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-open-weight-ai-letter-20260724",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI",
+          "headlineFact": "25家科技机构联名支持开放权重AI",
+          "headlineView": "模型规则之争转向谁拥有控制权",
+          "headlineFull": "25家科技机构联名支持开放权重AI；模型规则之争转向谁拥有控制权",
+          "intro": "英伟达、微软、Meta等最初25家企业与组织发布公开信，呼吁美国政策制定者避免过早限制开放权重模型，并强调竞争、成本、透明度与本地部署价值。公开页面其后继续增加签署方，显示联盟仍在扩展。",
+          "xiaziQuote": "开放权重之争的核心不只是模型性能，而是谁能下载、审查、部署并长期掌控自己的技术资产。",
+          "doudouQuote": "模型能不能带回家自己跑，开始变成一张政策选票。",
+          "footerTakeaway": "今日关键词：AI。"
+        },
+        "en-US": {
+          "categoryLabel": "AI",
+          "headlineFact": "25 technology groups initially back open-weight AI",
+          "headlineView": "the rules debate shifts to who holds control",
+          "headlineFull": "25 technology groups initially back open-weight AI; the rules debate shifts to who holds control",
+          "intro": "An initial coalition of 25 companies and organizations, including Nvidia, Microsoft and Meta, urged U.S. policymakers to avoid premature restrictions on open-weight models, citing competition, cost, transparency and local deployment. More signatories were later added to the public page.",
+          "xiaziQuote": "The open-weight debate is not only about performance; it is about who can download, inspect, deploy and retain control of technical assets.",
+          "doudouQuote": "Whether a model can come home and run locally is turning into a policy vote.",
+          "footerTakeaway": "Keyword: AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "6e9488c6-68c2-50ab-99f9-4c8801dc5cd5",
+          "topicId": "aca26c2d-5c66-52b4-b551-c3c58e04a16c",
+          "title": "Open Weights and American AI Leadership",
+          "publisher": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a60477bd-503b-57c4-979c-81b6ec9c8ba9",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "meta-facebook-marketplace-seller-app",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-meta-seller-app-20260724",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "OPC一人公司",
+          "headlineFact": "Meta推出Seller独立应用",
+          "headlineView": "一人卖家的运营后台正在产品化",
+          "headlineFull": "Meta推出Seller独立应用；一人卖家的运营后台正在产品化",
+          "intro": "Meta为Facebook Marketplace高频卖家推出Seller独立App，整合AI生成商品信息、批量上架、统一买家收件箱、库存管理与表现数据。应用先面向美国18岁以上iPhone用户，Android仍在测试。",
+          "xiaziQuote": "当上架、沟通、库存和复盘被放进同一个后台，一人经营才更接近一套可复制的系统。",
+          "doudouQuote": "以前卖家在好几个页面来回跑，现在终于有自己的驾驶舱。",
+          "footerTakeaway": "今日关键词：OPC一人公司。"
+        },
+        "en-US": {
+          "categoryLabel": "OPC / Solo Company",
+          "headlineFact": "Meta launches a standalone Seller app",
+          "headlineView": "the solo seller's operating back office becomes a product",
+          "headlineFull": "Meta launches a standalone Seller app; the solo seller's operating back office becomes a product",
+          "intro": "Meta launched Seller for frequent Facebook Marketplace users, combining AI-assisted listing creation, bulk uploads, a unified buyer inbox, inventory tools and performance insights. The app is initially available to U.S. iPhone users aged 18 and older, with Android testing underway.",
+          "xiaziQuote": "When listing, messaging, inventory and review live in one back office, a solo operation becomes a more repeatable system.",
+          "doudouQuote": "Sellers used to run between pages; now they finally have a cockpit.",
+          "footerTakeaway": "Keyword: OPC / Solo Company."
+        }
+      },
+      "sources": [
+        {
+          "id": "ff95c5dd-bffa-5e98-bd38-a33d8bc2f55b",
+          "topicId": "a60477bd-503b-57c4-979c-81b6ec9c8ba9",
+          "title": "Seller, a Facebook app",
+          "publisher": "Apple iTunes Lookup",
+          "url": "https://itunes.apple.com/lookup?id=6766382815&country=us",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1a809434-5c56-57bd-90f2-dcc0a9b4074f",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "ustr-forced-labor-tariffs-60-economies",
+      "rank": 5,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-ustr-forced-labor-tariffs-20260723",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际贸易",
+          "headlineFact": "美国对60个经济体实施强迫劳动相关关税",
+          "headlineView": "人权议题进入增量贸易工具",
+          "headlineFull": "美国对60个经济体实施强迫劳动相关关税；人权议题进入增量贸易工具",
+          "intro": "美国贸易代表办公室依据《1974年贸易法》第301条，对60个经济体采取10%至12.5%的关税措施，理由是相关经济体未有效禁止强迫劳动产品进口。部分原材料、供应不足产品和可能造成系统性冲击的商品获豁免。",
+          "xiaziQuote": "当人权要求进入关税表，供应链合规将从声明变成成本、证据和市场准入问题。",
+          "doudouQuote": "以后报关箱里除了货，还得装得下整条供应链的证明。",
+          "footerTakeaway": "今日关键词：国际贸易。"
+        },
+        "en-US": {
+          "categoryLabel": "International Trade",
+          "headlineFact": "The U.S. imposes forced-labor-related tariffs on 60 economies",
+          "headlineView": "human rights enter the trade-policy toolbox",
+          "headlineFull": "The U.S. imposes forced-labor-related tariffs on 60 economies; human rights enter the trade-policy toolbox",
+          "intro": "The U.S. Trade Representative imposed Section 301 duties of 10% to 12.5% on 60 economies for failing to effectively prohibit imports made with forced labor. Exemptions cover selected raw materials, products lacking domestic supply and goods whose tariffs could cause economy-wide disruption.",
+          "xiaziQuote": "When human-rights requirements enter tariff schedules, supply-chain compliance becomes a question of cost, evidence and market access.",
+          "doudouQuote": "A customs box now needs room for the product and proof from the entire supply chain.",
+          "footerTakeaway": "Keyword: International Trade."
+        }
+      },
+      "sources": [
+        {
+          "id": "df4dcaa2-35e1-5b40-9885-717313ac963d",
+          "topicId": "1a809434-5c56-57bd-90f2-dcc0a9b4074f",
+          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
+          "publisher": "Office of the U.S. Trade Representative",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "fa067807-6969-5164-a981-cebde1a99d1a",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "drc-ebola-near-3000-cases",
+      "rank": 6,
+      "category": "science",
+      "region": "Africa",
+      "countryCodes": [
+        "CD"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-drc-ebola-2973-cases-20260725",
+      "storyStatus": "followup",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球健康",
+          "headlineFact": "刚果（金）埃博拉确诊接近3000例",
+          "headlineView": "疫情数字仍可能回溯修订",
+          "headlineFull": "刚果（金）埃博拉确诊接近3000例；疫情数字仍可能回溯修订",
+          "intro": "刚果（金）政府周五公布的数据将本轮埃博拉确诊数上调至2973例，其中1309人死亡。病例与死亡增长很快，卫生部门同时提醒，新增报告可能包含积压样本，因此统计会随监测和检测补录继续回溯修订。",
+          "xiaziQuote": "快速上升的曲线既反映传播，也反映监测补录；决策需要同时看新增速度、追踪能力与数据质量。",
+          "doudouQuote": "数字会补课，防疫可不能等报表全部写完。",
+          "footerTakeaway": "今日关键词：全球健康。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Health",
+          "headlineFact": "DR Congo Ebola cases near 3,000",
+          "headlineView": "outbreak figures may still be revised",
+          "headlineFull": "DR Congo Ebola cases near 3,000; outbreak figures may still be revised",
+          "intro": "Government data released Friday put the Ebola outbreak in the Democratic Republic of the Congo at 2,973 confirmed cases, including 1,309 deaths. Authorities warn that newly reported cases and deaths can include backlogged samples, so totals may be revised as surveillance and testing catch up.",
+          "xiaziQuote": "A steep curve reflects both transmission and reporting catch-up; decisions must track growth, contact tracing and data quality together.",
+          "doudouQuote": "The numbers can catch up later, but the response cannot wait for every report.",
+          "footerTakeaway": "Keyword: Global Health."
+        }
+      },
+      "sources": [
+        {
+          "id": "89d5ae20-9b8e-5053-894e-517631ae41de",
+          "topicId": "fa067807-6969-5164-a981-cebde1a99d1a",
+          "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo and Uganda",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "96ae412c-2b18-59c4-9347-c44a617b349f",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "spain-france-wildfires-emergency",
+      "rank": 7,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "ES",
+        "FR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-spain-france-wildfires-20260724",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候与灾害",
+          "headlineFact": "西班牙因野火进入国家紧急状态",
+          "headlineView": "法国也启动大规模疏散",
+          "headlineFull": "西班牙因野火进入国家紧急状态；法国也启动大规模疏散",
+          "intro": "西班牙首次因野火宣布国家紧急状态，马德里以西多处火场合并并迫使居民撤离。法国西南部同样组织陆路和海上大规模疏散；截至7月24日，两国被迫撤离或就地避险的人数已超过20万。",
+          "xiaziQuote": "当火场跨越地方处置能力，真正稀缺的不只是消防力量，还有预警、交通与跨区域协调。",
+          "doudouQuote": "火不会看行政边界，疏散路线却必须提前画清楚。",
+          "footerTakeaway": "今日关键词：气候与灾害。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate and Disasters",
+          "headlineFact": "Spain declares a national wildfire emergency",
+          "headlineView": "France also launches mass evacuations",
+          "headlineFull": "Spain declares a national wildfire emergency; France also launches mass evacuations",
+          "intro": "Spain declared its first national emergency over wildfires as blazes merged west of Madrid and forced evacuations. Southwestern France also organized large-scale departures by road and sea. By July 24, more than 200,000 people across the two countries had fled or been ordered to shelter.",
+          "xiaziQuote": "When fires exceed local capacity, scarce resources include not only crews but warning systems, transport and cross-regional coordination.",
+          "doudouQuote": "Fire ignores administrative borders, so evacuation routes must be drawn in advance.",
+          "footerTakeaway": "Keyword: Climate and Disasters."
+        }
+      },
+      "sources": [
+        {
+          "id": "3c7fb57e-20a1-54c4-a069-2e7ac385bd81",
+          "topicId": "96ae412c-2b18-59c4-9347-c44a617b349f",
+          "title": "Statement by Spain's prime minister after visiting the Madrid wildfire zone",
+          "publisher": "La Moncloa, Government of Spain",
+          "url": "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2026/20260725-sanchez-visita-incendios-madrid-cenicient.aspx",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "64598ede-fb35-5289-8e69-bac89e1b29c4",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "us-iran-13th-night-bahrain-alert",
+      "rank": 8,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "BH"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-us-iran-13th-night-bahrain-alert-20260724",
+      "storyStatus": "followup",
+      "followupDay": 13,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际安全",
+          "headlineFact": "美军完成对伊朗第13夜打击，巴林拉响警报",
+          "headlineView": "海峡冲突继续外溢",
+          "headlineFull": "美军完成对伊朗第13夜打击，巴林拉响警报；海峡冲突继续外溢",
+          "intro": "美军中央司令部称，7月23日晚完成连续第13夜对伊朗军事目标的打击，目标包括指挥中心、无人机库和沿海监视设施。数小时后巴林启动警报，要求居民防范可能来袭火力；霍尔木兹海峡仍保持通航。",
+          "xiaziQuote": "海峡是否开放不只取决于航道本身，也取决于周边国家能否承受不断外溢的安全风险。",
+          "doudouQuote": "船还能走，不代表岸上的警报已经安静。",
+          "footerTakeaway": "今日关键词：国际安全。"
+        },
+        "en-US": {
+          "categoryLabel": "International Security",
+          "headlineFact": "The U.S. completes a 13th night of strikes on Iran as Bahrain sounds alarms",
+          "headlineView": "the Strait conflict keeps spilling outward",
+          "headlineFull": "The U.S. completes a 13th night of strikes on Iran as Bahrain sounds alarms; the Strait conflict keeps spilling outward",
+          "intro": "U.S. Central Command said it completed a 13th straight night of strikes on Iranian military targets on July 23, hitting command centers, drone storage and coastal surveillance. Hours later Bahrain activated sirens over possible incoming fire. The Strait of Hormuz remained open to transit.",
+          "xiaziQuote": "Whether the Strait stays open depends not only on the waterway but on neighboring states' capacity to absorb expanding security risk.",
+          "doudouQuote": "Ships may still pass, but the alarms ashore have not gone quiet.",
+          "footerTakeaway": "Keyword: International Security."
+        }
+      },
+      "sources": [
+        {
+          "id": "38927a7b-5c8b-5250-8a74-c8b239ef2a78",
+          "topicId": "64598ede-fb35-5289-8e69-bac89e1b29c4",
+          "title": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
+          "publisher": "U.S. Central Command via GlobalSecurity",
+          "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260723-centcom01.htm",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "9f8a9411-e953-5487-b5b5-416d0e7ca0e2",
+          "topicId": "64598ede-fb35-5289-8e69-bac89e1b29c4",
+          "title": "Bahrain activates sirens amid possible Iranian attack",
+          "publisher": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/us-israel-iran-war/bahrain-activates-sirens-amid-possible-iranian-attack/4006749",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "09fda05d-c72b-57a1-bed9-33ed608c919f",
+      "issueId": "57dcc0c3-a2fe-577b-8515-20fdd3757902",
+      "slug": "india-education-minister-resigns-protests",
+      "rank": 9,
+      "category": "international",
+      "region": "Asia",
+      "countryCodes": [
+        "IN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-india-education-minister-resigns-20260725",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "教育与治理",
+          "headlineFact": "印度教育部长在学生抗议后辞职",
+          "headlineView": "一次考试泄题演变成治理问责",
+          "headlineFull": "印度教育部长在学生抗议后辞职；一次考试泄题演变成治理问责",
+          "intro": "印度教育部长达门德拉·普拉丹在持续数周的青年和学生抗议后辞职。抗议起因包括NEET-UG医学入学考试试卷泄露和教育系统违规；相关考试结果被取消并重考，事件最终从考试公平上升为政府问责。",
+          "xiaziQuote": "考试公平一旦失去可信度，修复的不只是一次结果，而是学生对制度和上升通道的信任。",
+          "doudouQuote": "一张试卷漏了题，最后考的是整个治理系统。",
+          "footerTakeaway": "今日关键词：教育与治理。"
+        },
+        "en-US": {
+          "categoryLabel": "Education and Governance",
+          "headlineFact": "India's education minister resigns after student protests",
+          "headlineView": "an exam leak becomes a test of accountability",
+          "headlineFull": "India's education minister resigns after student protests; an exam leak becomes a test of accountability",
+          "intro": "Indian Education Minister Dharmendra Pradhan resigned after weeks of youth and student protests over the NEET-UG medical entrance exam leak and wider irregularities. Results were canceled and a retest ordered, but the dispute grew from exam fairness into a broader demand for government accountability.",
+          "xiaziQuote": "When trust in exam fairness breaks, the repair must restore more than a result; it must restore faith in institutions and mobility.",
+          "doudouQuote": "One leaked paper ended up testing the whole governance system.",
+          "footerTakeaway": "Keyword: Education and Governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "bc0b3a9d-383a-5d3b-ae19-e6f848697bc0",
+          "topicId": "09fda05d-c72b-57a1-bed9-33ed608c919f",
+          "title": "President accepts the resignation of Dharmendra Pradhan",
+          "publisher": "Press Information Bureau of India",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289455&lang=2&reg=48",
+          "publishedAt": "2026-07-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

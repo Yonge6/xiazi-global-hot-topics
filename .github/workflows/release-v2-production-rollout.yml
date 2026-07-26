@@ -16,6 +16,7 @@ on:
           - enable-automatic
           - disable-v2
           - export-operator-session
+          - guarded-archive-backfill-restore
       issue_date:
         description: Future issue date; required for stage operations
         required: false
@@ -28,6 +29,11 @@ on:
         type: string
       operator_public_key:
         description: Base64 PEM public key; required only for encrypted operator-session export
+        required: false
+        default: ""
+        type: string
+      restore_release_id:
+        description: Previously active releaseId restored after a guarded archive backfill
         required: false
         default: ""
         type: string
@@ -68,6 +74,7 @@ jobs:
           OPERATION: ${{ inputs.operation }}
           ISSUE_DATE: ${{ inputs.issue_date }}
           ASSET_BATCH_ID: ${{ inputs.asset_batch_id }}
+          RESTORE_RELEASE_ID: ${{ inputs.restore_release_id }}
         run: |
           set -euo pipefail
           test -n "$VERCEL_TOKEN"
@@ -95,6 +102,10 @@ jobs:
               ;;
             activate-staged-human)
               test "$ISSUE_DATE" \> "2026-07-18"
+              ;;
+            guarded-archive-backfill-restore)
+              test "$ISSUE_DATE" \> "2026-07-18"
+              [[ "$RESTORE_RELEASE_ID" =~ ^rel_[0-9]{8}_[0-9a-f]{24}$ ]]
               ;;
             *) echo "Unknown operation" >&2; exit 1 ;;
           esac
@@ -260,6 +271,60 @@ jobs:
       - name: Apply local poster retention after successful release
         if: startsWith(inputs.operation, 'stage-release-') && success()
         run: npm run posters:cleanup:local
+      - name: Guard and restore the current release after an archive backfill
+        if: inputs.operation == 'guarded-archive-backfill-restore'
+        env:
+          ISSUE_DATE: ${{ inputs.issue_date }}
+          RESTORE_RELEASE_ID: ${{ inputs.restore_release_id }}
+        run: |
+          set -euo pipefail
+          restored=false
+          for attempt in $(seq 1 300); do
+            active="$(curl --fail --silent --show-error \
+              --request POST "${SUPABASE_URL}/rest/v1/rpc/get_active_publication_release" \
+              --header "apikey: ${SUPABASE_SERVICE_ROLE_KEY}" \
+              --header "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+              --header 'Content-Type: application/json' \
+              --data '{}')"
+            current_id="$(printf '%s' "$active" | jq -r '.metadata.releaseId // empty')"
+            current_date="$(printf '%s' "$active" | jq -r '.issue.issueDate // empty')"
+            if [[ "$current_date" == "$ISSUE_DATE" && "$current_id" != "$RESTORE_RELEASE_ID" ]]; then
+              rollback_payload="$(jq -n \
+                --arg release_id "$RESTORE_RELEASE_ID" \
+                --arg activation_key "archive-backfill-restore:${ISSUE_DATE}:${RESTORE_RELEASE_ID}" \
+                --arg reason "Restore the previously active current issue after publishing a historical archive backfill" \
+                '{
+                  p_release_id: $release_id,
+                  p_actor: "release-automation:archive-backfill",
+                  p_activation_key: $activation_key,
+                  p_reason: $reason
+                }')"
+              rollback_response="$(curl --fail --silent --show-error \
+                --request POST "${SUPABASE_URL}/rest/v1/rpc/rollback_publication_release" \
+                --header "apikey: ${SUPABASE_SERVICE_ROLE_KEY}" \
+                --header "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+                --header 'Content-Type: application/json' \
+                --data-binary "$rollback_payload")"
+              printf '%s' "$rollback_response" | jq -e --arg release_id "$RESTORE_RELEASE_ID" \
+                '.currentActiveReleaseId == $release_id' >/dev/null
+              printf '%s' "$rollback_response" | jq \
+                '{currentActiveReleaseId,previousReleaseId,activationMode,deployedAt,idempotent}' \
+                > /tmp/archive-backfill-restore-sanitized.json
+              restored=true
+              break
+            fi
+            sleep 2
+          done
+          test "$restored" = true
+          archive_rows="$(curl --fail --silent --show-error \
+            --get "${SUPABASE_URL}/rest/v1/publication_releases" \
+            --header "apikey: ${SUPABASE_SERVICE_ROLE_KEY}" \
+            --header "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+            --data-urlencode "issue_date=eq.${ISSUE_DATE}" \
+            --data-urlencode "status=eq.superseded" \
+            --data-urlencode "select=release_id,status")"
+          printf '%s' "$archive_rows" | jq -e 'length >= 1 and all(.[]; .status == "superseded")' >/dev/null
+          cat /tmp/archive-backfill-restore-sanitized.json >> "$GITHUB_STEP_SUMMARY"
       - name: Encrypt short-lived operator session
         if: inputs.operation == 'export-operator-session'
         env:
