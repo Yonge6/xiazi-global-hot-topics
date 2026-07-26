@@ -1,5 +1,16 @@
 export const HISTORICAL_RELEASE_CUTOFF = "2026-07-18";
+export const HISTORICAL_RELEASE_RECOVERY_DATES = [
+  "2026-07-19",
+  "2026-07-20",
+  "2026-07-23",
+] as const;
+const historicalReleaseRecoveryDates = new Set<string>(HISTORICAL_RELEASE_RECOVERY_DATES);
 export const PUBLICATION_RELEASE_SCHEMA_VERSION = "release-v2.1";
+
+export function isHistoricalReleaseDate(issueDate: string) {
+  return issueDate <= HISTORICAL_RELEASE_CUTOFF
+    || historicalReleaseRecoveryDates.has(issueDate);
+}
 
 export function assertFutureReleaseDate(issueDate: string) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(issueDate)) throw new Error("Invalid issueDate");

@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   assertFutureReleaseDate,
+  isHistoricalReleaseDate,
   PUBLICATION_RELEASE_SCHEMA_VERSION,
   publicationLeaseKey,
   publicationReleaseId,
@@ -19,6 +20,15 @@ describe("future publication release identity", () => {
   it("hard-blocks historical remediation through Release V2", () => {
     expect(() => assertFutureReleaseDate("2026-07-18")).toThrow(/after 2026-07-18/);
     expect(() => assertFutureReleaseDate("2026-07-17")).toThrow(/after 2026-07-18/);
+  });
+
+  it("recognizes the three recovered legacy archive gaps without moving the release cutoff", () => {
+    expect(isHistoricalReleaseDate("2026-07-18")).toBe(true);
+    expect(isHistoricalReleaseDate("2026-07-19")).toBe(true);
+    expect(isHistoricalReleaseDate("2026-07-20")).toBe(true);
+    expect(isHistoricalReleaseDate("2026-07-23")).toBe(true);
+    expect(isHistoricalReleaseDate("2026-07-21")).toBe(false);
+    expect(isHistoricalReleaseDate("2026-07-24")).toBe(false);
   });
 
   it("rejects non-SHA release hashes", () => {

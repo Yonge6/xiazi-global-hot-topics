@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 import { cachedFetchInit, POSTER_CACHE_CONTROL, POSTER_CDN_CACHE_CONTROL, POSTER_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
 import { githubRepo } from "@/lib/github/repo";
 import { resolvePosterName } from "@/lib/posters/assets";
+import { isHistoricalReleaseDate } from "@xiazi/domain";
 import {
   loadPublicationByReleaseId,
   loadVerifiedPoster,
@@ -14,7 +15,6 @@ const locales = new Set(["zh", "en"]);
 const safeName = /^[a-z0-9-]+$/;
 const safeIssueDate = /^\d{4}-\d{2}-\d{2}$/;
 const safeReleaseId = /^rel_\d{8}_[0-9a-f]{24}$/;
-const legacyGithubArchiveCutoff = "2026-07-18";
 
 export const dynamic = "force-dynamic";
 
@@ -35,7 +35,7 @@ export async function GET(
     return NextResponse.json({ message: "Poster not found" }, { status: 404 });
   }
 
-  const isLegacyGithubArchive = Boolean(issueDate && issueDate <= legacyGithubArchiveCutoff);
+  const isLegacyGithubArchive = Boolean(issueDate && isHistoricalReleaseDate(issueDate));
   if (releaseV2Enabled() && !isLegacyGithubArchive) {
     if (!safeReleaseId.test(cacheKey)) {
       return NextResponse.json(

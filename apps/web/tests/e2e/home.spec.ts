@@ -60,6 +60,25 @@ test("renders the Chinese homepage at the root domain", async ({ page }) => {
   );
 });
 
+test("groups archive editions by month and opens only the latest month by default", async ({ page }) => {
+  await page.goto("/zh/#archive");
+
+  const months = page.locator("details.archive-month");
+  await expect(months).toHaveCount(2);
+
+  const july = months.filter({ hasText: "2026年7月" });
+  const june = months.filter({ hasText: "2026年6月" });
+  await expect(july).toHaveAttribute("open", "");
+  await expect(june).not.toHaveAttribute("open", "");
+  await expect(july.getByRole("button", { name: /2026\.07\.23/ })).toBeVisible();
+  await expect(july.getByRole("button", { name: /2026\.07\.20/ })).toBeVisible();
+  await expect(july.getByRole("button", { name: /2026\.07\.19/ })).toBeVisible();
+
+  await june.locator("summary").click();
+  await expect(june).toHaveAttribute("open", "");
+  await expect(june.getByRole("button", { name: /2026\.06\.30/ })).toBeVisible();
+});
+
 test("switches locale while keeping the page context", async ({ page, request }) => {
   const { issue } = await latestIssue(request);
   const lead = issue.topics[0].localizations["en-US"];

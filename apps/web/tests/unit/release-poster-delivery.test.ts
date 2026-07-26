@@ -90,8 +90,25 @@ describe("release-bound poster delivery", () => {
     );
   });
 
-  it("still requires a releaseId for future dated poster requests", async () => {
-    const response = await request("?issueDate=2026-07-19&v=2026-07-19T05%3A00%3A00%2B08%3A00");
+  it.each(["2026-07-19", "2026-07-20", "2026-07-23"])(
+    "serves the recovered %s GitHub poster archive",
+    async (date) => {
+      const fetchMock = vi.fn().mockResolvedValue(new Response(new Uint8Array([1, 2, 3]), { status: 200 }));
+      vi.stubGlobal("fetch", fetchMock);
+
+      const response = await request(`?issueDate=${date}&v=${date}T05%3A00%3A00%2B08%3A00`);
+
+      expect(response.status).toBe(200);
+      expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
+      const requestedUrl = fetchMock.mock.calls[0]?.[0] as URL;
+      expect(requestedUrl.pathname).toBe(
+        `/Yonge6/xiazi-global-hot-topics/main/public/archive/${date}/posters/zh/overview.png`,
+      );
+    },
+  );
+
+  it("still requires a releaseId for other future dated poster requests", async () => {
+    const response = await request("?issueDate=2026-07-21&v=2026-07-21T05%3A00%3A00%2B08%3A00");
     expect(response.status).toBe(409);
     expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
   });

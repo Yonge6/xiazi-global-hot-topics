@@ -1,5 +1,5 @@
 import type { Issue } from "@xiazi/contracts";
-import { HISTORICAL_RELEASE_CUTOFF } from "@xiazi/domain";
+import { isHistoricalReleaseDate } from "@xiazi/domain";
 
 import type { ContentRepository, IssueSummary } from "../repositories/content-repository";
 import { JsonContentRepository } from "../repositories/json-content-repository";
@@ -19,7 +19,7 @@ export class ReleaseContentRepository implements ContentRepository {
   }
 
   async getIssueByDate(date: string): Promise<Issue | null> {
-    if (date <= HISTORICAL_RELEASE_CUTOFF) return this.historical.getIssueByDate(date);
+    if (isHistoricalReleaseDate(date)) return this.historical.getIssueByDate(date);
     const publication = await loadPublicationByDate(date);
     return publication?.issue || null;
   }
@@ -35,7 +35,12 @@ export class ReleaseContentRepository implements ContentRepository {
       status: issue.status,
       source: "supabase-release" as const,
     }));
-    return [...future, ...historical.filter((issue) => issue.issueDate <= HISTORICAL_RELEASE_CUTOFF)]
-      .sort((a, b) => b.issueDate.localeCompare(a.issueDate));
+    const merged = new Map(
+      historical
+        .filter((issue) => isHistoricalReleaseDate(issue.issueDate))
+        .map((issue) => [issue.issueDate, issue]),
+    );
+    for (const issue of future) merged.set(issue.issueDate, issue);
+    return Array.from(merged.values()).sort((a, b) => b.issueDate.localeCompare(a.issueDate));
   }
 }
