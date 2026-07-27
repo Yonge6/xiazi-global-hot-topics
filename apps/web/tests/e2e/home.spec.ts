@@ -22,17 +22,17 @@ async function latestIssue(request: APIRequestContext) {
 }
 
 function zhDate(issueDate: string) {
-  return `${issueDate.replaceAll("-", ".")} · 北京时间 07:00 发布`;
+  return `${issueDate.replaceAll("-", ".")} · 北京时间 05:00 发布`;
 }
 
 function enDate(issueDate: string) {
-  const date = new Date(`${issueDate}T07:00:00+08:00`);
+  const date = new Date(`${issueDate}T05:00:00+08:00`);
   return `${new Intl.DateTimeFormat("en-US", {
     year: "numeric",
     month: "long",
     day: "2-digit",
     timeZone: "Asia/Shanghai",
-  }).format(date)} · Published at 07:00 Beijing Time`;
+  }).format(date)} · Published at 05:00 Beijing Time`;
 }
 
 test("renders the Chinese issue with one overview and eight stories", async ({ page, request }) => {
