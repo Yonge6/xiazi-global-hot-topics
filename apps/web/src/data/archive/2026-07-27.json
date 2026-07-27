@@ -54,14 +54,14 @@
       },
       "sources": [
         {
-          "id": "977f94b2-edc1-5fe0-8698-2a5f1b506969",
+          "id": "340b5d47-785e-5f79-9b8a-235dd0efa7d5",
           "topicId": "12b67e73-3092-53d4-a165-6c4260edaf34",
-          "title": "World news, 26 July 2026",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/26/all",
+          "title": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content",
+          "publisher": "Google",
+          "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
           "publishedAt": "2026-07-27T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         }
@@ -109,19 +109,7 @@
       },
       "sources": [
         {
-          "id": "e8e9b87e-3e0c-5847-a086-0442e762b45b",
-          "topicId": "a34f351e-b76f-52da-94a1-ba30c17fce0f",
-          "title": "Typhoon Noul weakens after making landfall, brings heavy rain to southern China",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/05f860066a9a75595c5bcc4df8356337",
-          "publishedAt": "2026-07-27T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "2d153706-a063-529e-a0ed-a7827975e434",
+          "id": "eac5de70-3ab3-5e11-9afe-41557ce7e375",
           "topicId": "a34f351e-b76f-52da-94a1-ba30c17fce0f",
           "title": "Typhoon Noul makes landfall in south China's Guangdong",
           "publisher": "CCTV",
@@ -130,7 +118,7 @@
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     },
@@ -232,11 +220,11 @@
       },
       "sources": [
         {
-          "id": "b8b7e7c1-11c5-5e42-9f9e-d4428fdf81d1",
+          "id": "5333bf8f-f5e4-5e8d-896b-9d4996a08662",
           "topicId": "d7ebd97c-bfcb-5b6d-859f-1dac855a14a9",
-          "title": "One Person Empire: How to Build a Six-Figure Business in 2026",
-          "publisher": "SCORE",
-          "url": "https://www.score.org/business-education/one-person-empire-how-to-build-a-six-figure-business-in-2026/",
+          "title": "Find upcoming events: One Person Empire",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/events?district=All&field_event_dates_value=All&in_person_or_online=All&keyword=&page=12&q=nsbw",
           "publishedAt": "2026-07-27T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
@@ -287,28 +275,16 @@
       },
       "sources": [
         {
-          "id": "f2a67c78-3e55-5c68-a90b-b35a31e82d0c",
+          "id": "9feaa855-3047-5921-9dd2-62ad87a6956d",
           "topicId": "ff6fe5a1-aa2b-51c4-9b7b-1348d3a1e9ea",
-          "title": "The suspect in the deadly Berlin Pride attack is killed in a confrontation with police",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/3ba5e3f1becffd0da5f47b29aa08da9d",
+          "title": "What we know so far about the attack at Berlin CSD",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/07/26/car-rams-crowd-at-berlin-pride-event-killing-one-and-injuring-16",
           "publishedAt": "2026-07-27T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
-        },
-        {
-          "id": "6a6d847a-cd4d-538e-82cf-3bfedd90003b",
-          "topicId": "ff6fe5a1-aa2b-51c4-9b7b-1348d3a1e9ea",
-          "title": "Berlin Pride attack prompts grief and solidarity with LGBTQ community",
-          "publisher": "Reuters",
-          "url": "https://www.investing.com/news/world-news/berlin-pride-attack-prompts-grief-and-solidarity-with-lgbtq-community-4812850",
-          "publishedAt": "2026-07-27T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
         }
       ]
     },
@@ -355,28 +331,16 @@
       },
       "sources": [
         {
-          "id": "33744138-29f9-5677-a625-668ebb8c0ded",
+          "id": "0db21888-36f0-500f-b008-f71ac9aae21f",
           "topicId": "be459847-072c-5e79-8c2f-113c637858f0",
-          "title": "US and Iran pause attacks as efforts for ceasefire negotiations continue",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/iran-war-united-states-ceasefire-ad9fa27d5b1b5fd51e30d923ee738238",
+          "title": "US pauses attacks on Iran for a second day as peace talks continue",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz",
           "publishedAt": "2026-07-27T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
-        },
-        {
-          "id": "513e5506-d65d-5715-b28d-0d9211101bd5",
-          "topicId": "be459847-072c-5e79-8c2f-113c637858f0",
-          "title": "Iran will halt attacks as long as US maintains pause",
-          "publisher": "Reuters",
-          "url": "https://www.investing.com/news/commodities-news/iran-will-halt-attacks-as-long-as-us-maintains-pause-iranian-source-says-after-trump-calls-off-strikes-4812898",
-          "publishedAt": "2026-07-27T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
         }
       ]
     },
@@ -423,11 +387,11 @@
       },
       "sources": [
         {
-          "id": "b09564d3-9b19-5d6f-b189-0d0554fe3e89",
+          "id": "cc29c581-d6ff-5a71-9c84-2f9b133c261b",
           "topicId": "ddcd47e2-aaae-53e4-b290-af828a9783dd",
           "title": "2 dead in Ukraine from Russian attacks, 4 more in Russian-held area hit by Ukrainian drones",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/russia-ukraine-war-kyiv-strike-attack-missiles-drones-83165906f926fee33eb3d9026f9e9f9b",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/2-dead-ukraine-russian-attacks-4-russian-held-135096678",
           "publishedAt": "2026-07-27T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -546,19 +510,7 @@
       },
       "sources": [
         {
-          "id": "5538bbd4-882c-5f4d-8489-8e23b4b0b393",
-          "topicId": "0632a4a9-9991-549b-a261-ba82dc58753b",
-          "title": "UNESCO adds France's D-Day landing beaches, Greece's Mount Olympus to World Heritage List",
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/1d3fabaa482d9384b1cb0b5c917ce5d5",
-          "publishedAt": "2026-07-27T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        },
-        {
-          "id": "2e850f0b-c0e8-559b-b3cb-bc011324062b",
+          "id": "9b1d7f9e-de97-552f-9e37-41c3115c1f8c",
           "topicId": "0632a4a9-9991-549b-a261-ba82dc58753b",
           "title": "World Heritage Committee 2026",
           "publisher": "UNESCO",
@@ -567,7 +519,7 @@
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     }
