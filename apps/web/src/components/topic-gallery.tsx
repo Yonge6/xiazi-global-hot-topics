@@ -80,9 +80,7 @@ export function TopicGallery({
   const [posterCacheKey, setPosterCacheKey] = useState<string | number>(initialAssetVersion);
   const [displayStyle, setDisplayStyle] = useState<IssueStyle | undefined>(initialStyle);
   const [archiveDates] = useState<string[]>(initialArchiveDates);
-  const [expandedArchiveMonths, setExpandedArchiveMonths] = useState<Set<string>>(
-    () => new Set(groupArchiveDatesByMonth(initialArchiveDates).slice(0, 1).map((group) => group.month)),
-  );
+  const [expandedArchiveMonths, setExpandedArchiveMonths] = useState<Set<string>>(new Set());
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [archiveStatus, setArchiveStatus] = useState("");
   const isZh = locale === "zh";
