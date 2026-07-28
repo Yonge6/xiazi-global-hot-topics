@@ -189,9 +189,7 @@ export function TopicGallery({
     loadArchiveDates()
       .then((detail) => {
         if (Array.isArray(detail.issues)) {
-          const groups = groupArchiveDatesByMonth(detail.issues);
           setArchiveDates(detail.issues);
-          if (groups[0]) setExpandedArchiveMonths(new Set([groups[0].month]));
         }
       })
       .catch(() => undefined);
