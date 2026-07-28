@@ -1,336 +1,65 @@
 {
-  "id": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-  "slug": "2026-07-28",
-  "issueDate": "2026-07-28",
-  "assetVersion": "asset_prod_20260728_0948",
+  "id": "49cc503e-af1d-5130-82f3-27be37cc9645",
+  "slug": "2026-07-29",
+  "issueDate": "2026-07-29",
+  "assetVersion": "issue-2026-07-29-style-atlas-107-chatgpt-v1",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-07-28T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-27T21:00:00.000Z",
-  "featuredTopicId": "48d44062-e538-5dc3-983a-1df9db5fa593",
+  "beijingTimestamp": "2026-07-29T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-28T21:00:00.000Z",
+  "featuredTopicId": "ac70a849-e1c7-543c-a1a4-4b98e00292ba",
   "style": {
-    "name": "Style Atlas #106 Solarpunk",
-    "zhName": "Style Atlas #106 太阳朋克",
-    "description": "Ecological future cities, plants and clean energy, natural light, bright green, warm yellow and sky blue, sustainable materials, optimistic but credible futurism, clear information hierarchy and a stable grid."
+    "name": "Style Atlas #107 Afrofuturism",
+    "zhName": "Style Atlas #107 非洲未来主义",
+    "description": "Afrofuturist editorial design with African diaspora future-tech motifs, solar gold, deep indigo, copper red, geometric textile rhythm, luminous cities, optimistic futurism and a clear grid."
   },
   "topics": [
     {
-      "id": "48d44062-e538-5dc3-983a-1df9db5fa593",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "overview",
+      "id": "ac70a849-e1c7-543c-a1a4-4b98e00292ba",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "today-overview-risk-map",
       "rank": 1,
-      "category": "international",
+      "category": "overview",
       "region": "Global",
       "countryCodes": [],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "daily-overview-2026-07-28",
+      "storyId": "xzs-today-overview-risk-map-20260729",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 98,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "难民公约75年、AI新规落地、全球韧性再校准",
-          "headlineView": "今天的共同命题，是让保护、创新与恢复都能真正执行",
-          "headlineFull": "难民公约75年、AI新规落地、全球韧性再校准；今天的共同命题，是让保护、创新与恢复都能真正执行",
-          "intro": "1951年《难民地位公约》迎来75周年；欧盟AI Omnibus正式生效，为中小企业延长期限并扩展监管沙盒；世界肝炎日强调把检测、治疗与社区服务接成一体。巴基斯坦季风灾害、美国与伊朗暂停攻击、亚马孙剧院入遗，提醒世界同时处理人道、规则、气候与文化韧性。",
-          "xiaziQuote": "真正的进步，不是多一条宣言，而是多一套能落地的保护机制。",
-          "doudouQuote": "未来越亮，越要把每个人都照进去。",
+          "headlineFact": "外交试探、AI震荡与极端天气",
+          "headlineView": "同步改写全球风险版图",
+          "headlineFull": "外交试探、AI震荡与极端天气；同步改写全球风险版图",
+          "intro": "美伊谈判释放缓和信号，亚洲AI芯片股重挫；欧洲山火、美国龙卷风与全球公共卫生议题并行升温。",
+          "xiaziQuote": "市场追逐效率，世界仍要为战争、气候和健康风险留下缓冲。",
+          "doudouQuote": "今天的关键词不是一个，是同时发生。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
-          "categoryLabel": "Today's Overview",
-          "headlineFact": "Refugee protection turns 75, new AI rules take effect and global resilience is recalibrated",
-          "headlineView": "today's shared task is to make protection, innovation and recovery executable",
-          "headlineFull": "Refugee protection turns 75, new AI rules take effect and global resilience is recalibrated; today's shared task is to make protection, innovation and recovery executable",
-          "intro": "The 1951 Refugee Convention marks 75 years; the EU AI Omnibus enters into force with longer timelines and wider regulatory sandboxes; World Hepatitis Day calls for connected testing, treatment and community services. Monsoon losses in Pakistan, the U.S.-Iran pause and Amazonian theaters joining UNESCO's list show the need for humanitarian, regulatory, climate and cultural resilience.",
-          "xiaziQuote": "Progress is not another declaration, but another protection mechanism that works.",
-          "doudouQuote": "The brighter the future, the more people it must include.",
-          "footerTakeaway": "Keyword: Today's Overview."
+          "categoryLabel": "Today at a Glance",
+          "headlineFact": "Diplomatic signals, AI volatility and extreme weather",
+          "headlineView": "redraw the global risk map",
+          "headlineFull": "Diplomatic signals, AI volatility and extreme weather; redraw the global risk map",
+          "intro": "U.S.-Iran talks show signs of easing as Asian AI chip stocks slide; European wildfires, a U.S. tornado and global health gaps intensify.",
+          "xiaziQuote": "Markets chase efficiency, but the world still needs buffers for war, climate and health risks.",
+          "doudouQuote": "Today has one keyword: everything, everywhere.",
+          "footerTakeaway": "Keyword: Today at a Glance."
         }
       },
       "sources": [
         {
-          "id": "092c19a9-997a-56f2-91c7-1b3733fb0528",
-          "topicId": "48d44062-e538-5dc3-983a-1df9db5fa593",
-          "title": "AI Omnibus enters into force",
-          "publisher": "European Commission",
-          "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-          "publishedAt": "2026-07-28T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "f6899bdb-4f63-5866-86ff-e25ddf9d1dee",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "refugee-convention-75-anniversary",
-      "rank": 2,
-      "category": "international",
-      "region": "Global",
-      "countryCodes": [],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "refugee-convention-75-anniversary-2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 97,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "开放热点",
-          "headlineFact": "《难民地位公约》迎来75周年",
-          "headlineView": "国际保护框架面对创纪录流离失所压力",
-          "headlineFull": "《难民地位公约》迎来75周年；国际保护框架面对创纪录流离失所压力",
-          "intro": "联合国难民署指出，1951年公约在7月28日迎来75周年，仍是国际难民保护的基石；全球约有4160万难民，而该机构截至6月底仅获得全年所需资金的31%。纪念不只回望历史，更要求强化庇护、合作与接收社区支持。",
-          "xiaziQuote": "边境可以管理，但寻求安全的权利不能被预算缺口抹掉。",
-          "doudouQuote": "一份75岁的承诺，要靠今天的人继续兑现。",
-          "footerTakeaway": "今日关键词：开放热点。"
-        },
-        "en-US": {
-          "categoryLabel": "Open Hotspot",
-          "headlineFact": "The Refugee Convention marks its 75th anniversary",
-          "headlineView": "the global protection framework faces record displacement pressure",
-          "headlineFull": "The Refugee Convention marks its 75th anniversary; the global protection framework faces record displacement pressure",
-          "intro": "UNHCR says the 1951 Convention remains the foundation of international refugee protection on its 75th anniversary. About 41.6 million refugees remain displaced while the agency was only 31% funded at the end of June. The milestone calls for stronger asylum systems, cooperation and support for host communities.",
-          "xiaziQuote": "Borders can be managed, but the right to seek safety cannot be erased by a funding gap.",
-          "doudouQuote": "A 75-year-old promise still needs people to keep it today.",
-          "footerTakeaway": "Keyword: Open Hotspot."
-        }
-      },
-      "sources": [
-        {
-          "id": "856e0595-b5af-5d7f-bf57-b2f325304e3c",
-          "topicId": "f6899bdb-4f63-5866-86ff-e25ddf9d1dee",
-          "title": "United Nations 2026 Calendar: 75th Anniversary of the 1951 Refugee Convention",
-          "publisher": "United Nations",
-          "url": "https://www.un.org/en/academic-impact/2026-calendar-selected-united-nations-events",
-          "publishedAt": "2026-07-28T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "87680bf9-1019-5e27-8f5c-8a207128b976",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "eu-ai-omnibus-enters-force",
-      "rank": 3,
-      "category": "technology",
-      "region": "Europe",
-      "countryCodes": [
-        "EU"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "eu-ai-omnibus-enters-force-2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 96,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "人工智能",
-          "headlineFact": "欧盟 AI Omnibus 正式生效",
-          "headlineView": "监管简化与安全护栏同步推进",
-          "headlineFull": "欧盟 AI Omnibus 正式生效；监管简化与安全护栏同步推进",
-          "intro": "欧盟委员会宣布 AI Omnibus 于7月27日生效，为中小企业和小型中等市值公司提供更相称的合规安排，延长部分时间表，扩大国家与欧盟级监管沙盒，并在保留安全与基本权利保障的前提下增加法律清晰度。",
-          "xiaziQuote": "好的AI监管，不是只会踩刹车，而是把试验场、路标和护栏一起建好。",
-          "doudouQuote": "规则看得懂，创新才跑得稳。",
-          "footerTakeaway": "今日关键词：人工智能。"
-        },
-        "en-US": {
-          "categoryLabel": "Artificial Intelligence",
-          "headlineFact": "The EU AI Omnibus enters into force",
-          "headlineView": "regulatory simplification advances with safety guardrails",
-          "headlineFull": "The EU AI Omnibus enters into force; regulatory simplification advances with safety guardrails",
-          "intro": "The European Commission says the AI Omnibus took effect on July 27. It offers more proportionate compliance for SMEs and small mid-caps, extends selected timelines, expands national and EU-level regulatory sandboxes, and adds legal clarity while retaining safeguards for safety and fundamental rights.",
-          "xiaziQuote": "Good AI regulation builds the test track, road signs and guardrails together.",
-          "doudouQuote": "When rules are clear, innovation can run steadily.",
-          "footerTakeaway": "Keyword: Artificial Intelligence."
-        }
-      },
-      "sources": [
-        {
-          "id": "54fc75ff-f3fd-55f3-8fd3-70df00fa01fd",
-          "topicId": "87680bf9-1019-5e27-8f5c-8a207128b976",
-          "title": "AI Omnibus enters into force",
-          "publisher": "European Commission",
-          "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-          "publishedAt": "2026-07-28T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "561e1bee-96f3-5b5b-badd-13e1de78246a",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "score-one-person-empire-course",
-      "rank": 4,
-      "category": "business",
-      "region": "North America",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "score-one-person-empire-course-2026",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 80,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "OPC一人公司",
-          "headlineFact": "SCORE推出“一人六位数企业”公开课",
-          "headlineView": "自由职业、AI与自动化组成单兵增长栈",
-          "headlineFull": "SCORE推出“一人六位数企业”公开课；自由职业、AI与自动化组成单兵增长栈",
-          "intro": "美国小企业辅导机构SCORE将于7月30日举办免费线上课程，内容覆盖无雇员运营、多收入来源、自由职业协作、AI、自动化与精简技术栈。一人公司正从个人天赋叙事，转向可学习、可复制的系统化运营。",
-          "xiaziQuote": "一人公司不是一个人做完全部，而是把注意力交给正确的系统。",
-          "doudouQuote": "老板可以只有一个，接口不能只有一个。",
-          "footerTakeaway": "今日关键词：OPC一人公司。"
-        },
-        "en-US": {
-          "categoryLabel": "One-Person Company",
-          "headlineFact": "SCORE offers a One Person Empire course",
-          "headlineView": "freelancers, AI and automation form a solo growth stack",
-          "headlineFull": "SCORE offers a One Person Empire course; freelancers, AI and automation form a solo growth stack",
-          "intro": "SCORE Idaho will host a free July 30 online course on operating without employees, multiple income streams, freelance collaboration, AI, automation and a lean technology stack. Solo entrepreneurship is shifting from a talent story to a repeatable operating system.",
-          "xiaziQuote": "A one-person company is not one person doing everything; it assigns attention to the right systems.",
-          "doudouQuote": "One founder is fine, but one interface is not.",
-          "footerTakeaway": "Keyword: One-Person Company."
-        }
-      },
-      "sources": [
-        {
-          "id": "7804a3a9-a6d7-5cdd-889d-2c73fd0a82df",
-          "topicId": "561e1bee-96f3-5b5b-badd-13e1de78246a",
-          "title": "One Person Empire: How to Build a Six-Figure Business in 2026",
-          "publisher": "U.S. Small Business Administration",
-          "url": "https://www.sba.gov/event/86097",
-          "publishedAt": "2026-07-28T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "4e615ff9-ed52-51e7-98e6-966bae95eb5f",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "world-hepatitis-day-2026",
-      "rank": 5,
-      "category": "science",
-      "region": "Global",
-      "countryCodes": [],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "world-hepatitis-day-2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 94,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "全球健康",
-          "headlineFact": "世界肝炎日聚焦“打破壁垒”",
-          "headlineView": "检测、治疗与社区服务需要被接成一条路",
-          "headlineFull": "世界肝炎日聚焦“打破壁垒”；检测、治疗与社区服务需要被接成一条路",
-          "intro": "7月28日是世界肝炎日。世界卫生组织在前夕强调，终结艾滋病、病毒性肝炎与性传播感染，需要整合服务、持续创新和社区领导，并通过高级别纪念活动推动更可及的预防、检测和治疗。",
-          "xiaziQuote": "公共卫生的难点常常不是没有工具，而是工具没能抵达需要的人。",
-          "doudouQuote": "少一道门槛，就多一个人及时被看见。",
-          "footerTakeaway": "今日关键词：全球健康。"
-        },
-        "en-US": {
-          "categoryLabel": "Global Health",
-          "headlineFact": "World Hepatitis Day focuses on breaking barriers",
-          "headlineView": "testing, treatment and community services must connect",
-          "headlineFull": "World Hepatitis Day focuses on breaking barriers; testing, treatment and community services must connect",
-          "intro": "July 28 is World Hepatitis Day. WHO says ending HIV, viral hepatitis and sexually transmitted infections requires integrated services, innovation and community leadership, with prevention, testing and treatment made easier to reach.",
-          "xiaziQuote": "Public health often lacks not tools, but a path that gets the tools to people.",
-          "doudouQuote": "Remove one barrier and one more person can be seen in time.",
-          "footerTakeaway": "Keyword: Global Health."
-        }
-      },
-      "sources": [
-        {
-          "id": "3096bd25-31b5-57e8-aa78-5f9cb3bff814",
-          "topicId": "4e615ff9-ed52-51e7-98e6-966bae95eb5f",
-          "title": "World Hepatitis Day 2026",
-          "publisher": "World Health Organization",
-          "url": "https://www.who.int/campaigns/world-hepatitis-day/2026",
-          "publishedAt": "2026-07-28T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "7d96b004-4187-512c-aca3-94f479499a61",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "pakistan-monsoon-death-toll-100",
-      "rank": 6,
-      "category": "climate",
-      "region": "Asia",
-      "countryCodes": [
-        "PK"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "pakistan-monsoon-death-toll-100-2026",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 93,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "气候与灾害",
-          "headlineFact": "巴基斯坦季风灾害死亡人数破百",
-          "headlineView": "更强降雨预报考验预警与基层恢复",
-          "headlineFull": "巴基斯坦季风灾害死亡人数破百；更强降雨预报考验预警与基层恢复",
-          "intro": "美联社报道，巴基斯坦过去一个月季风雨与山洪造成的死亡人数已超过100人，气象部门警告本周仍可能出现强降雨。灾害应对从即时救援延伸到道路、住房、公共卫生和社区恢复。",
-          "xiaziQuote": "极端天气不会等工程完工，预警必须先跑到风险前面。",
-          "doudouQuote": "雨还没停，恢复计划就要先开始。",
-          "footerTakeaway": "今日关键词：气候与灾害。"
-        },
-        "en-US": {
-          "categoryLabel": "Climate and Disasters",
-          "headlineFact": "Pakistan's monsoon death toll passes 100",
-          "headlineView": "more heavy rain tests early warning and local recovery",
-          "headlineFull": "Pakistan's monsoon death toll passes 100; more heavy rain tests early warning and local recovery",
-          "intro": "AP reports that monsoon rains and flash floods have killed more than 100 people in Pakistan over the past month, while forecasters warn of more heavy rain this week. Response now extends from rescue to roads, housing, public health and community recovery.",
-          "xiaziQuote": "Extreme weather will not wait for construction; warnings must reach risk first.",
-          "doudouQuote": "Recovery planning must begin before the rain stops.",
-          "footerTakeaway": "Keyword: Climate and Disasters."
-        }
-      },
-      "sources": [
-        {
-          "id": "a753ddf1-683c-5fc5-a1a4-0b83bd08086c",
-          "topicId": "7d96b004-4187-512c-aca3-94f479499a61",
-          "title": "Dawn: Nationwide deaths this monsoon cross 100; more rain likely from July 29",
-          "publisher": "Dawn",
-          "url": "https://www.dawn.com/news/2018500/nationwide-deaths-this-monsoon-cross-100-more-rain-likely-in-countrys-upper-parts-from-july-29",
-          "publishedAt": "2026-07-28T00:00:00Z",
+          "id": "b85ffa96-44f2-5efa-8f80-c299ec145ae6",
+          "topicId": "ac70a849-e1c7-543c-a1a4-4b98e00292ba",
+          "title": "AP Top Stories July 28",
+          "publisher": "Associated Press",
+          "url": "https://www.yahoo.com/news/videos/ap-top-stories-july-28-095407790.html",
+          "publishedAt": "2026-07-29T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
@@ -339,11 +68,11 @@
       ]
     },
     {
-      "id": "7d26c7f5-065f-5c12-87ee-5c3e71aa07b4",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "us-iran-two-night-attack-pause",
-      "rank": 7,
-      "category": "international",
+      "id": "6e8b10f2-eaf9-57ca-94d5-88874aca70a9",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "us-iran-talks-restart",
+      "rank": 2,
+      "category": "geopolitics",
       "region": "Middle East",
       "countryCodes": [
         "US",
@@ -352,41 +81,41 @@
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "us-iran-attack-pause-july-2026",
+      "scoreTotal": 97,
+      "storyId": "xzs-us-iran-talks-restart-20260729",
       "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 90,
+      "followupDay": 2,
+      "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "国际外交",
-          "headlineFact": "美国与伊朗连续两夜暂停攻击",
-          "headlineView": "短暂停火为谈判与航运安全争取窗口",
-          "headlineFull": "美国与伊朗连续两夜暂停攻击；短暂停火为谈判与航运安全争取窗口",
-          "intro": "在连续升级后，美国与伊朗均暂停攻击，美方称此举为谈判留出空间。地区调停继续推进，但霍尔木兹海峡商业航运仍处低位，核问题与安全通航安排尚未解决。",
-          "xiaziQuote": "暂停不是和平，却是把节奏重新交还外交的必要间隙。",
-          "doudouQuote": "先把按钮放下，才听得见桌对面。",
-          "footerTakeaway": "今日关键词：国际外交。"
+          "categoryLabel": "美伊关系",
+          "headlineFact": "斡旋方称重启美伊谈判取得进展",
+          "headlineView": "油价随缓和预期回落",
+          "headlineFull": "斡旋方称重启美伊谈判取得进展；油价随缓和预期回落",
+          "intro": "多方正推动双方恢复对话；市场暂时降低海湾供应中断预期，但长期协议仍未落地。",
+          "xiaziQuote": "真正的降温，要看对话能否变成可执行安排。",
+          "doudouQuote": "握手还没发生，油价先松了口气。",
+          "footerTakeaway": "今日关键词：美伊关系。"
         },
         "en-US": {
-          "categoryLabel": "Diplomacy",
-          "headlineFact": "The U.S. and Iran pause attacks for two nights",
-          "headlineView": "a brief halt opens space for talks and safer shipping",
-          "headlineFull": "The U.S. and Iran pause attacks for two nights; a brief halt opens space for talks and safer shipping",
-          "intro": "After escalation, both the United States and Iran paused attacks as mediators pursued talks. Commercial traffic through the Strait of Hormuz remains depressed, while nuclear issues and safe-passage arrangements are unresolved.",
-          "xiaziQuote": "A pause is not peace, but it is the interval needed to hand the rhythm back to diplomacy.",
-          "doudouQuote": "Put down the button first; then you can hear the other side.",
-          "footerTakeaway": "Keyword: Diplomacy."
+          "categoryLabel": "U.S.-Iran Relations",
+          "headlineFact": "Mediators report progress toward restarting talks",
+          "headlineView": "as oil eases",
+          "headlineFull": "Mediators report progress toward restarting talks; as oil eases",
+          "intro": "Efforts are underway to bring both sides back to dialogue; markets lower near-term Gulf supply fears, but no durable deal exists yet.",
+          "xiaziQuote": "Real cooling begins when dialogue becomes an executable arrangement.",
+          "doudouQuote": "No handshake yet, but oil already exhaled.",
+          "footerTakeaway": "Keyword: U.S.-Iran Relations."
         }
       },
       "sources": [
         {
-          "id": "5b6e60b8-f720-52ab-aa94-6c62921238c4",
-          "topicId": "7d26c7f5-065f-5c12-87ee-5c3e71aa07b4",
-          "title": "US pauses attacks on Iran for a second day as peace talks continue",
-          "publisher": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/26/us-pauses-trump-netanyahu-attacks-on-iran-talks-hormuz",
-          "publishedAt": "2026-07-28T00:00:00Z",
+          "id": "7c830002-1c6b-5005-a7ce-36e364eef8fb",
+          "topicId": "6e8b10f2-eaf9-57ca-94d5-88874aca70a9",
+          "title": "AP Top Stories July 28",
+          "publisher": "Associated Press",
+          "url": "https://www.yahoo.com/news/videos/ap-top-stories-july-28-095407790.html",
+          "publishedAt": "2026-07-29T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
@@ -395,53 +124,164 @@
       ]
     },
     {
-      "id": "73494c07-235e-55ac-a5e5-84faea891efe",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "brazil-amazonia-theaters-world-heritage",
-      "rank": 8,
-      "category": "culture",
-      "region": "South America",
+      "id": "11e1c9e1-0ef5-5c62-89a2-6ae865ca6ff0",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "asia-ai-tech-rout",
+      "rank": 3,
+      "category": "technology",
+      "region": "Asia",
       "countryCodes": [
-        "BR"
+        "CN"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "brazil-amazonia-theaters-world-heritage-2026",
+      "scoreTotal": 96,
+      "storyId": "xzs-asia-ai-tech-rout-20260729",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能",
+          "headlineFact": "AI焦虑引发亚洲科技股抛售",
+          "headlineView": "中国竞争与投入回报成焦点",
+          "headlineFull": "AI焦虑引发亚洲科技股抛售；中国竞争与投入回报成焦点",
+          "intro": "亚洲芯片股大跌，投资者担心中国竞争加剧，以及巨额AI支出究竟由谁买单。",
+          "xiaziQuote": "AI叙事进入验收期，增长故事必须回答现金流问题。",
+          "doudouQuote": "算力很快，账单也来得很快。",
+          "footerTakeaway": "今日关键词：人工智能。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence",
+          "headlineFact": "AI anxiety hits Asian tech stocks",
+          "headlineView": "as competition and returns face scrutiny",
+          "headlineFull": "AI anxiety hits Asian tech stocks; as competition and returns face scrutiny",
+          "intro": "Asian chip shares fell sharply amid concern over stronger Chinese competition and who will ultimately pay for the AI boom.",
+          "xiaziQuote": "AI has entered the proof stage; every growth story must answer the cash-flow question.",
+          "doudouQuote": "Compute is fast, and so is the bill.",
+          "footerTakeaway": "Keyword: Artificial Intelligence."
+        }
+      },
+      "sources": [
+        {
+          "id": "3ac80b9d-d35e-5cc0-977a-c8b7b62a0906",
+          "topicId": "11e1c9e1-0ef5-5c62-89a2-6ae865ca6ff0",
+          "title": "AI anxiety sparks tech rout, broad selloff in Asian markets",
+          "publisher": "Reuters",
+          "url": "https://au.investing.com/news/stock-market-news/ai-anxiety-sparks-tech-rout-broad-selloff-in-asian-markets-4555334",
+          "publishedAt": "2026-07-29T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "bd63e404-9ab6-5997-a158-f76c959221ca",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "creator-match-million-week",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-creator-match-million-week-20260729",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司",
+          "headlineFact": "Creator Match单周撮合百万美元创作者订单",
+          "headlineView": "小团队平台加速扩张",
+          "headlineFull": "Creator Match单周撮合百万美元创作者订单；小团队平台加速扩张",
+          "intro": "这家精简团队运营的B2B创作者平台，一周批准100万美元合作报价，显示AI与自动化正在放大个人和小团队产能。",
+          "xiaziQuote": "一人公司不是一个人硬扛，而是用系统把可信交付放大。",
+          "doudouQuote": "团队可以很小，成交额不必小。",
+          "footerTakeaway": "今日关键词：一人公司。"
+        },
+        "en-US": {
+          "categoryLabel": "One-Person Company",
+          "headlineFact": "Creator Match clears $1 million in creator offers",
+          "headlineView": "in one week",
+          "headlineFull": "Creator Match clears $1 million in creator offers; in one week",
+          "intro": "The lean B2B creator platform shows how AI and automation can multiply the capacity of individuals and small teams.",
+          "xiaziQuote": "A one-person company is not solo struggle; it is a system that scales trusted delivery.",
+          "doudouQuote": "The team can stay small while the deals grow.",
+          "footerTakeaway": "Keyword: One-Person Company."
+        }
+      },
+      "sources": [
+        {
+          "id": "bb98cca7-2030-5f2d-94b2-c8c0f7eada94",
+          "topicId": "bd63e404-9ab6-5997-a158-f76c959221ca",
+          "title": "Creator Match founder to speak after a $1 million week",
+          "publisher": "Influencer Marketing Hub",
+          "url": "https://influencermarketinghub.com/creator-matchs-aj-eckstein-creator-economy-live-east/",
+          "publishedAt": "2026-07-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "0056a45a-3018-5124-b501-a5527b2f3483",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "france-spain-wildfires",
+      "rank": 5,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR",
+        "ES"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-france-spain-wildfires-20260729",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 91,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "文化遗产",
-          "headlineFact": "巴西亚马孙两座剧院入选世界遗产",
-          "headlineView": "橡胶繁荣时代的建筑进入长期保护",
-          "headlineFull": "巴西亚马孙两座剧院入选世界遗产；橡胶繁荣时代的建筑进入长期保护",
-          "intro": "联合国教科文组织将贝伦的和平剧院与马瑙斯的亚马孙剧院联合列入世界遗产名录。两座19世纪末建筑融合欧洲影响、本地材料与亚马孙符号，记录了橡胶繁荣时期城市现代化的雄心。",
-          "xiaziQuote": "遗产不是过去的舞台布景，而是今天理解城市如何形成的证据。",
-          "doudouQuote": "老剧院继续开灯，历史才不会散场。",
-          "footerTakeaway": "今日关键词：文化遗产。"
+          "categoryLabel": "欧洲山火",
+          "headlineFact": "法国与西班牙山火蔓延",
+          "headlineView": "极端高温再次考验欧洲应急系统",
+          "headlineFull": "法国与西班牙山火蔓延；极端高温再次考验欧洲应急系统",
+          "intro": "多地消防力量持续处置火情，旅游、交通与居民安全同时承压。",
+          "xiaziQuote": "气候风险已经从年度议题变成日常运营成本。",
+          "doudouQuote": "热浪没有边界，烟也不会看国旗。",
+          "footerTakeaway": "今日关键词：欧洲山火。"
         },
         "en-US": {
-          "categoryLabel": "Cultural Heritage",
-          "headlineFact": "Two Brazilian Amazon theaters join the World Heritage List",
-          "headlineView": "architecture from the rubber-boom era enters long-term protection",
-          "headlineFull": "Two Brazilian Amazon theaters join the World Heritage List; architecture from the rubber-boom era enters long-term protection",
-          "intro": "UNESCO added Belem's Theatro da Paz and Manaus's Teatro Amazonas to the World Heritage List as a joint property. The late-19th-century theaters combine European influences, local materials and Amazonian symbols, recording the urban ambitions of the rubber-boom era.",
-          "xiaziQuote": "Heritage is not old scenery; it is evidence of how today's cities were formed.",
-          "doudouQuote": "Keep the old theaters lit so history does not leave the stage.",
-          "footerTakeaway": "Keyword: Cultural Heritage."
+          "categoryLabel": "European Wildfires",
+          "headlineFact": "Wildfires spread in France and Spain",
+          "headlineView": "as extreme heat tests emergency systems",
+          "headlineFull": "Wildfires spread in France and Spain; as extreme heat tests emergency systems",
+          "intro": "Fire crews battle multiple blazes while tourism, transport and community safety come under pressure.",
+          "xiaziQuote": "Climate risk has shifted from an annual topic to a daily operating cost.",
+          "doudouQuote": "Heat ignores borders, and smoke skips passports.",
+          "footerTakeaway": "Keyword: European Wildfires."
         }
       },
       "sources": [
         {
-          "id": "ed1841e8-558c-5652-bbaf-b44c7a65f1dd",
-          "topicId": "73494c07-235e-55ac-a5e5-84faea891efe",
-          "title": "UN Brazil: Amazonia Theaters join the UNESCO World Heritage List",
-          "publisher": "Dawn",
-          "url": "https://brasil.un.org/pt-br/320107-teatros-da-amaz%C3%B4nia-passam-integrar-lista-do-patrim%C3%B4nio-mundial-da-unesco",
-          "publishedAt": "2026-07-28T00:00:00Z",
+          "id": "5bd0e35a-074b-59ca-8df7-c60caf6a2b82",
+          "topicId": "0056a45a-3018-5124-b501-a5527b2f3483",
+          "title": "AP Top Stories July 28",
+          "publisher": "Associated Press",
+          "url": "https://www.yahoo.com/news/videos/ap-top-stories-july-28-095407790.html",
+          "publishedAt": "2026-07-29T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
@@ -450,53 +290,218 @@
       ]
     },
     {
-      "id": "1c08f04e-79d6-5d18-942d-0698c53279a1",
-      "issueId": "54d22b5e-82f0-5309-84d5-27168b9d54b7",
-      "slug": "six-world-heritage-sites-in-danger",
-      "rank": 9,
-      "category": "culture",
-      "region": "Global",
+      "id": "a1bb95fe-3704-5e7a-a1f0-33d1c6f61d8b",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "wisconsin-tornado-damage",
+      "rank": 6,
+      "category": "climate",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-wisconsin-tornado-damage-20260729",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美国极端天气",
+          "headlineFact": "龙卷风袭击威斯康星州东北部",
+          "headlineView": "社区进入灾后评估",
+          "headlineFull": "龙卷风袭击威斯康星州东北部；社区进入灾后评估",
+          "intro": "强风暴造成建筑受损并打乱当地生活，应急人员展开搜救和损失核查。",
+          "xiaziQuote": "极端天气下，预警速度和社区韧性同样关键。",
+          "doudouQuote": "风走得快，互助要更快。",
+          "footerTakeaway": "今日关键词：美国极端天气。"
+        },
+        "en-US": {
+          "categoryLabel": "U.S. Extreme Weather",
+          "headlineFact": "Tornado strikes northeast Wisconsin",
+          "headlineView": "as communities assess damage",
+          "headlineFull": "Tornado strikes northeast Wisconsin; as communities assess damage",
+          "intro": "Severe storms damaged buildings and disrupted daily life while emergency teams began searches and inspections.",
+          "xiaziQuote": "In extreme weather, warning speed and community resilience matter equally.",
+          "doudouQuote": "The wind moves fast; mutual aid must move faster.",
+          "footerTakeaway": "Keyword: U.S. Extreme Weather."
+        }
+      },
+      "sources": [
+        {
+          "id": "59985635-6353-5f2a-be2d-ff6b0e777f4e",
+          "topicId": "a1bb95fe-3704-5e7a-a1f0-33d1c6f61d8b",
+          "title": "AP Top Stories July 28",
+          "publisher": "Associated Press",
+          "url": "https://www.yahoo.com/news/videos/ap-top-stories-july-28-095407790.html",
+          "publishedAt": "2026-07-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "39772056-35f6-5b7c-a1b4-5cb2c1aa8fbf",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "aids-2026-access-gap",
+      "rank": 7,
+      "category": "health",
+      "region": "Americas",
       "countryCodes": [],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "six-world-heritage-sites-in-danger-2026",
+      "scoreTotal": 92,
+      "storyId": "xzs-aids-2026-access-gap-20260729",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 89,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "文化与安全",
-          "headlineFact": "六处遗产被列入“濒危名录”",
-          "headlineView": "冲突与气候威胁推动紧急保护",
-          "headlineFull": "六处遗产被列入“濒危名录”；冲突与气候威胁推动紧急保护",
-          "intro": "联合国教科文组织世界遗产委员会宣布六处遗产进入《濒危世界遗产名录》，其中三处以紧急程序列入。冲突、破坏与气候风险正迫使文化保护从长期修复转向更快的预防、监测与国际协作。",
-          "xiaziQuote": "文化遗产的安全不能等战争结束后再补课。",
-          "doudouQuote": "先保住现场，未来才有故事可讲。",
-          "footerTakeaway": "今日关键词：文化与安全。"
+          "categoryLabel": "全球健康",
+          "headlineFact": "AIDS 2026警告防治工具更多",
+          "headlineView": "但覆盖缺口仍在扩大",
+          "headlineFull": "AIDS 2026警告防治工具更多；但覆盖缺口仍在扩大",
+          "intro": "泛美卫生组织称，美洲拥有更多预防、诊断和治疗工具，却仍有大量人群无法公平获得。",
+          "xiaziQuote": "医疗创新只有抵达需要它的人，才算真正完成。",
+          "doudouQuote": "工具箱满了，路还不能堵。",
+          "footerTakeaway": "今日关键词：全球健康。"
         },
         "en-US": {
-          "categoryLabel": "Culture and Safety",
-          "headlineFact": "Six heritage sites join the List in Danger",
-          "headlineView": "conflict and climate threats accelerate emergency protection",
-          "headlineFull": "Six heritage sites join the List in Danger; conflict and climate threats accelerate emergency protection",
-          "intro": "UNESCO's World Heritage Committee added six properties to the List of World Heritage in Danger, three through emergency procedures. Conflict, damage and climate risk are pushing cultural protection toward faster prevention, monitoring and international cooperation.",
-          "xiaziQuote": "Heritage safety cannot wait until a war is over.",
-          "doudouQuote": "Save the site first, so the future still has a story.",
-          "footerTakeaway": "Keyword: Culture and Safety."
+          "categoryLabel": "Global Health",
+          "headlineFact": "AIDS 2026 says more tools exist",
+          "headlineView": "but access gaps persist",
+          "headlineFull": "AIDS 2026 says more tools exist; but access gaps persist",
+          "intro": "PAHO says the Americas have more prevention, testing and treatment options, yet many people still cannot reach them fairly.",
+          "xiaziQuote": "Medical innovation is not complete until it reaches those who need it.",
+          "doudouQuote": "A full toolbox is useless if the road is blocked.",
+          "footerTakeaway": "Keyword: Global Health."
         }
       },
       "sources": [
         {
-          "id": "d80d4051-8238-5763-8998-ec2fd8bb4dea",
-          "topicId": "1c08f04e-79d6-5d18-942d-0698c53279a1",
-          "title": "Facing major threats, six new sites join UNESCO's List of World Heritage in Danger",
-          "publisher": "UNESCO",
-          "url": "https://www.unesco.org/en/articles/facing-major-threats-six-new-sites-join-unescos-list-world-heritage-danger-three-them-emergency",
-          "publishedAt": "2026-07-28T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
+          "id": "d1947928-bdac-5582-9d2f-3041302ace16",
+          "topicId": "39772056-35f6-5b7c-a1b4-5cb2c1aa8fbf",
+          "title": "AIDS 2026 highlights access gaps across the Americas",
+          "publisher": "Inter Press Service",
+          "url": "https://www.globalissues.org/news/2026/07/28/",
+          "publishedAt": "2026-07-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1d9f7f73-ff70-5a49-8429-a0f86b2e8358",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "refugee-convention-75",
+      "rank": 8,
+      "category": "society",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-refugee-convention-75-20260729",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 88,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "难民保护",
+          "headlineFact": "难民公约75周年",
+          "headlineView": "联合国发起全球行动重申保护承诺",
+          "headlineFull": "难民公约75周年；联合国发起全球行动重申保护承诺",
+          "intro": "联合国难民署呼吁各国、组织与公众重新承诺保护因战争、暴力和迫害而流离失所的人。",
+          "xiaziQuote": "规则的价值，不在纪念日，而在危机到来时仍然有效。",
+          "doudouQuote": "七十五岁的承诺，也要天天兑现。",
+          "footerTakeaway": "今日关键词：难民保护。"
+        },
+        "en-US": {
+          "categoryLabel": "Refugee Protection",
+          "headlineFact": "At 75, the Refugee Convention",
+          "headlineView": "faces a renewed global call to act",
+          "headlineFull": "At 75, the Refugee Convention; faces a renewed global call to act",
+          "intro": "UNHCR urges governments, organizations and people to recommit to protecting those displaced by war, violence and persecution.",
+          "xiaziQuote": "A rule proves its value not on anniversaries, but when crisis arrives.",
+          "doudouQuote": "A 75-year-old promise still needs daily delivery.",
+          "footerTakeaway": "Keyword: Refugee Protection."
+        }
+      },
+      "sources": [
+        {
+          "id": "c8fdce02-b68a-50f1-97ba-d39d5495e1ba",
+          "topicId": "1d9f7f73-ff70-5a49-8429-a0f86b2e8358",
+          "title": "UNHCR launches campaign on Refugee Convention anniversary",
+          "publisher": "Inter Press Service",
+          "url": "https://www.globalissues.org/news/2026/07/",
+          "publishedAt": "2026-07-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7e7e6ede-3d9b-51fc-8fe4-ae73a7df604d",
+      "issueId": "49cc503e-af1d-5130-82f3-27be37cc9645",
+      "slug": "central-bank-energy-week",
+      "rank": 9,
+      "category": "economy",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "JP",
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-central-bank-energy-week-20260729",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 87,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球市场",
+          "headlineFact": "央行决策周遇上能源价格波动",
+          "headlineView": "全球利率路径再添不确定性",
+          "headlineFull": "央行决策周遇上能源价格波动；全球利率路径再添不确定性",
+          "intro": "美联储、日本央行与英国央行的政策预期交织，油价变化继续影响通胀与市场定价。",
+          "xiaziQuote": "能源、通胀和利率是一条链，任何一环变化都会向全球传导。",
+          "doudouQuote": "一桶油打个喷嚏，三家央行都要看温度计。",
+          "footerTakeaway": "今日关键词：全球市场。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Markets",
+          "headlineFact": "Central-bank week meets energy volatility",
+          "headlineView": "clouding the global rate path",
+          "headlineFull": "Central-bank week meets energy volatility; clouding the global rate path",
+          "intro": "Expectations for the Fed, BOJ and Bank of England intersect as oil prices continue to shape inflation and market pricing.",
+          "xiaziQuote": "Energy, inflation and rates form one chain; a shift in any link travels globally.",
+          "doudouQuote": "When one oil barrel sneezes, three central banks check the thermometer.",
+          "footerTakeaway": "Keyword: Global Markets."
+        }
+      },
+      "sources": [
+        {
+          "id": "6a6eb23e-9618-5360-9b7f-f5938971522a",
+          "topicId": "7e7e6ede-3d9b-51fc-8fe4-ae73a7df604d",
+          "title": "Take Five: A crude summer",
+          "publisher": "Reuters",
+          "url": "https://www.investing.com/news/economy-news/take-five-a-crude-summer-4813111",
+          "publishedAt": "2026-07-29T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
         }
