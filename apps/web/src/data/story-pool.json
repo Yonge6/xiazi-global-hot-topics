@@ -1805,11 +1805,11 @@
   {
     "storyId": "us-iran-attack-pause-july-2026",
     "storyStatus": "followup",
-    "followupDay": 2,
+    "followupDay": 3,
     "informationIncrementScore": 90,
     "firstSeenDate": "2026-07-27",
-    "lastSeenDate": "2026-07-27",
-    "lastIssueDate": "2026-07-27",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
     "lastTopicSlug": "us-iran-two-night-attack-pause",
     "slug": "us-iran-two-night-attack-pause"
   },
@@ -1845,5 +1845,82 @@
     "lastIssueDate": "2026-07-27",
     "lastTopicSlug": "mount-olympus-dday-unesco-list",
     "slug": "mount-olympus-dday-unesco-list"
+  },
+  {
+    "storyId": "refugee-convention-75-anniversary-2026",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 97,
+    "firstSeenDate": "2026-07-28",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
+    "lastTopicSlug": "refugee-convention-75-anniversary",
+    "slug": "refugee-convention-75-anniversary"
+  },
+  {
+    "storyId": "eu-ai-omnibus-enters-force-2026",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 96,
+    "firstSeenDate": "2026-07-28",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
+    "lastTopicSlug": "eu-ai-omnibus-enters-force",
+    "slug": "eu-ai-omnibus-enters-force"
+  },
+  {
+    "storyId": "score-one-person-empire-course-2026",
+    "storyStatus": "followup",
+    "followupDay": 2,
+    "informationIncrementScore": 80,
+    "firstSeenDate": "2026-07-28",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
+    "lastTopicSlug": "score-one-person-empire-course",
+    "slug": "score-one-person-empire-course"
+  },
+  {
+    "storyId": "world-hepatitis-day-2026",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 94,
+    "firstSeenDate": "2026-07-28",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
+    "lastTopicSlug": "world-hepatitis-day-2026",
+    "slug": "world-hepatitis-day-2026"
+  },
+  {
+    "storyId": "pakistan-monsoon-death-toll-100-2026",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 93,
+    "firstSeenDate": "2026-07-28",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
+    "lastTopicSlug": "pakistan-monsoon-death-toll-100",
+    "slug": "pakistan-monsoon-death-toll-100"
+  },
+  {
+    "storyId": "brazil-amazonia-theaters-world-heritage-2026",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 91,
+    "firstSeenDate": "2026-07-28",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
+    "lastTopicSlug": "brazil-amazonia-theaters-world-heritage",
+    "slug": "brazil-amazonia-theaters-world-heritage"
+  },
+  {
+    "storyId": "six-world-heritage-sites-in-danger-2026",
+    "storyStatus": "new",
+    "followupDay": 1,
+    "informationIncrementScore": 89,
+    "firstSeenDate": "2026-07-28",
+    "lastSeenDate": "2026-07-28",
+    "lastIssueDate": "2026-07-28",
+    "lastTopicSlug": "six-world-heritage-sites-in-danger",
+    "slug": "six-world-heritage-sites-in-danger"
   }
 ]
