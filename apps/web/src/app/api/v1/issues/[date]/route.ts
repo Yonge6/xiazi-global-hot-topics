@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import { CONTENT_CACHE_CONTROL } from "@/lib/cache/public-cache";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
 
 export const dynamic = "force-dynamic";
@@ -16,7 +17,7 @@ export async function GET(_request: Request, context: { params: Promise<{ date: 
     if (!issue) return NextResponse.json({ message: "Issue not found" }, { status: 404 });
     return NextResponse.json(
       { issue },
-      { headers: { "Cache-Control": "no-store, no-cache, must-revalidate" } },
+      { headers: { "Cache-Control": CONTENT_CACHE_CONTROL } },
     );
   } catch (error) {
     return NextResponse.json(

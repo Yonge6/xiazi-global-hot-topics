@@ -1,8 +1,7 @@
 import { NextResponse } from "next/server";
 
+import { CONTENT_CACHE_CONTROL } from "@/lib/cache/public-cache";
 import { getContentRepository } from "@/server/repositories/get-content-repository";
-
-const NO_STORE = "no-store, no-cache, must-revalidate";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -23,7 +22,7 @@ export async function GET(request: Request) {
           assetVersion: repositoryIssue.assetVersion || repositoryIssue.beijingTimestamp || date,
           source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
         }, {
-          headers: { "Cache-Control": NO_STORE },
+          headers: { "Cache-Control": CONTENT_CACHE_CONTROL },
         });
       }
       return NextResponse.json({ message: "Archive not found" }, { status: 404 });
@@ -35,10 +34,10 @@ export async function GET(request: Request) {
         issues: repositoryIssues.map((issue) => issue.issueDate),
         source: process.env.CONTENT_REPOSITORY === "supabase" ? "supabase" : "repository",
       }, {
-        headers: { "Cache-Control": NO_STORE },
+        headers: { "Cache-Control": CONTENT_CACHE_CONTROL },
       });
     }
-    return NextResponse.json({ issues: [] }, { headers: { "Cache-Control": NO_STORE } });
+    return NextResponse.json({ issues: [] }, { headers: { "Cache-Control": CONTENT_CACHE_CONTROL } });
   } catch {
     return NextResponse.json({ message: "Archive unavailable" }, { status: 500 });
   }

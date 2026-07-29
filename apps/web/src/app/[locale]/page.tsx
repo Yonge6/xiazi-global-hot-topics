@@ -16,7 +16,7 @@ import { getContentRepository } from "@/server/repositories/get-content-reposito
 import { releaseV2Enabled } from "@/server/releases/release-runtime";
 import { PUBLICATION_DISPLAY_TIME } from "@/lib/site/publication-display";
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return [{ locale: "zh" }, { locale: "en" }];

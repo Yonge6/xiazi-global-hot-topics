@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import { CONTENT_CACHE_CONTROL } from "@/lib/cache/public-cache";
 import { loadLatestProductionIssue } from "@/server/json/production-json-source";
 import { contentChecksum } from "@/server/content-sync/issue-bundle";
 import { loadActivePublication } from "@/server/releases/release-service";
@@ -20,7 +21,7 @@ export async function GET() {
         ...active.metadata,
       }, {
         headers: {
-          "Cache-Control": "no-store, no-cache, must-revalidate",
+          "Cache-Control": CONTENT_CACHE_CONTROL,
           "X-Content-Source": active.metadata.dataSource,
           "X-Release-Id": active.metadata.releaseId,
           "X-Content-Hash": active.metadata.contentHash,
@@ -84,7 +85,7 @@ export async function GET() {
       assetVersion: issue.assetVersion || issue.beijingTimestamp || issue.issueDate,
     }, {
       headers: {
-        "Cache-Control": "no-store, no-cache, must-revalidate",
+        "Cache-Control": CONTENT_CACHE_CONTROL,
         "X-Content-Source": source,
       },
     });
