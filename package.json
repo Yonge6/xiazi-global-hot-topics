@@ -36,6 +36,7 @@
     "check": "turbo check && node --test scripts/tests/local-poster-retention.test.mjs scripts/tests/archive-issue-consistency.test.mjs scripts/tests/remote-file-fetch.test.mjs",
     "posters:cleanup:local": "node scripts/cleanup-local-poster-cache.mjs --retain 3 --apply",
     "posters:cleanup:preview": "node scripts/cleanup-local-poster-cache.mjs --retain 3",
+    "publication:preflight": "tsx scripts/preflight-daily-publication.ts",
     "posters:verify:remote": "node scripts/verify-daily-release.mjs --remote-archive --today",
     "web:dev": "npm run dev -w @xiazi/web",
     "posters:default": "npm run posters:default -w @xiazi/web"
