@@ -1,23 +1,23 @@
 {
-  "id": "050aa211-7119-525b-8f31-b18771526a6a",
-  "slug": "2026-08-03",
-  "issueDate": "2026-08-03",
-  "assetVersion": "asset-20260803-thai-temple-mural",
+  "id": "356898d1-a606-5217-9eb7-553002d7af7e",
+  "slug": "2026-08-04",
+  "issueDate": "2026-08-04",
+  "assetVersion": "asset-20260804-byzantine-icon",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-08-03T05:00:00+08:00",
-  "gmtTimestamp": "2026-08-02T21:00:00.000Z",
-  "featuredTopicId": "1632d32d-09d6-533d-a4d2-44fccfd84c0d",
+  "beijingTimestamp": "2026-08-04T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-03T21:00:00.000Z",
+  "featuredTopicId": "2d18e463-749d-5dba-8dc9-3a6543dff062",
   "style": {
-    "name": "Thai Temple Mural",
-    "zhName": "泰国寺庙壁画风格",
-    "description": "Style Atlas #70: temple mural narrative, gold ornament, mineral colors, layered architecture and panoramic storytelling."
+    "name": "Byzantine Icon",
+    "zhName": "拜占庭圣像风格",
+    "description": "Style Atlas #71: gold ground, frontal symbolic figures, jewel-like color, solemn symmetry and mosaic-like sacred visual order."
   },
   "topics": [
     {
-      "id": "1632d32d-09d6-533d-a4d2-44fccfd84c0d",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "today-overview-transparency-trade-resilience",
+      "id": "2d18e463-749d-5dba-8dc9-3a6543dff062",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "today-overview-rules-infrastructure-resilience",
       "rank": 1,
       "category": "international",
       "region": "Global",
@@ -26,52 +26,52 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-today-overview-transparency-trade-resilience-20260803",
+      "storyId": "xzs-today-overview-rules-infrastructure-resilience-20260804",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 97,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "透明、贸易与韧性成为共同主线",
-          "headlineView": "增长系统进入治理期",
-          "headlineFull": "透明、贸易与韧性成为共同主线；增长系统进入治理期",
-          "intro": "AI透明义务、跨境平台规则、单人创业、气候健康、月球空间碎片与数字贸易共同提醒：增长必须配套治理。",
-          "xiaziQuote": "真正可靠的增长，不只看速度，也看规则、信任与系统承载力。",
-          "doudouQuote": "今天的关键词不是更快，而是跑得更稳。",
+          "headlineFact": "规则、基础设施与韧性成为共同主线",
+          "headlineView": "增长正在补齐运行底座",
+          "headlineFull": "规则、基础设施与韧性成为共同主线；增长正在补齐运行底座",
+          "intro": "小包裹关税、AI透明、单人企业税务、空间站维护、气候与公共卫生共同显示：新增长必须建立可持续的运行底座。",
+          "xiaziQuote": "真正长期的增长，不只靠新机会，也靠清晰规则、可靠设施与可复用流程。",
+          "doudouQuote": "跑得快之前，先把路、护栏和维修站建好。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Today Overview",
-          "headlineFact": "Transparency, trade and resilience converge",
-          "headlineView": "growth systems enter a governance phase",
-          "headlineFull": "Transparency, trade and resilience converge; growth systems enter a governance phase",
-          "intro": "AI transparency duties, platform rules, solo entrepreneurship, climate health, lunar debris and digital trade show that growth needs governance.",
-          "xiaziQuote": "Reliable growth is measured not only by speed, but by rules, trust and system capacity.",
-          "doudouQuote": "Today's keyword is not faster, but steadier.",
+          "headlineFact": "Rules, infrastructure and resilience converge",
+          "headlineView": "growth is rebuilding its operating foundations",
+          "headlineFull": "Rules, infrastructure and resilience converge; growth is rebuilding its operating foundations",
+          "intro": "Small-parcel duties, AI transparency, solo-business tax, station maintenance, climate and public health show that new growth needs durable foundations.",
+          "xiaziQuote": "Long-term growth needs not only opportunities, but clear rules, reliable infrastructure and reusable processes.",
+          "doudouQuote": "Before going faster, build the road, guardrails and repair stations.",
           "footerTakeaway": "Keyword: Today Overview."
         }
       },
       "sources": [
         {
-          "id": "61389f1d-e4b7-51cd-939f-4d477d4a9a72",
-          "topicId": "1632d32d-09d6-533d-a4d2-44fccfd84c0d",
-          "title": "Rethinking security for the age of AI",
-          "publisher": "Microsoft",
-          "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-          "publishedAt": "2026-08-03T00:00:00Z",
+          "id": "cd0cd234-12f3-5fac-96b9-a05f24e8a532",
+          "topicId": "2d18e463-749d-5dba-8dc9-3a6543dff062",
+          "title": "China to expand cross-customs return policy for e-commerce exports",
+          "publisher": "The State Council of China",
+          "url": "https://english.www.gov.cn/news/202603/15/content_WS69b60842c6d00ca5f9a09e4b.html",
+          "publishedAt": "2026-08-04T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "90b18fdf-4aaa-5bbb-b9a5-e7355fcb01a0",
-          "topicId": "1632d32d-09d6-533d-a4d2-44fccfd84c0d",
-          "title": "Electronic Commerce and Digital technologies",
+          "id": "130d5eee-4d51-572f-ac7c-82dc34fcfb3c",
+          "topicId": "2d18e463-749d-5dba-8dc9-3a6543dff062",
+          "title": "Members discuss preparations to bring E-Commerce Agreement into force by mid-2027",
           "publisher": "World Trade Organization",
-          "url": "https://www.wto.org/english/tratop_e/ecom_e/ecom_e.htm",
-          "publishedAt": "2026-08-03T00:00:00Z",
+          "url": "https://www.wto.org/english/news_e/news26_e/jsec_09jun26_414_e.htm",
+          "publishedAt": "2026-08-04T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -80,109 +80,53 @@
       ]
     },
     {
-      "id": "97890de4-da74-5358-9d28-ca028a1a58e3",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "shopify-vape-removal-policy",
+      "id": "dba51bd2-c61c-5aea-9486-34fff0982f83",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "eu-small-parcel-customs-duty",
       "rank": 2,
       "category": "business",
-      "region": "Global",
+      "region": "Europe",
       "countryCodes": [
-        "CA",
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "xzs-shopify-vape-removal-policy-20260803",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 95,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "跨境电商",
-          "headlineFact": "Shopify要求商家下架电子烟产品",
-          "headlineView": "独立站也进入更强平台合规期",
-          "headlineFull": "Shopify要求商家下架电子烟产品；独立站也进入更强平台合规期",
-          "intro": "Shopify的新政策覆盖全部电子烟产品；卖家需重查商品目录、支付、广告、库存与当地法规的联动风险。",
-          "xiaziQuote": "独立站不等于规则真空，平台基础设施会把合规直接写进经营边界。",
-          "doudouQuote": "商品能上架，不代表它还能收款、投放和履约。",
-          "footerTakeaway": "今日关键词：跨境电商。"
-        },
-        "en-US": {
-          "categoryLabel": "Cross-border E-commerce",
-          "headlineFact": "Shopify tells merchants to remove vape products",
-          "headlineView": "independent stores face tighter platform compliance",
-          "headlineFull": "Shopify tells merchants to remove vape products; independent stores face tighter platform compliance",
-          "intro": "Shopify's policy covers all vape products, requiring sellers to review catalog, payments, ads, inventory and local-law exposure together.",
-          "xiaziQuote": "An independent store is not a rules vacuum; infrastructure platforms encode compliance into operations.",
-          "doudouQuote": "A product being listed does not mean it can still be paid, promoted and shipped.",
-          "footerTakeaway": "Keyword: Cross-border E-commerce."
-        }
-      },
-      "sources": [
-        {
-          "id": "19c9f3dc-f969-57fa-8eed-9f816773d5d8",
-          "topicId": "97890de4-da74-5358-9d28-ca028a1a58e3",
-          "title": "Shopify Acceptable Use Policy",
-          "publisher": "Shopify",
-          "url": "https://www.shopify.com/legal/aup",
-          "publishedAt": "2026-08-03T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "d5ec4716-1938-5267-8b1e-5e881358841c",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "microsoft-project-perception-preview",
-      "rank": 3,
-      "category": "technology",
-      "region": "Global",
-      "countryCodes": [
-        "US"
+        "EU"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 96,
-      "storyId": "xzs-microsoft-project-perception-preview-20260803",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-small-parcel-customs-duty-20260804",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 96,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "人工智能 AI",
-          "headlineFact": "微软Project Perception进入公开预览",
-          "headlineView": "智能体安全开始理解环境",
-          "headlineFull": "微软Project Perception进入公开预览；智能体安全开始理解环境",
-          "intro": "微软把面向AI时代的智能体安全系统推向公开预览，强调持续感知、关联风险并协同响应。",
-          "xiaziQuote": "智能体越能行动，安全系统就越需要理解上下文，而不只是拦截单个事件。",
-          "doudouQuote": "会做事的AI，也需要一个会看全局的保安。",
-          "footerTakeaway": "今日关键词：人工智能 AI。"
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟低价值小包裹将征收3欧元关税",
+          "headlineView": "低价直邮成本模型需要重算",
+          "headlineFull": "欧盟低价值小包裹将征收3欧元关税；低价直邮成本模型需要重算",
+          "intro": "欧盟通过新规则，计划自2026年7月起对直接寄给消费者、价值低于150欧元的小包裹按商品类别征收3欧元关税。",
+          "xiaziQuote": "跨境卖家要把关税、拆包方式、客单价和履约路线放进同一张利润表。",
+          "doudouQuote": "每包多3欧元，选品和合单策略都会变。",
+          "footerTakeaway": "今日关键词：跨境电商。"
         },
         "en-US": {
-          "categoryLabel": "Artificial Intelligence AI",
-          "headlineFact": "Microsoft Project Perception enters public preview",
-          "headlineView": "agentic security starts reading the environment",
-          "headlineFull": "Microsoft Project Perception enters public preview; agentic security starts reading the environment",
-          "intro": "Microsoft is moving an AI-era agentic security system into public preview, focused on continuous perception, risk correlation and coordinated response.",
-          "xiaziQuote": "As agents gain agency, security must understand context instead of blocking isolated events.",
-          "doudouQuote": "An AI that can act needs a guard that can see the whole scene.",
-          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "EU adds a EUR3 duty to low-value parcels",
+          "headlineView": "direct-shipping economics need recalculation",
+          "headlineFull": "EU adds a EUR3 duty to low-value parcels; direct-shipping economics need recalculation",
+          "intro": "The EU adopted rules applying a EUR3 duty per item category to parcels under EUR150 sent directly to consumers from July 2026.",
+          "xiaziQuote": "Cross-border sellers must model duty, parcel structure, basket size and fulfillment route in one margin calculation.",
+          "doudouQuote": "Three euros per category can change both assortment and consolidation.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
         }
       },
       "sources": [
         {
-          "id": "99ff9bc4-b10f-51ce-97ca-e977624c0ada",
-          "topicId": "d5ec4716-1938-5267-8b1e-5e881358841c",
-          "title": "Rethinking security for the age of AI",
-          "publisher": "Microsoft",
-          "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-          "publishedAt": "2026-08-03T00:00:00Z",
+          "id": "a3797ab3-0124-5d74-a1cd-85648ceb5e14",
+          "topicId": "dba51bd2-c61c-5aea-9486-34fff0982f83",
+          "title": "WCO Framework of Standards on Cross-Border E-Commerce",
+          "publisher": "World Customs Organization",
+          "url": "https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/frameworks-of-standards/ecommerce.aspx",
+          "publishedAt": "2026-08-04T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -191,65 +135,10 @@
       ]
     },
     {
-      "id": "23755d0c-1fe1-5a56-8456-3d512fef03d9",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "one-person-empire-operating-system",
-      "rank": 4,
-      "category": "business",
-      "region": "Global",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "xzs-one-person-empire-operating-system-20260803",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 92,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "一人公司 OPC",
-          "headlineFact": "一人企业转向多收入与轻技术栈",
-          "headlineView": "关键是系统化而非独自硬扛",
-          "headlineFull": "一人企业转向多收入与轻技术栈；关键是系统化而非独自硬扛",
-          "intro": "SBA合作活动把辅导、会员、数字产品与赞助列为多收入路径，并强调用AI、自动化和自由职业者降低固定开销。",
-          "xiaziQuote": "一人公司不是一个人做完所有事，而是让系统接住重复工作。",
-          "doudouQuote": "员工可以少，流程不能少。",
-          "footerTakeaway": "今日关键词：一人公司 OPC。"
-        },
-        "en-US": {
-          "categoryLabel": "One-person Company OPC",
-          "headlineFact": "Solo businesses shift to multiple income streams",
-          "headlineView": "the advantage is systems, not carrying everything alone",
-          "headlineFull": "Solo businesses shift to multiple income streams; the advantage is systems, not carrying everything alone",
-          "intro": "An SBA partner session highlights coaching, memberships, digital products and sponsorships, using AI, automation and freelancers to keep overhead lean.",
-          "xiaziQuote": "A one-person company does not do everything alone; systems absorb repeatable work.",
-          "doudouQuote": "The team can be small, but the process cannot be missing.",
-          "footerTakeaway": "Keyword: One-person Company OPC."
-        }
-      },
-      "sources": [
-        {
-          "id": "19c28109-e169-55ee-a214-7509678d6ec1",
-          "topicId": "23755d0c-1fe1-5a56-8456-3d512fef03d9",
-          "title": "One-Person Empire: How to Build a Six-Figure Business in 2026",
-          "publisher": "U.S. Small Business Administration",
-          "url": "https://www.sba.gov/event/86278",
-          "publishedAt": "2026-08-03T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "b8e5f53b-7b14-5095-8053-6d0e0fea9823",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "eu-ai-transparency-obligations",
-      "rank": 5,
+      "id": "a1a50748-541d-5c19-9f8a-436f20550baa",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "eu-ai-transparency-goes-live",
+      "rank": 3,
       "category": "technology",
       "region": "Europe",
       "countryCodes": [
@@ -258,41 +147,41 @@
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-eu-ai-transparency-obligations-20260803",
+      "scoreTotal": 96,
+      "storyId": "xzs-eu-ai-transparency-goes-live-20260804",
       "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 94,
+      "followupDay": 3,
+      "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "AI治理",
-          "headlineFact": "欧盟AI透明义务进入实施窗口",
-          "headlineView": "生成内容需要主动说明身份",
-          "headlineFull": "欧盟AI透明义务进入实施窗口；生成内容需要主动说明身份",
-          "intro": "自8月2日起，面向欧盟用户的部分AI交互、生成或操纵内容需提供更清晰披露，产品团队应前置标识与溯源。",
-          "xiaziQuote": "透明不该是发布后的水印，而应成为输出链路的一部分。",
-          "doudouQuote": "先让内容说明自己从哪里来。",
-          "footerTakeaway": "今日关键词：AI治理。"
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "欧盟AI透明义务进入生效后的首周",
+          "headlineView": "生成内容披露成为产品功能",
+          "headlineFull": "欧盟AI透明义务进入生效后的首周；生成内容披露成为产品功能",
+          "intro": "自8月2日起，部分AI交互以及生成或操纵内容面向欧盟用户时需要更清晰的身份披露、标识与来源说明。",
+          "xiaziQuote": "透明不是发布末端补一枚水印，而是模型输出、界面和审计链共同承担的产品能力。",
+          "doudouQuote": "让AI内容先说明自己是谁、从哪里来。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
         },
         "en-US": {
-          "categoryLabel": "AI Governance",
-          "headlineFact": "EU AI transparency duties enter implementation",
-          "headlineView": "generated content must identify itself",
-          "headlineFull": "EU AI transparency duties enter implementation; generated content must identify itself",
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "EU AI transparency duties enter their first week",
+          "headlineView": "disclosure becomes a product feature",
+          "headlineFull": "EU AI transparency duties enter their first week; disclosure becomes a product feature",
           "intro": "From August 2, certain AI interactions and generated or manipulated content shown to EU users require clearer disclosure, marking and provenance.",
-          "xiaziQuote": "Transparency should not be a post-release watermark; it belongs in the output chain.",
-          "doudouQuote": "First let content explain where it came from.",
-          "footerTakeaway": "Keyword: AI Governance."
+          "xiaziQuote": "Transparency is not a final watermark; it is a product capability spanning model output, interface and audit trail.",
+          "doudouQuote": "Let AI content say what it is and where it came from.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
         }
       },
       "sources": [
         {
-          "id": "df70031f-c07f-58cc-b29b-defc9253df9a",
-          "topicId": "b8e5f53b-7b14-5095-8053-6d0e0fea9823",
+          "id": "84033f3d-bc44-5ca8-adf6-cdef4923ad6c",
+          "topicId": "a1a50748-541d-5c19-9f8a-436f20550baa",
           "title": "Commission opens consultation on draft guidelines for AI transparency obligations",
           "publisher": "European Commission",
           "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations",
-          "publishedAt": "2026-08-03T00:00:00Z",
+          "publishedAt": "2026-08-04T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -301,51 +190,218 @@
       ]
     },
     {
-      "id": "0628fb23-a1df-54ba-9cd6-a08e78ebd6ce",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "lunar-space-debris-warning",
-      "rank": 6,
+      "id": "1aaf4b05-5d7e-52f4-b866-1dd97045ef29",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "single-member-llc-tax-operating-system",
+      "rank": 4,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-single-member-llc-tax-operating-system-20260804",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "美国税局更新单成员LLC办税说明",
+          "headlineView": "一人公司先搭合规操作系统",
+          "headlineFull": "美国税局更新单成员LLC办税说明；一人公司先搭合规操作系统",
+          "intro": "IRS说明单成员LLC通常按忽略实体处理，但雇佣税和部分消费税仍以独立实体申报，经营者需分清税务身份与责任。",
+          "xiaziQuote": "一人公司越轻，账户、税种、合同与记录越要提前模块化。",
+          "doudouQuote": "人可以只有一个，账本不能只有一本糊涂账。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "IRS refreshes single-member LLC tax guidance",
+          "headlineView": "solo firms need a compliance operating system",
+          "headlineFull": "IRS refreshes single-member LLC tax guidance; solo firms need a compliance operating system",
+          "intro": "The IRS says a single-member LLC is usually disregarded for income tax, while employment and certain excise taxes still use separate-entity treatment.",
+          "xiaziQuote": "The leaner the company, the more deliberately accounts, taxes, contracts and records should be modularized.",
+          "doudouQuote": "One owner is fine; one confused ledger is not.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "3ae374aa-ce48-5f6e-b822-2f1e9e2e2f09",
+          "topicId": "1aaf4b05-5d7e-52f4-b866-1dd97045ef29",
+          "title": "Single member limited liability companies",
+          "publisher": "Internal Revenue Service",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/single-member-limited-liability-companies",
+          "publishedAt": "2026-08-04T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a99413e5-e660-5568-b60c-9ba959600abb",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "nasa-three-august-spacewalks",
+      "rank": 5,
       "category": "science",
-      "region": "Moon",
-      "countryCodes": [],
+      "region": "Low Earth Orbit",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-nasa-three-august-spacewalks-20260804",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "空间站",
+          "headlineFact": "NASA准备8月三次空间站太空行走",
+          "headlineView": "轨道基础设施进入密集维护期",
+          "headlineFull": "NASA准备8月三次空间站太空行走；轨道基础设施进入密集维护期",
+          "intro": "NASA将直播三次美国太空行走，任务涉及空间站外部维护与升级，首场计划于8月6日展开。",
+          "xiaziQuote": "太空探索的日常，不只是在发射台上突破，也是在轨道上持续检修。",
+          "doudouQuote": "能长期住在太空，靠的是一次次把螺丝拧紧。",
+          "footerTakeaway": "今日关键词：空间站。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Station",
+          "headlineFact": "NASA prepares three August spacewalks",
+          "headlineView": "orbital infrastructure enters intensive maintenance",
+          "headlineFull": "NASA prepares three August spacewalks; orbital infrastructure enters intensive maintenance",
+          "intro": "NASA plans live coverage of three U.S. spacewalks for station maintenance and upgrades, with the first scheduled for August 6.",
+          "xiaziQuote": "Space exploration advances not only at launch, but through continuous repair and upgrading in orbit.",
+          "doudouQuote": "Living in space depends on tightening the next bolt.",
+          "footerTakeaway": "Keyword: Space Station."
+        }
+      },
+      "sources": [
+        {
+          "id": "7e4c9130-a076-5bff-b313-bdf522be79ed",
+          "topicId": "a99413e5-e660-5568-b60c-9ba959600abb",
+          "title": "International Space Station",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station",
+          "publishedAt": "2026-08-04T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "b16615f2-4aa3-5aa7-8787-b28db0a6c1d7",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "galileo-satellites-enter-service",
+      "rank": 6,
+      "category": "technology",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 93,
-      "storyId": "xzs-lunar-space-debris-warning-20260803",
+      "storyId": "xzs-galileo-satellites-enter-service-20260804",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "卫星导航",
+          "headlineFact": "两颗新伽利略卫星正式投入服务",
+          "headlineView": "欧洲导航星座继续扩容",
+          "headlineFull": "两颗新伽利略卫星正式投入服务；欧洲导航星座继续扩容",
+          "intro": "欧洲航天局宣布两颗新伽利略卫星进入服务，为全球用户增强定位、导航和授时能力，并提升星座整体韧性。",
+          "xiaziQuote": "关键基础设施的进步，常不是一次惊艳发布，而是持续增加覆盖、冗余与可靠性。",
+          "doudouQuote": "多两颗星，地面上的路线就多一层把握。",
+          "footerTakeaway": "今日关键词：卫星导航。"
+        },
+        "en-US": {
+          "categoryLabel": "Satellite Navigation",
+          "headlineFact": "Two new Galileo satellites enter service",
+          "headlineView": "Europe expands its navigation constellation",
+          "headlineFull": "Two new Galileo satellites enter service; Europe expands its navigation constellation",
+          "intro": "ESA says two new Galileo satellites have entered service, strengthening positioning, navigation and timing for users worldwide and adding resilience.",
+          "xiaziQuote": "Critical infrastructure improves through steady gains in coverage, redundancy and reliability, not only dramatic launches.",
+          "doudouQuote": "Two more satellites give routes on Earth another layer of confidence.",
+          "footerTakeaway": "Keyword: Satellite Navigation."
+        }
+      },
+      "sources": [
+        {
+          "id": "ce73bcd8-d729-5045-897b-fbb96f2df9b5",
+          "topicId": "b16615f2-4aa3-5aa7-8787-b28db0a6c1d7",
+          "title": "Two new Galileo satellites enter service",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/",
+          "publishedAt": "2026-08-04T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "78c2c4de-617c-5d03-bcec-6df0d41861e7",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "sri-lanka-trans-fat-lab-readiness",
+      "rank": 7,
+      "category": "science",
+      "region": "South Asia",
+      "countryCodes": [
+        "LK"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-sri-lanka-trans-fat-lab-readiness-20260804",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 89,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "月球空间",
-          "headlineFact": "废弃火箭级预计撞击月球",
-          "headlineView": "月球空间碎片治理升温",
-          "headlineFull": "废弃火箭级预计撞击月球；月球空间碎片治理升温",
-          "intro": "一枚废弃的Falcon 9上面级预计8月5日撞击月球，提醒各方建立更好的深空物体追踪与处置责任。",
-          "xiaziQuote": "人类活动走向月球，治理边界也必须跟着离开近地轨道。",
-          "doudouQuote": "太空很大，但废弃物最终还是会撞上东西。",
-          "footerTakeaway": "今日关键词：月球空间。"
+          "categoryLabel": "公共健康",
+          "headlineFact": "斯里兰卡为反式脂肪监管强化实验室能力",
+          "headlineView": "食品规则需要检测能力落地",
+          "headlineFull": "斯里兰卡为反式脂肪监管强化实验室能力；食品规则需要检测能力落地",
+          "intro": "WHO记录斯里兰卡在反式脂肪监管实施前加强实验室检测与质量能力，让食品政策从标准走向可执行。",
+          "xiaziQuote": "公共健康规则只有配上可测量、可追踪的能力，才真正进入现实。",
+          "doudouQuote": "写下限值之后，还要能在实验室里测出来。",
+          "footerTakeaway": "今日关键词：公共健康。"
         },
         "en-US": {
-          "categoryLabel": "Lunar Space",
-          "headlineFact": "Discarded rocket stage is expected to hit the Moon",
-          "headlineView": "lunar debris governance gains urgency",
-          "headlineFull": "Discarded rocket stage is expected to hit the Moon; lunar debris governance gains urgency",
-          "intro": "A discarded Falcon 9 upper stage is expected to strike the Moon on August 5, highlighting deep-space tracking and disposal responsibilities.",
-          "xiaziQuote": "As human activity reaches the Moon, governance must move beyond low Earth orbit too.",
-          "doudouQuote": "Space is vast, but discarded objects still hit something eventually.",
-          "footerTakeaway": "Keyword: Lunar Space."
+          "categoryLabel": "Public Health",
+          "headlineFact": "Sri Lanka strengthens labs for trans-fat rules",
+          "headlineView": "food standards need enforcement capacity",
+          "headlineFull": "Sri Lanka strengthens labs for trans-fat rules; food standards need enforcement capacity",
+          "intro": "WHO reports Sri Lanka is strengthening laboratory testing and quality capacity ahead of trans-fat regulation implementation.",
+          "xiaziQuote": "Public-health rules become real only when they are measurable, traceable and enforceable.",
+          "doudouQuote": "After setting a limit, laboratories must be able to measure it.",
+          "footerTakeaway": "Keyword: Public Health."
         }
       },
       "sources": [
         {
-          "id": "3da9a0dc-54b8-57ca-b27d-9b9b2d560188",
-          "topicId": "0628fb23-a1df-54ba-9cd6-a08e78ebd6ce",
-          "title": "NASA Orbital Debris Program Office",
-          "publisher": "NASA",
-          "url": "https://orbitaldebris.jsc.nasa.gov/",
-          "publishedAt": "2026-08-03T00:00:00Z",
+          "id": "7fe1abf1-e9db-5774-b635-bdf0026127e3",
+          "topicId": "78c2c4de-617c-5d03-bcec-6df0d41861e7",
+          "title": "Sri Lanka strengthens laboratory capacity ahead of trans-fat regulation implementation",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/srilanka/news/detail/27-07-2026-sri-lanka-strengthens-laboratory-capacity-ahead-of-trans-fat-regulation-implementation",
+          "publishedAt": "2026-08-04T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -354,62 +410,9 @@
       ]
     },
     {
-      "id": "2eb67910-434f-5eb4-9986-9712cd06c01b",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "climate-health-action",
-      "rank": 7,
-      "category": "climate",
-      "region": "Europe",
-      "countryCodes": [],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-climate-health-action-20260803",
-      "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "气候与健康",
-          "headlineFact": "欧洲升温速度约为全球两倍",
-          "headlineView": "气候政策也是健康政策",
-          "headlineFull": "欧洲升温速度约为全球两倍；气候政策也是健康政策",
-          "intro": "WHO欧洲强调，清洁能源、能效、医疗准备与公平转型应被视为同一套综合健康韧性工程。",
-          "xiaziQuote": "气候行动的回报，不只在温度曲线，也在今天减少的疾病与能源风险。",
-          "doudouQuote": "降温和保健康，本来就是同一张任务单。",
-          "footerTakeaway": "今日关键词：气候与健康。"
-        },
-        "en-US": {
-          "categoryLabel": "Climate and Health",
-          "headlineFact": "Europe is warming at about twice the global rate",
-          "headlineView": "climate policy is health policy",
-          "headlineFull": "Europe is warming at about twice the global rate; climate policy is health policy",
-          "intro": "WHO Europe links clean energy, efficiency, health-system readiness and a fair transition as one resilience agenda.",
-          "xiaziQuote": "Climate action pays back not only on temperature charts, but in illness and energy risks avoided today.",
-          "doudouQuote": "Cooling the climate and protecting health belong on the same task list.",
-          "footerTakeaway": "Keyword: Climate and Health."
-        }
-      },
-      "sources": [
-        {
-          "id": "3bd7b460-da46-5346-9c9c-5e812a8c8bea",
-          "topicId": "2eb67910-434f-5eb4-9986-9712cd06c01b",
-          "title": "Climate change is a health crisis and fixing it is a health opportunity",
-          "publisher": "World Health Organization Europe",
-          "url": "https://www.who.int/europe/news/item/17-05-2026-climate-change-is-a-health-crisis---and-fixing-it-is-a-health-opportunity",
-          "publishedAt": "2026-08-03T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "1b1ea496-eb21-5982-bb9b-223ce9792df5",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "wto-ecommerce-ratification",
+      "id": "c94001e1-5cbf-5b43-aa47-116851f33338",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "wto-ecommerce-interim-pathway",
       "rank": 8,
       "category": "business",
       "region": "Global",
@@ -418,40 +421,40 @@
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 91,
-      "storyId": "xzs-wto-ecommerce-ratification-20260803",
+      "storyId": "xzs-wto-ecommerce-interim-pathway-20260804",
       "storyStatus": "followup",
       "followupDay": 2,
-      "informationIncrementScore": 91,
+      "informationIncrementScore": 88,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "数字贸易",
-          "headlineFact": "WTO电商协议推进国内批准",
-          "headlineView": "全球数字规则转向落地",
-          "headlineFull": "WTO电商协议推进国内批准；全球数字规则转向落地",
-          "intro": "支持方正推进国内程序，目标让首套全球数字贸易基线规则在2027年中前进入生效准备。",
-          "xiaziQuote": "数字贸易的下一阶段，不是再讨论原则，而是把互操作规则真正装进流程。",
-          "doudouQuote": "协议写完只是开始，系统还要真的连起来。",
+          "headlineFact": "67个WTO成员推进电商协议临时实施",
+          "headlineView": "全球数字规则从谈判转向接入",
+          "headlineFull": "67个WTO成员推进电商协议临时实施；全球数字规则从谈判转向接入",
+          "intro": "参与方覆盖约70%的全球贸易，正通过国内程序和临时安排推动首套全球数字贸易基线规则落地。",
+          "xiaziQuote": "数字贸易协议的价值，要在电子签名、无纸化和消费者信任真正接入业务流程后才释放。",
+          "doudouQuote": "规则写完之后，系统还要真的连起来。",
           "footerTakeaway": "今日关键词：数字贸易。"
         },
         "en-US": {
           "categoryLabel": "Digital Trade",
-          "headlineFact": "WTO e-commerce pact advances domestic ratification",
-          "headlineView": "global digital rules move toward implementation",
-          "headlineFull": "WTO e-commerce pact advances domestic ratification; global digital rules move toward implementation",
-          "intro": "Supporters are advancing domestic procedures for the first baseline global digital-trade rules, targeting readiness by mid-2027.",
-          "xiaziQuote": "Digital trade's next phase is putting interoperable rules into operating processes.",
-          "doudouQuote": "Writing the agreement is the start; the systems still have to connect.",
+          "headlineFact": "67 WTO members advance an interim e-commerce pathway",
+          "headlineView": "global digital rules move from talks to connection",
+          "headlineFull": "67 WTO members advance an interim e-commerce pathway; global digital rules move from talks to connection",
+          "intro": "Participants covering about 70% of global trade are using domestic procedures and interim arrangements to implement baseline digital-trade rules.",
+          "xiaziQuote": "Digital-trade rules create value when e-signatures, paperless trade and consumer trust enter real workflows.",
+          "doudouQuote": "After the rules are written, the systems still have to connect.",
           "footerTakeaway": "Keyword: Digital Trade."
         }
       },
       "sources": [
         {
-          "id": "bd66c8a8-1c8a-5194-b5e2-b7a9c145eb1e",
-          "topicId": "1b1ea496-eb21-5982-bb9b-223ce9792df5",
+          "id": "3b5fcad5-7d81-523b-a851-598041075db2",
+          "topicId": "c94001e1-5cbf-5b43-aa47-116851f33338",
           "title": "Members discuss preparations to bring E-Commerce Agreement into force by mid-2027",
           "publisher": "World Trade Organization",
           "url": "https://www.wto.org/english/news_e/news26_e/jsec_09jun26_414_e.htm",
-          "publishedAt": "2026-08-03T00:00:00Z",
+          "publishedAt": "2026-08-04T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -460,51 +463,51 @@
       ]
     },
     {
-      "id": "2142d271-1e44-5e49-9e88-5e3358d202f1",
-      "issueId": "050aa211-7119-525b-8f31-b18771526a6a",
-      "slug": "ai-enabling-goods-trade",
+      "id": "54da4853-b0ee-507d-8327-b4a848a90f31",
+      "issueId": "356898d1-a606-5217-9eb7-553002d7af7e",
+      "slug": "global-heat-risk-horizon",
       "rank": 9,
-      "category": "business",
+      "category": "climate",
       "region": "Global",
       "countryCodes": [],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 90,
-      "storyId": "xzs-ai-enabling-goods-trade-20260803",
+      "storyId": "xzs-global-heat-risk-horizon-20260804",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 88,
+      "informationIncrementScore": 87,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "全球贸易",
-          "headlineFact": "AI关键商品贸易规模达4.18万亿美元",
-          "headlineView": "算力扩张正在重塑货物流",
-          "headlineFull": "AI关键商品贸易规模达4.18万亿美元；算力扩张正在重塑货物流",
-          "intro": "WTO数据显示，2025年AI使能商品贸易同比增长21.9%，芯片、服务器与相关设备成为数字经济的实体底座。",
-          "xiaziQuote": "AI看似是软件浪潮，背后却是一场巨大的硬件、能源与物流重排。",
-          "doudouQuote": "云端智能，先要经过工厂、港口和机房。",
-          "footerTakeaway": "今日关键词：全球贸易。"
+          "categoryLabel": "全球气候",
+          "headlineFact": "未来五年至少一年刷新高温纪录概率达80%",
+          "headlineView": "高温韧性需要成为长期预算",
+          "headlineFull": "未来五年至少一年刷新高温纪录概率达80%；高温韧性需要成为长期预算",
+          "intro": "WMO预计2025至2029年至少一年超过2024年最热纪录的概率为80%，极端高温准备需从应急转向常态投资。",
+          "xiaziQuote": "当高温从异常变成高概率事件，城市、能源和企业都要把韧性写进年度预算。",
+          "doudouQuote": "不能每次热浪来临，才第一次打开应急预案。",
+          "footerTakeaway": "今日关键词：全球气候。"
         },
         "en-US": {
-          "categoryLabel": "Global Trade",
-          "headlineFact": "Trade in AI-enabling goods reaches $4.18 trillion",
-          "headlineView": "compute expansion reshapes physical flows",
-          "headlineFull": "Trade in AI-enabling goods reaches $4.18 trillion; compute expansion reshapes physical flows",
-          "intro": "WTO data show trade in AI-enabling goods grew 21.9% in 2025, with chips, servers and related equipment forming the physical base of the digital economy.",
-          "xiaziQuote": "AI looks like a software wave, but it rests on a vast reshaping of hardware, energy and logistics.",
-          "doudouQuote": "Cloud intelligence still travels through factories, ports and data centers.",
-          "footerTakeaway": "Keyword: Global Trade."
+          "categoryLabel": "Global Climate",
+          "headlineFact": "Record heat in at least one of five years is 80% likely",
+          "headlineView": "heat resilience belongs in recurring budgets",
+          "headlineFull": "Record heat in at least one of five years is 80% likely; heat resilience belongs in recurring budgets",
+          "intro": "WMO estimates an 80% chance that at least one year from 2025 to 2029 will surpass 2024 as the warmest on record.",
+          "xiaziQuote": "When extreme heat becomes probable, cities, energy systems and firms must budget for resilience every year.",
+          "doudouQuote": "Do not open the heat plan for the first time during the heatwave.",
+          "footerTakeaway": "Keyword: Global Climate."
         }
       },
       "sources": [
         {
-          "id": "8d85322c-a512-5f93-8593-f685a6d29286",
-          "topicId": "2142d271-1e44-5e49-9e88-5e3358d202f1",
-          "title": "Electronic Commerce and Digital technologies",
-          "publisher": "World Trade Organization",
-          "url": "https://www.wto.org/english/tratop_e/ecom_e/ecom_e.htm",
-          "publishedAt": "2026-08-03T00:00:00Z",
+          "id": "b4259c75-cebe-5619-a2ea-62b9dec0ef4d",
+          "topicId": "54da4853-b0ee-507d-8327-b4a848a90f31",
+          "title": "WMO Global Annual to Decadal Climate Update (2025-2029)",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/publication-series/wmo-global-annual-decadal-climate-update-2025-2029",
+          "publishedAt": "2026-08-04T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",

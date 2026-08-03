@@ -109,7 +109,7 @@ const compression = [];
 for (const locale of ["zh", "en"]) {
   for (let index = 0; index < stories.length; index += 1) {
     const number = String(index + 1).padStart(2, "0");
-    const posterPath = path.join(posterRoot, `${locale}-NO.${number}.png`);
+    const posterPath = path.join(posterRoot, locale, `NO.${number}.png`);
     const input = await fs.readFile(posterPath);
     const before = await sharp(input).metadata();
     const output = await sharp(input)
@@ -127,6 +127,17 @@ for (const locale of ["zh", "en"]) {
     }
     if (output.length <= input.length) {
       await fs.writeFile(posterPath, output);
+    }
+    const finalPoster = output.length <= input.length ? output : input;
+    for (const relativePath of [
+      `public/posters/${locale}/${stories[index].slug}.png`,
+      `public/archive/${issueDate}/posters/${locale}/${stories[index].slug}.png`,
+      `apps/web/public/posters/${locale}/${stories[index].slug}.png`,
+      `apps/web/public/archive/${issueDate}/posters/${locale}/${stories[index].slug}.png`,
+    ]) {
+      const outputPath = path.join(root, relativePath);
+      await fs.mkdir(path.dirname(outputPath), { recursive: true });
+      await fs.writeFile(outputPath, finalPoster);
     }
     compression.push({
       locale,
