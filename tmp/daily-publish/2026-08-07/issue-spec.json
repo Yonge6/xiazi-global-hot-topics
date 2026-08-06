@@ -1,0 +1,331 @@
+{
+  "issueDate": "2026-08-07",
+  "assetVersion": "2026-08-07",
+  "style": {
+    "name": "West African Textile Pattern",
+    "zhName": "西非织物纹样",
+    "description": "Style Atlas daily pick: contemporary editorial translation of woven geometric rhythm, indigo, ochre, terracotta and cream, without copying sacred motifs or a specific living artist."
+  },
+  "stories": [
+    {
+      "slug": "today-overview-rules-capacity-culture",
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "storyId": "xzs-today-overview-rules-capacity-culture-20260807",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "zh": {
+        "categoryLabel": "今日总览",
+        "headlineFact": "关税、AI、气候与文化活动共同进入执行窗口",
+        "headlineView": "世界正在检验规则与承载力",
+        "intro": "欧盟小包裹关税、AI透明义务、单人创业、强厄尔尼诺风险、法国旱热、爱丁堡艺穗节、月球观测与生物多样性治理共同显示：规则、容量与公共文化正在同步接受现实检验。",
+        "xiaziQuote": "真正的韧性，是把变化提前写进系统、预算与日常动作。",
+        "doudouQuote": "世界像一块织物，每条线都得接得住下一次拉力。"
+      },
+      "en": {
+        "categoryLabel": "Today Overview",
+        "headlineFact": "Duties, AI, climate and culture enter execution windows",
+        "headlineView": "the world is testing rules and capacity",
+        "intro": "EU parcel duties, AI transparency, solo entrepreneurship, El Nino risk, French drought, Edinburgh culture, lunar observing and biodiversity governance show systems being tested in practice.",
+        "xiaziQuote": "Resilience means writing change into systems, budgets and daily action before disruption arrives.",
+        "doudouQuote": "The world is woven together; every thread must hold the next pull."
+      },
+      "sources": [
+        {
+          "title": "Guidance and legal text on temporary flat fee on low-value imports",
+          "publisher": "European Commission",
+          "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en?prefLang=en",
+          "sourceType": "official"
+        },
+        {
+          "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+          "publisher": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "slug": "eu-parcel-duty-margin-reset",
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "storyId": "xzs-eu-parcel-duty-margin-reset-20260807",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "zh": {
+        "categoryLabel": "跨境电商",
+        "headlineFact": "欧盟3欧元小包裹关税重塑卖家利润模型",
+        "headlineView": "分类、合单与本地履约成为核心变量",
+        "intro": "欧盟对低于150欧元、直寄消费者的小包裹按商品类别征收3欧元关税后，卖家进入首个完整经营月，需要重算HS分类、客单价、拆包方式、IOSS数据与本地备货路线。",
+        "xiaziQuote": "跨境利润不再只看采购价，税务数据和履约结构也必须进入同一张表。",
+        "doudouQuote": "每个包裹都多了一道算术题。"
+      },
+      "en": {
+        "categoryLabel": "Cross-border E-commerce",
+        "headlineFact": "EU parcel duty resets seller margins",
+        "headlineView": "classification and consolidation become core variables",
+        "intro": "The EU EUR3 duty per item category on direct-to-consumer parcels under EUR150 is forcing sellers to recalculate HS data, basket size, parcel structure, IOSS records and local fulfillment.",
+        "xiaziQuote": "Cross-border margin models must combine product cost, tax data and fulfillment structure.",
+        "doudouQuote": "Every parcel now carries another arithmetic problem."
+      },
+      "sources": [
+        {
+          "title": "Guidance and legal text on temporary flat fee on low-value imports",
+          "publisher": "European Commission",
+          "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en?prefLang=en",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "slug": "eu-ai-transparency-first-week",
+      "category": "technology",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "storyId": "xzs-eu-ai-transparency-first-week-20260807",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 95,
+      "zh": {
+        "categoryLabel": "人工智能 AI",
+        "headlineFact": "欧盟AI透明义务进入实施首周",
+        "headlineView": "披露、机器标记与审计链成为产品能力",
+        "intro": "自8月2日起，部分AI交互以及生成或操纵内容须更清楚地披露身份、机器可读标记与来源；企业开始把法规要求落实到界面、输出管线和审核记录。",
+        "xiaziQuote": "透明不是发布前补一个水印，而是产品、数据和审计共同承担的能力。",
+        "doudouQuote": "先把来源说清楚，再让内容跑得更远。"
+      },
+      "en": {
+        "categoryLabel": "Artificial Intelligence AI",
+        "headlineFact": "EU AI transparency enters its first week",
+        "headlineView": "disclosure and machine marking become product capabilities",
+        "intro": "From August 2, certain AI interactions and generated or manipulated content require clearer disclosure, machine-readable marking and provenance across interfaces and output pipelines.",
+        "xiaziQuote": "Transparency is not a final watermark; product, data and audit systems must share it.",
+        "doudouQuote": "Explain where content came from before sending it farther."
+      },
+      "sources": [
+        {
+          "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+          "publisher": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "slug": "solo-ai-entry-team-outcomes",
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "storyId": "xzs-solo-ai-entry-team-outcomes-20260807",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "zh": {
+        "categoryLabel": "一人公司 OPC",
+        "headlineFact": "AI让单人创业更容易入场",
+        "headlineView": "头部成果仍更依赖团队复利",
+        "intro": "对超过16万款Product Hunt产品的研究显示，生成式AI显著提高单人创业者进入市场的比例，尤其在过去依赖团队的品类；但高排名成果仍更多来自团队项目。",
+        "xiaziQuote": "AI降低做出来的门槛，却没有取消判断、分销与协作带来的复利。",
+        "doudouQuote": "一个人更容易开场，冲到前排仍要会借力。"
+      },
+      "en": {
+        "categoryLabel": "One-person Company OPC",
+        "headlineFact": "AI makes solo entry easier",
+        "headlineView": "top outcomes still favor team compounding",
+        "intro": "A study of more than 160,000 Product Hunt launches found that generative AI increased solo entry, while teams remained more prominent among the highest-ranked outcomes.",
+        "xiaziQuote": "AI lowers the making threshold but does not erase the compounding value of judgment, distribution and collaboration.",
+        "doudouQuote": "One person can start faster; reaching the front still takes leverage."
+      },
+      "sources": [
+        {
+          "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2605.10291",
+          "sourceType": "research"
+        }
+      ]
+    },
+    {
+      "slug": "el-nino-heat-risk-2027",
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [],
+      "storyId": "xzs-el-nino-heat-risk-2027-20260807",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "zh": {
+        "categoryLabel": "全球气候",
+        "headlineFact": "强厄尔尼诺或把2027年推向新高温纪录",
+        "headlineView": "企业需要把气候风险纳入跨年度计划",
+        "intro": "气候科学家警告，增强中的厄尔尼诺将与人为变暖叠加；即使2026年未刷新纪录，2027年仍很可能成为现代观测中最热的一年。",
+        "xiaziQuote": "高温风险不是一次天气事件，而是能源、供应链与健康预算的长期变量。",
+        "doudouQuote": "今年没破纪录，不代表明年的温度计会客气。"
+      },
+      "en": {
+        "categoryLabel": "Global Climate",
+        "headlineFact": "Strong El Nino could push 2027 toward record heat",
+        "headlineView": "businesses need multi-year climate planning",
+        "intro": "Scientists warn that a strengthening El Nino will compound human-driven warming; even if 2026 misses the record, 2027 is widely expected to challenge modern heat records.",
+        "xiaziQuote": "Heat risk is a long-term variable for energy, supply chains and health budgets.",
+        "doudouQuote": "A record missed this year does not make next year cooler."
+      },
+      "sources": [
+        {
+          "title": "Global Seasonal Climate Update for June-July-August 2026",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/resources/publication-series/global-seasonal-climate-update/gscu-jja2026",
+          "sourceType": "official"
+        }
+      ]
+    },
+    {
+      "slug": "edinburgh-fringe-opens",
+      "category": "culture",
+      "region": "United Kingdom",
+      "countryCodes": [
+        "GB"
+      ],
+      "storyId": "xzs-edinburgh-fringe-opens-20260807",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "zh": {
+        "categoryLabel": "文化经济",
+        "headlineFact": "爱丁堡艺穗节开启3600多场演出",
+        "headlineView": "城市文化把创作转化为密集型服务经济",
+        "intro": "第79届爱丁堡艺穗节于8月7日开幕，超过3600场节目分布在258个场地；庞大供给也考验票务、住宿、交通、场馆和独立创作者的运营能力。",
+        "xiaziQuote": "文化节的价值不仅在舞台，也在一座城市如何承接密集的创造力。",
+        "doudouQuote": "三千多场演出，后台也是一场超大规模协作。"
+      },
+      "en": {
+        "categoryLabel": "Culture Economy",
+        "headlineFact": "Edinburgh Fringe opens with over 3,600 shows",
+        "headlineView": "urban culture becomes a dense service economy",
+        "intro": "The 79th Edinburgh Festival Fringe opens August 7 with more than 3,600 shows across 258 venues, testing ticketing, lodging, transport, venues and independent creators.",
+        "xiaziQuote": "A festival is also a city learning how to carry concentrated creativity.",
+        "doudouQuote": "Thousands of shows make the backstage operation a performance too."
+      },
+      "sources": [
+        {
+          "title": "Edinburgh Festival Fringe",
+          "publisher": "Edinburgh Festival City",
+          "url": "https://www.edinburghfestivalcity.com/festivals/edinburgh-festival-fringe",
+          "sourceType": "publisher"
+        }
+      ]
+    },
+    {
+      "slug": "lunar-impact-observation-results",
+      "category": "science",
+      "region": "Moon",
+      "countryCodes": [],
+      "storyId": "xzs-lunar-impact-observation-results-20260807",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 91,
+      "zh": {
+        "categoryLabel": "月球观测",
+        "headlineFact": "废弃火箭撞月进入观测结果整理阶段",
+        "headlineView": "一次可预报撞击连接科学与深空治理",
+        "intro": "研究团队围绕8月5日猎鹰9号废弃上面级撞击月球安排闪光与喷出物观测，当前进入数据整理阶段，也让深空物体追踪和处置责任再次受到关注。",
+        "xiaziQuote": "能准确预测的残骸事件可以成为实验，也应成为治理案例。",
+        "doudouQuote": "旧火箭留下的不只一个坑，还有一张责任清单。"
+      },
+      "en": {
+        "categoryLabel": "Lunar Observation",
+        "headlineFact": "Spent rocket lunar impact enters data review",
+        "headlineView": "a predictable impact links science and governance",
+        "intro": "Researchers planned observations of the August 5 Falcon 9 upper-stage lunar impact and are now reviewing flash and ejecta data while highlighting deep-space tracking responsibility.",
+        "xiaziQuote": "A predictable debris event can be both an experiment and a governance case.",
+        "doudouQuote": "The old rocket leaves not only a crater, but a responsibility list."
+      },
+      "sources": [
+        {
+          "title": "Observational planning for the 2026 August 5 Falcon 9 Upper Stage lunar impact",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2607.14625",
+          "sourceType": "research"
+        }
+      ]
+    },
+    {
+      "slug": "france-july-heat-drought-records",
+      "category": "climate",
+      "region": "France",
+      "countryCodes": [
+        "FR"
+      ],
+      "storyId": "xzs-france-july-heat-drought-records-20260807",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "zh": {
+        "categoryLabel": "欧洲环境",
+        "headlineFact": "法国7月旱热刷新多项纪录",
+        "headlineView": "水资源与基础设施进入同一风险链",
+        "intro": "法国7月出现历史性高温与干旱，大片河流断流、山火扩张，部分核电站因河流水位与温度受限；供水、农业、能源和生态风险正在相互放大。",
+        "xiaziQuote": "当水、火、电彼此牵动，韧性投资就不能再分部门计算。",
+        "doudouQuote": "一条河变浅，城市里的很多开关都会跟着变重。"
+      },
+      "en": {
+        "categoryLabel": "European Environment",
+        "headlineFact": "France records exceptional July heat and drought",
+        "headlineView": "water and infrastructure join one risk chain",
+        "intro": "France saw historic July heat and drought, with dry rivers, expanding fires and constraints on some nuclear generation linking water, agriculture, energy and ecosystems.",
+        "xiaziQuote": "When water, fire and power interact, resilience cannot be budgeted in silos.",
+        "doudouQuote": "A shallower river can make many urban switches harder to keep on."
+      },
+      "sources": [
+        {
+          "title": "July breaks drought and heat records in France: 'The issue of water is becoming absolutely critical'",
+          "publisher": "Le Monde",
+          "url": "https://www.lemonde.fr/en/environment/article/2026/08/05/july-breaks-drought-and-heat-records-in-france-the-issue-of-water-is-becoming-absolutely-critical_6756164_114.html",
+          "sourceType": "media"
+        }
+      ]
+    },
+    {
+      "slug": "breastfeeding-week-continuous-support",
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [],
+      "storyId": "xzs-breastfeeding-week-continuous-support-20260807",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "zh": {
+        "categoryLabel": "公共健康",
+        "headlineFact": "世界母乳喂养周强调持续支持",
+        "headlineView": "医疗、工作与社区要连成服务网络",
+        "intro": "2026年世界母乳喂养周于8月1日至7日举行，公共卫生机构强调把有效支持嵌入医疗、工作场所与社区，让家庭从短期宣传获得全年连续服务。",
+        "xiaziQuote": "公共健康倡议要从一周传播变成全年可获得的服务。",
+        "doudouQuote": "支持不是一个点，而是一条不断线的路。"
+      },
+      "en": {
+        "categoryLabel": "Public Health",
+        "headlineFact": "World Breastfeeding Week emphasizes continuous support",
+        "headlineView": "health care, workplaces and communities must connect",
+        "intro": "World Breastfeeding Week runs August 1-7, emphasizing proven support across health care, workplaces and communities so families can access continuous help.",
+        "xiaziQuote": "A public-health campaign should turn one week of attention into year-round accessible support.",
+        "doudouQuote": "Support is not one point; it is a path that stays connected."
+      },
+      "sources": [
+        {
+          "title": "2026 World Breastfeeding Week",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/events",
+          "sourceType": "official"
+        }
+      ]
+    }
+  ]
+}
