@@ -102,6 +102,20 @@ test("switches locale while keeping the page context", async ({ page, request })
   await expect(page.getByText("Browse each edition: 1 daily overview, 8 global stories, sources, and bilingual posters.")).toBeVisible();
 });
 
+test("follows the system theme and remembers a manual theme choice", async ({ page }) => {
+  await page.emulateMedia({ colorScheme: "dark" });
+  await page.goto("/zh");
+
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
+  const toggle = page.getByRole("button", { name: "切换日间或夜间模式" });
+  await expect(toggle).toBeVisible();
+  await toggle.click();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+
+  await page.reload();
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+});
+
 test("opens, navigates and closes the poster lightbox", async ({ page, request }) => {
   const { issue } = await latestIssue(request);
   const lead = issue.topics[0].localizations["zh-CN"];

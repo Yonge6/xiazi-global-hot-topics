@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { MobileMenu } from "@/components/mobile-menu";
+import { ThemeToggle } from "@/components/theme-toggle";
 import type { AppLocale } from "@/i18n/config";
 import { getBrandAsset } from "@/lib/posters/assets";
 
@@ -33,6 +34,7 @@ export function SiteHeader({ locale, messages }: { locale: AppLocale; messages: 
               <a href={item.href} key={item.href}>{item.label}</a>
             ))}
           </nav>
+          <ThemeToggle locale={locale} />
           <LanguageSwitcher locale={locale} />
           <MobileMenu label={isZh ? "菜单" : "Menu"} items={mobileNavItems} />
         </div>

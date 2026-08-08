@@ -3,6 +3,19 @@ import "./globals.css";
 
 import { productConfig } from "@xiazi/config";
 
+const themeBootScript = `
+  (function () {
+    try {
+      var saved = localStorage.getItem("xiazishuo-theme");
+      var theme = saved === "light" || saved === "dark"
+        ? saved
+        : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    } catch (_) {}
+  })();
+`;
+
 export const metadata: Metadata = {
   metadataBase: new URL(productConfig.siteUrl),
   title: {
@@ -17,8 +30,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     ?? productConfig.siteUrl;
 
   return (
-    <html lang="zh-CN" data-scroll-behavior="smooth">
+    <html lang="zh-CN" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: themeBootScript }} />
         <link rel="dns-prefetch" href={posterOrigin} />
         <link rel="preconnect" href={posterOrigin} crossOrigin="anonymous" />
       </head>
