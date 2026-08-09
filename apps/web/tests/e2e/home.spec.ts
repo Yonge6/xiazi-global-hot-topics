@@ -102,18 +102,46 @@ test("switches locale while keeping the page context", async ({ page, request })
   await expect(page.getByText("Browse each edition: 1 daily overview, 8 global stories, sources, and bilingual posters.")).toBeVisible();
 });
 
-test("follows the system theme and remembers a manual theme choice", async ({ page }) => {
+test("follows the system theme and remembers a manual theme choice", async ({ page }, testInfo) => {
   await page.emulateMedia({ colorScheme: "dark" });
   await page.goto("/zh");
 
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
-  const toggle = page.getByRole("button", { name: "切换日间或夜间模式" });
+  if (testInfo.project.name === "mobile") {
+    await page.getByRole("button", { name: "打开菜单" }).click();
+  }
+  const toggle = testInfo.project.name === "mobile"
+    ? page.getByRole("switch", { name: "切换日间或夜间模式" })
+    : page.getByRole("button", { name: "切换日间或夜间模式" });
   await expect(toggle).toBeVisible();
   await toggle.click();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
 
   await page.reload();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+});
+
+test("opens the mobile world drawer with Xiazi navigation and related projects", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== "mobile");
+  await page.goto("/zh");
+
+  await page.getByRole("button", { name: "打开菜单" }).click();
+  const drawer = page.getByRole("dialog", { name: "你的世界" });
+  await expect(drawer).toBeVisible();
+  await expect(drawer.getByText("1 张今日总览 · 8 件全球热点 · 18 张双语海报")).toBeVisible();
+  await expect(drawer.getByRole("switch", { name: "切换日间或夜间模式" })).toBeVisible();
+  await expect(drawer.getByRole("link", { name: /风格图鉴/ })).toHaveAttribute(
+    "href",
+    "https://style-atlas.wonderelian.com/",
+  );
+  await expect(drawer.getByRole("link", { name: /三慢问道/ })).toHaveAttribute(
+    "href",
+    "https://wendao.wonderelian.com/",
+  );
+
+  await page.keyboard.press("Escape");
+  await expect(drawer).toBeHidden();
+  await expect(page.getByRole("button", { name: "打开菜单" })).toBeFocused();
 });
 
 test("opens, navigates and closes the poster lightbox", async ({ page, request }) => {

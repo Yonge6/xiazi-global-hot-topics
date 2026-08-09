@@ -7,7 +7,7 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import type { AppLocale } from "@/i18n/config";
 import { getBrandAsset } from "@/lib/posters/assets";
 
-export function SiteHeader({ locale, messages }: { locale: AppLocale; messages: Record<string, string> }) {
+export function SiteHeader({ locale, messages, issueDate }: { locale: AppLocale; messages: Record<string, string>; issueDate: string }) {
   const isZh = locale === "zh";
   const mobileNavItems = [
     { href: "#stories", label: isZh ? "昨日世界" : "Yesterday" },
@@ -36,7 +36,7 @@ export function SiteHeader({ locale, messages }: { locale: AppLocale; messages: 
           </nav>
           <ThemeToggle locale={locale} />
           <LanguageSwitcher locale={locale} />
-          <MobileMenu label={isZh ? "菜单" : "Menu"} items={mobileNavItems} />
+          <MobileMenu locale={locale} issueDate={issueDate} />
         </div>
       </div>
     </header>
