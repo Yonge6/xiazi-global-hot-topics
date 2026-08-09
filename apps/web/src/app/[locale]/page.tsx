@@ -76,7 +76,7 @@ export default async function LocaleHome({ params }: PageProps) {
 
   return (
     <main>
-      <SiteHeader locale={locale} messages={messages} issueDate={issue.issueDate} />
+      <SiteHeader locale={locale} messages={messages} />
       <IssueMasthead locale={locale} issueDate={issue.issueDate} />
       <TopicGallery
         topics={issue.topics}

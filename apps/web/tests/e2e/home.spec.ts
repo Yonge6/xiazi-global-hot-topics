@@ -125,11 +125,28 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   test.skip(testInfo.project.name !== "mobile");
   await page.goto("/zh");
 
+  await expect(page.getByRole("link", { name: "Switch to English" })).toBeVisible();
   await page.getByRole("button", { name: "打开菜单" }).click();
-  const drawer = page.getByRole("dialog", { name: "你的世界" });
+  let drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer).toBeVisible();
-  await expect(drawer.getByText("1 张今日总览 · 8 件全球热点 · 18 张双语海报")).toBeVisible();
+  await expect(drawer.getByText("今日刊物")).toHaveCount(0);
   await expect(drawer.getByRole("switch", { name: "切换日间或夜间模式" })).toBeVisible();
+  await drawer.getByRole("button", { name: /关于虾子曰/ }).click();
+  drawer = page.getByRole("dialog", { name: "关于虾子曰" });
+  await expect(drawer.getByText("生命不是用来证明自己的，而是用来认识、接纳、成为并活出自己。")).toBeVisible();
+  await drawer.getByRole("button", { name: "返回菜单" }).click();
+  drawer = page.getByRole("dialog", { name: "你的世界" });
+  await drawer.getByRole("button", { name: /联系与回响/ }).click();
+  drawer = page.getByRole("dialog", { name: "联系与回响" });
+  await expect(drawer.getByRole("link", { name: /小红书/ })).toBeVisible();
+  await expect(drawer.getByRole("link", { name: /TikTok/ })).toBeVisible();
+  await drawer.getByRole("button", { name: "返回菜单" }).click();
+  drawer = page.getByRole("dialog", { name: "你的世界" });
+  await drawer.getByRole("button", { name: /随喜相助/ }).click();
+  drawer = page.getByRole("dialog", { name: "随喜相助" });
+  await expect(drawer.getByAltText("微信赞赏码")).toBeVisible();
+  await drawer.getByRole("button", { name: "返回菜单" }).click();
+  drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer.getByRole("link", { name: /风格图鉴/ })).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
@@ -137,6 +154,10 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await expect(drawer.getByRole("link", { name: /三慢问道/ })).toHaveAttribute(
     "href",
     "https://wendao.wonderelian.com/",
+  );
+  await expect(drawer.getByRole("link", { name: /人类图/ })).toHaveAttribute(
+    "href",
+    "https://human-design.wonderelian.com/",
   );
 
   await page.keyboard.press("Escape");

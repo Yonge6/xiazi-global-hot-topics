@@ -1,27 +1,28 @@
 "use client";
 
-import Link from "next/link";
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
+
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
+import { AboutCopy } from "@/components/about-section";
 import { ThemeToggle } from "@/components/theme-toggle";
 import type { AppLocale } from "@/i18n/config";
 import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
 
 const WENDAO_URL = "https://wendao.wonderelian.com/";
+const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
+const SUPPORT_QR_URL = `${WENDAO_URL}assets/wendao/support-wechat-appreciation-code.png`;
 
-type MobileMenuProps = {
-  locale: AppLocale;
-  issueDate: string;
-};
+type DrawerView = "home" | "about" | "contact" | "support";
 
-export function MobileMenu({ locale, issueDate }: MobileMenuProps) {
+export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [open, setOpen] = useState(false);
+  const [view, setView] = useState<DrawerView>("home");
   const triggerRef = useRef<HTMLButtonElement>(null);
   const drawerRef = useRef<HTMLElement>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   const isZh = locale === "zh";
-  const dateLabel = issueDate.replaceAll("-", ".");
 
   const closeMenu = (restoreFocus = false) => {
     setOpen(false);
@@ -66,6 +67,26 @@ export function MobileMenu({ locale, issueDate }: MobileMenuProps) {
     };
   }, [open]);
 
+  useEffect(() => {
+    if (open) scrollRef.current?.scrollTo({ top: 0, behavior: "auto" });
+  }, [open, view]);
+
+  const title = view === "home"
+    ? (isZh ? "你的世界" : "Your World")
+    : view === "about"
+      ? (isZh ? "关于虾子曰" : "About Xiazi Says")
+      : view === "contact"
+        ? (isZh ? "联系与回响" : "Contact & Feedback")
+        : (isZh ? "随喜相助" : "Support the Journey");
+
+  const contacts = [
+    { label: isZh ? "邮箱" : "Email", value: "hustyy986@gmail.com", href: "mailto:hustyy986@gmail.com" },
+    { label: isZh ? "小红书" : "RED", value: isZh ? "打开主页" : "Open profile", href: "https://xhslink.cn/m/3OF5qu7Peui" },
+    { label: isZh ? "抖音" : "Douyin", value: isZh ? "打开主页" : "Open profile", href: "https://v.douyin.com/d9L1thkye0Y/" },
+    { label: "X", value: "@yongyuan1", href: "https://x.com/yongyuan1?s=11" },
+    { label: "TikTok", value: "@wonderelian", href: "https://www.tiktok.com/@wonderelian?_r=1&_t=ZP-98Tvaldfrpe" },
+  ];
+
   const drawer = open ? (
     <div className={`navigation-drawer-layer locale-${locale}`}>
       <button
@@ -82,10 +103,20 @@ export function MobileMenu({ locale, issueDate }: MobileMenuProps) {
         aria-labelledby="navigation-drawer-title"
         ref={drawerRef}
       >
-        <header className="navigation-drawer-header">
+        <header className={`navigation-drawer-header${view === "home" ? "" : " has-back"}`}>
+          {view === "home" ? null : (
+            <button
+              type="button"
+              className="navigation-drawer-back"
+              aria-label={isZh ? "返回菜单" : "Back to menu"}
+              onClick={() => setView("home")}
+            >
+              <span aria-hidden="true">‹</span>
+            </button>
+          )}
           <div>
             <p>{isZh ? "虾子曰 · XIAZI SAYS" : "XIAZI SAYS · GLOBAL HOT TOPICS"}</p>
-            <h2 id="navigation-drawer-title">{isZh ? "你的世界" : "Your World"}</h2>
+            <h2 id="navigation-drawer-title">{title}</h2>
           </div>
           <button
             type="button"
@@ -97,104 +128,151 @@ export function MobileMenu({ locale, issueDate }: MobileMenuProps) {
           </button>
         </header>
 
-        <div className="navigation-drawer-scroll">
-          <section className="drawer-edition-card" aria-labelledby="drawer-edition-title">
-            <p>{isZh ? "今日刊物" : "TODAY'S EDITION"}</p>
-            <h3 id="drawer-edition-title">
-              {isZh ? `${dateLabel} 已更新` : `${dateLabel} · Now available`}
-            </h3>
-            <span>
-              {isZh
-                ? "1 张今日总览 · 8 件全球热点 · 18 张双语海报"
-                : "1 daily overview · 8 global stories · 18 bilingual posters"}
-            </span>
-            <a href="#stories" onClick={() => closeMenu()}>
-              {isZh ? "查看今日热点" : "Read today's stories"}
-              <b aria-hidden="true">↓</b>
-            </a>
-          </section>
+        <div className="navigation-drawer-scroll" ref={scrollRef}>
+          {view === "home" ? (
+            <>
+              <nav className="drawer-nav" aria-label={isZh ? "菜单导航" : "Menu navigation"}>
+                <ThemeToggle
+                  locale={locale}
+                  variant="row"
+                  title={isZh ? "夜读模式" : "Night reading"}
+                  description={isZh ? "调低光线，让眼睛和心一起慢下来" : "Lower the light and read at an easier pace"}
+                />
 
-          <nav className="drawer-nav" aria-label={isZh ? "菜单导航" : "Menu navigation"}>
-            <ThemeToggle
-              locale={locale}
-              variant="row"
-              title={isZh ? "夜读模式" : "Night reading"}
-              description={isZh ? "调低光线，让眼睛和心一起慢下来" : "Lower the light and read at an easier pace"}
-            />
+                <a className="drawer-nav-row" href="#archive" onClick={() => closeMenu()}>
+                  <span className="drawer-nav-icon" aria-hidden="true">期</span>
+                  <span className="drawer-nav-copy">
+                    <strong>{isZh ? "往期刊物" : "Past editions"}</strong>
+                    <small>{isZh ? "按日期重看过去的世界" : "Revisit the world, one date at a time"}</small>
+                  </span>
+                  <b aria-hidden="true">›</b>
+                </a>
 
-            <div className="drawer-nav-row drawer-language-row">
-              <span className="drawer-nav-icon" aria-hidden="true">译</span>
-              <span className="drawer-nav-copy">
-                <strong>{isZh ? "阅读语言" : "Reading language"}</strong>
-                <small>{isZh ? "在中文与英文之间切换" : "Switch between Chinese and English"}</small>
-              </span>
-              <span className="drawer-language-switcher">
-                <Link href="/zh/" className={isZh ? "active" : ""} aria-label="切换到中文">中</Link>
-                <Link href="/en/" className={!isZh ? "active" : ""} aria-label="Switch to English">EN</Link>
-              </span>
-            </div>
+                <button className="drawer-nav-row" type="button" onClick={() => setView("about")}>
+                  <span className="drawer-nav-icon" aria-hidden="true">曰</span>
+                  <span className="drawer-nav-copy">
+                    <strong>{isZh ? "关于虾子曰" : "About Xiazi Says"}</strong>
+                    <small>{isZh ? "我们怎样筛选新闻，也怎样看门道" : "How we select stories and look beneath them"}</small>
+                  </span>
+                  <b aria-hidden="true">›</b>
+                </button>
 
-            <a className="drawer-nav-row" href="#archive" onClick={() => closeMenu()}>
-              <span className="drawer-nav-icon" aria-hidden="true">期</span>
-              <span className="drawer-nav-copy">
-                <strong>{isZh ? "往期刊物" : "Past editions"}</strong>
-                <small>{isZh ? "按日期重看过去的世界" : "Revisit the world, one date at a time"}</small>
-              </span>
-              <b aria-hidden="true">›</b>
-            </a>
+                <button className="drawer-nav-row" type="button" onClick={() => setView("contact")}>
+                  <span className="drawer-nav-icon" aria-hidden="true">信</span>
+                  <span className="drawer-nav-copy">
+                    <strong>{isZh ? "联系与回响" : "Contact & feedback"}</strong>
+                    <small>{isZh ? "邮箱、微信与社交媒体" : "Email, WeChat, and social channels"}</small>
+                  </span>
+                  <b aria-hidden="true">›</b>
+                </button>
+              </nav>
 
-            <a className="drawer-nav-row" href="#about" onClick={() => closeMenu()}>
-              <span className="drawer-nav-icon" aria-hidden="true">曰</span>
-              <span className="drawer-nav-copy">
-                <strong>{isZh ? "关于虾子曰" : "About Xiazi Says"}</strong>
-                <small>{isZh ? "我们怎样筛选新闻，也怎样看门道" : "How we select stories and look beneath them"}</small>
-              </span>
-              <b aria-hidden="true">›</b>
-            </a>
+              <section className="drawer-support" aria-labelledby="drawer-support-title">
+                <p>{isZh ? "有余相助" : "IF YOU HAVE SOMETHING TO SPARE"}</p>
+                <h3 id="drawer-support-title">{isZh ? "随喜相助" : "Support the journey"}</h3>
+                <span>
+                  {isZh
+                    ? "若这份内容于你有用，可以让一份心意继续流动；也可以把它留给自己，照顾此刻真正需要的生活。"
+                    : "If this work has helped, you may let a little support keep it flowing—or keep that care for what your life needs now."}
+                </span>
+                <button type="button" onClick={() => setView("support")}>
+                  <i aria-hidden="true">水</i>
+                  <span>
+                    <strong>{isZh ? "随喜相助" : "Offer support"}</strong>
+                    <small>{isZh ? "有余则助，无余亦安" : "Give freely, or simply read in peace"}</small>
+                  </span>
+                  <b aria-hidden="true">›</b>
+                </button>
+              </section>
 
-            <a className="drawer-nav-row" href="#drawer-contact">
-              <span className="drawer-nav-icon" aria-hidden="true">信</span>
-              <span className="drawer-nav-copy">
-                <strong>{isZh ? "联系与回响" : "Contact & feedback"}</strong>
-                <small>{isZh ? "合作、交流，或告诉我们哪里还能更好" : "Collaborate, exchange ideas, or help us improve"}</small>
-              </span>
-              <b aria-hidden="true">↓</b>
-            </a>
-          </nav>
+              <section className="drawer-projects" aria-labelledby="drawer-projects-title">
+                <p>{isZh ? "沿途所作" : "ALONG THE WAY"}</p>
+                <h3 id="drawer-projects-title">
+                  {isZh ? "观世界，识自己，也学习看见美。" : "See the world, know yourself, and learn to notice beauty."}
+                </h3>
 
-          <section className="drawer-projects" aria-labelledby="drawer-projects-title">
-            <p>{isZh ? "沿途所作" : "ALONG THE WAY"}</p>
-            <h3 id="drawer-projects-title">
-              {isZh ? "观世界，识自己，也学习看见美。" : "See the world, know yourself, and learn to notice beauty."}
-            </h3>
+                <a href={STYLE_ATLAS_URL} target="_blank" rel="noreferrer">
+                  <span className="drawer-project-mark" aria-hidden="true">风</span>
+                  <span>
+                    <strong>{isZh ? "风格图鉴" : "Style Atlas"}</strong>
+                    <small>{isZh ? "每天一种视觉风格，为今日海报寻找灵感" : "A daily visual language for today's posters"}</small>
+                  </span>
+                  <b aria-hidden="true">↗</b>
+                </a>
 
-            <a href={STYLE_ATLAS_URL} target="_blank" rel="noreferrer">
-              <span className="drawer-project-mark" aria-hidden="true">风</span>
+                <a href={WENDAO_URL} target="_blank" rel="noreferrer">
+                  <span className="drawer-project-mark" aria-hidden="true">道</span>
+                  <span>
+                    <strong>{isZh ? "三慢问道" : "Wendao"}</strong>
+                    <small>{isZh ? "从经典里，慢慢读懂自己" : "Read the classics and slowly understand yourself"}</small>
+                  </span>
+                  <b aria-hidden="true">↗</b>
+                </a>
+
+                <a href={HUMAN_DESIGN_URL} target="_blank" rel="noreferrer">
+                  <span className="drawer-project-mark" aria-hidden="true">图</span>
+                  <span>
+                    <strong>{isZh ? "人类图" : "Human Design"}</strong>
+                    <small>{isZh ? "人生使用说明书，换一个角度认识自己" : "A different lens on how you move through life"}</small>
+                  </span>
+                  <b aria-hidden="true">↗</b>
+                </a>
+              </section>
+            </>
+          ) : null}
+
+          {view === "about" ? (
+            <section className="drawer-about" aria-label={title}>
+              <AboutCopy locale={locale} includePhilosophy />
+            </section>
+          ) : null}
+
+          {view === "contact" ? (
+            <section className="drawer-contact-detail" aria-label={title}>
+              <p className="drawer-detail-intro">
+                {isZh
+                  ? "合作、交流、学习，或想告诉我们哪里还能做得更好，都可以从这里找到我们。"
+                  : "For collaboration, conversation, learning, or a thoughtful suggestion, find us here."}
+              </p>
+              <div className="drawer-contact-list">
+                {contacts.map((contact) => (
+                  <a
+                    href={contact.href}
+                    key={contact.label}
+                    target={contact.href.startsWith("mailto:") ? undefined : "_blank"}
+                    rel={contact.href.startsWith("mailto:") ? undefined : "noreferrer"}
+                  >
+                    <span>{contact.label}</span>
+                    <strong>{contact.value}</strong>
+                    <b aria-hidden="true">↗</b>
+                  </a>
+                ))}
+              </div>
+              <figure className="drawer-wechat-card">
+                <figcaption>
+                  <span>{isZh ? "微信" : "WeChat"}</span>
+                  <strong>{isZh ? "扫码联系与交流" : "Scan to connect"}</strong>
+                </figcaption>
+                <img src="/brand/contact-qr.webp" alt={isZh ? "扫码添加微信" : "Scan to connect on WeChat"} />
+              </figure>
+            </section>
+          ) : null}
+
+          {view === "support" ? (
+            <section className="drawer-support-detail" aria-label={title}>
+              <p>{isZh ? "生而不有 · 为而不恃" : "CREATE WITHOUT POSSESSING · GIVE WITHOUT CLAIMING"}</p>
+              <h3>{isZh ? "有余则助，无余亦安。" : "Give when you can; be at ease when you cannot."}</h3>
               <span>
-                <strong>{isZh ? "风格图鉴" : "Style Atlas"}</strong>
-                <small>{isZh ? "每天一种视觉风格，为今日海报寻找灵感" : "A daily visual language for today's posters"}</small>
+                {isZh
+                  ? "若虾子曰对你有一点用，你可以随心支持，让这份内容继续生长；若此刻不便，也请把这份心意留给自己。阅读、停留与分享，本身已经是同行。"
+                  : "If Xiazi Says has been useful, you may support its continued growth. If now is not the moment, keep that care for yourself. Reading and sharing are already ways of walking together."}
               </span>
-              <b aria-hidden="true">↗</b>
-            </a>
-
-            <a href={WENDAO_URL} target="_blank" rel="noreferrer">
-              <span className="drawer-project-mark" aria-hidden="true">道</span>
-              <span>
-                <strong>{isZh ? "三慢问道" : "Wendao"}</strong>
-                <small>{isZh ? "从经典里，慢慢读懂自己" : "Read the classics and slowly understand yourself"}</small>
-              </span>
-              <b aria-hidden="true">↗</b>
-            </a>
-          </section>
-
-          <section className="drawer-contact" id="drawer-contact" aria-labelledby="drawer-contact-title">
-            <div>
-              <p>{isZh ? "有话相告" : "STAY IN TOUCH"}</p>
-              <h3 id="drawer-contact-title">{isZh ? "联系与交流" : "Connect with us"}</h3>
-              <span>{isZh ? "合作、交流、学习，或留下一点建议。" : "For collaboration, conversation, learning, or a thoughtful note."}</span>
-            </div>
-            <Image src="/brand/contact-qr.webp" alt={isZh ? "扫码添加微信" : "Scan to connect on WeChat"} width={118} height={118} />
-          </section>
+              <a href={SUPPORT_QR_URL} target="_blank" rel="noreferrer">
+                <img src={SUPPORT_QR_URL} alt={isZh ? "微信赞赏码" : "WeChat appreciation code"} />
+              </a>
+              <small>{isZh ? "长按二维码识别，或点击单独打开" : "Press and hold to recognize, or tap to open the QR code"}</small>
+            </section>
+          ) : null}
 
           <footer className="navigation-drawer-footer">
             <span>{isZh ? "虾说，不瞎说。" : "Bold talk, never blind talk."}</span>
@@ -213,7 +291,10 @@ export function MobileMenu({ locale, issueDate }: MobileMenuProps) {
         aria-label={isZh ? "打开菜单" : "Open menu"}
         aria-expanded={open}
         aria-controls="navigation-drawer"
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          setView("home");
+          setOpen(true);
+        }}
         ref={triggerRef}
       >
         <span>{isZh ? "菜单" : "Menu"}</span>
