@@ -9,6 +9,12 @@ import { AboutCopy } from "@/components/about-section";
 import { ThemeToggle } from "@/components/theme-toggle";
 import type { AppLocale } from "@/i18n/config";
 import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
+import {
+  isXiaziIOSApp,
+  type NativeSupportProduct,
+  postNativeMessage,
+  subscribeToNativeMessages,
+} from "@/lib/native-app";
 
 const WENDAO_URL = "https://wendao.wonderelian.com/";
 const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
@@ -75,6 +81,10 @@ function ConstellationIcon() {
 export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [open, setOpen] = useState(false);
   const [view, setView] = useState<DrawerView>("home");
+  const [isIOSApp] = useState(isXiaziIOSApp);
+  const [supportProducts, setSupportProducts] = useState<NativeSupportProduct[]>([]);
+  const [supportStatus, setSupportStatus] = useState<"idle" | "loading" | "purchasing" | "purchased" | "pending" | "cancelled" | "failed">("idle");
+  const [supportMessage, setSupportMessage] = useState("");
   const triggerRef = useRef<HTMLButtonElement>(null);
   const drawerRef = useRef<HTMLElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -126,6 +136,24 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
   useEffect(() => {
     if (open) scrollRef.current?.scrollTo({ top: 0, behavior: "auto" });
   }, [open, view]);
+
+  useEffect(() => {
+    if (!isIOSApp) return;
+
+    return subscribeToNativeMessages((message) => {
+      if (message.type === "supportProducts") {
+        setSupportProducts(message.products);
+        setSupportStatus(message.products.length > 0 ? "idle" : "failed");
+        setSupportMessage(message.products.length > 0
+          ? ""
+          : (isZh ? "暂时无法连接 App Store，请稍后再试。" : "The App Store is currently unavailable. Please try again later."));
+        return;
+      }
+
+      setSupportStatus(message.status);
+      setSupportMessage(message.message ?? "");
+    });
+  }, [isIOSApp, isZh]);
 
   const title = view === "home"
     ? (isZh ? "你的世界" : "Your World")
@@ -231,7 +259,17 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                     ? "若这份内容于你有用，可以让一份心意继续流动；也可以把它留给自己，照顾此刻真正需要的生活。"
                     : "If this work has helped, you may let a little support keep it flowing—or keep that care for what your life needs now."}
                 </span>
-                <button type="button" onClick={() => setView("support")}>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setView("support");
+                    if (isIOSApp) {
+                      setSupportStatus("loading");
+                      setSupportMessage("");
+                      postNativeMessage("support.products");
+                    }
+                  }}
+                >
                   <span className="drawer-support-icon"><RippleIcon /></span>
                   <span>
                     <strong>{isZh ? "随喜相助" : "Offer support"}</strong>
@@ -316,10 +354,41 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                   ? "若虾子曰对你有一点用，你可以随心支持，让这份内容继续生长；若此刻不便，也请把这份心意留给自己。阅读、停留与分享，本身已经是同行。"
                   : "If Xiazi Says has been useful, you may support its continued growth. If now is not the moment, keep that care for yourself. Reading and sharing are already ways of walking together."}
               </span>
-              <a href={SUPPORT_QR_URL} target="_blank" rel="noreferrer">
-                <img src={SUPPORT_QR_URL} alt={isZh ? "微信赞赏码" : "WeChat appreciation code"} />
-              </a>
-              <small>{isZh ? "长按二维码识别，或点击单独打开" : "Press and hold to recognize, or tap to open the QR code"}</small>
+              {isIOSApp ? (
+                <div className="native-support-panel" aria-live="polite">
+                  <div className="native-support-products">
+                    {supportProducts.map((product) => (
+                      <button
+                        type="button"
+                        key={product.id}
+                        disabled={supportStatus === "loading" || supportStatus === "purchasing"}
+                        onClick={() => {
+                          setSupportStatus("purchasing");
+                          setSupportMessage("");
+                          postNativeMessage("support.purchase", { productId: product.id });
+                        }}
+                      >
+                        <span>{product.displayName}</span>
+                        <strong>{product.displayPrice}</strong>
+                      </button>
+                    ))}
+                  </div>
+                  {supportStatus === "loading" ? <p>{isZh ? "正在连接 App Store…" : "Connecting to the App Store…"}</p> : null}
+                  {supportStatus === "purchasing" ? <p>{isZh ? "正在等待苹果确认…" : "Waiting for Apple confirmation…"}</p> : null}
+                  {supportStatus === "purchased" ? <p className="success">{supportMessage || (isZh ? "谢谢你的心意，这份支持已经收到。" : "Thank you. Your support has been received.")}</p> : null}
+                  {supportStatus === "pending" ? <p>{supportMessage || (isZh ? "购买正在等待批准，完成后会自动确认。" : "The purchase is awaiting approval and will confirm automatically.")}</p> : null}
+                  {supportStatus === "cancelled" ? <p>{isZh ? "本次未购买，随时回来都可以。" : "No purchase was made. You are welcome back anytime."}</p> : null}
+                  {supportStatus === "failed" ? <p className="error">{supportMessage || (isZh ? "暂时无法完成，请稍后再试。" : "Unable to complete the purchase. Please try again later.")}</p> : null}
+                  <small>{isZh ? "由 Apple 安全处理，可重复选择；不会解锁或限制任何内容。" : "Securely processed by Apple. This does not unlock or restrict any content."}</small>
+                </div>
+              ) : (
+                <>
+                  <a href={SUPPORT_QR_URL} target="_blank" rel="noreferrer">
+                    <img src={SUPPORT_QR_URL} alt={isZh ? "微信赞赏码" : "WeChat appreciation code"} />
+                  </a>
+                  <small>{isZh ? "长按二维码识别，或点击单独打开" : "Press and hold to recognize, or tap to open the QR code"}</small>
+                </>
+              )}
             </section>
           ) : null}
 

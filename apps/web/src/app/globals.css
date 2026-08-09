@@ -565,6 +565,30 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   object-fit: contain;
 }
 .drawer-support-detail > small { display: block; margin-top: 14px; color: var(--muted); font-size: 11px; }
+.native-support-panel { margin-top: 32px; }
+.native-support-products { display: grid; gap: 12px; }
+.native-support-products button {
+  display: flex;
+  width: 100%;
+  min-height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border: 1px solid color-mix(in srgb, var(--gold) 43%, var(--line));
+  border-radius: 18px;
+  background: var(--drawer-card);
+  padding: 16px 20px;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+.native-support-products button:disabled { cursor: wait; opacity: .62; }
+.native-support-products button span { font: 18px var(--serif); }
+.native-support-products button strong { color: var(--jade); font: 600 16px Georgia, serif; white-space: nowrap; }
+.native-support-panel > p { margin: 18px 0 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.native-support-panel > p.success { color: var(--jade); }
+.native-support-panel > p.error { color: var(--vermilion); }
+.native-support-panel > small { display: block; margin-top: 18px; color: var(--muted); font-size: 11px; line-height: 1.7; }
 .navigation-drawer-footer {
   display: flex;
   align-items: center;

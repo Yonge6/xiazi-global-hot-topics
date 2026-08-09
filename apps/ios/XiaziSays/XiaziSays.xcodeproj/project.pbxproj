@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1000010000000000000001 /* XiaziSaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000101 /* XiaziSaysApp.swift */; };
+		BF1000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000102 /* ContentView.swift */; };
+		BF1000010000000000000003 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000103 /* AppConfiguration.swift */; };
+		BF1000010000000000000004 /* Store/SupportStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000104 /* Store/SupportStore.swift */; };
+		BF1000010000000000000005 /* Web/WebViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000105 /* Web/WebViewState.swift */; };
+		BF1000010000000000000006 /* Web/NativeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000106 /* Web/NativeBridge.swift */; };
+		BF1000010000000000000007 /* Web/XiaziWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000107 /* Web/XiaziWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF1000010000000000000101 /* XiaziSaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaziSaysApp.swift; sourceTree = "<group>"; };
+		BF1000010000000000000102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF1000010000000000000103 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		BF1000010000000000000104 /* Store/SupportStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store/SupportStore.swift; sourceTree = "<group>"; };
+		BF1000010000000000000105 /* Web/WebViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web/WebViewState.swift; sourceTree = "<group>"; };
+		BF1000010000000000000106 /* Web/NativeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web/NativeBridge.swift; sourceTree = "<group>"; };
+		BF1000010000000000000107 /* Web/XiaziWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web/XiaziWebView.swift; sourceTree = "<group>"; };
+		BF1000010000000000000108 /* Resources/StoreKit/XiaziSays.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/StoreKit/XiaziSays.storekit; sourceTree = "<group>"; };
+		BF1000010000000000000109 /* XiaziSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaziSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1000010000000000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1000010000000000000301 = {
+			isa = PBXGroup;
+			children = (
+				BF1000010000000000000302,
+				BF1000010000000000000303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1000010000000000000302 = {
+			isa = PBXGroup;
+			children = (
+				BF1000010000000000000101 /* XiaziSaysApp.swift */,
+				BF1000010000000000000102 /* ContentView.swift */,
+				BF1000010000000000000103 /* AppConfiguration.swift */,
+				BF1000010000000000000104 /* Store/SupportStore.swift */,
+				BF1000010000000000000105 /* Web/WebViewState.swift */,
+				BF1000010000000000000106 /* Web/NativeBridge.swift */,
+				BF1000010000000000000107 /* Web/XiaziWebView.swift */,
+				BF1000010000000000000108 /* Resources/StoreKit/XiaziSays.storekit */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1000010000000000000303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1000010000000000000109 /* XiaziSays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1000010000000000000401 /* XiaziSays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1000010000000000000602 /* Build configuration list for PBXNativeTarget "XiaziSays" */;
+			buildPhases = (
+				BF1000010000000000000202 /* Sources */,
+				BF1000010000000000000201 /* Frameworks */,
+				BF1000010000000000000203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiaziSays;
+			productName = XiaziSays;
+			productReference = BF1000010000000000000109 /* XiaziSays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1000010000000000000501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					BF1000010000000000000401 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = BF1000010000000000000601 /* Build configuration list for PBXProject "XiaziSays" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = BF1000010000000000000301;
+			productRefGroup = BF1000010000000000000303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1000010000000000000401 /* XiaziSays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1000010000000000000203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1000010000000000000202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1000010000000000000001 /* XiaziSaysApp.swift in Sources */,
+				BF1000010000000000000002 /* ContentView.swift in Sources */,
+				BF1000010000000000000003 /* AppConfiguration.swift in Sources */,
+				BF1000010000000000000004 /* Store/SupportStore.swift in Sources */,
+				BF1000010000000000000005 /* Web/WebViewState.swift in Sources */,
+				BF1000010000000000000006 /* Web/NativeBridge.swift in Sources */,
+				BF1000010000000000000007 /* Web/XiaziWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF1000010000000000000701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF1000010000000000000702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BF1000010000000000000703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L855ZVM679;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "虾子曰";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiazishuo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF1000010000000000000704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L855ZVM679;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "虾子曰";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiazishuo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1000010000000000000601 /* Build configuration list for PBXProject "XiaziSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1000010000000000000701 /* Debug */,
+				BF1000010000000000000702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1000010000000000000602 /* Build configuration list for PBXNativeTarget "XiaziSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1000010000000000000703 /* Debug */,
+				BF1000010000000000000704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1000010000000000000501 /* Project object */;
+}

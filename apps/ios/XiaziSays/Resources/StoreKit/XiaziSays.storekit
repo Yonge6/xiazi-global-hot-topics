@@ -1,0 +1,107 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "zh_Hans",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "XiaziSays",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "6.00",
+      "familyShareable" : false,
+      "internalID" : "xiazi-support-small",
+      "localizations" : [
+        {
+          "description" : "自愿支持虾子曰持续创作，不解锁或限制任何内容。",
+          "displayName" : "一份心意",
+          "locale" : "zh_Hans"
+        },
+        {
+          "description" : "Voluntary support for Xiazi Says. No content is unlocked or restricted.",
+          "displayName" : "A Small Gesture",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.xiazishuo.app.support.small",
+      "referenceName" : "Xiazi Support Small",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "18.00",
+      "familyShareable" : false,
+      "internalID" : "xiazi-support-medium",
+      "localizations" : [
+        {
+          "description" : "自愿支持虾子曰持续创作，不解锁或限制任何内容。",
+          "displayName" : "继续同行",
+          "locale" : "zh_Hans"
+        },
+        {
+          "description" : "Voluntary support for Xiazi Says. No content is unlocked or restricted.",
+          "displayName" : "Keep It Flowing",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.xiazishuo.app.support.medium",
+      "referenceName" : "Xiazi Support Medium",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "68.00",
+      "familyShareable" : false,
+      "internalID" : "xiazi-support-large",
+      "localizations" : [
+        {
+          "description" : "自愿支持虾子曰持续创作，不解锁或限制任何内容。",
+          "displayName" : "特别支持",
+          "locale" : "zh_Hans"
+        },
+        {
+          "description" : "Voluntary support for Xiazi Says. No content is unlocked or restricted.",
+          "displayName" : "Special Support",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.xiazishuo.app.support.large",
+      "referenceName" : "Xiazi Support Large",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_Hans",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "CHN",
+    "_storeKitErrors" : [
+      { "enabled" : false, "name" : "Load Products" },
+      { "enabled" : false, "name" : "Purchase" },
+      { "enabled" : false, "name" : "Verification" },
+      { "enabled" : false, "name" : "App Store Sync" },
+      { "enabled" : false, "name" : "Subscription Status" },
+      { "enabled" : false, "name" : "App Transaction" },
+      { "enabled" : false, "name" : "Manage Subscriptions Sheet" },
+      { "enabled" : false, "name" : "Refund Request Sheet" },
+      { "enabled" : false, "name" : "Offer Code Redeem Sheet" }
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
