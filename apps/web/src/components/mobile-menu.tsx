@@ -2,7 +2,7 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import { useEffect, useRef, useState } from "react";
+import { type ReactNode, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 import { AboutCopy } from "@/components/about-section";
@@ -15,6 +15,62 @@ const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
 const SUPPORT_QR_URL = `${WENDAO_URL}assets/wendao/support-wechat-appreciation-code.png`;
 
 type DrawerView = "home" | "about" | "contact" | "support";
+
+function LineIcon({ children, className = "" }: { children: ReactNode; className?: string }) {
+  return (
+    <svg className={`drawer-line-icon ${className}`} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      {children}
+    </svg>
+  );
+}
+
+function MenuIcon() {
+  return <LineIcon className="menu-line-icon"><path d="M4 7h16M7 12h13M4 17h16" /></LineIcon>;
+}
+
+function CloseIcon() {
+  return <LineIcon><path d="m6.5 6.5 11 11m0-11-11 11" /></LineIcon>;
+}
+
+function ArrowLeftIcon() {
+  return <LineIcon><path d="M19 12H5m5-5-5 5 5 5" /></LineIcon>;
+}
+
+function ChevronRightIcon() {
+  return <LineIcon><path d="m9 6 6 6-6 6" /></LineIcon>;
+}
+
+function ExternalLinkIcon() {
+  return <LineIcon><path d="M8 16 16 8m-6 0h6v6" /></LineIcon>;
+}
+
+function ArchiveIcon() {
+  return <LineIcon><path d="M5 7.5h14v11H5zM7 4.5h10v3M8 11h8m-8 3h5" /></LineIcon>;
+}
+
+function InfoIcon() {
+  return <LineIcon><circle cx="12" cy="12" r="8" /><path d="M12 10.5v5m0-8.25v.25" /></LineIcon>;
+}
+
+function EnvelopeIcon() {
+  return <LineIcon><rect x="4.5" y="6.5" width="15" height="11" rx="1.5" /><path d="m5.5 8 6.5 5 6.5-5" /></LineIcon>;
+}
+
+function RippleIcon() {
+  return <LineIcon><path d="M4.5 9.5c2.3 1.6 4.7 1.6 7 0s4.7-1.6 8 0M4.5 14.5c2.3 1.6 4.7 1.6 7 0s4.7-1.6 8 0" /></LineIcon>;
+}
+
+function ArtIcon() {
+  return <LineIcon><path d="m12 4 1.5 4.5L18 10l-4.5 1.5L12 16l-1.5-4.5L6 10l4.5-1.5L12 4Z" /><path d="m18.5 15 .6 1.9 1.9.6-1.9.6-.6 1.9-.6-1.9-1.9-.6 1.9-.6.6-1.9Z" /></LineIcon>;
+}
+
+function BookIcon() {
+  return <LineIcon><path d="M5 5.5h5.2c1 0 1.8.8 1.8 1.8v11.2c0-1-.8-1.8-1.8-1.8H5V5.5Zm14 0h-5.2c-1 0-1.8.8-1.8 1.8v11.2c0-1 .8-1.8 1.8-1.8H19V5.5Z" /></LineIcon>;
+}
+
+function ConstellationIcon() {
+  return <LineIcon><circle cx="6" cy="7" r="1.5" /><circle cx="17.5" cy="6" r="1.5" /><circle cx="12" cy="17" r="1.5" /><path d="m7.4 7.3 8.6-.9M6.8 8.3l4.4 7.5m5.5-8.5-4 8.4" /></LineIcon>;
+}
 
 export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [open, setOpen] = useState(false);
@@ -111,7 +167,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
               aria-label={isZh ? "返回菜单" : "Back to menu"}
               onClick={() => setView("home")}
             >
-              <span aria-hidden="true">‹</span>
+              <ArrowLeftIcon />
             </button>
           )}
           <div>
@@ -124,7 +180,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
             aria-label={isZh ? "关闭菜单" : "Close menu"}
             onClick={() => closeMenu(true)}
           >
-            <span aria-hidden="true" />
+            <CloseIcon />
           </button>
         </header>
 
@@ -140,30 +196,30 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                 />
 
                 <a className="drawer-nav-row" href="#archive" onClick={() => closeMenu()}>
-                  <span className="drawer-nav-icon" aria-hidden="true">期</span>
+                  <span className="drawer-nav-icon"><ArchiveIcon /></span>
                   <span className="drawer-nav-copy">
                     <strong>{isZh ? "往期刊物" : "Past editions"}</strong>
                     <small>{isZh ? "按日期重看过去的世界" : "Revisit the world, one date at a time"}</small>
                   </span>
-                  <b aria-hidden="true">›</b>
+                  <ChevronRightIcon />
                 </a>
 
                 <button className="drawer-nav-row" type="button" onClick={() => setView("about")}>
-                  <span className="drawer-nav-icon" aria-hidden="true">曰</span>
+                  <span className="drawer-nav-icon"><InfoIcon /></span>
                   <span className="drawer-nav-copy">
                     <strong>{isZh ? "关于虾子曰" : "About Xiazi Says"}</strong>
                     <small>{isZh ? "我们怎样筛选新闻，也怎样看门道" : "How we select stories and look beneath them"}</small>
                   </span>
-                  <b aria-hidden="true">›</b>
+                  <ChevronRightIcon />
                 </button>
 
                 <button className="drawer-nav-row" type="button" onClick={() => setView("contact")}>
-                  <span className="drawer-nav-icon" aria-hidden="true">信</span>
+                  <span className="drawer-nav-icon"><EnvelopeIcon /></span>
                   <span className="drawer-nav-copy">
                     <strong>{isZh ? "联系与回响" : "Contact & feedback"}</strong>
                     <small>{isZh ? "邮箱、微信与社交媒体" : "Email, WeChat, and social channels"}</small>
                   </span>
-                  <b aria-hidden="true">›</b>
+                  <ChevronRightIcon />
                 </button>
               </nav>
 
@@ -176,12 +232,12 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                     : "If this work has helped, you may let a little support keep it flowing—or keep that care for what your life needs now."}
                 </span>
                 <button type="button" onClick={() => setView("support")}>
-                  <i aria-hidden="true">水</i>
+                  <span className="drawer-support-icon"><RippleIcon /></span>
                   <span>
                     <strong>{isZh ? "随喜相助" : "Offer support"}</strong>
                     <small>{isZh ? "有余则助，无余亦安" : "Give freely, or simply read in peace"}</small>
                   </span>
-                  <b aria-hidden="true">›</b>
+                  <ChevronRightIcon />
                 </button>
               </section>
 
@@ -192,30 +248,30 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                 </h3>
 
                 <a href={STYLE_ATLAS_URL} target="_blank" rel="noreferrer">
-                  <span className="drawer-project-mark" aria-hidden="true">风</span>
+                  <span className="drawer-project-mark"><ArtIcon /></span>
                   <span>
-                    <strong>{isZh ? "风格图鉴" : "Style Atlas"}</strong>
+                    <strong>{isZh ? "艺术风格图鉴" : "Style Atlas"}</strong>
                     <small>{isZh ? "每天一种视觉风格，为今日海报寻找灵感" : "A daily visual language for today's posters"}</small>
                   </span>
-                  <b aria-hidden="true">↗</b>
+                  <ExternalLinkIcon />
                 </a>
 
                 <a href={WENDAO_URL} target="_blank" rel="noreferrer">
-                  <span className="drawer-project-mark" aria-hidden="true">道</span>
+                  <span className="drawer-project-mark"><BookIcon /></span>
                   <span>
                     <strong>{isZh ? "三慢问道" : "Wendao"}</strong>
                     <small>{isZh ? "从经典里，慢慢读懂自己" : "Read the classics and slowly understand yourself"}</small>
                   </span>
-                  <b aria-hidden="true">↗</b>
+                  <ExternalLinkIcon />
                 </a>
 
                 <a href={HUMAN_DESIGN_URL} target="_blank" rel="noreferrer">
-                  <span className="drawer-project-mark" aria-hidden="true">图</span>
+                  <span className="drawer-project-mark"><ConstellationIcon /></span>
                   <span>
                     <strong>{isZh ? "人类图" : "Human Design"}</strong>
                     <small>{isZh ? "人生使用说明书，换一个角度认识自己" : "A different lens on how you move through life"}</small>
                   </span>
-                  <b aria-hidden="true">↗</b>
+                  <ExternalLinkIcon />
                 </a>
               </section>
             </>
@@ -244,7 +300,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                   >
                     <span>{contact.label}</span>
                     <strong>{contact.value}</strong>
-                    <b aria-hidden="true">↗</b>
+                    <ExternalLinkIcon />
                   </a>
                 ))}
               </div>
@@ -297,7 +353,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
         }}
         ref={triggerRef}
       >
-        <i aria-hidden="true"><b /><b /><b /></i>
+        <MenuIcon />
       </button>
       {typeof document === "undefined" ? null : createPortal(drawer, document.body)}
     </>

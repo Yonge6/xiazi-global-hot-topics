@@ -197,25 +197,19 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   background: transparent;
   cursor: pointer;
   color: var(--ink);
-  font-family: var(--serif);
-  font-size: 13px;
-  line-height: 1;
 }
-.mobile-menu-trigger i {
-  display: grid;
-  width: 21px;
-  gap: 4px;
-}
-.mobile-menu-trigger i b {
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: currentColor;
-  transition: width 180ms ease;
-}
-.mobile-menu-trigger i b:nth-child(2) { width: 72%; justify-self: end; }
 .mobile-menu-trigger:hover { color: var(--vermilion); }
-.mobile-menu-trigger:hover i b:nth-child(2) { width: 100%; }
+.drawer-line-icon {
+  width: 22px;
+  height: 22px;
+  overflow: visible;
+  stroke: currentColor;
+  stroke-width: 1.55;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+.mobile-menu-trigger .drawer-line-icon { width: 24px; height: 24px; }
 
 .navigation-drawer-layer {
   position: fixed;
@@ -280,39 +274,33 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   width: 42px;
   height: 42px;
   place-items: center;
-  border: 1px solid color-mix(in srgb, var(--gold) 46%, var(--line));
+  border: 1px solid color-mix(in srgb, var(--gold) 34%, var(--line));
   border-radius: 50%;
   background: transparent;
   color: var(--ink);
   cursor: pointer;
 }
-.navigation-drawer-back span { transform: translate(-1px, -2px); font: 34px/1 var(--serif); }
+.navigation-drawer-back .drawer-line-icon { width: 20px; height: 20px; }
 .navigation-drawer-back:hover { border-color: var(--vermilion); color: var(--vermilion); }
 .navigation-drawer-close {
   grid-column: 3;
-  position: relative;
   width: 46px;
   height: 46px;
-  flex: 0 0 auto;
-  border: 0;
+  display: grid;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
   background: transparent;
+  color: var(--ink);
   cursor: pointer;
+  transition: border-color 180ms ease, background 180ms ease, color 180ms ease;
 }
-.navigation-drawer-close::before,
-.navigation-drawer-close::after {
-  position: absolute;
-  top: 22px;
-  left: 6px;
-  width: 34px;
-  height: 2px;
-  background: var(--ink);
-  content: "";
-  transition: background 180ms ease, transform 180ms ease;
+.navigation-drawer-close .drawer-line-icon { width: 27px; height: 27px; stroke-width: 1.35; }
+.navigation-drawer-close:hover {
+  border-color: color-mix(in srgb, var(--gold) 35%, var(--line));
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+  color: var(--vermilion);
 }
-.navigation-drawer-close::before { transform: rotate(45deg); }
-.navigation-drawer-close::after { transform: rotate(-45deg); }
-.navigation-drawer-close:hover::before { background: var(--vermilion); transform: rotate(38deg); }
-.navigation-drawer-close:hover::after { background: var(--vermilion); transform: rotate(-38deg); }
 .navigation-drawer-scroll {
   height: calc(100dvh - 148px);
   overflow-x: hidden;
@@ -381,7 +369,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   font-size: 13px;
   line-height: 1.5;
 }
-.drawer-nav-row > b { color: var(--jade); font: 28px/1 var(--serif); font-weight: 400; }
+.drawer-nav-row > .drawer-line-icon { width: 19px; height: 19px; color: var(--jade); }
 .theme-toggle-switch {
   position: relative;
   display: block;
@@ -447,7 +435,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   text-align: left;
 }
 .drawer-support > button:hover { border-color: var(--gold); }
-.drawer-support > button i {
+.drawer-support-icon {
   display: grid;
   width: 50px;
   height: 50px;
@@ -455,19 +443,19 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   border: 1px solid color-mix(in srgb, var(--gold) 60%, var(--line));
   border-radius: 50%;
   color: var(--gold);
-  font: normal 20px var(--serif);
 }
+.drawer-support-icon .drawer-line-icon,
+.drawer-project-mark .drawer-line-icon { width: 22px; height: 22px; }
 .drawer-support > button strong,
 .drawer-support > button small { display: block; }
 .drawer-support > button strong { font: 20px var(--serif); }
 .drawer-support > button small { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.55; }
-.drawer-support > button b { color: var(--gold); font: 28px/1 var(--serif); font-weight: 400; }
+.drawer-support > button > .drawer-line-icon { width: 19px; height: 19px; color: var(--gold); }
 .drawer-projects > a {
   display: grid;
   min-height: 112px;
   grid-template-columns: 58px minmax(0, 1fr) auto;
   align-items: center;
-  gap: 18px;
   margin-top: 16px;
   border: 1px solid color-mix(in srgb, var(--gold) 43%, var(--line));
   border-radius: 22px;
@@ -490,7 +478,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 .drawer-projects > a > span:nth-child(2) small { display: block; }
 .drawer-projects > a > span:nth-child(2) strong { font: 20px var(--serif); }
 .drawer-projects > a > span:nth-child(2) small { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.55; }
-.drawer-projects > a > b { color: var(--gold); font: 18px Georgia, serif; }
+.drawer-projects > a > .drawer-line-icon { width: 19px; height: 19px; color: var(--gold); }
 .drawer-about .about-copy {
   max-width: none;
   font-size: 17px;
@@ -498,42 +486,57 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 }
 .drawer-about .about-copy p:first-child { font-size: 1.28em; }
 .xiazi-life-philosophy {
-  margin-top: 48px;
+  margin-top: 42px;
   border-top: 1px solid color-mix(in srgb, var(--gold) 30%, var(--line));
-  padding-top: 42px;
+  border-bottom: 1px solid color-mix(in srgb, var(--gold) 30%, var(--line));
+  padding: 34px 0 38px;
 }
-.xiazi-life-philosophy h3 {
-  margin: 18px 0 18px;
-  font: 27px/1.65 var(--serif);
-  letter-spacing: -.03em;
+.xiazi-life-philosophy h4 {
+  margin: 14px 0 0;
+  color: var(--ink);
+  font: 23px/1.75 var(--serif);
+  font-weight: 500;
+  letter-spacing: -.02em;
 }
 .life-intro,
-.life-vision { margin: 0; color: var(--muted); font: 15px/1.9 var(--serif); }
-.life-path { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 28px; }
-.life-path span {
-  display: flex;
-  min-height: 58px;
-  align-items: center;
-  gap: 12px;
-  border: 1px solid color-mix(in srgb, var(--gold) 38%, var(--line));
-  border-radius: 14px;
-  padding: 10px 14px;
-  background: var(--drawer-card);
-  font: 15px var(--serif);
+.life-vision { margin: 16px 0 0; color: var(--muted); font: 14px/1.95 var(--serif); }
+.life-path {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 28px 0;
+  border-top: 1px solid color-mix(in srgb, var(--gold) 24%, var(--line));
+  border-bottom: 1px solid color-mix(in srgb, var(--gold) 24%, var(--line));
 }
-.life-path i { color: var(--gold); font: normal 10px Georgia, serif; letter-spacing: .08em; }
-.life-principles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 28px; }
-.life-principles article { border-left: 2px solid var(--gold); padding: 3px 0 3px 15px; }
-.life-principles strong,
-.life-principles span { display: block; }
-.life-principles strong { font: 18px var(--serif); }
-.life-principles span { margin-top: 7px; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.life-path div {
+  display: grid;
+  min-width: 0;
+  gap: 8px;
+  border-right: 1px solid color-mix(in srgb, var(--gold) 20%, var(--line));
+  padding: 14px 9px;
+}
+.life-path div:last-child { border-right: 0; }
+.life-path span { color: var(--gold); font: 9px Georgia, serif; letter-spacing: .08em; }
+.life-path strong { color: var(--ink); font: 13px/1.5 var(--serif); font-weight: 500; }
+.life-principles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+.life-principles article {
+  border: 1px solid color-mix(in srgb, var(--gold) 20%, var(--line));
+  padding: 16px;
+  background: color-mix(in srgb, var(--gold) 5%, transparent);
+}
+.life-principles strong { color: var(--gold); font: 16px var(--serif); font-weight: 500; }
+.life-principles article p { margin: 8px 0 0; color: var(--muted); font-size: 12px; line-height: 1.75; }
 .xiazi-life-philosophy blockquote {
-  margin: 36px 0 20px;
+  margin: 30px 0 0;
   border: 0;
-  color: var(--jade);
-  font: 24px/1.6 var(--serif);
+  color: var(--ink);
+  font: 21px/1.7 var(--serif);
   text-align: center;
+}
+.xiazi-life-philosophy .life-vision {
+  margin-top: 20px;
+  border-top: 1px solid color-mix(in srgb, var(--gold) 18%, var(--line));
+  padding-top: 20px;
+  font-size: 12px;
 }
 .drawer-detail-intro { margin: 0 0 28px; color: var(--muted); font: 17px/1.9 var(--serif); }
 .drawer-contact-list { border-top: 1px solid color-mix(in srgb, var(--gold) 30%, var(--line)); }
@@ -548,7 +551,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 }
 .drawer-contact-list a > span { color: var(--gold); font: 15px var(--serif); }
 .drawer-contact-list a > strong { overflow-wrap: anywhere; font-size: 14px; font-weight: 500; }
-.drawer-contact-list a > b { color: var(--jade); font: 16px Georgia, serif; }
+.drawer-contact-list a > .drawer-line-icon { width: 18px; height: 18px; color: var(--jade); }
 .drawer-wechat-card {
   display: flex;
   align-items: center;
@@ -1316,19 +1319,24 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
     padding: 17px 18px;
   }
   .drawer-project-mark { width: 44px; height: 44px; font-size: 17px; }
-  .drawer-support > button i { width: 44px; height: 44px; font-size: 17px; }
+  .drawer-support-icon { width: 44px; height: 44px; }
   .drawer-support > button strong,
   .drawer-projects > a > span:nth-child(2) strong { font-size: 18px; }
   .drawer-support > button small,
   .drawer-projects > a > span:nth-child(2) small { margin-top: 6px; font-size: 11px; }
   .drawer-about .about-copy { font-size: 15px; line-height: 1.9; }
-  .xiazi-life-philosophy { margin-top: 38px; padding-top: 34px; }
-  .xiazi-life-philosophy h3 { font-size: 23px; }
+  .xiazi-life-philosophy { margin-top: 38px; padding: 28px 0 32px; }
+  .xiazi-life-philosophy h4 { font-size: 20px; }
   .life-intro,
   .life-vision { font-size: 13px; }
-  .life-path,
-  .life-principles { grid-template-columns: 1fr; }
-  .xiazi-life-philosophy blockquote { font-size: 21px; }
+  .life-path { margin: 22px 0; }
+  .life-path div { padding: 12px 6px; }
+  .life-path strong { font-size: 11px; }
+  .life-principles { gap: 9px; }
+  .life-principles article { padding: 13px; }
+  .life-principles strong { font-size: 13px; }
+  .life-principles article p { font-size: 10px; }
+  .xiazi-life-philosophy blockquote { font-size: 18px; }
   .drawer-detail-intro { font-size: 15px; }
   .drawer-contact-list a { grid-template-columns: 74px minmax(0, 1fr) auto; gap: 12px; }
   .drawer-wechat-card { padding: 18px; }

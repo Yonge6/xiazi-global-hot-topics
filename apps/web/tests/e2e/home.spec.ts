@@ -149,7 +149,7 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await expect(drawer.getByAltText("微信赞赏码")).toBeVisible();
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
-  await expect(drawer.getByRole("link", { name: /风格图鉴/ })).toHaveAttribute(
+  await expect(drawer.getByRole("link", { name: /艺术风格图鉴/ })).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
   );

@@ -5,17 +5,17 @@ const zhPath = ["认识自己", "接纳自己", "成为自己", "活出自己"];
 const enPath = ["Know yourself", "Accept yourself", "Become yourself", "Live as yourself"];
 
 const zhPrinciples = [
-  ["一休", "留一点空白，听见内心真正的声音。"],
-  ["不二", "不急着分高下，也不把自己困在对错里。"],
-  ["三慢", "慢一点看，慢一点想，慢一点成为。"],
-  ["如水", "柔软而有方向，随形而不失本心。"],
+  ["一休", "先照顾身体，安顿情绪，再继续前行。"],
+  ["不二", "接纳高峰与低谷，拥抱完整而非完美。"],
+  ["三慢", "慢下来、慢慢来、慢慢成为，尊重生命的节奏。"],
+  ["如水", "向内扎根，向外流动；顺应变化，不失本心。"],
 ];
 
 const enPrinciples = [
-  ["Rest", "Leave a little space to hear what is true within."],
-  ["Non-duality", "Do not rush to rank, divide, or trap life in right and wrong."],
-  ["Three Slows", "Look slowly, think slowly, and become slowly."],
-  ["Like Water", "Stay soft and directed, adaptable without losing yourself."],
+  ["Pause", "Care for the body, settle emotion, then continue."],
+  ["Wholeness", "Accept peaks and valleys; choose wholeness over perfection."],
+  ["Go slowly", "Slow down, take your time, and respect the rhythm of becoming."],
+  ["Be Water", "Root inwardly, move outwardly; adapt without losing your center."],
 ];
 
 export function AboutCopy({ locale, includePhilosophy = false }: { locale: AppLocale; includePhilosophy?: boolean }) {
@@ -54,32 +54,32 @@ export function AboutCopy({ locale, includePhilosophy = false }: { locale: AppLo
 
       {includePhilosophy ? (
         <section className="xiazi-life-philosophy">
-          <p className="life-kicker">{isZh ? "我们的生命观" : "OUR VIEW OF LIFE"}</p>
-          <h3>
+          <span className="life-kicker">{isZh ? "我们的生命观" : "OUR VIEW OF LIFE"}</span>
+          <h4>
             {isZh
               ? "生命不是用来证明自己的，而是用来认识、接纳、成为并活出自己。"
-              : "Life is not for proving yourself, but for knowing, accepting, becoming, and living as yourself."}
-          </h3>
+              : "Life is not for proving yourself. It is for knowing, accepting, becoming, and living as yourself."}
+          </h4>
           <p className="life-intro">
             {isZh
-              ? "世界值得看清，自己也值得慢慢读懂。我们相信，真正的成长不是把自己改造成别人，而是更诚实、更松弛地成为本来的自己。"
-              : "The world is worth seeing clearly, and the self is worth understanding slowly. Growth is not becoming someone else, but becoming more honestly and gently who you already are."}
+              ? "真正的成长，不是把自己改造成某个标准答案，而是在变化中越来越诚实地看见自己，越来越从容地选择自己的活法。"
+              : "Growth is not the work of turning yourself into a standard answer. It is learning to see yourself more honestly through change, and to choose your way of living with greater ease."}
           </p>
           <div className="life-path" aria-label={isZh ? "生命路径" : "Life path"}>
             {path.map((item, index) => (
-              <span key={item}><i>{String(index + 1).padStart(2, "0")}</i>{item}</span>
+              <div key={item}><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong></div>
             ))}
           </div>
           <div className="life-principles">
             {principles.map(([name, description]) => (
-              <article key={name}><strong>{name}</strong><span>{description}</span></article>
+              <article key={name}><strong>{name}</strong><p>{description}</p></article>
             ))}
           </div>
-          <blockquote>{isZh ? "向内认识自己，向外如水而行。" : "Know yourself within; move like water through the world."}</blockquote>
+          <blockquote>{isZh ? "向内认识自己，向外如水而行。" : "Know yourself within; move through the world like water."}</blockquote>
           <p className="life-vision">
             {isZh
-              ? "愿我们既能看懂时代的潮汐，也能守住自己的节奏；既关心远方发生了什么，也不忘照顾眼前真实的生活。"
-              : "May we understand the tides of our time without losing our own rhythm—caring about the wider world while tending to the life directly before us."}
+              ? "我们愿陪伴彼此走过低谷与高峰，探索身心健康的工作与生活方式；真实面对自己与世界，善待自己、他人与生命，并在创造和欣赏中活出生命之美。"
+              : "We hope to accompany one another through valleys and peaks, exploring healthier ways to work and live: facing self and world truthfully, treating life with kindness, and creating and appreciating beauty."}
           </p>
         </section>
       ) : null}
