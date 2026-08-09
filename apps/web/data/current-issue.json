@@ -1,23 +1,23 @@
 {
-  "id": "2925756f-f8ae-50d3-9a49-b81371939d96",
-  "slug": "2026-08-09",
-  "issueDate": "2026-08-09",
-  "assetVersion": "2026-08-09",
+  "id": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+  "slug": "2026-08-10",
+  "issueDate": "2026-08-10",
+  "assetVersion": "2026-08-10",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-08-09T05:00:00+08:00",
-  "gmtTimestamp": "2026-08-08T21:00:00.000Z",
-  "featuredTopicId": "025538cb-8bcc-595f-aaed-4174da270635",
+  "beijingTimestamp": "2026-08-10T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-09T21:00:00.000Z",
+  "featuredTopicId": "8713f1bb-7e15-59ce-b1d0-eb2559a80746",
   "style": {
-    "name": "Russian Lubok",
-    "zhName": "俄罗斯民间版画",
-    "description": "Style Atlas daily pick: a contemporary editorial interpretation of Russian Lubok using bold woodcut-like outlines, flat vermilion, ochre, indigo and green, hand-printed texture, narrative panels and clear modern infographic hierarchy, without copying a specific historical work or living artist."
+    "name": "Scientific Illustration",
+    "zhName": "科学插画风格",
+    "description": "Style Atlas daily pick: a contemporary scientific illustration system with precise explanatory drawings, clean cross-sections, annotated diagrams, restrained natural colors, editorial clarity and modern infographic hierarchy."
   },
   "topics": [
     {
-      "id": "025538cb-8bcc-595f-aaed-4174da270635",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "today-overview-rules-health-memory",
+      "id": "8713f1bb-7e15-59ce-b1d0-eb2559a80746",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "today-overview-rules-leadership-sky",
       "rank": 1,
       "category": "international",
       "region": "Global",
@@ -26,52 +26,52 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-today-overview-rules-health-memory-20260809",
+      "storyId": "xzs-today-overview-rules-leadership-sky-20260810",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 97,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "规则、健康、气候与记忆汇入同一天",
-          "headlineView": "全球系统进入执行与承载力测试",
-          "headlineFull": "规则、健康、气候与记忆汇入同一天；全球系统进入执行与承载力测试",
-          "intro": "欧盟小包关税、AI透明、单人创业、原住民健康、法国热浪、星空节、艺穗节与长崎和平纪念同时进入行动窗口。",
-          "xiaziQuote": "真正的热点不是声音最大，而是今天必须改变预算、流程与责任。",
-          "doudouQuote": "世界的九条线，今天都要落到行动上。",
+          "headlineFact": "关税、AI、选举与天空进入倒计时",
+          "headlineView": "全球系统同时测试执行力与准备度",
+          "headlineFull": "关税、AI、选举与天空进入倒计时；全球系统同时测试执行力与准备度",
+          "intro": "北美贸易成本、AI公司换帅、单人创业方法、原住民照护、欧洲田径、日全食与赞比亚大选都进入明确行动窗口。",
+          "xiaziQuote": "倒计时真正衡量的，是组织能否把信息变成准备。",
+          "doudouQuote": "九条时间线，今天都开始走得更快。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Today Overview",
-          "headlineFact": "Rules, health, climate and memory converge today",
-          "headlineView": "global systems face execution and capacity tests",
-          "headlineFull": "Rules, health, climate and memory converge today; global systems face execution and capacity tests",
-          "intro": "EU parcel duties, AI transparency, solo entrepreneurship, Indigenous health, France's heatwave, public astronomy, Edinburgh culture and Nagasaki remembrance enter action windows together.",
-          "xiaziQuote": "The real hotspot is what changes budgets, processes and accountability today.",
-          "doudouQuote": "Nine global threads all have to land in action today.",
+          "headlineFact": "Tariffs, AI, elections and the sky enter countdowns",
+          "headlineView": "global systems test execution and readiness together",
+          "headlineFull": "Tariffs, AI, elections and the sky enter countdowns; global systems test execution and readiness together",
+          "intro": "North American trade costs, AI leadership, solo-business methods, Indigenous care, European athletics, a total eclipse and Zambia's election enter clear action windows.",
+          "xiaziQuote": "A countdown really measures whether organizations turn information into readiness.",
+          "doudouQuote": "Nine timelines all start moving faster today.",
           "footerTakeaway": "Keyword: Today Overview."
         }
       },
       "sources": [
         {
-          "id": "8a23a97e-dc60-5967-a23b-e6209d2bc8eb",
-          "topicId": "025538cb-8bcc-595f-aaed-4174da270635",
-          "title": "Guidance and legal text on temporary flat fee on low-value imports",
-          "publisher": "European Commission",
-          "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
-          "publishedAt": "2026-08-09T00:00:00Z",
+          "id": "b887f756-ef02-5a2e-ae1c-daeae1aa2355",
+          "topicId": "8713f1bb-7e15-59ce-b1d0-eb2559a80746",
+          "title": "Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Dairy",
+          "publisher": "Federal Register",
+          "url": "https://www.federalregister.gov/documents/2026/07/27/2026-14992/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united",
+          "publishedAt": "2026-08-10T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "ceebd963-23a8-58f4-a72a-7e46e2b5d2e2",
-          "topicId": "025538cb-8bcc-595f-aaed-4174da270635",
-          "title": "International Day of the World's Indigenous Peoples",
-          "publisher": "United Nations",
-          "url": "https://www.un.org/en/observances/indigenous-day/",
-          "publishedAt": "2026-08-09T00:00:00Z",
+          "id": "1b5a4939-99ac-5484-8bc3-552077ed19ee",
+          "topicId": "8713f1bb-7e15-59ce-b1d0-eb2559a80746",
+          "title": "The Government launches the official website with information on the three eclipse events",
+          "publisher": "Government of Spain",
+          "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/paginas/2026/20260312-three-eclipse-events-website.aspx",
+          "publishedAt": "2026-08-10T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -80,53 +80,54 @@
       ]
     },
     {
-      "id": "87e6bd56-7a0a-5f72-a3a4-40aace39ab90",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "eu-low-value-parcel-flat-duty",
+      "id": "7f9b1bca-5a78-5e99-8beb-ed8014393557",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "us-canada-dairy-duty-countdown",
       "rank": 2,
       "category": "business",
-      "region": "Europe",
+      "region": "North America",
       "countryCodes": [
-        "EU"
+        "US",
+        "CA"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 97,
-      "storyId": "xzs-eu-low-value-parcel-flat-duty-20260809",
-      "storyStatus": "followup",
-      "followupDay": 2,
+      "storyId": "xzs-us-canada-dairy-duty-countdown-20260810",
+      "storyStatus": "new",
+      "followupDay": 1,
       "informationIncrementScore": 96,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "跨境电商",
-          "headlineFact": "欧盟低值小包每类商品征收3欧元",
-          "headlineView": "卖家必须重算SKU与到岸成本",
-          "headlineFull": "欧盟低值小包每类商品征收3欧元；卖家必须重算SKU与到岸成本",
-          "intro": "自7月1日起，低于150欧元的小包按不同关税子目每类征收3欧元；IOSS、HS分类、组合装与DDP报价都需复核。",
-          "xiaziQuote": "小额固定费最容易吞掉低客单和多品类订单的利润。",
-          "doudouQuote": "一只包裹装三类货，成本就可能敲三次门。",
+          "headlineFact": "美国对部分加拿大乳品加征50%关税",
+          "headlineView": "8月19日前重算价格与清关路径",
+          "headlineFull": "美国对部分加拿大乳品加征50%关税；8月19日前重算价格与清关路径",
+          "intro": "新关税将于8月19日生效；相关品牌、平台卖家与进口商需核对商品清单、原产地、库存周转和到岸成本。",
+          "xiaziQuote": "关税落地前九天，最贵的不是调整，而是没有商品级测算。",
+          "doudouQuote": "先把每个SKU的税和库存摊开看。",
           "footerTakeaway": "今日关键词：跨境电商。"
         },
         "en-US": {
           "categoryLabel": "Cross-border E-commerce",
-          "headlineFact": "EU charges EUR3 per category in low-value parcels",
-          "headlineView": "sellers must recalculate SKUs and landed cost",
-          "headlineFull": "EU charges EUR3 per category in low-value parcels; sellers must recalculate SKUs and landed cost",
-          "intro": "Since July 1, parcels under EUR150 face a EUR3 duty for each different tariff category; IOSS, HS classification, bundles and DDP pricing all need review.",
-          "xiaziQuote": "Small flat fees can erase margins fastest on low-ticket, multi-category orders.",
-          "doudouQuote": "Put three categories in one parcel and cost may knock three times.",
+          "headlineFact": "US adds 50% duty on selected Canadian dairy goods",
+          "headlineView": "reprice and reroute customs before August 19",
+          "headlineFull": "US adds 50% duty on selected Canadian dairy goods; reprice and reroute customs before August 19",
+          "intro": "The new duty takes effect August 19; brands, marketplace sellers and importers should check product lists, origin, inventory turns and landed cost.",
+          "xiaziQuote": "Nine days before a tariff lands, the costliest mistake is having no SKU-level model.",
+          "doudouQuote": "Lay out tax and inventory for every SKU first.",
           "footerTakeaway": "Keyword: Cross-border E-commerce."
         }
       },
       "sources": [
         {
-          "id": "179eff1b-5e1c-5f35-98e3-1ed98beb004e",
-          "topicId": "87e6bd56-7a0a-5f72-a3a4-40aace39ab90",
-          "title": "Guidance and legal text on temporary flat fee on low-value imports",
-          "publisher": "European Commission",
-          "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
-          "publishedAt": "2026-08-09T00:00:00Z",
+          "id": "c75321fc-b836-5377-bab0-99bc89286c8d",
+          "topicId": "7f9b1bca-5a78-5e99-8beb-ed8014393557",
+          "title": "Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Dairy",
+          "publisher": "Federal Register",
+          "url": "https://www.federalregister.gov/documents/2026/07/27/2026-14992/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united",
+          "publishedAt": "2026-08-10T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -135,269 +136,53 @@
       ]
     },
     {
-      "id": "d11ee991-a69a-5c2d-a1a4-0003e8aa1f9c",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "eu-ai-transparency-week-one",
+      "id": "267529ca-5ef8-5923-bd06-51b385d2294c",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "scale-ai-new-ceo-starts",
       "rank": 3,
       "category": "technology",
-      "region": "Europe",
+      "region": "United States",
       "countryCodes": [
-        "EU"
+        "US"
       ],
       "eventTime": null,
-      "isDeveloping": true,
+      "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 96,
-      "storyId": "xzs-eu-ai-transparency-week-one-20260809",
-      "storyStatus": "followup",
-      "followupDay": 5,
+      "storyId": "xzs-scale-ai-new-ceo-starts-20260810",
+      "storyStatus": "new",
+      "followupDay": 1,
       "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "人工智能 AI",
-          "headlineFact": "欧盟AI透明义务实施满一周",
-          "headlineView": "标记与披露成为产品能力",
-          "headlineFull": "欧盟AI透明义务实施满一周；标记与披露成为产品能力",
-          "intro": "自8月2日起，部分AI交互与生成或操纵内容需明确告知、机器可读标记、来源记录和披露责任。",
-          "xiaziQuote": "透明不是最后补水印，而是界面、输出管线和审计共同承担。",
-          "doudouQuote": "先把来源讲清楚，再让内容跑得更远。",
+          "headlineFact": "Scale AI新任CEO今日履职",
+          "headlineView": "数据基础设施进入增长与治理新阶段",
+          "headlineFull": "Scale AI新任CEO今日履职；数据基础设施进入增长与治理新阶段",
+          "intro": "Francis deSouza于8月10日正式出任CEO；行业关注公司在模型数据、企业客户、人才和治理上的下一步。",
+          "xiaziQuote": "AI基础设施的竞争，正在从速度扩展到信任、交付与组织能力。",
+          "doudouQuote": "换帅只是起点，客户要看下一张交付表。",
           "footerTakeaway": "今日关键词：人工智能 AI。"
         },
         "en-US": {
           "categoryLabel": "Artificial Intelligence AI",
-          "headlineFact": "EU AI transparency completes its first week",
-          "headlineView": "marking and disclosure become product capabilities",
-          "headlineFull": "EU AI transparency completes its first week; marking and disclosure become product capabilities",
-          "intro": "Since August 2, certain AI interactions and generated or manipulated content require clear notice, machine-readable marking and provenance records.",
-          "xiaziQuote": "Transparency is not a final watermark; interfaces, output pipelines and audits must share it.",
-          "doudouQuote": "Explain the source before sending content farther.",
+          "headlineFact": "Scale AI's new CEO starts today",
+          "headlineView": "data infrastructure enters a new growth and governance phase",
+          "headlineFull": "Scale AI's new CEO starts today; data infrastructure enters a new growth and governance phase",
+          "intro": "Francis deSouza becomes CEO on August 10, focusing attention on the company's next moves in model data, enterprise customers, talent and governance.",
+          "xiaziQuote": "AI infrastructure competition is expanding from speed to trust, delivery and organizational capability.",
+          "doudouQuote": "A new leader is the start; customers will watch the next delivery sheet.",
           "footerTakeaway": "Keyword: Artificial Intelligence AI."
         }
       },
       "sources": [
         {
-          "id": "3fa0edfc-6804-58a9-a0cd-3f31d2c881e0",
-          "topicId": "d11ee991-a69a-5c2d-a1a4-0003e8aa1f9c",
-          "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
-          "publisher": "European Commission",
-          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
-          "publishedAt": "2026-08-09T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "7448d7d7-f150-5878-94b6-17dc65ceaf29",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "solo-ai-entry-team-outcomes",
-      "rank": 4,
-      "category": "business",
-      "region": "Global",
-      "countryCodes": [],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 95,
-      "storyId": "xzs-solo-ai-entry-team-outcomes-20260809",
-      "storyStatus": "followup",
-      "followupDay": 3,
-      "informationIncrementScore": 94,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "一人公司 OPC",
-          "headlineFact": "AI让单人创业更容易入场",
-          "headlineView": "头部成果仍偏向团队复利",
-          "headlineFull": "AI让单人创业更容易入场；头部成果仍偏向团队复利",
-          "intro": "对超过16万款Product Hunt产品的研究显示，生成式AI提高单人创业进入率，但高排名结果仍更多来自团队。",
-          "xiaziQuote": "AI降低做出来的门槛，却没有取消判断、分销与协作的复利。",
-          "doudouQuote": "一个人更容易开场，冲到前排仍要会借力。",
-          "footerTakeaway": "今日关键词：一人公司 OPC。"
-        },
-        "en-US": {
-          "categoryLabel": "One-person Company OPC",
-          "headlineFact": "AI makes solo entry easier",
-          "headlineView": "top outcomes still favor team compounding",
-          "headlineFull": "AI makes solo entry easier; top outcomes still favor team compounding",
-          "intro": "Research covering more than 160,000 Product Hunt launches finds generative AI increased solo entry, while teams remained more common among top-ranked outcomes.",
-          "xiaziQuote": "AI lowers the making threshold but does not erase the compounding value of judgment, distribution and collaboration.",
-          "doudouQuote": "One person can start faster; reaching the front still takes leverage.",
-          "footerTakeaway": "Keyword: One-person Company OPC."
-        }
-      },
-      "sources": [
-        {
-          "id": "2dd29731-4866-5141-9cdb-a6df4e595b36",
-          "topicId": "7448d7d7-f150-5878-94b6-17dc65ceaf29",
-          "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
-          "publisher": "arXiv",
-          "url": "https://arxiv.org/abs/2605.10291",
-          "publishedAt": "2026-08-09T00:00:00Z",
-          "sourceType": "research",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "7a8a740a-ea9f-58e5-92a7-9e45dd466b06",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "indigenous-midwives-day",
-      "rank": 5,
-      "category": "international",
-      "region": "Global",
-      "countryCodes": [],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-indigenous-midwives-day-20260809",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 93,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "原住民健康",
-          "headlineFact": "世界原住民日聚焦原住民助产士",
-          "headlineView": "知识、照护与文化需要同等承认",
-          "headlineFull": "世界原住民日聚焦原住民助产士；知识、照护与文化需要同等承认",
-          "intro": "2026主题强调原住民助产士在生命照护、知识传承、文化身份、适宜医疗和社区福祉中的作用。",
-          "xiaziQuote": "尊重知识体系，要让权利、资源与服务一起到位。",
-          "doudouQuote": "守护新生命，也是在守护一条文化记忆。",
-          "footerTakeaway": "今日关键词：原住民健康。"
-        },
-        "en-US": {
-          "categoryLabel": "Indigenous Health",
-          "headlineFact": "Indigenous Peoples Day honors Indigenous midwives",
-          "headlineView": "knowledge, care and culture need equal recognition",
-          "headlineFull": "Indigenous Peoples Day honors Indigenous midwives; knowledge, care and culture need equal recognition",
-          "intro": "The 2026 theme highlights Indigenous midwives' roles in safeguarding life, transmitting knowledge, strengthening cultural identity and supporting appropriate care.",
-          "xiaziQuote": "Respecting knowledge systems means aligning rights, resources and services.",
-          "doudouQuote": "Protecting new life also protects a line of cultural memory.",
-          "footerTakeaway": "Keyword: Indigenous Health."
-        }
-      },
-      "sources": [
-        {
-          "id": "f1d0442e-b9a6-5d20-aca9-8f409df0a427",
-          "topicId": "7a8a740a-ea9f-58e5-92a7-9e45dd466b06",
-          "title": "International Day of the World's Indigenous Peoples",
-          "publisher": "United Nations",
-          "url": "https://www.un.org/en/observances/indigenous-day/",
-          "publishedAt": "2026-08-09T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "6ee09ef8-aa72-58c7-85cf-ce4daf8679b8",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "france-third-heatwave-expands",
-      "rank": 6,
-      "category": "climate",
-      "region": "France",
-      "countryCodes": [
-        "FR"
-      ],
-      "eventTime": null,
-      "isDeveloping": true,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "xzs-france-third-heatwave-expands-20260809",
-      "storyStatus": "followup",
-      "followupDay": 1,
-      "informationIncrementScore": 92,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "全球气候",
-          "headlineFact": "法国第三轮热浪继续扩展",
-          "headlineView": "35至40摄氏度高温逼近更多地区",
-          "headlineFull": "法国第三轮热浪继续扩展；35至40摄氏度高温逼近更多地区",
-          "intro": "持续高温向法国北部、东部和东南部延伸，能源、健康、农业、交通与城市公共服务继续承压。",
-          "xiaziQuote": "热浪不是一次天气插曲，而是基础设施与预算的长期变量。",
-          "doudouQuote": "温度计没下班，城市系统也不能松口气。",
-          "footerTakeaway": "今日关键词：全球气候。"
-        },
-        "en-US": {
-          "categoryLabel": "Global Climate",
-          "headlineFact": "France's third heatwave keeps expanding",
-          "headlineView": "35 to 40C heat approaches more regions",
-          "headlineFull": "France's third heatwave keeps expanding; 35 to 40C heat approaches more regions",
-          "intro": "Persistent heat is spreading toward northern, eastern and southeastern France, keeping pressure on energy, health, agriculture and city services.",
-          "xiaziQuote": "A heatwave is not a weather interlude; it is a long-term infrastructure and budget variable.",
-          "doudouQuote": "The thermometer is still working, so city systems cannot relax.",
-          "footerTakeaway": "Keyword: Global Climate."
-        }
-      },
-      "sources": [
-        {
-          "id": "88f8fc80-dd7a-57f6-aad2-890e9ca544f9",
-          "topicId": "6ee09ef8-aa72-58c7-85cf-ce4daf8679b8",
-          "title": "Summer 2026: understanding the season's weather phenomena",
-          "publisher": "Meteo-France",
-          "url": "https://bibliotheque.meteo.fr/pub/DOC00061608-ete-2026-tout-comprendre-sur-les-phenomenes-meteor.html",
-          "publishedAt": "2026-08-09T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "0ac17bb2-88c9-5325-8950-902dca7ff2d7",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "france-night-of-stars-finale",
-      "rank": 7,
-      "category": "science",
-      "region": "France",
-      "countryCodes": [
-        "FR"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-france-night-of-stars-finale-20260809",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 91,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "公众科学",
-          "headlineFact": "法国星空之夜迎来收官",
-          "headlineView": "500多场活动为8月12日日食倒计时",
-          "headlineFull": "法国星空之夜迎来收官；500多场活动为8月12日日食倒计时",
-          "intro": "8月7日至9日，约350个团体组织500多场公众活动，主题聚焦太阳、英仙座流星雨与安全观测。",
-          "xiaziQuote": "科学传播最有效的时刻，是让好奇心找到安全、清楚的入口。",
-          "doudouQuote": "先戴好观测镜，再和太阳赴约。",
-          "footerTakeaway": "今日关键词：公众科学。"
-        },
-        "en-US": {
-          "categoryLabel": "Public Science",
-          "headlineFact": "France's Nights of the Stars reaches its finale",
-          "headlineView": "500-plus events count down to the August 12 eclipse",
-          "headlineFull": "France's Nights of the Stars reaches its finale; 500-plus events count down to the August 12 eclipse",
-          "intro": "From August 7 to 9, about 350 groups are staging more than 500 public events focused on the Sun, Perseids and safe observing.",
-          "xiaziQuote": "Science communication works best when curiosity finds a safe, clear entrance.",
-          "doudouQuote": "Put on safe viewing glasses before meeting the Sun.",
-          "footerTakeaway": "Keyword: Public Science."
-        }
-      },
-      "sources": [
-        {
-          "id": "c921b346-840a-5e9d-94c0-847a16c4ac60",
-          "topicId": "0ac17bb2-88c9-5325-8950-902dca7ff2d7",
-          "title": "Les Nuits des Etoiles",
-          "publisher": "Association Francaise d'Astronomie",
-          "url": "https://www.afastronomie.fr/les-nuits-des-etoiles%20",
-          "publishedAt": "2026-08-09T00:00:00Z",
+          "id": "c7bda8c1-d0b4-599f-b3e9-92252a4e6f7a",
+          "topicId": "267529ca-5ef8-5923-bd06-51b385d2294c",
+          "title": "Scale AI Appoints Francis deSouza as CEO to Lead Next Phase of Company's Growth",
+          "publisher": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/scale-ai-appoints-francis-desouza-as-ceo-to-lead-next-phase-of-companys-growth-302838437.html",
+          "publishedAt": "2026-08-10T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
@@ -406,108 +191,326 @@
       ]
     },
     {
-      "id": "66998efb-01b1-587d-811e-d81ed63999a4",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "edinburgh-fringe-first-weekend",
-      "rank": 8,
-      "category": "culture",
-      "region": "United Kingdom",
+      "id": "17f0bc62-4e40-5d7f-a2de-15676792f3a9",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "one-person-empire-workshop",
+      "rank": 4,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-one-person-empire-workshop-20260810",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "SBA课程拆解六位数一人公司",
+          "headlineView": "增长重点从工具转向定位与获客",
+          "headlineFull": "SBA课程拆解六位数一人公司；增长重点从工具转向定位与获客",
+          "intro": "8月10日线上活动聚焦成功单人创业的前五步、客户获取、收入模型与可复制流程，适合把AI效率落到经营系统。",
+          "xiaziQuote": "一人公司的杠杆，不是做更多，而是让正确动作可以重复。",
+          "doudouQuote": "工具装满桌，不如先写清第一位客户。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "SBA session breaks down a six-figure solo business",
+          "headlineView": "growth shifts from tools to positioning and acquisition",
+          "headlineFull": "SBA session breaks down a six-figure solo business; growth shifts from tools to positioning and acquisition",
+          "intro": "The August 10 online event covers the first five steps, customer acquisition, revenue models and repeatable systems for solo entrepreneurs using AI leverage.",
+          "xiaziQuote": "A solo company's leverage is not doing more; it is making the right actions repeatable.",
+          "doudouQuote": "A desk full of tools matters less than defining the first customer.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "2aa2466c-8333-5e37-ab32-81526ebc59da",
+          "topicId": "17f0bc62-4e40-5d7f-a2de-15676792f3a9",
+          "title": "One-Person Empire: How to Build a Six-Figure Business in 2026",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/event/86278",
+          "publishedAt": "2026-08-10T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "84c1e317-2894-5d4b-a0f9-e2b312eac05e",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "indigenous-midwives-un-event",
+      "rank": 5,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-indigenous-midwives-un-event-20260810",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "原住民健康",
+          "headlineFact": "联合国今日举行原住民助产士纪念活动",
+          "headlineView": "照护知识进入政策与资源讨论",
+          "headlineFull": "联合国今日举行原住民助产士纪念活动；照护知识进入政策与资源讨论",
+          "intro": "纽约时间8月10日举行线上活动，讨论原住民助产士的认可、文化适宜照护以及保护社区知识体系的政策路径。",
+          "xiaziQuote": "认可知识不能只停在致敬，还要进入制度、预算和服务。",
+          "doudouQuote": "让守护生命的人，也被系统好好守护。",
+          "footerTakeaway": "今日关键词：原住民健康。"
+        },
+        "en-US": {
+          "categoryLabel": "Indigenous Health",
+          "headlineFact": "UN holds Indigenous midwives event today",
+          "headlineView": "care knowledge moves into policy and resource debate",
+          "headlineFull": "UN holds Indigenous midwives event today; care knowledge moves into policy and resource debate",
+          "intro": "The August 10 online event discusses recognition of Indigenous midwives, culturally appropriate care and policy pathways that protect community knowledge systems.",
+          "xiaziQuote": "Recognizing knowledge must move beyond tribute into institutions, budgets and services.",
+          "doudouQuote": "Systems should also protect those who protect life.",
+          "footerTakeaway": "Keyword: Indigenous Health."
+        }
+      },
+      "sources": [
+        {
+          "id": "f5d4d9f7-83e7-57f7-8014-58f2e88b5cfb",
+          "topicId": "84c1e317-2894-5d4b-a0f9-e2b312eac05e",
+          "title": "International Day of the World's Indigenous Peoples",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/observances/indigenous-day/",
+          "publishedAt": "2026-08-10T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "54ffe667-3487-5c20-96f2-21358596fe4a",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "european-athletics-birmingham-opens",
+      "rank": 6,
+      "category": "sports",
+      "region": "Europe",
       "countryCodes": [
         "GB"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-edinburgh-fringe-first-weekend-20260809",
+      "scoreTotal": 93,
+      "storyId": "xzs-european-athletics-birmingham-opens-20260810",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 90,
+      "informationIncrementScore": 92,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "文化经济",
-          "headlineFact": "爱丁堡艺穗节首个周末升温",
-          "headlineView": "3649场节目考验城市承载力",
-          "headlineFull": "爱丁堡艺穗节首个周末升温；3649场节目考验城市承载力",
-          "intro": "2026艺穗节覆盖258个场地、来自71个国家，共53884场演出，票务、交通、住宿与独立创作者同步高负荷。",
-          "xiaziQuote": "文化节的价值，也在城市如何承接密集创造力。",
-          "doudouQuote": "舞台越多，后台协作越像一场大演出。",
-          "footerTakeaway": "今日关键词：文化经济。"
+          "categoryLabel": "国际体育",
+          "headlineFact": "欧洲田径锦标赛今日在伯明翰开幕",
+          "headlineView": "七天赛程考验竞技与城市运营",
+          "headlineFull": "欧洲田径锦标赛今日在伯明翰开幕；七天赛程考验竞技与城市运营",
+          "intro": "赛事于8月10日至16日在亚历山大体育场举行，涵盖田赛、径赛、路跑、竞走和全能项目。",
+          "xiaziQuote": "大型赛事不只看奖牌，也看交通、转播和观众体验如何协同。",
+          "doudouQuote": "枪声响前，整座城市已经在接力。",
+          "footerTakeaway": "今日关键词：国际体育。"
         },
         "en-US": {
-          "categoryLabel": "Culture Economy",
-          "headlineFact": "Edinburgh Fringe's first weekend gathers pace",
-          "headlineView": "3,649 shows test city capacity",
-          "headlineFull": "Edinburgh Fringe's first weekend gathers pace; 3,649 shows test city capacity",
-          "intro": "The 2026 Fringe spans 258 venues, 71 countries and 53,884 performances, pushing ticketing, transport, lodging and independent creators into high-load operation.",
-          "xiaziQuote": "A festival's value also lies in how a city carries concentrated creativity.",
-          "doudouQuote": "More stages make backstage coordination a performance of its own.",
-          "footerTakeaway": "Keyword: Culture Economy."
+          "categoryLabel": "International Sports",
+          "headlineFact": "European Athletics Championships open in Birmingham",
+          "headlineView": "seven days test sport and city operations",
+          "headlineFull": "European Athletics Championships open in Birmingham; seven days test sport and city operations",
+          "intro": "The August 10-16 championships at Alexander Stadium cover track, field, road running, race walking and combined events.",
+          "xiaziQuote": "A major event measures more than medals; transport, broadcast and spectator experience must work together.",
+          "doudouQuote": "Before the starter's gun, the whole city is already in a relay.",
+          "footerTakeaway": "Keyword: International Sports."
         }
       },
       "sources": [
         {
-          "id": "7133d14d-3c81-5cb3-a530-12128ed83364",
-          "topicId": "66998efb-01b1-587d-811e-d81ed63999a4",
-          "title": "The 2026 Edinburgh Festival Fringe programme is now live",
-          "publisher": "Edinburgh Festival Fringe",
-          "url": "https://www.edfringe.com/about-us/news-and-blog/mixitup-with-the-2026-edinburgh-festival-fringe-programme/",
-          "publishedAt": "2026-08-09T00:00:00Z",
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "id": "65053eb0-200f-5d73-bcf7-86dc20bb34d3",
+          "topicId": "54ffe667-3487-5c20-96f2-21358596fe4a",
+          "title": "Events Calendar: European Athletics Championships",
+          "publisher": "World Athletics",
+          "url": "https://worldathletics.org/competition/calendar-results?endDate=2026-08-10&hideCompetitionsWithNoResults=false&startDate=2026-08-10",
+          "publishedAt": "2026-08-10T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         }
       ]
     },
     {
-      "id": "29fa5de6-1f64-51ac-89af-a2e1b1247546",
-      "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
-      "slug": "nagasaki-peace-ceremony-81",
-      "rank": 9,
-      "category": "international",
-      "region": "Japan",
+      "id": "d72d95cc-4da6-5ec0-a4a9-245c6c3aca0a",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "total-solar-eclipse-two-day-countdown",
+      "rank": 7,
+      "category": "science",
+      "region": "Europe and Arctic",
       "countryCodes": [
-        "JP"
+        "ES",
+        "IS",
+        "GL"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-total-solar-eclipse-two-day-countdown-20260810",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "空间科学",
+          "headlineFact": "8月12日日全食进入两天倒计时",
+          "headlineView": "观测安全与交通准备成为焦点",
+          "headlineFull": "8月12日日全食进入两天倒计时；观测安全与交通准备成为焦点",
+          "intro": "全食带将经过格陵兰、冰岛、俄罗斯北部、西班牙和葡萄牙一角；欧洲、非洲及北美部分地区可见偏食。",
+          "xiaziQuote": "稀有天象越壮观，越需要把滤镜、路线和天气预案做具体。",
+          "doudouQuote": "抬头之前，先把安全观测镜戴好。",
+          "footerTakeaway": "今日关键词：空间科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Science",
+          "headlineFact": "August 12 total solar eclipse enters two-day countdown",
+          "headlineView": "viewing safety and travel preparation take focus",
+          "headlineFull": "August 12 total solar eclipse enters two-day countdown; viewing safety and travel preparation take focus",
+          "intro": "Totality crosses Greenland, Iceland, northern Russia, Spain and a corner of Portugal; a partial eclipse is visible across wider regions.",
+          "xiaziQuote": "The rarer the spectacle, the more concrete filters, routes and weather plans must become.",
+          "doudouQuote": "Before looking up, put on safe eclipse glasses.",
+          "footerTakeaway": "Keyword: Space Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "81a11b9c-0152-5868-8a60-17d7ac6e39df",
+          "topicId": "d72d95cc-4da6-5ec0-a4a9-245c6c3aca0a",
+          "title": "The Government launches the official website with information on the three eclipse events",
+          "publisher": "Government of Spain",
+          "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/paginas/2026/20260312-three-eclipse-events-website.aspx",
+          "publishedAt": "2026-08-10T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3349f546-2bf0-5789-b090-8f18d06aff18",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "zambia-election-final-campaign-days",
+      "rank": 8,
+      "category": "international",
+      "region": "Africa",
+      "countryCodes": [
+        "ZM"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-zambia-election-final-campaign-days-20260810",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球选举",
+          "headlineFact": "赞比亚大选进入最后三天",
+          "headlineView": "投票准备与和平交接受关注",
+          "headlineFull": "赞比亚大选进入最后三天；投票准备与和平交接受关注",
+          "intro": "8月13日6时至18时举行投票，选出总统、议员和地方代表；选民教育、投票站准备与结果流程进入最后阶段。",
+          "xiaziQuote": "选举的可信度，来自每个具体环节都能被理解和验证。",
+          "doudouQuote": "选票很小，背后的流程必须足够清楚。",
+          "footerTakeaway": "今日关键词：全球选举。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Elections",
+          "headlineFact": "Zambia election enters its final three days",
+          "headlineView": "poll readiness and peaceful transition draw attention",
+          "headlineFull": "Zambia election enters its final three days; poll readiness and peaceful transition draw attention",
+          "intro": "Voting runs 06:00-18:00 on August 13 for president, parliament and local offices; voter education, polling stations and results procedures enter the final stage.",
+          "xiaziQuote": "Election credibility comes from every concrete step being understandable and verifiable.",
+          "doudouQuote": "A ballot is small; the process behind it must be clear.",
+          "footerTakeaway": "Keyword: Global Elections."
+        }
+      },
+      "sources": [
+        {
+          "id": "0d786c15-b205-5c47-bb60-af073e53291c",
+          "topicId": "3349f546-2bf0-5789-b090-8f18d06aff18",
+          "title": "Electoral Commission of Zambia",
+          "publisher": "Electoral Commission of Zambia",
+          "url": "https://www.elections.org.zm/",
+          "publishedAt": "2026-08-10T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3a191a86-2232-581e-a1aa-fba6b97b1493",
+      "issueId": "c84a3aba-b1b2-5121-901f-7ee20a9cd35a",
+      "slug": "moon-perigee-august-ten",
+      "rank": 9,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
       "scoreTotal": 90,
-      "storyId": "xzs-nagasaki-peace-ceremony-81-20260809",
+      "storyId": "xzs-moon-perigee-august-ten-20260810",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 89,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "和平记忆",
-          "headlineFact": "长崎纪念原爆81周年",
-          "headlineView": "11时02分提醒世界核风险仍未退出历史",
-          "headlineFull": "长崎纪念原爆81周年；11时02分提醒世界核风险仍未退出历史",
-          "intro": "8月9日和平祈念式典悼念受难者，并把和平承诺带入当代核裁军、国际安全与代际教育讨论。",
-          "xiaziQuote": "纪念不是停留在过去，而是让今天的选择避免重复灾难。",
-          "doudouQuote": "钟声只响一刻，责任要留得更久。",
-          "footerTakeaway": "今日关键词：和平记忆。"
+          "categoryLabel": "天空日历",
+          "headlineFact": "月球今日运行至近地点",
+          "headlineView": "为日食与流星雨周拉开观测序幕",
+          "headlineFull": "月球今日运行至近地点；为日食与流星雨周拉开观测序幕",
+          "intro": "NASA天象日历显示月球于8月10日11时18分UTC到达近地点，随后是12日新月与日全食、13日英仙座流星雨。",
+          "xiaziQuote": "把单个天象放进时间序列，才能看懂天空真正的节奏。",
+          "doudouQuote": "月亮先靠近，再把舞台交给日食和流星。",
+          "footerTakeaway": "今日关键词：天空日历。"
         },
         "en-US": {
-          "categoryLabel": "Peace and Memory",
-          "headlineFact": "Nagasaki marks 81 years since the atomic bombing",
-          "headlineView": "11:02 reminds the world that nuclear risk remains",
-          "headlineFull": "Nagasaki marks 81 years since the atomic bombing; 11:02 reminds the world that nuclear risk remains",
-          "intro": "The August 9 peace ceremony mourns victims and carries commitments to peace into today's nuclear disarmament and security debate.",
-          "xiaziQuote": "Remembrance does not stay in the past; it guides choices that prevent repetition.",
-          "doudouQuote": "The bell rings for a moment, but responsibility must last longer.",
-          "footerTakeaway": "Keyword: Peace and Memory."
+          "categoryLabel": "Sky Calendar",
+          "headlineFact": "Moon reaches perigee today",
+          "headlineView": "opening an eclipse-and-meteor week",
+          "headlineFull": "Moon reaches perigee today; opening an eclipse-and-meteor week",
+          "intro": "NASA's sky calendar places lunar perigee at 11:18 UTC on August 10, followed by the August 12 new moon and total eclipse and the August 13 Perseids.",
+          "xiaziQuote": "Place one sky event in a sequence to understand the real rhythm above us.",
+          "doudouQuote": "The Moon comes closer, then hands the stage to eclipse and meteors.",
+          "footerTakeaway": "Keyword: Sky Calendar."
         }
       },
       "sources": [
         {
-          "id": "541aa11d-c3f4-5fcb-a9dd-150543683de0",
-          "topicId": "29fa5de6-1f64-51ac-89af-a2e1b1247546",
-          "title": "81st Anniversary Nagasaki Peace Memorial Ceremony",
-          "publisher": "City of Nagasaki",
-          "url": "https://www.city.nagasaki.lg.jp/life/9/68/index.html",
-          "publishedAt": "2026-08-09T00:00:00Z",
+          "id": "24a9ae49-3c1d-500d-8458-0c39be72fce7",
+          "topicId": "3a191a86-2232-581e-a1aa-fba6b97b1493",
+          "title": "SKYCAL Sky Events Calendar 2026",
+          "publisher": "NASA Goddard Space Flight Center",
+          "url": "https://eclipse.gsfc.nasa.gov/SKYCAL/SKYCAL.html?cal=2026",
+          "publishedAt": "2026-08-10T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
