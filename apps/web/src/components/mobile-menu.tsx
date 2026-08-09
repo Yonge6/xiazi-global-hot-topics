@@ -304,13 +304,6 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                   </a>
                 ))}
               </div>
-              <figure className="drawer-wechat-card">
-                <figcaption>
-                  <span>{isZh ? "微信" : "WeChat"}</span>
-                  <strong>{isZh ? "扫码联系与交流" : "Scan to connect"}</strong>
-                </figcaption>
-                <img src="/brand/contact-qr.webp" alt={isZh ? "扫码添加微信" : "Scan to connect on WeChat"} />
-              </figure>
             </section>
           ) : null}
 

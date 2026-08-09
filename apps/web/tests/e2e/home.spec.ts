@@ -142,6 +142,7 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   drawer = page.getByRole("dialog", { name: "联系与回响" });
   await expect(drawer.getByRole("link", { name: /小红书/ })).toBeVisible();
   await expect(drawer.getByRole("link", { name: /TikTok/ })).toBeVisible();
+  await expect(drawer.getByText("扫码联系与交流")).toHaveCount(0);
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
   await drawer.getByRole("button", { name: /随喜相助/ }).click();

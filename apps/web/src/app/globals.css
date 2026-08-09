@@ -552,30 +552,6 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 .drawer-contact-list a > span { color: var(--gold); font: 15px var(--serif); }
 .drawer-contact-list a > strong { overflow-wrap: anywhere; font-size: 14px; font-weight: 500; }
 .drawer-contact-list a > .drawer-line-icon { width: 18px; height: 18px; color: var(--jade); }
-.drawer-wechat-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  margin: 36px 0 0;
-  border: 1px solid color-mix(in srgb, var(--gold) 43%, var(--line));
-  border-radius: 22px;
-  padding: 22px 24px;
-  background: var(--drawer-card);
-}
-.drawer-wechat-card figcaption span,
-.drawer-wechat-card figcaption strong { display: block; }
-.drawer-wechat-card figcaption span { color: var(--gold); font-size: 11px; letter-spacing: .16em; }
-.drawer-wechat-card figcaption strong { margin-top: 10px; font: 20px var(--serif); }
-.drawer-wechat-card img {
-  display: block;
-  width: 118px;
-  height: 118px;
-  border: 1px solid color-mix(in srgb, var(--gold) 45%, var(--line));
-  border-radius: 16px;
-  padding: 7px;
-  background: #f9f6ef;
-}
 .drawer-support-detail { text-align: center; }
 .drawer-support-detail h3 { margin: 20px 0 18px; font: 28px/1.55 var(--serif); }
 .drawer-support-detail > span { display: block; color: var(--muted); font: 16px/1.9 var(--serif); }
@@ -1339,8 +1315,6 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
   .xiazi-life-philosophy blockquote { font-size: 18px; }
   .drawer-detail-intro { font-size: 15px; }
   .drawer-contact-list a { grid-template-columns: 74px minmax(0, 1fr) auto; gap: 12px; }
-  .drawer-wechat-card { padding: 18px; }
-  .drawer-wechat-card img { width: 92px; height: 92px; }
   .drawer-support-detail h3 { font-size: 24px; }
   .drawer-support-detail > span { font-size: 14px; }
   .issue-masthead {
