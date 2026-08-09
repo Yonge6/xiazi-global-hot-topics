@@ -64,6 +64,29 @@ test("renders the Chinese homepage at the root domain", async ({ page }) => {
   );
 });
 
+test("uses the Wendao serif stack for Chinese and English reading surfaces", async ({ page }, testInfo) => {
+  for (const locale of ["zh", "en"]) {
+    await page.goto(`/${locale}`);
+    await expect(page.locator(".locale-page")).toHaveCSS(
+      "font-family",
+      /Noto Serif SC.*Songti SC.*STSong.*serif/,
+    );
+    await expect(page.locator(".entry-intro").first()).toHaveCSS(
+      "font-family",
+      /Noto Serif SC.*Songti SC.*STSong.*serif/,
+    );
+  }
+
+  if (testInfo.project.name === "mobile") {
+    await page.goto("/zh");
+    await page.getByRole("button", { name: "打开菜单" }).click();
+    await expect(page.getByRole("dialog", { name: "你的世界" })).toHaveCSS(
+      "font-family",
+      /Noto Serif SC.*Songti SC.*STSong.*serif/,
+    );
+  }
+});
+
 test("groups archive editions by month and opens only the latest month by default", async ({ page }) => {
   await page.goto("/zh/#archive");
 
