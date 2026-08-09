@@ -52,15 +52,17 @@ private struct OfflineView: View {
                 .foregroundStyle(Color(red: 0.08, green: 0.31, blue: 0.34))
 
             VStack(spacing: 9) {
-                Text("暂时无法连接")
+                Text(AppConfiguration.isChinese ? "暂时无法连接" : "Unable to connect")
                     .font(.system(size: 25, weight: .medium, design: .serif))
-                Text("请检查网络后重试。已发布的 H5 内容不会丢失。")
+                Text(AppConfiguration.isChinese
+                     ? "请检查网络后重试。已发布的内容不会丢失。"
+                     : "Check your connection and try again. Published editions remain online.")
                     .font(.system(size: 14, design: .serif))
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
             }
 
-            Button("重新载入", action: retry)
+            Button(AppConfiguration.isChinese ? "重新载入" : "Reload", action: retry)
                 .buttonStyle(.borderedProminent)
                 .tint(Color(red: 0.08, green: 0.38, blue: 0.40))
         }

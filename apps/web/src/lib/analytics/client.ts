@@ -1,11 +1,24 @@
 import type { AnalyticsEvent } from "@/lib/analytics/types";
 
+export function isNativeIOSSurface() {
+  if (typeof window === "undefined") return false;
+  const bridge = (window as typeof window & {
+    XiaziNativeBridge?: { platform?: string };
+  }).XiaziNativeBridge;
+  return bridge?.platform === "ios"
+    || new URLSearchParams(window.location.search).get("surface") === "ios";
+}
+
 export function trackAnalytics(
   event: AnalyticsEvent,
   locale: "zh" | "en",
   slug?: string,
   durationSeconds?: number,
 ) {
+  // The public website keeps anonymous aggregate analytics. The iOS app
+  // intentionally opts out so its App Store privacy declaration remains exact.
+  if (isNativeIOSSurface()) return;
+
   let visitorId: string | undefined;
   if (event === "page_view") {
     visitorId = localStorage.getItem("xiazi-anonymous-visitor") || undefined;

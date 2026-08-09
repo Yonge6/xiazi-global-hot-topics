@@ -19,8 +19,10 @@ xcodebuild -project XiaziSays.xcodeproj -scheme XiaziSays -sdk iphonesimulator -
 - 普通 H5 内容、样式和既有交互：发布网站即可，App 不需要重新打包。
 - 原生分享、权限、推送、图标和启动资源：需要更新 iOS 工程并按 App Store 流程发布。
 - iOS 内不展示“随喜相助”或任何付款入口；网页版继续保留该栏目。
-- `com.xiazishuo.app` 是当前工程的待确认 Bundle ID；创建 App Store Connect 记录前必须确认可用性。
-- 首次发布前还需准备正式 App Icon、隐私政策/支持 URL、App Store 素材和审核说明；当前工程不会自动提交或发布。
+- Bundle ID 为 `com.xiazishuo.app`，App Store Connect 主要语言为英语（美国），简体中文为第二本地化。
+- 英文设备首次打开 `/en/`，中文设备首次打开 `/zh/`；之后保留用户最后阅读的同站页面。
+- iOS 端关闭网站匿名统计，不展示“随喜相助”或付款入口；隐私清单声明仅以 `CA92.1` 理由使用 App 自身的 UserDefaults。
+- App Store 支持页为 `/en/support/` 与 `/zh/support/`，隐私页为 `/en/privacy/` 与 `/zh/privacy/`。
 
 ## 桥接协议
 

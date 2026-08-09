@@ -95,6 +95,12 @@ struct XiaziWebView: UIViewRepresentable {
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
             webView.scrollView.refreshControl?.endRefreshing()
             state.markReady(url: webView.url)
+            if let fragment = webView.url?.fragment, !fragment.isEmpty {
+                let encoded = fragment.replacingOccurrences(of: "'", with: "\\'")
+                webView.evaluateJavaScript(
+                    "document.getElementById(decodeURIComponent('\(encoded)'))?.scrollIntoView({block: 'start'})"
+                )
+            }
         }
 
         func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
