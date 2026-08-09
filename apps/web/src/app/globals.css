@@ -311,7 +311,6 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 }
 .drawer-nav {
   margin-top: 0;
-  border-top: 1px solid color-mix(in srgb, var(--gold) 30%, var(--line));
 }
 .drawer-nav-row,
 .theme-toggle.theme-toggle-row {
@@ -399,7 +398,6 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 .drawer-support,
 .drawer-projects {
   margin-top: 48px;
-  border-top: 1px solid color-mix(in srgb, var(--gold) 30%, var(--line));
   padding-top: 42px;
 }
 .drawer-support > h3,
