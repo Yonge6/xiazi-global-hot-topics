@@ -10,7 +10,6 @@
 		BF1000010000000000000001 /* XiaziSaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000101 /* XiaziSaysApp.swift */; };
 		BF1000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000102 /* ContentView.swift */; };
 		BF1000010000000000000003 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000103 /* AppConfiguration.swift */; };
-		BF1000010000000000000004 /* Store/SupportStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000104 /* Store/SupportStore.swift */; };
 		BF1000010000000000000005 /* Web/WebViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000105 /* Web/WebViewState.swift */; };
 		BF1000010000000000000006 /* Web/NativeBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000106 /* Web/NativeBridge.swift */; };
 		BF1000010000000000000007 /* Web/XiaziWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000107 /* Web/XiaziWebView.swift */; };
@@ -20,11 +19,9 @@
 		BF1000010000000000000101 /* XiaziSaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiaziSaysApp.swift; sourceTree = "<group>"; };
 		BF1000010000000000000102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF1000010000000000000103 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
-		BF1000010000000000000104 /* Store/SupportStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store/SupportStore.swift; sourceTree = "<group>"; };
 		BF1000010000000000000105 /* Web/WebViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web/WebViewState.swift; sourceTree = "<group>"; };
 		BF1000010000000000000106 /* Web/NativeBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web/NativeBridge.swift; sourceTree = "<group>"; };
 		BF1000010000000000000107 /* Web/XiaziWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web/XiaziWebView.swift; sourceTree = "<group>"; };
-		BF1000010000000000000108 /* Resources/StoreKit/XiaziSays.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/StoreKit/XiaziSays.storekit; sourceTree = "<group>"; };
 		BF1000010000000000000109 /* XiaziSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaziSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,11 +50,9 @@
 				BF1000010000000000000101 /* XiaziSaysApp.swift */,
 				BF1000010000000000000102 /* ContentView.swift */,
 				BF1000010000000000000103 /* AppConfiguration.swift */,
-				BF1000010000000000000104 /* Store/SupportStore.swift */,
 				BF1000010000000000000105 /* Web/WebViewState.swift */,
 				BF1000010000000000000106 /* Web/NativeBridge.swift */,
 				BF1000010000000000000107 /* Web/XiaziWebView.swift */,
-				BF1000010000000000000108 /* Resources/StoreKit/XiaziSays.storekit */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,7 +136,6 @@
 				BF1000010000000000000001 /* XiaziSaysApp.swift in Sources */,
 				BF1000010000000000000002 /* ContentView.swift in Sources */,
 				BF1000010000000000000003 /* AppConfiguration.swift in Sources */,
-				BF1000010000000000000004 /* Store/SupportStore.swift in Sources */,
 				BF1000010000000000000005 /* Web/WebViewState.swift in Sources */,
 				BF1000010000000000000006 /* Web/NativeBridge.swift in Sources */,
 				BF1000010000000000000007 /* Web/XiaziWebView.swift in Sources */,

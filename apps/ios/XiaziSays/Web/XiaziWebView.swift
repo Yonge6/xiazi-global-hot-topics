@@ -60,7 +60,7 @@ struct XiaziWebView: UIViewRepresentable {
       value: Object.freeze({
         platform: 'ios',
         shellVersion: '\(AppConfiguration.shellVersion)',
-        capabilities: Object.freeze(['support.iap'])
+        capabilities: Object.freeze(['poster.share'])
       }),
       configurable: false,
       writable: false
@@ -95,7 +95,6 @@ struct XiaziWebView: UIViewRepresentable {
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
             webView.scrollView.refreshControl?.endRefreshing()
             state.markReady(url: webView.url)
-            bridge.sendProducts()
         }
 
         func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {

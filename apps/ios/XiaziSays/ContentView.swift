@@ -3,21 +3,18 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.scenePhase) private var scenePhase
     @StateObject private var webState: WebViewState
-    @StateObject private var supportStore: SupportStore
     @StateObject private var bridge: NativeBridge
 
     init() {
         let webState = WebViewState()
-        let supportStore = SupportStore()
         _webState = StateObject(wrappedValue: webState)
-        _supportStore = StateObject(wrappedValue: supportStore)
-        _bridge = StateObject(wrappedValue: NativeBridge(store: supportStore))
+        _bridge = StateObject(wrappedValue: NativeBridge())
     }
 
     var body: some View {
         ZStack {
             XiaziWebView(state: webState, bridge: bridge)
-                .ignoresSafeArea()
+                .ignoresSafeArea(.container, edges: .bottom)
 
             if webState.loadState == .failed {
                 OfflineView {
@@ -38,16 +35,9 @@ struct ContentView: View {
             }
         }
         .background(Color(red: 0.96, green: 0.93, blue: 0.86))
-        .task {
-            await supportStore.start()
-        }
         .onChange(of: scenePhase) { phase in
             guard phase == .active else { return }
             webState.refreshIfStale()
-            Task {
-                await supportStore.loadProducts()
-                bridge.sendProducts()
-            }
         }
     }
 }

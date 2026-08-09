@@ -135,7 +135,7 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await expect(closeButton).toBeFocused();
   await expect(closeButton).toHaveAttribute("data-suppress-focus-ring", "true");
   await expect(drawer.getByText("今日刊物")).toHaveCount(0);
-  await expect(drawer.locator(".drawer-support")).toBeHidden();
+  await expect(drawer.locator(".drawer-support")).toBeVisible();
   await expect(drawer.getByRole("switch", { name: "切换日间或夜间模式" })).toBeVisible();
   await drawer.getByRole("button", { name: /关于虾子曰/ }).click();
   drawer = page.getByRole("dialog", { name: "关于虾子曰" });
@@ -147,6 +147,11 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await expect(drawer.getByRole("link", { name: /小红书/ })).toBeVisible();
   await expect(drawer.getByRole("link", { name: /TikTok/ })).toBeVisible();
   await expect(drawer.getByText("扫码联系与交流")).toHaveCount(0);
+  await drawer.getByRole("button", { name: "返回菜单" }).click();
+  drawer = page.getByRole("dialog", { name: "你的世界" });
+  await drawer.getByRole("button", { name: /随喜相助/ }).click();
+  drawer = page.getByRole("dialog", { name: "随喜相助" });
+  await expect(drawer.getByAltText("微信赞赏码")).toBeVisible();
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer.getByRole("link", { name: /艺术风格图鉴/ })).toHaveAttribute(
@@ -168,13 +173,13 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await expect(page.getByRole("button", { name: "打开菜单" })).toHaveAttribute("data-suppress-focus-ring", "true");
 });
 
-test("uses StoreKit support inside the iOS shell and keeps web payment out", async ({ page }, testInfo) => {
+test("hides support and uses Apple sharing inside the iOS shell", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "mobile");
   await page.addInitScript(() => {
     const nativeMessages: unknown[] = [];
     Object.defineProperty(window, "__xiaziNativeMessages", { value: nativeMessages });
     Object.defineProperty(window, "XiaziNativeBridge", {
-      value: { platform: "ios", shellVersion: "1.0.0", capabilities: ["support.iap"] },
+      value: { platform: "ios", shellVersion: "1.0.0", capabilities: ["poster.share"] },
     });
     Object.defineProperty(window, "webkit", {
       value: {
@@ -182,18 +187,6 @@ test("uses StoreKit support inside the iOS shell and keeps web payment out", asy
           xiaziNative: {
             postMessage(message: { type: string }) {
               nativeMessages.push(message);
-              if (message.type === "support.products") {
-                window.dispatchEvent(new CustomEvent("xiazi:native-message", {
-                  detail: {
-                    type: "supportProducts",
-                    products: [
-                      { id: "com.xiazishuo.app.support.small", displayName: "一份心意", displayPrice: "¥6.00" },
-                      { id: "com.xiazishuo.app.support.medium", displayName: "继续同行", displayPrice: "¥18.00" },
-                      { id: "com.xiazishuo.app.support.large", displayName: "特别支持", displayPrice: "¥68.00" },
-                    ],
-                  },
-                }));
-              }
             },
           },
         },
@@ -204,23 +197,34 @@ test("uses StoreKit support inside the iOS shell and keeps web payment out", asy
   await page.goto("/zh/?surface=ios");
   await expect(page.locator('meta[name="viewport"]')).toHaveAttribute("content", /viewport-fit=cover/);
   await page.getByRole("button", { name: "打开菜单" }).click();
-  let drawer = page.getByRole("dialog", { name: "你的世界" });
-  await expect(drawer.locator(".drawer-support")).toBeVisible();
-  await drawer.getByRole("button", { name: /随喜相助/ }).click();
-  drawer = page.getByRole("dialog", { name: "随喜相助" });
+  const drawer = page.getByRole("dialog", { name: "你的世界" });
+  await expect(drawer.locator(".drawer-support")).toBeHidden();
+  await drawer.getByRole("button", { name: "关闭菜单" }).click();
 
-  await expect(drawer.getByAltText("微信赞赏码")).toHaveCount(0);
-  await expect(drawer.getByRole("button", { name: /一份心意.*¥6\.00/ })).toBeVisible();
-  await expect(drawer.getByText("由 Apple 安全处理，可重复选择；不会解锁或限制任何内容。")).toBeVisible();
-  await drawer.getByRole("button", { name: /一份心意.*¥6\.00/ }).click();
+  await page.getByRole("button", { name: /^分享/ }).first().click();
+  const shareDialog = page.getByRole("dialog", { name: "分享海报" });
+  await shareDialog.getByRole("button", { name: /用苹果系统分享/ }).click();
+  await expect(shareDialog.getByText("已打开苹果系统分享")).toBeVisible();
+  await shareDialog.getByRole("button", { name: "关闭", exact: true }).click();
+
+  await page.getByRole("button", { name: /保存海报/ }).first().click();
+  await page.getByRole("button", { name: /查看原图/ }).first().click();
+  await expect(page.getByRole("dialog", { name: "海报原图" }).getByRole("button", { name: /保存原图/ })).toBeVisible();
 
   const nativeMessages = await page.evaluate(() => (
     window as unknown as Window & { __xiaziNativeMessages: unknown[] }
   ).__xiaziNativeMessages);
-  expect(nativeMessages).toContainEqual({
-    type: "support.purchase",
-    payload: { productId: "com.xiazishuo.app.support.small" },
-  });
+  expect(nativeMessages).toHaveLength(2);
+  for (const message of nativeMessages) {
+    expect(message).toEqual(expect.objectContaining({
+      type: "poster.share",
+      payload: expect.objectContaining({
+        url: expect.stringMatching(/^https?:\/\/[^/]+\/api\/posters\/zh\//),
+        title: expect.any(String),
+        text: expect.any(String),
+      }),
+    }));
+  }
 });
 
 test("opens, navigates and closes the poster lightbox", async ({ page, request }) => {

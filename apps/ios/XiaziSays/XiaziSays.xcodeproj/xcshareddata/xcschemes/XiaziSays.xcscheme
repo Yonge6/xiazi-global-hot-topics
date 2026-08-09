@@ -48,8 +48,6 @@
             ReferencedContainer = "container:XiaziSays.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <StoreKitConfigurationFileReference identifier = "../../Resources/StoreKit/XiaziSays.storekit">
-      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

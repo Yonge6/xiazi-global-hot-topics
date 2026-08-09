@@ -6,16 +6,10 @@ import WebKit
 final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
     weak var webView: WKWebView?
 
-    private let store: SupportStore
     private let logger = Logger(
         subsystem: Bundle.main.bundleIdentifier ?? "com.xiazishuo.app",
         category: "native-bridge"
     )
-
-    init(store: SupportStore) {
-        self.store = store
-        super.init()
-    }
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         guard message.name == "xiaziNative",
@@ -24,31 +18,22 @@ final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
               let type = body["type"] as? String else { return }
 
         switch type {
-        case "support.products":
-            Task {
-                emitSupportState("loading")
-                await store.loadProducts()
-                sendProducts()
-            }
-        case "support.purchase":
+        case "poster.share":
             guard let payload = body["payload"] as? [String: Any],
-                  let productID = payload["productId"] as? String,
-                  SupportStore.productIDs.contains(productID) else {
-                emitSupportState("failed")
-                return
-            }
+                  let rawURL = payload["url"] as? String,
+                  let url = URL(string: rawURL),
+                  AppConfiguration.isAllowed(url) else { return }
+            let title = payload["title"] as? String ?? "虾子曰"
+            let text = payload["text"] as? String ?? ""
             Task {
-                emitSupportState("purchasing")
-                switch await store.purchase(productID: productID) {
-                case .purchased:
-                    UINotificationFeedbackGenerator().notificationOccurred(.success)
-                    emitSupportState("purchased")
-                case .pending:
-                    emitSupportState("pending")
-                case .cancelled:
-                    emitSupportState("cancelled")
-                case .failed:
-                    emitSupportState("failed")
+                do {
+                    let (data, response) = try await URLSession.shared.data(from: url)
+                    guard let http = response as? HTTPURLResponse,
+                          (200..<300).contains(http.statusCode),
+                          let image = UIImage(data: data) else { return }
+                    presentShareSheet(image: image, title: title, text: text)
+                } catch {
+                    logger.error("operation=sharePoster status=failed")
                 }
             }
         default:
@@ -56,34 +41,39 @@ final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
         }
     }
 
-    func sendProducts() {
-        let products = store.productPayloads
-        emit(type: "supportProducts", values: ["products": products])
-    }
-
-    private func emitSupportState(_ status: String) {
-        emit(type: "supportState", values: ["status": status])
-    }
-
-    private func emit(type: String, values: [String: Any]) {
-        var payload = values
-        payload["type"] = type
-
-        let jsonObject: Any
-        if let products = values["products"] as? [SupportProductPayload],
-           let encoded = try? JSONEncoder().encode(products),
-           let array = try? JSONSerialization.jsonObject(with: encoded) {
-            payload["products"] = array
-            jsonObject = payload
-        } else {
-            jsonObject = payload
-        }
-
-        guard JSONSerialization.isValidJSONObject(jsonObject),
-              let data = try? JSONSerialization.data(withJSONObject: jsonObject),
-              let json = String(data: data, encoding: .utf8) else { return }
-        webView?.evaluateJavaScript(
-            "window.dispatchEvent(new CustomEvent('xiazi:native-message',{detail:\(json)}));"
+    private func presentShareSheet(image: UIImage, title: String, text: String) {
+        let copy = [title, text].filter { !$0.isEmpty }.joined(separator: "\n\n")
+        let controller = UIActivityViewController(
+            activityItems: copy.isEmpty ? [image] : [image, copy],
+            applicationActivities: nil
         )
+        guard let presenter = webView?.nearestViewController?.topmostPresentedViewController else { return }
+        controller.popoverPresentationController?.sourceView = webView
+        controller.popoverPresentationController?.sourceRect = webView?.bounds ?? .zero
+        presenter.present(controller, animated: true)
+    }
+}
+
+private extension UIView {
+    var nearestViewController: UIViewController? {
+        sequence(first: next, next: { $0?.next })
+            .first { $0 is UIViewController } as? UIViewController
+    }
+}
+
+private extension UIViewController {
+    var topmostPresentedViewController: UIViewController {
+        if let presentedViewController {
+            return presentedViewController.topmostPresentedViewController
+        }
+        if let navigationController = self as? UINavigationController,
+           let visibleViewController = navigationController.visibleViewController {
+            return visibleViewController.topmostPresentedViewController
+        }
+        if let tabBarController = self as? UITabBarController,
+           let selectedViewController = tabBarController.selectedViewController {
+            return selectedViewController.topmostPresentedViewController
+        }
+        return self
     }
 }

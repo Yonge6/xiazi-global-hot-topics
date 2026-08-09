@@ -2,7 +2,7 @@
 
 import { Check, DownloadSimple, LinkSimple, ShareNetwork, X } from "@phosphor-icons/react";
 import Image from "next/image";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 
 import type { IssueStyle, Topic } from "@xiazi/contracts";
 import { loadArchiveIssue, loadCurrentIssue } from "@/features/issues/content-service";
@@ -10,6 +10,7 @@ import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { groupArchiveDatesByMonth } from "@/lib/issues/archive-groups";
+import { isXiaziIOSApp, postNativeMessage, subscribeToNativeSurface } from "@/lib/native-app";
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
 import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
 
@@ -83,6 +84,7 @@ export function TopicGallery({
   const [expandedArchiveMonths, setExpandedArchiveMonths] = useState<Set<string>>(new Set());
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [archiveStatus, setArchiveStatus] = useState("");
+  const isIOSApp = useSyncExternalStore(subscribeToNativeSurface, isXiaziIOSApp, () => false);
   const isZh = locale === "zh";
   const archiveMonths = useMemo(() => groupArchiveDatesByMonth(archiveDates), [archiveDates]);
 
@@ -210,6 +212,15 @@ export function TopicGallery({
   async function nativeShare(topic: Topic) {
     const details = shareDetails(topic);
     try {
+      if (isIOSApp && postNativeMessage("poster.share", {
+        url: new URL(details.poster, window.location.origin).href,
+        title: details.title,
+        text: details.text,
+      })) {
+        setShareStatus(isZh ? "已打开苹果系统分享" : "Apple share sheet opened");
+        return;
+      }
+
       if (navigator.share) {
         const posterResponse = await fetch(details.poster);
         const posterBlob = await posterResponse.blob();
@@ -238,6 +249,16 @@ export function TopicGallery({
         setShareStatus(isZh ? "未能打开分享，请复制链接" : "Could not share. Copy the link instead.");
       }
     }
+  }
+
+  function savePoster(topic: Topic) {
+    trackAnalytics("download", locale, topic.slug);
+    const details = shareDetails(topic);
+    postNativeMessage("poster.share", {
+      url: new URL(details.poster, window.location.origin).href,
+      title: details.title,
+      text: details.text,
+    });
   }
 
   async function copyShareLink(topic: Topic) {
@@ -334,10 +355,17 @@ export function TopicGallery({
                   {isZh ? "查看原图" : "View original"}
                   <span aria-hidden="true">↗</span>
                 </button>
-                <a href={poster} download onClick={() => trackAnalytics("download", locale, topic.slug)}>
-                  {isZh ? "下载海报" : "Download"}
-                  <DownloadSimple size={16} weight="regular" aria-hidden="true" />
-                </a>
+                {isIOSApp ? (
+                  <button type="button" onClick={() => savePoster(topic)}>
+                    {isZh ? "保存海报" : "Save poster"}
+                    <DownloadSimple size={16} weight="regular" aria-hidden="true" />
+                  </button>
+                ) : (
+                  <a href={poster} download onClick={() => trackAnalytics("download", locale, topic.slug)}>
+                    {isZh ? "下载海报" : "Download"}
+                    <DownloadSimple size={16} weight="regular" aria-hidden="true" />
+                  </a>
+                )}
                 <button type="button" onClick={() => openShare(index)} aria-label={isZh ? `分享${content.headlineFact}` : `Share ${content.headlineFact}`}>
                   {isZh ? "分享" : "Share"}
                   <ShareNetwork size={16} weight="regular" aria-hidden="true" />
@@ -374,14 +402,21 @@ export function TopicGallery({
               <button type="button" onClick={() => setActiveIndex((activeIndex - 1 + displayTopics.length) % displayTopics.length)}>
                 ← {isZh ? "上一张" : "Previous"}
               </button>
-              <a
-                href={posterAsset(displayTopics[activeIndex].slug, "original")}
-                download
-                onClick={() => trackAnalytics("download", locale, displayTopics[activeIndex].slug)}
-              >
-                <DownloadSimple size={18} aria-hidden="true" />
-                {isZh ? "下载原图" : "Download"}
-              </a>
+              {isIOSApp ? (
+                <button type="button" onClick={() => savePoster(displayTopics[activeIndex])}>
+                  <DownloadSimple size={18} aria-hidden="true" />
+                  {isZh ? "保存原图" : "Save original"}
+                </button>
+              ) : (
+                <a
+                  href={posterAsset(displayTopics[activeIndex].slug, "original")}
+                  download
+                  onClick={() => trackAnalytics("download", locale, displayTopics[activeIndex].slug)}
+                >
+                  <DownloadSimple size={18} aria-hidden="true" />
+                  {isZh ? "下载原图" : "Download"}
+                </a>
+              )}
               <button type="button" onClick={() => setActiveIndex((activeIndex + 1) % displayTopics.length)}>
                 {isZh ? "下一张" : "Next"} →
               </button>
@@ -464,7 +499,7 @@ export function TopicGallery({
             <button className="native-share" type="button" onClick={() => nativeShare(displayTopics[shareIndex])}>
               <ShareNetwork size={22} weight="duotone" aria-hidden="true" />
               <span>
-                <strong>{isZh ? "点击用手机 App 分享" : "Tap to share with an app"}</strong>
+                <strong>{isZh ? (isIOSApp ? "用苹果系统分享" : "点击用手机 App 分享") : (isIOSApp ? "Share with Apple" : "Tap to share with an app")}</strong>
                 <small>{isZh ? "标题 + 100字介绍 + 海报图片" : "Headline + introduction + poster image"}</small>
               </span>
               <b>↗</b>
