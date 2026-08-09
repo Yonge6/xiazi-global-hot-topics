@@ -297,7 +297,6 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
         }}
         ref={triggerRef}
       >
-        <span>{isZh ? "菜单" : "Menu"}</span>
         <i aria-hidden="true"><b /><b /><b /></i>
       </button>
       {typeof document === "undefined" ? null : createPortal(drawer, document.body)}

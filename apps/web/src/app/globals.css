@@ -188,11 +188,11 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 .language-switcher .active { color: var(--vermilion); font-weight: 700; }
 .mobile-menu-trigger {
   display: none;
-  min-width: 58px;
+  width: 34px;
+  min-width: 34px;
   min-height: 42px;
   align-items: center;
-  justify-content: flex-end;
-  gap: 9px;
+  justify-content: center;
   border: 0;
   background: transparent;
   cursor: pointer;
@@ -203,7 +203,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 }
 .mobile-menu-trigger i {
   display: grid;
-  width: 19px;
+  width: 21px;
   gap: 4px;
 }
 .mobile-menu-trigger i b {

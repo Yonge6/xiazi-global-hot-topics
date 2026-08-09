@@ -126,7 +126,9 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await page.goto("/zh");
 
   await expect(page.getByRole("link", { name: "Switch to English" })).toBeVisible();
-  await page.getByRole("button", { name: "打开菜单" }).click();
+  const menuTrigger = page.getByRole("button", { name: "打开菜单" });
+  await expect(menuTrigger).toHaveText("");
+  await menuTrigger.click();
   let drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer).toBeVisible();
   await expect(drawer.getByText("今日刊物")).toHaveCount(0);
