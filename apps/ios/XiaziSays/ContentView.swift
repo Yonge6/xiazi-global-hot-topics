@@ -17,6 +17,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             XiaziWebView(state: webState, bridge: bridge)
+                .ignoresSafeArea()
 
             if webState.loadState == .failed {
                 OfflineView {

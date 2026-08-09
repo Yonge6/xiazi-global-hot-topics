@@ -78,6 +78,13 @@ function ConstellationIcon() {
   return <LineIcon><circle cx="6" cy="7" r="1.5" /><circle cx="17.5" cy="6" r="1.5" /><circle cx="12" cy="17" r="1.5" /><path d="m7.4 7.3 8.6-.9M6.8 8.3l4.4 7.5m5.5-8.5-4 8.4" /></LineIcon>;
 }
 
+function suppressFocusRing(element: HTMLElement | null, moveFocus = false) {
+  if (!element) return;
+  element.dataset.suppressFocusRing = "true";
+  element.addEventListener("blur", () => delete element.dataset.suppressFocusRing, { once: true });
+  if (moveFocus) element.focus({ preventScroll: true });
+}
+
 export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [open, setOpen] = useState(false);
   const [view, setView] = useState<DrawerView>("home");
@@ -86,20 +93,21 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [supportStatus, setSupportStatus] = useState<"idle" | "loading" | "purchasing" | "purchased" | "pending" | "cancelled" | "failed">("idle");
   const [supportMessage, setSupportMessage] = useState("");
   const triggerRef = useRef<HTMLButtonElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
   const drawerRef = useRef<HTMLElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const isZh = locale === "zh";
 
   const closeMenu = (restoreFocus = false) => {
     setOpen(false);
-    if (restoreFocus) window.setTimeout(() => triggerRef.current?.focus(), 0);
+    if (restoreFocus) window.setTimeout(() => suppressFocusRing(triggerRef.current, true), 0);
   };
 
   useEffect(() => {
     if (!open) return;
 
     document.body.classList.add("navigation-drawer-open");
-    window.setTimeout(() => drawerRef.current?.querySelector<HTMLElement>("button")?.focus(), 0);
+    window.setTimeout(() => suppressFocusRing(closeRef.current, true), 0);
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -172,7 +180,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
   ];
 
   const drawer = open ? (
-    <div className={`navigation-drawer-layer locale-${locale}`}>
+    <div className={`navigation-drawer-layer locale-${locale}${isIOSApp ? " native-ios" : ""}`}>
       <button
         type="button"
         className="navigation-drawer-backdrop"
@@ -193,6 +201,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
               type="button"
               className="navigation-drawer-back"
               aria-label={isZh ? "返回菜单" : "Back to menu"}
+              onPointerDown={(event) => suppressFocusRing(event.currentTarget)}
               onClick={() => setView("home")}
             >
               <ArrowLeftIcon />
@@ -206,7 +215,9 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
             type="button"
             className="navigation-drawer-close"
             aria-label={isZh ? "关闭菜单" : "Close menu"}
+            onPointerDown={(event) => suppressFocusRing(event.currentTarget)}
             onClick={() => closeMenu(true)}
+            ref={closeRef}
           >
             <CloseIcon />
           </button>
@@ -409,6 +420,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
         aria-label={isZh ? "打开菜单" : "Open menu"}
         aria-expanded={open}
         aria-controls="navigation-drawer"
+        onPointerDown={(event) => suppressFocusRing(event.currentTarget)}
         onClick={() => {
           setView("home");
           setOpen(true);

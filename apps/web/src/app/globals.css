@@ -58,6 +58,7 @@ html[data-theme="dark"] {
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; background: var(--canvas); }
 body {
+  min-height: 100dvh;
   margin: 0;
   background:
     url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E"),
@@ -75,6 +76,15 @@ button { color: inherit; font: inherit; }
 :focus-visible {
   outline: 2px solid var(--vermilion);
   outline-offset: 4px;
+}
+[data-suppress-focus-ring="true"]:focus,
+[data-suppress-focus-ring="true"]:focus-visible {
+  outline: none;
+}
+
+html[data-native-app="ios"] body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .shell {
@@ -400,6 +410,8 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   margin-top: 48px;
   padding-top: 42px;
 }
+.drawer-support { display: none; }
+.navigation-drawer-layer.native-ios .drawer-support { display: block; }
 .drawer-support > h3,
 .drawer-projects > h3 {
   margin: 18px 0 28px;
@@ -1287,6 +1299,14 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
   .navigation-drawer-scroll {
     height: calc(100dvh - 112px);
     padding: 26px 24px 36px;
+  }
+  html[data-native-app="ios"] .navigation-drawer-header {
+    min-height: calc(112px + env(safe-area-inset-top));
+    padding-top: calc(22px + env(safe-area-inset-top));
+  }
+  html[data-native-app="ios"] .navigation-drawer-scroll {
+    height: calc(100dvh - 112px - env(safe-area-inset-top));
+    padding-bottom: calc(36px + env(safe-area-inset-bottom));
   }
   .drawer-nav { margin-top: 0; }
   .drawer-nav-row,

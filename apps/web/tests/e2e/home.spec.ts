@@ -131,7 +131,11 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await menuTrigger.click();
   let drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer).toBeVisible();
+  const closeButton = drawer.getByRole("button", { name: "关闭菜单" });
+  await expect(closeButton).toBeFocused();
+  await expect(closeButton).toHaveAttribute("data-suppress-focus-ring", "true");
   await expect(drawer.getByText("今日刊物")).toHaveCount(0);
+  await expect(drawer.locator(".drawer-support")).toBeHidden();
   await expect(drawer.getByRole("switch", { name: "切换日间或夜间模式" })).toBeVisible();
   await drawer.getByRole("button", { name: /关于虾子曰/ }).click();
   drawer = page.getByRole("dialog", { name: "关于虾子曰" });
@@ -143,11 +147,6 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await expect(drawer.getByRole("link", { name: /小红书/ })).toBeVisible();
   await expect(drawer.getByRole("link", { name: /TikTok/ })).toBeVisible();
   await expect(drawer.getByText("扫码联系与交流")).toHaveCount(0);
-  await drawer.getByRole("button", { name: "返回菜单" }).click();
-  drawer = page.getByRole("dialog", { name: "你的世界" });
-  await drawer.getByRole("button", { name: /随喜相助/ }).click();
-  drawer = page.getByRole("dialog", { name: "随喜相助" });
-  await expect(drawer.getByAltText("微信赞赏码")).toBeVisible();
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer.getByRole("link", { name: /艺术风格图鉴/ })).toHaveAttribute(
@@ -166,6 +165,7 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   await page.keyboard.press("Escape");
   await expect(drawer).toBeHidden();
   await expect(page.getByRole("button", { name: "打开菜单" })).toBeFocused();
+  await expect(page.getByRole("button", { name: "打开菜单" })).toHaveAttribute("data-suppress-focus-ring", "true");
 });
 
 test("uses StoreKit support inside the iOS shell and keeps web payment out", async ({ page }, testInfo) => {
@@ -202,8 +202,10 @@ test("uses StoreKit support inside the iOS shell and keeps web payment out", asy
   });
 
   await page.goto("/zh/?surface=ios");
+  await expect(page.locator('meta[name="viewport"]')).toHaveAttribute("content", /viewport-fit=cover/);
   await page.getByRole("button", { name: "打开菜单" }).click();
   let drawer = page.getByRole("dialog", { name: "你的世界" });
+  await expect(drawer.locator(".drawer-support")).toBeVisible();
   await drawer.getByRole("button", { name: /随喜相助/ }).click();
   drawer = page.getByRole("dialog", { name: "随喜相助" });
 
