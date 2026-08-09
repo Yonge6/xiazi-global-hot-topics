@@ -14,6 +14,7 @@ import { isXiaziIOSApp, subscribeToNativeSurface } from "@/lib/native-app";
 const WENDAO_URL = "https://wendao.wonderelian.com/";
 const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
 const SUPPORT_QR_URL = `${WENDAO_URL}assets/wendao/support-wechat-appreciation-code.png`;
+const VIDEO_CHANNEL_QR_URL = "/brand/contact/video-channel.jpg";
 
 type DrawerView = "home" | "about" | "contact" | "support";
 
@@ -73,6 +74,42 @@ function ConstellationIcon() {
   return <LineIcon><circle cx="6" cy="7" r="1.5" /><circle cx="17.5" cy="6" r="1.5" /><circle cx="12" cy="17" r="1.5" /><path d="m7.4 7.3 8.6-.9M6.8 8.3l4.4 7.5m5.5-8.5-4 8.4" /></LineIcon>;
 }
 
+function VideoChannelModal({ isZh, onClose }: { isZh: boolean; onClose: () => void }) {
+  return (
+    <div
+      className="video-channel-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-label={isZh ? "视频号二维码" : "WeChat Channels QR code"}
+    >
+      <button
+        type="button"
+        className="video-channel-backdrop"
+        aria-label={isZh ? "关闭视频号二维码" : "Close WeChat Channels QR code"}
+        onClick={onClose}
+        tabIndex={-1}
+      />
+      <figure>
+        <button
+          type="button"
+          className="video-channel-close"
+          aria-label={isZh ? "关闭" : "Close"}
+          onClick={onClose}
+          autoFocus
+        >
+          <CloseIcon />
+        </button>
+        <img
+          src={VIDEO_CHANNEL_QR_URL}
+          alt={isZh ? "视频号二维码" : "WeChat Channels QR code"}
+          draggable={false}
+        />
+        <figcaption>{isZh ? "扫码关注视频号" : "Scan to follow on WeChat Channels"}</figcaption>
+      </figure>
+    </div>
+  );
+}
+
 function suppressFocusRing(element: HTMLElement | null, moveFocus = false) {
   if (!element) return;
   element.dataset.suppressFocusRing = "true";
@@ -83,16 +120,24 @@ function suppressFocusRing(element: HTMLElement | null, moveFocus = false) {
 export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [open, setOpen] = useState(false);
   const [view, setView] = useState<DrawerView>("home");
+  const [videoChannelOpen, setVideoChannelOpen] = useState(false);
   const isIOSApp = useSyncExternalStore(subscribeToNativeSurface, isXiaziIOSApp, () => false);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
+  const videoChannelTriggerRef = useRef<HTMLButtonElement>(null);
   const drawerRef = useRef<HTMLElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const isZh = locale === "zh";
 
   const closeMenu = (restoreFocus = false) => {
+    setVideoChannelOpen(false);
     setOpen(false);
     if (restoreFocus) window.setTimeout(() => suppressFocusRing(triggerRef.current, true), 0);
+  };
+
+  const closeVideoChannel = () => {
+    setVideoChannelOpen(false);
+    window.setTimeout(() => suppressFocusRing(videoChannelTriggerRef.current, true), 0);
   };
 
   useEffect(() => {
@@ -103,15 +148,22 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
+        if (videoChannelOpen) {
+          closeVideoChannel();
+          return;
+        }
         closeMenu(true);
         return;
       }
 
       if (event.key !== "Tab" || !drawerRef.current) return;
+      const focusRoot = videoChannelOpen
+        ? drawerRef.current.querySelector<HTMLElement>(".video-channel-modal")
+        : drawerRef.current;
       const focusable = Array.from(
-        drawerRef.current.querySelectorAll<HTMLElement>(
+        focusRoot?.querySelectorAll<HTMLElement>(
           'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
-        ),
+        ) ?? [],
       );
       const first = focusable[0];
       const last = focusable.at(-1);
@@ -131,7 +183,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
       document.body.classList.remove("navigation-drawer-open");
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [open]);
+  }, [open, videoChannelOpen]);
 
   useEffect(() => {
     if (open) scrollRef.current?.scrollTo({ top: 0, behavior: "auto" });
@@ -319,6 +371,15 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                     <ExternalLinkIcon />
                   </a>
                 ))}
+                <button
+                  type="button"
+                  onClick={() => setVideoChannelOpen(true)}
+                  ref={videoChannelTriggerRef}
+                >
+                  <span>{isZh ? "视频号" : "WeChat Channels"}</span>
+                  <strong>{isZh ? "查看二维码" : "View QR code"}</strong>
+                  <ChevronRightIcon />
+                </button>
               </div>
             </section>
           ) : null}
@@ -344,6 +405,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
             <b>xiazishuo.com</b>
           </footer>
         </div>
+        {videoChannelOpen ? <VideoChannelModal isZh={isZh} onClose={closeVideoChannel} /> : null}
       </aside>
     </div>
   ) : null;
@@ -359,6 +421,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
         onPointerDown={(event) => suppressFocusRing(event.currentTarget)}
         onClick={() => {
           setView("home");
+          setVideoChannelOpen(false);
           setOpen(true);
         }}
         ref={triggerRef}

@@ -24,9 +24,9 @@
   --share-action-bg: linear-gradient(135deg, #101418, #123f5e);
   --studio-bg: linear-gradient(160deg, #f8f4ec 0%, #eee7dc 100%);
   --headline-shadow: 0 1px 0 rgba(255,255,255,.7), 0 8px 24px rgba(65,42,23,.08);
-  --serif: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "STSong", Georgia, serif;
-  --newspaper-serif: "Songti SC", "STSong", "SimSun", "Noto Serif CJK SC", "Source Han Serif SC", serif;
-  --sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Helvetica Neue", sans-serif;
+  --serif: "Noto Serif SC", "Songti SC", "STSong", serif;
+  --newspaper-serif: var(--serif);
+  --sans: "Noto Sans SC", "PingFang SC", sans-serif;
 }
 
 html[data-theme="dark"] {
@@ -132,7 +132,7 @@ html[data-native-app="ios"] body {
 .brand-copy small {
   margin-top: 3px;
   color: var(--muted);
-  font-family: Georgia, serif;
+  font-family: var(--serif);
   font-size: 9px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -190,7 +190,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   align-items: center;
   gap: 8px;
   color: var(--muted);
-  font-family: Georgia, serif;
+  font-family: var(--serif);
   font-size: 12px;
   letter-spacing: 0.08em;
 }
@@ -523,7 +523,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   padding: 14px 9px;
 }
 .life-path div:last-child { border-right: 0; }
-.life-path span { color: var(--gold); font: 9px Georgia, serif; letter-spacing: .08em; }
+.life-path span { color: var(--gold); font: 9px var(--serif); letter-spacing: .08em; }
 .life-path strong { color: var(--ink); font: 13px/1.5 var(--serif); font-weight: 500; }
 .life-principles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
 .life-principles article {
@@ -548,18 +548,80 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 }
 .drawer-detail-intro { margin: 0 0 28px; color: var(--muted); font: 17px/1.9 var(--serif); }
 .drawer-contact-list { border-top: 1px solid color-mix(in srgb, var(--gold) 30%, var(--line)); }
-.drawer-contact-list a {
+.drawer-contact-list > a,
+.drawer-contact-list > button {
   display: grid;
+  width: 100%;
   min-height: 76px;
   grid-template-columns: 100px minmax(0, 1fr) auto;
   align-items: center;
   gap: 18px;
   border-bottom: 1px solid color-mix(in srgb, var(--gold) 25%, var(--line));
   padding: 12px 4px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
 }
-.drawer-contact-list a > span { color: var(--gold); font: 15px var(--serif); }
-.drawer-contact-list a > strong { overflow-wrap: anywhere; font-size: 14px; font-weight: 500; }
-.drawer-contact-list a > .drawer-line-icon { width: 18px; height: 18px; color: var(--jade); }
+.drawer-contact-list > :is(a, button) > span { color: var(--gold); font: 15px var(--serif); }
+.drawer-contact-list > :is(a, button) > strong { overflow-wrap: anywhere; font-size: 14px; font-weight: 500; }
+.drawer-contact-list > :is(a, button) > .drawer-line-icon { width: 18px; height: 18px; color: var(--jade); }
+.video-channel-modal {
+  position: absolute;
+  z-index: 12;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: calc(28px + env(safe-area-inset-top)) 28px calc(28px + env(safe-area-inset-bottom));
+}
+.video-channel-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: color-mix(in srgb, var(--ink) 72%, transparent);
+  backdrop-filter: blur(7px);
+}
+.video-channel-modal figure {
+  position: relative;
+  z-index: 1;
+  width: min(420px, 100%);
+  margin: 0;
+  border: 1px solid color-mix(in srgb, var(--gold) 48%, var(--line));
+  border-radius: 24px;
+  background: var(--drawer-bg);
+  padding: 26px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .28);
+}
+.video-channel-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--gold) 32%, var(--line));
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--drawer-bg) 92%, transparent);
+  color: var(--ink);
+  cursor: pointer;
+}
+.video-channel-close .drawer-line-icon { width: 21px; height: 21px; }
+.video-channel-modal img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 686 / 624;
+  border-radius: 14px;
+  object-fit: contain;
+  background: white;
+}
+.video-channel-modal figcaption {
+  margin-top: 18px;
+  color: var(--muted);
+  font: 15px/1.6 var(--serif);
+  text-align: center;
+}
 .drawer-support-detail { text-align: center; }
 .drawer-support-detail h3 { margin: 20px 0 18px; font: 28px/1.55 var(--serif); }
 .drawer-support-detail > span { display: block; color: var(--muted); font: 16px/1.9 var(--serif); }
@@ -594,7 +656,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 }
 .native-support-products button:disabled { cursor: wait; opacity: .62; }
 .native-support-products button span { font: 18px var(--serif); }
-.native-support-products button strong { color: var(--jade); font: 600 16px Georgia, serif; white-space: nowrap; }
+.native-support-products button strong { color: var(--jade); font: 600 16px var(--serif); white-space: nowrap; }
 .native-support-panel > p { margin: 18px 0 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .native-support-panel > p.success { color: var(--jade); }
 .native-support-panel > p.error { color: var(--vermilion); }
@@ -673,14 +735,14 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 .issue-date {
   margin: 10px 0 0;
   color: var(--muted);
-  font-family: Georgia, var(--serif);
+  font-family: var(--serif);
   font-size: 12px;
   letter-spacing: 0.09em;
 }
 .issue-manifesto {
   margin: 10px 0 0;
   color: var(--muted);
-  font-family: Georgia, var(--serif);
+  font-family: var(--serif);
   font-size: 12px;
   letter-spacing: 0.09em;
   line-height: 1.65;
@@ -717,7 +779,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   gap: 24px;
   align-items: baseline;
   color: var(--muted);
-  font-family: Georgia, var(--serif);
+  font-family: var(--serif);
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -1217,7 +1279,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   border-radius: 50%;
   background: var(--ink);
   color: white;
-  font: 700 10px/1 Georgia, serif;
+  font: 700 10px/1 var(--serif);
 }
 html[data-theme="dark"] .share-platforms b { color: #15181a; }
 .copy-share {
@@ -1349,7 +1411,7 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
   .life-principles article p { font-size: 10px; }
   .xiazi-life-philosophy blockquote { font-size: 18px; }
   .drawer-detail-intro { font-size: 15px; }
-  .drawer-contact-list a { grid-template-columns: 74px minmax(0, 1fr) auto; gap: 12px; }
+  .drawer-contact-list > :is(a, button) { grid-template-columns: 74px minmax(0, 1fr) auto; gap: 12px; }
   .drawer-support-detail h3 { font-size: 24px; }
   .drawer-support-detail > span { font-size: 14px; }
   .issue-masthead {
@@ -1522,7 +1584,7 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
   padding: 30px 24px 24px; text-align: center; box-shadow: 0 24px 70px rgba(79,48,36,.14); backdrop-filter: blur(18px);
 }
 .studio-login-card img { width: 132px; height: 132px; object-fit: contain; }
-.studio-login-kicker { margin: 5px 0 12px; color: var(--vermilion); font: 700 10px/1 Georgia, serif; letter-spacing: .18em; }
+.studio-login-kicker { margin: 5px 0 12px; color: var(--vermilion); font: 700 10px/1 var(--serif); letter-spacing: .18em; }
 .studio-login-card h1 { margin: 0; font-family: var(--serif); font-size: 30px; }
 .studio-login-card > p:not(.studio-login-kicker, .studio-login-error) { margin: 10px auto 22px; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .studio-login-card label { display: grid; gap: 8px; color: var(--muted); font-size: 12px; text-align: left; }
@@ -1663,7 +1725,7 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
 .studio-order button, .studio-upload label { border: 1px solid var(--line); border-radius: 8px; background: var(--card); padding: 8px 10px; cursor: pointer; }
 .studio-lock { margin: -5px 0 0; color: var(--vermilion); font-size: 12px; }
 .studio-card details { border-top: 1px solid var(--line); padding-top: 14px; }
-.studio-card summary { cursor: pointer; font-family: Georgia, serif; }
+.studio-card summary { cursor: pointer; font-family: var(--serif); }
 .studio-card details label { margin-top: 14px; }
 .studio-setup p { margin: 10px 0 0; color: var(--muted); font-size: 11px; line-height: 1.65; }
 .studio-poster-previews { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; border-top: 1px solid var(--line); padding-top: 16px; }

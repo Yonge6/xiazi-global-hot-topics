@@ -146,6 +146,15 @@ test("opens the mobile world drawer with Xiazi navigation and related projects",
   drawer = page.getByRole("dialog", { name: "联系与回响" });
   await expect(drawer.getByRole("link", { name: /小红书/ })).toBeVisible();
   await expect(drawer.getByRole("link", { name: /TikTok/ })).toBeVisible();
+  await expect(drawer).toHaveCSS("font-family", /Noto Serif SC|Songti SC|STSong/);
+  await drawer.getByRole("button", { name: "视频号 查看二维码" }).click();
+  const videoChannelDialog = drawer.getByRole("dialog", { name: "视频号二维码" });
+  const videoChannelQr = videoChannelDialog.getByRole("img", { name: "视频号二维码" });
+  await expect(videoChannelQr).toBeVisible();
+  await expect.poll(() => videoChannelQr.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBe(686);
+  await expect(videoChannelDialog.getByText("扫码关注视频号")).toBeVisible();
+  await videoChannelDialog.getByRole("button", { name: "关闭", exact: true }).click();
+  await expect(videoChannelDialog).toBeHidden();
   await expect(drawer.getByText("扫码联系与交流")).toHaveCount(0);
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
