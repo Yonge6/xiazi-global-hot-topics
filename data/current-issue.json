@@ -1,23 +1,23 @@
 {
-  "id": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-  "slug": "2026-08-11",
-  "issueDate": "2026-08-11",
-  "assetVersion": "2026-08-11",
+  "id": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+  "slug": "2026-08-12",
+  "issueDate": "2026-08-12",
+  "assetVersion": "2026-08-12",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-08-11T05:00:00+08:00",
-  "gmtTimestamp": "2026-08-10T21:00:00.000Z",
-  "featuredTopicId": "3b7f5f76-2cbb-5182-b7e4-9fd6cca9c3c1",
+  "beijingTimestamp": "2026-08-12T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-11T21:00:00.000Z",
+  "featuredTopicId": "6e570769-92cf-54c0-8460-fb76a5948eba",
   "style": {
-    "name": "Isometric Illustration",
-    "zhName": "等距插画风格",
-    "description": "Style Atlas daily pick: a precise isometric editorial system with modular spaces, 30-degree geometry, cutaway scenes, restrained colors, soft long shadows and clear infographic hierarchy."
+    "name": "Flat Vector Illustration",
+    "zhName": "扁平矢量插画",
+    "description": "Style Atlas daily pick: a crisp flat-vector editorial system with bold geometric shapes, limited high-contrast colors, clean icons, strong information hierarchy and minimal texture."
   },
   "topics": [
     {
-      "id": "3b7f5f76-2cbb-5182-b7e4-9fd6cca9c3c1",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "today-overview-trade-ai-public-systems",
+      "id": "6e570769-92cf-54c0-8460-fb76a5948eba",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "today-overview-trade-ai-eclipse-action-day",
       "rank": 1,
       "category": "international",
       "region": "Global",
@@ -26,52 +26,52 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-today-overview-trade-ai-public-systems-20260811",
+      "storyId": "xzs-today-overview-trade-ai-eclipse-action-day-20260812",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 97,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "贸易、AI、人口与公共系统进入行动窗口",
-          "headlineView": "今天检验的是规则如何落进现实",
-          "headlineFull": "贸易、AI、人口与公共系统进入行动窗口；今天检验的是规则如何落进现实",
-          "intro": "欧盟小包裹关税、谷歌AI设备发布倒计时、单人企业融资、澳大利亚人口普查、马术世锦赛、世界钢鼓日、日全食与赞比亚大选同时进入明确行动窗口。",
-          "xiaziQuote": "真正的执行力，是把复杂变化拆成今天能完成的动作。",
-          "doudouQuote": "九条时间线，今天都在按下启动键。",
+          "headlineFact": "贸易、AI、创业、天象与选举同日进入行动点",
+          "headlineView": "今天比拼的是把倒计时变成执行清单",
+          "headlineFull": "贸易、AI、创业、天象与选举同日进入行动点；今天比拼的是把倒计时变成执行清单",
+          "intro": "欧盟小包裹新关税进入运营复盘，Google发布Pixel 11，SBA开讲融资，日全食横跨欧洲与北极；青年议题、世界马术锦标赛、赞比亚大选与欧洲田径赛同步推进。",
+          "xiaziQuote": "真正重要的不是知道今天会发生什么，而是提前把规则、资源和风险写进动作。",
+          "doudouQuote": "九条倒计时一起归零，先把清单打开。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Today Overview",
-          "headlineFact": "Trade, AI, population and public systems enter action windows",
-          "headlineView": "today tests how rules become reality",
-          "headlineFull": "Trade, AI, population and public systems enter action windows; today tests how rules become reality",
-          "intro": "EU parcel duties, Google's AI-device countdown, solo-business funding, Australia's census, equestrian championships, Steelpan Day, a total eclipse and Zambia's election enter clear action windows.",
-          "xiaziQuote": "Execution means turning complex change into actions that can be completed today.",
-          "doudouQuote": "Nine timelines are pressing start today.",
+          "headlineFact": "Trade, AI, entrepreneurship, an eclipse and an election reach action points",
+          "headlineView": "today rewards turning countdowns into operating lists",
+          "headlineFull": "Trade, AI, entrepreneurship, an eclipse and an election reach action points; today rewards turning countdowns into operating lists",
+          "intro": "EU parcel duties enter an operating review, Google launches Pixel 11, the SBA teaches funding, and a total eclipse crosses Europe and the Arctic as youth, sport and Zambia's election move forward.",
+          "xiaziQuote": "Knowing what happens today matters less than building rules, resources and risk into the action.",
+          "doudouQuote": "Nine countdowns hit zero together; open the checklist.",
           "footerTakeaway": "Keyword: Today Overview."
         }
       },
       "sources": [
         {
-          "id": "5fb32612-fe1e-50a2-b84a-f233287d4b68",
-          "topicId": "3b7f5f76-2cbb-5182-b7e4-9fd6cca9c3c1",
-          "title": "EUR 3 customs duty - VAT guidelines",
-          "publisher": "European Commission",
-          "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
-          "publishedAt": "2026-08-11T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
+          "id": "ba28a14b-2d47-578b-b2c2-e299e8313867",
+          "topicId": "6e570769-92cf-54c0-8460-fb76a5948eba",
+          "title": "Google's Pixel 11 launch event is set for August 12",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+          "publishedAt": "2026-08-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "8afa4d1d-55af-5099-aa43-e2f28790fc05",
-          "topicId": "3b7f5f76-2cbb-5182-b7e4-9fd6cca9c3c1",
-          "title": "2026 Census of Population and Housing Census Data Collection Notice",
-          "publisher": "Australian Bureau of Statistics",
-          "url": "https://www.abs.gov.au/about/legislation-and-policy/privacy/collection-notices/2026-census-population-and-housing-census-data-collection-notice",
-          "publishedAt": "2026-08-11T00:00:00Z",
+          "id": "a3a42355-cd59-5a69-94c2-d8f02d48e165",
+          "topicId": "6e570769-92cf-54c0-8460-fb76a5948eba",
+          "title": "The Government launches the official website for Spain's three eclipses",
+          "publisher": "Government of Spain",
+          "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/paginas/2026/20260312-three-eclipse-events-website.aspx",
+          "publishedAt": "2026-08-12T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -80,9 +80,9 @@
       ]
     },
     {
-      "id": "109ea6b2-95be-5198-92f2-499eb1af6c5b",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "eu-parcel-duty-operating-review",
+      "id": "2b6ccc5c-7566-516a-aa35-785fa83745da",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "eu-parcel-duty-six-week-margin-review",
       "rank": 2,
       "category": "business",
       "region": "European Union",
@@ -91,40 +91,40 @@
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 97,
-      "storyId": "xzs-eu-parcel-duty-operating-review-20260811",
+      "storyId": "xzs-eu-parcel-duty-six-week-margin-review-20260812",
       "storyStatus": "followup",
-      "followupDay": 2,
+      "followupDay": 3,
       "informationIncrementScore": 96,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "跨境电商",
-          "headlineFact": "欧盟3欧元小包裹关税进入运营复盘期",
-          "headlineView": "HS分类、客单价与合单策略决定利润",
-          "headlineFull": "欧盟3欧元小包裹关税进入运营复盘期；HS分类、客单价与合单策略决定利润",
-          "intro": "欧盟自7月起对不超过150欧元的低价值进口小包裹按商品类别征收3欧元关税；卖家需复盘首月申报数据、税费展示、拆包方式与本地履约。",
-          "xiaziQuote": "跨境利润表必须把商品分类、税费和履约结构放在一起算。",
-          "doudouQuote": "同一包裹里多一个品类，成本就可能多一层。",
+          "headlineFact": "欧盟3欧元小包裹关税进入第六周复盘",
+          "headlineView": "商品分类数据决定真实到岸成本",
+          "headlineFull": "欧盟3欧元小包裹关税进入第六周复盘；商品分类数据决定真实到岸成本",
+          "intro": "欧盟已取消150欧元以下商品的关税豁免，并按包裹内不同商品类别临时征收每类3欧元；卖家应核对HS分类、前台税费展示、合单方式和本地履约后的真实毛利。",
+          "xiaziQuote": "跨境利润不能只看商品售价，分类数据和包裹结构已经直接进入成本表。",
+          "doudouQuote": "一箱货里多一个类别，账单就可能多一格。",
           "footerTakeaway": "今日关键词：跨境电商。"
         },
         "en-US": {
           "categoryLabel": "Cross-border E-commerce",
-          "headlineFact": "EU three-euro parcel duty enters its operating review",
-          "headlineView": "HS codes, order value and consolidation now shape margin",
-          "headlineFull": "EU three-euro parcel duty enters its operating review; HS codes, order value and consolidation now shape margin",
-          "intro": "The EU now levies a EUR3 duty per item category in low-value imported parcels up to EUR150; sellers should review first-month declarations, tax display, packing and local fulfillment.",
-          "xiaziQuote": "Cross-border margin models must calculate classification, tax and fulfillment together.",
-          "doudouQuote": "One more category in a parcel can add another cost layer.",
+          "headlineFact": "EU three-euro parcel duty enters its sixth-week review",
+          "headlineView": "product classification data now shapes landed cost",
+          "headlineFull": "EU three-euro parcel duty enters its sixth-week review; product classification data now shapes landed cost",
+          "intro": "The EU removed the EUR150 duty exemption and temporarily charges EUR3 per item category in a parcel; sellers should review HS codes, checkout tax display, consolidation and local-fulfillment margins.",
+          "xiaziQuote": "Cross-border margin now depends on classification data and parcel structure, not price alone.",
+          "doudouQuote": "Add one category to a box and the bill may gain another line.",
           "footerTakeaway": "Keyword: Cross-border E-commerce."
         }
       },
       "sources": [
         {
-          "id": "b662564d-00d8-500d-9e74-90db00faa263",
-          "topicId": "109ea6b2-95be-5198-92f2-499eb1af6c5b",
+          "id": "bbb13fe1-dbd6-5188-b7ab-0133315b9041",
+          "topicId": "2b6ccc5c-7566-516a-aa35-785fa83745da",
           "title": "EUR 3 customs duty - VAT guidelines",
           "publisher": "European Commission",
           "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
-          "publishedAt": "2026-08-11T00:00:00Z",
+          "publishedAt": "2026-08-12T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -133,9 +133,9 @@
       ]
     },
     {
-      "id": "1dc35fc2-9d9a-57ce-9c3b-31553a5df867",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "made-by-google-ai-device-countdown",
+      "id": "441f6979-1dde-5039-ab02-ffe4797046ee",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "made-by-google-pixel-11-ai-launch",
       "rank": 3,
       "category": "technology",
       "region": "United States",
@@ -143,43 +143,43 @@
         "US"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 96,
-      "storyId": "xzs-made-by-google-ai-device-countdown-20260811",
-      "storyStatus": "new",
-      "followupDay": 1,
+      "storyId": "xzs-made-by-google-pixel-11-ai-launch-20260812",
+      "storyStatus": "followup",
+      "followupDay": 2,
       "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "人工智能 AI",
-          "headlineFact": "Made by Google进入发布前一天",
-          "headlineView": "端侧AI从功能清单走向设备系统",
-          "headlineFull": "Made by Google进入发布前一天；端侧AI从功能清单走向设备系统",
-          "intro": "Google Store确认Pixel 11系列将于8月12日开放预订并直播新设备发布；市场关注Gemini如何进入手机、穿戴与家庭设备的连续体验。",
-          "xiaziQuote": "端侧AI的竞争，不只看模型参数，更看它能否稳定接住真实场景。",
-          "doudouQuote": "AI住进每台设备，协同就成了新考题。",
+          "headlineFact": "Made by Google今天发布Pixel 11",
+          "headlineView": "端侧AI进入真实设备与预订检验",
+          "headlineFull": "Made by Google今天发布Pixel 11；端侧AI进入真实设备与预订检验",
+          "intro": "Google Store确认8月12日在纽约直播新一代Pixel设备，并于当天开放Pixel 11预订；焦点从模型演示转向Gemini如何连接手机、穿戴与家庭设备的连续体验。",
+          "xiaziQuote": "端侧AI的价值不在发布会口号，而在设备之间能否稳定接住用户的下一步。",
+          "doudouQuote": "模型上台只要一晚，协同体验要天天考试。",
           "footerTakeaway": "今日关键词：人工智能 AI。"
         },
         "en-US": {
           "categoryLabel": "Artificial Intelligence AI",
-          "headlineFact": "Made by Google enters its final launch day",
-          "headlineView": "on-device AI moves from features to a device system",
-          "headlineFull": "Made by Google enters its final launch day; on-device AI moves from features to a device system",
-          "intro": "Google Store confirms Pixel 11 preorders and a live device launch for August 12, focusing attention on how Gemini connects phones, wearables and home devices.",
-          "xiaziQuote": "On-device AI competition is about serving real situations reliably, not model numbers alone.",
-          "doudouQuote": "When AI lives in every device, coordination becomes the next test.",
+          "headlineFact": "Made by Google launches Pixel 11 today",
+          "headlineView": "on-device AI enters the device and preorder test",
+          "headlineFull": "Made by Google launches Pixel 11 today; on-device AI enters the device and preorder test",
+          "intro": "Google Store confirms a live New York launch and Pixel 11 preorders on August 12, shifting attention from model demos to how Gemini connects phones, wearables and home devices.",
+          "xiaziQuote": "On-device AI earns value when devices reliably carry the user's next step, not on the keynote stage.",
+          "doudouQuote": "A model gets one launch night; coordination gets tested daily.",
           "footerTakeaway": "Keyword: Artificial Intelligence AI."
         }
       },
       "sources": [
         {
-          "id": "102fed44-67d2-5ea4-a468-4535fbfae597",
-          "topicId": "1dc35fc2-9d9a-57ce-9c3b-31553a5df867",
+          "id": "76d92a30-3b0c-5b55-ac49-b8e4c6b13334",
+          "topicId": "441f6979-1dde-5039-ab02-ffe4797046ee",
           "title": "Google's Pixel 11 launch event is set for August 12",
           "publisher": "Ars Technica",
           "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
-          "publishedAt": "2026-08-11T00:00:00Z",
+          "publishedAt": "2026-08-12T00:00:00Z",
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
@@ -188,9 +188,9 @@
       ]
     },
     {
-      "id": "d69a4b14-b0f9-5b6e-a7e1-ee9caca9abf7",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "sba-solo-business-funding-preparation",
+      "id": "61ddd78d-53b9-5fa8-a3a1-ecc974d38820",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "sba-loan-application-mastery-day",
       "rank": 4,
       "category": "business",
       "region": "United States",
@@ -198,220 +198,67 @@
         "US"
       ],
       "eventTime": null,
-      "isDeveloping": false,
+      "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 95,
-      "storyId": "xzs-sba-solo-business-funding-preparation-20260811",
-      "storyStatus": "new",
-      "followupDay": 1,
+      "storyId": "xzs-sba-loan-application-mastery-day-20260812",
+      "storyStatus": "followup",
+      "followupDay": 2,
       "informationIncrementScore": 94,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "一人公司 OPC",
-          "headlineFact": "SBA融资课进入最后准备",
-          "headlineView": "单人企业先把资金用途变成可验证计划",
-          "headlineFull": "SBA融资课进入最后准备；单人企业先把资金用途变成可验证计划",
-          "intro": "美国小企业管理局8月12日线上课将讲解创业与增长贷款、项目匹配及放贷方评估重点；单人经营者可提前整理现金流、用途和偿付路径。",
-          "xiaziQuote": "融资不是先问能借多少，而是先证明每一笔钱如何变成经营结果。",
-          "doudouQuote": "一页清楚的用途表，比一桌工具更接近贷款。",
+          "headlineFact": "SBA创业融资课今天开讲",
+          "headlineView": "单人公司先把风险与还款路径说清楚",
+          "headlineFull": "SBA创业融资课今天开讲；单人公司先把风险与还款路径说清楚",
+          "intro": "美国小企业管理局8月12日线上课程覆盖创业与增长贷款、项目匹配、贷款方评估与申请风险；单人经营者可据此整理现金流、资金用途、风险画像和偿付计划。",
+          "xiaziQuote": "融资材料的核心不是把愿景写大，而是让每一笔资金如何变成现金流可以被验证。",
+          "doudouQuote": "一页还款路径，比十页豪言更像经营。",
           "footerTakeaway": "今日关键词：一人公司 OPC。"
         },
         "en-US": {
           "categoryLabel": "One-person Company OPC",
-          "headlineFact": "SBA funding class enters final preparation",
-          "headlineView": "solo firms should turn funding needs into a verifiable plan",
-          "headlineFull": "SBA funding class enters final preparation; solo firms should turn funding needs into a verifiable plan",
-          "intro": "The August 12 SBA webinar covers startup and growth loans, program fit and lender evaluation, giving solo operators a reason to prepare cash flow, use of funds and repayment paths.",
-          "xiaziQuote": "Funding starts by proving how each dollar becomes an operating result.",
-          "doudouQuote": "A clear use-of-funds page beats a desk full of tools.",
+          "headlineFact": "SBA startup-funding classes go live today",
+          "headlineView": "solo firms must explain risk and repayment clearly",
+          "headlineFull": "SBA startup-funding classes go live today; solo firms must explain risk and repayment clearly",
+          "intro": "August 12 SBA sessions cover startup and growth loans, program fit, lender evaluation and application risk, helping solo operators organize cash flow, use of funds and repayment plans.",
+          "xiaziQuote": "Funding works when every dollar's path to cash flow can be verified, not when the vision grows longer.",
+          "doudouQuote": "One repayment map beats ten pages of ambition.",
           "footerTakeaway": "Keyword: One-person Company OPC."
         }
       },
       "sources": [
         {
-          "id": "8fc52cad-80a7-5ea2-b65f-53821f275ec5",
-          "topicId": "d69a4b14-b0f9-5b6e-a7e1-ee9caca9abf7",
+          "id": "cfd1a439-6a85-564d-8e16-76232635cfd5",
+          "topicId": "61ddd78d-53b9-5fa8-a3a1-ecc974d38820",
           "title": "Wednesday Webinar: SBA Funding for Start-up Businesses",
           "publisher": "U.S. Small Business Administration",
           "url": "https://www.sba.gov/event/84461",
-          "publishedAt": "2026-08-11T00:00:00Z",
+          "publishedAt": "2026-08-12T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        },
+        {
+          "id": "e41b826c-a51e-5851-bca5-82d28f0f1361",
+          "topicId": "61ddd78d-53b9-5fa8-a3a1-ecc974d38820",
+          "title": "Access to Capital: Loan Application Mastery Webinar",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/event/85906",
+          "publishedAt": "2026-08-12T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
         }
       ]
     },
     {
-      "id": "008039e9-e9aa-5c29-bc12-e38055f138ed",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "australia-2026-census-night",
+      "id": "84fc6662-4b96-5bc2-a004-3f35619b53c7",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "total-solar-eclipse-europe-arctic-day",
       "rank": 5,
-      "category": "international",
-      "region": "Australia",
-      "countryCodes": [
-        "AU"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-australia-2026-census-night-20260811",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 93,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "澳大利亚人口",
-          "headlineFact": "澳大利亚今晚举行2026人口普查",
-          "headlineView": "全国数据将影响服务与资源配置",
-          "headlineFull": "澳大利亚今晚举行2026人口普查；全国数据将影响服务与资源配置",
-          "intro": "8月11日普查覆盖澳大利亚及相关外岛的每个人与家庭；结果将用于学校、医疗、交通、基础设施、资金分配与选区规划。",
-          "xiaziQuote": "公共决策的精度，来自每个家庭愿意完成的一份真实数据。",
-          "doudouQuote": "一张表很小，却会改变很多城市怎么长大。",
-          "footerTakeaway": "今日关键词：澳大利亚人口。"
-        },
-        "en-US": {
-          "categoryLabel": "Australia Population",
-          "headlineFact": "Australia holds its 2026 Census tonight",
-          "headlineView": "national data will shape services and resources",
-          "headlineFull": "Australia holds its 2026 Census tonight; national data will shape services and resources",
-          "intro": "The August 11 Census includes every person and household in Australia and related islands, informing schools, health care, transport, infrastructure, funding and electoral boundaries.",
-          "xiaziQuote": "Precise public decisions begin with truthful data from each household.",
-          "doudouQuote": "One small form can change how many cities grow.",
-          "footerTakeaway": "Keyword: Australia Population."
-        }
-      },
-      "sources": [
-        {
-          "id": "d30c0010-1ca3-54b5-bcf7-1b5c32794b0c",
-          "topicId": "008039e9-e9aa-5c29-bc12-e38055f138ed",
-          "title": "2026 Census of Population and Housing Census Data Collection Notice",
-          "publisher": "Australian Bureau of Statistics",
-          "url": "https://www.abs.gov.au/about/legislation-and-policy/privacy/collection-notices/2026-census-population-and-housing-census-data-collection-notice",
-          "publishedAt": "2026-08-11T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "611561ce-cefc-587b-88b0-0598998ce90a",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "fei-world-championships-aachen-opens",
-      "rank": 6,
-      "category": "sports",
-      "region": "Europe",
-      "countryCodes": [
-        "DE"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "xzs-fei-world-championships-aachen-opens-20260811",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 92,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "国际体育",
-          "headlineFact": "世界马术锦标赛今日在亚琛开幕",
-          "headlineView": "多项目赛程考验人马协作与城市运营",
-          "headlineFull": "世界马术锦标赛今日在亚琛开幕；多项目赛程考验人马协作与城市运营",
-          "intro": "2026 FEI世界锦标赛于8月11日至23日在德国亚琛举行，盛装舞步率先开赛，随后展开场地障碍、三项赛、残障盛装舞步、马车与轻驾。",
-          "xiaziQuote": "顶级竞技的背后，是训练、动物福利、场馆与转播的共同系统。",
-          "doudouQuote": "人和马一起赢，后台也要一起稳。",
-          "footerTakeaway": "今日关键词：国际体育。"
-        },
-        "en-US": {
-          "categoryLabel": "International Sports",
-          "headlineFact": "FEI World Championships open in Aachen today",
-          "headlineView": "multiple disciplines test horse-rider and city operations",
-          "headlineFull": "FEI World Championships open in Aachen today; multiple disciplines test horse-rider and city operations",
-          "intro": "The August 11-23 championships open with dressage in Aachen, followed by jumping, eventing, para dressage, driving and vaulting.",
-          "xiaziQuote": "Elite sport depends on training, animal welfare, venues and broadcasting working together.",
-          "doudouQuote": "Horse and rider win together; the operation must stay steady too.",
-          "footerTakeaway": "Keyword: International Sports."
-        }
-      },
-      "sources": [
-        {
-          "id": "c749810c-df04-545c-bbcf-9f3a03c9a5da",
-          "topicId": "611561ce-cefc-587b-88b0-0598998ce90a",
-          "title": "FEI World Championships 2026",
-          "publisher": "City of Aachen",
-          "url": "https://www.aachen.de/kalender/2026/q3/reit-wm/2026-08-11-fei-world-championships-2026/",
-          "publishedAt": "2026-08-11T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "32ceefe2-4c70-5390-875b-1c02dff63a0e",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "world-steelpan-day-creative-economy",
-      "rank": 7,
-      "category": "culture",
-      "region": "Global",
-      "countryCodes": [
-        "TT"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-world-steelpan-day-creative-economy-20260811",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 91,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "文化与创意经济",
-          "headlineFact": "世界钢鼓日今天响起",
-          "headlineView": "加勒比创新连接文化、教育与社区",
-          "headlineFull": "世界钢鼓日今天响起；加勒比创新连接文化、教育与社区",
-          "intro": "联合国将8月11日定为世界钢鼓日，强调这一源自特立尼达和多巴哥的乐器对文化多样性、创意经济、青年赋权与可持续社区的价值。",
-          "xiaziQuote": "文化遗产真正有生命力，是能继续创造工作、连接和新的表达。",
-          "doudouQuote": "一只旧油桶，也能被敲成整个社区的声音。",
-          "footerTakeaway": "今日关键词：文化与创意经济。"
-        },
-        "en-US": {
-          "categoryLabel": "Culture and Creative Economy",
-          "headlineFact": "World Steelpan Day sounds today",
-          "headlineView": "Caribbean innovation links culture, learning and community",
-          "headlineFull": "World Steelpan Day sounds today; Caribbean innovation links culture, learning and community",
-          "intro": "The UN marks August 11 as World Steelpan Day, highlighting the Trinidad and Tobago instrument's value to cultural diversity, the creative economy, youth empowerment and sustainable communities.",
-          "xiaziQuote": "Living heritage keeps creating work, connection and new expression.",
-          "doudouQuote": "An old oil drum can become the voice of a whole community.",
-          "footerTakeaway": "Keyword: Culture and Creative Economy."
-        }
-      },
-      "sources": [
-        {
-          "id": "5bf5b70e-5b56-54fd-b476-d3324f188332",
-          "topicId": "32ceefe2-4c70-5390-875b-1c02dff63a0e",
-          "title": "General Assembly proclaims 11 August as World Steelpan Day",
-          "publisher": "United Nations Meetings Coverage",
-          "url": "https://press.un.org/en/2023/ga12518.doc.htm",
-          "publishedAt": "2026-08-11T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "4d2b3641-8c07-5f70-b399-e1bf56da654f",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "total-solar-eclipse-final-day-countdown",
-      "rank": 8,
       "category": "science",
       "region": "Europe and Arctic",
       "countryCodes": [
@@ -422,41 +269,41 @@
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-total-solar-eclipse-final-day-countdown-20260811",
+      "scoreTotal": 94,
+      "storyId": "xzs-total-solar-eclipse-europe-arctic-day-20260812",
       "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 90,
+      "followupDay": 3,
+      "informationIncrementScore": 93,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "空间科学",
-          "headlineFact": "8月12日日全食进入最后一天倒计时",
-          "headlineView": "安全观测与交通预案来到执行时刻",
-          "headlineFull": "8月12日日全食进入最后一天倒计时；安全观测与交通预案来到执行时刻",
-          "intro": "全食带将经过格陵兰、冰岛、俄罗斯北部、西班牙与葡萄牙一角；更广区域可见偏食，观测者需核对合格滤镜、路线、天气与人流安排。",
-          "xiaziQuote": "稀有天象越壮观，安全、路线和天气预案越要具体。",
-          "doudouQuote": "抬头看太阳之前，先把合格观测镜戴好。",
+          "headlineFact": "日全食今天横跨北极与欧洲",
+          "headlineView": "安全观测、交通与公共服务同时受考",
+          "headlineFull": "日全食今天横跨北极与欧洲；安全观测、交通与公共服务同时受考",
+          "intro": "8月12日日全食经过格陵兰、冰岛与西班牙等地，西班牙政府已设置官方观测点、交通和安全信息；观测者需使用合格滤镜，并提前核对天气、路线与人流安排。",
+          "xiaziQuote": "越稀有的天象，越需要把科学、交通和公共安全放进同一张地图。",
+          "doudouQuote": "抬头看奇迹之前，先把合格观测镜戴好。",
           "footerTakeaway": "今日关键词：空间科学。"
         },
         "en-US": {
           "categoryLabel": "Space Science",
-          "headlineFact": "August 12 total solar eclipse enters its final-day countdown",
-          "headlineView": "safe viewing and travel plans reach execution time",
-          "headlineFull": "August 12 total solar eclipse enters its final-day countdown; safe viewing and travel plans reach execution time",
-          "intro": "Totality crosses Greenland, Iceland, northern Russia, Spain and a corner of Portugal; wider regions see a partial eclipse, requiring certified filters, routes, weather and crowd plans.",
-          "xiaziQuote": "The rarer the spectacle, the more concrete safety, routes and weather plans must be.",
-          "doudouQuote": "Before looking at the Sun, put on certified eclipse viewers.",
+          "headlineFact": "A total solar eclipse crosses the Arctic and Europe today",
+          "headlineView": "safe viewing, transport and public services share the test",
+          "headlineFull": "A total solar eclipse crosses the Arctic and Europe today; safe viewing, transport and public services share the test",
+          "intro": "The August 12 eclipse crosses Greenland, Iceland and Spain, where official observation, transport and safety information is live; viewers need certified filters plus weather and route plans.",
+          "xiaziQuote": "The rarer the sky event, the more science, transport and public safety belong on one map.",
+          "doudouQuote": "Before watching the miracle, put on certified eclipse viewers.",
           "footerTakeaway": "Keyword: Space Science."
         }
       },
       "sources": [
         {
-          "id": "a49b8a0f-cdc3-571d-90ec-9caf30f84704",
-          "topicId": "4d2b3641-8c07-5f70-b399-e1bf56da654f",
-          "title": "The Government launches the official website with information on the three eclipse events",
+          "id": "68d7d3b8-105f-5160-9fbf-8e64f8ef2992",
+          "topicId": "84fc6662-4b96-5bc2-a004-3f35619b53c7",
+          "title": "The Government launches the official website for Spain's three eclipses",
           "publisher": "Government of Spain",
           "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/paginas/2026/20260312-three-eclipse-events-website.aspx",
-          "publishedAt": "2026-08-11T00:00:00Z",
+          "publishedAt": "2026-08-12T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -465,10 +312,118 @@
       ]
     },
     {
-      "id": "22b83593-82d2-5aee-96bd-41787f82c66c",
-      "issueId": "9a601c20-a1bf-5ae9-b8c4-023f53b1646a",
-      "slug": "zambia-national-results-centre-launch",
-      "rank": 9,
+      "id": "93e26f39-afe9-54aa-aa7f-bf0e7cea8227",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "international-youth-day-local-action",
+      "rank": 6,
+      "category": "culture",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-international-youth-day-local-action-20260812",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "青年与社会",
+          "headlineFact": "国际青年日今天举行",
+          "headlineView": "青年参与要从被倾听走向共同决策",
+          "headlineFull": "国际青年日今天举行；青年参与要从被倾听走向共同决策",
+          "intro": "联合国将每年8月12日定为国际青年日，推动各地关注青年在发展、和平与公共治理中的角色；今年的行动重点仍落在让青年进入真实项目、资源分配和决策机制。",
+          "xiaziQuote": "青年参与不是活动席位，而是能否进入目标、预算和责任的共同设计。",
+          "doudouQuote": "别只请年轻人上台，也要给他们一支笔。",
+          "footerTakeaway": "今日关键词：青年与社会。"
+        },
+        "en-US": {
+          "categoryLabel": "Youth and Society",
+          "headlineFact": "International Youth Day is observed today",
+          "headlineView": "youth participation must move from listening to shared decisions",
+          "headlineFull": "International Youth Day is observed today; youth participation must move from listening to shared decisions",
+          "intro": "The United Nations marks August 12 as International Youth Day, focusing attention on young people's roles in development, peace and governance and on access to real projects and decisions.",
+          "xiaziQuote": "Youth participation is measured by access to goals, budgets and responsibility, not a seat at an event.",
+          "doudouQuote": "Do not just invite young people on stage; give them a pen.",
+          "footerTakeaway": "Keyword: Youth and Society."
+        }
+      },
+      "sources": [
+        {
+          "id": "4286894b-2111-55b9-97b9-1b596da45c37",
+          "topicId": "93e26f39-afe9-54aa-aa7f-bf0e7cea8227",
+          "title": "International Youth Day",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/observances/international-youth-day",
+          "publishedAt": "2026-08-12T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "960d1883-c38d-54df-984c-84fbf2d80b48",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "fei-dressage-team-medal-day",
+      "rank": 7,
+      "category": "sports",
+      "region": "Europe",
+      "countryCodes": [
+        "DE"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-fei-dressage-team-medal-day-20260812",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际体育",
+          "headlineFact": "亚琛盛装舞步团体奖牌今天决出",
+          "headlineView": "第二日大奖赛把稳定性变成最终排名",
+          "headlineFull": "亚琛盛装舞步团体奖牌今天决出；第二日大奖赛把稳定性变成最终排名",
+          "intro": "2026 FEI世界锦标赛盛装舞步大奖赛第二部分于8月12日进行，并决定团体奖牌及个人特别大奖赛资格；人马协作、节奏控制和动作精度进入同场检验。",
+          "xiaziQuote": "顶级表现不是一次惊艳动作，而是让每个细节在压力下仍然可重复。",
+          "doudouQuote": "奖牌看起来很亮，背后全是稳定的小动作。",
+          "footerTakeaway": "今日关键词：国际体育。"
+        },
+        "en-US": {
+          "categoryLabel": "International Sports",
+          "headlineFact": "Aachen dressage team medals are decided today",
+          "headlineView": "the second Grand Prix day turns consistency into ranking",
+          "headlineFull": "Aachen dressage team medals are decided today; the second Grand Prix day turns consistency into ranking",
+          "intro": "Part two of the FEI World Championships dressage Grand Prix runs on August 12, deciding team medals and qualification for the individual Grand Prix Special.",
+          "xiaziQuote": "Elite performance is not one brilliant move; it is every detail remaining repeatable under pressure.",
+          "doudouQuote": "Medals shine, but stable small moves build them.",
+          "footerTakeaway": "Keyword: International Sports."
+        }
+      },
+      "sources": [
+        {
+          "id": "3580f89a-da0e-58f9-8f59-192647c681f0",
+          "topicId": "960d1883-c38d-54df-984c-84fbf2d80b48",
+          "title": "FEI World Championships 2026",
+          "publisher": "City of Aachen",
+          "url": "https://www.aachen.de/kalender/2026/q3/reit-wm/2026-08-11-fei-world-championships-2026/",
+          "publishedAt": "2026-08-12T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "c41c68d5-7b6b-5da2-b01f-e632e0ec8f2c",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "zambia-election-eve-final-preparation",
+      "rank": 8,
       "category": "international",
       "region": "Africa",
       "countryCodes": [
@@ -477,57 +432,100 @@
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "xzs-zambia-national-results-centre-launch-20260811",
+      "scoreTotal": 91,
+      "storyId": "xzs-zambia-election-eve-final-preparation-20260812",
       "storyStatus": "followup",
-      "followupDay": 2,
-      "informationIncrementScore": 89,
+      "followupDay": 3,
+      "informationIncrementScore": 90,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "全球选举",
-          "headlineFact": "赞比亚国家计票流程进入最后准备",
-          "headlineView": "8月13日大选进入最后准备",
-          "headlineFull": "赞比亚国家计票流程进入最后准备；8月13日大选进入最后准备",
-          "intro": "赞比亚8月13日举行总统、议会与地方选举投票；选举委员会说明总统结果将由国家计票中心接收并公布，认证、投票站与结果流程进入最后准备。",
-          "xiaziQuote": "选举可信度来自每个具体环节都清楚、可追踪、可验证。",
-          "doudouQuote": "选票很小，背后的流程必须足够清楚。",
+          "headlineFact": "赞比亚进入大选投票前夜",
+          "headlineView": "认证、投票站与计票流程完成最后交接",
+          "headlineFull": "赞比亚进入大选投票前夜；认证、投票站与计票流程完成最后交接",
+          "intro": "赞比亚将于8月13日举行总统、议会与地方选举；国家计票中心已启动，选举机构、观察团、投票站人员与政党代理人进入投票前的最后流程确认。",
+          "xiaziQuote": "可信选举不是只守住投票日，而是让每一次交接都清楚、可追踪、可验证。",
+          "doudouQuote": "选票明天进箱，流程今天就要对齐。",
           "footerTakeaway": "今日关键词：全球选举。"
         },
         "en-US": {
           "categoryLabel": "Global Elections",
-          "headlineFact": "Zambia's national results process enters final preparation",
-          "headlineView": "the August 13 election enters final preparation",
-          "headlineFull": "Zambia's national results process enters final preparation; the August 13 election enters final preparation",
-          "intro": "Zambia votes in presidential, parliamentary and local elections on August 13; the Electoral Commission explains that presidential results are received and announced through the national results centre as final preparations proceed.",
-          "xiaziQuote": "Election credibility comes from every step being clear, traceable and verifiable.",
-          "doudouQuote": "A ballot is small; the process behind it must be clear.",
+          "headlineFact": "Zambia enters the eve of its general election",
+          "headlineView": "accreditation, polling and results processes reach final handoff",
+          "headlineFull": "Zambia enters the eve of its general election; accreditation, polling and results processes reach final handoff",
+          "intro": "Zambia votes in presidential, parliamentary and local elections on August 13; the national results centre is active as officials, observers and party agents complete final checks.",
+          "xiaziQuote": "A credible election depends on every handoff being clear, traceable and verifiable, not polling day alone.",
+          "doudouQuote": "Ballots enter boxes tomorrow; the process must align today.",
           "footerTakeaway": "Keyword: Global Elections."
         }
       },
       "sources": [
         {
-          "id": "e1156e71-f5fa-5d6c-bf4e-478743ec8b89",
-          "topicId": "22b83593-82d2-5aee-96bd-41787f82c66c",
-          "title": "Elections and the National Results Centre",
-          "publisher": "Electoral Commission of Zambia",
-          "url": "https://www.elections.org.zm/?page_id=1884",
-          "publishedAt": "2026-08-11T00:00:00Z",
+          "id": "b7f31bbe-fca5-532e-8d5e-bbf186a86865",
+          "topicId": "c41c68d5-7b6b-5da2-b01f-e632e0ec8f2c",
+          "title": "About the EU Election Observation Mission Zambia 2026",
+          "publisher": "European External Action Service",
+          "url": "https://www.eeas.europa.eu/eom-zambia-2026/about-eom-zambia-2026_en",
+          "publishedAt": "2026-08-12T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "6c14b920-dc13-5937-8072-dda6670f2055",
+      "issueId": "e7802cb0-673f-5702-9ac2-38a560bfb678",
+      "slug": "european-athletics-birmingham-medal-race",
+      "rank": 9,
+      "category": "sports",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-european-athletics-birmingham-medal-race-20260812",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲田径",
+          "headlineFact": "欧洲田径锦标赛进入第三比赛日",
+          "headlineView": "多项目奖牌与积分推动国家排名变化",
+          "headlineFull": "欧洲田径锦标赛进入第三比赛日；多项目奖牌与积分推动国家排名变化",
+          "intro": "2026欧洲田径锦标赛于8月10日至16日在伯明翰举行，8月12日进入第三比赛日；赛场同时检验速度、耐力、技术项目与大型赛事运营的连续稳定性。",
+          "xiaziQuote": "综合赛事的竞争不只在一场决赛，也在每个项目如何把团队积分持续累积。",
+          "doudouQuote": "有人冲刺，有人投掷，奖牌榜一起跑。",
+          "footerTakeaway": "今日关键词：欧洲田径。"
         },
+        "en-US": {
+          "categoryLabel": "European Athletics",
+          "headlineFact": "European Athletics Championships enter day three",
+          "headlineView": "medals across disciplines keep moving national rankings",
+          "headlineFull": "European Athletics Championships enter day three; medals across disciplines keep moving national rankings",
+          "intro": "The August 10-16 European Athletics Championships in Birmingham reach day three on August 12, testing speed, endurance, technical events and continuous major-event operations.",
+          "xiaziQuote": "Championship strength grows not from one final alone but from points accumulated across disciplines.",
+          "doudouQuote": "Some sprint, some throw; the medal table runs with them.",
+          "footerTakeaway": "Keyword: European Athletics."
+        }
+      },
+      "sources": [
         {
-          "id": "15b7da36-0b8e-591f-8932-c81e295274cd",
-          "topicId": "22b83593-82d2-5aee-96bd-41787f82c66c",
-          "title": "About the EU Election Observation Mission Zambia 2026",
-          "publisher": "European External Action Service",
-          "url": "https://www.eeas.europa.eu/eom-zambia-2026/about-eom-zambia-2026_en",
-          "publishedAt": "2026-08-11T00:00:00Z",
+          "id": "7b9ea26a-7256-5faf-a13d-22f3a90d6a32",
+          "topicId": "6c14b920-dc13-5937-8072-dda6670f2055",
+          "title": "European Athletics Championships Birmingham 2026",
+          "publisher": "British Athletics",
+          "url": "https://www.britishathletics.org.uk/events/european-athletics-championships-birmingham-2026/",
+          "publishedAt": "2026-08-12T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
-          "isPrimary": false
+          "isPrimary": true
         }
       ]
     }
