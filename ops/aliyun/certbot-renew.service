@@ -1,0 +1,6 @@
+[Unit]
+Description=Renew Xiazi HTTPS certificates
+
+[Service]
+Type=oneshot
+ExecStart=/opt/certbot/bin/certbot renew --quiet --deploy-hook "/usr/bin/systemctl reload nginx"
