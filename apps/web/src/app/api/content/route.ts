@@ -1,7 +1,10 @@
 import { NextResponse } from "next/server";
 
 import { CONTENT_CACHE_CONTROL } from "@/lib/cache/public-cache";
-import { loadLatestProductionIssue } from "@/server/json/production-json-source";
+import {
+  loadCurrentProductionReleaseManifest,
+  loadLatestProductionIssue,
+} from "@/server/json/production-json-source";
 import { contentChecksum } from "@/server/content-sync/issue-bundle";
 import { loadActivePublication } from "@/server/releases/release-service";
 import { explicitDegradedFallbackEnabled, releaseV2Enabled } from "@/server/releases/release-runtime";
@@ -79,14 +82,28 @@ export async function GET() {
   }
   try {
     const { issue, source } = await loadLatestProductionIssue();
+    const manifest = await loadCurrentProductionReleaseManifest(issue);
+    const hash = manifest ? contentChecksum(issue) : null;
 
     return NextResponse.json({
       ...issue,
-      assetVersion: issue.assetVersion || issue.beijingTimestamp || issue.issueDate,
+      assetVersion: manifest?.releaseId || issue.assetVersion || issue.beijingTimestamp || issue.issueDate,
+      ...(manifest ? {
+        releaseId: manifest.releaseId,
+        contentHash: hash,
+        dataSource: `${source}-release-manifest`,
+        publicationHealth: "healthy",
+        stale: false,
+      } : {}),
     }, {
       headers: {
         "Cache-Control": CONTENT_CACHE_CONTROL,
         "X-Content-Source": source,
+        ...(manifest ? {
+          "X-Release-Id": manifest.releaseId,
+          "X-Content-Hash": hash || "",
+          "X-Publication-Health": "healthy",
+        } : {}),
       },
     });
   } catch (error) {

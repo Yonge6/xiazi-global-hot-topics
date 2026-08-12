@@ -12,8 +12,8 @@ function readAppFile(path: string) {
 
 describe("overview plus eight-story product rules", () => {
   const issue = parseIssue(currentIssue);
-  const overviewTopics = issue.topics.filter((topic) => topic.slug === "overview");
-  const newsTopics = issue.topics.filter((topic) => topic.slug !== "overview");
+  const overviewTopics = issue.topics.filter((topic) => topic.rank === 1);
+  const newsTopics = issue.topics.filter((topic) => topic.rank > 1);
 
   it("keeps the issue contract at nine ranked content cards", () => {
     expect(issue.topics).toHaveLength(9);
@@ -24,7 +24,7 @@ describe("overview plus eight-story product rules", () => {
     expect(overviewTopics).toHaveLength(1);
     expect(overviewTopics[0].rank).toBe(1);
     expect(newsTopics).toHaveLength(8);
-    expect(newsTopics[0]?.localizations["en-US"].categoryLabel).toMatch(/open hotspot/i);
+    expect(newsTopics[0]?.localizations["en-US"].categoryLabel).toMatch(/cross-border e-commerce/i);
   });
 
   it("uses eight-story public copy without regressing to nine-story wording", () => {

@@ -5,6 +5,7 @@ import { parseIssue } from "@xiazi/contracts";
 
 const mocks = vi.hoisted(() => ({
   loadActivePublication: vi.fn(),
+  loadCurrentProductionReleaseManifest: vi.fn(),
   loadLatestProductionIssue: vi.fn(),
 }));
 
@@ -13,6 +14,7 @@ vi.mock("@/server/releases/release-service", () => ({
 }));
 
 vi.mock("@/server/json/production-json-source", () => ({
+  loadCurrentProductionReleaseManifest: mocks.loadCurrentProductionReleaseManifest,
   loadLatestProductionIssue: mocks.loadLatestProductionIssue,
 }));
 
@@ -41,6 +43,7 @@ describe("release-aware content API", () => {
       },
     });
     mocks.loadLatestProductionIssue.mockResolvedValue({ issue, source: "github" });
+    mocks.loadCurrentProductionReleaseManifest.mockResolvedValue(null);
   });
 
   afterEach(() => {
@@ -93,5 +96,21 @@ describe("release-aware content API", () => {
     expect(detail.dataSource).toBe("github");
     expect(detail.stale).toBe(true);
     expect(detail.degradationReason).toContain("database unavailable");
+  });
+
+  it("returns release identity from the GitHub manifest on the mainland runtime", async () => {
+    vi.stubEnv("RELEASE_V2_ENABLED", "false");
+    mocks.loadCurrentProductionReleaseManifest.mockResolvedValue({
+      releaseId: "rel_20260810_aaaaaaaaaaaaaaaaaaaaaaaa",
+      assetBatchId: "asset_prod_20260810_test123",
+    });
+
+    const response = await GET();
+    const detail = await response.json();
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("x-publication-health")).toBe("healthy");
+    expect(detail.assetVersion).toBe("rel_20260810_aaaaaaaaaaaaaaaaaaaaaaaa");
+    expect(detail.dataSource).toBe("github-release-manifest");
   });
 });

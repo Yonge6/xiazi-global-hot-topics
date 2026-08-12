@@ -9,8 +9,8 @@ describe("mock issue", () => {
     expect(mockIssue.topics.map((topic) => topic.rank)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
   });
 
-  it("uses the open-hotspot lane for the first news topic", () => {
-    expect(mockIssue.topics[1]?.localizations["en-US"].categoryLabel).toMatch(/open hotspot/i);
+  it("keeps cross-border e-commerce fixed as the first news category", () => {
+    expect(mockIssue.topics[1]?.localizations["en-US"].categoryLabel).toMatch(/cross-border e-commerce/i);
   });
 
   it("uses a Fact/View headline separator in both locales", () => {

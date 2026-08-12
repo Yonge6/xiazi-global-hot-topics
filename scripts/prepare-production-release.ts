@@ -39,6 +39,7 @@ async function main() {
   const assetBatchId = required("PRODUCTION_ASSET_BATCH_ID");
   const variant = required("PRODUCTION_RELEASE_VARIANT").toUpperCase();
   const output = required("PRODUCTION_RELEASE_PAYLOAD_OUTPUT");
+  const manifestOutput = process.env.PRODUCTION_RELEASE_MANIFEST_OUTPUT?.trim();
   const posterRoot = process.env.PRODUCTION_POSTER_ROOT?.trim();
   const issueInput = process.env.PRODUCTION_ISSUE_INPUT?.trim() || "data/current-issue.json";
   if (variant !== "A" && variant !== "B") throw new Error("PRODUCTION_RELEASE_VARIANT_INVALID");
@@ -80,6 +81,21 @@ async function main() {
   };
   await mkdir(path.dirname(output), { recursive: true });
   await writeFile(output, `${JSON.stringify(payload, null, 2)}\n`, { flag: "wx" });
+  if (manifestOutput) {
+    const manifest = {
+      schemaVersion: "xiazi-current-release-v1",
+      issueDate,
+      assetBatchId,
+      posters: uploaded.objects.map((object) => ({
+        topicId: object.topicId,
+        locale: object.locale,
+        url: object.url,
+        contentHash: object.sha256,
+      })),
+    };
+    await mkdir(path.dirname(manifestOutput), { recursive: true });
+    await writeFile(manifestOutput, `${JSON.stringify(manifest, null, 2)}\n`, { flag: "wx" });
+  }
   console.log(JSON.stringify({
     issueDate,
     assetBatchId,

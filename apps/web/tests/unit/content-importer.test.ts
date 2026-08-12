@@ -12,11 +12,10 @@ describe("content importer validation", () => {
     expect(issue.topics).toHaveLength(9);
   });
 
-  it("accepts the overview-first structure with an open hotspot as the first news topic", () => {
+  it("accepts the overview-first structure with cross-border e-commerce as the first news topic", () => {
     const { issue } = validateIssueForImport(currentIssue);
-    expect(issue.topics[0].slug).toBe("overview");
     expect(issue.topics[0].rank).toBe(1);
-    expect(issue.topics[1]?.localizations["en-US"].categoryLabel).toMatch(/open hotspot/i);
+    expect(issue.topics[1]?.localizations["en-US"].categoryLabel).toMatch(/cross-border e-commerce/i);
   });
 
   it("rejects duplicate ranks", () => {

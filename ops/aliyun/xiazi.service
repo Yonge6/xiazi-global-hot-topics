@@ -1,0 +1,25 @@
+[Unit]
+Description=Xiazi Says web application
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=xiazi
+Group=xiazi
+WorkingDirectory=/opt/xiazi/current
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=XIAZI_JSON_SOURCE=github
+Environment=NEXT_PUBLIC_SITE_URL=https://xiazishuo.com
+EnvironmentFile=-/opt/xiazi/shared/xiazi.env
+ExecStart=/usr/bin/npm run start -w @xiazi/web -- -p 3000
+Restart=always
+RestartSec=5
+MemoryMax=768M
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

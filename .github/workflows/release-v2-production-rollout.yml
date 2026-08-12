@@ -39,7 +39,7 @@ on:
         type: string
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: release-v2-production-rollout
@@ -178,7 +178,9 @@ jobs:
           PRODUCTION_ASSET_BATCH_ID: ${{ inputs.asset_batch_id }}
           PRODUCTION_RELEASE_VARIANT: ${{ inputs.operation == 'stage-release-a' && 'A' || 'B' }}
           PRODUCTION_RELEASE_PAYLOAD_OUTPUT: /tmp/production-release-payload.json
+          PRODUCTION_RELEASE_MANIFEST_OUTPUT: /tmp/production-release-manifest-draft.json
           PRODUCTION_COMMIT_SHA: ${{ github.sha }}
+          GITHUB_STUDIO_TOKEN: ${{ github.token }}
           NEXT_PUBLIC_COS_BASE_URL: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
           RELEASE_ASSET_ORIGINS: https://${{ secrets.STORAGE_COS_BUCKET }}.cos.${{ secrets.STORAGE_COS_REGION }}.myqcloud.com
           COS_IMMUTABLE_VERSIONING_STATE: never-enabled
@@ -206,6 +208,12 @@ jobs:
             exit 22
           fi
           jq -e '.ok == true and (.status == "ready_for_approval" or .status == "active") and (.releaseId | type == "string")' /tmp/production-stage-response.json >/dev/null
+          if [[ "$(jq -r '.status' /tmp/production-stage-response.json)" == "active" ]]; then
+            jq --arg release_id "$(jq -r '.releaseId' /tmp/production-stage-response.json)" \
+              '. + {releaseId: $release_id}' \
+              /tmp/production-release-manifest-draft.json > /tmp/current-release.json
+            node scripts/publish-current-release-manifest.mjs /tmp/current-release.json
+          fi
           jq '{ok,status,releaseId,issueDate,contentHash,validationReport:{passed:.validationReport.passed,reviewStatus:.validationReport.reviewStatus,reviewPassed:.validationReport.reviewPassed,reviewWaived:.validationReport.reviewWaived,waiverId:.validationReport.waiverId,sourceCount:.validationReport.sourceCount,posterCount:.validationReport.posterCount,storageVerification:{provider:.validationReport.storageVerification.provider,policyVersion:.validationReport.storageVerification.policyVersion,policyVerified:.validationReport.storageVerification.policyVerified,overwriteDenied:.validationReport.storageVerification.overwriteDenied,deleteDenied:.validationReport.storageVerification.deleteDenied,objectManifestHash:.validationReport.storageVerification.objectManifestHash}}}' \
             /tmp/production-stage-response.json > /tmp/production-stage-sanitized.json
           cat /tmp/production-upload-proof.json >> "$GITHUB_STEP_SUMMARY"

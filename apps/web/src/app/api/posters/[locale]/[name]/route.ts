@@ -3,6 +3,10 @@ import { NextResponse } from "next/server";
 import { cachedFetchInit, POSTER_CACHE_CONTROL, POSTER_CDN_CACHE_CONTROL, POSTER_REVALIDATE_SECONDS } from "@/lib/cache/public-cache";
 import { githubRepo } from "@/lib/github/repo";
 import { resolvePosterName } from "@/lib/posters/assets";
+import {
+  loadCurrentProductionReleaseManifest,
+  loadLatestProductionIssue,
+} from "@/server/json/production-json-source";
 import { isHistoricalReleaseDate } from "@xiazi/domain";
 import {
   loadPublicationByReleaseId,
@@ -36,6 +40,38 @@ export async function GET(
   }
 
   const isLegacyGithubArchive = Boolean(issueDate && isHistoricalReleaseDate(issueDate));
+  if (process.env.XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED === "true" && !issueDate) {
+    try {
+      const { issue } = await loadLatestProductionIssue();
+      const manifest = await loadCurrentProductionReleaseManifest(issue);
+      if (!manifest) throw new Error("CURRENT_RELEASE_MANIFEST_UNAVAILABLE");
+      if (cacheKey !== manifest.releaseId && cacheKey !== manifest.assetBatchId) {
+        return NextResponse.json(
+          { message: "A current releaseId is required for immutable poster delivery" },
+          { status: 409, headers: { "Cache-Control": "no-store" } },
+        );
+      }
+      const topic = issue.topics.find((item) => resolvePosterName(item.slug) === name);
+      const poster = topic && manifest.posters.find((item) => item.topicId === topic.id && item.locale === locale);
+      if (!poster) return NextResponse.json({ message: "Poster not found" }, { status: 404 });
+      const destination = new URL(poster.url);
+      destination.searchParams.set("contentHash", poster.contentHash);
+      return NextResponse.redirect(destination, {
+        status: 307,
+        headers: {
+          "Cache-Control": POSTER_CACHE_CONTROL,
+          "CDN-Cache-Control": POSTER_CDN_CACHE_CONTROL,
+          "X-Xiazi-Release-Id": manifest.releaseId,
+          "X-Xiazi-Content-Hash": poster.contentHash,
+        },
+      });
+    } catch {
+      return NextResponse.json(
+        { message: "Current release poster unavailable", publicationHealth: "degraded", stale: true },
+        { status: 503, headers: { "Cache-Control": "no-store" } },
+      );
+    }
+  }
   if (releaseV2Enabled() && !isLegacyGithubArchive) {
     if (!safeReleaseId.test(cacheKey)) {
       return NextResponse.json(
