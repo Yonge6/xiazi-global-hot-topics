@@ -198,7 +198,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
         : (isZh ? "随喜相助" : "Support the Journey");
 
   const contacts = [
-    { label: "WonderElian", value: "wonderelian.com", href: "https://wonderelian.com" },
+    { label: "Elian", value: "wonderelian.com", href: "https://wonderelian.com" },
     { label: isZh ? "邮箱" : "Email", value: "hustyy986@gmail.com", href: "mailto:hustyy986@gmail.com" },
     { label: isZh ? "小红书" : "RED", value: isZh ? "打开主页" : "Open profile", href: "https://xhslink.cn/m/3OF5qu7Peui" },
     { label: isZh ? "抖音" : "Douyin", value: isZh ? "打开主页" : "Open profile", href: "https://v.douyin.com/d9L1thkye0Y/" },
