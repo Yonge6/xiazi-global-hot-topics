@@ -10,6 +10,7 @@ final class WebViewState: ObservableObject {
     }
 
     @Published private(set) var loadState: LoadState = .loading
+    @Published private(set) var hasLoadedContent = false
     weak var webView: WKWebView?
     private var lastSuccessfulLoad = Date.distantPast
 
@@ -23,6 +24,7 @@ final class WebViewState: ObservableObject {
 
     func markReady(url: URL?) {
         loadState = .ready
+        hasLoadedContent = true
         lastSuccessfulLoad = Date()
         if let url, AppConfiguration.isAllowed(url) {
             UserDefaults.standard.set(url.absoluteString, forKey: AppConfiguration.lastWebURLKey)

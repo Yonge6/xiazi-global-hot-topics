@@ -28,6 +28,10 @@ struct XiaziWebView: UIViewRepresentable {
         let webView = WKWebView(frame: .zero, configuration: configuration)
         webView.navigationDelegate = context.coordinator
         webView.uiDelegate = context.coordinator
+        webView.isOpaque = false
+        webView.backgroundColor = UIColor(red: 0.96, green: 0.93, blue: 0.86, alpha: 1)
+        webView.underPageBackgroundColor = webView.backgroundColor
+        webView.scrollView.backgroundColor = webView.backgroundColor
         webView.allowsBackForwardNavigationGestures = true
         webView.allowsLinkPreview = false
         webView.scrollView.keyboardDismissMode = .interactive
