@@ -11,8 +11,10 @@ WorkingDirectory=/opt/xiazi/current
 Environment=NODE_ENV=production
 Environment=NEXT_TELEMETRY_DISABLED=1
 Environment=XIAZI_JSON_SOURCE=github
+Environment=XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED=true
 Environment=NEXT_PUBLIC_SITE_URL=https://xiazishuo.com
-EnvironmentFile=-/opt/xiazi/shared/xiazi.env
+Environment=NEXT_PUBLIC_COS_BASE_URL=https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com
+Environment=RELEASE_ASSET_ORIGINS=https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com
 ExecStart=/usr/bin/npm run start -w @xiazi/web -- -p 3000
 Restart=always
 RestartSec=5
