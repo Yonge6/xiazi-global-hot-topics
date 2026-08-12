@@ -47,7 +47,7 @@ struct ContentView: View {
         }
         .background(Color(red: 0.96, green: 0.93, blue: 0.86))
         .animation(.easeOut(duration: 0.22), value: webState.hasLoadedContent)
-        .onChange(of: scenePhase) { phase in
+        .onChange(of: scenePhase) { _, phase in
             guard phase == .active else { return }
             webState.refreshIfStale()
         }
@@ -63,100 +63,126 @@ struct ContentView: View {
 
 private struct LaunchArtworkView: View {
     var body: some View {
-        Image("LaunchArtwork")
-            .resizable()
-            .scaledToFill()
-            .ignoresSafeArea()
-            .accessibilityHidden(true)
+        ZStack {
+            Color(red: 0.01, green: 0.07, blue: 0.12)
+                .ignoresSafeArea()
+
+            Image("LaunchArtwork")
+                .resizable()
+                .scaledToFit()
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+                .ignoresSafeArea()
+        }
+        .accessibilityHidden(true)
     }
 }
 
 private struct InitialLoadingView: View {
     private let canvas = Color(red: 0.96, green: 0.93, blue: 0.86)
-    private let jade = Color(red: 0.08, green: 0.31, blue: 0.34)
-    private let gold = Color(red: 0.72, green: 0.52, blue: 0.24)
-    private let warmPanel = Color(red: 0.91, green: 0.84, blue: 0.70)
-    private let coolPanel = Color(red: 0.69, green: 0.80, blue: 0.77)
-    private let quietPanel = Color(red: 0.84, green: 0.78, blue: 0.68)
+    private let ink = Color(red: 0.06, green: 0.08, blue: 0.09)
+    private let vermilion = Color(red: 0.73, green: 0.20, blue: 0.14)
+    private let line = Color(red: 0.80, green: 0.77, blue: 0.71)
+    private let fill = Color(red: 0.89, green: 0.86, blue: 0.79)
 
     var body: some View {
         ZStack {
             canvas.ignoresSafeArea()
 
-            VStack(alignment: .leading, spacing: 0) {
-                Text("虾子曰 · XIAZI SAYS")
-                    .font(.system(size: 12, weight: .semibold, design: .serif))
-                    .tracking(1.8)
-                    .foregroundStyle(gold)
-
-                Text(AppConfiguration.isChinese ? "你的世界" : "Your World")
-                    .font(.system(size: 34, weight: .medium, design: .serif))
-                    .foregroundStyle(jade)
-                    .padding(.top, 8)
-
-                HStack(alignment: .firstTextBaseline) {
-                    VStack(alignment: .leading, spacing: 5) {
-                        Text(AppConfiguration.isChinese ? "今日刊物" : "TODAY'S EDITION")
-                            .font(.system(size: 11, weight: .semibold, design: .serif))
-                            .tracking(1.4)
-                            .foregroundStyle(gold)
-                        Text(AppConfiguration.isChinese
-                             ? "全球热点 · 双语视觉海报"
-                             : "Global stories · Bilingual visual posters")
-                            .font(.system(size: 16, weight: .medium, design: .serif))
-                            .foregroundStyle(jade)
-                    }
-
+            VStack(spacing: 0) {
+                HStack(spacing: 14) {
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .fill(fill)
+                        .frame(width: 54, height: 48)
                     Spacer()
-
-                    ProgressView()
-                        .tint(jade)
-                        .accessibilityLabel(AppConfiguration.isChinese ? "正在载入" : "Loading")
+                    SkeletonBar(width: 50, height: 10, color: vermilion.opacity(0.45))
+                    VStack(spacing: 5) {
+                        SkeletonBar(width: 28, height: 3, color: ink.opacity(0.72))
+                        SkeletonBar(width: 28, height: 3, color: ink.opacity(0.72))
+                        SkeletonBar(width: 28, height: 3, color: ink.opacity(0.72))
+                    }
                 }
-                .padding(.top, 34)
-                .padding(.bottom, 22)
+                .padding(.horizontal, 20)
+                .padding(.vertical, 10)
 
-                VStack(spacing: 14) {
-                    LoadingBlock(color: warmPanel, height: 108, accent: gold)
-                    LoadingBlock(color: coolPanel, height: 148, accent: jade)
-                    LoadingBlock(color: quietPanel, height: 92, accent: gold)
+                Rectangle()
+                    .fill(line.opacity(0.75))
+                    .frame(height: 1)
+
+                ScrollView(showsIndicators: false) {
+                    VStack(alignment: .leading, spacing: 0) {
+                        RoundedRectangle(cornerRadius: 2, style: .continuous)
+                            .fill(fill.opacity(0.78))
+                            .aspectRatio(1.02, contentMode: .fit)
+                            .overlay {
+                                VStack(spacing: 14) {
+                                    SkeletonBar(width: 118, height: 8, color: vermilion.opacity(0.32))
+                                    SkeletonBar(width: 205, height: 34, color: ink.opacity(0.12))
+                                    SkeletonBar(width: 164, height: 13, color: ink.opacity(0.10))
+                                }
+                            }
+
+                        Rectangle()
+                            .fill(ink.opacity(0.72))
+                            .frame(height: 1)
+                            .padding(.top, 30)
+
+                        HStack(spacing: 15) {
+                            SkeletonBar(width: 66, height: 10, color: vermilion.opacity(0.52))
+                            SkeletonBar(width: 126, height: 13, color: ink.opacity(0.28))
+                        }
+                        .padding(.top, 22)
+
+                        HStack(spacing: 18) {
+                            SkeletonBar(width: 70, height: 10, color: vermilion.opacity(0.52))
+                            SkeletonBar(width: 122, height: 22, color: ink.opacity(0.35))
+                        }
+                        .padding(.top, 24)
+
+                        Rectangle()
+                            .fill(line)
+                            .frame(height: 1)
+                            .padding(.top, 20)
+
+                        HStack {
+                            SkeletonBar(width: 64, height: 10, color: vermilion.opacity(0.52))
+                            Spacer()
+                            SkeletonBar(width: 82, height: 9, color: ink.opacity(0.16))
+                        }
+                        .padding(.top, 22)
+
+                        VStack(alignment: .leading, spacing: 10) {
+                            SkeletonBar(height: 25, color: ink.opacity(0.25))
+                            SkeletonBar(height: 25, color: ink.opacity(0.25))
+                            SkeletonBar(width: 245, height: 25, color: ink.opacity(0.25))
+                        }
+                        .padding(.top, 23)
+
+                        VStack(alignment: .leading, spacing: 11) {
+                            SkeletonBar(height: 11, color: ink.opacity(0.12))
+                            SkeletonBar(height: 11, color: ink.opacity(0.12))
+                            SkeletonBar(width: 280, height: 11, color: ink.opacity(0.12))
+                        }
+                        .padding(.top, 27)
+                        .padding(.bottom, 30)
+                    }
+                    .padding(.horizontal, 18)
                 }
-
-                Spacer(minLength: 28)
-
-                Text(AppConfiguration.isChinese
-                     ? "正在连接今天的世界…"
-                     : "Connecting to today's world…")
-                    .font(.system(size: 14, design: .serif))
-                    .foregroundStyle(jade.opacity(0.72))
             }
-            .padding(.horizontal, 24)
-            .padding(.top, 24)
-            .padding(.bottom, 22)
         }
-        .accessibilityElement(children: .contain)
+        .accessibilityLabel(AppConfiguration.isChinese ? "正在载入今日首页" : "Loading today's home page")
     }
 }
 
-private struct LoadingBlock: View {
-    let color: Color
+private struct SkeletonBar: View {
+    var width: CGFloat? = nil
     let height: CGFloat
-    let accent: Color
+    let color: Color
 
     var body: some View {
-        RoundedRectangle(cornerRadius: 22, style: .continuous)
-            .fill(color.opacity(0.72))
-            .frame(height: height)
-            .overlay(alignment: .leading) {
-                RoundedRectangle(cornerRadius: 3, style: .continuous)
-                    .fill(accent.opacity(0.72))
-                    .frame(width: 5, height: height - 30)
-                    .padding(.leading, 16)
-            }
-            .overlay {
-                RoundedRectangle(cornerRadius: 22, style: .continuous)
-                    .stroke(accent.opacity(0.22), lineWidth: 1)
-            }
+        Capsule()
+            .fill(color)
+            .frame(maxWidth: width == nil ? .infinity : nil)
+            .frame(width: width, height: height)
     }
 }
 
