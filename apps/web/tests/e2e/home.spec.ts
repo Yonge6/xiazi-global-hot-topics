@@ -46,6 +46,10 @@ test("renders the Chinese issue with one overview and eight stories", async ({ p
   await expect(page.locator("article")).toHaveCount(9);
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText("xiazishuo.com").first()).toBeVisible();
+  await expect(page.getByRole("link", { name: "粤ICP备2025360599号-2" }).first()).toHaveAttribute(
+    "href",
+    "https://beian.miit.gov.cn/",
+  );
   await expect(page.getByText(zhDate(issue.issueDate))).toBeVisible();
   await expect(page.getByRole("link", { name: /今日风格.*Style Atlas/ })).toHaveAttribute(
     "href",

@@ -403,7 +403,12 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
 
           <footer className="navigation-drawer-footer">
             <span>{isZh ? "虾说，不瞎说。" : "Bold talk, never blind talk."}</span>
-            <b>xiazishuo.com</b>
+            <div>
+              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
+                粤ICP备2025360599号-2
+              </a>
+              <b>xiazishuo.com</b>
+            </div>
           </footer>
         </div>
         {videoChannelOpen ? <VideoChannelModal isZh={isZh} onClose={closeVideoChannel} /> : null}

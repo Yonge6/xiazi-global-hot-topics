@@ -95,6 +95,9 @@ export default async function LocaleHome({ params }: PageProps) {
           <div>
             <span>ISSN {issue.issueDate.replaceAll("-", "—")}</span>
             <span>BEIJING · {timeLabel} DAILY</span>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">
+              粤ICP备2025360599号-2
+            </a>
             <strong>{new URL(productConfig.siteUrl).hostname}</strong>
           </div>
         </div>

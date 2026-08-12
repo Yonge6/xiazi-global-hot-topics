@@ -703,6 +703,9 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   font-size: 11px;
   letter-spacing: .08em;
 }
+.navigation-drawer-footer div { display: grid; justify-items: end; gap: 6px; }
+.navigation-drawer-footer a { color: var(--muted); text-decoration: none; }
+.navigation-drawer-footer a:hover { color: var(--jade); }
 .navigation-drawer-footer b { color: var(--ink); }
 
 @keyframes drawer-backdrop-in {
@@ -1151,6 +1154,8 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   font-size: 9px;
   letter-spacing: 0.12em;
 }
+.catalogue-footer a { color: var(--muted); text-decoration: none; }
+.catalogue-footer a:hover { color: var(--jade); }
 .catalogue-footer strong { color: var(--ink); font-size: 11px; }
 
 .poster-lightbox {
