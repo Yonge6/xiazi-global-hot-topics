@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-08-12",
-  "releaseId": "rel_20260812_5f75f70c3d000622b2cd6f9b",
-  "assetBatchId": "asset_prod_20260812_e91edfe",
+  "issueDate": "2026-08-13",
+  "releaseId": "rel_20260813_8a82b2f9f326eeb57760dcfe",
+  "assetBatchId": "asset_prod_20260813_1a6f12a",
   "posters": [
     {
-      "topicId": "6e570769-92cf-54c0-8460-fb76a5948eba",
+      "topicId": "34419053-ae28-58a5-b127-3a781ae0f9fa",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/today-overview-trade-ai-eclipse-action-day.png",
-      "contentHash": "8669d66af090f1e431a9e7ab2f995895ff5c0b5665e76e07cde4373c88d70a6f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/today-overview-election-ai-perseids-action-day.png",
+      "contentHash": "0b6681958dd5f2e1db4365f0d74914d65f435db3da396f2ff580d8c39ec6f195"
     },
     {
-      "topicId": "6e570769-92cf-54c0-8460-fb76a5948eba",
+      "topicId": "34419053-ae28-58a5-b127-3a781ae0f9fa",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/today-overview-trade-ai-eclipse-action-day.png",
-      "contentHash": "a423d3432df0b2a7c78ec0b0af2054bb31a620c289eb4935358016563335df13"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/today-overview-election-ai-perseids-action-day.png",
+      "contentHash": "969872c22e4bea2747c54b95071e5271d47532543cbd6d3a1cd282109979f9e1"
     },
     {
-      "topicId": "2b6ccc5c-7566-516a-aa35-785fa83745da",
+      "topicId": "4cccf54c-d590-51ca-8066-bd75f434cb6f",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/eu-parcel-duty-six-week-margin-review.png",
-      "contentHash": "440ce7dc8685cedf463d55f5117c1505c136d382c847b265df03720e7ff61266"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/eu-parcel-duty-seven-week-ops-review.png",
+      "contentHash": "e06f4473258e0e30c0f8daca8fccb6a0406b016f14920070edff89a59d1be1a6"
     },
     {
-      "topicId": "2b6ccc5c-7566-516a-aa35-785fa83745da",
+      "topicId": "4cccf54c-d590-51ca-8066-bd75f434cb6f",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/eu-parcel-duty-six-week-margin-review.png",
-      "contentHash": "334b71b91e95fd6f356de06ac1c9fe1155dcb61d66624bce51b891d116f44868"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/eu-parcel-duty-seven-week-ops-review.png",
+      "contentHash": "3e465ce465624f29e1e052e096b15fcabada2267fb3b9fad8754793e986a92bd"
     },
     {
-      "topicId": "441f6979-1dde-5039-ab02-ffe4797046ee",
+      "topicId": "5ff5e6e4-978f-5562-bd5f-864ac81134f4",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/made-by-google-pixel-11-ai-launch.png",
-      "contentHash": "456169f1b145b6218296c1050b24a260ddde3215ee3811c535f85524f78454bc"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/pixel-11-ai-features-market-test.png",
+      "contentHash": "1d0336dba5740ea753d69e1a09835cdc8e6df2143d33cf0b239f186b034bb3cf"
     },
     {
-      "topicId": "441f6979-1dde-5039-ab02-ffe4797046ee",
+      "topicId": "5ff5e6e4-978f-5562-bd5f-864ac81134f4",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/made-by-google-pixel-11-ai-launch.png",
-      "contentHash": "07bcefd199def206033c8eebc098579b722a6caaaac81a4d5d064eb9242194c9"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/pixel-11-ai-features-market-test.png",
+      "contentHash": "4ecbdab765155e2a8eb7fd60dcfe1604f847b8e8f6ba3f58c029e5b08de762c6"
     },
     {
-      "topicId": "61ddd78d-53b9-5fa8-a3a1-ecc974d38820",
+      "topicId": "602f8580-a1aa-5507-b335-20cae69f7c3f",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/sba-loan-application-mastery-day.png",
-      "contentHash": "30d418003b2701b1c8a050b80e80854d46512ccdaed2ee720c5a567b8ea193ec"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/solo-business-strategy-accountability-day.png",
+      "contentHash": "08f428189e25a9f8b448570e02e96dcb95fa9d8055681902cfe212a2d7b63cb4"
     },
     {
-      "topicId": "61ddd78d-53b9-5fa8-a3a1-ecc974d38820",
+      "topicId": "602f8580-a1aa-5507-b335-20cae69f7c3f",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/sba-loan-application-mastery-day.png",
-      "contentHash": "b79dc28c16f7eac57fb1a34844fc3c776ec949a69e8823c4f1a841e5f8be68c6"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/solo-business-strategy-accountability-day.png",
+      "contentHash": "f99c2f6a849945a96c5a1b3d6b0dcb90498cf8e1e67f24bda8b96a67d5f77b7d"
     },
     {
-      "topicId": "84fc6662-4b96-5bc2-a004-3f35619b53c7",
+      "topicId": "e2a55a5f-74e0-51de-9560-eabd3aa1b174",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/total-solar-eclipse-europe-arctic-day.png",
-      "contentHash": "181d0bf45aec3fda538b21e858c4137b893fc61e7b13db3dff4db1648981c945"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/zambia-general-election-polling-day.png",
+      "contentHash": "b9c1c322d5e8e42bb49e488a064a50b5582c469604fe53512a744788d782d0b5"
     },
     {
-      "topicId": "84fc6662-4b96-5bc2-a004-3f35619b53c7",
+      "topicId": "e2a55a5f-74e0-51de-9560-eabd3aa1b174",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/total-solar-eclipse-europe-arctic-day.png",
-      "contentHash": "7d51d6c8d32ee575d558d119fa6b7c4d4df4181f11fae44efa6cfbcf87f80ff8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/zambia-general-election-polling-day.png",
+      "contentHash": "30f438b218fc9d5f6647fdbf5e5b76704c27a18817703ace6541e664a0befe19"
     },
     {
-      "topicId": "93e26f39-afe9-54aa-aa7f-bf0e7cea8227",
+      "topicId": "0daec544-e7d4-5219-b399-6e62e185b8db",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/international-youth-day-local-action.png",
-      "contentHash": "c8cbdf64135f63ca69126affdca6be824deafcf16d2b973c8544b142d549f6e1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/perseids-dark-sky-peak.png",
+      "contentHash": "4762df56061863a31fc97550fda0a711271afdb3c8093ae9c6128f6e9dd58c45"
     },
     {
-      "topicId": "93e26f39-afe9-54aa-aa7f-bf0e7cea8227",
+      "topicId": "0daec544-e7d4-5219-b399-6e62e185b8db",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/international-youth-day-local-action.png",
-      "contentHash": "13867a6f81dfddec3dd44454e00deaf20e0ebea1ea0f8a611610831159ca91ab"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/perseids-dark-sky-peak.png",
+      "contentHash": "69f9f6d786c78d7ddc923fafc946c10a39abdd9cf55f5ee37ae740a61e1c9de1"
     },
     {
-      "topicId": "960d1883-c38d-54df-984c-84fbf2d80b48",
+      "topicId": "791f3ef7-0464-5996-8740-2982d386518e",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/fei-dressage-team-medal-day.png",
-      "contentHash": "905da3b1643ab23b4c8347fd4a74734ecabc210acdd3d3987532c8df248b53b7"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/europe-heat-wildfire-response.png",
+      "contentHash": "cb220cb9a292c56f219a6b7f56134c45c9ee43edff0d4520cd67132832bdb083"
     },
     {
-      "topicId": "960d1883-c38d-54df-984c-84fbf2d80b48",
+      "topicId": "791f3ef7-0464-5996-8740-2982d386518e",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/fei-dressage-team-medal-day.png",
-      "contentHash": "2e45a464b2ce34e3b10eb71f01462cc6905e79b1080e76e7dfc62ee15d5cdce2"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/europe-heat-wildfire-response.png",
+      "contentHash": "ea5bdae040116fc6e23dc9139281e2581183b10bdfba1b9bffc319e60c6e352d"
     },
     {
-      "topicId": "c41c68d5-7b6b-5da2-b01f-e632e0ec8f2c",
+      "topicId": "8963bc40-d18e-57c3-b77c-b0a3de0c1a5f",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/zambia-election-eve-final-preparation.png",
-      "contentHash": "e7136825a2862aa5b230593e779a9adf690ad9370e277aa49833f22bcd612427"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/european-athletics-birmingham-day-four.png",
+      "contentHash": "ad3713147c40cb62cffbdf9cd2e6b5b370167029cea5d6781d7d70a1cee09539"
     },
     {
-      "topicId": "c41c68d5-7b6b-5da2-b01f-e632e0ec8f2c",
+      "topicId": "8963bc40-d18e-57c3-b77c-b0a3de0c1a5f",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/zambia-election-eve-final-preparation.png",
-      "contentHash": "1a1cf1c045e0889494f4cb232bee3241cb1a99a4190923c047c8405046347c93"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/european-athletics-birmingham-day-four.png",
+      "contentHash": "fcb4d70471929fd55f5ea145dd53f67a28682473a173abeed8536d0826c7ce06"
     },
     {
-      "topicId": "6c14b920-dc13-5937-8072-dda6670f2055",
+      "topicId": "d726f750-2068-50ac-b60b-4816689714f6",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/zh/european-athletics-birmingham-medal-race.png",
-      "contentHash": "599c00fe8a7c56e86423949d152c7e841e6ce289cf0615e8be33e09d83068ab8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/zh/who-transplant-strategy-public-review.png",
+      "contentHash": "a446c5ad9e950f5c84abf3c717bdf7986d893739829b4f387f8a601524eea178"
     },
     {
-      "topicId": "6c14b920-dc13-5937-8072-dda6670f2055",
+      "topicId": "d726f750-2068-50ac-b60b-4816689714f6",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260812_e91edfe/en/european-athletics-birmingham-medal-race.png",
-      "contentHash": "4dcd1ba942933815043f002fe09d28fc1f831f8425474d06f858cf121acc5437"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260813_1a6f12a/en/who-transplant-strategy-public-review.png",
+      "contentHash": "93d77de1d5dbbdf16ccee8e7a6c2625fd4134977f683031ed80caa1ba54829ce"
     }
   ]
 }
