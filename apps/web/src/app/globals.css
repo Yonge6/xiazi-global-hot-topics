@@ -226,7 +226,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 }
 .language-switcher .active { color: var(--vermilion); font-weight: 700; }
 .mobile-menu-trigger {
-  display: none;
+  display: inline-flex;
   width: 34px;
   min-width: 34px;
   min-height: 42px;

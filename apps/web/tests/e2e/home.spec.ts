@@ -130,12 +130,8 @@ test("follows the system theme and remembers a manual theme choice", async ({ pa
   await page.goto("/zh");
 
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
-  if (testInfo.project.name === "mobile") {
-    await page.getByRole("button", { name: "打开菜单" }).click();
-  }
-  const toggle = testInfo.project.name === "mobile"
-    ? page.getByRole("switch", { name: "切换日间或夜间模式" })
-    : page.getByRole("button", { name: "切换日间或夜间模式" });
+  await page.getByRole("button", { name: "打开菜单" }).click();
+  const toggle = page.getByRole("switch", { name: "切换日间或夜间模式" });
   await expect(toggle).toBeVisible();
   await toggle.click();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
@@ -144,8 +140,7 @@ test("follows the system theme and remembers a manual theme choice", async ({ pa
   await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
 });
 
-test("opens the mobile world drawer with Xiazi navigation and related projects", async ({ page }, testInfo) => {
-  test.skip(testInfo.project.name !== "mobile");
+test("opens the world drawer with Xiazi navigation and related projects", async ({ page }) => {
   await page.goto("/zh");
 
   await expect(page.getByRole("link", { name: "Switch to English" })).toBeVisible();
