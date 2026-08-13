@@ -13,7 +13,7 @@ import { isXiaziIOSApp, subscribeToNativeSurface } from "@/lib/native-app";
 
 const WENDAO_URL = "https://wendao.wonderelian.com/";
 const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
-const SUPPORT_QR_URL = `${WENDAO_URL}assets/wendao/support-wechat-appreciation-code.png`;
+const SUPPORT_QR_URL = "/brand/contact/support-appreciation.jpeg";
 const VIDEO_CHANNEL_QR_URL = "/brand/contact/video-channel.jpg";
 
 type DrawerView = "home" | "about" | "contact" | "support";

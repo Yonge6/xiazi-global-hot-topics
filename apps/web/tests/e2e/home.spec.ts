@@ -182,7 +182,10 @@ test("opens the world drawer with Xiazi navigation and related projects", async 
   drawer = page.getByRole("dialog", { name: "你的世界" });
   await drawer.getByRole("button", { name: /随喜相助/ }).click();
   drawer = page.getByRole("dialog", { name: "随喜相助" });
-  await expect(drawer.getByAltText("微信赞赏码")).toBeVisible();
+  const supportQr = drawer.getByAltText("微信赞赏码");
+  await expect(supportQr).toBeVisible();
+  await expect(supportQr).toHaveAttribute("src", "/brand/contact/support-appreciation.jpeg");
+  await expect.poll(() => supportQr.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBe(1152);
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer.getByRole("link", { name: /艺术风格图鉴/ })).toHaveAttribute(
