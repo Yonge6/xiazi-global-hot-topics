@@ -66,10 +66,7 @@ export async function GET(
         },
       });
     } catch {
-      return NextResponse.json(
-        { message: "Current release poster unavailable", publicationHealth: "degraded", stale: true },
-        { status: 503, headers: { "Cache-Control": "no-store" } },
-      );
+      // Continue to Release V2 below when the GitHub-backed manifest is temporarily unavailable.
     }
   }
   if (releaseV2Enabled() && !isLegacyGithubArchive) {

@@ -906,7 +906,7 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   opacity: 1;
 }
 .poster-image-loaded {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 360ms ease, transform 260ms ease, filter 260ms ease;
 }
 .poster-image-loaded.is-ready {
