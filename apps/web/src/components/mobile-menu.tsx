@@ -13,6 +13,7 @@ import { isXiaziIOSApp, subscribeToNativeSurface } from "@/lib/native-app";
 
 const WENDAO_URL = "https://wendao.wonderelian.com/";
 const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
+const YIXIU_URL = "https://yixiu.wonderelian.com/";
 const SUPPORT_QR_URL = "/brand/contact/support-appreciation.jpeg";
 const VIDEO_CHANNEL_QR_URL = "/brand/contact/video-channel.jpg";
 
@@ -60,6 +61,10 @@ function EnvelopeIcon() {
 
 function RippleIcon() {
   return <LineIcon><path d="M4.5 9.5c2.3 1.6 4.7 1.6 7 0s4.7-1.6 8 0M4.5 14.5c2.3 1.6 4.7 1.6 7 0s4.7-1.6 8 0" /></LineIcon>;
+}
+
+function MeditationIcon() {
+  return <LineIcon><path d="M12 5v3m-4.8.2 2.1 2.1m7.5-2.1-2.1 2.1M5 13h14M7 17h10" /><circle cx="12" cy="13" r="2.2" /></LineIcon>;
 }
 
 function ArtIcon() {
@@ -316,6 +321,15 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                   {isZh ? "观世界，识自己，也学习看见美。" : "See the world, know yourself, and learn to notice beauty."}
                 </h3>
 
+                <a href={YIXIU_URL} target="_blank" rel="noreferrer">
+                  <span className="drawer-project-mark"><MeditationIcon /></span>
+                  <span>
+                    <strong>{isZh ? "一休冥想" : "Yixiu Meditation"}</strong>
+                    <small>{isZh ? "先照顾身体与呼吸，让情绪安顿下来" : "Care for the body and breath, and let emotions settle"}</small>
+                  </span>
+                  <ExternalLinkIcon />
+                </a>
+
                 <a href={STYLE_ATLAS_URL} target="_blank" rel="noreferrer">
                   <span className="drawer-project-mark"><ArtIcon /></span>
                   <span>
@@ -337,7 +351,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                 <a href={HUMAN_DESIGN_URL} target="_blank" rel="noreferrer">
                   <span className="drawer-project-mark"><ConstellationIcon /></span>
                   <span>
-                    <strong>{isZh ? "人类图" : "Human Design"}</strong>
+                    <strong>{isZh ? "不二 认识自己" : "Bu Er · Know Yourself"}</strong>
                     <small>{isZh ? "人生使用说明书，换一个角度认识自己" : "A different lens on how you move through life"}</small>
                   </span>
                   <ExternalLinkIcon />

@@ -188,6 +188,10 @@ test("opens the world drawer with Xiazi navigation and related projects", async 
   await expect.poll(() => supportQr.evaluate((image: HTMLImageElement) => image.naturalWidth)).toBe(1152);
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
+  const projectLinks = drawer.locator(".drawer-projects > a");
+  await expect(projectLinks).toHaveCount(4);
+  await expect(projectLinks.first()).toHaveAttribute("href", "https://yixiu.wonderelian.com/");
+  await expect(projectLinks.first()).toContainText("一休冥想");
   await expect(drawer.getByRole("link", { name: /艺术风格图鉴/ })).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
@@ -196,7 +200,7 @@ test("opens the world drawer with Xiazi navigation and related projects", async 
     "href",
     "https://wendao.wonderelian.com/",
   );
-  await expect(drawer.getByRole("link", { name: /人类图/ })).toHaveAttribute(
+  await expect(drawer.getByRole("link", { name: /不二 认识自己/ })).toHaveAttribute(
     "href",
     "https://human-design.wonderelian.com/",
   );
