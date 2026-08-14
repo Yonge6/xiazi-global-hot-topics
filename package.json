@@ -33,7 +33,7 @@
     "staging:faults:storage": "tsx scripts/staging-storage-faults.ts",
     "staging:faults:degraded": "node scripts/staging-degraded-fallback.mjs",
     "staging:evidence:lifecycle": "node scripts/staging-lifecycle-evidence.mjs",
-    "check": "turbo check && node --test scripts/tests/local-poster-retention.test.mjs scripts/tests/archive-issue-consistency.test.mjs scripts/tests/remote-file-fetch.test.mjs",
+    "check": "turbo check && node --test scripts/tests/local-poster-retention.test.mjs scripts/tests/archive-issue-consistency.test.mjs scripts/tests/remote-file-fetch.test.mjs scripts/tests/publish-current-release-manifest.test.mjs",
     "posters:cleanup:local": "node scripts/cleanup-local-poster-cache.mjs --retain 3 --apply",
     "posters:cleanup:preview": "node scripts/cleanup-local-poster-cache.mjs --retain 3",
     "publication:preflight": "tsx scripts/preflight-daily-publication.ts",
