@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-08-14",
-  "releaseId": "rel_20260814_add032f488fd4c282fe314a9",
-  "assetBatchId": "asset_prod_20260814_11b5a07",
+  "issueDate": "2026-08-15",
+  "releaseId": "rel_20260815_d660cb0e84002310d410f322",
+  "assetBatchId": "asset_prod_20260815_70556cfa",
   "posters": [
     {
-      "topicId": "586c4612-5ad8-5902-8ef7-cce0dc08bb06",
+      "topicId": "e8c73dfe-066b-5605-a10b-107d946f6461",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/today-overview-tariffs-ai-election-heat.png",
-      "contentHash": "5c27e8ef36211a61d8fa22432b981da347b1b7e1ae7defc12758f536cbfa4574"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/today-overview-tariffs-ai-retail-climate.png",
+      "contentHash": "75b331519ef3fdd28fccb2aa2aa555ab9f0b70793d04dbb8dbb3aa35f4c66e7b"
     },
     {
-      "topicId": "586c4612-5ad8-5902-8ef7-cce0dc08bb06",
+      "topicId": "e8c73dfe-066b-5605-a10b-107d946f6461",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/today-overview-tariffs-ai-election-heat.png",
-      "contentHash": "87b77a5969a9116268a34dab87fc710ad83a20629261076dca57b50f8ff663ad"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/today-overview-tariffs-ai-retail-climate.png",
+      "contentHash": "5ae30b9fa0d323ba0281948822fa6227613411eb391bfcc81e3a9e3a6d7f69b8"
     },
     {
-      "topicId": "db3884fd-a2cd-5a5e-adde-c351080bd18f",
+      "topicId": "e761f061-3d39-59da-8378-ff01f7c6382f",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/eu-parcel-duty-operating-checklist.png",
-      "contentHash": "7c8efc69721b7bd662fd4111a6802d4e4bc28171d35fbc71f66be30dcb2edb73"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/eu-low-value-parcel-margin-reset.png",
+      "contentHash": "e118147d2995c4e59d20b0a673b40ffd60c7e8889b5d5f6af61ffdc25015cd8b"
     },
     {
-      "topicId": "db3884fd-a2cd-5a5e-adde-c351080bd18f",
+      "topicId": "e761f061-3d39-59da-8378-ff01f7c6382f",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/eu-parcel-duty-operating-checklist.png",
-      "contentHash": "63f9771d65154dea0039a01f86de73e6bd25c8f812135b68523096657ddb608b"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/eu-low-value-parcel-margin-reset.png",
+      "contentHash": "0b15a319512d2670ae9bf111f57e72c648e2174279ece5a97b250a3d8f87b806"
     },
     {
-      "topicId": "655dbc18-aeba-5ce4-a911-be292283a8b6",
+      "topicId": "99f4da37-b4ec-5b15-b4e7-39b517f8fd8a",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/pixel-11-ai-preorder-test.png",
-      "contentHash": "9e8a499b5a8d80b803d0d10642eedca943561a9059feb1ef8f905eecd3adeb24"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/us-federal-ai-vendor-deadline.png",
+      "contentHash": "246771c791e7f89d911da63050818c030ee4203052386bdc0da312135253bed6"
     },
     {
-      "topicId": "655dbc18-aeba-5ce4-a911-be292283a8b6",
+      "topicId": "99f4da37-b4ec-5b15-b4e7-39b517f8fd8a",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/pixel-11-ai-preorder-test.png",
-      "contentHash": "94e09045cbbad944089921addfdb0e3eb144e7bf0062dfbbc46cc89a863ea2b4"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/us-federal-ai-vendor-deadline.png",
+      "contentHash": "bbf12dba47cd9f5fddf44f8553ff6cbbf37f779f872d86e8acebe499728eac4d"
     },
     {
-      "topicId": "a6570f8a-4a2f-5f98-95d7-eb212d20a33c",
+      "topicId": "31695b4d-2d9c-5d38-b145-740c1c95e684",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/solo-business-federal-contracting-path.png",
-      "contentHash": "3c34c92453e412acda113dc92c8a381e95faee355d92a0ac9b007a3685694472"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/solo-business-retail-demand-reset.png",
+      "contentHash": "b252ec35866aa54b62690230fa58087155e0922d11c727527e52d7e22201f4d7"
     },
     {
-      "topicId": "a6570f8a-4a2f-5f98-95d7-eb212d20a33c",
+      "topicId": "31695b4d-2d9c-5d38-b145-740c1c95e684",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/solo-business-federal-contracting-path.png",
-      "contentHash": "2802775f87995130c7169b7ac8910d0a894ed51d5ffb12b1c0b47064311bb83f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/solo-business-retail-demand-reset.png",
+      "contentHash": "4fa5e24d701da04393c8bab9a9fe2abba392275d63ec6db1196388516fe1254e"
     },
     {
-      "topicId": "58216e1b-b61f-5d58-92f8-b83829bed9f1",
+      "topicId": "041db04b-aed3-5ecd-ba3c-21d5be939871",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/zambia-election-counting-begins.png",
-      "contentHash": "4ce7fe11b8110a91303646ede50eedea69d92b1f567045aa1dfcc9ac88512692"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/farage-wins-clacton-byelection.png",
+      "contentHash": "88943b891bfbf92b9ca499d0454edc34fbaa582640a5eb3be77af51818149dc3"
     },
     {
-      "topicId": "58216e1b-b61f-5d58-92f8-b83829bed9f1",
+      "topicId": "041db04b-aed3-5ecd-ba3c-21d5be939871",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/zambia-election-counting-begins.png",
-      "contentHash": "3c71beb915adfcf87b29cc926f923231fb31f3d68d1cda3df8358a1a795ad5c3"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/farage-wins-clacton-byelection.png",
+      "contentHash": "efeb29db7a1499887b7e62503652af37fa5007dfda3f1b5e27dae309775c9095"
     },
     {
-      "topicId": "2dd575e3-8845-5e51-821e-7388af258ecf",
+      "topicId": "3ffb8f84-59f3-5965-8d2d-150b0e18e35d",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/ukraine-strikes-russian-refinery.png",
-      "contentHash": "eb3325b6bbe7d13935a7cf4348160599db1542f759f61e78f004d841eca0f0aa"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/rome-tiber-water-crisis-reveals-bridge.png",
+      "contentHash": "8b449b3b20c884d1243fa9db85ea76f188d7e09554b739c729b9c88a83fe0530"
     },
     {
-      "topicId": "2dd575e3-8845-5e51-821e-7388af258ecf",
+      "topicId": "3ffb8f84-59f3-5965-8d2d-150b0e18e35d",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/ukraine-strikes-russian-refinery.png",
-      "contentHash": "3ee75b327ed38a6d4ebc2c4fb43f06868d718c1011202c795df45617f203bbd4"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/rome-tiber-water-crisis-reveals-bridge.png",
+      "contentHash": "2d9a07bc298f6cd67e72c472b22a95f3977be4fdd2bab85de908889048fecec7"
     },
     {
-      "topicId": "2fa5ece2-18ba-5c79-ab08-bb93961a473f",
+      "topicId": "bc5aa8c0-ea80-5eac-aa7d-fdb9524b7568",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/western-europe-record-heat.png",
-      "contentHash": "58665c2d3ecf80359d651b3cc276fa99064873ddb15eaa15e605a1b6841b556f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/brazil-soy-moratorium-court-ruling.png",
+      "contentHash": "df296166902f7ed3b4e06ea676f3664fbd9dd0514472facd08301f0fbc8b1dcb"
     },
     {
-      "topicId": "2fa5ece2-18ba-5c79-ab08-bb93961a473f",
+      "topicId": "bc5aa8c0-ea80-5eac-aa7d-fdb9524b7568",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/western-europe-record-heat.png",
-      "contentHash": "798662c9811dbf826a0c50d537cc5bf8fcb67dd02fcab9a9c0b155100a50bb39"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/brazil-soy-moratorium-court-ruling.png",
+      "contentHash": "d19d4da49b4cd7281f2c2c92a3c5f7ecafd244647cb6a36f8b2ab5ae54101ffa"
     },
     {
-      "topicId": "7d020d3a-0641-5265-8aa3-977a611df9c7",
+      "topicId": "2054efe1-8aa0-5cc0-bb4a-7377a1fe21e2",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/europe-total-eclipse-science-review.png",
-      "contentHash": "7195d7751cf8d2b9d4a483ca13772c2b5da957d72d5e79094f248a5ad5e0eb26"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/us-late-summer-heat-advisories.png",
+      "contentHash": "b4eb35ad21ec480dc813a4ca029ac5b253fdd3163afa996c02de207d6d98f512"
     },
     {
-      "topicId": "7d020d3a-0641-5265-8aa3-977a611df9c7",
+      "topicId": "2054efe1-8aa0-5cc0-bb4a-7377a1fe21e2",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/europe-total-eclipse-science-review.png",
-      "contentHash": "39c1d465f6e684af112cf21b795dcc5b1e8ac82adeb830cafa33483a0dbcf520"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/us-late-summer-heat-advisories.png",
+      "contentHash": "b85cfd718d5aeed02dcb53d2cceed56fac4604f2de08d29c44278cea348e34ec"
     },
     {
-      "topicId": "85997658-4ea8-5dd9-9e37-c9fa9bb9c114",
+      "topicId": "ed4502a0-0234-5818-bd97-93ae6c5e8e65",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/zh/pakistan-independence-day-2026.png",
-      "contentHash": "3420c2b180cb93c198fcfc266d323c9aa652edb0c68771fa4508d05530188707"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/zh/india-80th-independence-day.png",
+      "contentHash": "c27f4f279b6a9665c458113093f5499dcf37e96be486e078bc89bfad7fdbe052"
     },
     {
-      "topicId": "85997658-4ea8-5dd9-9e37-c9fa9bb9c114",
+      "topicId": "ed4502a0-0234-5818-bd97-93ae6c5e8e65",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260814_11b5a07/en/pakistan-independence-day-2026.png",
-      "contentHash": "ece6dc1a547750e1db4342f56465bd746106741c92d6032a0f56112e27d7412d"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260815_70556cfa/en/india-80th-independence-day.png",
+      "contentHash": "2977f735cc1c6f823cab5752fc911ee28678abd8bd64e4a83ebdebd19b12614c"
     }
   ]
 }
