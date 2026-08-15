@@ -19,6 +19,16 @@ export function trackAnalytics(
   // intentionally opts out so its App Store privacy declaration remains exact.
   if (isNativeIOSSurface()) return;
 
+  if (["poster_view", "download", "share", "source_click"].includes(event)) {
+    const googleTag = (window as typeof window & { gtag?: (...args: unknown[]) => void }).gtag;
+    googleTag?.("event", "poster_engagement", {
+      site_id: "site-xiazi",
+      interaction: event,
+      locale,
+      content_slug: slug,
+    });
+  }
+
   let visitorId: string | undefined;
   if (event === "page_view") {
     visitorId = localStorage.getItem("xiazi-anonymous-visitor") || undefined;
