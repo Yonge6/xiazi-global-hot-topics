@@ -1,6 +1,7 @@
 (function () {
   "use strict";
 
+  if (!["xiazishuo.com", "www.xiazishuo.com"].includes(window.location.hostname)) return;
   if (window.XiaziNativeBridge?.platform === "ios" || new URLSearchParams(window.location.search).get("surface") === "ios") return;
 
   const measurementId = "G-HDHST6WKKB";
