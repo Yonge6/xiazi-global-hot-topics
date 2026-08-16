@@ -1,23 +1,23 @@
 {
-  "id": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-  "slug": "2026-08-16",
-  "issueDate": "2026-08-16",
-  "assetVersion": "rel_20260816_ec254839ad32c44ba6df6675",
+  "id": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+  "slug": "2026-08-17",
+  "issueDate": "2026-08-17",
+  "assetVersion": "2026-08-17",
   "status": "published",
   "slotHour": 5,
-  "beijingTimestamp": "2026-08-16T05:00:00+08:00",
-  "gmtTimestamp": "2026-08-15T21:00:00.000Z",
-  "featuredTopicId": "0ce08fb0-cf85-55e5-9284-2b64e3cb2a38",
+  "beijingTimestamp": "2026-08-17T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-16T21:00:00.000Z",
+  "featuredTopicId": "784143b7-99a4-55d8-976e-d4750c25eefb",
   "style": {
-    "name": "Y2K",
-    "zhName": "千禧风格",
-    "description": "Style Atlas daily pick: a premium Y2K editorial system with silver chrome, translucent jelly surfaces, blue-violet gradients, pixel-era digital details, pearlescent highlights and a clean magazine information hierarchy."
+    "name": "Retrofuturism",
+    "zhName": "复古未来主义",
+    "description": "Style Atlas daily pick: a premium retrofuturist editorial system with optimistic space-age architecture, brushed chrome, warm ivory paper, cobalt and vermilion accents, analog control details, orbital diagrams and a cinematic magazine hierarchy."
   },
   "topics": [
     {
-      "id": "0ce08fb0-cf85-55e5-9284-2b64e3cb2a38",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "today-overview-ai-business-weather-risk",
+      "id": "784143b7-99a4-55d8-976e-d4750c25eefb",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "today-overview-rules-demand-disaster-response",
       "rank": 1,
       "category": "international",
       "region": "Global",
@@ -26,52 +26,52 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-today-overview-ai-business-weather-risk-20260816",
+      "storyId": "xzs-today-overview-rules-demand-disaster-response-20260817",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 97,
+      "informationIncrementScore": 98,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "AI标识、创业热度与三场风险定义今日行动",
-          "headlineView": "经营信号与全球安全警报同时进入决策表",
-          "headlineFull": "AI标识、创业热度与三场风险定义今日行动；经营信号与全球安全警报同时进入决策表",
-          "intro": "欧盟AI透明规则、跨境税费和美国创业申请直接影响经营；夏威夷飓风、印尼地震、霍尔木兹航运、法国社媒法与阿富汗危机构成今天的全球图景。",
-          "xiaziQuote": "真正有用的新闻，会被翻译成合规、现金流与风险清单。",
-          "doudouQuote": "先把今天会动的数字圈起来。",
+          "headlineFact": "规则、需求与四场灾害定义今天的行动表",
+          "headlineView": "经营韧性与救援速度同时接受现实检验",
+          "headlineFull": "规则、需求与四场灾害定义今天的行动表；经营韧性与救援速度同时接受现实检验",
+          "intro": "欧盟包裹税费、AI透明期限与美国零售回落改变经营判断；加沙会谈、哥伦比和印尼地震、欧洲山火与Lala风暴把风险响应推到今天的中心。",
+          "xiaziQuote": "未来感不是预测得更远，而是把今天的规则、现金流和风险接进同一套仪表盘。",
+          "doudouQuote": "灯很多，先看哪一盏正在闪红。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Today Overview",
-          "headlineFact": "AI labels, startup activity and three risk fronts define today's action",
-          "headlineView": "operating signals and global safety alerts now share one decision sheet",
-          "headlineFull": "AI labels, startup activity and three risk fronts define today's action; operating signals and global safety alerts now share one decision sheet",
-          "intro": "EU AI transparency rules, parcel duties and US business applications shape operating decisions, while Hurricane Lala, an Indonesia earthquake, Hormuz shipping, France's social-media ruling and Afghanistan's crisis complete today's picture.",
-          "xiaziQuote": "Useful news is translated into compliance, cash-flow and risk checklists.",
-          "doudouQuote": "Circle the numbers that can move today.",
+          "headlineFact": "Rules, demand and four disasters define today's action sheet",
+          "headlineView": "operating resilience and response speed face a real-world test",
+          "headlineFull": "Rules, demand and four disasters define today's action sheet; operating resilience and response speed face a real-world test",
+          "intro": "EU parcel duties, AI transparency deadlines and weaker US retail demand shape business decisions, while Gaza talks, earthquakes in Colombia and Indonesia, European wildfires and Lala put risk response at the center.",
+          "xiaziQuote": "Futurism is not seeing farther; it is connecting today's rules, cash flow and risks to one dashboard.",
+          "doudouQuote": "There are many lights; start with the one flashing red.",
           "footerTakeaway": "Keyword: Today Overview."
         }
       },
       "sources": [
         {
-          "id": "f1c6b74e-2b57-5ab1-86cc-208cbf949a51",
-          "topicId": "0ce08fb0-cf85-55e5-9284-2b64e3cb2a38",
-          "title": "Quick Facts: Transparency rules for AI systems",
-          "publisher": "European Commission",
-          "url": "https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems",
-          "publishedAt": "2026-08-16T00:00:00Z",
+          "id": "2778cfcb-8013-5df8-8803-876c44e3e37c",
+          "topicId": "784143b7-99a4-55d8-976e-d4750c25eefb",
+          "title": "Tropical Storm Lala Public Advisory",
+          "publisher": "National Hurricane Center",
+          "url": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml?text",
+          "publishedAt": "2026-08-17T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
-          "id": "c3116565-cc27-575a-9942-f9af606513f9",
-          "topicId": "0ce08fb0-cf85-55e5-9284-2b64e3cb2a38",
-          "title": "Hurricane Lala Public Advisory",
-          "publisher": "National Hurricane Center",
-          "url": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
-          "publishedAt": "2026-08-16T00:00:00Z",
+          "id": "e817072e-3ea2-5439-8e16-428b5c56d5b4",
+          "topicId": "784143b7-99a4-55d8-976e-d4750c25eefb",
+          "title": "EU applies EUR3 customs duty per item on low-value e-commerce consignments",
+          "publisher": "European Commission Access2Markets",
+          "url": "https://webgate.acceptance.ec.europa.eu/portal9/en/news/eu-applies-eu3-customs-duty-item-low-value-e-commerce-consignments",
+          "publishedAt": "2026-08-17T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -80,9 +80,9 @@
       ]
     },
     {
-      "id": "5c302e87-47cc-5163-a982-f52c3486a7e4",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "eu-parcel-duty-reconciliation",
+      "id": "7f428935-b381-59bd-b73c-b393b1a8909f",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "eu-parcel-duty-vat-reconciliation",
       "rank": 2,
       "category": "business",
       "region": "European Union",
@@ -91,40 +91,40 @@
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 97,
-      "storyId": "xzs-eu-parcel-duty-reconciliation-20260816",
+      "storyId": "xzs-eu-parcel-duty-vat-reconciliation-20260817",
       "storyStatus": "followup",
-      "followupDay": 7,
-      "informationIncrementScore": 96,
+      "followupDay": 8,
+      "informationIncrementScore": 97,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "跨境电商",
-          "headlineFact": "欧盟低价包裹每件3欧元关税进入对账期",
-          "headlineView": "卖家必须把税费、承运与退货放进同一张毛利表",
-          "headlineFull": "欧盟低价包裹每件3欧元关税进入对账期；卖家必须把税费、承运与退货放进同一张毛利表",
-          "intro": "欧盟自7月1日起取消150欧元以下包裹关税豁免并临时按每件商品征收3欧元；运行六周后，商品件数、IOSS、承运费、退货和前台税费必须逐单核对。",
-          "xiaziQuote": "新税费最怕被藏在平均运费里，必须逐件核算。",
-          "doudouQuote": "三欧元很小，乘上订单量就会长大。",
+          "headlineFact": "欧盟每件3欧元关税进入税费归集实战",
+          "headlineView": "卖家要把SKU件数、VAT与潜在处理费拆开",
+          "headlineFull": "欧盟每件3欧元关税进入税费归集实战；卖家要把SKU件数、VAT与潜在处理费拆开",
+          "intro": "欧盟7月1日起对150欧元以下进口商品按件征收临时3欧元关税，VAT指南要求明确税务处理；联盟处理费最早可能从11月起实施，定价模型不能只看包裹总价。",
+          "xiaziQuote": "按件计税会让多件低客单订单的毛利结构彻底不同。",
+          "doudouQuote": "一箱三件不是三欧元，先把件数数清。",
           "footerTakeaway": "今日关键词：跨境电商。"
         },
         "en-US": {
           "categoryLabel": "Cross-border E-commerce",
-          "headlineFact": "The EU's EUR3 per-item parcel duty has entered reconciliation season",
-          "headlineView": "sellers need duty, carrier fees and returns in one margin sheet",
-          "headlineFull": "The EU's EUR3 per-item parcel duty has entered reconciliation season; sellers need duty, carrier fees and returns in one margin sheet",
-          "intro": "The EU removed the duty exemption for parcels under EUR150 on July 1 and introduced a temporary EUR3 duty per item; after six weeks, item counts, IOSS, carrier charges, returns and checkout tax need order-level reconciliation.",
-          "xiaziQuote": "A new levy becomes dangerous when it hides inside average shipping cost; calculate it item by item.",
-          "doudouQuote": "Three euros looks small until order volume multiplies it.",
+          "headlineFact": "The EU's EUR3 per-item duty has entered real VAT reconciliation",
+          "headlineView": "sellers must separate SKU count, VAT and a possible handling fee",
+          "headlineFull": "The EU's EUR3 per-item duty has entered real VAT reconciliation; sellers must separate SKU count, VAT and a possible handling fee",
+          "intro": "Since July 1, the EU has applied a temporary EUR3 duty per item on imports under EUR150, with guidance clarifying VAT treatment; a Union handling fee could start no earlier than November, so parcel value alone is no longer enough.",
+          "xiaziQuote": "Per-item duty changes the margin structure of multi-item low-ticket orders.",
+          "doudouQuote": "Three items in one box are not a three-euro problem; count first.",
           "footerTakeaway": "Keyword: Cross-border E-commerce."
         }
       },
       "sources": [
         {
-          "id": "8184bc59-641a-56d4-9a64-a94477c6f573",
-          "topicId": "5c302e87-47cc-5163-a982-f52c3486a7e4",
-          "title": "E-commerce: 150 EUR customs duty exemption threshold to be removed as of 2026",
+          "id": "95bc20cf-ff06-5a7c-9f61-40211918ea04",
+          "topicId": "7f428935-b381-59bd-b73c-b393b1a8909f",
+          "title": "EUR 3 Customs duty - VAT guidelines",
           "publisher": "European Commission",
-          "url": "https://taxation-customs.ec.europa.eu/news/e-commerce-150-eur-customs-duty-exemption-threshold-be-removed-2026-2025-11-13_en",
-          "publishedAt": "2026-08-16T00:00:00Z",
+          "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
+          "publishedAt": "2026-08-17T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -133,9 +133,9 @@
       ]
     },
     {
-      "id": "4cc941d9-5313-5eb7-bf00-a39cad0262b1",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "eu-ai-content-transparency-enforcement",
+      "id": "8158d6c3-8f2c-5993-a2ea-f6c8d96eb731",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "eu-ai-transparency-transition-deadline",
       "rank": 3,
       "category": "technology",
       "region": "European Union",
@@ -144,40 +144,40 @@
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 96,
-      "storyId": "xzs-eu-ai-content-transparency-enforcement-20260816",
+      "storyId": "xzs-eu-ai-transparency-transition-deadline-20260817",
       "storyStatus": "followup",
-      "followupDay": 15,
-      "informationIncrementScore": 95,
+      "followupDay": 16,
+      "informationIncrementScore": 96,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "人工智能 AI",
-          "headlineFact": "欧盟AI生成内容透明规则已进入执行期",
-          "headlineView": "来源标记、用户提示与人工审核成为上线条件",
-          "headlineFull": "欧盟AI生成内容透明规则已进入执行期；来源标记、用户提示与人工审核成为上线条件",
-          "intro": "欧盟AI法案第50条自8月2日起适用，涵盖聊天机器人提示、机器可读标记以及部分深度伪造和公共利益文本标签；罚款最高可达1500万欧元或全球年营收3%。",
-          "xiaziQuote": "生成能力上线时，来源标记与人工审核也要一起上线。",
-          "doudouQuote": "会生成还不够，还得告诉大家它怎么来的。",
+          "headlineFact": "存量生成式AI的标记改造窗口只到12月2日",
+          "headlineView": "产品团队必须把可见提示与机器可读标记排进版本表",
+          "headlineFull": "存量生成式AI的标记改造窗口只到12月2日；产品团队必须把可见提示与机器可读标记排进版本表",
+          "intro": "欧盟AI法案透明要求已于8月2日进入执行期；在此之前已投放市场的生成式AI系统，可在12月2日前完成内容标记与检测义务改造，窗口正在快速缩短。",
+          "xiaziQuote": "合规不是页脚声明，而是要进入生成、导出和审核链路。",
+          "doudouQuote": "四个月很长，直到它被拆成三个开发迭代。",
           "footerTakeaway": "今日关键词：人工智能 AI。"
         },
         "en-US": {
           "categoryLabel": "Artificial Intelligence AI",
-          "headlineFact": "EU transparency rules for AI-generated content are now in force",
-          "headlineView": "provenance marks, user notices and human review are launch requirements",
-          "headlineFull": "EU transparency rules for AI-generated content are now in force; provenance marks, user notices and human review are launch requirements",
-          "intro": "Article 50 of the EU AI Act has applied since August 2, covering chatbot notices, machine-readable marking and labels for some deepfakes and public-interest text; fines can reach EUR15 million or 3% of global annual turnover.",
-          "xiaziQuote": "When generation goes live, provenance marking and human review should go live with it.",
-          "doudouQuote": "Generating is not enough; tell people where it came from.",
+          "headlineFact": "Legacy generative AI has until December 2 to finish marking changes",
+          "headlineView": "product teams must schedule visible notices and machine-readable marks",
+          "headlineFull": "Legacy generative AI has until December 2 to finish marking changes; product teams must schedule visible notices and machine-readable marks",
+          "intro": "EU AI Act transparency rules became enforceable on August 2; generative AI systems already on the market have until December 2 to meet content-marking and detection duties, leaving a rapidly shrinking implementation window.",
+          "xiaziQuote": "Compliance is not a footer; it belongs in generation, export and review flows.",
+          "doudouQuote": "Four months feels long until it becomes three engineering sprints.",
           "footerTakeaway": "Keyword: Artificial Intelligence AI."
         }
       },
       "sources": [
         {
-          "id": "a02fc6bd-d76e-54e5-8f33-1b9d34d7a9af",
-          "topicId": "4cc941d9-5313-5eb7-bf00-a39cad0262b1",
-          "title": "Transparency obligations under Article 50 of the AI Act",
-          "publisher": "European Commission",
-          "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
-          "publishedAt": "2026-08-16T00:00:00Z",
+          "id": "24799ee8-59bc-50d7-941e-cfbf35d4d504",
+          "topicId": "8158d6c3-8f2c-5993-a2ea-f6c8d96eb731",
+          "title": "Frequently Asked Questions",
+          "publisher": "European Commission AI Act Service Desk",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+          "publishedAt": "2026-08-17T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -186,9 +186,9 @@
       ]
     },
     {
-      "id": "c4968e28-7e8b-5b9e-bd29-5b9ebb7fffab",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "us-july-business-applications-surge",
+      "id": "7ff528eb-e914-5afd-9769-eacc1ef75fda",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "us-july-retail-sales-drop",
       "rank": 4,
       "category": "business",
       "region": "United States",
@@ -199,40 +199,40 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 95,
-      "storyId": "xzs-us-july-business-applications-surge-20260816",
+      "storyId": "xzs-us-july-retail-sales-drop-20260817",
       "storyStatus": "new",
       "followupDay": 1,
-      "informationIncrementScore": 94,
+      "informationIncrementScore": 95,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "一人公司 OPC",
-          "headlineFact": "美国7月企业申请升至578926份",
-          "headlineView": "一人公司要用验证速度筛掉伪需求",
-          "headlineFull": "美国7月企业申请升至578926份；一人公司要用验证速度筛掉伪需求",
-          "intro": "美国人口普查局数据显示，7月经季调企业申请环比增长8.1%，预计四个季度内形成29959家有工资税义务的新企业；申请热度提高了竞争，也放大了快速验证的重要性。",
-          "xiaziQuote": "申请热度不是收入，真正的护城河是更快验证和更短回款。",
-          "doudouQuote": "开张的人变多了，先找到第一笔真订单。",
+          "headlineFact": "美国7月零售销售环比下降0.6%",
+          "headlineView": "一人公司要用真实复购而非活动峰值判断需求",
+          "headlineFull": "美国7月零售销售环比下降0.6%；一人公司要用真实复购而非活动峰值判断需求",
+          "intro": "美国7月零售销售创2025年5月以来最大月度降幅，6月增幅也被修正为0.2%；剔除加油站和汽车经销商后仍下降0.2%，暑期活动红利退潮。",
+          "xiaziQuote": "流量峰值可以制造热闹，复购和回款才说明需求是否留下。",
+          "doudouQuote": "促销散场后，还回来的人才是真客户。",
           "footerTakeaway": "今日关键词：一人公司 OPC。"
         },
         "en-US": {
           "categoryLabel": "One-person Company OPC",
-          "headlineFact": "US business applications rose to 578,926 in July",
-          "headlineView": "solo firms need faster validation to filter false demand",
-          "headlineFull": "US business applications rose to 578,926 in July; solo firms need faster validation to filter false demand",
-          "intro": "The Census Bureau reports seasonally adjusted business applications rose 8.1% in July, with 29,959 payroll-tax startups projected within four quarters; stronger entry increases competition and the value of rapid validation.",
-          "xiaziQuote": "Application activity is not revenue; the moat is faster validation and shorter time to cash.",
-          "doudouQuote": "More doors are opening, so find the first real order.",
+          "headlineFact": "US retail sales fell 0.6% in July",
+          "headlineView": "solo firms should judge demand by repeat buying, not event peaks",
+          "headlineFull": "US retail sales fell 0.6% in July; solo firms should judge demand by repeat buying, not event peaks",
+          "intro": "US retail sales posted their largest monthly drop since May 2025, while June's gain was revised to 0.2%; excluding gas stations and auto dealers, sales still fell 0.2% as summer-event spending faded.",
+          "xiaziQuote": "Traffic peaks create noise; repeat purchases and cash collection show what demand remains.",
+          "doudouQuote": "The real customers are the ones who return after the promotion ends.",
           "footerTakeaway": "Keyword: One-person Company OPC."
         }
       },
       "sources": [
         {
-          "id": "e341c569-9d19-5add-96d7-68382afa6dc5",
-          "topicId": "c4968e28-7e8b-5b9e-bd29-5b9ebb7fffab",
-          "title": "Business Formation Statistics",
+          "id": "054ed0f7-fe38-5296-93a1-6b1960b40e6b",
+          "topicId": "7ff528eb-e914-5afd-9769-eacc1ef75fda",
+          "title": "Monthly Retail Trade - Sales Report",
           "publisher": "U.S. Census Bureau",
-          "url": "https://www.census.gov/econ/bfs/current/index.html",
-          "publishedAt": "2026-08-16T00:00:00Z",
+          "url": "https://www.census.gov/retail/sales.html",
+          "publishedAt": "2026-08-17T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
@@ -241,217 +241,52 @@
       ]
     },
     {
-      "id": "f3edb726-95ea-5377-b7ef-b5f4c7593238",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "hurricane-lala-hawaii-big-island",
+      "id": "a4f69bb4-4b73-5c75-926b-565dfa1bb2a5",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "gaza-ceasefire-talks-cairo",
       "rank": 5,
-      "category": "climate",
-      "region": "North America",
-      "countryCodes": [
-        "US"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 94,
-      "storyId": "xzs-hurricane-lala-hawaii-big-island-20260816",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 93,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "夏威夷飓风",
-          "headlineFact": "一级飓风Lala逼近夏威夷大岛",
-          "headlineView": "强风、暴雨与沿海风险需要同步准备",
-          "headlineFull": "一级飓风Lala逼近夏威夷大岛；强风、暴雨与沿海风险需要同步准备",
-          "intro": "美国国家飓风中心通报，Lala最大持续风约65节，中心位于夏威夷大岛以南并向西北移动；居民和运营方需同时准备停运、备援、撤离与沿海防护。",
-          "xiaziQuote": "预警的价值，在于风雨到来前完成停运、备援与撤离选择。",
-          "doudouQuote": "先充电装水，别等风来才找清单。",
-          "footerTakeaway": "今日关键词：夏威夷飓风。"
-        },
-        "en-US": {
-          "categoryLabel": "Hawaii Hurricane",
-          "headlineFact": "Category 1 Hurricane Lala approaches Hawaii's Big Island",
-          "headlineView": "wind, rain and coastal risk require one preparedness plan",
-          "headlineFull": "Category 1 Hurricane Lala approaches Hawaii's Big Island; wind, rain and coastal risk require one preparedness plan",
-          "intro": "The National Hurricane Center reported Lala with maximum sustained winds near 65 knots south of the Big Island and moving northwest; residents and operators need shutdown, backup, evacuation and coastal plans.",
-          "xiaziQuote": "A warning creates value when shutdown, backup and evacuation choices are made before the weather arrives.",
-          "doudouQuote": "Charge devices and store water before the wind finds the checklist.",
-          "footerTakeaway": "Keyword: Hawaii Hurricane."
-        }
-      },
-      "sources": [
-        {
-          "id": "5e1c1659-da0a-5379-afb6-b10a091c2121",
-          "topicId": "f3edb726-95ea-5377-b7ef-b5f4c7593238",
-          "title": "Hurricane Lala Public Advisory",
-          "publisher": "National Hurricane Center",
-          "url": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml",
-          "publishedAt": "2026-08-16T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "5e4cad1f-dcf6-55ce-bb39-b99210107449",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "north-sumatra-deep-earthquake",
-      "rank": 6,
-      "category": "international",
-      "region": "Southeast Asia",
-      "countryCodes": [
-        "ID"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 93,
-      "storyId": "xzs-north-sumatra-deep-earthquake-20260816",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 92,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "印尼地震",
-          "headlineFact": "苏门答腊北部发生6.9级深源地震",
-          "headlineView": "无海啸与绿色警报不替代现场核查",
-          "headlineFull": "苏门答腊北部发生6.9级深源地震；无海啸与绿色警报不替代现场核查",
-          "intro": "美国地质调查局定位震中在Pematangsiantar西北约15公里、深约173公里，海啸标记为零且初步损失警报为绿色；本地伤情、基础设施与余震仍需持续核查。",
-          "xiaziQuote": "震级只是第一层信息，深度、暴露人口与现场回报决定真正风险。",
-          "doudouQuote": "地图先给范围，安全还得听现场。",
-          "footerTakeaway": "今日关键词：印尼地震。"
-        },
-        "en-US": {
-          "categoryLabel": "Indonesia Earthquake",
-          "headlineFact": "A magnitude 6.9 deep earthquake struck northern Sumatra",
-          "headlineView": "no tsunami and a green alert do not replace local checks",
-          "headlineFull": "A magnitude 6.9 deep earthquake struck northern Sumatra; no tsunami and a green alert do not replace local checks",
-          "intro": "USGS located the quake about 15 km northwest of Pematangsiantar at roughly 173 km depth, with no tsunami flag and a preliminary green loss alert; local impacts, infrastructure and aftershocks still require verification.",
-          "xiaziQuote": "Magnitude is only the first layer; depth, exposed population and field reports define real risk.",
-          "doudouQuote": "The map gives a boundary; safety still depends on the ground.",
-          "footerTakeaway": "Keyword: Indonesia Earthquake."
-        }
-      },
-      "sources": [
-        {
-          "id": "69d23b8d-1d86-5077-b235-0752079d0a37",
-          "topicId": "5e4cad1f-dcf6-55ce-bb39-b99210107449",
-          "title": "M 6.9 - 15 km NNW of Pematangsiantar, Indonesia",
-          "publisher": "U.S. Geological Survey",
-          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkyk/executive",
-          "publishedAt": "2026-08-16T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "a290dffc-f195-50a4-b212-6f6e294f9ae1",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "hormuz-commercial-shipping-risk",
-      "rank": 7,
       "category": "international",
       "region": "Middle East",
       "countryCodes": [],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-hormuz-commercial-shipping-risk-20260816",
+      "scoreTotal": 94,
+      "storyId": "xzs-gaza-ceasefire-talks-cairo-20260817",
       "storyStatus": "followup",
       "followupDay": 2,
-      "informationIncrementScore": 91,
+      "informationIncrementScore": 94,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "国际航运",
-          "headlineFact": "霍尔木兹风险继续压住全球航运",
-          "headlineView": "威胁正在沿保险、库存与交期传导",
-          "headlineFull": "霍尔木兹风险继续压住全球航运；威胁正在沿保险、库存与交期传导",
-          "intro": "美国海事局有效警告称，商业船舶仍面临导弹、武装无人机和无人艇威胁；国际海事组织截至7月27日已确认62起相关事件和17名海员死亡。",
-          "xiaziQuote": "航道风险会沿保险、库存与交期传到每一家企业。",
-          "doudouQuote": "海上绕一步，账单会走很远。",
-          "footerTakeaway": "今日关键词：国际航运。"
+          "categoryLabel": "加沙会谈",
+          "headlineFact": "美方特使与哈马斯领导人在埃及罕见会面",
+          "headlineView": "停火路线图重新推进但解除武装仍是核心障碍",
+          "headlineFull": "美方特使与哈马斯领导人在埃及罕见会面；停火路线图重新推进但解除武装仍是核心障碍",
+          "intro": "美国特使Jared Kushner在埃及与哈马斯领导人举行罕见会面，并计划与以色列总理会谈；此前停滞的加沙停火进程再次启动，但解除武装仍决定下一阶段能否落地。",
+          "xiaziQuote": "会面打开一扇门，真正的进展要看各方是否愿意交出最难的筹码。",
+          "doudouQuote": "地图上的路又亮了，路障还没有消失。",
+          "footerTakeaway": "今日关键词：加沙会谈。"
         },
         "en-US": {
-          "categoryLabel": "International Shipping",
-          "headlineFact": "Hormuz risk continues to constrain global shipping",
-          "headlineView": "the threat is moving through insurance, inventory and delivery times",
-          "headlineFull": "Hormuz risk continues to constrain global shipping; the threat is moving through insurance, inventory and delivery times",
-          "intro": "An active US Maritime Administration advisory says commercial vessels still face missiles, armed drones and unmanned surface vessels; the IMO had confirmed 62 related incidents and 17 seafarer deaths by July 27.",
-          "xiaziQuote": "A shipping-lane risk reaches every business through insurance, inventory and lead time.",
-          "doudouQuote": "One detour at sea sends the bill a long way.",
-          "footerTakeaway": "Keyword: International Shipping."
+          "categoryLabel": "Gaza Talks",
+          "headlineFact": "A US envoy held a rare meeting with Hamas' leader in Egypt",
+          "headlineView": "the ceasefire road map is moving again, but disarmament remains central",
+          "headlineFull": "A US envoy held a rare meeting with Hamas' leader in Egypt; the ceasefire road map is moving again, but disarmament remains central",
+          "intro": "US envoy Jared Kushner met the Hamas leader in Egypt and planned talks with Israel's prime minister, restarting movement on the stalled Gaza ceasefire while disarmament remains the key obstacle to the next phase.",
+          "xiaziQuote": "A meeting opens a door; progress depends on whether each side will release its hardest bargaining chip.",
+          "doudouQuote": "The route is lit again, but the roadblocks are still there.",
+          "footerTakeaway": "Keyword: Gaza Talks."
         }
       },
       "sources": [
         {
-          "id": "46eeb678-fce1-59cd-a098-b96fbe3e677e",
-          "topicId": "a290dffc-f195-50a4-b212-6f6e294f9ae1",
-          "title": "Middle East - Highlighted Confirmed Incidents",
-          "publisher": "International Maritime Organization",
-          "url": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
-          "publishedAt": "2026-08-16T00:00:00Z",
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "3e3e78b5-f203-53e5-b037-d09fdece2b6e",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "france-under15-social-media-ruling",
-      "rank": 8,
-      "category": "technology",
-      "region": "Europe",
-      "countryCodes": [
-        "FR"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-france-under15-social-media-ruling-20260816",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 90,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "法国数字政策",
-          "headlineFact": "法国法院否决未满15岁社媒全面禁令",
-          "headlineView": "儿童保护必须同时满足比例与隐私保障",
-          "headlineFull": "法国法院否决未满15岁社媒全面禁令；儿童保护必须同时满足比例与隐私保障",
-          "intro": "法国宪法委员会认为全面禁令对表达自由与隐私构成不成比例限制，且年龄核验缺少充分法律保障；政府需要设计更精准、可执行的新方案。",
-          "xiaziQuote": "保护未成年人需要证据和比例原则，不能只靠一刀切。",
-          "doudouQuote": "护栏要能保护人，也不能把整条路封死。",
-          "footerTakeaway": "今日关键词：法国数字政策。"
-        },
-        "en-US": {
-          "categoryLabel": "France Digital Policy",
-          "headlineFact": "France's court rejected a blanket social-media ban for under-15s",
-          "headlineView": "child protection must also meet proportionality and privacy safeguards",
-          "headlineFull": "France's court rejected a blanket social-media ban for under-15s; child protection must also meet proportionality and privacy safeguards",
-          "intro": "France's Constitutional Council found the blanket ban disproportionately restricted expression and privacy and lacked sufficient safeguards for age verification; the government now needs a narrower, workable design.",
-          "xiaziQuote": "Protecting minors requires evidence and proportionality, not only a blanket switch.",
-          "doudouQuote": "A guardrail should protect people without closing the whole road.",
-          "footerTakeaway": "Keyword: France Digital Policy."
-        }
-      },
-      "sources": [
-        {
-          "id": "e7e11050-5d96-5a6e-8753-fe753b1a494b",
-          "topicId": "3e3e78b5-f203-53e5-b037-d09fdece2b6e",
-          "title": "Decision no. 2026-911 DC",
-          "publisher": "Conseil constitutionnel",
-          "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm",
-          "publishedAt": "2026-08-16T00:00:00Z",
-          "sourceType": "official",
+          "id": "a63ee87b-164e-59de-a507-0f03e58be17f",
+          "topicId": "a4f69bb4-4b73-5c75-926b-565dfa1bb2a5",
+          "title": "Kushner has a rare meeting with Hamas' leader on the Gaza road map",
+          "publisher": "Associated Press",
+          "url": "https://r.jina.ai/http://apnews.com/article/321e254af26a0fff1b3ec2b8c00412a2",
+          "publishedAt": "2026-08-17T00:00:00Z",
+          "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
@@ -459,53 +294,219 @@
       ]
     },
     {
-      "id": "0aa5c736-791c-5793-b04c-08bf78cc5553",
-      "issueId": "e74d7ef0-b338-535a-874a-dc8399efe7bf",
-      "slug": "afghanistan-five-years-humanitarian-needs",
-      "rank": 9,
+      "id": "628e9a21-b37d-57d3-a79a-ff1cfef8192b",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "colombia-earthquake-recovery-tariff-request",
+      "rank": 6,
       "category": "international",
-      "region": "South Asia",
+      "region": "South America",
       "countryCodes": [
-        "AF"
+        "CO"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-colombia-earthquake-recovery-tariff-request-20260817",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "哥伦比亚地震",
+          "headlineFact": "哥伦比亚请求美国暂停关税支持震后恢复",
+          "headlineView": "灾害救援开始与贸易现金流直接相连",
+          "headlineFull": "哥伦比亚请求美国暂停关税支持震后恢复；灾害救援开始与贸易现金流直接相连",
+          "intro": "哥伦比亚总统在7.4级地震后请求美国暂时中止关税，以降低重建期的经济压力；灾后需求正从搜救扩展到进口成本、企业现金流与基础设施恢复。",
+          "xiaziQuote": "大灾之后，关税、信贷和物流都会变成救援工具的一部分。",
+          "doudouQuote": "瓦砾要清，账单也要一起减重。",
+          "footerTakeaway": "今日关键词：哥伦比亚地震。"
+        },
+        "en-US": {
+          "categoryLabel": "Colombia Earthquake",
+          "headlineFact": "Colombia asked the US to suspend tariffs for earthquake recovery",
+          "headlineView": "disaster response is now directly linked to trade cash flow",
+          "headlineFull": "Colombia asked the US to suspend tariffs for earthquake recovery; disaster response is now directly linked to trade cash flow",
+          "intro": "Colombia's president asked the United States to pause tariffs after a magnitude 7.4 earthquake, seeking relief from reconstruction pressure as recovery expands from rescue to import costs, business cash flow and infrastructure.",
+          "xiaziQuote": "After a major disaster, tariffs, credit and logistics become part of the response toolkit.",
+          "doudouQuote": "Clear the rubble and lighten the bill at the same time.",
+          "footerTakeaway": "Keyword: Colombia Earthquake."
+        }
+      },
+      "sources": [
+        {
+          "id": "f8451e1a-c0d5-50cd-a18c-c1e2878b5b8d",
+          "topicId": "628e9a21-b37d-57d3-a79a-ff1cfef8192b",
+          "title": "Colombian president asks Trump to suspend tariffs to help earthquake recovery",
+          "publisher": "Associated Press",
+          "url": "https://r.jina.ai/http://apnews.com/article/d5472db0c7b2f929b43a4c190dc0d41b",
+          "publishedAt": "2026-08-17T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "16d0118e-484c-5e3a-885e-c7e0865bd92e",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "flores-earthquake-rescue-death-toll",
+      "rank": 7,
+      "category": "international",
+      "region": "Southeast Asia",
+      "countryCodes": [
+        "ID"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-flores-earthquake-rescue-death-toll-20260817",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "印尼地震",
+          "headlineFact": "弗洛勒斯7.7级地震遇难人数升至53人",
+          "headlineView": "滑坡搜救与数千人露宿成为下一阶段重点",
+          "headlineFull": "弗洛勒斯7.7级地震遇难人数升至53人；滑坡搜救与数千人露宿成为下一阶段重点",
+          "intro": "印尼救援队新增发现6名遇难者，使死亡人数升至53人；地震引发的滑坡覆盖多个地区，数千名居民因担心余震在户外过夜，搜救与安置同步承压。",
+          "xiaziQuote": "主震结束并不代表风险结束，滑坡、余震与临时安置会延长危机。",
+          "doudouQuote": "地面停下后，救援的时钟才真正开始。",
+          "footerTakeaway": "今日关键词：印尼地震。"
+        },
+        "en-US": {
+          "categoryLabel": "Indonesia Earthquake",
+          "headlineFact": "The Flores magnitude 7.7 earthquake death toll rose to 53",
+          "headlineView": "landslide searches and shelter for thousands define the next phase",
+          "headlineFull": "The Flores magnitude 7.7 earthquake death toll rose to 53; landslide searches and shelter for thousands define the next phase",
+          "intro": "Indonesian rescue teams recovered six more bodies, raising the death toll to 53; quake-triggered landslides affected multiple districts and thousands slept outside in fear of aftershocks, straining both search and shelter operations.",
+          "xiaziQuote": "The main shock ending does not end the risk; landslides, aftershocks and temporary shelter extend the crisis.",
+          "doudouQuote": "When the ground stops, the rescue clock truly starts.",
+          "footerTakeaway": "Keyword: Indonesia Earthquake."
+        }
+      },
+      "sources": [
+        {
+          "id": "d7a1dc7b-7c08-52d6-ba9e-774690ef643a",
+          "topicId": "16d0118e-484c-5e3a-885e-c7e0865bd92e",
+          "title": "Rescuers in Indonesia recover 6 more bodies in earthquake aftermath",
+          "publisher": "Associated Press",
+          "url": "https://r.jina.ai/http://apnews.com/article/bf1d024bdec7727094f8dc73d7dd5e34",
+          "publishedAt": "2026-08-17T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "ae58f501-8c25-5f89-9156-5bc044627106",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "belgium-greece-wildfires-response",
+      "rank": 8,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "BE",
+        "GR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-belgium-greece-wildfires-response-20260817",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲山火",
+          "headlineFact": "比利时与希腊大规模山火同时告急",
+          "headlineView": "高温干燥让跨境消防与撤离能力同时承压",
+          "headlineFull": "比利时与希腊大规模山火同时告急；高温干燥让跨境消防与撤离能力同时承压",
+          "intro": "比利时东部自然保护区与雅典附近希腊岛屿的山火持续蔓延，希腊已有2人死亡；比利时投入超过250名应急人员，并获得德国消防力量协助。",
+          "xiaziQuote": "山火跨过行政边界时，协同速度就是最现实的防火线。",
+          "doudouQuote": "风不看地图，消防队必须看同一张图。",
+          "footerTakeaway": "今日关键词：欧洲山火。"
+        },
+        "en-US": {
+          "categoryLabel": "European Wildfires",
+          "headlineFact": "Large wildfires escalated in Belgium and Greece at the same time",
+          "headlineView": "hot dry conditions are testing evacuation and cross-border firefighting",
+          "headlineFull": "Large wildfires escalated in Belgium and Greece at the same time; hot dry conditions are testing evacuation and cross-border firefighting",
+          "intro": "Fires spread through a nature reserve in eastern Belgium and a Greek island near Athens, where two people died; Belgium deployed more than 250 emergency personnel with support from German firefighters.",
+          "xiaziQuote": "When fire crosses administrative lines, coordination speed becomes the most practical firebreak.",
+          "doudouQuote": "Wind ignores maps, so crews need to share one.",
+          "footerTakeaway": "Keyword: European Wildfires."
+        }
+      },
+      "sources": [
+        {
+          "id": "8de217fe-5867-5df6-9213-ce75199d5028",
+          "topicId": "ae58f501-8c25-5f89-9156-5bc044627106",
+          "title": "Firefighters battle massive wildfires in Belgium and Greece",
+          "publisher": "Associated Press",
+          "url": "https://r.jina.ai/http://apnews.com/article/66c6fb6801f5574fde2dfc07a610a4cb",
+          "publishedAt": "2026-08-17T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2f6ad4ff-e145-558d-ba77-2186a6515d1d",
+      "issueId": "0c6dbea7-d59c-50ea-afc3-b7c47f525d47",
+      "slug": "tropical-storm-lala-hawaii-rain-surf",
+      "rank": 9,
+      "category": "climate",
+      "region": "North America",
+      "countryCodes": [
+        "US"
       ],
       "eventTime": null,
       "isDeveloping": true,
       "verificationStatus": "verified",
       "scoreTotal": 90,
-      "storyId": "xzs-afghanistan-five-years-humanitarian-needs-20260816",
+      "storyId": "xzs-tropical-storm-lala-hawaii-rain-surf-20260817",
       "storyStatus": "followup",
       "followupDay": 2,
-      "informationIncrementScore": 89,
+      "informationIncrementScore": 90,
       "localizations": {
         "zh-CN": {
-          "categoryLabel": "阿富汗五年",
-          "headlineFact": "塔利班掌权五年，人道需求仍覆盖2190万人",
-          "headlineView": "妇女限制、返乡潮与干旱继续叠加",
-          "headlineFull": "塔利班掌权五年，人道需求仍覆盖2190万人；妇女限制、返乡潮与干旱继续叠加",
-          "intro": "联合国估计2026年约2190万人、即45%人口需要人道援助；妇女女孩限制、大规模返乡、干旱、基本服务压力与资金缺口继续累积。",
-          "xiaziQuote": "稳定不能只看战火减少，也要看教育、工作与基本服务能否抵达人。",
-          "doudouQuote": "地图安静了，生活的难题还在发声。",
-          "footerTakeaway": "今日关键词：阿富汗五年。"
+          "categoryLabel": "夏威夷风暴",
+          "headlineFact": "Lala减弱为热带风暴但仍带来强风雨浪",
+          "headlineView": "危险正在从登陆威胁转向积水、海浪与恢复作业",
+          "headlineFull": "Lala减弱为热带风暴但仍带来强风雨浪；危险正在从登陆威胁转向积水、海浪与恢复作业",
+          "intro": "Lala最大持续风速降至65英里每小时并向西北移动，仍将为夏威夷带来额外1至3英寸降雨和危险海浪；运营方需继续管理积水、沿海风险与恢复安全。",
+          "xiaziQuote": "风暴降级只是阶段变化，不是风险清零。",
+          "doudouQuote": "风小一点了，雨水和海浪还没下班。",
+          "footerTakeaway": "今日关键词：夏威夷风暴。"
         },
         "en-US": {
-          "categoryLabel": "Afghanistan at Five",
-          "headlineFact": "Five years into Taliban rule, 21.9 million still need humanitarian aid",
-          "headlineView": "restrictions on women, returns and drought keep compounding",
-          "headlineFull": "Five years into Taliban rule, 21.9 million still need humanitarian aid; restrictions on women, returns and drought keep compounding",
-          "intro": "The UN estimates 21.9 million people, or 45% of Afghanistan's population, need humanitarian assistance in 2026 as restrictions on women and girls, mass returns, drought, service pressure and funding gaps accumulate.",
-          "xiaziQuote": "Stability is not only less fighting; it is whether education, work and basic services reach people.",
-          "doudouQuote": "The map is quieter, but daily life is still speaking.",
-          "footerTakeaway": "Keyword: Afghanistan at Five."
+          "categoryLabel": "Hawaii Storm",
+          "headlineFact": "Lala weakened to a tropical storm but wind, rain and surf remain",
+          "headlineView": "risk is shifting from landfall to flooding, waves and recovery work",
+          "headlineFull": "Lala weakened to a tropical storm but wind, rain and surf remain; risk is shifting from landfall to flooding, waves and recovery work",
+          "intro": "Lala's maximum sustained winds fell to 65 mph as it moved northwest, while another 1 to 3 inches of rain and dangerous surf remained possible across Hawaii; operators still face flooding, coastal and recovery hazards.",
+          "xiaziQuote": "A storm downgrade changes the phase; it does not reset risk to zero.",
+          "doudouQuote": "The wind eased, but rain and surf are still on shift.",
+          "footerTakeaway": "Keyword: Hawaii Storm."
         }
       },
       "sources": [
         {
-          "id": "df71295b-956b-5e6e-beeb-6462fcf1b2dc",
-          "topicId": "0aa5c736-791c-5793-b04c-08bf78cc5553",
-          "title": "The situation in Afghanistan and its implications for international peace and security",
-          "publisher": "United Nations",
-          "url": "https://documents.un.org/doc/undoc/gen/n26/030/53/pdf/n2603053.pdf",
-          "publishedAt": "2026-08-16T00:00:00Z",
+          "id": "29750772-737f-5522-b32a-1809dc034455",
+          "topicId": "2f6ad4ff-e145-558d-ba77-2186a6515d1d",
+          "title": "Tropical Storm Lala Intermediate Advisory Number 17A",
+          "publisher": "National Hurricane Center",
+          "url": "https://www.nhc.noaa.gov/text/HFOTCPCP2.shtml?text",
+          "publishedAt": "2026-08-17T00:00:00Z",
           "sourceType": "official",
           "sourceTier": 1,
           "locale": "en-US",
