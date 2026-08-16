@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-08-16",
-  "releaseId": "rel_20260816_ec254839ad32c44ba6df6675",
-  "assetBatchId": "asset_prod_20260816_04bc8e90",
+  "issueDate": "2026-08-17",
+  "releaseId": "rel_20260817_dcfc59e82d173a52f596a7bf",
+  "assetBatchId": "asset_prod_20260817_da8bdeee",
   "posters": [
     {
-      "topicId": "0ce08fb0-cf85-55e5-9284-2b64e3cb2a38",
+      "topicId": "784143b7-99a4-55d8-976e-d4750c25eefb",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/today-overview-ai-business-weather-risk.png",
-      "contentHash": "b6b8f6109d56881ac66d2026439e53ec19529e149f0c8e0f5d04a61909745c7a"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/today-overview-rules-demand-disaster-response.png",
+      "contentHash": "33eacf7ceafed3b427ef79e4889b3807ccef6fc894aaa492065aa36ecd38c69d"
     },
     {
-      "topicId": "0ce08fb0-cf85-55e5-9284-2b64e3cb2a38",
+      "topicId": "784143b7-99a4-55d8-976e-d4750c25eefb",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/today-overview-ai-business-weather-risk.png",
-      "contentHash": "9e95c8cb358b338bfe6f397a0877dc283a16d0316e807f17f91dd79628900b8e"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/today-overview-rules-demand-disaster-response.png",
+      "contentHash": "735fcd656db60117415ca012889fa6981fae990c1996caac70d6a03d69b5341b"
     },
     {
-      "topicId": "5c302e87-47cc-5163-a982-f52c3486a7e4",
+      "topicId": "7f428935-b381-59bd-b73c-b393b1a8909f",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/eu-parcel-duty-reconciliation.png",
-      "contentHash": "ae3aea520b67e818de312af5b358f18b298faa30aa12525eb0d65fb513e70859"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/eu-parcel-duty-vat-reconciliation.png",
+      "contentHash": "af9910b7fa10c5f5b4652651a63e2ef61aa45bca2b6481c436af497324e337f0"
     },
     {
-      "topicId": "5c302e87-47cc-5163-a982-f52c3486a7e4",
+      "topicId": "7f428935-b381-59bd-b73c-b393b1a8909f",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/eu-parcel-duty-reconciliation.png",
-      "contentHash": "cb307c404ce8ccf768861d22650961c6dec7d6fcf0cbfba1f51820df78bb8cbc"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/eu-parcel-duty-vat-reconciliation.png",
+      "contentHash": "3cd712722c547bc1d35922487779ca3929d7abe9270a521e1d933561dc1cb63a"
     },
     {
-      "topicId": "4cc941d9-5313-5eb7-bf00-a39cad0262b1",
+      "topicId": "8158d6c3-8f2c-5993-a2ea-f6c8d96eb731",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/eu-ai-content-transparency-enforcement.png",
-      "contentHash": "8529afb2335e935a556bc922e550678ae787e144e9996c32fbb458af151b18a1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/eu-ai-transparency-transition-deadline.png",
+      "contentHash": "9d883eb0c5a979c025ea779c25869ef9c853210d241f5c50ab07d07bd8b9da1b"
     },
     {
-      "topicId": "4cc941d9-5313-5eb7-bf00-a39cad0262b1",
+      "topicId": "8158d6c3-8f2c-5993-a2ea-f6c8d96eb731",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/eu-ai-content-transparency-enforcement.png",
-      "contentHash": "bcdea093b34ea3f23fd08497b3f1ea950ef202ac997eb224665abb904dfe995f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/eu-ai-transparency-transition-deadline.png",
+      "contentHash": "ae466d74d60b98b9cbf540d84f190511a8b01110ad456a4ed27d1164d28d2fea"
     },
     {
-      "topicId": "c4968e28-7e8b-5b9e-bd29-5b9ebb7fffab",
+      "topicId": "7ff528eb-e914-5afd-9769-eacc1ef75fda",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/us-july-business-applications-surge.png",
-      "contentHash": "874017f00695dcd569c5b0ffa0bcbb8361fc4506d98cb4a57c41d957bc103269"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/us-july-retail-sales-drop.png",
+      "contentHash": "7bb09442a20c2ee69c8a0ac69b53f11740ca2465c987ed23ed3e3151fad091fe"
     },
     {
-      "topicId": "c4968e28-7e8b-5b9e-bd29-5b9ebb7fffab",
+      "topicId": "7ff528eb-e914-5afd-9769-eacc1ef75fda",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/us-july-business-applications-surge.png",
-      "contentHash": "04d4b627e35067aef118282b1e4253bef791016ea0ceef876b027e16f51ae9f1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/us-july-retail-sales-drop.png",
+      "contentHash": "2fef7fb73e703fc5fdf6858c475590e4d8ce7e27c20c5a0e564d147c5e3ee3b2"
     },
     {
-      "topicId": "f3edb726-95ea-5377-b7ef-b5f4c7593238",
+      "topicId": "a4f69bb4-4b73-5c75-926b-565dfa1bb2a5",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/hurricane-lala-hawaii-big-island.png",
-      "contentHash": "3cea7223e5ab4516db4a91a36bede51a16656b21a916965778e4c0ee5616c0ff"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/gaza-ceasefire-talks-cairo.png",
+      "contentHash": "1002d70e023cbff632ba1d10ffd7f0745c82a014ad8b3622d5e89f9ddd422c5d"
     },
     {
-      "topicId": "f3edb726-95ea-5377-b7ef-b5f4c7593238",
+      "topicId": "a4f69bb4-4b73-5c75-926b-565dfa1bb2a5",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/hurricane-lala-hawaii-big-island.png",
-      "contentHash": "c761fab4c1b7b1621d0bb3c0473577e92f28aba06417a583e82a4752d8eaf6f7"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/gaza-ceasefire-talks-cairo.png",
+      "contentHash": "e8bb493445df942380c05b03e5381b55f94e60fc07b14a6ef35a7bb85a2f3408"
     },
     {
-      "topicId": "5e4cad1f-dcf6-55ce-bb39-b99210107449",
+      "topicId": "628e9a21-b37d-57d3-a79a-ff1cfef8192b",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/north-sumatra-deep-earthquake.png",
-      "contentHash": "23e07d8aa0802a53d00c9b6d79849f8cd4f3471b6e266059d77295653badb7e0"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/colombia-earthquake-recovery-tariff-request.png",
+      "contentHash": "20980f3ac5a367bb900b6a31ef8c652f2fad3bf7830f0b1f22482bae44321e12"
     },
     {
-      "topicId": "5e4cad1f-dcf6-55ce-bb39-b99210107449",
+      "topicId": "628e9a21-b37d-57d3-a79a-ff1cfef8192b",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/north-sumatra-deep-earthquake.png",
-      "contentHash": "ba17f74b241e89661469934719d491bc0bca9f3520d927b3733811defdf5b054"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/colombia-earthquake-recovery-tariff-request.png",
+      "contentHash": "aa2094028b567ac4edde354e1d17ecd76a80d32753582e317725cf64429f8a58"
     },
     {
-      "topicId": "a290dffc-f195-50a4-b212-6f6e294f9ae1",
+      "topicId": "16d0118e-484c-5e3a-885e-c7e0865bd92e",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/hormuz-commercial-shipping-risk.png",
-      "contentHash": "2d6a100ce383292519972e81c37bd52d08bba7730c878fc0fc1ba94c44abd8d2"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/flores-earthquake-rescue-death-toll.png",
+      "contentHash": "1965cc142b5dcbe9529a70089df37f6757a78d6b37681790e5cfa8b3cb69bec2"
     },
     {
-      "topicId": "a290dffc-f195-50a4-b212-6f6e294f9ae1",
+      "topicId": "16d0118e-484c-5e3a-885e-c7e0865bd92e",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/hormuz-commercial-shipping-risk.png",
-      "contentHash": "236b9f30d84b48401b5f8514c5ca4e1647e923f8fb16f85ed137b0d1f4bd186e"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/flores-earthquake-rescue-death-toll.png",
+      "contentHash": "4072460b633b0644b0dcb82e87cb7c0d77dc45343c8189e4fccf849e1a0074c9"
     },
     {
-      "topicId": "3e3e78b5-f203-53e5-b037-d09fdece2b6e",
+      "topicId": "ae58f501-8c25-5f89-9156-5bc044627106",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/france-under15-social-media-ruling.png",
-      "contentHash": "60bfd1dbdb56b6c5fd377fbda33552747ee70f2032bc8c4d01c97c51414635f9"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/belgium-greece-wildfires-response.png",
+      "contentHash": "8c762a7ac7d5c21cd0a74475241eb342fca5d8b88675003664d8b11f75e278a3"
     },
     {
-      "topicId": "3e3e78b5-f203-53e5-b037-d09fdece2b6e",
+      "topicId": "ae58f501-8c25-5f89-9156-5bc044627106",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/france-under15-social-media-ruling.png",
-      "contentHash": "d12f2358b17b97e44f80a27f2d8d56eb4dfb184e8a41bf08b1e42f69fc312bc7"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/belgium-greece-wildfires-response.png",
+      "contentHash": "877369892168c47f5d7af8010cdc4ec0dc3a19c93f86fc0516e1c8c31fcca99c"
     },
     {
-      "topicId": "0aa5c736-791c-5793-b04c-08bf78cc5553",
+      "topicId": "2f6ad4ff-e145-558d-ba77-2186a6515d1d",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/zh/afghanistan-five-years-humanitarian-needs.png",
-      "contentHash": "a6cd7482c59bfccdbd022dbf494511f10a8beb23272f2c071274efcf53d60c7b"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/zh/tropical-storm-lala-hawaii-rain-surf.png",
+      "contentHash": "77af18825f1fb3e3311f3f917577bfce2630aa0f2869a04802a8a3db8134d998"
     },
     {
-      "topicId": "0aa5c736-791c-5793-b04c-08bf78cc5553",
+      "topicId": "2f6ad4ff-e145-558d-ba77-2186a6515d1d",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260816_04bc8e90/en/afghanistan-five-years-humanitarian-needs.png",
-      "contentHash": "ca0605491021c91a32f98775bb32330f6eda06194ce5aa0ac9e14a432a676b18"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260817_da8bdeee/en/tropical-storm-lala-hawaii-rain-surf.png",
+      "contentHash": "a000dc41991440df207faac5ffa89f99016a5db950322a74483ab0850e048305"
     }
   ]
 }
