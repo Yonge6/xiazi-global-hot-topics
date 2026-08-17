@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 
 import { productConfig } from "@xiazi/config";
@@ -42,7 +43,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="dns-prefetch" href={posterOrigin} />
         <link rel="preconnect" href={posterOrigin} crossOrigin="anonymous" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script src="/analytics.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }

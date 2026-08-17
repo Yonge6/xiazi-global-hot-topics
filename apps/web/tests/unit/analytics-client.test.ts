@@ -26,4 +26,23 @@ describe("iOS analytics boundary", () => {
 
     expect(sendBeacon).not.toHaveBeenCalled();
   });
+
+  it("forwards website poster interactions to the shared GA4 event", () => {
+    const gtag = vi.fn();
+    const sendBeacon = vi.fn();
+    vi.stubGlobal("window", {
+      location: { search: "" },
+      gtag,
+    });
+    vi.stubGlobal("navigator", { sendBeacon });
+
+    trackAnalytics("poster_view", "en", "verified-topic");
+
+    expect(gtag).toHaveBeenCalledWith("event", "poster_engagement", {
+      site_id: "site-xiazi",
+      interaction: "poster_view",
+      locale: "en",
+      content_slug: "verified-topic",
+    });
+  });
 });
