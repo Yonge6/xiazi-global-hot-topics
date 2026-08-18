@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-08-18",
-  "releaseId": "rel_20260818_168e15629fcbc82373fd9c7a",
-  "assetBatchId": "asset_prod_20260818_2b5e1c50",
+  "issueDate": "2026-08-19",
+  "assetBatchId": "asset_prod_20260819_681db88f",
+  "releaseId": "rel_20260819_6b44a27aceabb66ef1b35e21",
   "posters": [
     {
-      "topicId": "6998a251-e975-5ee7-9019-d489f6dfa9a1",
+      "topicId": "25e4554a-28bf-5889-b7c6-a34a240c08ec",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/today-overview-platforms-energy-health-weather.png",
-      "contentHash": "96efa7af90881926429570e2e89ab460641b03ea44ebc6cc651ee3c1b1c55b91"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/today-overview-tariffs-ai-jobs-global-safety.png",
+      "contentHash": "b34db604f39f4dd6f9df214d3ea25be67e3be06710e6c7af78ea93afa32f45f2"
     },
     {
-      "topicId": "6998a251-e975-5ee7-9019-d489f6dfa9a1",
+      "topicId": "25e4554a-28bf-5889-b7c6-a34a240c08ec",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/today-overview-platforms-energy-health-weather.png",
-      "contentHash": "76a43c5614caab6e5a2c9754e57b9c7270d20fb7f407d9aa638d192c55658fd6"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/today-overview-tariffs-ai-jobs-global-safety.png",
+      "contentHash": "9c53034f325cc7ae294fc54936e1fd9a97c1a966d5058406a5483acddc1efefd"
     },
     {
-      "topicId": "8f47dafb-a7f6-500b-9ce9-d0323796b8ad",
+      "topicId": "73e8575d-3067-5d79-9fac-e87612ca67e0",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/wildberries-depot-strikes-seller-inventory-risk.png",
-      "contentHash": "6102d2a2874ae7e6739323fab7910af7d45491cea3bc6ddb6bcd8ec3d124f89a"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/canada-goods-fifty-percent-us-tariff.png",
+      "contentHash": "6d8a7007a8054bee8c485b8852bb51f9e2b6e0b14ca4b31434fd44f35281d3c1"
     },
     {
-      "topicId": "8f47dafb-a7f6-500b-9ce9-d0323796b8ad",
+      "topicId": "73e8575d-3067-5d79-9fac-e87612ca67e0",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/wildberries-depot-strikes-seller-inventory-risk.png",
-      "contentHash": "333e871235e75dfca1ed3f88063b9a92306fc1249e7018ab0f27579fec4dafd1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/canada-goods-fifty-percent-us-tariff.png",
+      "contentHash": "eb6e77038bb9aa539c31af880c9c1c5241893067193c707c4fd5089e336cef76"
     },
     {
-      "topicId": "40b596c4-cf83-5252-a36a-6d0e9bba9dc5",
+      "topicId": "1aae563e-6744-5d46-bdd0-6e0d12d61c8f",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/eu-ai-transparency-operating-window.png",
-      "contentHash": "a07231bf2fe4190074641cbb6f2b4677feadb62cdca6194e3426a84681e496ea"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/nvidia-openai-circular-financing-questions.png",
+      "contentHash": "394e9d574522865b041dcb6345e35ceea3ce9eabb2020c3840a84329458983dd"
     },
     {
-      "topicId": "40b596c4-cf83-5252-a36a-6d0e9bba9dc5",
+      "topicId": "1aae563e-6744-5d46-bdd0-6e0d12d61c8f",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/eu-ai-transparency-operating-window.png",
-      "contentHash": "39549c7d881d8001235318b8ff8d5587f254ae981b87d21b8e0bc0680e366391"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/nvidia-openai-circular-financing-questions.png",
+      "contentHash": "2d89325dcdbbad6299b0f56a8b639fe3134125c101c9ed93289ad6601596a6ff"
     },
     {
-      "topicId": "4c5b79b4-8c41-56d3-ad1d-64fa92ee299b",
+      "topicId": "8e1a923b-34d8-5d4a-b3a7-cef8184fa993",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/solo-business-oil-inflation-demand-signal.png",
-      "contentHash": "26e3512980f0e17e3f6703dbb8767fcbac13cb01ab0c417bf85ffc65caba6039"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/uk-job-vacancies-five-year-low.png",
+      "contentHash": "0fc0cc0d79531d82f5a077793d7355479b471e3f265c9d929b1222fd64070be9"
     },
     {
-      "topicId": "4c5b79b4-8c41-56d3-ad1d-64fa92ee299b",
+      "topicId": "8e1a923b-34d8-5d4a-b3a7-cef8184fa993",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/solo-business-oil-inflation-demand-signal.png",
-      "contentHash": "4e13384189fe2d06ccc7ee4cd4162c865cfd18bedfb59599355df5beb4d30083"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/uk-job-vacancies-five-year-low.png",
+      "contentHash": "f4a0f2d255f7e87c51677ff33ad5cf9c25dd478b502aa61d3906c4b2e954b40c"
     },
     {
-      "topicId": "8bbe9dbd-6521-506b-a11a-8aaa118091bf",
+      "topicId": "a91dcfe4-4786-5497-b756-6294be583ae8",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/iran-peace-deal-sixty-day-deadline.png",
-      "contentHash": "46e00c88a9ace26fe7ad33f470821ecd8756093f005ca15c7921269ca659a1bd"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/hormuz-strait-remains-shut.png",
+      "contentHash": "5b643a4a1cc68f95640afebc7c892873447a9c36ce7f5c113d43a60fc1cb8d98"
     },
     {
-      "topicId": "8bbe9dbd-6521-506b-a11a-8aaa118091bf",
+      "topicId": "a91dcfe4-4786-5497-b756-6294be583ae8",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/iran-peace-deal-sixty-day-deadline.png",
-      "contentHash": "6e865d09829ea5b56e92cbf2487c733cbed456b55311b99467380bd04d03b3cd"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/hormuz-strait-remains-shut.png",
+      "contentHash": "6fbb02ec1020f488b79a06fb65f6084ae179a5906e87315a05003b7450b22a27"
     },
     {
-      "topicId": "b57b0a4d-b20e-5173-9525-e8403dcb293e",
+      "topicId": "71c7d562-ffd2-56d1-9a2e-699172c103e1",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/ukraine-energy-thirteen-strikes-one-week.png",
-      "contentHash": "4cec68c8246f5b1f73d538d131b1452a289200a99e0cb9c3a3414f6931c146c0"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/us-sanctions-icc-president-lawyer.png",
+      "contentHash": "e469269b2dd848a1fd6fd17d2eb8cf02871fbc4df3796ce773b85f93c802130d"
     },
     {
-      "topicId": "b57b0a4d-b20e-5173-9525-e8403dcb293e",
+      "topicId": "71c7d562-ffd2-56d1-9a2e-699172c103e1",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/ukraine-energy-thirteen-strikes-one-week.png",
-      "contentHash": "7a64098ae4f5983c4d93e881a34c81110de5e28f06189b2178e42da2fcddf21c"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/us-sanctions-icc-president-lawyer.png",
+      "contentHash": "14062056863a9ecd67ad095d8bf82dfde8bfcd3bb6e0dd71bb849122e78a3c2d"
     },
     {
-      "topicId": "bb2d4a0e-ce57-57d0-9740-69c2542e27a4",
+      "topicId": "a82a7609-aeab-5680-a5fc-2dabe126bf8e",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/congo-ebola-deadliest-national-outbreak.png",
-      "contentHash": "d772e0ff14f512db81f684102b3060c610860b68cdc398722fa28e66521c68ed"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/who-congo-ebola-three-month-control-window.png",
+      "contentHash": "9ec407f95fb2c4b828f6c56298b7c7b46d10cb87cc3d5671640c2c0686e9c4c6"
     },
     {
-      "topicId": "bb2d4a0e-ce57-57d0-9740-69c2542e27a4",
+      "topicId": "a82a7609-aeab-5680-a5fc-2dabe126bf8e",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/congo-ebola-deadliest-national-outbreak.png",
-      "contentHash": "ae8000f8f5279545219a9b12bb5e7294fb66c30ee291fafe3a2a16a81bf2e297"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/who-congo-ebola-three-month-control-window.png",
+      "contentHash": "1bb28f15d1719363924c59e8310740352953edfdf3f6f6decf901fb9de36b735"
     },
     {
-      "topicId": "e5af3778-e680-5ae9-ae76-c3f4fc318a57",
+      "topicId": "6b813df5-6048-5c96-876e-7081679c4fb0",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/us-midwest-midatlantic-flood-risk.png",
-      "contentHash": "f0f02a9cefa11e636d0840bfc1a3d7a636937dd8f223113dfbbdeaa371e24bcc"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/zimbabwe-ferry-death-toll-ninety-four.png",
+      "contentHash": "3709ca4bf83a002baa07e299beb3c17bd11febb109c2969611c72c3b7adadf9e"
     },
     {
-      "topicId": "e5af3778-e680-5ae9-ae76-c3f4fc318a57",
+      "topicId": "6b813df5-6048-5c96-876e-7081679c4fb0",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/us-midwest-midatlantic-flood-risk.png",
-      "contentHash": "48ebb90a9ee755ed41f24d942164dd1a3d2f15024010050a09dd974ded11371a"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/zimbabwe-ferry-death-toll-ninety-four.png",
+      "contentHash": "a19d79bd209483f6047de9afd04fb6b6c34d2e7ffd7bfd2faa991d081a9d8c56"
     },
     {
-      "topicId": "5fa046ae-2795-5c57-8ddb-55495d7f8425",
+      "topicId": "a8f2832a-1906-594b-82c1-5cc664bf9559",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/zh/hawaii-lala-cleanup-rainfall-record.png",
-      "contentHash": "ccfc4fa5c572e56e1fecaa764aa5c4ed46b3b06ccc72732ae9b5fd1f9e404d4b"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/zh/zaporizhzhia-drone-bus-stop-fatality.png",
+      "contentHash": "703f0ae481eb77035ac89b65c92416b679522c94b9983be97f3cc022c6692585"
     },
     {
-      "topicId": "5fa046ae-2795-5c57-8ddb-55495d7f8425",
+      "topicId": "a8f2832a-1906-594b-82c1-5cc664bf9559",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260818_2b5e1c50/en/hawaii-lala-cleanup-rainfall-record.png",
-      "contentHash": "743a49f1f57ddb13d55672b3c79e3028e95cb77444622d68bdf54724bf2a93b9"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260819_681db88f/en/zaporizhzhia-drone-bus-stop-fatality.png",
+      "contentHash": "b28dd1cf3849e9a66978346ff8582ee3267db69e2f340ece646efb60486031bf"
     }
   ]
 }
