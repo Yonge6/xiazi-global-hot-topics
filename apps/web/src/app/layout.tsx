@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     template: "%s | 虾子曰",
   },
   description: "用 9 个全球热点、18 张双语海报，把复杂世界讲清楚。",
+  other: {
+    "google-adsense-account": "ca-pub-7149426538357694",
+  },
 };
 
 export const viewport: Viewport = {
