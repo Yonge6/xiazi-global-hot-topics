@@ -14,6 +14,7 @@ import { isXiaziIOSApp, subscribeToNativeSurface } from "@/lib/native-app";
 const WENDAO_URL = "https://wendao.wonderelian.com/";
 const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
 const YIXIU_URL = "https://yixiu.wonderelian.com/";
+const WONDERELIAN_URL = "https://wonderelian.com/";
 const SUPPORT_QR_URL = "/brand/contact/support-appreciation.jpeg";
 const VIDEO_CHANNEL_QR_URL = "/brand/contact/video-channel.jpg";
 
@@ -65,6 +66,10 @@ function RippleIcon() {
 
 function MeditationIcon() {
   return <LineIcon><path d="M12 5v3m-4.8.2 2.1 2.1m7.5-2.1-2.1 2.1M5 13h14M7 17h10" /><circle cx="12" cy="13" r="2.2" /></LineIcon>;
+}
+
+function WonderElianIcon() {
+  return <LineIcon><path d="m12 3.8 1.6 4.8 4.8 1.6-4.8 1.6-1.6 4.8-1.6-4.8-4.8-1.6 4.8-1.6L12 3.8Z" /><path d="m18.5 15 .6 1.9 1.9.6-1.9.6-.6 1.9-.6-1.9-1.9-.6 1.9-.6.6-1.9Z" /></LineIcon>;
 }
 
 function ArtIcon() {
@@ -320,6 +325,15 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                 <h3 id="drawer-projects-title">
                   {isZh ? "观世界，识自己，也学习看见美。" : "See the world, know yourself, and learn to notice beauty."}
                 </h3>
+
+                <a href={WONDERELIAN_URL} target="_blank" rel="noreferrer">
+                  <span className="drawer-project-mark"><WonderElianIcon /></span>
+                  <span>
+                    <strong>WonderElian</strong>
+                    <small>{isZh ? "让复杂的想法变得清晰、好看而有人情味" : "Make complex ideas clear, beautiful, and human"}</small>
+                  </span>
+                  <ExternalLinkIcon />
+                </a>
 
                 <a href={YIXIU_URL} target="_blank" rel="noreferrer">
                   <span className="drawer-project-mark"><MeditationIcon /></span>

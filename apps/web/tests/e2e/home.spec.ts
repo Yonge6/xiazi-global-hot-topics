@@ -189,9 +189,12 @@ test("opens the world drawer with Xiazi navigation and related projects", async 
   await drawer.getByRole("button", { name: "返回菜单" }).click();
   drawer = page.getByRole("dialog", { name: "你的世界" });
   const projectLinks = drawer.locator(".drawer-projects > a");
-  await expect(projectLinks).toHaveCount(4);
-  await expect(projectLinks.first()).toHaveAttribute("href", "https://yixiu.wonderelian.com/");
-  await expect(projectLinks.first()).toContainText("一休冥想");
+  await expect(projectLinks).toHaveCount(5);
+  await expect(projectLinks.first()).toHaveAttribute("href", "https://wonderelian.com/");
+  await expect(projectLinks.first()).toContainText("WonderElian");
+  await expect(projectLinks.first()).toContainText("让复杂的想法变得清晰、好看而有人情味");
+  await expect(projectLinks.nth(1)).toHaveAttribute("href", "https://yixiu.wonderelian.com/");
+  await expect(projectLinks.nth(1)).toContainText("一休冥想");
   await expect(drawer.getByRole("link", { name: /艺术风格图鉴/ })).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
