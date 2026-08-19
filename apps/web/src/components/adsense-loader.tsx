@@ -4,7 +4,8 @@ import { useEffect } from "react";
 
 import { isNativeIOSSurface } from "@/lib/analytics/client";
 
-const clientID = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID?.trim();
+const clientID = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID?.trim()
+  || "ca-pub-7149426538357694";
 
 function isValidClientID(value: string | undefined): value is string {
   return /^ca-pub-\d{16}$/.test(value ?? "");
