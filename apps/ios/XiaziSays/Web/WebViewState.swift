@@ -26,7 +26,7 @@ final class WebViewState: ObservableObject {
         loadState = .ready
         hasLoadedContent = true
         lastSuccessfulLoad = Date()
-        if let url, AppConfiguration.isAllowed(url) {
+        if let url, AppConfiguration.isRestorableWebURL(url) {
             UserDefaults.standard.set(url.absoluteString, forKey: AppConfiguration.lastWebURLKey)
         }
     }

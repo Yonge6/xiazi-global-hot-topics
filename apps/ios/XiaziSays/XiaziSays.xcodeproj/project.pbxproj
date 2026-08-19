@@ -17,6 +17,9 @@
 		BF1000010000000000000009 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000111 /* PrivacyInfo.xcprivacy */; };
 		BF1000010000000000000010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000304 /* InfoPlist.strings */; };
 		BF1000010000000000000011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000114 /* LaunchScreen.storyboard */; };
+		BF1000010000000000000012 /* Ads/AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000115 /* Ads/AdMobManager.swift */; };
+		BF1000010000000000000013 /* Ads/AdMobNativeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000116 /* Ads/AdMobNativeCard.swift */; };
+		BF1000010000000000000014 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = BF1000010000000000000802 /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		BF1000010000000000000112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF1000010000000000000113 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		BF1000010000000000000114 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF1000010000000000000115 /* Ads/AdMobManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobManager.swift; sourceTree = "<group>"; };
+		BF1000010000000000000116 /* Ads/AdMobNativeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobNativeCard.swift; sourceTree = "<group>"; };
+		BF1000010000000000000117 /* Ads/DebugAdMob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugAdMob-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1000010000000000000014 /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 				BF1000010000000000000101 /* XiaziSaysApp.swift */,
 				BF1000010000000000000102 /* ContentView.swift */,
 				BF1000010000000000000103 /* AppConfiguration.swift */,
+				BF1000010000000000000306 /* Ads */,
 				BF1000010000000000000105 /* Web/WebViewState.swift */,
 				BF1000010000000000000106 /* Web/NativeBridge.swift */,
 				BF1000010000000000000107 /* Web/XiaziWebView.swift */,
@@ -75,6 +83,16 @@
 				BF1000010000000000000304 /* InfoPlist.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF1000010000000000000306 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				BF1000010000000000000115 /* Ads/AdMobManager.swift */,
+				BF1000010000000000000116 /* Ads/AdMobNativeCard.swift */,
+				BF1000010000000000000117 /* Ads/DebugAdMob-Info.plist */,
+			);
+			path = Ads;
 			sourceTree = "<group>";
 		};
 		BF1000010000000000000303 /* Products */ = {
@@ -101,6 +119,9 @@
 			dependencies = (
 			);
 			name = XiaziSays;
+			packageProductDependencies = (
+				BF1000010000000000000802 /* GoogleMobileAds */,
+			);
 			productName = XiaziSays;
 			productReference = BF1000010000000000000109 /* XiaziSays.app */;
 			productType = "com.apple.product-type.application";
@@ -130,6 +151,9 @@
 				"zh-Hans",
 			);
 			mainGroup = BF1000010000000000000301;
+			packageReferences = (
+				BF1000010000000000000801 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = BF1000010000000000000303 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,6 +185,8 @@
 				BF1000010000000000000001 /* XiaziSaysApp.swift in Sources */,
 				BF1000010000000000000002 /* ContentView.swift in Sources */,
 				BF1000010000000000000003 /* AppConfiguration.swift in Sources */,
+				BF1000010000000000000012 /* Ads/AdMobManager.swift in Sources */,
+				BF1000010000000000000013 /* Ads/AdMobNativeCard.swift in Sources */,
 				BF1000010000000000000005 /* Web/WebViewState.swift in Sources */,
 				BF1000010000000000000006 /* Web/NativeBridge.swift in Sources */,
 				BF1000010000000000000007 /* Web/XiaziWebView.swift in Sources */,
@@ -222,14 +248,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = L855ZVM679;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Xiazi Says";
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Ads/DebugAdMob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiazishuo.app;
@@ -289,6 +309,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF1000010000000000000801 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF1000010000000000000802 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF1000010000000000000801 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin PBXVariantGroup section */
 		BF1000010000000000000304 /* InfoPlist.strings */ = {

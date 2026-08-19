@@ -24,6 +24,14 @@ xcodebuild -project XiaziSays.xcodeproj -scheme XiaziSays -sdk iphonesimulator -
 - iOS 端关闭网站匿名统计，不展示“随喜相助”或付款入口；隐私清单声明仅以 `CA92.1` 理由使用 App 自身的 UserDefaults。
 - App Store 支持页为 `/en/support/` 与 `/zh/support/`，隐私页为 `/en/privacy/` 与 `/zh/privacy/`。
 
+## AdMob 原生广告
+
+- Debug 使用 Google 官方 iOS 原生测试广告位，不关联任何真实广告账户。
+- Release 在未配置正式 `GADApplicationIdentifier` 和 `XiaziAdMobNativeAdUnitID` 时自动关闭广告，不会把测试广告带入 App Store。
+- 广告在 H5 加载完成后显示于底部安全区，可隐藏、举报；需要时提供 UMP 隐私选项入口。
+- 所有请求固定为非个性化广告；当前不请求 ATT，也不使用 IDFA 做跨 App 跟踪。
+- 上线正式广告前必须在 AdMob 创建 App 与 Native ad unit、配置 Privacy & messaging，并同步更新 App Store Connect 隐私标签及网站隐私政策。Google Mobile Ads SDK 仍可能处理 IP、设备标识符、广告互动与诊断数据。
+
 ## 桥接协议
 
 网页向 `window.webkit.messageHandlers.xiaziNative` 发送：

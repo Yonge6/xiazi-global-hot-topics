@@ -4,6 +4,7 @@ enum AppConfiguration {
     static let shellVersion = "1.0.0"
     static let productionHost = "xiazishuo.com"
     static let lastWebURLKey = "xiazi.lastWebURL"
+    static let adMobTestNativeAdUnitID = "ca-app-pub-3940256099942544/3986624511"
 
     static var isChinese: Bool {
         Locale.preferredLanguages.first?.lowercased().hasPrefix("zh") == true
@@ -24,7 +25,7 @@ enum AppConfiguration {
 #endif
         guard let stored = UserDefaults.standard.string(forKey: lastWebURLKey),
               let url = URL(string: stored),
-              isAllowed(url),
+              isRestorableWebURL(url),
               var components = URLComponents(url: url, resolvingAgainstBaseURL: false) else {
             return defaultURL
         }
@@ -39,5 +40,44 @@ enum AppConfiguration {
 
     static func isAllowed(_ url: URL) -> Bool {
         url.scheme == "https" && url.host?.lowercased() == productionHost
+    }
+
+    static func isRestorableWebURL(_ url: URL) -> Bool {
+        guard isAllowed(url) else { return false }
+        return url.path == "/"
+            || url.path == "/zh"
+            || url.path.hasPrefix("/zh/")
+            || url.path == "/en"
+            || url.path.hasPrefix("/en/")
+    }
+
+    static var adMobNativeAdUnitID: String? {
+#if DEBUG
+        return adMobTestNativeAdUnitID
+#else
+        guard let value = Bundle.main.object(forInfoDictionaryKey: "XiaziAdMobNativeAdUnitID") as? String,
+              value.hasPrefix("ca-app-pub-"),
+              !value.contains("3940256099942544") else {
+            return nil
+        }
+        return value
+#endif
+    }
+
+    static var adMobIsConfigured: Bool {
+        guard adMobNativeAdUnitID != nil,
+              let appID = Bundle.main.object(forInfoDictionaryKey: "GADApplicationIdentifier") as? String else {
+            return false
+        }
+        return appID.hasPrefix("ca-app-pub-")
+    }
+
+    static var reportAdURL: URL {
+        let subject = isChinese ? "举报虾子曰 App 广告" : "Report an ad in Xiazi Says"
+        var components = URLComponents()
+        components.scheme = "mailto"
+        components.path = "hustyy986@gmail.com"
+        components.queryItems = [URLQueryItem(name: "subject", value: subject)]
+        return components.url!
     }
 }

@@ -4,12 +4,14 @@ struct ContentView: View {
     @Environment(\.scenePhase) private var scenePhase
     @StateObject private var webState: WebViewState
     @StateObject private var bridge: NativeBridge
+    @StateObject private var adMobManager: AdMobManager
     @State private var showingLaunchArtwork = true
 
     init() {
         let webState = WebViewState()
         _webState = StateObject(wrappedValue: webState)
         _bridge = StateObject(wrappedValue: NativeBridge())
+        _adMobManager = StateObject(wrappedValue: AdMobManager())
     }
 
     var body: some View {
@@ -46,12 +48,18 @@ struct ContentView: View {
             }
         }
         .background(Color(red: 0.96, green: 0.93, blue: 0.86))
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            if webState.hasLoadedContent && adMobManager.isConfigured {
+                AdMobFooter(manager: adMobManager)
+            }
+        }
         .animation(.easeOut(duration: 0.22), value: webState.hasLoadedContent)
         .onChange(of: scenePhase) { _, phase in
             guard phase == .active else { return }
             webState.refreshIfStale()
         }
         .task {
+            adMobManager.start()
             guard showingLaunchArtwork else { return }
             try? await Task.sleep(for: .milliseconds(800))
             withAnimation(.easeOut(duration: 0.24)) {

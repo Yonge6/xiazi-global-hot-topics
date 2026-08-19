@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 
+import { AdsenseLoader } from "@/components/adsense-loader";
 import { productConfig } from "@xiazi/config";
 
 const themeBootScript = `
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body>
         {children}
+        <AdsenseLoader />
         <Script src="/analytics.js" strategy="afterInteractive" />
       </body>
     </html>
