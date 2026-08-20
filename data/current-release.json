@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-08-20",
-  "assetBatchId": "asset_prod_20260820_99043e16",
-  "releaseId": "rel_20260820_1f7a54d0500982e2eed2e7aa",
+  "issueDate": "2026-08-21",
+  "releaseId": "rel_20260821_bb4e88240f7e4a8baaeb28bc",
+  "assetBatchId": "asset_prod_20260821_fb43298",
   "posters": [
     {
-      "topicId": "0a7b5d8b-62c1-52e9-8d61-be3538cd1cf1",
+      "topicId": "f6733f1d-fe17-5de0-8fd0-18ee1ee516df",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/today-overview-tariffs-ai-delivery-global-risk.png",
-      "contentHash": "33bbea5f2ace3b58068def9ee5605cba4bf3c83d6f981b7a456f91ff4f3835dc"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/today-overview-tariffs-ai-earthquakes-global-risk.png",
+      "contentHash": "1cf67e21896a26a0cd438b44a42f53c17194680b60e7380b7d923728518f49e7"
     },
     {
-      "topicId": "0a7b5d8b-62c1-52e9-8d61-be3538cd1cf1",
+      "topicId": "f6733f1d-fe17-5de0-8fd0-18ee1ee516df",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/today-overview-tariffs-ai-delivery-global-risk.png",
-      "contentHash": "89b03e139b9252d4fffe84bfea8bdfd96eda23201665f3bf62d5b9c82c1629cd"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/today-overview-tariffs-ai-earthquakes-global-risk.png",
+      "contentHash": "c56826ae8f7b5f69cf53c0334d2632f3c8a44f0dbc9801b1c2b259f367194076"
     },
     {
-      "topicId": "a96d59f1-053d-5b27-816a-947dae57db37",
+      "topicId": "3e9e66fb-e958-5700-b97b-0f9128920dbd",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/us-canada-tariff-three-day-window.png",
-      "contentHash": "213f14acbc1a9c03362f3d318e176940cf77f2f750149acfe1e622bb8d0f34a2"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/us-canada-tariff-talks-new-deadline.png",
+      "contentHash": "00fa273bce65679361b61fb9147e4835607c6c9eef59f68806b3eb1a2bbc0f71"
     },
     {
-      "topicId": "a96d59f1-053d-5b27-816a-947dae57db37",
+      "topicId": "3e9e66fb-e958-5700-b97b-0f9128920dbd",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/us-canada-tariff-three-day-window.png",
-      "contentHash": "3134fce20bb58016e2031da595326898fc2b86fe8744612eafa6b484de01df33"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/us-canada-tariff-talks-new-deadline.png",
+      "contentHash": "f9ecbd571873c956a4a7d65dfbbce3bc11dc4adbc02921446e8a41449a8477d4"
     },
     {
-      "topicId": "d6b8611e-4188-57ca-a9ce-e8dc47c8517b",
+      "topicId": "451a6d85-eefa-5231-a1c1-19e26916f8c0",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/fda-generative-ai-medical-device-feedback.png",
-      "contentHash": "d31cdacdbe25673c4f82340ffc3dc6557e93d9cd6efa0c9b80a5307c3055f5c2"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/california-court-ai-citation-verification-duty.png",
+      "contentHash": "2916274c0a2035d286909d934e60107ce52227be4f95d50fd68a7b90652f2f34"
     },
     {
-      "topicId": "d6b8611e-4188-57ca-a9ce-e8dc47c8517b",
+      "topicId": "451a6d85-eefa-5231-a1c1-19e26916f8c0",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/fda-generative-ai-medical-device-feedback.png",
-      "contentHash": "296c861557adc89922fece323479b978d7be3c48bb3c43cd34d51db784a7b3d8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/california-court-ai-citation-verification-duty.png",
+      "contentHash": "5bfc2017134bbd702612a7a38029978b801273088b0c16f998313ffecbcf2b3b"
     },
     {
-      "topicId": "ff3af5f8-f486-5bbc-882d-cbcdb58f53b1",
+      "topicId": "406b0976-86c2-54e1-a62a-964c6effe62b",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/canva-paystack-nigeria-small-business-tools.png",
-      "contentHash": "13ccacba6f0340e9ee3ec61fc61c83767486f10f06c717dd7bf53ceded0312a8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/meta-mac-app-creators-small-business.png",
+      "contentHash": "3271bdb85113602a8a9ff8d3322503a0fc555c2465e523eeead36596f719a9b1"
     },
     {
-      "topicId": "ff3af5f8-f486-5bbc-882d-cbcdb58f53b1",
+      "topicId": "406b0976-86c2-54e1-a62a-964c6effe62b",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/canva-paystack-nigeria-small-business-tools.png",
-      "contentHash": "303d2f0734545e3e20717337f3945470abd7d03236848c1c1996ce4ffab27118"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/meta-mac-app-creators-small-business.png",
+      "contentHash": "d81f5fcebecbdcd95c889ad54e3221cdcc06dd217e3320e612f9f4583b6eb6ca"
     },
     {
-      "topicId": "01f794f7-38c8-5e14-8fb1-36062a56734c",
+      "topicId": "82c963af-ffdf-53c3-b65c-8453ad929107",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/amazon-drone-delivery-five-hundred-cities.png",
-      "contentHash": "8d48541cb965a3d26215d2ad4d21befaaae76daa1e0f2b2719e9a5e9945917c9"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/peru-southern-andes-earthquake-67.png",
+      "contentHash": "fb724c3d08677ed64e8f033c5ada5c29d9e890b3ad1e60b589fc2c75f97339e6"
     },
     {
-      "topicId": "01f794f7-38c8-5e14-8fb1-36062a56734c",
+      "topicId": "82c963af-ffdf-53c3-b65c-8453ad929107",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/amazon-drone-delivery-five-hundred-cities.png",
-      "contentHash": "46f7286e9f68785d83706394da3f854387409c121edeec13a06020a8d78a687b"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/peru-southern-andes-earthquake-67.png",
+      "contentHash": "5abfabdf012b85c291282c21f0fc9fe3c2144f782cf723c9c159af949d9ebb0b"
     },
     {
-      "topicId": "68a09b1b-b1f9-59b9-9c22-605eb53ffa60",
+      "topicId": "767d914b-9dfc-59f6-9bf3-42243bc8ac96",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/israel-probes-hind-rajab-paramedic-killings.png",
-      "contentHash": "c021364706c82483b7c7daa636d8dab655e2cda435d077c65c01307fbf3077f7"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/us-economic-pressure-iran-trade-partners.png",
+      "contentHash": "57b2c242bfa739ba1595f7d20fe07a89b208961b50acddc314faa8a6804407d3"
     },
     {
-      "topicId": "68a09b1b-b1f9-59b9-9c22-605eb53ffa60",
+      "topicId": "767d914b-9dfc-59f6-9bf3-42243bc8ac96",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/israel-probes-hind-rajab-paramedic-killings.png",
-      "contentHash": "6d0fa88b11bc44f65a5a1f39a80fdb1fc57bd2f7e23cca64edd5bc9b608de68c"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/us-economic-pressure-iran-trade-partners.png",
+      "contentHash": "47a434239d788cdf58aab6ab205eef258653ed91e44a7444c17a285fed1d5a32"
     },
     {
-      "topicId": "b9a5058d-6195-5e30-a88c-8d36c0f6dfeb",
+      "topicId": "0c794a8d-81e4-577c-818c-4232b0ffad18",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/congo-ebola-five-thousand-cases.png",
-      "contentHash": "172203229e27f1df944b33ab87c97a5a38aa2607e080f6c211b541a08f3acac0"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/colombia-earthquake-million-need-aid.png",
+      "contentHash": "e7f336bef160ba9d590035c4aee3f9a9fa21e31b9c36739b11bae978a4cba826"
     },
     {
-      "topicId": "b9a5058d-6195-5e30-a88c-8d36c0f6dfeb",
+      "topicId": "0c794a8d-81e4-577c-818c-4232b0ffad18",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/congo-ebola-five-thousand-cases.png",
-      "contentHash": "7fe5436c0b6bad796e2f4b26e823f94c64839beeccb256120174885358819abd"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/colombia-earthquake-million-need-aid.png",
+      "contentHash": "ec9463c74f8601ecff451a957866aa4081091781da16ad5d4bd943f47c29726f"
     },
     {
-      "topicId": "a92dd64d-9a61-5e54-ac96-794888ec2b31",
+      "topicId": "f43b75a9-ff47-55da-8fd9-019af21e77c5",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/kenya-helicopter-crash-seven-killed.png",
-      "contentHash": "e563f551b6311734b988055f5034aefe3f82243d05262504c21ccd579935b8f0"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/europe-wildfire-risk-rise-39-percent.png",
+      "contentHash": "b846ed89cf3d1a7c7add6c17548a4c4b229236ff40ba71893c6086c5940d4e3b"
     },
     {
-      "topicId": "a92dd64d-9a61-5e54-ac96-794888ec2b31",
+      "topicId": "f43b75a9-ff47-55da-8fd9-019af21e77c5",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/kenya-helicopter-crash-seven-killed.png",
-      "contentHash": "676ea07730ba5e182af15f7da8adb8280bb5c833e2b2637583ef4ee65d329954"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/europe-wildfire-risk-rise-39-percent.png",
+      "contentHash": "684c24b6f918b231567c4839c93e12a686a48040f751caa5a95a2292ae5b4aa7"
     },
     {
-      "topicId": "9ff477a5-b174-52a1-9001-be7d241e1940",
+      "topicId": "d82ebcf0-df11-5a4d-8cad-83878472ebc1",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/zh/high-speed-star-galactic-center-black-hole.png",
-      "contentHash": "1cc7021ed9e02dcb4ea836ad52650a9d64f3d93d30baad1dffd0945bffb515da"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/zh/muon-space-raises-250m-satellite-production.png",
+      "contentHash": "83e82e69db2a0ffaa1207c3470f7c0efb22716cea139dd40c1543e6077e20a89"
     },
     {
-      "topicId": "9ff477a5-b174-52a1-9001-be7d241e1940",
+      "topicId": "d82ebcf0-df11-5a4d-8cad-83878472ebc1",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260820_99043e16/en/high-speed-star-galactic-center-black-hole.png",
-      "contentHash": "20d82635c186df33cbbe7cafa8f481336f7cc0d492f015b8956095bf17b5779b"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260821_fb43298/en/muon-space-raises-250m-satellite-production.png",
+      "contentHash": "260aca2b55ad9e8d605fa9fd2f361328e64b78515d60e35e6db24e533d7296f6"
     }
   ]
 }
