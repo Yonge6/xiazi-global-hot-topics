@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-08-23",
-  "releaseId": "rel_20260823_b71b730e1eeea69f9f447426",
-  "assetBatchId": "asset_prod_20260823_chatgpt_redraw2_2ccabd99",
+  "issueDate": "2026-08-24",
+  "releaseId": "rel_20260824_a9795c09a2528ee8e7eb72f3",
+  "assetBatchId": "asset_prod_20260824_0af936da",
   "posters": [
     {
-      "topicId": "afce99fc-f596-507d-bf5c-a3889bf9f511",
+      "topicId": "fc859abc-fc94-5c20-9257-270075ce9a93",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/today-overview-tariffs-ai-privacy-robots-health-climate-space.png",
-      "contentHash": "a9b822a9a89a3adccf96a897a8f4954fa990f6e95708d236bfe169926635974a"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/today-overview-customs-ai-startups-fire-health-climate-science.png",
+      "contentHash": "de87da1e346bbc03aba7c227762e86ed1740cd6559138b19a6978899db9833d5"
     },
     {
-      "topicId": "afce99fc-f596-507d-bf5c-a3889bf9f511",
+      "topicId": "fc859abc-fc94-5c20-9257-270075ce9a93",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/today-overview-tariffs-ai-privacy-robots-health-climate-space.png",
-      "contentHash": "cff404b6719b8ce3e3c671e988d11b317c88ca8c56e1e736ef10014a4fed3863"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/today-overview-customs-ai-startups-fire-health-climate-science.png",
+      "contentHash": "45290238b69735a065f7c867dfba041f60091e2505b8046815d028488f4f0578"
     },
     {
-      "topicId": "879aea64-cf9d-592f-b696-d17f89c452da",
+      "topicId": "e27b41b8-4d48-5623-84a7-94b4435ca08a",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/us-canada-auto-tariffs-50-percent.png",
-      "contentHash": "c0acee65b6dd8f14f023d0eed95b136ae06a790c25cac8ea1b143e0cb6223103"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/eu-three-euro-low-value-parcel-duty.png",
+      "contentHash": "ed9774c6a471663833ec00b526450bafa9d2cd36fa19bdb1e2367b709992b172"
     },
     {
-      "topicId": "879aea64-cf9d-592f-b696-d17f89c452da",
+      "topicId": "e27b41b8-4d48-5623-84a7-94b4435ca08a",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/us-canada-auto-tariffs-50-percent.png",
-      "contentHash": "0ef136551c5d61f9db9af505a988e30bdf403a1107f4c73f1b4dd00c92018459"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/eu-three-euro-low-value-parcel-duty.png",
+      "contentHash": "2c7f65cc736c817dd169bced2c5eb009f1d9a15471c136ee8f9316c464205902"
     },
     {
-      "topicId": "1ee12707-0f0d-5dac-a1fb-f4abf60a5412",
+      "topicId": "841903eb-db14-5126-892c-3e1bedeae37d",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/eu-ai-act-transparency-enforcement.png",
-      "contentHash": "5e76fb034407d957ec5a79a7b6ecc2b1b55ffc021bb042674aced27b8a9cc506"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/aisi-unsanctioned-ai-agent-cyber-actions.png",
+      "contentHash": "9aa4cba8e36ad325b5a7e025afc77b3bd06915497369089c45b111d0dc2287b0"
     },
     {
-      "topicId": "1ee12707-0f0d-5dac-a1fb-f4abf60a5412",
+      "topicId": "841903eb-db14-5126-892c-3e1bedeae37d",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/eu-ai-act-transparency-enforcement.png",
-      "contentHash": "6b23db2011d03d3e2dcb79b2a32c55cab187bf0035ce66e316259bb8796b3b36"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/aisi-unsanctioned-ai-agent-cyber-actions.png",
+      "contentHash": "140f57c8a14ed84f6d9e547d3ff0761672065fa47545c7a36dd39cb6855014c6"
     },
     {
-      "topicId": "977058b4-0f9f-5f9d-9085-d01038a48749",
+      "topicId": "c59f7187-58ea-5826-ac80-350fa49766ec",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/small-businesses-become-creators-ai-time-savings.png",
-      "contentHash": "38dd2758cffa899a5851840f3bbbde98564c841e3d71d1d164bc7780e0b99bb6"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/us-july-business-applications-rise.png",
+      "contentHash": "01d1793013dbb8dc943480e7fe4d1fe6abb71073850667b406772c703892e2c0"
     },
     {
-      "topicId": "977058b4-0f9f-5f9d-9085-d01038a48749",
+      "topicId": "c59f7187-58ea-5826-ac80-350fa49766ec",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/small-businesses-become-creators-ai-time-savings.png",
-      "contentHash": "e722d590743173993940b54cd99b296e9cedb71cae32b7ae47ef54133d345431"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/us-july-business-applications-rise.png",
+      "contentHash": "34c8908b77c4960295dfb2984edb73656c7bf99053c79d48ed01a6f89134f900"
     },
     {
-      "topicId": "2c0b3171-0a99-51bf-a184-03a06c3bcbac",
+      "topicId": "330e6ef6-8e6f-53a8-8d45-4af17dcab03f",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/tiktok-400m-child-privacy-settlement.png",
-      "contentHash": "9eba880b69e0d6e40458300d945324cfa01a0297e2b8ac772156413369b6b1d8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/reno-hawk-fire-mass-evacuations.png",
+      "contentHash": "26a8c9e045b55e892be491ad2c3a5d10d1048a27e8e96f01c3413dd43a8a2f0b"
     },
     {
-      "topicId": "2c0b3171-0a99-51bf-a184-03a06c3bcbac",
+      "topicId": "330e6ef6-8e6f-53a8-8d45-4af17dcab03f",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/tiktok-400m-child-privacy-settlement.png",
-      "contentHash": "2bb7aefcdacda7cc1958064fdf36a076c37daa13a5e49f5005e9cf5445477105"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/reno-hawk-fire-mass-evacuations.png",
+      "contentHash": "b5b28beef53fd049cb0e3295670b0761ab6593dd70ba4ed351de4853b1df39d4"
     },
     {
-      "topicId": "6f9b5d3e-4fea-54c9-8b66-a545f2be12fd",
+      "topicId": "14a320f6-5f8a-5dce-a9e8-04688371a861",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/china-humanoid-robot-100m-record.png",
-      "contentHash": "65b0410cb3b50a271b7fe0c4e79e4d7ae4d7e4743ecc92400a26b35d14b07691"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/drc-bundibugyo-ebola-largest-outbreak.png",
+      "contentHash": "895661012deb97ffd5fd7b77e8b497ef5acc992f587f01ed3d0917dd00f0f22f"
     },
     {
-      "topicId": "6f9b5d3e-4fea-54c9-8b66-a545f2be12fd",
+      "topicId": "14a320f6-5f8a-5dce-a9e8-04688371a861",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/china-humanoid-robot-100m-record.png",
-      "contentHash": "ee8b6deab4d6a558540ac92279612c0c847f4d95bfa5c63399bf16e1b6d9f603"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/drc-bundibugyo-ebola-largest-outbreak.png",
+      "contentHash": "5571b07c86ce31c8487c35b2c158d8859458029ab7899cf25a5970d54b4b3df8"
     },
     {
-      "topicId": "404ccb37-3bb6-5886-b43b-9dd523631730",
+      "topicId": "96e3658a-f55f-5af5-9051-985185e018f0",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/sprouts-ecoli-salmonella-outbreak.png",
-      "contentHash": "8d4f1b2f201457451a37dd27924e1191b50b32c33b15066b49a2044e9a93b6dd"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/europe-scorching-summer-record-heat-2026.png",
+      "contentHash": "bdb66d9b757473926e69850f9e895a046b3e69b03594b9db5662812bc85196be"
     },
     {
-      "topicId": "404ccb37-3bb6-5886-b43b-9dd523631730",
+      "topicId": "96e3658a-f55f-5af5-9051-985185e018f0",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/sprouts-ecoli-salmonella-outbreak.png",
-      "contentHash": "a56954a96a7aea0a515c0fe1fc0137ea541b90ce992ad05cd0af37b9d02c832e"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/europe-scorching-summer-record-heat-2026.png",
+      "contentHash": "f1af04a5f0b217708a1519f2802a474e97001852848d5722eae3ca0ac5a687da"
     },
     {
-      "topicId": "aa28df31-3e88-5708-8692-8b38480a19d0",
+      "topicId": "bc1abbb8-4371-5087-954a-2442c00bca3e",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/europe-scorching-summer-record-heat.png",
-      "contentHash": "3cf8a51c940d6a2b704a1a928c0180057095825b48250863a95047bf95b26604"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/colombia-mine-collapse-thirteen-dead.png",
+      "contentHash": "22891b96c9cf1325994a9d013dae607a31b06e621bbc6ae190c0c340bad69712"
     },
     {
-      "topicId": "aa28df31-3e88-5708-8692-8b38480a19d0",
+      "topicId": "bc1abbb8-4371-5087-954a-2442c00bca3e",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/europe-scorching-summer-record-heat.png",
-      "contentHash": "babdcb3429c887d65d17511ac7aa66340eea74826f201f57ab27ca998d9294b0"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/colombia-mine-collapse-thirteen-dead.png",
+      "contentHash": "3535337dca76f5be598ef286c62129ccbaa53f9f2ab82bb1640780f127e78043"
     },
     {
-      "topicId": "f37f0a42-1d05-5ca9-b7d2-7a1560024121",
+      "topicId": "09c0882d-3062-5358-9c70-16e9a0d21455",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/zh/nasa-swift-boost-mission-ended.png",
-      "contentHash": "2d46bce882f61a94e620a881e6bdaed5b85974659af02ca23c874a19ebe7a068"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/zh/hubble-early-milky-way-merger.png",
+      "contentHash": "0538cfb5bde508cd95f3a35d73b3ec440b850fa670fda24f55f582db8ee5bdef"
     },
     {
-      "topicId": "f37f0a42-1d05-5ca9-b7d2-7a1560024121",
+      "topicId": "09c0882d-3062-5358-9c70-16e9a0d21455",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260823_chatgpt_redraw2_2ccabd99/en/nasa-swift-boost-mission-ended.png",
-      "contentHash": "15b776907f2fa1e5970a5dc8d2fd260d776cde2638850fb7a7299e4ae3e63f52"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260824_0af936da/en/hubble-early-milky-way-merger.png",
+      "contentHash": "916517ee5c57c111941d33d56b10d472647c14c206998703d0d103e7b1db3bdf"
     }
   ]
 }
