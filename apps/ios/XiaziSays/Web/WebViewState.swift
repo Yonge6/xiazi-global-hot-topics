@@ -38,7 +38,7 @@ final class WebViewState: ObservableObject {
     func reload() {
         loadState = .loading
         if let webView {
-            webView.reload()
+            webView.reloadFromOrigin()
         }
     }
 

@@ -43,7 +43,7 @@ struct XiaziWebView: UIViewRepresentable {
         bridge.webView = webView
         webView.load(URLRequest(
             url: AppConfiguration.initialURL,
-            cachePolicy: .useProtocolCachePolicy,
+            cachePolicy: .reloadIgnoringLocalCacheData,
             timeoutInterval: 30
         ))
         return webView
@@ -87,8 +87,7 @@ struct XiaziWebView: UIViewRepresentable {
         }
 
         @objc func refresh(_ sender: UIRefreshControl) {
-            state.markLoading()
-            state.webView?.reload()
+            state.reload()
             sender.endRefreshing()
         }
 

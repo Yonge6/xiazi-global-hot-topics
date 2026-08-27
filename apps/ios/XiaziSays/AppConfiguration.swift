@@ -1,7 +1,7 @@
 import Foundation
 
 enum AppConfiguration {
-    static let shellVersion = "1.0.0"
+    static let shellVersion = "1.0.1"
     static let productionHost = "xiazishuo.com"
     static let lastWebURLKey = "xiazi.lastWebURL"
     static let adMobTestNativeAdUnitID = "ca-app-pub-3940256099942544/3986624511"
