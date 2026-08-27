@@ -18,6 +18,7 @@ final class AdMobManager: NSObject, ObservableObject {
     func start() {
         guard isConfigured, !hasStartedConsentFlow else { return }
         hasStartedConsentFlow = true
+        MobileAds.shared.requestConfiguration.setPublisherFirstPartyIDEnabled(false)
 
         Task { @MainActor in
             do {
