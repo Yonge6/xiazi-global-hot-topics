@@ -24,6 +24,11 @@ export function isXiaziIOSApp() {
     && typeof current.webkit?.messageHandlers?.xiaziNative?.postMessage === "function";
 }
 
+export function hasNativeCapability(capability: string) {
+  if (!isXiaziIOSApp()) return false;
+  return nativeWindow().XiaziNativeBridge?.capabilities?.includes(capability) === true;
+}
+
 export const subscribeToNativeSurface = () => () => {};
 
 export function postNativeMessage(type: string, payload: Record<string, unknown> = {}) {
