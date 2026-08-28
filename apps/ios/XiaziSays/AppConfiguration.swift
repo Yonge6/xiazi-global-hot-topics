@@ -1,10 +1,14 @@
 import Foundation
 
 enum AppConfiguration {
-    static let shellVersion = "1.0.1"
+    static let shellVersion = "1.0.2"
     static let productionHost = "xiazishuo.com"
     static let lastWebURLKey = "xiazi.lastWebURL"
     static let adMobTestNativeAdUnitID = "ca-app-pub-3940256099942544/3986624511"
+    static let subscriptionProductIDs = [
+        "com.xiazishuo.app.adfree.monthly",
+        "com.xiazishuo.app.adfree.annual",
+    ]
 
     static var isChinese: Bool {
         Locale.preferredLanguages.first?.lowercased().hasPrefix("zh") == true
@@ -79,5 +83,13 @@ enum AppConfiguration {
         components.path = "hustyy986@gmail.com"
         components.queryItems = [URLQueryItem(name: "subject", value: subject)]
         return components.url!
+    }
+
+    static var privacyURL: URL {
+        URL(string: "https://xiazishuo.com/\(isChinese ? "zh" : "en")/privacy/")!
+    }
+
+    static var termsURL: URL {
+        URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!
     }
 }

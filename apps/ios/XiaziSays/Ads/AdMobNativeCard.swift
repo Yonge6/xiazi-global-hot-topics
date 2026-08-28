@@ -3,6 +3,7 @@ import SwiftUI
 
 struct AdMobFooter: View {
     @ObservedObject var manager: AdMobManager
+    let onRemoveAds: () -> Void
     @Environment(\.openURL) private var openURL
     @State private var isDismissed = false
 
@@ -20,6 +21,13 @@ struct AdMobFooter: View {
                             .frame(height: 104)
 
                         Menu {
+                            Button(action: onRemoveAds) {
+                                Label(
+                                    AppConfiguration.isChinese ? "去除广告" : "Remove Ads",
+                                    systemImage: "sparkles"
+                                )
+                            }
+
                             Button {
                                 openURL(AppConfiguration.reportAdURL)
                             } label: {

@@ -10,13 +10,19 @@ final class AdMobManager: NSObject, ObservableObject {
     private var adLoader: AdLoader?
     private var hasStartedConsentFlow = false
     private var hasStartedMobileAds = false
+    private var adsEnabled = false
 
     var isConfigured: Bool {
         AppConfiguration.adMobIsConfigured
     }
 
     func start() {
-        guard isConfigured, !hasStartedConsentFlow else { return }
+        guard isConfigured else { return }
+        adsEnabled = true
+        if hasStartedConsentFlow {
+            startMobileAdsIfAllowed()
+            return
+        }
         hasStartedConsentFlow = true
         MobileAds.shared.requestConfiguration.setPublisherFirstPartyIDEnabled(false)
 
@@ -33,6 +39,13 @@ final class AdMobManager: NSObject, ObservableObject {
             refreshPrivacyOptionsState()
             startMobileAdsIfAllowed()
         }
+    }
+
+    func stop() {
+        adsEnabled = false
+        nativeAd = nil
+        adLoader?.delegate = nil
+        adLoader = nil
     }
 
     func presentPrivacyOptions() {
@@ -55,14 +68,19 @@ final class AdMobManager: NSObject, ObservableObject {
     }
 
     private func startMobileAdsIfAllowed() {
-        guard ConsentInformation.shared.canRequestAds, !hasStartedMobileAds else { return }
-        hasStartedMobileAds = true
-        MobileAds.shared.start()
+        guard adsEnabled, ConsentInformation.shared.canRequestAds else { return }
+        if !hasStartedMobileAds {
+            hasStartedMobileAds = true
+            MobileAds.shared.start()
+        }
         loadNativeAd()
     }
 
     private func loadNativeAd() {
-        guard let adUnitID = AppConfiguration.adMobNativeAdUnitID else { return }
+        guard adsEnabled,
+              nativeAd == nil,
+              adLoader == nil,
+              let adUnitID = AppConfiguration.adMobNativeAdUnitID else { return }
         let loader = AdLoader(
             adUnitID: adUnitID,
             rootViewController: nil,
@@ -82,10 +100,13 @@ final class AdMobManager: NSObject, ObservableObject {
 
 extension AdMobManager: NativeAdLoaderDelegate {
     func adLoader(_ adLoader: AdLoader, didReceive nativeAd: NativeAd) {
+        self.adLoader = nil
+        guard adsEnabled else { return }
         self.nativeAd = nativeAd
     }
 
     func adLoader(_ adLoader: AdLoader, didFailToReceiveAdWithError error: Error) {
+        self.adLoader = nil
 #if DEBUG
         print("AdMob native ad: \(error.localizedDescription)")
 #endif

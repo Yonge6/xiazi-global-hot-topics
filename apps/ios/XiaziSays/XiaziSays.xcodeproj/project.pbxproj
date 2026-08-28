@@ -20,6 +20,8 @@
 		BF1000010000000000000012 /* Ads/AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000115 /* Ads/AdMobManager.swift */; };
 		BF1000010000000000000013 /* Ads/AdMobNativeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000116 /* Ads/AdMobNativeCard.swift */; };
 		BF1000010000000000000014 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = BF1000010000000000000802 /* GoogleMobileAds */; };
+		BF1000010000000000000015 /* Subscriptions/SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000119 /* Subscriptions/SubscriptionManager.swift */; };
+		BF1000010000000000000016 /* Subscriptions/SubscriptionPaywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1000010000000000000120 /* Subscriptions/SubscriptionPaywall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		BF1000010000000000000116 /* Ads/AdMobNativeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobNativeCard.swift; sourceTree = "<group>"; };
 		BF1000010000000000000117 /* Ads/DebugAdMob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DebugAdMob-Info.plist"; sourceTree = "<group>"; };
 		BF1000010000000000000118 /* Ads/ReleaseAdMob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReleaseAdMob-Info.plist"; sourceTree = "<group>"; };
+		BF1000010000000000000119 /* Subscriptions/SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		BF1000010000000000000120 /* Subscriptions/SubscriptionPaywall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPaywall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				BF1000010000000000000102 /* ContentView.swift */,
 				BF1000010000000000000103 /* AppConfiguration.swift */,
 				BF1000010000000000000306 /* Ads */,
+				BF1000010000000000000307 /* Subscriptions */,
 				BF1000010000000000000105 /* Web/WebViewState.swift */,
 				BF1000010000000000000106 /* Web/NativeBridge.swift */,
 				BF1000010000000000000107 /* Web/XiaziWebView.swift */,
@@ -95,6 +100,15 @@
 				BF1000010000000000000118 /* Ads/ReleaseAdMob-Info.plist */,
 			);
 			path = Ads;
+			sourceTree = "<group>";
+		};
+		BF1000010000000000000307 /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				BF1000010000000000000119 /* Subscriptions/SubscriptionManager.swift */,
+				BF1000010000000000000120 /* Subscriptions/SubscriptionPaywall.swift */,
+			);
+			path = Subscriptions;
 			sourceTree = "<group>";
 		};
 		BF1000010000000000000303 /* Products */ = {
@@ -189,6 +203,8 @@
 				BF1000010000000000000003 /* AppConfiguration.swift in Sources */,
 				BF1000010000000000000012 /* Ads/AdMobManager.swift in Sources */,
 				BF1000010000000000000013 /* Ads/AdMobNativeCard.swift in Sources */,
+				BF1000010000000000000015 /* Subscriptions/SubscriptionManager.swift in Sources */,
+				BF1000010000000000000016 /* Subscriptions/SubscriptionPaywall.swift in Sources */,
 				BF1000010000000000000005 /* Web/WebViewState.swift in Sources */,
 				BF1000010000000000000006 /* Web/NativeBridge.swift in Sources */,
 				BF1000010000000000000007 /* Web/XiaziWebView.swift in Sources */,
@@ -248,12 +264,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = L855ZVM679;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Ads/DebugAdMob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiazishuo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -268,12 +284,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = L855ZVM679;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Ads/ReleaseAdMob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiazishuo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

@@ -159,6 +159,10 @@ test("opens the world drawer with Xiazi navigation and related projects", async 
   await expect(drawer.getByText("今日刊物")).toHaveCount(0);
   await expect(drawer.locator(".drawer-support")).toBeVisible();
   await expect(drawer.getByRole("switch", { name: "切换日间或夜间模式" })).toBeVisible();
+  await expect(drawer.getByRole("link", { name: /下载虾子曰 App/ })).toHaveAttribute(
+    "href",
+    "https://apps.apple.com/app/id6799621217",
+  );
   await drawer.getByRole("button", { name: /关于虾子曰/ }).click();
   drawer = page.getByRole("dialog", { name: "关于虾子曰" });
   await expect(drawer.getByText("生命不是用来证明自己的，而是用来认识、接纳、成为并活出自己。")).toBeVisible();
@@ -220,7 +224,11 @@ test("hides support and uses Apple sharing inside the iOS shell", async ({ page 
     const nativeMessages: unknown[] = [];
     Object.defineProperty(window, "__xiaziNativeMessages", { value: nativeMessages });
     Object.defineProperty(window, "XiaziNativeBridge", {
-      value: { platform: "ios", shellVersion: "1.0.1", capabilities: ["poster.share", "poster.save"] },
+      value: {
+        platform: "ios",
+        shellVersion: "1.0.1",
+        capabilities: ["poster.share", "poster.save", "subscription.open"],
+      },
     });
     Object.defineProperty(window, "webkit", {
       value: {
@@ -240,7 +248,8 @@ test("hides support and uses Apple sharing inside the iOS shell", async ({ page 
   await page.getByRole("button", { name: "打开菜单" }).click();
   const drawer = page.getByRole("dialog", { name: "你的世界" });
   await expect(drawer.locator(".drawer-support")).toBeHidden();
-  await drawer.getByRole("button", { name: "关闭菜单" }).click();
+  await expect(drawer.getByRole("link", { name: /下载虾子曰 App/ })).toHaveCount(0);
+  await drawer.getByRole("button", { name: /去除广告/ }).click();
 
   await page.getByRole("button", { name: /^分享/ }).first().click();
   const shareDialog = page.getByRole("dialog", { name: "分享海报" });
@@ -256,8 +265,9 @@ test("hides support and uses Apple sharing inside the iOS shell", async ({ page 
   const nativeMessages = await page.evaluate(() => (
     window as unknown as Window & { __xiaziNativeMessages: unknown[] }
   ).__xiaziNativeMessages);
-  expect(nativeMessages).toHaveLength(3);
-  expect(nativeMessages[0]).toEqual(expect.objectContaining({
+  expect(nativeMessages).toHaveLength(4);
+  expect(nativeMessages[0]).toEqual({ type: "subscription.open", payload: {} });
+  expect(nativeMessages[1]).toEqual(expect.objectContaining({
     type: "poster.share",
     payload: expect.objectContaining({
       url: expect.stringMatching(/^https?:\/\/[^/]+\/api\/posters\/zh\//),
@@ -265,7 +275,7 @@ test("hides support and uses Apple sharing inside the iOS shell", async ({ page 
       text: expect.any(String),
     }),
   }));
-  for (const message of nativeMessages.slice(1)) {
+  for (const message of nativeMessages.slice(2)) {
     expect(message).toEqual(expect.objectContaining({
       type: "poster.save",
       payload: expect.objectContaining({

@@ -4,6 +4,7 @@ import WebKit
 
 @MainActor
 final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
+    @Published var isSubscriptionPresented = false
     weak var webView: WKWebView?
 
     private let logger = Logger(
@@ -46,6 +47,8 @@ final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
             Task {
                 await presentPosterSaveSheet(from: url, filename: filename)
             }
+        case "subscription.open":
+            isSubscriptionPresented = true
         default:
             logger.notice("operation=receive status=unsupported type=\(type, privacy: .public)")
         }

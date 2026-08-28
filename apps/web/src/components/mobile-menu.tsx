@@ -9,7 +9,12 @@ import { AboutCopy } from "@/components/about-section";
 import { ThemeToggle } from "@/components/theme-toggle";
 import type { AppLocale } from "@/i18n/config";
 import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
-import { isXiaziIOSApp, subscribeToNativeSurface } from "@/lib/native-app";
+import {
+  hasNativeCapability,
+  isXiaziIOSApp,
+  postNativeMessage,
+  subscribeToNativeSurface,
+} from "@/lib/native-app";
 
 const WENDAO_URL = "https://wendao.wonderelian.com/";
 const HUMAN_DESIGN_URL = "https://human-design.wonderelian.com/";
@@ -17,6 +22,7 @@ const YIXIU_URL = "https://yixiu.wonderelian.com/";
 const WONDERELIAN_URL = "https://wonderelian.com/";
 const SUPPORT_QR_URL = "/brand/contact/support-appreciation.jpeg";
 const VIDEO_CHANNEL_QR_URL = "/brand/contact/video-channel.jpg";
+const APP_STORE_URL = "https://apps.apple.com/app/id6799621217";
 
 type DrawerView = "home" | "about" | "contact" | "support";
 
@@ -62,6 +68,14 @@ function EnvelopeIcon() {
 
 function RippleIcon() {
   return <LineIcon><path d="M4.5 9.5c2.3 1.6 4.7 1.6 7 0s4.7-1.6 8 0M4.5 14.5c2.3 1.6 4.7 1.6 7 0s4.7-1.6 8 0" /></LineIcon>;
+}
+
+function AppStoreIcon() {
+  return <LineIcon><rect x="5" y="4" width="14" height="16" rx="3" /><path d="M9 16h6M12 7v6m-2-2 2 2 2-2" /></LineIcon>;
+}
+
+function RemoveAdsIcon() {
+  return <LineIcon><path d="m12 4 1.7 5.1L19 11l-5.3 1.9L12 18l-1.7-5.1L5 11l5.3-1.9L12 4Z" /></LineIcon>;
 }
 
 function MeditationIcon() {
@@ -132,6 +146,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [view, setView] = useState<DrawerView>("home");
   const [videoChannelOpen, setVideoChannelOpen] = useState(false);
   const isIOSApp = useSyncExternalStore(subscribeToNativeSurface, isXiaziIOSApp, () => false);
+  const canOpenSubscriptions = isIOSApp && hasNativeCapability("subscription.open");
   const triggerRef = useRef<HTMLButtonElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const videoChannelTriggerRef = useRef<HTMLButtonElement>(null);
@@ -270,6 +285,33 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                   title={isZh ? "夜读模式" : "Night reading"}
                   description={isZh ? "调低光线，让眼睛和心一起慢下来" : "Lower the light and read at an easier pace"}
                 />
+
+                {canOpenSubscriptions ? (
+                  <button
+                    className="drawer-nav-row"
+                    type="button"
+                    onClick={() => {
+                      postNativeMessage("subscription.open");
+                      closeMenu();
+                    }}
+                  >
+                    <span className="drawer-nav-icon"><RemoveAdsIcon /></span>
+                    <span className="drawer-nav-copy">
+                      <strong>{isZh ? "去除广告" : "Remove ads"}</strong>
+                      <small>{isZh ? "订阅后在 App 内清净阅读" : "Subscribe for an ad-free app"}</small>
+                    </span>
+                    <ChevronRightIcon />
+                  </button>
+                ) : !isIOSApp ? (
+                  <a className="drawer-nav-row" href={APP_STORE_URL} target="_blank" rel="noreferrer">
+                    <span className="drawer-nav-icon"><AppStoreIcon /></span>
+                    <span className="drawer-nav-copy">
+                      <strong>{isZh ? "下载虾子曰 App" : "Download Xiazi Says"}</strong>
+                      <small>{isZh ? "前往 App Store" : "Get it on the App Store"}</small>
+                    </span>
+                    <ExternalLinkIcon />
+                  </a>
+                ) : null}
 
                 <a className="drawer-nav-row" href="#archive" onClick={() => closeMenu()}>
                   <span className="drawer-nav-icon"><ArchiveIcon /></span>

@@ -5,6 +5,7 @@ struct ContentView: View {
     @StateObject private var webState: WebViewState
     @StateObject private var bridge: NativeBridge
     @StateObject private var adMobManager: AdMobManager
+    @StateObject private var subscriptionManager: SubscriptionManager
     @State private var showingLaunchArtwork = true
 
     init() {
@@ -12,6 +13,7 @@ struct ContentView: View {
         _webState = StateObject(wrappedValue: webState)
         _bridge = StateObject(wrappedValue: NativeBridge())
         _adMobManager = StateObject(wrappedValue: AdMobManager())
+        _subscriptionManager = StateObject(wrappedValue: SubscriptionManager())
     }
 
     var body: some View {
@@ -49,8 +51,10 @@ struct ContentView: View {
         }
         .background(Color(red: 0.96, green: 0.93, blue: 0.86))
         .safeAreaInset(edge: .bottom, spacing: 0) {
-            if webState.hasLoadedContent && adMobManager.isConfigured {
-                AdMobFooter(manager: adMobManager)
+            if webState.hasLoadedContent && adMobManager.isConfigured && !subscriptionManager.hasAdFreeAccess {
+                AdMobFooter(manager: adMobManager) {
+                    bridge.isSubscriptionPresented = true
+                }
             }
         }
         .animation(.easeOut(duration: 0.22), value: webState.hasLoadedContent)
@@ -58,8 +62,21 @@ struct ContentView: View {
             guard phase == .active else { return }
             webState.refreshIfStale()
         }
+        .onChange(of: subscriptionManager.hasAdFreeAccess) { _, hasAccess in
+            if hasAccess {
+                adMobManager.stop()
+            } else {
+                adMobManager.start()
+            }
+        }
+        .sheet(isPresented: $bridge.isSubscriptionPresented) {
+            SubscriptionPaywall(manager: subscriptionManager)
+        }
         .task {
-            adMobManager.start()
+            await subscriptionManager.start()
+            if !subscriptionManager.hasAdFreeAccess {
+                adMobManager.start()
+            }
             guard showingLaunchArtwork else { return }
             try? await Task.sleep(for: .milliseconds(800))
             withAnimation(.easeOut(duration: 0.24)) {
