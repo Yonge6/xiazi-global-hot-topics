@@ -15,6 +15,14 @@ import {
 import { fetchBufferWithRetry } from "./lib/remote-file-fetch.mjs";
 
 const PRODUCTION_ORIGIN = "https://xiazishuo.com";
+const RUNTIME_BRAND_ASSETS = [
+  "brand/logo/xiazi-global-hot-topics.webp",
+  "brand/characters/xiazi/xiazi-master-front.webp",
+  "brand/characters/doudou/doudou-master-front.webp",
+  "brand/masthead/editorial-atlas-bg-v1.webp",
+  "brand/contact/support-appreciation.jpeg",
+  "brand/contact/video-channel.jpg",
+];
 const CURRENT_MIRRORS = [
   "data/current-issue.json",
   "src/data/current-issue.json",
@@ -232,14 +240,13 @@ async function runLocalChecks() {
 
   const requiredStatic = [
     "public/posters/default-poster.jpg",
-    "apps/web/public/brand/characters/xiazi/xiazi-master-front.webp",
-    "apps/web/public/brand/characters/doudou/doudou-master-front.webp",
+    ...RUNTIME_BRAND_ASSETS.map((asset) => `apps/web/public/${asset}`),
   ];
   try {
     await Promise.all(requiredStatic.map((file) => stat(file)));
-    pass("ASSET-002", "Fallback poster and both master character assets exist", requiredStatic);
+    pass("ASSET-002", "Fallback poster and all runtime brand assets exist", requiredStatic);
   } catch (cause) {
-    fail("ASSET-002", "A required fallback or character asset is missing", String(cause));
+    fail("ASSET-002", "A required fallback or runtime brand asset is missing", String(cause));
   }
 }
 
@@ -334,6 +341,23 @@ async function mapLimit(values, concurrency, worker) {
 }
 
 async function runLiveChecks() {
+  try {
+    const details = await mapLimit(RUNTIME_BRAND_ASSETS, 3, async (asset) => {
+      const response = await fetchWithRetry(`${PRODUCTION_ORIGIN}/${asset}`);
+      assertFirstParty(response, asset);
+      const contentType = response.headers.get("content-type") || "";
+      if (!response.ok || !/^image\//i.test(contentType)) {
+        throw new Error(`${asset} returned HTTP ${response.status} (${contentType || "missing content-type"})`);
+      }
+      const bytes = Buffer.byteLength(await response.arrayBuffer());
+      if (bytes < 10_000) throw new Error(`${asset} is suspiciously small (${bytes} bytes)`);
+      return { asset, bytes, contentType };
+    });
+    pass("LIVE-007", "All runtime brand images are available from production", details);
+  } catch (cause) {
+    fail("LIVE-007", "A required production brand image is missing", String(cause));
+  }
+
   let issue;
   try {
     const { response, value } = await fetchJson(`${PRODUCTION_ORIGIN}/api/content/`, "content API");
