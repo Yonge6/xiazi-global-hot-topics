@@ -64,7 +64,7 @@ struct XiaziWebView: UIViewRepresentable {
       value: Object.freeze({
         platform: 'ios',
         shellVersion: '\(AppConfiguration.shellVersion)',
-        capabilities: Object.freeze(['poster.share'])
+        capabilities: Object.freeze(['poster.share', 'poster.save'])
       }),
       configurable: false,
       writable: false

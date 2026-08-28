@@ -37,5 +37,6 @@ xcodebuild -project XiaziSays.xcodeproj -scheme XiaziSays -sdk iphonesimulator -
 网页向 `window.webkit.messageHandlers.xiaziNative` 发送：
 
 - `poster.share`：携带同源海报 URL、标题和正文，打开苹果系统分享面板。
+- `poster.save`：携带同源海报 URL 和文件名，以原始 PNG 文件打开系统分享面板；选择“保存图像”成功后显示轻量反馈。
 
 原生只接受 `https://xiazishuo.com` 的海报 URL；系统分享面板负责分享、复制和存储到照片等动作。

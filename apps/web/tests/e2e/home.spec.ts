@@ -220,7 +220,7 @@ test("hides support and uses Apple sharing inside the iOS shell", async ({ page 
     const nativeMessages: unknown[] = [];
     Object.defineProperty(window, "__xiaziNativeMessages", { value: nativeMessages });
     Object.defineProperty(window, "XiaziNativeBridge", {
-      value: { platform: "ios", shellVersion: "1.0.0", capabilities: ["poster.share"] },
+      value: { platform: "ios", shellVersion: "1.0.1", capabilities: ["poster.share", "poster.save"] },
     });
     Object.defineProperty(window, "webkit", {
       value: {
@@ -250,22 +250,67 @@ test("hides support and uses Apple sharing inside the iOS shell", async ({ page 
 
   await page.getByRole("button", { name: /保存海报/ }).first().click();
   await page.getByRole("button", { name: /查看原图/ }).first().click();
-  await expect(page.getByRole("dialog", { name: "海报原图" }).getByRole("button", { name: /保存原图/ })).toBeVisible();
+  const originalDialog = page.getByRole("dialog", { name: "海报原图" });
+  await originalDialog.getByRole("button", { name: /保存原图/ }).click();
 
   const nativeMessages = await page.evaluate(() => (
     window as unknown as Window & { __xiaziNativeMessages: unknown[] }
   ).__xiaziNativeMessages);
-  expect(nativeMessages).toHaveLength(2);
-  for (const message of nativeMessages) {
+  expect(nativeMessages).toHaveLength(3);
+  expect(nativeMessages[0]).toEqual(expect.objectContaining({
+    type: "poster.share",
+    payload: expect.objectContaining({
+      url: expect.stringMatching(/^https?:\/\/[^/]+\/api\/posters\/zh\//),
+      title: expect.any(String),
+      text: expect.any(String),
+    }),
+  }));
+  for (const message of nativeMessages.slice(1)) {
     expect(message).toEqual(expect.objectContaining({
-      type: "poster.share",
+      type: "poster.save",
       payload: expect.objectContaining({
         url: expect.stringMatching(/^https?:\/\/[^/]+\/api\/posters\/zh\//),
-        title: expect.any(String),
-        text: expect.any(String),
+        filename: expect.stringMatching(/-zh\.png$/),
       }),
     }));
   }
+});
+
+test("falls back to Apple sharing when an older iOS shell saves a poster", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== "mobile");
+  await page.addInitScript(() => {
+    const nativeMessages: unknown[] = [];
+    Object.defineProperty(window, "__xiaziNativeMessages", { value: nativeMessages });
+    Object.defineProperty(window, "XiaziNativeBridge", {
+      value: { platform: "ios", shellVersion: "1.0.1", capabilities: ["poster.share"] },
+    });
+    Object.defineProperty(window, "webkit", {
+      value: {
+        messageHandlers: {
+          xiaziNative: {
+            postMessage(message: { type: string }) {
+              nativeMessages.push(message);
+            },
+          },
+        },
+      },
+    });
+  });
+
+  await page.goto("/zh/?surface=ios");
+  await page.getByRole("button", { name: /保存海报/ }).first().click();
+
+  const nativeMessages = await page.evaluate(() => (
+    window as unknown as Window & { __xiaziNativeMessages: unknown[] }
+  ).__xiaziNativeMessages);
+  expect(nativeMessages).toEqual([
+    expect.objectContaining({
+      type: "poster.share",
+      payload: expect.objectContaining({
+        url: expect.stringMatching(/^https?:\/\/[^/]+\/api\/posters\/zh\//),
+      }),
+    }),
+  ]);
 });
 
 test("opens, navigates and closes the poster lightbox", async ({ page, request }) => {

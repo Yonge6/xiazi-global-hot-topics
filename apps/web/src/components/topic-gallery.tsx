@@ -10,7 +10,7 @@ import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { groupArchiveDatesByMonth } from "@/lib/issues/archive-groups";
-import { isXiaziIOSApp, postNativeMessage, subscribeToNativeSurface } from "@/lib/native-app";
+import { hasNativeCapability, isXiaziIOSApp, postNativeMessage, subscribeToNativeSurface } from "@/lib/native-app";
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
 import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
 
@@ -254,8 +254,16 @@ export function TopicGallery({
   function savePoster(topic: Topic) {
     trackAnalytics("download", locale, topic.slug);
     const details = shareDetails(topic);
+    const url = new URL(details.poster, window.location.origin).href;
+    if (hasNativeCapability("poster.save")) {
+      postNativeMessage("poster.save", {
+        url,
+        filename: `${topic.slug}-${locale}.png`,
+      });
+      return;
+    }
     postNativeMessage("poster.share", {
-      url: new URL(details.poster, window.location.origin).href,
+      url,
       title: details.title,
       text: details.text,
     });
