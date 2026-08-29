@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-08-29",
-  "releaseId": "rel_20260829_325b4ff4cf280ccd116d47c5",
-  "assetBatchId": "asset_prod_20260829_72792582",
+  "issueDate": "2026-08-30",
+  "assetBatchId": "asset_prod_20260830_f4749d63",
   "posters": [
     {
-      "topicId": "9f0f4a3d-2952-5d36-baa1-1f56e7f09669",
+      "topicId": "4a25540a-96cb-5087-a9d2-6b30fbc2177e",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/today-overview-customs-ai-solo-flood-war-health-space.png",
-      "contentHash": "5f1d135c3cc79febed7a18f485eafbbacd6211f66dd1dac654ce51f100453c98"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/today-overview-trade-hardware-agents-war-safety-climate-space.png",
+      "contentHash": "4294e9a7e62008c29bbdb905f406a23af04f066bbeb65ec0ee6a7be229cdc806"
     },
     {
-      "topicId": "9f0f4a3d-2952-5d36-baa1-1f56e7f09669",
+      "topicId": "4a25540a-96cb-5087-a9d2-6b30fbc2177e",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/today-overview-customs-ai-solo-flood-war-health-space.png",
-      "contentHash": "18e8dc0c05aed23a46033dda31ff4ab142bb2c93352cd00cd73d2812e80de95e"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/today-overview-trade-hardware-agents-war-safety-climate-space.png",
+      "contentHash": "be300a0bbc1a0c336b2d5006b9d6fc9820d4833b723b7cdbf13539cd54e4c037"
     },
     {
-      "topicId": "02ce92e5-55c7-5c75-9e15-b288433b5c3c",
+      "topicId": "0ce6354c-aa0d-5a5a-98a2-4aab13894557",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/korea-ecommerce-customs-platform-operator-data.png",
-      "contentHash": "2b7dc7026d9f6168005f5ef216aa40dad8563b125751645f853d6818686c6bb5"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/india-inventory-cross-border-ecommerce-export-framework.png",
+      "contentHash": "66487d037db41404448b372885e235704de7ba4008f67a9fa501b77fe03eb75a"
     },
     {
-      "topicId": "02ce92e5-55c7-5c75-9e15-b288433b5c3c",
+      "topicId": "0ce6354c-aa0d-5a5a-98a2-4aab13894557",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/korea-ecommerce-customs-platform-operator-data.png",
-      "contentHash": "b2582dae46910ab40565597f30332527786c6bc3f7ae430df19927fa146e91b5"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/india-inventory-cross-border-ecommerce-export-framework.png",
+      "contentHash": "43872aa78a1e32568971c1c2cdc9ad71762e20fc0e56ec663c1f0e3c18808fca"
     },
     {
-      "topicId": "fb2d3126-84b1-5c7f-9006-194435c2eb96",
+      "topicId": "d05bfd96-9e95-5273-9f02-89528bf1122c",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/anthropic-pentagon-supply-chain-risk-ruling.png",
-      "contentHash": "a1fadef6f0aeb043db31be1547b1497adb2d179fda80dca4b748066b680000ee"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/anthropic-model-hardware-standard-physical-ai.png",
+      "contentHash": "a1871ba261570a107e9922c5af5a6019c69ad308a60c4cbacb33718e365e392a"
     },
     {
-      "topicId": "fb2d3126-84b1-5c7f-9006-194435c2eb96",
+      "topicId": "d05bfd96-9e95-5273-9f02-89528bf1122c",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/anthropic-pentagon-supply-chain-risk-ruling.png",
-      "contentHash": "292cdcfbc5be3b216efd71a30af0c2f87baeb5eeb9d5f542407159954f2c0ae1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/anthropic-model-hardware-standard-physical-ai.png",
+      "contentHash": "1195ac180b4fad15a239098fd99cb10ce0668c521a5c488f5c2d17237c2a1542"
     },
     {
-      "topicId": "70299509-23d9-5452-933c-449577d67764",
+      "topicId": "bda9bbbd-b7f2-5b2a-8691-818558da5e18",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/uk-sole-trader-ai-use-integration-gap.png",
-      "contentHash": "2175c106257f854b97157fed16e3c887610b3b018361fb573ddbdf12381e9884"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/opc-agents-become-customers-machine-callable-products.png",
+      "contentHash": "4de79261dd8f04d3d9933483dff68255ed699d8f2b2675897e0c8d4872ccb542"
     },
     {
-      "topicId": "70299509-23d9-5452-933c-449577d67764",
+      "topicId": "bda9bbbd-b7f2-5b2a-8691-818558da5e18",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/uk-sole-trader-ai-use-integration-gap.png",
-      "contentHash": "ba02a4d51db52dafeb47c607b3d1fbde55e51a01cc91f25e4d00505d9d160b6f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/opc-agents-become-customers-machine-callable-products.png",
+      "contentHash": "2d5c88ffbbee6da60eddf183864038e065755502777f556ca03d7b3ad9672f8f"
     },
     {
-      "topicId": "2b8528dd-435e-5ffd-b2c3-fc9c8eb4be4f",
+      "topicId": "5eb8c105-114a-59b7-9195-b4d44874fc99",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/nepal-china-border-flood-rescue-update.png",
-      "contentHash": "65eab7b4179303ccaa088ab18e70a5f8977a4761ec5c43d40a90b98164d007ce"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/myla-kyiv-warehouse-strike-civilian-safety.png",
+      "contentHash": "689c273659f5922cd8175222bef78a67b0b7465c43f1666ae83eb2f7446dd0af"
     },
     {
-      "topicId": "2b8528dd-435e-5ffd-b2c3-fc9c8eb4be4f",
+      "topicId": "5eb8c105-114a-59b7-9195-b4d44874fc99",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/nepal-china-border-flood-rescue-update.png",
-      "contentHash": "100ec4bb40b3b8bcf7baeb859253010bc6ef8de3532d7eeb6b6694e1f1354737"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/myla-kyiv-warehouse-strike-civilian-safety.png",
+      "contentHash": "1e78afef4a751b2e012bdeb35ed574f402cba4bc6d721fda390f7bb1da36bac0"
     },
     {
-      "topicId": "93096191-c7c3-5482-8a17-78e254aae1c7",
+      "topicId": "a3cf2ae7-4471-567e-9894-885d7c9f3571",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/iran-war-six-months-shipping-sanctions.png",
-      "contentHash": "26830c0eed12b58174b58a0b3cd53044f062198540061ec61c02380a0a7b1ed5"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/zimbabwe-chivhu-minibus-truck-crash.png",
+      "contentHash": "291919198513def2b783121aee62192e57165fcf2457c5453bdb05bab37940fd"
     },
     {
-      "topicId": "93096191-c7c3-5482-8a17-78e254aae1c7",
+      "topicId": "a3cf2ae7-4471-567e-9894-885d7c9f3571",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/iran-war-six-months-shipping-sanctions.png",
-      "contentHash": "df467a308f9861dd07581b20d3de8ed7a0233126f33959e089497f6bb100d560"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/zimbabwe-chivhu-minibus-truck-crash.png",
+      "contentHash": "9ce174e16a9b09373b427aa2e21da36a3cc4011c51156fcfe3b8adf3381d9cba"
     },
     {
-      "topicId": "6e81e3bf-6d8f-5e7d-ace1-f880a5c41a59",
+      "topicId": "6463dcb2-f34e-5b08-b3c8-205b00dc26c9",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/who-congo-ebola-pheic-continues.png",
-      "contentHash": "a76b60d5fb2919578717c24cb0a439d7f26734dce2a7828f4d4164340ed5e509"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/un-rising-seas-infrastructure-risk.png",
+      "contentHash": "9521a56a338491f95c33e5904723cd6764f49bc66e1cf5aa0829f2378894c87e"
     },
     {
-      "topicId": "6e81e3bf-6d8f-5e7d-ace1-f880a5c41a59",
+      "topicId": "6463dcb2-f34e-5b08-b3c8-205b00dc26c9",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/who-congo-ebola-pheic-continues.png",
-      "contentHash": "8e67172a099300c4549b0c12cf55a845dc3237bfec4386f318e9658d445fa54c"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/un-rising-seas-infrastructure-risk.png",
+      "contentHash": "cdf2604695ef875296cc549fd0796d5345ea20de54ff71c346082c847608bcdd"
     },
     {
-      "topicId": "3274d2db-19bd-50be-a3bc-9bb28bd0e794",
+      "topicId": "de15becf-3a12-564b-b534-c773bcb00897",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/un-future-peace-operations-review.png",
-      "contentHash": "959b18b109864de4027b04208d8ae69b79e9119addc885e703f9ad7010f92b57"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/argentina-netherlands-hockey-world-cup-final.png",
+      "contentHash": "fac674aa69443c5088661a7936f8827071ef8a7e50d2ab76e8c8648eac893fd9"
     },
     {
-      "topicId": "3274d2db-19bd-50be-a3bc-9bb28bd0e794",
+      "topicId": "de15becf-3a12-564b-b534-c773bcb00897",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/un-future-peace-operations-review.png",
-      "contentHash": "4bd3755b3594e6e0813dc9db73c9c9ead8856c46d8f01bcb1b54f3158fe0671a"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/argentina-netherlands-hockey-world-cup-final.png",
+      "contentHash": "de6f0fc5e8076f8d9d7c8e61eeec9b0cb07f6566eae9802582c333dc20ec233c"
     },
     {
-      "topicId": "0492e805-5dc3-5b46-be0d-8faefb3e288f",
+      "topicId": "6ba1a3ab-4a18-5df5-ae5f-1f0b26b611ee",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/zh/nasa-roman-space-telescope-launch.png",
-      "contentHash": "0ac3963de4cd1a42e0981dfbc94656619dfd12376f9dbada9ab607b12bd9cf28"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/zh/nasa-roman-space-telescope-launch-day.png",
+      "contentHash": "ab022b2a5631afe5e13c26ace0beab5e14fda46815ebe33eb62ccd3b43543a57"
     },
     {
-      "topicId": "0492e805-5dc3-5b46-be0d-8faefb3e288f",
+      "topicId": "6ba1a3ab-4a18-5df5-ae5f-1f0b26b611ee",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260829_72792582/en/nasa-roman-space-telescope-launch.png",
-      "contentHash": "c0acee67508830d76538134dfbfe6c7c0295f04e3dc9cfa5a21a06530454f8e1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260830_f4749d63/en/nasa-roman-space-telescope-launch-day.png",
+      "contentHash": "8a1c54f0f24182d5cd231e5db6b775920566067584d502195d844713dbc8143d"
     }
-  ]
+  ],
+  "releaseId": "rel_20260830_9191e29e119cea80daf7d106"
 }
