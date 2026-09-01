@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-09-01",
-  "releaseId": "rel_20260901_ae5496cb9553e0d236c526ae",
-  "assetBatchId": "asset_prod_20260901_chatgpt_4fd5a344",
+  "issueDate": "2026-09-02",
+  "assetBatchId": "asset_prod_20260902_bd9687ed",
   "posters": [
     {
-      "topicId": "aa255e8d-8c91-501a-9661-b16beb0c8ba4",
+      "topicId": "ace7ad28-8c2b-5a1e-b5e0-db90f3765969",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/today-overview-trade-oil-ai-climate-sport-health.png",
-      "contentHash": "ea1aef208ccc70a3559387aa9178533af7b8144c4dd086eeb8a2d25d5528aed8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/today-overview-parcels-ai-hormuz-markets-flood-heat-science.png",
+      "contentHash": "0492e3a3596e15b6eb68e9b2973b91f29dfc155d7909d97c02c1262fb281cf46"
     },
     {
-      "topicId": "aa255e8d-8c91-501a-9661-b16beb0c8ba4",
+      "topicId": "ace7ad28-8c2b-5a1e-b5e0-db90f3765969",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/today-overview-trade-oil-ai-climate-sport-health.png",
-      "contentHash": "1d59922c58aafedb2c23169acac7b09e7085b01e2b9c70f78067de9c20dffab9"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/today-overview-parcels-ai-hormuz-markets-flood-heat-science.png",
+      "contentHash": "9bb4939be844adb37352fd5619be697162e134e44dbd2ed0c09dad7f70b78757"
     },
     {
-      "topicId": "3c0fed84-5abf-5582-87c9-4e28670353cb",
+      "topicId": "a488b48e-58ec-5256-8b82-d42badb3e826",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/eu-three-euro-duty-ddp-ecommerce.png",
-      "contentHash": "5f31bdac34afa7b5fa998dd47f284113de3dd7f1dbdd8fb0be2249d59073d261"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/eu-three-euro-duty-handling-fee-margin.png",
+      "contentHash": "b54fc082a0ce6184b598370481df23d050481c2aae09ff4814cd3d797dbec5b7"
     },
     {
-      "topicId": "3c0fed84-5abf-5582-87c9-4e28670353cb",
+      "topicId": "a488b48e-58ec-5256-8b82-d42badb3e826",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/eu-three-euro-duty-ddp-ecommerce.png",
-      "contentHash": "9299fabcee7a33f1aeee473004bd2dd8fb2456235b3475397a8b42b2bc1e42fd"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/eu-three-euro-duty-handling-fee-margin.png",
+      "contentHash": "fe3bd29eb81109cd6adc3d8b4b0e84a6e79de13be8867733b2f882f249bf2e2e"
     },
     {
-      "topicId": "994d6767-4b0e-58e0-8429-4bb78feaeb35",
+      "topicId": "e277f5e9-e032-55c3-8296-52a46485e4cb",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/fsb-frontier-ai-financial-stability-risks.png",
-      "contentHash": "72337877a56938b7723da82f9d5afa9cdb3263835d9555288e9b631afb814f9d"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/g20-us-hands-off-ai-regulation.png",
+      "contentHash": "e773a2e16343e0a198cd42c36db92e2672e747111587d2b9f6a429ccc465b1ac"
     },
     {
-      "topicId": "994d6767-4b0e-58e0-8429-4bb78feaeb35",
+      "topicId": "e277f5e9-e032-55c3-8296-52a46485e4cb",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/fsb-frontier-ai-financial-stability-risks.png",
-      "contentHash": "74145f1a110737a464b7a1f033c4266b401fd7b3038d81f6169fd04253eca80f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/g20-us-hands-off-ai-regulation.png",
+      "contentHash": "692c0d2a0d8d9ca0cf574f289a21d96c28e78f97d4ba956c289c44d7e5586e12"
     },
     {
-      "topicId": "8cc93317-07ee-599c-b4fb-df2562924868",
+      "topicId": "9deb4a9e-6549-5f5c-aa17-ec65b3b4c6f2",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/opc-vibe-coding-business-operations.png",
-      "contentHash": "69d3f9ddf5f8ab6dae77827180c587a33e4042ab43664cd6d1af16689e680e0f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/godaddy-one-click-domain-opc-launch.png",
+      "contentHash": "ecba364d68be298a94fa2988d5be44886b75926cb79d2ad3203120eea9f4cd78"
     },
     {
-      "topicId": "8cc93317-07ee-599c-b4fb-df2562924868",
+      "topicId": "9deb4a9e-6549-5f5c-aa17-ec65b3b4c6f2",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/opc-vibe-coding-business-operations.png",
-      "contentHash": "da1d396f0d9b53bcd71406e1551c074b432069edc91a3b67b0317c18bb573f91"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/godaddy-one-click-domain-opc-launch.png",
+      "contentHash": "1ef6db7600f30fdde117f66f16c01ca25d5099fb15cc6c5c819bcc21a5e0eedf"
     },
     {
-      "topicId": "30287970-76f1-543a-b947-85d553b606d5",
+      "topicId": "22fa1b88-feb0-5b56-a263-167fab694c6d",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/us-venezuela-oil-deal-questions.png",
-      "contentHash": "3cb651686884f379477fd3ba70518df2b902cce94af8bc6419ba8226b09eed90"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/us-iran-strikes-hormuz-shipping.png",
+      "contentHash": "9a132c561d85af09477a891a576c762b284e14bd1fb6fa98123a44173e9515dc"
     },
     {
-      "topicId": "30287970-76f1-543a-b947-85d553b606d5",
+      "topicId": "22fa1b88-feb0-5b56-a263-167fab694c6d",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/us-venezuela-oil-deal-questions.png",
-      "contentHash": "8ed5418c7b19d95e09f84ea4c1f654bd65995ab6c120698af32d804bb319ae79"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/us-iran-strikes-hormuz-shipping.png",
+      "contentHash": "d4fc3f366632832c257a682b36c64dfe019db19a881acbbe9914ac020b29f1a1"
     },
     {
-      "topicId": "aea19525-8f21-588f-9b3f-6dfb60840ec9",
+      "topicId": "14aea2d3-561a-576d-a0df-408ce484ef54",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/g20-iran-tariffs-allied-coordination.png",
-      "contentHash": "65af5ee77c30772d23b122276fbd8f0374c79320ba38b432d6b3ff0cdb84c0b8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/oil-bond-selloff-global-markets.png",
+      "contentHash": "f9f19019b9fbfea456ab74a540e9d78ac7ed5d827e03fdde152d514b4ca58091"
     },
     {
-      "topicId": "aea19525-8f21-588f-9b3f-6dfb60840ec9",
+      "topicId": "14aea2d3-561a-576d-a0df-408ce484ef54",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/g20-iran-tariffs-allied-coordination.png",
-      "contentHash": "38b81756f1b1a1c0ecccf66911b160b039b7e0699693d593c9fce3955450f149"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/oil-bond-selloff-global-markets.png",
+      "contentHash": "f9420a22d05cc794b21292b163bd8f36e3eee472fdacfc69069c5934e11f1efc"
     },
     {
-      "topicId": "2916cee8-b166-57eb-a359-33a0e4d58d30",
+      "topicId": "e75597fe-6ddb-536f-aaa2-35aec53372b9",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/nepal-floods-missing-count-rises.png",
-      "contentHash": "cc194277366c8b992e6e6ae2b87be980ea8edaa8630a6542a2fcc948dca37d31"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/nepal-flood-deaths-rescue-logistics.png",
+      "contentHash": "291aecce39e6d1ded82719066677d56e20077a01433e04578744c908b3644530"
     },
     {
-      "topicId": "2916cee8-b166-57eb-a359-33a0e4d58d30",
+      "topicId": "e75597fe-6ddb-536f-aaa2-35aec53372b9",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/nepal-floods-missing-count-rises.png",
-      "contentHash": "820bcea2c02a0d81a4492ba6018f25e9f03ed343fc6738a89c01a01fe6e0c1e8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/nepal-flood-deaths-rescue-logistics.png",
+      "contentHash": "c7e8cfae2b5bf42c995457a82fe61993c3826189a0cb029641dec900efd6affa"
     },
     {
-      "topicId": "a6e61e59-9044-5d06-9b9a-a9ae096b45c3",
+      "topicId": "c8b00222-0e85-5b66-b9a6-64f9dbc44aeb",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/messi-international-retirement.png",
-      "contentHash": "59af52dff27d7c0def684b65d199547660a12eed9914cd7edddc0f65a8809af1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/southern-france-september-heatwave.png",
+      "contentHash": "babe02ccfe965ca5193ac03c2fa7278db64bac713cb6a93049dbb8fc44318cc1"
     },
     {
-      "topicId": "a6e61e59-9044-5d06-9b9a-a9ae096b45c3",
+      "topicId": "c8b00222-0e85-5b66-b9a6-64f9dbc44aeb",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/messi-international-retirement.png",
-      "contentHash": "2706929d94ce2654c22c8badc6c87e6167113ab3b69bf888dbcde24267a35a7c"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/southern-france-september-heatwave.png",
+      "contentHash": "5d6b077790c3c960a58fb66958f6fe3ad5be9486ff02bdf4d320b8a8352c3347"
     },
     {
-      "topicId": "33ac1dcc-3145-50d5-ad18-664d828f635f",
+      "topicId": "266726c7-1159-59d4-ae68-53909c1bcff7",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/zh/china-medical-imaging-ai-ethics-guidelines.png",
-      "contentHash": "bade076f4dd9cbab2a98f1cc5121949387b23b8292f891bb30da42931719d411"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/zh/dark-matter-potential-breakthrough.png",
+      "contentHash": "1a17e9e74933d331910a1079e68b82871c97ff8d7e3e9ba8e5d3d2c33ec0bba1"
     },
     {
-      "topicId": "33ac1dcc-3145-50d5-ad18-664d828f635f",
+      "topicId": "266726c7-1159-59d4-ae68-53909c1bcff7",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260901_chatgpt_4fd5a344/en/china-medical-imaging-ai-ethics-guidelines.png",
-      "contentHash": "44b2af0c9472221046b6db84ef75c258cbee56290af17e2bb3dd1ef025c8e30a"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260902_bd9687ed/en/dark-matter-potential-breakthrough.png",
+      "contentHash": "818b8152e7a8ac098f92ed6bbdd37e01347c6997f6d6d4c199e6e87ce748609a"
     }
-  ]
+  ],
+  "releaseId": "rel_20260902_b2a86ac7c6ea4103c4586c1c"
 }
