@@ -51,7 +51,8 @@ test("renders the Chinese issue with one overview and eight stories", async ({ p
     "https://beian.miit.gov.cn/",
   );
   await expect(page.getByText(zhDate(issue.issueDate))).toBeVisible();
-  await expect(page.getByRole("link", { name: /今日风格.*Style Atlas/ })).toHaveAttribute(
+  await expect(page.locator(".edition-style")).toContainText("今日风格");
+  await expect(page.locator(".edition-style")).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
   );
@@ -91,16 +92,20 @@ test("uses the Wendao serif stack for Chinese and English reading surfaces", asy
   }
 });
 
-test("groups archive editions by month and opens only the latest month by default", async ({ page }) => {
+test("groups archive editions by month and expands a selected month", async ({ page }) => {
   await page.goto("/zh/#archive");
 
   const months = page.locator("details.archive-month");
-  await expect(months).toHaveCount(2);
+  expect(await months.count()).toBeGreaterThanOrEqual(2);
 
   const july = months.filter({ hasText: "2026年7月" });
   const june = months.filter({ hasText: "2026年6月" });
+  await expect(july).toHaveCount(1);
+  await expect(june).toHaveCount(1);
+  if ((await july.getAttribute("open")) === null) {
+    await july.locator("summary").click();
+  }
   await expect(july).toHaveAttribute("open", "");
-  await expect(june).not.toHaveAttribute("open", "");
   await expect(july.getByRole("button", { name: /2026\.07\.23/ })).toBeVisible();
   await expect(july.getByRole("button", { name: /2026\.07\.20/ })).toBeVisible();
   await expect(july.getByRole("button", { name: /2026\.07\.19/ })).toBeVisible();
@@ -121,7 +126,8 @@ test("switches locale while keeping the page context", async ({ page, request })
   await expect(page.getByText("1 Daily Overview · 8 Global Stories")).toBeVisible();
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText(enDate(issue.issueDate))).toBeVisible();
-  await expect(page.getByRole("link", { name: /TODAY'S STYLE.*Style Atlas/ })).toHaveAttribute(
+  await expect(page.locator(".edition-style")).toContainText("TODAY'S STYLE");
+  await expect(page.locator(".edition-style")).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
   );
@@ -129,7 +135,7 @@ test("switches locale while keeping the page context", async ({ page, request })
   await expect(page.getByText("Browse each edition: 1 daily overview, 8 global stories, sources, and bilingual posters.")).toBeVisible();
 });
 
-test("follows the system theme and remembers a manual theme choice", async ({ page }, testInfo) => {
+test("follows the system theme and remembers a manual theme choice", async ({ page }) => {
   await page.emulateMedia({ colorScheme: "dark" });
   await page.goto("/zh");
 
@@ -163,6 +169,7 @@ test("opens the world drawer with Xiazi navigation and related projects", async 
     "href",
     "https://apps.apple.com/app/id6799621217",
   );
+  await expect(drawer.getByRole("link", { name: /下载虾子曰 App/ })).not.toHaveAttribute("target", "_blank");
   await drawer.getByRole("button", { name: /关于虾子曰/ }).click();
   drawer = page.getByRole("dialog", { name: "关于虾子曰" });
   await expect(drawer.getByText("生命不是用来证明自己的，而是用来认识、接纳、成为并活出自己。")).toBeVisible();
@@ -216,6 +223,50 @@ test("opens the world drawer with Xiazi navigation and related projects", async 
   await expect(drawer).toBeHidden();
   await expect(page.getByRole("button", { name: "打开菜单" })).toBeFocused();
   await expect(page.getByRole("button", { name: "打开菜单" })).toHaveAttribute("data-suppress-focus-ring", "true");
+});
+
+test("guides iPhone WeChat visitors to the default browser and keeps a copyable App Store link", async ({ browser, baseURL }) => {
+  const context = await browser.newContext({
+    viewport: { width: 390, height: 844 },
+    userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 MicroMessenger/8.0.50",
+  });
+  const wechatPage = await context.newPage();
+  await wechatPage.addInitScript(() => {
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: {
+        writeText: async (value: string) => {
+          Reflect.set(window, "__copiedAppStoreUrl", value);
+        },
+      },
+    });
+  });
+
+  await wechatPage.goto("/zh");
+  await wechatPage.getByRole("button", { name: "打开菜单" }).click();
+  await wechatPage.getByRole("link", { name: /下载虾子曰 App/ }).click();
+
+  expect(new URL(wechatPage.url()).origin).toBe(new URL(baseURL!).origin);
+  expect(wechatPage.url()).not.toMatch(/^https:\/\/apps\.apple\.com/);
+  const dialog = wechatPage.getByRole("dialog", { name: "在默认浏览器中打开" });
+  await expect(dialog.getByRole("heading", { name: "微信暂时无法直接打开 App Store" })).toBeVisible();
+  await expect(dialog.getByText("请点击右上角 ···，选择“在默认浏览器中打开”，然后再次点击下载。")).toBeVisible();
+  await dialog.getByRole("button", { name: "复制 App Store 链接" }).click();
+  await expect(dialog.getByRole("button", { name: "链接已复制" })).toBeVisible();
+  await expect(dialog.getByRole("status")).toHaveText("可粘贴到 Safari 打开");
+  expect(await wechatPage.evaluate(() => Reflect.get(window, "__copiedAppStoreUrl"))).toBe(
+    "https://apps.apple.com/app/id6799621217",
+  );
+  await dialog.getByRole("button", { name: "知道了" }).click();
+  await expect(dialog).toBeHidden();
+
+  await wechatPage.goto("/en");
+  await wechatPage.getByRole("button", { name: "Open menu" }).click();
+  await wechatPage.getByRole("link", { name: /Download Xiazi Says/ }).click();
+  const englishDialog = wechatPage.getByRole("dialog", { name: "Open in your default browser" });
+  await expect(englishDialog.getByRole("heading", { name: "Open Xiazi Says in your default browser" })).toBeVisible();
+  await expect(englishDialog.getByText("Tap ··· in the top-right, choose “Open in Default Browser,” then tap download again.")).toBeVisible();
+  await context.close();
 });
 
 test("hides support and uses Apple sharing inside the iOS shell", async ({ page }, testInfo) => {

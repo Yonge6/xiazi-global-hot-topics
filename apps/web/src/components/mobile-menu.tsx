@@ -2,7 +2,14 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import { type ReactNode, useEffect, useRef, useState, useSyncExternalStore } from "react";
+import {
+  type MouseEvent as ReactMouseEvent,
+  type ReactNode,
+  useEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 import { createPortal } from "react-dom";
 
 import { AboutCopy } from "@/components/about-section";
@@ -134,6 +141,29 @@ function VideoChannelModal({ isZh, onClose }: { isZh: boolean; onClose: () => vo
   );
 }
 
+function isIPhoneWeChatBrowser() {
+  return /MicroMessenger/i.test(navigator.userAgent) && /iPhone/i.test(navigator.userAgent);
+}
+
+async function copyTextToClipboard(value: string) {
+  const clipboard = Reflect.get(navigator, "clipboard") as Clipboard | undefined;
+  if (clipboard?.writeText) {
+    await clipboard.writeText(value);
+    return;
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = value;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  if (!copied) throw new Error("Unable to copy the App Store link");
+}
+
 function suppressFocusRing(element: HTMLElement | null, moveFocus = false) {
   if (!element) return;
   element.dataset.suppressFocusRing = "true";
@@ -145,6 +175,8 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
   const [open, setOpen] = useState(false);
   const [view, setView] = useState<DrawerView>("home");
   const [videoChannelOpen, setVideoChannelOpen] = useState(false);
+  const [wechatDownloadUrl, setWechatDownloadUrl] = useState<string | null>(null);
+  const [wechatCopyState, setWechatCopyState] = useState<"idle" | "copied" | "error">("idle");
   const isIOSApp = useSyncExternalStore(subscribeToNativeSurface, isXiaziIOSApp, () => false);
   const canOpenSubscriptions = isIOSApp && hasNativeCapability("subscription.open");
   const triggerRef = useRef<HTMLButtonElement>(null);
@@ -156,6 +188,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
 
   const closeMenu = (restoreFocus = false) => {
     setVideoChannelOpen(false);
+    setWechatDownloadUrl(null);
     setOpen(false);
     if (restoreFocus) window.setTimeout(() => suppressFocusRing(triggerRef.current, true), 0);
   };
@@ -177,6 +210,10 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
           closeVideoChannel();
           return;
         }
+        if (wechatDownloadUrl) {
+          setWechatDownloadUrl(null);
+          return;
+        }
         closeMenu(true);
         return;
       }
@@ -184,7 +221,9 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
       if (event.key !== "Tab" || !drawerRef.current) return;
       const focusRoot = videoChannelOpen
         ? drawerRef.current.querySelector<HTMLElement>(".video-channel-modal")
-        : drawerRef.current;
+        : wechatDownloadUrl
+          ? drawerRef.current.querySelector<HTMLElement>(".wechat-browser-guide")
+          : drawerRef.current;
       const focusable = Array.from(
         focusRoot?.querySelectorAll<HTMLElement>(
           'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
@@ -208,7 +247,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
       document.body.classList.remove("navigation-drawer-open");
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [open, videoChannelOpen]);
+  }, [open, videoChannelOpen, wechatDownloadUrl]);
 
   useEffect(() => {
     if (open) scrollRef.current?.scrollTo({ top: 0, behavior: "auto" });
@@ -230,6 +269,25 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
     { label: "X", value: "@yongyuan1", href: "https://x.com/yongyuan1?s=11" },
     { label: "TikTok", value: "@wonderelian", href: "https://www.tiktok.com/@wonderelian?_r=1&_t=ZP-98Tvaldfrpe" },
   ];
+
+  const handleAppStoreClick = (event: ReactMouseEvent<HTMLAnchorElement>) => {
+    if (!isIPhoneWeChatBrowser()) return;
+
+    event.preventDefault();
+    setWechatDownloadUrl(event.currentTarget.href);
+    setWechatCopyState("idle");
+  };
+
+  const copyWechatAppStoreLink = async () => {
+    if (!wechatDownloadUrl) return;
+    try {
+      await copyTextToClipboard(wechatDownloadUrl);
+      setWechatCopyState("copied");
+    } catch (error) {
+      console.error("Unable to copy the Xiazi Says App Store link", error);
+      setWechatCopyState("error");
+    }
+  };
 
   const drawer = open ? (
     <div className={`navigation-drawer-layer locale-${locale}${isIOSApp ? " native-ios" : ""}`}>
@@ -303,7 +361,7 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
                     <ChevronRightIcon />
                   </button>
                 ) : !isIOSApp ? (
-                  <a className="drawer-nav-row" href={APP_STORE_URL} target="_blank" rel="noreferrer">
+                  <a className="drawer-nav-row" href={APP_STORE_URL} onClick={handleAppStoreClick}>
                     <span className="drawer-nav-icon"><AppStoreIcon /></span>
                     <span className="drawer-nav-copy">
                       <strong>{isZh ? "下载虾子曰 App" : "Download Xiazi Says"}</strong>
@@ -481,6 +539,59 @@ export function MobileMenu({ locale }: { locale: AppLocale }) {
             </div>
           </footer>
         </div>
+        {wechatDownloadUrl ? (
+          <div
+            className="wechat-browser-guide"
+            role="dialog"
+            aria-modal="true"
+            aria-label={isZh ? "在默认浏览器中打开" : "Open in your default browser"}
+          >
+            <button
+              className="wechat-browser-guide-backdrop"
+              type="button"
+              aria-label={isZh ? "关闭" : "Close"}
+              onClick={() => setWechatDownloadUrl(null)}
+              tabIndex={-1}
+            />
+            <div className="wechat-browser-guide-pointer" aria-hidden="true">
+              <span>···</span>
+              <i>↗</i>
+            </div>
+            <section>
+              <button
+                className="wechat-browser-guide-close"
+                type="button"
+                aria-label={isZh ? "关闭" : "Close"}
+                onClick={() => setWechatDownloadUrl(null)}
+                autoFocus
+              >
+                <CloseIcon />
+              </button>
+              <small>WECHAT</small>
+              <h2>{isZh ? "微信暂时无法直接打开 App Store" : "Open Xiazi Says in your default browser"}</h2>
+              <p>
+                {isZh
+                  ? "请点击右上角 ···，选择“在默认浏览器中打开”，然后再次点击下载。"
+                  : "Tap ··· in the top-right, choose “Open in Default Browser,” then tap download again."}
+              </p>
+              <div className="wechat-browser-guide-actions">
+                <button type="button" className="is-primary" onClick={() => setWechatDownloadUrl(null)}>
+                  {isZh ? "知道了" : "Got it"}
+                </button>
+                <button type="button" className="is-secondary" onClick={copyWechatAppStoreLink}>
+                  {wechatCopyState === "copied"
+                    ? (isZh ? "链接已复制" : "Link copied")
+                    : wechatCopyState === "error"
+                      ? (isZh ? "复制失败，请重试" : "Couldn’t copy — try again")
+                      : (isZh ? "复制 App Store 链接" : "Copy App Store link")}
+                </button>
+              </div>
+              <p className="wechat-browser-guide-status" role="status" aria-live="polite">
+                {wechatCopyState === "copied" ? (isZh ? "可粘贴到 Safari 打开" : "Paste it into Safari to open") : ""}
+              </p>
+            </section>
+          </div>
+        ) : null}
         {videoChannelOpen ? <VideoChannelModal isZh={isZh} onClose={closeVideoChannel} /> : null}
       </aside>
     </div>
