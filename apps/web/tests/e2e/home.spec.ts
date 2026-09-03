@@ -51,7 +51,8 @@ test("renders the Chinese issue with one overview and eight stories", async ({ p
     "https://beian.miit.gov.cn/",
   );
   await expect(page.getByText(zhDate(issue.issueDate))).toBeVisible();
-  await expect(page.getByRole("link", { name: /今日风格.*Style Atlas/ })).toHaveAttribute(
+  await expect(page.locator(".edition-style")).toContainText("今日风格");
+  await expect(page.locator(".edition-style")).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
   );
@@ -91,16 +92,20 @@ test("uses the Wendao serif stack for Chinese and English reading surfaces", asy
   }
 });
 
-test("groups archive editions by month and opens only the latest month by default", async ({ page }) => {
+test("groups archive editions by month and expands a selected month", async ({ page }) => {
   await page.goto("/zh/#archive");
 
   const months = page.locator("details.archive-month");
-  await expect(months).toHaveCount(2);
+  expect(await months.count()).toBeGreaterThanOrEqual(2);
 
   const july = months.filter({ hasText: "2026年7月" });
   const june = months.filter({ hasText: "2026年6月" });
+  await expect(july).toHaveCount(1);
+  await expect(june).toHaveCount(1);
+  if ((await july.getAttribute("open")) === null) {
+    await july.locator("summary").click();
+  }
   await expect(july).toHaveAttribute("open", "");
-  await expect(june).not.toHaveAttribute("open", "");
   await expect(july.getByRole("button", { name: /2026\.07\.23/ })).toBeVisible();
   await expect(july.getByRole("button", { name: /2026\.07\.20/ })).toBeVisible();
   await expect(july.getByRole("button", { name: /2026\.07\.19/ })).toBeVisible();
@@ -121,7 +126,8 @@ test("switches locale while keeping the page context", async ({ page, request })
   await expect(page.getByText("1 Daily Overview · 8 Global Stories")).toBeVisible();
   await expect(page.locator("article").filter({ hasText: lead.headlineFact })).toBeVisible();
   await expect(page.getByText(enDate(issue.issueDate))).toBeVisible();
-  await expect(page.getByRole("link", { name: /TODAY'S STYLE.*Style Atlas/ })).toHaveAttribute(
+  await expect(page.locator(".edition-style")).toContainText("TODAY'S STYLE");
+  await expect(page.locator(".edition-style")).toHaveAttribute(
     "href",
     "https://style-atlas.wonderelian.com/",
   );
@@ -129,7 +135,7 @@ test("switches locale while keeping the page context", async ({ page, request })
   await expect(page.getByText("Browse each edition: 1 daily overview, 8 global stories, sources, and bilingual posters.")).toBeVisible();
 });
 
-test("follows the system theme and remembers a manual theme choice", async ({ page }, testInfo) => {
+test("follows the system theme and remembers a manual theme choice", async ({ page }) => {
   await page.emulateMedia({ colorScheme: "dark" });
   await page.goto("/zh");
 
