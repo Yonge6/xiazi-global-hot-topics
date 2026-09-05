@@ -110,34 +110,25 @@ describe("release-bound poster delivery", () => {
     expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
   });
 
-  it("serves the unchanged legacy GitHub archive through the cutoff when Release V2 is enabled", async () => {
-    const fetchMock = vi.fn().mockResolvedValue(new Response(new Uint8Array([1, 2, 3]), { status: 200 }));
-    vi.stubGlobal("fetch", fetchMock);
-
+  it("redirects the unchanged legacy archive through the cutoff to the CDN", async () => {
     const response = await request("?issueDate=2026-07-18&v=2026-07-18T05%3A00%3A00%2B08%3A00");
 
-    expect(response.status).toBe(200);
-    expect(response.headers.get("content-type")).toBe("image/png");
+    expect(response.status).toBe(307);
     expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
-    const requestedUrl = fetchMock.mock.calls[0]?.[0] as URL;
-    expect(requestedUrl.pathname).toBe(
-      `/Yonge6/xiazi-global-hot-topics/main/public/archive/2026-07-18/posters/zh/${posterName}.png`,
+    expect(response.headers.get("location")).toBe(
+      `https://cdn.jsdelivr.net/gh/Yonge6/xiazi-global-hot-topics@main/public/archive/2026-07-18/posters/zh/${posterName}.png?v=2026-07-18T05%3A00%3A00%2B08%3A00`,
     );
   });
 
   it.each(["2026-07-19", "2026-07-20", "2026-07-23"])(
-    "serves the recovered %s GitHub poster archive",
+    "redirects the recovered %s poster archive to the CDN",
     async (date) => {
-      const fetchMock = vi.fn().mockResolvedValue(new Response(new Uint8Array([1, 2, 3]), { status: 200 }));
-      vi.stubGlobal("fetch", fetchMock);
-
       const response = await request(`?issueDate=${date}&v=${date}T05%3A00%3A00%2B08%3A00`);
 
-      expect(response.status).toBe(200);
+      expect(response.status).toBe(307);
       expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
-      const requestedUrl = fetchMock.mock.calls[0]?.[0] as URL;
-      expect(requestedUrl.pathname).toBe(
-        `/Yonge6/xiazi-global-hot-topics/main/public/archive/${date}/posters/zh/${posterName}.png`,
+      expect(response.headers.get("location")).toBe(
+        `https://cdn.jsdelivr.net/gh/Yonge6/xiazi-global-hot-topics@main/public/archive/${date}/posters/zh/${posterName}.png?v=${date}T05%3A00%3A00%2B08%3A00`,
       );
     },
   );
@@ -148,10 +139,10 @@ describe("release-bound poster delivery", () => {
     expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
   });
 
-  it("fails closed when the remote legacy GitHub archive is unavailable", async () => {
+  it("fails closed when the mutable current GitHub poster is unavailable", async () => {
     mocks.releaseV2Enabled = false;
     vi.stubGlobal("fetch", vi.fn().mockRejectedValue(new Error("GitHub unavailable")));
-    const response = await request("?issueDate=2026-07-18&v=legacy-archive");
+    const response = await request("?v=legacy-current");
     expect(response.status).toBe(503);
     expect(await response.json()).toMatchObject({
       message: "Remote poster archive unavailable",
