@@ -107,6 +107,17 @@ export async function GET(
   const path = issueDate
     ? `public/archive/${issueDate}/posters/${folder}${locale}/${name}.${extension}`
     : `public/posters/${folder}${locale}/${name}.${extension}`;
+  if (issueDate) {
+    const archiveUrl = new URL(`https://cdn.jsdelivr.net/gh/${repo}@main/${path}`);
+    archiveUrl.searchParams.set("v", cacheKey);
+    return NextResponse.redirect(archiveUrl, {
+      status: 307,
+      headers: {
+        "Cache-Control": POSTER_CACHE_CONTROL,
+        "CDN-Cache-Control": POSTER_CDN_CACHE_CONTROL,
+      },
+    });
+  }
   const [owner, repository] = repo.split("/");
   const rawUrl = new URL(`https://raw.githubusercontent.com/${owner}/${repository}/main/${path}`);
   rawUrl.searchParams.set("v", cacheKey);
