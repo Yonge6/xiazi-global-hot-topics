@@ -1,0 +1,527 @@
+{
+  "id": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+  "slug": "2026-08-23",
+  "issueDate": "2026-08-23",
+  "assetVersion": "rel_20260823_b71b730e1eeea69f9f447426",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-23T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-22T21:00:00.000Z",
+  "featuredTopicId": "afce99fc-f596-507d-bf5c-a3889bf9f511",
+  "style": {
+    "name": "New Wave Typography",
+    "zhName": "新浪潮字体风格",
+    "description": "Style Atlas daily pick: New Wave Typography for global-news posters, using energetic diagonal type, layered text bands, asymmetric grids, torn-paper geometry and sharp black, cream, cobalt and signal-red contrasts. Facts, data and information graphics dominate; Xiazi and Doudou stay small at the edges."
+  },
+  "topics": [
+    {
+      "id": "afce99fc-f596-507d-bf5c-a3889bf9f511",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "today-overview-tariffs-ai-privacy-robots-health-climate-space",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-tariffs-ai-privacy-robots-health-climate-space-20260823",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "八个信号把关税、AI、隐私、机器人、健康、气候与太空推上同一张经营图",
+          "headlineView": "经营者要把合规、内容可信度、员工安全和供应链韧性并入同一套预案",
+          "headlineFull": "八个信号把关税、AI、隐私、机器人、健康、气候与太空推上同一张经营图；经营者要把合规、内容可信度、员工安全和供应链韧性并入同一套预案",
+          "intro": "加美汽车关税、AI监管、创作者型小企业与TikTok儿童隐私和解构成今天的经营主线；机器人百米突破、芽菜疫情、欧洲热浪和Swift卫星任务变化补齐技术、健康、气候与太空风险面。",
+          "xiaziQuote": "热点真正进入经营，往往会同时改变成本、责任、信任或交付边界。",
+          "doudouQuote": "把八个信号放在一页，再圈出今天必须行动的两项。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Eight signals put tariffs, AI, privacy, robots, health, climate and space on one operating map",
+          "headlineView": "operators need one plan connecting compliance, content trust, staff safety and supply-chain resilience",
+          "headlineFull": "Eight signals put tariffs, AI, privacy, robots, health, climate and space on one operating map; operators need one plan connecting compliance, content trust, staff safety and supply-chain resilience",
+          "intro": "Canada auto duties, AI rules, creator-led small business and a TikTok child-privacy settlement lead today's operating signals; a robot sprint record, a sprouts outbreak, Europe's heat and the Swift mission change complete the technology, health, climate and space picture.",
+          "xiaziQuote": "A headline enters operations when it changes cost, responsibility, trust or delivery boundaries.",
+          "doudouQuote": "Put the eight signals on one page, then circle the two actions due today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "65dc8061-c800-51e9-817a-0203bbc205b0",
+          "topicId": "afce99fc-f596-507d-bf5c-a3889bf9f511",
+          "title": "Additional duties on Canadian motor vehicles",
+          "publisher": "Federal Register",
+          "url": "https://news.google.com/rss/search?q=US%2050%25%20duties%20Canadian%20motor%20vehicles%20August%2019%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "7b879306-a28f-5b1b-9678-e6a3e257973c",
+          "topicId": "afce99fc-f596-507d-bf5c-a3889bf9f511",
+          "title": "Europe's scorching summer",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://news.google.com/rss/search?q=NASA%20Europe%20scorching%20summer%20August%2021%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "879aea64-cf9d-592f-b696-d17f89c452da",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "us-canada-auto-tariffs-50-percent",
+      "rank": 2,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US",
+        "CA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-us-canada-auto-tariffs-50-percent-20260823",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "美国对部分加拿大汽车产品加征50%额外关税的措施已于8月19日生效",
+          "headlineView": "跨境经营者应立即重算原产地、到岸成本、合同责任与替代供应路线",
+          "headlineFull": "美国对部分加拿大汽车产品加征50%额外关税的措施已于8月19日生效；跨境经营者应立即重算原产地、到岸成本、合同责任与替代供应路线",
+          "intro": "新措施把关税冲击从政策公告推入清关与交付环节；卖家、零部件供应商和物流服务商应按入境时间核对适用税率、USMCA资格、报价有效期、库存位置和客户沟通。",
+          "xiaziQuote": "关税不是财务表最后一行，它会重写报价、库存和承诺交期。",
+          "doudouQuote": "先按入境日把订单分组，再决定改价、改仓还是改路线。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "A 50 percent additional US duty on certain Canadian motor-vehicle products took effect August 19",
+          "headlineView": "cross-border operators should recalculate origin, landed cost, contract exposure and alternate supply routes now",
+          "headlineFull": "A 50 percent additional US duty on certain Canadian motor-vehicle products took effect August 19; cross-border operators should recalculate origin, landed cost, contract exposure and alternate supply routes now",
+          "intro": "The measure moves tariff risk from announcement into customs clearance and delivery; sellers, parts suppliers and logistics providers should check entry dates, USMCA status, quote validity, inventory location and customer communication.",
+          "xiaziQuote": "A tariff is not the last line of a finance sheet; it rewrites quotes, inventory and promised delivery.",
+          "doudouQuote": "Group orders by entry date before changing price, warehouse or route.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "eef9415c-76e9-5995-847e-f92edcfc5a30",
+          "topicId": "879aea64-cf9d-592f-b696-d17f89c452da",
+          "title": "Imposing additional duties on Canadian motor vehicles",
+          "publisher": "Federal Register",
+          "url": "https://thefederalregister.org/documents/2026-14997/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-m",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1ee12707-0f0d-5dac-a1fb-f4abf60a5412",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "eu-ai-act-transparency-enforcement",
+      "rank": 3,
+      "category": "technology",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-eu-ai-act-transparency-enforcement-20260823",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "欧盟AI法案新的透明度规则已进入执法阶段",
+          "headlineView": "面向欧盟用户的团队应把模型说明、合成内容标识和责任人变成可审计记录",
+          "headlineFull": "欧盟AI法案新的透明度规则已进入执法阶段；面向欧盟用户的团队应把模型说明、合成内容标识和责任人变成可审计记录",
+          "intro": "欧盟委员会表示，AI办公室与各国主管机关已开始执行相关规则；产品团队应盘点模型来源、风险分类、用户告知、深度合成标记、人工复核和事件处理证据。",
+          "xiaziQuote": "透明不是在页脚加一句话，而是让每个关键决定都有证据可追。",
+          "doudouQuote": "先列出模型、数据、用途和负责人四张表。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "New EU AI Act transparency rules have entered the enforcement phase",
+          "headlineView": "teams serving EU users should turn model notes, synthetic-content labels and ownership into auditable records",
+          "headlineFull": "New EU AI Act transparency rules have entered the enforcement phase; teams serving EU users should turn model notes, synthetic-content labels and ownership into auditable records",
+          "intro": "The European Commission says the AI Office and national authorities have begun enforcement; product teams should inventory model origin, risk class, user notices, deepfake labels, human review and incident evidence.",
+          "xiaziQuote": "Transparency is not one sentence in a footer; every critical decision needs a traceable record.",
+          "doudouQuote": "Start with four lists: models, data, use cases and owners.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "6dc28961-6dc8-5bbe-8626-535d66b1e9aa",
+          "topicId": "1ee12707-0f0d-5dac-a1fb-f4abf60a5412",
+          "title": "Commission starts enforcing AI Act rules and transparency requirements",
+          "publisher": "European Commission",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "977058b4-0f9f-5f9d-9085-d01038a48749",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "small-businesses-become-creators-ai-time-savings",
+      "rank": 4,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "GB",
+        "CA",
+        "AU",
+        "NZ"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-small-businesses-become-creators-ai-time-savings-20260823",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "一项五国调查显示小企业正主动把自己变成内容创作者",
+          "headlineView": "一人公司要用AI缩短制作时间，但用真实经验和可验证结果建立信任",
+          "headlineFull": "一项五国调查显示小企业正主动把自己变成内容创作者；一人公司要用AI缩短制作时间，但用真实经验和可验证结果建立信任",
+          "intro": "覆盖美国、英国、加拿大、澳大利亚和新西兰的调查显示，小企业越来越依靠内容获得注意，内置AI工具可缩短部分营销与邮件制作时间；经营者仍需跟踪线索、转化和复购。",
+          "xiaziQuote": "内容不是额外工作，而是把经营证据送到潜在客户面前。",
+          "doudouQuote": "省下的时间要回到客户访谈、案例和成交复盘。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "A five-country survey shows small businesses actively becoming content creators",
+          "headlineView": "solo companies should use AI to shorten production while building trust with real experience and measurable results",
+          "headlineFull": "A five-country survey shows small businesses actively becoming content creators; solo companies should use AI to shorten production while building trust with real experience and measurable results",
+          "intro": "A survey across the US, UK, Canada, Australia and New Zealand says small businesses increasingly use content to get noticed, while built-in AI can reduce some campaign and email creation time; operators should still track leads, conversion and repeat business.",
+          "xiaziQuote": "Content is not extra work; it carries operating proof to potential customers.",
+          "doudouQuote": "Return saved time to customer interviews, cases and sales review.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "bfdc91e2-2698-5924-af29-1d74d89af22f",
+          "topicId": "977058b4-0f9f-5f9d-9085-d01038a48749",
+          "title": "Small businesses embrace the role of creator to get seen in 2026",
+          "publisher": "Small Business Currents",
+          "url": "https://smallbusinesscurrents.com/2026/08/17/small-businesses-embrace-the-role-of-creator-to-get-seen-in-2026/",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2c0b3171-0a99-51bf-a184-03a06c3bcbac",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "tiktok-400m-child-privacy-settlement",
+      "rank": 5,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-tiktok-400m-child-privacy-settlement-20260823",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "儿童隐私",
+          "headlineFact": "美国司法部宣布TikTok与字节跳动以4亿美元和解儿童隐私诉讼",
+          "headlineView": "面向未成年人的产品必须把年龄识别、数据最小化和家长控制做成默认能力",
+          "headlineFull": "美国司法部宣布TikTok与字节跳动以4亿美元和解儿童隐私诉讼；面向未成年人的产品必须把年龄识别、数据最小化和家长控制做成默认能力",
+          "intro": "和解再次把儿童数据收集、告知、同意与删除机制推到平台责任中心；产品和营销团队应检查默认设置、画像范围、广告投放、保留期限和申诉路径。",
+          "xiaziQuote": "儿童隐私不能靠用户主动找开关，保护必须从默认状态开始。",
+          "doudouQuote": "先删掉不必要的数据，再讨论更复杂的合规流程。",
+          "footerTakeaway": "今日关键词：儿童隐私。"
+        },
+        "en-US": {
+          "categoryLabel": "Children's Privacy",
+          "headlineFact": "The US Justice Department announced a $400 million TikTok and ByteDance child-privacy settlement",
+          "headlineView": "products serving minors need age assurance, data minimization and parental controls by default",
+          "headlineFull": "The US Justice Department announced a $400 million TikTok and ByteDance child-privacy settlement; products serving minors need age assurance, data minimization and parental controls by default",
+          "intro": "The settlement puts children's data collection, notice, consent and deletion back at the center of platform responsibility; product and marketing teams should review defaults, profiling, ads, retention and appeals.",
+          "xiaziQuote": "Children's privacy cannot depend on users finding a switch; protection starts with defaults.",
+          "doudouQuote": "Delete unnecessary data before designing a more complex compliance flow.",
+          "footerTakeaway": "Keyword: Children's Privacy."
+        }
+      },
+      "sources": [
+        {
+          "id": "203b2663-8e33-5ccb-bd08-af1f1aabd0b0",
+          "topicId": "2c0b3171-0a99-51bf-a184-03a06c3bcbac",
+          "title": "Justice Department secures $400M TikTok and ByteDance settlement",
+          "publisher": "U.S. Department of Justice",
+          "url": "https://news.google.com/rss/search?q=Justice%20Department%20%24400M%20TikTok%20ByteDance%20children%20privacy%20August%2021%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "6f9b5d3e-4fea-54c9-8b66-a545f2be12fd",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "china-humanoid-robot-100m-record",
+      "rank": 6,
+      "category": "technology",
+      "region": "Asia",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-china-humanoid-robot-100m-record-20260823",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人形机器人",
+          "headlineFact": "中国人形机器人在北京赛事中跑出超越人类百米世界纪录的计时",
+          "headlineView": "高速运动能力正在把机器人竞争从演示视频推向动力、控制与可靠性的公开测试",
+          "headlineFull": "中国人形机器人在北京赛事中跑出超越人类百米世界纪录的计时；高速运动能力正在把机器人竞争从演示视频推向动力、控制与可靠性的公开测试",
+          "intro": "路透社报道，一台中国机器人在百米项目中跑出快于尤塞恩·博尔特纪录的时间；行业仍需区分设备规则与人类竞赛，但电机、平衡、热管理和安全控制的进步值得关注。",
+          "xiaziQuote": "纪录是传播入口，真正的产业价值藏在连续稳定运行里。",
+          "doudouQuote": "别只看最快一秒，也要看它能否安全地重复一百次。",
+          "footerTakeaway": "今日关键词：人形机器人。"
+        },
+        "en-US": {
+          "categoryLabel": "Humanoid Robots",
+          "headlineFact": "A Chinese humanoid robot posted a 100-meter time faster than the human world record at a Beijing event",
+          "headlineView": "high-speed locomotion is moving robot competition from demos to public tests of power, control and reliability",
+          "headlineFull": "A Chinese humanoid robot posted a 100-meter time faster than the human world record at a Beijing event; high-speed locomotion is moving robot competition from demos to public tests of power, control and reliability",
+          "intro": "Reuters reported that a Chinese robot completed a 100-meter event faster than Usain Bolt's record time; machine and human rules differ, but progress in motors, balance, thermal management and safety control matters.",
+          "xiaziQuote": "A record opens the story; industrial value lives in stable repeated operation.",
+          "doudouQuote": "Do not watch only the fastest second; ask whether it can repeat safely one hundred times.",
+          "footerTakeaway": "Keyword: Humanoid Robots."
+        }
+      },
+      "sources": [
+        {
+          "id": "aaa4a486-5bf7-5107-868b-befc03291d2a",
+          "topicId": "6f9b5d3e-4fea-54c9-8b66-a545f2be12fd",
+          "title": "Chinese robot beats Usain Bolt's 100m world record at Beijing games",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=Chinese%20robot%20beats%20Usain%20Bolt%20100m%20record%20Beijing%20Reuters&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "404ccb37-3bb6-5886-b43b-9dd523631730",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "sprouts-ecoli-salmonella-outbreak",
+      "rank": 7,
+      "category": "science",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-sprouts-ecoli-salmonella-outbreak-20260823",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "食品安全",
+          "headlineFact": "美国疾控机构调查与苜蓿芽菜相关的大肠杆菌和沙门氏菌疫情",
+          "headlineView": "餐饮与零售商应立即核对批次、供应商、冷链记录和召回沟通",
+          "headlineFull": "美国疾控机构调查与苜蓿芽菜相关的大肠杆菌和沙门氏菌疫情；餐饮与零售商应立即核对批次、供应商、冷链记录和召回沟通",
+          "intro": "多州病例把生鲜芽菜的短保质期与追溯难度再次暴露出来；经营者应隔离涉事产品、保存采购与配送记录、通知门店和客户，并同步检查交叉污染控制。",
+          "xiaziQuote": "食品召回拼的不是公关速度，而是批次追溯和阻断暴露的速度。",
+          "doudouQuote": "先隔离、再追溯、再通知，三步不要颠倒。",
+          "footerTakeaway": "今日关键词：食品安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Food Safety",
+          "headlineFact": "US health agencies are investigating E. coli and Salmonella illnesses linked to alfalfa sprouts",
+          "headlineView": "restaurants and retailers should verify lots, suppliers, cold-chain records and recall communication immediately",
+          "headlineFull": "US health agencies are investigating E. coli and Salmonella illnesses linked to alfalfa sprouts; restaurants and retailers should verify lots, suppliers, cold-chain records and recall communication immediately",
+          "intro": "Multistate illnesses expose the short shelf life and traceability challenge of fresh sprouts; operators should isolate affected product, preserve purchase and delivery records, notify stores and customers, and review cross-contamination controls.",
+          "xiaziQuote": "A food recall is won by lot traceability and exposure control, not public-relations speed.",
+          "doudouQuote": "Isolate, trace, then notify; keep the order clear.",
+          "footerTakeaway": "Keyword: Food Safety."
+        }
+      },
+      "sources": [
+        {
+          "id": "990f9478-5a16-5cbc-99e5-15a05687e042",
+          "topicId": "404ccb37-3bb6-5886-b43b-9dd523631730",
+          "title": "E. coli and Salmonella outbreak linked to alfalfa sprouts",
+          "publisher": "Google News / CDC",
+          "url": "https://news.google.com/rss/search?q=CDC%20E.%20coli%20Salmonella%20outbreak%20alfalfa%20sprouts%20August%2021%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "aa28df31-3e88-5708-8692-8b38480a19d0",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "europe-scorching-summer-record-heat",
+      "rank": 8,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-europe-scorching-summer-record-heat-20260823",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲热浪",
+          "headlineFact": "NASA称2026年欧洲接连热浪正在打破纪录并造成广泛影响",
+          "headlineView": "企业要把高温阈值、停工规则、能源负荷和员工保护写进连续经营计划",
+          "headlineFull": "NASA称2026年欧洲接连热浪正在打破纪录并造成广泛影响；企业要把高温阈值、停工规则、能源负荷和员工保护写进连续经营计划",
+          "intro": "卫星与地面观测显示欧洲多地持续受极端高温影响；物流、制造、零售和旅游企业应按地区设定工作时段、补水休息、冷链冗余、设备降载和客户通知机制。",
+          "xiaziQuote": "热浪不是天气备注，而是一项会同时压迫人、设备和电网的运营变量。",
+          "doudouQuote": "把温度阈值写进排班表，比临时提醒更可靠。",
+          "footerTakeaway": "今日关键词：欧洲热浪。"
+        },
+        "en-US": {
+          "categoryLabel": "Europe Heatwaves",
+          "headlineFact": "NASA says successive European heat waves in 2026 are breaking records and taking a broad toll",
+          "headlineView": "companies need heat thresholds, stop-work rules, energy-load plans and worker protection in continuity playbooks",
+          "headlineFull": "NASA says successive European heat waves in 2026 are breaking records and taking a broad toll; companies need heat thresholds, stop-work rules, energy-load plans and worker protection in continuity playbooks",
+          "intro": "Satellite and ground observations show persistent extreme heat across Europe; logistics, manufacturing, retail and tourism operators should set regional work hours, hydration breaks, cold-chain redundancy, equipment derating and customer notices.",
+          "xiaziQuote": "A heat wave is not a weather footnote; it pressures people, equipment and the grid at once.",
+          "doudouQuote": "Put temperature thresholds into the roster instead of relying on last-minute reminders.",
+          "footerTakeaway": "Keyword: Europe Heatwaves."
+        }
+      },
+      "sources": [
+        {
+          "id": "1f179b99-e9c7-5a07-a5db-994c1bddef03",
+          "topicId": "aa28df31-3e88-5708-8692-8b38480a19d0",
+          "title": "Europe's scorching summer",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://news.google.com/rss/search?q=NASA%20Europe%20scorching%20summer%20heatwaves%20August%2021%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f37f0a42-1d05-5ca9-b7d2-7a1560024121",
+      "issueId": "67ac75db-ee46-54f1-bdbe-bbe60dcc377b",
+      "slug": "nasa-swift-boost-mission-ended",
+      "rank": 9,
+      "category": "science",
+      "region": "Space",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-nasa-swift-boost-mission-ended-20260823",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "太空任务",
+          "headlineFact": "NASA与Katalyst取消为Swift天文台抬升轨道的商业航天尝试",
+          "headlineView": "高风险救援任务的终止凸显姿态控制、接口验证和退役预案的重要性",
+          "headlineFull": "NASA与Katalyst取消为Swift天文台抬升轨道的商业航天尝试；高风险救援任务的终止凸显姿态控制、接口验证和退役预案的重要性",
+          "intro": "由于LINK航天器持续存在姿态控制问题，原计划捕获并抬升Swift的任务不再执行；这台服役21年的天文台可能在年内再入大气层，团队将转向安全退役与科学数据收尾。",
+          "xiaziQuote": "创新任务允许失败，但接口、边界和退出条件必须在起飞前写清楚。",
+          "doudouQuote": "救援计划结束时，安全退役就是下一项正式任务。",
+          "footerTakeaway": "今日关键词：太空任务。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Missions",
+          "headlineFact": "NASA and Katalyst ended the commercial attempt to boost the Swift observatory's orbit",
+          "headlineView": "the end of a high-risk rescue mission underscores attitude control, interface verification and disposal planning",
+          "headlineFull": "NASA and Katalyst ended the commercial attempt to boost the Swift observatory's orbit; the end of a high-risk rescue mission underscores attitude control, interface verification and disposal planning",
+          "intro": "An ongoing attitude-control issue with the LINK spacecraft ended the planned capture and boost of Swift; the 21-year-old observatory may reenter later this year as teams shift to safe disposal and final science operations.",
+          "xiaziQuote": "An innovative mission may fail, but interfaces, boundaries and exit conditions must be clear before launch.",
+          "doudouQuote": "When rescue ends, safe disposal becomes the next formal mission.",
+          "footerTakeaway": "Keyword: Space Missions."
+        }
+      },
+      "sources": [
+        {
+          "id": "662c5a24-b606-5018-8fd8-07f66b5f0081",
+          "topicId": "f37f0a42-1d05-5ca9-b7d2-7a1560024121",
+          "title": "NASA updates next steps for commercial Swift boost mission",
+          "publisher": "NASA",
+          "url": "https://news.google.com/rss/search?q=NASA%20updates%20next%20steps%20commercial%20Swift%20boost%20mission%20August%2019%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-23T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

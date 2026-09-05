@@ -1,0 +1,535 @@
+{
+  "id": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+  "slug": "2026-09-02",
+  "issueDate": "2026-09-02",
+  "assetVersion": "rel_20260902_b2a86ac7c6ea4103c4586c1c",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-09-02T05:00:00+08:00",
+  "gmtTimestamp": "2026-09-01T21:00:00.000Z",
+  "featuredTopicId": "ace7ad28-8c2b-5a1e-b5e0-db90f3765969",
+  "style": {
+    "name": "Flat Vector Illustration",
+    "zhName": "扁平矢量插画",
+    "description": "Style Atlas daily pick: Flat Vector Illustration. Use crisp flat shapes, clean vector edges, friendly geometric scenes, bold editorial color blocks, simple maps, charts, icons and information flows. Facts, data, diagrams and story-specific scenes occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or bottom."
+  },
+  "topics": [
+    {
+      "id": "ace7ad28-8c2b-5a1e-b5e0-db90f3765969",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "today-overview-parcels-ai-hormuz-markets-flood-heat-science",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-parcels-ai-hormuz-markets-flood-heat-science-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "欧盟包裹新成本、G20人工智能分歧、霍尔木兹冲突、全球债市、尼泊尔洪灾、法国热浪与暗物质研究构成今日全球图景",
+          "headlineView": "经营者要把政策、能源、融资、交付与极端天气放进同一张风险地图",
+          "headlineFull": "欧盟包裹新成本、G20人工智能分歧、霍尔木兹冲突、全球债市、尼泊尔洪灾、法国热浪与暗物质研究构成今日全球图景；经营者要把政策、能源、融资、交付与极端天气放进同一张风险地图",
+          "intro": "9月2日的全球信号彼此传导：欧盟每件3欧元关税改写跨境利润，美国在G20推动更轻的人工智能监管，霍尔木兹冲突推高油价并拖累债股市场；尼泊尔洪灾与法国热浪提醒基础设施脆弱性，暗物质研究则扩展长期科学边界。",
+          "xiaziQuote": "真正的总览，是看见一条新闻如何改写另一张成本表。",
+          "doudouQuote": "先圈出今天会动价格、交付和安全的三个节点。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "EU parcel costs, a G20 AI-policy split, Hormuz conflict, global bond stress, Nepal floods, French heat and dark-matter research shape today's global picture",
+          "headlineView": "operators should place policy, energy, finance, delivery and extreme weather on one risk map",
+          "headlineFull": "EU parcel costs, a G20 AI-policy split, Hormuz conflict, global bond stress, Nepal floods, French heat and dark-matter research shape today's global picture; operators should place policy, energy, finance, delivery and extreme weather on one risk map",
+          "intro": "September 2 signals travel across systems: the EU's three-euro-per-item duty reshapes cross-border margins, the United States urges lighter AI rules at the G20, and fighting around Hormuz lifts oil while pressuring bonds and stocks. Nepal's floods and French heat expose infrastructure risk as dark-matter research pushes the scientific frontier.",
+          "xiaziQuote": "A useful overview shows how one headline rewrites another cost sheet.",
+          "doudouQuote": "Circle the three nodes that can move price, delivery and safety today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "36dd5d1c-a48f-5834-a66f-57280e4b98d7",
+          "topicId": "ace7ad28-8c2b-5a1e-b5e0-db90f3765969",
+          "title": "September 1, 2026 global business, conflict, climate and science signals",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=September%201%202026%20global%20business%20conflict%20climate%20science&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "efa9225b-a7bb-5aff-9b92-93db367cfa80",
+          "topicId": "ace7ad28-8c2b-5a1e-b5e0-db90f3765969",
+          "title": "Stocks fall as oil and bond yields rise",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=stocks%20oil%20bond%20sell-off%20September%201%202026%20AP&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "a488b48e-58ec-5256-8b82-d42badb3e826",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "eu-three-euro-duty-handling-fee-margin",
+      "rank": 2,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-three-euro-duty-handling-fee-margin-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟每件3欧元低值进口关税已落地，最早11月还可能叠加联盟处理费",
+          "headlineView": "跨境卖家必须按件数而非仅按包裹价值重算毛利、DDP报价与合单策略",
+          "headlineFull": "欧盟每件3欧元低值进口关税已落地，最早11月还可能叠加联盟处理费；跨境卖家必须按件数而非仅按包裹价值重算毛利、DDP报价与合单策略",
+          "intro": "150欧元以下进口商品的免税门槛已取消，临时关税按商品件数计收，而不是每票统一计费；处理费也可能在最早11月加入。低客单、多件装和拆单模式受影响最大，卖家应复核商品归类、IOSS、DDP、合单与结账页税费说明。",
+          "xiaziQuote": "新规则最容易藏在件数里，而不是商品标价里。",
+          "doudouQuote": "一票三件，就先按三次费用做压力测试。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "The EU's three-euro duty on each low-value imported item is live, with a Union handling fee possible from November at the earliest",
+          "headlineView": "cross-border sellers must recalculate margin, DDP quotes and consolidation by item count, not parcel value alone",
+          "headlineFull": "The EU's three-euro duty on each low-value imported item is live, with a Union handling fee possible from November at the earliest; cross-border sellers must recalculate margin, DDP quotes and consolidation by item count, not parcel value alone",
+          "intro": "The duty-free threshold for imports under EUR150 is gone, and the temporary duty is charged per item rather than once per parcel. A handling fee may follow from November at the earliest. Low-ticket multi-item and split-shipment models face the sharpest pressure, so sellers should review classification, IOSS, DDP, consolidation and checkout disclosure.",
+          "xiaziQuote": "The new cost hides in item count, not only in the sticker price.",
+          "doudouQuote": "For one parcel with three items, stress-test three charges first.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "d555316f-247e-5f10-b022-a401257a7c64",
+          "topicId": "a488b48e-58ec-5256-8b82-d42badb3e826",
+          "title": "EU's new EUR3 customs duty and handling fees reshape cross-border e-commerce strategies",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=EU%20new%20EUR3%20customs%20duty%20handling%20fees%20cross-border%20e-commerce%20September%201%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "3a162fc2-a5f3-565a-96b5-5273362f8558",
+          "topicId": "a488b48e-58ec-5256-8b82-d42badb3e826",
+          "title": "EUR 3 customs duty VAT guidelines",
+          "publisher": "European Commission",
+          "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "e277f5e9-e032-55c3-8296-52a46485e4cb",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "g20-us-hands-off-ai-regulation",
+      "rank": 3,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-g20-us-hands-off-ai-regulation-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "美国在G20科技会议推动更少干预的人工智能监管路线",
+          "headlineView": "全球规则分歧会把模型合规从一份政策变成按市场拆分的产品能力",
+          "headlineFull": "美国在G20科技会议推动更少干预的人工智能监管路线；全球规则分歧会把模型合规从一份政策变成按市场拆分的产品能力",
+          "intro": "当美国强调创新空间、欧盟强化AI法案执行，模型供应商和采用者将面对不同的透明度、风险评估与责任要求。团队应把训练数据、模型版本、用途限制和人工接管做成可配置控制，而不是等规则统一后再补合规。",
+          "xiaziQuote": "监管分叉时，最值钱的不是口号，而是可切换的证据链。",
+          "doudouQuote": "同一个模型，也要准备两套市场清单。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "The United States urged a lighter-touch approach to AI regulation at a G20 technology meeting",
+          "headlineView": "diverging global rules turn model compliance from one policy into a market-specific product capability",
+          "headlineFull": "The United States urged a lighter-touch approach to AI regulation at a G20 technology meeting; diverging global rules turn model compliance from one policy into a market-specific product capability",
+          "intro": "As the United States emphasizes room for innovation and the European Union expands AI Act enforcement, providers and adopters face different transparency, risk-assessment and accountability demands. Teams should make training data, model versions, use limits and human takeover configurable rather than waiting for rules to converge.",
+          "xiaziQuote": "When regulation forks, a switchable evidence chain is worth more than a slogan.",
+          "doudouQuote": "Prepare two market checklists for the same model.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "969258af-d36f-5ab3-8613-5b02c844ad59",
+          "topicId": "e277f5e9-e032-55c3-8296-52a46485e4cb",
+          "title": "US urges hands-off approach to AI regulation at G20 tech meeting",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=US%20urges%20hands-off%20approach%20AI%20regulation%20G20%20tech%20meeting%20September%201%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "9deb4a9e-6549-5f5c-aa17-ec65b3b4c6f2",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "godaddy-one-click-domain-opc-launch",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-godaddy-one-click-domain-opc-launch-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "GoDaddy推出一键域名连接，减少小企业从建站到上线的配置步骤",
+          "headlineView": "一人公司的增长杠杆常来自消灭交接与设置，而不是再增加一个复杂工具",
+          "headlineFull": "GoDaddy推出一键域名连接，减少小企业从建站到上线的配置步骤；一人公司的增长杠杆常来自消灭交接与设置，而不是再增加一个复杂工具",
+          "intro": "域名、DNS和网站之间的连接长期是非技术经营者的摩擦点。把多步配置压缩为可验证的一次操作，能缩短试验到上线的时间；独立经营者应优先自动化高频交接，同时保留域名所有权、导出和回滚能力。",
+          "xiaziQuote": "最好的自动化，往往只是让一次关键交接消失。",
+          "doudouQuote": "能一键上线，也要先确认域名仍握在自己手里。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "GoDaddy introduced one-click domain connection to reduce setup steps between a small-business website and launch",
+          "headlineView": "solo-company leverage often comes from removing handoffs and configuration rather than adding another complex tool",
+          "headlineFull": "GoDaddy introduced one-click domain connection to reduce setup steps between a small-business website and launch; solo-company leverage often comes from removing handoffs and configuration rather than adding another complex tool",
+          "intro": "Connecting domains, DNS and sites has long been a friction point for nontechnical operators. Compressing several steps into one verifiable action shortens the path from experiment to launch. Solo founders should automate frequent handoffs first while retaining domain ownership, export and rollback options.",
+          "xiaziQuote": "The best automation often makes one critical handoff disappear.",
+          "doudouQuote": "A one-click launch still needs the domain in your own hands.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "e3d9d156-bdfe-5009-8de1-a3ecd4815738",
+          "topicId": "9deb4a9e-6549-5f5c-aa17-ec65b3b4c6f2",
+          "title": "GoDaddy cuts website setup time for small businesses with one-click domain connection",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=GoDaddy%20one-click%20domain%20connection%20small%20businesses%20September%201%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "22fa1b88-feb0-5b56-a263-167fab694c6d",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "us-iran-strikes-hormuz-shipping",
+      "rank": 5,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-us-iran-strikes-hormuz-shipping-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "霍尔木兹局势",
+          "headlineFact": "美国在霍尔木兹海峡周边对伊朗发动新一轮打击，伊朗随后发射导弹与无人机回应",
+          "headlineView": "有限打击也会先通过航运保险、绕行时间与燃料成本冲击全球供应链",
+          "headlineFull": "美国在霍尔木兹海峡周边对伊朗发动新一轮打击，伊朗随后发射导弹与无人机回应；有限打击也会先通过航运保险、绕行时间与燃料成本冲击全球供应链",
+          "intro": "商业航运附近的军事升级使承运人、保险商和能源买家重新评估风险。进口商不应只盯原油价格，还要更新战争险、附加费、替代港口、交付缓冲和不可抗力条款，并避免把短暂停火当成稳定基线。",
+          "xiaziQuote": "海峡风险不是地图上的一条线，而是每张运单上的时间与保费。",
+          "doudouQuote": "先问船能不能走，再问货什么时候到。",
+          "footerTakeaway": "今日关键词：霍尔木兹局势。"
+        },
+        "en-US": {
+          "categoryLabel": "Strait of Hormuz",
+          "headlineFact": "The United States launched a new round of strikes on Iran around the Strait of Hormuz, followed by Iranian missile and drone fire",
+          "headlineView": "even limited attacks reach supply chains first through marine insurance, rerouting time and fuel costs",
+          "headlineFull": "The United States launched a new round of strikes on Iran around the Strait of Hormuz, followed by Iranian missile and drone fire; even limited attacks reach supply chains first through marine insurance, rerouting time and fuel costs",
+          "intro": "Military escalation near commercial shipping forces carriers, insurers and energy buyers to reprice risk. Importers should update war-risk cover, surcharges, alternative ports, delivery buffers and force-majeure clauses instead of watching crude prices alone or treating a short pause as a stable baseline.",
+          "xiaziQuote": "Strait risk is not a line on a map; it is time and premium on every bill of lading.",
+          "doudouQuote": "Ask whether the ship can sail before asking when it arrives.",
+          "footerTakeaway": "Keyword: Strait of Hormuz."
+        }
+      },
+      "sources": [
+        {
+          "id": "2103ea06-c3b6-5ab6-98ad-40a3e4257203",
+          "topicId": "22fa1b88-feb0-5b56-a263-167fab694c6d",
+          "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=US%20launches%20new%20barrage%20strikes%20Iran%20Strait%20Hormuz%20September%201%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "14aea2d3-561a-576d-a0df-408ce484ef54",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "oil-bond-selloff-global-markets",
+      "rank": 6,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-oil-bond-selloff-global-markets-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球市场",
+          "headlineFact": "油价上涨与债券抛售共同压低全球股市，美国主要股指在9月首个交易日走弱",
+          "headlineView": "能源冲击和高利率会同时抬高库存、融资与估值成本",
+          "headlineFull": "油价上涨与债券抛售共同压低全球股市，美国主要股指在9月首个交易日走弱；能源冲击和高利率会同时抬高库存、融资与估值成本",
+          "intro": "冲突推升油价，通胀担忧又抬高长期收益率，使企业同时面对运输成本和资金成本。经营者应分别测算毛利、现金周转和融资续期，而不是只看股指；高负债、长交付和能源密集型业务最需要更厚缓冲。",
+          "xiaziQuote": "油价改成本，收益率改时间，两者一起改经营节奏。",
+          "doudouQuote": "把库存天数和借款到期日放在同一张表。",
+          "footerTakeaway": "今日关键词：全球市场。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Markets",
+          "headlineFact": "Rising oil prices and a bond sell-off pulled global equities lower on the first trading day of September",
+          "headlineView": "an energy shock and high rates raise inventory, financing and valuation costs at the same time",
+          "headlineFull": "Rising oil prices and a bond sell-off pulled global equities lower on the first trading day of September; an energy shock and high rates raise inventory, financing and valuation costs at the same time",
+          "intro": "Conflict lifts oil while inflation anxiety pushes long yields higher, leaving businesses with both transport and capital pressure. Operators should model margin, cash conversion and refinancing separately instead of watching indexes alone; leveraged, long-delivery and energy-intensive businesses need the thickest buffers.",
+          "xiaziQuote": "Oil reprices cost, yields reprice time, and together they reset operating rhythm.",
+          "doudouQuote": "Put inventory days and debt maturities on the same sheet.",
+          "footerTakeaway": "Keyword: Global Markets."
+        }
+      },
+      "sources": [
+        {
+          "id": "0825a767-2955-592a-955b-d96c1845b72d",
+          "topicId": "14aea2d3-561a-576d-a0df-408ce484ef54",
+          "title": "Stocks slip under pressure from rising oil prices and bond sell-off",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=stocks%20oil%20bond%20sell-off%20September%201%202026%20AP&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e75597fe-6ddb-536f-aaa2-35aec53372b9",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "nepal-flood-deaths-rescue-logistics",
+      "rank": 7,
+      "category": "climate",
+      "region": "Asia",
+      "countryCodes": [
+        "NP",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-nepal-flood-deaths-rescue-logistics-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "尼泊尔洪灾",
+          "headlineFact": "尼泊尔洪灾死亡人数超过1000人，救援人员继续进入偏远地区寻找失踪者",
+          "headlineView": "道路、隧道与通信中断让灾害从现场救援扩展为长期供应与重建问题",
+          "headlineFull": "尼泊尔洪灾死亡人数超过1000人，救援人员继续进入偏远地区寻找失踪者；道路、隧道与通信中断让灾害从现场救援扩展为长期供应与重建问题",
+          "intro": "洪水和泥石流切断山区通道，使伤亡确认、物资运输和失踪者搜寻都更加困难。援助机构与企业应以可通行路线、燃料、通信和医疗容量规划支援，不把行政边界上的统计当成完整现场图景。",
+          "xiaziQuote": "灾害数字还在变化时，最重要的是知道哪条路仍能把资源送进去。",
+          "doudouQuote": "地图上的最短路，不一定是今天能走的路。",
+          "footerTakeaway": "今日关键词：尼泊尔洪灾。"
+        },
+        "en-US": {
+          "categoryLabel": "Nepal Floods",
+          "headlineFact": "Nepal's flood death toll passed 1,000 as rescuers continued reaching remote areas and searching for the missing",
+          "headlineView": "broken roads, tunnels and communications turn rescue into a longer supply and reconstruction challenge",
+          "headlineFull": "Nepal's flood death toll passed 1,000 as rescuers continued reaching remote areas and searching for the missing; broken roads, tunnels and communications turn rescue into a longer supply and reconstruction challenge",
+          "intro": "Floods and landslides have cut mountain access, complicating casualty confirmation, aid delivery and searches. Relief groups and businesses should plan around passable routes, fuel, communications and medical capacity rather than treating administrative-boundary counts as a complete field picture.",
+          "xiaziQuote": "While disaster numbers move, the vital fact is which route can still carry help in.",
+          "doudouQuote": "The shortest line on a map may not be a road today.",
+          "footerTakeaway": "Keyword: Nepal Floods."
+        }
+      },
+      "sources": [
+        {
+          "id": "066d7116-8afc-52bb-b499-846a1adc026e",
+          "topicId": "e75597fe-6ddb-536f-aaa2-35aec53372b9",
+          "title": "Nepal flood death toll crosses 1,000 as rescuers reach remote areas",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Nepal%20flood%20death%20toll%201000%20rescuers%20remote%20areas%20September%201%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "c8b00222-0e85-5b66-b9a6-64f9dbc44aeb",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "southern-france-september-heatwave",
+      "rank": 8,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "FR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-southern-france-september-heatwave-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "法国热浪",
+          "headlineFact": "法国南部从9月2日起迎来被气象部门称为显著的新一轮高温，并将向南半部扩展",
+          "headlineView": "入秋后的高温仍会冲击用电、户外劳动、旅游和冷链安排",
+          "headlineFull": "法国南部从9月2日起迎来被气象部门称为显著的新一轮高温，并将向南半部扩展；入秋后的高温仍会冲击用电、户外劳动、旅游和冷链安排",
+          "intro": "气象秋季开始并不意味着热风险结束。雇主与城市运营者应调整户外班次、补水与降温点，检查制冷设备和冷链余量，并把夜间最低温与持续天数纳入健康风险，而不是只看白天峰值。",
+          "xiaziQuote": "季节换了名字，基础设施不会因此自动降温。",
+          "doudouQuote": "看最高温，也要看夜里能不能真正凉下来。",
+          "footerTakeaway": "今日关键词：法国热浪。"
+        },
+        "en-US": {
+          "categoryLabel": "France Heatwave",
+          "headlineFact": "Southern France begins a new heat episode on September 2 that forecasters describe as remarkable before it spreads across the southern half",
+          "headlineView": "autumn heat still disrupts electricity, outdoor work, tourism and cold-chain planning",
+          "headlineFull": "Southern France begins a new heat episode on September 2 that forecasters describe as remarkable before it spreads across the southern half; autumn heat still disrupts electricity, outdoor work, tourism and cold-chain planning",
+          "intro": "The start of meteorological autumn does not end heat risk. Employers and cities should adjust outdoor shifts, water and cooling access, inspect refrigeration and cold-chain headroom, and track nighttime lows and duration instead of daytime peaks alone.",
+          "xiaziQuote": "A season changing its name does not cool infrastructure automatically.",
+          "doudouQuote": "Watch the daytime peak and whether the night truly cools.",
+          "footerTakeaway": "Keyword: France Heatwave."
+        }
+      },
+      "sources": [
+        {
+          "id": "a80af65e-2d45-5af9-bb87-33da6b989b18",
+          "topicId": "c8b00222-0e85-5b66-b9a6-64f9dbc44aeb",
+          "title": "New remarkable heatwave expected in southern France from Wednesday",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=remarkable%20heatwave%20southern%20France%20Wednesday%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "266726c7-1159-59d4-ae68-53909c1bcff7",
+      "issueId": "09aafb7b-1145-5d68-84b1-46b1d2928b62",
+      "slug": "dark-matter-potential-breakthrough",
+      "rank": 9,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-dark-matter-potential-breakthrough-20260902",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "前沿科学",
+          "headlineFact": "科学家报告在暗物质搜寻中取得潜在突破，但结果仍需独立验证",
+          "headlineView": "前沿发现的价值来自可重复证据，而不是把早期信号写成确定答案",
+          "headlineFull": "科学家报告在暗物质搜寻中取得潜在突破，但结果仍需独立验证；前沿发现的价值来自可重复证据，而不是把早期信号写成确定答案",
+          "intro": "暗物质被认为构成宇宙大部分物质，却长期无法被直接确认。新的实验或观测线索值得关注，但科学传播应清楚区分信号、解释与发现，等待同行评议、统计显著性和其他团队复现后再提高结论强度。",
+          "xiaziQuote": "真正的突破，不怕在证据前保留一个问号。",
+          "doudouQuote": "先写潜在，再等另一台仪器给出同样答案。",
+          "footerTakeaway": "今日关键词：前沿科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Frontier Science",
+          "headlineFact": "Scientists reported a potential breakthrough in the search for dark matter, with independent confirmation still required",
+          "headlineView": "frontier discovery earns value through reproducible evidence, not by turning an early signal into certainty",
+          "headlineFull": "Scientists reported a potential breakthrough in the search for dark matter, with independent confirmation still required; frontier discovery earns value through reproducible evidence, not by turning an early signal into certainty",
+          "intro": "Dark matter is thought to make up most matter in the universe yet has resisted direct confirmation. A new experimental or observational clue matters, but science communication should separate signal, interpretation and discovery until peer review, statistical strength and replication justify a stronger claim.",
+          "xiaziQuote": "A real breakthrough is not afraid to keep a question mark ahead of the evidence.",
+          "doudouQuote": "Write potential first, then wait for another instrument to agree.",
+          "footerTakeaway": "Keyword: Frontier Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "c699bc89-1ab9-5f66-8ac1-f1496178c5d0",
+          "topicId": "266726c7-1159-59d4-ae68-53909c1bcff7",
+          "title": "Scientists make potential breakthrough in search for dark matter",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=scientists%20potential%20breakthrough%20search%20dark%20matter%20September%201%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-02T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

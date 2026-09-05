@@ -1,0 +1,523 @@
+{
+  "id": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+  "slug": "2026-09-03",
+  "issueDate": "2026-09-03",
+  "assetVersion": "rel_20260903_e04c66e552c3f0b2583454cb",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-09-03T05:00:00+08:00",
+  "gmtTimestamp": "2026-09-02T21:00:00.000Z",
+  "featuredTopicId": "0a5c7083-773e-54fb-b5dc-399dd783f48d",
+  "style": {
+    "name": "Cyberpunk",
+    "zhName": "赛博朋克",
+    "description": "Style Atlas daily pick: Cyberpunk. Use a dark futuristic city, cyan and magenta neon, data streams, scan lines and transparent HUD information layers while keeping every fact readable. Facts, data, diagrams and story-specific scenes occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or bottom."
+  },
+  "topics": [
+    {
+      "id": "0a5c7083-773e-54fb-b5dc-399dd783f48d",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "today-overview-duty-ai-agents-gulf-climate-science",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-duty-ai-agents-gulf-climate-science-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "9月3日全球经营雷达显示关税、人工智能版权、代理商务与地缘风险同步升温",
+          "headlineView": "经营者应把合规、现金流、供应链与信息验证放进同一张动态仪表盘",
+          "headlineFull": "9月3日全球经营雷达显示关税、人工智能版权、代理商务与地缘风险同步升温；经营者应把合规、现金流、供应链与信息验证放进同一张动态仪表盘",
+          "intro": "欧盟低值进口关税改变跨境成本，人工智能训练版权案推进，代理商务平台把更多任务交给模型；海湾冲突、中国与埃及合作、尼泊尔山洪、全球市场反弹和土星新发现共同构成今天的经营与知识地图。",
+          "xiaziQuote": "热点不是九条孤岛，而是一张会互相传导的风险网络。",
+          "doudouQuote": "先标出今天必须行动的三格。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "The September 3 operating radar shows tariffs, AI copyright, agentic commerce and geopolitical risk rising together",
+          "headlineView": "operators should place compliance, cash flow, supply chains and information verification on one live dashboard",
+          "headlineFull": "The September 3 operating radar shows tariffs, AI copyright, agentic commerce and geopolitical risk rising together; operators should place compliance, cash flow, supply chains and information verification on one live dashboard",
+          "intro": "The EU low-value import duty changes cross-border costs, an AI-training copyright case advances, and an agentic commerce platform hands more work to models. Gulf conflict, China-Egypt cooperation, Nepal floods, a market rebound and a new Saturn discovery complete today's operating and knowledge map.",
+          "xiaziQuote": "Today's headlines are not nine islands but one network of transmitting risk.",
+          "doudouQuote": "Mark the three cells that require action today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "d925ee3b-53b2-5600-a671-7ff84fab0126",
+          "topicId": "0a5c7083-773e-54fb-b5dc-399dd783f48d",
+          "title": "September 2, 2026 global business, conflict, climate and science signals",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=September%202%202026%20global%20business%20conflict%20climate%20science&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7b947105-313e-5e24-8452-c1db9413cdce",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "eu-three-euro-duty-seller-margin-reset",
+      "rank": 2,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-three-euro-duty-seller-margin-reset-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟低值进口新规实施，每件商品征收3欧元临时关税",
+          "headlineView": "卖家必须把HS编码、IOSS、申报数据与落地成本一起重算，低价多件订单最先承压",
+          "headlineFull": "欧盟低值进口新规实施，每件商品征收3欧元临时关税；卖家必须把HS编码、IOSS、申报数据与落地成本一起重算，低价多件订单最先承压",
+          "intro": "150欧元以下进口商品不再享受原有免税门槛，临时关税按商品件数而非整票统一计收。跨境卖家需要校准商品归类、IOSS申报、DDP报价、合单策略和结账页说明，并用真实购物篮而不是单件标价测算毛利。",
+          "xiaziQuote": "低价优势不能再靠忽略每件商品的清关成本。",
+          "doudouQuote": "先用真实购物篮重跑毛利，不要只看单票运费。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "The EU's new low-value import rules apply a temporary EUR3 customs duty to each item",
+          "headlineView": "sellers must recalculate HS codes, IOSS data and landed cost together, with low-ticket multi-item baskets under the most pressure",
+          "headlineFull": "The EU's new low-value import rules apply a temporary EUR3 customs duty to each item; sellers must recalculate HS codes, IOSS data and landed cost together, with low-ticket multi-item baskets under the most pressure",
+          "intro": "Imported goods under EUR150 no longer enjoy the former duty-free treatment, and the temporary duty is charged by item rather than once per parcel. Cross-border sellers should recalibrate classification, IOSS filings, DDP pricing, consolidation and checkout disclosure using real baskets instead of a single sticker price.",
+          "xiaziQuote": "Low prices can no longer depend on ignoring customs cost per item.",
+          "doudouQuote": "Rerun margin on a real basket, not only the parcel freight.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "8f39ec98-8514-5373-b959-a884110ed6bc",
+          "topicId": "7b947105-313e-5e24-8452-c1db9413cdce",
+          "title": "EUR 3 customs duty VAT guidelines",
+          "publisher": "European Commission",
+          "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "c20176f7-52a7-5a7e-bb66-4193a24ad641",
+          "topicId": "7b947105-313e-5e24-8452-c1db9413cdce",
+          "title": "EU EUR3 low-value customs duty seller margin September 2026",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=EU%20EUR3%20low-value%20customs%20duty%20seller%20margin%20September%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "0a5b2338-5d70-5702-9088-8124b4ac81a4",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "doj-openai-nyt-training-copyright-case",
+      "rank": 3,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-doj-openai-nyt-training-copyright-case-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "美国司法部在《纽约时报》诉OpenAI训练版权案中支持合理使用主张",
+          "headlineView": "训练数据的合法性仍在诉讼中，模型团队要保留来源、版本、授权与删除证据",
+          "headlineFull": "美国司法部在《纽约时报》诉OpenAI训练版权案中支持合理使用主张；训练数据的合法性仍在诉讼中，模型团队要保留来源、版本、授权与删除证据",
+          "intro": "美国政府提交的法院文件支持OpenAI关于模型训练属于合理使用的论点，但案件尚未形成最终裁决。开发者和采用者不应把单次立场当成确定规则，而应持续记录数据来源、许可条件、模型版本、退出请求和内容删除流程。",
+          "xiaziQuote": "法律立场会变化，能回溯的数据链才是长期资产。",
+          "doudouQuote": "先记录模型吃过什么，再讨论它学会了什么。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "The US Justice Department backed OpenAI's fair-use argument in The New York Times training-copyright case",
+          "headlineView": "training-data legality remains in litigation, so model teams need evidence for sources, versions, licenses and deletion",
+          "headlineFull": "The US Justice Department backed OpenAI's fair-use argument in The New York Times training-copyright case; training-data legality remains in litigation, so model teams need evidence for sources, versions, licenses and deletion",
+          "intro": "A US government court filing supports OpenAI's argument that model training can qualify as fair use, but the case has not reached a final ruling. Developers and adopters should not treat one position as settled law; they should preserve data provenance, license terms, model versions, opt-out requests and content-removal procedures.",
+          "xiaziQuote": "Legal positions move; a traceable data chain remains a durable asset.",
+          "doudouQuote": "Record what the model consumed before debating what it learned.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "e23d54de-929b-5b82-bf3c-d4509719bb59",
+          "topicId": "0a5b2338-5d70-5702-9088-8124b4ac81a4",
+          "title": "Trump administration backs OpenAI in New York Times copyright case",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Trump%20administration%20backs%20OpenAI%20New%20York%20Times%20copyright%20case%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3585b2a2-11c6-5dfd-b760-a174c347ab38",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "runner-ai-agentic-commerce-founder-approval",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-runner-ai-agentic-commerce-founder-approval-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "Runner AI发布代理商务平台，让多个人工智能代理运行网店、创始人只审批关键事项",
+          "headlineView": "一人公司真正的杠杆是审批边界、异常接管和可撤销授权，不是无人值守口号",
+          "headlineFull": "Runner AI发布代理商务平台，让多个人工智能代理运行网店、创始人只审批关键事项；一人公司真正的杠杆是审批边界、异常接管和可撤销授权，不是无人值守口号",
+          "intro": "新平台把建站、商品、创意和日常运营交给一组协同代理，再由创始人批准重要提案。独立经营者评估此类工具时，应优先检查费用上限、账户权限、异常告警、人工接管、数据导出和撤销能力，而不是只看自动化演示。",
+          "xiaziQuote": "把重复工作交给代理，把责任边界留给人。",
+          "doudouQuote": "自动执行之前，先写清楚什么必须停下来问你。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "Runner AI launched an agentic-commerce platform where multiple AI agents run a store and founders approve key decisions",
+          "headlineView": "solo-company leverage depends on approval boundaries, exception takeover and revocable authority, not unattended-operation slogans",
+          "headlineFull": "Runner AI launched an agentic-commerce platform where multiple AI agents run a store and founders approve key decisions; solo-company leverage depends on approval boundaries, exception takeover and revocable authority, not unattended-operation slogans",
+          "intro": "The platform assigns site building, products, creative and daily operations to a coordinated agent team while the founder approves important proposals. Solo operators evaluating such tools should inspect spending caps, account permissions, exception alerts, human takeover, data export and revocation before trusting the automation demo.",
+          "xiaziQuote": "Give repetitive work to agents and keep accountability boundaries human.",
+          "doudouQuote": "Define what must stop and ask you before automation runs.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "10a0b472-74f4-5217-ad54-e19d7ba51e8c",
+          "topicId": "3585b2a2-11c6-5dfd-b760-a174c347ab38",
+          "title": "Runner AI debuts agentic commerce for founders and small teams",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Runner%20AI%20debuts%20agentic%20commerce%20founders%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "ca25c01b-f8e6-5713-bb98-66147a7c27b3",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "iran-gulf-allies-missiles-drones-logistics",
+      "rank": 5,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IR",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-iran-gulf-allies-missiles-drones-logistics-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "海湾局势",
+          "headlineFact": "伊朗在新一轮袭击后向美国海湾盟友目标发射导弹和无人机",
+          "headlineView": "军事升级会先通过航线、保险、能源与交付缓冲传导到全球企业",
+          "headlineFull": "伊朗在新一轮袭击后向美国海湾盟友目标发射导弹和无人机；军事升级会先通过航线、保险、能源与交付缓冲传导到全球企业",
+          "intro": "海湾地区再度交火使承运人、保险商、能源买家和进口商重新评估风险。企业应更新替代港口、绕航时间、战争险、燃料附加费、交付缓冲与不可抗力条款，避免把短暂平静误当作稳定基线。",
+          "xiaziQuote": "地缘风险进入运单时，就不再只是外交新闻。",
+          "doudouQuote": "把替代港口、战争险和延误条款放进同一份预案。",
+          "footerTakeaway": "今日关键词：海湾局势。"
+        },
+        "en-US": {
+          "categoryLabel": "Gulf Conflict",
+          "headlineFact": "Iran fired missiles and drones at targets linked to US Gulf allies after a new round of attacks",
+          "headlineView": "military escalation reaches global businesses first through routes, insurance, energy and delivery buffers",
+          "headlineFull": "Iran fired missiles and drones at targets linked to US Gulf allies after a new round of attacks; military escalation reaches global businesses first through routes, insurance, energy and delivery buffers",
+          "intro": "Renewed exchanges in the Gulf force carriers, insurers, energy buyers and importers to reassess risk. Companies should update alternative ports, rerouting time, war-risk cover, fuel surcharges, delivery buffers and force-majeure clauses instead of treating a short quiet period as a stable baseline.",
+          "xiaziQuote": "Geopolitical risk stops being diplomatic news when it enters the bill of lading.",
+          "doudouQuote": "Put backup ports, war cover and delay terms in one plan.",
+          "footerTakeaway": "Keyword: Gulf Conflict."
+        }
+      },
+      "sources": [
+        {
+          "id": "51c8dce2-f471-53f4-bee0-36bfee3541bf",
+          "topicId": "ca25c01b-f8e6-5713-bb98-66147a7c27b3",
+          "title": "Iran targets US allies in Gulf after overnight attacks",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Iran%20targets%20US%20allies%20Gulf%20after%20overnight%20attacks%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "88c219be-4718-5ffc-9707-3749c6724dc4",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "xi-egypt-trade-infrastructure-middle-east",
+      "rank": 6,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "CN",
+        "EG"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-xi-egypt-trade-infrastructure-middle-east-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中国—埃及",
+          "headlineFact": "中国国家主席访问埃及，双方寻求在快速变化的中东深化合作",
+          "headlineView": "基础设施、贸易和外交合作扩大，也要求企业更细致评估项目、结算与地区风险",
+          "headlineFull": "中国国家主席访问埃及，双方寻求在快速变化的中东深化合作；基础设施、贸易和外交合作扩大，也要求企业更细致评估项目、结算与地区风险",
+          "intro": "中国与埃及讨论深化双边关系，背景是中东安全和大国竞争持续变化。参与贸易或项目的企业应同时审查合同执行、币种与结算、物流节点、当地伙伴、制裁暴露和政策变化，不把高层合作信号直接等同于低风险交付。",
+          "xiaziQuote": "新市场的机会，必须和执行环境一起看。",
+          "doudouQuote": "签约前先画清资金、物流和政策三条线。",
+          "footerTakeaway": "今日关键词：中国—埃及。"
+        },
+        "en-US": {
+          "categoryLabel": "China-Egypt",
+          "headlineFact": "China's president visited Egypt as both countries sought deeper cooperation in a rapidly changing Middle East",
+          "headlineView": "expanding infrastructure, trade and diplomatic ties require finer assessment of projects, settlement and regional risk",
+          "headlineFull": "China's president visited Egypt as both countries sought deeper cooperation in a rapidly changing Middle East; expanding infrastructure, trade and diplomatic ties require finer assessment of projects, settlement and regional risk",
+          "intro": "China and Egypt discussed deeper bilateral ties while Middle East security and great-power competition keep shifting. Businesses entering trade or projects should review contract enforcement, currency and settlement, logistics nodes, local partners, sanctions exposure and policy change rather than translating high-level cooperation into low-risk delivery.",
+          "xiaziQuote": "A new market opportunity must be read with its execution environment.",
+          "doudouQuote": "Map money, logistics and policy before signing.",
+          "footerTakeaway": "Keyword: China-Egypt."
+        }
+      },
+      "sources": [
+        {
+          "id": "81da43b6-39b4-5d7d-be3f-af418cf6d4df",
+          "topicId": "88c219be-4718-5ffc-9707-3749c6724dc4",
+          "title": "Xi visits Egypt as China seeks deeper influence across the Mideast",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Xi%20visits%20Egypt%20China%20deeper%20influence%20Mideast%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "fab39b0a-4d1b-501f-a806-8e55303ee41e",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "himalaya-warming-nepal-flood-resilience",
+      "rank": 7,
+      "category": "climate",
+      "region": "Asia",
+      "countryCodes": [
+        "NP"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-himalaya-warming-nepal-flood-resilience-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "尼泊尔山洪",
+          "headlineFact": "气候变暖正在增加喜马拉雅山区山洪与泥石流的频率",
+          "headlineView": "道路和社区尚未完成重建就再次受灾，韧性规划必须覆盖连续冲击",
+          "headlineFull": "气候变暖正在增加喜马拉雅山区山洪与泥石流的频率；道路和社区尚未完成重建就再次受灾，韧性规划必须覆盖连续冲击",
+          "intro": "高山冰川融化和极端降水改变河流与坡地风险，一些社区在前一次灾害后尚未恢复又遭遇新洪水。政府、援助机构和企业需要围绕备用路线、通信、燃料、医疗、仓储和社区预警设计连续冲击下的运营方案。",
+          "xiaziQuote": "重建不是恢复旧样子，而是为下一次冲击留下余量。",
+          "doudouQuote": "把备用路线、通信和物资点放在一张活地图上。",
+          "footerTakeaway": "今日关键词：尼泊尔山洪。"
+        },
+        "en-US": {
+          "categoryLabel": "Nepal Floods",
+          "headlineFact": "A warming climate is making flash floods and landslides more frequent across the Himalayas",
+          "headlineView": "roads and communities are hit again before rebuilding is complete, so resilience planning must cover repeated shocks",
+          "headlineFull": "A warming climate is making flash floods and landslides more frequent across the Himalayas; roads and communities are hit again before rebuilding is complete, so resilience planning must cover repeated shocks",
+          "intro": "Melting high-mountain ice and extreme rainfall are changing river and slope hazards, and some communities face new floods before recovering from earlier disasters. Governments, relief groups and businesses need operating plans for repeated shocks across backup routes, communications, fuel, medicine, storage and local warning systems.",
+          "xiaziQuote": "Rebuilding is not restoring the old shape; it is leaving room for the next shock.",
+          "doudouQuote": "Put backup routes, communications and supplies on one live map.",
+          "footerTakeaway": "Keyword: Nepal Floods."
+        }
+      },
+      "sources": [
+        {
+          "id": "63c04dfb-ee8d-578f-a49f-3ee26fd9bfca",
+          "topicId": "fab39b0a-4d1b-501f-a806-8e55303ee41e",
+          "title": "Climate change makes Nepal and Himalayan floods more frequent",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=climate%20change%20Nepal%20Himalayan%20floods%20more%20frequent%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "b04db619-2e4f-55b0-a5aa-b3607765bae3",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "wall-street-tech-rebound-oil-yields-steady",
+      "rank": 8,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-wall-street-tech-rebound-oil-yields-steady-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球市场",
+          "headlineFact": "科技股上涨、油价和债券收益率趋稳，华尔街反弹",
+          "headlineView": "短期反弹不等于成本压力消失，企业仍需分别管理融资、能源与库存风险",
+          "headlineFull": "科技股上涨、油价和债券收益率趋稳，华尔街反弹；短期反弹不等于成本压力消失，企业仍需分别管理融资、能源与库存风险",
+          "intro": "大型科技股走强帮助美国股市从本周早些时候的下跌中反弹，油价和长期收益率暂时稳定。但企业现金流仍受全球冲突、政府债务、通胀与资本成本影响，经营者应以多套情景管理融资、能源采购和库存周转。",
+          "xiaziQuote": "市场变绿，不代表经营账本里的压力已经消失。",
+          "doudouQuote": "用三套情景看现金流，不要用一根指数替代判断。",
+          "footerTakeaway": "今日关键词：全球市场。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Markets",
+          "headlineFact": "Wall Street rebounded as technology stocks rose and oil prices and bond yields held relatively steady",
+          "headlineView": "a short rebound does not erase cost pressure, so companies must manage financing, energy and inventory risks separately",
+          "headlineFull": "Wall Street rebounded as technology stocks rose and oil prices and bond yields held relatively steady; a short rebound does not erase cost pressure, so companies must manage financing, energy and inventory risks separately",
+          "intro": "Gains in major technology stocks helped US equities recover from an early-week decline while oil prices and long yields stabilized for the moment. Business cash flow still faces global conflict, public debt, inflation and capital-cost pressure, so operators should manage financing, energy purchasing and inventory turns through multiple scenarios.",
+          "xiaziQuote": "A green market screen does not remove pressure from the operating ledger.",
+          "doudouQuote": "Use three cash-flow scenarios instead of one index.",
+          "footerTakeaway": "Keyword: Global Markets."
+        }
+      },
+      "sources": [
+        {
+          "id": "2865cab2-dc05-5495-b11f-15b1f07b5797",
+          "topicId": "b04db619-2e4f-55b0-a5aa-b3607765bae3",
+          "title": "Wall Street rises as tech stocks climb and oil and bond yields hold steady",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Wall%20Street%20rises%20tech%20stocks%20oil%20bond%20yields%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7bf3d455-0588-50a0-a32f-65c01c9329f4",
+      "issueId": "87e356ee-6edd-5bdb-90b2-27b37cb8baec",
+      "slug": "saturn-south-pole-decagon-cloud-wave",
+      "rank": 9,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-saturn-south-pole-decagon-cloud-wave-20260903",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "前沿科学",
+          "headlineFact": "科学家在土星南极云层发现巨大的十边形波动结构",
+          "headlineView": "哈勃观测显示行星大气会形成更复杂、持续演化的喷流系统",
+          "headlineFull": "科学家在土星南极云层发现巨大的十边形波动结构；哈勃观测显示行星大气会形成更复杂、持续演化的喷流系统",
+          "intro": "研究团队在土星南极的氨云中识别出旋转的十边形波动，其规模和不稳定性可能超过北极著名的六边形。该结构可能在早期观测空窗期形成并仍在演化，提醒科学传播把观测时间、模型解释和不确定性一起呈现。",
+          "xiaziQuote": "新发现的价值，是让旧的唯一重新接受检验。",
+          "doudouQuote": "宇宙最酷的图形，也要靠多年观测确认。",
+          "footerTakeaway": "今日关键词：前沿科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Frontier Science",
+          "headlineFact": "Scientists found a huge 10-sided wave pattern in the clouds over Saturn's south pole",
+          "headlineView": "Hubble observations show that planetary atmospheres can form more complex and continuously evolving jet systems",
+          "headlineFull": "Scientists found a huge 10-sided wave pattern in the clouds over Saturn's south pole; Hubble observations show that planetary atmospheres can form more complex and continuously evolving jet systems",
+          "intro": "Researchers identified a rotating decagonal wave in Saturn's southern ammonia clouds that may be larger and less stable than the famous northern hexagon. It could have formed during an observational gap and may still be evolving, showing why scientific communication should present timing, interpretation and uncertainty together.",
+          "xiaziQuote": "A new discovery makes an old claim of uniqueness face testing again.",
+          "doudouQuote": "Even the universe's coolest shape needs years of observation.",
+          "footerTakeaway": "Keyword: Frontier Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "7e76c6fb-3c0e-5e59-8fa4-d41e1c0fac6e",
+          "topicId": "7bf3d455-0588-50a0-a32f-65c01c9329f4",
+          "title": "Scientists find a 10-sided wave pattern over Saturn's south pole",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=scientists%20ten-sided%20wave%20Saturn%20south%20pole%20September%202%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-03T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

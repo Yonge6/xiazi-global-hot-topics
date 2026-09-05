@@ -1,0 +1,523 @@
+{
+  "id": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+  "slug": "2026-08-31",
+  "issueDate": "2026-08-31",
+  "assetVersion": "rel_20260831_dd662a2252cbd10029f854a1",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-31T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-30T21:00:00.000Z",
+  "featuredTopicId": "103c70af-5109-55de-ba90-55533e821500",
+  "style": {
+    "name": "Kandinsky",
+    "zhName": "康定斯基式抽象",
+    "description": "Style Atlas daily pick: Kandinsky for global-news posters, using rhythmic circles, diagonals, arcs, color fields and musical visual tension while keeping facts, maps, timelines, diagrams and scene-specific information dominant. Xiazi and Doudou remain small at the edges."
+  },
+  "topics": [
+    {
+      "id": "103c70af-5109-55de-ba90-55533e821500",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "today-overview-trade-ai-solo-democracy-safety-climate-space",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-trade-ai-solo-democracy-safety-climate-space-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "墨西哥跨境清关、腾讯开源AI、轻量创业工具、冰岛公投、尼日尔兵变、海上事故、飓风与Roman望远镜构成今日全球图景",
+          "headlineView": "经营者需要同时看见通关效率、模型可控性、政治选择、人员安全和自然风险",
+          "headlineFull": "墨西哥跨境清关、腾讯开源AI、轻量创业工具、冰岛公投、尼日尔兵变、海上事故、飓风与Roman望远镜构成今日全球图景；经营者需要同时看见通关效率、模型可控性、政治选择、人员安全和自然风险",
+          "intro": "跨境物流与开源模型继续压缩交易和开发时间，轻量化经营更依赖可审计流程；与此同时，冰岛公投、尼日尔兵变、北塞浦路斯沉船、太平洋飓风和Roman望远镜进入自主飞行，提醒全球系统仍由制度、基础设施和硬门共同约束。",
+          "xiaziQuote": "世界越快，越要把每条链路的责任、边界和退出条件画清楚。",
+          "doudouQuote": "今天先找那根会牵动订单、系统或安全的线。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Mexico customs, Tencent open-source AI, lean business tools, Iceland's vote, Niger's mutiny, a ferry disaster, a hurricane and the Roman telescope shape today's global picture",
+          "headlineView": "operators need to track clearance speed, model control, political choice, human safety and natural risk together",
+          "headlineFull": "Mexico customs, Tencent open-source AI, lean business tools, Iceland's vote, Niger's mutiny, a ferry disaster, a hurricane and the Roman telescope shape today's global picture; operators need to track clearance speed, model control, political choice, human safety and natural risk together",
+          "intro": "Cross-border logistics and open models keep compressing transaction and development time, while lean operations depend more on auditable workflows. Iceland's referendum, Niger's mutiny, the North Cyprus ferry disaster, Pacific hurricane risk and Roman's autonomous flight show that institutions, infrastructure and hard gates still govern global systems.",
+          "xiaziQuote": "The faster the world moves, the clearer every chain needs responsibility, boundaries and an exit condition.",
+          "doudouQuote": "Find the line that can move an order, a system or a safety decision today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "255baa61-3154-542d-badb-a538b84726d2",
+          "topicId": "103c70af-5109-55de-ba90-55533e821500",
+          "title": "Global business, safety, climate and science signals for August 31, 2026",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=global%20business%20safety%20climate%20science%20August%2031%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "aee0afba-8473-58e2-bd38-3175e910aef2",
+          "topicId": "103c70af-5109-55de-ba90-55533e821500",
+          "title": "August 30, 2026 world news",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=August%2030%202026%20Reuters%20world&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "93a0c8c4-1991-527c-842b-5f26f1b24eed",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "cainiao-mexico-cross-border-customs-clearance",
+      "rank": 2,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "MX",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-cainiao-mexico-cross-border-customs-clearance-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "菜鸟加强墨西哥跨境清关能力，把干线、申报、查验与末端履约进一步接成一条链",
+          "headlineView": "拉美增长不只取决于流量，更取决于商品资料、税则与物流节点能否一次对齐",
+          "headlineFull": "菜鸟加强墨西哥跨境清关能力，把干线、申报、查验与末端履约进一步接成一条链；拉美增长不只取决于流量，更取决于商品资料、税则与物流节点能否一次对齐",
+          "intro": "墨西哥跨境贸易量上升，使稳定清关成为时效和成本的核心变量。卖家需要在出库前校准品名、价值、原产地、税则号和收件信息，并为查验、补税和末端延误保留可追踪的异常流程。",
+          "xiaziQuote": "跨境提速的前提，是让数据比包裹更早到达海关。",
+          "doudouQuote": "标签少一格，包裹可能就多等一站。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "Cainiao strengthened cross-border customs-clearance capacity in Mexico, linking line-haul, declarations, inspection and last-mile delivery more tightly",
+          "headlineView": "Latin American growth depends not only on demand but on aligning product data, tariff codes and logistics nodes the first time",
+          "headlineFull": "Cainiao strengthened cross-border customs-clearance capacity in Mexico, linking line-haul, declarations, inspection and last-mile delivery more tightly; Latin American growth depends not only on demand but on aligning product data, tariff codes and logistics nodes the first time",
+          "intro": "Rising cross-border trade volumes make predictable clearance central to delivery time and cost. Sellers should align product descriptions, value, origin, tariff codes and recipient data before dispatch, with traceable exception paths for inspection, extra duty and last-mile delay.",
+          "xiaziQuote": "Cross-border speed begins when data reaches customs before the parcel does.",
+          "doudouQuote": "One missing label field can add another stop.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "16afc849-db68-5063-a3dd-c29bbf1811ca",
+          "topicId": "93a0c8c4-1991-527c-842b-5f26f1b24eed",
+          "title": "Cainiao strengthens cross-border customs clearance capabilities in Mexico",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Cainiao%20Mexico%20cross-border%20customs%20clearance%20August%2028%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e8ff7820-71a2-5700-bb71-b051a3b38830",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "tencent-open-source-ai-model-coding-research",
+      "rank": 3,
+      "category": "technology",
+      "region": "Asia",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-tencent-open-source-ai-model-coding-research-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "腾讯发布面向编码与研究任务的新开源AI模型，继续把高能力模型推向可自部署工具链",
+          "headlineView": "开源降低接入门槛，也把评测、权限、数据隔离和推理成本交给部署者",
+          "headlineFull": "腾讯发布面向编码与研究任务的新开源AI模型，继续把高能力模型推向可自部署工具链；开源降低接入门槛，也把评测、权限、数据隔离和推理成本交给部署者",
+          "intro": "代码与研究代理需要长上下文、工具调用和稳定执行，但开源权重并不自动等于生产可靠。团队应先用真实任务建立基线，限制可写目录和外部操作，为高风险动作设置审批，并持续记录成本与失败模式。",
+          "xiaziQuote": "模型可以开放，生产责任不会自动开源给别人。",
+          "doudouQuote": "先给它沙盒和测试题，再给仓库钥匙。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "Tencent released a new open-source AI model for coding and research tasks, extending high-capability models into self-hosted toolchains",
+          "headlineView": "open access lowers integration barriers while handing evaluation, permissions, data isolation and inference cost to deployers",
+          "headlineFull": "Tencent released a new open-source AI model for coding and research tasks, extending high-capability models into self-hosted toolchains; open access lowers integration barriers while handing evaluation, permissions, data isolation and inference cost to deployers",
+          "intro": "Coding and research agents need long context, tool use and stable execution, but open weights do not guarantee production reliability. Teams should benchmark real tasks, restrict writable areas and external actions, require approval for high-risk steps and log cost and failure modes.",
+          "xiaziQuote": "A model can be open while production responsibility stays with the operator.",
+          "doudouQuote": "Give it a sandbox and test set before the repository key.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "11aecfdf-8a21-5634-ae2d-821be7e99588",
+          "topicId": "e8ff7820-71a2-5700-bb71-b051a3b38830",
+          "title": "China's Tencent releases new open-source AI model for coding, research tasks",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Tencent%20open%20source%20AI%20coding%20research%20model%20August%2028%202026%20Reuters&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "99e657f1-4b3f-5b62-91aa-27a8e7c84504",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "opc-lean-business-ai-audit-workflow",
+      "rank": 4,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-opc-lean-business-ai-audit-workflow-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "AI原生审计创业公司Repodo获得820万欧元融资，垂直工作流继续成为小团队切入专业服务的路径",
+          "headlineView": "一人公司不必复制整家事务所，而应先把证据收集、复核与交付中的一个闭环做深",
+          "headlineFull": "AI原生审计创业公司Repodo获得820万欧元融资，垂直工作流继续成为小团队切入专业服务的路径；一人公司不必复制整家事务所，而应先把证据收集、复核与交付中的一个闭环做深",
+          "intro": "专业服务的机会不在于把聊天机器人贴到旧流程上，而在于把资料入口、判断规则、人工审批和审计轨迹连起来。单人经营者可以从高频、边界清晰的一段工作切入，以可复核交付而非功能数量建立信任。",
+          "xiaziQuote": "小团队的护城河，是把一个专业闭环做到可验证。",
+          "doudouQuote": "别先造大楼，先把一间工作室的门、账和交付跑通。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "AI-native audit startup Repodo raised €8.2 million, reinforcing vertical workflows as an entry path into professional services for lean teams",
+          "headlineView": "a solo company need not copy an entire firm; it can deepen one closed loop in evidence collection, review and delivery",
+          "headlineFull": "AI-native audit startup Repodo raised €8.2 million, reinforcing vertical workflows as an entry path into professional services for lean teams; a solo company need not copy an entire firm; it can deepen one closed loop in evidence collection, review and delivery",
+          "intro": "The professional-services opportunity is not a chatbot pasted onto an old process but a connected path through intake, judgment rules, human approval and audit trails. Solo operators can begin with one frequent, bounded job and earn trust through reviewable delivery rather than feature count.",
+          "xiaziQuote": "A small team's moat is one professional loop made verifiable.",
+          "doudouQuote": "Do not build the tower first; make one studio's door, books and delivery work.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "7fb06fd1-2eb7-5f80-a345-9c6d219c01e4",
+          "topicId": "99e657f1-4b3f-5b62-91aa-27a8e7c84504",
+          "title": "Repodo Raises €8.2M for an AI-Native Audit Firm",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Repodo%20raises%208.2M%20AI-native%20audit%20firm%20August%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7156a78e-3017-5770-bac3-df5f7d36abe9",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "iceland-voters-reject-eu-accession-talks",
+      "rank": 5,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "IS"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-iceland-voters-reject-eu-accession-talks-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲政治",
+          "headlineFact": "冰岛选民否决重启加入欧盟谈判的提议，现有欧洲经济区关系继续成为主要框架",
+          "headlineView": "公投拒绝的是谈判路径，而非日常贸易、人员流动和规则协调的现实联系",
+          "headlineFull": "冰岛选民否决重启加入欧盟谈判的提议，现有欧洲经济区关系继续成为主要框架；公投拒绝的是谈判路径，而非日常贸易、人员流动和规则协调的现实联系",
+          "intro": "结果使短期内重启入盟谈判失去政治授权。企业仍需按照冰岛与欧洲经济区的现有安排经营，同时关注渔业、货币、主权与市场准入议题如何在国内政治中继续演化。",
+          "xiaziQuote": "一张反对票可以关上谈判门，却不会消失门外的经济联系。",
+          "doudouQuote": "不换房间，还是要继续和邻居对表。",
+          "footerTakeaway": "今日关键词：欧洲政治。"
+        },
+        "en-US": {
+          "categoryLabel": "European Politics",
+          "headlineFact": "Icelandic voters rejected a proposal to restart European Union accession talks, leaving the European Economic Area as the main framework",
+          "headlineView": "the referendum rejected a negotiating path, not the daily reality of trade, mobility and regulatory alignment",
+          "headlineFull": "Icelandic voters rejected a proposal to restart European Union accession talks, leaving the European Economic Area as the main framework; the referendum rejected a negotiating path, not the daily reality of trade, mobility and regulatory alignment",
+          "intro": "The result removes political authorization for reopening accession talks in the near term. Businesses still operate under Iceland's existing EEA arrangements while fisheries, currency, sovereignty and market access continue to shape domestic politics.",
+          "xiaziQuote": "A no vote can close a negotiating door without erasing the economic links outside it.",
+          "doudouQuote": "Stay in the room, and you still need to reconcile with the neighbors.",
+          "footerTakeaway": "Keyword: European Politics."
+        }
+      },
+      "sources": [
+        {
+          "id": "4699768d-12ed-500c-9abc-c9b9cb2337c5",
+          "topicId": "7156a78e-3017-5770-bac3-df5f7d36abe9",
+          "title": "Icelandic voters reject a proposal to restart negotiations to join the European Union",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Iceland%20voters%20reject%20EU%20negotiations%20August%2030%202026%20AP&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e4a1e1cc-a8ac-52fb-9732-6c90c0bc7531",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "niger-airbase-mutiny-contained",
+      "rank": 6,
+      "category": "international",
+      "region": "Africa",
+      "countryCodes": [
+        "NE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-niger-airbase-mutiny-contained-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "西非安全",
+          "headlineFact": "尼日尔军政府称已在士兵兵变后重新控制关键空军基地，首都安全局势仍需持续观察",
+          "headlineView": "控制一处基地不等于消除军队内部裂缝，交通、通信和公共服务仍是稳定信号",
+          "headlineFull": "尼日尔军政府称已在士兵兵变后重新控制关键空军基地，首都安全局势仍需持续观察；控制一处基地不等于消除军队内部裂缝，交通、通信和公共服务仍是稳定信号",
+          "intro": "兵变一度威胁机场与权力中心，政府随后宣布恢复控制。外界接下来需要关注指挥链是否统一、是否出现新的逮捕或冲突，以及边境安全与基本服务会不会受到波及。",
+          "xiaziQuote": "夺回设施是一个节点，重建指挥信任才是一条长线。",
+          "doudouQuote": "地图上的基地恢复蓝色，警报表还不能立刻清零。",
+          "footerTakeaway": "今日关键词：西非安全。"
+        },
+        "en-US": {
+          "categoryLabel": "West Africa Security",
+          "headlineFact": "Niger's military-led government said it regained control of a key airbase after a soldiers' mutiny, while security in the capital remains under watch",
+          "headlineView": "retaking one base does not erase fractures in the armed forces; transport, communications and public services remain stability signals",
+          "headlineFull": "Niger's military-led government said it regained control of a key airbase after a soldiers' mutiny, while security in the capital remains under watch; retaking one base does not erase fractures in the armed forces; transport, communications and public services remain stability signals",
+          "intro": "The mutiny briefly threatened the airport and centers of power before the government declared control restored. Attention now shifts to command unity, further arrests or clashes, and whether border security and basic services are disrupted.",
+          "xiaziQuote": "Retaking a facility is a milestone; rebuilding trust in command is a long line.",
+          "doudouQuote": "The base may turn blue on the map before the alert board clears.",
+          "footerTakeaway": "Keyword: West Africa Security."
+        }
+      },
+      "sources": [
+        {
+          "id": "547c65d7-1332-5bf0-894d-48eecfc908bc",
+          "topicId": "e4a1e1cc-a8ac-52fb-9732-6c90c0bc7531",
+          "title": "Niger says it regains control of airbase after soldiers mutiny",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Niger%20airbase%20mutiny%20August%2030%202026%20Reuters&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e7a6bc1d-faa3-5975-bfaf-298fddf211b5",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "north-cyprus-ferry-capsize-search",
+      "rank": 7,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "CY"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-north-cyprus-ferry-capsize-search-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "海上安全",
+          "headlineFact": "北塞浦路斯外海渡船倾覆，至少8人死亡、17人失踪，搜救工作仍在继续",
+          "headlineView": "短途客运同样需要载客清单、天气阈值、救生设备和跨部门搜救协同",
+          "headlineFull": "北塞浦路斯外海渡船倾覆，至少8人死亡、17人失踪，搜救工作仍在继续；短途客运同样需要载客清单、天气阈值、救生设备和跨部门搜救协同",
+          "intro": "事故后的首要任务是确认乘客人数、扩大水面与岸线搜索，并为幸存者提供救治。后续调查需要还原船况、载荷、天气和通信记录，避免把海上日常通勤误当成低风险运输。",
+          "xiaziQuote": "海程再短，也不能缩短安全清单。",
+          "doudouQuote": "上船前的一张名单，出事后就是搜救地图。",
+          "footerTakeaway": "今日关键词：海上安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Maritime Safety",
+          "headlineFact": "A ferry capsized off North Cyprus, killing at least eight people and leaving 17 missing as search operations continued",
+          "headlineView": "short passenger routes still require manifests, weather thresholds, lifesaving equipment and coordinated rescue",
+          "headlineFull": "A ferry capsized off North Cyprus, killing at least eight people and leaving 17 missing as search operations continued; short passenger routes still require manifests, weather thresholds, lifesaving equipment and coordinated rescue",
+          "intro": "Immediate priorities are confirming passenger numbers, expanding sea and shoreline searches and treating survivors. The investigation must reconstruct vessel condition, loading, weather and communications rather than treating routine coastal travel as low risk.",
+          "xiaziQuote": "A short voyage cannot justify a shorter safety checklist.",
+          "doudouQuote": "A passenger list before departure becomes a rescue map after disaster.",
+          "footerTakeaway": "Keyword: Maritime Safety."
+        }
+      },
+      "sources": [
+        {
+          "id": "cb3f7b5d-ceca-56a9-aa14-9f72e216f69a",
+          "topicId": "e7a6bc1d-faa3-5975-bfaf-298fddf211b5",
+          "title": "At least eight die, 17 missing after ferry capsizes off North Cyprus",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=North%20Cyprus%20ferry%20capsize%208%20dead%2017%20missing%20August%2030%202026%20Reuters&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "dc19436c-caab-52d7-aa5f-1be59996e9fe",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "hurricane-karina-pacific-forecast",
+      "rank": 8,
+      "category": "climate",
+      "region": "North America",
+      "countryCodes": [
+        "MX",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-hurricane-karina-pacific-forecast-20260831",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "极端天气",
+          "headlineFact": "太平洋热带风暴Karina增强为飓风，预报显示本周仍可能继续加强",
+          "headlineView": "即使中心不直接登陆，浪高、沿岸流、降雨与航运绕行也会提前产生影响",
+          "headlineFull": "太平洋热带风暴Karina增强为飓风，预报显示本周仍可能继续加强；即使中心不直接登陆，浪高、沿岸流、降雨与航运绕行也会提前产生影响",
+          "intro": "沿海地区和海上运营者需要持续跟踪路径与强度更新，检查港口安排、船期、户外活动和物资备份。气旋风险不只由登陆点决定，外围风雨和海况往往更早改变运营条件。",
+          "xiaziQuote": "风暴的第一笔成本，常在它登陆之前就写进航线。",
+          "doudouQuote": "别只盯中心点，外圈的风浪先到。",
+          "footerTakeaway": "今日关键词：极端天气。"
+        },
+        "en-US": {
+          "categoryLabel": "Extreme Weather",
+          "headlineFact": "Tropical Storm Karina strengthened into a Pacific hurricane, with forecasts allowing further intensification this week",
+          "headlineView": "high surf, rip currents, rain and shipping diversions can arrive even without a direct landfall",
+          "headlineFull": "Tropical Storm Karina strengthened into a Pacific hurricane, with forecasts allowing further intensification this week; high surf, rip currents, rain and shipping diversions can arrive even without a direct landfall",
+          "intro": "Coastal communities and maritime operators should keep tracking path and intensity updates while reviewing port plans, sailings, outdoor activity and backup supplies. Cyclone risk is not defined only by landfall; outer wind, rain and sea conditions change operations earlier.",
+          "xiaziQuote": "A storm's first cost is often written into routes before landfall.",
+          "doudouQuote": "Do not watch only the center; the outer waves arrive first.",
+          "footerTakeaway": "Keyword: Extreme Weather."
+        }
+      },
+      "sources": [
+        {
+          "id": "9d1c8845-e75b-55c6-85d7-159c7a6e2b0e",
+          "topicId": "dc19436c-caab-52d7-aa5f-1be59996e9fe",
+          "title": "Tropical Storm Karina strengthens into a hurricane in the Pacific",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Tropical%20Storm%20Karina%20hurricane%20Pacific%20August%2030%202026%20AP&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "ba6f8328-ea58-557d-9c35-b5ece68af23b",
+      "issueId": "7aadaa57-f6f8-5ee2-b2d8-6ca01eee78dc",
+      "slug": "nasa-roman-telescope-autonomous-flight",
+      "rank": 9,
+      "category": "science",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-nasa-roman-telescope-autonomous-flight-20260831",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "太空科学",
+          "headlineFact": "NASA确认Roman空间望远镜成功发射并进入自主飞行，任务从升空转入部署与巡航阶段",
+          "headlineView": "火箭离轨只是第一道硬门，供电、通信、结构展开和校准决定望远镜能否真正工作",
+          "headlineFull": "NASA确认Roman空间望远镜成功发射并进入自主飞行，任务从升空转入部署与巡航阶段；火箭离轨只是第一道硬门，供电、通信、结构展开和校准决定望远镜能否真正工作",
+          "intro": "Roman已经与运载火箭分离并自行飞行，随后将前往日地L2附近。工程团队需要逐步验证太阳能供电、通信、热控、仪器状态和部署序列，首批科学数据仍要经过长期校准。",
+          "xiaziQuote": "发射把任务送上路，连续通过部署硬门才把它变成科学工具。",
+          "doudouQuote": "火箭镜头结束后，真正的检查表才翻开。",
+          "footerTakeaway": "今日关键词：太空科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Science",
+          "headlineFact": "NASA confirmed the Roman Space Telescope launched successfully and is flying on its own, moving from liftoff into deployment and cruise",
+          "headlineView": "rocket separation is only the first hard gate; power, communications, deployment and calibration determine whether the observatory can work",
+          "headlineFull": "NASA confirmed the Roman Space Telescope launched successfully and is flying on its own, moving from liftoff into deployment and cruise; rocket separation is only the first hard gate; power, communications, deployment and calibration determine whether the observatory can work",
+          "intro": "Roman has separated from its launch vehicle and is flying independently toward the Sun-Earth L2 region. Engineers must verify solar power, communications, thermal control, instrument health and deployment sequences before science data can emerge from extended calibration.",
+          "xiaziQuote": "Launch puts a mission on the road; deployment gates turn it into a scientific instrument.",
+          "doudouQuote": "When the rocket camera ends, the real checklist opens.",
+          "footerTakeaway": "Keyword: Space Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "b3ac1a96-abea-553c-9be9-467b78b1f86c",
+          "topicId": "ba6f8328-ea58-557d-9c35-b5ece68af23b",
+          "title": "NASA's Roman Space Telescope Flying on Its Own",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NASA%20Roman%20Space%20Telescope%20flying%20on%20its%20own%20August%2030%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-31T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

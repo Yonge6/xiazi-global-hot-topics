@@ -1,0 +1,525 @@
+{
+  "id": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+  "slug": "2026-08-29",
+  "issueDate": "2026-08-29",
+  "assetVersion": "rel_20260829_325b4ff4cf280ccd116d47c5",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-29T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-28T21:00:00.000Z",
+  "featuredTopicId": "9f0f4a3d-2952-5d36-baa1-1f56e7f09669",
+  "style": {
+    "name": "Anti-Design",
+    "zhName": "反设计风格",
+    "description": "Style Atlas daily pick: Anti-Design for global-news posters, using deliberately broken grids, clashing signal colors, oversized type, raw marks, asymmetric information blocks and controlled visual friction while keeping facts, data and scene-specific infographics dominant. Xiazi and Doudou stay small at the edges."
+  },
+  "topics": [
+    {
+      "id": "9f0f4a3d-2952-5d36-baa1-1f56e7f09669",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "today-overview-customs-ai-solo-flood-war-health-space",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-customs-ai-solo-flood-war-health-space-20260829",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "电商通关、AI责任边界、单人经营、喜马拉雅洪灾、中东战争、公共卫生与太空任务构成今日全球风险图",
+          "headlineView": "经营者需要把合规数据、工具权限、现金流和基础设施暴露放进同一张决策表",
+          "headlineFull": "电商通关、AI责任边界、单人经营、喜马拉雅洪灾、中东战争、公共卫生与太空任务构成今日全球风险图；经营者需要把合规数据、工具权限、现金流和基础设施暴露放进同一张决策表",
+          "intro": "韩国电商专用通关平台、Anthropic与五角大楼裁决和英国单人经营者AI数据改变经营工具箱；尼泊尔—中国边境洪灾、持续六个月的伊朗战争、刚果埃博拉、联合国和平行动改革与Roman望远镜发射补齐安全与未来信号。",
+          "xiaziQuote": "全球热点真正有用时，会落到成本、权限、交付和生命安全四个变量。",
+          "doudouQuote": "先标红今天会改变订单、工具或路线的那一格。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "E-commerce customs, AI accountability, solo operations, a Himalayan flood, Middle East war, public health and a space mission form today's global risk map",
+          "headlineView": "operators need one decision sheet for compliance data, tool permissions, cash flow and infrastructure exposure",
+          "headlineFull": "E-commerce customs, AI accountability, solo operations, a Himalayan flood, Middle East war, public health and a space mission form today's global risk map; operators need one decision sheet for compliance data, tool permissions, cash flow and infrastructure exposure",
+          "intro": "Korea's e-commerce customs platform, the Anthropic-Pentagon ruling and UK data on sole-trader AI use reshape the operating toolkit; the Nepal-China border flood, the six-month Iran war, Congo Ebola, UN peace-operations reform and Roman telescope launch complete the safety and future signals.",
+          "xiaziQuote": "Global news becomes useful when it lands on cost, permission, delivery and human safety.",
+          "doudouQuote": "Mark the cell that changes an order, a tool or a route today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "3b528c61-8380-582b-a0f4-6327355271a4",
+          "topicId": "9f0f4a3d-2952-5d36-baa1-1f56e7f09669",
+          "title": "Global business, AI and risk signals for August 29, 2026",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=global%20business%20AI%20flood%20war%20August%2029%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "9b522283-2f92-5e6a-9f90-36566cfb0926",
+          "topicId": "9f0f4a3d-2952-5d36-baa1-1f56e7f09669",
+          "title": "Second IHR Emergency Committee meeting on the DRC Ebola epidemic",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/philippines/news/detail-global/28-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo---meeting-report",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "02ce92e5-55c7-5c75-9e15-b288433b5c3c",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "korea-ecommerce-customs-platform-operator-data",
+      "rank": 2,
+      "category": "business",
+      "region": "Asia",
+      "countryCodes": [
+        "KR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-korea-ecommerce-customs-platform-operator-data-20260829",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "韩国电商专用通关平台进入试运行，并发布新版FAQ、申报表与供应链数据填写标准",
+          "headlineView": "卖家竞争力正在从包裹价格转向商品主数据、平台接口和报关协同能力",
+          "headlineFull": "韩国电商专用通关平台进入试运行，并发布新版FAQ、申报表与供应链数据填写标准；卖家竞争力正在从包裹价格转向商品主数据、平台接口和报关协同能力",
+          "intro": "韩国关税厅面向在线零售商、平台、物流商和报关参与者推进电商专用通关系统，近期连续更新FAQ、REST API和申报字段规则。对跨境卖家而言，SKU描述、交易角色、物流节点与税务数据需要在出单前保持一致。",
+          "xiaziQuote": "通关越来越像数据产品，错误字段会比慢一班船更早卡住订单。",
+          "doudouQuote": "先把SKU、平台单号和物流单号做一次字段对照。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "Korea's dedicated e-commerce customs platform entered pilot operation with updated FAQs, declaration forms and supply-chain data rules",
+          "headlineView": "seller competitiveness is shifting from parcel price to product master data, platform interfaces and broker coordination",
+          "headlineFull": "Korea's dedicated e-commerce customs platform entered pilot operation with updated FAQs, declaration forms and supply-chain data rules; seller competitiveness is shifting from parcel price to product master data, platform interfaces and broker coordination",
+          "intro": "Korea Customs is advancing a dedicated clearance system for online retailers, marketplaces, logistics providers and customs participants, with recent updates to FAQs, REST APIs and declaration fields. Sellers need SKU descriptions, transaction roles, logistics events and tax data to agree before an order ships.",
+          "xiaziQuote": "Customs is becoming a data product, and a wrong field can stop an order before a late vessel does.",
+          "doudouQuote": "Reconcile the SKU, platform order and logistics record first.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "fde67dcb-4bd3-5845-9635-8c8b74a75f80",
+          "topicId": "02ce92e5-55c7-5c75-9e15-b288433b5c3c",
+          "title": "Korea e-commerce customs clearance platform updates",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Korea%20e-commerce%20customs%20clearance%20platform%20August%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "fb2d3126-84b1-5c7f-9006-194435c2eb96",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "anthropic-pentagon-supply-chain-risk-ruling",
+      "rank": 3,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-anthropic-pentagon-supply-chain-risk-ruling-20260829",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "美国联邦法官裁定五角大楼把Anthropic列为供应链风险并惩罚其批评的措施违法且缺乏依据",
+          "headlineView": "前沿模型进入政府采购后，安全限制、供应商表达与行政权边界必须可审查",
+          "headlineFull": "美国联邦法官裁定五角大楼把Anthropic列为供应链风险并惩罚其批评的措施违法且缺乏依据；前沿模型进入政府采购后，安全限制、供应商表达与行政权边界必须可审查",
+          "intro": "裁决认为相关措施并非建立在模型会破坏系统的可说明依据上，而是针对企业对国防AI用途的公开批评。政府预计继续抗辩；对AI采购者而言，模型能力之外还要审视合同、使用限制、供应链认定和申诉机制。",
+          "xiaziQuote": "AI治理不能只靠强势标签，风险认定必须留下证据和复核路径。",
+          "doudouQuote": "采购表里加一列：谁能定义风险，谁能复核。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "A US federal judge ruled that Pentagon measures labeling Anthropic a supply-chain risk and punishing its criticism were illegal and baseless",
+          "headlineView": "when frontier models enter public procurement, safety limits, supplier speech and administrative power need reviewable boundaries",
+          "headlineFull": "A US federal judge ruled that Pentagon measures labeling Anthropic a supply-chain risk and punishing its criticism were illegal and baseless; when frontier models enter public procurement, safety limits, supplier speech and administrative power need reviewable boundaries",
+          "intro": "The ruling said the measures lacked an articulable basis that Anthropic would sabotage its model and instead targeted the company's criticism of defense AI uses. An appeal is expected; buyers should examine contracts, usage limits, risk designations and challenge mechanisms alongside model capability.",
+          "xiaziQuote": "AI governance cannot rest on a forceful label; risk findings need evidence and review.",
+          "doudouQuote": "Add two procurement columns: who defines risk, and who reviews it.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "737f0f37-fcfb-5d02-9894-1256b1c32e6b",
+          "topicId": "fb2d3126-84b1-5c7f-9006-194435c2eb96",
+          "title": "Judge says Pentagon's measures against Anthropic were illegal and baseless",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Anthropic%20Pentagon%20supply%20chain%20risk%20ruling%20August%2028%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "70299509-23d9-5452-933c-449577d67764",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "uk-sole-trader-ai-use-integration-gap",
+      "rank": 4,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-uk-sole-trader-ai-use-integration-gap-20260829",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "英国2026商业数据调查显示40%的个体经营者使用AI，但仅18%把AI接入现有业务系统",
+          "headlineView": "一人公司的下一步不是增加聊天次数，而是把重复工作变成可控流程",
+          "headlineFull": "英国2026商业数据调查显示40%的个体经营者使用AI，但仅18%把AI接入现有业务系统；一人公司的下一步不是增加聊天次数，而是把重复工作变成可控流程",
+          "intro": "调查覆盖4450家企业；个体经营者常用AI做信息研究，但在数据分析、代码、客服集成和正式治理方面明显落后于大型企业。单人经营者应先选一个可量化流程，定义输入、复核点和失败回退。",
+          "xiaziQuote": "工具使用率不是生产力，稳定接入真实流程才是。",
+          "doudouQuote": "本周只自动化一个每天重复三次的动作。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "The UK Business Data Survey 2026 found 40% of sole traders use AI, but only 18% integrate it with existing systems",
+          "headlineView": "the next step for a one-person company is not more chat sessions but a controlled workflow for repetitive work",
+          "headlineFull": "The UK Business Data Survey 2026 found 40% of sole traders use AI, but only 18% integrate it with existing systems; the next step for a one-person company is not more chat sessions but a controlled workflow for repetitive work",
+          "intro": "The survey covered 4,450 businesses. Sole traders commonly use AI for research but lag large firms in data analysis, coding, customer-service integration and formal governance. A solo operator should choose one measurable process and define its inputs, review point and fallback.",
+          "xiaziQuote": "Tool usage is not productivity; reliable integration into real work is.",
+          "doudouQuote": "Automate one action you repeat three times a day.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "ead640dd-e042-5634-b1a6-9d3b9e2dc39b",
+          "topicId": "70299509-23d9-5452-933c-449577d67764",
+          "title": "UK Business Data Survey 2026",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/statistics/uk-business-data-survey-2026/uk-business-data-survey-2026",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2b8528dd-435e-5ffd-b2c3-fc9c8eb4be4f",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "nepal-china-border-flood-rescue-update",
+      "rank": 5,
+      "category": "climate",
+      "region": "Asia",
+      "countryCodes": [
+        "NP",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-nepal-china-border-flash-flood-20260827",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候灾害",
+          "headlineFact": "尼泊尔称边境山洪死亡升至579人、1924人失联，中国西藏一侧另有558人失联",
+          "headlineView": "新形成的上游湖泊让搜救现场同时面对二次洪水和交通中断",
+          "headlineFull": "尼泊尔称边境山洪死亡升至579人、1924人失联，中国西藏一侧另有558人失联；新形成的上游湖泊让搜救现场同时面对二次洪水和交通中断",
+          "intro": "救援队继续穿过泥浆与瓦砾，尼泊尔已救出3700多人；中尼两侧仍警告上游新湖可能带来进一步洪水。伤亡数字仍在更新，撤离、通信、桥路恢复和下游预警必须并行。",
+          "xiaziQuote": "灾后第一张地图要同时画出人、道路、通信和下一波水。",
+          "doudouQuote": "先把仍在危险区的人移到更高处。",
+          "footerTakeaway": "今日关键词：气候灾害。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate Disaster",
+          "headlineFact": "Nepal raised the border-flood death toll to 579 with 1,924 missing, while 558 were reported missing on the Tibet side",
+          "headlineView": "a new upstream lake makes rescue teams manage renewed flooding and severed transport at the same time",
+          "headlineFull": "Nepal raised the border-flood death toll to 579 with 1,924 missing, while 558 were reported missing on the Tibet side; a new upstream lake makes rescue teams manage renewed flooding and severed transport at the same time",
+          "intro": "Teams continued through mud and debris after more than 3,700 people were rescued in Nepal. Authorities on both sides warned that a newly formed lake could trigger further flooding. Evacuation, communications, bridge and road recovery, and downstream warning must proceed together as numbers change.",
+          "xiaziQuote": "The first recovery map needs people, roads, communications and the next wave of water.",
+          "doudouQuote": "Move everyone still exposed to higher ground first.",
+          "footerTakeaway": "Keyword: Climate Disaster."
+        }
+      },
+      "sources": [
+        {
+          "id": "621718ce-d681-5a15-853f-669c42c0ebc5",
+          "topicId": "2b8528dd-435e-5ffd-b2c3-fc9c8eb4be4f",
+          "title": "Almost 2,000 missing in Nepal as Himalayan border flash flood death toll passes 570",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Nepal%20China%20border%20flash%20flood%20579%201924%20August%2028%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "93096191-c7c3-5482-8a17-78e254aae1c7",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "iran-war-six-months-shipping-sanctions",
+      "rank": 6,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR",
+        "IL"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-iran-war-six-months-shipping-sanctions-20260829",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球航运",
+          "headlineFact": "美以对伊战争已持续六个月，美国转向加大经济制裁，海湾仍有数千名船员滞留",
+          "headlineView": "冲突从短期打击变成长周期供应链风险，航线、保险、付款和库存都需重新定价",
+          "headlineFull": "美以对伊战争已持续六个月，美国转向加大经济制裁，海湾仍有数千名船员滞留；冲突从短期打击变成长周期供应链风险，航线、保险、付款和库存都需重新定价",
+          "intro": "美国政府把更多压力转向制裁与金融限制，同时中东航运受袭与通行不确定性仍未解除。经营者应把交期承诺绑定到实际船舶通行、保险承保、银行结算和替代港口，而不是停火预期。",
+          "xiaziQuote": "战争进入第六个月后，风险不再是一次延误，而是系统性重算。",
+          "doudouQuote": "把海运、保险和付款各准备一条替代路径。",
+          "footerTakeaway": "今日关键词：全球航运。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Shipping",
+          "headlineFact": "The US-Israel war with Iran reached six months as Washington shifted toward heavier economic pressure and thousands of sailors remained stranded",
+          "headlineView": "a short campaign has become a long-cycle supply-chain risk that reprices routes, insurance, payments and inventory",
+          "headlineFull": "The US-Israel war with Iran reached six months as Washington shifted toward heavier economic pressure and thousands of sailors remained stranded; a short campaign has become a long-cycle supply-chain risk that reprices routes, insurance, payments and inventory",
+          "intro": "The US is placing more weight on sanctions and financial restrictions while attacks and passage uncertainty continue across Middle East shipping lanes. Operators should tie delivery promises to actual vessel movement, insurance cover, bank settlement and alternate ports rather than ceasefire expectations.",
+          "xiaziQuote": "At six months, war risk is no longer one delay; it is a system-wide recalculation.",
+          "doudouQuote": "Prepare one alternate route for freight, insurance and payment.",
+          "footerTakeaway": "Keyword: Global Shipping."
+        }
+      },
+      "sources": [
+        {
+          "id": "16617f30-e4da-55bd-99fc-d53d91217031",
+          "topicId": "93096191-c7c3-5482-8a17-78e254aae1c7",
+          "title": "Iran war reaches its six-month mark as Trump shifts focus",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Iran%20war%20six%20months%20shipping%20sanctions%20August%2028%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "6e81e3bf-6d8f-5e7d-ace1-f880a5c41a59",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "who-congo-ebola-pheic-continues",
+      "rank": 7,
+      "category": "international",
+      "region": "Africa",
+      "countryCodes": [
+        "CD",
+        "UG"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-who-congo-ebola-pheic-continues-20260829",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "公共卫生",
+          "headlineFact": "世卫组织认定刚果Bundibugyo埃博拉疫情仍构成国际关注的突发公共卫生事件",
+          "headlineView": "乌干达结束本地传播不代表区域风险解除，刚果病例增长与地理扩散仍令人严重关切",
+          "headlineFull": "世卫组织认定刚果Bundibugyo埃博拉疫情仍构成国际关注的突发公共卫生事件；乌干达结束本地传播不代表区域风险解除，刚果病例增长与地理扩散仍令人严重关切",
+          "intro": "截至8月18日，刚果约报告5000例病例，模型提示可能存在大量漏报；委员会要求强化持续响应、跨境监测与社区工作。区域经营与出行计划需要依据暴露地、症状监测和官方通报更新。",
+          "xiaziQuote": "一地清零是重要进展，但跨境疫情要看整个传播网络。",
+          "doudouQuote": "把出行地点和最新官方风险等级一起核对。",
+          "footerTakeaway": "今日关键词：公共卫生。"
+        },
+        "en-US": {
+          "categoryLabel": "Public Health",
+          "headlineFact": "WHO determined that the Bundibugyo Ebola epidemic in the DRC remains a public health emergency of international concern",
+          "headlineView": "Uganda ending local transmission does not remove regional risk while cases and geographic spread continue in Congo",
+          "headlineFull": "WHO determined that the Bundibugyo Ebola epidemic in the DRC remains a public health emergency of international concern; Uganda ending local transmission does not remove regional risk while cases and geographic spread continue in Congo",
+          "intro": "About 5,000 cases had been reported in the DRC by August 18, and models suggested substantial under-ascertainment. The committee called for intensified sustained response, cross-border surveillance and community work. Travel and operating plans should follow exposure location, symptom monitoring and official updates.",
+          "xiaziQuote": "Ending transmission in one place matters, but a cross-border epidemic is a network.",
+          "doudouQuote": "Check each travel location against the latest official risk level.",
+          "footerTakeaway": "Keyword: Public Health."
+        }
+      },
+      "sources": [
+        {
+          "id": "d4d8feeb-8c9c-58e9-b6bc-e4ccde299948",
+          "topicId": "6e81e3bf-6d8f-5e7d-ace1-f880a5c41a59",
+          "title": "Second meeting of the IHR Emergency Committee on the DRC Ebola epidemic",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/philippines/news/detail-global/28-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo---meeting-report",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3274d2db-19bd-50be-a3bc-9bb28bd0e794",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "un-future-peace-operations-review",
+      "rank": 8,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-un-future-peace-operations-review-20260829",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球治理",
+          "headlineFact": "联合国秘书长提交和平行动未来评估，主张更重视斡旋、伙伴关系、灵活授权与区域机制",
+          "headlineView": "面对多中心冲突，维和工具需要从固定模板转向可调整的任务组合",
+          "headlineFull": "联合国秘书长提交和平行动未来评估，主张更重视斡旋、伙伴关系、灵活授权与区域机制；面对多中心冲突，维和工具需要从固定模板转向可调整的任务组合",
+          "intro": "该评估依据《未来契约》授权，提出重置联合国和平行动的使用方式，并扩大特别政治任务、区域办公室和特使网络的作用。效果将取决于成员国授权、资源、东道国合作与现场反馈能否一致。",
+          "xiaziQuote": "全球治理的难题不是缺少机构，而是任务、资源和现场变化不同步。",
+          "doudouQuote": "看一项改革时，先找谁授权、谁出钱、谁执行。",
+          "footerTakeaway": "今日关键词：全球治理。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Governance",
+          "headlineFact": "The UN Secretary-General presented a review of future peace operations centered on peacemaking, partnerships, adaptable mandates and regional mechanisms",
+          "headlineView": "in a multipolar conflict landscape, peace tools need adjustable mission portfolios instead of fixed templates",
+          "headlineFull": "The UN Secretary-General presented a review of future peace operations centered on peacemaking, partnerships, adaptable mandates and regional mechanisms; in a multipolar conflict landscape, peace tools need adjustable mission portfolios instead of fixed templates",
+          "intro": "Mandated by the Pact for the Future, the review calls for resetting how UN peace operations are used and expanding the role of special political missions, regional offices and envoys. Results will depend on alignment among member-state mandates, resources, host-state cooperation and field feedback.",
+          "xiaziQuote": "Global governance often fails when mandates, resources and field change move at different speeds.",
+          "doudouQuote": "For every reform, identify who mandates, funds and executes it.",
+          "footerTakeaway": "Keyword: Global Governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "31b66413-6c48-54ec-bed5-56ade88d1055",
+          "topicId": "3274d2db-19bd-50be-a3bc-9bb28bd0e794",
+          "title": "This Week in DPPA: 22-28 August 2026",
+          "publisher": "United Nations Department of Political and Peacebuilding Affairs",
+          "url": "https://dppa.un.org/en/news/this-week-in-dppa-22-28-august-2026",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "0492e805-5dc3-5b46-be0d-8faefb3e288f",
+      "issueId": "ffd0fe8b-bcc0-512c-ab3e-57d1c56b19c3",
+      "slug": "nasa-roman-space-telescope-launch",
+      "rank": 9,
+      "category": "science",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-nasa-roman-space-telescope-launch-20260829",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "太空科学",
+          "headlineFact": "NASA计划8月30日发射Nancy Grace Roman空间望远镜，单次视场至少是哈勃的100倍",
+          "headlineView": "宽场红外巡天将把暗能量、暗物质与系外行星研究从精细切片推进到宇宙全景",
+          "headlineFull": "NASA计划8月30日发射Nancy Grace Roman空间望远镜，单次视场至少是哈勃的100倍；宽场红外巡天将把暗能量、暗物质与系外行星研究从精细切片推进到宇宙全景",
+          "intro": "Roman计划于美国东部时间7时26分搭乘Falcon Heavy升空，抵达日地L2附近后开展约三个月部署、校准与测试，首批图像预计2027年初发布。它将测量数十亿天体并测试直接成像系外行星的日冕仪技术。",
+          "xiaziQuote": "科学突破有时不是看得更近，而是同时看得更广。",
+          "doudouQuote": "发射只是起点，部署、校准和首图才是连续硬门。",
+          "footerTakeaway": "今日关键词：太空科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Science",
+          "headlineFact": "NASA plans to launch the Nancy Grace Roman Space Telescope on August 30 with a field of view at least 100 times Hubble's",
+          "headlineView": "wide-field infrared surveys can move dark energy, dark matter and exoplanet research from narrow detail to cosmic panorama",
+          "headlineFull": "NASA plans to launch the Nancy Grace Roman Space Telescope on August 30 with a field of view at least 100 times Hubble's; wide-field infrared surveys can move dark energy, dark matter and exoplanet research from narrow detail to cosmic panorama",
+          "intro": "Roman is set to lift off at 7:26 a.m. EDT on a Falcon Heavy, then undergo about three months of deployment, calibration and testing near Sun-Earth L2, with first images expected in early 2027. It will measure billions of objects and demonstrate coronagraph technology for direct exoplanet imaging.",
+          "xiaziQuote": "A scientific leap can come from seeing wider, not only closer.",
+          "doudouQuote": "Launch is the first gate; deployment, calibration and first light follow.",
+          "footerTakeaway": "Keyword: Space Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "98f7b3bc-e883-5d97-bdb1-0b21d25b4887",
+          "topicId": "0492e805-5dc3-5b46-be0d-8faefb3e288f",
+          "title": "Nancy Grace Roman Space Telescope",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NASA%20Roman%20Space%20Telescope%20launch%20August%2030%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-08-29T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

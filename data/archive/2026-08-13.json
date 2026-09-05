@@ -1,0 +1,531 @@
+{
+  "id": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+  "slug": "2026-08-13",
+  "issueDate": "2026-08-13",
+  "assetVersion": "rel_20260813_7495e8ea6257f3d006823108",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-13T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-12T21:00:00.000Z",
+  "featuredTopicId": "34419053-ae28-58a5-b127-3a781ae0f9fa",
+  "style": {
+    "name": "Cyberpunk",
+    "zhName": "赛博朋克",
+    "description": "Style Atlas daily pick: a high-contrast cyberpunk editorial system with neon cyan and magenta, wet metal and glass, dense data overlays, future-city pressure, crisp information hierarchy and cinematic night lighting."
+  },
+  "topics": [
+    {
+      "id": "34419053-ae28-58a5-b127-3a781ae0f9fa",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "today-overview-election-ai-perseids-action-day",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-election-ai-perseids-action-day-20260813",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "选举、AI、经营、流星雨与极端高温同日推进",
+          "headlineView": "今天的共同课题是把信号变成行动",
+          "headlineFull": "选举、AI、经营、流星雨与极端高温同日推进；今天的共同课题是把信号变成行动",
+          "intro": "赞比亚举行总统与议会选举，Pixel 11的新AI能力进入市场检验，欧盟小包裹关税继续重写跨境成本；英仙座流星雨、高温山火、田径赛事与全球移植战略同步推进。",
+          "xiaziQuote": "热点的价值不在数量，而在能否把规则、风险和机会压缩成今天可执行的一步。",
+          "doudouQuote": "九条信号同时亮起，先抓住最能改变结果的那一条。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Elections, AI, business, meteors and extreme heat move together",
+          "headlineView": "today's shared task is turning signals into action",
+          "headlineFull": "Elections, AI, business, meteors and extreme heat move together; today's shared task is turning signals into action",
+          "intro": "Zambia votes, Pixel 11 AI enters a market test and EU parcel duties keep reshaping cross-border costs as the Perseids, wildfire risk, athletics and a global transplant strategy advance.",
+          "xiaziQuote": "A hotspot matters when rules, risks and opportunities become one executable step for today.",
+          "doudouQuote": "Nine signals light up together; grab the one that can change the outcome.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "a32cc6cc-3b6c-5608-8575-48c169f8ef5f",
+          "topicId": "34419053-ae28-58a5-b127-3a781ae0f9fa",
+          "title": "Google's Pixel 11 launch event is set for August 12",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "b526f2cf-98a3-5e1e-998a-03b68acebe0c",
+          "topicId": "34419053-ae28-58a5-b127-3a781ae0f9fa",
+          "title": "Electoral Commission of Zambia",
+          "publisher": "Electoral Commission of Zambia",
+          "url": "https://www.elections.org.zm/",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "4cccf54c-d590-51ca-8066-bd75f434cb6f",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "eu-parcel-duty-seven-week-ops-review",
+      "rank": 2,
+      "category": "business",
+      "region": "European Union",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-parcel-duty-seven-week-ops-review-20260813",
+      "storyStatus": "followup",
+      "followupDay": 4,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟3欧元小包裹关税进入第七周运营复盘",
+          "headlineView": "按商品类别计费正在重排合单与履约",
+          "headlineFull": "欧盟3欧元小包裹关税进入第七周运营复盘；按商品类别计费正在重排合单与履约",
+          "intro": "欧盟已取消150欧元以下进口商品的关税豁免，并对小包裹内每个不同商品类别临时征收3欧元；卖家今天应复核HS分类、合单结构、前台税费展示与本地仓毛利。",
+          "xiaziQuote": "跨境经营的下一道分水岭，是商品数据能否准确穿过结账、物流和清关。",
+          "doudouQuote": "一张错分类标签，可能让整箱利润在海关门口掉线。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "EU three-euro parcel duty reaches its seventh operating review",
+          "headlineView": "per-category charges are reshaping consolidation and fulfillment",
+          "headlineFull": "EU three-euro parcel duty reaches its seventh operating review; per-category charges are reshaping consolidation and fulfillment",
+          "intro": "The EU ended the EUR150 duty exemption and temporarily charges EUR3 for each distinct item category in a low-value parcel; sellers should review HS codes, consolidation, checkout display and local-warehouse margins.",
+          "xiaziQuote": "The next cross-border divide is whether product data travels accurately through checkout, logistics and customs.",
+          "doudouQuote": "One wrong classification tag can disconnect a whole box of margin at the border.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "a5db1c75-e4ff-50da-b0fe-b2cd2a172f77",
+          "topicId": "4cccf54c-d590-51ca-8066-bd75f434cb6f",
+          "title": "EUR 3 Customs duty - VAT guidelines",
+          "publisher": "European Commission",
+          "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "5ff5e6e4-978f-5562-bd5f-864ac81134f4",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "pixel-11-ai-features-market-test",
+      "rank": 3,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-pixel-11-ai-features-market-test-20260813",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "Pixel 11携更多AI功能进入预订市场",
+          "headlineView": "用户将检验日常价值、隐私与续费意愿",
+          "headlineFull": "Pixel 11携更多AI功能进入预订市场；用户将检验日常价值、隐私与续费意愿",
+          "intro": "Google发布Pixel 11系列，以更纤薄相机设计和更多Gemini功能推动端侧与云端AI协作；新机预订让竞争从发布会演示转向真实任务、隐私控制和长期付费。",
+          "xiaziQuote": "AI硬件的护城河不是功能清单，而是每天都能省下一步并让用户保持控制。",
+          "doudouQuote": "舞台上的一秒很惊艳，口袋里的每一天才决定留下。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "Pixel 11 brings more AI features into the preorder market",
+          "headlineView": "users will test daily value, privacy and willingness to pay",
+          "headlineFull": "Pixel 11 brings more AI features into the preorder market; users will test daily value, privacy and willingness to pay",
+          "intro": "Google unveiled the Pixel 11 lineup with slimmer camera designs and more Gemini features, moving device AI competition from keynote demos to real tasks, privacy controls and long-term subscription value.",
+          "xiaziQuote": "The moat in AI hardware is not a feature list; it is saving a step every day while keeping users in control.",
+          "doudouQuote": "One stage second can amaze, but every day in a pocket decides what stays.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "257a9359-603f-5ed9-9580-856ea62b24b8",
+          "topicId": "5ff5e6e4-978f-5562-bd5f-864ac81134f4",
+          "title": "Google's Pixel 11 launch event is set for August 12",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "602f8580-a1aa-5507-b335-20cae69f7c3f",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "solo-business-strategy-accountability-day",
+      "rank": 4,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-solo-business-strategy-accountability-day-20260813",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "小企业战略圆桌今天聚焦目标与问责",
+          "headlineView": "单人经营者需要把优先级写进节奏",
+          "headlineFull": "小企业战略圆桌今天聚焦目标与问责；单人经营者需要把优先级写进节奏",
+          "intro": "美国小企业管理局资源伙伴8月13日举行战略规划圆桌，围绕目标设定、同业解题与持续问责；一人公司可把年度愿景压缩为本周指标、固定复盘和明确停止项。",
+          "xiaziQuote": "一人公司的战略不是做更多，而是让有限时间只流向最能验证增长的动作。",
+          "doudouQuote": "计划写得再长，也要落到今天先关掉哪件事。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "A small-business roundtable focuses on strategy and accountability today",
+          "headlineView": "solo operators must turn priorities into cadence",
+          "headlineFull": "A small-business roundtable focuses on strategy and accountability today; solo operators must turn priorities into cadence",
+          "intro": "An SBA resource-partner roundtable on August 13 covers strategic planning, peer problem-solving, goals and accountability, helping solo firms reduce annual ambition to weekly metrics, reviews and stop-doing rules.",
+          "xiaziQuote": "Strategy for a one-person company means directing scarce time only toward actions that can validate growth.",
+          "doudouQuote": "However long the plan is, decide what to switch off today.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "d5136db0-35dc-599b-97b1-8b7d17ec8b8e",
+          "topicId": "602f8580-a1aa-5507-b335-20cae69f7c3f",
+          "title": "Small Business Roundtable - Monthly Topic: Strategic Planning",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/event/82572",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e2a55a5f-74e0-51de-9560-eabd3aa1b174",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "zambia-general-election-polling-day",
+      "rank": 5,
+      "category": "international",
+      "region": "Africa",
+      "countryCodes": [
+        "ZM"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-zambia-general-election-polling-day-20260813",
+      "storyStatus": "followup",
+      "followupDay": 4,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球选举",
+          "headlineFact": "赞比亚今天举行总统、议会与地方选举",
+          "headlineView": "投票秩序与可验证结果共同决定信任",
+          "headlineFull": "赞比亚今天举行总统、议会与地方选举；投票秩序与可验证结果共同决定信任",
+          "intro": "赞比亚选举委员会安排8月13日6时至18时投票，选民将同时选择总统、议员与地方代表；国内程序、跨地区观察和结果发布链路进入全天压力测试。",
+          "xiaziQuote": "选举的可信度不仅来自投票箱，也来自每次交接都能被解释、追踪和复核。",
+          "doudouQuote": "选票进箱只要一刻，信任要靠整条流程接住。",
+          "footerTakeaway": "今日关键词：全球选举。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Elections",
+          "headlineFact": "Zambia votes for president, parliament and local offices today",
+          "headlineView": "polling order and verifiable results jointly shape trust",
+          "headlineFull": "Zambia votes for president, parliament and local offices today; polling order and verifiable results jointly shape trust",
+          "intro": "Zambia's Electoral Commission schedules voting from 06:00 to 18:00 on August 13 for presidential, parliamentary and local offices, putting polling procedures, observation and the results chain under a full-day test.",
+          "xiaziQuote": "Election credibility comes not only from the ballot box but from every handoff being explainable, traceable and reviewable.",
+          "doudouQuote": "A ballot enters in a moment; the whole process must carry trust.",
+          "footerTakeaway": "Keyword: Global Elections."
+        }
+      },
+      "sources": [
+        {
+          "id": "5f6f2ea9-9fac-5847-aa41-90923fa1e9e6",
+          "topicId": "e2a55a5f-74e0-51de-9560-eabd3aa1b174",
+          "title": "Electoral Commission of Zambia",
+          "publisher": "Electoral Commission of Zambia",
+          "url": "https://www.elections.org.zm/",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "c48cbb93-9a61-5b84-b07a-7890462125ab",
+          "topicId": "e2a55a5f-74e0-51de-9560-eabd3aa1b174",
+          "title": "SADC Electoral Observation Mission to the Republic of Zambia's 13 August 2026 General Election",
+          "publisher": "Southern African Development Community",
+          "url": "https://www.sadc.int/document/sadc-electoral-observation-mission-seom-republic-zambias-13-august-2026-general-election",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "0daec544-e7d4-5219-b399-6e62e185b8db",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "perseids-dark-sky-peak",
+      "rank": 6,
+      "category": "science",
+      "region": "Northern Hemisphere",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-perseids-dark-sky-peak-20260813",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "空间科学",
+          "headlineFact": "英仙座流星雨今天凌晨迎来极大",
+          "headlineView": "新月暗夜让公众观测条件明显改善",
+          "headlineFull": "英仙座流星雨今天凌晨迎来极大；新月暗夜让公众观测条件明显改善",
+          "intro": "英仙座流星雨在8月12日至13日夜间达到峰值，新月减少月光干扰；观测者无需望远镜，应选择视野开阔、光害较少的地点并给眼睛足够时间适应黑暗。",
+          "xiaziQuote": "理解宇宙有时不需要更大的设备，只需要更暗的天空和更耐心的眼睛。",
+          "doudouQuote": "别盯着一个点，躺下来让整片天空自己开机。",
+          "footerTakeaway": "今日关键词：空间科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Science",
+          "headlineFact": "The Perseid meteor shower peaks before dawn today",
+          "headlineView": "a new-moon sky sharply improves public viewing",
+          "headlineFull": "The Perseid meteor shower peaks before dawn today; a new-moon sky sharply improves public viewing",
+          "intro": "The Perseids peak overnight August 12-13 with little moonlight interference; viewers need no telescope, only a wide dark horizon and enough time for their eyes to adapt.",
+          "xiaziQuote": "Understanding the universe sometimes needs no larger instrument, only a darker sky and more patient eyes.",
+          "doudouQuote": "Do not stare at one point; lie back and let the whole sky boot up.",
+          "footerTakeaway": "Keyword: Space Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "754863a1-9f6a-58d8-a2ec-192d2c72d1c2",
+          "topicId": "0daec544-e7d4-5219-b399-6e62e185b8db",
+          "title": "Perseid meteor shower reaches maximum activity in August 2026",
+          "publisher": "National Astronomical Observatory of Japan",
+          "url": "https://www.nao.ac.jp/astro/sky/2026/08-topics03.html",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "791f3ef7-0464-5996-8740-2982d386518e",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "europe-heat-wildfire-response",
+      "rank": 7,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "ES",
+        "FR",
+        "PT"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-europe-heat-wildfire-response-20260813",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候与山火",
+          "headlineFact": "欧洲高温与山火风险进入持续响应期",
+          "headlineView": "预警、人员调度与基础设施要同步运转",
+          "headlineFull": "欧洲高温与山火风险进入持续响应期；预警、人员调度与基础设施要同步运转",
+          "intro": "欧洲多地持续面对高温和极高山火危险，欧盟森林火灾信息系统提供燃烧面积、火险与天气异常数据；地方政府和居民需要把健康防护、火源管理和撤离路线放在同一张图上。",
+          "xiaziQuote": "极端高温不是单一气象数字，而是同时压向健康、电网、交通和消防的系统风险。",
+          "doudouQuote": "温度升一格，检查表要多开好几页。",
+          "footerTakeaway": "今日关键词：气候与山火。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate and Wildfires",
+          "headlineFact": "European heat and wildfire risk enter sustained response",
+          "headlineView": "warnings, crews and infrastructure must move together",
+          "headlineFull": "European heat and wildfire risk enter sustained response; warnings, crews and infrastructure must move together",
+          "intro": "Parts of Europe continue to face extreme heat and very high wildfire danger as the EU forest-fire system tracks burned area, fire risk and weather anomalies; health protection, ignition control and evacuation routes must share one map.",
+          "xiaziQuote": "Extreme heat is not one weather number; it presses health, power, transport and firefighting at once.",
+          "doudouQuote": "When temperature rises one notch, the checklist gains several pages.",
+          "footerTakeaway": "Keyword: Climate and Wildfires."
+        }
+      },
+      "sources": [
+        {
+          "id": "90108f3a-b528-5b8b-861d-b714d77b85ac",
+          "topicId": "791f3ef7-0464-5996-8740-2982d386518e",
+          "title": "Current wildfire situation in Europe",
+          "publisher": "European Commission Joint Research Centre",
+          "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8963bc40-d18e-57c3-b77c-b0a3de0c1a5f",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "european-athletics-birmingham-day-four",
+      "rank": 8,
+      "category": "sports",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-european-athletics-birmingham-day-four-20260813",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲田径",
+          "headlineFact": "欧洲田径锦标赛今天进入第四比赛日",
+          "headlineView": "多项目赛程继续重排奖牌与国家积分",
+          "headlineFull": "欧洲田径锦标赛今天进入第四比赛日；多项目赛程继续重排奖牌与国家积分",
+          "intro": "2026欧洲田径锦标赛8月10日至16日在伯明翰举行，8月13日进入第四比赛日；短跑、耐力、跳投与综合项目的连续赛程同时考验运动员恢复和赛事运营。",
+          "xiaziQuote": "综合锦标赛的优势不是一场爆发，而是速度、恢复和稳定在多天里持续对齐。",
+          "doudouQuote": "终点线很多，真正的比赛是每天都能重新起跑。",
+          "footerTakeaway": "今日关键词：欧洲田径。"
+        },
+        "en-US": {
+          "categoryLabel": "European Athletics",
+          "headlineFact": "European Athletics Championships enter day four today",
+          "headlineView": "events keep reshaping medals and national points",
+          "headlineFull": "European Athletics Championships enter day four today; events keep reshaping medals and national points",
+          "intro": "The August 10-16 European Athletics Championships in Birmingham reach day four on August 13, with sprint, endurance, jumps, throws and combined-event schedules testing recovery and operations.",
+          "xiaziQuote": "Championship advantage is not one burst; it is speed, recovery and consistency staying aligned across days.",
+          "doudouQuote": "There are many finish lines; the real race is restarting every day.",
+          "footerTakeaway": "Keyword: European Athletics."
+        }
+      },
+      "sources": [
+        {
+          "id": "1a990756-5686-5e90-85dd-0939c8b4066c",
+          "topicId": "8963bc40-d18e-57c3-b77c-b0a3de0c1a5f",
+          "title": "Events Calendar - European Athletics Championships",
+          "publisher": "World Athletics",
+          "url": "https://worldathletics.org/competition/calendar-results?endDate=2026-08-16&startDate=2026-08-10",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "d726f750-2068-50ac-b60b-4816689714f6",
+      "issueId": "7b5ed4f4-d4e3-5524-b53f-8a6044b74bff",
+      "slug": "who-transplant-strategy-public-review",
+      "rank": 9,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-who-transplant-strategy-public-review-20260813",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球健康",
+          "headlineFact": "WHO器官捐献与移植全球战略正在公开评议",
+          "headlineView": "可及性、伦理与监管需要同一套框架",
+          "headlineFull": "WHO器官捐献与移植全球战略正在公开评议；可及性、伦理与监管需要同一套框架",
+          "intro": "世界卫生组织正就首份细胞、组织与器官捐献移植全球战略草案公开征求意见，8月31日截止；政策制定者、医务人员、患者团体与公众可检查其可行性、缺口和伦理风险。",
+          "xiaziQuote": "扩大移植机会不能只追求数量，还要让每个环节都可追踪、公平并经得起伦理审查。",
+          "doudouQuote": "救命的链条越长，透明和信任就越不能断。",
+          "footerTakeaway": "今日关键词：全球健康。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Health",
+          "headlineFact": "WHO's global donation and transplant strategy is under public review",
+          "headlineView": "access, ethics and oversight need one framework",
+          "headlineFull": "WHO's global donation and transplant strategy is under public review; access, ethics and oversight need one framework",
+          "intro": "WHO is inviting public review of its first global strategy draft for cell, tissue and organ donation and transplantation until August 31, asking policymakers, clinicians, patient groups and the public to test feasibility, gaps and ethical risk.",
+          "xiaziQuote": "Expanding transplant access must make every step traceable, fair and ethically reviewable, not merely increase volume.",
+          "doudouQuote": "The longer a life-saving chain becomes, the less it can afford a break in trust.",
+          "footerTakeaway": "Keyword: Global Health."
+        }
+      },
+      "sources": [
+        {
+          "id": "4df072a8-b3b1-5eac-8106-1a4aee58785c",
+          "topicId": "d726f750-2068-50ac-b60b-4816689714f6",
+          "title": "Invitation: public review of the draft global strategy on donation and transplantation",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/articles-detail/invitation--public-review-of-the-draft-global-strategy-on-donation-and-transplantation",
+          "publishedAt": "2026-08-13T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

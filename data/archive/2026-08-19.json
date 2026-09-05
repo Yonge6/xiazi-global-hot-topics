@@ -1,0 +1,525 @@
+{
+  "id": "95573b44-c9a7-51e6-b168-12c350d88151",
+  "slug": "2026-08-19",
+  "issueDate": "2026-08-19",
+  "assetVersion": "rel_20260819_06207008c41016aaab0795bb",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-19T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-18T21:00:00.000Z",
+  "featuredTopicId": "25e4554a-28bf-5889-b7c6-a34a240c08ec",
+  "style": {
+    "name": "Afrofuturism",
+    "zhName": "非洲未来主义",
+    "description": "Style Atlas daily pick: premium Afrofuturist global-news editorial design with deep indigo, warm copper and gold, emerald signals, woven geometric patterns, luminous infrastructure, translucent data layers and future-facing civic technology."
+  },
+  "topics": [
+    {
+      "id": "25e4554a-28bf-5889-b7c6-a34a240c08ec",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "today-overview-tariffs-ai-jobs-global-safety",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-tariffs-ai-jobs-global-safety-20260819",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "八个信号把关税、AI、就业与安全推向同一张风险表",
+          "headlineView": "经营判断与公共系统都在重新计算成本和韧性",
+          "headlineFull": "八个信号把关税、AI、就业与安全推向同一张风险表；经营判断与公共系统都在重新计算成本和韧性",
+          "intro": "加拿大商品新增关税、AI数据中心融资与英国招聘降温改变经营预期；霍尔木兹航运、国际司法、刚果埃博拉、津巴布韦渡轮事故和扎波罗热核安全构成今天的全球风险图。",
+          "xiaziQuote": "未来不是一条单独赛道，而是贸易、技术、就业和公共安全同时更新的系统。",
+          "doudouQuote": "信号很多，先找会改变现金流和安全边界的那一个。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Eight signals put tariffs, AI, jobs and safety on one risk map",
+          "headlineView": "operators and public systems are recalculating cost and resilience",
+          "headlineFull": "Eight signals put tariffs, AI, jobs and safety on one risk map; operators and public systems are recalculating cost and resilience",
+          "intro": "New duties on Canadian goods, AI data-center financing and weaker UK hiring reshape business expectations, while Hormuz shipping, international justice, Congo Ebola, Zimbabwe's ferry disaster and Zaporizhzhia nuclear safety define today's global risk picture.",
+          "xiaziQuote": "The future is not one lane; trade, technology, jobs and public safety are updating at the same time.",
+          "doudouQuote": "There are many signals, so start with the one that changes cash flow or the safety boundary.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "c4b160f5-4c9e-51f7-9536-e9863c99ccd2",
+          "topicId": "25e4554a-28bf-5889-b7c6-a34a240c08ec",
+          "title": "Carney and Trump speak ahead of 50% US tariff deadline",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=Carney%20Trump%2050%25%20US%20tariff%20deadline&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "aacc0caf-e5a9-5937-bf65-d31760189ae5",
+          "topicId": "25e4554a-28bf-5889-b7c6-a34a240c08ec",
+          "title": "WHO says Congo Ebola outbreak can still be brought under control within three months",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=WHO%20Congo%20Ebola%20control%20within%20three%20months&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "73e8575d-3067-5d79-9fac-e87612ca67e0",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "canada-goods-fifty-percent-us-tariff",
+      "rank": 2,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "CA",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-canada-goods-fifty-percent-us-tariff-20260819",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "加拿大部分商品50%新增关税今日生效",
+          "headlineView": "跨境卖家必须按入境日重算税则、报价与履约责任",
+          "headlineFull": "加拿大部分商品50%新增关税今日生效；跨境卖家必须按入境日重算税则、报价与履约责任",
+          "intro": "美国针对部分加拿大商品的50%额外从价税于8月19日零时01分起按美国东部时间生效，并与其他适用税费叠加；卖家需要核对原产地、税号、入境节点、DDP报价和退货成本。",
+          "xiaziQuote": "关税生效日不是新闻日期，而是每一票货物重新定价的分界线。",
+          "doudouQuote": "先查原产地和入境日，再决定这单还能不能包邮。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "A new 50% duty on certain Canadian goods takes effect today",
+          "headlineView": "cross-border sellers must recalculate classification, quotes and delivery responsibility by entry date",
+          "headlineFull": "A new 50% duty on certain Canadian goods takes effect today; cross-border sellers must recalculate classification, quotes and delivery responsibility by entry date",
+          "intro": "An additional 50% ad valorem duty on certain Canadian goods takes effect at 12:01 a.m. Eastern on August 19 and stacks with other applicable charges; sellers must verify origin, tariff codes, entry timing, DDP quotes and return costs.",
+          "xiaziQuote": "A tariff date is not just a headline; it is the dividing line for repricing every shipment.",
+          "doudouQuote": "Check origin and entry date before promising free shipping.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "62fdf98a-99c9-5da2-b35f-1f1c25f96d6b",
+          "topicId": "73e8575d-3067-5d79-9fac-e87612ca67e0",
+          "title": "Imposing Additional Duties To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Motor Vehicles",
+          "publisher": "The Federal Register",
+          "url": "https://thefederalregister.org/documents/2026-14997/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-m",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1aae563e-6744-5d46-bdd0-6e0d12d61c8f",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "nvidia-openai-circular-financing-questions",
+      "rank": 3,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-nvidia-openai-circular-financing-questions-20260819",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "英伟达与OpenAI数据中心交易引发循环融资质疑",
+          "headlineView": "AI扩张必须同时证明真实需求、资本效率与独立现金流",
+          "headlineFull": "英伟达与OpenAI数据中心交易引发循环融资质疑；AI扩张必须同时证明真实需求、资本效率与独立现金流",
+          "intro": "英伟达与OpenAI的数据中心合作令市场重新审视芯片供应商、算力客户与资本投入之间的闭环关系；当基础设施规模快速上升，订单质量、利用率和资金来源比宣布的算力数字更重要。",
+          "xiaziQuote": "AI基础设施的护城河不只在芯片数量，还在需求是否独立、持续并能产生现金。",
+          "doudouQuote": "钱绕一圈回到订单里，账本就要多看一层。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "Nvidia's OpenAI data-center deal raises circular-financing questions",
+          "headlineView": "AI expansion must prove real demand, capital efficiency and independent cash flow",
+          "headlineFull": "Nvidia's OpenAI data-center deal raises circular-financing questions; AI expansion must prove real demand, capital efficiency and independent cash flow",
+          "intro": "Nvidia's data-center arrangement with OpenAI is pushing investors to examine the loop between chip supplier, compute customer and capital provider; as infrastructure scales, order quality, utilization and funding sources matter more than headline capacity.",
+          "xiaziQuote": "The AI infrastructure moat is not only chip count; demand must be independent, durable and cash-generating.",
+          "doudouQuote": "When money circles back into orders, read one layer deeper in the ledger.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "97ad37a3-2be7-5c37-9d7a-4e8c31cdce0c",
+          "topicId": "1aae563e-6744-5d46-bdd0-6e0d12d61c8f",
+          "title": "Nvidia's OpenAI data center deal raises 'circular financing' questions",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=Nvidia%20OpenAI%20data%20center%20deal%20circular%20financing%20questions&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8e1a923b-34d8-5d4a-b3a7-cef8184fa993",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "uk-job-vacancies-five-year-low",
+      "rank": 4,
+      "category": "business",
+      "region": "United Kingdom",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-uk-job-vacancies-five-year-low-20260819",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "英国职位空缺降至五年低点",
+          "headlineView": "一人公司应把固定招聘改写为可撤回的项目产能",
+          "headlineFull": "英国职位空缺降至五年低点；一人公司应把固定招聘改写为可撤回的项目产能",
+          "intro": "英国职位空缺降至五年来最低水平，小企业正在收缩招聘；对一人公司而言，需求不确定时更适合按项目购买设计、销售和运营成果，同时保留关键流程、客户关系和质量标准。",
+          "xiaziQuote": "招聘降温不是停止增长，而是把固定成本换成可验证、可收回的产能。",
+          "doudouQuote": "先买结果，再决定要不要买一整张工位。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "UK job vacancies fell to a five-year low",
+          "headlineView": "solo firms should convert fixed hiring into reversible project capacity",
+          "headlineFull": "UK job vacancies fell to a five-year low; solo firms should convert fixed hiring into reversible project capacity",
+          "intro": "UK vacancies have dropped to their lowest level in five years as smaller companies pull back recruitment; for solo operators, uncertain demand favors buying project outcomes in design, sales and operations while keeping core process, client and quality control.",
+          "xiaziQuote": "Cooler hiring does not mean stopping growth; it means turning fixed cost into capacity you can verify and reverse.",
+          "doudouQuote": "Buy the outcome first, then decide whether you need the whole desk.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "dda72adb-5dac-56ec-8d49-61d14b18211f",
+          "topicId": "8e1a923b-34d8-5d4a-b3a7-cef8184fa993",
+          "title": "Job vacancies at five-year low as smaller firms scale back recruitment",
+          "publisher": "Google News / BBC",
+          "url": "https://news.google.com/rss/search?q=Job%20vacancies%20five-year%20low%20smaller%20firms%20scale%20back%20recruitment&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a91dcfe4-4786-5497-b756-6294be583ae8",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "hormuz-strait-remains-shut",
+      "rank": 5,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IR",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-hormuz-strait-remains-shut-20260819",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "霍尔木兹航运",
+          "headlineFact": "伊朗称霍尔木兹海峡仍将关闭",
+          "headlineView": "美国未满足临时协议条件，能源与航运继续承压",
+          "headlineFull": "伊朗称霍尔木兹海峡仍将关闭；美国未满足临时协议条件，能源与航运继续承压",
+          "intro": "伊朗表示，在美国满足临时协议条件前，霍尔木兹海峡将继续关闭；美国则称没有计划与伊朗举行会谈。与此同时，沙特从海峡内侧恢复部分原油装载和销售，能源物流正在寻找有限绕行方式。",
+          "xiaziQuote": "海峡是否开放，决定的不只是油轮路线，也是全球库存和价格的时间表。",
+          "doudouQuote": "航道一关，世界各地的账单都会绕远路。",
+          "footerTakeaway": "今日关键词：霍尔木兹航运。"
+        },
+        "en-US": {
+          "categoryLabel": "Hormuz Shipping",
+          "headlineFact": "Iran says the Strait of Hormuz will remain shut",
+          "headlineView": "unmet interim-deal conditions keep energy and shipping under pressure",
+          "headlineFull": "Iran says the Strait of Hormuz will remain shut; unmet interim-deal conditions keep energy and shipping under pressure",
+          "intro": "Iran said Hormuz would stay closed until the United States meets interim-deal conditions, while Washington said no talks were planned; Saudi Arabia has resumed some crude loading and sales from inside the strait as energy logistics search for limited workarounds.",
+          "xiaziQuote": "Whether the strait opens sets the timetable not only for tankers, but for global inventory and prices.",
+          "doudouQuote": "Close one channel and bills around the world take the long route.",
+          "footerTakeaway": "Keyword: Hormuz Shipping."
+        }
+      },
+      "sources": [
+        {
+          "id": "0dcc1222-5236-5d93-abd9-7530c7a07c3b",
+          "topicId": "a91dcfe4-4786-5497-b756-6294be583ae8",
+          "title": "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=Hormuz%20Strait%20remain%20shut%20US%20interim%20deal%20conditions%20Iran&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "71c7d562-ffd2-56d1-9a2e-699172c103e1",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "us-sanctions-icc-president-lawyer",
+      "rank": 6,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-us-sanctions-icc-president-lawyer-20260819",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际司法",
+          "headlineFact": "美国制裁国际刑事法院院长和高级律师",
+          "headlineView": "司法独立、外交工具与个人责任的边界再受检验",
+          "headlineFull": "美国制裁国际刑事法院院长和高级律师；司法独立、外交工具与个人责任的边界再受检验",
+          "intro": "美国宣布制裁国际刑事法院院长及一名高级律师，使围绕法院调查、成员国义务和美国政策的争议进一步升级；个人层面的金融与旅行限制正在成为国家回应国际司法行动的直接工具。",
+          "xiaziQuote": "当制裁落到司法人员个人身上，制度冲突就会变成具体的职业与执行风险。",
+          "doudouQuote": "法槌敲下去，回声可能来自法庭之外。",
+          "footerTakeaway": "今日关键词：国际司法。"
+        },
+        "en-US": {
+          "categoryLabel": "International Justice",
+          "headlineFact": "The United States sanctioned the ICC president and a senior lawyer",
+          "headlineView": "the boundary among judicial independence, diplomacy and personal liability faces another test",
+          "headlineFull": "The United States sanctioned the ICC president and a senior lawyer; the boundary among judicial independence, diplomacy and personal liability faces another test",
+          "intro": "Washington sanctioned the International Criminal Court's president and a senior lawyer, escalating disputes over court investigations, member-state obligations and US policy; personal financial and travel restrictions are becoming a direct tool against international judicial action.",
+          "xiaziQuote": "When sanctions target judicial officers personally, institutional conflict becomes a concrete career and enforcement risk.",
+          "doudouQuote": "A gavel falls in court, but the echo can come from outside it.",
+          "footerTakeaway": "Keyword: International Justice."
+        }
+      },
+      "sources": [
+        {
+          "id": "4c431978-018a-5e3c-b8df-91ee04e4f8ae",
+          "topicId": "71c7d562-ffd2-56d1-9a2e-699172c103e1",
+          "title": "US sanctions International Criminal Court president, senior lawyer",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=US%20sanctions%20International%20Criminal%20Court%20president%20senior%20lawyer&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a82a7609-aeab-5680-a5fc-2dabe126bf8e",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "who-congo-ebola-three-month-control-window",
+      "rank": 7,
+      "category": "science",
+      "region": "Central Africa",
+      "countryCodes": [
+        "CD"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-who-congo-ebola-three-month-control-window-20260819",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "刚果埃博拉",
+          "headlineFact": "世卫称刚果埃博拉可在三个月内受控",
+          "headlineView": "窗口取决于病例追踪、隔离、治疗与社区信任同步提速",
+          "headlineFull": "世卫称刚果埃博拉可在三个月内受控；窗口取决于病例追踪、隔离、治疗与社区信任同步提速",
+          "intro": "世界卫生组织表示，刚果快速蔓延的埃博拉疫情仍有可能在三个月内得到控制；关键在于更快找到接触者、及时隔离和治疗，并让社区愿意报告病例、接受防护措施和安全安葬流程。",
+          "xiaziQuote": "三个月不是自然倒计时，而是一线人员、物资、数据与信任共同争取的窗口。",
+          "doudouQuote": "能控制不等于会自动控制，每一天都要把链条接上。",
+          "footerTakeaway": "今日关键词：刚果埃博拉。"
+        },
+        "en-US": {
+          "categoryLabel": "Congo Ebola",
+          "headlineFact": "WHO says Congo's Ebola outbreak can be controlled within three months",
+          "headlineView": "the window depends on faster tracing, isolation, care and community trust",
+          "headlineFull": "WHO says Congo's Ebola outbreak can be controlled within three months; the window depends on faster tracing, isolation, care and community trust",
+          "intro": "The World Health Organization says Congo's fast-moving Ebola outbreak can still be brought under control within three months; success depends on finding contacts faster, isolating and treating cases, and building trust for reporting, protection and safe burials.",
+          "xiaziQuote": "Three months is not a natural countdown; it is a window won by staff, supplies, data and trust.",
+          "doudouQuote": "Controllable does not mean automatic; every link must connect every day.",
+          "footerTakeaway": "Keyword: Congo Ebola."
+        }
+      },
+      "sources": [
+        {
+          "id": "70a1da94-0aa3-5788-9de8-b4253b9fef46",
+          "topicId": "a82a7609-aeab-5680-a5fc-2dabe126bf8e",
+          "title": "WHO says Congo Ebola outbreak can still be brought under control within three months",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=WHO%20Congo%20Ebola%20control%20within%20three%20months&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "6b813df5-6048-5c96-876e-7081679c4fb0",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "zimbabwe-ferry-death-toll-ninety-four",
+      "rank": 8,
+      "category": "international",
+      "region": "Southern Africa",
+      "countryCodes": [
+        "ZW"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-zimbabwe-ferry-death-toll-ninety-four-20260819",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "津巴布韦渡轮事故",
+          "headlineFact": "津巴布韦渡轮事故死亡人数升至94人",
+          "headlineView": "政府确认超载，运力管理与救援能力同时被追问",
+          "headlineFull": "津巴布韦渡轮事故死亡人数升至94人；政府确认超载，运力管理与救援能力同时被追问",
+          "intro": "津巴布韦一艘渡轮事故的确认死亡人数升至94人，政府表示船只存在超载；事故把乘客清单、载重控制、救生设备、天气判断与偏远水域救援响应重新推到公共安全审查中心。",
+          "xiaziQuote": "超载不是一个离港后的数字，它是本应在出发前就阻止的系统失效。",
+          "doudouQuote": "少上一位乘客，可能就是多留一条生命线。",
+          "footerTakeaway": "今日关键词：津巴布韦渡轮事故。"
+        },
+        "en-US": {
+          "categoryLabel": "Zimbabwe Ferry Disaster",
+          "headlineFact": "Zimbabwe's ferry death toll rose to 94",
+          "headlineView": "confirmed overloading puts capacity control and rescue readiness under scrutiny",
+          "headlineFull": "Zimbabwe's ferry death toll rose to 94; confirmed overloading puts capacity control and rescue readiness under scrutiny",
+          "intro": "The confirmed death toll from a Zimbabwe ferry disaster has reached 94, with the government saying the vessel was overloaded; passenger manifests, capacity limits, safety gear, weather decisions and remote-water rescue response are now under examination.",
+          "xiaziQuote": "Overloading is not a number discovered after departure; it is a system failure that should stop the trip before it starts.",
+          "doudouQuote": "One fewer passenger can mean one more lifeline.",
+          "footerTakeaway": "Keyword: Zimbabwe Ferry Disaster."
+        }
+      },
+      "sources": [
+        {
+          "id": "0e9ea455-35db-5bf9-ba1b-dc2b42bf3a02",
+          "topicId": "6b813df5-6048-5c96-876e-7081679c4fb0",
+          "title": "Zimbabwe ferry death toll reaches 94 as government confirms it was over capacity",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=Zimbabwe%20ferry%20death%20toll%2094%20over%20capacity&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a8f2832a-1906-594b-82c1-5cc664bf9559",
+      "issueId": "95573b44-c9a7-51e6-b168-12c350d88151",
+      "slug": "zaporizhzhia-drone-bus-stop-fatality",
+      "rank": 9,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-zaporizhzhia-drone-bus-stop-fatality-20260819",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "核设施安全",
+          "headlineFact": "扎波罗热核电站公交站遭无人机爆炸致1死",
+          "headlineView": "核设施周边的日常动线正在承受战时风险",
+          "headlineFull": "扎波罗热核电站公交站遭无人机爆炸致1死；核设施周边的日常动线正在承受战时风险",
+          "intro": "国际原子能机构表示，一架无人机在扎波罗热核电站公交站附近爆炸并造成一人死亡；即使反应堆本体未受直接冲击，员工通勤、应急队伍和外围基础设施的安全仍会影响核设施运行韧性。",
+          "xiaziQuote": "核安全边界不只围住反应堆，也包括每天把人送到岗位的道路和站点。",
+          "doudouQuote": "核心设备没受伤，也不能忽略通往核心的路。",
+          "footerTakeaway": "今日关键词：核设施安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Nuclear-site Safety",
+          "headlineFact": "A drone exploded at a Zaporizhzhia nuclear-plant bus stop, killing one",
+          "headlineView": "daily movement around a nuclear site is carrying wartime risk",
+          "headlineFull": "A drone exploded at a Zaporizhzhia nuclear-plant bus stop, killing one; daily movement around a nuclear site is carrying wartime risk",
+          "intro": "The IAEA said a drone exploded near a bus stop at the Zaporizhzhia nuclear power plant and killed one person; even without a direct reactor strike, staff transport, emergency teams and perimeter infrastructure shape the site's operational resilience.",
+          "xiaziQuote": "A nuclear-safety boundary covers not only reactors, but the roads and stops that bring people to work.",
+          "doudouQuote": "If the core is untouched, the route to the core still matters.",
+          "footerTakeaway": "Keyword: Nuclear-site Safety."
+        }
+      },
+      "sources": [
+        {
+          "id": "40b9d649-cc67-5b5c-bf85-f6b944d71b4f",
+          "topicId": "a8f2832a-1906-594b-82c1-5cc664bf9559",
+          "title": "IAEA: drone exploded at Zaporizhzhia nuclear plant bus stop, killing one",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=IAEA%20drone%20exploded%20Zaporizhzhia%20nuclear%20plant%20bus%20stop%20killing%20one&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "id": "07590f7e-8f15-530e-9831-516e60397beb",
+  "slug": "2026-08-27",
+  "issueDate": "2026-08-27",
+  "assetVersion": "rel_20260827_8872ba5b7eb71e32be9d4d4f",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-27T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-26T21:00:00.000Z",
+  "featuredTopicId": "ed6955b8-0c2e-5029-bb97-4f043e07952f",
+  "style": {
+    "name": "Pop Art Poster",
+    "zhName": "波普海报风格",
+    "description": "Style Atlas daily pick: Pop Art Poster for global-news posters, using bold comic panels, Ben-Day dots, saturated primary colors, sharp outlines and repeated symbols while keeping facts and information graphics dominant. Xiazi and Doudou stay small at the edges."
+  },
+  "topics": [
+    {
+      "id": "ed6955b8-0c2e-5029-bb97-4f043e07952f",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "today-overview-commerce-ai-flood-hormuz-tech-science",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-commerce-ai-flood-hormuz-tech-science-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "八个信号把跨境利润、材料AI、单人创作、边境洪灾、关键航道、平台责任、端侧算力与月食连成一张变化图",
+          "headlineView": "经营者今天要同时管理利润结构、决策负荷、基础设施风险与社会信任",
+          "headlineFull": "八个信号把跨境利润、材料AI、单人创作、边境洪灾、关键航道、平台责任、端侧算力与月食连成一张变化图；经营者今天要同时管理利润结构、决策负荷、基础设施风险与社会信任",
+          "intro": "PDD增收但净利润下滑，MIT把化学规则前置到材料生成，单人AI影像暴露决策过载；尼中边境洪灾、霍尔木兹临时航道谈判、Meta儿童安全和解、Apple新芯片与深度月偏食补齐风险、平台和科学信号。",
+          "xiaziQuote": "真正影响经营的不是单条新闻，而是成本、能力、风险和信任如何互相传导。",
+          "doudouQuote": "先标出今天会改变利润、交付和判断负荷的三件事。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Eight signals connect cross-border margins, materials AI, solo creation, border floods, a vital shipping lane, platform responsibility, on-device compute and a lunar eclipse",
+          "headlineView": "operators need to manage margin structure, decision load, infrastructure risk and public trust at the same time",
+          "headlineFull": "Eight signals connect cross-border margins, materials AI, solo creation, border floods, a vital shipping lane, platform responsibility, on-device compute and a lunar eclipse; operators need to manage margin structure, decision load, infrastructure risk and public trust at the same time",
+          "intro": "PDD grew revenue while net income fell, MIT moved chemistry constraints ahead of materials generation, and solo AI filmmaking exposed decision overload; Nepal-China border floods, Hormuz corridor talks, Meta's child-safety settlement, new Apple chips and a deep partial lunar eclipse complete the risk, platform and science map.",
+          "xiaziQuote": "The operating signal is not one headline, but how cost, capability, risk and trust travel together.",
+          "doudouQuote": "Mark the three changes that alter margin, delivery or decision load today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "be5750dc-ba47-5056-9584-d63e39914b92",
+          "topicId": "ed6955b8-0c2e-5029-bb97-4f043e07952f",
+          "title": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results",
+          "publisher": "Stock Titan",
+          "url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-second-quarter-2026-unaudited-financial-4bdc9bp1pv8o.html",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "00c31ca1-fd64-5aba-a108-655f274a5a2c",
+          "topicId": "ed6955b8-0c2e-5029-bb97-4f043e07952f",
+          "title": "95 confirmed dead in Bhotekoshi flash flood",
+          "publisher": "Radio Nepal",
+          "url": "https://radionepalonline.com/en/2026/08/26/434809.html",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "e4d783c6-92a7-523f-b35a-7d51dae4ba19",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "pdd-q2-cross-border-margin-pressure",
+      "rank": 2,
+      "category": "business",
+      "region": "Asia",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-pdd-q2-cross-border-margin-pressure-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "PDD二季度营收1124亿元增长8%，归母净利润272亿元下降12%",
+          "headlineView": "跨境经营者要把平台投入、合规和流量波动放进单品利润表",
+          "headlineFull": "PDD二季度营收1124亿元增长8%，归母净利润272亿元下降12%；跨境经营者要把平台投入、合规和流量波动放进单品利润表",
+          "intro": "PDD Holdings公布二季度营收1124亿元、同比增长8%，归母净利润272亿元、同比下降12%；在全球贸易和监管持续变化时，增长并不自动等于更高利润，卖家应按市场重算获客、履约、退货与合规成本。",
+          "xiaziQuote": "跨境增长最危险的错觉，是只看GMV上升，不看每一单留下多少现金。",
+          "doudouQuote": "先把流量、仓配、退货和合规拆成四行再定价。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "PDD's second-quarter revenue rose 8 percent to RMB112.4 billion while attributable net income fell 12 percent to RMB27.2 billion",
+          "headlineView": "cross-border operators should put platform investment, compliance and traffic volatility into SKU-level margins",
+          "headlineFull": "PDD's second-quarter revenue rose 8 percent to RMB112.4 billion while attributable net income fell 12 percent to RMB27.2 billion; cross-border operators should put platform investment, compliance and traffic volatility into SKU-level margins",
+          "intro": "PDD Holdings reported second-quarter revenue of RMB112.4 billion, up 8 percent, while net income attributable to ordinary shareholders fell 12 percent to RMB27.2 billion; amid shifting trade and regulation, sellers should recalculate acquisition, fulfillment, returns and compliance by market.",
+          "xiaziQuote": "The dangerous illusion in cross-border growth is rising GMV without knowing the cash left per order.",
+          "doudouQuote": "Split traffic, fulfillment, returns and compliance into four lines before repricing.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "69ae12d7-26df-5250-a65b-e94fa953cca4",
+          "topicId": "e4d783c6-92a7-523f-b35a-7d51dae4ba19",
+          "title": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results",
+          "publisher": "Stock Titan",
+          "url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-second-quarter-2026-unaudited-financial-4bdc9bp1pv8o.html",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f65715a5-3a4c-54bb-8252-95289520a354",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "mit-crysvcd-stable-materials-ai",
+      "rank": 3,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-mit-crysvcd-stable-materials-ai-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "MIT发布CrysVCD框架，把化学价态约束放到材料生成前端",
+          "headlineView": "生成式AI的下一步不是产出更多候选，而是减少昂贵的无效筛选",
+          "headlineFull": "MIT发布CrysVCD框架，把化学价态约束放到材料生成前端；生成式AI的下一步不是产出更多候选，而是减少昂贵的无效筛选",
+          "intro": "MIT团队把语言模型与扩散模型结合，先生成满足关键化学规则的配方，再构建晶体结构；论文显示近70%的计算材料通过严格晶格动力学稳定性测试，并可面向芯片散热等目标属性。",
+          "xiaziQuote": "当验证占掉九成成本，最有价值的AI不是更会想象，而是更早排除不可能。",
+          "doudouQuote": "先让化学规则进门，再让模型画一百万种材料。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "MIT introduced CrysVCD, moving chemical valence constraints to the front of materials generation",
+          "headlineView": "the next step for generative AI is reducing expensive invalid screening, not producing more candidates",
+          "headlineFull": "MIT introduced CrysVCD, moving chemical valence constraints to the front of materials generation; the next step for generative AI is reducing expensive invalid screening, not producing more candidates",
+          "intro": "MIT researchers combined a language model with diffusion generation so chemically valid formulas come before crystal structures; nearly 70 percent of generated candidates passed a stringent lattice-dynamics stability test, with target properties including chip-cooling performance.",
+          "xiaziQuote": "When validation consumes most of the cost, the best AI rules out impossibility earlier.",
+          "doudouQuote": "Invite chemistry in before asking the model for a million materials.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "530fb694-f07f-57f5-b5ff-1ffa98df5115",
+          "topicId": "f65715a5-3a4c-54bb-8252-95289520a354",
+          "title": "AI helps design new materials that work in the real world",
+          "publisher": "MIT News",
+          "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "13abb6e1-7de5-5544-b04d-bbb217b39521",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "solo-ai-filmmaker-sustainable-system",
+      "rank": 4,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-solo-ai-filmmaker-sustainable-system-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "一名单人AI电影创作者公开拆解角色叠加与决策过载的运营成本",
+          "headlineView": "一人公司真正的杠杆来自锁定参考、按任务批处理和可重复节奏",
+          "headlineFull": "一名单人AI电影创作者公开拆解角色叠加与决策过载的运营成本；一人公司真正的杠杆来自锁定参考、按任务批处理和可重复节奏",
+          "intro": "案例指出，AI把剧组压进一台电脑，却没有消除布景、灯光、服装、剪辑与连续性判断；作者通过锁定角色和色彩参考、按任务而非场景批处理，并设定稳定产出节奏来降低切换成本。",
+          "xiaziQuote": "AI能缩小团队规模，却不会自动缩小需要做出的决定数量。",
+          "doudouQuote": "把重复判断变成模板，才能把脑力留给真正的创作。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "A solo AI filmmaker documented the operating cost of stacked roles and decision overload",
+          "headlineView": "real one-person-company leverage comes from locked references, task batching and a repeatable pace",
+          "headlineFull": "A solo AI filmmaker documented the operating cost of stacked roles and decision overload; real one-person-company leverage comes from locked references, task batching and a repeatable pace",
+          "intro": "The case shows that AI compresses a film crew into a laptop without removing set, lighting, costume, editing and continuity decisions; the creator reduced switching costs by locking character and color references, batching by task and keeping a deliberately steady release rhythm.",
+          "xiaziQuote": "AI can shrink the team without automatically shrinking the number of decisions.",
+          "doudouQuote": "Turn repeated choices into templates and save judgment for the work that matters.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "464b73d2-5fe6-5926-97d7-64438f5e1a8c",
+          "topicId": "13abb6e1-7de5-5544-b04d-bbb217b39521",
+          "title": "How to Avoid Burnout as a Solo AI Filmmaker: The System I Built for Lost Garden",
+          "publisher": "HackerNoon",
+          "url": "https://hackernoon.com/how-to-avoid-burnout-as-a-solo-ai-filmmaker-the-system-i-built-for-lost-garden",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3f3da132-2c1d-5c36-880e-7a31b2ad474b",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "nepal-china-border-flash-flood",
+      "rank": 5,
+      "category": "international",
+      "region": "Asia",
+      "countryCodes": [
+        "NP",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-nepal-china-border-flash-flood-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候灾害",
+          "headlineFact": "尼泊尔公共广播称博特科西突发洪灾已确认95人死亡",
+          "headlineView": "高山边境的洪灾风险会同时切断居民安全、道路、口岸和跨境供应",
+          "headlineFull": "尼泊尔公共广播称博特科西突发洪灾已确认95人死亡；高山边境的洪灾风险会同时切断居民安全、道路、口岸和跨境供应",
+          "intro": "Radio Nepal报道，拉苏瓦地区突发洪水的确认死亡人数升至95人；灾害冲击尼泊尔与中国接壤的山谷和交通节点，搜救仍在继续，人员、道路与贸易通道损失需要持续更新。",
+          "xiaziQuote": "边境基础设施不是一条路，而是生命、救援与贸易共同依赖的脆弱链条。",
+          "doudouQuote": "先保人，再恢复桥、路和通信。",
+          "footerTakeaway": "今日关键词：气候灾害。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate Disaster",
+          "headlineFact": "Nepal's public broadcaster reported 95 confirmed deaths in the Bhotekoshi flash flood",
+          "headlineView": "a high-mountain border flood can sever safety, roads, crossings and cross-border supply at once",
+          "headlineFull": "Nepal's public broadcaster reported 95 confirmed deaths in the Bhotekoshi flash flood; a high-mountain border flood can sever safety, roads, crossings and cross-border supply at once",
+          "intro": "Radio Nepal reported that the confirmed death toll from the flash flood in Rasuwa district had reached 95; search and rescue continued as damage across valleys and transport nodes near the China border disrupted people, roads and trade routes.",
+          "xiaziQuote": "Border infrastructure is a fragile chain shared by lives, rescue and trade.",
+          "doudouQuote": "Protect people first, then restore bridges, roads and communications.",
+          "footerTakeaway": "Keyword: Climate Disaster."
+        }
+      },
+      "sources": [
+        {
+          "id": "45b33500-57a0-593f-8ac7-b236296fdaa6",
+          "topicId": "3f3da132-2c1d-5c36-880e-7a31b2ad474b",
+          "title": "95 confirmed dead in Bhotekoshi flash flood",
+          "publisher": "Radio Nepal",
+          "url": "https://radionepalonline.com/en/2026/08/26/434809.html",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "42ae334c-7dc5-5145-a664-2ed516fc2f46",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "iran-oman-hormuz-temporary-corridor",
+      "rank": 6,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IR",
+        "OM"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-iran-oman-hormuz-temporary-corridor-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球航运",
+          "headlineFact": "伊朗与阿曼讨论在霍尔木兹海峡建立联合临时航道并开展排雷",
+          "headlineView": "能源与航运市场正在提前交易缓和预期，但安全通航仍取决于执行细节",
+          "headlineFull": "伊朗与阿曼讨论在霍尔木兹海峡建立联合临时航道并开展排雷；能源与航运市场正在提前交易缓和预期，但安全通航仍取决于执行细节",
+          "intro": "双方提出联合临时航道、共同排雷、交通管理和信息交换框架，并将继续技术谈判；对航运商而言，宣布框架不等于风险消失，保险、绕行和交付承诺仍需按实际通航验证。",
+          "xiaziQuote": "航道协议的价值，不在标题里的开放，而在船只是否能安全、稳定、可预测地通过。",
+          "doudouQuote": "先看第一艘船怎么走，再改运价表。",
+          "footerTakeaway": "今日关键词：全球航运。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Shipping",
+          "headlineFact": "Iran and Oman discussed a joint temporary corridor and mine-clearing project in the Strait of Hormuz",
+          "headlineView": "energy and shipping markets are pricing de-escalation early, but safe passage still depends on execution",
+          "headlineFull": "Iran and Oman discussed a joint temporary corridor and mine-clearing project in the Strait of Hormuz; energy and shipping markets are pricing de-escalation early, but safe passage still depends on execution",
+          "intro": "The proposal covers a joint temporary navigation corridor, mine clearance, traffic management and information exchange, with technical talks continuing; shippers should keep insurance, routing and delivery promises tied to verified vessel movement rather than headlines alone.",
+          "xiaziQuote": "A corridor matters when ships can pass safely, consistently and predictably.",
+          "doudouQuote": "Watch how the first ship moves before changing the freight sheet.",
+          "footerTakeaway": "Keyword: Global Shipping."
+        }
+      },
+      "sources": [
+        {
+          "id": "e9e42247-6eb8-53c7-a303-39e119f0cb94",
+          "topicId": "42ae334c-7dc5-5145-a664-2ed516fc2f46",
+          "title": "Oman, Iran discuss proposed framework to establish joint temporary navigational corridor through Strait of Hormuz",
+          "publisher": "Emirates News Agency",
+          "url": "https://www.tasnimnews.ir/en/news/2026/08/26/3680709/iran-oman-agree-on-framework-for-safe-hormuz-navigation/amp",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1a7d66ff-4494-565f-b2cc-9889c29dd193",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "meta-child-safety-settlement",
+      "rank": 7,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-meta-child-safety-settlement-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "平台治理",
+          "headlineFact": "Meta同意支付逾170亿美元并对Instagram与Facebook实施儿童安全改革",
+          "headlineView": "平台责任正从原则声明进入产品设计、审计与长期资金约束",
+          "headlineFull": "Meta同意支付逾170亿美元并对Instagram与Facebook实施儿童安全改革；平台责任正从原则声明进入产品设计、审计与长期资金约束",
+          "intro": "科罗拉多州总检察长宣布，全国性和解要求Meta支付超过170亿美元，并落实面向年轻用户的产品改革；这意味着增长机制、默认设置、验证与审计将越来越直接影响平台成本。",
+          "xiaziQuote": "当产品机制能改变行为，安全就不能只写在使用条款里。",
+          "doudouQuote": "把护栏装进产品，不要只放在公告页。",
+          "footerTakeaway": "今日关键词：平台治理。"
+        },
+        "en-US": {
+          "categoryLabel": "Platform Governance",
+          "headlineFact": "Meta agreed to pay more than $17 billion and implement child-safety reforms across Instagram and Facebook",
+          "headlineView": "platform responsibility is moving from principles into product design, audits and long-term financial constraints",
+          "headlineFull": "Meta agreed to pay more than $17 billion and implement child-safety reforms across Instagram and Facebook; platform responsibility is moving from principles into product design, audits and long-term financial constraints",
+          "intro": "Colorado's attorney general announced a nationwide settlement requiring Meta to pay more than $17 billion and implement product reforms for young users; growth mechanics, defaults, verification and audits are becoming direct platform costs.",
+          "xiaziQuote": "When product mechanics shape behavior, safety cannot live only in the terms page.",
+          "doudouQuote": "Build the guardrail into the product, not just the announcement.",
+          "footerTakeaway": "Keyword: Platform Governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "8d179d22-2aa1-5301-b9f6-32a6998bfd4c",
+          "topicId": "1a7d66ff-4494-565f-b2cc-9889c29dd193",
+          "title": "Attorney General Weiser announces historic settlement with Meta Platforms",
+          "publisher": "Colorado Attorney General",
+          "url": "https://coag.gov/press-releases/weiser-announces-historic-settlement-with-meta/",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a5f81700-0956-594b-8c0f-895cc9fff6a2",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "apple-m6-m5-ultra-ai-compute",
+      "rank": 8,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-apple-m6-m5-ultra-ai-compute-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "芯片与终端",
+          "headlineFact": "Apple发布首款2纳米M6与四晶粒M5 Ultra，强化本地AI计算",
+          "headlineView": "AI竞争正在从云端模型延伸到个人设备的算力、内存带宽与能效",
+          "headlineFull": "Apple发布首款2纳米M6与四晶粒M5 Ultra，强化本地AI计算；AI竞争正在从云端模型延伸到个人设备的算力、内存带宽与能效",
+          "intro": "M6采用12核CPU、12核GPU、双16核神经网络引擎与最高170GB/s统一内存带宽；M5 Ultra面向更重的桌面任务，端侧AI能力开始成为硬件更新的核心叙事。",
+          "xiaziQuote": "当模型进入日常工作流，算力的位置会和算力的大小一样重要。",
+          "doudouQuote": "云端负责大脑，终端开始练肌肉。",
+          "footerTakeaway": "今日关键词：芯片与终端。"
+        },
+        "en-US": {
+          "categoryLabel": "Chips and Devices",
+          "headlineFact": "Apple unveiled its first 2-nanometer M6 and a four-die M5 Ultra to expand local AI compute",
+          "headlineView": "AI competition is extending from cloud models into device compute, memory bandwidth and efficiency",
+          "headlineFull": "Apple unveiled its first 2-nanometer M6 and a four-die M5 Ultra to expand local AI compute; AI competition is extending from cloud models into device compute, memory bandwidth and efficiency",
+          "intro": "M6 combines a 12-core CPU, 12-core GPU, dual 16-core Neural Engines and up to 170GB/s of unified memory bandwidth, while M5 Ultra targets heavier desktop workloads; on-device AI is becoming central to the hardware upgrade story.",
+          "xiaziQuote": "As models enter daily workflows, where compute lives matters as much as how much exists.",
+          "doudouQuote": "The cloud holds the brain while devices build muscle.",
+          "footerTakeaway": "Keyword: Chips and Devices."
+        }
+      },
+      "sources": [
+        {
+          "id": "51b67e15-da64-5e77-8147-873a8a724b53",
+          "topicId": "a5f81700-0956-594b-8c0f-895cc9fff6a2",
+          "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+          "publisher": "Apple",
+          "url": "https://www.phoronix.com/news/Apple-M6-M5-Ultra",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "0cb3e7c1-9e15-5c1b-9a32-01f6938de44c",
+      "issueId": "07590f7e-8f15-530e-9831-516e60397beb",
+      "slug": "august-deep-partial-lunar-eclipse",
+      "rank": 9,
+      "category": "science",
+      "region": "Space",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-august-deep-partial-lunar-eclipse-20260827",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "天文科学",
+          "headlineFact": "8月27日至28日将出现深度月偏食，食甚时月面96.3%进入地球本影",
+          "headlineView": "美洲、西欧和西非观测者将看到接近全食的铜色月面",
+          "headlineFull": "8月27日至28日将出现深度月偏食，食甚时月面96.3%进入地球本影；美洲、西欧和西非观测者将看到接近全食的铜色月面",
+          "intro": "NASA可视化显示，偏食阶段从世界时2:34开始，食甚在4:13，月面有96.3%位于地球本影；此次月食属于沙罗周期138，可见区覆盖大部分美洲、西欧与西非。",
+          "xiaziQuote": "天文事件把全球时区变成同一张观测表，也提醒我们用精确数字描述自然。",
+          "doudouQuote": "不是全食，却只给月亮留下3.7%的亮边。",
+          "footerTakeaway": "今日关键词：天文科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Astronomy",
+          "headlineFact": "A deep partial lunar eclipse on August 27-28 will place 96.3 percent of the Moon's disk inside Earth's umbra at maximum",
+          "headlineView": "observers across the Americas, western Europe and western Africa will see an almost-total copper Moon",
+          "headlineFull": "A deep partial lunar eclipse on August 27-28 will place 96.3 percent of the Moon's disk inside Earth's umbra at maximum; observers across the Americas, western Europe and western Africa will see an almost-total copper Moon",
+          "intro": "NASA's visualization shows the partial phase beginning at 2:34 UTC and maximum eclipse at 4:13 UTC, with 96.3 percent of the lunar disk inside Earth's umbra; the Saros 138 event is visible across much of the Americas, western Europe and western Africa.",
+          "xiaziQuote": "Astronomy turns global time zones into one observing table and rewards precise language.",
+          "doudouQuote": "Not total, but only 3.7 percent of the Moon stays bright.",
+          "footerTakeaway": "Keyword: Astronomy."
+        }
+      },
+      "sources": [
+        {
+          "id": "8be58c86-f4cd-5c39-981d-adda397234a8",
+          "topicId": "0cb3e7c1-9e15-5c1b-9a32-01f6938de44c",
+          "title": "August 27-28, 2026 Deep Partial Lunar Eclipse",
+          "publisher": "NASA Scientific Visualization Studio",
+          "url": "https://svs.gsfc.nasa.gov/5672",
+          "publishedAt": "2026-08-27T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
