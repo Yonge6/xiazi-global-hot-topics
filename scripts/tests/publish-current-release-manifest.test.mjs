@@ -9,12 +9,15 @@ const manifest = {
   issueDate: "2026-08-15",
   releaseId: "rel_20260815_aaaaaaaaaaaaaaaaaaaaaaaa",
   assetBatchId: "asset_prod_20260815_example",
-  posters: Array.from({ length: 18 }, (_, index) => ({ index })),
+  posters: Array.from({ length: 18 }, (_, index) => ({
+    topicId: `${index % 9}`,
+    locale: index < 9 ? "zh" : "en",
+  })),
 };
 const issue = {
   issueDate: manifest.issueDate,
   assetVersion: manifest.issueDate,
-  topics: Array.from({ length: 9 }, (_, index) => ({ id: `${index}` })),
+  topics: Array.from({ length: 9 }, (_, index) => ({ id: `${index}`, slug: `topic-${index}` })),
 };
 
 function response(value, status = 200) {
@@ -37,6 +40,9 @@ test("publishes current issue assetVersion and release manifest in one commit", 
       if (url.includes("/contents/data/current-issue.json")) {
         return response({ content: Buffer.from(JSON.stringify(issue)).toString("base64") });
       }
+      if (url.includes("/contents/apps/web/public/posters/")) {
+        return response({ type: "file", sha: sha("9") });
+      }
       if (url.endsWith(`/git/commits/${sha("1")}`)) return response({ tree: { sha: sha("2") } });
       if (url.endsWith("/git/blobs")) return response({ sha: sha(String(++blobIndex + 2)) });
       if (url.endsWith("/git/trees")) return response({ sha: sha("5") });
@@ -50,16 +56,21 @@ test("publishes current issue assetVersion and release manifest in one commit", 
   const blobBodies = calls
     .filter((call) => call.url.endsWith("/git/blobs"))
     .map((call) => JSON.parse(call.init.body).content);
-  assert.equal(blobBodies.length, 2);
+  assert.equal(blobBodies.length, 3);
   assert.equal(JSON.parse(blobBodies[0]).assetVersion, manifest.releaseId);
-  assert.deepEqual(JSON.parse(blobBodies[1]), manifest);
+  assert.equal(JSON.parse(blobBodies[1]).assetVersion, manifest.releaseId);
+  assert.deepEqual(JSON.parse(blobBodies[2]), manifest);
 
   const treeCall = calls.find((call) => call.url.endsWith("/git/trees"));
   const tree = JSON.parse(treeCall.init.body);
-  assert.deepEqual(tree.tree.map((entry) => entry.path), [
+  assert.deepEqual(tree.tree.slice(0, 3).map((entry) => entry.path), [
     "data/current-issue.json",
+    "data/archive/2026-08-15.json",
     "data/current-release.json",
   ]);
+  assert.equal(tree.tree.length, 21);
+  assert.equal(tree.tree[3].path, "public/archive/2026-08-15/posters/zh/topic-0.png");
+  assert.equal(tree.tree[20].path, "public/archive/2026-08-15/posters/en/topic-8.png");
   assert.equal(calls.filter((call) => call.url.includes("/contents/") && call.init.method === "PUT").length, 0);
   const refUpdate = calls.find((call) => call.url.endsWith("/git/refs/heads/main"));
   assert.deepEqual(JSON.parse(refUpdate.init.body), { sha: sha("6"), force: false });

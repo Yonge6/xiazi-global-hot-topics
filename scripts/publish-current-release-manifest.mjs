@@ -55,6 +55,29 @@ export async function publishCurrentReleaseBundle({
   }
   const synchronizedIssue = { ...currentIssue, assetVersion: manifest.releaseId };
 
+  const archivePosters = await Promise.all(manifest.posters.map(async (poster) => {
+    const topic = currentIssue.topics.find((item) => item.id === poster.topicId);
+    if (!topic || (poster.locale !== "zh" && poster.locale !== "en")) {
+      throw new Error("CURRENT_RELEASE_POSTER_SLOT_INVALID");
+    }
+    const sourcePath = `apps/web/public/posters/${poster.locale}/${topic.slug}.png`;
+    const source = await githubJson(
+      fetchImpl,
+      `${api}/contents/${sourcePath}?ref=${headSha}`,
+      { headers },
+      sourcePath,
+    );
+    if (source.type !== "file" || !/^[0-9a-f]{40}$/.test(source.sha || "")) {
+      throw new Error(`CURRENT_RELEASE_POSTER_SOURCE_INVALID:${sourcePath}`);
+    }
+    return {
+      path: `public/archive/${manifest.issueDate}/posters/${poster.locale}/${topic.slug}.png`,
+      mode: "100644",
+      type: "blob",
+      sha: source.sha,
+    };
+  }));
+
   const baseCommit = await githubJson(
     fetchImpl,
     `${api}/git/commits/${headSha}`,
@@ -66,6 +89,7 @@ export async function publishCurrentReleaseBundle({
 
   const files = [
     ["data/current-issue.json", synchronizedIssue],
+    [`data/archive/${manifest.issueDate}.json`, synchronizedIssue],
     ["data/current-release.json", manifest],
   ];
   const blobs = await Promise.all(files.map(async ([pathname, value]) => {
@@ -84,12 +108,15 @@ export async function publishCurrentReleaseBundle({
     headers,
     body: JSON.stringify({
       base_tree: baseTreeSha,
-      tree: blobs.map(({ pathname, sha }) => ({
-        path: pathname,
-        mode: "100644",
-        type: "blob",
-        sha,
-      })),
+      tree: [
+        ...blobs.map(({ pathname, sha }) => ({
+          path: pathname,
+          mode: "100644",
+          type: "blob",
+          sha,
+        })),
+        ...archivePosters,
+      ],
     }),
   }, "release tree");
   const commit = await githubJson(fetchImpl, `${api}/git/commits`, {
