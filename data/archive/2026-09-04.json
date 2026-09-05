@@ -1,0 +1,523 @@
+{
+  "id": "e308e371-6094-5300-873a-a2d8e6b6d511",
+  "slug": "2026-09-04",
+  "issueDate": "2026-09-04",
+  "assetVersion": "rel_20260904_f79f1638b4d9fbc8a15f4938",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-09-04T05:00:00+08:00",
+  "gmtTimestamp": "2026-09-03T21:00:00.000Z",
+  "featuredTopicId": "f064c096-2250-5087-a877-699130f636e1",
+  "style": {
+    "name": "Vaporwave",
+    "zhName": "蒸汽波",
+    "description": "Style Atlas daily pick: Vaporwave. Use pastel neon gradients, retro internet interfaces, chrome grids, sunset horizons, translucent windows and nostalgic digital textures while keeping facts and information graphics dominant. Story-specific scenes, numbers, maps and diagrams occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or bottom."
+  },
+  "topics": [
+    {
+      "id": "f064c096-2250-5087-a877-699130f636e1",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "today-overview-customs-ai-agents-hormuz-climate-sport",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-customs-ai-agents-hormuz-climate-sport-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "9月4日全球经营雷达聚焦智能通关、人工智能并购、代理工作流、航运与极端气候",
+          "headlineView": "经营者要把平台集中度、审批边界、供应链暴露和天气韧性放进同一张动态仪表盘",
+          "headlineFull": "9月4日全球经营雷达聚焦智能通关、人工智能并购、代理工作流、航运与极端气候；经营者要把平台集中度、审批边界、供应链暴露和天气韧性放进同一张动态仪表盘",
+          "intro": "亚太海关加速无纸化与人工智能应用，NVIDIA拟收购Hugging Face，面向小企业的代理工作流继续扩张；霍尔木兹航运、Uber重组、厄尔尼诺、印尼泥炭火灾和女篮世界杯开幕构成今天的风险与机会地图。",
+          "xiaziQuote": "九条热点真正有用，是看清技术、物流和气候怎样互相传导。",
+          "doudouQuote": "先标出今天会改变成本、权限或交付的三格。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "The September 4 operating radar centers on smart customs, an AI acquisition, agent workflows, shipping and extreme climate",
+          "headlineView": "operators need platform concentration, approval boundaries, supply-chain exposure and weather resilience on one live dashboard",
+          "headlineFull": "The September 4 operating radar centers on smart customs, an AI acquisition, agent workflows, shipping and extreme climate; operators need platform concentration, approval boundaries, supply-chain exposure and weather resilience on one live dashboard",
+          "intro": "Asia-Pacific customs agencies are accelerating paperless trade and AI, NVIDIA plans to acquire Hugging Face, and agent workflows keep expanding for small firms. Hormuz shipping, Uber's restructuring, El Nino, Indonesian peat fires and the Women's Basketball World Cup complete today's map of risk and opportunity.",
+          "xiaziQuote": "Nine headlines become useful when they show how technology, logistics and climate transmit risk.",
+          "doudouQuote": "Mark the three cells that change cost, permission or delivery today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "6e399565-1154-5303-9c9f-28ba3be5ef43",
+          "topicId": "f064c096-2250-5087-a877-699130f636e1",
+          "title": "September 3, 2026 global business, technology, climate and sport signals",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=September%203%202026%20global%20business%20technology%20climate%20sport&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2061e373-3373-5e77-acc2-6a32b98881a6",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "apec-ai-paperless-customs-cross-border-trade",
+      "rank": 2,
+      "category": "business",
+      "region": "Asia Pacific",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-apec-ai-paperless-customs-cross-border-trade-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "APEC海关与企业推动人工智能、电子单证和数据化监管以疏通跨境贸易瓶颈",
+          "headlineView": "卖家应把商品数据、电子证书、低值包裹申报和AEO资质当作可复用的通关资产",
+          "headlineFull": "APEC海关与企业推动人工智能、电子单证和数据化监管以疏通跨境贸易瓶颈；卖家应把商品数据、电子证书、低值包裹申报和AEO资质当作可复用的通关资产",
+          "intro": "APEC在大连举行的海关—企业对话讨论无纸化贸易、电子检验检疫证书、区块链单证以及人工智能监管，同时关注电商低值货物的效率、税收与消费者保护。跨境经营者应统一维护SKU归类、原产地、证书、承运信息和异常记录，减少重复补件。",
+          "xiaziQuote": "通关速度越来越取决于数据是否一次就能被验证。",
+          "doudouQuote": "把每个SKU的证书、税号和物流字段做成同一份主数据。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "APEC customs and business leaders are advancing AI, electronic documents and data-led oversight to clear trade bottlenecks",
+          "headlineView": "sellers should treat product data, e-certificates, low-value declarations and AEO status as reusable clearance assets",
+          "headlineFull": "APEC customs and business leaders are advancing AI, electronic documents and data-led oversight to clear trade bottlenecks; sellers should treat product data, e-certificates, low-value declarations and AEO status as reusable clearance assets",
+          "intro": "The APEC Customs-Business Dialogue in Dalian examined paperless trade, electronic inspection certificates, blockchain documents and AI-enabled supervision while balancing low-value e-commerce speed with revenue and consumer protection. Cross-border operators should maintain one source of truth for SKU classification, origin, certificates, carrier data and exceptions.",
+          "xiaziQuote": "Clearance speed increasingly depends on whether data can be verified the first time.",
+          "doudouQuote": "Put certificates, tariff codes and logistics fields into one SKU master.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "48affebc-b064-5bd8-a3a6-ead8a096cf2a",
+          "topicId": "2061e373-3373-5e77-acc2-6a32b98881a6",
+          "title": "Customs and Businesses Join Forces to Tackle Trade Bottlenecks",
+          "publisher": "APEC",
+          "url": "https://www.apec.org/press/news-releases/2026/0903_acbd",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "b011330c-6af6-5822-947d-d194b2852682",
+          "topicId": "2061e373-3373-5e77-acc2-6a32b98881a6",
+          "title": "APEC AI paperless customs cross-border e-commerce September 2026",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=APEC%20AI%20paperless%20customs%20cross-border%20e-commerce%20September%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "8b3eb436-8baf-55b9-b79f-33988caf562b",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "nvidia-acquire-hugging-face-open-platform",
+      "rank": 3,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-nvidia-acquire-hugging-face-open-platform-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "NVIDIA宣布以129.303亿美元收购Hugging Face，并承诺平台继续开放",
+          "headlineView": "模型社区与算力供应进一步集中，开发者必须保留多云、模型迁移和成本退出方案",
+          "headlineFull": "NVIDIA宣布以129.303亿美元收购Hugging Face，并承诺平台继续开放；模型社区与算力供应进一步集中，开发者必须保留多云、模型迁移和成本退出方案",
+          "intro": "NVIDIA表示，Hugging Face将继续支持多种模型、框架、云和加速器，不要求使用NVIDIA算力。对依赖开源模型与托管服务的团队，真正的风险检查应覆盖模型许可证、数据集来源、推理成本、替代部署路径和导出能力，而不只看并购后的短期资源增加。",
+          "xiaziQuote": "平台越强，迁移路线越要提前画清。",
+          "doudouQuote": "今天就验证模型、权重和日志能不能完整带走。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "NVIDIA agreed to acquire Hugging Face for USD12.9303 billion and said the platform will remain open",
+          "headlineView": "model communities and compute supply are concentrating, so developers need multi-cloud, migration and cost-exit plans",
+          "headlineFull": "NVIDIA agreed to acquire Hugging Face for USD12.9303 billion and said the platform will remain open; model communities and compute supply are concentrating, so developers need multi-cloud, migration and cost-exit plans",
+          "intro": "NVIDIA says Hugging Face will keep supporting different models, frameworks, clouds and accelerators without requiring NVIDIA compute. Teams that depend on open models and hosted services should audit model licenses, dataset provenance, inference cost, alternative deployment paths and exportability instead of judging the deal only by near-term resources.",
+          "xiaziQuote": "The stronger a platform becomes, the clearer your migration route must be.",
+          "doudouQuote": "Test today whether models, weights and logs can leave intact.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "454a03de-72fb-57e2-98f0-bd00bfe771d7",
+          "topicId": "8b3eb436-8baf-55b9-b79f-33988caf562b",
+          "title": "NVIDIA to Acquire Hugging Face",
+          "publisher": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "65bb5ce8-8e55-5ccf-b307-1cb8cedc401e",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "async-agents-small-business-workflow-redesign",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-async-agents-small-business-workflow-redesign-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "YC公司Async用专用人工智能代理为律所、诊所和地产公司执行复杂后台流程",
+          "headlineView": "一人公司的杠杆不在增加聊天窗口，而在重写流程、异常接管与责任边界",
+          "headlineFull": "YC公司Async用专用人工智能代理为律所、诊所和地产公司执行复杂后台流程；一人公司的杠杆不在增加聊天窗口，而在重写流程、异常接管与责任边界",
+          "intro": "Async称其代理已处理预约协调、长文档起草和旧系统数据录入等工作，并强调有效采用需要把流程改造成代理优先。独立经营者应先画出输入、授权、复核、异常、回滚和审计链，再决定哪些环节可以端到端自动化。",
+          "xiaziQuote": "自动化的单位不是任务，而是一条能被审计的完整流程。",
+          "doudouQuote": "先规定什么时候停下来找你，再让代理连续执行。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "YC company Async uses specialized AI agents to execute complex back-office workflows for law firms, clinics and real-estate companies",
+          "headlineView": "solo-company leverage comes from redesigning workflows, exception takeover and accountability, not adding more chat windows",
+          "headlineFull": "YC company Async uses specialized AI agents to execute complex back-office workflows for law firms, clinics and real-estate companies; solo-company leverage comes from redesigning workflows, exception takeover and accountability, not adding more chat windows",
+          "intro": "Async says its agents handle appointment coordination, long-document drafting and data entry into legacy systems, and argues that effective adoption requires agent-first procedures. Solo operators should map inputs, authority, review, exceptions, rollback and audit trails before choosing which processes can run end to end.",
+          "xiaziQuote": "The unit of automation is not a task but a complete auditable workflow.",
+          "doudouQuote": "Define when the agent must stop and call you before it runs continuously.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "1de5fe79-485a-52a5-8442-037ff1ec77e6",
+          "topicId": "65bb5ce8-8e55-5ccf-b307-1cb8cedc401e",
+          "title": "Async: AI agents that run small businesses",
+          "publisher": "Y Combinator",
+          "url": "https://www.ycombinator.com/companies/withasync",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8ab93554-7c0e-5d16-88b9-2e4822ce3c56",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "hormuz-vetting-shipping-risk-gulf-escalation",
+      "rank": 5,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IR",
+        "KW",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-hormuz-vetting-shipping-risk-gulf-escalation-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "霍尔木兹航运",
+          "headlineFact": "美伊交火升级之际，霍尔木兹海峡船流量仍远低于战前水平",
+          "headlineView": "航运风险会通过战争险、绕航、能源价格和交付承诺迅速进入企业现金流",
+          "headlineFull": "美伊交火升级之际，霍尔木兹海峡船流量仍远低于战前水平；航运风险会通过战争险、绕航、能源价格和交付承诺迅速进入企业现金流",
+          "intro": "美联社报道，伊朗对科威特目标发动报复性袭击，未遵守伊朗审查制度的船只面临攻击风险，海峡通行量持续低迷。进出口商应重新确认承运人路线、战争险除外责任、燃油附加费、替代港口、库存天数和不可抗力通知机制。",
+          "xiaziQuote": "地缘冲突进入航线图时，就已经进入报价单。",
+          "doudouQuote": "把战争险、绕航天数和备用港口放进同一张表。",
+          "footerTakeaway": "今日关键词：霍尔木兹航运。"
+        },
+        "en-US": {
+          "categoryLabel": "Hormuz Shipping",
+          "headlineFact": "Ship traffic through the Strait of Hormuz remains far below prewar levels as US-Iran exchanges intensify",
+          "headlineView": "shipping risk moves quickly into company cash flow through war cover, rerouting, energy prices and delivery promises",
+          "headlineFull": "Ship traffic through the Strait of Hormuz remains far below prewar levels as US-Iran exchanges intensify; shipping risk moves quickly into company cash flow through war cover, rerouting, energy prices and delivery promises",
+          "intro": "AP reports that Iran retaliated against targets in Kuwait while vessels that do not comply with an Iranian vetting regime face attack risk and traffic remains depressed. Importers and exporters should reconfirm carrier routes, war-risk exclusions, fuel surcharges, alternative ports, inventory days and force-majeure notices.",
+          "xiaziQuote": "When geopolitical conflict enters the route map, it has already entered the quote.",
+          "doudouQuote": "Put war cover, rerouting days and backup ports on one sheet.",
+          "footerTakeaway": "Keyword: Hormuz Shipping."
+        }
+      },
+      "sources": [
+        {
+          "id": "bda1d14c-c14e-5c49-ab13-5b882c770c90",
+          "topicId": "8ab93554-7c0e-5d16-88b9-2e4822ce3c56",
+          "title": "Iran targets Kuwait in retaliation for US bombardments, and other Mideast news",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Iran%20targets%20Kuwait%20retaliation%20US%20bombardments%20Hormuz%20September%203%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a5e24d31-9112-5e3f-9feb-853d06d04b04",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "uber-cuts-management-layers-robotaxi-investment",
+      "rank": 6,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-uber-cuts-management-layers-robotaxi-investment-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "企业重组",
+          "headlineFact": "Uber计划裁减约3300人，并压缩管理层级以增加未来业务投资能力",
+          "headlineView": "组织变简单不能只靠裁员数字，还要让决策权、客户责任和一线反馈同步变短",
+          "headlineFull": "Uber计划裁减约3300人，并压缩管理层级以增加未来业务投资能力；组织变简单不能只靠裁员数字，还要让决策权、客户责任和一线反馈同步变短",
+          "intro": "Uber此次调整约占员工总数10%，重点减少管理层和只有少量直属成员的微型团队，并把资源投向出行、配送和自动驾驶出租车。企业经营者应同时检查每个团队的决策路径、可交付结果、重复协调成本和关键人才连续性。",
+          "xiaziQuote": "少一层汇报，只有在责任也更清楚时才叫效率。",
+          "doudouQuote": "删掉一个层级后，马上写清谁决定、谁交付、谁复核。",
+          "footerTakeaway": "今日关键词：企业重组。"
+        },
+        "en-US": {
+          "categoryLabel": "Corporate Restructuring",
+          "headlineFact": "Uber plans to cut about 3,300 jobs and reduce management layers to create more investment capacity",
+          "headlineView": "simplifying an organization takes more than a layoff number; decision rights, customer ownership and frontline feedback must shorten too",
+          "headlineFull": "Uber plans to cut about 3,300 jobs and reduce management layers to create more investment capacity; simplifying an organization takes more than a layoff number; decision rights, customer ownership and frontline feedback must shorten too",
+          "intro": "The overhaul affects roughly 10% of staff, targets management and very small teams, and redirects resources toward rides, delivery and robotaxis. Operators should audit each team's decision path, deliverable outcome, coordination overhead and continuity of critical expertise at the same time.",
+          "xiaziQuote": "One fewer reporting layer improves speed only when accountability becomes clearer.",
+          "doudouQuote": "After removing a layer, write who decides, delivers and reviews.",
+          "footerTakeaway": "Keyword: Corporate Restructuring."
+        }
+      },
+      "sources": [
+        {
+          "id": "53e68ff1-0c1a-577f-ad24-b2dd0107c33a",
+          "topicId": "a5e24d31-9112-5e3f-9feb-853d06d04b04",
+          "title": "Uber to cut 10% of workforce, or about 3,300 people",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Uber%20cut%203300%20jobs%20management%20layers%20robotaxi%20September%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "791c18c4-002e-541b-9cd9-6ea13e4f6a99",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "el-nino-intensifies-extreme-heat-2027",
+      "rank": 7,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-el-nino-intensifies-extreme-heat-2027-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "厄尔尼诺",
+          "headlineFact": "联合国称厄尔尼诺正在增强，几乎确定持续至2027年2月",
+          "headlineView": "未来数月异常高温会同时影响电力、农业、健康、物流和保险计划",
+          "headlineFull": "联合国称厄尔尼诺正在增强，几乎确定持续至2027年2月；未来数月异常高温会同时影响电力、农业、健康、物流和保险计划",
+          "intro": "异常温暖的太平洋海水推动厄尔尼诺继续增强且尚未见顶，世界多地可能经历更热的天气。政府、企业和家庭应把热浪预警、用电峰值、户外作业、冷链、作物、消防和脆弱人群支持联成同一套季节性预案。",
+          "xiaziQuote": "气候信号最有价值的时刻，是损失发生以前。",
+          "doudouQuote": "把高温阈值对应到停工、补货和人员照护动作。",
+          "footerTakeaway": "今日关键词：厄尔尼诺。"
+        },
+        "en-US": {
+          "categoryLabel": "El Nino",
+          "headlineFact": "The United Nations says El Nino is intensifying and is almost certain to persist through February 2027",
+          "headlineView": "unusual heat in coming months will affect power, agriculture, health, logistics and insurance planning together",
+          "headlineFull": "The United Nations says El Nino is intensifying and is almost certain to persist through February 2027; unusual heat in coming months will affect power, agriculture, health, logistics and insurance planning together",
+          "intro": "Exceptionally warm Pacific waters are strengthening El Nino, which has not yet peaked, and unusually hot conditions are expected across much of the world. Governments, companies and households should connect heat alerts, power peaks, outdoor work, cold chains, crops, fire response and support for vulnerable people in one seasonal plan.",
+          "xiaziQuote": "A climate signal is most valuable before the loss occurs.",
+          "doudouQuote": "Map heat thresholds to shutdowns, replenishment and care actions.",
+          "footerTakeaway": "Keyword: El Nino."
+        }
+      },
+      "sources": [
+        {
+          "id": "c367909d-673f-55c1-9966-bab1aa0cecd9",
+          "topicId": "791c18c4-002e-541b-9cd9-6ea13e4f6a99",
+          "title": "El Nino is surging. Months of extreme heat could follow",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/node/247472",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "73e518a3-b41a-5370-b417-b7434829e400",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "indonesia-peatland-fires-drought-haze",
+      "rank": 8,
+      "category": "climate",
+      "region": "Asia",
+      "countryCodes": [
+        "ID"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-indonesia-peatland-fires-drought-haze-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "印尼泥炭火灾",
+          "headlineFact": "干旱下的印尼泥炭地表层与地下同时燃烧，浓烟遮蔽天空",
+          "headlineView": "地下阴燃难以及时发现和扑灭，空气质量、航班、社区健康与供应链需要联合响应",
+          "headlineFull": "干旱下的印尼泥炭地表层与地下同时燃烧，浓烟遮蔽天空；地下阴燃难以及时发现和扑灭，空气质量、航班、社区健康与供应链需要联合响应",
+          "intro": "NASA卫星资料显示，印尼在干旱期间出现持续泥炭火灾；泥炭中的火可在地下缓慢移动，并在远处重新冒出。企业和地方机构应结合热点图、风向、空气质量、员工健康、运输备选和高风险土地巡查，而不是只依赖可见火焰。",
+          "xiaziQuote": "看不见的火线，往往需要更密的监测网。",
+          "doudouQuote": "把卫星热点、风向和员工暴露放进同一张预警图。",
+          "footerTakeaway": "今日关键词：印尼泥炭火灾。"
+        },
+        "en-US": {
+          "categoryLabel": "Indonesia Peat Fires",
+          "headlineFact": "Drought is driving peat fires that burn both above and below ground and darken skies in Indonesia",
+          "headlineView": "underground smoldering is hard to detect and extinguish, linking air quality, flights, community health and supply chains",
+          "headlineFull": "Drought is driving peat fires that burn both above and below ground and darken skies in Indonesia; underground smoldering is hard to detect and extinguish, linking air quality, flights, community health and supply chains",
+          "intro": "NASA satellite reporting shows persistent peatland fires during Indonesia's drought; fire can move slowly through peat below ground and reappear elsewhere. Businesses and local agencies should combine hotspot maps, wind, air quality, worker health, transport alternatives and high-risk land patrols instead of relying on visible flames alone.",
+          "xiaziQuote": "An invisible fireline demands a denser monitoring network.",
+          "doudouQuote": "Put satellite hotspots, wind and worker exposure on one alert map.",
+          "footerTakeaway": "Keyword: Indonesia Peat Fires."
+        }
+      },
+      "sources": [
+        {
+          "id": "a5a68fd3-79a6-5183-80ab-14e8475a13db",
+          "topicId": "73e518a3-b41a-5370-b417-b7434829e400",
+          "title": "Peatland fires darken skies in Indonesia",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NASA%20peatland%20fires%20darken%20skies%20Indonesia%20September%203%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "b28b962e-f0ca-51b7-a3d7-273e2ee8bdcd",
+      "issueId": "e308e371-6094-5300-873a-a2d8e6b6d511",
+      "slug": "fiba-womens-world-cup-berlin-sixteen-teams",
+      "rank": 9,
+      "category": "sports",
+      "region": "Europe",
+      "countryCodes": [
+        "DE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-fiba-womens-world-cup-berlin-sixteen-teams-20260904",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "女篮世界杯",
+          "headlineFact": "2026年国际篮联女篮世界杯9月4日在柏林开幕，参赛队伍扩至16支",
+          "headlineView": "扩军带来更多比赛与曝光，也提高赛程、场馆、转播和运动员恢复的协同难度",
+          "headlineFull": "2026年国际篮联女篮世界杯9月4日在柏林开幕，参赛队伍扩至16支；扩军带来更多比赛与曝光，也提高赛程、场馆、转播和运动员恢复的协同难度",
+          "intro": "本届赛事于9月4日至13日在德国柏林举行，参赛规模从12支扩大到16支。体育组织、赞助商和媒体需要同时管理密集赛程、现场体验、跨时区内容分发、品牌安全与运动员负荷，让更多参赛机会真正转化为更广覆盖。",
+          "xiaziQuote": "扩军的价值，不只是多四支队，而是让更多故事被看见。",
+          "doudouQuote": "赛程更密时，恢复时间和内容节奏都要一起排。",
+          "footerTakeaway": "今日关键词：女篮世界杯。"
+        },
+        "en-US": {
+          "categoryLabel": "Women's Basketball World Cup",
+          "headlineFact": "The 2026 FIBA Women's Basketball World Cup opens in Berlin on September 4 with an expanded field of 16 teams",
+          "headlineView": "expansion creates more games and visibility while raising coordination demands across schedules, venues, broadcasting and recovery",
+          "headlineFull": "The 2026 FIBA Women's Basketball World Cup opens in Berlin on September 4 with an expanded field of 16 teams; expansion creates more games and visibility while raising coordination demands across schedules, venues, broadcasting and recovery",
+          "intro": "The tournament runs from September 4 to 13 in Berlin, Germany, with the field expanded from 12 teams to 16. Sports organizers, sponsors and media must coordinate a dense schedule, live experience, cross-time-zone distribution, brand safety and athlete load so broader participation becomes broader reach.",
+          "xiaziQuote": "Expansion matters not only for four more teams but for more stories becoming visible.",
+          "doudouQuote": "When the schedule tightens, plan recovery time and content rhythm together.",
+          "footerTakeaway": "Keyword: Women's Basketball World Cup."
+        }
+      },
+      "sources": [
+        {
+          "id": "c25ff746-0c9d-5e09-a0d7-8b2c5cef6927",
+          "topicId": "b28b962e-f0ca-51b7-a3d7-273e2ee8bdcd",
+          "title": "FIBA Women's Basketball World Cup Berlin September 4 2026",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=FIBA%20Women%27s%20Basketball%20World%20Cup%20Berlin%20September%204%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-04T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

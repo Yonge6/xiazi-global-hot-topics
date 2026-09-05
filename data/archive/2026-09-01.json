@@ -1,0 +1,523 @@
+{
+  "id": "2cfad161-b122-5299-b3d8-1502b202d93a",
+  "slug": "2026-09-01",
+  "issueDate": "2026-09-01",
+  "assetVersion": "rel_20260901_ae5496cb9553e0d236c526ae",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-09-01T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-31T21:00:00.000Z",
+  "featuredTopicId": "aa255e8d-8c91-501a-9661-b16beb0c8ba4",
+  "style": {
+    "name": "Isometric Illustration",
+    "zhName": "等距插画风格",
+    "description": "Style Atlas daily pick: Isometric Illustration. Use clean 30-degree isometric scenes, modular platforms, cutaway systems, maps, flows and data objects. Facts, diagrams and story-specific scenes occupy at least 70%; Xiazi and Doudou stay small at the edges."
+  },
+  "topics": [
+    {
+      "id": "aa255e8d-8c91-501a-9661-b16beb0c8ba4",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "today-overview-trade-oil-ai-climate-sport-health",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-trade-oil-ai-climate-sport-health-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "关税与伊朗议题进入G20协调，美国与委内瑞拉石油协议引发追问，尼泊尔洪灾、前沿AI风险、梅西退役与医疗AI规则构成今日全球图景",
+          "headlineView": "经营者需要同时看见能源价格、跨境成本、模型治理、极端天气和公众信任",
+          "headlineFull": "关税与伊朗议题进入G20协调，美国与委内瑞拉石油协议引发追问，尼泊尔洪灾、前沿AI风险、梅西退役与医疗AI规则构成今日全球图景；经营者需要同时看见能源价格、跨境成本、模型治理、极端天气和公众信任",
+          "intro": "全球政策与市场在同一天暴露多条相互牵动的链路：关税影响盟友协作和零售定价，能源协议改变供应预期，洪灾扩大人员与物流风险，AI监管从金融稳定延伸到医疗使用，体育标志性人物的退役也在重塑注意力与商业资产。",
+          "xiaziQuote": "今天的复杂，不在事件太多，而在同一张成本表被多条链路同时改写。",
+          "doudouQuote": "先标出会动价格、交付和信任的三个节点。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "G20 coordination on tariffs and Iran, questions around a US-Venezuela oil deal, Nepal floods, frontier-AI risk, Messi's retirement and medical-AI rules shape today's global picture",
+          "headlineView": "operators need to track energy prices, cross-border cost, model governance, extreme weather and public trust together",
+          "headlineFull": "G20 coordination on tariffs and Iran, questions around a US-Venezuela oil deal, Nepal floods, frontier-AI risk, Messi's retirement and medical-AI rules shape today's global picture; operators need to track energy prices, cross-border cost, model governance, extreme weather and public trust together",
+          "intro": "Policy and markets expose several linked systems at once: tariffs affect allied coordination and retail pricing, an oil agreement shifts supply expectations, floods expand human and logistics risk, AI governance reaches from financial stability to medical use, and a sporting icon's retirement reshapes attention and commercial assets.",
+          "xiaziQuote": "Today's complexity is not the number of events but how many chains rewrite the same cost sheet.",
+          "doudouQuote": "Mark the three nodes that can move price, delivery and trust.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "b8fcab1c-c4b6-580c-8842-7cfc6e0828e6",
+          "topicId": "aa255e8d-8c91-501a-9661-b16beb0c8ba4",
+          "title": "September 1, 2026 global business, policy, safety and science signals",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=September%201%202026%20global%20business%20policy%20safety%20science&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "86da94f2-27b3-594c-8419-0d2c3cc3c520",
+          "topicId": "aa255e8d-8c91-501a-9661-b16beb0c8ba4",
+          "title": "August 31, 2026 Reuters and AP world news",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=August%2031%202026%20Reuters%20AP%20world&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "3c0fed84-5abf-5582-87c9-4e28670353cb",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "eu-three-euro-duty-ddp-ecommerce",
+      "rank": 2,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-three-euro-duty-ddp-ecommerce-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟每票3欧元低值包裹费用推动美国跨境卖家转向DDP完税交付",
+          "headlineView": "低价直邮的竞争力正在从前台售价转向税费测算、清关责任和结账透明度",
+          "headlineFull": "欧盟每票3欧元低值包裹费用推动美国跨境卖家转向DDP完税交付；低价直邮的竞争力正在从前台售价转向税费测算、清关责任和结账透明度",
+          "intro": "当固定费用叠加到每个包裹，低客单商品的利润率会被更快压缩。卖家需要重算每个SKU的落地成本，比较DDP、合单、海外仓与本地退货路径，并在结账页提前解释税费，避免收货时追加收费破坏转化与复购。",
+          "xiaziQuote": "跨境价格不是商品价，而是包裹到门前所有责任的总和。",
+          "doudouQuote": "三欧元看着小，乘上每一票就会改掉路线。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "The EU's three-euro low-value parcel charge is pushing US cross-border sellers toward delivered-duty-paid shipping",
+          "headlineView": "low-cost direct shipping now competes through landed-cost accuracy, customs responsibility and checkout transparency",
+          "headlineFull": "The EU's three-euro low-value parcel charge is pushing US cross-border sellers toward delivered-duty-paid shipping; low-cost direct shipping now competes through landed-cost accuracy, customs responsibility and checkout transparency",
+          "intro": "A fixed charge on every parcel compresses margins fastest on low-ticket goods. Sellers should recalculate landed cost by SKU, compare DDP, consolidation, local warehousing and returns, and explain duties at checkout so surprise collection fees do not damage conversion and repeat purchase.",
+          "xiaziQuote": "A cross-border price is the sum of every responsibility before the parcel reaches the door.",
+          "doudouQuote": "Three euros looks small until every parcel carries it.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "113b9ca6-5dd3-5029-af43-d5a84f4cd626",
+          "topicId": "3c0fed84-5abf-5582-87c9-4e28670353cb",
+          "title": "EU €3 duty pushes US e-commerce sellers towards DDP",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=EU%20three%20euro%20duty%20US%20e-commerce%20sellers%20DDP%20August%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "994d6767-4b0e-58e0-8429-4bb78feaeb35",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "fsb-frontier-ai-financial-stability-risks",
+      "rank": 3,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-fsb-frontier-ai-financial-stability-risks-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "金融稳定理事会主席警告前沿AI模型可能放大金融系统中的集中度、操作和网络风险",
+          "headlineView": "机构采用AI不能只看准确率，还要审计供应商依赖、权限边界、失效传播与人工接管",
+          "headlineFull": "金融稳定理事会主席警告前沿AI模型可能放大金融系统中的集中度、操作和网络风险；机构采用AI不能只看准确率，还要审计供应商依赖、权限边界、失效传播与人工接管",
+          "intro": "当多家机构依赖相同模型、云平台和数据管道，单点故障可能跨组织扩散。管理者应绘制模型与供应商依赖图，为高风险决策保留人工批准，设置降级路径，并用真实压力场景测试错误如何传到交易、信贷和客户服务。",
+          "xiaziQuote": "模型越集中，风险越需要被画成一张可断开的网络图。",
+          "doudouQuote": "别只问它答得准不准，也问它坏了会带倒谁。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "The Financial Stability Board chair warned that frontier AI models can amplify concentration, operational and cyber risks across finance",
+          "headlineView": "AI adoption must audit vendor dependence, permission boundaries, failure propagation and human takeover, not accuracy alone",
+          "headlineFull": "The Financial Stability Board chair warned that frontier AI models can amplify concentration, operational and cyber risks across finance; AI adoption must audit vendor dependence, permission boundaries, failure propagation and human takeover, not accuracy alone",
+          "intro": "When many institutions depend on the same models, clouds and data pipelines, a single failure can spread across organizations. Leaders should map dependencies, retain human approval for high-risk decisions, build degraded modes and test how errors propagate into trading, credit and customer service.",
+          "xiaziQuote": "The more concentrated the model layer becomes, the more its risk needs a network diagram with cut points.",
+          "doudouQuote": "Ask not only whether it is right, but who falls when it breaks.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "88ee61e1-2ccd-5a41-8410-eab3194ad829",
+          "topicId": "994d6767-4b0e-58e0-8429-4bb78feaeb35",
+          "title": "FSB Chair warns of risks arising from frontier Artificial Intelligence models",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=FSB%20Chair%20frontier%20AI%20models%20risks%20August%2031%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8cc93317-07ee-599c-b4fb-df2562924868",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "opc-vibe-coding-business-operations",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-opc-vibe-coding-business-operations-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "越来越多独立经营者用自然语言与AI编程快速搭建内部工具，把需求直接变成可运行工作流",
+          "headlineView": "一人公司真正的优势不是多做软件，而是缩短发现问题、交付工具和验证价值的闭环",
+          "headlineFull": "越来越多独立经营者用自然语言与AI编程快速搭建内部工具，把需求直接变成可运行工作流；一人公司真正的优势不是多做软件，而是缩短发现问题、交付工具和验证价值的闭环",
+          "intro": "自然语言开发让非专业工程师也能做报价器、内容管线和客户跟进工具，但快速生成不等于可长期依赖。单人经营者应从低风险、高频任务开始，保留数据备份和人工出口，用真实节省时间与收入影响决定是否继续维护。",
+          "xiaziQuote": "工具的价值不在生成速度，而在它让一次经营判断更快得到证据。",
+          "doudouQuote": "先省下每周两小时，再考虑做成平台。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "More independent operators are using natural-language AI coding to turn business needs directly into working internal tools",
+          "headlineView": "the solo-company advantage is not more software but a shorter loop from problem discovery to tool delivery and value proof",
+          "headlineFull": "More independent operators are using natural-language AI coding to turn business needs directly into working internal tools; the solo-company advantage is not more software but a shorter loop from problem discovery to tool delivery and value proof",
+          "intro": "Natural-language development lets non-engineers build estimators, content pipelines and follow-up tools, but fast generation does not guarantee durable operation. Solo operators should start with frequent low-risk tasks, keep backups and manual exits, and continue only when measured time or revenue impact justifies maintenance.",
+          "xiaziQuote": "A tool earns its value when one operating decision reaches evidence faster.",
+          "doudouQuote": "Save two hours a week before building a platform.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "006495cf-3884-5c6e-b8f4-61dd93ab8d2e",
+          "topicId": "8cc93317-07ee-599c-b4fb-df2562924868",
+          "title": "How Vibe Coding Changed the Way I Run My Business",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=How%20Vibe%20Coding%20Changed%20the%20Way%20I%20Run%20My%20Business%20August%2031%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "30287970-76f1-543a-b947-85d553b606d5",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "us-venezuela-oil-deal-questions",
+      "rank": 5,
+      "category": "business",
+      "region": "Americas",
+      "countryCodes": [
+        "US",
+        "VE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-us-venezuela-oil-deal-questions-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "能源与地缘",
+          "headlineFact": "美国宣布与委内瑞拉达成大规模石油协议，储量、控制权、执行方式与政治条件仍引发追问",
+          "headlineView": "能源供应的标题承诺不会自动变成可交付原油，产能、制裁、投资与治理决定兑现速度",
+          "headlineFull": "美国宣布与委内瑞拉达成大规模石油协议，储量、控制权、执行方式与政治条件仍引发追问；能源供应的标题承诺不会自动变成可交付原油，产能、制裁、投资与治理决定兑现速度",
+          "intro": "市场需要区分地下储量、可采产能与短期出口之间的巨大差距。炼化与物流企业应关注制裁许可、合同结构、基础设施修复、重质原油适配和付款路径，而不是仅用宣布的储量数字推演近期价格。",
+          "xiaziQuote": "储量写在地下，供应要经过合同、设备和时间才能写进市场。",
+          "doudouQuote": "地图上圈得再大，也要先看管线能不能流。",
+          "footerTakeaway": "今日关键词：能源与地缘。"
+        },
+        "en-US": {
+          "categoryLabel": "Energy and Geopolitics",
+          "headlineFact": "The United States announced a large oil agreement with Venezuela, while reserves, control, execution and political conditions remain under scrutiny",
+          "headlineView": "an energy-supply headline does not become deliverable crude without capacity, sanctions, investment and governance",
+          "headlineFull": "The United States announced a large oil agreement with Venezuela, while reserves, control, execution and political conditions remain under scrutiny; an energy-supply headline does not become deliverable crude without capacity, sanctions, investment and governance",
+          "intro": "Markets must distinguish underground reserves from producible capacity and near-term exports. Refiners and logistics operators should watch sanctions licensing, contract structure, infrastructure repair, heavy-crude compatibility and payment routes instead of turning announced reserve figures directly into short-term price forecasts.",
+          "xiaziQuote": "Reserves sit underground; contracts, equipment and time turn them into market supply.",
+          "doudouQuote": "A large circle on the map still needs a working pipeline.",
+          "footerTakeaway": "Keyword: Energy and Geopolitics."
+        }
+      },
+      "sources": [
+        {
+          "id": "ca7a79e4-5205-562b-8dfb-d2c04c772326",
+          "topicId": "30287970-76f1-543a-b947-85d553b606d5",
+          "title": "Trump oil deal raises questions",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Trump%20Venezuela%20oil%20deal%20raises%20questions%20August%2031%202026%20AP&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "aea19525-8f21-588f-9b3f-6dfb60840ec9",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "g20-iran-tariffs-allied-coordination",
+      "rank": 6,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-g20-iran-tariffs-allied-coordination-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球政策",
+          "headlineFact": "美国财长在G20寻求盟友就伊朗协调立场，同时关税摩擦削弱合作基础",
+          "headlineView": "安全议题与贸易冲突叠在同一张谈判桌上，联盟成本会传导到能源、汇率和供应链",
+          "headlineFull": "美国财长在G20寻求盟友就伊朗协调立场，同时关税摩擦削弱合作基础；安全议题与贸易冲突叠在同一张谈判桌上，联盟成本会传导到能源、汇率和供应链",
+          "intro": "盟友可能在地区安全上拥有共同目标，却在关税和产业政策上承受国内压力。跨国企业应把外交声明与可执行政策分开，更新油价、汇率、运输和关税情景，并为政策方向突然分叉保留库存与合同弹性。",
+          "xiaziQuote": "共同的风险不会自动消除彼此账本上的摩擦。",
+          "doudouQuote": "同桌开会，也可能拿着不同的成本表。",
+          "footerTakeaway": "今日关键词：全球政策。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Policy",
+          "headlineFact": "The US Treasury secretary sought G20 coordination on Iran while tariff tensions weakened the basis for allied cooperation",
+          "headlineView": "security and trade conflict now share one negotiating table, transmitting alliance costs into energy, currencies and supply chains",
+          "headlineFull": "The US Treasury secretary sought G20 coordination on Iran while tariff tensions weakened the basis for allied cooperation; security and trade conflict now share one negotiating table, transmitting alliance costs into energy, currencies and supply chains",
+          "intro": "Allies can share regional-security goals while facing domestic pressure over tariffs and industrial policy. Multinationals should separate diplomatic statements from executable policy, refresh oil, currency, transport and tariff scenarios, and preserve inventory and contract flexibility for sudden divergence.",
+          "xiaziQuote": "A shared risk does not erase friction in each side's ledger.",
+          "doudouQuote": "The same table can still hold different cost sheets.",
+          "footerTakeaway": "Keyword: Global Policy."
+        }
+      },
+      "sources": [
+        {
+          "id": "0a6bb06f-3fcd-5cee-a8ab-17f027e66f2d",
+          "topicId": "aea19525-8f21-588f-9b3f-6dfb60840ec9",
+          "title": "Bessent huddles with G20 to rally allies on Iran as tariffs strain ties",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Bessent%20G20%20Iran%20tariffs%20strain%20ties%20August%2031%202026%20AP&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2916cee8-b166-57eb-a359-33a0e4d58d30",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "nepal-floods-missing-count-rises",
+      "rank": 7,
+      "category": "climate",
+      "region": "Asia",
+      "countryCodes": [
+        "NP",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-nepal-floods-missing-count-rises-20260901",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "极端天气",
+          "headlineFact": "尼泊尔洪灾失踪人数明显上升，搜救、道路恢复与跨境预警数据成为下一阶段重点",
+          "headlineView": "山区灾害的数字会随通信恢复快速变化，运营决策必须保留更新窗口和替代路线",
+          "headlineFull": "尼泊尔洪灾失踪人数明显上升，搜救、道路恢复与跨境预警数据成为下一阶段重点；山区灾害的数字会随通信恢复快速变化，运营决策必须保留更新窗口和替代路线",
+          "intro": "洪水与泥石流切断道路和通信后，早期伤亡统计往往不完整。救援部门需要整合村庄名册、移动信号、卫星影像和下游观测；物流与旅游运营者则应暂停依赖单一路线，持续核对桥梁、口岸和天气预警。",
+          "xiaziQuote": "灾后第一个数字是起点，不是风险已经被量完。",
+          "doudouQuote": "通信一恢复，地图上的空白才开始变成名单。",
+          "footerTakeaway": "今日关键词：极端天气。"
+        },
+        "en-US": {
+          "categoryLabel": "Extreme Weather",
+          "headlineFact": "The number missing in Nepal's floods rose sharply, shifting attention to rescue, road recovery and cross-border warning data",
+          "headlineView": "mountain-disaster counts can change rapidly as communications return, so operations need update windows and alternate routes",
+          "headlineFull": "The number missing in Nepal's floods rose sharply, shifting attention to rescue, road recovery and cross-border warning data; mountain-disaster counts can change rapidly as communications return, so operations need update windows and alternate routes",
+          "intro": "Early casualty figures are often incomplete after floods and debris sever roads and communications. Responders need village registers, mobile signals, satellite imagery and downstream observations, while logistics and tourism operators should avoid single-route dependence and keep checking bridges, crossings and forecasts.",
+          "xiaziQuote": "The first post-disaster number is a starting point, not a completed measure of risk.",
+          "doudouQuote": "When communications return, blank map areas begin turning into names.",
+          "footerTakeaway": "Keyword: Extreme Weather."
+        }
+      },
+      "sources": [
+        {
+          "id": "667d1168-ea9e-57a0-895b-cd8c5a08f351",
+          "topicId": "2916cee8-b166-57eb-a359-33a0e4d58d30",
+          "title": "Number of Missing in Nepal Floods Jumps Sharply",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Number%20missing%20Nepal%20floods%20jumps%20sharply%20August%2031%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a6e61e59-9044-5d06-9b9a-a9ae096b45c3",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "messi-international-retirement",
+      "rank": 8,
+      "category": "culture",
+      "region": "South America",
+      "countryCodes": [
+        "AR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-messi-international-retirement-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "体育商业",
+          "headlineFact": "梅西宣布从阿根廷国家队退役，国家队进入竞技、品牌与球迷关系的交接期",
+          "headlineView": "标志性人物离场不只是阵容变化，也会重估赞助、内容版权、年轻球员曝光与长期叙事",
+          "headlineFull": "梅西宣布从阿根廷国家队退役，国家队进入竞技、品牌与球迷关系的交接期；标志性人物离场不只是阵容变化，也会重估赞助、内容版权、年轻球员曝光与长期叙事",
+          "intro": "国家队需要把战术核心、领导角色和商业注意力分散到下一代。赞助方与媒体则要区分短期纪念流量和长期受众迁移，通过档案内容、青年球员故事和赛事体验维持连接，而不是试图复制一个无法替代的个人品牌。",
+          "xiaziQuote": "传奇离场后，组织要继承的不是光环，而是持续创造意义的能力。",
+          "doudouQuote": "球衣号码可以留下，下一场还是要有人跑出新路线。",
+          "footerTakeaway": "今日关键词：体育商业。"
+        },
+        "en-US": {
+          "categoryLabel": "Sports Business",
+          "headlineFact": "Lionel Messi announced his retirement from Argentina's national team, opening a transition in performance, brand and fan relationships",
+          "headlineView": "an icon's exit changes more than the lineup; it reprices sponsorship, media rights, young-player exposure and long-term narrative",
+          "headlineFull": "Lionel Messi announced his retirement from Argentina's national team, opening a transition in performance, brand and fan relationships; an icon's exit changes more than the lineup; it reprices sponsorship, media rights, young-player exposure and long-term narrative",
+          "intro": "The national team must distribute tactical leadership and commercial attention across the next generation. Sponsors and media should separate memorial traffic from lasting audience migration, using archives, emerging-player stories and match experiences to sustain connection rather than trying to copy an irreplaceable personal brand.",
+          "xiaziQuote": "After a legend leaves, an organization inherits not the halo but the duty to keep creating meaning.",
+          "doudouQuote": "The number can remain; someone still has to run the next route.",
+          "footerTakeaway": "Keyword: Sports Business."
+        }
+      },
+      "sources": [
+        {
+          "id": "0794b622-39b1-5c37-a054-e1249bf027cb",
+          "topicId": "a6e61e59-9044-5d06-9b9a-a9ae096b45c3",
+          "title": "Lionel Messi announces retirement from Argentina national soccer team",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Lionel%20Messi%20retires%20Argentina%20national%20team%20August%2031%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "33ac1dcc-3145-50d5-ad18-664d828f635f",
+      "issueId": "2cfad161-b122-5299-b3d8-1502b202d93a",
+      "slug": "china-medical-imaging-ai-ethics-guidelines",
+      "rank": 9,
+      "category": "science",
+      "region": "Asia",
+      "countryCodes": [
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-china-medical-imaging-ai-ethics-guidelines-20260901",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "医疗AI",
+          "headlineFact": "中国发布医学影像AI使用伦理指引，强调患者权益、数据治理、临床责任与可解释应用",
+          "headlineView": "医疗AI的价值不只看识别率，还要看数据是否合规、医生能否复核、错误能否追溯",
+          "headlineFull": "中国发布医学影像AI使用伦理指引，强调患者权益、数据治理、临床责任与可解释应用；医疗AI的价值不只看识别率，还要看数据是否合规、医生能否复核、错误能否追溯",
+          "intro": "影像模型可能提升筛查和诊断效率，但训练数据偏差、隐私泄露和自动化依赖都会带来临床风险。医院与供应商需要明确知情机制、访问权限、验证人群、医生最终责任和事件报告流程，并持续监测不同患者群体的表现。",
+          "xiaziQuote": "医学模型输出的是建议，责任链必须输出清楚的人。",
+          "doudouQuote": "能看见病灶，也要看得见数据从哪里来。",
+          "footerTakeaway": "今日关键词：医疗AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Medical AI",
+          "headlineFact": "China issued ethical guidance for AI in medical imaging, emphasizing patient rights, data governance, clinical accountability and explainable use",
+          "headlineView": "medical AI must be judged by lawful data, clinician review and traceable error, not recognition accuracy alone",
+          "headlineFull": "China issued ethical guidance for AI in medical imaging, emphasizing patient rights, data governance, clinical accountability and explainable use; medical AI must be judged by lawful data, clinician review and traceable error, not recognition accuracy alone",
+          "intro": "Imaging models can improve screening and diagnosis, but dataset bias, privacy leakage and automation dependence create clinical risks. Hospitals and vendors need clear consent mechanisms, access control, validated populations, final clinician responsibility and incident reporting, with continuous performance monitoring across patient groups.",
+          "xiaziQuote": "A medical model can output advice; the responsibility chain must output a clear human owner.",
+          "doudouQuote": "See the lesion, and also see where the data came from.",
+          "footerTakeaway": "Keyword: Medical AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "f23b5889-eaeb-53e1-920e-caf29cd6b61e",
+          "topicId": "33ac1dcc-3145-50d5-ad18-664d828f635f",
+          "title": "China issues ethical guidelines for AI use in medical imaging",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=China%20ethical%20guidelines%20AI%20medical%20imaging%20August%2031%202026&hl=en-US&gl=US&ceid=US%3Aen",
+          "publishedAt": "2026-09-01T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

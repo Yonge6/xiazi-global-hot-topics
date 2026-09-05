@@ -1,0 +1,524 @@
+{
+  "id": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+  "slug": "2026-08-20",
+  "issueDate": "2026-08-20",
+  "assetVersion": "rel_20260820_1f7a54d0500982e2eed2e7aa",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-20T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-19T21:00:00.000Z",
+  "featuredTopicId": "0a7b5d8b-62c1-52e9-8d61-be3538cd1cf1",
+  "style": {
+    "name": "Graphic Brutalism",
+    "zhName": "粗野主义视觉语汇",
+    "description": "Style Atlas daily pick: bold graphic brutalism for global-news posters, with raw editorial grids, oversized condensed type, stark black-white-red contrast, rough paper and halftone texture, hard borders, cutout photography, blunt data blocks and deliberately imperfect but highly legible composition."
+  },
+  "topics": [
+    {
+      "id": "0a7b5d8b-62c1-52e9-8d61-be3538cd1cf1",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "today-overview-tariffs-ai-delivery-global-risk",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-tariffs-ai-delivery-global-risk-20260820",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "八个信号把关税、AI、配送、冲突与健康推上同一张风险图",
+          "headlineView": "经营者要同时重算跨境成本、技术责任与外部冲击",
+          "headlineFull": "八个信号把关税、AI、配送、冲突与健康推上同一张风险图；经营者要同时重算跨境成本、技术责任与外部冲击",
+          "intro": "美加关税出现三天谈判窗口，FDA征询生成式AI医疗器械监管意见，亚马逊扩展无人机配送；加沙调查、刚果埃博拉、肯尼亚空难与银河系中心新发现共同构成今天的全球观察面。",
+          "xiaziQuote": "真正重要的不是热点数量，而是哪一个信号会先改变成本、责任或安全边界。",
+          "doudouQuote": "把世界摊成一张表，先圈出今天必须行动的格子。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Eight signals put tariffs, AI, delivery, conflict and health on one risk map",
+          "headlineView": "operators must recalculate cross-border cost, technology responsibility and external shocks together",
+          "headlineFull": "Eight signals put tariffs, AI, delivery, conflict and health on one risk map; operators must recalculate cross-border cost, technology responsibility and external shocks together",
+          "intro": "A three-day US-Canada tariff window, an FDA consultation on generative-AI medical devices and Amazon's drone expansion reshape operations, while Gaza investigations, Congo Ebola, a Kenya air crash and a discovery near the galactic center define today's wider risk picture.",
+          "xiaziQuote": "What matters is not the number of headlines, but which signal changes cost, responsibility or the safety boundary first.",
+          "doudouQuote": "Lay the world out as a table and circle the box that needs action today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "b7ea3f83-a29f-594f-8240-6a41db0c0173",
+          "topicId": "0a7b5d8b-62c1-52e9-8d61-be3538cd1cf1",
+          "title": "Trump pauses 50% Canadian tariffs for three days",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Trump%20pauses%2050%25%20Canadian%20tariffs%20three%20days&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "c3a491c6-d97b-5988-8685-087ebe6b0194",
+          "topicId": "0a7b5d8b-62c1-52e9-8d61-be3538cd1cf1",
+          "title": "Congo Ebola outbreak reaches 5,000 cases",
+          "publisher": "Google News / NPR",
+          "url": "https://news.google.com/rss/search?q=Congo%20Ebola%20outbreak%20reaches%205000%20cases&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "a96d59f1-053d-5b27-816a-947dae57db37",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "us-canada-tariff-three-day-window",
+      "rank": 2,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "CA",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-us-canada-tariff-three-day-window-20260820",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "美国将加拿大商品50%关税暂停三天",
+          "headlineView": "卖家获得短暂窗口重算原产地、入境日和DDP报价",
+          "headlineFull": "美国将加拿大商品50%关税暂停三天；卖家获得短暂窗口重算原产地、入境日和DDP报价",
+          "intro": "美加领导人谈判取得进展后，美国将原定生效的部分加拿大商品50%关税暂停三天；跨境卖家仍需按实际入境时间核对税则、原产地证明、承运商代垫费用和退货责任。",
+          "xiaziQuote": "三天不是风险消失，而是把错误报价改成可执行报价的窗口。",
+          "doudouQuote": "先别急着降价，等税则和入境节点都对上。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "The US paused a 50% tariff on Canadian goods for three days",
+          "headlineView": "sellers get a brief window to recalculate origin, entry date and DDP quotes",
+          "headlineFull": "The US paused a 50% tariff on Canadian goods for three days; sellers get a brief window to recalculate origin, entry date and DDP quotes",
+          "intro": "After progress in talks between US and Canadian leaders, Washington paused the planned 50% duty on certain Canadian goods for three days; cross-border sellers still need to verify tariff codes, origin documents, entry timing, carrier advances and return liability.",
+          "xiaziQuote": "Three days does not erase the risk; it is a window to replace a wrong quote with an executable one.",
+          "doudouQuote": "Do not cut the price until the tariff rule and entry point both line up.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "f61bb613-9d35-55bd-89cc-5e18da5e4871",
+          "topicId": "a96d59f1-053d-5b27-816a-947dae57db37",
+          "title": "Trump and Canada's Carney make progress on tariff deal",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Trump%20Carney%20progress%20tariff%20deal%20three%20day%20pause&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "d6b8611e-4188-57ca-a9ce-e8dc47c8517b",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "fda-generative-ai-medical-device-feedback",
+      "rank": 3,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-fda-generative-ai-medical-device-feedback-20260820",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "FDA就生成式AI医疗器械监管公开征求意见",
+          "headlineView": "模型更新、临床证据与责任追踪需要进入同一套产品记录",
+          "headlineFull": "FDA就生成式AI医疗器械监管公开征求意见；模型更新、临床证据与责任追踪需要进入同一套产品记录",
+          "intro": "美国食品药品监督管理局正就生成式AI医疗器械的监管方式征求反馈，焦点包括持续学习、输出可靠性、风险变化和上市后监测；开发者需要把模型版本、数据来源和人工复核做成可审计链条。",
+          "xiaziQuote": "医疗AI的竞争力不只在生成速度，更在每一次输出能否被解释、追踪和纠正。",
+          "doudouQuote": "会更新的模型，也要有不会丢的责任记录。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "The FDA is seeking feedback on generative-AI medical-device regulation",
+          "headlineView": "model updates, clinical evidence and accountability must share one product record",
+          "headlineFull": "The FDA is seeking feedback on generative-AI medical-device regulation; model updates, clinical evidence and accountability must share one product record",
+          "intro": "The US Food and Drug Administration is asking for input on how to regulate generative-AI-enabled medical devices, including continuous learning, output reliability, changing risk and post-market monitoring; developers need auditable model versions, data provenance and human review.",
+          "xiaziQuote": "Medical AI competes not only on generation speed, but on whether every output can be explained, traced and corrected.",
+          "doudouQuote": "A model that keeps updating still needs a responsibility record that never disappears.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "570ae6eb-d32a-5006-905d-40020f44137f",
+          "topicId": "d6b8611e-4188-57ca-a9ce-e8dc47c8517b",
+          "title": "FDA seeks comments on regulation of generative AI-enabled medical devices",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=FDA%20comments%20regulation%20generative%20AI-enabled%20medical%20devices&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "ff3af5f8-f486-5bbc-882d-cbcdb58f53b1",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "canva-paystack-nigeria-small-business-tools",
+      "rank": 4,
+      "category": "business",
+      "region": "West Africa",
+      "countryCodes": [
+        "NG"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-canva-paystack-nigeria-small-business-tools-20260820",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "Canva与Paystack为尼日利亚中小企业提供数字工具支持",
+          "headlineView": "一人公司可把品牌制作与收款能力组合成轻量增长栈",
+          "headlineFull": "Canva与Paystack为尼日利亚中小企业提供数字工具支持；一人公司可把品牌制作与收款能力组合成轻量增长栈",
+          "intro": "Canva与Paystack面向尼日利亚中小企业推出支持计划，把视觉制作、数字技能与支付能力连接起来；对一人公司而言，关键不是堆叠软件，而是让获客素材、报价、收款和复购形成一条可重复流程。",
+          "xiaziQuote": "工具真正产生杠杆，是从内容到收款的每一步都能被同一个人稳定执行。",
+          "doudouQuote": "少装一个应用，多跑通一次成交。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "Canva and Paystack are supporting Nigerian small businesses with digital tools",
+          "headlineView": "solo firms can combine brand creation and payments into a lightweight growth stack",
+          "headlineFull": "Canva and Paystack are supporting Nigerian small businesses with digital tools; solo firms can combine brand creation and payments into a lightweight growth stack",
+          "intro": "Canva and Paystack launched support for Nigerian SMBs that connects visual creation, digital skills and payment capability; for a one-person company, the goal is not more software, but a repeatable path from acquisition creative to quote, payment and retention.",
+          "xiaziQuote": "Tools create leverage when one operator can reliably execute every step from content to payment.",
+          "doudouQuote": "Install one less app and complete one more sale.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "cb6806fe-8e81-516a-857c-fb868808618c",
+          "topicId": "ff3af5f8-f486-5bbc-882d-cbcdb58f53b1",
+          "title": "Canva and Paystack empower Nigerian SMBs",
+          "publisher": "Google News / ITWeb Africa",
+          "url": "https://news.google.com/rss/search?q=Canva%20Paystack%20empower%20Nigerian%20SMBs&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "01f794f7-38c8-5e14-8fb1-36062a56734c",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "amazon-drone-delivery-five-hundred-cities",
+      "rank": 5,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-amazon-drone-delivery-five-hundred-cities-20260820",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "即时配送",
+          "headlineFact": "亚马逊计划将轻型包裹无人机配送扩至500座美国城市",
+          "headlineView": "末端速度将从营销卖点变成库存与包装标准",
+          "headlineFull": "亚马逊计划将轻型包裹无人机配送扩至500座美国城市；末端速度将从营销卖点变成库存与包装标准",
+          "intro": "亚马逊计划把轻型包裹无人机配送扩展到500座美国城市，意味着适配重量、尺寸、天气和起降条件的商品将获得新的时效层级；品牌需要重新设计包装、库存位置和交付承诺。",
+          "xiaziQuote": "当配送方式改变，产品规格、仓储位置和承诺口径都会跟着改变。",
+          "doudouQuote": "能飞得快，也要先装得下、落得稳。",
+          "footerTakeaway": "今日关键词：即时配送。"
+        },
+        "en-US": {
+          "categoryLabel": "Instant Delivery",
+          "headlineFact": "Amazon plans to expand lightweight-package drone delivery to 500 US cities",
+          "headlineView": "last-mile speed is becoming an inventory and packaging standard",
+          "headlineFull": "Amazon plans to expand lightweight-package drone delivery to 500 US cities; last-mile speed is becoming an inventory and packaging standard",
+          "intro": "Amazon plans to bring drone delivery for lightweight packages to 500 US cities, creating a new service tier for products that fit weight, size, weather and landing constraints; brands will need to redesign packaging, inventory placement and delivery promises.",
+          "xiaziQuote": "When the delivery mode changes, product specifications, warehouse position and promise language change with it.",
+          "doudouQuote": "Flying fast still starts with fitting the box and landing safely.",
+          "footerTakeaway": "Keyword: Instant Delivery."
+        }
+      },
+      "sources": [
+        {
+          "id": "98b25c2b-3890-598a-beeb-6c65463a6de5",
+          "topicId": "01f794f7-38c8-5e14-8fb1-36062a56734c",
+          "title": "Amazon to expand drone delivery to 500 US cities",
+          "publisher": "Google News / AP",
+          "url": "https://news.google.com/rss/search?q=Amazon%20expand%20drone%20delivery%20500%20US%20cities&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "68a09b1b-b1f9-59b9-9c22-605eb53ffa60",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "israel-probes-hind-rajab-paramedic-killings",
+      "rank": 6,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IL",
+        "PS"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-israel-probes-hind-rajab-paramedic-killings-20260820",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "加沙调查",
+          "headlineFact": "以军就欣德·拉贾布和巴勒斯坦医护人员遇害启动刑事调查",
+          "headlineView": "战场记录、指挥链与救援保护将接受法律核查",
+          "headlineFull": "以军就欣德·拉贾布和巴勒斯坦医护人员遇害启动刑事调查；战场记录、指挥链与救援保护将接受法律核查",
+          "intro": "以色列军方宣布对欣德·拉贾布及巴勒斯坦医护人员遇害事件启动刑事调查，案件将检视行动记录、指挥决策和救援人员保护；调查能否独立、透明并产生责任结果将成为下一步焦点。",
+          "xiaziQuote": "调查的价值不在宣布本身，而在证据是否完整、责任是否能沿指挥链追踪。",
+          "doudouQuote": "记录留下来，真相才有机会走进法庭。",
+          "footerTakeaway": "今日关键词：加沙调查。"
+        },
+        "en-US": {
+          "categoryLabel": "Gaza Investigation",
+          "headlineFact": "Israel opened criminal probes into the killings of Hind Rajab and Palestinian paramedics",
+          "headlineView": "battlefield records, command decisions and rescue protections face legal scrutiny",
+          "headlineFull": "Israel opened criminal probes into the killings of Hind Rajab and Palestinian paramedics; battlefield records, command decisions and rescue protections face legal scrutiny",
+          "intro": "The Israeli military announced criminal investigations into the deaths of Hind Rajab and Palestinian paramedics, putting operational records, command decisions and protections for rescuers under review; independence, transparency and accountable outcomes are now the central tests.",
+          "xiaziQuote": "The value of an investigation is not its announcement, but whether evidence is complete and responsibility can be traced through command.",
+          "doudouQuote": "When records survive, truth has a chance to reach the courtroom.",
+          "footerTakeaway": "Keyword: Gaza Investigation."
+        }
+      },
+      "sources": [
+        {
+          "id": "1f1e5ec7-5fe1-5b8c-8497-a7b7915da600",
+          "topicId": "68a09b1b-b1f9-59b9-9c22-605eb53ffa60",
+          "title": "Israeli military launches criminal probes into killings of Hind Rajab and Palestinian paramedics",
+          "publisher": "Google News / AP",
+          "url": "https://news.google.com/rss/search?q=Israeli%20military%20criminal%20probes%20Hind%20Rajab%20Palestinian%20paramedics&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "b9a5058d-6195-5e30-a88c-8d36c0f6dfeb",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "congo-ebola-five-thousand-cases",
+      "rank": 7,
+      "category": "science",
+      "region": "Central Africa",
+      "countryCodes": [
+        "CD"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-congo-ebola-five-thousand-cases-20260820",
+      "storyStatus": "followup",
+      "followupDay": 4,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "刚果埃博拉",
+          "headlineFact": "刚果埃博拉病例突破5000例并继续快于响应速度",
+          "headlineView": "追踪、隔离、治疗和社区信任必须同步扩容",
+          "headlineFull": "刚果埃博拉病例突破5000例并继续快于响应速度；追踪、隔离、治疗和社区信任必须同步扩容",
+          "intro": "刚果埃博拉疫情报告病例达到5000例，传播速度继续给接触者追踪、实验室检测、隔离床位和社区沟通带来压力；控制窗口取决于一线能力能否比新增传播链扩张得更快。",
+          "xiaziQuote": "数字越过5000只是表象，真正的赛跑是响应能力能否超过传播速度。",
+          "doudouQuote": "每接上一条追踪链，就少一条看不见的传播链。",
+          "footerTakeaway": "今日关键词：刚果埃博拉。"
+        },
+        "en-US": {
+          "categoryLabel": "Congo Ebola",
+          "headlineFact": "Congo's Ebola outbreak passed 5,000 cases and is still outpacing response",
+          "headlineView": "tracing, isolation, treatment and community trust must scale together",
+          "headlineFull": "Congo's Ebola outbreak passed 5,000 cases and is still outpacing response; tracing, isolation, treatment and community trust must scale together",
+          "intro": "Reported cases in Congo's Ebola outbreak have reached 5,000, continuing to pressure contact tracing, laboratories, isolation capacity and community communication; control depends on frontline capability expanding faster than new transmission chains.",
+          "xiaziQuote": "Passing 5,000 is the visible number; the real race is whether response capacity can outrun transmission.",
+          "doudouQuote": "Every tracing chain connected removes one invisible chain of spread.",
+          "footerTakeaway": "Keyword: Congo Ebola."
+        }
+      },
+      "sources": [
+        {
+          "id": "8ec94a5b-5719-5255-bd08-4f9736f683f6",
+          "topicId": "b9a5058d-6195-5e30-a88c-8d36c0f6dfeb",
+          "title": "Congo Ebola outbreak reaches 5,000 cases as response struggles",
+          "publisher": "Google News / NPR",
+          "url": "https://news.google.com/rss/search?q=Congo%20Ebola%20outbreak%205000%20cases%20response&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a92dd64d-9a61-5e54-ac96-794888ec2b31",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "kenya-helicopter-crash-seven-killed",
+      "rank": 8,
+      "category": "international",
+      "region": "East Africa",
+      "countryCodes": [
+        "KE",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-kenya-helicopter-crash-seven-killed-20260820",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "肯尼亚空难",
+          "headlineFact": "肯尼亚直升机坠毁造成7人死亡，其中5人为美国人",
+          "headlineView": "事故调查将聚焦飞行条件、维护记录与航线风险",
+          "headlineFull": "肯尼亚直升机坠毁造成7人死亡，其中5人为美国人；事故调查将聚焦飞行条件、维护记录与航线风险",
+          "intro": "一架直升机在肯尼亚坠毁，机上7人全部遇难，其中包括5名美国人和一名电视媒体高管；当地与国际关注将转向天气、飞行计划、机务记录和事故现场证据。",
+          "xiaziQuote": "空难之后最重要的不是猜测原因，而是保护证据并让调查链完整运转。",
+          "doudouQuote": "先让事实落地，再让答案起飞。",
+          "footerTakeaway": "今日关键词：肯尼亚空难。"
+        },
+        "en-US": {
+          "categoryLabel": "Kenya Air Crash",
+          "headlineFact": "Seven people, including five Americans, died in a Kenya helicopter crash",
+          "headlineView": "investigators will focus on flight conditions, maintenance records and route risk",
+          "headlineFull": "Seven people, including five Americans, died in a Kenya helicopter crash; investigators will focus on flight conditions, maintenance records and route risk",
+          "intro": "A helicopter crashed in Kenya, killing all seven people aboard, including five Americans and a television executive; attention now turns to weather, flight planning, maintenance history and preservation of evidence at the site.",
+          "xiaziQuote": "After an air crash, the priority is not guessing the cause but protecting evidence and keeping the investigation chain intact.",
+          "doudouQuote": "Let the facts land before the answers take off.",
+          "footerTakeaway": "Keyword: Kenya Air Crash."
+        }
+      },
+      "sources": [
+        {
+          "id": "cb998f4c-d21b-5ef6-949f-1c2a8706505c",
+          "topicId": "a92dd64d-9a61-5e54-ac96-794888ec2b31",
+          "title": "Five Americans among seven killed in Kenya helicopter crash",
+          "publisher": "Google News / NBC",
+          "url": "https://news.google.com/rss/search?q=five%20Americans%20seven%20killed%20Kenya%20helicopter%20crash&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "9ff477a5-b174-52a1-9001-be7d241e1940",
+      "issueId": "9142f810-e31f-5c05-a024-255f4fd9fb85",
+      "slug": "high-speed-star-galactic-center-black-hole",
+      "rank": 9,
+      "category": "science",
+      "region": "Space",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-high-speed-star-galactic-center-black-hole-20260820",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "银河系中心",
+          "headlineFact": "科学家追踪到绕银河系中心黑洞高速运行的恒星",
+          "headlineView": "极端轨道为检验引力与黑洞环境提供新标尺",
+          "headlineFull": "科学家追踪到绕银河系中心黑洞高速运行的恒星；极端轨道为检验引力与黑洞环境提供新标尺",
+          "intro": "天文学家研究一颗在银河系中心超大质量黑洞附近高速运行的恒星，它的紧密轨道让研究人员能够观察强引力环境，并进一步检验恒星运动、黑洞质量和相对论效应。",
+          "xiaziQuote": "越靠近极端环境，轨道就越像一把测量宇宙规则的精密尺。",
+          "doudouQuote": "跑得越快的星星，留下的数据越有分量。",
+          "footerTakeaway": "今日关键词：银河系中心。"
+        },
+        "en-US": {
+          "categoryLabel": "Galactic Center",
+          "headlineFact": "Scientists tracked a high-speed star orbiting the black hole at the Milky Way's center",
+          "headlineView": "an extreme orbit offers a new ruler for gravity and the black-hole environment",
+          "headlineFull": "Scientists tracked a high-speed star orbiting the black hole at the Milky Way's center; an extreme orbit offers a new ruler for gravity and the black-hole environment",
+          "intro": "Astronomers are studying a star racing close to the supermassive black hole at the center of the Milky Way; its tight orbit lets researchers probe strong gravity and refine tests of stellar motion, black-hole mass and relativistic effects.",
+          "xiaziQuote": "The closer an orbit comes to an extreme environment, the more precisely it measures the rules of the universe.",
+          "doudouQuote": "The faster the star, the more weight its data can carry.",
+          "footerTakeaway": "Keyword: Galactic Center."
+        }
+      },
+      "sources": [
+        {
+          "id": "7d60ee06-dba9-5078-ae55-2467629a6b80",
+          "topicId": "9ff477a5-b174-52a1-9001-be7d241e1940",
+          "title": "High-speed star whips around the black hole in the middle of our galaxy",
+          "publisher": "Google News / NPR",
+          "url": "https://news.google.com/rss/search?q=high-speed%20star%20black%20hole%20middle%20of%20our%20galaxy&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-20T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

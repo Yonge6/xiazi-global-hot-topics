@@ -1,0 +1,524 @@
+{
+  "id": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+  "slug": "2026-08-18",
+  "issueDate": "2026-08-18",
+  "assetVersion": "rel_20260818_168e15629fcbc82373fd9c7a",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-18T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-17T21:00:00.000Z",
+  "featuredTopicId": "6998a251-e975-5ee7-9019-d489f6dfa9a1",
+  "style": {
+    "name": "Solarpunk",
+    "zhName": "太阳朋克",
+    "description": "Style Atlas daily pick: optimistic solarpunk editorial scenes with lush urban ecology, solar glass, wind energy, community infrastructure, warm daylight, botanical diagrams and a premium global-news magazine hierarchy."
+  },
+  "topics": [
+    {
+      "id": "6998a251-e975-5ee7-9019-d489f6dfa9a1",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "today-overview-platforms-energy-health-weather",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-platforms-energy-health-weather-20260818",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "平台、能源、公共卫生与极端天气重排今日风险表",
+          "headlineView": "韧性不是口号而是库存、电力、医疗与恢复速度",
+          "headlineFull": "平台、能源、公共卫生与极端天气重排今日风险表；韧性不是口号而是库存、电力、医疗与恢复速度",
+          "intro": "Wildberries仓储遭袭、欧盟AI透明期限与美股油价波动改变经营判断；伊朗和平期限、乌克兰能源设施受损、刚果埃博拉与美国洪灾把系统韧性推到今天中心。",
+          "xiaziQuote": "未来城市的绿色屋顶之下，也要有备份仓库、可靠电网和能快速行动的公共系统。",
+          "doudouQuote": "叶子会长，风险清单也要每天更新。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Platforms, energy, public health and severe weather reset today's risk map",
+          "headlineView": "resilience now means inventory, power, care and recovery speed",
+          "headlineFull": "Platforms, energy, public health and severe weather reset today's risk map; resilience now means inventory, power, care and recovery speed",
+          "intro": "Strikes on Wildberries depots, EU AI transparency deadlines and oil-driven market swings reshape operating decisions, while the Iran deadline, Ukraine energy damage, Congo Ebola and US floods put system resilience at the center.",
+          "xiaziQuote": "Beneath a future city's green roofs, you still need backup inventory, reliable power and public systems that can move fast.",
+          "doudouQuote": "Leaves grow, and the risk list needs a daily refresh.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "b120952b-b9b3-5c89-b67d-126c581abeb5",
+          "topicId": "6998a251-e975-5ee7-9019-d489f6dfa9a1",
+          "title": "Ukraine takes aim at Russia's economy and morale by attacking online retailer",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Ukraine%20takes%20aim%20at%20Russia%20economy%20morale%20Wildberries&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "cc4d6984-1a3d-5094-af5b-4603b8971507",
+          "topicId": "6998a251-e975-5ee7-9019-d489f6dfa9a1",
+          "title": "Congo's fast-moving Ebola outbreak becomes the country's worst with over 2,300 dead",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Congo%20Ebola%20over%202300%20dead&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "8f47dafb-a7f6-500b-9ce9-d0323796b8ad",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "wildberries-depot-strikes-seller-inventory-risk",
+      "rank": 2,
+      "category": "business",
+      "region": "Europe and Eurasia",
+      "countryCodes": [
+        "RU",
+        "UA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-wildberries-depot-strikes-seller-inventory-risk-20260818",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "约20处Wildberries设施遭袭冲击数十万卖家库存",
+          "headlineView": "跨境经营者必须重算仓网集中度与货权风险",
+          "headlineFull": "约20处Wildberries设施遭袭冲击数十万卖家库存；跨境经营者必须重算仓网集中度与货权风险",
+          "intro": "乌克兰无人机近几周持续打击俄罗斯最大电商Wildberries的大型仓库，估计烧毁价值数十亿美元的商品；平台约占俄罗斯一半网购订单，并连接来自中国、土耳其和阿联酋等地的货源。",
+          "xiaziQuote": "把库存集中在一个平台仓里，效率很高，直到地缘风险把单点变成断点。",
+          "doudouQuote": "多一个仓，不只是多一份运费，也是多一条活路。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "Strikes on about 20 Wildberries sites hit inventory held by hundreds of thousands of sellers",
+          "headlineView": "cross-border operators must recalculate warehouse concentration and title risk",
+          "headlineFull": "Strikes on about 20 Wildberries sites hit inventory held by hundreds of thousands of sellers; cross-border operators must recalculate warehouse concentration and title risk",
+          "intro": "Ukrainian drones have repeatedly hit major depots of Russia's largest online retailer, burning merchandise worth an estimated billions of dollars; Wildberries handles about half of Russian online orders and carries goods sourced from China, Turkey, the UAE and elsewhere.",
+          "xiaziQuote": "One platform warehouse is efficient until geopolitical risk turns a single point into a break point.",
+          "doudouQuote": "A second warehouse is not just extra freight; it is another route to survive.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "b3f29a87-450c-5cf7-ab43-c6e19eb0fad9",
+          "topicId": "8f47dafb-a7f6-500b-9ce9-d0323796b8ad",
+          "title": "Ukraine takes aim at Russia's economy and morale by attacking online retailer",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Ukraine%20takes%20aim%20at%20Russia%20economy%20morale%20Wildberries&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "40b596c4-cf83-5252-a36a-6d0e9bba9dc5",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "eu-ai-transparency-operating-window",
+      "rank": 3,
+      "category": "technology",
+      "region": "European Union",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-eu-ai-transparency-operating-window-20260818",
+      "storyStatus": "followup",
+      "followupDay": 17,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "欧盟AI透明义务已进入执行期",
+          "headlineView": "存量生成式AI距离12月2日标记期限只剩106天",
+          "headlineFull": "欧盟AI透明义务已进入执行期；存量生成式AI距离12月2日标记期限只剩106天",
+          "intro": "欧盟AI法案的部分执法权限与透明义务已于8月2日生效；此前已投放市场的生成式AI系统，可在12月2日前完成机器可读内容标记与检测义务改造。",
+          "xiaziQuote": "透明不是一张免责声明，而是一条贯穿生成、导出、分发和审计的产品链路。",
+          "doudouQuote": "倒计时不会写代码，团队得自己把它放进版本表。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "EU AI transparency duties are now in their enforcement period",
+          "headlineView": "legacy generative AI has 106 days left before the December 2 marking deadline",
+          "headlineFull": "EU AI transparency duties are now in their enforcement period; legacy generative AI has 106 days left before the December 2 marking deadline",
+          "intro": "Some EU AI Act enforcement powers and transparency duties began on August 2; generative AI systems already on the market have until December 2 to implement machine-readable content marking and detection obligations.",
+          "xiaziQuote": "Transparency is not one disclaimer; it is a product chain across generation, export, distribution and audit.",
+          "doudouQuote": "A countdown cannot ship code, so put it on the release plan.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "b1cbc4c2-80c7-5192-9cf6-3f68a0716d3b",
+          "topicId": "40b596c4-cf83-5252-a36a-6d0e9bba9dc5",
+          "title": "Frequently Asked Questions",
+          "publisher": "European Commission AI Act Service Desk",
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "4c5b79b4-8c41-56d3-ad1d-64fa92ee299b",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "solo-business-oil-inflation-demand-signal",
+      "rank": 4,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-solo-business-oil-inflation-demand-signal-20260818",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "油价上行令标普500回落0.4%",
+          "headlineView": "一人公司要把运费、能源与客户购买力拆成三张表",
+          "headlineFull": "油价上行令标普500回落0.4%；一人公司要把运费、能源与客户购买力拆成三张表",
+          "intro": "标普500周一下跌0.4%，但仍接近历史高位；油价在伊朗协议不确定性下走高，零售商同时面对就业转弱与通胀账单，经营者不能把资产价格等同于真实需求。",
+          "xiaziQuote": "指数接近新高，不代表你的客户有更多可支配现金。",
+          "doudouQuote": "把油价、运费和转化率分开看，别让一条曲线骗三次。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "Rising oil prices pulled the S&P 500 down 0.4%",
+          "headlineView": "solo firms should separate freight, energy and customer purchasing power",
+          "headlineFull": "Rising oil prices pulled the S&P 500 down 0.4%; solo firms should separate freight, energy and customer purchasing power",
+          "intro": "The S&P 500 fell 0.4% Monday while remaining near its record; oil rose amid uncertainty over an Iran deal, as retailers also face weaker employment signals and inflationary bills, making market levels a poor proxy for customer demand.",
+          "xiaziQuote": "An index near a record does not mean your customer has more disposable cash.",
+          "doudouQuote": "Track oil, freight and conversion separately; one chart should not fool you three times.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "e45dccd0-5a70-545a-ac6d-a25bf65adc5e",
+          "topicId": "4c5b79b4-8c41-56d3-ad1d-64fa92ee299b",
+          "title": "US stocks edge back from their record as oil prices rise",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=US%20stocks%20edge%20back%20from%20record%20oil%20prices%20rise&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8bbe9dbd-6521-506b-a11a-8aaa118091bf",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "iran-peace-deal-sixty-day-deadline",
+      "rank": 5,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "IR",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-iran-peace-deal-sixty-day-deadline-20260818",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "伊朗和平期限",
+          "headlineFact": "伊朗战争永久协议的60天期限到期",
+          "headlineView": "霍尔木兹控制与核问题让双方距离比两个月前更远",
+          "headlineFull": "伊朗战争永久协议的60天期限到期；霍尔木兹控制与核问题让双方距离比两个月前更远",
+          "intro": "6月谅解备忘录设定的60天期限已经到期，但美国与伊朗尚未达成永久停战和核问题协议；霍尔木兹海峡战前承载全球约五分之一的石油和天然气贸易。",
+          "xiaziQuote": "期限可以结束一段等待，却不能替双方交出最难的筹码。",
+          "doudouQuote": "计时器归零了，谈判桌还没有清零。",
+          "footerTakeaway": "今日关键词：伊朗和平期限。"
+        },
+        "en-US": {
+          "categoryLabel": "Iran Peace Deadline",
+          "headlineFact": "The 60-day deadline for a permanent Iran war agreement has expired",
+          "headlineView": "Hormuz control and the nuclear dispute leave the sides farther apart",
+          "headlineFull": "The 60-day deadline for a permanent Iran war agreement has expired; Hormuz control and the nuclear dispute leave the sides farther apart",
+          "intro": "The 60-day deadline set by a June memorandum has expired without a permanent end to the war or a nuclear agreement; before the conflict, the Strait of Hormuz carried about one-fifth of the world's traded oil and gas.",
+          "xiaziQuote": "A deadline can end the wait, but it cannot surrender the hardest bargaining chips for either side.",
+          "doudouQuote": "The timer hit zero; the negotiating table did not reset.",
+          "footerTakeaway": "Keyword: Iran Peace Deadline."
+        }
+      },
+      "sources": [
+        {
+          "id": "5104833a-3abd-5f4a-bae3-66991af02f33",
+          "topicId": "8bbe9dbd-6521-506b-a11a-8aaa118091bf",
+          "title": "The 60-day deadline for an Iran peace deal is expiring. Here's where things stand",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=60-day%20deadline%20Iran%20peace%20deal%20expiring&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "b57b0a4d-b20e-5173-9525-e8403dcb293e",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "ukraine-energy-thirteen-strikes-one-week",
+      "rank": 6,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-ukraine-energy-thirteen-strikes-one-week-20260818",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "乌克兰能源",
+          "headlineFact": "乌克兰能源设施一周遭13次俄军打击",
+          "headlineView": "近300次年度攻击让冬季供应风险提前显形",
+          "headlineFull": "乌克兰能源设施一周遭13次俄军打击；近300次年度攻击让冬季供应风险提前显形",
+          "intro": "乌克兰国有能源公司称，多个地区设施在一周内遭到13次无人机与导弹打击，设备和生产能力严重受损；今年累计攻击已接近300次，冬季能源保障压力继续上升。",
+          "xiaziQuote": "能源系统的韧性，不只看装机容量，也看受损后能否快速绕行和修复。",
+          "doudouQuote": "冬天还没来，备用方案必须先到。",
+          "footerTakeaway": "今日关键词：乌克兰能源。"
+        },
+        "en-US": {
+          "categoryLabel": "Ukraine Energy",
+          "headlineFact": "Ukrainian energy sites were hit 13 times in one week",
+          "headlineView": "nearly 300 attacks this year bring winter supply risks forward",
+          "headlineFull": "Ukrainian energy sites were hit 13 times in one week; nearly 300 attacks this year bring winter supply risks forward",
+          "intro": "Ukraine's state energy company said drones and missiles struck facilities across several regions 13 times in a week, seriously damaging equipment and production capacity; attacks this year are approaching 300 as winter supply pressure grows.",
+          "xiaziQuote": "Energy resilience is not only installed capacity; it is the ability to reroute and repair after damage.",
+          "doudouQuote": "Winter has not arrived, but the backup plan must.",
+          "footerTakeaway": "Keyword: Ukraine Energy."
+        }
+      },
+      "sources": [
+        {
+          "id": "40b92dfc-a8bd-5b94-9b71-19d2f92eac5c",
+          "topicId": "b57b0a4d-b20e-5173-9525-e8403dcb293e",
+          "title": "Ukraine energy company says its facilities seriously damaged after 13 Russian strikes in a week",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Ukraine%20energy%2013%20Russian%20strikes%20week&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "bb2d4a0e-ce57-57d0-9740-69c2542e27a4",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "congo-ebola-deadliest-national-outbreak",
+      "rank": 7,
+      "category": "science",
+      "region": "Central Africa",
+      "countryCodes": [
+        "CD"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-congo-ebola-deadliest-national-outbreak-20260818",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "刚果埃博拉",
+          "headlineFact": "刚果埃博拉死亡超过2300人创本国最严重纪录",
+          "headlineView": "病例追踪速度落后于Bundibugyo毒株扩散",
+          "headlineFull": "刚果埃博拉死亡超过2300人创本国最严重纪录；病例追踪速度落后于Bundibugyo毒株扩散",
+          "intro": "刚果东部六省的快速疫情已造成超过2300人死亡，最新24小时新增101例与33人死亡；超过1000人康复，730人仍在医院或隔离点，许多新病例不在既有监测名单内。",
+          "xiaziQuote": "当传播速度超过追踪速度，扩充一线人员就是最直接的数据工程。",
+          "doudouQuote": "名单追不上病毒，队伍就必须跑得更快。",
+          "footerTakeaway": "今日关键词：刚果埃博拉。"
+        },
+        "en-US": {
+          "categoryLabel": "Congo Ebola",
+          "headlineFact": "Congo's Ebola death toll passed 2,300, its worst national outbreak",
+          "headlineView": "contact tracing is falling behind the Bundibugyo strain",
+          "headlineFull": "Congo's Ebola death toll passed 2,300, its worst national outbreak; contact tracing is falling behind the Bundibugyo strain",
+          "intro": "The fast-moving outbreak across six eastern provinces has killed more than 2,300 people, with 101 new cases and 33 deaths in the latest 24 hours; over 1,000 recovered and 730 remain hospitalized or isolated, while many new cases are outside monitoring lists.",
+          "xiaziQuote": "When transmission outruns tracing, scaling frontline staff becomes the most direct form of data engineering.",
+          "doudouQuote": "If the list cannot catch the virus, the response team must move faster.",
+          "footerTakeaway": "Keyword: Congo Ebola."
+        }
+      },
+      "sources": [
+        {
+          "id": "84cf21bd-d824-56fb-be86-4366cafdf673",
+          "topicId": "bb2d4a0e-ce57-57d0-9740-69c2542e27a4",
+          "title": "Congo's fast-moving Ebola outbreak becomes the country's worst with over 2,300 dead",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Congo%20Ebola%20over%202300%20dead&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "e5af3778-e680-5ae9-ae76-c3f4fc318a57",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "us-midwest-midatlantic-flood-risk",
+      "rank": 8,
+      "category": "climate",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-us-midwest-midatlantic-flood-risk-20260818",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "美国洪灾",
+          "headlineFact": "暴雨与山洪风险从中西部移向中大西洋地区",
+          "headlineView": "既有高水位让新一轮降雨更易触发次生灾害",
+          "headlineFull": "暴雨与山洪风险从中西部移向中大西洋地区；既有高水位让新一轮降雨更易触发次生灾害",
+          "intro": "雷暴、强降雨与山洪继续威胁美国中西部至中大西洋地区；西弗吉尼亚、俄亥俄东南部和肯塔基东北部处于洪水监视，印第安纳此前风暴已造成7人死亡。",
+          "xiaziQuote": "同样一场雨，落在已经饱和的土地上，就是完全不同的风险等级。",
+          "doudouQuote": "路障不是建议，积水也不是捷径。",
+          "footerTakeaway": "今日关键词：美国洪灾。"
+        },
+        "en-US": {
+          "categoryLabel": "US Flooding",
+          "headlineFact": "Heavy rain and flash-flood risk shifted from the Midwest toward the mid-Atlantic",
+          "headlineView": "already-high water makes another round more dangerous",
+          "headlineFull": "Heavy rain and flash-flood risk shifted from the Midwest toward the mid-Atlantic; already-high water makes another round more dangerous",
+          "intro": "Thunderstorms, heavy rain and flash flooding continued from the Midwest toward the mid-Atlantic; West Virginia, southeast Ohio and northeast Kentucky were under flood watches, while earlier storms in Indiana had killed seven people.",
+          "xiaziQuote": "The same rain falling on saturated ground belongs to a completely different risk category.",
+          "doudouQuote": "A barricade is not advice, and floodwater is not a shortcut.",
+          "footerTakeaway": "Keyword: US Flooding."
+        }
+      },
+      "sources": [
+        {
+          "id": "89f77f41-e80b-500e-bc10-23f0ceeb3dae",
+          "topicId": "e5af3778-e680-5ae9-ae76-c3f4fc318a57",
+          "title": "Flooding risk remains as storms move from the Midwest to the mid-Atlantic",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Flooding%20risk%20Midwest%20mid-Atlantic&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "5fa046ae-2795-5c57-8ddb-55495d7f8425",
+      "issueId": "04fd5bc4-7342-5e5f-9632-69316aaff6a4",
+      "slug": "hawaii-lala-cleanup-rainfall-record",
+      "rank": 9,
+      "category": "climate",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-hawaii-lala-cleanup-rainfall-record-20260818",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "夏威夷风暴",
+          "headlineFact": "Lala离开夏威夷后留下43.54英寸极端降雨",
+          "headlineView": "风险从强风转向清淤、道路与滑坡恢复",
+          "headlineFull": "Lala离开夏威夷后留下43.54英寸极端降雨；风险从强风转向清淤、道路与滑坡恢复",
+          "intro": "Lala减弱并西移后，夏威夷已无沿海警报，但危险海浪和离岸流仍存在；大岛Laupahoehoe记录到43.54英寸降雨，树木、电线、道路与住宅受损进入集中恢复期。",
+          "xiaziQuote": "风暴离开镜头之后，真正漫长的是把道路、电力和日常生活一项项接回来。",
+          "doudouQuote": "风下班了，泥水还在加班。",
+          "footerTakeaway": "今日关键词：夏威夷风暴。"
+        },
+        "en-US": {
+          "categoryLabel": "Hawaii Storm",
+          "headlineFact": "Lala left 43.54 inches of extreme rain after moving west of Hawaii",
+          "headlineView": "risk has shifted from wind to mud, roads and landslide recovery",
+          "headlineFull": "Lala left 43.54 inches of extreme rain after moving west of Hawaii; risk has shifted from wind to mud, roads and landslide recovery",
+          "intro": "With Lala weakening and moving west, Hawaii had no coastal warnings, though dangerous surf and rip currents remained; Laupahoehoe on the Big Island recorded 43.54 inches of rain as communities began restoring roads, power and homes.",
+          "xiaziQuote": "After the storm leaves the frame, the long work is reconnecting roads, power and daily life one piece at a time.",
+          "doudouQuote": "The wind clocked out; the mud is still working overtime.",
+          "footerTakeaway": "Keyword: Hawaii Storm."
+        }
+      },
+      "sources": [
+        {
+          "id": "ded77d3f-ab7f-58a7-bf49-a9dfc7f9da80",
+          "topicId": "5fa046ae-2795-5c57-8ddb-55495d7f8425",
+          "title": "Muddy cleanup ahead as Tropical Storm Lala moves west of Hawaii",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Muddy%20cleanup%20Tropical%20Storm%20Lala%20Hawaii&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-18T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

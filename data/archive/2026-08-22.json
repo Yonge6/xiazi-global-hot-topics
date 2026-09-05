@@ -1,0 +1,523 @@
+{
+  "id": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+  "slug": "2026-08-22",
+  "issueDate": "2026-08-22",
+  "assetVersion": "rel_20260822_1a4254d25da605c5123601fd",
+  "status": "published",
+  "slotHour": 4,
+  "beijingTimestamp": "2026-08-22T04:00:00+08:00",
+  "gmtTimestamp": "2026-08-21T20:00:00.000Z",
+  "featuredTopicId": "60fd12e8-92f3-52b2-b26f-34e9f0b83ba6",
+  "style": {
+    "name": "Editorial Typography",
+    "zhName": "编辑排版风格",
+    "description": "Style Atlas daily pick: Editorial Typography for global-news posters, using strong magazine hierarchy, oversized headlines, disciplined columns, pull quotes, maps, diagrams, data blocks and restrained red-blue-cream accents. Facts and information graphics dominate the composition; the two brand characters remain small at the edges."
+  },
+  "topics": [
+    {
+      "id": "60fd12e8-92f3-52b2-b26f-34e9f0b83ba6",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "today-overview-trade-ai-war-health-climate",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-trade-ai-war-health-climate-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "八个信号把物流、AI、战争、公共卫生与气候推上同一张风险图",
+          "headlineView": "经营者要把合规、供应链、人身安全和现金流放进同一套预案",
+          "headlineFull": "八个信号把物流、AI、战争、公共卫生与气候推上同一张风险图；经营者要把合规、供应链、人身安全和现金流放进同一套预案",
+          "intro": "巴拿马运河因厄尔尼诺减少通航，日本推进AI规则讨论；乌克兰商场遇袭、刚果（金）埃博拉加速、关税调整、地区合作与格陵兰冰损共同构成今天的全球经营与风险观察面。",
+          "xiaziQuote": "热点真正影响经营时，通常会同时改变成本、交付、责任或安全边界。",
+          "doudouQuote": "先把八个信号排成一页，再圈出今天必须行动的两格。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Eight signals put logistics, AI, war, public health and climate on one risk map",
+          "headlineView": "operators need one plan that connects compliance, supply chains, safety and cash flow",
+          "headlineFull": "Eight signals put logistics, AI, war, public health and climate on one risk map; operators need one plan that connects compliance, supply chains, safety and cash flow",
+          "intro": "Panama Canal transit cuts linked to El Nino and Japan's AI-rule discussion lead today's operating signals; a deadly Ukraine strike, faster Ebola spread in DR Congo, tariff changes, regional cooperation and Greenland ice loss complete the global risk picture.",
+          "xiaziQuote": "A headline enters operations when it changes cost, delivery, responsibility or a safety boundary.",
+          "doudouQuote": "Put the eight signals on one page, then circle the two boxes that need action today.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "f2b55791-afa1-5f85-86a2-bd4177ca1131",
+          "topicId": "60fd12e8-92f3-52b2-b26f-34e9f0b83ba6",
+          "title": "Panama Canal to cut ship transits due to El Nino",
+          "publisher": "Google News / BBC",
+          "url": "https://news.google.com/rss/search?q=Panama%20Canal%20cut%20number%20ships%20El%20Nino&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "4953099e-e6dd-5873-9588-3590deb7ff87",
+          "topicId": "60fd12e8-92f3-52b2-b26f-34e9f0b83ba6",
+          "title": "Ebola outbreak growing faster as DR Congo death toll rises",
+          "publisher": "Google News / BBC",
+          "url": "https://news.google.com/rss/search?q=DR%20Congo%20Ebola%20growing%20faster%20vaccine%20trial&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "d498127f-825d-55aa-ab66-9f04d10e3253",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "panama-canal-el-nino-transit-cuts",
+      "rank": 2,
+      "category": "business",
+      "region": "Central America",
+      "countryCodes": [
+        "PA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-panama-canal-el-nino-transit-cuts-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "巴拿马运河因厄尔尼诺影响计划减少每日通航船舶",
+          "headlineView": "跨境卖家应提前重算海运时效、旺季舱位和延误承诺",
+          "headlineFull": "巴拿马运河因厄尔尼诺影响计划减少每日通航船舶；跨境卖家应提前重算海运时效、旺季舱位和延误承诺",
+          "intro": "巴拿马运河管理方准备因厄尔尼诺带来的降雨与水位压力减少通航数量；依赖美洲航线的卖家应立刻核对承运人附加费、替代港口、库存缓冲、到货窗口和面向消费者的延期说明。",
+          "xiaziQuote": "航道收紧不是物流新闻的尾注，它会直接进入库存天数与退款成本。",
+          "doudouQuote": "先问船期能不能守住，再决定促销能不能开。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "The Panama Canal plans to reduce daily ship transits as El Nino pressures water levels",
+          "headlineView": "cross-border sellers should recalculate ocean lead times, peak capacity and delay promises now",
+          "headlineFull": "The Panama Canal plans to reduce daily ship transits as El Nino pressures water levels; cross-border sellers should recalculate ocean lead times, peak capacity and delay promises now",
+          "intro": "The Panama Canal is preparing to reduce vessel transits as El Nino affects rainfall and water availability; sellers using Americas routes should check carrier surcharges, alternative ports, inventory buffers, arrival windows and customer delay messaging immediately.",
+          "xiaziQuote": "A tighter waterway is not a logistics footnote; it enters inventory days and refund costs directly.",
+          "doudouQuote": "Ask whether the sailing date still holds before switching on the promotion.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "60574c08-6126-581f-8bd2-715d82e0fbe2",
+          "topicId": "d498127f-825d-55aa-ab66-9f04d10e3253",
+          "title": "Panama Canal to cut number of ships passing through due to El Nino",
+          "publisher": "Google News / BBC",
+          "url": "https://news.google.com/rss/search?q=Panama%20Canal%20cut%20number%20ships%20passing%20through%20El%20Nino&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "842538fb-55af-5bc3-b5b4-7ca3962a8b20",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "japan-ai-legal-limits-expert-panel",
+      "rank": 3,
+      "category": "technology",
+      "region": "Asia",
+      "countryCodes": [
+        "JP"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-japan-ai-legal-limits-expert-panel-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "日本澄清AI使用的法律边界并筹备专家组起草规则",
+          "headlineView": "企业应在细则落地前先完成用途、数据和责任人的登记",
+          "headlineFull": "日本澄清AI使用的法律边界并筹备专家组起草规则；企业应在细则落地前先完成用途、数据和责任人的登记",
+          "intro": "日本正在进一步说明AI应用的法律限制，并计划由专家组推进规则设计；向日本用户提供AI功能的团队应盘点训练与输入数据、自动决策场景、人工复核节点、投诉机制和跨境数据流。",
+          "xiaziQuote": "规则尚未定稿，不等于可以等到最后一天才建立证据链。",
+          "doudouQuote": "先画出数据从哪里来、到哪里去，合规就不再只是一页声明。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "Japan clarified legal limits for AI and plans an expert panel to draft rules",
+          "headlineView": "companies should register use cases, data flows and accountable owners before detailed rules arrive",
+          "headlineFull": "Japan clarified legal limits for AI and plans an expert panel to draft rules; companies should register use cases, data flows and accountable owners before detailed rules arrive",
+          "intro": "Japan is clarifying legal boundaries for AI and preparing an expert panel to shape rules; teams offering AI features to Japanese users should inventory training and input data, automated decisions, human review, complaints and cross-border data flows.",
+          "xiaziQuote": "Rules still being drafted are not a reason to wait until the final day to build an evidence trail.",
+          "doudouQuote": "Map where data comes from and where it goes, and compliance becomes more than a statement.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "29e5f228-4d54-513a-ae96-87d75a3edacf",
+          "topicId": "842538fb-55af-5bc3-b5b4-7ca3962a8b20",
+          "title": "Japan clarifies AI legal limits and plans expert panel",
+          "publisher": "Google News / Nation Thailand",
+          "url": "https://news.google.com/rss/search?q=Japan%20clarifies%20AI%20legal%20limits%20expert%20panel%20draft%20rules&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7218bfe0-c703-5a8e-9d80-ae71b79c79fa",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "adobe-ai-creators-business-growth",
+      "rank": 4,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-adobe-ai-creators-business-growth-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "Adobe调查称87%的创作者正在借助AI推动业务增长",
+          "headlineView": "一人公司应把AI从多产内容升级为可衡量的经营系统",
+          "headlineFull": "Adobe调查称87%的创作者正在借助AI推动业务增长；一人公司应把AI从多产内容升级为可衡量的经营系统",
+          "intro": "一项由Adobe披露的调查显示，AI工具已广泛进入创作者的增长工作；独立经营者更应记录每个工具节省的时间、带来的线索和转化，同时保留素材来源、客户数据出口与人工最终判断。",
+          "xiaziQuote": "多产十条内容不是增长，能追到线索、成交与复购才是经营。",
+          "doudouQuote": "给每个AI工具贴上时间、线索和收入三个标签。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "An Adobe survey says 87% of creators are using AI to grow their businesses",
+          "headlineView": "solo companies should turn AI from a content multiplier into a measurable operating system",
+          "headlineFull": "An Adobe survey says 87% of creators are using AI to grow their businesses; solo companies should turn AI from a content multiplier into a measurable operating system",
+          "intro": "A survey highlighted by Adobe shows AI tools are deeply embedded in creator growth; independent operators should track time saved, leads and conversion for each tool while preserving source records, customer-data exports and final human judgment.",
+          "xiaziQuote": "Ten more posts are not growth; leads, sales and repeat customers are the operating proof.",
+          "doudouQuote": "Tag every AI tool with time, leads and revenue.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "bbe51e58-4281-52e2-83e7-df8b37d7aa82",
+          "topicId": "7218bfe0-c703-5a8e-9d80-ae71b79c79fa",
+          "title": "AI is helping 87 percent of creators grow their business",
+          "publisher": "Google News / YourStory",
+          "url": "https://news.google.com/rss/search?q=Adobe%2087%25%20creators%20AI%20grow%20business&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "88804492-b0d6-5e46-ab8a-1cdd9427eef4",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "ukraine-shopping-mall-drone-attack",
+      "rank": 5,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-ukraine-shopping-mall-drone-attack-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "乌克兰战事",
+          "headlineFact": "俄军无人机袭击乌克兰中部一处购物中心造成至少14人死亡",
+          "headlineView": "民用商业空间的暴露再次放大人员疏散与连续经营风险",
+          "headlineFull": "俄军无人机袭击乌克兰中部一处购物中心造成至少14人死亡；民用商业空间的暴露再次放大人员疏散与连续经营风险",
+          "intro": "乌克兰官员称，中部城市一处购物中心遭无人机袭击并造成至少14人死亡；当地企业与援助机构需要同步更新避险路线、员工联络、营业中断、备用支付和紧急物资安排。",
+          "xiaziQuote": "当商业空间成为风险点，连续经营计划首先要保护人，而不是保护营业额。",
+          "doudouQuote": "先确认每个人能离开，再讨论店什么时候重开。",
+          "footerTakeaway": "今日关键词：乌克兰战事。"
+        },
+        "en-US": {
+          "categoryLabel": "War in Ukraine",
+          "headlineFact": "Russian drones struck a shopping mall in central Ukraine, killing at least 14 people",
+          "headlineView": "exposure in civilian commercial spaces again raises evacuation and continuity risks",
+          "headlineFull": "Russian drones struck a shopping mall in central Ukraine, killing at least 14 people; exposure in civilian commercial spaces again raises evacuation and continuity risks",
+          "intro": "Ukrainian officials say a drone attack on a shopping mall in a central city killed at least 14 people; local businesses and aid groups need updated shelter routes, staff contact trees, interruption plans, backup payments and emergency supplies.",
+          "xiaziQuote": "When commercial space becomes a risk point, continuity planning protects people before revenue.",
+          "doudouQuote": "Confirm that everyone can get out before discussing when the doors reopen.",
+          "footerTakeaway": "Keyword: War in Ukraine."
+        }
+      },
+      "sources": [
+        {
+          "id": "5e2844cb-29ce-5b08-837e-0ccb1c075655",
+          "topicId": "88804492-b0d6-5e46-ab8a-1cdd9427eef4",
+          "title": "Russian drones kill 14 at shopping mall in central Ukraine",
+          "publisher": "Google News / AP",
+          "url": "https://news.google.com/rss/search?q=Russian%20drones%20kill%2014%20shopping%20mall%20central%20Ukraine&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "613d3b19-f002-5b6d-903c-aeb47dd7eea1",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "china-indonesia-minerals-energy-tech-ties",
+      "rank": 6,
+      "category": "international",
+      "region": "Asia",
+      "countryCodes": [
+        "CN",
+        "ID"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-china-indonesia-minerals-energy-tech-ties-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中印尼合作",
+          "headlineFact": "中国与印度尼西亚同意加强军事及矿产、能源和科技合作",
+          "headlineView": "区域产业链正把资源安全、技术投资与战略关系绑得更紧",
+          "headlineFull": "中国与印度尼西亚同意加强军事及矿产、能源和科技合作；区域产业链正把资源安全、技术投资与战略关系绑得更紧",
+          "intro": "中印尼宣布扩大军事联系，并在矿产、能源和科技领域推进合作；布局东南亚的企业应同时评估镍等关键原料、当地伙伴、技术转移、政策审查和地缘风险的联动。",
+          "xiaziQuote": "资源合作从来不只是一张采购单，它也连接政策、技术与长期伙伴关系。",
+          "doudouQuote": "看价格之外，也要看矿从哪里来、规则往哪里走。",
+          "footerTakeaway": "今日关键词：中印尼合作。"
+        },
+        "en-US": {
+          "categoryLabel": "China-Indonesia Ties",
+          "headlineFact": "China and Indonesia agreed to deepen military, minerals, energy and technology cooperation",
+          "headlineView": "regional supply chains are tying resource security, technology investment and strategy more tightly together",
+          "headlineFull": "China and Indonesia agreed to deepen military, minerals, energy and technology cooperation; regional supply chains are tying resource security, technology investment and strategy more tightly together",
+          "intro": "China and Indonesia agreed to expand military ties and cooperation in minerals, energy and technology; businesses operating in Southeast Asia should assess critical inputs such as nickel alongside local partners, technology transfer, policy review and geopolitical risk.",
+          "xiaziQuote": "Resource cooperation is never only a purchase order; it links policy, technology and long-term partners.",
+          "doudouQuote": "Beyond the price, check where the mineral comes from and where the rules are moving.",
+          "footerTakeaway": "Keyword: China-Indonesia Ties."
+        }
+      },
+      "sources": [
+        {
+          "id": "2b64615b-472a-5a24-9155-408a7c08c8b1",
+          "topicId": "613d3b19-f002-5b6d-903c-aeb47dd7eea1",
+          "title": "China and Indonesia agree to boost ties in minerals energy and tech",
+          "publisher": "Google News / Reuters",
+          "url": "https://news.google.com/rss/search?q=China%20Indonesia%20boost%20military%20ties%20minerals%20energy%20tech&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "ce2e8d7f-44b0-566d-8278-7e528f43d9fb",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "us-lifts-ground-beef-tariffs-prices",
+      "rank": 7,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-us-lifts-ground-beef-tariffs-prices-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "食品关税",
+          "headlineFact": "美国宣布取消碎牛肉关税以缓解消费者价格压力",
+          "headlineView": "进口成本下降能否传到零售价取决于供应、合同和渠道库存",
+          "headlineFull": "美国宣布取消碎牛肉关税以缓解消费者价格压力；进口成本下降能否传到零售价取决于供应、合同和渠道库存",
+          "intro": "美国宣布调整碎牛肉进口关税，目标是压低食品价格；采购商、餐饮与零售商应分开核算税率变化、在途合同、冷链成本、库存周期和最终货架价，避免把政策宣布误当成立即降价。",
+          "xiaziQuote": "关税下降只是成本链的第一格，消费者看到的价格还要穿过合同与库存。",
+          "doudouQuote": "先算清哪一批货受益，再改菜单和价签。",
+          "footerTakeaway": "今日关键词：食品关税。"
+        },
+        "en-US": {
+          "categoryLabel": "Food Tariffs",
+          "headlineFact": "The United States announced a move to lift ground-beef tariffs to ease consumer prices",
+          "headlineView": "whether lower import costs reach retail depends on supply, contracts and channel inventory",
+          "headlineFull": "The United States announced a move to lift ground-beef tariffs to ease consumer prices; whether lower import costs reach retail depends on supply, contracts and channel inventory",
+          "intro": "The United States announced a tariff change for ground beef aimed at lowering food prices; buyers, restaurants and retailers should separate the tariff effect from in-transit contracts, cold-chain costs, inventory cycles and final shelf pricing.",
+          "xiaziQuote": "A lower tariff is only the first box in the cost chain; contracts and inventory still stand before the consumer price.",
+          "doudouQuote": "Identify which shipment benefits before changing the menu or price tag.",
+          "footerTakeaway": "Keyword: Food Tariffs."
+        }
+      },
+      "sources": [
+        {
+          "id": "bcc25c31-d8f0-5314-95cc-60ad2b0b7a6d",
+          "topicId": "ce2e8d7f-44b0-566d-8278-7e528f43d9fb",
+          "title": "US announces move to lift ground beef tariffs",
+          "publisher": "Google News / New York Times",
+          "url": "https://news.google.com/rss/search?q=US%20lift%20ground%20beef%20tariffs%20lower%20prices&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "5d6d271c-974b-532d-9ddf-9770d7d40e25",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "drc-ebola-spread-vaccine-trial",
+      "rank": 8,
+      "category": "science",
+      "region": "Africa",
+      "countryCodes": [
+        "CD"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-drc-ebola-spread-vaccine-trial-20260822",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "刚果（金）埃博拉",
+          "headlineFact": "刚果（金）埃博拉疫情扩散加快并准备启动疫苗试验",
+          "headlineView": "病例追踪、社区信任与基层接种速度将决定能否切断传播链",
+          "headlineFull": "刚果（金）埃博拉疫情扩散加快并准备启动疫苗试验；病例追踪、社区信任与基层接种速度将决定能否切断传播链",
+          "intro": "卫生机构警告刚果（金）埃博拉疫情正在更快、更广地扩散，并准备推进疫苗试验；应对重点包括及时发现病例、保护医护人员、追踪接触者、维护社区沟通和确保冷链接种。",
+          "xiaziQuote": "疫情曲线变陡时，速度与信任必须同时到达社区。",
+          "doudouQuote": "疫苗到仓不是终点，找到接触者并完成接种才算。",
+          "footerTakeaway": "今日关键词：刚果（金）埃博拉。"
+        },
+        "en-US": {
+          "categoryLabel": "DR Congo Ebola",
+          "headlineFact": "Ebola is spreading faster in DR Congo as a vaccine trial prepares to begin",
+          "headlineView": "case finding, community trust and local vaccination speed will determine whether transmission chains break",
+          "headlineFull": "Ebola is spreading faster in DR Congo as a vaccine trial prepares to begin; case finding, community trust and local vaccination speed will determine whether transmission chains break",
+          "intro": "Health agencies warn that Ebola is spreading faster and wider in DR Congo as preparations advance for a vaccine trial; priorities include rapid detection, protection for health workers, contact tracing, trusted communication and reliable cold-chain delivery.",
+          "xiaziQuote": "When an outbreak curve steepens, speed and trust must reach the community together.",
+          "doudouQuote": "Vaccines arriving at a warehouse is not the finish; contacts must be found and vaccinated.",
+          "footerTakeaway": "Keyword: DR Congo Ebola."
+        }
+      },
+      "sources": [
+        {
+          "id": "ff0ab146-130a-5a9d-aee0-15c94793dd76",
+          "topicId": "5d6d271c-974b-532d-9ddf-9770d7d40e25",
+          "title": "Ebola vaccine trial to start as infections spread in DR Congo",
+          "publisher": "Google News / BBC",
+          "url": "https://news.google.com/rss/search?q=Ebola%20DR%20Congo%20vaccine%20trial%20speed%20infections%20BBC&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f5deb047-cfad-5a4e-9ae2-de872027c290",
+      "issueId": "b00193a1-eadf-58ab-a320-9b2a9851fbb6",
+      "slug": "greenland-glacier-major-ice-loss",
+      "rank": 9,
+      "category": "science",
+      "region": "Arctic",
+      "countryCodes": [
+        "GL"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-greenland-glacier-major-ice-loss-20260822",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "格陵兰冰川",
+          "headlineFact": "欧洲航天局卫星影像显示格陵兰一处冰川出现显著冰量损失",
+          "headlineView": "连续观测正在把遥远冰损转化为沿海规划与保险的现实输入",
+          "headlineFull": "欧洲航天局卫星影像显示格陵兰一处冰川出现显著冰量损失；连续观测正在把遥远冰损转化为沿海规划与保险的现实输入",
+          "intro": "欧洲航天局的Sentinel-1卫星记录到格陵兰冰川显著退缩与冰量损失；长期监测数据可帮助研究者和沿海决策者更新海平面风险、基础设施寿命、保险模型和适应投资。",
+          "xiaziQuote": "冰川变化看似遥远，但它会沿着海平面、资产寿命和保险价格进入城市。",
+          "doudouQuote": "卫星每多看一次，沿海计划就少一点盲区。",
+          "footerTakeaway": "今日关键词：格陵兰冰川。"
+        },
+        "en-US": {
+          "categoryLabel": "Greenland Glacier",
+          "headlineFact": "European Space Agency imagery shows major ice loss from a Greenland glacier",
+          "headlineView": "continuous observation is turning distant ice loss into practical input for coastal planning and insurance",
+          "headlineFull": "European Space Agency imagery shows major ice loss from a Greenland glacier; continuous observation is turning distant ice loss into practical input for coastal planning and insurance",
+          "intro": "Sentinel-1 imagery from the European Space Agency records substantial retreat and ice loss at a Greenland glacier; long-term monitoring can update sea-level risk, infrastructure lifetimes, insurance models and adaptation investment.",
+          "xiaziQuote": "Glacier change looks distant until it enters cities through sea level, asset life and insurance prices.",
+          "doudouQuote": "Every additional satellite view removes one more blind spot from coastal planning.",
+          "footerTakeaway": "Keyword: Greenland Glacier."
+        }
+      },
+      "sources": [
+        {
+          "id": "3fe51576-1ef8-5556-b5f6-e242439860a6",
+          "topicId": "f5deb047-cfad-5a4e-9ae2-de872027c290",
+          "title": "Sentinel-1 captures major ice loss from Greenland glacier",
+          "publisher": "Google News / European Space Agency",
+          "url": "https://news.google.com/rss/search?q=Sentinel-1%20major%20ice%20loss%20Greenland%20glacier%20ESA&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

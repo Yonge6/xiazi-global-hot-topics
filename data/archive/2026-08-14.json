@@ -1,0 +1,525 @@
+{
+  "id": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+  "slug": "2026-08-14",
+  "issueDate": "2026-08-14",
+  "assetVersion": "rel_20260814_add032f488fd4c282fe314a9",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-14T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-13T21:00:00.000Z",
+  "featuredTopicId": "586c4612-5ad8-5902-8ef7-cce0dc08bb06",
+  "style": {
+    "name": "Vaporwave",
+    "zhName": "蒸汽波",
+    "description": "Style Atlas daily pick: a premium vaporwave editorial system with pastel magenta and cyan, dusky violet, chrome accents, retro grid and sunset motifs, sharp data cards and a crisp modern information hierarchy."
+  },
+  "topics": [
+    {
+      "id": "586c4612-5ad8-5902-8ef7-cce0dc08bb06",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "today-overview-tariffs-ai-election-heat",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-tariffs-ai-election-heat-20260814",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "关税、AI、选举与极端天气继续改写日常决策",
+          "headlineView": "八条全球信号需要尽快变成可执行动作",
+          "headlineFull": "关税、AI、选举与极端天气继续改写日常决策；八条全球信号需要尽快变成可执行动作",
+          "intro": "欧盟小包裹税制与Pixel 11 AI进入运营和市场检验，小企业寻找政府订单，赞比亚开始计票；俄乌能源设施攻防、欧洲高温、日食科学与巴基斯坦独立日共同构成今天的全球图景。",
+          "xiaziQuote": "热点的价值不在数量，而在能否把风险和机会压缩成今天可执行的一步。",
+          "doudouQuote": "世界同时亮灯，先抓住最能改变结果的那一条。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Tariffs, AI, elections and extreme weather keep reshaping decisions",
+          "headlineView": "eight global signals must become executable action",
+          "headlineFull": "Tariffs, AI, elections and extreme weather keep reshaping decisions; eight global signals must become executable action",
+          "intro": "EU parcel duties and Pixel 11 AI face operational tests as small firms pursue public contracts and Zambia counts votes; energy strikes, European heat, eclipse science and Pakistan's Independence Day complete today's global picture.",
+          "xiaziQuote": "Hotspots matter when risks and opportunities compress into one executable step for today.",
+          "doudouQuote": "When the world lights up at once, grab the signal that can change the result.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "ddac6e01-4bbd-5918-9111-4d3de0c72575",
+          "topicId": "586c4612-5ad8-5902-8ef7-cce0dc08bb06",
+          "title": "EUR 3 Customs duty - VAT guidelines",
+          "publisher": "European Commission",
+          "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "9636c6b1-121b-5ce9-9bd0-fa8b5205bba8",
+          "topicId": "586c4612-5ad8-5902-8ef7-cce0dc08bb06",
+          "title": "How to Do Business with the U.S. Department of Interior",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/event/86058",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "db3884fd-a2cd-5a5e-adde-c351080bd18f",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "eu-parcel-duty-operating-checklist",
+      "rank": 2,
+      "category": "business",
+      "region": "European Union",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-parcel-duty-operating-checklist-20260814",
+      "storyStatus": "followup",
+      "followupDay": 5,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟3欧元小包裹税进入第七周实操检验",
+          "headlineView": "分类、合单与前台税费必须保持一致",
+          "headlineFull": "欧盟3欧元小包裹税进入第七周实操检验；分类、合单与前台税费必须保持一致",
+          "intro": "欧盟对150欧元以下进口包裹按不同商品类别临时征收3欧元关税；卖家应把HS编码、合单规则、结账税费、退货与本地仓毛利放进同一张运营表。",
+          "xiaziQuote": "跨境利润越来越取决于商品数据能否准确穿过结账、物流和清关。",
+          "doudouQuote": "错一张分类标签，可能整箱利润都在海关掉线。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "EU three-euro parcel duty enters its seventh operating test",
+          "headlineView": "classification, consolidation and checkout tax must align",
+          "headlineFull": "EU three-euro parcel duty enters its seventh operating test; classification, consolidation and checkout tax must align",
+          "intro": "The EU temporarily charges EUR3 for each distinct item category in parcels worth up to EUR150; sellers should align HS codes, consolidation, checkout tax, returns and local-warehouse margins in one operating sheet.",
+          "xiaziQuote": "Cross-border margin increasingly depends on product data moving accurately through checkout, logistics and customs.",
+          "doudouQuote": "One wrong classification tag can disconnect a whole box of margin at the border.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "b2b937a0-4cde-501d-8c5a-5042ab067fd2",
+          "topicId": "db3884fd-a2cd-5a5e-adde-c351080bd18f",
+          "title": "EUR 3 Customs duty - VAT guidelines",
+          "publisher": "European Commission",
+          "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "655dbc18-aeba-5ce4-a911-be292283a8b6",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "pixel-11-ai-preorder-test",
+      "rank": 3,
+      "category": "technology",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-pixel-11-ai-preorder-test-20260814",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "Pixel 11把更多AI功能带入预订市场",
+          "headlineView": "真实任务、隐私与留存开始接受检验",
+          "headlineFull": "Pixel 11把更多AI功能带入预订市场；真实任务、隐私与留存开始接受检验",
+          "intro": "Google发布Pixel 11系列，以更纤薄相机和更多AI功能减少点击与滑动；竞争焦点正从发布会演示转向每天是否省步骤、是否可控以及用户是否愿意长期使用。",
+          "xiaziQuote": "AI硬件的护城河不是功能清单，而是每天省下一步并让用户保持控制。",
+          "doudouQuote": "舞台上一秒很惊艳，口袋里每一天才决定留下。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "Pixel 11 brings more AI features into the preorder market",
+          "headlineView": "real tasks, privacy and retention now face a test",
+          "headlineFull": "Pixel 11 brings more AI features into the preorder market; real tasks, privacy and retention now face a test",
+          "intro": "Google unveiled Pixel 11 phones with slimmer cameras and more AI features designed to reduce taps and swipes, shifting competition from keynote demos to daily usefulness, user control and lasting adoption.",
+          "xiaziQuote": "The moat in AI hardware is not a feature list; it is saving a step every day while keeping users in control.",
+          "doudouQuote": "One stage second can amaze, but every day in a pocket decides what stays.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "1a209d9a-5a6b-5a11-aa7e-22f16f6e6bed",
+          "topicId": "655dbc18-aeba-5ce4-a911-be292283a8b6",
+          "title": "Google's Pixel 11 launch event is set for August 12",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a6570f8a-4a2f-5f98-95d7-eb212d20a33c",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "solo-business-federal-contracting-path",
+      "rank": 4,
+      "category": "business",
+      "region": "United States",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-solo-business-federal-contracting-path-20260814",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "美国小企业今天学习进入联邦采购",
+          "headlineView": "一人公司要把机会变成资格与投标节奏",
+          "headlineFull": "美国小企业今天学习进入联邦采购；一人公司要把机会变成资格与投标节奏",
+          "intro": "美国小企业管理局8月14日举办面向内政部采购的线上课程，覆盖采购路径、部门需求、机会预测和投标步骤；单人经营者可据此建立资格、机会表和固定跟进节奏。",
+          "xiaziQuote": "一人公司拿政府订单，不靠广撒网，而靠资格、证据和持续跟进形成复利。",
+          "doudouQuote": "机会不是链接收藏夹，得变成下一步和截止日。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "US small businesses learn a path into federal procurement today",
+          "headlineView": "solo firms must turn opportunity into qualification and cadence",
+          "headlineFull": "US small businesses learn a path into federal procurement today; solo firms must turn opportunity into qualification and cadence",
+          "intro": "An SBA online session on August 14 covers procurement pathways, agency demand, forecasts and bidding steps for Department of the Interior contracts, giving solo firms a basis for qualification, pipeline tracking and follow-up.",
+          "xiaziQuote": "Solo firms compound government-contract chances through qualification, evidence and consistent follow-up, not broad outreach.",
+          "doudouQuote": "An opportunity is not a saved link; it needs a next step and deadline.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "ed8c5cb3-4da4-5eb2-8349-5bd2823ee80a",
+          "topicId": "a6570f8a-4a2f-5f98-95d7-eb212d20a33c",
+          "title": "How to Do Business with the U.S. Department of Interior",
+          "publisher": "U.S. Small Business Administration",
+          "url": "https://www.sba.gov/event/86058",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "58216e1b-b61f-5d58-92f8-b83829bed9f1",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "zambia-election-counting-begins",
+      "rank": 5,
+      "category": "international",
+      "region": "Africa",
+      "countryCodes": [
+        "ZM"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-zambia-election-counting-begins-20260814",
+      "storyStatus": "followup",
+      "followupDay": 5,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球选举",
+          "headlineFact": "赞比亚投票结束后进入全国计票",
+          "headlineView": "结果链条与生活成本共同接受检验",
+          "headlineFull": "赞比亚投票结束后进入全国计票；结果链条与生活成本共同接受检验",
+          "intro": "赞比亚总统、议会和地方选举结束投票后开始计票，约800万选民参与；官方结果预计下周公布，程序透明度与选民对生活成本的判断成为焦点。",
+          "xiaziQuote": "选举信任来自每张结果表都能被解释、传递和复核。",
+          "doudouQuote": "投票箱关上了，透明度的考验才刚开始。",
+          "footerTakeaway": "今日关键词：全球选举。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Elections",
+          "headlineFact": "Zambia begins nationwide counting after polls close",
+          "headlineView": "the results chain and cost-of-living judgment face a test",
+          "headlineFull": "Zambia begins nationwide counting after polls close; the results chain and cost-of-living judgment face a test",
+          "intro": "Counting began after Zambia voted for president, parliament and local offices, with about eight million registered voters; official results are expected next week as transparency and cost-of-living concerns dominate attention.",
+          "xiaziQuote": "Election trust comes from every results sheet being explainable, transferable and reviewable.",
+          "doudouQuote": "The ballot boxes are closed; the transparency test has just begun.",
+          "footerTakeaway": "Keyword: Global Elections."
+        }
+      },
+      "sources": [
+        {
+          "id": "fce462e6-236f-5706-8566-7d1a3c1f49a9",
+          "topicId": "58216e1b-b61f-5d58-92f8-b83829bed9f1",
+          "title": "2026 Elections Timetable",
+          "publisher": "Electoral Commission of Zambia",
+          "url": "https://www.elections.org.zm/wp-content/uploads/2026-Elections-Timetable-14-August-2025-30-days.pdf",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2dd575e3-8845-5e51-821e-7388af258ecf",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "ukraine-strikes-russian-refinery",
+      "rank": 6,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-ukraine-strikes-russian-refinery-20260814",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "俄乌战事",
+          "headlineFact": "俄乌远程打击持续把炼油设施推向前线",
+          "headlineView": "能源能力成为战场与经济压力的交点",
+          "headlineFull": "俄乌远程打击持续把炼油设施推向前线；能源能力成为战场与经济压力的交点",
+          "intro": "乌克兰持续以远程无人机打击俄罗斯炼油设施，莫斯科炼油厂等目标曾起火并影响机场运行；炼油能力、燃料供应与谈判压力彼此牵动。",
+          "xiaziQuote": "当能源设施成为目标，战场影响会沿供应、价格和信心向外扩散。",
+          "doudouQuote": "火在炼厂里烧，账单可能在很远的地方冒烟。",
+          "footerTakeaway": "今日关键词：俄乌战事。"
+        },
+        "en-US": {
+          "categoryLabel": "Russia-Ukraine War",
+          "headlineFact": "Long-range strikes keep Russian refineries near the front line",
+          "headlineView": "energy capacity links battlefield and economic pressure",
+          "headlineFull": "Long-range strikes keep Russian refineries near the front line; energy capacity links battlefield and economic pressure",
+          "intro": "Ukraine's continuing long-range drone campaign has hit Russian refining infrastructure, including a Moscow refinery fire that disrupted airport operations, tying refining capacity, fuel supply and negotiating pressure together.",
+          "xiaziQuote": "When energy infrastructure becomes a target, battlefield effects spread through supply, prices and confidence.",
+          "doudouQuote": "A refinery burns here, and bills can smoke far away.",
+          "footerTakeaway": "Keyword: Russia-Ukraine War."
+        }
+      },
+      "sources": [
+        {
+          "id": "d1e39181-8cf0-5f12-be65-b604ea61f02a",
+          "topicId": "2dd575e3-8845-5e51-821e-7388af258ecf",
+          "title": "Moscow oil refinery struck in Ukraine's biggest air raid on city since start of war",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/18/moscow-oil-refinery-on-fire-ukraine-drone-stikes",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2fa5ece2-18ba-5c79-ab08-bb93961a473f",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "western-europe-record-heat",
+      "rank": 7,
+      "category": "climate",
+      "region": "Europe",
+      "countryCodes": [
+        "GB",
+        "FR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-western-europe-record-heat-20260814",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候与山火",
+          "headlineFact": "英国录得年度最高温，西欧继续酷热",
+          "headlineView": "健康、电网与消防风险同时升高",
+          "headlineFull": "英国录得年度最高温，西欧继续酷热；健康、电网与消防风险同时升高",
+          "intro": "英国西伦敦气温达到38.1摄氏度，创今年新高；法国多地接近41摄氏度，干旱与火情同步加剧，个人防护和城市基础设施都进入连续压力测试。",
+          "xiaziQuote": "极端高温不是一个天气数字，而是同时压向健康、电力、交通和消防的系统风险。",
+          "doudouQuote": "温度升一格，城市检查表就多开几页。",
+          "footerTakeaway": "今日关键词：气候与山火。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate and Wildfires",
+          "headlineFact": "UK records its hottest day of the year as western Europe swelters",
+          "headlineView": "health, grid and fire risks rise together",
+          "headlineFull": "UK records its hottest day of the year as western Europe swelters; health, grid and fire risks rise together",
+          "intro": "West London reached 38.1 C, the UK's highest temperature of 2026, while parts of France approached 41 C; drought and fires are turning personal protection and urban infrastructure into one sustained stress test.",
+          "xiaziQuote": "Extreme heat is not one weather number; it presses health, power, transport and firefighting at once.",
+          "doudouQuote": "When temperature rises one notch, the city checklist gains several pages.",
+          "footerTakeaway": "Keyword: Climate and Wildfires."
+        }
+      },
+      "sources": [
+        {
+          "id": "0d35671c-48b3-5f5d-9da0-58a95190b17d",
+          "topicId": "2fa5ece2-18ba-5c79-ab08-bb93961a473f",
+          "title": "UK daily weather extremes",
+          "publisher": "Met Office",
+          "url": "https://weather.metoffice.gov.uk/observations/weather-extremes",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "7d020d3a-0641-5265-8aa3-977a611df9c7",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "europe-total-eclipse-science-review",
+      "rank": 8,
+      "category": "science",
+      "region": "Europe and Arctic",
+      "countryCodes": [
+        "ES",
+        "IS",
+        "PT"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-europe-total-eclipse-science-review-20260814",
+      "storyStatus": "followup",
+      "followupDay": 3,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "空间科学",
+          "headlineFact": "欧洲世纪日全食转入科学数据复盘",
+          "headlineView": "高空观测正在拆解日冕与大气变化",
+          "headlineFull": "欧洲世纪日全食转入科学数据复盘；高空观测正在拆解日冕与大气变化",
+          "intro": "8月12日日全食横跨格陵兰、冰岛、西班牙等地，西班牙迎来百余年来首次日全食；NASA用高空飞机和学生气球观测日冕及短时变暗对大气的影响。",
+          "xiaziQuote": "一次两分钟的黑暗，可以给太阳与地球系统留下多年可研究的数据。",
+          "doudouQuote": "天空关灯两分钟，科学家把每一秒都存了下来。",
+          "footerTakeaway": "今日关键词：空间科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Science",
+          "headlineFact": "Europe's century eclipse moves into scientific review",
+          "headlineView": "high-altitude observations unpack corona and atmosphere changes",
+          "headlineFull": "Europe's century eclipse moves into scientific review; high-altitude observations unpack corona and atmosphere changes",
+          "intro": "The August 12 total eclipse crossed Greenland, Iceland, Spain and Portugal, giving Spain its first total eclipse in over a century as NASA aircraft and student balloons observed the corona and atmospheric response.",
+          "xiaziQuote": "Two minutes of darkness can leave years of data about the Sun-Earth system.",
+          "doudouQuote": "The sky switched off briefly, and scientists saved every second.",
+          "footerTakeaway": "Keyword: Space Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "84901ef0-9c7c-5ee3-9645-712fd714478b",
+          "topicId": "7d020d3a-0641-5265-8aa3-977a611df9c7",
+          "title": "Total solar eclipse of August 12, 2026",
+          "publisher": "National Geographic Institute of Spain",
+          "url": "https://astronomia.ign.es/en/eclipses-de-sol-y-luna/eclipse-total-sol-de-12-de-agosto-2026",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "85997658-4ea8-5dd9-9e37-c9fa9bb9c114",
+      "issueId": "9aea0de8-e3e1-5b68-beb2-ee0e53e46fe6",
+      "slug": "pakistan-independence-day-2026",
+      "rank": 9,
+      "category": "international",
+      "region": "South Asia",
+      "countryCodes": [
+        "PK"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-pakistan-independence-day-2026-20260814",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 89,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "南亚观察",
+          "headlineFact": "巴基斯坦今天纪念独立日",
+          "headlineView": "国家叙事与现实治理同台接受审视",
+          "headlineFull": "巴基斯坦今天纪念独立日；国家叙事与现实治理同台接受审视",
+          "intro": "巴基斯坦8月14日纪念1947年独立，政府机构与海外使团按公共假日安排举行纪念活动；在区域安全与经济压力下，团结、发展和公共信任仍是现实议题。",
+          "xiaziQuote": "纪念历史的意义，不只在回望起点，也在检验今天能否兑现共同承诺。",
+          "doudouQuote": "旗帜升起来，接下来要看生活有没有一起向上。",
+          "footerTakeaway": "今日关键词：南亚观察。"
+        },
+        "en-US": {
+          "categoryLabel": "South Asia Watch",
+          "headlineFact": "Pakistan marks Independence Day today",
+          "headlineView": "national memory and present governance share the stage",
+          "headlineFull": "Pakistan marks Independence Day today; national memory and present governance share the stage",
+          "intro": "Pakistan observes its August 14 Independence Day marking the creation of the state in 1947, with public institutions and overseas missions on holiday as unity, development and public trust remain live questions.",
+          "xiaziQuote": "Remembering history means not only revisiting the beginning but testing whether shared promises are delivered today.",
+          "doudouQuote": "The flag rises; now see whether daily life rises with it.",
+          "footerTakeaway": "Keyword: South Asia Watch."
+        }
+      },
+      "sources": [
+        {
+          "id": "3d080a14-a794-5548-a7a4-b4fa610fb3f1",
+          "topicId": "85997658-4ea8-5dd9-9e37-c9fa9bb9c114",
+          "title": "Washington - Holidays 2026",
+          "publisher": "Ministry of Foreign Affairs, Government of Pakistan",
+          "url": "https://mofa.gov.pk/washington-holidays",
+          "publishedAt": "2026-08-14T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

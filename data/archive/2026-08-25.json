@@ -1,0 +1,526 @@
+{
+  "id": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+  "slug": "2026-08-25",
+  "issueDate": "2026-08-25",
+  "assetVersion": "rel_20260825_6dd824c15dac8edacd6ee178",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-08-25T05:00:00+08:00",
+  "gmtTimestamp": "2026-08-24T21:00:00.000Z",
+  "featuredTopicId": "eb9343fc-fc41-5f2b-8239-f2e5b9dbdbf2",
+  "style": {
+    "name": "Grunge",
+    "zhName": "垃圾摇滚风格",
+    "description": "Style Atlas daily pick: Grunge for global-news posters, using distressed paper, scraped ink, rough halftones, torn layers and dirty black, rust-red and bone-white tones. Facts, data, scenes and information graphics dominate; Xiazi and Doudou stay small at the edges."
+  },
+  "topics": [
+    {
+      "id": "eb9343fc-fc41-5f2b-8239-f2e5b9dbdbf2",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "today-overview-sanctions-commerce-ai-safety-governance",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-today-overview-sanctions-commerce-ai-solo-safety-elections-culture-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "八个信号把制裁、跨境电商、国防AI、独立经营、平台合规、城市安全、选举与文物返还连成一张风险图",
+          "headlineView": "经营者今天要同时校准交易对象、数据边界、平台责任和现场预案",
+          "headlineFull": "八个信号把制裁、跨境电商、国防AI、独立经营、平台合规、城市安全、选举与文物返还连成一张风险图；经营者今天要同时校准交易对象、数据边界、平台责任和现场预案",
+          "intro": "美国扩大对伊朗关联交易的二级制裁风险，韩国跨境电商登记与英乌AI合作改变合规和技术边界；新西兰社媒法案、几内亚垃圾场滑坡、哈萨克斯坦选举和埃及文物返还补齐公共治理信号。",
+          "xiaziQuote": "热点真正改变的不是情绪，而是下一张清单里的责任人。",
+          "doudouQuote": "先查交易对象和关键流程，再决定今天改什么。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Eight signals connect sanctions, cross-border commerce, defence AI, solo business, platform rules, urban safety, elections and cultural return",
+          "headlineView": "operators need to recalibrate counterparties, data boundaries, platform duties and emergency plans",
+          "headlineFull": "Eight signals connect sanctions, cross-border commerce, defence AI, solo business, platform rules, urban safety, elections and cultural return; operators need to recalibrate counterparties, data boundaries, platform duties and emergency plans",
+          "intro": "The United States expanded secondary-sanctions risk around Iran-related activity, while South Korean e-commerce registration and a UK-Ukraine AI partnership shift compliance and technology boundaries; New Zealand online-safety rules, a Guinea landfill collapse, Kazakhstan's election and Egyptian artifact returns complete the governance map.",
+          "xiaziQuote": "News changes more than mood; it changes who owns the next checklist.",
+          "doudouQuote": "Check counterparties and critical workflows before choosing today's fix.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "e7fe77df-4447-5799-b5c2-9fdeef83eb97",
+          "topicId": "eb9343fc-fc41-5f2b-8239-f2e5b9dbdbf2",
+          "title": "U.S. Treasury launches Operation Economic Outcast against Iran-linked activity",
+          "publisher": "Google News / U.S. Treasury coverage",
+          "url": "https://news.google.com/rss/search?q=US%20Treasury%20Operation%20Economic%20Outcast%20Iran%20August%2024%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "30809e30-0793-5672-8b1f-951a7de050ad",
+          "topicId": "eb9343fc-fc41-5f2b-8239-f2e5b9dbdbf2",
+          "title": "Joint Declaration of Intent on a UK-Ukraine Artificial Intelligence Partnership",
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/joint-declaration-of-intent-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-ukraine-on-a-uk-ukraine-artificial-intelligence-partn",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "83c34e62-be94-5edf-ad06-65e5e3a5725d",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "south-korea-cross-border-ecommerce-registration-number",
+      "rank": 2,
+      "category": "business",
+      "region": "Asia",
+      "countryCodes": [
+        "KR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-south-korea-cross-border-ecommerce-registration-number-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "韩国要求跨境电商企业登记专用识别号，物流商已发布申报提醒",
+          "headlineView": "卖家要让主体登记、订单资料、承运申报与退件信息使用同一套身份数据",
+          "headlineFull": "韩国要求跨境电商企业登记专用识别号，物流商已发布申报提醒；卖家要让主体登记、订单资料、承运申报与退件信息使用同一套身份数据",
+          "intro": "FedEx于8月17日发布韩国监管提醒，跨境电商企业识别号成为清关资料链中的关键字段；面向韩国市场的卖家应核对登记主体、平台店铺、运单与报关委托的一致性。",
+          "xiaziQuote": "跨境增长先经过身份一致性，再经过广告转化率。",
+          "doudouQuote": "抽查十票订单，看看四个系统里的主体名称是否相同。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "South Korea requires a dedicated business identification number for cross-border e-commerce operators",
+          "headlineView": "seller registration, order records, carrier declarations and returns need one consistent identity layer",
+          "headlineFull": "South Korea requires a dedicated business identification number for cross-border e-commerce operators; seller registration, order records, carrier declarations and returns need one consistent identity layer",
+          "intro": "A FedEx regulatory alert posted on August 17 flags the identification number as a key customs-data field; sellers serving South Korea should reconcile the registered entity across marketplaces, waybills and customs authorisations.",
+          "xiaziQuote": "Cross-border growth passes identity consistency before ad conversion.",
+          "doudouQuote": "Audit ten orders and compare the entity name across four systems.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "81ae9609-c1ee-59a3-b0d4-6e490daa2b9c",
+          "topicId": "83c34e62-be94-5edf-ad06-65e5e3a5725d",
+          "title": "Regulatory alert: South Korea mandatory registration of cross-border e-commerce business identification number",
+          "publisher": "FedEx",
+          "url": "https://www.fedex.com/en-us/regulatory-news.html",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "9a09e418-26ef-5b0b-8adb-5bc192e277ab",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "uk-ukraine-defence-ai-partnership",
+      "rank": 3,
+      "category": "technology",
+      "region": "Europe",
+      "countryCodes": [
+        "GB",
+        "UA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-uk-ukraine-defence-ai-partnership-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "英国与乌克兰签署国防AI合作意向，建立政府、产业和学术三条协作支柱",
+          "headlineView": "高风险AI合作必须把主权数据、知识产权、出口管制与系统保证同步设计",
+          "headlineFull": "英国与乌克兰签署国防AI合作意向，建立政府、产业和学术三条协作支柱；高风险AI合作必须把主权数据、知识产权、出口管制与系统保证同步设计",
+          "intro": "双方计划围绕共研模型、安全数据与算力通道、联合保证、自治系统和合成数据推进试点，并强调北约互操作性；这说明AI项目的价值与治理边界正在同一份协议里被定义。",
+          "xiaziQuote": "越接近真实行动的AI，越不能把治理留到部署以后。",
+          "doudouQuote": "先写清数据归属、停止条件和谁能批准上线。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "The UK and Ukraine signed a defence-AI partnership built on government, industry and academic collaboration",
+          "headlineView": "high-risk AI programs need sovereignty, IP, export controls and assurance designed together",
+          "headlineFull": "The UK and Ukraine signed a defence-AI partnership built on government, industry and academic collaboration; high-risk AI programs need sovereignty, IP, export controls and assurance designed together",
+          "intro": "The partners plan pilots spanning co-developed models, secure data and compute pathways, joint assurance, autonomy and synthetic data, with NATO interoperability in scope; capability and governance are being defined in the same framework.",
+          "xiaziQuote": "The closer AI gets to real action, the less governance can wait until deployment.",
+          "doudouQuote": "Define data ownership, stop conditions and launch authority first.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "83fb86f1-390f-5a87-8984-0778feaee74a",
+          "topicId": "9a09e418-26ef-5b0b-8adb-5bc192e277ab",
+          "title": "Joint Declaration of Intent on a UK-Ukraine Artificial Intelligence Partnership",
+          "publisher": "GOV.UK",
+          "url": "https://www.gov.uk/government/news/joint-declaration-of-intent-between-the-united-kingdom-of-great-britain-and-northern-ireland-and-ukraine-on-a-uk-ukraine-artificial-intelligence-partn",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1d86bf02-f3a2-560c-860e-a35961aaf773",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "uk-small-business-sales-and-jobs-data",
+      "rank": 4,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-uk-small-business-sales-and-jobs-data-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "英国统计局开始用Xero月度数据观察小企业销售与就业变化",
+          "headlineView": "独立经营者应把现金到账、复购和交付小时做成比宏观叙事更快的经营仪表盘",
+          "headlineFull": "英国统计局开始用Xero月度数据观察小企业销售与就业变化；独立经营者应把现金到账、复购和交付小时做成比宏观叙事更快的经营仪表盘",
+          "intro": "该实验性官方数据集按月追踪小企业销售与岗位变化，并按季度更新；对一人公司而言，最有用的对应动作是建立同频指标，避免只用关注量或总营收判断业务健康。",
+          "xiaziQuote": "小生意的领先指标，往往藏在到账速度和交付负荷里。",
+          "doudouQuote": "每周只盯三项：现金、复购、每单小时。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "The UK statistics office is using monthly Xero data to track small-business sales and jobs",
+          "headlineView": "solo operators need a faster dashboard for cash received, repeat purchase and delivery hours",
+          "headlineFull": "The UK statistics office is using monthly Xero data to track small-business sales and jobs; solo operators need a faster dashboard for cash received, repeat purchase and delivery hours",
+          "intro": "The experimental official dataset tracks monthly changes in small-business sales and employment with quarterly updates; one-person companies can mirror that cadence with operational measures instead of relying only on audience size or gross revenue.",
+          "xiaziQuote": "A small business's leading indicators often hide in cash speed and delivery load.",
+          "doudouQuote": "Track only three weekly numbers: cash, repeats and hours per order.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "994ecc3f-2c3e-5e92-b9c1-724b3b2a0e4a",
+          "topicId": "1d86bf02-f3a2-560c-860e-a35961aaf773",
+          "title": "Sales and jobs in small businesses",
+          "publisher": "UK Office for National Statistics",
+          "url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/salesandjobsinsmallbusinesses/current",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "eba5aa4c-cd59-58c1-b4e4-12645ba0253f",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "new-zealand-under-sixteen-social-media-bill",
+      "rank": 5,
+      "category": "technology",
+      "region": "Oceania",
+      "countryCodes": [
+        "NZ"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-new-zealand-under-sixteen-social-media-bill-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "平台治理",
+          "headlineFact": "新西兰提交网络安全法案，拟禁止16岁以下使用高风险社交平台",
+          "headlineView": "平台的年龄核验、儿童风险评估和报告义务正在成为产品基础设施",
+          "headlineFull": "新西兰提交网络安全法案，拟禁止16岁以下使用高风险社交平台；平台的年龄核验、儿童风险评估和报告义务正在成为产品基础设施",
+          "intro": "法案要求高风险平台采取合理年龄核验措施，并定期评估与降低儿童风险；违规企业最高可面临全球营收10%的罚款，AI陪伴平台也被纳入监管框架。",
+          "xiaziQuote": "儿童安全一旦进入法律责任，产品默认值就必须改变。",
+          "doudouQuote": "把年龄、推荐和举报链路画成一张责任图。",
+          "footerTakeaway": "今日关键词：平台治理。"
+        },
+        "en-US": {
+          "categoryLabel": "Platform Governance",
+          "headlineFact": "New Zealand introduced an online-safety bill to bar under-16s from high-risk social platforms",
+          "headlineView": "age assurance, child-risk assessment and reporting are becoming core product infrastructure",
+          "headlineFull": "New Zealand introduced an online-safety bill to bar under-16s from high-risk social platforms; age assurance, child-risk assessment and reporting are becoming core product infrastructure",
+          "intro": "The bill requires reasonable age checks and recurring assessments of risks to children; non-compliant companies could face penalties up to 10 percent of global revenue, and AI companion platforms are included in the framework.",
+          "xiaziQuote": "Once child safety becomes legal responsibility, product defaults must change.",
+          "doudouQuote": "Map age, recommendation and reporting as one chain of accountability.",
+          "footerTakeaway": "Keyword: Platform Governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "8a698a90-4a4f-5c68-97ee-2ba8c014659c",
+          "topicId": "eba5aa4c-cd59-58c1-b4e4-12645ba0253f",
+          "title": "New Zealand moves to ban under-16s from social media",
+          "publisher": "Google News / New Zealand Government coverage",
+          "url": "https://news.google.com/rss/search?q=New%20Zealand%20under%2016%20social%20media%20bill%20August%2024%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a016392f-f69c-541c-afed-5229620e3235",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "us-operation-economic-outcast-iran-sanctions",
+      "rank": 6,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "US",
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-us-operation-economic-outcast-iran-sanctions-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "制裁合规",
+          "headlineFact": "美国启动针对伊朗经济联系的新行动，并扩大相关交易的二级制裁风险",
+          "headlineView": "企业需要穿透核查客户、银行、船舶、货权与最终受益人，而不只看直接交易方",
+          "headlineFull": "美国启动针对伊朗经济联系的新行动，并扩大相关交易的二级制裁风险；企业需要穿透核查客户、银行、船舶、货权与最终受益人，而不只看直接交易方",
+          "intro": "美国财政部称新行动覆盖伊朗相关石油、航运、银行和武器网络，并警告参与特定交易的外国金融机构可能被限制美元往来；贸易和支付团队应更新筛查与升级机制。",
+          "xiaziQuote": "制裁风险最危险的地方，往往在第二层关系而不是合同首页。",
+          "doudouQuote": "为高风险订单补查银行、船舶和最终受益人。",
+          "footerTakeaway": "今日关键词：制裁合规。"
+        },
+        "en-US": {
+          "categoryLabel": "Sanctions Compliance",
+          "headlineFact": "The United States launched a new campaign against Iran-linked economic activity and widened secondary-sanctions risk",
+          "headlineView": "companies need to screen customers, banks, vessels, title to goods and beneficial owners beyond direct counterparties",
+          "headlineFull": "The United States launched a new campaign against Iran-linked economic activity and widened secondary-sanctions risk; companies need to screen customers, banks, vessels, title to goods and beneficial owners beyond direct counterparties",
+          "intro": "The Treasury campaign targets Iran-linked oil, shipping, banking and weapons networks and warns that foreign financial institutions facilitating certain transactions may lose access to US correspondent accounts; trade and payments teams should update escalation rules.",
+          "xiaziQuote": "Sanctions risk often sits in the second relationship, not on the contract cover.",
+          "doudouQuote": "Add banks, vessels and beneficial owners to high-risk order checks.",
+          "footerTakeaway": "Keyword: Sanctions Compliance."
+        }
+      },
+      "sources": [
+        {
+          "id": "a0a36b7b-ee35-52b7-9541-bf611288e63b",
+          "topicId": "a016392f-f69c-541c-afed-5229620e3235",
+          "title": "U.S. Treasury launches Operation Economic Outcast against Iran-linked activity",
+          "publisher": "Google News / U.S. Treasury coverage",
+          "url": "https://news.google.com/rss/search?q=US%20Treasury%20Operation%20Economic%20Outcast%20Iran%20August%2024%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "be052660-167e-5e1a-aa18-8dc28e130af1",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "guinea-conakry-landfill-landslide",
+      "rank": 7,
+      "category": "climate",
+      "region": "Africa",
+      "countryCodes": [
+        "GN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-guinea-conakry-landfill-landslide-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "城市安全",
+          "headlineFact": "几内亚首都垃圾场在暴雨后滑坡，造成30人死亡、至少6人重伤",
+          "headlineView": "高风险城市设施必须把关闭决定、居民迁移和极端天气预警连成一条执行链",
+          "headlineFull": "几内亚首都垃圾场在暴雨后滑坡，造成30人死亡、至少6人重伤；高风险城市设施必须把关闭决定、居民迁移和极端天气预警连成一条执行链",
+          "intro": "达累斯萨拉姆露天垃圾场的废弃物山体坍塌，掩埋周边棚屋并摧毁住宅；该地点原计划当天关闭，事故凸显已识别风险与实际撤离之间的执行缺口。",
+          "xiaziQuote": "风险被写进通知，不等于居民已经离开危险区。",
+          "doudouQuote": "预案要记录谁确认、谁撤离、谁复核。",
+          "footerTakeaway": "今日关键词：城市安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Urban Safety",
+          "headlineFact": "A rain-triggered landfill landslide in Guinea's capital killed 30 people and seriously injured at least six",
+          "headlineView": "high-risk urban sites need one execution chain linking closure, relocation and extreme-weather warnings",
+          "headlineFull": "A rain-triggered landfill landslide in Guinea's capital killed 30 people and seriously injured at least six; high-risk urban sites need one execution chain linking closure, relocation and extreme-weather warnings",
+          "intro": "A waste mound at Conakry's Dar Es Salam dump collapsed onto nearby shelters and destroyed homes; the site had been scheduled to close that day, exposing the gap between identifying danger and completing evacuation.",
+          "xiaziQuote": "A risk written in a notice does not mean people have left the danger zone.",
+          "doudouQuote": "Plans must name who confirms, who evacuates and who verifies.",
+          "footerTakeaway": "Keyword: Urban Safety."
+        }
+      },
+      "sources": [
+        {
+          "id": "5665b3bf-7e24-5d37-b2bb-739c2bee2fca",
+          "topicId": "be052660-167e-5e1a-aa18-8dc28e130af1",
+          "title": "Landslide at landfill in Guinea kills 30 people",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Guinea%20landfill%20landslide%2030%20people%20August%2023%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "627d6f79-7a25-5857-9a7b-0b694c9ee844",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "kazakhstan-adilet-parliamentary-election",
+      "rank": 8,
+      "category": "international",
+      "region": "Central Asia",
+      "countryCodes": [
+        "KZ"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-kazakhstan-adilet-parliamentary-election-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "政治治理",
+          "headlineFact": "哈萨克斯坦初步结果显示执政阵营正义党在议会选举中获得约71%选票",
+          "headlineView": "高度集中的政治结果会影响政策连续性，也会放大机构制衡与市场准入判断",
+          "headlineFull": "哈萨克斯坦初步结果显示执政阵营正义党在议会选举中获得约71%选票；高度集中的政治结果会影响政策连续性，也会放大机构制衡与市场准入判断",
+          "intro": "中央选举委员会公布的初步结果显示，新成立的正义党取得压倒性领先；面向中亚经营的团队应同时评估政策稳定、监管集中度、伙伴选择和合规升级路径。",
+          "xiaziQuote": "稳定性和集中度常常同时上升，判断不能只看其中一面。",
+          "doudouQuote": "把政策连续性和机构制衡分别打分。",
+          "footerTakeaway": "今日关键词：政治治理。"
+        },
+        "en-US": {
+          "categoryLabel": "Political Governance",
+          "headlineFact": "Preliminary results gave Kazakhstan's pro-government Adilet party about 71 percent of the parliamentary vote",
+          "headlineView": "a concentrated result can increase policy continuity while raising questions about checks and market access",
+          "headlineFull": "Preliminary results gave Kazakhstan's pro-government Adilet party about 71 percent of the parliamentary vote; a concentrated result can increase policy continuity while raising questions about checks and market access",
+          "intro": "The central election commission's preliminary count put the newly formed Adilet party far ahead; teams operating in Central Asia should assess policy stability, regulatory concentration, partner selection and compliance escalation together.",
+          "xiaziQuote": "Stability and concentration often rise together; judging only one side is incomplete.",
+          "doudouQuote": "Score policy continuity and institutional checks separately.",
+          "footerTakeaway": "Keyword: Political Governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "13772718-126d-553c-bedb-93c411574885",
+          "topicId": "627d6f79-7a25-5857-9a7b-0b694c9ee844",
+          "title": "Kazakhstan pro-government party wins parliamentary election",
+          "publisher": "Google News / Associated Press",
+          "url": "https://news.google.com/rss/search?q=Kazakhstan%20Adilet%2071%25%20parliamentary%20election%20August%2024%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "wire",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "214e7d97-697b-5490-b4bf-f7c9a292df18",
+      "issueId": "be9a281d-d177-5da9-97ad-1b335b863b1a",
+      "slug": "fbi-returns-egyptian-artifacts",
+      "rank": 9,
+      "category": "international",
+      "region": "North Africa",
+      "countryCodes": [
+        "EG",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-fbi-returns-egyptian-artifacts-20260825",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 90,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "文化遗产",
+          "headlineFact": "美国联邦调查局向埃及返还48件被非法贩运的古代文物",
+          "headlineView": "文化资产的来源链、持有记录和跨境文件正在成为机构信誉的一部分",
+          "headlineFull": "美国联邦调查局向埃及返还48件被非法贩运的古代文物；文化资产的来源链、持有记录和跨境文件正在成为机构信誉的一部分",
+          "intro": "返还物包括雕像、护身符和墓葬用品，年代跨越法老、罗马与科普特时期；调查确认这些物品被非法带离埃及，事件提醒收藏、拍卖和展陈机构加强来源审查。",
+          "xiaziQuote": "文物的价值不只在年代，也在一条经得起核查的来源链。",
+          "doudouQuote": "先核对来源，再讨论价格和展览。",
+          "footerTakeaway": "今日关键词：文化遗产。"
+        },
+        "en-US": {
+          "categoryLabel": "Cultural Heritage",
+          "headlineFact": "The FBI returned 48 illicitly trafficked ancient artifacts to Egypt",
+          "headlineView": "provenance, custody records and cross-border documents are becoming part of institutional trust",
+          "headlineFull": "The FBI returned 48 illicitly trafficked ancient artifacts to Egypt; provenance, custody records and cross-border documents are becoming part of institutional trust",
+          "intro": "The returned objects include figurines, amulets and funerary material spanning Pharaonic, Roman and Coptic periods; investigators determined they had been trafficked out of Egypt, reinforcing the need for provenance checks across collecting, auctions and exhibitions.",
+          "xiaziQuote": "An artifact's value lies not only in age but in a provenance chain that survives scrutiny.",
+          "doudouQuote": "Verify provenance before discussing price or display.",
+          "footerTakeaway": "Keyword: Cultural Heritage."
+        }
+      },
+      "sources": [
+        {
+          "id": "b42de0da-5f34-538e-852a-0c2bcdb04592",
+          "topicId": "214e7d97-697b-5490-b4bf-f7c9a292df18",
+          "title": "FBI returns 48 cultural artifacts to Egyptian government",
+          "publisher": "Google News / CBS Los Angeles",
+          "url": "https://news.google.com/rss/search?q=FBI%20returns%2048%20Egyptian%20artifacts%20August%2021%202026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
