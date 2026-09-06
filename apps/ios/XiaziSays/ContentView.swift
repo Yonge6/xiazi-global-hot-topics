@@ -22,10 +22,21 @@ struct ContentView: View {
                 .ignoresSafeArea(.container, edges: .bottom)
                 .opacity(webState.hasLoadedContent ? 1 : 0)
 
-            if webState.loadState == .failed {
+            if webState.loadState == .failed && !webState.hasLoadedContent {
                 OfflineView {
                     webState.reload()
                 }
+            } else if webState.loadState == .failed {
+                VStack {
+                    Button(AppConfiguration.isChinese ? "网络暂不可用，点击重试" : "Connection lost. Tap to retry") {
+                        webState.reload()
+                    }
+                    .font(.footnote)
+                    .padding(12)
+                    .background(.regularMaterial, in: Capsule())
+                    Spacer()
+                }
+                .padding(.top, 10)
             }
 
             if webState.loadState == .loading && !webState.hasLoadedContent {
@@ -47,6 +58,11 @@ struct ContentView: View {
                 LaunchArtworkView()
                     .transition(.opacity)
                     .zIndex(2)
+            }
+            if bridge.isProcessingPoster {
+                ProgressView(AppConfiguration.isChinese ? "正在准备原图…" : "Preparing original…")
+                    .padding(20)
+                    .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 16))
             }
         }
         .background(Color(red: 0.96, green: 0.93, blue: 0.86))
@@ -77,8 +93,12 @@ struct ContentView: View {
             if !subscriptionManager.hasAdFreeAccess {
                 adMobManager.start()
             }
+        }
+        .task {
             guard showingLaunchArtwork else { return }
-            try? await Task.sleep(for: .milliseconds(800))
+            do {
+                try await Task.sleep(for: .milliseconds(800))
+            } catch { return }
             withAnimation(.easeOut(duration: 0.24)) {
                 showingLaunchArtwork = false
             }

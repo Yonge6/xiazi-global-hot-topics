@@ -36,13 +36,17 @@ final class WebViewState: ObservableObject {
     }
 
     func reload() {
+        guard let webView, !webView.isLoading else { return }
         loadState = .loading
-        if let webView {
-            webView.reloadFromOrigin()
+        if webView.url == nil {
+            webView.load(URLRequest(url: AppConfiguration.initialURL, timeoutInterval: 30))
+        } else {
+            webView.reload()
         }
     }
 
     func refreshIfStale() {
+        guard hasLoadedContent || loadState == .failed else { return }
         guard Date().timeIntervalSince(lastSuccessfulLoad) > 300 else { return }
         reload()
     }

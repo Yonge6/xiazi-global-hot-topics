@@ -43,7 +43,7 @@ struct XiaziWebView: UIViewRepresentable {
         bridge.webView = webView
         webView.load(URLRequest(
             url: AppConfiguration.initialURL,
-            cachePolicy: .reloadIgnoringLocalCacheData,
+            cachePolicy: .useProtocolCachePolicy,
             timeoutInterval: 30
         ))
         return webView
@@ -88,7 +88,6 @@ struct XiaziWebView: UIViewRepresentable {
 
         @objc func refresh(_ sender: UIRefreshControl) {
             state.reload()
-            sender.endRefreshing()
         }
 
         func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
@@ -107,13 +106,19 @@ struct XiaziWebView: UIViewRepresentable {
         }
 
         func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+            guard (error as NSError).code != NSURLErrorCancelled else { return }
             webView.scrollView.refreshControl?.endRefreshing()
             state.markFailed()
         }
 
         func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+            guard (error as NSError).code != NSURLErrorCancelled else { return }
             webView.scrollView.refreshControl?.endRefreshing()
             state.markFailed()
+        }
+
+        func webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
+            state.reload()
         }
 
         func webView(

@@ -9,6 +9,7 @@ import { loadArchiveIssue, loadCurrentIssue } from "@/features/issues/content-se
 import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues/share";
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
+import { copyTextToClipboard } from "@/lib/clipboard";
 import { groupArchiveDatesByMonth } from "@/lib/issues/archive-groups";
 import { hasNativeCapability, isXiaziIOSApp, postNativeMessage, subscribeToNativeSurface } from "@/lib/native-app";
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
@@ -88,6 +89,7 @@ export function TopicGallery({
   const [expandedArchiveMonths, setExpandedArchiveMonths] = useState<Set<string>>(new Set());
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [archiveStatus, setArchiveStatus] = useState("");
+  const editionRequest = useRef(0);
   const isIOSApp = useSyncExternalStore(subscribeToNativeSurface, isXiaziIOSApp, () => false);
   const isWechatBrowser = useSyncExternalStore(subscribeToBrowserEnvironment, isWechatWebView, () => false);
   const isZh = locale === "zh";
@@ -185,8 +187,10 @@ export function TopicGallery({
   }
 
   async function openArchive(date: string) {
+    const requestId = ++editionRequest.current;
     setArchiveStatus(isZh ? `正在读取 ${date}…` : `Loading ${date}…`);
     const detail = await loadArchiveIssue(date).catch(() => null);
+    if (requestId !== editionRequest.current) return;
     if (!detail?.issue) {
       setArchiveStatus(isZh ? "往期读取失败，请稍后再试" : "Could not load this edition");
       return;
@@ -203,14 +207,22 @@ export function TopicGallery({
   }
 
   async function returnToCurrent() {
+    const requestId = ++editionRequest.current;
     setArchiveStatus(isZh ? "正在返回当前期…" : "Returning to the current edition…");
-    const issue = await loadCurrentIssue();
+    const issue = await loadCurrentIssue().catch(() => null);
+    if (requestId !== editionRequest.current) return;
+    if (!issue) {
+      setArchiveStatus(isZh ? "当前期读取失败，请稍后重试" : "Could not load the current edition. Please try again.");
+      return;
+    }
     setDisplayTopics(issue.topics);
     setDisplayIssueDate(issue.issueDate);
     setDisplayStyle(issue.style);
     setPosterCacheKey(issue.assetVersion || issue.beijingTimestamp || issue.issueDate);
     setArchiveDate(null);
     setArchiveStatus("");
+    setActiveIndex(null);
+    setShareIndex(null);
     document.querySelector("#stories")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -227,7 +239,10 @@ export function TopicGallery({
       }
 
       if (navigator.share) {
-        const posterResponse = await fetch(details.poster);
+        const posterResponse = await fetch(details.poster, { signal: AbortSignal.timeout(20000) });
+        if (!posterResponse.ok || !posterResponse.headers.get("content-type")?.startsWith("image/")) {
+          throw new Error("Poster unavailable");
+        }
         const posterBlob = await posterResponse.blob();
         const posterFile = new File([posterBlob], `${topic.slug}-${locale}.png`, { type: "image/png" });
         const files = [posterFile];
@@ -282,8 +297,12 @@ export function TopicGallery({
 
   async function copyShareLink(topic: Topic) {
     const details = shareDetails(topic);
-    await navigator.clipboard.writeText(details.text);
-    setShareStatus(isZh ? "标题、介绍和链接已复制" : "Headline, introduction and link copied");
+    try {
+      await copyTextToClipboard(details.text);
+      setShareStatus(isZh ? "标题、介绍和链接已复制" : "Headline, introduction and link copied");
+    } catch {
+      setShareStatus(isZh ? "复制失败，请使用浏览器分享菜单" : "Could not copy. Use your browser’s share menu.");
+    }
   }
 
   function platformUrl(platform: string, topic: Topic) {
