@@ -42,7 +42,7 @@ test("staging preview renders bilingual homepage and poster interactions", async
   await expect(page.getByRole("heading", { name: "昨日世界." })).toBeVisible();
   await expect(page.locator("article")).toHaveCount(9);
   await expect(page.locator("article").first()).toContainText("哥伦比亚3:1击败世界杯新军乌兹别克斯坦");
-  await expect(page.getByText("2026.06.19 · 北京时间 05:00 发布")).toBeVisible();
+  await expect(page.getByText("2026.06.19 · 北京时间 07:00 发布")).toBeVisible();
   await expect(page.getByRole("link", { name: "推荐阅读" }).first()).toHaveAttribute("href", /^https:\/\//);
   await expect(page.locator('article img[src*="/posters/thumb/zh/"]').first()).toBeVisible();
 

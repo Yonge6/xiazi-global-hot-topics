@@ -842,70 +842,106 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
 
 .issue-masthead {
   position: relative;
-  display: grid;
-  min-height: 280px;
-  grid-template-columns: minmax(220px, 0.8fr) minmax(440px, 1.5fr) minmax(200px, 0.72fr);
-  align-items: end;
+  min-height: 330px;
   overflow: hidden;
-  border-bottom: 1px solid var(--line);
+  border-top: 3px double color-mix(in srgb, var(--ink) 82%, transparent);
+  border-bottom: 3px double color-mix(in srgb, var(--ink) 82%, transparent);
+  padding: 0 clamp(30px, 5vw, 76px);
   background-color: var(--masthead-bg);
   background-image:
     var(--masthead-overlay),
-    url("/brand/masthead/editorial-atlas-bg-v1.webp");
+    url("/brand/masthead/editorial-paper-image2-v2.webp");
   background-position: center;
   background-size: cover;
 }
+.issue-masthead::after {
+  position: absolute;
+  right: -34px;
+  bottom: -62px;
+  width: 210px;
+  height: 210px;
+  border: 1px solid color-mix(in srgb, var(--vermilion) 18%, transparent);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 24px color-mix(in srgb, var(--vermilion) 5%, transparent),
+    0 0 0 52px color-mix(in srgb, var(--gold) 5%, transparent);
+  content: "";
+  opacity: .7;
+  pointer-events: none;
+}
+.masthead-rail {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 28px;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 34%, transparent);
+  padding: 22px 0 14px;
+}
 .masthead-copy {
+  position: relative;
   z-index: 2;
-  align-self: center;
-  padding: 34px 20px 30px;
-  text-align: center;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(330px, .8fr);
+  align-items: center;
+  gap: clamp(34px, 5vw, 76px);
+  padding: 46px 0 50px;
+  text-align: left;
 }
 .issue-index {
-  margin: 0 0 15px;
+  margin: 0;
   color: var(--vermilion);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.23em;
 }
+.masthead-title-block {
+  display: flex;
+  min-height: 148px;
+  align-items: center;
+  border-right: 1px solid color-mix(in srgb, var(--gold) 58%, var(--line));
+  padding-right: clamp(30px, 5vw, 72px);
+}
 .masthead-copy h1 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(60px, 6.5vw, 96px);
+  font-size: clamp(72px, 8vw, 116px);
   font-weight: 600;
   letter-spacing: -0.075em;
-  line-height: 0.9;
+  line-height: 0.86;
 }
 .masthead-copy h1 span { color: var(--vermilion); }
+.locale-en .masthead-copy h1 {
+  font-size: clamp(50px, 5.3vw, 80px);
+  letter-spacing: -.045em;
+  line-height: .92;
+}
+.masthead-summary { padding-right: clamp(0px, 2vw, 28px); }
 .issue-deck {
-  margin: 18px 0 0;
+  margin: 0;
   font-family: var(--serif);
-  font-size: clamp(17px, 1.7vw, 25px);
-  letter-spacing: 0.16em;
+  font-size: clamp(18px, 1.6vw, 24px);
+  letter-spacing: 0.12em;
 }
 .issue-date {
-  margin: 10px 0 0;
+  margin: 0;
   color: var(--muted);
   font-family: var(--serif);
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 0.09em;
+  text-align: right;
 }
 .issue-manifesto {
-  margin: 10px 0 0;
+  margin: 22px 0 0;
   color: var(--muted);
   font-family: var(--serif);
   font-size: 12px;
   letter-spacing: 0.09em;
-  line-height: 1.65;
-  text-align: center;
+  line-height: 1.8;
+  text-align: left;
 }
 .issue-manifesto span { display: block; }
-.masthead-character {
-  position: relative;
-  height: 220px;
-}
-.masthead-xiazi { transform: translateX(-4%); }
-.masthead-doudou { transform: translateX(2%); }
 
 .story-columns {
   columns: 3;
@@ -1331,6 +1367,19 @@ html[data-theme="dark"] .theme-icon-sun { display: block; }
   background: #0b0e0f;
 }
 .lightbox-image { display: block; width: 100%; height: 100%; }
+.wechat-original-image { display: block; color: inherit; text-decoration: none; }
+.wechat-original-image img { -webkit-touch-callout: default; user-select: auto; }
+.wechat-save-tip {
+  margin: 0;
+  border-top: 1px solid rgba(255,255,255,.14);
+  background: #202526;
+  padding: 10px 16px;
+  color: #f0c87b;
+  font-size: 11px;
+  letter-spacing: .06em;
+  line-height: 1.55;
+  text-align: center;
+}
 .lightbox-navigation { border-top: 1px solid rgba(255,255,255,.14); }
 
 .share-dialog {
@@ -1453,10 +1502,11 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
 
 @media (max-width: 1024px) {
   .issue-masthead {
-    min-height: 260px;
-    grid-template-columns: 0.75fr 1.6fr 0.65fr;
+    min-height: 310px;
+    padding-inline: 36px;
   }
-  .masthead-character { height: 190px; }
+  .masthead-copy { grid-template-columns: minmax(0, 1.08fr) minmax(300px, .92fr); gap: 36px; }
+  .masthead-title-block { padding-right: 36px; }
   .story-columns { columns: 2; }
   .catalogue-entry:nth-child(3n + 2),
   .catalogue-entry:nth-child(3n + 3) { margin-top: 0; }
@@ -1568,38 +1618,41 @@ html[data-theme="dark"] .share-platforms b { color: #15181a; }
   .drawer-support-detail h3 { font-size: 24px; }
   .drawer-support-detail > span { font-size: 14px; }
   .issue-masthead {
-    min-height: 300px;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
-    padding-top: 8px;
+    min-height: 0;
+    padding: 0 18px;
     background-position: center;
   }
+  .issue-masthead::after { right: -82px; bottom: -96px; opacity: .48; }
+  .masthead-rail {
+    align-items: flex-end;
+    gap: 16px;
+    padding: 15px 0 12px;
+  }
   .masthead-copy {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    padding: 18px 0 78px;
+    display: block;
+    padding: 28px 0 32px;
+    text-align: left;
   }
   .locale-zh .masthead-copy { animation: ink-reveal 950ms cubic-bezier(.22,.72,.18,1) both; }
-  .issue-index { margin-bottom: 14px; }
-  .masthead-copy h1 { font-size: clamp(48px, 15vw, 66px); }
+  .issue-index { font-size: 8px; letter-spacing: .18em; }
+  .issue-date { max-width: 58%; font-size: 8px; line-height: 1.45; }
+  .masthead-title-block {
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--gold) 48%, var(--line));
+    padding: 0 0 22px;
+  }
+  .masthead-copy h1 { font-size: clamp(52px, 16vw, 70px); }
   .locale-zh .masthead-copy h1 {
     font-family: var(--newspaper-serif);
     font-weight: 700;
     letter-spacing: -.09em;
     text-shadow: var(--headline-shadow);
   }
-  .issue-deck { margin-top: 12px; font-size: 14px; letter-spacing: 0.08em; }
-  .issue-manifesto,
-  .issue-date { margin-top: 7px; font-size: 9px; }
-  .masthead-character {
-    z-index: 1;
-    grid-row: 1;
-    height: 100px;
-  }
-  .locale-zh .masthead-character { animation: enchanted-float 5.8s ease-in-out infinite; transform-origin: 50% 100%; }
-  .masthead-xiazi { grid-column: 1; transform: translateX(-12%); }
-  .masthead-doudou { grid-column: 2; transform: translateX(12%); }
-  .locale-zh .masthead-doudou { animation-delay: -2.7s; }
+  .locale-en .masthead-copy h1 { font-size: clamp(38px, 11.5vw, 50px); line-height: .94; }
+  .masthead-summary { padding: 20px 0 0; }
+  .issue-deck { font-size: 14px; letter-spacing: 0.08em; }
+  .issue-manifesto { margin-top: 11px; font-size: 9px; line-height: 1.7; }
   .story-columns {
     columns: 1;
     padding-top: 34px;

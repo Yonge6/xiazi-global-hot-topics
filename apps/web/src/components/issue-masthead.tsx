@@ -1,8 +1,5 @@
-import Image from "next/image";
-
 import { productConfig } from "@xiazi/config";
 import type { AppLocale } from "@/i18n/config";
-import { getBrandAsset } from "@/lib/posters/assets";
 import { PUBLICATION_DISPLAY_TIME } from "@/lib/site/publication-display";
 
 export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueDate: string }) {
@@ -19,38 +16,8 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
 
   return (
     <section className="issue-masthead shell" aria-labelledby="issue-title">
-      <div className="masthead-character masthead-xiazi" aria-hidden="true">
-        <Image
-          src={getBrandAsset("brand/characters/xiazi/xiazi-master-front.webp")}
-          alt=""
-          fill
-          priority
-          sizes="(max-width: 768px) 180px, 380px"
-          className="object-contain object-bottom"
-        />
-      </div>
-
-      <div className="masthead-copy">
+      <div className="masthead-rail">
         <p className="issue-index">DAILY EDITION · {date.getUTCFullYear()}</p>
-        <h1 id="issue-title">{isZh ? "昨日世界" : "THE WORLD YESTERDAY"}<span>.</span></h1>
-        <p className="issue-deck">
-          {isZh ? "1 张今日总览 · 8 件全球热点" : "1 Daily Overview · 8 Global Stories"}
-        </p>
-        <p className="issue-manifesto">
-          {isZh ? (
-            <>
-              <span>信息纷涌，世界喧哗。</span>
-              <span>每天看懂世界上最重要的 8 件事，就够了。</span>
-              <span>剩下的时间，好好生活，享受当下。</span>
-            </>
-          ) : (
-            <>
-              <span>The world is noisy.</span>
-              <span>Understand the 8 global stories that matter most each day.</span>
-              <span>Then get back to living.</span>
-            </>
-          )}
-        </p>
         <p className="issue-date">
           {isZh
             ? `${compactDate} · 北京时间 ${timeLabel} 发布`
@@ -58,15 +25,30 @@ export function IssueMasthead({ locale, issueDate }: { locale: AppLocale; issueD
         </p>
       </div>
 
-      <div className="masthead-character masthead-doudou" aria-hidden="true">
-        <Image
-          src={getBrandAsset("brand/characters/doudou/doudou-master-front.webp")}
-          alt=""
-          fill
-          priority
-          sizes="(max-width: 768px) 150px, 310px"
-          className="object-contain object-bottom"
-        />
+      <div className="masthead-copy">
+        <div className="masthead-title-block">
+          <h1 id="issue-title">{isZh ? "昨日世界" : "THE WORLD YESTERDAY"}<span>.</span></h1>
+        </div>
+        <div className="masthead-summary">
+          <p className="issue-deck">
+            {isZh ? "1 张今日总览 · 8 件全球热点" : "1 Daily Overview · 8 Global Stories"}
+          </p>
+          <p className="issue-manifesto">
+            {isZh ? (
+              <>
+                <span>信息纷涌，世界喧哗。</span>
+                <span>每天看懂世界上最重要的 8 件事，就够了。</span>
+                <span>剩下的时间，好好生活，享受当下。</span>
+              </>
+            ) : (
+              <>
+                <span>The world is noisy.</span>
+                <span>Understand the 8 global stories that matter most each day.</span>
+                <span>Then get back to living.</span>
+              </>
+            )}
+          </p>
+        </div>
       </div>
     </section>
   );

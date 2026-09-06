@@ -14,6 +14,9 @@ import { hasNativeCapability, isXiaziIOSApp, postNativeMessage, subscribeToNativ
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
 import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
 
+const subscribeToBrowserEnvironment = () => () => {};
+const isWechatWebView = () => typeof navigator !== "undefined" && /MicroMessenger/i.test(navigator.userAgent);
+
 function ProgressivePoster({
   src,
   alt,
@@ -78,6 +81,7 @@ export function TopicGallery({
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [shareIndex, setShareIndex] = useState<number | null>(null);
   const [shareStatus, setShareStatus] = useState("");
+  const [wechatSaveStatus, setWechatSaveStatus] = useState("");
   const [posterCacheKey, setPosterCacheKey] = useState<string | number>(initialAssetVersion);
   const [displayStyle, setDisplayStyle] = useState<IssueStyle | undefined>(initialStyle);
   const [archiveDates] = useState<string[]>(initialArchiveDates);
@@ -85,6 +89,7 @@ export function TopicGallery({
   const [archiveDate, setArchiveDate] = useState<string | null>(null);
   const [archiveStatus, setArchiveStatus] = useState("");
   const isIOSApp = useSyncExternalStore(subscribeToNativeSurface, isXiaziIOSApp, () => false);
+  const isWechatBrowser = useSyncExternalStore(subscribeToBrowserEnvironment, isWechatWebView, () => false);
   const isZh = locale === "zh";
   const archiveMonths = useMemo(() => groupArchiveDatesByMonth(archiveDates), [archiveDates]);
 
@@ -269,6 +274,12 @@ export function TopicGallery({
     });
   }
 
+  function openWechatPoster(index: number) {
+    setActiveIndex(index);
+    setWechatSaveStatus(isZh ? "长按上方原图，选择“保存图片”" : "Press and hold the original above, then choose “Save Image”");
+    trackAnalytics("download", locale, displayTopics[index].slug);
+  }
+
   async function copyShareLink(topic: Topic) {
     const details = shareDetails(topic);
     await navigator.clipboard.writeText(details.text);
@@ -368,6 +379,11 @@ export function TopicGallery({
                     {isZh ? "保存海报" : "Save poster"}
                     <DownloadSimple size={16} weight="regular" aria-hidden="true" />
                   </button>
+                ) : isWechatBrowser ? (
+                  <button type="button" onClick={() => openWechatPoster(index)}>
+                    {isZh ? "保存海报" : "Save poster"}
+                    <DownloadSimple size={16} weight="regular" aria-hidden="true" />
+                  </button>
                 ) : (
                   <a href={poster} download onClick={() => trackAnalytics("download", locale, topic.slug)}>
                     {isZh ? "下载海报" : "Download"}
@@ -397,15 +413,39 @@ export function TopicGallery({
               </button>
             </div>
             <div className="lightbox-image-wrap">
-              <ProgressivePoster
-                key={posterAsset(displayTopics[activeIndex].slug, "original")}
-                src={posterAsset(displayTopics[activeIndex].slug, "original")}
-                alt={displayTopics[activeIndex].localizations[isZh ? "zh-CN" : "en-US"].headlineFull}
-                sizes="(max-width: 768px) 92vw, 640px"
-                className="lightbox-image"
-                priority
-              />
+              {isWechatBrowser && !isIOSApp ? (
+                <a
+                  className="wechat-original-image"
+                  href={posterAsset(displayTopics[activeIndex].slug, "original")}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={isZh ? "单独打开原图" : "Open original image"}
+                >
+                  <ProgressivePoster
+                    key={posterAsset(displayTopics[activeIndex].slug, "original")}
+                    src={posterAsset(displayTopics[activeIndex].slug, "original")}
+                    alt={displayTopics[activeIndex].localizations[isZh ? "zh-CN" : "en-US"].headlineFull}
+                    sizes="(max-width: 768px) 92vw, 640px"
+                    className="lightbox-image"
+                    priority
+                  />
+                </a>
+              ) : (
+                <ProgressivePoster
+                  key={posterAsset(displayTopics[activeIndex].slug, "original")}
+                  src={posterAsset(displayTopics[activeIndex].slug, "original")}
+                  alt={displayTopics[activeIndex].localizations[isZh ? "zh-CN" : "en-US"].headlineFull}
+                  sizes="(max-width: 768px) 92vw, 640px"
+                  className="lightbox-image"
+                  priority
+                />
+              )}
             </div>
+            {isWechatBrowser && !isIOSApp ? (
+              <p className="wechat-save-tip" role="status" aria-live="polite">
+                {wechatSaveStatus || (isZh ? "长按上方原图，选择“保存图片”" : "Press and hold the original above, then choose “Save Image”")}
+              </p>
+            ) : null}
             <div className="lightbox-navigation">
               <button type="button" onClick={() => setActiveIndex((activeIndex - 1 + displayTopics.length) % displayTopics.length)}>
                 ← {isZh ? "上一张" : "Previous"}
@@ -414,6 +454,11 @@ export function TopicGallery({
                 <button type="button" onClick={() => savePoster(displayTopics[activeIndex])}>
                   <DownloadSimple size={18} aria-hidden="true" />
                   {isZh ? "保存原图" : "Save original"}
+                </button>
+              ) : isWechatBrowser ? (
+                <button type="button" onClick={() => openWechatPoster(activeIndex)}>
+                  <DownloadSimple size={18} aria-hidden="true" />
+                  {isZh ? "长按保存" : "Press to save"}
                 </button>
               ) : (
                 <a
