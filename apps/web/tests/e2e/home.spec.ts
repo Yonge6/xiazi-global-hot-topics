@@ -22,17 +22,17 @@ async function latestIssue(request: APIRequestContext) {
 }
 
 function zhDate(issueDate: string) {
-  return `${issueDate.replaceAll("-", ".")} · 北京时间 05:00 发布`;
+  return `${issueDate.replaceAll("-", ".")} · 北京时间 07:00 发布`;
 }
 
 function enDate(issueDate: string) {
-  const date = new Date(`${issueDate}T05:00:00+08:00`);
+  const date = new Date(`${issueDate}T07:00:00+08:00`);
   return `${new Intl.DateTimeFormat("en-US", {
     year: "numeric",
     month: "long",
     day: "2-digit",
     timeZone: "Asia/Shanghai",
-  }).format(date)} · Published at 05:00 Beijing Time`;
+  }).format(date)} · Published at 07:00 Beijing Time`;
 }
 
 test("renders the Chinese issue with one overview and eight stories", async ({ page, request }) => {
@@ -266,6 +266,28 @@ test("guides iPhone WeChat visitors to the default browser and keeps a copyable 
   const englishDialog = wechatPage.getByRole("dialog", { name: "Open in your default browser" });
   await expect(englishDialog.getByRole("heading", { name: "Open Xiazi Says in your default browser" })).toBeVisible();
   await expect(englishDialog.getByText("Tap ··· in the top-right, choose “Open in Default Browser,” then tap download again.")).toBeVisible();
+  await context.close();
+});
+
+test("uses long-press original-image saving inside WeChat instead of a broken download", async ({ browser }) => {
+  const context = await browser.newContext({
+    viewport: { width: 390, height: 844 },
+    userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 MicroMessenger/8.0.50",
+  });
+  const wechatPage = await context.newPage();
+
+  await wechatPage.goto("/zh");
+  const saveButton = wechatPage.getByRole("button", { name: /保存海报/ }).first();
+  await expect(saveButton).toBeVisible();
+  await expect(wechatPage.getByRole("link", { name: /下载海报/ })).toHaveCount(0);
+  await saveButton.click();
+
+  const lightbox = wechatPage.getByRole("dialog", { name: "海报原图" });
+  await expect(lightbox.getByRole("status")).toHaveText("长按上方原图，选择“保存图片”");
+  await expect(lightbox.getByRole("link", { name: "单独打开原图" })).toHaveAttribute("href", /\/api\/posters\/zh\//);
+  await expect(lightbox.getByRole("link", { name: "单独打开原图" })).toHaveAttribute("target", "_blank");
+  await expect(lightbox.getByRole("button", { name: "长按保存" })).toBeVisible();
+
   await context.close();
 });
 
