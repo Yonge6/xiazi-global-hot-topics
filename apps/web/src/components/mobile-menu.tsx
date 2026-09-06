@@ -15,6 +15,7 @@ import { createPortal } from "react-dom";
 import { AboutCopy } from "@/components/about-section";
 import { ThemeToggle } from "@/components/theme-toggle";
 import type { AppLocale } from "@/i18n/config";
+import { copyTextToClipboard } from "@/lib/clipboard";
 import { STYLE_ATLAS_URL } from "@/lib/site/publication-display";
 import {
   hasNativeCapability,
@@ -143,25 +144,6 @@ function VideoChannelModal({ isZh, onClose }: { isZh: boolean; onClose: () => vo
 
 function isIPhoneWeChatBrowser() {
   return /MicroMessenger/i.test(navigator.userAgent) && /iPhone/i.test(navigator.userAgent);
-}
-
-async function copyTextToClipboard(value: string) {
-  const clipboard = Reflect.get(navigator, "clipboard") as Clipboard | undefined;
-  if (clipboard?.writeText) {
-    await clipboard.writeText(value);
-    return;
-  }
-
-  const textarea = document.createElement("textarea");
-  textarea.value = value;
-  textarea.setAttribute("readonly", "");
-  textarea.style.position = "fixed";
-  textarea.style.opacity = "0";
-  document.body.appendChild(textarea);
-  textarea.select();
-  const copied = document.execCommand("copy");
-  textarea.remove();
-  if (!copied) throw new Error("Unable to copy the App Store link");
 }
 
 function suppressFocusRing(element: HTMLElement | null, moveFocus = false) {

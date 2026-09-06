@@ -5,6 +5,7 @@ import WebKit
 @MainActor
 final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
     @Published var isSubscriptionPresented = false
+    @Published private(set) var isProcessingPoster = false
     weak var webView: WKWebView?
 
     private let logger = Logger(
@@ -20,31 +21,41 @@ final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
 
         switch type {
         case "poster.share":
+            guard !isProcessingPoster else { return }
             guard let payload = body["payload"] as? [String: Any],
                   let rawURL = payload["url"] as? String,
                   let url = URL(string: rawURL),
                   AppConfiguration.isAllowed(url) else { return }
             let title = payload["title"] as? String ?? "虾子曰"
             let text = payload["text"] as? String ?? ""
+            isProcessingPoster = true
             Task {
+                defer { isProcessingPoster = false }
                 do {
-                    let (data, response) = try await URLSession.shared.data(from: url)
+                    let (data, response) = try await URLSession.shared.data(for: URLRequest(url: url, timeoutInterval: 30))
                     guard let http = response as? HTTPURLResponse,
                           (200..<300).contains(http.statusCode),
-                          let image = UIImage(data: data) else { return }
+                          let image = UIImage(data: data) else {
+                        presentSaveFailure()
+                        return
+                    }
                     presentShareSheet(image: image, title: title, text: text)
                 } catch {
                     logger.error("operation=sharePoster status=failed")
+                    presentSaveFailure()
                 }
             }
         case "poster.save":
+            guard !isProcessingPoster else { return }
             guard let payload = body["payload"] as? [String: Any],
                   let rawURL = payload["url"] as? String,
                   let url = URL(string: rawURL),
                   AppConfiguration.isAllowed(url) else { return }
             let requestedFilename = payload["filename"] as? String
             let filename = safeFilename(requestedFilename, fallback: url.lastPathComponent)
+            isProcessingPoster = true
             Task {
+                defer { isProcessingPoster = false }
                 await presentPosterSaveSheet(from: url, filename: filename)
             }
         case "subscription.open":
@@ -56,7 +67,7 @@ final class NativeBridge: NSObject, ObservableObject, WKScriptMessageHandler {
 
     private func presentPosterSaveSheet(from url: URL, filename: String) async {
         do {
-            let (data, response) = try await URLSession.shared.data(from: url)
+            let (data, response) = try await URLSession.shared.data(for: URLRequest(url: url, timeoutInterval: 30))
             guard let http = response as? HTTPURLResponse,
                   (200..<300).contains(http.statusCode),
                   UIImage(data: data) != nil else {
