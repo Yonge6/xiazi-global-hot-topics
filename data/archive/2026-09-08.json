@@ -1,0 +1,594 @@
+{
+  "id": "031174d1-c562-5d92-bee9-82386b36a004",
+  "slug": "2026-09-08",
+  "issueDate": "2026-09-08",
+  "assetVersion": "rel_20260908_c13c18de131411b3946dce35",
+  "status": "published",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-09-08T05:00:00+08:00",
+  "gmtTimestamp": "2026-09-07T21:00:00.000Z",
+  "featuredTopicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+  "style": {
+    "name": "Solarpunk",
+    "zhName": "太阳朋克",
+    "description": "Style Atlas daily pick: Solarpunk. Bright ecological future, sunlit green architecture, renewable-energy systems, clean editorial diagrams and optimistic technology. Reduce information density by about 20%: one main conclusion, no more than three key facts, 3-5 clear modules, larger labels and generous whitespace. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom."
+  },
+  "topics": [
+    {
+      "id": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "today-overview-customs-agents-climate-space",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-overview-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 99,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "全球经营雷达：海关、智能体与气候韧性",
+          "headlineView": "今天先处理影响成本、控制权与交付的变化",
+          "headlineFull": "全球经营雷达：海关、智能体与气候韧性；今天先处理影响成本、控制权与交付的变化",
+          "intro": "今日聚焦欧盟海关责任、自动化AI研究、一人公司工具选择、加拿大反制关税、非洲灾害预警、植物观测卫星、地磁扰动与开源AI平台并购。先区分已生效措施、研究目标和预警，再安排成本与连续性动作。",
+          "xiaziQuote": "把八条新闻压成三类经营动作。",
+          "doudouQuote": "先看成本、控制权和交付。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today Overview",
+          "headlineFact": "Global operating radar: customs, agents and climate resilience",
+          "headlineView": "Prioritize changes to cost, control and delivery",
+          "headlineFull": "Global operating radar: customs, agents and climate resilience; Prioritize changes to cost, control and delivery",
+          "intro": "Today connects EU customs responsibility, automated AI research, solopreneur tools, Canadian counter-tariffs, African early warnings, a plant-monitoring satellite, geomagnetic risk and an open-AI platform acquisition. Separate measures in force from research goals and forecasts before acting.",
+          "xiaziQuote": "Compress eight stories into three operating moves.",
+          "doudouQuote": "Start with cost, control and delivery.",
+          "footerTakeaway": "Keyword: Today Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "4732cc3b-b32e-542d-97c8-999ab117300b",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "EU customs: Council and Parliament agree on landmark reform",
+          "publisher": "Council of the European Union",
+          "url": "https://skribi.consilium.europa.eu/en/press/press-releases/2026/03/26/eu-customs-council-and-parliament-agree-on-landmark-reform/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "292a7ca6-fb52-53ac-beea-43c4ce612402",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "OpenAI just hit a milestone on the road to self-improving AI",
+          "publisher": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "09c73a27-c21f-51f1-b111-c1e54df871d8",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2605.10291",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "research",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "2e16fa22-f66e-5d78-91c1-241f2edbf156",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "Canada's targeted and strategic retaliation against US tariffs",
+          "publisher": "Le Monde",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/08/26/canada-s-targeted-and-strategic-retaliation-against-us-tariffs_6756855_19.html",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "d0269975-3a1c-5771-8767-f4a9d81aaeb7",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "Addis Ababa Call to Action on Early Warnings in Africa",
+          "publisher": "World Meteorological Organization",
+          "url": "https://public.wmo.int/media/news/addis-ababa-call-action-early-warnings-africa",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "05ab474d-0a87-5332-80c1-6271833076a7",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "FLEX",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "b47d71ea-bf94-5cb2-b933-d78cb19afd54",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "Space Weather Advisory Outlook 26-35",
+          "publisher": "NOAA Space Weather Prediction Center",
+          "url": "https://forecast.weather.gov/product.php?format=CI&glossary=1&issuedby=OUT&product=ADV&site=CRH&version=1",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "3707809b-e67c-5d43-b407-9a922381f707",
+          "topicId": "a7d56f62-7461-5e45-81f3-4d53c93120fb",
+          "title": "NVIDIA to Acquire Hugging Face",
+          "publisher": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "89beca81-3515-5a7f-a139-e8d113cb4737",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "eu-customs-platform-importer-reform",
+      "rank": 2,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-customs-reform-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟海关改革明确境外平台承担进口人责任",
+          "headlineView": "平台需重做关税、合规与小包成本模型",
+          "headlineFull": "欧盟海关改革明确境外平台承担进口人责任；平台需重做关税、合规与小包成本模型",
+          "intro": "欧盟理事会9月3日批准海关改革立场：境外电商平台销售入欧商品时将承担进口人责任；严重违规罚款最高可达上一年进口额的6%，小包处理费计划11月1日前引入。经营者应核对责任边界、商品标准和到岸成本。",
+          "xiaziQuote": "进口责任正在从消费者移向平台。",
+          "doudouQuote": "先重算到岸价，再检查商品合规。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "EU customs reform makes non-EU platforms the importer",
+          "headlineView": "Rebuild duty, compliance and small-parcel cost models",
+          "headlineFull": "EU customs reform makes non-EU platforms the importer; Rebuild duty, compliance and small-parcel cost models",
+          "intro": "The EU Council approved its customs reform position on September 3. Non-EU platforms will carry importer responsibility; serious breaches may draw fines up to 6% of prior-year import value, and a small-parcel handling fee is planned by November 1. Operators should recalculate landed cost and product compliance.",
+          "xiaziQuote": "Importer responsibility is moving toward platforms.",
+          "doudouQuote": "Reprice landed cost, then verify compliance.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "5184ae96-1b97-54ba-8bc2-f20d3c0edcc1",
+          "topicId": "89beca81-3515-5a7f-a139-e8d113cb4737",
+          "title": "EU customs: Council and Parliament agree on landmark reform",
+          "publisher": "Council of the European Union",
+          "url": "https://skribi.consilium.europa.eu/en/press/press-releases/2026/03/26/eu-customs-council-and-parliament-agree-on-landmark-reform/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "001b3770-4561-523a-98f7-2a64d72b72c3",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "openai-automated-research-intern-controls",
+      "rank": 3,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-openai-research-intern-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "人工智能 AI",
+          "headlineFact": "OpenAI称自动化研究实习生目标已达成",
+          "headlineView": "能力提升必须与人工监督和暂停机制绑定",
+          "headlineFull": "OpenAI称自动化研究实习生目标已达成；能力提升必须与人工监督和暂停机制绑定",
+          "intro": "OpenAI 9月6日称，系统已能在人类指导下完成需要熟练研究者数日的明确任务；其目标是2028年3月前推进到自动化AI研究员。公司同时披露，近期安全事件后暂停了部分强化学习训练并强化监控。",
+          "xiaziQuote": "加速研究不等于移交方向盘。",
+          "doudouQuote": "把人工判断和停止条件写进流程。",
+          "footerTakeaway": "今日关键词：人工智能 AI。"
+        },
+        "en-US": {
+          "categoryLabel": "Artificial Intelligence AI",
+          "headlineFact": "OpenAI says it reached its automated research intern goal",
+          "headlineView": "Pair capability gains with supervision and stop conditions",
+          "headlineFull": "OpenAI says it reached its automated research intern goal; Pair capability gains with supervision and stop conditions",
+          "intro": "OpenAI said on September 6 that its system can complete well-defined tasks that would take a skilled researcher several days under human direction. It targets an automated AI researcher by March 2028, while reporting that some RL training was paused after a safety incident and monitoring was strengthened.",
+          "xiaziQuote": "Faster research does not hand over the steering wheel.",
+          "doudouQuote": "Write human judgment and stop rules into the workflow.",
+          "footerTakeaway": "Keyword: Artificial Intelligence AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "eb57f666-e2ee-5cfe-ae2c-06fae955adf4",
+          "topicId": "001b3770-4561-523a-98f7-2a64d72b72c3",
+          "title": "OpenAI just hit a milestone on the road to self-improving AI",
+          "publisher": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3ba8e0e6-d2da-57ae-9763-9d61580aa292",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "solopreneur-ai-tool-stack-discipline",
+      "rank": 4,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-solopreneur-tools-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "一人公司 OPC",
+          "headlineFact": "一人公司AI工具栈应从最耗时的任务开始",
+          "headlineView": "先验证两三个工具，再控制成本、隐私与责任",
+          "headlineFull": "一人公司AI工具栈应从最耗时的任务开始；先验证两三个工具，再控制成本、隐私与责任",
+          "intro": "TechRadar Pro近期梳理写作、客服、记账、排程、设计、邮件与自动化工具，建议一人公司不要堆叠软件，而应先解决每周最耗时的工作。经营者还需检查数据政策、用量计费和人工复核责任。",
+          "xiaziQuote": "工具越多，不等于业务越轻。",
+          "doudouQuote": "先挑一个痛点，跑通再扩展。",
+          "footerTakeaway": "今日关键词：一人公司 OPC。"
+        },
+        "en-US": {
+          "categoryLabel": "One-person Company OPC",
+          "headlineFact": "A solopreneur AI stack should start with the biggest time drain",
+          "headlineView": "Validate two or three tools before expanding cost and risk",
+          "headlineFull": "A solopreneur AI stack should start with the biggest time drain; Validate two or three tools before expanding cost and risk",
+          "intro": "TechRadar Pro reviewed tools for writing, support, bookkeeping, scheduling, design, email and automation, while advising solo operators to begin with the work consuming the most hours. Owners should also examine data policies, usage pricing and human review responsibility.",
+          "xiaziQuote": "More tools do not automatically mean less work.",
+          "doudouQuote": "Solve one pain point, prove it, then expand.",
+          "footerTakeaway": "Keyword: One-person Company OPC."
+        }
+      },
+      "sources": [
+        {
+          "id": "970f2467-57e1-5499-87b0-cdaabbd02951",
+          "topicId": "3ba8e0e6-d2da-57ae-9763-9d61580aa292",
+          "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2605.10291",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "research",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "83251b53-f1f9-5796-a20c-057b4cc11f87",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "canada-counter-tariffs-september-eight",
+      "rank": 5,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "CA",
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-canada-counter-tariffs-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "国际贸易",
+          "headlineFact": "加拿大对276亿加元美国商品反制关税今日生效",
+          "headlineView": "进口商应按税率、品类与现金流重排采购",
+          "headlineFull": "加拿大对276亿加元美国商品反制关税今日生效；进口商应按税率、品类与现金流重排采购",
+          "intro": "加拿大政府宣布，自9月8日起对美国商品加征15%、25%或50%反制关税，覆盖钢铁、乳制品、家电、农业设备、纸浆纸张与电子产品等约276亿加元进口。企业应核对税号、生效时点、合同转嫁和替代供应。",
+          "xiaziQuote": "关税生效日就是现金流重算日。",
+          "doudouQuote": "先查税号，再谈换供应商。",
+          "footerTakeaway": "今日关键词：国际贸易。"
+        },
+        "en-US": {
+          "categoryLabel": "International Trade",
+          "headlineFact": "Canada's counter-tariffs on C$27.6 billion of US goods take effect today",
+          "headlineView": "Replan sourcing by rate, category and cash flow",
+          "headlineFull": "Canada's counter-tariffs on C$27.6 billion of US goods take effect today; Replan sourcing by rate, category and cash flow",
+          "intro": "Canada says counter-tariffs of 15%, 25% or 50% take effect September 8 on about C$27.6 billion of US imports, including steel, dairy, appliances, farm equipment, pulp and paper, and electronics. Businesses should verify tariff codes, timing, contract pass-through and alternate supply.",
+          "xiaziQuote": "The tariff start date is a cash-flow reset date.",
+          "doudouQuote": "Check the code before changing suppliers.",
+          "footerTakeaway": "Keyword: International Trade."
+        }
+      },
+      "sources": [
+        {
+          "id": "fab5e138-5308-52a6-8972-7bad37f1fe06",
+          "topicId": "83251b53-f1f9-5796-a20c-057b4cc11f87",
+          "title": "Canada's targeted and strategic retaliation against US tariffs",
+          "publisher": "Le Monde",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/08/26/canada-s-targeted-and-strategic-retaliation-against-us-tariffs_6756855_19.html",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "2cf0af68-45a3-5fe7-99b5-c0e55178276a",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "africa-early-warnings-call-action",
+      "rank": 6,
+      "category": "climate",
+      "region": "Africa",
+      "countryCodes": [
+        "ET"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-africa-early-warnings-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候韧性",
+          "headlineFact": "非洲41国已报告预警系统，但保护缺口仍大",
+          "headlineView": "预警价值取决于最后一公里能否及时行动",
+          "headlineFull": "非洲41国已报告预警系统，但保护缺口仍大；预警价值取决于最后一公里能否及时行动",
+          "intro": "世界气象组织9月7日发布亚的斯亚贝巴行动呼吁：非洲已有41个国家报告预警系统，系统完整度自2022年以来翻倍以上，但小岛屿、最不发达和脆弱国家仍存在明显缺口。重点应从监测延伸到通知、资金和行动。",
+          "xiaziQuote": "预警到达不了人，就只是数据。",
+          "doudouQuote": "把通知、负责人和行动时限连起来。",
+          "footerTakeaway": "今日关键词：气候韧性。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate Resilience",
+          "headlineFact": "Forty-one African countries report warning systems, but coverage gaps remain",
+          "headlineView": "Warning value depends on last-mile action",
+          "headlineFull": "Forty-one African countries report warning systems, but coverage gaps remain; Warning value depends on last-mile action",
+          "intro": "WMO's September 7 Addis Ababa Call to Action says 41 African countries now report early-warning systems and system comprehensiveness has more than doubled since 2022. Major gaps remain in island, least-developed and fragile states, so monitoring must connect to notification, finance and action.",
+          "xiaziQuote": "A warning that reaches no one is only data.",
+          "doudouQuote": "Link alerts, owners and action deadlines.",
+          "footerTakeaway": "Keyword: Climate Resilience."
+        }
+      },
+      "sources": [
+        {
+          "id": "30848f57-84c8-5132-9e27-78efec40094b",
+          "topicId": "2cf0af68-45a3-5fe7-99b5-c0e55178276a",
+          "title": "Addis Ababa Call to Action on Early Warnings in Africa",
+          "publisher": "World Meteorological Organization",
+          "url": "https://public.wmo.int/media/news/addis-ababa-call-action-early-warnings-africa",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "65c414a6-49f4-5ed9-b1bb-a01d5835a97d",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "esa-flex-photosynthesis-satellite",
+      "rank": 7,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [
+        "FR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-esa-flex-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "地球观测",
+          "headlineFact": "ESA植物光合作用卫星FLEX计划9月15日发射",
+          "headlineView": "从太空观测植物健康将改善农业与碳循环判断",
+          "headlineFull": "ESA植物光合作用卫星FLEX计划9月15日发射；从太空观测植物健康将改善农业与碳循环判断",
+          "intro": "欧洲航天局计划9月15日发射FLEX卫星，以植物荧光观测光合作用和健康状态。任务轨道约814公里、设计寿命3.5年、27天重复覆盖，可帮助研究干旱与热压力、农业生产和碳水循环。",
+          "xiaziQuote": "植物微光会变成地球健康信号。",
+          "doudouQuote": "先看长期数据，再做农业决策。",
+          "footerTakeaway": "今日关键词：地球观测。"
+        },
+        "en-US": {
+          "categoryLabel": "Earth Observation",
+          "headlineFact": "ESA's FLEX photosynthesis satellite is set for a September 15 launch",
+          "headlineView": "Plant-health signals from space can improve farm and carbon decisions",
+          "headlineFull": "ESA's FLEX photosynthesis satellite is set for a September 15 launch; Plant-health signals from space can improve farm and carbon decisions",
+          "intro": "ESA plans to launch FLEX on September 15 to observe photosynthesis and plant health through fluorescence. The mission lists an 814-kilometer orbit, a 3.5-year design life and a 27-day repeat cycle, supporting research on drought, heat stress, agriculture, carbon and water cycles.",
+          "xiaziQuote": "A faint plant glow becomes a planetary health signal.",
+          "doudouQuote": "Build decisions on repeated observations.",
+          "footerTakeaway": "Keyword: Earth Observation."
+        }
+      },
+      "sources": [
+        {
+          "id": "39026200-0d96-58ed-a1d6-a081e875e72b",
+          "topicId": "65c414a6-49f4-5ed9-b1bb-a01d5835a97d",
+          "title": "FLEX",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/FLEX",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1e9d411d-6286-523d-9b3f-d1e905a730b5",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "noaa-g1-geomagnetic-storm-september-eight",
+      "rank": 8,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-noaa-g1-storm-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "空间天气",
+          "headlineFact": "NOAA预计9月7至8日出现G1级地磁暴活动",
+          "headlineView": "卫星、导航和电网团队应关注短时扰动窗口",
+          "headlineFull": "NOAA预计9月7至8日出现G1级地磁暴活动；卫星、导航和电网团队应关注短时扰动窗口",
+          "intro": "NOAA空间天气预报中心称，多次日冕物质抛射可能在9月7日至8日抵达地球，使地磁活动达到活跃至G1级。该级别通常影响有限，但依赖卫星、GNSS与高纬通信的运营方仍应监测实时告警和异常。",
+          "xiaziQuote": "小扰动也值得关键系统提前看一眼。",
+          "doudouQuote": "核对告警、备用链路和时间窗。",
+          "footerTakeaway": "今日关键词：空间天气。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Weather",
+          "headlineFact": "NOAA expects G1 geomagnetic storming on September 7-8",
+          "headlineView": "Satellite, navigation and grid teams should watch the disruption window",
+          "headlineFull": "NOAA expects G1 geomagnetic storming on September 7-8; Satellite, navigation and grid teams should watch the disruption window",
+          "intro": "NOAA's Space Weather Prediction Center says several coronal mass ejections may reach Earth around September 7-8, lifting geomagnetic activity to active or G1 storm levels. Effects are usually limited, but satellite, GNSS and high-latitude communications operators should monitor live alerts and anomalies.",
+          "xiaziQuote": "Even a small disturbance deserves a systems check.",
+          "doudouQuote": "Verify alerts, backup links and timing.",
+          "footerTakeaway": "Keyword: Space Weather."
+        }
+      },
+      "sources": [
+        {
+          "id": "1e8efbde-fec1-59fc-88ea-f46641c2e975",
+          "topicId": "1e9d411d-6286-523d-9b3f-d1e905a730b5",
+          "title": "Space Weather Advisory Outlook 26-35",
+          "publisher": "NOAA Space Weather Prediction Center",
+          "url": "https://forecast.weather.gov/product.php?format=CI&glossary=1&issuedby=OUT&product=ADV&site=CRH&version=1",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3df8f3a5-144c-5b16-a5d1-29a438ad468f",
+      "issueId": "031174d1-c562-5d92-bee9-82386b36a004",
+      "slug": "nvidia-hugging-face-acquisition-open-platform",
+      "rank": 9,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-nvidia-hugging-face-20260908",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "开源AI生态",
+          "headlineFact": "NVIDIA拟以129.303亿美元收购Hugging Face",
+          "headlineView": "开放平台承诺之后，还要观察算力与分发控制",
+          "headlineFull": "NVIDIA拟以129.303亿美元收购Hugging Face；开放平台承诺之后，还要观察算力与分发控制",
+          "intro": "NVIDIA 9月3日宣布同意收购Hugging Face，交易金额为129.303亿美元，并称平台将继续向整个AI生态开放。开发者与企业应继续观察模型托管、数据分发、硬件绑定和定价是否发生变化。",
+          "xiaziQuote": "开放承诺要用后续产品规则验证。",
+          "doudouQuote": "提前盘点模型、数据和算力依赖。",
+          "footerTakeaway": "今日关键词：开源AI生态。"
+        },
+        "en-US": {
+          "categoryLabel": "Open AI Ecosystem",
+          "headlineFact": "NVIDIA agrees to acquire Hugging Face for $12.9303 billion",
+          "headlineView": "Watch compute and distribution control after the open-platform pledge",
+          "headlineFull": "NVIDIA agrees to acquire Hugging Face for $12.9303 billion; Watch compute and distribution control after the open-platform pledge",
+          "intro": "NVIDIA announced on September 3 that it agreed to acquire Hugging Face for $12.9303 billion and said the platform would remain open to the full AI ecosystem. Developers and businesses should watch for changes to model hosting, data distribution, hardware ties and pricing.",
+          "xiaziQuote": "Test an openness pledge against future product rules.",
+          "doudouQuote": "Map model, data and compute dependencies now.",
+          "footerTakeaway": "Keyword: Open AI Ecosystem."
+        }
+      },
+      "sources": [
+        {
+          "id": "06b19e99-3214-52b0-b02e-477747616ea5",
+          "topicId": "3df8f3a5-144c-5b16-a5d1-29a438ad468f",
+          "title": "NVIDIA to Acquire Hugging Face",
+          "publisher": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
