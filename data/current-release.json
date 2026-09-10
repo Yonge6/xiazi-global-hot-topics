@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-09-10",
-  "releaseId": "rel_20260910_6377334313306c1b35d31bc6",
-  "assetBatchId": "asset_prod_20260910_e00948ae",
+  "issueDate": "2026-09-11",
+  "releaseId": "rel_20260911_7d9b205b14b9bb6cb8724816",
+  "assetBatchId": "asset_prod_20260911_da8c4b10",
   "posters": [
     {
-      "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+      "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/today-overview-customs-ai-energy-climate.png",
-      "contentHash": "40eb8cb1e0a9e649bdec5a281f00c936ddaadc977be2f68443e6274b6950d84c"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/today-overview-commerce-ai-rates-conflict.png",
+      "contentHash": "bc84f7fb93d76ab3c48e2a8e0ec280eb00139dfd74aac60daf49b542848fa12b"
     },
     {
-      "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+      "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/today-overview-customs-ai-energy-climate.png",
-      "contentHash": "81627ca8ac9340504285ea0b069d61e6e49746095db8444233ed7dac6a4287c6"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/today-overview-commerce-ai-rates-conflict.png",
+      "contentHash": "6fa4b486b9fcd8242b94b944350d608998d793fe7e1ff0828863ea4aca79d570"
     },
     {
-      "topicId": "d05feede-ea99-50c5-bebb-d05d93a5884b",
+      "topicId": "c514407a-e021-4eb2-a9dd-ddd7f59b34df",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/eu-customs-platform-importer-small-parcel-fee.png",
-      "contentHash": "6bfa60ee1b7ba616dce540f561f6ea42a2d11adbb3c03c6e22450543a0ae11d1"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/tiktok-shop-packaging-fulfillment-rules.png",
+      "contentHash": "fd85cd3c46f2f17e63f90d51fa965be55faa1fccbe9d8dfff5514e251e20a1d1"
     },
     {
-      "topicId": "d05feede-ea99-50c5-bebb-d05d93a5884b",
+      "topicId": "c514407a-e021-4eb2-a9dd-ddd7f59b34df",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/eu-customs-platform-importer-small-parcel-fee.png",
-      "contentHash": "efa596a0f137a62d9dbc2348b85657eead5a8a286baea73558cf3f4c15bee0c7"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/tiktok-shop-packaging-fulfillment-rules.png",
+      "contentHash": "5fbcd25f9fe163c51189d7060607822f080f587bc464de615106dd2544f9390c"
     },
     {
-      "topicId": "f5b94ac3-bd01-5d10-89b0-ceca757afafa",
+      "topicId": "4a239e85-abd8-466d-bed8-e0954fe0fcd1",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/openai-navier-stokes-singularity-proof.png",
-      "contentHash": "b6cc6ef73d859167f4bf290b1dbe703907867d2ab2fbef794e89dc7fd9e23670"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/senate-probe-openai-huggingface-security.png",
+      "contentHash": "2178dfcf645a7d79fbd3ff9412af4849bc3e409839057d00aeb026e63976657a"
     },
     {
-      "topicId": "f5b94ac3-bd01-5d10-89b0-ceca757afafa",
+      "topicId": "4a239e85-abd8-466d-bed8-e0954fe0fcd1",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/openai-navier-stokes-singularity-proof.png",
-      "contentHash": "dcafd3b92b8f7cb7bdcff0bcdc65196f7ab9c5853e4870e3f40daac897c5206d"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/senate-probe-openai-huggingface-security.png",
+      "contentHash": "107be2321fe93fac42776a18dc7e290329b8bb12c6f4c235e713baf473082673"
     },
     {
-      "topicId": "84348d1b-4020-5984-9d2f-7c805ec9417c",
+      "topicId": "1c26804f-97a0-4692-b811-a064aa45e3d1",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/agent-workdays-solopreneur-output-metric.png",
-      "contentHash": "8bb4c20df7473cb08dae6af1a29e9b54f8474f9a5ecebbec70bd2eaa7542c8b9"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/honeybook-chatgpt-small-business-operations.png",
+      "contentHash": "6bd8d0ecb449e9bff146021208d222305c01276955b7ae855f0476fbd7f91ba2"
     },
     {
-      "topicId": "84348d1b-4020-5984-9d2f-7c805ec9417c",
+      "topicId": "1c26804f-97a0-4692-b811-a064aa45e3d1",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/agent-workdays-solopreneur-output-metric.png",
-      "contentHash": "1479564b41f5d604d8b86988832de9138d78236a2af995e67f63a07cee008a5f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/honeybook-chatgpt-small-business-operations.png",
+      "contentHash": "4fa88a6253d50f6fa33e67d8458a52e56aba8355cf364281d02a4be4a248fe3a"
     },
     {
-      "topicId": "b7877ef3-29e5-55dc-a570-da4c5bb00d18",
+      "topicId": "55fd179a-585d-4766-8e40-4b5a969c7efb",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/brent-oil-above-one-hundred-iran-hormuz.png",
-      "contentHash": "ce25724fcfe09986460695121f54e3047a3194299b08e5a19ce4359f3df36304"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/ecb-rate-hike-energy-inflation.png",
+      "contentHash": "23f119452d79be860f1a4a4068e850d98e5b620d2daae505ea2e45fac5b0688c"
     },
     {
-      "topicId": "b7877ef3-29e5-55dc-a570-da4c5bb00d18",
+      "topicId": "55fd179a-585d-4766-8e40-4b5a969c7efb",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/brent-oil-above-one-hundred-iran-hormuz.png",
-      "contentHash": "6de9d362c750460bf53b986f65f9ce6e92026a3b85278852ba2d70dedfa61bb8"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/ecb-rate-hike-energy-inflation.png",
+      "contentHash": "1aac949403e4fa731155e3fb39bd9f81471d807f3510bdd199c9b7a20b6d41e2"
     },
     {
-      "topicId": "7121463e-ec1f-5028-9fc2-21c2908aafb4",
+      "topicId": "0a3a051c-66ff-45e3-9298-6a0d38babe89",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/iaea-iran-security-council-referral.png",
-      "contentHash": "6585af01001eb73595e52ddf81b17f6087ca2de2f7e6c794423b3bde416ccc57"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/zelenskyy-canada-military-support-winter.png",
+      "contentHash": "1f139d2695500dae5b4cb12ce3c9f901812ab626067534d0884a40386f87ebfb"
     },
     {
-      "topicId": "7121463e-ec1f-5028-9fc2-21c2908aafb4",
+      "topicId": "0a3a051c-66ff-45e3-9298-6a0d38babe89",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/iaea-iran-security-council-referral.png",
-      "contentHash": "57a5e5c67213c78fad9a4e32dfb53eb938d3c5cdfde111347009b241c108720e"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/zelenskyy-canada-military-support-winter.png",
+      "contentHash": "65040cea9f12c6a903d0cc467589ad5e033d18686a322ff8f42a2aed4c8e725a"
     },
     {
-      "topicId": "7d22d791-986d-58c5-92f9-4454120278a7",
+      "topicId": "b4e088df-fa78-400c-b02d-fa378977fb8a",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/anak-krakatau-eruption-flight-disruption.png",
-      "contentHash": "f012b3283b2cb4c36ba3bec6fd99fa084ec76caad86c384e10dc154346ecf88d"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/noaa-nasa-air-pollution-campaigns.png",
+      "contentHash": "037dbc11fdfc4b399ae580aa66973aaf022643189c8df9bacef8e7b8db930848"
     },
     {
-      "topicId": "7d22d791-986d-58c5-92f9-4454120278a7",
+      "topicId": "b4e088df-fa78-400c-b02d-fa378977fb8a",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/anak-krakatau-eruption-flight-disruption.png",
-      "contentHash": "2e310899eb358c8f4d9cddbca8ee297e45383768dff468298f9ba2a421fa0295"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/noaa-nasa-air-pollution-campaigns.png",
+      "contentHash": "fb505ffba67cfeeedfaa95826968339282fd1ee5607db5d9271c2435b734ba18"
     },
     {
-      "topicId": "896714b8-2b96-505e-80a6-f64807922c4d",
+      "topicId": "73875e94-d5eb-48a4-996b-dae877d0a4e8",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/global-growth-resilience-narrow-ai-base.png",
-      "contentHash": "1b5ff713c493caba431f2c83114f2ccc28c63e5e78050d9ae1f762597b21e47c"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/gaza-strike-humanitarian-supply-risk.png",
+      "contentHash": "9e30aff45a2cc984843fa0c0d9e95104660bd62e6b9258bf82909d4fc845f083"
     },
     {
-      "topicId": "896714b8-2b96-505e-80a6-f64807922c4d",
+      "topicId": "73875e94-d5eb-48a4-996b-dae877d0a4e8",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/global-growth-resilience-narrow-ai-base.png",
-      "contentHash": "4be93e2ad782bd625f64af1ab2f7672e57c642d4899d7a1f380b1b9975fee544"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/gaza-strike-humanitarian-supply-risk.png",
+      "contentHash": "51e1d84551b1d98c3efa6b9c578698c6ca71fd8ebb7d050854cf0f739c75cd63"
     },
     {
-      "topicId": "ff2cfaea-e232-528e-a59a-75fe40bcbfc6",
+      "topicId": "30d168ec-b0b6-4175-b39f-ce50ce525fcb",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/zh/unep-clean-air-climate-fifteen-to-one-return.png",
-      "contentHash": "f7f4ac9c2fd7bf621b7ed0208b013c4093b8b641ed784f41d92a9479ed75b9c4"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/zh/youtube-amazon-product-tags-creator-commerce.png",
+      "contentHash": "926e7086aeaf61bc9ab258c60658af438d9b3cd44bcbadf1aa5b7cf2d06c0d71"
     },
     {
-      "topicId": "ff2cfaea-e232-528e-a59a-75fe40bcbfc6",
+      "topicId": "30d168ec-b0b6-4175-b39f-ce50ce525fcb",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260910_e00948ae/en/unep-clean-air-climate-fifteen-to-one-return.png",
-      "contentHash": "626d348a2a52d91e0ae2b6003743345b97f627f1a134e72dd8edc5807eab815d"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260911_da8c4b10/en/youtube-amazon-product-tags-creator-commerce.png",
+      "contentHash": "16418329cf61780ca7af5b6eb108a01ab4182919d4e16021935da03108ef0174"
     }
   ]
 }
