@@ -13,9 +13,9 @@ export class ReleaseContentRepository implements ContentRepository {
   private readonly historical = new JsonContentRepository();
 
   async getLatestPublishedIssue(): Promise<Issue> {
-    const active = await loadActivePublication();
-    if (!active) throw new Error("ACTIVE_RELEASE_NOT_CONFIGURED");
-    return active.issue;
+    const active = await loadActivePublication().catch(() => null);
+    if (active) return active.issue;
+    return this.historical.getLatestPublishedIssue();
   }
 
   async getIssueByDate(date: string): Promise<Issue | null> {

@@ -5,20 +5,22 @@ import { parseIssue } from "@xiazi/contracts";
 
 const mocks = vi.hoisted(() => ({
   listPublishedPublications: vi.fn(),
+  loadActivePublication: vi.fn(),
   loadPublicationByDate: vi.fn(),
+  loadLatestProductionIssue: vi.fn(),
   listProductionArchiveIssues: vi.fn(),
   loadProductionIssueByDate: vi.fn(),
 }));
 
 vi.mock("@/server/releases/release-service", () => ({
   listPublishedPublications: mocks.listPublishedPublications,
-  loadActivePublication: vi.fn(),
+  loadActivePublication: mocks.loadActivePublication,
   loadPublicationByDate: mocks.loadPublicationByDate,
 }));
 
 vi.mock("@/server/json/production-json-source", () => ({
   listProductionArchiveIssues: mocks.listProductionArchiveIssues,
-  loadLatestProductionIssue: vi.fn(),
+  loadLatestProductionIssue: mocks.loadLatestProductionIssue,
   loadProductionIssueByDate: mocks.loadProductionIssueByDate,
 }));
 
@@ -51,6 +53,19 @@ describe("ReleaseContentRepository archive recovery", () => {
       { issueDate: "2026-07-19", slug: "2026-07-19", status: "published", source: "github" },
       { issueDate: "2026-07-18", slug: "2026-07-18", status: "published", source: "github" },
     ]);
+    mocks.loadLatestProductionIssue.mockResolvedValue({
+      issue: issueFor("2026-07-26"),
+      source: "github",
+    });
+  });
+
+  it("falls back to the GitHub current issue when the active Release V2 store is unavailable", async () => {
+    mocks.loadActivePublication.mockRejectedValue(new Error("release store unavailable"));
+
+    await expect(new ReleaseContentRepository().getLatestPublishedIssue()).resolves.toMatchObject({
+      issueDate: "2026-07-26",
+    });
+    expect(mocks.loadLatestProductionIssue).toHaveBeenCalledOnce();
   });
 
   it("merges GitHub fallback archives with Release V2 publications and deduplicates dates", async () => {
