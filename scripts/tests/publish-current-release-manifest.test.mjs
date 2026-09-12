@@ -56,21 +56,23 @@ test("publishes current issue assetVersion and release manifest in one commit", 
   const blobBodies = calls
     .filter((call) => call.url.endsWith("/git/blobs"))
     .map((call) => JSON.parse(call.init.body).content);
-  assert.equal(blobBodies.length, 3);
+  assert.equal(blobBodies.length, 4);
   assert.equal(JSON.parse(blobBodies[0]).assetVersion, manifest.releaseId);
   assert.equal(JSON.parse(blobBodies[1]).assetVersion, manifest.releaseId);
   assert.deepEqual(JSON.parse(blobBodies[2]), manifest);
+  assert.deepEqual(JSON.parse(blobBodies[3]), manifest);
 
   const treeCall = calls.find((call) => call.url.endsWith("/git/trees"));
   const tree = JSON.parse(treeCall.init.body);
-  assert.deepEqual(tree.tree.slice(0, 3).map((entry) => entry.path), [
+  assert.deepEqual(tree.tree.slice(0, 4).map((entry) => entry.path), [
     "data/current-issue.json",
     "data/archive/2026-08-15.json",
     "data/current-release.json",
+    "data/release-archive/2026-08-15.json",
   ]);
-  assert.equal(tree.tree.length, 21);
-  assert.equal(tree.tree[3].path, "public/archive/2026-08-15/posters/zh/topic-0.png");
-  assert.equal(tree.tree[20].path, "public/archive/2026-08-15/posters/en/topic-8.png");
+  assert.equal(tree.tree.length, 22);
+  assert.equal(tree.tree[4].path, "public/archive/2026-08-15/posters/zh/topic-0.png");
+  assert.equal(tree.tree[21].path, "public/archive/2026-08-15/posters/en/topic-8.png");
   assert.equal(calls.filter((call) => call.url.includes("/contents/") && call.init.method === "PUT").length, 0);
   const refUpdate = calls.find((call) => call.url.endsWith("/git/refs/heads/main"));
   assert.deepEqual(JSON.parse(refUpdate.init.body), { sha: sha("6"), force: false });

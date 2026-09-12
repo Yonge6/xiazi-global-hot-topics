@@ -220,6 +220,34 @@ export async function loadCurrentProductionReleaseManifest(issue: Issue): Promis
   return parseCurrentReleaseManifest(remote, issue);
 }
 
+export async function loadProductionReleaseManifestByDate(
+  date: string,
+  issue: Issue,
+): Promise<CurrentReleaseManifest | null> {
+  if (!currentReleaseManifestEnabled() || !/^\d{4}-\d{2}-\d{2}$/.test(date) || issue.issueDate !== date) {
+    return null;
+  }
+  const relativePath = path.join("release-archive", `${date}.json`);
+  if (prefersLocalJson()) {
+    for (const root of productionDataRoots()) {
+      try {
+        return parseCurrentReleaseManifest(
+          JSON.parse(await readFile(path.join(root, relativePath), "utf8")),
+          issue,
+        );
+      } catch {
+        // Try the remote production manifest next.
+      }
+    }
+  }
+  const remote = await githubJson(
+    `contents/data/release-archive/${date}.json`,
+    "application/vnd.github.raw+json",
+  ).catch(() => null);
+  if (!remote) return null;
+  return parseCurrentReleaseManifest(remote, issue);
+}
+
 export async function loadProductionIssueByDate(date: string): Promise<LoadedProductionIssue | null> {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return null;
   if (prefersLocalJson()) {

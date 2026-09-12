@@ -44,6 +44,7 @@ describe("ReleaseContentRepository archive recovery", () => {
       { issue: issueFor("2026-07-21") },
     ]);
     mocks.listProductionArchiveIssues.mockResolvedValue([
+      { issueDate: "2026-07-25", slug: "2026-07-25", status: "published", source: "github" },
       { issueDate: "2026-07-23", slug: "2026-07-23", status: "published", source: "github" },
       { issueDate: "2026-07-22", slug: "2026-07-22", status: "published", source: "github" },
       { issueDate: "2026-07-20", slug: "2026-07-20", status: "published", source: "github" },
@@ -52,11 +53,12 @@ describe("ReleaseContentRepository archive recovery", () => {
     ]);
   });
 
-  it("merges the three recovery dates with Release V2 publications and deduplicates dates", async () => {
+  it("merges GitHub fallback archives with Release V2 publications and deduplicates dates", async () => {
     const issues = await new ReleaseContentRepository().listPublishedIssues();
 
     expect(issues.map((issue) => issue.issueDate)).toEqual([
       "2026-07-26",
+      "2026-07-25",
       "2026-07-23",
       "2026-07-22",
       "2026-07-21",
@@ -67,14 +69,35 @@ describe("ReleaseContentRepository archive recovery", () => {
     expect(issues.find((issue) => issue.issueDate === "2026-07-22")?.source).toBe("supabase-release");
   });
 
-  it("loads only the recovery dates from the historical GitHub archive", async () => {
+  it("falls back to a GitHub archive when a Release V2 row is missing", async () => {
     const repository = new ReleaseContentRepository();
-    mocks.loadProductionIssueByDate.mockResolvedValue({ issue: issueFor("2026-07-23"), source: "github" });
-    mocks.loadPublicationByDate.mockResolvedValue({ issue: issueFor("2026-07-22") });
+    mocks.loadProductionIssueByDate.mockImplementation(async (date) => ({ issue: issueFor(date), source: "github" }));
+    mocks.loadPublicationByDate.mockImplementation(async (date) => {
+      if (date === "2026-07-22") return { issue: issueFor(date) };
+      throw new Error("release store unavailable");
+    });
 
     await expect(repository.getIssueByDate("2026-07-23")).resolves.toMatchObject({ issueDate: "2026-07-23" });
     await expect(repository.getIssueByDate("2026-07-22")).resolves.toMatchObject({ issueDate: "2026-07-22" });
+    await expect(repository.getIssueByDate("2026-07-25")).resolves.toMatchObject({ issueDate: "2026-07-25" });
     expect(mocks.loadProductionIssueByDate).toHaveBeenCalledWith("2026-07-23");
+    expect(mocks.loadProductionIssueByDate).toHaveBeenCalledWith("2026-07-25");
     expect(mocks.loadPublicationByDate).toHaveBeenCalledWith("2026-07-22");
+    expect(mocks.loadPublicationByDate).toHaveBeenCalledWith("2026-07-25");
+  });
+
+  it("still lists GitHub archives when the Release V2 store is unavailable", async () => {
+    mocks.listPublishedPublications.mockRejectedValue(new Error("release store unavailable"));
+
+    const issues = await new ReleaseContentRepository().listPublishedIssues();
+
+    expect(issues.map((issue) => issue.issueDate)).toEqual([
+      "2026-07-25",
+      "2026-07-23",
+      "2026-07-22",
+      "2026-07-20",
+      "2026-07-19",
+      "2026-07-18",
+    ]);
   });
 });

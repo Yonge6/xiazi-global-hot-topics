@@ -1,0 +1,595 @@
+{
+  "id": "ce5bb416-2099-57b1-8872-794d6815e801",
+  "slug": "2026-09-12",
+  "assetVersion": "rel_20260912_3af1cd2a618901d97a8cd09f",
+  "style": {
+    "name": "Editorial Typography",
+    "zhName": "编辑排版风格",
+    "description": "Style Atlas daily pick: Editorial Typography. Use a premium magazine-led visual system with oversized headlines, decisive typographic hierarchy, asymmetric columns, pull quotes, restrained rules, editorial photography or illustration, and a palette of ink black, warm paper, signal red and one story-specific accent. Keep information density about 20% lower than older editions: one main conclusion, no more than three key facts or numbers, 3-5 clear modules, larger labels and generous whitespace. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: it must contain exactly eight numbered one-sentence summaries of NO.02-NO.09 in a natural flowing composition, never a rigid grid, table, equal cards, dense borders or full-screen dashboard; use a central globe or narrative newsroom scene with eight uneven editorial ribbons or typographic pathways and preserve the same composition in Chinese and English."
+  },
+  "issueDate": "2026-09-12",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-09-12T05:00:00+08:00",
+  "gmtTimestamp": "2026-09-11T21:00:00.000Z",
+  "status": "published",
+  "featuredTopicId": "a776bb15-359f-500a-955d-caebf944bec9",
+  "topics": [
+    {
+      "id": "a776bb15-359f-500a-955d-caebf944bec9",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "today-overview-customs-ai-inflation-safety",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-overview-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 99,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "9月12日全球经营雷达",
+          "headlineView": "关税、AI安全、通胀与公共风险同时抬高决策门槛",
+          "headlineFull": "9月12日全球经营雷达；关税、AI安全、通胀与公共风险同时抬高决策门槛",
+          "intro": "1. 欧盟通过数十年来最大海关改革，境外电商平台将承担进口商责任。\n2. Anthropic披露也门用户尝试用Claude开发先进武器，模型滥用防线面临实战压力。\n3. 英国独立创业者广泛采用AI，但财税与行政工作仍是明显短板。\n4. 美国8月消费者价格加速上涨，美联储再次加息的压力上升。\n5. 菲律宾渡轮火灾死亡人数升至35人，海上运输安全受到关注。\n6. 美国纪念九一一事件25周年，国家安全与社会记忆再次成为焦点。\n7. NASA参与研发的无蜂窝信号搜救技术近期挽救了5条生命。\n8. NASA钱德拉望远镜发现一类前所未见的神秘X射线天体。",
+          "xiaziQuote": "今天的共同主题，是把低概率风险提前写进经营系统。",
+          "doudouQuote": "先更新责任、权限和应急表，再追下一条新闻。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Daily Overview",
+          "headlineFact": "September 12 Global Operator Radar",
+          "headlineView": "Customs, AI safety, inflation and public risk raise the bar for decisions",
+          "headlineFull": "September 12 Global Operator Radar; Customs, AI safety, inflation and public risk raise the bar for decisions",
+          "intro": "1. The EU approved its biggest customs reform in decades, making non-EU e-commerce platforms responsible as importers.\n2. Anthropic disclosed that users in Yemen tried to use Claude to develop advanced weapons, putting misuse defenses under real-world pressure.\n3. UK solo founders widely use AI, yet tax, finance and administration remain clear operational gaps.\n4. U.S. consumer prices accelerated in August, increasing pressure for another Federal Reserve rate rise.\n5. The death toll from a Philippine ferry fire rose to 35, sharpening attention on maritime transport safety.\n6. The United States marked 25 years since the September 11 attacks, renewing focus on security and collective memory.\n7. Search-and-rescue technology developed partly by NASA recently helped save five lives beyond cell coverage.\n8. NASA's Chandra observatory discovered a mysterious new class of X-ray objects unlike any seen before.",
+          "xiaziQuote": "Today's common thread is writing low-probability risks into the operating system early.",
+          "doudouQuote": "Update responsibility, permissions and contingency sheets before chasing the next headline.",
+          "footerTakeaway": "Keyword: Daily Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "e46b244f-f002-5b41-ab78-8bf99fd60d03",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "EU approves landmark customs reform",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=EU+customs+reform+ecommerce+importer+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "143dd7ae-6591-520a-ae56-00800c18ebaf",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "Anthropic reports attempted AI weapons misuse in Yemen",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Anthropic+Yemen+Claude+advanced+weapons+September+11+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "493046af-0e85-5604-81d5-81ebfaad4f69",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "UK solo founders use AI but face admin and tax gaps",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=UK+solo+founders+AI+admin+tax+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "691a80c8-31b0-56b8-8630-9c5f225541dd",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "US consumer prices accelerate in August",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=US+consumer+prices+accelerate+August+Fed+rate+hike+September+11+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "3b59fe3a-299d-5351-aadf-269feaa53d1a",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "Philippine ferry fire death toll reaches 35",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Philippine+ferry+fire+death+toll+35+September+11+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "a808c233-2453-5432-a4cf-4c4fd23f11af",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "United States marks 25 years since September 11 attacks",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=25th+anniversary+September+11+attacks+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "5cbbef04-ad0b-5160-9b92-36c5c11e6839",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "NASA search and rescue technology saves five lives",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NASA+life-saving+technology+cell+signals+five+lives+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "24c34429-e3d4-5531-b253-7515a415bc18",
+          "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+          "title": "NASA Chandra discovers mysterious new X-ray objects",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NASA+Chandra+mysterious+new+X-ray+objects+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "25d5da10-25b8-52cb-80c2-58aaec1fe624",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "eu-customs-platform-importer-responsibility",
+      "rank": 2,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-customs-platform-importer-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟通过数十年来最大海关改革",
+          "headlineView": "境外电商平台将直接承担进口商责任",
+          "headlineFull": "欧盟通过数十年来最大海关改革；境外电商平台将直接承担进口商责任",
+          "intro": "欧盟理事会最终批准新版海关框架，境外电商平台向欧盟消费者销售商品时将被视为进口商，必须负责申报、缴税与合规。最严重违规可面临相当于上一年度进口额6%的罚款；小包裹处理费计划在11月1日前实施。",
+          "xiaziQuote": "平台成为进口商后，商品数据和税费就不能再甩给买家。",
+          "doudouQuote": "今天先核对HS编码、责任主体和到岸成本。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "EU approves its biggest customs reform in decades",
+          "headlineView": "Non-EU platforms become responsible as importers",
+          "headlineFull": "EU approves its biggest customs reform in decades; Non-EU platforms become responsible as importers",
+          "intro": "The EU Council gave final approval to a new customs framework that treats non-EU e-commerce platforms selling to EU consumers as importers responsible for declarations, duties and compliance. Serious breaches can draw fines of up to 6% of the previous year's import value, while an EU-wide small-parcel handling fee is due by November 1.",
+          "xiaziQuote": "Once the platform is the importer, product data and duties cannot be pushed onto the buyer.",
+          "doudouQuote": "Check HS codes, importer responsibility and landed cost today.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "1b13156f-698d-5888-87f4-2d7b8032d5ad",
+          "topicId": "25d5da10-25b8-52cb-80c2-58aaec1fe624",
+          "title": "EU approves landmark customs reform",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=EU+customs+reform+ecommerce+importer+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "a0e4cb2d-f99a-57b1-89bc-c04508ac4213",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "anthropic-yemen-ai-weapons-misuse",
+      "rank": 3,
+      "category": "technology",
+      "region": "Middle East",
+      "countryCodes": [
+        "YE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-anthropic-yemen-misuse-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI",
+          "headlineFact": "也门用户尝试用Claude开发先进武器",
+          "headlineView": "模型滥用防线开始承受真实战场压力",
+          "headlineFull": "也门用户尝试用Claude开发先进武器；模型滥用防线开始承受真实战场压力",
+          "intro": "Anthropic披露，也门北部用户曾尝试让Claude协助开发先进导弹，并在一次失败的制导火箭测试后继续向模型追问原因。相关账号已被封禁，尚未形成可用装备，但事件说明高风险能力识别、账户联动和人工升级机制必须共同工作。",
+          "xiaziQuote": "安全不是拒答一句话，而是识别一整条行动链。",
+          "doudouQuote": "高风险意图要跨会话、跨工具联动拦截。",
+          "footerTakeaway": "今日关键词：AI。"
+        },
+        "en-US": {
+          "categoryLabel": "AI",
+          "headlineFact": "Users in Yemen tried to use Claude to develop advanced weapons",
+          "headlineView": "Model-misuse defenses face pressure from a real battlefield",
+          "headlineFull": "Users in Yemen tried to use Claude to develop advanced weapons; Model-misuse defenses face pressure from a real battlefield",
+          "intro": "Anthropic disclosed that users in northern Yemen tried to use Claude to develop advanced missiles and returned for help after a failed guided-rocket test. The accounts were blocked and no operational device was fielded, but the case shows that high-risk capability detection, account-level signals and human escalation must work together.",
+          "xiaziQuote": "Safety is not one refusal; it is recognizing an entire chain of action.",
+          "doudouQuote": "Link high-risk intent across sessions and tools.",
+          "footerTakeaway": "Keyword: AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "4cfdb43b-4ca2-5046-987b-6927b0e92752",
+          "topicId": "a0e4cb2d-f99a-57b1-89bc-c04508ac4213",
+          "title": "Anthropic reports attempted AI weapons misuse in Yemen",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Anthropic+Yemen+Claude+advanced+weapons+September+11+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "52c02e60-370f-5217-8d9e-03da10a03786",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "uk-solo-founders-ai-admin-gap",
+      "rank": 4,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "GB"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-uk-solo-founders-ai-gap-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "OPC 一人公司",
+          "headlineFact": "英国独立创业者广泛采用AI",
+          "headlineView": "财税与行政仍是自动化最薄弱的环节",
+          "headlineFull": "英国独立创业者广泛采用AI；财税与行政仍是自动化最薄弱的环节",
+          "intro": "一项针对英国独立创业者的方向性研究显示，84%的受访者使用ChatGPT或其他大模型，72%预计未来一年会增加使用，但50人中只有6人把AI用于财务规划或行政。真正的增长空间不是再多写几段文案，而是把报价、记账、税务与跟进做成可审计流程。",
+          "xiaziQuote": "AI用得多，不等于经营系统已经自动化。",
+          "doudouQuote": "从最耗时、最可核对的一条后台流程开始。",
+          "footerTakeaway": "今日关键词：OPC 一人公司。"
+        },
+        "en-US": {
+          "categoryLabel": "OPC / Solopreneur",
+          "headlineFact": "UK solo founders widely adopt AI",
+          "headlineView": "Finance, tax and admin remain the weakest automation layer",
+          "headlineFull": "UK solo founders widely adopt AI; Finance, tax and admin remain the weakest automation layer",
+          "intro": "A directional study of UK solo founders found that 84% use ChatGPT or another large language model and 72% expect usage to rise, yet only six of 50 respondents use AI for financial planning or administration. The bigger opportunity is not more copy but auditable workflows for quotes, bookkeeping, tax and follow-up.",
+          "xiaziQuote": "Heavy AI use does not mean the operating system is automated.",
+          "doudouQuote": "Start with one time-consuming, verifiable back-office workflow.",
+          "footerTakeaway": "Keyword: OPC / Solopreneur."
+        }
+      },
+      "sources": [
+        {
+          "id": "3e97f28b-fac6-5f05-9ebb-56cf2f08ae8a",
+          "topicId": "52c02e60-370f-5217-8d9e-03da10a03786",
+          "title": "UK solo founders use AI but face admin and tax gaps",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=UK+solo+founders+AI+admin+tax+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "3008862a-a765-5b4c-ba27-1cae6eeb60b6",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "us-inflation-accelerates-fed-pressure",
+      "rank": 5,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-us-inflation-fed-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球经济",
+          "headlineFact": "美国8月消费者价格加速上涨",
+          "headlineView": "美联储再次加息的压力重新上升",
+          "headlineFull": "美国8月消费者价格加速上涨；美联储再次加息的压力重新上升",
+          "intro": "美国8月消费者价格涨幅加快，市场对美联储下一步利率路径的判断转向更谨慎。对经营者而言，融资成本、美元汇率与广告回收周期可能同时波动，应重新测算高利率多维持一个季度时的现金流。",
+          "xiaziQuote": "通胀重新抬头时，增长预算要先通过现金流测试。",
+          "doudouQuote": "把利率和回款周期一起上调再算一次。",
+          "footerTakeaway": "今日关键词：全球经济。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Economy",
+          "headlineFact": "U.S. consumer prices accelerate in August",
+          "headlineView": "Pressure for another Federal Reserve rate rise returns",
+          "headlineFull": "U.S. consumer prices accelerate in August; Pressure for another Federal Reserve rate rise returns",
+          "intro": "U.S. consumer-price growth accelerated in August, making the Federal Reserve's next rate decision more difficult. Operators should revisit cash flow under a scenario where financing costs, the dollar and advertising payback periods all move against them for another quarter.",
+          "xiaziQuote": "When inflation returns, growth budgets must pass a cash-flow test first.",
+          "doudouQuote": "Raise both rates and collection time in the model.",
+          "footerTakeaway": "Keyword: Global Economy."
+        }
+      },
+      "sources": [
+        {
+          "id": "b044a461-4f09-5828-9cd9-3400b1f54552",
+          "topicId": "3008862a-a765-5b4c-ba27-1cae6eeb60b6",
+          "title": "US consumer prices accelerate in August",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=US+consumer+prices+accelerate+August+Fed+rate+hike+September+11+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f407c788-f945-5785-b294-d14c5fccfe04",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "philippine-ferry-fire-toll",
+      "rank": 6,
+      "category": "international",
+      "region": "Asia",
+      "countryCodes": [
+        "PH"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-philippine-ferry-fire-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "公共安全",
+          "headlineFact": "菲律宾渡轮火灾死亡人数升至35人",
+          "headlineView": "海上运输应急与乘客清点再次受到拷问",
+          "headlineFull": "菲律宾渡轮火灾死亡人数升至35人；海上运输应急与乘客清点再次受到拷问",
+          "intro": "菲律宾一艘渡轮发生火灾，随着更多遗体被发现，死亡人数升至35人。事故提醒所有依赖海上客运或岛际物流的组织，把真实乘员清单、夜间疏散、救生设备和家属联络作为同一套演练，而不是分散的合规项目。",
+          "xiaziQuote": "应急能力的价值，常常只在最坏的一小时被看见。",
+          "doudouQuote": "名单、路线、设备和联络人必须能同时拿到。",
+          "footerTakeaway": "今日关键词：公共安全。"
+        },
+        "en-US": {
+          "categoryLabel": "Public Safety",
+          "headlineFact": "Philippine ferry-fire death toll rises to 35",
+          "headlineView": "Maritime evacuation and passenger accounting face renewed scrutiny",
+          "headlineFull": "Philippine ferry-fire death toll rises to 35; Maritime evacuation and passenger accounting face renewed scrutiny",
+          "intro": "The death toll from a Philippine ferry fire rose to 35 as more bodies were recovered. Any organization relying on passenger shipping or island logistics should treat verified manifests, night evacuation, life-saving equipment and family communication as one drill rather than separate compliance items.",
+          "xiaziQuote": "Emergency capability shows its value in the worst possible hour.",
+          "doudouQuote": "Manifests, routes, equipment and contacts must be available together.",
+          "footerTakeaway": "Keyword: Public Safety."
+        }
+      },
+      "sources": [
+        {
+          "id": "2962c730-5c26-55aa-876f-eb26a8c803eb",
+          "topicId": "f407c788-f945-5785-b294-d14c5fccfe04",
+          "title": "Philippine ferry fire death toll reaches 35",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Philippine+ferry+fire+death+toll+35+September+11+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "f6b98845-9ca2-51d4-abe3-a3cd21808d11",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "september-11-anniversary-25-years",
+      "rank": 7,
+      "category": "international",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-911-anniversary-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球记忆",
+          "headlineFact": "美国纪念九一一事件25周年",
+          "headlineView": "近3000名遇难者与改变世界的后果被再次铭记",
+          "headlineFull": "美国纪念九一一事件25周年；近3000名遇难者与改变世界的后果被再次铭记",
+          "intro": "美国在五角大楼、纽约和宾夕法尼亚举行纪念活动，悼念2001年九一一袭击中近3000名遇难者。25年后的重要提醒不是重复恐惧，而是把安全、韧性、跨文化理解与公共信任视为长期基础设施。",
+          "xiaziQuote": "纪念的意义，是让代价转化为更成熟的制度。",
+          "doudouQuote": "韧性来自准备，也来自彼此信任。",
+          "footerTakeaway": "今日关键词：全球记忆。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Memory",
+          "headlineFact": "The United States marks 25 years since the September 11 attacks",
+          "headlineView": "Nearly 3,000 victims and world-changing consequences are remembered",
+          "headlineFull": "The United States marks 25 years since the September 11 attacks; Nearly 3,000 victims and world-changing consequences are remembered",
+          "intro": "Commemorations at the Pentagon, New York and Pennsylvania honored the nearly 3,000 people killed in the September 11, 2001 attacks. A quarter-century later, the durable lesson is to treat security, resilience, cross-cultural understanding and public trust as long-term infrastructure.",
+          "xiaziQuote": "Remembrance matters when cost becomes a more mature institution.",
+          "doudouQuote": "Resilience comes from preparation and mutual trust.",
+          "footerTakeaway": "Keyword: Global Memory."
+        }
+      },
+      "sources": [
+        {
+          "id": "4fe987b2-dd24-5381-806f-44f2dcff70bd",
+          "topicId": "f6b98845-9ca2-51d4-abe3-a3cd21808d11",
+          "title": "United States marks 25 years since September 11 attacks",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=25th+anniversary+September+11+attacks+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "0313e682-b60d-5cde-b456-8be89bcafe24",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "nasa-search-rescue-beyond-cell-signal",
+      "rank": 8,
+      "category": "science",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-nasa-search-rescue-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "科技与生命",
+          "headlineFact": "NASA搜救技术在无信号区挽救5人",
+          "headlineView": "卫星定位让求救信息越过蜂窝网络盲区",
+          "headlineFull": "NASA搜救技术在无信号区挽救5人；卫星定位让求救信息越过蜂窝网络盲区",
+          "intro": "NASA参与研发的搜救技术近期帮助营救5名身处无蜂窝信号区域的人。事件说明在偏远作业、户外服务和海陆运输中，真正可靠的安全系统必须拥有独立于手机网络的定位、信标与响应链路。",
+          "xiaziQuote": "关键时刻，冗余通信不是成本，而是生命线。",
+          "doudouQuote": "先问清楚断网后谁还能收到求救。",
+          "footerTakeaway": "今日关键词：科技与生命。"
+        },
+        "en-US": {
+          "categoryLabel": "Technology and Life",
+          "headlineFact": "NASA search-and-rescue technology helps save five lives",
+          "headlineView": "Satellite location carries distress signals beyond cellular dead zones",
+          "headlineFull": "NASA search-and-rescue technology helps save five lives; Satellite location carries distress signals beyond cellular dead zones",
+          "intro": "Search-and-rescue technology developed partly by NASA recently helped save five people beyond cellular coverage. Remote operations, outdoor services and transport systems need location beacons and response channels that remain independent from ordinary phone networks.",
+          "xiaziQuote": "In a critical moment, redundant communication is a lifeline, not overhead.",
+          "doudouQuote": "Ask who still receives the alert after the network disappears.",
+          "footerTakeaway": "Keyword: Technology and Life."
+        }
+      },
+      "sources": [
+        {
+          "id": "1947b295-7c9d-508b-bfca-901b56fb307e",
+          "topicId": "0313e682-b60d-5cde-b456-8be89bcafe24",
+          "title": "NASA search and rescue technology saves five lives",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NASA+life-saving+technology+cell+signals+five+lives+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "ece910ea-d3ff-5ed6-8e88-4cc8012bfe3a",
+      "issueId": "ce5bb416-2099-57b1-8872-794d6815e801",
+      "slug": "chandra-new-xray-object-class",
+      "rank": 9,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-chandra-xray-objects-20260912",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "宇宙科学",
+          "headlineFact": "钱德拉发现神秘新型X射线天体",
+          "headlineView": "异常信号或同时回答两个长期天文学问题",
+          "headlineFull": "钱德拉发现神秘新型X射线天体；异常信号或同时回答两个长期天文学问题",
+          "intro": "NASA钱德拉X射线天文台发现一类行为前所未见的银河外天体。研究者认为，这些异常对象可能帮助解释两个长期未解问题；更重要的是，它再次证明科学突破常从无法塞进旧分类的数据开始。",
+          "xiaziQuote": "异常不是噪声，有时是新世界观的入口。",
+          "doudouQuote": "先保留解释不了的数据，再去改模型。",
+          "footerTakeaway": "今日关键词：宇宙科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Space Science",
+          "headlineFact": "Chandra discovers a mysterious new class of X-ray objects",
+          "headlineView": "The anomalies may answer two long-standing astronomy questions",
+          "headlineFull": "Chandra discovers a mysterious new class of X-ray objects; The anomalies may answer two long-standing astronomy questions",
+          "intro": "NASA's Chandra X-ray Observatory has found a class of objects in other galaxies behaving unlike anything seen before. Researchers say the anomalies may help solve two long-standing questions, another reminder that breakthroughs often begin with data that does not fit the old categories.",
+          "xiaziQuote": "An anomaly is not always noise; sometimes it opens a new worldview.",
+          "doudouQuote": "Keep the unexplained data before changing the model.",
+          "footerTakeaway": "Keyword: Space Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "0b8374c9-1c2f-50f6-9c3e-55852a4fdf56",
+          "topicId": "ece910ea-d3ff-5ed6-8e88-4cc8012bfe3a",
+          "title": "NASA Chandra discovers mysterious new X-ray objects",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NASA+Chandra+mysterious+new+X-ray+objects+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-12T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

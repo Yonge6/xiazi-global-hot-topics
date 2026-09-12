@@ -6,6 +6,8 @@ import { resolvePosterName } from "@/lib/posters/assets";
 import {
   loadCurrentProductionReleaseManifest,
   loadLatestProductionIssue,
+  loadProductionIssueByDate,
+  loadProductionReleaseManifestByDate,
 } from "@/server/json/production-json-source";
 import { isHistoricalReleaseDate } from "@xiazi/domain";
 import {
@@ -67,6 +69,35 @@ export async function GET(
       });
     } catch {
       // Continue to Release V2 below when the GitHub-backed manifest is temporarily unavailable.
+    }
+  }
+  if (process.env.XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED === "true" && issueDate && !isLegacyGithubArchive) {
+    try {
+      const loaded = await loadProductionIssueByDate(issueDate);
+      const manifest = loaded && await loadProductionReleaseManifestByDate(issueDate, loaded.issue);
+      if (!loaded || !manifest) throw new Error("ARCHIVED_RELEASE_MANIFEST_UNAVAILABLE");
+      if (cacheKey !== manifest.releaseId && cacheKey !== manifest.assetBatchId) {
+        return NextResponse.json(
+          { message: "The archived releaseId is required for immutable poster delivery" },
+          { status: 409, headers: { "Cache-Control": "no-store" } },
+        );
+      }
+      const topic = loaded.issue.topics.find((item) => resolvePosterName(item.slug) === name);
+      const poster = topic && manifest.posters.find((item) => item.topicId === topic.id && item.locale === locale);
+      if (!poster) return NextResponse.json({ message: "Poster not found" }, { status: 404 });
+      const destination = new URL(poster.url);
+      destination.searchParams.set("contentHash", poster.contentHash);
+      return NextResponse.redirect(destination, {
+        status: 307,
+        headers: {
+          "Cache-Control": POSTER_CACHE_CONTROL,
+          "CDN-Cache-Control": POSTER_CDN_CACHE_CONTROL,
+          "X-Xiazi-Release-Id": manifest.releaseId,
+          "X-Xiazi-Content-Hash": poster.contentHash,
+        },
+      });
+    } catch {
+      // Continue to the Release V2 store when the GitHub archive is unavailable.
     }
   }
   if (releaseV2Enabled() && !isLegacyGithubArchive) {

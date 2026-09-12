@@ -20,14 +20,15 @@ export class ReleaseContentRepository implements ContentRepository {
 
   async getIssueByDate(date: string): Promise<Issue | null> {
     if (isHistoricalReleaseDate(date)) return this.historical.getIssueByDate(date);
-    const publication = await loadPublicationByDate(date);
-    return publication?.issue || null;
+    const publication = await loadPublicationByDate(date).catch(() => null);
+    if (publication) return publication.issue;
+    return this.historical.getIssueByDate(date);
   }
 
   async listPublishedIssues(): Promise<IssueSummary[]> {
     const [publications, historical] = await Promise.all([
-      listPublishedPublications(),
-      this.historical.listPublishedIssues(),
+      listPublishedPublications().catch(() => []),
+      this.historical.listPublishedIssues().catch(() => []),
     ]);
     const future = publications.map(({ issue }) => ({
       issueDate: issue.issueDate,
@@ -35,11 +36,7 @@ export class ReleaseContentRepository implements ContentRepository {
       status: issue.status,
       source: "supabase-release" as const,
     }));
-    const merged = new Map(
-      historical
-        .filter((issue) => isHistoricalReleaseDate(issue.issueDate))
-        .map((issue) => [issue.issueDate, issue]),
-    );
+    const merged = new Map(historical.map((issue) => [issue.issueDate, issue]));
     for (const issue of future) merged.set(issue.issueDate, issue);
     return Array.from(merged.values()).sort((a, b) => b.issueDate.localeCompare(a.issueDate));
   }

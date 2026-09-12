@@ -9,6 +9,8 @@ const mocks = vi.hoisted(() => ({
   loadVerifiedPoster: vi.fn(),
   loadCurrentProductionReleaseManifest: vi.fn(),
   loadLatestProductionIssue: vi.fn(),
+  loadProductionIssueByDate: vi.fn(),
+  loadProductionReleaseManifestByDate: vi.fn(),
   releaseV2Enabled: true,
 }));
 
@@ -20,6 +22,8 @@ vi.mock("@/server/releases/release-service", () => ({
 vi.mock("@/server/json/production-json-source", () => ({
   loadCurrentProductionReleaseManifest: mocks.loadCurrentProductionReleaseManifest,
   loadLatestProductionIssue: mocks.loadLatestProductionIssue,
+  loadProductionIssueByDate: mocks.loadProductionIssueByDate,
+  loadProductionReleaseManifestByDate: mocks.loadProductionReleaseManifestByDate,
 }));
 
 import { GET } from "@/app/api/posters/[locale]/[name]/route";
@@ -55,6 +59,8 @@ describe("release-bound poster delivery", () => {
     });
     mocks.loadLatestProductionIssue.mockResolvedValue({ issue, source: "github" });
     mocks.loadCurrentProductionReleaseManifest.mockResolvedValue(null);
+    mocks.loadProductionIssueByDate.mockResolvedValue(null);
+    mocks.loadProductionReleaseManifestByDate.mockResolvedValue(null);
   });
 
   afterEach(() => {
@@ -107,6 +113,39 @@ describe("release-bound poster delivery", () => {
     expect(response.status).toBe(307);
     expect(response.headers.get("x-xiazi-release-id")).toBe(releaseId);
     expect(response.headers.get("location")).toContain(`contentHash=${contentHash}`);
+    expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
+  });
+
+  it("redirects a missing Release V2 archive row through its dated GitHub manifest", async () => {
+    vi.stubEnv("XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED", "true");
+    const archiveDate = "2026-08-15";
+    const archiveReleaseId = "rel_20260815_cccccccccccccccccccccccc";
+    const archivedIssue = parseIssue({
+      ...structuredClone(issue),
+      issueDate: archiveDate,
+      slug: archiveDate,
+      beijingTimestamp: `${archiveDate}T05:00:00+08:00`,
+      gmtTimestamp: `${archiveDate}T00:00:00Z`,
+    });
+    const topic = archivedIssue.topics[0];
+    const contentHash = "d".repeat(64);
+    mocks.loadProductionIssueByDate.mockResolvedValue({ issue: archivedIssue, source: "github" });
+    mocks.loadProductionReleaseManifestByDate.mockResolvedValue({
+      releaseId: archiveReleaseId,
+      assetBatchId: "asset_prod_20260815_archive123",
+      posters: [{
+        topicId: topic.id,
+        locale: "zh",
+        url: `https://assets.example.com/release-assets/asset_prod_20260815_archive123/zh/${posterName}.png`,
+        contentHash,
+      }],
+    });
+
+    const response = await request(`?issueDate=${archiveDate}&v=${archiveReleaseId}`);
+
+    expect(response.status).toBe(307);
+    expect(response.headers.get("x-xiazi-release-id")).toBe(archiveReleaseId);
+    expect(response.headers.get("x-xiazi-content-hash")).toBe(contentHash);
     expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
   });
 

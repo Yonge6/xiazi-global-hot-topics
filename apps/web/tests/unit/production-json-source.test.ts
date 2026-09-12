@@ -5,6 +5,7 @@ import { resolvePosterName } from "@/lib/posters/assets";
 import {
   loadCurrentProductionReleaseManifest,
   loadLatestProductionIssue,
+  loadProductionReleaseManifestByDate,
 } from "@/server/json/production-json-source";
 import { JsonContentRepository } from "@/server/repositories/json-content-repository";
 import { parseIssue } from "@xiazi/contracts";
@@ -94,5 +95,34 @@ describe("production JSON source", () => {
       assetBatchId,
     });
     expect(loaded?.posters).toHaveLength(18);
+  });
+
+  it("loads and validates a dated release manifest for GitHub archive fallback", async () => {
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED", "true");
+    vi.stubEnv("NEXT_PUBLIC_COS_BASE_URL", "https://assets.example.com");
+    const assetBatchId = "asset_prod_20260810_archive123";
+    const manifest = {
+      schemaVersion: "xiazi-current-release-v1",
+      issueDate: issue.issueDate,
+      releaseId: "rel_20260810_cccccccccccccccccccccccc",
+      assetBatchId,
+      posters: issue.topics.flatMap((topic) => (["zh", "en"] as const).map((locale) => ({
+        topicId: topic.id,
+        locale,
+        url: `https://assets.example.com/release-assets/${assetBatchId}/${locale}/${resolvePosterName(topic.slug)}.png`,
+        contentHash: "d".repeat(64),
+      }))),
+    };
+    const fetchMock = vi.fn(async () => ({ ok: true, json: async () => manifest }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const loaded = await loadProductionReleaseManifestByDate(issue.issueDate, issue);
+
+    expect(loaded?.releaseId).toBe(manifest.releaseId);
+    expect(fetchMock).toHaveBeenCalledWith(
+      expect.stringContaining(`contents/data/release-archive/${issue.issueDate}.json`),
+      expect.anything(),
+    );
   });
 });

@@ -1,0 +1,599 @@
+{
+  "id": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+  "slug": "2026-09-11",
+  "assetVersion": "rel_20260911_7d9b205b14b9bb6cb8724816",
+  "style": {
+    "name": "Memphis",
+    "zhName": "孟菲斯风格",
+    "description": "Style Atlas daily pick: Memphis. Use a playful editorial system of bright geometric shapes, asymmetry, squiggles, dots, bold black outlines, layered paper-like planes and a palette of cobalt, coral, lemon yellow, mint and warm white. Keep the information density about 20% lower than older editions: one main conclusion, no more than three key facts or numbers, 3-5 clear modules, larger labels and generous whitespace. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: it must contain exactly eight numbered one-sentence summaries of NO.02-NO.09 in a natural flowing composition, never a rigid grid, table, equal cards, dense borders or full-screen dashboard; use a central Earth or narrative scene with eight uneven orbital or ribbon-like information elements and preserve the same composition in Chinese and English."
+  },
+  "issueDate": "2026-09-11",
+  "slotHour": 4,
+  "beijingTimestamp": "2026-09-11T04:00:00+08:00",
+  "gmtTimestamp": "2026-09-10T20:00:00.000Z",
+  "status": "published",
+  "featuredTopicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+  "topics": [
+    {
+      "id": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "today-overview-commerce-ai-rates-conflict",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 99,
+      "storyId": "xzs-overview-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 99,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "9月11日全球经营雷达",
+          "headlineView": "卖家规则、AI安全、利率与冲突正在同时改写风险",
+          "headlineFull": "9月11日全球经营雷达; 卖家规则、AI安全、利率与冲突正在同时改写风险",
+          "intro": "1. TikTok Shop更新卖家中心、包装与履约规则，多市场卖家要同步检查日常流程。 2. 美国参议院启动对OpenAI与Hugging Face安全事件的调查，前沿AI治理进入国会问责。 3. HoneyBook接入ChatGPT小企业工具集，让独立经营者可直接查询客户、合同、日程与发票。 4. 欧洲央行加息25个基点，以压制伊朗战争与高油价带来的能源型通胀。 5. 泽连斯基访问加拿大争取更多军事支持，乌克兰冬季防空与能源韧性成为焦点。 6. NOAA、NASA与多国高校启动协同观测，追踪近几十年空气污染源的变化。 7. 加沙新一轮空袭造成至少四人死亡，中东人道与供应链风险继续外溢。 8. YouTube创作者可在视频中直接标记亚马逊商品，内容到成交的链路进一步缩短。",
+          "xiaziQuote": "今天的共同主题，是把外部变化迅速翻译成内部动作。",
+          "doudouQuote": "先改规则、权限和预算，再追下一条新闻。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Daily Overview",
+          "headlineFact": "September 11 Global Operator Radar",
+          "headlineView": "Seller rules, AI safety, rates and conflict are reshaping risk together",
+          "headlineFull": "September 11 Global Operator Radar; Seller rules, AI safety, rates and conflict are reshaping risk together",
+          "intro": "1. TikTok Shop updated Seller Center, packaging and fulfillment rules, pushing multi-market merchants to recheck daily workflows. 2. A U.S. Senate probe into the OpenAI-Hugging Face security incident moves frontier AI governance into congressional accountability. 3. HoneyBook joined ChatGPT's small-business collection so independent operators can query clients, contracts, schedules and invoices directly. 4. The European Central Bank raised rates by 25 basis points to contain energy-driven inflation from the Iran war and high oil prices. 5. Zelenskyy visited Canada seeking more military support as Ukraine's winter air defense and energy resilience take priority. 6. NOAA, NASA and international universities launched coordinated campaigns to track how air-pollution sources have shifted over decades. 7. A new Gaza strike killed at least four people as humanitarian and supply-chain risks continued to spill across the region. 8. YouTube creators can now tag Amazon products directly in videos, shortening the path from content to checkout.",
+          "xiaziQuote": "Today's common thread is turning outside change into inside action quickly.",
+          "doudouQuote": "Update rules, permissions and budgets before chasing the next headline.",
+          "footerTakeaway": "Keyword: Daily Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "481cd64a-adf6-4ce7-b368-2d569df2388f",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "TikTok Shop seller navigation, packaging and fulfillment updates",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=TikTok+Shop+Seller+Center+packaging+shipping+fulfillment+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "12b03b50-37ca-4872-8d94-85ed84768a8e",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "Senate probe into OpenAI and Hugging Face security incident",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Senate+probe+OpenAI+Hugging+Face+breach+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "7c694bb1-8500-4768-9d96-844534d27454",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "HoneyBook launches in ChatGPT Small Business Collection",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=HoneyBook+ChatGPT+Small+Business+Collection+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "6817b5a9-7a52-4f97-ad30-72eec6a6c983",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "ECB raises rates to counter energy-driven inflation",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=ECB+raises+interest+rates+energy+inflation+September+10+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "029f5002-a0c0-4cf0-83af-59de27f33081",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "Zelenskyy visits Canada for military support",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Zelenskyy+visits+Canada+military+support+September+10+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "7ca4b185-0d83-4df2-b9cf-f680ca5a2338",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "NOAA NASA coordinated air-pollution research campaigns",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NOAA+NASA+air+pollution+research+campaigns+September+10+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "79c4938c-0553-4f0e-aa37-92bbaab2fafd",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "Gaza strike and latest Middle East developments",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Gaza+strike+kills+four+September+10+2026+Middle+East&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "069cd764-d28d-438c-891b-6d336a69d175",
+          "topicId": "aaafd264-e80a-40da-af09-8b0918f3c3b9",
+          "title": "YouTube creators can tag Amazon products in videos",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=YouTube+creators+tag+Amazon+products+directly+videos+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "c514407a-e021-4eb2-a9dd-ddd7f59b34df",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "tiktok-shop-packaging-fulfillment-rules",
+      "rank": 2,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [
+        "US",
+        "GB",
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-tiktok-shop-ops-update-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "TikTok Shop更新卖家中心与履约规则",
+          "headlineView": "多市场卖家应在旺季前重查包装、发货与团队路径",
+          "headlineFull": "TikTok Shop更新卖家中心与履约规则; 多市场卖家应在旺季前重查包装、发货与团队路径",
+          "intro": "TikTok Shop在9月更新Seller Center导航，并同步调整包装、运输与履约政策。跨市场运营团队要确认常用入口、包装要求和发货时限是否变化，避免旺季订单因旧流程产生迟发、处罚或客服积压。",
+          "xiaziQuote": "后台换位置是小事，履约规则变了才会直接影响利润。",
+          "doudouQuote": "今天就让运营按真实订单走一遍新流程。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "TikTok Shop updates Seller Center and fulfillment rules",
+          "headlineView": "Recheck packaging, shipping and team workflows before peak season",
+          "headlineFull": "TikTok Shop updates Seller Center and fulfillment rules; Recheck packaging, shipping and team workflows before peak season",
+          "intro": "TikTok Shop rolled out a September Seller Center navigation update alongside revised packaging, shipping and fulfillment policies. Multi-market teams should verify daily entry points, packaging requirements and dispatch clocks now, before peak-season orders turn an outdated workflow into delays, penalties or support backlogs.",
+          "xiaziQuote": "A moved menu is minor; a changed fulfillment rule hits margin directly.",
+          "doudouQuote": "Run one real order through the new workflow today.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "5ddb8708-2e83-40c9-a8a6-0ae3c37aa6f5",
+          "topicId": "c514407a-e021-4eb2-a9dd-ddd7f59b34df",
+          "title": "TikTok Shop seller navigation, packaging and fulfillment updates",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=TikTok+Shop+Seller+Center+packaging+shipping+fulfillment+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "4a239e85-abd8-466d-bed8-e0954fe0fcd1",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "senate-probe-openai-huggingface-security",
+      "rank": 3,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-openai-hf-senate-probe-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI",
+          "headlineFact": "美国参议院调查OpenAI与Hugging Face安全事件",
+          "headlineView": "前沿模型的权限边界开始进入正式问责",
+          "headlineFull": "美国参议院调查OpenAI与Hugging Face安全事件; 前沿模型的权限边界开始进入正式问责",
+          "intro": "美国参议院相关小组委员会要求OpenAI说明其智能体安全事件与整改措施，焦点包括自主协作、越权行为和控制机制。对部署智能体的团队而言，关键不是等待监管结论，而是立刻收紧凭证、网络、工具调用和人工批准门。",
+          "xiaziQuote": "智能体越能行动，权限设计就越像产品本身。",
+          "doudouQuote": "先把能写、能发、能付款的权限拆开。",
+          "footerTakeaway": "今日关键词：AI。"
+        },
+        "en-US": {
+          "categoryLabel": "AI",
+          "headlineFact": "U.S. Senate probes the OpenAI-Hugging Face security incident",
+          "headlineView": "Frontier-model permission boundaries enter formal accountability",
+          "headlineFull": "U.S. Senate probes the OpenAI-Hugging Face security incident; Frontier-model permission boundaries enter formal accountability",
+          "intro": "A U.S. Senate subcommittee is asking OpenAI to explain an agent security incident and its remediation, with attention on autonomous coordination, actions beyond intended scope and control mechanisms. Teams deploying agents should not wait for the political outcome: tighten credentials, network access, tool calls and human approval gates now.",
+          "xiaziQuote": "The more an agent can act, the more permission design becomes the product.",
+          "doudouQuote": "Separate permissions to write, publish and pay.",
+          "footerTakeaway": "Keyword: AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "2b40dbe8-70bd-4fca-8d49-19692b4e58aa",
+          "topicId": "4a239e85-abd8-466d-bed8-e0954fe0fcd1",
+          "title": "Senate probe into OpenAI and Hugging Face security incident",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Senate+probe+OpenAI+Hugging+Face+breach+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1c26804f-97a0-4692-b811-a064aa45e3d1",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "honeybook-chatgpt-small-business-operations",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-honeybook-chatgpt-opc-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "OPC 一人公司",
+          "headlineFact": "HoneyBook接入ChatGPT小企业工具集",
+          "headlineView": "一人公司可直接查询客户、合同、日程与发票",
+          "headlineFull": "HoneyBook接入ChatGPT小企业工具集; 一人公司可直接查询客户、合同、日程与发票",
+          "intro": "HoneyBook成为ChatGPT小企业工具集的一员，独立经营者可在授权后查询自己的客户、项目、合同、日程和发票，并让AI准备后续动作。真正的效率来自把经营系统作为可信记录源，同时把发送、签署和收款保留为人工批准。",
+          "xiaziQuote": "AI接上经营记录，才从聊天工具变成运营助手。",
+          "doudouQuote": "数据可读，关键动作仍要你点头。",
+          "footerTakeaway": "今日关键词：OPC 一人公司。"
+        },
+        "en-US": {
+          "categoryLabel": "OPC / Solopreneur",
+          "headlineFact": "HoneyBook joins ChatGPT's small-business collection",
+          "headlineView": "Solo operators can query clients, contracts, schedules and invoices",
+          "headlineFull": "HoneyBook joins ChatGPT's small-business collection; Solo operators can query clients, contracts, schedules and invoices",
+          "intro": "HoneyBook is now available in ChatGPT's small-business collection, letting authorized independent operators query their own clients, projects, contracts, schedules and invoices and prepare follow-up work. The useful pattern is to connect a trusted operating system while keeping sending, signing and payment actions behind human approval.",
+          "xiaziQuote": "AI becomes an operator when it can read the business record.",
+          "doudouQuote": "Let data be readable, but keep critical actions approved.",
+          "footerTakeaway": "Keyword: OPC / Solopreneur."
+        }
+      },
+      "sources": [
+        {
+          "id": "ca0be82a-0854-4c40-bf8a-acfc01ec96cd",
+          "topicId": "1c26804f-97a0-4692-b811-a064aa45e3d1",
+          "title": "HoneyBook launches in ChatGPT Small Business Collection",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=HoneyBook+ChatGPT+Small+Business+Collection+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "55fd179a-585d-4766-8e40-4b5a969c7efb",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "ecb-rate-hike-energy-inflation",
+      "rank": 5,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-ecb-rate-hike-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球经济",
+          "headlineFact": "欧洲央行加息25个基点",
+          "headlineView": "能源型通胀重新压缩企业融资与消费空间",
+          "headlineFull": "欧洲央行加息25个基点; 能源型通胀重新压缩企业融资与消费空间",
+          "intro": "欧洲央行把关键利率上调25个基点，以应对伊朗战争与高油价推升的通胀风险。欧洲市场的借款、库存和广告回收周期都可能变得更贵；经营者应重新测试利息成本、汇率和需求放缓同时发生的情景。",
+          "xiaziQuote": "高油价和高利率叠加，现金流比增长口号更重要。",
+          "doudouQuote": "把回款周期拉长30天再算一次。",
+          "footerTakeaway": "今日关键词：全球经济。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Economy",
+          "headlineFact": "The European Central Bank raises rates by 25 basis points",
+          "headlineView": "Energy inflation tightens financing and consumer room again",
+          "headlineFull": "The European Central Bank raises rates by 25 basis points; Energy inflation tightens financing and consumer room again",
+          "intro": "The European Central Bank lifted key rates by 25 basis points as the Iran war and high oil prices fed inflation risk. Borrowing, inventory and advertising payback periods may all become more expensive across Europe, so operators should stress-test interest costs, currency moves and weaker demand together.",
+          "xiaziQuote": "When oil and rates rise together, cash flow matters more than slogans.",
+          "doudouQuote": "Recalculate with receivables delayed by thirty days.",
+          "footerTakeaway": "Keyword: Global Economy."
+        }
+      },
+      "sources": [
+        {
+          "id": "b7f311cf-d176-4f3c-860d-19055dbbbd33",
+          "topicId": "55fd179a-585d-4766-8e40-4b5a969c7efb",
+          "title": "ECB raises rates to counter energy-driven inflation",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=ECB+raises+interest+rates+energy+inflation+September+10+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "0a3a051c-66ff-45e3-9298-6a0d38babe89",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "zelenskyy-canada-military-support-winter",
+      "rank": 6,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "CA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-zelenskyy-canada-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "乌克兰",
+          "headlineFact": "泽连斯基访问加拿大争取更多军事支持",
+          "headlineView": "入冬前的防空与能源韧性成为援助重点",
+          "headlineFull": "泽连斯基访问加拿大争取更多军事支持; 入冬前的防空与能源韧性成为援助重点",
+          "intro": "乌克兰总统泽连斯基访问加拿大，寻求进一步军事支持。随着冬季临近，防空能力、能源设施保护和长期补给成为更紧迫的议题；企业也应关注欧洲能源、运输与保险成本可能出现的新波动。",
+          "xiaziQuote": "战争进入冬季，基础设施韧性就是战略。",
+          "doudouQuote": "供应链预案要把能源和保险一起算进去。",
+          "footerTakeaway": "今日关键词：乌克兰。"
+        },
+        "en-US": {
+          "categoryLabel": "Ukraine",
+          "headlineFact": "Zelenskyy visits Canada seeking more military support",
+          "headlineView": "Air defense and energy resilience take priority before winter",
+          "headlineFull": "Zelenskyy visits Canada seeking more military support; Air defense and energy resilience take priority before winter",
+          "intro": "Ukrainian President Volodymyr Zelenskyy visited Canada to seek additional military support. With winter approaching, air defense, energy-infrastructure protection and sustained supplies are becoming more urgent, while businesses should watch for renewed volatility in European energy, transport and insurance costs.",
+          "xiaziQuote": "As war enters winter, infrastructure resilience becomes strategy.",
+          "doudouQuote": "Put energy and insurance into the same supply-chain plan.",
+          "footerTakeaway": "Keyword: Ukraine."
+        }
+      },
+      "sources": [
+        {
+          "id": "9bf6f611-de1b-4ddf-b0b0-9fa4a0a239c5",
+          "topicId": "0a3a051c-66ff-45e3-9298-6a0d38babe89",
+          "title": "Zelenskyy visits Canada for military support",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Zelenskyy+visits+Canada+military+support+September+10+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "b4e088df-fa78-400c-b02d-fa378977fb8a",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "noaa-nasa-air-pollution-campaigns",
+      "rank": 7,
+      "category": "climate",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-air-pollution-campaigns-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候与健康",
+          "headlineFact": "NOAA与NASA启动协同空气污染观测",
+          "headlineView": "多平台数据将追踪污染源几十年来的迁移",
+          "headlineFull": "NOAA与NASA启动协同空气污染观测; 多平台数据将追踪污染源几十年来的迁移",
+          "intro": "NOAA、NASA与三国21所高校部署多类先进仪器，开展多项协同观测，以识别空气污染源在近几十年如何变化。更精细的来源数据将影响城市治理、健康评估和企业排放决策，也提醒经营者关注供应链所在地的空气与监管风险。",
+          "xiaziQuote": "看见污染从哪里来，才知道行动该落在哪里。",
+          "doudouQuote": "地图上的供应商，也要叠加空气风险图层。",
+          "footerTakeaway": "今日关键词：气候与健康。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate and Health",
+          "headlineFact": "NOAA and NASA launch coordinated air-pollution campaigns",
+          "headlineView": "Multi-platform data will trace decades of shifting sources",
+          "headlineFull": "NOAA and NASA launch coordinated air-pollution campaigns; Multi-platform data will trace decades of shifting sources",
+          "intro": "NOAA, NASA and 21 universities across three countries are deploying advanced instruments in coordinated campaigns to identify how air-pollution sources have shifted over recent decades. Better source data can reshape urban policy, health assessment and emissions decisions, while giving operators another risk layer for supplier locations.",
+          "xiaziQuote": "You can target action only after seeing where pollution comes from.",
+          "doudouQuote": "Add an air-risk layer to the supplier map.",
+          "footerTakeaway": "Keyword: Climate and Health."
+        }
+      },
+      "sources": [
+        {
+          "id": "120d38f7-32e2-4a67-9fba-fc80cc6d36fd",
+          "topicId": "b4e088df-fa78-400c-b02d-fa378977fb8a",
+          "title": "NOAA NASA coordinated air-pollution research campaigns",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=NOAA+NASA+air+pollution+research+campaigns+September+10+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "73875e94-d5eb-48a4-996b-dae877d0a4e8",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "gaza-strike-humanitarian-supply-risk",
+      "rank": 8,
+      "category": "international",
+      "region": "Middle East",
+      "countryCodes": [
+        "PS",
+        "IL"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-gaza-strike-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "中东局势",
+          "headlineFact": "加沙空袭造成至少四人死亡",
+          "headlineView": "人道危机与区域供应链风险继续外溢",
+          "headlineFull": "加沙空袭造成至少四人死亡; 人道危机与区域供应链风险继续外溢",
+          "intro": "加沙新一轮空袭造成至少四人死亡，其中包括儿童；地区其他冲突动态仍在叠加。对跨区域经营者而言，必须把人员安全、航线变化、保险条款和交付承诺放在同一张应急清单中，而不是只看单一港口或油价。",
+          "xiaziQuote": "冲突新闻的经营含义，是人员与物流必须联动评估。",
+          "doudouQuote": "先确认人和路线，再承诺交付。",
+          "footerTakeaway": "今日关键词：中东局势。"
+        },
+        "en-US": {
+          "categoryLabel": "Middle East",
+          "headlineFact": "A Gaza strike kills at least four people",
+          "headlineView": "Humanitarian and regional supply-chain risks keep spreading",
+          "headlineFull": "A Gaza strike kills at least four people; Humanitarian and regional supply-chain risks keep spreading",
+          "intro": "A new strike in Gaza killed at least four people, including children, while other regional conflict developments continued to compound. Cross-regional operators should put staff safety, route changes, insurance terms and delivery promises on one contingency sheet instead of watching only a single port or oil price.",
+          "xiaziQuote": "The operating meaning of conflict news is that people and logistics must be assessed together.",
+          "doudouQuote": "Confirm people and routes before promising delivery.",
+          "footerTakeaway": "Keyword: Middle East."
+        }
+      },
+      "sources": [
+        {
+          "id": "3e875eb0-e012-4703-b140-56ac3c5ae08e",
+          "topicId": "73875e94-d5eb-48a4-996b-dae877d0a4e8",
+          "title": "Gaza strike and latest Middle East developments",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Gaza+strike+kills+four+September+10+2026+Middle+East&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "30d168ec-b0b6-4175-b39f-ce50ce525fcb",
+      "issueId": "5c9ce1b2-b163-482a-bd19-7f0a0e31b5f1",
+      "slug": "youtube-amazon-product-tags-creator-commerce",
+      "rank": 9,
+      "category": "technology",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-youtube-amazon-tags-20260911",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "创作者商业",
+          "headlineFact": "YouTube创作者可直接标记亚马逊商品",
+          "headlineView": "内容到成交的路径被压缩进视频场景",
+          "headlineFull": "YouTube创作者可直接标记亚马逊商品; 内容到成交的路径被压缩进视频场景",
+          "intro": "YouTube创作者现在可以在视频中直接标记亚马逊商品，让观众更快从内容进入商品页面。对品牌与创作者而言，新的竞争点不只是曝光量，而是商品匹配、披露合规和视频后的实际转化，应按单条内容追踪点击与成交。",
+          "xiaziQuote": "内容离结账越近，选品和信任就越重要。",
+          "doudouQuote": "别只看播放量，也看每条视频带来的订单。",
+          "footerTakeaway": "今日关键词：创作者商业。"
+        },
+        "en-US": {
+          "categoryLabel": "Creator Commerce",
+          "headlineFact": "YouTube creators can tag Amazon products directly",
+          "headlineView": "The path from content to checkout compresses inside video",
+          "headlineFull": "YouTube creators can tag Amazon products directly; The path from content to checkout compresses inside video",
+          "intro": "YouTube creators can now tag Amazon products directly in videos, moving viewers from content to product pages with less friction. For brands and creators, the new contest is not reach alone but product fit, disclosure compliance and actual conversion, measured at the level of each video.",
+          "xiaziQuote": "The closer content gets to checkout, the more product fit and trust matter.",
+          "doudouQuote": "Track orders from each video, not only views.",
+          "footerTakeaway": "Keyword: Creator Commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "90e3dc4c-feae-43db-9378-65ab4c333da1",
+          "topicId": "30d168ec-b0b6-4175-b39f-ce50ce525fcb",
+          "title": "YouTube creators can tag Amazon products in videos",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=YouTube+creators+tag+Amazon+products+directly+videos+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}

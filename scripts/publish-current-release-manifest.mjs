@@ -91,6 +91,7 @@ export async function publishCurrentReleaseBundle({
     ["data/current-issue.json", synchronizedIssue],
     [`data/archive/${manifest.issueDate}.json`, synchronizedIssue],
     ["data/current-release.json", manifest],
+    [`data/release-archive/${manifest.issueDate}.json`, manifest],
   ];
   const blobs = await Promise.all(files.map(async ([pathname, value]) => {
     const blob = await githubJson(fetchImpl, `${api}/git/blobs`, {
