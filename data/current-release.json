@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-09-12",
-  "releaseId": "rel_20260912_3af1cd2a618901d97a8cd09f",
-  "assetBatchId": "asset_prod_20260912_c2b75948",
+  "issueDate": "2026-09-13",
+  "releaseId": "rel_20260913_7a17f3988976adea74ea3297",
+  "assetBatchId": "asset_prod_20260913_402961b7",
   "posters": [
     {
-      "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+      "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/today-overview-customs-ai-inflation-safety.png",
-      "contentHash": "582c4547549eb5a560581f563adc9cc8a09bb5ec39fae783d68b357633009d0e"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/today-overview-customs-ai-oil-election-climate.png",
+      "contentHash": "9ed9a9b855cc80509cfdaa879e550592c662ac83a81481202d3236312178ec4c"
     },
     {
-      "topicId": "a776bb15-359f-500a-955d-caebf944bec9",
+      "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/today-overview-customs-ai-inflation-safety.png",
-      "contentHash": "ba322a796a290fb332c2dffc95e7c61bfdb3e06bd62737d7b8b54d99c8c428ca"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/today-overview-customs-ai-oil-election-climate.png",
+      "contentHash": "bdcd57c705e8cf295d4a10e4f404eb16ff9b8a84779f684c05298f0443819033"
     },
     {
-      "topicId": "25d5da10-25b8-52cb-80c2-58aaec1fe624",
+      "topicId": "14f90f9c-4d09-59e3-bf8f-93b38b9fc74c",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/eu-customs-platform-importer-responsibility.png",
-      "contentHash": "d5c2e4f83e5ee9755ca7286bb5d7012cbda6d039e415a12dfd9450746e8eb143"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/eu-customs-platform-importer-handling-fee.png",
+      "contentHash": "793eaf49408caf5d17557c95a2e89ca43f0f652a30d9eba90f0c49419b6a5d5f"
     },
     {
-      "topicId": "25d5da10-25b8-52cb-80c2-58aaec1fe624",
+      "topicId": "14f90f9c-4d09-59e3-bf8f-93b38b9fc74c",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/eu-customs-platform-importer-responsibility.png",
-      "contentHash": "48a1bea0183614562687e8641ea6a25122704e17fdb196c79dfcb7c7f8564e06"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/eu-customs-platform-importer-handling-fee.png",
+      "contentHash": "ea307ea97defe69cbac55cc6f2b12f7410d8335c03d7940c72fe4bf35caa75e7"
     },
     {
-      "topicId": "a0e4cb2d-f99a-57b1-89bc-c04508ac4213",
+      "topicId": "0946c957-4a1b-58a2-ae58-14dc64c08b21",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/anthropic-yemen-ai-weapons-misuse.png",
-      "contentHash": "bad63756d7c6f3d86f48d4bdb57d7dce80c530d123901cef02c314c22e0c9388"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/anthropic-ai-safety-catchup-buffer.png",
+      "contentHash": "40cf04c7c4331a020947973ff583b48f41ebeb7d2b09452093d7a98b0eb69911"
     },
     {
-      "topicId": "a0e4cb2d-f99a-57b1-89bc-c04508ac4213",
+      "topicId": "0946c957-4a1b-58a2-ae58-14dc64c08b21",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/anthropic-yemen-ai-weapons-misuse.png",
-      "contentHash": "b0b7fb02cfd2be602e793ccb92a27a1628d17cd3e5265ec5e799c0542ffb2637"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/anthropic-ai-safety-catchup-buffer.png",
+      "contentHash": "94077a1e748dd56306ab57a17111121ea4f77effea78a5dc31fe238c6538622a"
     },
     {
-      "topicId": "52c02e60-370f-5217-8d9e-03da10a03786",
+      "topicId": "1ec791f6-f8b8-5a63-8a48-a69299ede565",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/uk-solo-founders-ai-admin-gap.png",
-      "contentHash": "f44b92f6e9907c637eaa70540d655aeeab79e07fddcc3a1a96b2d624a2bc34d2"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/oracle-ai-growth-negative-free-cash-flow.png",
+      "contentHash": "80675ab7e65a1a842814af0243c4b47adc32e69afeb7012173d21417f2a619bf"
     },
     {
-      "topicId": "52c02e60-370f-5217-8d9e-03da10a03786",
+      "topicId": "1ec791f6-f8b8-5a63-8a48-a69299ede565",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/uk-solo-founders-ai-admin-gap.png",
-      "contentHash": "ac87a6ceab6f885206b5047a51b9e762c7ab6221bdc9f5b082aa5e2e8772b5b4"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/oracle-ai-growth-negative-free-cash-flow.png",
+      "contentHash": "f0be50dc7687b80f42f57070ead408b053a286b4ec70b7e7167fa97d6f6b8483"
     },
     {
-      "topicId": "3008862a-a765-5b4c-ba27-1cae6eeb60b6",
+      "topicId": "02c293b5-b31b-581a-823d-d60a02799644",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/us-inflation-accelerates-fed-pressure.png",
-      "contentHash": "066b5df1c9c6518707eb444bf6d1f5a7989a38fb37eb6190314977a6c5df325e"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/russian-strikes-ukraine-eight-killed.png",
+      "contentHash": "ecd7628b74d1980cd1ad802b90df8e4d0abacba149596b185cd2d4d7d4143c69"
     },
     {
-      "topicId": "3008862a-a765-5b4c-ba27-1cae6eeb60b6",
+      "topicId": "02c293b5-b31b-581a-823d-d60a02799644",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/us-inflation-accelerates-fed-pressure.png",
-      "contentHash": "20484756694c7196f12ea1ffc96511a63819fa57ddd97c15e5e7fde9e3a43cf5"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/russian-strikes-ukraine-eight-killed.png",
+      "contentHash": "0aaba14b7ff599f10c81d1e4d9f872f57dbbc57b2e93fcc396e9adb56ecf1f2f"
     },
     {
-      "topicId": "f407c788-f945-5785-b294-d14c5fccfe04",
+      "topicId": "51717330-de02-5247-bdd6-8739f9844eab",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/philippine-ferry-fire-toll.png",
-      "contentHash": "d4d0af45b8575695d4590a52334be0fbf548bab53396d1d3b73597ce84f8f094"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/saudi-pipeline-attack-energy-route-risk.png",
+      "contentHash": "104a55f567da96caa0069a881aefce7a4760f57c7ca0b8662d589760bafdd00d"
     },
     {
-      "topicId": "f407c788-f945-5785-b294-d14c5fccfe04",
+      "topicId": "51717330-de02-5247-bdd6-8739f9844eab",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/philippine-ferry-fire-toll.png",
-      "contentHash": "9a72060b94620042daec6897ba72b9cd5e91b2748509642423f1f0fb242274ac"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/saudi-pipeline-attack-energy-route-risk.png",
+      "contentHash": "49c0288a3185b33989026c5461db7cea1bce2c7248fbe4a29c04f2ede423a608"
     },
     {
-      "topicId": "f6b98845-9ca2-51d4-abe3-a3cd21808d11",
+      "topicId": "fb4849ce-e092-50db-ba77-2bf78448f790",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/september-11-anniversary-25-years.png",
-      "contentHash": "5aff7d4c9c22baf67c907a14f1565822b84569734d06987a642b4fc231392d61"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/brics-delhi-summit-governance-sanctions.png",
+      "contentHash": "17f1cf4cc608ca13adfb2ac3e065410a779c93aa4454aab11db9a2d3a14c5028"
     },
     {
-      "topicId": "f6b98845-9ca2-51d4-abe3-a3cd21808d11",
+      "topicId": "fb4849ce-e092-50db-ba77-2bf78448f790",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/september-11-anniversary-25-years.png",
-      "contentHash": "a6eba4dacc07698f08051ceff786fa69d85dd0fd734c77b4cb9cca0cd8596fe9"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/brics-delhi-summit-governance-sanctions.png",
+      "contentHash": "675b9e5be413b1cda5b937b427cf86e63aaa8ff40d42566a9b9cac6f867d0a23"
     },
     {
-      "topicId": "0313e682-b60d-5cde-b456-8be89bcafe24",
+      "topicId": "78fe631b-a54c-5642-bb41-b857598db302",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/nasa-search-rescue-beyond-cell-signal.png",
-      "contentHash": "c972647ed6dfc52076d85cb863ecdebd79c2d27e03fe5b3484de0a4aa0f0056f"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/august-2026-hottest-month-record.png",
+      "contentHash": "11998e22e3818df543e12c62cda963a506252cdffc45db169b42185f2cf04888"
     },
     {
-      "topicId": "0313e682-b60d-5cde-b456-8be89bcafe24",
+      "topicId": "78fe631b-a54c-5642-bb41-b857598db302",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/nasa-search-rescue-beyond-cell-signal.png",
-      "contentHash": "fd6c15e589053507b05f612fa1ceb52d7c8665d9b5023251fc6bfce58fe32691"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/august-2026-hottest-month-record.png",
+      "contentHash": "2fefecaa244981a92a83befbceba872b4621b77a1e1526ad58f7bc020c351421"
     },
     {
-      "topicId": "ece910ea-d3ff-5ed6-8e88-4cc8012bfe3a",
+      "topicId": "1eea1046-bae6-5be0-9f08-88073a03254a",
       "locale": "zh",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/zh/chandra-new-xray-object-class.png",
-      "contentHash": "efed452dedb8a4046f15e105d5928e6c0e90e8cde9ac12ff90b9be3af4582ee4"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/zh/sweden-election-economy-migration-security.png",
+      "contentHash": "470574bec884e11ae57934002e3154e569f5e2288f5900d45ba577848ccf210d"
     },
     {
-      "topicId": "ece910ea-d3ff-5ed6-8e88-4cc8012bfe3a",
+      "topicId": "1eea1046-bae6-5be0-9f08-88073a03254a",
       "locale": "en",
-      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260912_c2b75948/en/chandra-new-xray-object-class.png",
-      "contentHash": "cafbb97dd7f5240c82aba3669e1d9777d7874972e8a7ddb7d81a62e334f8ca2d"
+      "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260913_402961b7/en/sweden-election-economy-migration-security.png",
+      "contentHash": "56217bd89e3145cab0a4964c37b0801ef9282a58abd8f7afd19c74586f025c7a"
     }
   ]
 }
