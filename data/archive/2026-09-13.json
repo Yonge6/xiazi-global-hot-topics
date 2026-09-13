@@ -1,0 +1,597 @@
+{
+  "id": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+  "slug": "2026-09-13",
+  "assetVersion": "rel_20260913_7a17f3988976adea74ea3297",
+  "style": {
+    "name": "New Wave Typography",
+    "zhName": "新浪潮字体风格",
+    "description": "Style Atlas daily pick: New Wave Typography. Use an expressive but premium editorial system with diagonal type, elastic baselines, cropped letterforms, layered bands, off-axis rules, selective neon accents and strong spatial rhythm. Keep information density about 20% lower than older editions: one main conclusion, no more than three key facts or numbers, 3-5 clear modules, larger labels and generous whitespace. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: it must contain exactly eight numbered one-sentence summaries of NO.02-NO.09 in a natural flowing composition, never a rigid grid, table, equal cards, dense borders or full-screen dashboard; use a central globe or narrative newsroom scene with eight uneven typographic pathways and preserve the same composition in Chinese and English."
+  },
+  "issueDate": "2026-09-13",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-09-13T05:00:00+08:00",
+  "gmtTimestamp": "2026-09-12T21:00:00.000Z",
+  "status": "published",
+  "featuredTopicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+  "topics": [
+    {
+      "id": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "today-overview-customs-ai-oil-election-climate",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-overview-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 99,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "9月13日全球经营雷达",
+          "headlineView": "关税、AI安全、能源与政治风险共同抬高经营门槛",
+          "headlineFull": "9月13日全球经营雷达；关税、AI安全、能源与政治风险共同抬高经营门槛",
+          "intro": "1. 欧盟海关改革把境外电商平台确立为进口商，并将在11月前引入小包裹处理费。\n2. Anthropic首席执行官呼吁为AI安全争取一至两年缓冲期。\n3. Oracle的AI业务推动销售增长，但高额基础设施投入令自由现金流转负。\n4. 俄军空袭乌克兰造成8名平民死亡，欧洲派兵警告加剧安全风险。\n5. 沙特关键输油管道遭无人机袭击关闭，全球能源替代通道再次受阻。\n6. 金砖国家新德里峰会聚焦中东局势、制裁与全球治理改革。\n7. 2026年8月追平地球有记录以来最热月份。\n8. 瑞典举行大选，经济、移民与安全议题决定下一届政府走向。",
+          "xiaziQuote": "今天要盯的不是单点新闻，而是责任、成本与风险如何彼此传导。",
+          "doudouQuote": "把关税、能源和现金流放进同一张情景表。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Daily Overview",
+          "headlineFact": "September 13 Global Operator Radar",
+          "headlineView": "Customs, AI safety, energy and political risk raise the operating bar",
+          "headlineFull": "September 13 Global Operator Radar; Customs, AI safety, energy and political risk raise the operating bar",
+          "intro": "1. The EU customs reform makes non-EU platforms the importer and adds a small-parcel handling fee by November.\n2. Anthropic's CEO called for a one-to-two-year buffer so AI safety can catch up.\n3. Oracle's AI business lifted sales, but heavy infrastructure spending pushed free cash flow negative.\n4. Russian strikes killed eight civilians in Ukraine as warnings over European troops sharpened security risks.\n5. A drone attack shut a key Saudi oil pipeline, constraining an alternative global energy route.\n6. BRICS leaders in New Delhi focused on Middle East tensions, sanctions and global-governance reform.\n7. August 2026 tied the hottest month ever measured on Earth.\n8. Sweden votes in a national election shaped by the economy, migration and security.",
+          "xiaziQuote": "The signal is how responsibility, cost and risk transmit across systems.",
+          "doudouQuote": "Put customs, energy and cash flow into one scenario sheet.",
+          "footerTakeaway": "Keyword: Daily Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "1c3b356c-eadb-53a9-8520-d10e131609b9",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "EU customs reform and e-commerce importer duties",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=EU+customs+reform+ecommerce+importer+small+parcel+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "c583849f-f747-523f-b68c-00b3f7f31740",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "Anthropic CEO urges time for AI safety to catch up",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Anthropic+CEO+AI+safety+time+catch+up+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "645e00e0-c5b5-556f-8881-8af3836f0355",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "Oracle AI sales growth and negative free cash flow",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Oracle+AI+sales+negative+free+cash+flow+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "0423c01d-17f2-5a57-b8cb-af83de377554",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "Russian strikes kill civilians in Ukraine",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Russian+strikes+Ukraine+eight+killed+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "9400c695-9e1b-5ae4-ad50-cb1e35a5e467",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "Attack closes key Saudi oil pipeline",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Saudi+oil+pipeline+drone+attack+closed+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "b00b003e-0be9-5d28-a8f4-dfc0d0340b6d",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "BRICS leaders meet in New Delhi",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=BRICS+summit+New+Delhi+Middle+East+sanctions+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "049eb9ab-420e-5ee3-81f7-2cfac8201642",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "August 2026 ties Earth's hottest month",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=August+2026+hottest+month+Earth+Copernicus&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "c4a13f83-2122-5c95-aec8-bc1063207424",
+          "topicId": "eddcbd6d-deb3-5c52-b58e-2e0cf1a510d5",
+          "title": "Sweden holds national election",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Sweden+election+September+13+2026+economy+migration+security&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "14f90f9c-4d09-59e3-bf8f-93b38b9fc74c",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "eu-customs-platform-importer-handling-fee",
+      "rank": 2,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "EU"
+      ],
+      "eventTime": null,
+      "isDeveloping": true,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-eu-customs-importer-20260913",
+      "storyStatus": "followup",
+      "followupDay": 2,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "欧盟重写跨境小包裹责任链",
+          "headlineView": "平台成为进口商，处理费最晚11月落地",
+          "headlineFull": "欧盟重写跨境小包裹责任链；平台成为进口商，处理费最晚11月落地",
+          "intro": "欧盟新版海关框架明确，向欧盟消费者销售商品的境外电商平台将承担进口商责任，负责申报、税费与产品合规。最严重违规罚款可达上一年度进口额的6%，欧盟小包裹处理费将在11月1日前实施。",
+          "xiaziQuote": "责任前移到平台，商品数据必须在成交前就能被审计。",
+          "doudouQuote": "重算到岸成本，并核对IOSS、HS编码和责任主体。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-border E-commerce",
+          "headlineFact": "The EU rewrites responsibility for low-value parcels",
+          "headlineView": "Platforms become importers; a handling fee arrives by November",
+          "headlineFull": "The EU rewrites responsibility for low-value parcels; Platforms become importers; a handling fee arrives by November",
+          "intro": "The new EU customs framework treats non-EU e-commerce platforms selling to EU consumers as importers responsible for declarations, duties and product compliance. Serious breaches can draw fines of up to 6% of prior-year import value, while a small-parcel handling fee must begin by November 1.",
+          "xiaziQuote": "When responsibility moves to platforms, product data must be auditable before checkout.",
+          "doudouQuote": "Recalculate landed cost and verify IOSS, HS codes and importer ownership.",
+          "footerTakeaway": "Keyword: Cross-border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "1691c4ed-7806-5aa2-834d-21bbddc892da",
+          "topicId": "14f90f9c-4d09-59e3-bf8f-93b38b9fc74c",
+          "title": "EU customs reform and e-commerce importer duties",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=EU+customs+reform+ecommerce+importer+small+parcel+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "0946c957-4a1b-58a2-ae58-14dc64c08b21",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "anthropic-ai-safety-catchup-buffer",
+      "rank": 3,
+      "category": "technology",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-anthropic-safety-buffer-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 97,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI",
+          "headlineFact": "Anthropic呼吁给AI安全留出缓冲期",
+          "headlineView": "放慢一至两年，换取对齐与治理能力追赶",
+          "headlineFull": "Anthropic呼吁给AI安全留出缓冲期；放慢一至两年，换取对齐与治理能力追赶",
+          "intro": "Anthropic首席执行官Dario Amodei表示，如果放慢模型能力推进能多争取一至两年，并把时间用于对齐研究，严重失控风险可能显著下降。他同时主张行业与政府建立更强的检查和协调机制。",
+          "xiaziQuote": "能力曲线越陡，安全预算就越不能排在发布之后。",
+          "doudouQuote": "把评测、权限和人工升级写进上线门槛。",
+          "footerTakeaway": "今日关键词：AI。"
+        },
+        "en-US": {
+          "categoryLabel": "AI",
+          "headlineFact": "Anthropic calls for a buffer so AI safety can catch up",
+          "headlineView": "One or two extra years could buy stronger alignment and governance",
+          "headlineFull": "Anthropic calls for a buffer so AI safety can catch up; One or two extra years could buy stronger alignment and governance",
+          "intro": "Anthropic CEO Dario Amodei said that if slowing capability growth bought one or two additional years and that time went into alignment, the risk of a serious failure could fall substantially. He also called for stronger checks and coordination across industry and governments.",
+          "xiaziQuote": "The steeper the capability curve, the less safety can wait until after launch.",
+          "doudouQuote": "Make evaluation, permissions and human escalation part of the release gate.",
+          "footerTakeaway": "Keyword: AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "e35e9435-fd71-5870-a0f4-0731abcebbdf",
+          "topicId": "0946c957-4a1b-58a2-ae58-14dc64c08b21",
+          "title": "Anthropic CEO urges time for AI safety to catch up",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Anthropic+CEO+AI+safety+time+catch+up+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1ec791f6-f8b8-5a63-8a48-a69299ede565",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "oracle-ai-growth-negative-free-cash-flow",
+      "rank": 4,
+      "category": "business",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-oracle-ai-cashflow-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "OPC 一人公司",
+          "headlineFact": "Oracle的AI增长伴随负自由现金流",
+          "headlineView": "一人公司应买结果，不要复制重资产叙事",
+          "headlineFull": "Oracle的AI增长伴随负自由现金流；一人公司应买结果，不要复制重资产叙事",
+          "intro": "Oracle披露云与AI相关业务推动销售和合同储备增长，但巨额数据中心投资也让自由现金流转负。对一人公司而言，关键不是追逐基础设施规模，而是按任务购买可量化产出，并给每个AI订阅设定停用门槛。",
+          "xiaziQuote": "大公司的增长故事，不一定是一人公司的成本模型。",
+          "doudouQuote": "按每周节省工时和新增收入评估每个工具。",
+          "footerTakeaway": "今日关键词：OPC 一人公司。"
+        },
+        "en-US": {
+          "categoryLabel": "OPC / Solopreneur",
+          "headlineFact": "Oracle's AI growth comes with negative free cash flow",
+          "headlineView": "Solo operators should buy outcomes, not copy an infrastructure story",
+          "headlineFull": "Oracle's AI growth comes with negative free cash flow; Solo operators should buy outcomes, not copy an infrastructure story",
+          "intro": "Oracle reported stronger sales and contract backlog from its cloud and AI business, while heavy data-center spending pushed free cash flow negative. A one-person company should purchase measurable task outcomes, not infrastructure scale, and give every AI subscription a clear cancellation threshold.",
+          "xiaziQuote": "A large company's growth story is not automatically a solo firm's cost model.",
+          "doudouQuote": "Score every tool by hours saved and revenue added each week.",
+          "footerTakeaway": "Keyword: OPC / Solopreneur."
+        }
+      },
+      "sources": [
+        {
+          "id": "cf2cb937-3ed9-506c-90da-fda006c78fa8",
+          "topicId": "1ec791f6-f8b8-5a63-8a48-a69299ede565",
+          "title": "Oracle AI sales growth and negative free cash flow",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Oracle+AI+sales+negative+free+cash+flow+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "02c293b5-b31b-581a-823d-d60a02799644",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "russian-strikes-ukraine-eight-killed",
+      "rank": 5,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "UA",
+        "RU"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-ukraine-strikes-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲安全",
+          "headlineFact": "俄军空袭乌克兰造成8名平民死亡",
+          "headlineView": "冬季前能源系统与城市韧性承受更大压力",
+          "headlineFull": "俄军空袭乌克兰造成8名平民死亡；冬季前能源系统与城市韧性承受更大压力",
+          "intro": "乌克兰官员称，俄军导弹与无人机袭击造成8名平民死亡、数十人受伤，能源基础设施继续成为打击重点。普京同时警告，欧洲若派兵进入乌克兰将被视为直接冲突。",
+          "xiaziQuote": "地缘冲突最先穿透的是能源、保险和物流成本。",
+          "doudouQuote": "把供应中断和价格跳升同时写进预案。",
+          "footerTakeaway": "今日关键词：欧洲安全。"
+        },
+        "en-US": {
+          "categoryLabel": "European Security",
+          "headlineFact": "Russian strikes kill eight civilians in Ukraine",
+          "headlineView": "Energy systems and urban resilience face greater pressure before winter",
+          "headlineFull": "Russian strikes kill eight civilians in Ukraine; Energy systems and urban resilience face greater pressure before winter",
+          "intro": "Ukrainian officials said Russian missile and drone attacks killed eight civilians and wounded dozens as energy infrastructure remained a major target. Vladimir Putin also warned that European troops entering Ukraine would mean direct conflict with Russia.",
+          "xiaziQuote": "Geopolitical conflict first travels through energy, insurance and logistics costs.",
+          "doudouQuote": "Plan for supply interruption and price spikes at the same time.",
+          "footerTakeaway": "Keyword: European Security."
+        }
+      },
+      "sources": [
+        {
+          "id": "9349e52e-5d43-5549-a1ad-d66624b1a277",
+          "topicId": "02c293b5-b31b-581a-823d-d60a02799644",
+          "title": "Russian strikes kill civilians in Ukraine",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Russian+strikes+Ukraine+eight+killed+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "51717330-de02-5247-bdd6-8739f9844eab",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "saudi-pipeline-attack-energy-route-risk",
+      "rank": 6,
+      "category": "business",
+      "region": "Middle East",
+      "countryCodes": [
+        "SA",
+        "IQ",
+        "IR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-saudi-pipeline-attack-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "能源与供应链",
+          "headlineFact": "沙特关键输油管道遭袭后关闭",
+          "headlineView": "绕开霍尔木兹海峡的替代通道再次受阻",
+          "headlineFull": "沙特关键输油管道遭袭后关闭；绕开霍尔木兹海峡的替代通道再次受阻",
+          "intro": "一条连接沙特油田与红海出口的重要管道在无人机袭击后关闭，相关袭击被归咎于伊拉克境内亲伊朗民兵。海湾冲突已让运输、燃料和保险成本保持高位，替代路线受损进一步压缩缓冲空间。",
+          "xiaziQuote": "供应链的冗余，只有在第二条路也受阻时才显出价值。",
+          "doudouQuote": "核对燃油附加费、保险条款和替代港口。",
+          "footerTakeaway": "今日关键词：能源与供应链。"
+        },
+        "en-US": {
+          "categoryLabel": "Energy and Supply Chains",
+          "headlineFact": "A key Saudi oil pipeline shuts after an attack",
+          "headlineView": "An alternative route around Hormuz is constrained again",
+          "headlineFull": "A key Saudi oil pipeline shuts after an attack; An alternative route around Hormuz is constrained again",
+          "intro": "A major pipeline linking Saudi oil fields to Red Sea exports closed after a drone attack blamed on Iran-backed militias in Iraq. With Gulf conflict already lifting transport, fuel and insurance costs, damage to an alternative route further reduces operating buffers.",
+          "xiaziQuote": "Supply-chain redundancy becomes visible when the second route is hit too.",
+          "doudouQuote": "Check fuel surcharges, insurance clauses and alternative ports.",
+          "footerTakeaway": "Keyword: Energy and Supply Chains."
+        }
+      },
+      "sources": [
+        {
+          "id": "aa442fb9-0633-56dc-b3b6-2c5ebf5f27c3",
+          "topicId": "51717330-de02-5247-bdd6-8739f9844eab",
+          "title": "Attack closes key Saudi oil pipeline",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Saudi+oil+pipeline+drone+attack+closed+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "fb4849ce-e092-50db-ba77-2bf78448f790",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "brics-delhi-summit-governance-sanctions",
+      "rank": 7,
+      "category": "international",
+      "region": "Asia",
+      "countryCodes": [
+        "IN",
+        "CN"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-brics-delhi-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 93,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球治理",
+          "headlineFact": "金砖国家领导人在新德里举行峰会",
+          "headlineView": "中东局势、制裁与全球南方代表性成为焦点",
+          "headlineFull": "金砖国家领导人在新德里举行峰会；中东局势、制裁与全球南方代表性成为焦点",
+          "intro": "金砖国家领导人在印度新德里峰会上表达对中东紧张局势的担忧，并反对未经联合国授权的单边制裁。中国和印度领导人也在场边会晤，推动恢复制度化交流并扩大双边贸易。",
+          "xiaziQuote": "多极化不是抽象口号，它会改变贸易和支付路线。",
+          "doudouQuote": "关注结算、准入和供应来源的结构变化。",
+          "footerTakeaway": "今日关键词：全球治理。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Governance",
+          "headlineFact": "BRICS leaders meet in New Delhi",
+          "headlineView": "Middle East tensions, sanctions and Global South representation dominate",
+          "headlineFull": "BRICS leaders meet in New Delhi; Middle East tensions, sanctions and Global South representation dominate",
+          "intro": "BRICS leaders meeting in New Delhi voiced concern about Middle East tensions and opposed sanctions not authorized by the United Nations. The leaders of China and India also met on the sidelines, seeking to restore institutional exchanges and expand bilateral trade.",
+          "xiaziQuote": "Multipolarity is not abstract; it changes trade and payment routes.",
+          "doudouQuote": "Watch structural shifts in settlement, market access and sourcing.",
+          "footerTakeaway": "Keyword: Global Governance."
+        }
+      },
+      "sources": [
+        {
+          "id": "ad9d4eab-29a5-5885-9d1c-2787a32be676",
+          "topicId": "fb4849ce-e092-50db-ba77-2bf78448f790",
+          "title": "BRICS leaders meet in New Delhi",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=BRICS+summit+New+Delhi+Middle+East+sanctions+September+12+2026&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "78fe631b-a54c-5642-bb41-b857598db302",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "august-2026-hottest-month-record",
+      "rank": 8,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-hottest-august-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 92,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候与经营",
+          "headlineFact": "2026年8月追平全球最热月份纪录",
+          "headlineView": "极端高温继续推高健康、运输与基础商品成本",
+          "headlineFull": "2026年8月追平全球最热月份纪录；极端高温继续推高健康、运输与基础商品成本",
+          "intro": "欧洲哥白尼气候服务数据显示，2026年8月全球平均气温约为16.96摄氏度，与有记录以来最热月份持平。高温正在同时影响健康系统、运输、电力需求和食品价格，经营计划需要把热风险视为持续变量。",
+          "xiaziQuote": "气候风险已经从年度报告进入每周排班和报价。",
+          "doudouQuote": "检查高温对人、设备、交付和保险的影响。",
+          "footerTakeaway": "今日关键词：气候与经营。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate and Operations",
+          "headlineFact": "August 2026 ties the global heat record",
+          "headlineView": "Extreme heat keeps raising health, transport and basic-goods costs",
+          "headlineFull": "August 2026 ties the global heat record; Extreme heat keeps raising health, transport and basic-goods costs",
+          "intro": "Europe's Copernicus climate service put the global average temperature in August 2026 at about 16.96 degrees Celsius, effectively tying the hottest month ever measured. Heat now affects health systems, transport, power demand and food prices at the same time.",
+          "xiaziQuote": "Climate risk has moved from annual reports into weekly staffing and pricing.",
+          "doudouQuote": "Check heat exposure across people, equipment, delivery and insurance.",
+          "footerTakeaway": "Keyword: Climate and Operations."
+        }
+      },
+      "sources": [
+        {
+          "id": "d292718e-2f54-557f-9910-0faee561609a",
+          "topicId": "78fe631b-a54c-5642-bb41-b857598db302",
+          "title": "August 2026 ties Earth's hottest month",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=August+2026+hottest+month+Earth+Copernicus&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "1eea1046-bae6-5be0-9f08-88073a03254a",
+      "issueId": "f4d2ae6e-b9c0-514b-b99e-cb6520cb24e3",
+      "slug": "sweden-election-economy-migration-security",
+      "rank": 9,
+      "category": "international",
+      "region": "Europe",
+      "countryCodes": [
+        "SE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-sweden-election-20260913",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 91,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "欧洲政治",
+          "headlineFact": "瑞典举行全国大选",
+          "headlineView": "经济、移民与安全议题将决定组阁方向",
+          "headlineFull": "瑞典举行全国大选；经济、移民与安全议题将决定组阁方向",
+          "intro": "瑞典选民在9月13日举行全国大选。竞选围绕生活成本、移民融合、治安和欧洲安全展开，任何势均力敌的结果都可能带来漫长组阁谈判，并影响北欧政策协调。",
+          "xiaziQuote": "选举结果影响的不只是政党席位，也包括规则确定性。",
+          "doudouQuote": "跨境团队先关注税制、用工和合规预期。",
+          "footerTakeaway": "今日关键词：欧洲政治。"
+        },
+        "en-US": {
+          "categoryLabel": "European Politics",
+          "headlineFact": "Sweden holds a national election",
+          "headlineView": "The economy, migration and security will shape coalition talks",
+          "headlineFull": "Sweden holds a national election; The economy, migration and security will shape coalition talks",
+          "intro": "Swedish voters go to the polls on September 13 in a national election centered on living costs, migration and integration, public safety and European security. A close result could produce lengthy coalition talks and affect policy coordination across the Nordic region.",
+          "xiaziQuote": "Election results change not only seats but the certainty of operating rules.",
+          "doudouQuote": "Cross-border teams should watch tax, labor and compliance expectations first.",
+          "footerTakeaway": "Keyword: European Politics."
+        }
+      },
+      "sources": [
+        {
+          "id": "9cabe439-c0ac-5b2f-8427-dd19fdbcac4d",
+          "topicId": "1eea1046-bae6-5be0-9f08-88073a03254a",
+          "title": "Sweden holds national election",
+          "publisher": "Google News",
+          "url": "https://news.google.com/rss/search?q=Sweden+election+September+13+2026+economy+migration+security&hl=en-US&gl=US&ceid=US:en",
+          "publishedAt": "2026-09-13T00:00:00Z",
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ]
+}
