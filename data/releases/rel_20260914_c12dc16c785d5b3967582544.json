@@ -1,0 +1,713 @@
+{
+  "issue": {
+    "id": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+    "slug": "2026-09-14",
+    "assetVersion": "rel_20260914_c12dc16c785d5b3967582544",
+    "style": {
+      "name": "Punk DIY",
+      "zhName": "朋克拼贴风格",
+      "description": "Style Atlas daily pick: Punk DIY. Use torn-paper collage, photocopied textures, hand-cut lettering, safety-pin and tape details, rough ink, asymmetric type and high-contrast black, white, red and acid accents while preserving premium editorial legibility. Keep information density about 20% lower than older editions: one main conclusion, no more than three key facts or numbers, 3-5 clear modules, larger labels and generous whitespace. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: it must contain exactly eight numbered one-sentence summaries of NO.02-NO.09 in a natural flowing composition, never a rigid grid, table, equal cards, dense borders or full-screen dashboard; use a central globe or narrative newsroom scene with eight uneven torn-paper pathways and preserve the same composition in Chinese and English."
+    },
+    "issueDate": "2026-09-14",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-09-14T05:00:00+08:00",
+    "gmtTimestamp": "2026-09-13T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+    "topics": [
+      {
+        "id": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "today-overview-customs-ai-elections-climate-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260914",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月14日全球经营雷达",
+            "headlineView": "责任、AI治理、政治与气候风险继续传导",
+            "headlineFull": "9月14日全球经营雷达；责任、AI治理、政治与气候风险继续传导",
+            "intro": "1. 欧盟海关改革进入最终立法阶段，境外电商平台将承担进口商责任。\n2. 美国总统反对放慢AI竞赛，科技公司内部的安全分歧进一步公开化。\n3. Meta收购Stilla.ai，加速把商务代理接入WhatsApp、Messenger与Instagram。\n4. 瑞典出口民调显示中左翼阵营领先，正式结果仍待计票确认。\n5. 也门战事升级，胡塞武装扩大对沙特目标的袭击。\n6. 菲律宾邦萨摩洛地区举行首次议会选举，80个席位决定自治治理转型。\n7. 尼泊尔洪灾幸存者呼吁持续救援，山区基础设施暴露更高气候风险。\n8. 韦伯望远镜发现小天体Chariklo的环正在变化，刷新对动态环系统的认识。",
+            "xiaziQuote": "今天的共同信号是：规则、技术与地缘风险都在重新分配责任。",
+            "doudouQuote": "把合规、人工审批和供应链备份写进同一张表。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 14 Global Operator Radar",
+            "headlineView": "Responsibility, AI governance, politics and climate risk keep transmitting",
+            "headlineFull": "September 14 Global Operator Radar; Responsibility, AI governance, politics and climate risk keep transmitting",
+            "intro": "1. The EU customs overhaul enters its final legislative stage, making non-EU platforms the importer.\n2. The US president rejects slowing the AI race as the industry's safety split becomes more public.\n3. Meta acquires Stilla.ai to accelerate business agents across WhatsApp, Messenger and Instagram.\n4. Swedish exit polls put the center-left ahead while the official count remains preliminary.\n5. Fighting intensifies in Yemen as the Houthis expand attacks on targets in Saudi Arabia.\n6. Bangsamoro holds its first parliamentary election, with 80 seats shaping the autonomous region's transition.\n7. Nepal flood survivors call for sustained rescue as mountain infrastructure faces higher climate risk.\n8. Webb finds Chariklo's rings changing, reshaping the picture of dynamic ring systems around small worlds.",
+            "xiaziQuote": "The shared signal is a redistribution of responsibility across rules, technology and geopolitics.",
+            "doudouQuote": "Put compliance, human approval and supply-chain backup on one sheet.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "6af29cd4-3994-5a5a-af7c-d9be0a5f5af0",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "EU customs reform enters final legislative stage",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=EU+customs+reform+platform+importer+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "723318eb-c409-510a-b112-4c3485620a0b",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "US president rejects calls to slow AI development",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Trump+rejects+slow+AI+development+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0e7dc0a2-97f5-5e8f-95e7-febac915f15f",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "Meta acquires Stilla.ai for business agents",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Meta+acquires+Stilla.ai+Business+Agent+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3c72a986-cca6-5604-8f1d-db688bb25753",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "Swedish election exit polls put center-left ahead",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Sweden+election+exit+poll+center-left+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6e3d8eea-7774-5b5b-8a28-45d04d3f9406",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "Yemen fighting intensifies and Houthis attack Saudi Arabia",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Yemen+fighting+Houthis+attacks+Saudi+Arabia+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d9a68bd9-1954-512a-97eb-8b21c4ab5661",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "Bangsamoro holds first parliamentary election",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Bangsamoro+first+parliamentary+election+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6d390b72-5ba2-57be-a906-62ca56f3f223",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "Nepal flood survivors call for continued rescue",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Nepal+flood+survivors+rescue+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0e96331f-2efa-5017-9f0b-124d76c63c94",
+            "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+            "title": "Webb observes changing rings around Chariklo",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=James+Webb+Chariklo+rings+changing+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "a90d1379-13c2-592a-9451-23f64da7a5c9",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "eu-customs-platform-importer-final-stage",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-customs-platform-importer-20260914",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟海关改革进入最终立法阶段",
+            "headlineView": "境外平台将成为进口商，商品数据必须前置合规",
+            "headlineFull": "欧盟海关改革进入最终立法阶段；境外平台将成为进口商，商品数据必须前置合规",
+            "intro": "欧盟理事会已批准新海关框架，欧洲议会预计在9月完成最终表决。向欧盟消费者销售商品的境外电商平台将承担进口商责任，负责申报、税费与产品安全；平台需要提前校准HS编码、原产地、IOSS数据和结账页披露。",
+            "xiaziQuote": "责任从消费者前移到平台，商品数据就是新的清关能力。",
+            "doudouQuote": "先审计高销量SKU，再重算到岸成本和退货。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "The EU customs overhaul enters its final legislative stage",
+            "headlineView": "Non-EU platforms become importers, moving compliance before checkout",
+            "headlineFull": "The EU customs overhaul enters its final legislative stage; Non-EU platforms become importers, moving compliance before checkout",
+            "intro": "The Council has approved the new EU customs framework and Parliament is expected to complete its final vote in September. Non-EU platforms selling to EU consumers become the importer responsible for declarations, duties and product safety, making HS codes, origin, IOSS data and checkout disclosure operational priorities.",
+            "xiaziQuote": "When liability moves from the buyer to the platform, product data becomes customs capability.",
+            "doudouQuote": "Audit top-selling SKUs before repricing landed cost and returns.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "455c7732-cc28-58ab-bf16-0956cd7f3291",
+            "topicId": "a90d1379-13c2-592a-9451-23f64da7a5c9",
+            "title": "EU customs reform enters final legislative stage",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=EU+customs+reform+platform+importer+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "4d2ffb20-9f30-57c4-85f0-ba8ba36c689b",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "trump-rejects-ai-slowdown-governance-split",
+        "rank": 3,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-trump-ai-slowdown-20260914",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "美国总统反对放慢AI竞赛",
+            "headlineView": "速度与安全的分歧正从实验室进入公共政策",
+            "headlineFull": "美国总统反对放慢AI竞赛；速度与安全的分歧正从实验室进入公共政策",
+            "intro": "在多家头部实验室支持放慢模型推进速度后，美国总统表示不愿因安全担忧让出对华竞争优势。争论说明AI治理不会形成单一路线；企业采用者应把能力评测、最小权限、人工升级和停机条件固定在每次上线门槛中。",
+            "xiaziQuote": "政策方向会摆动，自己的部署边界必须稳定。",
+            "doudouQuote": "高风险任务先保留人工确认和撤回按钮。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "The US president rejects slowing the AI race",
+            "headlineView": "The speed-versus-safety split moves from laboratories into public policy",
+            "headlineFull": "The US president rejects slowing the AI race; The speed-versus-safety split moves from laboratories into public policy",
+            "intro": "After leaders at major AI labs backed a slower development pace, the US president said he did not want safety concerns to cede an advantage to China. The dispute shows governance will not follow one path, so adopters should make capability tests, least privilege, human escalation and shutdown conditions part of every release gate.",
+            "xiaziQuote": "Policy direction may swing, but your deployment boundary must remain stable.",
+            "doudouQuote": "Keep human confirmation and a rollback button on high-risk tasks.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "0611ebe0-974c-5e6d-9d57-59d8daa15749",
+            "topicId": "4d2ffb20-9f30-57c4-85f0-ba8ba36c689b",
+            "title": "US president rejects calls to slow AI development",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Trump+rejects+slow+AI+development+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e1818c44-b379-59ee-8018-9e40fc53091c",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "meta-stilla-business-agent-messaging-commerce",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "SE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-meta-stilla-business-agent-20260914",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC 一人公司",
+            "headlineFact": "Meta收购Stilla.ai强化商务代理",
+            "headlineView": "聊天窗口正变成一人公司的自动化店面",
+            "headlineFull": "Meta收购Stilla.ai强化商务代理；聊天窗口正变成一人公司的自动化店面",
+            "intro": "Meta收购瑞典AI初创公司Stilla.ai，以加快在WhatsApp、Messenger和Instagram上的Business Agent。对一人公司而言，消息入口可以承接咨询、筛选、报价和交易，但品牌承诺、退款与高金额订单仍应保留明确的人工审批。",
+            "xiaziQuote": "代理能扩大接待能力，不能替你无限扩大承诺。",
+            "doudouQuote": "先自动化重复问题，再逐步开放成交权限。",
+            "footerTakeaway": "今日关键词：OPC 一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "OPC / Solopreneur",
+            "headlineFact": "Meta acquires Stilla.ai to strengthen Business Agent",
+            "headlineView": "Messaging windows are becoming automated storefronts for solo firms",
+            "headlineFull": "Meta acquires Stilla.ai to strengthen Business Agent; Messaging windows are becoming automated storefronts for solo firms",
+            "intro": "Meta is acquiring Swedish AI startup Stilla.ai to accelerate Business Agent across WhatsApp, Messenger and Instagram. For a one-person company, messaging can absorb inquiries, qualification, quotes and transactions, while brand promises, refunds and high-value orders should retain explicit human approval.",
+            "xiaziQuote": "An agent can expand reception capacity, not your promise without limit.",
+            "doudouQuote": "Automate repeated questions before gradually opening purchase authority.",
+            "footerTakeaway": "Keyword: OPC / Solopreneur."
+          }
+        },
+        "sources": [
+          {
+            "id": "040b6a2e-6fd8-5d64-975a-49e01982cc37",
+            "topicId": "e1818c44-b379-59ee-8018-9e40fc53091c",
+            "title": "Meta acquires Stilla.ai for business agents",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Meta+acquires+Stilla.ai+Business+Agent+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "48060701-d1e6-52bf-986d-a2eb33471356",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "sweden-election-center-left-exit-poll",
+        "rank": 5,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "SE"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-sweden-election-result-20260914",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲政治",
+            "headlineFact": "瑞典出口民调显示中左翼阵营领先",
+            "headlineView": "正式结果与组阁谈判将影响北欧政策方向",
+            "headlineFull": "瑞典出口民调显示中左翼阵营领先；正式结果与组阁谈判将影响北欧政策方向",
+            "intro": "瑞典全国大选出口民调显示，社会民主党领导的中左翼阵营领先，并可能获得议会多数；选举机构的初步计票仍在推进，最终结果预计周末确认。接下来要观察预算、移民、安全与能源政策如何进入组阁条件。",
+            "xiaziQuote": "选票决定席位，组阁条件才决定规则节奏。",
+            "doudouQuote": "跨境团队先盯税制、用工和能源政策。",
+            "footerTakeaway": "今日关键词：欧洲政治。"
+          },
+          "en-US": {
+            "categoryLabel": "European Politics",
+            "headlineFact": "Swedish exit polls put the center-left ahead",
+            "headlineView": "Official results and coalition talks will shape Nordic policy direction",
+            "headlineFull": "Swedish exit polls put the center-left ahead; Official results and coalition talks will shape Nordic policy direction",
+            "intro": "Exit polls in Sweden's national election put the Social Democrat-led center-left ahead and projected a possible parliamentary majority. The official preliminary count is continuing and final results are expected during the weekend, with budget, migration, security and energy policy likely to shape coalition negotiations.",
+            "xiaziQuote": "Votes allocate seats; coalition terms set the pace of operating rules.",
+            "doudouQuote": "Cross-border teams should watch tax, labor and energy policy first.",
+            "footerTakeaway": "Keyword: European Politics."
+          }
+        },
+        "sources": [
+          {
+            "id": "b6e86bec-97a7-55ca-85d8-0e25efc11358",
+            "topicId": "48060701-d1e6-52bf-986d-a2eb33471356",
+            "title": "Swedish election exit polls put center-left ahead",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Sweden+election+exit+poll+center-left+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d337871c-ed28-5311-a0d5-63b74900f3fc",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "yemen-fighting-houthi-saudi-attacks",
+        "rank": 6,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "YE",
+          "SA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-yemen-saudi-attacks-20260914",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "中东与供应链",
+            "headlineFact": "也门战事升级并波及沙特目标",
+            "headlineView": "红海、燃油与保险风险再次被同时抬高",
+            "headlineFull": "也门战事升级并波及沙特目标；红海、燃油与保险风险再次被同时抬高",
+            "intro": "也门政府军与胡塞武装的战斗加剧，胡塞武装同时扩大对沙特目标的袭击。对依赖红海与海湾通道的经营者，这意味着航线绕行、燃油附加费、保险条款与交付时间仍可能同步波动，备用路线需要保持可执行。",
+            "xiaziQuote": "地缘升级最先落到运输时间和风险价格。",
+            "doudouQuote": "同时更新路线、保险和库存缓冲。",
+            "footerTakeaway": "今日关键词：中东与供应链。"
+          },
+          "en-US": {
+            "categoryLabel": "Middle East and Supply Chains",
+            "headlineFact": "Fighting intensifies in Yemen and reaches Saudi targets",
+            "headlineView": "Red Sea, fuel and insurance risks rise together again",
+            "headlineFull": "Fighting intensifies in Yemen and reaches Saudi targets; Red Sea, fuel and insurance risks rise together again",
+            "intro": "Fighting between Yemeni government forces and the Houthis has intensified while Houthi attacks expanded against targets in Saudi Arabia. For operators dependent on Red Sea and Gulf routes, diversions, fuel surcharges, insurance clauses and delivery windows can move together, making executable alternatives essential.",
+            "xiaziQuote": "Geopolitical escalation reaches transit time and risk pricing first.",
+            "doudouQuote": "Update routes, insurance and inventory buffers together.",
+            "footerTakeaway": "Keyword: Middle East and Supply Chains."
+          }
+        },
+        "sources": [
+          {
+            "id": "22846077-506b-53ca-8e3e-4bd22a6ed621",
+            "topicId": "d337871c-ed28-5311-a0d5-63b74900f3fc",
+            "title": "Yemen fighting intensifies and Houthis attack Saudi Arabia",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Yemen+fighting+Houthis+attacks+Saudi+Arabia+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "67b7f970-424f-5572-babc-0839b64be7d4",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "bangsamoro-first-parliamentary-election",
+        "rank": 7,
+        "category": "international",
+        "region": "Asia",
+        "countryCodes": [
+          "PH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-bangsamoro-election-20260914",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "亚洲治理",
+            "headlineFact": "邦萨摩洛举行首次议会选举",
+            "headlineView": "80个席位检验自治治理与长期和平转型",
+            "headlineFull": "邦萨摩洛举行首次议会选举；80个席位检验自治治理与长期和平转型",
+            "intro": "菲律宾南部邦萨摩洛自治区约240万选民在9月14日首次投票选出地区议会，80个席位包括政党、选区和界别代表。选举把多年和平协议从过渡机构推向民选治理，投票安全、参与率和结果接受度将决定下一阶段稳定性。",
+            "xiaziQuote": "制度转型的价值，要看规则能否被共同接受。",
+            "doudouQuote": "关注投票安全、参与率和组阁进度。",
+            "footerTakeaway": "今日关键词：亚洲治理。"
+          },
+          "en-US": {
+            "categoryLabel": "Asian Governance",
+            "headlineFact": "Bangsamoro holds its first parliamentary election",
+            "headlineView": "Eighty seats test the transition from autonomy to elected governance",
+            "headlineFull": "Bangsamoro holds its first parliamentary election; Eighty seats test the transition from autonomy to elected governance",
+            "intro": "About 2.4 million voters in the Bangsamoro autonomous region of the southern Philippines vote on September 14 for their first elected parliament. The 80 seats span party, district and sectoral representation, moving a long peace process from an interim authority toward elected governance.",
+            "xiaziQuote": "Institutional transition works only when the rules are jointly accepted.",
+            "doudouQuote": "Watch election security, turnout and coalition formation.",
+            "footerTakeaway": "Keyword: Asian Governance."
+          }
+        },
+        "sources": [
+          {
+            "id": "bfd42fb7-37c1-5b69-9ed8-aad638e6c1ec",
+            "topicId": "67b7f970-424f-5572-babc-0839b64be7d4",
+            "title": "Bangsamoro holds first parliamentary election",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Bangsamoro+first+parliamentary+election+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "81c9d460-3427-5155-9170-dde520f2be0f",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "nepal-flood-rescue-mountain-resilience",
+        "rank": 8,
+        "category": "science",
+        "region": "Asia",
+        "countryCodes": [
+          "NP"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-nepal-flood-resilience-20260914",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与韧性",
+            "headlineFact": "尼泊尔洪灾幸存者呼吁持续救援",
+            "headlineView": "山区道路、通信与安置能力需要长期补强",
+            "headlineFull": "尼泊尔洪灾幸存者呼吁持续救援；山区道路、通信与安置能力需要长期补强",
+            "intro": "尼泊尔洪灾后的搜救与安置仍在继续，幸存者呼吁不要过早缩减救援。极端降雨、冰川融水与脆弱山地交通叠加，使道路、通信、医疗和物资补给更容易同时中断；恢复计划必须覆盖下一个雨季而非只修复眼前缺口。",
+            "xiaziQuote": "灾后恢复不是回到原状，而是补上下一次的缓冲。",
+            "doudouQuote": "把道路、通信、医疗和补给做成四条备份。",
+            "footerTakeaway": "今日关键词：气候与韧性。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Resilience",
+            "headlineFact": "Nepal flood survivors call for sustained rescue",
+            "headlineView": "Mountain roads, communications and shelter need long-term reinforcement",
+            "headlineFull": "Nepal flood survivors call for sustained rescue; Mountain roads, communications and shelter need long-term reinforcement",
+            "intro": "Search, rescue and shelter work continues after flooding in Nepal, with survivors urging authorities not to scale back too early. Extreme rain, glacial melt and fragile mountain transport can break roads, communications, health care and supplies together, so recovery must prepare for the next monsoon rather than only repair today's gaps.",
+            "xiaziQuote": "Recovery is not a return to normal; it is buffer for the next shock.",
+            "doudouQuote": "Build four backups across roads, communications, health and supplies.",
+            "footerTakeaway": "Keyword: Climate and Resilience."
+          }
+        },
+        "sources": [
+          {
+            "id": "331f4eab-50f0-587b-ada1-1d51d8d3e018",
+            "topicId": "81c9d460-3427-5155-9170-dde520f2be0f",
+            "title": "Nepal flood survivors call for continued rescue",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Nepal+flood+survivors+rescue+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "43c6d757-b068-5285-bccb-bdfac739892f",
+        "issueId": "8c94892f-8223-5819-8fbd-78199ec5d4a4",
+        "slug": "jwst-chariklo-changing-ring-system",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-jwst-chariklo-rings-20260914",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "太空科学",
+            "headlineFact": "韦伯望远镜发现Chariklo的环正在变化",
+            "headlineView": "小天体环系统比静态快照更动态、更复杂",
+            "headlineFull": "韦伯望远镜发现Chariklo的环正在变化；小天体环系统比静态快照更动态、更复杂",
+            "intro": "詹姆斯·韦伯空间望远镜观测显示，小天体Chariklo周围的狭窄环正在发生结构变化。这个发现帮助研究人员理解微小天体如何维持、扰动或重组环物质，也说明长期连续观测比单次图像更能揭示太阳系边缘世界的动力学。",
+            "xiaziQuote": "科学的新意常常不在第一次看见，而在看见变化。",
+            "doudouQuote": "把快照连成时间线，结构才会显出来。",
+            "footerTakeaway": "今日关键词：太空科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Science",
+            "headlineFact": "Webb finds Chariklo's rings changing",
+            "headlineView": "Ring systems around small worlds are more dynamic than a snapshot suggests",
+            "headlineFull": "Webb finds Chariklo's rings changing; Ring systems around small worlds are more dynamic than a snapshot suggests",
+            "intro": "James Webb Space Telescope observations show structural changes in the narrow rings around the small body Chariklo. The finding helps researchers understand how tiny worlds maintain, disturb or reorganize ring material, while showing why repeated observations reveal more orbital dynamics than a single image.",
+            "xiaziQuote": "Scientific novelty often lies not in first sight, but in seeing change.",
+            "doudouQuote": "Turn snapshots into a timeline and structure appears.",
+            "footerTakeaway": "Keyword: Space Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "46453e89-a7f4-58df-b4c4-29545937a3b6",
+            "topicId": "43c6d757-b068-5285-bccb-bdfac739892f",
+            "title": "Webb observes changing rings around Chariklo",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=James+Webb+Chariklo+rings+changing+September+13+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-14T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-14",
+    "releaseId": "rel_20260914_c12dc16c785d5b3967582544",
+    "assetBatchId": "asset_prod_20260914_chatgpt_8cb4b39f",
+    "posters": [
+      {
+        "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/today-overview-customs-ai-elections-climate-science.png",
+        "contentHash": "e51a5459da8b7fa3e1d1d9329dfdc09a84e0538fb173c144ce26643c54233327"
+      },
+      {
+        "topicId": "db5bc6ad-a23d-5bef-9c2d-0bc786a7e7cd",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/today-overview-customs-ai-elections-climate-science.png",
+        "contentHash": "54ceffa799919dfdc354604548b7aeeae454bb814472c232fb0bd41f269605b3"
+      },
+      {
+        "topicId": "a90d1379-13c2-592a-9451-23f64da7a5c9",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/eu-customs-platform-importer-final-stage.png",
+        "contentHash": "2d49021e9b56af3e68efeb520a033ba433a4e135e9a70404fdb9c8bd8f902d2d"
+      },
+      {
+        "topicId": "a90d1379-13c2-592a-9451-23f64da7a5c9",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/eu-customs-platform-importer-final-stage.png",
+        "contentHash": "ab9adb1bccb02e318466cc882a4631a6bd66340a229110b11ac6c24daa5d911a"
+      },
+      {
+        "topicId": "4d2ffb20-9f30-57c4-85f0-ba8ba36c689b",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/trump-rejects-ai-slowdown-governance-split.png",
+        "contentHash": "52003f324346d6c5277f2852467b37778721bbc5e93cd31721d377de1b60f198"
+      },
+      {
+        "topicId": "4d2ffb20-9f30-57c4-85f0-ba8ba36c689b",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/trump-rejects-ai-slowdown-governance-split.png",
+        "contentHash": "a8b8f508b985394bb3489ce070447d011d81e8390a8e9c4e893f71edd9350583"
+      },
+      {
+        "topicId": "e1818c44-b379-59ee-8018-9e40fc53091c",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/meta-stilla-business-agent-messaging-commerce.png",
+        "contentHash": "9152a45e25f2c317a5876cd13de4284a7aa2525eb0de849d9eccda92556b4b43"
+      },
+      {
+        "topicId": "e1818c44-b379-59ee-8018-9e40fc53091c",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/meta-stilla-business-agent-messaging-commerce.png",
+        "contentHash": "8fa2454bd50eb70fe5e4c5895c473d9e7ee6eb9e4999a60c998afb1df3e99da3"
+      },
+      {
+        "topicId": "48060701-d1e6-52bf-986d-a2eb33471356",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/sweden-election-center-left-exit-poll.png",
+        "contentHash": "ebb7aefd45fd65e9ff13ebbb9f8f5bf6bee43e37a8e649a27d4210b1ae38e264"
+      },
+      {
+        "topicId": "48060701-d1e6-52bf-986d-a2eb33471356",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/sweden-election-center-left-exit-poll.png",
+        "contentHash": "b6a6c3008c9b21836ad95a1a6a2a604cd6d4654c22ea3cb92cc83720bb3c9d5c"
+      },
+      {
+        "topicId": "d337871c-ed28-5311-a0d5-63b74900f3fc",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/yemen-fighting-houthi-saudi-attacks.png",
+        "contentHash": "940b44a09eec0723aee97a26b291c719d3f24245777f3bad5b639fbbbfd0f0ad"
+      },
+      {
+        "topicId": "d337871c-ed28-5311-a0d5-63b74900f3fc",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/yemen-fighting-houthi-saudi-attacks.png",
+        "contentHash": "2e5a32b79ce05ca359547b534fa8b28f1004b44e83a2d1ace0e751ad3278271a"
+      },
+      {
+        "topicId": "67b7f970-424f-5572-babc-0839b64be7d4",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/bangsamoro-first-parliamentary-election.png",
+        "contentHash": "94acfd658761be22958184bfe9738475024824446c67beb2f1f465a471080683"
+      },
+      {
+        "topicId": "67b7f970-424f-5572-babc-0839b64be7d4",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/bangsamoro-first-parliamentary-election.png",
+        "contentHash": "924c1fafd2a92825d96bfe21dddb61545351322e5fc6e52f9b659b157178d116"
+      },
+      {
+        "topicId": "81c9d460-3427-5155-9170-dde520f2be0f",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/nepal-flood-rescue-mountain-resilience.png",
+        "contentHash": "c5a89bbb8b0c27449a8c9552d4437393bdd59754c94fccd030579bb3c1667764"
+      },
+      {
+        "topicId": "81c9d460-3427-5155-9170-dde520f2be0f",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/nepal-flood-rescue-mountain-resilience.png",
+        "contentHash": "ff3864b24490b2f9572330fdbe971eb67d8afec970a7b9b93915d0cb9e148a6a"
+      },
+      {
+        "topicId": "43c6d757-b068-5285-bccb-bdfac739892f",
+        "locale": "zh",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/zh/jwst-chariklo-changing-ring-system.png",
+        "contentHash": "c6d0273a29e1ef01a894660c9a7acf0991da1a4e8b6fcb2409550fe404aa8181"
+      },
+      {
+        "topicId": "43c6d757-b068-5285-bccb-bdfac739892f",
+        "locale": "en",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260914_chatgpt_8cb4b39f/en/jwst-chariklo-changing-ring-system.png",
+        "contentHash": "1ffb3b73f6555098d70aeb8c6a0c5ee73c965c95883958a1606a2d4af819ae07"
+      }
+    ]
+  }
+}
