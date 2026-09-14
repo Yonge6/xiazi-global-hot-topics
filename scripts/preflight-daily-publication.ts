@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import type { LookupAddress } from "node:dns";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import sharp from "sharp";
 
@@ -329,7 +330,7 @@ async function checkPosters(posterRoot: string) {
   return { checks, failures };
 }
 
-async function runPreflight(issueSpecPath: string, posterRoot: string) {
+export async function runPreflight(issueSpecPath: string, posterRoot: string) {
   const startedAt = new Date().toISOString();
   let spec: IssueSpec;
   try {
@@ -380,7 +381,7 @@ async function main() {
   process.exitCode = 1;
 }
 
-main().catch((error) => {
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch((error) => {
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;
 });

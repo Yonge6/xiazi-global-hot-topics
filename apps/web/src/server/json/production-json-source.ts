@@ -198,6 +198,18 @@ export async function loadLatestProductionIssue(): Promise<LoadedProductionIssue
   return bundledIssue();
 }
 
+async function loadVersionedManifest(issue: Issue): Promise<CurrentReleaseManifest | null> {
+  if (prefersLocalJson() || !/^rel_\d{8}_[0-9a-f]{24}$/.test(issue.assetVersion || "")) return null;
+  const bundle = await githubJson(
+    `contents/data/releases/${issue.assetVersion}.json`,
+    "application/vnd.github.raw+json",
+  );
+  if (!bundle) return null; // Compatibility with releases made before direct publication.
+  const manifest = parseCurrentReleaseManifest(bundle.manifest, issue);
+  if (manifest.releaseId !== issue.assetVersion) throw new Error("VERSIONED_RELEASE_MISMATCH");
+  return manifest;
+}
+
 export async function loadCurrentProductionReleaseManifest(issue: Issue): Promise<CurrentReleaseManifest | null> {
   if (!currentReleaseManifestEnabled()) return null;
   if (prefersLocalJson()) {
@@ -212,6 +224,10 @@ export async function loadCurrentProductionReleaseManifest(issue: Issue): Promis
       }
     }
   }
+  // Resolve the immutable manifest belonging to the issue already read. This
+  // prevents separate cache ages from mixing two publications during activation.
+  const versioned = await loadVersionedManifest(issue);
+  if (versioned) return versioned;
   const remote = await githubJson(
     "contents/data/current-release.json",
     "application/vnd.github.raw+json",
@@ -227,6 +243,8 @@ export async function loadProductionReleaseManifestByDate(
   if (!currentReleaseManifestEnabled() || !/^\d{4}-\d{2}-\d{2}$/.test(date) || issue.issueDate !== date) {
     return null;
   }
+  const versioned = await loadVersionedManifest(issue);
+  if (versioned) return versioned;
   const relativePath = path.join("release-archive", `${date}.json`);
   if (prefersLocalJson()) {
     for (const root of productionDataRoots()) {
