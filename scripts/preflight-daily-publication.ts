@@ -9,6 +9,7 @@ import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
 import { fetchSafeSource } from "../apps/web/src/server/releases/safe-source-fetch";
+import { assertReadingSourceUrl, assertReadingSourceResponse } from "./reading-source-policy.mjs";
 
 type Locale = "zh" | "en";
 
@@ -152,6 +153,7 @@ function validateSpec(spec: IssueSpec) {
       try {
         const url = new URL(text(source.url));
         if (url.protocol !== "https:") throw new Error("HTTPS required");
+        assertReadingSourceUrl(url.href);
       } catch (error) {
         failures.push({ code: "SPEC_SOURCE_URL", target: sourceTarget, message: error instanceof Error ? error.message : "Invalid URL" });
       }
@@ -220,6 +222,7 @@ async function checkSources(stories: Story[]) {
         });
       }
       if (response.status < 200 || response.status >= 400) throw new Error(`HTTP ${response.status}`);
+      assertReadingSourceResponse(response);
       if (response.body.length < 200) throw new Error(`Body too small: ${response.body.length} bytes`);
       const pageText = normalizedPageText(response.body);
       if (pageText.length < 120) throw new Error(`Text too small: ${pageText.length} characters`);

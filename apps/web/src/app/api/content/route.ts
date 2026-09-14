@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { CONTENT_CACHE_CONTROL } from "@/lib/cache/public-cache";
+const CONTENT_CACHE_CONTROL = "no-store, no-cache, must-revalidate";
 import {
   loadCurrentProductionReleaseManifest,
   loadLatestProductionIssue,

@@ -45,13 +45,17 @@ async function githubJson(apiPath: string, accept = "application/vnd.github+json
   const token = process.env.GITHUB_STUDIO_TOKEN;
   const response = await fetch(
     `https://api.github.com/repos/${githubRepo}/${apiPath}`,
-    cachedFetchInit(CONTENT_REVALIDATE_SECONDS, {
+    {
       headers: {
         Accept: accept,
         ...(token ? { Authorization: `Bearer ${token}` } : {}),
         "X-GitHub-Api-Version": "2022-11-28",
       },
-    }),
+      ...(apiPath.startsWith("contents/data/releases/")
+        ? cachedFetchInit(CONTENT_REVALIDATE_SECONDS)
+        : { cache: "no-store" as const }),
+      signal: AbortSignal.timeout(6000),
+    },
   );
   if (!response.ok) {
     if (response.status === 404) return null;

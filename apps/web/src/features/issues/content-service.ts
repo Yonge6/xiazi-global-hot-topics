@@ -8,7 +8,7 @@ function sitePath(path: string) {
 }
 
 async function getJson<T>(path: string) {
-  const response = await fetch(sitePath(path));
+  const response = await fetch(sitePath(path), { cache: "no-store", signal: AbortSignal.timeout(6000) });
   if (!response.ok) throw new Error(`Request failed: ${response.status} ${path}`);
   return response.json() as Promise<T>;
 }

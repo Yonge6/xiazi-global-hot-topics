@@ -10,6 +10,7 @@ import { buildShareDetails, primarySource, safeHttpUrl } from "@/features/issues
 import type { AppLocale } from "@/i18n/config";
 import { trackAnalytics, trackSessionDuration } from "@/lib/analytics/client";
 import { copyTextToClipboard } from "@/lib/clipboard";
+import { useNativeEditionRefresh } from "@/lib/use-native-edition-refresh";
 import { groupArchiveDatesByMonth } from "@/lib/issues/archive-groups";
 import { hasNativeCapability, isXiaziIOSApp, postNativeMessage, subscribeToNativeSurface } from "@/lib/native-app";
 import { getArchivedPosterAsset, getPosterAsset } from "@/lib/posters/assets";
@@ -93,6 +94,7 @@ export function TopicGallery({
   const isIOSApp = useSyncExternalStore(subscribeToNativeSurface, isXiaziIOSApp, () => false);
   const isWechatBrowser = useSyncExternalStore(subscribeToBrowserEnvironment, isWechatWebView, () => false);
   const isZh = locale === "zh";
+  useNativeEditionRefresh(isIOSApp, archiveDate !== null, initialAssetVersion);
   const archiveMonths = useMemo(() => groupArchiveDatesByMonth(archiveDates), [archiveDates]);
 
   useEffect(() => {

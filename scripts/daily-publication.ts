@@ -144,6 +144,10 @@ export async function main() {
       await save(path.join(root, "upload-proof.json"), proof);
     }
     assertReleaseBundle(issue, manifest);
+    if (!values.rollback) {
+      const { assertReadingSourceUrl } = await import("./reading-source-policy.mjs");
+      for (const topic of issue.topics) for (const source of topic.sources) assertReadingSourceUrl(source.url);
+    }
     if (values["dry-run"]) { console.log("DRY_RUN_OK:bundle valid; no remote writes"); return; }
     const publication = await publishCurrentReleaseBundle({ issue, manifest, token, rollback: Boolean(values.rollback) });
     await save(path.join(root, "publication.json"), publication);

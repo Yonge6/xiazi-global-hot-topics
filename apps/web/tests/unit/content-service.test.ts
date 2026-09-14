@@ -22,7 +22,7 @@ describe("archive content service", () => {
 
     const detail = await loadArchiveIssue("2026-07-25");
 
-    expect(fetchMock).toHaveBeenCalledWith("/api/v1/issues/2026-07-25/");
+    expect(fetchMock).toHaveBeenCalledWith("/api/v1/issues/2026-07-25/", expect.objectContaining({ cache: "no-store", signal: expect.any(AbortSignal) }));
     expect(detail.assetVersion).toBe("rel_20260725_2073d2763efb456d75436439");
   });
 });
