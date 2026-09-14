@@ -1,6 +1,7 @@
 {
   "id": "1a48e0ba-790b-50d5-bfff-39426283c39c",
   "slug": "2026-09-15",
+  "assetVersion": "rel_20260915_836aa2c3e15193fe6c6299ba",
   "style": {
     "name": "Grunge",
     "zhName": "垃圾摇滚风格",
@@ -55,23 +56,23 @@
         {
           "id": "19e382d9-f678-5875-a944-68aa8dfcc36c",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "Canada applies surtaxes to selected US goods",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Canada+surtax+US+goods+15+25+50+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Canadian tariffs on certain US goods: How they apply at the border",
+          "publisher": "Canada Border Services Agency",
+          "url": "https://www.cbsa-asfc.gc.ca/travel-voyage/tariffs-tarifs/index-eng.html",
           "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         },
         {
           "id": "7aa230d6-792d-5582-8d46-93174964852c",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "Germany says halting AI development is not viable",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Germany+halting+AI+development+not+viable+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Germany says halting AI development not viable, calls for US, China involvement",
+          "publisher": "Reuters · Euronext",
+          "url": "https://live.euronext.com/en/financial-news/germany-says-halting-ai-development-not-viable-calls-us-china-involvement",
           "publishedAt": null,
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": false
@@ -79,9 +80,9 @@
         {
           "id": "0c8efb38-8178-50a9-a4e5-d96e70601873",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "US small business optimism cools in August",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=NFIB+small+business+optimism+98.7+August+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Small-business optimism cools in August, remains above average",
+          "publisher": "ABA Banking Journal",
+          "url": "https://bankingjournal.aba.com/2026/09/aba-databank-small-business-optimism-cools-in-august-remains-above-average/",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -91,11 +92,11 @@
         {
           "id": "481b92a1-84d6-5f18-8d2e-c213a0162224",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "Saudi pipeline outage threatens global oil supply",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Saudi+pipeline+weeks+4%25+global+oil+supply+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+          "publisher": "Reuters · MarketScreener",
+          "url": "https://ae.marketscreener.com/news/saudi-pipeline-outage-threatens-loss-of-4-of-global-oil-supply-ce785bdcd98cf022",
           "publishedAt": null,
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": false
@@ -103,9 +104,9 @@
         {
           "id": "91e147a2-59c0-5970-b2c9-3bf465d6a456",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "Sweden faces coalition talks after a tight election",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Sweden+coalition+talks+176+173+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Sweden’s political parties launch coalition talks as both blocs try to secure power",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/14/sweden-political-parties-launch-coalition-talks-both-blocs-try-to-secure-power",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -115,9 +116,9 @@
         {
           "id": "7d009e00-3e1e-5884-9d45-c344a8c7b451",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "EPA repeals greenhouse gas limits for power plants",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=EPA+repeals+greenhouse+gas+limits+power+plants+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Trump’s EPA reportedly poised to axe carbon pollution rules for power plants",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/sep/14/trump-epa-repeal-pollution-standards-power-plants",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -127,24 +128,24 @@
         {
           "id": "49dac55f-93bf-5946-b68f-89afecf165cd",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "August 2026 becomes the hottest month measured globally",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=August+2026+hottest+month+US+hottest+summer&hl=en-US&gl=US&ceid=US:en",
+          "title": "August 2026 global temperature report",
+          "publisher": "Copernicus Climate Change Service",
+          "url": "https://climate.copernicus.eu/copernicus-august-was-worlds-joint-hottest-month-record-pushing-global-temperatures-back-above",
           "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
         },
         {
           "id": "ab747bb3-75e8-54b3-9315-693c6fcc6dca",
           "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
-          "title": "NASA Chandra finds 84 hypersoft X-ray sources",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=NASA+Chandra+84+hypersoft+X-ray+sources+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "NASA's Chandra Unveils Mysterious X-ray Objects",
+          "publisher": "NASA / Chandra X-ray Center",
+          "url": "https://www.chandra.cfa.harvard.edu/press/26_releases/press_090926.html",
           "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
         }
@@ -195,12 +196,12 @@
         {
           "id": "33995485-e582-51d7-9c4e-2f97eba3bbd2",
           "topicId": "c70536e8-13a5-5168-9788-b8fd519f86e7",
-          "title": "Canada applies surtaxes to selected US goods",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Canada+surtax+US+goods+15+25+50+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Canadian tariffs on certain US goods: How they apply at the border",
+          "publisher": "Canada Border Services Agency",
+          "url": "https://www.cbsa-asfc.gc.ca/travel-voyage/tariffs-tarifs/index-eng.html",
           "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         }
@@ -252,11 +253,11 @@
         {
           "id": "0f748a92-5884-5d42-a2bc-ac601248d20f",
           "topicId": "d110e5ab-1a70-5331-b36a-a3580c13e64b",
-          "title": "Germany says halting AI development is not viable",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Germany+halting+AI+development+not+viable+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Germany says halting AI development not viable, calls for US, China involvement",
+          "publisher": "Reuters · Euronext",
+          "url": "https://live.euronext.com/en/financial-news/germany-says-halting-ai-development-not-viable-calls-us-china-involvement",
           "publishedAt": null,
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
@@ -307,9 +308,9 @@
         {
           "id": "195a3b5e-952e-51cf-9d0b-2f3e979a3c5e",
           "topicId": "340e72d5-a6ac-5eaa-b7d0-ab1d25174ea8",
-          "title": "US small business optimism cools in August",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=NFIB+small+business+optimism+98.7+August+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Small-business optimism cools in August, remains above average",
+          "publisher": "ABA Banking Journal",
+          "url": "https://bankingjournal.aba.com/2026/09/aba-databank-small-business-optimism-cools-in-august-remains-above-average/",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -363,11 +364,11 @@
         {
           "id": "5f24c0f1-11b3-519e-9e2c-f2238e9ee132",
           "topicId": "2b4f5404-f6f6-5c36-af5c-c682976c4738",
-          "title": "Saudi pipeline outage threatens global oil supply",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Saudi+pipeline+weeks+4%25+global+oil+supply+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+          "publisher": "Reuters · MarketScreener",
+          "url": "https://ae.marketscreener.com/news/saudi-pipeline-outage-threatens-loss-of-4-of-global-oil-supply-ce785bdcd98cf022",
           "publishedAt": null,
-          "sourceType": "publisher",
+          "sourceType": "wire",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
@@ -418,9 +419,9 @@
         {
           "id": "083f4cad-e700-5cd0-afb9-5051223b29fc",
           "topicId": "e7674f50-6c17-5203-b56b-47829923d176",
-          "title": "Sweden faces coalition talks after a tight election",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=Sweden+coalition+talks+176+173+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Sweden’s political parties launch coalition talks as both blocs try to secure power",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/14/sweden-political-parties-launch-coalition-talks-both-blocs-try-to-secure-power",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -473,9 +474,9 @@
         {
           "id": "1c5dc5d8-7f13-58b0-b7f4-7fe849272300",
           "topicId": "bbe2571a-2174-50f7-aafc-4a5c33631523",
-          "title": "EPA repeals greenhouse gas limits for power plants",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=EPA+repeals+greenhouse+gas+limits+power+plants+September+14+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "Trump’s EPA reportedly poised to axe carbon pollution rules for power plants",
+          "publisher": "The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/sep/14/trump-epa-repeal-pollution-standards-power-plants",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -528,12 +529,12 @@
         {
           "id": "b5886b39-c47f-5494-ace5-3a337132a58b",
           "topicId": "29442d92-4747-5161-bd7e-0c8db751f1db",
-          "title": "August 2026 becomes the hottest month measured globally",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=August+2026+hottest+month+US+hottest+summer&hl=en-US&gl=US&ceid=US:en",
+          "title": "August 2026 global temperature report",
+          "publisher": "Copernicus Climate Change Service",
+          "url": "https://climate.copernicus.eu/copernicus-august-was-worlds-joint-hottest-month-record-pushing-global-temperatures-back-above",
           "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         }
@@ -583,17 +584,16 @@
         {
           "id": "aeb2cf8f-eeb6-5c14-88d5-24f89d79bd6a",
           "topicId": "66d13b2f-780d-566f-a9de-eefced0a19a4",
-          "title": "NASA Chandra finds 84 hypersoft X-ray sources",
-          "publisher": "Google News",
-          "url": "https://news.google.com/rss/search?q=NASA+Chandra+84+hypersoft+X-ray+sources+September+2026&hl=en-US&gl=US&ceid=US:en",
+          "title": "NASA's Chandra Unveils Mysterious X-ray Objects",
+          "publisher": "NASA / Chandra X-ray Center",
+          "url": "https://www.chandra.cfa.harvard.edu/press/26_releases/press_090926.html",
           "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
         }
       ]
     }
-  ],
-  "assetVersion": "rel_20260915_9d54559619cdfea13a6255b9"
+  ]
 }

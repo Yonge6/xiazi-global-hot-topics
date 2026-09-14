@@ -1,0 +1,717 @@
+{
+  "issue": {
+    "id": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+    "slug": "2026-09-15",
+    "assetVersion": "rel_20260915_836aa2c3e15193fe6c6299ba",
+    "style": {
+      "name": "Grunge",
+      "zhName": "垃圾摇滚风格",
+      "description": "Style Atlas daily pick: Grunge. Use distressed editorial typography, weathered paper, ink smears, photocopy grain, torn edges and restrained black, off-white, charcoal and muted red accents while preserving premium mobile readability. Keep information density about 20% lower than older editions: one main conclusion, no more than three key facts or numbers, 3-5 clear modules, larger type, generous line spacing and quiet low-texture text zones. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries without shrinking type, use a central globe or narrative newsroom scene with eight uneven flowing paper paths and calm high-contrast text areas, never a rigid grid, table, equal cards, dense border system or full-screen dashboard; Chinese and English must keep the same composition and visual rhythm."
+    },
+    "issueDate": "2026-09-15",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-15T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-14T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+    "topics": [
+      {
+        "id": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "today-overview-tariffs-ai-small-business-energy-climate-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260915",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月15日全球经营雷达",
+            "headlineView": "关税、AI、安全与气候规则正在同步改写成本",
+            "headlineFull": "9月15日全球经营雷达；关税、AI、安全与气候规则正在同步改写成本",
+            "intro": "1. 加拿大对部分美国商品征收15%、25%或50%附加税，跨境卖家必须重算到岸成本。\n2. 德国认为停止AI开发对欧洲不可行，并主张美国与中国共同参与全球治理。\n3. 美国小企业乐观指数8月降至98.7，但仍高于52年平均水平。\n4. 沙特关键输油管预计停运数周，最多约4%的全球石油供应面临风险。\n5. 瑞典反对党以176比173席暂时领先，组阁仍需等待海外选票与最终结果。\n6. 美国环保署取消燃煤与燃气电厂温室气体排放限制，能源监管方向明显转变。\n7. 2026年8月成为有记录以来全球最热月份，美国本土也经历最热夏季。\n8. NASA钱德拉望远镜在六个星系发现84个超软X射线源，揭示新的宇宙天体类别。",
+            "xiaziQuote": "今天的共同信号是：规则变化会同时进入成本、风险和技术选择。",
+            "doudouQuote": "把关税、能源、人工审批和气候缓冲写进同一张经营表。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 15 Global Operator Radar",
+            "headlineView": "Tariffs, AI, safety and climate rules are rewriting costs together",
+            "headlineFull": "September 15 Global Operator Radar; Tariffs, AI, safety and climate rules are rewriting costs together",
+            "intro": "1. Canada applies 15%, 25% or 50% surtaxes to selected US goods, forcing cross-border sellers to recalculate landed cost.\n2. Germany says halting AI development is not viable for Europe and calls for US and Chinese participation in global governance.\n3. US small-business optimism slipped to 98.7 in August but remained above its 52-year average.\n4. A crucial Saudi oil pipeline may stay mostly offline for weeks, putting up to about 4% of global supply at risk.\n5. Sweden's opposition holds a preliminary 176-173 seat lead while overseas ballots and coalition talks keep the outcome open.\n6. The US EPA repeals greenhouse-gas limits for coal and gas power plants, marking a sharp regulatory turn.\n7. August 2026 became the hottest month measured globally while the contiguous United States recorded its hottest summer.\n8. NASA's Chandra telescope finds 84 hypersoft X-ray sources across six galaxies, revealing a new class of cosmic objects.",
+            "xiaziQuote": "Today's shared signal is that rule changes flow into cost, risk and technology choices at once.",
+            "doudouQuote": "Put tariffs, energy, human approval and climate buffers on one operating sheet.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "19e382d9-f678-5875-a944-68aa8dfcc36c",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "Canadian tariffs on certain US goods: How they apply at the border",
+            "publisher": "Canada Border Services Agency",
+            "url": "https://www.cbsa-asfc.gc.ca/travel-voyage/tariffs-tarifs/index-eng.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "7aa230d6-792d-5582-8d46-93174964852c",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "Germany says halting AI development not viable, calls for US, China involvement",
+            "publisher": "Reuters · Euronext",
+            "url": "https://live.euronext.com/en/financial-news/germany-says-halting-ai-development-not-viable-calls-us-china-involvement",
+            "publishedAt": null,
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0c8efb38-8178-50a9-a4e5-d96e70601873",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "Small-business optimism cools in August, remains above average",
+            "publisher": "ABA Banking Journal",
+            "url": "https://bankingjournal.aba.com/2026/09/aba-databank-small-business-optimism-cools-in-august-remains-above-average/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "481b92a1-84d6-5f18-8d2e-c213a0162224",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+            "publisher": "Reuters · MarketScreener",
+            "url": "https://ae.marketscreener.com/news/saudi-pipeline-outage-threatens-loss-of-4-of-global-oil-supply-ce785bdcd98cf022",
+            "publishedAt": null,
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "91e147a2-59c0-5970-b2c9-3bf465d6a456",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "Sweden’s political parties launch coalition talks as both blocs try to secure power",
+            "publisher": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/sep/14/sweden-political-parties-launch-coalition-talks-both-blocs-try-to-secure-power",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "7d009e00-3e1e-5884-9d45-c344a8c7b451",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "Trump’s EPA reportedly poised to axe carbon pollution rules for power plants",
+            "publisher": "The Guardian",
+            "url": "https://www.theguardian.com/environment/2026/sep/14/trump-epa-repeal-pollution-standards-power-plants",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "49dac55f-93bf-5946-b68f-89afecf165cd",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "August 2026 global temperature report",
+            "publisher": "Copernicus Climate Change Service",
+            "url": "https://climate.copernicus.eu/copernicus-august-was-worlds-joint-hottest-month-record-pushing-global-temperatures-back-above",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ab747bb3-75e8-54b3-9315-693c6fcc6dca",
+            "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+            "title": "NASA's Chandra Unveils Mysterious X-ray Objects",
+            "publisher": "NASA / Chandra X-ray Center",
+            "url": "https://www.chandra.cfa.harvard.edu/press/26_releases/press_090926.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "c70536e8-13a5-5168-9788-b8fd519f86e7",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "canada-us-goods-surtax-landed-cost-reset",
+        "rank": 2,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "CA",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-canada-us-surtax-20260915",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "加拿大对部分美国商品征收分级附加税",
+            "headlineView": "15%、25%与50%税率把原产地重新变成定价变量",
+            "headlineFull": "加拿大对部分美国商品征收分级附加税；15%、25%与50%税率把原产地重新变成定价变量",
+            "intro": "加拿大边境服务局确认，自9月8日起，部分美国原产商品适用15%、25%或50%的附加税。跨境卖家需要按HS编码与原产地逐项核对商品，并同步更新到岸成本、结账页税费说明和退货损失模型。",
+            "xiaziQuote": "税率不是后台数字，它会直接改变可售价格与毛利。",
+            "doudouQuote": "先审计高销量SKU，再决定提价、换源或本地备货。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "Canada applies tiered surtaxes to selected US goods",
+            "headlineView": "Rates of 15%, 25% and 50% make origin a pricing variable again",
+            "headlineFull": "Canada applies tiered surtaxes to selected US goods; Rates of 15%, 25% and 50% make origin a pricing variable again",
+            "intro": "Canada's border agency confirms that selected US-origin goods have faced surtaxes of 15%, 25% or 50% since September 8. Cross-border sellers should audit products by HS code and origin, then update landed cost, checkout disclosure and return-loss assumptions together.",
+            "xiaziQuote": "A tariff is not a back-office number; it directly changes price and margin.",
+            "doudouQuote": "Audit top SKUs before choosing repricing, resourcing or local inventory.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "33995485-e582-51d7-9c4e-2f97eba3bbd2",
+            "topicId": "c70536e8-13a5-5168-9788-b8fd519f86e7",
+            "title": "Canadian tariffs on certain US goods: How they apply at the border",
+            "publisher": "Canada Border Services Agency",
+            "url": "https://www.cbsa-asfc.gc.ca/travel-voyage/tariffs-tarifs/index-eng.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d110e5ab-1a70-5331-b36a-a3580c13e64b",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "germany-ai-development-governance-balance",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "DE",
+          "US",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-germany-ai-governance-20260915",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "德国称停止AI开发对欧洲不可行",
+            "headlineView": "创新继续推进，但高能力系统需要跨国监督",
+            "headlineFull": "德国称停止AI开发对欧洲不可行；创新继续推进，但高能力系统需要跨国监督",
+            "intro": "德国数字事务部门表示，欧洲不能停止AI开发，否则将削弱数字主权；同时承认能够逃离测试环境并访问其他系统的AI会构成全新威胁。德国主张把议题带到G7，并让美国与中国共同参与有效治理。",
+            "xiaziQuote": "竞争不会停，但部署边界必须比模型能力更清楚。",
+            "doudouQuote": "给代理最小权限、隔离环境和人工中止开关。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Germany says halting AI development is not viable",
+            "headlineView": "Innovation continues, but high-capability systems need international oversight",
+            "headlineFull": "Germany says halting AI development is not viable; Innovation continues, but high-capability systems need international oversight",
+            "intro": "Germany's digital ministry says Europe cannot halt AI development without weakening digital sovereignty, while warning that systems able to escape test environments and access other systems would create a new threat. Berlin wants the issue raised at the G7 with both the United States and China involved.",
+            "xiaziQuote": "Competition will not stop, so deployment boundaries must be clearer than model capability.",
+            "doudouQuote": "Give agents least privilege, isolation and a human stop switch.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "0f748a92-5884-5d42-a2bc-ac601248d20f",
+            "topicId": "d110e5ab-1a70-5331-b36a-a3580c13e64b",
+            "title": "Germany says halting AI development not viable, calls for US, China involvement",
+            "publisher": "Reuters · Euronext",
+            "url": "https://live.euronext.com/en/financial-news/germany-says-halting-ai-development-not-viable-calls-us-china-involvement",
+            "publishedAt": null,
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "340e72d5-a6ac-5eaa-b7d0-ab1d25174ea8",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "small-business-optimism-cools-cash-discipline",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-small-business-optimism-20260915",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC 一人公司",
+            "headlineFact": "美国小企业乐观指数8月降至98.7",
+            "headlineView": "信心仍高于长期均值，一人公司更该守住现金纪律",
+            "headlineFull": "美国小企业乐观指数8月降至98.7；信心仍高于长期均值，一人公司更该守住现金纪律",
+            "intro": "NFIB小企业乐观指数8月下降1.1点至98.7，仍高于98.0的52年平均值；预期实际销售净比例降至6%。对一人公司而言，这不是停止增长的信号，而是把回款周期、固定成本和客户集中度放在新增投入之前。",
+            "xiaziQuote": "乐观可以继续，现金流假设要先变得保守。",
+            "doudouQuote": "先看未来八周回款，再决定订阅、招聘和广告。",
+            "footerTakeaway": "今日关键词：OPC 一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "OPC / Solopreneur",
+            "headlineFact": "US small-business optimism slips to 98.7 in August",
+            "headlineView": "Confidence stays above average, but solo firms need tighter cash discipline",
+            "headlineFull": "US small-business optimism slips to 98.7 in August; Confidence stays above average, but solo firms need tighter cash discipline",
+            "intro": "The NFIB Small Business Optimism Index fell 1.1 points to 98.7 in August, still above its 52-year average of 98.0, while expected real sales eased to a net 6%. For a one-person company, that favors protecting collection cycles, fixed costs and customer diversification before adding new commitments.",
+            "xiaziQuote": "Optimism can continue while cash-flow assumptions become more conservative.",
+            "doudouQuote": "Check eight weeks of collections before adding subscriptions, hiring or ads.",
+            "footerTakeaway": "Keyword: OPC / Solopreneur."
+          }
+        },
+        "sources": [
+          {
+            "id": "195a3b5e-952e-51cf-9d0b-2f3e979a3c5e",
+            "topicId": "340e72d5-a6ac-5eaa-b7d0-ab1d25174ea8",
+            "title": "Small-business optimism cools in August, remains above average",
+            "publisher": "ABA Banking Journal",
+            "url": "https://bankingjournal.aba.com/2026/09/aba-databank-small-business-optimism-cools-in-august-remains-above-average/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2b4f5404-f6f6-5c36-af5c-c682976c4738",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "saudi-pipeline-outage-oil-supply-risk",
+        "rank": 5,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "SA",
+          "YE"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-saudi-pipeline-outage-20260915",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "能源与供应链",
+            "headlineFact": "沙特关键输油管预计停运数周",
+            "headlineView": "绕开霍尔木兹的安全通道受损，全球供应风险上升",
+            "headlineFull": "沙特关键输油管预计停运数周；绕开霍尔木兹的安全通道受损，全球供应风险上升",
+            "intro": "遭袭后的沙特东西向输油管预计大部分停运三至五周，交易商估计最多约4%的全球石油供应可能受影响，油价一度上涨逾2%。经营者应把燃油附加费、海运保险与交付承诺放在同一风险情景中。",
+            "xiaziQuote": "通道故障会同时抬高能源价格和物流不确定性。",
+            "doudouQuote": "为高油价、绕行和延迟各准备一个触发阈值。",
+            "footerTakeaway": "今日关键词：能源与供应链。"
+          },
+          "en-US": {
+            "categoryLabel": "Energy and Supply Chains",
+            "headlineFact": "A crucial Saudi oil pipeline may remain offline for weeks",
+            "headlineView": "Damage to a route around Hormuz raises global supply risk",
+            "headlineFull": "A crucial Saudi oil pipeline may remain offline for weeks; Damage to a route around Hormuz raises global supply risk",
+            "intro": "Saudi Arabia's attacked East-West pipeline may stay mostly out of service for three to five weeks, with traders estimating that up to about 4% of global oil supply could be at risk as prices briefly rose more than 2%. Operators should model fuel surcharges, marine insurance and delivery promises in one scenario.",
+            "xiaziQuote": "A broken corridor raises energy prices and logistics uncertainty together.",
+            "doudouQuote": "Set separate triggers for expensive fuel, diversions and delays.",
+            "footerTakeaway": "Keyword: Energy and Supply Chains."
+          }
+        },
+        "sources": [
+          {
+            "id": "5f24c0f1-11b3-519e-9e2c-f2238e9ee132",
+            "topicId": "2b4f5404-f6f6-5c36-af5c-c682976c4738",
+            "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+            "publisher": "Reuters · MarketScreener",
+            "url": "https://ae.marketscreener.com/news/saudi-pipeline-outage-threatens-loss-of-4-of-global-oil-supply-ce785bdcd98cf022",
+            "publishedAt": null,
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e7674f50-6c17-5203-b56b-47829923d176",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "sweden-tight-result-coalition-negotiations",
+        "rank": 6,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "SE"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-sweden-coalition-20260915",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲政治",
+            "headlineFact": "瑞典反对党暂以176比173席领先",
+            "headlineView": "三席优势尚未结束不确定性，组阁可能持续数周",
+            "headlineFull": "瑞典反对党暂以176比173席领先；三席优势尚未结束不确定性，组阁可能持续数周",
+            "intro": "在约95%选区完成计票后，瑞典左倾反对党获得176席、现政府阵营173席的暂时优势；海外与提前选票将在周三继续统计，最终结果预计周末确认。即使席位不变，跨阵营分歧仍可能拉长组阁。",
+            "xiaziQuote": "微弱多数决定起点，联盟条件决定政策速度。",
+            "doudouQuote": "先观察预算、移民、能源与安全的交换条件。",
+            "footerTakeaway": "今日关键词：欧洲政治。"
+          },
+          "en-US": {
+            "categoryLabel": "European Politics",
+            "headlineFact": "Sweden's opposition holds a preliminary 176-173 seat lead",
+            "headlineView": "A three-seat edge does not end uncertainty as coalition talks begin",
+            "headlineFull": "Sweden's opposition holds a preliminary 176-173 seat lead; A three-seat edge does not end uncertainty as coalition talks begin",
+            "intro": "With about 95% of districts counted, Sweden's left-leaning opposition held a preliminary 176-173 seat advantage over the outgoing government bloc. Overseas and late early votes will be counted on Wednesday, with final results expected during the weekend and coalition formation potentially taking much longer.",
+            "xiaziQuote": "A narrow majority sets the starting point; coalition terms set policy speed.",
+            "doudouQuote": "Watch the tradeoffs on budgets, migration, energy and security.",
+            "footerTakeaway": "Keyword: European Politics."
+          }
+        },
+        "sources": [
+          {
+            "id": "083f4cad-e700-5cd0-afb9-5051223b29fc",
+            "topicId": "e7674f50-6c17-5203-b56b-47829923d176",
+            "title": "Sweden’s political parties launch coalition talks as both blocs try to secure power",
+            "publisher": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/sep/14/sweden-political-parties-launch-coalition-talks-both-blocs-try-to-secure-power",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bbe2571a-2174-50f7-aafc-4a5c33631523",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "us-power-plant-climate-rule-repeal",
+        "rank": 7,
+        "category": "climate",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-us-power-climate-rule-20260915",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与能源政策",
+            "headlineFact": "美国取消电厂温室气体排放限制",
+            "headlineView": "燃煤与燃气监管转向，企业成本与气候风险重新分配",
+            "headlineFull": "美国取消电厂温室气体排放限制；燃煤与燃气监管转向，企业成本与气候风险重新分配",
+            "intro": "美国环保署宣布废除针对燃煤与燃气电厂的温室气体排放规则，并试图限制未来政府直接监管电厂二氧化碳的空间。环保署称此举可为行业节省逾3000亿美元，但环保团体警告健康与气候成本会上升。",
+            "xiaziQuote": "监管成本可以被取消，物理风险不会随文件消失。",
+            "doudouQuote": "能源密集企业要同时看电价、合规和极端天气。",
+            "footerTakeaway": "今日关键词：气候与能源政策。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Energy Policy",
+            "headlineFact": "The United States repeals greenhouse-gas limits for power plants",
+            "headlineView": "A regulatory turn reallocates industry cost and climate risk",
+            "headlineFull": "The United States repeals greenhouse-gas limits for power plants; A regulatory turn reallocates industry cost and climate risk",
+            "intro": "The US Environmental Protection Agency is repealing greenhouse-gas rules for coal- and gas-fired power plants and taking a related step to constrain future direct regulation of their carbon dioxide. The agency says the move could save industry more than $300 billion, while environmental groups warn of higher health and climate costs.",
+            "xiaziQuote": "A compliance cost can be repealed; physical risk does not disappear with the rule.",
+            "doudouQuote": "Energy-intensive firms should track power price, compliance and extreme weather together.",
+            "footerTakeaway": "Keyword: Climate and Energy Policy."
+          }
+        },
+        "sources": [
+          {
+            "id": "1c5dc5d8-7f13-58b0-b7f4-7fe849272300",
+            "topicId": "bbe2571a-2174-50f7-aafc-4a5c33631523",
+            "title": "Trump’s EPA reportedly poised to axe carbon pollution rules for power plants",
+            "publisher": "The Guardian",
+            "url": "https://www.theguardian.com/environment/2026/sep/14/trump-epa-repeal-pollution-standards-power-plants",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "29442d92-4747-5161-bd7e-0c8db751f1db",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "august-hottest-month-us-hottest-summer",
+        "rank": 8,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-august-global-heat-20260915",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球气候",
+            "headlineFact": "2026年8月成为有记录以来全球最热月份",
+            "headlineView": "气候变暖与超强厄尔尼诺叠加，运营基线继续上移",
+            "headlineFull": "2026年8月成为有记录以来全球最热月份；气候变暖与超强厄尔尼诺叠加，运营基线继续上移",
+            "intro": "欧洲哥白尼气候服务称，2026年8月成为全球有记录以来最热月份；美国国家海洋和大气管理局同时确认，美国本土经历了有记录以来最热夏季，超过1936年尘暴年代峰值。高温已从异常事件变成容量规划输入。",
+            "xiaziQuote": "当纪录连续被刷新，旧平均值就不再是安全基线。",
+            "doudouQuote": "重算制冷、电力、用工和运输的高温余量。",
+            "footerTakeaway": "今日关键词：全球气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Climate",
+            "headlineFact": "August 2026 becomes the hottest month measured globally",
+            "headlineView": "Warming and a powerful El Nino keep lifting the operating baseline",
+            "headlineFull": "August 2026 becomes the hottest month measured globally; Warming and a powerful El Nino keep lifting the operating baseline",
+            "intro": "Europe's Copernicus climate service says August 2026 was the hottest month measured globally, while the US National Oceanic and Atmospheric Administration confirmed the contiguous United States had its hottest summer on record, exceeding the 1936 Dust Bowl peak. Heat is becoming a capacity-planning input rather than an exception.",
+            "xiaziQuote": "When records keep breaking, the old average is no longer a safe baseline.",
+            "doudouQuote": "Recalculate heat margins for cooling, power, labor and transport.",
+            "footerTakeaway": "Keyword: Global Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "b5886b39-c47f-5494-ace5-3a337132a58b",
+            "topicId": "29442d92-4747-5161-bd7e-0c8db751f1db",
+            "title": "August 2026 global temperature report",
+            "publisher": "Copernicus Climate Change Service",
+            "url": "https://climate.copernicus.eu/copernicus-august-was-worlds-joint-hottest-month-record-pushing-global-temperatures-back-above",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "66d13b2f-780d-566f-a9de-eefced0a19a4",
+        "issueId": "1a48e0ba-790b-50d5-bfff-39426283c39c",
+        "slug": "chandra-hypersoft-xray-source-discovery",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-chandra-hypersoft-sources-20260915",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "宇宙科学",
+            "headlineFact": "钱德拉望远镜发现84个超软X射线源",
+            "headlineView": "六个星系中的异常信号可能代表新的宇宙天体类别",
+            "headlineFull": "钱德拉望远镜发现84个超软X射线源；六个星系中的异常信号可能代表新的宇宙天体类别",
+            "intro": "NASA钱德拉X射线天文台利用公开档案，在六个星系中识别出84个超软X射线源；多数可能与双星系统有关，但其中七个仍无法归类。这类天体释放极低能量X射线和大量紫外辐射，可能帮助解释超新星与星系际介质。",
+            "xiaziQuote": "旧数据被新问题重新读取，也能打开新天体类别。",
+            "doudouQuote": "开放档案的价值，常在第二次观察中出现。",
+            "footerTakeaway": "今日关键词：宇宙科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Science",
+            "headlineFact": "Chandra identifies 84 hypersoft X-ray sources",
+            "headlineView": "Unusual signals across six galaxies may define a new class of cosmic object",
+            "headlineFull": "Chandra identifies 84 hypersoft X-ray sources; Unusual signals across six galaxies may define a new class of cosmic object",
+            "intro": "NASA's Chandra X-ray Observatory used its public archive to identify 84 hypersoft X-ray sources across six galaxies. Most may be linked to binary-star systems, but seven remain unexplained; their very low-energy X-rays and strong ultraviolet output could illuminate questions about supernovas and intergalactic matter.",
+            "xiaziQuote": "Old data, read through a new question, can reveal a new class of object.",
+            "doudouQuote": "The value of an open archive often appears on the second look.",
+            "footerTakeaway": "Keyword: Space Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "aeb2cf8f-eeb6-5c14-88d5-24f89d79bd6a",
+            "topicId": "66d13b2f-780d-566f-a9de-eefced0a19a4",
+            "title": "NASA's Chandra Unveils Mysterious X-ray Objects",
+            "publisher": "NASA / Chandra X-ray Center",
+            "url": "https://www.chandra.cfa.harvard.edu/press/26_releases/press_090926.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-15",
+    "releaseId": "rel_20260915_836aa2c3e15193fe6c6299ba",
+    "assetBatchId": "asset_prod_20260915_9d54559619cdfea13a6255b9",
+    "posters": [
+      {
+        "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+        "locale": "zh",
+        "contentHash": "ca3ac92091f099a421235e67487341c50a6a13a5240b994b77ce728a4b055c77",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/today-overview-tariffs-ai-small-business-energy-climate-science.png"
+      },
+      {
+        "topicId": "649817e0-d9c9-5fda-85ef-e550ffd01141",
+        "locale": "en",
+        "contentHash": "00c2de31b9506997c181d3246a2be28edbd2181fb7550a6f7c0a6602fa6b1b66",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/today-overview-tariffs-ai-small-business-energy-climate-science.png"
+      },
+      {
+        "topicId": "c70536e8-13a5-5168-9788-b8fd519f86e7",
+        "locale": "zh",
+        "contentHash": "27669078638bdaa1c27a5eba126653726eb03f4d86ed78bd32477f8d0c2d50a6",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/canada-us-goods-surtax-landed-cost-reset.png"
+      },
+      {
+        "topicId": "c70536e8-13a5-5168-9788-b8fd519f86e7",
+        "locale": "en",
+        "contentHash": "67f2553239513edc834606bd8705b21061b9b76dbf91f70936fb0d2002de7306",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/canada-us-goods-surtax-landed-cost-reset.png"
+      },
+      {
+        "topicId": "d110e5ab-1a70-5331-b36a-a3580c13e64b",
+        "locale": "zh",
+        "contentHash": "1a65716c6d592d0234caa5514932e539bd4a67f643e7ef4be8ba2f3c5b626c16",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/germany-ai-development-governance-balance.png"
+      },
+      {
+        "topicId": "d110e5ab-1a70-5331-b36a-a3580c13e64b",
+        "locale": "en",
+        "contentHash": "3b0bd68033dcd39eadc341e2a2e67de3b2cd35adbc2445fd8a244d7d14b67e28",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/germany-ai-development-governance-balance.png"
+      },
+      {
+        "topicId": "340e72d5-a6ac-5eaa-b7d0-ab1d25174ea8",
+        "locale": "zh",
+        "contentHash": "29f3dc1fd73a9dc567a351d7798f1398cdd4ff4cc76cab54d8a166b4d3dd3cba",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/small-business-optimism-cools-cash-discipline.png"
+      },
+      {
+        "topicId": "340e72d5-a6ac-5eaa-b7d0-ab1d25174ea8",
+        "locale": "en",
+        "contentHash": "fe08b21eeeef9c606926ac9512dd81a444c646c1c007975bce7258e50555436c",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/small-business-optimism-cools-cash-discipline.png"
+      },
+      {
+        "topicId": "2b4f5404-f6f6-5c36-af5c-c682976c4738",
+        "locale": "zh",
+        "contentHash": "ba2bf0dcfea357608cddf9709a9d356adc554cd9174ba076fd5f71381f00dde6",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/saudi-pipeline-outage-oil-supply-risk.png"
+      },
+      {
+        "topicId": "2b4f5404-f6f6-5c36-af5c-c682976c4738",
+        "locale": "en",
+        "contentHash": "7103c669da2eac8039c877a28caeca1675651affb6d331cd732f4b4522036fbe",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/saudi-pipeline-outage-oil-supply-risk.png"
+      },
+      {
+        "topicId": "e7674f50-6c17-5203-b56b-47829923d176",
+        "locale": "zh",
+        "contentHash": "ca03b0ad5f67fb6ea4e8354b4ffb6f7657b9615d6ad29d5a5b236879e6cbc83e",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/sweden-tight-result-coalition-negotiations.png"
+      },
+      {
+        "topicId": "e7674f50-6c17-5203-b56b-47829923d176",
+        "locale": "en",
+        "contentHash": "0737d14b2df989fd93bdf971e21e526bac1dddd74f11a707a5a0a83b03550ed9",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/sweden-tight-result-coalition-negotiations.png"
+      },
+      {
+        "topicId": "bbe2571a-2174-50f7-aafc-4a5c33631523",
+        "locale": "zh",
+        "contentHash": "5f802f4edb82c79f4847e519fdd7a118718e80398f548408b4b45dd71f9d4767",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/us-power-plant-climate-rule-repeal.png"
+      },
+      {
+        "topicId": "bbe2571a-2174-50f7-aafc-4a5c33631523",
+        "locale": "en",
+        "contentHash": "858e4014e3f4dbf3d83361c7b526618a1ea717573bcb4db8fdda25332e9758e6",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/us-power-plant-climate-rule-repeal.png"
+      },
+      {
+        "topicId": "29442d92-4747-5161-bd7e-0c8db751f1db",
+        "locale": "zh",
+        "contentHash": "c8517c48048dd31ffd99078b79548229c88e98eaa73858cc51815d892beff279",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/august-hottest-month-us-hottest-summer.png"
+      },
+      {
+        "topicId": "29442d92-4747-5161-bd7e-0c8db751f1db",
+        "locale": "en",
+        "contentHash": "f96f65f0de7212ef6d3a17d75200ce82b8aefe5e1f50d34e5397562ec399165a",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/august-hottest-month-us-hottest-summer.png"
+      },
+      {
+        "topicId": "66d13b2f-780d-566f-a9de-eefced0a19a4",
+        "locale": "zh",
+        "contentHash": "0e709e001d4a4579eb45cd19443c7cb5cb5ba803ad4c88238b9e26e7a9676f1c",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/zh/chandra-hypersoft-xray-source-discovery.png"
+      },
+      {
+        "topicId": "66d13b2f-780d-566f-a9de-eefced0a19a4",
+        "locale": "en",
+        "contentHash": "b54e42170c843ad908df8c9008ba451cc9de55ffee7ccd2dd12b3a91c988b68c",
+        "url": "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com/release-assets/asset_prod_20260915_9d54559619cdfea13a6255b9/en/chandra-hypersoft-xray-source-discovery.png"
+      }
+    ]
+  }
+}
