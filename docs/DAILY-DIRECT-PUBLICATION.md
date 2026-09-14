@@ -61,3 +61,16 @@ The older mirror builder requires an explicit maintenance override; the old
 two-commit publisher is disabled. Neither is a daily publication path.
 The legacy Supabase shadow workflow is now manual maintenance only; a daily JSON
 commit no longer starts a second, unrelated database publication job.
+
+## Application deployments are separate and immutable
+
+Alibaba current is `daily-direct-20260914-v1`; the preceding
+`editorial-icons-20260914-v1` remains a complete rollback version. Identical large
+dependency files in four older releases were SHA-256 and byte-verified before
+hard-link deduplication (284 paths, approximately 3.80 GiB released). All paths,
+content, modes, ownership and modification times were preserved.
+
+Treat all deployed versions and their shared dependencies as immutable. Never
+run `npm install`/`npm ci` or patch dependencies in an old deployment. A dependency
+upgrade must use independently installed dependencies in a new candidate. Daily
+content publication does not build or add deployment directories.

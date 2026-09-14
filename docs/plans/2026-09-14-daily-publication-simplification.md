@@ -69,3 +69,8 @@ is retained rather than promising a permanently fixed repository size.
 - Packed storage reduced from 7.13 GiB to 4.70 GiB. The daily entry point does not
   invoke local Git, so it cannot reintroduce the old daily fetch path. Other Git
   operations and legitimately new content can still grow the repository.
+- Alibaba old dependency duplicates: 284 byte-verified paths shared without
+  deleting any version directory; 3.803 GiB freed in this task. Final root volume
+  available approximately 5.0 GB; service active and content API reverified.
+- Browser archive navigation verified 2026-09-14 entry and 2026-09-13 reading;
+  all nine Chinese historical images decoded in the browser.
