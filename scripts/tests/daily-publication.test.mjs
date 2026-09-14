@@ -87,6 +87,22 @@ test("concurrent main change never forces a push", async () => {
     url.endsWith("/git/refs/heads/main") ? reply({}, 422) : original(url, init) }), /GITHUB_422/);
 });
 
+test("explicit rollback restores a recorded older bundle and preserves the newer release", async () => {
+  const nextManifest = { ...manifest, issueDate: "2026-09-15", releaseId: "rel_20260915_bbbbbbbbbbbbbbbbbbbbbbbb" };
+  const nextIssue = { ...issue, issueDate: "2026-09-15", assetVersion: nextManifest.releaseId };
+  const savedIssue = { ...issue, assetVersion: manifest.releaseId };
+  const f = fixture({ "data/current-issue.json": nextIssue, "data/current-release.json": nextManifest,
+    [`data/releases/${manifest.releaseId}.json`]: { issue: savedIssue, manifest } });
+  const result = await publishCurrentReleaseBundle({ ...f.options, rollback: true });
+  assert.equal(result.releaseId, manifest.releaseId);
+  const tree = JSON.parse(f.calls.find((c) => c.url.endsWith("/git/trees")).body).tree;
+  expectPreserved(tree);
+  function expectPreserved(entries) {
+    assert.ok(entries.some((entry) => entry.path === `data/releases/${nextManifest.releaseId}.json`));
+    assert.ok(!entries.some((entry) => entry.path === "data/archive/2026-09-15.json"));
+  }
+});
+
 test("superseded same-day release is preserved before replacement", async () => {
   const previous = { ...manifest, releaseId: "rel_20260914_bbbbbbbbbbbbbbbbbbbbbbbb" };
   const oldIssue = { ...issue, assetVersion: previous.releaseId };

@@ -1,12 +1,8 @@
 name: Sync published issue shadow
 
 on:
+  # Legacy database shadow is maintenance-only. JSON + COS is the daily source.
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - data/current-issue.json
 
 permissions:
   contents: read

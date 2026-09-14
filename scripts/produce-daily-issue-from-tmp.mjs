@@ -3,6 +3,10 @@ import path from "node:path";
 import { createHash } from "node:crypto";
 import sharp from "sharp";
 
+if (process.env.XIAZI_LEGACY_MIRROR_MAINTENANCE !== "1") {
+  throw new Error("LEGACY_MIRROR_DISABLED: use scripts/daily-publication.ts --issue-spec PATH --poster-root PATH; this old tool copies binary posters into Git directories");
+}
+
 const root = process.cwd();
 const issueSpecPath = process.env.ISSUE_SPEC;
 const posterRoot = process.env.POSTER_ROOT;

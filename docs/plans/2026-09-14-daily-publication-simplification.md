@@ -1,6 +1,6 @@
 # Daily publication simplification
 
-Status: implementation in progress; authorized by owner on 2026-09-14.
+Status: implemented and live-verified on 2026-09-14; authorized by owner.
 
 ## Outcome
 
@@ -46,3 +46,26 @@ adds a second activation system unused by the current JSON production reader.
 Trade-off: GitHub and COS remain runtime dependencies. Failed verification does
 not activate a candidate; non-fast-forward publication is rejected. Old history
 is retained rather than promising a permanently fixed repository size.
+
+## Verified outcome
+
+- Current issue retained: `rel_20260914_c12dc16c785d5b3967582544`.
+- Actual direct upload: 18 immutable objects reused, 0 created.
+- Actual publish rerun: idempotent, 0 additional commits.
+- Current and historic poster routes: 18/18 each, plus COS SHA-256 checks.
+- Web `check`: 37 files / 175 tests passed; repository `check` passed.
+- Local builds and Alibaba candidate build passed. Existing Next file-tracing
+  warning remains non-fatal; no claim that all unrelated build warnings vanished.
+- Alibaba reader deployment: `daily-direct-20260914-v1`, preserving the prior
+  `editorial-icons-20260914-v1` UI and rollback directory.
+- 04:00 automation now uses the single direct entry point, with its model and
+  image-generation preferences preserved. Tomorrow's scheduled run is not yet observed.
+- Legacy non-atomic publisher disabled, mirror tool maintenance-gated, obsolete
+  Supabase shadow workflow no longer triggered by daily JSON changes.
+- All five Git packs passed verify-pack before removal. The removed pack had
+  1,454 objects, all duplicated in survivors, 0 unique objects. 17,680 distinct
+  packed objects and all refs/worktrees retained. Original pack and sidecars
+  SHA-256 copied to `/Volumes/LaCie/xiazi-git-duplicate-recovery-20260914`.
+- Packed storage reduced from 7.13 GiB to 4.70 GiB. The daily entry point does not
+  invoke local Git, so it cannot reintroduce the old daily fetch path. Other Git
+  operations and legitimately new content can still grow the repository.

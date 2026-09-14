@@ -1,6 +1,8 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
+throw new Error("NON_ATOMIC_PUBLISHER_DISABLED: use scripts/daily-publication.ts; current issue and archives must be committed together");
+
 const issuePath = path.resolve(process.argv[2] || "data/current-issue.json");
 const issue = JSON.parse(await readFile(issuePath, "utf8"));
 const token = process.env.GITHUB_STUDIO_TOKEN;

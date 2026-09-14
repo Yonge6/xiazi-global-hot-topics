@@ -11,7 +11,7 @@ import { parseIssue } from "@xiazi/contracts";
 import { buildDailyIssue } from "../packages/domain/src/daily-issue";
 import { uploadImmutableReleasePosters } from "../apps/web/src/server/storage/immutable-upload-service";
 import { runPreflight } from "./preflight-daily-publication";
-import { assertReleaseBundle, COS_ORIGIN, publishCurrentReleaseBundle } from "./publish-current-release-manifest.mjs";
+import { assertReleaseBundle, COS_ORIGIN, publishCurrentReleaseBundle, verifyCosPosters } from "./publish-current-release-manifest.mjs";
 
 const digest = (value: Buffer | string) => createHash("sha256").update(value).digest("hex");
 const save = (name: string, value: unknown) => writeFile(name, `${JSON.stringify(value, null, 2)}\n`);
@@ -67,13 +67,38 @@ export async function main() {
   const { values } = parseArgs({ options: {
     "poster-root": { type: "string" }, "issue-spec": { type: "string" },
     "adopt-manifest": { type: "string" }, "adopt-issue": { type: "string" },
-    rollback: { type: "string" }, "dry-run": { type: "boolean" },
+    rollback: { type: "string" }, "dry-run": { type: "boolean" }, "verify-current": { type: "boolean" },
   } });
+  const token = process.env.GITHUB_STUDIO_TOKEN || execFileSync("gh", ["auth", "token"], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
+  if (values["verify-current"]) {
+    const headers = { Authorization: `Bearer ${token}`, Accept: "application/vnd.github.raw+json" };
+    const base = "https://api.github.com/repos/Yonge6/xiazi-global-hot-topics/contents/data";
+    const response = await fetch(`${base}/current-issue.json`, { headers, signal: AbortSignal.timeout(30000) });
+    if (!response.ok) throw new Error("CURRENT_STATUS_UNAVAILABLE");
+    const issue = parseIssue(await response.json());
+    const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    if (issue.issueDate !== today) throw new Error(`TODAY_NOT_PUBLISHED:current=${issue.issueDate}`);
+    if (!/^rel_\d{8}_[0-9a-f]{24}$/.test(issue.assetVersion || "")) throw new Error("CURRENT_VERSION_INVALID");
+    let saved = await fetch(`${base}/releases/${issue.assetVersion}.json`, { headers, signal: AbortSignal.timeout(30000) });
+    let manifest;
+    if (saved.status === 404) {
+      saved = await fetch(`${base}/current-release.json`, { headers, signal: AbortSignal.timeout(30000) });
+      if (!saved.ok) throw new Error("CURRENT_MANIFEST_UNAVAILABLE");
+      manifest = await saved.json();
+    } else {
+      if (!saved.ok) throw new Error("CURRENT_MANIFEST_UNAVAILABLE");
+      manifest = (await saved.json()).manifest;
+    }
+    assertReleaseBundle(issue, manifest);
+    await verifyCosPosters(manifest);
+    console.log(JSON.stringify(await liveAcceptance(issue, manifest)));
+    console.log("ALREADY_PUBLISHED_ARCHIVE_ACCEPTED");
+    return;
+  }
   const root = path.resolve(values["poster-root"] || ".");
   const lockPath = path.join(root, ".publication.lock");
   const lock = await open(lockPath, "wx").catch(() => { throw new Error("PUBLICATION_LOCKED_CHECK_EXISTING_PROCESS"); });
   try {
-    const token = process.env.GITHUB_STUDIO_TOKEN || execFileSync("gh", ["auth", "token"], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
     let issue;
     let manifest;
     if (values.rollback) {
