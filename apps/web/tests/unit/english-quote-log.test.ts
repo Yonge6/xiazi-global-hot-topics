@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { injectXiaziNavigation } from "@/app/english-quote-log/route";
+import { injectXiaziNavigation } from "@/lib/english-quote-navigation";
 
 describe("english quote log", () => {
   it("injects the shared Xiazi navigation into the standalone HTML", () => {
