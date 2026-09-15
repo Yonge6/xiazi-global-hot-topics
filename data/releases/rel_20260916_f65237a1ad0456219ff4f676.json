@@ -1,0 +1,715 @@
+{
+  "issue": {
+    "id": "688d56a6-f6f5-5074-b314-224b41d10aca",
+    "slug": "2026-09-16",
+    "style": {
+      "name": "Psychedelic Poster",
+      "zhName": "迷幻海报风格",
+      "description": "Style Atlas daily pick: Psychedelic Poster. Use premium editorial psychedelia with fluid organic forms, warped but readable display typography, layered color fields, optical rhythm and a controlled palette of deep violet, electric coral, saffron, teal and warm cream. Keep mobile readability first: one main conclusion and no more than three key facts per poster, 3-5 clear modules, large text, generous spacing and calm low-texture text zones. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, with a central globe or narrative newsroom scene and eight uneven flowing ribbons or orbital paths around it. Give every sentence a broad quiet high-contrast reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-16",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-16T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-15T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+    "topics": [
+      {
+        "id": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "today-overview-customs-ai-oil-space-rates-crypto-voting",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月16日全球经营雷达",
+            "headlineView": "贸易、AI、创业与地缘风险同时进入经营决策",
+            "headlineFull": "9月16日全球经营雷达；贸易、AI、创业与地缘风险同时进入经营决策",
+            "intro": "1. 欧盟海关改革把非欧盟电商平台视为进口人，平台将承担申报、关税与合规责任。\n2. 盖茨基金会未来两年投入10亿美元，让AI更好服务本地语言、医疗、教育与小农户。\n3. 美国人口普查局发布8月企业形成数据，创业者可用高频指标判断新企业管线。\n4. 沙特寻求埃及支持应对胡塞袭击，红海航运与石油基础设施风险继续上升。\n5. 美国首次确认已在轨部署太空控制武器，卫星通信成为更显性的地缘风险。\n6. 美联储预计三年来首次加息，企业与家庭的借贷成本可能继续上升。\n7. 美国参议院以49比50票阻止加密货币监管法案推进，2.3万亿美元市场继续等待统一规则。\n8. 美国最高法院拒绝在中期选举前限制邮寄选票，各州沿用现有投票流程。",
+            "xiaziQuote": "今天的共同信号是：政策变化正同时重写成本、权限与风险边界。",
+            "doudouQuote": "把关税、利率、平台责任和供应链中断放进同一张经营表。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 16 Global Operator Radar",
+            "headlineView": "Trade, AI, entrepreneurship and geopolitical risk converge on operating decisions",
+            "headlineFull": "September 16 Global Operator Radar; Trade, AI, entrepreneurship and geopolitical risk converge on operating decisions",
+            "intro": "1. EU customs reform treats non-EU e-commerce platforms as importers responsible for declarations, duties and compliance.\n2. The Gates Foundation commits $1 billion over two years to expand AI for local languages, health, education and small farmers.\n3. The US Census Bureau releases August business-formation data, giving founders a high-frequency view of the startup pipeline.\n4. Saudi Arabia seeks Egypt's backing as Houthi attacks raise risks for Red Sea shipping and oil infrastructure.\n5. The United States confirms for the first time that it has deployed on-orbit space-control weapons, making satellite risk more explicit.\n6. The Federal Reserve is expected to raise rates for the first time in three years, lifting borrowing pressure on firms and households.\n7. The US Senate blocks a crypto-regulation bill 49-50, leaving a $2.3 trillion market waiting for uniform rules.\n8. The US Supreme Court rejects new mail-ballot restrictions before the midterms, leaving existing state voting processes in place.",
+            "xiaziQuote": "Today's shared signal is that policy shifts are rewriting cost, permission and risk boundaries together.",
+            "doudouQuote": "Put tariffs, rates, platform liability and supply disruption on one operating sheet.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "2a8aa375-29e5-5ab0-8d58-c467aadaa6c8",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "EU customs reform",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "2722b227-3a8e-513d-87d9-4850acd408af",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "Gates Foundation launches $1 billion AI initiative",
+            "publisher": "KUOW",
+            "url": "https://www.kuow.org/technology/2026-09-15/gates-foundation-launches-billion-dollar-artificial-intelligence-ai-initiative",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "eb86628f-2610-5a44-b763-7245ef46c5b3",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "Business Formation Statistics Monthly Data Release - August 2026",
+            "publisher": "US Census Bureau",
+            "url": "https://www.census.gov/newsroom/press-releases/2026/business-formation-statistics-sep11.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1a05dcfa-eebd-5801-b166-d0d5746f70bc",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "Egypt's Sisi meets MBS and backs secure Red Sea navigation",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/9/15/egypts-sisi-meets-mbs-backs-saudi-call-for-secure-red-sea-navigation",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ee0e5c74-806f-5b86-916b-0f505b687f5c",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "US confirms for first time it has deployed weapons in space",
+            "publisher": "The Guardian",
+            "url": "https://www.theguardian.com/science/2026/sep/15/us-confirms-first-time-it-has-deployed-weapons-space",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "fc4a1032-84ca-5f73-aa8f-574d959fef61",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "Federal Reserve is expected to raise its benchmark rate",
+            "publisher": "ABC News",
+            "url": "https://www-cdn.abcnews.com/Politics/wireStory/federal-reserve-expected-raise-benchmark-rate-defying-trumps-136452241",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3dda5200-af5f-5594-b412-f0719a6f32b6",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "Senate blocks cryptocurrency regulation",
+            "publisher": "CT Insider",
+            "url": "https://www.ctpost.com/business/article/senate-is-to-vote-on-cryptocurrency-regulation-as-22432592.php",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "bd65f5cf-3ba1-5d7d-915c-a39037de63bd",
+            "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+            "title": "Supreme Court rejects mail voting restrictions for the midterms",
+            "publisher": "KPBS Public Media",
+            "url": "https://www.kpbs.org/news/politics/2026/09/14/the-supreme-court-rejects-trumps-mail-voting-restrictions-for-this-years-midterms",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "88a2c5e2-d779-50aa-8723-9093af748c7f",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "eu-platform-importer-customs-responsibility",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-platform-importer-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟海关改革把非欧盟电商平台视为进口人",
+            "headlineView": "申报、关税与商品合规从消费者端前移到平台",
+            "headlineFull": "欧盟海关改革把非欧盟电商平台视为进口人；申报、关税与商品合规从消费者端前移到平台",
+            "intro": "欧盟理事会通过新版海关框架，明确非欧盟电商平台向欧盟消费者销售商品时，将作为进口人承担海关手续、关税支付与产品合规责任。平台和卖家应提前整理商品编码、原产地、价值与安全证明，让数据能够一次准确进入未来的欧盟海关数据中心。",
+            "xiaziQuote": "平台责任上移后，缺失商品数据会直接变成清关和下架风险。",
+            "doudouQuote": "先补齐高销量SKU的编码、原产地和合规证明。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "EU reform makes non-EU e-commerce platforms the importer",
+            "headlineView": "Declarations, duties and product compliance move upstream from consumers to platforms",
+            "headlineFull": "EU reform makes non-EU e-commerce platforms the importer; Declarations, duties and product compliance move upstream from consumers to platforms",
+            "intro": "The Council-approved EU customs framework says non-EU e-commerce platforms selling to EU consumers will be treated as importers responsible for customs formalities, duty payment and product compliance. Platforms and sellers should prepare accurate classification, origin, value and safety data for the future EU Customs Data Hub.",
+            "xiaziQuote": "When platform liability moves upstream, missing product data becomes clearance and delisting risk.",
+            "doudouQuote": "Complete codes, origin and compliance evidence for top-selling SKUs first.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "5b0406aa-7827-5f8e-8689-14d6d260049a",
+            "topicId": "88a2c5e2-d779-50aa-8723-9093af748c7f",
+            "title": "EU customs reform",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "5007ca0c-c7e8-5535-8774-b4072484e5ba",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "gates-billion-ai-access-inequality",
+        "rank": 3,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-gates-ai-access-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "盖茨基金会未来两年投入10亿美元扩大AI可及性",
+            "headlineView": "本地语言、医疗、教育与农业成为缩小技术鸿沟的四个入口",
+            "headlineFull": "盖茨基金会未来两年投入10亿美元扩大AI可及性；本地语言、医疗、教育与农业成为缩小技术鸿沟的四个入口",
+            "intro": "盖茨基金会宣布未来两年投入10亿美元，支持本地语言数据、医疗辅助、教育工具和小农户实时建议，其中约4亿美元投向教育、4亿美元投向医疗、1亿美元投向农业。核心风险不是AI没有能力，而是最有价值的能力先只服务买得起的人。",
+            "xiaziQuote": "普惠AI的门槛不是演示效果，而是本地数据、场景和持续交付。",
+            "doudouQuote": "先找一个被语言或成本挡住的真实任务，再做最小可用工具。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Gates Foundation commits $1 billion to widen AI access",
+            "headlineView": "Local language, health, education and farming become four gateways to narrow the divide",
+            "headlineFull": "Gates Foundation commits $1 billion to widen AI access; Local language, health, education and farming become four gateways to narrow the divide",
+            "intro": "The Gates Foundation will invest $1 billion over two years in local-language data, clinical support, education tools and real-time advice for small farmers, including roughly $400 million each for education and health and $100 million for agriculture. The central risk is that useful AI reaches only those who can already afford it.",
+            "xiaziQuote": "Inclusive AI is measured by local data, real tasks and reliable delivery, not demos.",
+            "doudouQuote": "Start with one real job blocked by language or cost, then build the smallest useful tool.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "2865b469-0b70-5936-833c-8be6a17ce318",
+            "topicId": "5007ca0c-c7e8-5535-8774-b4072484e5ba",
+            "title": "Gates Foundation launches $1 billion AI initiative",
+            "publisher": "KUOW",
+            "url": "https://www.kuow.org/technology/2026-09-15/gates-foundation-launches-billion-dollar-artificial-intelligence-ai-initiative",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ad0509a4-a87f-560b-ab83-4c6731f12aaf",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "august-business-formation-founder-signal",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-us-business-formation-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC 一人公司",
+            "headlineFact": "美国更新8月企业形成高频数据",
+            "headlineView": "创业热度要与真实雇佣、收入和现金转换一起判断",
+            "headlineFull": "美国更新8月企业形成高频数据；创业热度要与真实雇佣、收入和现金转换一起判断",
+            "intro": "美国人口普查局发布8月企业形成统计，覆盖企业税号申请、高潜力申请及由申请转化而来的雇主企业。对一人公司而言，申请数量是需求与竞争的前置信号，但真正的经营质量仍要看客户付费、回款速度与是否需要承担固定雇佣成本。",
+            "xiaziQuote": "注册热度说明有人出发，不能替代收入与复购验证。",
+            "doudouQuote": "用申请数据看赛道温度，用自己的现金流决定速度。",
+            "footerTakeaway": "今日关键词：OPC 一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "OPC / Solopreneur",
+            "headlineFact": "The US updates its August business-formation indicators",
+            "headlineView": "Startup momentum must be read alongside hiring, revenue and cash conversion",
+            "headlineFull": "The US updates its August business-formation indicators; Startup momentum must be read alongside hiring, revenue and cash conversion",
+            "intro": "The US Census Bureau has released August Business Formation Statistics covering tax-ID applications, high-propensity applications and employer businesses formed from them. For a solo operator, application volume is an early signal of demand and competition, while operating quality still depends on paying customers, collection speed and fixed hiring commitments.",
+            "xiaziQuote": "Registration momentum shows people starting; it does not replace revenue or retention proof.",
+            "doudouQuote": "Use formation data for market temperature and your own cash flow for speed.",
+            "footerTakeaway": "Keyword: OPC / Solopreneur."
+          }
+        },
+        "sources": [
+          {
+            "id": "72b33c53-2321-5f5f-b3db-a60ce54058e0",
+            "topicId": "ad0509a4-a87f-560b-ab83-4c6731f12aaf",
+            "title": "Business Formation Statistics Monthly Data Release - August 2026",
+            "publisher": "US Census Bureau",
+            "url": "https://www.census.gov/newsroom/press-releases/2026/business-formation-statistics-sep11.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ff8bc95f-2653-5c5b-b832-d8afd5263e4b",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "saudi-egypt-red-sea-oil-route-risk",
+        "rank": 5,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "SA",
+          "EG",
+          "YE"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-saudi-egypt-red-sea-20260916",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "红海与能源",
+            "headlineFact": "沙特寻求埃及支持应对胡塞袭击",
+            "headlineView": "红海航运与石油基础设施承受同一轮安全压力",
+            "headlineFull": "沙特寻求埃及支持应对胡塞袭击；红海航运与石油基础设施承受同一轮安全压力",
+            "intro": "沙特王储与埃及总统会晤，寻求在胡塞武装持续袭击沙特航运与基础设施之际凝聚地区支持。埃及未必直接提供军事协助，但其外交影响力可能帮助协调阿拉伯国家立场；经营者需要同步观察油价、红海绕行、保险与交付周期。",
+            "xiaziQuote": "当港口、管线和海峡同时受压，物流成本会以多条路径传导。",
+            "doudouQuote": "把油价、保险、绕行天数设成三个独立预警项。",
+            "footerTakeaway": "今日关键词：红海与能源。"
+          },
+          "en-US": {
+            "categoryLabel": "Red Sea and Energy",
+            "headlineFact": "Saudi Arabia seeks Egypt's backing as Houthi attacks intensify",
+            "headlineView": "Red Sea shipping and oil infrastructure face one connected security shock",
+            "headlineFull": "Saudi Arabia seeks Egypt's backing as Houthi attacks intensify; Red Sea shipping and oil infrastructure face one connected security shock",
+            "intro": "Saudi Arabia's crown prince met Egypt's president seeking regional support as Houthi attacks continue against Saudi shipping and infrastructure. Egypt may not provide direct military help, but its diplomatic weight can shape an Arab response; operators should track oil, Red Sea diversions, insurance and delivery times together.",
+            "xiaziQuote": "When ports, pipelines and straits are pressured together, logistics costs travel through several channels.",
+            "doudouQuote": "Track oil, insurance and diversion days as three separate alerts.",
+            "footerTakeaway": "Keyword: Red Sea and Energy."
+          }
+        },
+        "sources": [
+          {
+            "id": "ce5decf7-2a40-529b-903f-219247f18650",
+            "topicId": "ff8bc95f-2653-5c5b-b832-d8afd5263e4b",
+            "title": "Egypt's Sisi meets MBS and backs secure Red Sea navigation",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/9/15/egypts-sisi-meets-mbs-backs-saudi-call-for-secure-red-sea-navigation",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bc7c2bd5-0fae-50c4-a2ea-890eb6d3afb0",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "us-on-orbit-space-control-weapons",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "RU",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-us-space-weapons-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "太空安全",
+            "headlineFact": "美国首次确认已部署在轨太空控制武器",
+            "headlineView": "卫星从基础设施变成更公开的对抗目标",
+            "headlineFull": "美国首次确认已部署在轨太空控制武器；卫星从基础设施变成更公开的对抗目标",
+            "intro": "美国空军部长确认，美方已部署能够在轨保护联合部队免受敌对行动的太空控制武器，但没有披露武器类型或工作方式。由于通信、导航、金融授时和天气服务高度依赖卫星，企业的业务连续性计划需要把空间基础设施中断纳入情景。",
+            "xiaziQuote": "看不见的轨道基础设施，正在变成看得见的经营风险。",
+            "doudouQuote": "为定位、通信和云同步各准备一个离线替代方案。",
+            "footerTakeaway": "今日关键词：太空安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Security",
+            "headlineFact": "The US confirms deployment of on-orbit space-control weapons",
+            "headlineView": "Satellites move from invisible infrastructure to explicit strategic targets",
+            "headlineFull": "The US confirms deployment of on-orbit space-control weapons; Satellites move from invisible infrastructure to explicit strategic targets",
+            "intro": "The US Air Force secretary says America has fielded on-orbit space-control weapons able to defend joint forces from hostile action, without disclosing their type or operation. Because communications, navigation, financial timing and weather services depend on satellites, continuity planning should include space-infrastructure disruption.",
+            "xiaziQuote": "Invisible orbital infrastructure is becoming visible operating risk.",
+            "doudouQuote": "Prepare one offline fallback each for positioning, communications and cloud sync.",
+            "footerTakeaway": "Keyword: Space Security."
+          }
+        },
+        "sources": [
+          {
+            "id": "8c26cac2-9c30-55c3-ba63-8ce94617daea",
+            "topicId": "bc7c2bd5-0fae-50c4-a2ea-890eb6d3afb0",
+            "title": "US confirms for first time it has deployed weapons in space",
+            "publisher": "The Guardian",
+            "url": "https://www.theguardian.com/science/2026/sep/15/us-confirms-first-time-it-has-deployed-weapons-space",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "cc19587e-3333-52e9-bf6a-d8a6e3370502",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "fed-first-rate-hike-three-years",
+        "rank": 7,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-fed-rate-hike-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球市场",
+            "headlineFact": "美联储预计三年来首次加息",
+            "headlineView": "抗通胀重新压过降息期待，融资成本面临上行",
+            "headlineFull": "美联储预计三年来首次加息；抗通胀重新压过降息期待，融资成本面临上行",
+            "intro": "市场普遍预计美联储将在周三提高短期利率，这是三年来首次加息，背景是通胀仍然顽固。更高政策利率会通过债券收益率、贷款和信用卡传导到家庭与企业；高负债经营者应重新测试利息覆盖和未来两个季度的现金余量。",
+            "xiaziQuote": "利率变化先影响现金流，再影响估值和扩张意愿。",
+            "doudouQuote": "把每笔浮息债务按上升一档重新测算。",
+            "footerTakeaway": "今日关键词：全球市场。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Markets",
+            "headlineFact": "The Federal Reserve is expected to hike for the first time in three years",
+            "headlineView": "Inflation control overtakes hopes for cuts as financing pressure rises",
+            "headlineFull": "The Federal Reserve is expected to hike for the first time in three years; Inflation control overtakes hopes for cuts as financing pressure rises",
+            "intro": "The Federal Reserve is widely expected to lift short-term rates on Wednesday for the first time in three years as inflation remains stubborn. Higher policy rates flow through bond yields, loans and credit cards to households and companies; leveraged operators should retest interest coverage and two-quarter cash buffers.",
+            "xiaziQuote": "Rate changes hit cash flow before they reshape valuation and expansion appetite.",
+            "doudouQuote": "Recalculate every floating-rate obligation one step higher.",
+            "footerTakeaway": "Keyword: Global Markets."
+          }
+        },
+        "sources": [
+          {
+            "id": "ae74f589-2912-5157-a598-aa6408636546",
+            "topicId": "cc19587e-3333-52e9-bf6a-d8a6e3370502",
+            "title": "Federal Reserve is expected to raise its benchmark rate",
+            "publisher": "ABC News",
+            "url": "https://www-cdn.abcnews.com/Politics/wireStory/federal-reserve-expected-raise-benchmark-rate-defying-trumps-136452241",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a18bdc2c-360d-5d08-b31a-e1da3eecbc4d",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "senate-blocks-crypto-regulation-49-50",
+        "rank": 8,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-us-crypto-bill-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "数字资产政策",
+            "headlineFact": "美国参议院以49比50票阻止加密监管法案推进",
+            "headlineView": "统一规则继续延后，伦理限制成为立法分歧核心",
+            "headlineFull": "美国参议院以49比50票阻止加密监管法案推进；统一规则继续延后，伦理限制成为立法分歧核心",
+            "intro": "美国参议院未能推进加密货币监管框架，程序性投票结果为49比50。民主党要求增加对联邦民选官员发行和持有数字资产的伦理限制；在约2.3万亿美元市场等待统一规则期间，企业仍需按现有州法、联邦执法与交易对手要求分别管理风险。",
+            "xiaziQuote": "规则缺席不是自由区，而是多套风险同时存在。",
+            "doudouQuote": "把托管、储备、披露和司法辖区逐项写清。",
+            "footerTakeaway": "今日关键词：数字资产政策。"
+          },
+          "en-US": {
+            "categoryLabel": "Digital Asset Policy",
+            "headlineFact": "The US Senate blocks a crypto-regulation bill 49-50",
+            "headlineView": "Uniform rules remain delayed as ethics safeguards drive the divide",
+            "headlineFull": "The US Senate blocks a crypto-regulation bill 49-50; Uniform rules remain delayed as ethics safeguards drive the divide",
+            "intro": "The US Senate failed to advance a cryptocurrency regulatory framework in a 49-50 procedural vote. Democrats demanded stronger ethics limits on digital assets issued or held by elected federal officials; while the roughly $2.3 trillion market waits for uniform rules, firms still face state law, federal enforcement and counterparty requirements.",
+            "xiaziQuote": "The absence of one rulebook creates overlapping risks, not a free zone.",
+            "doudouQuote": "Document custody, reserves, disclosure and jurisdiction separately.",
+            "footerTakeaway": "Keyword: Digital Asset Policy."
+          }
+        },
+        "sources": [
+          {
+            "id": "bb0d4515-94c7-5c09-8622-535970510a65",
+            "topicId": "a18bdc2c-360d-5d08-b31a-e1da3eecbc4d",
+            "title": "Senate blocks cryptocurrency regulation",
+            "publisher": "CT Insider",
+            "url": "https://www.ctpost.com/business/article/senate-is-to-vote-on-cryptocurrency-regulation-as-22432592.php",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "36167a14-9d96-52fe-8c8f-a80b809db19e",
+        "issueId": "688d56a6-f6f5-5074-b314-224b41d10aca",
+        "slug": "supreme-court-mail-ballot-status-quo",
+        "rank": 9,
+        "category": "international",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-us-mail-ballots-20260916",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "美国选举",
+            "headlineFact": "美国最高法院拒绝中期选举前限制邮寄选票",
+            "headlineView": "各州维持既有流程，临近投票的制度突变暂时解除",
+            "headlineFull": "美国最高法院拒绝中期选举前限制邮寄选票；各州维持既有流程，临近投票的制度突变暂时解除",
+            "intro": "美国最高法院拒绝特朗普政府在中期选举前实施新的邮寄选票限制，允许各州继续使用多年运行的流程；邮寄选票约占已投票数的三分之一。裁决降低了临近选举重做信封、名单门户和投递规则可能造成的执行混乱。",
+            "xiaziQuote": "复杂系统临近关键节点时，稳定本身就是一种风险控制。",
+            "doudouQuote": "制度新闻要看实际流程是否改变，而不只看争论声量。",
+            "footerTakeaway": "今日关键词：美国选举。"
+          },
+          "en-US": {
+            "categoryLabel": "US Elections",
+            "headlineFact": "The US Supreme Court rejects mail-ballot restrictions before the midterms",
+            "headlineView": "States keep existing processes as a late operational overhaul is set aside",
+            "headlineFull": "The US Supreme Court rejects mail-ballot restrictions before the midterms; States keep existing processes as a late operational overhaul is set aside",
+            "intro": "The US Supreme Court rejected the administration's attempt to impose new mail-ballot restrictions before the midterm elections, allowing states to retain long-used processes; mail ballots account for roughly one-third of votes cast. The decision removes the immediate operational risk of redesigning envelopes, voter-list portals and delivery rules during voting.",
+            "xiaziQuote": "Near a critical deadline, stability itself is a form of risk control.",
+            "doudouQuote": "For institutional news, track whether the real process changed, not only the argument.",
+            "footerTakeaway": "Keyword: US Elections."
+          }
+        },
+        "sources": [
+          {
+            "id": "5ecb2755-b077-555b-837a-37e4d483b80d",
+            "topicId": "36167a14-9d96-52fe-8c8f-a80b809db19e",
+            "title": "Supreme Court rejects mail voting restrictions for the midterms",
+            "publisher": "KPBS Public Media",
+            "url": "https://www.kpbs.org/news/politics/2026/09/14/the-supreme-court-rejects-trumps-mail-voting-restrictions-for-this-years-midterms",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260916_f65237a1ad0456219ff4f676"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-16",
+    "releaseId": "rel_20260916_f65237a1ad0456219ff4f676",
+    "assetBatchId": "asset_prod_20260916_f65237a1ad0456219ff4f676",
+    "posters": [
+      {
+        "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+        "locale": "zh",
+        "contentHash": "abd0095fb5007471291f27a0d6cc3a388ba4f0c5dbfa32e94a6a47987ec6cbdf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/today-overview-customs-ai-oil-space-rates-crypto-voting.png"
+      },
+      {
+        "topicId": "1ddc9d7e-9d3d-59e8-914f-3d17571e0fe5",
+        "locale": "en",
+        "contentHash": "046af7099d232d80daa6f3e4e93ac85499f65d1de355dad325dac6971f5e7b7d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/today-overview-customs-ai-oil-space-rates-crypto-voting.png"
+      },
+      {
+        "topicId": "88a2c5e2-d779-50aa-8723-9093af748c7f",
+        "locale": "zh",
+        "contentHash": "a3d8cafccd9c6e71c3d819cbc17ac9dea456786ea1f4ff8bf76644d8fe943c72",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/eu-platform-importer-customs-responsibility.png"
+      },
+      {
+        "topicId": "88a2c5e2-d779-50aa-8723-9093af748c7f",
+        "locale": "en",
+        "contentHash": "1ba14f6454c7e59a350260f571cdadb5e10e2db25efcaa7116b7b8a7977325fa",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/eu-platform-importer-customs-responsibility.png"
+      },
+      {
+        "topicId": "5007ca0c-c7e8-5535-8774-b4072484e5ba",
+        "locale": "zh",
+        "contentHash": "218840eae3180dbf948f276bdb11be3c886d572e1cdb4093ed774be6bdc5b4f9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/gates-billion-ai-access-inequality.png"
+      },
+      {
+        "topicId": "5007ca0c-c7e8-5535-8774-b4072484e5ba",
+        "locale": "en",
+        "contentHash": "0d344e21215aac365dfad5535e8e53e6d32d6fd9ac2e6b1936fda457f9a6658a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/gates-billion-ai-access-inequality.png"
+      },
+      {
+        "topicId": "ad0509a4-a87f-560b-ab83-4c6731f12aaf",
+        "locale": "zh",
+        "contentHash": "c7274c2103e23c3bede583747edd286255183bd65bfb7eddc3d8d222ddf91d56",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/august-business-formation-founder-signal.png"
+      },
+      {
+        "topicId": "ad0509a4-a87f-560b-ab83-4c6731f12aaf",
+        "locale": "en",
+        "contentHash": "15e87a198d1047b05c2beecc6a87900f34c85e757ed2bb0624730a7664e901f7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/august-business-formation-founder-signal.png"
+      },
+      {
+        "topicId": "ff8bc95f-2653-5c5b-b832-d8afd5263e4b",
+        "locale": "zh",
+        "contentHash": "66843ef8c12a8d14f5d7580cb3991a0fbb7c1d1d0f55039bf18b25260b3aaf04",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/saudi-egypt-red-sea-oil-route-risk.png"
+      },
+      {
+        "topicId": "ff8bc95f-2653-5c5b-b832-d8afd5263e4b",
+        "locale": "en",
+        "contentHash": "958b006732634403ee2382f520d908488fd7a4f0125a398807d78e85dfbe4831",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/saudi-egypt-red-sea-oil-route-risk.png"
+      },
+      {
+        "topicId": "bc7c2bd5-0fae-50c4-a2ea-890eb6d3afb0",
+        "locale": "zh",
+        "contentHash": "7c0b465a639dec04e64cf6698c8d7db580f2437722a4f88a3f5df0a08c261ce7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/us-on-orbit-space-control-weapons.png"
+      },
+      {
+        "topicId": "bc7c2bd5-0fae-50c4-a2ea-890eb6d3afb0",
+        "locale": "en",
+        "contentHash": "fa7c7d1eb10672dedb1a8cce12c3032e3c027e60bbe7c87471da6caa710a9541",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/us-on-orbit-space-control-weapons.png"
+      },
+      {
+        "topicId": "cc19587e-3333-52e9-bf6a-d8a6e3370502",
+        "locale": "zh",
+        "contentHash": "9f31ddc15c158f2059427c1d01d8d3fa193c9a12cece47239dc753ee0d9470a8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/fed-first-rate-hike-three-years.png"
+      },
+      {
+        "topicId": "cc19587e-3333-52e9-bf6a-d8a6e3370502",
+        "locale": "en",
+        "contentHash": "9fef195a905fb3fb680f75f4940dcd5efbe52eaf3529a0f480bb34b2f174bacf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/fed-first-rate-hike-three-years.png"
+      },
+      {
+        "topicId": "a18bdc2c-360d-5d08-b31a-e1da3eecbc4d",
+        "locale": "zh",
+        "contentHash": "f1b58e59842a056cfcb2f25992566a057ac8b8f4fc423980194b4a6c7b722156",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/senate-blocks-crypto-regulation-49-50.png"
+      },
+      {
+        "topicId": "a18bdc2c-360d-5d08-b31a-e1da3eecbc4d",
+        "locale": "en",
+        "contentHash": "879a37d3d7db0489c5ae2a121252dfd956532b05a2647a933519382f495e3569",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/senate-blocks-crypto-regulation-49-50.png"
+      },
+      {
+        "topicId": "36167a14-9d96-52fe-8c8f-a80b809db19e",
+        "locale": "zh",
+        "contentHash": "3fc730ae2c5845e5ddf813b27d9b85be30d07e1a85cb319421d111c99f1e9803",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/zh/supreme-court-mail-ballot-status-quo.png"
+      },
+      {
+        "topicId": "36167a14-9d96-52fe-8c8f-a80b809db19e",
+        "locale": "en",
+        "contentHash": "be1c1873174983c3fdc675118260f71d7f2b323ec2c605464b98d9ee2840912a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260916_f65237a1ad0456219ff4f676/en/supreme-court-mail-ballot-status-quo.png"
+      }
+    ]
+  }
+}
