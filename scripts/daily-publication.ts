@@ -1,39 +1,20 @@
 #!/usr/bin/env node
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
-import { readFile, writeFile, open, unlink, stat } from "node:fs/promises";
+import { readFile, writeFile, open, unlink } from "node:fs/promises";
 import path from "node:path";
-import os from "node:os";
 import { parseArgs } from "node:util";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 import { parseIssue } from "@xiazi/contracts";
 import { buildDailyIssue } from "../packages/domain/src/daily-issue";
-import { uploadImmutableReleasePosters } from "../apps/web/src/server/storage/immutable-upload-service";
+import { uploadOssPosters } from "./oss-publisher";
 import { runPreflight } from "./preflight-daily-publication";
-import { assertReleaseBundle, COS_ORIGIN, publishCurrentReleaseBundle, verifyCosPosters } from "./publish-current-release-manifest.mjs";
+import { assertReleaseBundle, ASSET_ORIGIN, publishCurrentReleaseBundle, verifyCosPosters } from "./publish-current-release-manifest.mjs";
 
 const digest = (value: Buffer | string) => createHash("sha256").update(value).digest("hex");
 const save = (name: string, value: unknown) => writeFile(name, `${JSON.stringify(value, null, 2)}\n`);
 const site = "https://xiazishuo.com";
-
-async function credentials() {
-  const filename = process.env.XIAZI_PUBLISHER_CONFIG || path.join(os.homedir(), ".config/xiazi/cos-publisher.json");
-  const info = await stat(filename);
-  if ((info.mode & 0o077) !== 0 || info.uid !== process.getuid?.()) throw new Error("PUBLISHER_CONFIG_MUST_BE_OWNER_ONLY");
-  const config = JSON.parse(await readFile(filename, "utf8"));
-  for (const name of ["COS_SECRET_ID", "COS_SECRET_KEY", "COS_BUCKET", "COS_REGION",
-    "COS_IMMUTABLE_VERSIONING_STATE", "RELEASE_STORAGE_POLICY_VERSION", "RELEASE_STORAGE_POLICY_VERIFIED_AT",
-    "RELEASE_STORAGE_VERIFICATION_TOOL_VERSION", "RELEASE_STORAGE_OVERWRITE_DENIED",
-    "RELEASE_STORAGE_DELETE_DENIED", "RELEASE_STORAGE_POLICY_VERIFIED"]) {
-    if (!config[name]) throw new Error(`PUBLISHER_CONFIG_MISSING:${name}`);
-    process.env[name] = String(config[name]);
-  }
-  if (`https://${config.COS_BUCKET}.cos.${config.COS_REGION}.myqcloud.com` !== COS_ORIGIN) throw new Error("COS_SCOPE_MISMATCH");
-  process.env.NEXT_PUBLIC_COS_BASE_URL = COS_ORIGIN;
-  process.env.RELEASE_ASSET_ORIGINS = COS_ORIGIN;
-  process.env.COS_REQUEST_TIMEOUT_MS = "120000";
-}
 
 async function liveAcceptance(issue: ReturnType<typeof parseIssue>, manifest: any) {
   const response = await fetch(`${site}/api/content/`, { signal: AbortSignal.timeout(30000), cache: "no-store" });
@@ -132,15 +113,12 @@ export async function main() {
       manifest = { schemaVersion: "xiazi-current-release-v1", issueDate: issue.issueDate,
         releaseId: `rel_${issue.issueDate.replaceAll("-", "")}_${contentKey.slice(0, 24)}`, assetBatchId,
         posters: uploads.map((p) => ({ topicId: p.topicId, locale: p.locale, contentHash: digest(p.content),
-          url: `${COS_ORIGIN}/release-assets/${assetBatchId}/${p.locale}/${issue.topics.find((t) => t.id === p.topicId)!.slug}.png` })) };
+          url: `${ASSET_ORIGIN}/release-assets/${assetBatchId}/${p.locale}/${issue.topics.find((t) => t.id === p.topicId)!.slug}.png` })) };
       assertReleaseBundle(issue, manifest);
       await save(path.join(root, "candidate-issue.json"), { ...issue, assetVersion: manifest.releaseId });
       await save(path.join(root, "candidate-release.json"), manifest);
       if (values["dry-run"]) { console.log("DRY_RUN_OK:18 posters; no remote writes"); return; }
-      await credentials();
-      const proof = await uploadImmutableReleasePosters(issue, assetBatchId, uploads, {
-        uploaderVersion: "xiazi-daily-direct-v1", onProgress: (p) => console.log(`COS ${p.completed}/18 ${p.created ? "created" : "reused"}`),
-      });
+      const proof = await uploadOssPosters(issue, assetBatchId, uploads);
       await save(path.join(root, "upload-proof.json"), proof);
     }
     assertReleaseBundle(issue, manifest);

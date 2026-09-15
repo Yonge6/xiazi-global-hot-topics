@@ -4,6 +4,7 @@ import path from "node:path";
 import { createHash } from "node:crypto";
 
 export const COS_ORIGIN = "https://xiazi-release-v2-staging-20260719-1258992379.cos.ap-guangzhou.myqcloud.com";
+export const ASSET_ORIGIN = "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com";
 const json = (value) => `${JSON.stringify(value, null, 2)}\n`;
 const canonical = (value) => Array.isArray(value) ? value.map(canonical)
   : value && typeof value === "object" ? Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonical(value[key])])) : value;
@@ -28,7 +29,7 @@ export function assertReleaseBundle(issue, manifest) {
     if (!topic || !["zh", "en"].includes(poster.locale) || slots.has(slot)
       || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(topic.slug)
       || !/^[0-9a-f]{64}$/.test(poster.contentHash || "")) throw new Error("CURRENT_RELEASE_POSTER_SLOT_INVALID");
-    if (poster.url !== `${COS_ORIGIN}/release-assets/${manifest.assetBatchId}/${poster.locale}/${topic.slug}.png`) {
+    if (![COS_ORIGIN, ASSET_ORIGIN].some((origin) => poster.url === `${origin}/release-assets/${manifest.assetBatchId}/${poster.locale}/${topic.slug}.png`)) {
       throw new Error("CURRENT_RELEASE_POSTER_PATH_INVALID");
     }
     slots.add(slot);

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { createHash } from "node:crypto";
-import { assertReleaseBundle, COS_ORIGIN, publishCurrentReleaseBundle } from "../publish-current-release-manifest.mjs";
+import { assertReleaseBundle, ASSET_ORIGIN, COS_ORIGIN, publishCurrentReleaseBundle } from "../publish-current-release-manifest.mjs";
 
 const image = Buffer.alloc(24);
 Buffer.from("89504e470d0a1a0a", "hex").copy(image);
@@ -111,4 +111,13 @@ test("superseded same-day release is preserved before replacement", async () => 
   const tree = JSON.parse(f.calls.find((c) => c.url.endsWith("/git/trees")).body).tree;
   const saved = tree.find((entry) => entry.path === `data/releases/${previous.releaseId}.json`);
   assert.deepEqual(JSON.parse(saved.content), { issue: oldIssue, manifest: previous });
+});
+
+test("OSS migration preserves exact object paths and legacy rollback", () => {
+  const migrated = structuredClone(manifest);
+  migrated.posters.forEach((p) => p.url = p.url.replace(COS_ORIGIN, ASSET_ORIGIN));
+  assert.doesNotThrow(() => assertReleaseBundle(issue, migrated));
+  assert.doesNotThrow(() => assertReleaseBundle(issue, manifest));
+  migrated.posters[0].url += "?foreign=1";
+  assert.throws(() => assertReleaseBundle(issue, migrated));
 });

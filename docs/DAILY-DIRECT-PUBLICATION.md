@@ -11,7 +11,7 @@ node node_modules/tsx/dist/cli.mjs scripts/daily-publication.ts \
 ```
 
 The command validates all sources and posters, creates a candidate without any
-mirrors, uploads eighteen immutable COS objects, verifies hashes, commits the
+mirrors, uploads eighteen immutable Alibaba OSS objects, verifies hashes, commits the
 current issue and dated archives atomically, and checks the public website.
 Success ends with `ARCHIVE_ACCEPTED current=18/18 archive=18/18`.
 
@@ -38,7 +38,7 @@ node node_modules/tsx/dist/cli.mjs scripts/daily-publication.ts \
   --rollback rel_YYYYMMDD_24hexcharacters --poster-root /absolute/report-directory
 ```
 
-The rollback validates the recorded COS images and atomically restores pointers.
+The rollback validates the recorded images (OSS or legacy COS) and atomically restores pointers.
 Other dates are retained. No force push and no binary history rewrite.
 
 ## Persistence and security
@@ -51,7 +51,7 @@ Other dates are retained. No force push and no binary history rewrite.
   issue's assetVersion to avoid mixed-cache 409 errors.
 - Pre-migration archives continue to use their existing dated manifest or legacy
   poster routes; nothing was deleted from history.
-- COS publisher credentials are outside Git at `~/.config/xiazi/cos-publisher.json`,
+- OSS publisher credentials are outside Git at `~/.config/xiazi/oss-publisher.json`,
   owner-only. GitHub authentication comes from the existing `gh` login. Never put
   credentials in an automation prompt, issue file, report or browser.
 - Keep today and the previous three days of local outputs. Never delete unique
@@ -74,3 +74,12 @@ Treat all deployed versions and their shared dependencies as immutable. Never
 run `npm install`/`npm ci` or patch dependencies in an old deployment. A dependency
 upgrade must use independently installed dependencies in a new candidate. Daily
 content publication does not build or add deployment directories.
+
+## Alibaba OSS asset storage
+
+New daily publications use `xiazi-release-assets-20260824` in `cn-wulanchabu`.
+The publisher checks that bucket versioning has never been enabled, and uses
+conditional creation (`x-oss-forbid-overwrite: true`), AES256 encryption, and
+SHA256 readback. Its RAM policy denies deletion and limits writes to
+`release-assets/`. Only that public poster prefix permits anonymous reads.
+Existing COS manifests remain readable for rollback. Credentials stay outside Git.

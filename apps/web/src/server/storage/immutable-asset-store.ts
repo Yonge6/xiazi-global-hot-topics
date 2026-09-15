@@ -53,7 +53,7 @@ export type ImmutableCreateResult = {
 };
 
 export type ImmutableAssetStore = {
-  readonly provider: "tencent-cos" | "memory";
+  readonly provider: "tencent-cos" | "aliyun-oss" | "memory";
   readonly publicOrigin: string;
   readonly conditionalCreateSupported: boolean;
   createObject(input: ImmutableCreateInput & { sha256: string }): Promise<ImmutableObjectMetadata>;
