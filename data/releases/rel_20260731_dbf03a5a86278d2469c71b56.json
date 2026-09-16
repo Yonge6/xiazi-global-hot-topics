@@ -1,0 +1,630 @@
+{
+  "issue": {
+    "id": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+    "slug": "2026-07-31",
+    "assetVersion": "rel_20260731_dbf03a5a86278d2469c71b56",
+    "style": {
+      "name": "Memphis",
+      "zhName": "孟菲斯风格",
+      "description": "Style Atlas #10: playful geometric forms, dots, zigzags, bold contrasting colors and asymmetric editorial composition."
+    },
+    "issueDate": "2026-07-31",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-31T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-30T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "7ce07c61-f8b8-539b-b91a-87c0e984e2f2",
+    "topics": [
+      {
+        "id": "7ce07c61-f8b8-539b-b91a-87c0e984e2f2",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "today-overview-rules-ai-risk",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-today-overview-rules-ai-risk-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "包裹规则、AI治理与增长风险",
+            "headlineView": "正在同步重写经营边界",
+            "headlineFull": "包裹规则、AI治理与增长风险；正在同步重写经营边界",
+            "intro": "英国低值进口改革把落地成本推到结账台前，联合国把AI治理与人类发展并列讨论。贸易增长、公共健康、跨国犯罪、城市扩张与道路安全共同提醒企业：增长必须与治理能力同步。",
+            "xiaziQuote": "机会在扩张，真正稀缺的是把规则、技术和风险一起管好的能力。",
+            "doudouQuote": "今天不是一个警报，而是一整排仪表盘同时亮灯。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today Overview",
+            "headlineFact": "Parcel rules, AI governance and growth risks",
+            "headlineView": "are rewriting business boundaries together",
+            "headlineFull": "Parcel rules, AI governance and growth risks; are rewriting business boundaries together",
+            "intro": "UK low-value import reform is moving landed cost to checkout, while the UN links AI governance with human development. Trade growth, health, transnational crime, urban expansion and road safety show that growth must scale with governance.",
+            "xiaziQuote": "Opportunity is expanding; the scarce capability is managing rules, technology and risk together.",
+            "doudouQuote": "Today is not one alarm—it is a whole dashboard lighting up.",
+            "footerTakeaway": "Keyword: Today Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "e46136e3-ad56-5304-8806-86b954ce8853",
+            "topicId": "7ce07c61-f8b8-539b-b91a-87c0e984e2f2",
+            "title": "Reforming the customs treatment of low value imports into the United Kingdom",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/consultations/reforming-the-customs-treatment-of-low-value-imports-into-the-united-kingdom/reforming-the-customs-treatment-of-low-value-imports-into-the-united-kingdom",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "d640917c-caaf-5333-9625-e926965cdcb7",
+            "topicId": "7ce07c61-f8b8-539b-b91a-87c0e984e2f2",
+            "title": "México impulsa una IA con enfoque humanista, ético y orientado al desarrollo de los pueblos",
+            "publisher": "SECIHTI Mexico",
+            "url": "https://secihti.mx/sala-de-prensa/mexico-impulsa-una-ia-con-enfoque-humanista-etico-y-orientado-al-desarrollo-de-los-pueblos-rosaura-ruiz/",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "b15af3b6-9948-5f39-a06c-59dd8f5efb89",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "uk-low-value-import-reform",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-uk-low-value-import-reform-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商｜开放热点",
+            "headlineFact": "英国重做£135以下进口规则",
+            "headlineView": "落地成本必须提前算清",
+            "headlineFull": "英国重做£135以下进口规则；落地成本必须提前算清",
+            "intro": "英国拟让£135以下低值进口承担关税并加强数据与边境控制；2021至2024年低值进口量增至三倍。卖家需要重算落地成本、HS编码、DDP与结账税费透明度。",
+            "xiaziQuote": "跨境转化率越来越取决于顾客下单前能否看到真实总价。",
+            "doudouQuote": "便宜包裹不再等于简单包裹。",
+            "footerTakeaway": "今日关键词：跨境电商｜开放热点。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce Open Hotspot",
+            "headlineFact": "UK targets imports under £135",
+            "headlineView": "landed cost must be clear earlier",
+            "headlineFull": "UK targets imports under £135; landed cost must be clear earlier",
+            "intro": "The UK proposes tariffs and stronger data controls for low-value imports under £135; volumes tripled from 2021 to 2024. Sellers should recalculate landed cost, HS codes, DDP and checkout duty transparency.",
+            "xiaziQuote": "Cross-border conversion increasingly depends on showing the true total before checkout.",
+            "doudouQuote": "A cheap parcel is no longer a simple parcel.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce Open Hotspot."
+          }
+        },
+        "sources": [
+          {
+            "id": "f51c700e-b8d9-57c6-8be0-1579a70d3164",
+            "topicId": "b15af3b6-9948-5f39-a06c-59dd8f5efb89",
+            "title": "Reforming the customs treatment of low value imports into the United Kingdom",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/consultations/reforming-the-customs-treatment-of-low-value-imports-into-the-united-kingdom/reforming-the-customs-treatment-of-low-value-imports-into-the-united-kingdom",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "18eb305d-5d7b-5280-a91d-86315f518695",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "un-ai-human-development",
+        "rank": 3,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-un-ai-human-development-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "人工智能 AI",
+            "headlineFact": "联合国重议AI与人类发展",
+            "headlineView": "能力扩张必须匹配治理",
+            "headlineFull": "联合国重议AI与人类发展；能力扩张必须匹配治理",
+            "intro": "联合国国际会议强调，AI发展需要同时交付包容、可解释治理与可衡量的人类发展结果。技术能力的速度不能继续领先于责任和公共价值。",
+            "xiaziQuote": "AI的价值不只看能力曲线，也要看谁受益、谁负责。",
+            "doudouQuote": "跑得快很好，方向盘和刹车也得一起升级。",
+            "footerTakeaway": "今日关键词：人工智能 AI。"
+          },
+          "en-US": {
+            "categoryLabel": "Artificial Intelligence AI",
+            "headlineFact": "UN reframes AI and human development",
+            "headlineView": "capability must scale with governance",
+            "headlineFull": "UN reframes AI and human development; capability must scale with governance",
+            "intro": "A UN international gathering stressed that AI must deliver inclusion, explainable governance and measurable human-development outcomes. Capability cannot keep outrunning responsibility and public value.",
+            "xiaziQuote": "AI value is measured not only by capability, but by who benefits and who is accountable.",
+            "doudouQuote": "Speed is useful, but the steering wheel and brakes need upgrades too.",
+            "footerTakeaway": "Keyword: Artificial Intelligence AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "adb284a2-b4bc-52c7-afb1-342fd6f7794d",
+            "topicId": "18eb305d-5d7b-5280-a91d-86315f518695",
+            "title": "México impulsa una IA con enfoque humanista, ético y orientado al desarrollo de los pueblos",
+            "publisher": "SECIHTI Mexico",
+            "url": "https://secihti.mx/sala-de-prensa/mexico-impulsa-una-ia-con-enfoque-humanista-etico-y-orientado-al-desarrollo-de-los-pueblos-rosaura-ruiz/",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "866c6a6a-b0fc-5ff8-b1d4-886a78d02df0",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "ai-opc-corporate-law",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "CN",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-ai-opc-corporate-law-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "一人公司 OPC",
+            "headlineFact": "中国新增OPC约732万家",
+            "headlineView": "AI把公司法推到新边界",
+            "headlineFull": "中国新增OPC约732万家；AI把公司法推到新边界",
+            "intro": "中国去年新注册一人公司约732万家，同比增长42.3%。自动化代理降低运营门槛，也把责任、公司人格与决策授权变成新的治理问题。",
+            "xiaziQuote": "一人公司可以更轻，但责任链不能因此变模糊。",
+            "doudouQuote": "团队只有一个人，法律问题可不会自动缩小。",
+            "footerTakeaway": "今日关键词：一人公司 OPC。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company OPC",
+            "headlineFact": "China adds about 7.32 million OPCs",
+            "headlineView": "AI pushes corporate law to a new edge",
+            "headlineFull": "China adds about 7.32 million OPCs; AI pushes corporate law to a new edge",
+            "intro": "China registered about 7.32 million new one-person companies last year, up 42.3%. AI agents lower operating barriers while raising new questions about liability, corporate personhood and delegated decisions.",
+            "xiaziQuote": "A one-person company can be lighter, but its chain of responsibility cannot become blurry.",
+            "doudouQuote": "The team may be one person; the legal questions do not shrink.",
+            "footerTakeaway": "Keyword: One-person Company OPC."
+          }
+        },
+        "sources": [
+          {
+            "id": "4f729b69-ca37-5d8a-875e-2e297f1cd58d",
+            "topicId": "866c6a6a-b0fc-5ff8-b1d4-886a78d02df0",
+            "title": "AI-Enabled One-Person Companies Present a Corporate Law Quandary",
+            "publisher": "Bloomberg Tax",
+            "url": "https://news.bloombergtax.com/legal-exchange-insights-and-commentary/ai-enabled-one-person-companies-present-a-corporate-law-quandary",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e3d7c188-7364-5e73-be21-89001d37a948",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "high-tech-global-trade-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-high-tech-global-trade-growth-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球贸易",
+            "headlineFact": "商品贸易增12.5%",
+            "headlineView": "高科技拉动更不均衡增长",
+            "headlineFull": "商品贸易增12.5%；高科技拉动更不均衡增长",
+            "intro": "UNCTAD称2026年一季度全球商品贸易同比增长约12.5%，服务贸易增长10.5%，AI与电动车相关商品尤其强劲。地缘政治与价格压力仍让增长分布不均。",
+            "xiaziQuote": "增长数字很漂亮，但企业仍要看清增长落在哪些产品和航线上。",
+            "doudouQuote": "总盘子变大，不代表每个盘子都装满。",
+            "footerTakeaway": "今日关键词：全球贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Trade",
+            "headlineFact": "Merchandise trade rises 12.5%",
+            "headlineView": "high tech drives uneven growth",
+            "headlineFull": "Merchandise trade rises 12.5%; high tech drives uneven growth",
+            "intro": "UNCTAD says merchandise trade grew about 12.5% year on year in Q1 2026 and services trade rose 10.5%, led by AI- and EV-related goods. Geopolitics and price pressures keep the expansion uneven.",
+            "xiaziQuote": "Strong headline growth still requires knowing which products and routes are actually expanding.",
+            "doudouQuote": "A bigger total pie does not fill every plate.",
+            "footerTakeaway": "Keyword: Global Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "1bad402c-938f-59ff-a7e6-362a68b9449d",
+            "topicId": "e3d7c188-7364-5e73-be21-89001d37a948",
+            "title": "High-tech goods power global trade amid uncertainty",
+            "publisher": "tralac, citing UN Trade and Development",
+            "url": "https://www.tralac.org/news/article/17175-tralac-daily-news-22-july-2026.html",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b87549b4-8e64-57b0-8f6f-5a8dc8b94eec",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "integrated-hiv-hepatitis-sti",
+        "rank": 6,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-integrated-hiv-hepatitis-sti-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "WHO推动三类疾病整合防治",
+            "headlineView": "社区领导决定最后一公里",
+            "headlineFull": "WHO推动三类疾病整合防治；社区领导决定最后一公里",
+            "intro": "WHO指出，终结HIV、肝炎与性传播感染需要整合服务、创新和社区领导。单一疾病、单一机构的孤岛式投入难以补足长期存在的可及性缺口。",
+            "xiaziQuote": "健康系统的效率来自协同，而不是把每种疾病各建一座孤岛。",
+            "doudouQuote": "最后一公里常常不是技术问题，而是谁能真正走到那里。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "WHO calls for integrated disease action",
+            "headlineView": "community leadership closes the last mile",
+            "headlineFull": "WHO calls for integrated disease action; community leadership closes the last mile",
+            "intro": "WHO says ending HIV, hepatitis and sexually transmitted infections requires integrated services, innovation and community leadership. Disease-by-disease silos cannot close persistent access gaps.",
+            "xiaziQuote": "Health-system efficiency comes from coordination, not a separate island for every disease.",
+            "doudouQuote": "The last mile is often about who can actually reach it.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "5f05b9c8-0b90-582c-87b7-3a506c021f2d",
+            "topicId": "b87549b4-8e64-57b0-8f6f-5a8dc8b94eec",
+            "title": "Integration, innovation and community leadership key to ending HIV, hepatitis and STIs",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/headlines",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "35b56a78-2e87-5b8c-8b1c-dd008ffc76e7",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "southeast-asia-crime-ecosystem",
+        "rank": 7,
+        "category": "international",
+        "region": "Southeast Asia",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-southeast-asia-crime-ecosystem-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球公共安全",
+            "headlineFact": "跨国犯罪形成互联生态",
+            "headlineView": "企业风控不能只堵单点",
+            "headlineFull": "跨国犯罪形成互联生态；企业风控不能只堵单点",
+            "intro": "联合国东南亚威胁评估指出，诈骗、地下金融、网络犯罪与人口贩运正在互相支撑。企业若只拦截单一欺诈动作，仍可能漏掉完整的资金与身份链。",
+            "xiaziQuote": "对付犯罪网络，风控也必须从规则清单升级为关系网络。",
+            "doudouQuote": "只堵一个洞，水会从另外三个洞进来。",
+            "footerTakeaway": "今日关键词：全球公共安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Public Safety",
+            "headlineFact": "Transnational crime forms an ecosystem",
+            "headlineView": "business risk controls must connect the dots",
+            "headlineFull": "Transnational crime forms an ecosystem; business risk controls must connect the dots",
+            "intro": "A UN Southeast Asia assessment says scams, underground finance, cybercrime and trafficking increasingly reinforce one another. Blocking one fraud event can still miss the wider money and identity chain.",
+            "xiaziQuote": "Against criminal networks, risk control must evolve from checklists to relationship maps.",
+            "doudouQuote": "Block one hole and the water finds three others.",
+            "footerTakeaway": "Keyword: Global Public Safety."
+          }
+        },
+        "sources": [
+          {
+            "id": "ad0253f9-91b5-5542-afcb-6437ee8e0122",
+            "topicId": "35b56a78-2e87-5b8c-8b1c-dd008ffc76e7",
+            "title": "New UN report reveals scale of Southeast Asia's interconnected criminal economy",
+            "publisher": "Asia News Network",
+            "url": "https://asianews.network/new-un-report-reveals-scale-of-southeast-asias-ever-more-interconnected-criminal-economy/",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f05153bb-5d01-50ff-84da-c94378e76391",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "built-up-areas-outpace-population",
+        "rank": 8,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-built-up-areas-outpace-population-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 89,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "城市发展",
+            "headlineFact": "建成区扩张快于人口",
+            "headlineView": "城市成本被摊得更薄",
+            "headlineFull": "建成区扩张快于人口；城市成本被摊得更薄",
+            "intro": "联合国政策简报指出，全球建成区扩张速度超过人口增长。低密度扩张会抬高基础设施、通勤、能源与公共服务的单位成本。",
+            "xiaziQuote": "城市长得更大不等于更高效，关键是每一公里能服务多少人。",
+            "doudouQuote": "地图摊得越开，水电公交就要跑得越远。",
+            "footerTakeaway": "今日关键词：城市发展。"
+          },
+          "en-US": {
+            "categoryLabel": "Urban Development",
+            "headlineFact": "Built-up areas outpace population",
+            "headlineView": "urban costs spread ever thinner",
+            "headlineFull": "Built-up areas outpace population; urban costs spread ever thinner",
+            "intro": "A UN policy brief says built-up areas are expanding faster than population worldwide. Low-density growth raises per-person costs for infrastructure, commuting, energy and public services.",
+            "xiaziQuote": "A larger city is not automatically efficient; what matters is how many people each kilometre serves.",
+            "doudouQuote": "The wider the map spreads, the farther water, power and buses must travel.",
+            "footerTakeaway": "Keyword: Urban Development."
+          }
+        },
+        "sources": [
+          {
+            "id": "4ba6c438-32c6-51b4-9ada-f288c612b466",
+            "topicId": "f05153bb-5d01-50ff-84da-c94378e76391",
+            "title": "World’s constructed areas expanding twice as fast as the population since 1975",
+            "publisher": "European Commission Joint Research Centre",
+            "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worlds-constructed-areas-expanding-twice-fast-population-1975-2025-11-18_en",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1a3ea174-1808-5683-880d-131c9340cad9",
+        "issueId": "2b75fd6c-8138-5d72-a324-97b77ec59ba2",
+        "slug": "global-road-deaths-fall",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-global-road-deaths-fall-20260731",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 88,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "道路安全",
+            "headlineFact": "全球道路死亡下降21%",
+            "headlineView": "可避免风险仍需继续压降",
+            "headlineFull": "全球道路死亡下降21%；可避免风险仍需继续压降",
+            "intro": "WHO称全球道路死亡下降21%，但仍需更强行动。企业车队管理、城市设计、速度控制与安全道路设施仍是可以立即改善的风险点。",
+            "xiaziQuote": "安全改善证明系统设计有效，也提醒我们不能把剩余伤亡当作常态。",
+            "doudouQuote": "数字下降值得庆祝，但每一次没发生的事故才是真正成果。",
+            "footerTakeaway": "今日关键词：道路安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Road Safety",
+            "headlineFact": "Global road deaths fall 21%",
+            "headlineView": "preventable risk still demands action",
+            "headlineFull": "Global road deaths fall 21%; preventable risk still demands action",
+            "intro": "WHO says road deaths have fallen 21% globally, but stronger action is still needed. Fleet management, urban design, speed control and safer infrastructure remain immediate levers.",
+            "xiaziQuote": "Progress proves system design works—and that remaining deaths should not be normalised.",
+            "doudouQuote": "A lower number matters; every crash that never happens is the real result.",
+            "footerTakeaway": "Keyword: Road Safety."
+          }
+        },
+        "sources": [
+          {
+            "id": "2c7b7add-ecf4-511a-a5c3-ca3d6cccaaed",
+            "topicId": "1a3ea174-1808-5683-880d-131c9340cad9",
+            "title": "Road deaths fall by 21% globally but stronger action is needed to save lives",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/headlines",
+            "publishedAt": "2026-07-31T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-31",
+    "releaseId": "rel_20260731_dbf03a5a86278d2469c71b56",
+    "assetBatchId": "asset_archive_20260731_dbf03a5a86278d2469c71b56",
+    "posters": [
+      {
+        "topicId": "7ce07c61-f8b8-539b-b91a-87c0e984e2f2",
+        "locale": "zh",
+        "contentHash": "20f278a6bc556e80d7be9505c276e03e2553bccc71afd1be4f448b4c80247563",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/today-overview-rules-ai-risk.png"
+      },
+      {
+        "topicId": "7ce07c61-f8b8-539b-b91a-87c0e984e2f2",
+        "locale": "en",
+        "contentHash": "eef5b3742c0aebc208b373b589fe65ca1f55f2a315755b0ab39f69e446f23407",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/today-overview-rules-ai-risk.png"
+      },
+      {
+        "topicId": "b15af3b6-9948-5f39-a06c-59dd8f5efb89",
+        "locale": "zh",
+        "contentHash": "d177cade4f17f4f81abdcb3b57f6c1c327dad0948e318c1f789e399dac2472a4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/uk-low-value-import-reform.png"
+      },
+      {
+        "topicId": "b15af3b6-9948-5f39-a06c-59dd8f5efb89",
+        "locale": "en",
+        "contentHash": "4432d22000456380f4ebf00911f4415624778cfa0d885e64a535688af0142f4e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/uk-low-value-import-reform.png"
+      },
+      {
+        "topicId": "18eb305d-5d7b-5280-a91d-86315f518695",
+        "locale": "zh",
+        "contentHash": "bafada8f26bbc00af117cdec7c8f64ec91e41bf423ae86ec32ae825a5e79a22e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/un-ai-human-development.png"
+      },
+      {
+        "topicId": "18eb305d-5d7b-5280-a91d-86315f518695",
+        "locale": "en",
+        "contentHash": "3b7d965109bef0c5c805a3ef094369d5b1cb5ac60c03f78afed784598bc3b239",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/un-ai-human-development.png"
+      },
+      {
+        "topicId": "866c6a6a-b0fc-5ff8-b1d4-886a78d02df0",
+        "locale": "zh",
+        "contentHash": "29ddc98e0e83d650455a26d85e73e8912112d48e3f8b919efceed73fa24e7052",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/ai-opc-corporate-law.png"
+      },
+      {
+        "topicId": "866c6a6a-b0fc-5ff8-b1d4-886a78d02df0",
+        "locale": "en",
+        "contentHash": "c6c799d6448b9cb0924b4a4562a523b4dc96dcee68a6eee219a4e61bb3068b3b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/ai-opc-corporate-law.png"
+      },
+      {
+        "topicId": "e3d7c188-7364-5e73-be21-89001d37a948",
+        "locale": "zh",
+        "contentHash": "2a362b5dc4dcae954e68cc7f804f35493e5afdb053d2892d2572441d4c42dc42",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/high-tech-global-trade-growth.png"
+      },
+      {
+        "topicId": "e3d7c188-7364-5e73-be21-89001d37a948",
+        "locale": "en",
+        "contentHash": "a37a32d85773b6abb4b234711e68555dacdcbf5d42e3b83af15aba732e90af19",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/high-tech-global-trade-growth.png"
+      },
+      {
+        "topicId": "b87549b4-8e64-57b0-8f6f-5a8dc8b94eec",
+        "locale": "zh",
+        "contentHash": "d7520e0a5d3a8464b530363273d318c3e847c72bafa3adfceff93e5a1f50cda9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/integrated-hiv-hepatitis-sti.png"
+      },
+      {
+        "topicId": "b87549b4-8e64-57b0-8f6f-5a8dc8b94eec",
+        "locale": "en",
+        "contentHash": "89c47cfbf8af9a8a026c1d804af17dfb9f5194eb7bbb69b47d6d2b086733265e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/integrated-hiv-hepatitis-sti.png"
+      },
+      {
+        "topicId": "35b56a78-2e87-5b8c-8b1c-dd008ffc76e7",
+        "locale": "zh",
+        "contentHash": "df7e3f942088a4dbb9854b6beb701a9fdb8be5ba4a0e37cd5365bc3cfc646414",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/southeast-asia-crime-ecosystem.png"
+      },
+      {
+        "topicId": "35b56a78-2e87-5b8c-8b1c-dd008ffc76e7",
+        "locale": "en",
+        "contentHash": "0fccb420d2dd9f410f61d52ececd2e64e110df51575753fe5f8325abf68e3056",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/southeast-asia-crime-ecosystem.png"
+      },
+      {
+        "topicId": "f05153bb-5d01-50ff-84da-c94378e76391",
+        "locale": "zh",
+        "contentHash": "f1d6fd11fbe0590d632ccb1765687be3ca5e2937eca641d4392bacf9ea4e8403",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/built-up-areas-outpace-population.png"
+      },
+      {
+        "topicId": "f05153bb-5d01-50ff-84da-c94378e76391",
+        "locale": "en",
+        "contentHash": "b03ecd03775ba435d250889fc28db702fc31281262a7d928cca3a63a7a0853c4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/built-up-areas-outpace-population.png"
+      },
+      {
+        "topicId": "1a3ea174-1808-5683-880d-131c9340cad9",
+        "locale": "zh",
+        "contentHash": "1e5421db64e11c85f44924fdcf13596905730230ccc123212865a201a71415fc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/zh/global-road-deaths-fall.png"
+      },
+      {
+        "topicId": "1a3ea174-1808-5683-880d-131c9340cad9",
+        "locale": "en",
+        "contentHash": "f856e304731e4ae8b1344e66d8643857e9e7ae385f514afc0157089df371d7c4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260731_dbf03a5a86278d2469c71b56/en/global-road-deaths-fall.png"
+      }
+    ]
+  }
+}

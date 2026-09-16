@@ -159,6 +159,40 @@ describe("release-bound poster delivery", () => {
     );
   });
 
+  it("prefers an OSS manifest for a migrated legacy archive", async () => {
+    vi.stubEnv("XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED", "true");
+    const archiveDate = "2026-07-18";
+    const archiveReleaseId = "rel_20260718_dddddddddddddddddddddddd";
+    const archivedIssue = parseIssue({
+      ...structuredClone(issue),
+      issueDate: archiveDate,
+      slug: archiveDate,
+      assetVersion: archiveReleaseId,
+      beijingTimestamp: `${archiveDate}T05:00:00+08:00`,
+      gmtTimestamp: `${archiveDate}T00:00:00Z`,
+    });
+    const topic = archivedIssue.topics[0];
+    const contentHash = "e".repeat(64);
+    mocks.loadProductionIssueByDate.mockResolvedValue({ issue: archivedIssue, source: "github" });
+    mocks.loadProductionReleaseManifestByDate.mockResolvedValue({
+      releaseId: archiveReleaseId,
+      assetBatchId: "asset_archive_20260718_example123",
+      posters: [{
+        topicId: topic.id,
+        locale: "zh",
+        url: `https://assets.example.com/release-assets/asset_archive_20260718_example123/zh/${posterName}.png`,
+        contentHash,
+      }],
+    });
+
+    const response = await request(`?issueDate=${archiveDate}&v=${archiveReleaseId}`);
+
+    expect(response.status).toBe(307);
+    expect(response.headers.get("x-xiazi-release-id")).toBe(archiveReleaseId);
+    expect(response.headers.get("location")).toContain(`contentHash=${contentHash}`);
+    expect(mocks.loadPublicationByReleaseId).not.toHaveBeenCalled();
+  });
+
   it.each(["2026-07-19", "2026-07-20", "2026-07-23"])(
     "redirects the recovered %s poster archive to the CDN",
     async (date) => {

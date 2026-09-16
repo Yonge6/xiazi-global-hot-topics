@@ -1,0 +1,636 @@
+{
+  "issue": {
+    "id": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+    "slug": "2026-08-02",
+    "assetVersion": "rel_20260802_de6d018f4b5241eb7fefc015",
+    "style": {
+      "name": "Tibetan Thangka",
+      "zhName": "唐卡风格",
+      "description": "Style Atlas #69: sacred mandala geometry, mineral pigments, layered lotus motifs and precise gold-line editorial infographics."
+    },
+    "issueDate": "2026-08-02",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-08-02T05:00:00+08:00",
+    "gmtTimestamp": "2026-08-01T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "62070008-dd84-598c-8588-1e901cfd1db3",
+    "topics": [
+      {
+        "id": "62070008-dd84-598c-8588-1e901cfd1db3",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "today-overview-rules-ai-resilience",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-today-overview-rules-ai-resilience-20260802",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "规则、AI与韧性继续变化",
+            "headlineView": "经营边界同步重写",
+            "headlineFull": "规则、AI与韧性继续变化；经营边界同步重写",
+            "intro": "欧盟小包关税、AI透明度义务、单人创业、航天、气候与健康共同提示：增长必须匹配治理和系统韧性。",
+            "xiaziQuote": "机会仍在扩张，真正稀缺的是把规则、技术与风险一起管好的能力。",
+            "doudouQuote": "今天不是一盏警报灯，而是一整排仪表盘同时亮起。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today Overview",
+            "headlineFact": "Rules, AI and resilience keep shifting",
+            "headlineView": "business boundaries are being rewritten",
+            "headlineFull": "Rules, AI and resilience keep shifting; business boundaries are being rewritten",
+            "intro": "EU parcel duties, AI transparency rules, solo entrepreneurship, spaceflight, climate and health all show that growth must match governance and resilience.",
+            "xiaziQuote": "Opportunity is expanding; the scarce capability is managing rules, technology and risk together.",
+            "doudouQuote": "Today is not one warning light; it is a whole dashboard lighting up.",
+            "footerTakeaway": "Keyword: Today Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "861983f1-9775-5080-9264-738f907a5876",
+            "topicId": "62070008-dd84-598c-8588-1e901cfd1db3",
+            "title": "EU applies €3 customs duty per item on low-value e-commerce consignments",
+            "publisher": "European Commission Access2Markets",
+            "url": "https://webgate.acceptance.ec.europa.eu/portal9/en/news/eu-applies-eu3-customs-duty-item-low-value-e-commerce-consignments",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "0b87c369-36fa-5157-8077-82d7e2d38007",
+            "topicId": "62070008-dd84-598c-8588-1e901cfd1db3",
+            "title": "Preliminary Report",
+            "publisher": "United Nations Independent International Scientific Panel on AI",
+            "url": "https://www.un.org/independent-international-scientific-panel-ai/en/preliminary-report",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "6bb62997-47ec-5b68-bfd0-1ab4f5f098fd",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "eu-low-value-duty-operations",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-low-value-duty-operations-20260802",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟低值包裹每件€3关税进入磨合期",
+            "headlineView": "卖家运营必须重算落地成本",
+            "headlineFull": "欧盟低值包裹每件€3关税进入磨合期；卖家运营必须重算落地成本",
+            "intro": "€150以下免税门槛已取消；IOSS、HS归类、申报担保、商品识别与结账总价透明度成为日常运营核心。",
+            "xiaziQuote": "跨境转化率越来越取决于顾客下单前能否看见真实总价。",
+            "doudouQuote": "便宜包裹不再等于简单包裹。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "EU €3 low-value duty enters operational phase",
+            "headlineView": "sellers must recalculate landed cost",
+            "headlineFull": "EU €3 low-value duty enters operational phase; sellers must recalculate landed cost",
+            "intro": "The exemption under €150 has ended; IOSS, HS classification, declaration guarantees, product identification and checkout transparency are now core operations.",
+            "xiaziQuote": "Cross-border conversion increasingly depends on showing the true total before checkout.",
+            "doudouQuote": "A cheap parcel is no longer a simple parcel.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "1346f8d4-edfb-54a2-b3b6-047ddab912e4",
+            "topicId": "6bb62997-47ec-5b68-bfd0-1ab4f5f098fd",
+            "title": "EUR 3 Customs duty - VAT guidelines",
+            "publisher": "European Commission",
+            "url": "https://vat-one-stop-shop.ec.europa.eu/eur-3-customs-duty-vat-guidelines-2026-06-16_en",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "be54ea24-acf7-5d8f-a7a4-731f32d358bc",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "eu-ai-content-transparency-date",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-eu-ai-content-transparency-date-20260802",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "人工智能 AI",
+            "headlineFact": "欧盟AI内容标识义务来到关键日期",
+            "headlineView": "透明应进入输出链路",
+            "headlineFull": "欧盟AI内容标识义务来到关键日期；透明应进入输出链路",
+            "intro": "面向公众的AI生成或操纵内容需要更清晰披露；产品团队应把可识别标记、来源记录与发布流程前置。",
+            "xiaziQuote": "透明不是发布后的补丁，而应成为模型输出链路的一部分。",
+            "doudouQuote": "先让内容会说明自己从哪里来。",
+            "footerTakeaway": "今日关键词：人工智能 AI。"
+          },
+          "en-US": {
+            "categoryLabel": "Artificial Intelligence AI",
+            "headlineFact": "EU AI content marking reaches a key date",
+            "headlineView": "transparency belongs in the output chain",
+            "headlineFull": "EU AI content marking reaches a key date; transparency belongs in the output chain",
+            "intro": "Public-facing AI-generated or manipulated content needs clearer disclosure, making marking, provenance records and publishing controls product requirements.",
+            "xiaziQuote": "Transparency is not a post-release patch; it belongs in the model output chain.",
+            "doudouQuote": "First teach content to explain where it came from.",
+            "footerTakeaway": "Keyword: Artificial Intelligence AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "8c9dbc40-3a02-5656-a907-bb61f1327821",
+            "topicId": "be54ea24-acf7-5d8f-a7a4-731f32d358bc",
+            "title": "Preliminary Report",
+            "publisher": "United Nations Independent International Scientific Panel on AI",
+            "url": "https://www.un.org/independent-international-scientific-panel-ai/en/preliminary-report",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1ac03e1c-e0fa-5077-8f00-516b17d91a4c",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "ai-expands-solo-product-entry",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-ai-expands-solo-product-entry-20260802",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "一人公司 OPC",
+            "headlineFact": "16万款产品研究显示AI扩大单人创业入口",
+            "headlineView": "头部成果仍更偏向团队",
+            "headlineFull": "16万款产品研究显示AI扩大单人创业入口；头部成果仍更偏向团队",
+            "intro": "Product Hunt大样本研究显示生成式AI提高了单人创作者进入市场的比例，但高排名成果仍更多由团队获得。",
+            "xiaziQuote": "AI降低了做出来的门槛，却没有消除协作、判断、分销与信任的复利。",
+            "doudouQuote": "一个人更容易开场，但冲进决赛圈仍要借力。",
+            "footerTakeaway": "今日关键词：一人公司 OPC。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company OPC",
+            "headlineFact": "Study of 160,000 products finds more solo entry with AI",
+            "headlineView": "top outcomes still favor teams",
+            "headlineFull": "Study of 160,000 products finds more solo entry with AI; top outcomes still favor teams",
+            "intro": "A large Product Hunt study finds generative AI increased solo creator entry, while team projects remained more common among the highest-ranked outcomes.",
+            "xiaziQuote": "AI lowers the barrier to building, but not the compounding value of collaboration, judgment, distribution and trust.",
+            "doudouQuote": "One person can start more easily, but reaching the final still takes leverage.",
+            "footerTakeaway": "Keyword: One-person Company OPC."
+          }
+        },
+        "sources": [
+          {
+            "id": "9458c61d-5684-58b4-8513-8fb36223de91",
+            "topicId": "1ac03e1c-e0fa-5077-8f00-516b17d91a4c",
+            "title": "Generative AI and the Rise of Solo Entrepreneurship",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2605.10291",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "29386bd1-b177-5dbc-bd06-2cc709fe3208",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "nasa-astronaut-241-day-return",
+        "rank": 5,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "RU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-nasa-astronaut-241-day-return-20260802",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "载人航天",
+            "headlineFact": "NASA宇航员结束241天任务安全返航",
+            "headlineView": "长期任务数据回到地面",
+            "headlineFull": "NASA宇航员结束241天任务安全返航；长期任务数据回到地面",
+            "intro": "Chris Williams与两名俄罗斯宇航员乘联盟飞船着陆，长期任务数据将继续支持人类深空飞行研究。",
+            "xiaziQuote": "每次平安返航，都是把太空经验带回下一次更远航程。",
+            "doudouQuote": "在轨241天，最后一段路仍要靠降落伞稳稳收尾。",
+            "footerTakeaway": "今日关键词：载人航天。"
+          },
+          "en-US": {
+            "categoryLabel": "Human Spaceflight",
+            "headlineFact": "NASA astronaut returns safely after 241 days",
+            "headlineView": "long-duration data comes home",
+            "headlineFull": "NASA astronaut returns safely after 241 days; long-duration data comes home",
+            "intro": "Chris Williams and two Roscosmos cosmonauts landed in a Soyuz spacecraft, bringing long-duration mission experience back for future exploration research.",
+            "xiaziQuote": "Every safe return brings spaceflight experience home for the next, farther journey.",
+            "doudouQuote": "After 241 days in orbit, the last mile still depends on a parachute.",
+            "footerTakeaway": "Keyword: Human Spaceflight."
+          }
+        },
+        "sources": [
+          {
+            "id": "809e59e9-68ac-521e-84b2-0279a5540fc9",
+            "topicId": "29386bd1-b177-5dbc-bd06-2cc709fe3208",
+            "title": "NASA-ISRO NISAR Satellite Opens Data Vault, Shows Antarctic Hummingbird",
+            "publisher": "NewsFormal",
+            "url": "https://www.newsformal.com/news/nasa-isro-nisar-satellite-opens-data-vault-shows-antarctic-hummingbird",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f9003445-a940-54b1-9e9a-c674b77e77fd",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "nasa-moon-tech-demo-mission",
+        "rank": 6,
+        "category": "science",
+        "region": "Moon",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-nasa-moon-tech-demo-mission-20260802",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "月球科技",
+            "headlineFact": "NASA公布月球航天器技术演示任务",
+            "headlineView": "实验室能力走向真实飞行",
+            "headlineFull": "NASA公布月球航天器技术演示任务；实验室能力走向真实飞行",
+            "intro": "新任务将验证面向月球轨道与深空探索的关键航天器能力，把实验室技术推向真实飞行环境。",
+            "xiaziQuote": "航天创新的分水岭，是从可行原理跨到可重复飞行。",
+            "doudouQuote": "技术走出实验室，才知道能不能在月球边上干活。",
+            "footerTakeaway": "今日关键词：月球科技。"
+          },
+          "en-US": {
+            "categoryLabel": "Lunar Technology",
+            "headlineFact": "NASA announces a Moon spacecraft demo mission",
+            "headlineView": "lab capability moves into flight",
+            "headlineFull": "NASA announces a Moon spacecraft demo mission; lab capability moves into flight",
+            "intro": "The mission will demonstrate spacecraft technologies for lunar and deep-space exploration in a real flight environment.",
+            "xiaziQuote": "The dividing line in space innovation is moving from a feasible principle to repeatable flight.",
+            "doudouQuote": "A technology must leave the lab to prove it can work near the Moon.",
+            "footerTakeaway": "Keyword: Lunar Technology."
+          }
+        },
+        "sources": [
+          {
+            "id": "4e06fa02-0ee1-5f73-839b-7144f5d73657",
+            "topicId": "f9003445-a940-54b1-9e9a-c674b77e77fd",
+            "title": "NASA-ISRO NISAR Satellite Opens Data Vault, Shows Antarctic Hummingbird",
+            "publisher": "NewsFormal",
+            "url": "https://www.newsformal.com/news/nasa-isro-nisar-satellite-opens-data-vault-shows-antarctic-hummingbird",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "14311b3f-094c-5ad9-b468-e26336a4b8f0",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "oregon-lightning-wildfire-smoke",
+        "rank": 7,
+        "category": "climate",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-oregon-lightning-wildfire-smoke-20260802",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与森林",
+            "headlineFact": "雷暴引发俄勒冈多处山火",
+            "headlineView": "烟雾与空气风险叠加",
+            "headlineFull": "雷暴引发俄勒冈多处山火；烟雾与空气风险叠加",
+            "intro": "中央与东部俄勒冈数十起火点再次提醒：极端天气、干燥燃料与空气质量风险会快速叠加。",
+            "xiaziQuote": "韧性不是灾后恢复，而是灾前主动减少系统脆弱点。",
+            "doudouQuote": "闪电点火很快，预警和燃料管理要更早。",
+            "footerTakeaway": "今日关键词：气候与森林。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Forests",
+            "headlineFact": "Lightning ignites multiple Oregon wildfires",
+            "headlineView": "smoke and air risks compound",
+            "headlineFull": "Lightning ignites multiple Oregon wildfires; smoke and air risks compound",
+            "intro": "Dozens of fires in central and eastern Oregon show how extreme weather, dry fuels and air-quality risks can compound quickly.",
+            "xiaziQuote": "Resilience is not only recovery; it is reducing weak points before disaster.",
+            "doudouQuote": "Lightning starts fires quickly, so warnings and fuel management must start earlier.",
+            "footerTakeaway": "Keyword: Climate and Forests."
+          }
+        },
+        "sources": [
+          {
+            "id": "e038b865-052c-5b15-9a3c-519b694727d6",
+            "topicId": "14311b3f-094c-5ad9-b468-e26336a4b8f0",
+            "title": "Previous prescribed burns saved thousands of ancient sequoias during historically unprecedented wildfires",
+            "publisher": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42436158/",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7db5776e-66d2-57af-8752-4bf579b0a12e",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "who-dementia-prevention-45-percent",
+        "rank": 8,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-who-dementia-prevention-45-percent-20260802",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "最多45%失智风险可预防或延缓",
+            "headlineView": "干预必须更早发生",
+            "headlineFull": "最多45%失智风险可预防或延缓；干预必须更早发生",
+            "intro": "WHO指南把运动、教育、心血管健康与社会连接等可干预因素纳入更早、更持续的公共健康行动。",
+            "xiaziQuote": "公共健康最有价值的投资，往往发生在疾病确诊之前。",
+            "doudouQuote": "大脑也需要长期保养，不是坏了才修。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "Up to 45% of dementia risk is preventable",
+            "headlineView": "intervention must start earlier",
+            "headlineFull": "Up to 45% of dementia risk is preventable; intervention must start earlier",
+            "intro": "WHO guidance brings modifiable factors such as exercise, education, cardiovascular health and social connection into earlier, sustained action.",
+            "xiaziQuote": "The most valuable public-health investment often happens before diagnosis.",
+            "doudouQuote": "The brain needs maintenance too, not repairs only after failure.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "e3f26997-d0b0-5a63-aa39-dd11dd8c0d40",
+            "topicId": "7db5776e-66d2-57af-8752-4bf579b0a12e",
+            "title": "New WHO guidelines: up to 45% of dementia risk could be prevented or delayed",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/headlines",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7376efeb-f7c1-5b5a-aa43-cb907f300e85",
+        "issueId": "394ccfcb-d168-5b7b-96d0-f16f40fed1cf",
+        "slug": "sdg-report-electricity-internet-progress",
+        "rank": 9,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-sdg-report-electricity-internet-progress-20260802",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 89,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "可持续发展",
+            "headlineFact": "全球电力覆盖率升至92%",
+            "headlineView": "互联网接入接近74%",
+            "headlineFull": "全球电力覆盖率升至92%；互联网接入接近74%",
+            "intro": "联合国2026可持续发展报告显示长期投入带来进展，但债务、冲突、气候与援助收缩仍在拖慢脆弱国家。",
+            "xiaziQuote": "真正的进步要同时看平均线向上，以及谁仍被留在系统之外。",
+            "doudouQuote": "世界连上电和网了，下一步是别让最后一公里掉线。",
+            "footerTakeaway": "今日关键词：可持续发展。"
+          },
+          "en-US": {
+            "categoryLabel": "Sustainable Development",
+            "headlineFact": "Global electricity access reaches 92%",
+            "headlineView": "internet access approaches 74%",
+            "headlineFull": "Global electricity access reaches 92%; internet access approaches 74%",
+            "intro": "The UN 2026 SDG report shows long-term gains, while debt, conflict, climate stress and aid cuts still slow vulnerable countries.",
+            "xiaziQuote": "Real progress means tracking both the rising average and who remains outside the system.",
+            "doudouQuote": "The world is connecting to power and the internet; now keep the last mile online.",
+            "footerTakeaway": "Keyword: Sustainable Development."
+          }
+        },
+        "sources": [
+          {
+            "id": "389f6f82-581c-5545-8c5f-df632c2da15b",
+            "topicId": "7376efeb-f7c1-5b5a-aa43-cb907f300e85",
+            "title": "WTO issues new edition of World Tariff Profiles",
+            "publisher": "World Trade Organization",
+            "url": "https://www.wto.org/english/news_e/news26_e/tar_29jun26_431_e.htm",
+            "publishedAt": "2026-08-02T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-08-02",
+    "releaseId": "rel_20260802_de6d018f4b5241eb7fefc015",
+    "assetBatchId": "asset_archive_20260802_de6d018f4b5241eb7fefc015",
+    "posters": [
+      {
+        "topicId": "62070008-dd84-598c-8588-1e901cfd1db3",
+        "locale": "zh",
+        "contentHash": "7d9d7650126780ccf1121c5a95a09727c0385a34754c705101b8b19694395620",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/today-overview-rules-ai-resilience.png"
+      },
+      {
+        "topicId": "62070008-dd84-598c-8588-1e901cfd1db3",
+        "locale": "en",
+        "contentHash": "458d6ab1e845beddcca57117dfda82bf932680e593a86a1347edd3e188052586",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/today-overview-rules-ai-resilience.png"
+      },
+      {
+        "topicId": "6bb62997-47ec-5b68-bfd0-1ab4f5f098fd",
+        "locale": "zh",
+        "contentHash": "8eb7e302a407677fee2fd04312d3bd5c95944742e19de66dd40b037b6e46cf44",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/eu-low-value-duty-operations.png"
+      },
+      {
+        "topicId": "6bb62997-47ec-5b68-bfd0-1ab4f5f098fd",
+        "locale": "en",
+        "contentHash": "c8ebddb816f6c2a3c0bc282afdb94e08e4f444fb197b09a7cf3836a1eebaa1cb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/eu-low-value-duty-operations.png"
+      },
+      {
+        "topicId": "be54ea24-acf7-5d8f-a7a4-731f32d358bc",
+        "locale": "zh",
+        "contentHash": "5d7477b720c27cac96ca4ce7b33bc055bae435c6e5861542b0e95b696b9d9c9c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/eu-ai-content-transparency-date.png"
+      },
+      {
+        "topicId": "be54ea24-acf7-5d8f-a7a4-731f32d358bc",
+        "locale": "en",
+        "contentHash": "3ca378f9b920abbf02520498b9d631fa070927e2c4531d378d7797f4ea05324a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/eu-ai-content-transparency-date.png"
+      },
+      {
+        "topicId": "1ac03e1c-e0fa-5077-8f00-516b17d91a4c",
+        "locale": "zh",
+        "contentHash": "aef91d7778567d223bcb4f03ffe6d244d26f0351c355c022079e33202f0eed7e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/ai-expands-solo-product-entry.png"
+      },
+      {
+        "topicId": "1ac03e1c-e0fa-5077-8f00-516b17d91a4c",
+        "locale": "en",
+        "contentHash": "fc0d15457813cc66dfb9d10591b6b2ee2b5a6c8cd4c2cb7cac6c0954587f5d53",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/ai-expands-solo-product-entry.png"
+      },
+      {
+        "topicId": "29386bd1-b177-5dbc-bd06-2cc709fe3208",
+        "locale": "zh",
+        "contentHash": "dbe02a8ae84915dbadc2c4ee8f6a7593091cbb98a314b06b0b467b5ab043e4b4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/nasa-astronaut-241-day-return.png"
+      },
+      {
+        "topicId": "29386bd1-b177-5dbc-bd06-2cc709fe3208",
+        "locale": "en",
+        "contentHash": "8aaf8baced26de0d66be15711e5c08f1af818206c2937b1ace536ac066ac42ac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/nasa-astronaut-241-day-return.png"
+      },
+      {
+        "topicId": "f9003445-a940-54b1-9e9a-c674b77e77fd",
+        "locale": "zh",
+        "contentHash": "d323cc671aaa0ad4cb39a8c4126432105bdfc750a8f49813200bd68ea5e4ce5a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/nasa-moon-tech-demo-mission.png"
+      },
+      {
+        "topicId": "f9003445-a940-54b1-9e9a-c674b77e77fd",
+        "locale": "en",
+        "contentHash": "070482b5fec4aa77f227dcb62669cf3b064ac5182f69ee74daef4952bb7d681b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/nasa-moon-tech-demo-mission.png"
+      },
+      {
+        "topicId": "14311b3f-094c-5ad9-b468-e26336a4b8f0",
+        "locale": "zh",
+        "contentHash": "3ab1d30f3f988634ac51f63503bba5434aa6cbdcf9d82ae62dd0250bc7a64bb3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/oregon-lightning-wildfire-smoke.png"
+      },
+      {
+        "topicId": "14311b3f-094c-5ad9-b468-e26336a4b8f0",
+        "locale": "en",
+        "contentHash": "980fb1901a911eccbcf4b6142404e589b968f0f58a2bf60f330c73af9ab7da9c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/oregon-lightning-wildfire-smoke.png"
+      },
+      {
+        "topicId": "7db5776e-66d2-57af-8752-4bf579b0a12e",
+        "locale": "zh",
+        "contentHash": "532915446538d87fb3741b2bc83efe7b83b8e45f2bde49176a1df0992027f093",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/who-dementia-prevention-45-percent.png"
+      },
+      {
+        "topicId": "7db5776e-66d2-57af-8752-4bf579b0a12e",
+        "locale": "en",
+        "contentHash": "477efa13aaa0f53148f3dd58b6d68f6fabae203782e60d5d7ac46c8178177fc7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/who-dementia-prevention-45-percent.png"
+      },
+      {
+        "topicId": "7376efeb-f7c1-5b5a-aa43-cb907f300e85",
+        "locale": "zh",
+        "contentHash": "daa6325413d06a137744aeceb69b07778809fdf4fe82408032f49c8274954dfd",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/zh/sdg-report-electricity-internet-progress.png"
+      },
+      {
+        "topicId": "7376efeb-f7c1-5b5a-aa43-cb907f300e85",
+        "locale": "en",
+        "contentHash": "e38728685c731b5c68b375ad965396368fbc6ce5cd4db18ab7786538fc070cb0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260802_de6d018f4b5241eb7fefc015/en/sdg-report-electricity-internet-progress.png"
+      }
+    ]
+  }
+}

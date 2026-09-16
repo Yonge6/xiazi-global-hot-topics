@@ -1,0 +1,608 @@
+{
+  "issue": {
+    "id": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+    "slug": "2026-07-01",
+    "assetVersion": "rel_20260701_75d79f965e0b605240f683b9",
+    "issueDate": "2026-07-01",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-01T05:00:00+08:00",
+    "gmtTimestamp": "2026-06-30T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
+    "topics": [
+      {
+        "id": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "daily_global_overview_july1_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "摩洛哥点球淘汰荷兰，挪威绝杀晋级，美国最高法院挡下出生公民权限制",
+            "headlineView": "世界一边在球场爆冷，一边在政治、灾难与科技里重新划线",
+            "headlineFull": "摩洛哥点球淘汰荷兰，挪威绝杀晋级，美国最高法院挡下出生公民权限制; 世界一边在球场爆冷，一边在政治、灾难与科技里重新划线.",
+            "intro": "过去24小时，世界杯32强淘汰赛继续爆冷：摩洛哥点球淘汰荷兰，挪威凭哈兰德绝杀击败科特迪瓦。场外，美国最高法院驳回特朗普限制出生公民权的尝试；委内瑞拉地震救援进入第六天，一名幼童获救；以色列总理访问黎巴嫩南部并称暂不撤军；俄乌战事外溢到俄罗斯燃油供应；欧洲热浪继续压迫城市运行；Google环境报告显示AI扩张推高能源与排放压力；中国把20家日本实体列入出口管制清单。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Overview",
+            "headlineFact": "Morocco knock out the Netherlands on penalties, Norway advance late, and the U.S. Supreme Court blocks birthright-citizenship limits",
+            "headlineView": "the world is redrawing lines across sport, politics, disaster and technology",
+            "headlineFull": "Morocco knock out the Netherlands on penalties, Norway advance late, and the U.S. Supreme Court blocks birthright-citizenship limits; the world is redrawing lines across sport, politics, disaster and technology.",
+            "intro": "Over the past 24 hours, World Cup knockouts brought more shocks as Morocco eliminated the Netherlands on penalties and Norway advanced through a late Haaland winner. Off the pitch, the U.S. Supreme Court rejected an effort to limit birthright citizenship, rescuers in Venezuela pulled a child from earthquake rubble, Israel's prime minister visited southern Lebanon and said forces would not leave yet, Ukrainian strikes strained Russian fuel supply, heatwaves kept disrupting European work, Google's environmental reporting showed AI's energy burden, and China added 20 Japanese entities to an export-control list.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "01440ea8-2d21-4d0c-96e7-8c10e340b53e",
+            "topicId": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
+            "title": "Daily ChatGPT hotspot source",
+            "publisher": "ChatGPT",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "204498bd-9ea9-407b-bf78-00652025822e",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "world-cup-morocco-norway",
+        "rank": 2,
+        "category": "sports",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "world_cup_morocco_norway_july1_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯",
+            "headlineFact": "摩洛哥点球淘汰荷兰，挪威靠哈兰德绝杀晋级",
+            "headlineView": "淘汰赛真正残酷的地方，是强队也只有一次犯错机会",
+            "headlineFull": "摩洛哥点球淘汰荷兰，挪威靠哈兰德绝杀晋级; 淘汰赛真正残酷的地方，是强队也只有一次犯错机会.",
+            "intro": "北京时间6月30日05:00至7月1日05:00，世界杯结束两场32强淘汰赛：荷兰1:1摩洛哥，点球2:3，摩洛哥晋级；科特迪瓦1:2挪威，挪威晋级。摩洛哥补时扳平后赢下点球大战，挪威则靠哈兰德第86分钟制胜，下一轮将面对巴西。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：世界杯。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup",
+            "headlineFact": "Morocco eliminate the Netherlands on penalties, while Norway advance through Haaland's late winner",
+            "headlineView": "in knockouts, even giants only get one mistake",
+            "headlineFull": "Morocco eliminate the Netherlands on penalties, while Norway advance through Haaland's late winner; in knockouts, even giants only get one mistake.",
+            "intro": "Between 05:00 June 30 and 05:00 July 1 Beijing time, two World Cup round-of-32 matches finished: Netherlands 1-1 Morocco, with Morocco winning 3-2 on penalties, and Ivory Coast 1-2 Norway. Morocco equalized late before winning the shootout, while Erling Haaland scored in the 86th minute to send Norway into the last 16 against Brazil.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: World Cup."
+          }
+        },
+        "sources": [
+          {
+            "id": "0e83c9ad-da7b-4efc-bac2-7e7aec211f9f",
+            "topicId": "204498bd-9ea9-407b-bf78-00652025822e",
+            "title": "Morocco advance after penalty shootout win over Netherlands in Monterrey thriller",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0bffac59-37e8-4c2b-9319-3de9e34b145b",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "us-birthright-citizenship",
+        "rank": 3,
+        "category": "international",
+        "region": "United States",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "us_birthright_citizenship_supreme_court_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "美国宪法",
+            "headlineFact": "美国最高法院驳回限制出生公民权的行政令",
+            "headlineView": "真正稳定一个国家的，不是总统说了什么，而是制度还能不能说“不”",
+            "headlineFull": "美国最高法院驳回限制出生公民权的行政令; 真正稳定一个国家的，不是总统说了什么，而是制度还能不能说“不”.",
+            "intro": "美国最高法院以6比3裁定，特朗普政府试图限制“出生公民权”的行政令违宪。多数意见认为，美国宪法第十四修正案长期确立了在美国出生者享有公民身份的原则，行政权不能单方面改写这一保护。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：美国宪法。"
+          },
+          "en-US": {
+            "categoryLabel": "U.S. Constitution",
+            "headlineFact": "The U.S. Supreme Court rejects an order limiting birthright citizenship",
+            "headlineView": "a stable country is measured by whether its institutions can still say no",
+            "headlineFull": "The U.S. Supreme Court rejects an order limiting birthright citizenship; a stable country is measured by whether its institutions can still say no.",
+            "intro": "The U.S. Supreme Court ruled 6-3 against an executive order seeking to limit birthright citizenship. The majority view reaffirmed that the Fourteenth Amendment's citizenship protection cannot be rewritten unilaterally by the executive branch.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: U.S. Constitution."
+          }
+        },
+        "sources": [
+          {
+            "id": "859c534c-f887-4364-8dd8-8d21502da7ce",
+            "topicId": "0bffac59-37e8-4c2b-9319-3de9e34b145b",
+            "title": "Supreme Court birthright citizenship ruling",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "57b933f1-9077-4173-a083-575ee5e002f7",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "venezuela-quake-child-rescue",
+        "rank": 4,
+        "category": "culture",
+        "region": "Venezuela",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 89,
+        "storyId": "venezuela_quake_child_rescue_2026",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 80,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "委内瑞拉地震",
+            "headlineFact": "委内瑞拉地震第六天救出一名幼童",
+            "headlineView": "灾难里最珍贵的新闻，往往不是数字，而是废墟中还传来一声回应",
+            "headlineFull": "委内瑞拉地震第六天救出一名幼童; 灾难里最珍贵的新闻，往往不是数字，而是废墟中还传来一声回应.",
+            "intro": "委内瑞拉连续强震后，救援进入第六天。当地官员称，一名约2至3岁的男孩在拉瓜伊拉州倒塌建筑中被救出，并被送往加拉加斯治疗。世界卫生组织同时警告，医疗系统正承受手术积压、设施受损和灾后疾病风险。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：委内瑞拉地震。"
+          },
+          "en-US": {
+            "categoryLabel": "Venezuela Quake",
+            "headlineFact": "A young child is rescued on day six after Venezuela's earthquakes",
+            "headlineView": "the most precious disaster news is not a number, but a voice still answering from the rubble",
+            "headlineFull": "A young child is rescued on day six after Venezuela's earthquakes; the most precious disaster news is not a number, but a voice still answering from the rubble.",
+            "intro": "Six days after major earthquakes hit Venezuela, officials said a young boy was rescued from a collapsed building in La Guaira state and sent to Caracas for treatment. The WHO also warned that damaged facilities, delayed surgery and disease risks were straining the health system.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Venezuela Quake."
+          }
+        },
+        "sources": [
+          {
+            "id": "46d17436-7b75-42c2-b2ff-812cb817b46c",
+            "topicId": "57b933f1-9077-4173-a083-575ee5e002f7",
+            "title": "Rescuers in Venezuela pluck child alive from collapsed building",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f24346b4-d8e9-45d9-9320-35967cb850c7",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "israel-lebanon-south",
+        "rank": 5,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 88,
+        "storyId": "israel_lebanon_south_visit_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "中东局势",
+            "headlineFact": "内塔尼亚胡访问黎巴嫩南部并称以军暂不撤离",
+            "headlineView": "停火最难的部分，不是停止开火，而是谁先相信对方真的会收手",
+            "headlineFull": "内塔尼亚胡访问黎巴嫩南部并称以军暂不撤离; 停火最难的部分，不是停止开火，而是谁先相信对方真的会收手.",
+            "intro": "以色列总理内塔尼亚胡访问以军占领的黎巴嫩南部地区，并表示只要真主党仍构成威胁，以色列就不会撤离。原本安全安排计划由以色列向黎巴嫩军方移交部分区域，但执行仍充满不确定性。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：中东局势。"
+          },
+          "en-US": {
+            "categoryLabel": "Middle East",
+            "headlineFact": "Netanyahu visits southern Lebanon and says Israeli forces will not leave yet",
+            "headlineView": "the hardest part of a ceasefire is believing the other side will step back first",
+            "headlineFull": "Netanyahu visits southern Lebanon and says Israeli forces will not leave yet; the hardest part of a ceasefire is believing the other side will step back first.",
+            "intro": "Israeli Prime Minister Benjamin Netanyahu visited occupied southern Lebanon and said Israeli forces would not withdraw while Hezbollah remained a threat. A planned handover of pilot areas to Lebanon's army remains uncertain.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Middle East."
+          }
+        },
+        "sources": [
+          {
+            "id": "e0fe7af6-173a-4ff3-9d01-b1d99af8f823",
+            "topicId": "f24346b4-d8e9-45d9-9320-35967cb850c7",
+            "title": "Netanyahu visits occupied southern Lebanon, says Israel won't leave yet",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "80406bf8-df6f-4878-9036-d5b6c26ae944",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "russia-fuel-shortage-ukraine-strikes",
+        "rank": 6,
+        "category": "international",
+        "region": "Russia / Ukraine",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 87,
+        "storyId": "russia_fuel_shortage_ukraine_strikes_2026",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 80,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "俄乌战争",
+            "headlineFact": "乌克兰远程打击让俄罗斯多地出现燃油短缺",
+            "headlineView": "现代战争不只打前线，也打加油站、炼油厂和普通人的日常生活",
+            "headlineFull": "乌克兰远程打击让俄罗斯多地出现燃油短缺; 现代战争不只打前线，也打加油站、炼油厂和普通人的日常生活.",
+            "intro": "乌克兰对俄罗斯炼油和能源设施的远程打击，正在加大俄国内燃油供应压力。加油站排队、限购和部分地区供应紧张，让战争成本更直接进入普通人的日常。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：俄乌战争。"
+          },
+          "en-US": {
+            "categoryLabel": "Russia-Ukraine",
+            "headlineFact": "Ukrainian long-range strikes leave parts of Russia short of fuel",
+            "headlineView": "modern war hits not only front lines, but gas stations, refineries and daily life",
+            "headlineFull": "Ukrainian long-range strikes leave parts of Russia short of fuel; modern war hits not only front lines, but gas stations, refineries and daily life.",
+            "intro": "Ukraine's long-range strikes on Russian refining and energy infrastructure are adding pressure to domestic fuel supplies. Queues, limits and localized shortages are moving the cost of war deeper into everyday life.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Russia-Ukraine."
+          }
+        },
+        "sources": [
+          {
+            "id": "dfd22e90-31ac-4002-92fb-ccaaddf617ee",
+            "topicId": "80406bf8-df6f-4878-9036-d5b6c26ae944",
+            "title": "Russian fuel shortages linked to Ukrainian strikes",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3355255f-f4e7-4c32-a6c5-f7e101c22c82",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "europe-heatwave-work",
+        "rank": 7,
+        "category": "climate",
+        "region": "Europe",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 86,
+        "storyId": "europe_heatwave_work_rhythm_2026",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 80,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲热浪",
+            "headlineFact": "欧洲热浪继续蔓延，企业和城市被迫调整工作节奏",
+            "headlineView": "极端天气不再只是气温升高，而是整个社会运行方式被迫改写",
+            "headlineFull": "欧洲热浪继续蔓延，企业和城市被迫调整工作节奏; 极端天气不再只是气温升高，而是整个社会运行方式被迫改写.",
+            "intro": "意大利、巴尔干地区以及美国部分地区继续遭遇高温天气，学校、交通、旅游景点和户外作业受到影响。企业开始通过提前开工、发放降温装备和调整配送节奏来维持运转。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：欧洲热浪。"
+          },
+          "en-US": {
+            "categoryLabel": "Europe Heatwave",
+            "headlineFact": "Europe's heatwave keeps spreading as companies and cities change work rhythms",
+            "headlineView": "extreme weather is rewriting how society operates",
+            "headlineFull": "Europe's heatwave keeps spreading as companies and cities change work rhythms; extreme weather is rewriting how society operates.",
+            "intro": "Italy, the Balkans and parts of the United States continued to face severe heat. Schools, transport, tourism and outdoor work were disrupted as companies adjusted shifts, cooling equipment and delivery schedules to keep operating.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Europe Heatwave."
+          }
+        },
+        "sources": [
+          {
+            "id": "7b5074ad-c273-4f1e-88f8-a46d1134231c",
+            "topicId": "3355255f-f4e7-4c32-a6c5-f7e101c22c82",
+            "title": "Europe heatwave disrupts work and public services",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f85b1ae0-6c5b-46de-8ccb-bd9998856c39",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "google-ai-energy",
+        "rank": 8,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 85,
+        "storyId": "google_ai_energy_environment_report_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI能源",
+            "headlineFact": "Google最新环境报告显示AI扩张推高能源与排放压力",
+            "headlineView": "AI越聪明，世界越需要问清楚它到底消耗了多少电和水",
+            "headlineFull": "Google最新环境报告显示AI扩张推高能源与排放压力; AI越聪明，世界越需要问清楚它到底消耗了多少电和水.",
+            "intro": "Google最新环境报告显示，AI基础设施扩张正在推高公司的电力使用、水资源消耗和温室气体排放压力。即便继续投资清洁能源，数据中心扩张速度仍可能超过效率提升所能抵消的幅度。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：AI能源。"
+          },
+          "en-US": {
+            "categoryLabel": "AI Energy",
+            "headlineFact": "Google's latest environmental report shows AI expansion raising energy and emissions pressure",
+            "headlineView": "the smarter AI gets, the more the world must ask how much power and water it burns",
+            "headlineFull": "Google's latest environmental report shows AI expansion raising energy and emissions pressure; the smarter AI gets, the more the world must ask how much power and water it burns.",
+            "intro": "Google's latest environmental reporting shows AI infrastructure expansion increasing pressure on electricity use, water consumption and greenhouse-gas emissions. Clean-energy investment is continuing, but data-center growth is testing whether efficiency gains can keep up.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: AI Energy."
+          }
+        },
+        "sources": [
+          {
+            "id": "385155e3-0312-45d2-95b0-c079ab704d72",
+            "topicId": "f85b1ae0-6c5b-46de-8ccb-bd9998856c39",
+            "title": "Google's AI boom sends emissions, power use soaring",
+            "publisher": "Axios",
+            "url": "https://www.axios.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "88f69f90-e3ad-4a4b-a5a6-e8608c55f4bf",
+        "issueId": "942fcf2d-5fc0-4dac-bae6-d6142ffbe3cd",
+        "slug": "china-japan-export-controls",
+        "rank": 9,
+        "category": "business",
+        "region": "East Asia",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 84,
+        "storyId": "china_japan_dual_use_export_controls_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "中日出口管制",
+            "headlineFact": "中国将20家日本实体列入两用物项出口管制清单",
+            "headlineView": "新一轮产业竞争，正在从卖不卖产品，升级为给不给关键材料和技术",
+            "headlineFull": "中国将20家日本实体列入两用物项出口管制清单; 新一轮产业竞争，正在从卖不卖产品，升级为给不给关键材料和技术.",
+            "intro": "中国商务部将20家日本实体加入两用物项出口管制清单，理由是涉及日本“再军事化”相关风险。中国企业向这些实体出口相关受管制产品时，需要获得事先许可。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：中日出口管制。"
+          },
+          "en-US": {
+            "categoryLabel": "China-Japan Controls",
+            "headlineFact": "China adds 20 Japanese entities to its dual-use export-control list",
+            "headlineView": "industrial competition is shifting from selling products to granting access to critical materials and technology",
+            "headlineFull": "China adds 20 Japanese entities to its dual-use export-control list; industrial competition is shifting from selling products to granting access to critical materials and technology.",
+            "intro": "China's commerce ministry added 20 Japanese entities to a dual-use export-control list, citing risks tied to Japanese remilitarization. Chinese exporters will need prior approval before supplying controlled items to those entities.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: China-Japan Controls."
+          }
+        },
+        "sources": [
+          {
+            "id": "729dfa9a-34bd-43cf-ba07-0652729522c0",
+            "topicId": "88f69f90-e3ad-4a4b-a5a6-e8608c55f4bf",
+            "title": "China adds Japanese entities to export-control list",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-01",
+    "releaseId": "rel_20260701_75d79f965e0b605240f683b9",
+    "assetBatchId": "asset_archive_20260701_75d79f965e0b605240f683b9",
+    "posters": [
+      {
+        "topicId": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
+        "locale": "zh",
+        "contentHash": "6d66f41db4cb160f34b73dfaa52d1145abb3b05d7df81b83445cb49a45bca359",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/overview.png"
+      },
+      {
+        "topicId": "2971acc0-47a7-4d84-a64b-e7181b552e2e",
+        "locale": "en",
+        "contentHash": "5a4c2cc6a1c7984f8054b9ca4504d0f8813cf275bf4055433fdc73acea58afdc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/overview.png"
+      },
+      {
+        "topicId": "204498bd-9ea9-407b-bf78-00652025822e",
+        "locale": "zh",
+        "contentHash": "ff33fd383e9d05fc54ef00bfe2e6ebbdf9e4f84a2483f553e845fe0d8c078d66",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/world-cup-morocco-norway.png"
+      },
+      {
+        "topicId": "204498bd-9ea9-407b-bf78-00652025822e",
+        "locale": "en",
+        "contentHash": "342af0eca7c59dd6e2925e3d70456ef66cd3e5982968012a8a41d284c151889b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/world-cup-morocco-norway.png"
+      },
+      {
+        "topicId": "0bffac59-37e8-4c2b-9319-3de9e34b145b",
+        "locale": "zh",
+        "contentHash": "2a8b53104de2fd1824b2b8a827fe71a2453e8c98b0846d2304744cc4fd43c05f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/us-birthright-citizenship.png"
+      },
+      {
+        "topicId": "0bffac59-37e8-4c2b-9319-3de9e34b145b",
+        "locale": "en",
+        "contentHash": "ae64ca2d82c6ab20e76f72ce85b8491cd81adc3b1907132278ac0fc710c99766",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/us-birthright-citizenship.png"
+      },
+      {
+        "topicId": "57b933f1-9077-4173-a083-575ee5e002f7",
+        "locale": "zh",
+        "contentHash": "ab0794fd6d7787f2e89883f5ffaf8d50fe0247172e2cff4c779a3aa5aa98d387",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/venezuela-quake-child-rescue.png"
+      },
+      {
+        "topicId": "57b933f1-9077-4173-a083-575ee5e002f7",
+        "locale": "en",
+        "contentHash": "f8c4207b4c0a5e39d29be212270ec384826d7a81a55881220d7124e6de7794ab",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/venezuela-quake-child-rescue.png"
+      },
+      {
+        "topicId": "f24346b4-d8e9-45d9-9320-35967cb850c7",
+        "locale": "zh",
+        "contentHash": "c9591fcd04e037fb410d7978b703439de6b5bd33180619d8ed0467746d706cb1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/israel-lebanon-south.png"
+      },
+      {
+        "topicId": "f24346b4-d8e9-45d9-9320-35967cb850c7",
+        "locale": "en",
+        "contentHash": "c31a35f00a30e6b199b46288b86777079742684d67a4bc7eb00401d4b572ea56",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/israel-lebanon-south.png"
+      },
+      {
+        "topicId": "80406bf8-df6f-4878-9036-d5b6c26ae944",
+        "locale": "zh",
+        "contentHash": "7217c397a85ee713d765c48c02235d1e3a1043443566a0ed05c5c71a0a7e6fcc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/russia-fuel-shortage-ukraine-strikes.png"
+      },
+      {
+        "topicId": "80406bf8-df6f-4878-9036-d5b6c26ae944",
+        "locale": "en",
+        "contentHash": "c847f12dfd4f5c2569f60addcd91bdf42b5fe3ad0ff6d7ceb2852f59664f94b5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/russia-fuel-shortage-ukraine-strikes.png"
+      },
+      {
+        "topicId": "3355255f-f4e7-4c32-a6c5-f7e101c22c82",
+        "locale": "zh",
+        "contentHash": "980abb2bded9e179427b769f54d22b7782bce9554f3f925c4c30880fac8b2eed",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/europe-heatwave-work.png"
+      },
+      {
+        "topicId": "3355255f-f4e7-4c32-a6c5-f7e101c22c82",
+        "locale": "en",
+        "contentHash": "3b63df989577788edf805e82befdd775b541c13b4cf9f20af79e94cab6ee045f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/europe-heatwave-work.png"
+      },
+      {
+        "topicId": "f85b1ae0-6c5b-46de-8ccb-bd9998856c39",
+        "locale": "zh",
+        "contentHash": "e19718ddc851300f4db9703c5100fdbd19873e18fb104ecbb31f47a550c9c0ee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/google-ai-energy.png"
+      },
+      {
+        "topicId": "f85b1ae0-6c5b-46de-8ccb-bd9998856c39",
+        "locale": "en",
+        "contentHash": "e4cc4d1bd80708de2aef905600d7cdd351eecee4d47a896db0fd42503dc357c3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/google-ai-energy.png"
+      },
+      {
+        "topicId": "88f69f90-e3ad-4a4b-a5a6-e8608c55f4bf",
+        "locale": "zh",
+        "contentHash": "350d6d500cfc341675f384e34d5126bea96a3b3c50f4075ff176c8da310d46dc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/zh/china-japan-export-controls.png"
+      },
+      {
+        "topicId": "88f69f90-e3ad-4a4b-a5a6-e8608c55f4bf",
+        "locale": "en",
+        "contentHash": "ea5e752ee5104746c6c5e6d1a3928d929a6543de1ae2abe50940c3d9b40004d1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260701_75d79f965e0b605240f683b9/en/china-japan-export-controls.png"
+      }
+    ]
+  }
+}

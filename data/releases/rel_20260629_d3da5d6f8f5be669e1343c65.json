@@ -1,0 +1,655 @@
+{
+  "issue": {
+    "id": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+    "slug": "2026-06-29",
+    "assetVersion": "rel_20260629_d3da5d6f8f5be669e1343c65",
+    "issueDate": "2026-06-29",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-06-29T05:00:00+08:00",
+    "gmtTimestamp": "2026-06-28T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
+    "topics": [
+      {
+        "id": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "CA",
+          "ZA",
+          "EU",
+          "VE",
+          "US",
+          "IR",
+          "UA",
+          "RU",
+          "SA",
+          "LB"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "daily_global_overview_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "世界杯进入淘汰赛，加拿大绝杀晋级，场外世界也在高温、地震、战争与AI泡沫压力下继续加速",
+            "headlineView": "世界的变化，往往同时发生在球场、灾区、海峡和市场里",
+            "headlineFull": "世界杯进入淘汰赛，加拿大绝杀晋级，场外世界也在高温、地震、战争与AI泡沫压力下继续加速; 世界的变化，往往同时发生在球场、灾区、海峡和市场里.",
+            "intro": "过去24小时，世界杯从小组赛正式切入淘汰赛，加拿大1:0击败南非，拿下队史世界杯淘汰赛首胜；欧洲热浪继续扩大，法国报告约1000例超额死亡；委内瑞拉双震救援仍在黄金窗口外艰难推进，死亡人数已超过1400人。与此同时，美伊在海湾继续交火，俄乌互袭能源与城市目标，沙特阿美直升机坠毁造成14人死亡，国际清算银行警告全球债务、金融脆弱性与AI投资热潮正在叠加风险，以色列则称摧毁了黎巴嫩南部真主党地下设施。",
+            "xiaziQuote": "真正值得关注的，是这些事件一起把哪些系统推到压力边缘。",
+            "doudouQuote": "今天从球场到海峡，从灾区到市场，关键词都是压力测试。",
+            "footerTakeaway": "今日关键词：淘汰赛、极端高温、地震救援、海湾升级、能源安全、AI泡沫、地下战场。"
+          },
+          "en-US": {
+            "categoryLabel": "Overview",
+            "headlineFact": "The World Cup entered the knockout stage, Canada advanced late, and heat, quakes, war and AI-market risks kept accelerating",
+            "headlineView": "global change often appears at once on pitches, in disaster zones, across straits and inside markets",
+            "headlineFull": "The World Cup entered the knockout stage, Canada advanced late, and heat, quakes, war and AI-market risks kept accelerating; global change often appears at once on pitches, in disaster zones, across straits and inside markets.",
+            "intro": "Over the past 24 hours, the World Cup moved from group-stage closure into the knockout round, with Canada beating South Africa 1-0 for its first knockout-stage win. Europe’s heatwave widened, France reported around 1,000 excess deaths, and Venezuela’s quake response remained under pressure after the death toll passed 1,400. At the same time, the United States and Iran kept trading blows in the Gulf, Russia and Ukraine struck energy and city targets, a Saudi Aramco helicopter crash killed 14, the BIS warned about debt, financial fragility and AI-investment risk, and Israel said it destroyed Hezbollah underground infrastructure in southern Lebanon.",
+            "xiaziQuote": "The real signal is which systems are being pushed toward the edge at the same time.",
+            "doudouQuote": "From stadiums to straits, disaster zones to markets, today’s shared phrase is stress test.",
+            "footerTakeaway": "Keywords: knockouts, extreme heat, quake rescue, Gulf escalation, energy security, AI risk and underground conflict."
+          }
+        },
+        "sources": [
+          {
+            "id": "6298ac85-d0ac-47e9-8abd-6886bd30a8f6",
+            "topicId": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
+            "title": "Daily ChatGPT hotspot source",
+            "publisher": "ChatGPT",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "87c2a4dc-31d5-415a-a8e1-9eeb3a8c97f5",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "world-cup-june29-canada-south-africa",
+        "rank": 2,
+        "category": "sports",
+        "region": "North America",
+        "countryCodes": [
+          "CA",
+          "ZA",
+          "GB",
+          "PA",
+          "HR",
+          "GH",
+          "CO",
+          "PT",
+          "CD",
+          "UZ",
+          "AR",
+          "JO",
+          "DZ",
+          "AT"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "world_cup_june29_canada_south_africa_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯",
+            "headlineFact": "加拿大1:0绝杀南非，世界杯淘汰赛正式开打",
+            "headlineView": "真正的淘汰赛，从来不奖励控球，只奖励最后一次把球送进门的人",
+            "headlineFull": "加拿大1:0绝杀南非，世界杯淘汰赛正式开打; 真正的淘汰赛，从来不奖励控球，只奖励最后一次把球送进门的人.",
+            "intro": "北京时间6月28日05:00至6月29日05:00，世界杯共结束7场比赛：巴拿马0:2英格兰，克罗地亚2:1加纳，哥伦比亚0:0葡萄牙，民主刚果3:1乌兹别克斯坦，约旦1:3阿根廷，阿尔及利亚3:3奥地利，南非0:1加拿大。英格兰、克罗地亚、哥伦比亚、民主刚果、阿根廷、阿尔及利亚和奥地利各自完成关键出线节点，加拿大则凭补时进球赢下淘汰赛首战。",
+            "xiaziQuote": "大赛进入淘汰赛后，漂亮过程会让位给最后一脚的确定性。",
+            "doudouQuote": "控球率可以写进报告，晋级只认比分牌。",
+            "footerTakeaway": "24小时关键词：加拿大绝杀、民主刚果创历史、梅西连续破门、阿尔及利亚奥地利双双晋级。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup",
+            "headlineFact": "Canada beat South Africa 1-0 as the World Cup knockout stage began",
+            "headlineView": "knockout football does not reward possession, only the final ball into the net",
+            "headlineFull": "Canada beat South Africa 1-0 as the World Cup knockout stage began; knockout football does not reward possession, only the final ball into the net.",
+            "intro": "From 05:00 on June 28 to 05:00 on June 29 Beijing time, seven World Cup matches ended: Panama 0-2 England, Croatia 2-1 Ghana, Colombia 0-0 Portugal, DR Congo 3-1 Uzbekistan, Jordan 1-3 Argentina, Algeria 3-3 Austria, and South Africa 0-1 Canada. Several groups settled qualification, while Canada opened the knockout round with a stoppage-time winner.",
+            "xiaziQuote": "Once the knockouts begin, the beautiful process gives way to the certainty of the last touch.",
+            "doudouQuote": "Possession belongs in the report. Advancement belongs on the scoreboard.",
+            "footerTakeaway": "Keywords: Canada’s late winner, DR Congo history, Messi scoring run, Algeria and Austria advancing."
+          }
+        },
+        "sources": [
+          {
+            "id": "218b9d76-9a22-4a62-aca5-041f0d708d37",
+            "topicId": "87c2a4dc-31d5-415a-a8e1-9eeb3a8c97f5",
+            "title": "South Africa vs Canada live: score, commentary, latest from World Cup 2026",
+            "publisher": "The Times",
+            "url": "https://www.thetimes.com/sport/football/world-cup/article/world-cup-2026-latest-news-live-scores-team-updates-day-18-ft279cnt6?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e948555b-5127-482c-86a1-b277f99b312c",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "europe-heatwave-excess-deaths",
+        "rank": 3,
+        "category": "climate",
+        "region": "Europe",
+        "countryCodes": [
+          "FR",
+          "DE",
+          "PL",
+          "CZ",
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "europe_heatwave_excess_deaths_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲热浪",
+            "headlineFact": "法国报告约1000例高温期间超额死亡，欧洲多国刷新纪录",
+            "headlineView": "极端天气不再只是气象新闻，而是公共系统的压力测试",
+            "headlineFull": "法国报告约1000例高温期间超额死亡，欧洲多国刷新纪录; 极端天气不再只是气象新闻，而是公共系统的压力测试.",
+            "intro": "欧洲热浪继续向东推进，法国公共卫生机构报告热浪期间约1000例超额死亡，其中多数为老年人。德国、波兰、捷克等地也刷新高温纪录，部分地区气温突破40℃。高温同时影响交通、电力、医疗和消防系统，世界卫生组织警告欧洲对越来越频繁的热浪仍准备不足。",
+            "xiaziQuote": "气候风险真正变贵，是从医院、学校、电网和交通系统同时吃紧开始的。",
+            "doudouQuote": "温度计只是报数，账单在城市系统里结。",
+            "footerTakeaway": "高温正在从异常天气变成常态治理题。"
+          },
+          "en-US": {
+            "categoryLabel": "Europe Heatwave",
+            "headlineFact": "France reported around 1,000 excess deaths during the heatwave as European records fell",
+            "headlineView": "extreme weather is now a stress test for public systems, not just a weather story",
+            "headlineFull": "France reported around 1,000 excess deaths during the heatwave as European records fell; extreme weather is now a stress test for public systems, not just a weather story.",
+            "intro": "Europe’s heatwave kept moving east as French health authorities reported around 1,000 excess deaths during the period, mostly among older people. Germany, Poland, the Czech Republic and other countries also broke heat records, with some areas passing 40C. Transport, power, healthcare and fire services all came under pressure, while the WHO warned Europe remains underprepared for more frequent heatwaves.",
+            "xiaziQuote": "Climate risk becomes expensive when hospitals, schools, grids and transport strain at the same time.",
+            "doudouQuote": "The thermometer reports the number; the city pays the bill.",
+            "footerTakeaway": "Heat is shifting from unusual weather to routine governance."
+          }
+        },
+        "sources": [
+          {
+            "id": "60d5211b-e082-4888-9fa6-d94eb995443c",
+            "topicId": "e948555b-5127-482c-86a1-b277f99b312c",
+            "title": "France records around 1,000 additional deaths as extreme heat breaks European records",
+            "publisher": "AP News",
+            "url": "https://apnews.com/article/61f444317600cf1bd9af5af84cb582bd?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3067f0ca-9d64-4e01-a521-1d83d2691fe4",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "venezuela-earthquake-rescue",
+        "rank": 4,
+        "category": "international",
+        "region": "Venezuela",
+        "countryCodes": [
+          "VE"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "venezuela_quake_rescue_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "委内瑞拉地震",
+            "headlineFact": "委内瑞拉双震死亡人数超过1400人，仍有数万人下落不明",
+            "headlineView": "灾难最残酷的地方，是时间先于救援耗尽",
+            "headlineFull": "委内瑞拉双震死亡人数超过1400人，仍有数万人下落不明; 灾难最残酷的地方，是时间先于救援耗尽.",
+            "intro": "委内瑞拉两次强震后，死亡人数已升至1400人以上，仍有数万人下落不明。救援人员在周末又救出33人，包括多名儿童，但寻找幸存者的关键72小时窗口已经过去。受灾最重的拉瓜伊拉州面临余震、道路受限、重型设备不足和官方力量有限等多重困难，国际救援队已陆续进入。",
+            "xiaziQuote": "灾害救援考验的不是一时善意，而是道路、设备、组织和信息的总和。",
+            "doudouQuote": "黄金72小时走得太快，铲车和通信可不能慢。",
+            "footerTakeaway": "灾后黄金窗口之外，系统能力决定更多人的命运。"
+          },
+          "en-US": {
+            "categoryLabel": "Venezuela Earthquake",
+            "headlineFact": "Venezuela’s twin quakes left more than 1,400 dead and tens of thousands missing",
+            "headlineView": "the harshest part of disaster is when time runs out before rescue does",
+            "headlineFull": "Venezuela’s twin quakes left more than 1,400 dead and tens of thousands missing; the harshest part of disaster is when time runs out before rescue does.",
+            "intro": "After two major earthquakes in Venezuela, the death toll rose above 1,400 and tens of thousands remained missing. Rescuers pulled out 33 more people over the weekend, including children, but the crucial 72-hour search window had passed. Hard-hit La Guaira faced aftershocks, damaged roads, limited heavy equipment and constrained official capacity as international rescue teams arrived.",
+            "xiaziQuote": "Disaster response is not only goodwill; it is roads, equipment, organization and information working together.",
+            "doudouQuote": "The golden 72 hours move fast. Excavators and communications cannot move slowly.",
+            "footerTakeaway": "Beyond the golden window, system capacity shapes survival."
+          }
+        },
+        "sources": [
+          {
+            "id": "d0c79c29-a2a2-444a-bdeb-747a5414c5d4",
+            "topicId": "3067f0ca-9d64-4e01-a521-1d83d2691fe4",
+            "title": "Thirty-three people rescued, thousands still missing after Venezuela quakes",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/environment/thirty-three-people-rescued-thousands-still-missing-after-venezuela-quakes-2026-06-28/?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "95b31596-42fa-4dde-9c3d-705ae204d48b",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "us-iran-gulf-escalation",
+        "rank": 5,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "US",
+          "IR",
+          "BH",
+          "KW"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "us_iran_gulf_escalation_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "美伊冲突",
+            "headlineFact": "美伊在海湾继续互相打击，临时和平协议面临撕裂",
+            "headlineView": "最危险的不是谈判破裂，而是双方都还说自己没有退出谈判",
+            "headlineFull": "美伊在海湾继续互相打击，临时和平协议面临撕裂; 最危险的不是谈判破裂，而是双方都还说自己没有退出谈判.",
+            "intro": "美国和伊朗在海湾地区继续升级军事行动。伊朗称袭击了与美国有关的目标，以回应美国对伊朗南部海岸的空袭；美国则指责伊朗威胁商业航运。海湾股市因此表现分化，巴林、科威特等地一度响起警报。美伊仍未正式宣布退出临时和平框架，但攻击与威胁正在不断消耗协议可信度。",
+            "xiaziQuote": "和平框架最怕的不是没有纸面文字，而是现场行动不断把纸面信用花掉。",
+            "doudouQuote": "嘴上还在谈，手上还在打，这种默契最贵。",
+            "footerTakeaway": "协议可信度正在被每一次警报和袭击重新定价。"
+          },
+          "en-US": {
+            "categoryLabel": "U.S.-Iran Conflict",
+            "headlineFact": "The United States and Iran kept exchanging attacks in the Gulf, straining the temporary peace framework",
+            "headlineView": "the most dangerous moment is not when talks collapse, but when both sides say they remain inside them",
+            "headlineFull": "The United States and Iran kept exchanging attacks in the Gulf, straining the temporary peace framework; the most dangerous moment is not when talks collapse, but when both sides say they remain inside them.",
+            "intro": "The United States and Iran continued escalating military action around the Gulf. Iran said it struck U.S.-linked targets after U.S. strikes near Iran’s southern coast, while Washington accused Tehran of threatening commercial shipping. Gulf markets moved unevenly and alerts sounded in Bahrain and Kuwait. Neither side formally exited the temporary framework, but each attack weakened its credibility.",
+            "xiaziQuote": "A peace framework loses value when actions on the ground keep spending its credibility.",
+            "doudouQuote": "Talking with one hand and striking with the other is an expensive kind of coordination.",
+            "footerTakeaway": "Every alert and attack reprices the credibility of the framework."
+          }
+        },
+        "sources": [
+          {
+            "id": "017d2ea3-15ff-4ffb-926a-df46683bb86c",
+            "topicId": "95b31596-42fa-4dde-9c3d-705ae204d48b",
+            "title": "Iran and US step up attacks and threaten to escalate",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-hormuz-escalating-2026-06-27/?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "25a447ea-f59e-4568-9e23-18e587635d2e",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "russia-ukraine-refinery-strikes",
+        "rank": 6,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "RU",
+          "UA"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "russia_ukraine_refinery_strikes_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "俄乌局势",
+            "headlineFact": "俄乌互袭继续扩大，乌克兰打击俄罗斯炼油设施",
+            "headlineView": "战争的纵深越来越远，普通人的风险却越来越近",
+            "headlineFull": "俄乌互袭继续扩大，乌克兰打击俄罗斯炼油设施; 战争的纵深越来越远，普通人的风险却越来越近.",
+            "intro": "俄罗斯对乌克兰东南部和东北部发动袭击，乌方地方官员称至少4人死亡。与此同时，乌克兰继续加大对俄罗斯能源基础设施的远程打击，一座俄罗斯炼油厂起火，相关交通和机场运行受到影响。双方都在把打击重点推向能源、物流和军工体系，战争已经从前线延伸到更深层的国家运行系统。",
+            "xiaziQuote": "当能源、物流和机场都成为战场，战争影响的就不只是前线。",
+            "doudouQuote": "地图上的距离变远了，生活里的风险反而更近了。",
+            "footerTakeaway": "远程打击正在把国家运行系统变成战争目标。"
+          },
+          "en-US": {
+            "categoryLabel": "Russia-Ukraine War",
+            "headlineFact": "Russia and Ukraine continued exchanging strikes, while Ukraine targeted Russian refining infrastructure",
+            "headlineView": "the war’s depth keeps expanding while ordinary risk moves closer",
+            "headlineFull": "Russia and Ukraine continued exchanging strikes, while Ukraine targeted Russian refining infrastructure; the war’s depth keeps expanding while ordinary risk moves closer.",
+            "intro": "Russia launched attacks on southeastern and northeastern Ukraine, with local officials reporting at least four deaths. Ukraine, meanwhile, intensified long-range strikes on Russian energy infrastructure, setting a refinery on fire and disrupting transport and airport operations. Both sides are pushing deeper into energy, logistics and military-industrial systems.",
+            "xiaziQuote": "When energy, logistics and airports become targets, the war no longer belongs only to the front line.",
+            "doudouQuote": "The distance on the map grows, but the risk in daily life moves closer.",
+            "footerTakeaway": "Long-range strikes are turning state operating systems into targets."
+          }
+        },
+        "sources": [
+          {
+            "id": "68b39956-b8fb-4f56-a2a4-257bf975dbec",
+            "topicId": "25a447ea-f59e-4568-9e23-18e587635d2e",
+            "title": "Russian attacks kills four in Ukraine, local officials say",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/russian-attacks-kills-four-ukraine-local-officials-say-2026-06-28/?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a8d45100-6759-40b9-9374-592af964d26b",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "saudi-aramco-helicopter-crash",
+        "rank": 7,
+        "category": "business",
+        "region": "Saudi Arabia",
+        "countryCodes": [
+          "SA"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "saudi_aramco_helicopter_crash_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "沙特阿美事故",
+            "headlineFact": "沙特阿美直升机在拉斯坦努拉坠毁，14人全部遇难",
+            "headlineView": "能源巨头最怕的，不只是市场波动，还有关键节点上的突然事故",
+            "headlineFull": "沙特阿美直升机在拉斯坦努拉坠毁，14人全部遇难; 能源巨头最怕的，不只是市场波动，还有关键节点上的突然事故.",
+            "intro": "沙特能源部表示，一架隶属于沙特阿美的直升机在东部海湾城市拉斯坦努拉坠毁，机上14人全部遇难，遇难者均为沙特公民。事故发生在当地时间清晨6点左右，相关部门已启动调查。拉斯坦努拉是沙特重要石油工业与出口节点，在海湾局势紧张背景下，任何重大事故都会被市场格外关注。",
+            "xiaziQuote": "大型能源系统的脆弱点，不一定在油价，也可能在日常运转的关键节点。",
+            "doudouQuote": "市场盯着价格，事故提醒大家别忘了现场。",
+            "footerTakeaway": "关键能源节点上的安全事件，会被地缘紧张放大。"
+          },
+          "en-US": {
+            "categoryLabel": "Saudi Aramco Accident",
+            "headlineFact": "A Saudi Aramco helicopter crashed in Ras Tanura, killing all 14 people aboard",
+            "headlineView": "energy giants fear not only market swings, but sudden failures at critical nodes",
+            "headlineFull": "A Saudi Aramco helicopter crashed in Ras Tanura, killing all 14 people aboard; energy giants fear not only market swings, but sudden failures at critical nodes.",
+            "intro": "Saudi authorities said a helicopter belonging to Saudi Aramco crashed in the eastern Gulf city of Ras Tanura, killing all 14 people on board, all Saudi nationals. The crash happened around 6 a.m. local time and an investigation was opened. Ras Tanura is a major oil-industry and export node, so any serious accident draws extra market attention during Gulf tension.",
+            "xiaziQuote": "A large energy system’s weak point may not be oil prices, but a critical node in daily operations.",
+            "doudouQuote": "Markets watch the price. Accidents remind everyone to watch the site.",
+            "footerTakeaway": "Safety incidents at key energy nodes are amplified by geopolitical stress."
+          }
+        },
+        "sources": [
+          {
+            "id": "687c14f2-9b53-4d47-8ac7-fab44eb8f217",
+            "topicId": "a8d45100-6759-40b9-9374-592af964d26b",
+            "title": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/saudi-aramco-helicopter-crash-kills-14-state-new-agency-says-2026-06-28/?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "5f4c36b5-1b86-4408-8481-fb297f8cbbed",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "bis-global-financial-risk",
+        "rank": 8,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "bis_global_financial_risk_ai_debt_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球金融风险",
+            "headlineFact": "国际清算银行警告债务、金融脆弱性与AI热潮叠加风险",
+            "headlineView": "当所有人都相信增长会继续，风险往往已经开始定价",
+            "headlineFull": "国际清算银行警告债务、金融脆弱性与AI热潮叠加风险; 当所有人都相信增长会继续，风险往往已经开始定价.",
+            "intro": "国际清算银行在年度经济报告中警告，全球高公共债务、金融市场脆弱性、持续供应冲击以及AI投资热潮的不确定性，正在共同抬高系统性风险。报告特别提到，AI相关投资和复杂债务融资可能加剧核心债券市场脆弱性，政策制定者需要更早控制债务、维护价格稳定，并加强非银行金融监管。",
+            "xiaziQuote": "金融风险常常不是从坏消息开始，而是从好故事被过度融资开始。",
+            "doudouQuote": "AI讲的是未来，债务账单可不会等到未来再来。",
+            "footerTakeaway": "债务、流动性和AI投资热潮正在进入同一张风险表。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Financial Risk",
+            "headlineFact": "The BIS warned that debt, financial fragility and the AI boom are adding to global risk",
+            "headlineView": "when everyone believes growth will continue, risk may already be getting priced",
+            "headlineFull": "The BIS warned that debt, financial fragility and the AI boom are adding to global risk; when everyone believes growth will continue, risk may already be getting priced.",
+            "intro": "In its annual economic report, the Bank for International Settlements warned that high public debt, financial-market fragility, ongoing supply shocks and uncertainty around the AI investment boom are jointly raising systemic risks. It noted that AI-related investment and complex debt financing could deepen vulnerabilities in core bond markets, calling for earlier debt control, price stability and stronger nonbank oversight.",
+            "xiaziQuote": "Financial risk often begins not with bad news, but with a good story overfinanced.",
+            "doudouQuote": "AI talks about the future. Debt bills do not wait for it.",
+            "footerTakeaway": "Debt, liquidity and the AI investment boom are moving onto the same risk sheet."
+          }
+        },
+        "sources": [
+          {
+            "id": "50a91037-97e9-4104-9e72-b890c7842260",
+            "topicId": "5f4c36b5-1b86-4408-8481-fb297f8cbbed",
+            "title": "BIS says debt, AI boom and fragilities raise global risks",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/finance/global-markets-bis-pix-2026-06-28/?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "84b0f7a8-45a7-4ea8-b6de-710760841d67",
+        "issueId": "7175062a-30bf-4c90-b3a7-acc62719bed6",
+        "slug": "israel-hezbollah-underground-infrastructure",
+        "rank": 9,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "IL",
+          "LB"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "israel_hezbollah_underground_infrastructure_june29_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "黎巴嫩局势",
+            "headlineFact": "以色列称摧毁黎巴嫩南部真主党地下设施",
+            "headlineView": "地面上看似停火，地下的战争结构却仍在延伸",
+            "headlineFull": "以色列称摧毁黎巴嫩南部真主党地下设施; 地面上看似停火，地下的战争结构却仍在延伸.",
+            "intro": "以色列表示，其军方摧毁了黎巴嫩南部Majdal Zoun村一处真主党地下设施，并称该设施包含约200米长的隧道。以方称已提前向美国通报相关行动。该事件显示，即便地区外交仍在推进，边境地下设施、武装组织和安全缓冲区问题，仍可能持续引发新的军事行动。",
+            "xiaziQuote": "停火能降低声量，却不一定拆掉地下的战争基础设施。",
+            "doudouQuote": "地面安静一点，地下不代表也下班了。",
+            "footerTakeaway": "边境安全问题仍会在地下设施和缓冲区上反复爆发。"
+          },
+          "en-US": {
+            "categoryLabel": "Lebanon Situation",
+            "headlineFact": "Israel said it destroyed Hezbollah underground infrastructure in southern Lebanon",
+            "headlineView": "the surface may look quieter, but underground conflict structures can keep extending",
+            "headlineFull": "Israel said it destroyed Hezbollah underground infrastructure in southern Lebanon; the surface may look quieter, but underground conflict structures can keep extending.",
+            "intro": "Israel said its military destroyed Hezbollah underground infrastructure in the southern Lebanese village of Majdal Zoun, including a tunnel about 200 meters long. Israel said it had notified the United States in advance. The episode shows that even while regional diplomacy continues, tunnels, armed groups and border security zones can still trigger fresh military action.",
+            "xiaziQuote": "A ceasefire can lower the volume without dismantling the underground infrastructure of conflict.",
+            "doudouQuote": "The surface may quiet down; that does not mean the underground clocked out.",
+            "footerTakeaway": "Border security risks will keep recurring around tunnels and buffer zones."
+          }
+        },
+        "sources": [
+          {
+            "id": "ae3352cc-af43-42dc-a263-23736c5b2540",
+            "topicId": "84b0f7a8-45a7-4ea8-b6de-710760841d67",
+            "title": "Israel destroys Hezbollah underground infrastructure in southern Lebanon",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/israel-destroys-hezbollah-underground-infrastructure-southern-lebanon-2026-06-28/?utm_source=chatgpt.com",
+            "publishedAt": "2026-06-28T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-06-29",
+    "releaseId": "rel_20260629_d3da5d6f8f5be669e1343c65",
+    "assetBatchId": "asset_archive_20260629_d3da5d6f8f5be669e1343c65",
+    "posters": [
+      {
+        "topicId": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
+        "locale": "zh",
+        "contentHash": "efe87a962dde25a971909099d74c29017206cb8f8cac8d354de8a9d23f68cf9c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/overview.png"
+      },
+      {
+        "topicId": "d32d3ba7-cd65-4ee5-8622-2cf24e6f4a97",
+        "locale": "en",
+        "contentHash": "6aa732d39c60aa83057d95d9572eba3fa1e5243cdd698eebe8b3ba445fe823e2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/overview.png"
+      },
+      {
+        "topicId": "87c2a4dc-31d5-415a-a8e1-9eeb3a8c97f5",
+        "locale": "zh",
+        "contentHash": "3695f0edd52d24163845afe43d3803f8f92e83f261dae5bdc9c7cc618930c633",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/world-cup-june29-canada-south-africa.png"
+      },
+      {
+        "topicId": "87c2a4dc-31d5-415a-a8e1-9eeb3a8c97f5",
+        "locale": "en",
+        "contentHash": "061e3b785b0574c0d10e3d4df270a23549ccf944a16d8867cbd62e85e562d7d4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/world-cup-june29-canada-south-africa.png"
+      },
+      {
+        "topicId": "e948555b-5127-482c-86a1-b277f99b312c",
+        "locale": "zh",
+        "contentHash": "e6a2c20499b6e86063cf55fdf649b49ddae54118ab4b5e8976a96270d4486188",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/europe-heatwave-excess-deaths.png"
+      },
+      {
+        "topicId": "e948555b-5127-482c-86a1-b277f99b312c",
+        "locale": "en",
+        "contentHash": "f294355787b55cdbb3839eb88c2002b501f29ffceda90fe7e6a379e2683bbcac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/europe-heatwave-excess-deaths.png"
+      },
+      {
+        "topicId": "3067f0ca-9d64-4e01-a521-1d83d2691fe4",
+        "locale": "zh",
+        "contentHash": "fa477233e7f8aa23f9969510af4cc8e5cbc192e447572ed909735cf79ade31f7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/venezuela-earthquake-rescue.png"
+      },
+      {
+        "topicId": "3067f0ca-9d64-4e01-a521-1d83d2691fe4",
+        "locale": "en",
+        "contentHash": "146d82725b95d85d2a2b45d02a06a5d7f10a0e33d623f7a06816c075a6051fc3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/venezuela-earthquake-rescue.png"
+      },
+      {
+        "topicId": "95b31596-42fa-4dde-9c3d-705ae204d48b",
+        "locale": "zh",
+        "contentHash": "807947bc38eb3e0d9d7a97912296847dbb62ce374972d1c01bd49e7c29cd6692",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/us-iran-gulf-escalation.png"
+      },
+      {
+        "topicId": "95b31596-42fa-4dde-9c3d-705ae204d48b",
+        "locale": "en",
+        "contentHash": "490f445246cac13d30c5a85cc27fe20018744c2aca8531629ddf301ec2f82ac9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/us-iran-gulf-escalation.png"
+      },
+      {
+        "topicId": "25a447ea-f59e-4568-9e23-18e587635d2e",
+        "locale": "zh",
+        "contentHash": "229a71eeb75222037d081768a78fc03d84c96cd29e2426d153de852c893f42a4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/russia-ukraine-refinery-strikes.png"
+      },
+      {
+        "topicId": "25a447ea-f59e-4568-9e23-18e587635d2e",
+        "locale": "en",
+        "contentHash": "f9e37f042e300b8498069070ff5764e355627731ee648bac688ef3fcc588bba8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/russia-ukraine-refinery-strikes.png"
+      },
+      {
+        "topicId": "a8d45100-6759-40b9-9374-592af964d26b",
+        "locale": "zh",
+        "contentHash": "d3c0cf71e4ae3f2a85ee900b74016992e48b74b87fb18690907a61ae9f75e321",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/saudi-aramco-helicopter-crash.png"
+      },
+      {
+        "topicId": "a8d45100-6759-40b9-9374-592af964d26b",
+        "locale": "en",
+        "contentHash": "1a3296e4c2c0e3443fe15b06f1f92bb2cc121f2f3fbd52a8d3fc2543398fd590",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/saudi-aramco-helicopter-crash.png"
+      },
+      {
+        "topicId": "5f4c36b5-1b86-4408-8481-fb297f8cbbed",
+        "locale": "zh",
+        "contentHash": "24708220b886facd8319731ba10575f50b8bbf78f5a8aef3dfe23b8c536ad22f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/bis-global-financial-risk.png"
+      },
+      {
+        "topicId": "5f4c36b5-1b86-4408-8481-fb297f8cbbed",
+        "locale": "en",
+        "contentHash": "54d53dfb5f3bcbfa16a2222fc79e890bef9711c211de2ef7f4e78e37442d792d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/bis-global-financial-risk.png"
+      },
+      {
+        "topicId": "84b0f7a8-45a7-4ea8-b6de-710760841d67",
+        "locale": "zh",
+        "contentHash": "09277ff72077109c475d3e9b1d7a6a1ecc2bc51146c910537643769c6295ee20",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/zh/israel-hezbollah-underground-infrastructure.png"
+      },
+      {
+        "topicId": "84b0f7a8-45a7-4ea8-b6de-710760841d67",
+        "locale": "en",
+        "contentHash": "797d3cfa6ab153df9ff98f4191af890b70e1e5f5f241ad5247b9987ca99ee1dc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260629_d3da5d6f8f5be669e1343c65/en/israel-hezbollah-underground-infrastructure.png"
+      }
+    ]
+  }
+}

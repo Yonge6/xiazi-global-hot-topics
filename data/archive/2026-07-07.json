@@ -1,18 +1,18 @@
 {
   "id": "eb6c8d9b-c069-46d5-a67e-3ad6fbe37d6b",
   "slug": "2026-07-07",
-  "issueDate": "2026-07-07",
-  "assetVersion": "issue-2026-07-07-chatgpt-fauvist-v1",
-  "status": "published",
-  "slotHour": 5,
-  "beijingTimestamp": "2026-07-07T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-06T21:00:00Z",
-  "featuredTopicId": "ac729e47-968a-472a-9194-66776274c2d1",
+  "assetVersion": "rel_20260707_6a607addc530c1603eca176a",
   "style": {
     "name": "Fauvist global newsroom",
     "zhName": "野兽派全球新闻海报",
     "description": "High-saturation Fauvist news posters with expressive brush color, bold contrast, fixed Xiazi and Doudoulong IP characters, and consistent bilingual layout."
   },
+  "issueDate": "2026-07-07",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-07T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-06T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "ac729e47-968a-472a-9194-66776274c2d1",
   "topics": [
     {
       "id": "ac729e47-968a-472a-9194-66776274c2d1",
@@ -414,9 +414,9 @@
         },
         "en-US": {
           "categoryLabel": "AI Markets",
-          "headlineFact": "U",
+          "headlineFact": "U.S. stocks rose on July 6, led by technology and semiconductor names. Broadcom gained after extending a custom-chip supply deal with Apple through 2031, while Microsoft fell after announcing about 4,800 job cuts. Investors are betting on strong AI-driven earnings, but they are also asking whether massive AI capital spending can translate into real returns.",
           "headlineView": "the real test is cost, resilience and accountability",
-          "headlineFull": "U; the real test is cost, resilience and accountability.",
+          "headlineFull": "U.S. stocks rose on July 6, led by technology and semiconductor names. Broadcom gained after extending a custom-chip supply deal with Apple through 2031, while Microsoft fell after announcing about 4,800 job cuts. Investors are betting on strong AI-driven earnings, but they are also asking whether massive AI capital spending can translate into real returns.; the real test is cost, resilience and accountability",
           "intro": "U.S. stocks rose on July 6, led by technology and semiconductor names. Broadcom gained after extending a custom-chip supply deal with Apple through 2031, while Microsoft fell after announcing about 4,800 job cuts. Investors are betting on strong AI-driven earnings, but they are also asking whether massive AI capital spending can translate into real returns.",
           "xiaziQuote": "AI行情已经进入第二阶段：不只看愿景，还要看利润、现金流和效率。",
           "doudouQuote": "市场一边给AI芯片鼓掌，一边盯着大公司有没有把钱花明白。",

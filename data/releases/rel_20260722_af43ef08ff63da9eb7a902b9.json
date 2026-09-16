@@ -1,0 +1,643 @@
+{
+  "issue": {
+    "id": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+    "slug": "2026-07-22",
+    "assetVersion": "rel_20260722_af43ef08ff63da9eb7a902b9",
+    "style": {
+      "name": "Style Atlas #99 Isometric Illustration",
+      "zhName": "Style Atlas #99 等距插画风格",
+      "description": "Sunlit premium isometric editorial miniatures on warm ivory, with precise stepped geometry, navy and terracotta accents, realistic materials and clear hierarchy."
+    },
+    "issueDate": "2026-07-22",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-22T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-21T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "e195775a-37ba-5492-ad67-527201518bfd",
+    "topics": [
+      {
+        "id": "e195775a-37ba-5492-ad67-527201518bfd",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260722",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "饥饿缓降，AI算力上桌",
+            "headlineView": "世界在开放与韧性之间重做基础设施",
+            "headlineFull": "饥饿缓降，AI算力上桌；世界在开放与韧性之间重做基础设施",
+            "intro": "从全球饥饿连续改善、微软与Mistral扩充欧洲AI算力和OpenAI小企业计划，到俄朝外交、美加关税、欧洲极端天气、道路安全与NISAR开放数据，今天的八条热点共同指向开放、韧性与基础设施重构。",
+            "xiaziQuote": "进展值得肯定，但真正的韧性来自把技术、制度与公共能力一起补齐。",
+            "doudouQuote": "八条线索看似分散，其实都在回答怎样让系统更稳。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today's Overview",
+            "headlineFact": "Hunger eases and AI capacity expands",
+            "headlineView": "the world rebuilds infrastructure around openness and resilience",
+            "headlineFull": "Hunger eases and AI capacity expands; the world rebuilds infrastructure around openness and resilience",
+            "intro": "From easing hunger, European AI capacity and a small-business AI program to Russia-North Korea ties, Canada tariffs, extreme weather, road safety and open satellite data, today's eight stories point to a shared test of openness and resilience.",
+            "xiaziQuote": "Stay informed and stay proactive; small actions today create a better tomorrow.",
+            "doudouQuote": "See the bigger picture, act with kindness, and build a brighter world together.",
+            "footerTakeaway": "Keyword: Today's Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "4285794f-d7c8-598f-85fe-d7a1f0950089",
+            "topicId": "e195775a-37ba-5492-ad67-527201518bfd",
+            "title": "UN report: Global hunger levels ease for third consecutive year as regional disparities persist",
+            "publisher": "World Food Programme",
+            "url": "https://www.wfp.org/news/un-report-global-hunger-levels-ease-third-consecutive-year-regional-disparities-persist",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "72669316-36e7-5a29-b3e6-0b89bcd89c9e",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "global-hunger-eases-third-year",
+        "rank": 2,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-sofi-global-hunger-2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "开放热点",
+            "headlineFact": "全球饥饿连续三年下降",
+            "headlineView": "进步仍被地区差距与健康饮食成本拉住",
+            "headlineFull": "全球饥饿连续三年下降；进步仍被地区差距与健康饮食成本拉住",
+            "intro": "联合国《2026年世界粮食安全和营养状况》显示，2025年全球饥饿率降至7.8%，约6.45亿人受影响，连续第三年改善；但地区差距与健康饮食高成本仍制约粮食安全。",
+            "xiaziQuote": "改善值得庆祝，更重要的是把公平获得食物变成长期能力。",
+            "doudouQuote": "吃得饱还要吃得好，进步要覆盖每个地区。",
+            "footerTakeaway": "今日关键词：开放热点。"
+          },
+          "en-US": {
+            "categoryLabel": "Open Hotspot",
+            "headlineFact": "Global hunger eases for a third year",
+            "headlineView": "regional gaps and healthy diet costs persist",
+            "headlineFull": "Global hunger eases for a third year; regional gaps and healthy diet costs persist",
+            "intro": "The 2026 UN food security report estimates that hunger affected 7.8% of the world's population in 2025, or about 645 million people. Progress continued for a third year, but regional gaps and the cost of healthy diets remain severe.",
+            "xiaziQuote": "Good news, keep going. Fair food today, stronger future tomorrow.",
+            "doudouQuote": "Eat well, grow well, dream big—together.",
+            "footerTakeaway": "Keyword: Open Hotspot."
+          }
+        },
+        "sources": [
+          {
+            "id": "b85d4ad0-6872-59d7-aff2-35d650637df4",
+            "topicId": "72669316-36e7-5a29-b3e6-0b89bcd89c9e",
+            "title": "UN report: Global hunger levels ease for third consecutive year as regional disparities persist",
+            "publisher": "World Food Programme",
+            "url": "https://www.wfp.org/news/un-report-global-hunger-levels-ease-third-consecutive-year-regional-disparities-persist",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b2df0407-7db7-52cf-b356-4c6f14f368ca",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "microsoft-mistral-european-ai-capacity",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "FR",
+          "US",
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-microsoft-mistral-ai-capacity-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI热点",
+            "headlineFact": "微软数十亿美元采购Mistral欧洲算力",
+            "headlineView": "主权AI从口号走向基础设施",
+            "headlineFull": "微软数十亿美元采购Mistral欧洲算力；主权AI从口号走向基础设施",
+            "intro": "微软与法国Mistral宣布数十亿美元合作，微软将使用Mistral在欧洲扩充的GPU基础设施，并把Medium 3.5与OCR 4加入Foundry，为欧洲客户和受监管行业提供更多本地部署选择。",
+            "xiaziQuote": "AI主权最终不是一句口号，而是谁拥有计算、能源与部署选择。",
+            "doudouQuote": "模型会越来越多，能在本地稳定运行才是真底座。",
+            "footerTakeaway": "今日关键词：AI热点。"
+          },
+          "en-US": {
+            "categoryLabel": "AI Watch",
+            "headlineFact": "Microsoft and Mistral form a multibillion-dollar European AI capacity partnership",
+            "headlineView": "sovereign AI ambitions shift from slogans to infrastructure",
+            "headlineFull": "Microsoft and Mistral form a multibillion-dollar European AI capacity partnership; sovereign AI ambitions shift from slogans to infrastructure",
+            "intro": "Microsoft agreed to use Mistral's expanding GPU infrastructure in Europe and distribute more of the French company's models through Microsoft Foundry, giving customers and regulated industries additional Europe-based deployment options.",
+            "xiaziQuote": "Build the base, empower innovation, keep the future in our hands.",
+            "doudouQuote": "Stronger compute, smarter future—sovereign AI starts with solid infrastructure.",
+            "footerTakeaway": "Keyword: AI Watch."
+          }
+        },
+        "sources": [
+          {
+            "id": "f28e64b9-f3cf-5e8e-b60d-92720636fecc",
+            "topicId": "b2df0407-7db7-52cf-b356-4c6f14f368ca",
+            "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal",
+            "publisher": "The Economic Times",
+            "url": "https://m.economictimes.com/tech/artificial-intelligence/microsoft-to-fund-mistrals-european-ai-expansion-in-multibillion-dollar-deal/amp_articleshow/132536936.cms",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1b92d859-90c2-5371-880a-c71b4a01c6c5",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "openai-small-business-program",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-openai-small-business-program-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "OpenAI推出小企业计划",
+            "headlineView": "一人公司开始获得可落地的AI运营体系",
+            "headlineFull": "OpenAI推出小企业计划；一人公司开始获得可落地的AI运营体系",
+            "intro": "OpenAI推出ChatGPT小企业计划，提供线上培训、线下AI学院、上手指南以及面向小企业工作流的代理、技能和合作伙伴资源，帮助精简团队把AI用于营销、会计、电商与运营。",
+            "xiaziQuote": "一人公司真正需要的不是更多按钮，而是能反复执行的运营系统。",
+            "doudouQuote": "会用AI只是起点，让它每天稳定干活才算升级。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "OPC / One-Person Company",
+            "headlineFact": "OpenAI launches a small-business program",
+            "headlineView": "giving lean companies a more practical AI operating system",
+            "headlineFull": "OpenAI launches a small-business program; giving lean companies a more practical AI operating system",
+            "intro": "OpenAI's new program combines virtual training, in-person AI academies, practical guides, agents, skills and partner resources to help small businesses use ChatGPT in accounting, marketing, ecommerce and operations.",
+            "xiaziQuote": "AI levels the playing field—solopreneurs can now run lean and compete big.",
+            "doudouQuote": "Big dreams don't need big teams—smart tools make it possible.",
+            "footerTakeaway": "Keyword: OPC / One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "125fed71-060a-549c-8645-10a052fcbd19",
+            "topicId": "1b92d859-90c2-5371-880a-c71b4a01c6c5",
+            "title": "Introducing the ChatGPT for small business program",
+            "publisher": "OpenAI",
+            "url": "https://openai.com/index/introducing-chatgpt-small-business-program/",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "4c971ffc-ddbd-5d40-8ced-dfab03cf625f",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "putin-north-korea-foreign-minister",
+        "rank": 5,
+        "category": "international",
+        "region": "Eurasia",
+        "countryCodes": [
+          "RU",
+          "KP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-putin-north-korea-foreign-minister-20260720",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际外交",
+            "headlineFact": "普京会见朝鲜外相",
+            "headlineView": "俄朝高层协作继续向长期联盟靠拢",
+            "headlineFull": "普京会见朝鲜外相；俄朝高层协作继续向长期联盟靠拢",
+            "intro": "普京在莫斯科会见朝鲜外相崔善姬，并感谢朝方支持俄方对乌军事行动；朝俄外长另行会谈，双方再次强调安全与外交支持，高层互动正从事件性合作转向长期协调。",
+            "xiaziQuote": "观察联盟不能只看会晤次数，更要看安全承诺是否变成长期结构。",
+            "doudouQuote": "高层互动越密集，地区安全的连锁影响越要看清。",
+            "footerTakeaway": "今日关键词：国际外交。"
+          },
+          "en-US": {
+            "categoryLabel": "Geopolitics",
+            "headlineFact": "Putin meets North Korea's foreign minister",
+            "headlineView": "high-level cooperation moves closer to a long-term alliance",
+            "headlineFull": "Putin meets North Korea's foreign minister; high-level cooperation moves closer to a long-term alliance",
+            "intro": "Putin met North Korean Foreign Minister Choe Son Hui in Moscow and thanked Pyongyang for backing Russia's war in Ukraine. Separate foreign-minister talks reiterated mutual security and diplomatic support.",
+            "xiaziQuote": "Watch the structure, not the noise. Alliances today reshape power tomorrow.",
+            "doudouQuote": "Small partnerships can create big ripples. Peace needs patience and clear boundaries.",
+            "footerTakeaway": "Keyword: Geopolitics."
+          }
+        },
+        "sources": [
+          {
+            "id": "4d803109-fbe5-5966-a7cd-d8f7e891a579",
+            "topicId": "4c971ffc-ddbd-5d40-8ced-dfab03cf625f",
+            "title": "N. Korean FM holds strategic dialogue with Russian counterpart, meets Putin: KCNA",
+            "publisher": "Yonhap News Agency",
+            "url": "https://en.yna.co.kr/view/AEN20260721001100315",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "55a6ced1-b9df-5508-b467-d4130e88cb90",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "us-additional-tariffs-canada",
+        "rank": 6,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US",
+          "CA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-us-additional-tariffs-canada-20260720",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际贸易",
+            "headlineFact": "美国对部分加拿大商品加征50%关税",
+            "headlineView": "北美贸易规则再被单边工具改写",
+            "headlineFull": "美国对部分加拿大商品加征50%关税；北美贸易规则再被单边工具改写",
+            "intro": "白宫依据《1930年关税法》第338条，对部分加拿大汽车、酒类和乳制品加征50%关税，计划8月19日生效；能源、钾肥及部分其他商品被排除，关税也适用于部分符合USMCA原产地规则的商品。",
+            "xiaziQuote": "关税可以迅速抬高边境成本，但供应链调整往往更慢也更贵。",
+            "doudouQuote": "政策一改，企业的库存、路线和价格都要跟着重排。",
+            "footerTakeaway": "今日关键词：国际贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "Trade & Economy",
+            "headlineFact": "The United States imposes additional tariffs on Canada",
+            "headlineView": "testing how long cross-border supply chains can absorb repeated policy shocks",
+            "headlineFull": "The United States imposes additional tariffs on Canada; testing how long cross-border supply chains can absorb repeated policy shocks",
+            "intro": "The White House imposed additional 50% tariffs on selected Canadian vehicles, alcoholic beverages and dairy products under Section 338, with an August 19 effective date and exclusions for energy, potash and some other goods.",
+            "xiaziQuote": "Trade frictions are a tax on efficiency. Diversify and build resilience.",
+            "doudouQuote": "Big barriers bring big costs. Flexible chains stay strong.",
+            "footerTakeaway": "Keyword: Trade & Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "12b0a8d0-7e41-5a90-a603-51e355a21111",
+            "topicId": "55a6ced1-b9df-5508-b467-d4130e88cb90",
+            "title": "Ambassador Greer Issues Statement on President Trump Imposing Section 338 Tariffs on Canada",
+            "publisher": "Office of the United States Trade Representative",
+            "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-president-trump-imposing-section-338-tariffs-canada",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d1257789-7e8a-53cf-a23c-771324df60ce",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "europe-wildfires-hail-extreme-weather",
+        "rank": 7,
+        "category": "climate",
+        "region": "Europe",
+        "countryCodes": [
+          "ES",
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-europe-wildfires-hail-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 89,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与环境",
+            "headlineFact": "欧洲野火与冰雹并发",
+            "headlineView": "极端天气同时考验多条防灾系统",
+            "headlineFull": "欧洲野火与冰雹并发；极端天气同时考验多条防灾系统",
+            "intro": "西班牙与法国多地继续扑救野火，部分地区气温超过40摄氏度；巴尔干地区同时遭遇冰雹和强对流。高温、干旱、火灾与强降水并发，城市与区域应急系统面临复合风险。",
+            "xiaziQuote": "韧性不能只为一种灾害设计，复合风险需要跨部门联动。",
+            "doudouQuote": "一边防火、一边防冰雹，应急系统要同时跑多条线。",
+            "footerTakeaway": "今日关键词：气候与环境。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate & Environment",
+            "headlineFact": "Wildfires and hail strike Europe at the same time",
+            "headlineView": "extreme weather is testing multiple disaster-response systems",
+            "headlineFull": "Wildfires and hail strike Europe at the same time; extreme weather is testing multiple disaster-response systems",
+            "intro": "Crews battled wildfires in Spain and France as temperatures exceeded 40°C in places, while hail and severe storms hit parts of the Balkans. Concurrent heat, drought, fire and storms are testing regional response systems.",
+            "xiaziQuote": "Resilience is built in advance, not in the middle of the disaster.",
+            "doudouQuote": "Plan for the worst, prepare together, recover better—strong communities win.",
+            "footerTakeaway": "Keyword: Climate & Environment."
+          }
+        },
+        "sources": [
+          {
+            "id": "940bc737-4fd6-52b9-8de6-a1c672b4a11c",
+            "topicId": "d1257789-7e8a-53cf-a23c-771324df60ce",
+            "title": "Fires in Spain and France, hail in Balkans; Europe's erratic weather persists",
+            "publisher": "Reuters via WDEZ",
+            "url": "https://wdez.com/2026/07/21/fires-in-spain-and-france-hail-in-balkans-europes-erratic-weather-persists/",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d2e20dfb-3c45-59e5-862e-e9385f79fc75",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "who-global-road-deaths-fall-21-percent",
+        "rank": 8,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-who-road-deaths-20260720",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 88,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球安全",
+            "headlineFact": "全球道路死亡率下降21%",
+            "headlineView": "但仍需更强行动",
+            "headlineFull": "全球道路死亡率下降21%；但仍需更强行动",
+            "intro": "WHO新数据称，2011至2025年全球道路交通死亡率下降21%，即使全球机动车增加逾10亿辆；但2025年道路交通事故仍造成116万人死亡，并是5至29岁人群的主要死因。",
+            "xiaziQuote": "每一次安全改善都来自持续治理，不能把下降当作终点。",
+            "doudouQuote": "慢一点、稳一点，让每个人都平安回家。",
+            "footerTakeaway": "今日关键词：全球安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Road Safety",
+            "headlineFact": "WHO reports global road deaths fell 21%",
+            "headlineView": "but stronger action is still needed",
+            "headlineFull": "WHO reports global road deaths fell 21%; but stronger action is still needed",
+            "intro": "WHO says the global road traffic death rate fell 21% between 2011 and 2025 despite more than one billion additional vehicles. Even so, crashes killed 1.16 million people in 2025 and remain the leading killer of people aged 5–29.",
+            "xiaziQuote": "Every life counts. Safer roads make cities kinder and the future brighter.",
+            "doudouQuote": "Slow down, buckle up, and keep everyone safe on the road.",
+            "footerTakeaway": "Keyword: Global Road Safety."
+          }
+        },
+        "sources": [
+          {
+            "id": "7b09292f-bf67-54d1-9a96-ea06970a6f0b",
+            "topicId": "d2e20dfb-3c45-59e5-862e-e9385f79fc75",
+            "title": "Road deaths fall by 21% globally but stronger action is needed to save lives",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/20-07-2026-road-deaths-fall-by-21--globally-but-stronger-action-is-needed-to-save-lives",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "fcfb35a9-c77c-5ac6-b05b-b2c848bb7eb3",
+        "issueId": "dcb98ad2-bafe-51d2-b25c-e33eff2bf298",
+        "slug": "nisar-open-satellite-data",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "IN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-nisar-open-data-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 87,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科技与太空",
+            "headlineFact": "NASA与ISRO开放NISAR卫星数据",
+            "headlineView": "助力全球环境监测与研究",
+            "headlineFull": "NASA与ISRO开放NISAR卫星数据；助力全球环境监测与研究",
+            "intro": "NASA与ISRO联合任务NISAR开始提供新一批开放雷达数据。其L波段与S波段观测可穿透云雨和部分植被，用于监测地表形变、冰川、生态系统、农作物与自然灾害。",
+            "xiaziQuote": "开放的数据，让每个人都能看见地球正在发生的变化。",
+            "doudouQuote": "看得更清楚，才能做得更好，保护地球我们一起加油。",
+            "footerTakeaway": "今日关键词：科技与太空。"
+          },
+          "en-US": {
+            "categoryLabel": "Technology & Space",
+            "headlineFact": "NASA and ISRO open NISAR satellite data",
+            "headlineView": "enabling global environmental monitoring and research",
+            "headlineFull": "NASA and ISRO open NISAR satellite data; enabling global environmental monitoring and research",
+            "intro": "New NISAR radar data are becoming openly available through NASA and ISRO channels. The joint mission's L- and S-band observations support research on surface change, ice, ecosystems, agriculture and natural hazards.",
+            "xiaziQuote": "Open data is open doors. Shared knowledge builds a better world.",
+            "doudouQuote": "Watch the Earth together. Small data, big impact.",
+            "footerTakeaway": "Keyword: Technology & Space."
+          }
+        },
+        "sources": [
+          {
+            "id": "948825e4-06ce-519e-aec9-934f373d4cc8",
+            "topicId": "fcfb35a9-c77c-5ac6-b05b-b2c848bb7eb3",
+            "title": "Available NISAR Data",
+            "publisher": "NASA Alaska Satellite Facility",
+            "url": "https://nisar-docs.asf.alaska.edu/availability-overview/",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "ad2f7125-d174-5bd8-ba05-e2a38ed93c32",
+            "topicId": "fcfb35a9-c77c-5ac6-b05b-b2c848bb7eb3",
+            "title": "NISAR mission",
+            "publisher": "ISRO",
+            "url": "https://www.isro.gov.in/ISRO_EN/Mission_GSLVF16_NISAR_Home.html",
+            "publishedAt": "2026-07-22T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-22",
+    "releaseId": "rel_20260722_af43ef08ff63da9eb7a902b9",
+    "assetBatchId": "asset_archive_20260722_af43ef08ff63da9eb7a902b9",
+    "posters": [
+      {
+        "topicId": "e195775a-37ba-5492-ad67-527201518bfd",
+        "locale": "zh",
+        "contentHash": "c42d1f8938e80c437ac906692a2f6b68117029d8a34c08fa2545168aafabdff0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/overview.png"
+      },
+      {
+        "topicId": "e195775a-37ba-5492-ad67-527201518bfd",
+        "locale": "en",
+        "contentHash": "06b9a9039a02b749168aa6dc87e49a7a8a91504db2e572a12adab3f6ea1b0725",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/overview.png"
+      },
+      {
+        "topicId": "72669316-36e7-5a29-b3e6-0b89bcd89c9e",
+        "locale": "zh",
+        "contentHash": "08587d245afed9e6ddc5978ef27c8bd305d94c9e7086c7e51245f34b81abb356",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/global-hunger-eases-third-year.png"
+      },
+      {
+        "topicId": "72669316-36e7-5a29-b3e6-0b89bcd89c9e",
+        "locale": "en",
+        "contentHash": "50fd7733412448944f014f6077589052629be424e65e826edfe1ce97a5df6568",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/global-hunger-eases-third-year.png"
+      },
+      {
+        "topicId": "b2df0407-7db7-52cf-b356-4c6f14f368ca",
+        "locale": "zh",
+        "contentHash": "2df30fc4b29b5a12f9b620363e410e517b1e1b618b89a9c23571249260e4001f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/microsoft-mistral-european-ai-capacity.png"
+      },
+      {
+        "topicId": "b2df0407-7db7-52cf-b356-4c6f14f368ca",
+        "locale": "en",
+        "contentHash": "fb4a7b008e4a9ae7e6981661c7a3cdafee6bde6f4ab8282f5536fb657374b8d3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/microsoft-mistral-european-ai-capacity.png"
+      },
+      {
+        "topicId": "1b92d859-90c2-5371-880a-c71b4a01c6c5",
+        "locale": "zh",
+        "contentHash": "03eadb08e049dca452a8304c471104ab1234aab7016bf3f3a96c3d40f882eb44",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/openai-small-business-program.png"
+      },
+      {
+        "topicId": "1b92d859-90c2-5371-880a-c71b4a01c6c5",
+        "locale": "en",
+        "contentHash": "a2f2ec7a2593bc56b06a130bf6ab1b67a4791ebb45f77b409207d7094243c332",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/openai-small-business-program.png"
+      },
+      {
+        "topicId": "4c971ffc-ddbd-5d40-8ced-dfab03cf625f",
+        "locale": "zh",
+        "contentHash": "64bfc9f3771757c4a9f651c32ec79473bb7eed3249765964c6c6887e0ab62452",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/putin-north-korea-foreign-minister.png"
+      },
+      {
+        "topicId": "4c971ffc-ddbd-5d40-8ced-dfab03cf625f",
+        "locale": "en",
+        "contentHash": "0559b2623d981c48b8868f9965c279afdf808eec00fee7caeb7448613cebbab1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/putin-north-korea-foreign-minister.png"
+      },
+      {
+        "topicId": "55a6ced1-b9df-5508-b467-d4130e88cb90",
+        "locale": "zh",
+        "contentHash": "96ed7079888d7e5b49e28a9ea1f88fda944b8f9d7257bd3a42f75b1697be740a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/us-additional-tariffs-canada.png"
+      },
+      {
+        "topicId": "55a6ced1-b9df-5508-b467-d4130e88cb90",
+        "locale": "en",
+        "contentHash": "9114a7668e8b45df2dcbc7ec083755f8c03e17f0b45d03ffd8898c78b04d403b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/us-additional-tariffs-canada.png"
+      },
+      {
+        "topicId": "d1257789-7e8a-53cf-a23c-771324df60ce",
+        "locale": "zh",
+        "contentHash": "177043f608ba3d43c2ea406e883fca9c732806e8aa90f944d19d027e6982626a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/europe-wildfires-hail-extreme-weather.png"
+      },
+      {
+        "topicId": "d1257789-7e8a-53cf-a23c-771324df60ce",
+        "locale": "en",
+        "contentHash": "a514940adb57e74dc9e82dc979c036ea59e968c1de46ab24615e9a8ef8a48b69",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/europe-wildfires-hail-extreme-weather.png"
+      },
+      {
+        "topicId": "d2e20dfb-3c45-59e5-862e-e9385f79fc75",
+        "locale": "zh",
+        "contentHash": "699c0cdc051598b01c834bc4933ec3ccad5b725dfbfc63021df723a730b0a434",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/who-global-road-deaths-fall-21-percent.png"
+      },
+      {
+        "topicId": "d2e20dfb-3c45-59e5-862e-e9385f79fc75",
+        "locale": "en",
+        "contentHash": "eaa71f18eeeb4bcb4d83a0c370ee375ee339c5cda094d4c1f81485bca74c958d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/who-global-road-deaths-fall-21-percent.png"
+      },
+      {
+        "topicId": "fcfb35a9-c77c-5ac6-b05b-b2c848bb7eb3",
+        "locale": "zh",
+        "contentHash": "b8319542a1006f75f62a8bff3890c2b5da9c0605194d844a2f2e6ceb28f5ea40",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/zh/nisar-open-satellite-data.png"
+      },
+      {
+        "topicId": "fcfb35a9-c77c-5ac6-b05b-b2c848bb7eb3",
+        "locale": "en",
+        "contentHash": "3c3f20408fd9c78a65bc4c99a88c04a61a030a047977675706e1fe6385cae3dc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260722_af43ef08ff63da9eb7a902b9/en/nisar-open-satellite-data.png"
+      }
+    ]
+  }
+}

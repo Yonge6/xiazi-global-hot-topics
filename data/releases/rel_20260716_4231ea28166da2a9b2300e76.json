@@ -1,0 +1,633 @@
+{
+  "issue": {
+    "id": "issue-2026-07-16",
+    "slug": "2026-07-16",
+    "assetVersion": "rel_20260716_4231ea28166da2a9b2300e76",
+    "style": {
+      "name": "Retrofuturism 复古未来主义",
+      "zhName": "Retrofuturism 复古未来主义",
+      "description": "象牙白、石油蓝、低饱和橙红、青瓷绿和少量黄铜金组成的复古未来主义编辑视觉系统，采用9:18竖版、统一版式骨架与高级印刷质感。"
+    },
+    "issueDate": "2026-07-16",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-16T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-15T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "topic-2026-07-16-01",
+    "topics": [
+      {
+        "id": "topic-2026-07-16-01",
+        "issueId": "issue-2026-07-16",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-overview-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "阿根廷晋级世界杯决赛、苹果智能完成中国备案，一人创业比例继续上升",
+            "headlineView": "能力增长越快，规则、能源与基础设施越需要成为稳定底座。",
+            "headlineFull": "阿根廷晋级世界杯决赛、苹果智能完成中国备案，一人创业比例继续上升；能力增长越快，规则、能源与基础设施越需要成为稳定底座。",
+            "intro": "过去二十四小时，阿根廷在比赛最后阶段逆转英格兰，与西班牙会师世界杯决赛；苹果智能完成中国生成式人工智能服务备案，距离正式落地更近一步；Stripe Atlas 最新数据则显示，一人创业者已占第二季度新设公司近三分之二。\n\n与此同时，美国重新加强对伊朗港口的封锁并扩大空袭；美国据报准备对四千多种巴西商品加征关税；英国首相斯塔默完成最后一次议会答问；美国最大区域电网在高温中连续升级预警；德国计划投入一百三十三亿欧元缓解企业和居民的能源成本。",
+            "xiaziQuote": "个人和技术可以越来越强，但真正长期可靠的增长，必须由规则和基础设施托住。",
+            "doudouQuote": "球队要有替补，创业者要有系统，人工智能要有合规，电网也得有余量。厉害不只是冲得快，还要扛得住。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Overview",
+            "headlineFact": "Argentina reaches the World Cup final, Apple Intelligence completes registration in China, and solo entrepreneurship keeps rising",
+            "headlineView": "the faster capabilities grow, the more rules, energy and infrastructure must provide a stable foundation.",
+            "headlineFull": "Argentina reaches the World Cup final, Apple Intelligence completes registration in China, and solo entrepreneurship keeps rising; the faster capabilities grow, the more rules, energy and infrastructure must provide a stable foundation.",
+            "intro": "Argentina produced a late comeback against England to reach the World Cup final against Spain. Apple Intelligence completed China’s generative-AI service registration, moving closer to a domestic launch. Stripe Atlas data also shows solo founders accounting for nearly two-thirds of second-quarter incorporations.\n\nMeanwhile, the United States renewed pressure on Iranian ports and expanded airstrikes; Washington is reportedly preparing tariffs on more than 4,000 Brazilian products; Keir Starmer completed his final parliamentary questioning session; America’s largest regional grid escalated operational warnings during extreme heat; and Germany outlined €13.3 billion in energy-cost relief.",
+            "xiaziQuote": "People and technologies can become more powerful, yet sustainable growth still depends on rules and infrastructure.",
+            "doudouQuote": "Teams need substitutes, founders need systems, AI needs compliance, and grids need spare capacity. Strength is not only moving fast—it is staying operational.",
+            "footerTakeaway": "Keyword: Global Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-01-1",
+            "topicId": "topic-2026-07-16-01",
+            "title": "Argentina reaches the World Cup final, Apple Intelligence completes registration in China, and solo entrepreneurship keeps rising",
+            "publisher": "Associated Press",
+            "url": "https://apnews.com/article/afa13ed9fa933f8b75bd56eb16546031",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-02",
+        "issueId": "issue-2026-07-16",
+        "slug": "world-cup-england-argentina-semifinal",
+        "rank": 2,
+        "category": "sports",
+        "region": "Global",
+        "countryCodes": [
+          "GB",
+          "AR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-world-cup-england-argentina-semifinal-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯日报",
+            "headlineFact": "阿根廷最后七分钟连进两球逆转英格兰晋级决赛",
+            "headlineView": "真正的冠军气质，是在比赛即将结束时仍然相信还有机会。",
+            "headlineFull": "阿根廷最后七分钟连进两球逆转英格兰晋级决赛；真正的冠军气质，是在比赛即将结束时仍然相信还有机会。",
+            "intro": "北京时间7月15日05:00至7月16日05:00，世界杯共结束1场比赛：7月16日03:00，英格兰1:2阿根廷。英格兰由安东尼·戈登在第55分钟取得领先。第85分钟恩佐·费尔南德斯扳平，劳塔罗·马丁内斯补时绝杀。梅西参与两次关键进攻并助攻制胜球。阿根廷将在决赛对阵西班牙，英格兰将在三四名比赛中迎战法国。窗口内没有其他世界杯比赛完赛。",
+            "xiaziQuote": "落后到第八十五分钟仍然敢于向前，逆转首先是一支球队拒绝提前接受结果。",
+            "doudouQuote": "巨星不一定每场都要亲自进球，两次把球送到最正确的位置，同样可以决定半决赛。",
+            "footerTakeaway": "今日关键词：世界杯日报。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup Daily",
+            "headlineFact": "Argentina scores twice in the final seven minutes to overturn England and reach the final",
+            "headlineView": "championship character means believing an opportunity remains even when the match is almost over.",
+            "headlineFull": "Argentina scores twice in the final seven minutes to overturn England and reach the final; championship character means believing an opportunity remains even when the match is almost over.",
+            "intro": "Only one World Cup match was completed between 05:00 on July 15 and 05:00 on July 16, Beijing time: England 1–2 Argentina at 03:00 on July 16. Anthony Gordon scored in the 55th minute, Enzo Fernández equalized in the 85th, and Lautaro Martínez struck the stoppage-time winner. Lionel Messi was involved in both decisive attacks and assisted the winner. Argentina will face Spain in the final, while England will meet France in the third-place playoff.",
+            "xiaziQuote": "Still attacking while trailing in the 85th minute showed a team refusing to accept the result before the final whistle.",
+            "doudouQuote": "A superstar does not have to score every time. Delivering the ball to the right place twice can decide a semifinal too.",
+            "footerTakeaway": "Keyword: World Cup Daily."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-02-1",
+            "topicId": "topic-2026-07-16-02",
+            "title": "Argentina scores twice in the final seven minutes to overturn England and reach the final",
+            "publisher": "Associated Press",
+            "url": "https://apnews.com/article/afa13ed9fa933f8b75bd56eb16546031",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-03",
+        "issueId": "issue-2026-07-16",
+        "slug": "apple-intelligence-china-registration",
+        "rank": 3,
+        "category": "technology",
+        "region": "Asia",
+        "countryCodes": [
+          "CN",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-apple-intelligence-china-registration-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "人工智能",
+            "headlineFact": "苹果智能完成中国生成式人工智能服务备案",
+            "headlineView": "全球人工智能产品最终都要学会在本地规则中落地。",
+            "headlineFull": "苹果智能完成中国生成式人工智能服务备案；全球人工智能产品最终都要学会在本地规则中落地。",
+            "intro": "中国国家互联网信息办公室公布七款完成备案的手机端侧生成式人工智能服务，其中包括苹果智能。备案意味着该服务跨过了在中国市场落地的重要监管环节，但官方和苹果目前仍未公布具体上线日期。苹果分别与百度和阿里巴巴合作，通义千问模型将参与苹果设备相关能力的本地适配。",
+            "xiaziQuote": "真正的全球产品，不是把同一套答案复制到全世界，而是把核心能力重新装进每个市场的规则和场景里。",
+            "doudouQuote": "模型可以在云端飞得很快，但真正落到用户手机上，还是要先通过本地的门。",
+            "footerTakeaway": "今日关键词：人工智能。"
+          },
+          "en-US": {
+            "categoryLabel": "Artificial Intelligence",
+            "headlineFact": "Apple Intelligence completes China’s generative-AI service registration",
+            "headlineView": "global AI products ultimately have to learn how to operate inside local rules.",
+            "headlineFull": "Apple Intelligence completes China’s generative-AI service registration; global AI products ultimately have to learn how to operate inside local rules.",
+            "intro": "China’s cyberspace regulator listed seven on-device generative-AI services that have completed registration, including Apple Intelligence. The filing clears a major regulatory step toward a mainland China launch, although neither regulators nor Apple announced a release date. Apple has worked with Baidu and Alibaba, with Alibaba’s Qwen model involved in local adaptation for Apple devices.",
+            "xiaziQuote": "A truly global product rebuilds its core capability around local rules, culture and use cases.",
+            "doudouQuote": "A model can fly quickly through the cloud, but before it reaches a user’s phone, it still has to pass through the local gate.",
+            "footerTakeaway": "Keyword: Artificial Intelligence."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-03-1",
+            "topicId": "topic-2026-07-16-03",
+            "title": "Apple Intelligence completes China’s generative-AI service registration",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/technology/apple-intelligence-ai-service-registered-with-chinas-cyberspace-regulator-2026-07-15/",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-04",
+        "issueId": "issue-2026-07-16",
+        "slug": "opc-stripe-atlas-solo-founders",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-opc-stripe-atlas-solo-founders-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 84,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "一人公司",
+            "headlineFact": "Stripe Atlas 第二季度新设公司中一人创业者占百分之六十三",
+            "headlineView": "人工智能降低了开公司的门槛，却没有自动消除增长差距。",
+            "headlineFull": "Stripe Atlas 第二季度新设公司中一人创业者占百分之六十三；人工智能降低了开公司的门槛，却没有自动消除增长差距。",
+            "intro": "Stripe Atlas 数据显示，二〇二六年第二季度迄今，一人创业者占平台新设股份公司的百分之六十三，创历史新高。人工智能原生的一人创业公司在成立两年后的收入接近其他一人创业公司的两倍。但中位数公司前六个月收入同比下降百分之二十三，头部与中位数收入差距扩大至六十一倍。",
+            "xiaziQuote": "人工智能让一个人更容易完成过去一个团队的工作，但真正的壁垒正在转向选题、分销、信任和复购。",
+            "doudouQuote": "一个人能把公司开起来，不等于一个人必须把所有事情都扛到底。会借工具，也要会借人和网络。",
+            "footerTakeaway": "今日关键词：一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo founders account for 63% of second-quarter Stripe Atlas incorporations",
+            "headlineView": "AI lowers the barrier to starting a company, but it does not automatically erase the growth gap.",
+            "headlineFull": "Solo founders account for 63% of second-quarter Stripe Atlas incorporations; AI lowers the barrier to starting a company, but it does not automatically erase the growth gap.",
+            "intro": "Stripe Atlas data shows that solo founders accounted for 63% of C corporations formed through the platform so far in the second quarter of 2026, an all-time high. AI-native solo startups generated almost twice the revenue of other solo-founded companies after two years. Yet median first-six-month revenue fell 23% year over year, while the top-to-median revenue gap expanded to 61 times.",
+            "xiaziQuote": "AI lets one person perform work that once required a team, but the real moat is moving toward problem selection, distribution, trust and retention.",
+            "doudouQuote": "Being able to start a company alone does not mean carrying every problem alone. Great solo founders borrow both tools and networks.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-04-1",
+            "topicId": "topic-2026-07-16-04",
+            "title": "Solo founders account for 63% of second-quarter Stripe Atlas incorporations",
+            "publisher": "Stripe",
+            "url": "https://stripe.com/blog/top-solo-founder-traits",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-05",
+        "issueId": "issue-2026-07-16",
+        "slug": "us-iran-blockade-strikes-july15",
+        "rank": 5,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "US",
+          "IR"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-us-iran-hormuz-blockade-20260715",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "中东局势",
+            "headlineFact": "美国重新封锁伊朗港口并扩大空袭，伊朗威胁限制更多能源航道",
+            "headlineView": "当航道成为武器，能源安全就会变成全世界共同承担的战场。",
+            "headlineFull": "美国重新封锁伊朗港口并扩大空袭，伊朗威胁限制更多能源航道；当航道成为武器，能源安全就会变成全世界共同承担的战场。",
+            "intro": "美国重新实施针对伊朗港口的海上封锁，并对伊朗沿海防御、导弹阵地及相关军事目标发动新一轮打击。美国称行动旨在保护霍尔木兹海峡商业航运，伊朗则将冲突称为关乎生存的战争，并威胁限制其他能源出口路线。航运减少、保险和安全风险上升，已推高部分原油现货价格。",
+            "xiaziQuote": "一条海峡承载的不只是船只，也是能源价格、通胀预期和无数普通家庭的生活成本。",
+            "doudouQuote": "航道一旦变成谈判筹码，最先紧张的不只是军舰，还有油轮、保险公司和市场。",
+            "footerTakeaway": "今日关键词：中东局势。"
+          },
+          "en-US": {
+            "categoryLabel": "Middle East",
+            "headlineFact": "The United States renews its blockade of Iranian ports and expands airstrikes as Iran threatens additional energy routes",
+            "headlineView": "once shipping lanes become weapons, energy security becomes a battlefield shared by the world.",
+            "headlineFull": "The United States renews its blockade of Iranian ports and expands airstrikes as Iran threatens additional energy routes; once shipping lanes become weapons, energy security becomes a battlefield shared by the world.",
+            "intro": "The United States reimposed a maritime blockade targeting Iranian ports and launched strikes against coastal defenses, missile positions and other military targets. Washington said the operations protected commercial navigation through Hormuz. Iran called the confrontation an existential war and threatened other energy routes. Reduced shipping and higher insurance and security risks have lifted some spot crude prices.",
+            "xiaziQuote": "A strait carries more than ships. It carries energy prices, inflation expectations and the living costs of ordinary families.",
+            "doudouQuote": "When a shipping lane becomes a bargaining chip, warships are not the only ones on alert—tankers, insurers and markets are too.",
+            "footerTakeaway": "Keyword: Middle East."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-05-1",
+            "topicId": "topic-2026-07-16-05",
+            "title": "The United States renews its blockade of Iranian ports and expands airstrikes as Iran threatens additional energy routes",
+            "publisher": "Associated Press",
+            "url": "https://apnews.com/article/b7c592f269d822407dd6b5641602bf25",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-06",
+        "issueId": "issue-2026-07-16",
+        "slug": "us-brazil-tariffs-july15",
+        "rank": 6,
+        "category": "business",
+        "region": "Americas",
+        "countryCodes": [
+          "US",
+          "BR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-us-brazil-tariffs-july15-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "美巴贸易",
+            "headlineFact": "美国据报准备对四千多种巴西商品加征百分之二十五关税",
+            "headlineView": "贸易工具一旦卷入主权争议，企业就会先替政治不确定性买单。",
+            "headlineFull": "美国据报准备对四千多种巴西商品加征百分之二十五关税；贸易工具一旦卷入主权争议，企业就会先替政治不确定性买单。",
+            "intro": "据知情人士透露，美国正准备对四千多种巴西商品加征百分之二十五关税，涉及约一百五十亿美元年度出口额，产品包括生铁、乙醇、烟草和糖。牛肉、咖啡及部分航空零部件预计暂时获豁免。巴西否认美国贸易调查中的相关指控，并可能根据最终措施反制。新税率方案截至统计时点仍待正式公布。",
+            "xiaziQuote": "关税表面上写在海关清单里，真正落下去的却是企业利润、消费者价格和双边信任。",
+            "doudouQuote": "一张税率表，往往比一场外交争论更快改变工厂订单和供应链方向。",
+            "footerTakeaway": "今日关键词：美巴贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "U.S.-Brazil Trade",
+            "headlineFact": "The United States is reportedly preparing a 25% tariff on more than 4,000 Brazilian products",
+            "headlineView": "when trade tools become entangled with sovereignty disputes, businesses pay first for political uncertainty.",
+            "headlineFull": "The United States is reportedly preparing a 25% tariff on more than 4,000 Brazilian products; when trade tools become entangled with sovereignty disputes, businesses pay first for political uncertainty.",
+            "intro": "According to people familiar with the plans, Washington is preparing a 25% tariff on more than 4,000 Brazilian products covering roughly $15 billion in annual exports. Pig iron, ethanol, tobacco and sugar would be affected, while beef, coffee and some aircraft components are expected to remain exempt. Brazil rejects the U.S. allegations and may retaliate. The package had not been formally issued at the editorial cutoff.",
+            "xiaziQuote": "Tariffs are written on customs schedules, but their real effects fall on corporate margins, consumer prices and bilateral trust.",
+            "doudouQuote": "A tariff sheet often changes factory orders and supply-chain routes faster than a diplomatic argument does.",
+            "footerTakeaway": "Keyword: U.S.-Brazil Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-06-1",
+            "topicId": "topic-2026-07-16-06",
+            "title": "The United States is reportedly preparing a 25% tariff on more than 4,000 Brazilian products",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/americas/brazil-braces-new-us-tariffs-washington-broadens-trade-push-sources-say-2026-07-15/",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-07",
+        "issueId": "issue-2026-07-16",
+        "slug": "uk-starmer-final-pmqs",
+        "rank": 7,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-uk-starmer-final-pmqs-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 88,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "英国政局",
+            "headlineFact": "斯塔默完成最后一次首相答问，伯纳姆将于下周接棒",
+            "headlineView": "领导人可以有序交接，政策方向却必须重新赢得公众信任。",
+            "headlineFull": "斯塔默完成最后一次首相答问，伯纳姆将于下周接棒；领导人可以有序交接，政策方向却必须重新赢得公众信任。",
+            "intro": "英国首相基尔·斯塔默在议会完成任内最后一次首相答问，并表示自己的政治旅程已经结束。他将在下周一卸任首相，但会继续以普通议员身份留在议会。安迪·伯纳姆已成为工党唯一继任人选。新政府将面对经济增长乏力、公共服务压力、生活成本以及财政空间不足等问题。",
+            "xiaziQuote": "平稳交接只是政治制度的及格线，真正决定新领导人能走多远的，是能否把新叙事变成普通人可感受的变化。",
+            "doudouQuote": "换人只需要一天，修复经济、医疗和信任，可能需要很多年。",
+            "footerTakeaway": "今日关键词：英国政局。"
+          },
+          "en-US": {
+            "categoryLabel": "United Kingdom",
+            "headlineFact": "Keir Starmer completes his final Prime Minister’s Questions before Andy Burnham takes over next week",
+            "headlineView": "leaders can transfer power smoothly, but policy direction must still earn public trust again.",
+            "headlineFull": "Keir Starmer completes his final Prime Minister’s Questions before Andy Burnham takes over next week; leaders can transfer power smoothly, but policy direction must still earn public trust again.",
+            "intro": "Keir Starmer appeared at his final Prime Minister’s Questions and said his political journey had ended. He is due to leave office on Monday, although he plans to remain in Parliament as a backbench member. Andy Burnham has emerged as Labour’s sole successor. His government will inherit weak growth, strained public services, cost-of-living pressure and limited fiscal space.",
+            "xiaziQuote": "An orderly transition is only the baseline. The next leader must turn a new story into change people can actually feel.",
+            "doudouQuote": "Replacing a leader takes a day. Repairing the economy, healthcare and public trust can take years.",
+            "footerTakeaway": "Keyword: United Kingdom."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-07-1",
+            "topicId": "topic-2026-07-16-07",
+            "title": "Keir Starmer completes his final Prime Minister’s Questions before Andy Burnham takes over next week",
+            "publisher": "Associated Press",
+            "url": "https://apnews.com/article/f546582ef86a10fc435c3d33e023a1b0",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-08",
+        "issueId": "issue-2026-07-16",
+        "slug": "pjm-grid-heat-alerts",
+        "rank": 8,
+        "category": "climate",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-pjm-grid-heat-alerts-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "美国电网",
+            "headlineFact": "美国最大区域电网在极端高温下连续升级运行预警",
+            "headlineView": "数字经济不断增加用电需求，电力系统扩建却没有同样快速。",
+            "headlineFull": "美国最大区域电网在极端高温下连续升级运行预警；数字经济不断增加用电需求，电力系统扩建却没有同样快速。",
+            "intro": "覆盖约六千七百万人口的美国最大区域电网运营商连续发布低电压、输电负荷和最大发电能力等预警。空调用电激增，加上部分发电设施停运，使电网晚间高峰压力明显。北弗吉尼亚数据中心密集区域输电拥堵尤其突出，现货电价一度由每兆瓦时约三十美元升至三百美元以上。",
+            "xiaziQuote": "数字世界看起来没有重量，但每一次计算、储存和连接，最后都会变成真实的电力、土地和输电线路。",
+            "doudouQuote": "云端并不是真的飘在天上，它下面有电厂、变压器和一大堆发热的机器。",
+            "footerTakeaway": "今日关键词：美国电网。"
+          },
+          "en-US": {
+            "categoryLabel": "U.S. Power Grid",
+            "headlineFact": "America’s largest regional power grid escalates operational warnings during extreme heat",
+            "headlineView": "digital demand keeps expanding faster than the electricity system supporting it.",
+            "headlineFull": "America’s largest regional power grid escalates operational warnings during extreme heat; digital demand keeps expanding faster than the electricity system supporting it.",
+            "intro": "PJM Interconnection, which serves around 67 million people, issued alerts involving low voltage, heavy transmission loading and maximum generation availability. Surging air-conditioning demand and generation outages placed the system under pressure. Congestion was especially severe around northern Virginia data centers, where spot electricity prices jumped from roughly $30 to more than $300 per megawatt-hour.",
+            "xiaziQuote": "The digital world may look weightless, but every calculation, stored file and connection becomes physical electricity, land and transmission capacity.",
+            "doudouQuote": "The cloud is not actually floating in the sky. Underneath it are power plants, transformers and a lot of very hot machines.",
+            "footerTakeaway": "Keyword: U.S. Power Grid."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-08-1",
+            "topicId": "topic-2026-07-16-08",
+            "title": "America’s largest regional power grid escalates operational warnings during extreme heat",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/energy/largest-us-electric-grid-ramps-up-warnings-amid-hot-temperatures-2026-07-15/",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-16-09",
+        "issueId": "issue-2026-07-16",
+        "slug": "germany-energy-relief-2027",
+        "rank": 9,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-germany-energy-relief-2027-20260716",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 83,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "德国能源",
+            "headlineFact": "德国计划投入一百三十三亿欧元降低二〇二七年能源成本",
+            "headlineView": "补贴能够缓解当下压力，却也会迫使气候资金重新排序。",
+            "headlineFull": "德国计划投入一百三十三亿欧元降低二〇二七年能源成本；补贴能够缓解当下压力，却也会迫使气候资金重新排序。",
+            "intro": "德国政府计划在二〇二七年提供约一百三十三亿欧元能源成本援助，主要来自气候与转型基金。其中约五十五亿欧元用于降低电网费用，五十亿欧元用于电价补偿，二十五亿欧元用于工业电价支持。部分尚未形成承诺的气候项目支出及电动汽车转型支持将被压缩，计划仍需随联邦预算获得议会批准。",
+            "xiaziQuote": "补贴可以买到调整时间，却买不到永久竞争力。真正的答案仍然是更稳定的能源来源和更高效的产业结构。",
+            "doudouQuote": "今天把电费降下来很重要，但也别把明天需要的转型资金全部花光。",
+            "footerTakeaway": "今日关键词：德国能源。"
+          },
+          "en-US": {
+            "categoryLabel": "German Energy",
+            "headlineFact": "Germany plans €13.3 billion in energy-cost relief for 2027",
+            "headlineView": "subsidies can ease immediate pressure, but they also force climate funding to be reprioritized.",
+            "headlineFull": "Germany plans €13.3 billion in energy-cost relief for 2027; subsidies can ease immediate pressure, but they also force climate funding to be reprioritized.",
+            "intro": "Germany plans approximately €13.3 billion in energy relief for 2027, primarily financed through the Climate and Transformation Fund. About €5.5 billion would reduce grid charges, €5 billion would provide electricity-price compensation, and €2.5 billion would support an industrial power-price scheme. Some uncommitted climate spending and electric-vehicle transition support would be trimmed. Parliamentary approval is still required.",
+            "xiaziQuote": "Subsidies can purchase time for adjustment, but permanent competitiveness still requires stable energy and more efficient industry.",
+            "doudouQuote": "Lowering today’s electricity bill matters, but do not spend every euro needed for tomorrow’s transition.",
+            "footerTakeaway": "Keyword: German Energy."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-16-09-1",
+            "topicId": "topic-2026-07-16-09",
+            "title": "Germany plans €13.3 billion in energy-cost relief for 2027",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/energy/german-government-plans-133-billion-energy-relief-package-2027-2026-07-15/",
+            "publishedAt": "2026-07-15T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-16",
+    "releaseId": "rel_20260716_4231ea28166da2a9b2300e76",
+    "assetBatchId": "asset_archive_20260716_4231ea28166da2a9b2300e76",
+    "posters": [
+      {
+        "topicId": "topic-2026-07-16-01",
+        "locale": "zh",
+        "contentHash": "0f6e5fc50f2afea64f74aef2ed09e340250a11b9c112ae9924bbb20bd71f0e58",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/overview.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-01",
+        "locale": "en",
+        "contentHash": "6cb0b2f94a4d58e53f27a4682ae74f2c3a032c425ad9731ecad5c9c009b817a1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/overview.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-02",
+        "locale": "zh",
+        "contentHash": "7cac2c7cf44248c773a19aa922a6c9f69a8f3c43135759fbaf339781f0cd9264",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/world-cup-england-argentina-semifinal.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-02",
+        "locale": "en",
+        "contentHash": "9e3370fef5b26eb0b81d9976624e4c7fb48d35755229bbdf09cc0045b8794dd5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/world-cup-england-argentina-semifinal.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-03",
+        "locale": "zh",
+        "contentHash": "29c771b6189256fd2ad7a0d9073e38bdda3e1bde8ef8c4817ea6d277f851ae04",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/apple-intelligence-china-registration.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-03",
+        "locale": "en",
+        "contentHash": "8a52fd839debccba029c465619b42aa431874eacd8e302162b51c92bb8ff3297",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/apple-intelligence-china-registration.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-04",
+        "locale": "zh",
+        "contentHash": "b00dbf8adf6362e9dfd880c5b1e84f318bc9d55375ea2894693830c2a4a90d08",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/opc-stripe-atlas-solo-founders.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-04",
+        "locale": "en",
+        "contentHash": "7f4d2f9b83d8f321078f13b051c9dc92823ab25665f5c9d6d0a0067e8af87316",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/opc-stripe-atlas-solo-founders.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-05",
+        "locale": "zh",
+        "contentHash": "7e92f0c42e7614885f21e1baab61587867a6245fea27b3dddd7d10ab622e047c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/us-iran-blockade-strikes-july15.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-05",
+        "locale": "en",
+        "contentHash": "e9456363a0afd2c59ec51d2df7a97ce1d0bdcdc144e770e903d20a69c853752b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/us-iran-blockade-strikes-july15.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-06",
+        "locale": "zh",
+        "contentHash": "12e0de7246a9ed874301a30d5bd79d2cbc50ff5a2028ff226683293ce1074161",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/us-brazil-tariffs-july15.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-06",
+        "locale": "en",
+        "contentHash": "f0407d65320feeb338042a1094b858a8f63be6a2e89f5d7dc7591d6809c6681c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/us-brazil-tariffs-july15.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-07",
+        "locale": "zh",
+        "contentHash": "9f4120e962641c7e93f76f05d01851ad87aeff1bff0c99bb9d5b1e2878dd512d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/uk-starmer-final-pmqs.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-07",
+        "locale": "en",
+        "contentHash": "a3b09e1e0ba42436878805e2d264858590b9638cd7d0eaa9634bab9316dabeed",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/uk-starmer-final-pmqs.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-08",
+        "locale": "zh",
+        "contentHash": "3df8bef94313c8bcb11c28a857033024a1ab0d54c8d40b4c6f999b8101ad4048",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/pjm-grid-heat-alerts.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-08",
+        "locale": "en",
+        "contentHash": "c91814926409adadb140400d3f3c6918b295775aa0199762a43ab9c305afa9e5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/pjm-grid-heat-alerts.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-09",
+        "locale": "zh",
+        "contentHash": "efbb18a76b32e234ec4ef9cc4ec55ce917cfa08ab0e5748784d43f4be8d1de51",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/zh/germany-energy-relief-2027.png"
+      },
+      {
+        "topicId": "topic-2026-07-16-09",
+        "locale": "en",
+        "contentHash": "65ce2972f7aec243ceab98c164c1991b5ba1f0c95ec95ff568978c74633b48e2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260716_4231ea28166da2a9b2300e76/en/germany-energy-relief-2027.png"
+      }
+    ]
+  }
+}

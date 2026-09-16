@@ -1,0 +1,639 @@
+{
+  "issue": {
+    "id": "issue-2026-07-13",
+    "slug": "2026-07-13",
+    "assetVersion": "rel_20260713_f5787a9e91d10900fc3b2fcd",
+    "style": {
+      "name": "Claymorphism 黏土风格",
+      "zhName": "Claymorphism 黏土风格",
+      "description": "Claymorphism 黏土风格 visual system for Xiazi global hot topics posters."
+    },
+    "issueDate": "2026-07-13",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-13T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-12T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "issue-2026-07-13-topic-01",
+    "topics": [
+      {
+        "id": "issue-2026-07-13-topic-01",
+        "issueId": "issue-2026-07-13",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "xzs-overview-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "英格兰、阿根廷会师四强，霍尔木兹再度牵动油价，AI、芯片和海上安全同时成为全球焦点",
+            "headlineView": "真正重要的是后续影响如何扩散",
+            "headlineFull": "英格兰、阿根廷会师四强，霍尔木兹再度牵动油价，AI、芯片和海上安全同时成为全球焦点；真正重要的是后续影响如何扩散。",
+            "intro": "过去24小时，世界杯进入四强拼图：英格兰加时2:1淘汰挪威，阿根廷加时3:1击败十人瑞士，两队将在半决赛相遇。场外，美伊冲突推高油价，霍尔木兹航道再度牵动全球市场；俄方称乌克兰无人机击中亚速海油轮；欧洲热浪超额死亡数据升至1万人以上；14国联合重申中国南海主张无法律依据；Apple起诉OpenAI窃取商业秘密；以色列确认10月27日举行大选；Micron把美国投资计划提高到2500亿美元。",
+            "xiaziQuote": "今天的主线很清楚：球场决定晋级，现实世界决定风险定价。谁控制航道、芯片、规则和叙事，谁就更接近下一轮主动权。",
+            "doudouQuote": "世界杯踢加时，油价也在加时，AI公司还在打官司——今天世界真的很会“补时”。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Overview",
+            "headlineFact": "英格兰、阿根廷会师四强，霍尔木兹再度牵动油价，AI、芯片和海上安全同时成为全球焦点",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "英格兰、阿根廷会师四强，霍尔木兹再度牵动油价，AI、芯片和海上安全同时成为全球焦点; the real test is what happens next.",
+            "intro": "England and Argentina moved into the World Cup semi-finals, while U.S.-Iran tensions again pushed oil and markets higher. Russia said a Ukrainian drone hit a tanker in the Sea of Azov, Europe reported more than 10,000 excess deaths from the heatwave, 14 countries rejected China’s South China Sea claims, Apple sued OpenAI, Israel set an October election date, and Micron expanded its U.S. chip investment plan.",
+            "xiaziQuote": "今天的主线很清楚：球场决定晋级，现实世界决定风险定价。谁控制航道、芯片、规则和叙事，谁就更接近下一轮主动权。",
+            "doudouQuote": "世界杯踢加时，油价也在加时，AI公司还在打官司——今天世界真的很会“补时”。",
+            "footerTakeaway": "Keyword: Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-01-source-1",
+            "topicId": "issue-2026-07-13-topic-01",
+            "title": "Reuters",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-02",
+        "issueId": "issue-2026-07-13",
+        "slug": "world-cup-july13-quarterfinals",
+        "rank": 2,
+        "category": "sports",
+        "region": "Global",
+        "countryCodes": [
+          "NO",
+          "GB",
+          "AR",
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-world-cup-july13-quarterfinals-20260713",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯日报",
+            "headlineFact": "英格兰加时淘汰挪威，阿根廷加时击败瑞士",
+            "headlineView": "四强门票，从来不是给最轻松的球队，而是给最能熬的球队。",
+            "headlineFull": "英格兰加时淘汰挪威，阿根廷加时击败瑞士；四强门票，从来不是给最轻松的球队，而是给最能熬的球队。",
+            "intro": "北京时间7月12日05:00至7月13日05:00，世界杯完成2场四分之一决赛：英格兰2:1加时击败挪威，贝林厄姆包办两球，并在加时赛完成制胜；阿根廷3:1加时击败十人瑞士，比赛常规时间1:1，阿尔瓦雷斯第112分钟远射破局，劳塔罗第121分钟补射锁定胜局。英格兰与阿根廷将在半决赛相遇。([Reuters][1])",
+            "xiaziQuote": "淘汰赛越往后，技术只是底盘，真正决定命运的是抗压能力。能把比赛拖进加时还能出刀，才是冠军相。",
+            "doudouQuote": "贝林厄姆和阿根廷都像开了“最后十分钟加强包”，对手熬到加时还得继续挨打。",
+            "footerTakeaway": "今日关键词：世界杯日报。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup",
+            "headlineFact": "英格兰加时淘汰挪威，阿根廷加时击败瑞士；四强门票，从来不是给最轻松的球队，而是给最能熬的球队",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "英格兰加时淘汰挪威，阿根廷加时击败瑞士；四强门票，从来不是给最轻松的球队，而是给最能熬的球队; the real test is what happens next.",
+            "intro": "England beat Norway 2–1 after extra time, with Jude Bellingham scoring both goals, while Argentina defeated 10-man Switzerland 3–1 after extra time. Argentina and England will meet in the World Cup semi-finals.",
+            "xiaziQuote": "淘汰赛越往后，技术只是底盘，真正决定命运的是抗压能力。能把比赛拖进加时还能出刀，才是冠军相。",
+            "doudouQuote": "贝林厄姆和阿根廷都像开了“最后十分钟加强包”，对手熬到加时还得继续挨打。",
+            "footerTakeaway": "Keyword: World Cup."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-02-source-1",
+            "topicId": "issue-2026-07-13-topic-02",
+            "title": "Reuters World Cup match reports",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-03",
+        "issueId": "issue-2026-07-13",
+        "slug": "us-iran-hormuz-escalation-july13",
+        "rank": 3,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "US",
+          "IR",
+          "OM"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-us-iran-hormuz-escalation-july13-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "中东能源",
+            "headlineFact": "美伊再度升级推高油价，霍尔木兹航道成为全球市场按钮",
+            "headlineView": "世界经济有时候就卡在一条海峡上。",
+            "headlineFull": "美伊再度升级推高油价，霍尔木兹航道成为全球市场按钮；世界经济有时候就卡在一条海峡上。",
+            "intro": "美伊军事冲突再度升级后，油价上涨超过3%。路透社称，伊朗扩大对海湾国家的打击并声称关闭霍尔木兹海峡，美国则称该航道仍对商业交通开放。霍尔木兹是全球能源运输关键通道，船舶通行下降和攻击风险让市场重新担心通胀、利率和供应链压力。([Reuters][2])",
+            "xiaziQuote": "能源安全最可怕的地方，是它看起来离普通人很远，最后却会变成油价、运费、物价和利率。",
+            "doudouQuote": "一条海峡打个喷嚏，全球市场就开始感冒。",
+            "footerTakeaway": "今日关键词：中东能源。"
+          },
+          "en-US": {
+            "categoryLabel": "U.S.-Iran",
+            "headlineFact": "美伊再度升级推高油价，霍尔木兹航道成为全球市场按钮；世界经济有时候就卡在一条海峡上",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "美伊再度升级推高油价，霍尔木兹航道成为全球市场按钮；世界经济有时候就卡在一条海峡上; the real test is what happens next.",
+            "intro": "Oil prices rose more than 3% after renewed U.S.-Iran escalation. Iran claimed it had closed the Strait of Hormuz, while Trump said the waterway remained open to commercial traffic. The dispute revived concerns over inflation, interest rates and global energy supply.",
+            "xiaziQuote": "能源安全最可怕的地方，是它看起来离普通人很远，最后却会变成油价、运费、物价和利率。",
+            "doudouQuote": "一条海峡打个喷嚏，全球市场就开始感冒。",
+            "footerTakeaway": "Keyword: U.S.-Iran."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-03-source-1",
+            "topicId": "issue-2026-07-13-topic-03",
+            "title": "Reuters",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-04",
+        "issueId": "issue-2026-07-13",
+        "slug": "ukraine-azov-tanker",
+        "rank": 4,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "UA",
+          "RU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-ukraine-azov-tanker-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "俄乌战争",
+            "headlineFact": "俄方称乌克兰无人机击中亚速海油轮",
+            "headlineView": "战争正在从陆地前线，继续外溢到能源和航运通道。",
+            "headlineFull": "俄方称乌克兰无人机击中亚速海油轮；战争正在从陆地前线，继续外溢到能源和航运通道。",
+            "intro": "俄罗斯罗斯托夫州州长称，一架乌克兰无人机击中一艘正进入亚速—黑海运河的油轮。路透社报道目前这是俄方说法，乌方未在报道中同步确认。此前俄乌双方已多次把远程打击扩大到能源、港口、炼油和物流设施。亚速海与黑海通道的任何紧张，都可能进一步放大区域能源与航运风险。([Reuters][3])",
+            "xiaziQuote": "现代战争不是只看前线推进多少公里，也要看后方的油轮、港口、仓库和电网还能不能正常工作。",
+            "doudouQuote": "以前打仗看坦克，现在还得看油轮和运河，地图都快不够用了。",
+            "footerTakeaway": "今日关键词：俄乌战争。"
+          },
+          "en-US": {
+            "categoryLabel": "Russia-Ukraine",
+            "headlineFact": "俄方称乌克兰无人机击中亚速海油轮；战争正在从陆地前线，继续外溢到能源和航运通道",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "俄方称乌克兰无人机击中亚速海油轮；战争正在从陆地前线，继续外溢到能源和航运通道; the real test is what happens next.",
+            "intro": "Russia said a Ukrainian drone struck a tanker entering the Azov-Black Sea Canal. Reuters reported the claim from Russia’s Rostov governor, while Ukraine had not confirmed it in the report. The incident highlights how the war continues to spill into energy and shipping infrastructure.",
+            "xiaziQuote": "现代战争不是只看前线推进多少公里，也要看后方的油轮、港口、仓库和电网还能不能正常工作。",
+            "doudouQuote": "以前打仗看坦克，现在还得看油轮和运河，地图都快不够用了。",
+            "footerTakeaway": "Keyword: Russia-Ukraine."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-04-source-1",
+            "topicId": "issue-2026-07-13-topic-04",
+            "title": "Reuters",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-05",
+        "issueId": "issue-2026-07-13",
+        "slug": "europe-heatwave-excess-deaths",
+        "rank": 5,
+        "category": "climate",
+        "region": "East Asia",
+        "countryCodes": [
+          "CN",
+          "TW",
+          "JP",
+          "PH"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-europe-heatwave-excess-deaths-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲热浪",
+            "headlineFact": "欧洲晚6月热浪超额死亡超过1万人",
+            "headlineView": "气候变化最残酷的地方，是它会先找最脆弱的人下手。",
+            "headlineFull": "欧洲晚6月热浪超额死亡超过1万人；气候变化最残酷的地方，是它会先找最脆弱的人下手。",
+            "intro": "路透社援引EuroMOMO数据称，欧洲国家在6月下旬破纪录热浪期间报告超过1万例超额死亡，其中9000多例发生在65岁以上人群。该监测网络由欧洲疾控中心和世卫组织支持。专家表示，这类异常高的死亡很难用极端高温之外的因素解释，而气候变化正在让热浪更频繁、更强烈。([Reuters][4])",
+            "xiaziQuote": "热浪不是“天气热一点”，而是医疗、养老、电力、住房和城市治理一起接受压力测试。",
+            "doudouQuote": "夏天已经不是靠一杯冰饮能解决的问题了，城市也得学会防暑。",
+            "footerTakeaway": "今日关键词：欧洲热浪。"
+          },
+          "en-US": {
+            "categoryLabel": "Typhoon Bavi",
+            "headlineFact": "欧洲晚6月热浪超额死亡超过1万人；气候变化最残酷的地方，是它会先找最脆弱的人下手",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "欧洲晚6月热浪超额死亡超过1万人；气候变化最残酷的地方，是它会先找最脆弱的人下手; the real test is what happens next.",
+            "intro": "European countries reported more than 10,000 excess deaths during the late-June heatwave, with over 9,000 among people aged 65 and above, according to EuroMOMO data cited by Reuters. Experts linked the spike primarily to extreme heat.",
+            "xiaziQuote": "热浪不是“天气热一点”，而是医疗、养老、电力、住房和城市治理一起接受压力测试。",
+            "doudouQuote": "夏天已经不是靠一杯冰饮能解决的问题了，城市也得学会防暑。",
+            "footerTakeaway": "Keyword: Typhoon Bavi."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-05-source-1",
+            "topicId": "issue-2026-07-13-topic-05",
+            "title": "Reuters、EuroMOMO、WHO/ECDC相关数据",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-06",
+        "issueId": "issue-2026-07-13",
+        "slug": "south-china-sea-joint-statement",
+        "rank": 6,
+        "category": "climate",
+        "region": "South Asia",
+        "countryCodes": [
+          "BD"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-south-china-sea-joint-statement-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "南海局势",
+            "headlineFact": "14国联合声明称中国南海主张没有法律依据",
+            "headlineView": "海上的线画在哪里，背后是规则、资源和军力一起较劲。",
+            "headlineFull": "14国联合声明称中国南海主张没有法律依据；海上的线画在哪里，背后是规则、资源和军力一起较劲。",
+            "intro": "在2016年南海仲裁案裁决10周年之际，日本、菲律宾、美国等14国发表联合声明，重申中国在南海的广泛海洋主张没有法律依据。中国长期拒绝接受该裁决，并批评外部势力介入。此事凸显南海争议并未降温，反而随着菲律宾、日本、美国等安全合作增强，变得更具区域联动性。([Reuters][5])",
+            "xiaziQuote": "南海问题表面是海域争端，深层是国际规则能不能约束大国行为。",
+            "doudouQuote": "海上不是画线游戏，每一条线后面都是军舰、渔船、保险和外交口水。",
+            "footerTakeaway": "今日关键词：南海局势。"
+          },
+          "en-US": {
+            "categoryLabel": "Bangladesh Floods",
+            "headlineFact": "14国联合声明称中国南海主张没有法律依据；海上的线画在哪里，背后是规则、资源和军力一起较劲",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "14国联合声明称中国南海主张没有法律依据；海上的线画在哪里，背后是规则、资源和军力一起较劲; the real test is what happens next.",
+            "intro": "Fourteen countries, including Japan, the Philippines and the United States, issued a joint statement marking the 10th anniversary of the 2016 South China Sea arbitration ruling, saying China’s sweeping maritime claims have no legal basis. Beijing rejects the ruling.",
+            "xiaziQuote": "南海问题表面是海域争端，深层是国际规则能不能约束大国行为。",
+            "doudouQuote": "海上不是画线游戏，每一条线后面都是军舰、渔船、保险和外交口水。",
+            "footerTakeaway": "Keyword: Bangladesh Floods."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-06-source-1",
+            "topicId": "issue-2026-07-13-topic-06",
+            "title": "Reuters、Permanent Court of Arbitration背景资料",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-07",
+        "issueId": "issue-2026-07-13",
+        "slug": "apple-openai-trade-secrets",
+        "rank": 7,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-apple-openai-trade-secrets-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI与商业机密",
+            "headlineFact": "Apple起诉OpenAI及两名前员工窃取商业秘密",
+            "headlineView": "AI硬件竞争开始从发布会，打到法院里。",
+            "headlineFull": "Apple起诉OpenAI及两名前员工窃取商业秘密；AI硬件竞争开始从发布会，打到法院里。",
+            "intro": "Apple在美国加州北区联邦法院起诉OpenAI及两名前员工，指控其为推进消费硬件业务而不当获取Apple商业秘密。Apple称，相关员工在加入OpenAI前后接触并带走了供应链、硬件和内部系统信息。OpenAI已向硬件方向扩张，这起诉讼显示AI巨头与消费电子巨头的竞争，正在从模型能力延伸到设备、供应链与人才流动。([Reuters][6])",
+            "xiaziQuote": "AI下半场不只拼模型，也拼入口、硬件、供应链和生态闭环。谁想做新设备，就会碰到旧巨头的护城河。",
+            "doudouQuote": "以前是“你抄我设计”，现在是“你带走我的AI硬件秘密”——科技圈宫斗升级了。",
+            "footerTakeaway": "今日关键词：AI与商业机密。"
+          },
+          "en-US": {
+            "categoryLabel": "AI and Privacy",
+            "headlineFact": "Apple起诉OpenAI及两名前员工窃取商业秘密；AI硬件竞争开始从发布会，打到法院里",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "Apple起诉OpenAI及两名前员工窃取商业秘密；AI硬件竞争开始从发布会，打到法院里; the real test is what happens next.",
+            "intro": "Apple sued OpenAI and two former employees, alleging trade secret theft tied to OpenAI’s consumer hardware ambitions. The case shows how AI competition is moving beyond models into devices, supply chains and talent wars.",
+            "xiaziQuote": "AI下半场不只拼模型，也拼入口、硬件、供应链和生态闭环。谁想做新设备，就会碰到旧巨头的护城河。",
+            "doudouQuote": "以前是“你抄我设计”，现在是“你带走我的AI硬件秘密”——科技圈宫斗升级了。",
+            "footerTakeaway": "Keyword: AI and Privacy."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-07-source-1",
+            "topicId": "issue-2026-07-13-topic-07",
+            "title": "Reuters、美国联邦法院文件",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-08",
+        "issueId": "issue-2026-07-13",
+        "slug": "israel-election-october27",
+        "rank": 8,
+        "category": "international",
+        "region": "Southeast Asia",
+        "countryCodes": [
+          "ID"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-israel-election-october27-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "以色列政治",
+            "headlineFact": "以色列确认10月27日举行大选",
+            "headlineView": "战争之后的选票，往往比战前更难预测。",
+            "headlineFull": "以色列确认10月27日举行大选；战争之后的选票，往往比战前更难预测。",
+            "intro": "以色列执政联盟负责人称，以色列全国大选将于2026年10月27日举行。这将是2023年哈马斯袭击及随后加沙、黎巴嫩、伊朗等多线冲突后的首次全国选举。内塔尼亚胡长期执政，但其安全形象在战争后受到冲击。民调显示执政联盟可能面临压力，不过反对派能否形成稳定政府仍不确定。([Reuters][7])",
+            "xiaziQuote": "战争会改变选民对“安全”的定义。以前能带来安全感的人，战争之后也可能被要求解释为什么没能守住安全。",
+            "doudouQuote": "选举像期末考试，问题是这次考试范围包括好几场战争。",
+            "footerTakeaway": "今日关键词：以色列政治。"
+          },
+          "en-US": {
+            "categoryLabel": "Indonesia Anti-Graft",
+            "headlineFact": "以色列确认10月27日举行大选；战争之后的选票，往往比战前更难预测",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "以色列确认10月27日举行大选；战争之后的选票，往往比战前更难预测; the real test is what happens next.",
+            "intro": "Israel will hold its national election on October 27, 2026, according to coalition head Ofir Katz. It will be the first election since the 2023 Hamas attack and the subsequent conflicts involving Gaza, Lebanon and Iran.",
+            "xiaziQuote": "战争会改变选民对“安全”的定义。以前能带来安全感的人，战争之后也可能被要求解释为什么没能守住安全。",
+            "doudouQuote": "选举像期末考试，问题是这次考试范围包括好几场战争。",
+            "footerTakeaway": "Keyword: Indonesia Anti-Graft."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-08-source-1",
+            "topicId": "issue-2026-07-13-topic-08",
+            "title": "Reuters",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "issue-2026-07-13-topic-09",
+        "issueId": "issue-2026-07-13",
+        "slug": "micron-us-investment-250b",
+        "rank": 9,
+        "category": "international",
+        "region": "Indo-Pacific",
+        "countryCodes": [
+          "IN",
+          "NZ"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-micron-us-investment-250b-20260713",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "芯片产业",
+            "headlineFact": "Micron把美国投资计划提高到2500亿美元",
+            "headlineView": "AI热潮正在把芯片公司变成国家工业战略的一部分。",
+            "headlineFull": "Micron把美国投资计划提高到2500亿美元；AI热潮正在把芯片公司变成国家工业战略的一部分。",
+            "intro": "Micron宣布将2035年前美国投资计划提高到2500亿美元，高于此前上调后的2000亿美元方案。路透社称，这一计划受到AI相关存储芯片需求和美国推动本土半导体制造的双重驱动，涉及纽约、爱达荷、弗吉尼亚等地扩产，并预计创造大量就业。AI时代的算力竞争，正在变成资本、土地、电力和供应链的长期战。([Reuters][8])",
+            "xiaziQuote": "AI不是云端魔法，它背后是工厂、晶圆、电力、资本开支和十年级别的产业下注。",
+            "doudouQuote": "大家嘴上说AI很轻，结果一看账单：2500亿美元，重得很。\n\n[1]: https://www.reuters.com/sports/soccer/norway-coach-convinced-ball-hit-cable-before-england-goal-quarter-final-2026-07-12/?utm_source=chatgpt.com \"Norway coach convinced ball hit cable before England goal in quarter-final\"\n[2]: https://www.reuters.com/business/energy/oil-jumps-more-than-3-after-us-iran-launch-strikes-mideast-2026-07-12/?utm_source=chatgpt.com \"Oil jumps 3% after US, Iran escalate strikes in Mideast\"\n[3]: https://www.reuters.com/world/europe/russia-says-ukraine-struck-tanker-sea-azov-2026-07-12/?utm_source=chatgpt.com \"Russia says Ukraine struck tanker in Sea of Azov\"\n[4]: https://www.reuters.com/business/environment/europe-recorded-10000-excess-deaths-during-late-june-heatwave-data-show-2026-07-12/?utm_source=chatgpt.com \"Europe recorded 10,000 excess deaths during late-June heatwave, data show\"\n[5]: https://www.reuters.com/world/china/south-china-sea-joint-statement-says-chinas-maritime-claims-have-no-basis-2026-07-12/?utm_source=chatgpt.com \"South China Sea joint statement says China's maritime claims have no basis\"\n[6]: https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/?utm_source=chatgpt.com \"Apple sues OpenAI, two former employees for trade secrets theft\"\n[7]: https://www.reuters.com/world/middle-east/israels-election-will-be-held-october-27-coalition-head-says-2026-07-12/?utm_source=chatgpt.com \"Israel's election will be held on October 27, coalition head says\"\n[8]: https://www.reuters.com/business/micron-invest-up-3-billion-us-chip-supply-chain-2026-07-09/?utm_source=chatgpt.com \"Micron boosts US investment plan again, commits $250 billion through 2035\"",
+            "footerTakeaway": "今日关键词：芯片产业。"
+          },
+          "en-US": {
+            "categoryLabel": "Indo-Pacific",
+            "headlineFact": "Micron把美国投资计划提高到2500亿美元；AI热潮正在把芯片公司变成国家工业战略的一部分",
+            "headlineView": "the real test is what happens next",
+            "headlineFull": "Micron把美国投资计划提高到2500亿美元；AI热潮正在把芯片公司变成国家工业战略的一部分; the real test is what happens next.",
+            "intro": "Micron raised its U.S. investment plan to more than $250 billion through 2035, driven by AI-related memory demand and U.S. efforts to strengthen domestic semiconductor manufacturing. The plan includes major expansions across several states.",
+            "xiaziQuote": "AI不是云端魔法，它背后是工厂、晶圆、电力、资本开支和十年级别的产业下注。",
+            "doudouQuote": "大家嘴上说AI很轻，结果一看账单：2500亿美元，重得很。\n\n[1]: https://www.reuters.com/sports/soccer/norway-coach-convinced-ball-hit-cable-before-england-goal-quarter-final-2026-07-12/?utm_source=chatgpt.com \"Norway coach convinced ball hit cable before England goal in quarter-final\"\n[2]: https://www.reuters.com/business/energy/oil-jumps-more-than-3-after-us-iran-launch-strikes-mideast-2026-07-12/?utm_source=chatgpt.com \"Oil jumps 3% after US, Iran escalate strikes in Mideast\"\n[3]: https://www.reuters.com/world/europe/russia-says-ukraine-struck-tanker-sea-azov-2026-07-12/?utm_source=chatgpt.com \"Russia says Ukraine struck tanker in Sea of Azov\"\n[4]: https://www.reuters.com/business/environment/europe-recorded-10000-excess-deaths-during-late-june-heatwave-data-show-2026-07-12/?utm_source=chatgpt.com \"Europe recorded 10,000 excess deaths during late-June heatwave, data show\"\n[5]: https://www.reuters.com/world/china/south-china-sea-joint-statement-says-chinas-maritime-claims-have-no-basis-2026-07-12/?utm_source=chatgpt.com \"South China Sea joint statement says China's maritime claims have no basis\"\n[6]: https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/?utm_source=chatgpt.com \"Apple sues OpenAI, two former employees for trade secrets theft\"\n[7]: https://www.reuters.com/world/middle-east/israels-election-will-be-held-october-27-coalition-head-says-2026-07-12/?utm_source=chatgpt.com \"Israel's election will be held on October 27, coalition head says\"\n[8]: https://www.reuters.com/business/micron-invest-up-3-billion-us-chip-supply-chain-2026-07-09/?utm_source=chatgpt.com \"Micron boosts US investment plan again, commits $250 billion through 2035\"",
+            "footerTakeaway": "Keyword: Indo-Pacific."
+          }
+        },
+        "sources": [
+          {
+            "id": "issue-2026-07-13-topic-09-source-1",
+            "topicId": "issue-2026-07-13-topic-09",
+            "title": "Reuters、Micron公司公告",
+            "publisher": "ChatGPT cited sources",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-13",
+    "releaseId": "rel_20260713_f5787a9e91d10900fc3b2fcd",
+    "assetBatchId": "asset_archive_20260713_f5787a9e91d10900fc3b2fcd",
+    "posters": [
+      {
+        "topicId": "issue-2026-07-13-topic-01",
+        "locale": "zh",
+        "contentHash": "5e8f5b68bb52b0a15a9a6f2f094c08f88705b7a982606d456dc4ce724ba60344",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/overview.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-01",
+        "locale": "en",
+        "contentHash": "ae649c2670a42ed2a2e53e094e90cd7a0c253634a1f847f20e729b9af02b3c63",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/overview.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-02",
+        "locale": "zh",
+        "contentHash": "66e9f7482b096d4a4995890acfb1fcbcaf39af53f39a7ce530e6f1fd91917c7f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/world-cup-july13-quarterfinals.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-02",
+        "locale": "en",
+        "contentHash": "16376fe904748a70c8bf7a0323fd40a4131aa7260e4c087c42aea13fcc519ce1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/world-cup-july13-quarterfinals.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-03",
+        "locale": "zh",
+        "contentHash": "4b73f11c5586dde50cee4f62f89af5b43e0671d808a1eabebca57c71ae377224",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/us-iran-hormuz-escalation-july13.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-03",
+        "locale": "en",
+        "contentHash": "d3c7386baadce5899803eb82a893e45cc8b0b2575f9e9ab6151b42b98bd06813",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/us-iran-hormuz-escalation-july13.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-04",
+        "locale": "zh",
+        "contentHash": "0db2fe734bca4f222e5dd1b7ee9042495b998023a46d02547a6675856da68391",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/ukraine-azov-tanker.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-04",
+        "locale": "en",
+        "contentHash": "fbd74905e6befe4b231f8d288b84cceda6d41ce8ed6a25ecf026f540bd84adb7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/ukraine-azov-tanker.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-05",
+        "locale": "zh",
+        "contentHash": "02706d9fbd9ecbacc0dc59fea0b74e9f72f12f187a438bdae1412293ef1cbead",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/europe-heatwave-excess-deaths.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-05",
+        "locale": "en",
+        "contentHash": "a3d06c2b3af80c6b7679a4ce3aad7ebc4bde9875c6b1057b56148e6b6c869566",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/europe-heatwave-excess-deaths.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-06",
+        "locale": "zh",
+        "contentHash": "e5fb7c729e2f219f7fc485c52b6fd172dd064375efb116b43e3bdd9b78f6ca51",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/south-china-sea-joint-statement.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-06",
+        "locale": "en",
+        "contentHash": "69ac494fed44fdcf696a06c310c97b7be598ac8285c8f32a4c6d8af0c0cfd0f6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/south-china-sea-joint-statement.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-07",
+        "locale": "zh",
+        "contentHash": "7a772dce09cdc8fb211867feb8f1c145694222342f3a54a41717c85a5013c5b2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/apple-openai-trade-secrets.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-07",
+        "locale": "en",
+        "contentHash": "dc53dcc953149b3281ea87272c22dfd60bb2fdb22f8469111e9939521e0b6cb1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/apple-openai-trade-secrets.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-08",
+        "locale": "zh",
+        "contentHash": "5d35ff551718b4fe34f98ea588512835d246f3babd243f672c4794ada0f9e9ee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/israel-election-october27.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-08",
+        "locale": "en",
+        "contentHash": "db8a6e9defebc598d04f42d3b1d0394b8ba653146bba7acf322ca12621d492f2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/israel-election-october27.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-09",
+        "locale": "zh",
+        "contentHash": "2d76fc37f51637b7b614d564071da1bb96431c259aef8ea341b2ea024fc00efe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/micron-us-investment-250b.png"
+      },
+      {
+        "topicId": "issue-2026-07-13-topic-09",
+        "locale": "en",
+        "contentHash": "ad73ce2d02709196c4f85060c5579271493f49aef1dbcbf5fa1ef7abd82846ce",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/micron-us-investment-250b.png"
+      }
+    ]
+  }
+}

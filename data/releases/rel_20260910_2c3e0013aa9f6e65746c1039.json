@@ -1,0 +1,710 @@
+{
+  "issue": {
+    "id": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+    "slug": "2026-09-10",
+    "assetVersion": "rel_20260910_2c3e0013aa9f6e65746c1039",
+    "style": {
+      "name": "Graphic Brutalism",
+      "zhName": "粗野主义视觉语汇",
+      "description": "Style Atlas daily pick: Graphic Brutalism. Use raw editorial energy, oversized condensed typography, hard black rules, torn-paper or stamped textures, blunt geometric blocks, off-register accents and a restrained black, off-white, signal-red and cobalt palette. Keep the information density about 20% lower than older editions: one main conclusion, no more than three key facts or numbers, 3-5 clear modules, larger labels and generous whitespace. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: it must contain exactly eight numbered one-sentence summaries of NO.02-NO.09 in a natural flowing composition, never a rigid grid, table, equal cards, dense borders or full-screen dashboard; use a central Earth or narrative scene with eight uneven orbital or torn-paper information ribbons and preserve the same composition in Chinese and English."
+    },
+    "issueDate": "2026-09-10",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-09-10T05:00:00+08:00",
+    "gmtTimestamp": "2026-09-09T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+    "topics": [
+      {
+        "id": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "today-overview-customs-ai-energy-climate",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "全球经营雷达：关务、AI突破与风险重估",
+            "headlineView": "先抓合规时间表，再看智能体产能与外部冲击",
+            "headlineFull": "全球经营雷达：关务、AI突破与风险重估；先抓合规时间表，再看智能体产能与外部冲击",
+            "intro": "1. 欧盟海关改革把境外电商平台列为进口方，并将于11月1日前引入小包裹处理费。 2. OpenAI公布经Lean形式化的纳维－斯托克斯奇点证明，AI科研能力从基准测试迈向开放难题。 3. OpenAI称其研究组织每个自然人工作日已配合3.1个智能体工作日，一人公司要按完成任务而非消息数衡量产能。 4. 伊朗冲突升级推动布伦特原油重返每桶100美元上方，运输与通胀压力同步上升。 5. 国际原子能机构理事会二十年来首次将伊朗问题提交安理会，制裁与外交不确定性增加。 6. 喀拉喀托之子火山喷发扰乱数千架次航班，跨境团队需要同步准备航空物流与人员预案。 7. 全球商业活动升至27个月高位，但增长越来越集中于AI与能源相关经济体。 8. 联合国环境署估算气候与清洁空气协同行动每投入1美元可产生约15美元经济收益。",
+            "xiaziQuote": "八条变化，先按合规、产能和冲击排序。",
+            "doudouQuote": "每条一句，今天只抓最关键动作。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today Overview",
+            "headlineFact": "Global operating radar: customs, AI breakthroughs and repriced risk",
+            "headlineView": "Track compliance deadlines, agent capacity and external shocks first",
+            "headlineFull": "Global operating radar: customs, AI breakthroughs and repriced risk; Track compliance deadlines, agent capacity and external shocks first",
+            "intro": "1. The EU customs overhaul makes non-EU platforms the importer and adds a small-parcel handling fee by November 1. 2. OpenAI released a Lean-formalized Navier-Stokes singularity proof, moving AI research beyond benchmark tasks. 3. OpenAI says its research organization now pairs each human workday with 3.1 agent-workdays, so solopreneurs should measure completed tasks rather than messages. 4. Escalation around Iran pushed Brent crude back above $100 a barrel, lifting transport and inflation pressure together. 5. The IAEA board referred Iran to the UN Security Council for the first time in twenty years, increasing sanctions and diplomatic uncertainty. 6. Anak Krakatau's eruption disrupted thousands of flights, making air-logistics and staff-continuity plans urgent for cross-border teams. 7. Global business activity reached a 27-month high, but growth is increasingly concentrated in AI- and energy-linked economies. 8. UNEP estimates that every $1 invested in joined-up climate and clean-air action can generate about $15 in economic benefits.",
+            "xiaziQuote": "Sort eight shifts by compliance, capacity and shock.",
+            "doudouQuote": "One sentence each, then act on the biggest move.",
+            "footerTakeaway": "Keyword: Today Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "7861c643-2c66-54b7-89c4-84b6b3b0a21f",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "EU customs: Council greenlights landmark reform",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=EU+customs+Council+landmark+reform+small+parcel+fee+November+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "e92305bf-816e-5f2f-93d0-f50954bc98d2",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "OpenAI model proposes a solution to the Navier-Stokes problem",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=OpenAI+Navier+Stokes+solution+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "29e922c3-2ce6-5ba3-a733-8b05f507c8d4",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "The Work Now Within Reach",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=OpenAI+3.1+agent+workdays+human+workday&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "17eb77ac-e8f5-5e28-94d6-8416513578dc",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "Oil prices jump back above $100 after Iran war escalates",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Brent+oil+100+Iran+Hormuz+September+9+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "acf68c6a-32f8-50ea-b6ed-3c50e2126431",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "IAEA board reports Iran to the UN Security Council",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=IAEA+Iran+UN+Security+Council+first+time+20+years&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "96c9b673-cc3f-53be-a450-9288792f2c7f",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "Anak Krakatau Rumbles Again",
+            "publisher": "NASA Earth Observatory",
+            "url": "https://news.google.com/rss/search?q=Anak+Krakatau+Rumbles+Again+NASA+Earth+Observatory&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "58408f40-d8b9-5d34-b19b-737013c747a7",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "Global growth resilience and concentration risks",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=global+PMI+27-month+high+August+2026+AI+growth&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "60d837fe-fab5-5a06-ba5a-b34c1d595ad5",
+            "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+            "title": "UN: Every US$1 invested in climate and clean-air action can return US$15",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=UNEP+1+dollar+15+climate+clean+air+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "d05feede-ea99-50c5-bebb-d05d93a5884b",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "eu-customs-platform-importer-small-parcel-fee",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-customs-platform-importer-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟海关改革把境外平台列为进口方",
+            "headlineView": "11月前先重算申报责任、小包裹费与落地成本",
+            "headlineFull": "欧盟海关改革把境外平台列为进口方；11月前先重算申报责任、小包裹费与落地成本",
+            "intro": "欧盟理事会通过海关改革文本：面向欧盟销售的境外电商平台将承担进口方责任，严重违规最高可按前一年进口额的6%处罚；欧盟还计划最迟11月1日引入小包裹处理费。卖家应立即补齐商品编码、原产地、申报价值和平台责任矩阵。",
+            "xiaziQuote": "平台替消费者扛关务，卖家数据必须更准。",
+            "doudouQuote": "先把每个SKU的落地成本重新算一遍。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "EU customs reform makes non-EU platforms the importer",
+            "headlineView": "Reprice declarations, parcel fees and landed cost before November",
+            "headlineFull": "EU customs reform makes non-EU platforms the importer; Reprice declarations, parcel fees and landed cost before November",
+            "intro": "The Council approved an overhaul that makes non-EU e-commerce platforms responsible as the importer, with serious non-compliance fines reaching 6% of prior-year import value. An EU-wide small-parcel handling fee is due by November 1. Merchants should now audit HS codes, origin, declared value and the platform-responsibility matrix for every SKU.",
+            "xiaziQuote": "When platforms carry customs duty, merchant data must get cleaner.",
+            "doudouQuote": "Recalculate landed cost for every SKU now.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "c247c8ca-f455-5d67-9de7-6623069e8780",
+            "topicId": "d05feede-ea99-50c5-bebb-d05d93a5884b",
+            "title": "EU customs: Council greenlights landmark reform",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=EU+customs+Council+landmark+reform+small+parcel+fee+November+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f5b94ac3-bd01-5d10-89b0-ceca757afafa",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "openai-navier-stokes-singularity-proof",
+        "rank": 3,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-openai-navier-stokes-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI公布纳维－斯托克斯奇点证明",
+            "headlineView": "AI科研从解题速度进入可形式化验证阶段",
+            "headlineFull": "OpenAI公布纳维－斯托克斯奇点证明；AI科研从解题速度进入可形式化验证阶段",
+            "intro": "OpenAI称内部系统证明了平滑流体在有限时间内可形成奇点，并同步发布论文与Lean形式化证明。约一万个并发智能体参与探索，Lean验证另耗时17小时；这项结果仍需数学界独立审查，但已显示可验证科研协作的新尺度。",
+            "xiaziQuote": "真正的突破不仅要会发现，还要能被验证。",
+            "doudouQuote": "先看公开证明，再等独立同行审查。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI releases a Navier-Stokes singularity proof",
+            "headlineView": "AI research moves from solving quickly to formal verification",
+            "headlineFull": "OpenAI releases a Navier-Stokes singularity proof; AI research moves from solving quickly to formal verification",
+            "intro": "OpenAI says an internal system proved that smooth fluid motion can form a finite-time singularity, releasing both a paper and a Lean formalization. Roughly 10,000 concurrent agents explored the problem and Lean verification took another 17 hours. Independent mathematical review still matters, but the work signals a new scale of verifiable research collaboration.",
+            "xiaziQuote": "A real breakthrough must be discoverable and checkable.",
+            "doudouQuote": "Read the proof, then wait for independent review.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "14ee8f1f-aaf5-52e1-8bf1-09f79e8b95ff",
+            "topicId": "f5b94ac3-bd01-5d10-89b0-ceca757afafa",
+            "title": "OpenAI model proposes a solution to the Navier-Stokes problem",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=OpenAI+Navier+Stokes+solution+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "84348d1b-4020-5984-9d2f-7c805ec9417c",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "agent-workdays-solopreneur-output-metric",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-agent-workdays-opc-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC 一人公司",
+            "headlineFact": "OpenAI研究团队每天叠加3.1个智能体工作日",
+            "headlineView": "一人公司应把AI预算绑定到完成任务而非消息量",
+            "headlineFull": "OpenAI研究团队每天叠加3.1个智能体工作日；一人公司应把AI预算绑定到完成任务而非消息量",
+            "intro": "OpenAI披露，其研究组织在8月中旬平均每个自然人工作日配合3.1个智能体工作日，人员仍负责确定优先级与判断结果。对一人公司而言，可复制的方法是把流程拆成可验收任务，为每个智能体设置预算、权限和交付门，而不是盲目增加工具。",
+            "xiaziQuote": "智能体产能的单位，应该是验收通过的工作。",
+            "doudouQuote": "先给任务边界，再给账户权限。",
+            "footerTakeaway": "今日关键词：OPC 一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "OPC / Solopreneur",
+            "headlineFact": "OpenAI research pairs each human day with 3.1 agent-workdays",
+            "headlineView": "Tie AI spend to completed tasks, not message volume",
+            "headlineFull": "OpenAI research pairs each human day with 3.1 agent-workdays; Tie AI spend to completed tasks, not message volume",
+            "intro": "OpenAI reports that its research organization averaged 3.1 agent-workdays for every human workday in mid-August, while people continued to set priorities and judge results. A solo operator can copy the operating logic: break work into testable tasks and give each agent a budget, permission boundary and acceptance gate instead of simply adding more tools.",
+            "xiaziQuote": "Agent capacity should be measured in accepted work.",
+            "doudouQuote": "Define the task boundary before granting access.",
+            "footerTakeaway": "Keyword: OPC / Solopreneur."
+          }
+        },
+        "sources": [
+          {
+            "id": "fe4bd3ce-40eb-5d1b-a564-53403b3ba8ba",
+            "topicId": "84348d1b-4020-5984-9d2f-7c805ec9417c",
+            "title": "The Work Now Within Reach",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=OpenAI+3.1+agent+workdays+human+workday&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b7877ef3-29e5-55dc-a570-da4c5bb00d18",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "brent-oil-above-one-hundred-iran-hormuz",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "IR",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-brent-100-iran-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "能源",
+            "headlineFact": "布伦特原油重返每桶100美元上方",
+            "headlineView": "海峡冲突正在把能源风险传导至运费与消费价格",
+            "headlineFull": "布伦特原油重返每桶100美元上方；海峡冲突正在把能源风险传导至运费与消费价格",
+            "intro": "伊朗相关冲突升级后，布伦特原油9月9日上涨约3%，结算价升至每桶100.87美元；霍尔木兹海峡通行受阻继续放大供应担忧。企业不能只盯油价，还应同步压力测试柴油、国际运费和库存周转。",
+            "xiaziQuote": "油价是第一层，运输和现金流才是第二层。",
+            "doudouQuote": "把燃油附加费写进本周报价。",
+            "footerTakeaway": "今日关键词：能源。"
+          },
+          "en-US": {
+            "categoryLabel": "Energy",
+            "headlineFact": "Brent crude climbs back above $100 a barrel",
+            "headlineView": "Strait conflict is carrying energy risk into freight and consumer prices",
+            "headlineFull": "Brent crude climbs back above $100 a barrel; Strait conflict is carrying energy risk into freight and consumer prices",
+            "intro": "Brent crude rose about 3% on September 9 to settle at $100.87 a barrel as escalation around Iran kept traffic through the Strait of Hormuz constrained. Businesses should look beyond the headline oil price and stress-test diesel, international freight and inventory turns together.",
+            "xiaziQuote": "Oil is the first layer; freight and cash flow come next.",
+            "doudouQuote": "Add fuel surcharges to this week's quotes.",
+            "footerTakeaway": "Keyword: Energy."
+          }
+        },
+        "sources": [
+          {
+            "id": "35b7ed08-ab71-50a3-b065-4c70482e807e",
+            "topicId": "b7877ef3-29e5-55dc-a570-da4c5bb00d18",
+            "title": "Oil prices jump back above $100 after Iran war escalates",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Brent+oil+100+Iran+Hormuz+September+9+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7121463e-ec1f-5028-9fc2-21c2908aafb4",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "iaea-iran-security-council-referral",
+        "rank": 6,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "IR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-iaea-iran-referral-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "核外交",
+            "headlineFact": "国际原子能机构二十年来首次将伊朗问题提交安理会",
+            "headlineView": "核查争议从技术程序进入更高层级政治博弈",
+            "headlineFull": "国际原子能机构二十年来首次将伊朗问题提交安理会；核查争议从技术程序进入更高层级政治博弈",
+            "intro": "国际原子能机构35国理事会以23票赞成通过决议，因未申报地点的铀痕迹调查缺乏合作而把伊朗问题提交联合国安理会。提交可能打开制裁讨论，但俄罗斯和中国拥有否决权，短期更可能增加外交与市场不确定性。",
+            "xiaziQuote": "风险升级不等于制裁落地，但会抬高不确定性。",
+            "doudouQuote": "区分提交、表决与真正执行。",
+            "footerTakeaway": "今日关键词：核外交。"
+          },
+          "en-US": {
+            "categoryLabel": "Nuclear Diplomacy",
+            "headlineFact": "IAEA sends Iran's case to the Security Council after twenty years",
+            "headlineView": "A safeguards dispute moves into higher-stakes political bargaining",
+            "headlineFull": "IAEA sends Iran's case to the Security Council after twenty years; A safeguards dispute moves into higher-stakes political bargaining",
+            "intro": "The IAEA's 35-member board passed the resolution by 23 votes, referring Iran to the UN Security Council over limited cooperation with an investigation into uranium traces at undeclared sites. Referral can open sanctions debate, but Russian and Chinese vetoes make greater diplomatic and market uncertainty the more immediate effect.",
+            "xiaziQuote": "Escalation is not enforcement, but it raises uncertainty.",
+            "doudouQuote": "Separate referral, voting and actual execution.",
+            "footerTakeaway": "Keyword: Nuclear Diplomacy."
+          }
+        },
+        "sources": [
+          {
+            "id": "e6f7e688-6659-5839-bb0b-cb68cbebe05a",
+            "topicId": "7121463e-ec1f-5028-9fc2-21c2908aafb4",
+            "title": "IAEA board reports Iran to the UN Security Council",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=IAEA+Iran+UN+Security+Council+first+time+20+years&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7d22d791-986d-58c5-92f9-4454120278a7",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "anak-krakatau-eruption-flight-disruption",
+        "rank": 7,
+        "category": "climate",
+        "region": "Southeast Asia",
+        "countryCodes": [
+          "ID"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-anak-krakatau-eruption-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "自然灾害",
+            "headlineFact": "喀拉喀托之子火山喷发扰乱数千架次航班",
+            "headlineView": "跨境运营要把火山灰风险同时写进人流与货流预案",
+            "headlineFull": "喀拉喀托之子火山喷发扰乱数千架次航班；跨境运营要把火山灰风险同时写进人流与货流预案",
+            "intro": "NASA卫星图显示，9月初持续超过24小时的喷发将火山灰与气体送入大气，影响雅加达等地空气质量并扰乱数千架次航班。依赖东南亚空运或差旅的团队应准备替代机场、延迟交付和健康防护方案。",
+            "xiaziQuote": "灾害预案要同时覆盖员工、航班和订单。",
+            "doudouQuote": "先确认替代机场，再承诺到货时间。",
+            "footerTakeaway": "今日关键词：自然灾害。"
+          },
+          "en-US": {
+            "categoryLabel": "Natural Hazard",
+            "headlineFact": "Anak Krakatau eruption disrupts thousands of flights",
+            "headlineView": "Cross-border plans must cover ash risk across people and cargo",
+            "headlineFull": "Anak Krakatau eruption disrupts thousands of flights; Cross-border plans must cover ash risk across people and cargo",
+            "intro": "NASA satellite imagery shows an early-September eruption lasting more than 24 hours that sent ash and gases into the atmosphere, degraded air quality around Jakarta and disrupted thousands of flights. Teams relying on Southeast Asian air freight or travel should prepare alternate airports, delayed-delivery rules and health protection.",
+            "xiaziQuote": "Continuity plans must cover staff, flights and orders together.",
+            "doudouQuote": "Confirm the alternate airport before promising arrival.",
+            "footerTakeaway": "Keyword: Natural Hazard."
+          }
+        },
+        "sources": [
+          {
+            "id": "ddb4e24d-bfe0-5bc0-b131-ded21263b452",
+            "topicId": "7d22d791-986d-58c5-92f9-4454120278a7",
+            "title": "Anak Krakatau Rumbles Again",
+            "publisher": "NASA Earth Observatory",
+            "url": "https://news.google.com/rss/search?q=Anak+Krakatau+Rumbles+Again+NASA+Earth+Observatory&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "896714b8-2b96-505e-80a6-f64807922c4d",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "global-growth-resilience-narrow-ai-base",
+        "rank": 8,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-global-growth-narrow-base-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球经济",
+            "headlineFact": "全球商业活动升至27个月高位",
+            "headlineView": "增长韧性背后是AI与能源驱动的窄基底",
+            "headlineFull": "全球商业活动升至27个月高位；增长韧性背后是AI与能源驱动的窄基底",
+            "intro": "8月全球综合PMI连续第五个月上升并触及27个月高位，国际货币基金组织预计2026年全球增长约3%。但AI硬件四大出口经济体首季增速平均比预期高4.4个百分点，说明总量改善并未平均分布，企业仍需分散市场与供应链暴露。",
+            "xiaziQuote": "总量回暖不代表每个行业都在同一条船上。",
+            "doudouQuote": "看增长，也要看增长集中在哪里。",
+            "footerTakeaway": "今日关键词：全球经济。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Economy",
+            "headlineFact": "Global business activity reaches a 27-month high",
+            "headlineView": "Resilience rests on a narrow AI- and energy-led base",
+            "headlineFull": "Global business activity reaches a 27-month high; Resilience rests on a narrow AI- and energy-led base",
+            "intro": "The global composite PMI rose for a fifth straight month in August to a 27-month high, while the IMF sees 2026 global growth around 3%. Yet the four largest AI-hardware exporters grew an average 4.4 percentage points faster than projected in the first quarter, showing why firms still need diversified markets and supply chains.",
+            "xiaziQuote": "A stronger total does not lift every sector equally.",
+            "doudouQuote": "Track where growth is concentrated, not just its rate.",
+            "footerTakeaway": "Keyword: Global Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "1cf8d003-f6d5-5018-8832-3e29da269993",
+            "topicId": "896714b8-2b96-505e-80a6-f64807922c4d",
+            "title": "Global growth resilience and concentration risks",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=global+PMI+27-month+high+August+2026+AI+growth&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ff2cfaea-e232-528e-a59a-75fe40bcbfc6",
+        "issueId": "b3ba81b6-d648-5d0f-a6e2-48121f27afd6",
+        "slug": "unep-clean-air-climate-fifteen-to-one-return",
+        "rank": 9,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-unep-clean-air-return-20260910",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与健康",
+            "headlineFact": "清洁空气与气候协同投资回报可达15比1",
+            "headlineView": "环境行动的收益正在从道德主张变成经济账",
+            "headlineFull": "清洁空气与气候协同投资回报可达15比1；环境行动的收益正在从道德主张变成经济账",
+            "intro": "联合国环境署评估25项能源、工业、交通、农业、烹饪与废弃物措施后估算，每投入1美元可产生约15美元经济与健康收益；即使剔除非市场福利，回报仍约为4比1。报告称每延迟一年将放弃逾1.5万亿美元年度收益。",
+            "xiaziQuote": "清洁空气不是成本中心，而是长期资产。",
+            "doudouQuote": "把健康、效率和减排算在一张表里。",
+            "footerTakeaway": "今日关键词：气候与健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Health",
+            "headlineFact": "Clean-air and climate action can return fifteen dollars per dollar",
+            "headlineView": "Environmental action is becoming an economic case, not only a moral one",
+            "headlineFull": "Clean-air and climate action can return fifteen dollars per dollar; Environmental action is becoming an economic case, not only a moral one",
+            "intro": "UNEP assessed 25 measures across energy, industry, transport, agriculture, cooking and waste and estimates about $15 in economic and health benefits for every $1 invested. Even excluding non-market welfare, the return is around four to one, while each year of delay forfeits more than $1.5 trillion in annual benefits.",
+            "xiaziQuote": "Clean air is a long-term asset, not a cost center.",
+            "doudouQuote": "Put health, productivity and emissions on one sheet.",
+            "footerTakeaway": "Keyword: Climate and Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "b5571d92-8fbb-5b3c-8fee-0f4005a88ba3",
+            "topicId": "ff2cfaea-e232-528e-a59a-75fe40bcbfc6",
+            "title": "UN: Every US$1 invested in climate and clean-air action can return US$15",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=UNEP+1+dollar+15+climate+clean+air+September+2026&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-10T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-10",
+    "releaseId": "rel_20260910_2c3e0013aa9f6e65746c1039",
+    "assetBatchId": "asset_archive_20260910_2c3e0013aa9f6e65746c1039",
+    "posters": [
+      {
+        "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+        "locale": "zh",
+        "contentHash": "40eb8cb1e0a9e649bdec5a281f00c936ddaadc977be2f68443e6274b6950d84c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/today-overview-customs-ai-energy-climate.png"
+      },
+      {
+        "topicId": "1603b9b3-906a-57ae-adf7-0d3de7d090ee",
+        "locale": "en",
+        "contentHash": "81627ca8ac9340504285ea0b069d61e6e49746095db8444233ed7dac6a4287c6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/today-overview-customs-ai-energy-climate.png"
+      },
+      {
+        "topicId": "d05feede-ea99-50c5-bebb-d05d93a5884b",
+        "locale": "zh",
+        "contentHash": "6bfa60ee1b7ba616dce540f561f6ea42a2d11adbb3c03c6e22450543a0ae11d1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/eu-customs-platform-importer-small-parcel-fee.png"
+      },
+      {
+        "topicId": "d05feede-ea99-50c5-bebb-d05d93a5884b",
+        "locale": "en",
+        "contentHash": "efa596a0f137a62d9dbc2348b85657eead5a8a286baea73558cf3f4c15bee0c7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/eu-customs-platform-importer-small-parcel-fee.png"
+      },
+      {
+        "topicId": "f5b94ac3-bd01-5d10-89b0-ceca757afafa",
+        "locale": "zh",
+        "contentHash": "b6cc6ef73d859167f4bf290b1dbe703907867d2ab2fbef794e89dc7fd9e23670",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/openai-navier-stokes-singularity-proof.png"
+      },
+      {
+        "topicId": "f5b94ac3-bd01-5d10-89b0-ceca757afafa",
+        "locale": "en",
+        "contentHash": "dcafd3b92b8f7cb7bdcff0bcdc65196f7ab9c5853e4870e3f40daac897c5206d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/openai-navier-stokes-singularity-proof.png"
+      },
+      {
+        "topicId": "84348d1b-4020-5984-9d2f-7c805ec9417c",
+        "locale": "zh",
+        "contentHash": "8bb4c20df7473cb08dae6af1a29e9b54f8474f9a5ecebbec70bd2eaa7542c8b9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/agent-workdays-solopreneur-output-metric.png"
+      },
+      {
+        "topicId": "84348d1b-4020-5984-9d2f-7c805ec9417c",
+        "locale": "en",
+        "contentHash": "1479564b41f5d604d8b86988832de9138d78236a2af995e67f63a07cee008a5f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/agent-workdays-solopreneur-output-metric.png"
+      },
+      {
+        "topicId": "b7877ef3-29e5-55dc-a570-da4c5bb00d18",
+        "locale": "zh",
+        "contentHash": "ce25724fcfe09986460695121f54e3047a3194299b08e5a19ce4359f3df36304",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/brent-oil-above-one-hundred-iran-hormuz.png"
+      },
+      {
+        "topicId": "b7877ef3-29e5-55dc-a570-da4c5bb00d18",
+        "locale": "en",
+        "contentHash": "6de9d362c750460bf53b986f65f9ce6e92026a3b85278852ba2d70dedfa61bb8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/brent-oil-above-one-hundred-iran-hormuz.png"
+      },
+      {
+        "topicId": "7121463e-ec1f-5028-9fc2-21c2908aafb4",
+        "locale": "zh",
+        "contentHash": "6585af01001eb73595e52ddf81b17f6087ca2de2f7e6c794423b3bde416ccc57",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/iaea-iran-security-council-referral.png"
+      },
+      {
+        "topicId": "7121463e-ec1f-5028-9fc2-21c2908aafb4",
+        "locale": "en",
+        "contentHash": "57a5e5c67213c78fad9a4e32dfb53eb938d3c5cdfde111347009b241c108720e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/iaea-iran-security-council-referral.png"
+      },
+      {
+        "topicId": "7d22d791-986d-58c5-92f9-4454120278a7",
+        "locale": "zh",
+        "contentHash": "f012b3283b2cb4c36ba3bec6fd99fa084ec76caad86c384e10dc154346ecf88d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/anak-krakatau-eruption-flight-disruption.png"
+      },
+      {
+        "topicId": "7d22d791-986d-58c5-92f9-4454120278a7",
+        "locale": "en",
+        "contentHash": "2e310899eb358c8f4d9cddbca8ee297e45383768dff468298f9ba2a421fa0295",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/anak-krakatau-eruption-flight-disruption.png"
+      },
+      {
+        "topicId": "896714b8-2b96-505e-80a6-f64807922c4d",
+        "locale": "zh",
+        "contentHash": "1b5ff713c493caba431f2c83114f2ccc28c63e5e78050d9ae1f762597b21e47c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/global-growth-resilience-narrow-ai-base.png"
+      },
+      {
+        "topicId": "896714b8-2b96-505e-80a6-f64807922c4d",
+        "locale": "en",
+        "contentHash": "4be93e2ad782bd625f64af1ab2f7672e57c642d4899d7a1f380b1b9975fee544",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/global-growth-resilience-narrow-ai-base.png"
+      },
+      {
+        "topicId": "ff2cfaea-e232-528e-a59a-75fe40bcbfc6",
+        "locale": "zh",
+        "contentHash": "f7f4ac9c2fd7bf621b7ed0208b013c4093b8b641ed784f41d92a9479ed75b9c4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/zh/unep-clean-air-climate-fifteen-to-one-return.png"
+      },
+      {
+        "topicId": "ff2cfaea-e232-528e-a59a-75fe40bcbfc6",
+        "locale": "en",
+        "contentHash": "626d348a2a52d91e0ae2b6003743345b97f627f1a134e72dd8edc5807eab815d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260910_2c3e0013aa9f6e65746c1039/en/unep-clean-air-climate-fifteen-to-one-return.png"
+      }
+    ]
+  }
+}

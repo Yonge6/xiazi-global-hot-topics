@@ -1,0 +1,637 @@
+{
+  "issue": {
+    "id": "2925756f-f8ae-50d3-9a49-b81371939d96",
+    "slug": "2026-08-09",
+    "assetVersion": "rel_20260809_9afd082d4e27d59e7ee337b9",
+    "style": {
+      "name": "Russian Lubok",
+      "zhName": "俄罗斯民间版画",
+      "description": "Style Atlas daily pick: a contemporary editorial interpretation of Russian Lubok using bold woodcut-like outlines, flat vermilion, ochre, indigo and green, hand-printed texture, narrative panels and clear modern infographic hierarchy, without copying a specific historical work or living artist."
+    },
+    "issueDate": "2026-08-09",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-08-09T05:00:00+08:00",
+    "gmtTimestamp": "2026-08-08T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "025538cb-8bcc-595f-aaed-4174da270635",
+    "topics": [
+      {
+        "id": "025538cb-8bcc-595f-aaed-4174da270635",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "today-overview-rules-health-memory",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-today-overview-rules-health-memory-20260809",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "规则、健康、气候与记忆汇入同一天",
+            "headlineView": "全球系统进入执行与承载力测试",
+            "headlineFull": "规则、健康、气候与记忆汇入同一天；全球系统进入执行与承载力测试",
+            "intro": "欧盟小包关税、AI透明、单人创业、原住民健康、法国热浪、星空节、艺穗节与长崎和平纪念同时进入行动窗口。",
+            "xiaziQuote": "真正的热点不是声音最大，而是今天必须改变预算、流程与责任。",
+            "doudouQuote": "世界的九条线，今天都要落到行动上。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today Overview",
+            "headlineFact": "Rules, health, climate and memory converge today",
+            "headlineView": "global systems face execution and capacity tests",
+            "headlineFull": "Rules, health, climate and memory converge today; global systems face execution and capacity tests",
+            "intro": "EU parcel duties, AI transparency, solo entrepreneurship, Indigenous health, France's heatwave, public astronomy, Edinburgh culture and Nagasaki remembrance enter action windows together.",
+            "xiaziQuote": "The real hotspot is what changes budgets, processes and accountability today.",
+            "doudouQuote": "Nine global threads all have to land in action today.",
+            "footerTakeaway": "Keyword: Today Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "8a23a97e-dc60-5967-a23b-e6209d2bc8eb",
+            "topicId": "025538cb-8bcc-595f-aaed-4174da270635",
+            "title": "Guidance and legal text on temporary flat fee on low-value imports",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "ceebd963-23a8-58f4-a72a-7e46e2b5d2e2",
+            "topicId": "025538cb-8bcc-595f-aaed-4174da270635",
+            "title": "International Day of the World's Indigenous Peoples",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/observances/indigenous-day/",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "87e6bd56-7a0a-5f72-a3a4-40aace39ab90",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "eu-low-value-parcel-flat-duty",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-low-value-parcel-flat-duty-20260809",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟低值小包每类商品征收3欧元",
+            "headlineView": "卖家必须重算SKU与到岸成本",
+            "headlineFull": "欧盟低值小包每类商品征收3欧元；卖家必须重算SKU与到岸成本",
+            "intro": "自7月1日起，低于150欧元的小包按不同关税子目每类征收3欧元；IOSS、HS分类、组合装与DDP报价都需复核。",
+            "xiaziQuote": "小额固定费最容易吞掉低客单和多品类订单的利润。",
+            "doudouQuote": "一只包裹装三类货，成本就可能敲三次门。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "EU charges EUR3 per category in low-value parcels",
+            "headlineView": "sellers must recalculate SKUs and landed cost",
+            "headlineFull": "EU charges EUR3 per category in low-value parcels; sellers must recalculate SKUs and landed cost",
+            "intro": "Since July 1, parcels under EUR150 face a EUR3 duty for each different tariff category; IOSS, HS classification, bundles and DDP pricing all need review.",
+            "xiaziQuote": "Small flat fees can erase margins fastest on low-ticket, multi-category orders.",
+            "doudouQuote": "Put three categories in one parcel and cost may knock three times.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "179eff1b-5e1c-5f35-98e3-1ed98beb004e",
+            "topicId": "87e6bd56-7a0a-5f72-a3a4-40aace39ab90",
+            "title": "Guidance and legal text on temporary flat fee on low-value imports",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d11ee991-a69a-5c2d-a1a4-0003e8aa1f9c",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "eu-ai-transparency-week-one",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-eu-ai-transparency-week-one-20260809",
+        "storyStatus": "followup",
+        "followupDay": 5,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "人工智能 AI",
+            "headlineFact": "欧盟AI透明义务实施满一周",
+            "headlineView": "标记与披露成为产品能力",
+            "headlineFull": "欧盟AI透明义务实施满一周；标记与披露成为产品能力",
+            "intro": "自8月2日起，部分AI交互与生成或操纵内容需明确告知、机器可读标记、来源记录和披露责任。",
+            "xiaziQuote": "透明不是最后补水印，而是界面、输出管线和审计共同承担。",
+            "doudouQuote": "先把来源讲清楚，再让内容跑得更远。",
+            "footerTakeaway": "今日关键词：人工智能 AI。"
+          },
+          "en-US": {
+            "categoryLabel": "Artificial Intelligence AI",
+            "headlineFact": "EU AI transparency completes its first week",
+            "headlineView": "marking and disclosure become product capabilities",
+            "headlineFull": "EU AI transparency completes its first week; marking and disclosure become product capabilities",
+            "intro": "Since August 2, certain AI interactions and generated or manipulated content require clear notice, machine-readable marking and provenance records.",
+            "xiaziQuote": "Transparency is not a final watermark; interfaces, output pipelines and audits must share it.",
+            "doudouQuote": "Explain the source before sending content farther.",
+            "footerTakeaway": "Keyword: Artificial Intelligence AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "3fa0edfc-6804-58a9-a0cd-3f31d2c881e0",
+            "topicId": "d11ee991-a69a-5c2d-a1a4-0003e8aa1f9c",
+            "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+            "publisher": "European Commission",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7448d7d7-f150-5878-94b6-17dc65ceaf29",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "solo-ai-entry-team-outcomes",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-solo-ai-entry-team-outcomes-20260809",
+        "storyStatus": "followup",
+        "followupDay": 3,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "一人公司 OPC",
+            "headlineFact": "AI让单人创业更容易入场",
+            "headlineView": "头部成果仍偏向团队复利",
+            "headlineFull": "AI让单人创业更容易入场；头部成果仍偏向团队复利",
+            "intro": "对超过16万款Product Hunt产品的研究显示，生成式AI提高单人创业进入率，但高排名结果仍更多来自团队。",
+            "xiaziQuote": "AI降低做出来的门槛，却没有取消判断、分销与协作的复利。",
+            "doudouQuote": "一个人更容易开场，冲到前排仍要会借力。",
+            "footerTakeaway": "今日关键词：一人公司 OPC。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company OPC",
+            "headlineFact": "AI makes solo entry easier",
+            "headlineView": "top outcomes still favor team compounding",
+            "headlineFull": "AI makes solo entry easier; top outcomes still favor team compounding",
+            "intro": "Research covering more than 160,000 Product Hunt launches finds generative AI increased solo entry, while teams remained more common among top-ranked outcomes.",
+            "xiaziQuote": "AI lowers the making threshold but does not erase the compounding value of judgment, distribution and collaboration.",
+            "doudouQuote": "One person can start faster; reaching the front still takes leverage.",
+            "footerTakeaway": "Keyword: One-person Company OPC."
+          }
+        },
+        "sources": [
+          {
+            "id": "2dd29731-4866-5141-9cdb-a6df4e595b36",
+            "topicId": "7448d7d7-f150-5878-94b6-17dc65ceaf29",
+            "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2605.10291",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7a8a740a-ea9f-58e5-92a7-9e45dd466b06",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "indigenous-midwives-day",
+        "rank": 5,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-indigenous-midwives-day-20260809",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "原住民健康",
+            "headlineFact": "世界原住民日聚焦原住民助产士",
+            "headlineView": "知识、照护与文化需要同等承认",
+            "headlineFull": "世界原住民日聚焦原住民助产士；知识、照护与文化需要同等承认",
+            "intro": "2026主题强调原住民助产士在生命照护、知识传承、文化身份、适宜医疗和社区福祉中的作用。",
+            "xiaziQuote": "尊重知识体系，要让权利、资源与服务一起到位。",
+            "doudouQuote": "守护新生命，也是在守护一条文化记忆。",
+            "footerTakeaway": "今日关键词：原住民健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Indigenous Health",
+            "headlineFact": "Indigenous Peoples Day honors Indigenous midwives",
+            "headlineView": "knowledge, care and culture need equal recognition",
+            "headlineFull": "Indigenous Peoples Day honors Indigenous midwives; knowledge, care and culture need equal recognition",
+            "intro": "The 2026 theme highlights Indigenous midwives' roles in safeguarding life, transmitting knowledge, strengthening cultural identity and supporting appropriate care.",
+            "xiaziQuote": "Respecting knowledge systems means aligning rights, resources and services.",
+            "doudouQuote": "Protecting new life also protects a line of cultural memory.",
+            "footerTakeaway": "Keyword: Indigenous Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "f1d0442e-b9a6-5d20-aca9-8f409df0a427",
+            "topicId": "7a8a740a-ea9f-58e5-92a7-9e45dd466b06",
+            "title": "International Day of the World's Indigenous Peoples",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/observances/indigenous-day/",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6ee09ef8-aa72-58c7-85cf-ce4daf8679b8",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "france-third-heatwave-expands",
+        "rank": 6,
+        "category": "climate",
+        "region": "France",
+        "countryCodes": [
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-france-third-heatwave-expands-20260809",
+        "storyStatus": "followup",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球气候",
+            "headlineFact": "法国第三轮热浪继续扩展",
+            "headlineView": "35至40摄氏度高温逼近更多地区",
+            "headlineFull": "法国第三轮热浪继续扩展；35至40摄氏度高温逼近更多地区",
+            "intro": "持续高温向法国北部、东部和东南部延伸，能源、健康、农业、交通与城市公共服务继续承压。",
+            "xiaziQuote": "热浪不是一次天气插曲，而是基础设施与预算的长期变量。",
+            "doudouQuote": "温度计没下班，城市系统也不能松口气。",
+            "footerTakeaway": "今日关键词：全球气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Climate",
+            "headlineFact": "France's third heatwave keeps expanding",
+            "headlineView": "35 to 40C heat approaches more regions",
+            "headlineFull": "France's third heatwave keeps expanding; 35 to 40C heat approaches more regions",
+            "intro": "Persistent heat is spreading toward northern, eastern and southeastern France, keeping pressure on energy, health, agriculture and city services.",
+            "xiaziQuote": "A heatwave is not a weather interlude; it is a long-term infrastructure and budget variable.",
+            "doudouQuote": "The thermometer is still working, so city systems cannot relax.",
+            "footerTakeaway": "Keyword: Global Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "88f8fc80-dd7a-57f6-aad2-890e9ca544f9",
+            "topicId": "6ee09ef8-aa72-58c7-85cf-ce4daf8679b8",
+            "title": "Summer 2026: understanding the season's weather phenomena",
+            "publisher": "Meteo-France",
+            "url": "https://bibliotheque.meteo.fr/pub/DOC00061608-ete-2026-tout-comprendre-sur-les-phenomenes-meteor.html",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0ac17bb2-88c9-5325-8950-902dca7ff2d7",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "france-night-of-stars-finale",
+        "rank": 7,
+        "category": "science",
+        "region": "France",
+        "countryCodes": [
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-france-night-of-stars-finale-20260809",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公众科学",
+            "headlineFact": "法国星空之夜迎来收官",
+            "headlineView": "500多场活动为8月12日日食倒计时",
+            "headlineFull": "法国星空之夜迎来收官；500多场活动为8月12日日食倒计时",
+            "intro": "8月7日至9日，约350个团体组织500多场公众活动，主题聚焦太阳、英仙座流星雨与安全观测。",
+            "xiaziQuote": "科学传播最有效的时刻，是让好奇心找到安全、清楚的入口。",
+            "doudouQuote": "先戴好观测镜，再和太阳赴约。",
+            "footerTakeaway": "今日关键词：公众科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Public Science",
+            "headlineFact": "France's Nights of the Stars reaches its finale",
+            "headlineView": "500-plus events count down to the August 12 eclipse",
+            "headlineFull": "France's Nights of the Stars reaches its finale; 500-plus events count down to the August 12 eclipse",
+            "intro": "From August 7 to 9, about 350 groups are staging more than 500 public events focused on the Sun, Perseids and safe observing.",
+            "xiaziQuote": "Science communication works best when curiosity finds a safe, clear entrance.",
+            "doudouQuote": "Put on safe viewing glasses before meeting the Sun.",
+            "footerTakeaway": "Keyword: Public Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "c921b346-840a-5e9d-94c0-847a16c4ac60",
+            "topicId": "0ac17bb2-88c9-5325-8950-902dca7ff2d7",
+            "title": "Les Nuits des Etoiles",
+            "publisher": "Association Francaise d'Astronomie",
+            "url": "https://www.afastronomie.fr/les-nuits-des-etoiles%20",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "66998efb-01b1-587d-811e-d81ed63999a4",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "edinburgh-fringe-first-weekend",
+        "rank": 8,
+        "category": "culture",
+        "region": "United Kingdom",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-edinburgh-fringe-first-weekend-20260809",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "文化经济",
+            "headlineFact": "爱丁堡艺穗节首个周末升温",
+            "headlineView": "3649场节目考验城市承载力",
+            "headlineFull": "爱丁堡艺穗节首个周末升温；3649场节目考验城市承载力",
+            "intro": "2026艺穗节覆盖258个场地、来自71个国家，共53884场演出，票务、交通、住宿与独立创作者同步高负荷。",
+            "xiaziQuote": "文化节的价值，也在城市如何承接密集创造力。",
+            "doudouQuote": "舞台越多，后台协作越像一场大演出。",
+            "footerTakeaway": "今日关键词：文化经济。"
+          },
+          "en-US": {
+            "categoryLabel": "Culture Economy",
+            "headlineFact": "Edinburgh Fringe's first weekend gathers pace",
+            "headlineView": "3,649 shows test city capacity",
+            "headlineFull": "Edinburgh Fringe's first weekend gathers pace; 3,649 shows test city capacity",
+            "intro": "The 2026 Fringe spans 258 venues, 71 countries and 53,884 performances, pushing ticketing, transport, lodging and independent creators into high-load operation.",
+            "xiaziQuote": "A festival's value also lies in how a city carries concentrated creativity.",
+            "doudouQuote": "More stages make backstage coordination a performance of its own.",
+            "footerTakeaway": "Keyword: Culture Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "7133d14d-3c81-5cb3-a530-12128ed83364",
+            "topicId": "66998efb-01b1-587d-811e-d81ed63999a4",
+            "title": "The 2026 Edinburgh Festival Fringe programme is now live",
+            "publisher": "Edinburgh Festival Fringe",
+            "url": "https://www.edfringe.com/about-us/news-and-blog/mixitup-with-the-2026-edinburgh-festival-fringe-programme/",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "29fa5de6-1f64-51ac-89af-a2e1b1247546",
+        "issueId": "2925756f-f8ae-50d3-9a49-b81371939d96",
+        "slug": "nagasaki-peace-ceremony-81",
+        "rank": 9,
+        "category": "international",
+        "region": "Japan",
+        "countryCodes": [
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-nagasaki-peace-ceremony-81-20260809",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 89,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "和平记忆",
+            "headlineFact": "长崎纪念原爆81周年",
+            "headlineView": "11时02分提醒世界核风险仍未退出历史",
+            "headlineFull": "长崎纪念原爆81周年；11时02分提醒世界核风险仍未退出历史",
+            "intro": "8月9日和平祈念式典悼念受难者，并把和平承诺带入当代核裁军、国际安全与代际教育讨论。",
+            "xiaziQuote": "纪念不是停留在过去，而是让今天的选择避免重复灾难。",
+            "doudouQuote": "钟声只响一刻，责任要留得更久。",
+            "footerTakeaway": "今日关键词：和平记忆。"
+          },
+          "en-US": {
+            "categoryLabel": "Peace and Memory",
+            "headlineFact": "Nagasaki marks 81 years since the atomic bombing",
+            "headlineView": "11:02 reminds the world that nuclear risk remains",
+            "headlineFull": "Nagasaki marks 81 years since the atomic bombing; 11:02 reminds the world that nuclear risk remains",
+            "intro": "The August 9 peace ceremony mourns victims and carries commitments to peace into today's nuclear disarmament and security debate.",
+            "xiaziQuote": "Remembrance does not stay in the past; it guides choices that prevent repetition.",
+            "doudouQuote": "The bell rings for a moment, but responsibility must last longer.",
+            "footerTakeaway": "Keyword: Peace and Memory."
+          }
+        },
+        "sources": [
+          {
+            "id": "541aa11d-c3f4-5fcb-a9dd-150543683de0",
+            "topicId": "29fa5de6-1f64-51ac-89af-a2e1b1247546",
+            "title": "81st Anniversary Nagasaki Peace Memorial Ceremony",
+            "publisher": "City of Nagasaki",
+            "url": "https://www.city.nagasaki.lg.jp/life/9/68/index.html",
+            "publishedAt": "2026-08-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-08-09",
+    "releaseId": "rel_20260809_9afd082d4e27d59e7ee337b9",
+    "assetBatchId": "asset_archive_20260809_9afd082d4e27d59e7ee337b9",
+    "posters": [
+      {
+        "topicId": "025538cb-8bcc-595f-aaed-4174da270635",
+        "locale": "zh",
+        "contentHash": "bd077d7ae77664448fa5154d97bc9e09d0da7115d0b637c0f951546e0b7307e9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/today-overview-rules-health-memory.png"
+      },
+      {
+        "topicId": "025538cb-8bcc-595f-aaed-4174da270635",
+        "locale": "en",
+        "contentHash": "c53ebd08e30c758fa7719f1cc75bd9a3e6fd83733ccaa0515c5e62b0ad0c574e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/today-overview-rules-health-memory.png"
+      },
+      {
+        "topicId": "87e6bd56-7a0a-5f72-a3a4-40aace39ab90",
+        "locale": "zh",
+        "contentHash": "29300f6a212e71a1cd280d0dfd33bee8c8a5682060769a71321e376ce86533c2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/eu-low-value-parcel-flat-duty.png"
+      },
+      {
+        "topicId": "87e6bd56-7a0a-5f72-a3a4-40aace39ab90",
+        "locale": "en",
+        "contentHash": "a7d3fd73e7a4dc9752648fc70769ba0f49ad822b3603ebf45aec148213847034",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/eu-low-value-parcel-flat-duty.png"
+      },
+      {
+        "topicId": "d11ee991-a69a-5c2d-a1a4-0003e8aa1f9c",
+        "locale": "zh",
+        "contentHash": "64bf852e818bab89c05a188d98bd11a914a5ec064ba6019b6ddb3bf0e88d4663",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/eu-ai-transparency-week-one.png"
+      },
+      {
+        "topicId": "d11ee991-a69a-5c2d-a1a4-0003e8aa1f9c",
+        "locale": "en",
+        "contentHash": "fab33071dda5744d54ce02cecb0bb4f213cddf02530e0a5ea89c140c4586910d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/eu-ai-transparency-week-one.png"
+      },
+      {
+        "topicId": "7448d7d7-f150-5878-94b6-17dc65ceaf29",
+        "locale": "zh",
+        "contentHash": "0c845ee3e7bc0e0eb9c290d2e751e98a75c7bfcc4c8b9ef73c329e9e83948088",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/solo-ai-entry-team-outcomes.png"
+      },
+      {
+        "topicId": "7448d7d7-f150-5878-94b6-17dc65ceaf29",
+        "locale": "en",
+        "contentHash": "add639ef81afecb6b5933bc2f09bc4e0016e750125fd284a73c431d7988b055c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/solo-ai-entry-team-outcomes.png"
+      },
+      {
+        "topicId": "7a8a740a-ea9f-58e5-92a7-9e45dd466b06",
+        "locale": "zh",
+        "contentHash": "f7468f0b63883cb7e3d81fe5f4cbe4c869ec3211adfb510f55cea478a4e41f2e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/indigenous-midwives-day.png"
+      },
+      {
+        "topicId": "7a8a740a-ea9f-58e5-92a7-9e45dd466b06",
+        "locale": "en",
+        "contentHash": "536e891520bba64fe8bd47e400f9c24772a3bb4a0b36d11fcecd178109177720",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/indigenous-midwives-day.png"
+      },
+      {
+        "topicId": "6ee09ef8-aa72-58c7-85cf-ce4daf8679b8",
+        "locale": "zh",
+        "contentHash": "ebf52476ca2c81fc455b3d75c27534771ddac5cf7fcaa47aeb1ee4394c56792e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/france-third-heatwave-expands.png"
+      },
+      {
+        "topicId": "6ee09ef8-aa72-58c7-85cf-ce4daf8679b8",
+        "locale": "en",
+        "contentHash": "f77072479819edce76142dcbb494bc4ffc2a2b8def3c796bdc5361bdf00b75f8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/france-third-heatwave-expands.png"
+      },
+      {
+        "topicId": "0ac17bb2-88c9-5325-8950-902dca7ff2d7",
+        "locale": "zh",
+        "contentHash": "550c3fc9bfef1783d33c5f812d811bc255c45f314cb49345e37b123840fb713a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/france-night-of-stars-finale.png"
+      },
+      {
+        "topicId": "0ac17bb2-88c9-5325-8950-902dca7ff2d7",
+        "locale": "en",
+        "contentHash": "0ddf547bf18f237dd48882aa9fd052b95a1c64877fd1a232eaf8fc29eedda4ef",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/france-night-of-stars-finale.png"
+      },
+      {
+        "topicId": "66998efb-01b1-587d-811e-d81ed63999a4",
+        "locale": "zh",
+        "contentHash": "b753e1ff9719460ff16d93b8cf78f5a6fbf317e0ea5a74168e63be0e29e5cbb1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/edinburgh-fringe-first-weekend.png"
+      },
+      {
+        "topicId": "66998efb-01b1-587d-811e-d81ed63999a4",
+        "locale": "en",
+        "contentHash": "21c444ee5a2e68f8f9952ef2bae051d3063446f3eb725348aaff6314cebab099",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/edinburgh-fringe-first-weekend.png"
+      },
+      {
+        "topicId": "29fa5de6-1f64-51ac-89af-a2e1b1247546",
+        "locale": "zh",
+        "contentHash": "1e3253b9a8dca2852e03289490391c1868b976c2efb6a0573192d21128dd2674",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/zh/nagasaki-peace-ceremony-81.png"
+      },
+      {
+        "topicId": "29fa5de6-1f64-51ac-89af-a2e1b1247546",
+        "locale": "en",
+        "contentHash": "5633c3ab5d7f20e7e367314cf6ec796de16af3d412a230cda16f662f4448c364",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260809_9afd082d4e27d59e7ee337b9/en/nagasaki-peace-ceremony-81.png"
+      }
+    ]
+  }
+}

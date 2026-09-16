@@ -1,0 +1,678 @@
+{
+  "issue": {
+    "id": "10000000-0000-4000-8000-000000000008",
+    "slug": "2026-06-21",
+    "assetVersion": "rel_20260621_f7e2b4a31fa6f37d1eb19e9a",
+    "issueDate": "2026-06-21",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-06-21T05:00:00+08:00",
+    "gmtTimestamp": "2026-06-20T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "20000000-0000-4000-8000-000000000046",
+    "topics": [
+      {
+        "id": "20000000-0000-4000-8000-000000000046",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "world-cup",
+        "rank": 1,
+        "category": "sports",
+        "region": "Global",
+        "countryCodes": [
+          "NL",
+          "SE",
+          "DE",
+          "CI",
+          "MA",
+          "BR",
+          "HT",
+          "PY",
+          "TR",
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "world_cup_second_round_netherlands_germany_2026",
+        "storyStatus": "followup",
+        "followupDay": 3,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯",
+            "headlineFact": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦",
+            "headlineView": "世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出",
+            "headlineFull": "荷兰5:1大胜瑞典，德国2:1险胜科特迪瓦；世界杯进入第二轮后，真正的差距不是一场爆发，而是能否持续输出。",
+            "intro": "北京时间6月20日05:00至6月21日05:00，世界杯共结束5场比赛：苏格兰0:1摩洛哥、巴西3:0海地、土耳其0:1巴拉圭、荷兰5:1瑞典、德国2:1科特迪瓦。荷兰首轮2:2战平日本后，面对曾5:1大胜突尼斯的瑞典打出5:1，重新掌握F组主动权。德国继7:1大胜库拉索后又2:1过关，证明自己也能处理艰难局。第二轮开始后，强队要证明的不只是有没有明星，而是被研究之后还能不能拿出第二套答案。",
+            "xiaziQuote": "第二轮的价值在于去泡沫：一场大胜能制造声量，连续解决不同难题才说明球队真有底盘。",
+            "doudouQuote": "荷兰这场像把第一轮没进的球一起补交了；德国少了点烟花，但分数到账，账房先生也点头。",
+            "footerTakeaway": "5场比赛14球，荷兰与德国继续抢占主动，第二轮开始检验强队持续输出能力。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup",
+            "headlineFact": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1",
+            "headlineView": "as the second round begins, the real gap is not one burst of form but repeatable output",
+            "headlineFull": "The Netherlands beat Sweden 5-1 and Germany edged Côte d’Ivoire 2-1；as the second round begins, the real gap is not one burst of form but repeatable output。",
+            "intro": "From 05:00 June 20 to 05:00 June 21 Beijing time, five World Cup matches finished: Scotland 0-1 Morocco, Brazil 3-0 Haiti, Türkiye 0-1 Paraguay, Netherlands 5-1 Sweden, and Germany 2-1 Côte d’Ivoire. The Netherlands, held 2-2 by Japan in the opener, responded by beating a Sweden side that had opened with a 5-1 win over Tunisia. Germany followed its 7-1 rout of Curaçao with a narrower win, showing it can manage tougher games too. In the second round, contenders must prove not only star power, but a second answer after opponents study them.",
+            "xiaziQuote": "Matchday two removes some noise: a big win creates headlines, but solving different problems in sequence shows real depth.",
+            "doudouQuote": "The Dutch looked as if they were submitting all the goals they forgot in round one; Germany was less fireworks, more accounting department approval.",
+            "footerTakeaway": "Five matches produced 14 goals, with the Netherlands and Germany strengthening their positions as consistency becomes the test."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000221",
+            "topicId": "20000000-0000-4000-8000-000000000046",
+            "title": "Germany 2-1 Côte d’Ivoire | Match report and highlights",
+            "publisher": "FIFA",
+            "url": "https://www.fifa.com/en/articles/germany-cote-divoire-match-report-highlights",
+            "publishedAt": "2026-06-20T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "30000000-0000-4000-8000-000000000222",
+            "topicId": "20000000-0000-4000-8000-000000000046",
+            "title": "FIFA World Cup official match centre",
+            "publisher": "FIFA",
+            "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+            "publishedAt": "2026-06-20T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000047",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "us-iran-mou-signed",
+        "rank": 2,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "US",
+          "IR",
+          "CH",
+          "LB"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "us_iran_hormuz_switzerland_talks_2026",
+        "storyStatus": "followup",
+        "followupDay": 6,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "美伊谈判",
+            "headlineFact": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡",
+            "headlineView": "谈判还没有开始，双方已经先争夺谁有权定义现实",
+            "headlineFull": "美伊代表团抵达瑞士，伊朗却宣布关闭霍尔木兹海峡；谈判还没有开始，双方已经先争夺谁有权定义现实。",
+            "intro": "美伊高级代表团准备在瑞士启动和平谈判，落实为期60天的临时停火协议。与此同时，伊朗革命卫队宣布霍尔木兹海峡关闭，美国中央司令部否认这一说法，并称当天仍有55艘、装载超过1700万桶石油的商船通过。黎巴嫩方向的持续交火，也在考验这份协议能否真正落地。",
+            "xiaziQuote": "谈判桌上谈的是协议，海峡里争的是事实；谁能定义现实，谁就先拿到筹码。",
+            "doudouQuote": "这边说“开会”，那边说“关门”；外交有时候像群聊，最重要的是谁先改了群公告。",
+            "footerTakeaway": "美伊瑞士谈判与霍尔木兹争议同步升温，停火协议还没落地就遭遇现实压力。"
+          },
+          "en-US": {
+            "categoryLabel": "U.S.-Iran Talks",
+            "headlineFact": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed",
+            "headlineView": "before talks even begin, both sides are fighting over who gets to define reality",
+            "headlineFull": "U.S. and Iranian delegations reached Switzerland as Iran claimed the Strait of Hormuz was closed；before talks even begin, both sides are fighting over who gets to define reality。",
+            "intro": "Senior U.S. and Iranian delegations prepared to start peace talks in Switzerland to implement a 60-day interim ceasefire. At the same time, Iran’s Revolutionary Guard said the Strait of Hormuz was closed, while U.S. Central Command disputed the claim and said 55 merchant ships carrying more than 17 million barrels of oil still passed that day. Continued fighting around Lebanon is also testing whether the agreement can become more than paper.",
+            "xiaziQuote": "The negotiating table is about terms; the strait is about facts. Whoever defines reality first gets leverage.",
+            "doudouQuote": "One side says meeting, the other says closed. Diplomacy can feel like a group chat where the pinned message keeps changing.",
+            "footerTakeaway": "Swiss talks and the Hormuz dispute are escalating together, putting the ceasefire under pressure before implementation."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000225",
+            "topicId": "20000000-0000-4000-8000-000000000047",
+            "title": "US disputes Iranian claims about closing Strait of Hormuz as negotiators head to Switzerland",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/us-disputes-iranian-claims-about-closing-strait-hormuz-negotiators-head-2026-06-20/",
+            "publishedAt": "2026-06-20T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000048",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "cultural-heritage",
+        "rank": 3,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 88,
+        "storyId": "uk_starmer_resignation_report_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "英国政坛",
+            "headlineFact": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认",
+            "headlineView": "权力真正松动的信号，是所有人都开始讨论下一任是谁",
+            "headlineFull": "英媒称斯塔默最快周一宣布辞职，政府消息人士随即否认；权力真正松动的信号，是所有人都开始讨论下一任是谁。",
+            "intro": "英国《观察家报》报道称，首相基尔·斯塔默可能在周一宣布辞职并公布交接时间表；但英国政府消息人士表示，他仍专注于执政，目前尚无正式辞职声明。超过100名工党议员此前要求其下台，潜在竞争者安迪·伯纳姆重返议会，也进一步加剧领导权之争。这条新闻目前仍属于未经官方确认的重大政治传闻。",
+            "xiaziQuote": "政治危机最先改变的不是职位，而是人们默认“下一任”已经可以公开讨论。",
+            "doudouQuote": "还没官宣，接班人名单已经在桌上排队了；权力这东西，风一漏，窗帘先动。",
+            "footerTakeaway": "斯塔默去留仍未官方确认，但工党内部领导权压力已进入公开讨论阶段。"
+          },
+          "en-US": {
+            "categoryLabel": "UK Politics",
+            "headlineFact": "Reports said Starmer could announce his resignation Monday, while government sources denied it",
+            "headlineView": "the real sign power is loosening is that everyone starts discussing the successor",
+            "headlineFull": "Reports said Starmer could announce his resignation Monday, while government sources denied it；the real sign power is loosening is that everyone starts discussing the successor。",
+            "intro": "Britain’s Observer reported that Prime Minister Keir Starmer could announce his resignation on Monday and set out a timetable for departure. A government source said he remained focused on governing and no official resignation had been announced. More than 100 Labour MPs had reportedly called for him to step down, while potential challenger Andy Burnham’s return to parliament sharpened leadership speculation. This remains a major political report without official confirmation.",
+            "xiaziQuote": "A political crisis first changes not the office, but whether people feel allowed to discuss the next occupant in public.",
+            "doudouQuote": "No official announcement yet, but the successor list is already waiting in the hallway. Power leaks before it falls.",
+            "footerTakeaway": "Starmer’s position remains officially unresolved, but Labour’s leadership pressure has moved into open debate."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000229",
+            "topicId": "20000000-0000-4000-8000-000000000048",
+            "title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/uk/uk-pm-starmer-expected-resign-monday-set-out-orderly-exit-observer-newspaper-2026-06-20/",
+            "publishedAt": "2026-06-20T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000049",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "ukraine-moscow-refinery-drone-strike",
+        "rank": 4,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "UA",
+          "RU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "ukraine_tyumen_drone_strike_warning_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "俄乌局势",
+            "headlineFact": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外",
+            "headlineView": "战争的纵深，正在被远程技术不断重新定义",
+            "headlineFull": "乌克兰警告俄罗斯可能发动大规模袭击，同时把无人机打到两千公里外；战争的纵深，正在被远程技术不断重新定义。",
+            "intro": "泽连斯基警告俄罗斯正在准备新一轮大规模袭击，要求民众重视防空警报。与此同时，他确认乌克兰无人机袭击了俄罗斯西西伯利亚秋明地区的炼油设施，距离乌克兰超过2000公里，并称乌方新型远程无人机的作战距离已经达到3000公里。俄方表示袭击被防空系统击退，初步报告没有设施受损。",
+            "xiaziQuote": "远程无人机让“后方”这个词越来越不稳定，战争地图正在被技术重新拉长。",
+            "doudouQuote": "以前说打到纵深像军事论文，现在像快递范围说明：两千公里内都可能送达。",
+            "footerTakeaway": "乌克兰远程打击与俄罗斯袭击预警同时出现，显示战场纵深继续扩大。"
+          },
+          "en-US": {
+            "categoryLabel": "Ukraine War",
+            "headlineFact": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones",
+            "headlineView": "the depth of war is being redefined by long-range technology",
+            "headlineFull": "Ukraine warned of a major Russian attack while striking 2,000 km away with drones；the depth of war is being redefined by long-range technology。",
+            "intro": "President Volodymyr Zelenskyy warned that Russia was preparing another large-scale attack and urged Ukrainians to heed air alerts. He also confirmed Ukrainian drones struck refining facilities in Russia’s Tyumen region in western Siberia, more than 2,000 km from Ukraine, and said new Ukrainian long-range drones can reach 3,000 km. Russia said the attack was repelled and initial reports showed no facility damage.",
+            "xiaziQuote": "Long-range drones are making the word rear area less stable; technology is stretching the map of war.",
+            "doudouQuote": "Deep strike used to sound like a military paper. Now it reads like a delivery radius: within 2,000 km, service available.",
+            "footerTakeaway": "Ukraine’s long-range strike and Russia attack warning show the battlefield’s depth is still expanding."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000233",
+            "topicId": "20000000-0000-4000-8000-000000000049",
+            "title": "Ukraine’s Zelenskiy confirms drone strike on refining facilities in Russia’s Tyumen region",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/energy/ukraines-zelenskiy-confirms-drone-strike-refining-facilities-russias-tyumen-2026-06-20/",
+            "publishedAt": "2026-06-20T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "30000000-0000-4000-8000-000000000234",
+            "topicId": "20000000-0000-4000-8000-000000000049",
+            "title": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy",
+            "publisher": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/jun/21/ukraine-war-briefing-drones-strike-russia-tyumen-oil-refinery-2000km-away-says-zelenskyy",
+            "publishedAt": "2026-06-21T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000050",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "climate-adaptation",
+        "rank": 5,
+        "category": "climate",
+        "region": "Europe",
+        "countryCodes": [
+          "FR",
+          "DE",
+          "ES"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 87,
+        "storyId": "europe_heatwave_france_alcohol_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲热浪",
+            "headlineFact": "欧洲多地气温逼近41℃，法国限制公共活动饮酒",
+            "headlineView": "极端天气正在从气象新闻，变成城市必须立即执行的管理政策",
+            "headlineFull": "欧洲多地气温逼近41℃，法国限制公共活动饮酒；极端天气正在从气象新闻，变成城市必须立即执行的管理政策。",
+            "intro": "欧洲新一轮热浪持续升级。法国预计35个地区进入最高级别红色警报，部分地区气温可能达到41℃，政府因此限制音乐节等公共活动中的酒精消费，巴黎则让部分公园全天开放。德国发布大范围高温警告，西班牙还关闭了马德里的一处世界杯球迷区。",
+            "xiaziQuote": "气候风险真正进入日常治理时，表现不是口号变多，而是公园、酒精、球迷区这些细节开始被重新安排。",
+            "doudouQuote": "天气热到连音乐节喝酒都要管，城市管理终于体会到什么叫“太阳亲自加班”。",
+            "footerTakeaway": "欧洲热浪迫使多国调整公共活动安排，极端天气正在成为城市治理变量。"
+          },
+          "en-US": {
+            "categoryLabel": "European Heatwave",
+            "headlineFact": "Temperatures across Europe neared 41C as France restricted drinking at public events",
+            "headlineView": "extreme weather is moving from forecast to immediate city policy",
+            "headlineFull": "Temperatures across Europe neared 41C as France restricted drinking at public events；extreme weather is moving from forecast to immediate city policy。",
+            "intro": "A new European heatwave intensified. France expected 35 departments to enter the highest red alert, with some areas possibly reaching 41C, prompting restrictions on alcohol consumption at music festivals and other public events, while Paris kept some parks open overnight. Germany issued broad heat warnings, and Spain closed a World Cup fan zone in Madrid.",
+            "xiaziQuote": "Climate risk enters daily governance not through slogans, but through changed rules for parks, alcohol, transit and fan zones.",
+            "doudouQuote": "It is hot enough that even festival drinking needs policy. City managers have discovered the sun can do overtime.",
+            "footerTakeaway": "Europe’s heatwave forced countries to adjust public events, turning extreme weather into a governance variable."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000237",
+            "topicId": "20000000-0000-4000-8000-000000000050",
+            "title": "Europe swelters under heatwave, France restricts alcohol consumption",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/environment/europe-swelters-under-heatwave-prompting-crisis-talks-france-2026-06-20/",
+            "publishedAt": "2026-06-20T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000051",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "congo-ebola-response-strained",
+        "rank": 6,
+        "category": "science",
+        "region": "Africa",
+        "countryCodes": [
+          "CD"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "congo_ebola_cases_956_2026",
+        "storyStatus": "followup",
+        "followupDay": 3,
+        "informationIncrementScore": 82,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "埃博拉疫情",
+            "headlineFact": "刚果（金）埃博拉确诊升至956例、247人死亡",
+            "headlineView": "疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃",
+            "headlineFull": "刚果（金）埃博拉确诊升至956例、247人死亡；疫情真正失控之前，往往先出现的是拥挤、缺水和追踪系统崩溃。",
+            "intro": "刚果（金）公布的最新数字显示，本轮埃博拉确诊病例已由933例升至956例，死亡人数由245人升至247人。东北部一座收容超过1.5万名流离失所者的营地，从5月以来已有至少30人死亡，拥挤、卫生设施不足、居民抵触检测等问题，让传播风险进一步升高。世界卫生组织已将这场疫情列为国际关注的突发公共卫生事件。",
+            "xiaziQuote": "传染病最怕的不是单个病例增加，而是检测、隔离和社区信任同时跟不上。",
+            "doudouQuote": "病毒不看地图，但很懂人类系统哪里最薄：水不够、床不够、信任也不够。",
+            "footerTakeaway": "刚果（金）埃博拉数字继续上升，营地条件和追踪能力成为控制疫情的关键。"
+          },
+          "en-US": {
+            "categoryLabel": "Ebola Outbreak",
+            "headlineFact": "DR Congo Ebola cases rose to 956 with 247 deaths",
+            "headlineView": "before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first",
+            "headlineFull": "DR Congo Ebola cases rose to 956 with 247 deaths；before an outbreak truly loses control, crowding, water shortages and tracing failures usually appear first。",
+            "intro": "DR Congo’s latest figures showed confirmed Ebola cases rising from 933 to 956, with deaths increasing from 245 to 247. In a northeastern camp housing more than 15,000 displaced people, at least 30 people have died since May. Crowding, poor sanitation and resistance to testing are increasing transmission risks. The World Health Organization has treated the outbreak as an international public-health emergency.",
+            "xiaziQuote": "The danger is not just more cases; it is testing, isolation and community trust falling behind at the same time.",
+            "doudouQuote": "Viruses do not read maps, but they know weak systems: not enough water, not enough beds, not enough trust.",
+            "footerTakeaway": "DR Congo’s Ebola numbers are still rising, with camp conditions and tracing capacity central to control."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000241",
+            "topicId": "20000000-0000-4000-8000-000000000051",
+            "title": "Congo says confirmed Ebola cases rise to 956, including 247 deaths",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congo-says-confirmed-ebola-cases-rise-956-including-247-deaths-2026-06-20/",
+            "publishedAt": "2026-06-20T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "30000000-0000-4000-8000-000000000242",
+            "topicId": "20000000-0000-4000-8000-000000000051",
+            "title": "Disease Outbreak News",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/emergencies/disease-outbreak-news",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000052",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "apple-intel-us-chip-production",
+        "rank": 7,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "IN",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 84,
+        "storyId": "tata_iphone_pollution_probe_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "苹果供应链",
+            "headlineFact": "印度调查塔塔iPhone零部件工厂污染问题",
+            "headlineView": "制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失",
+            "headlineFull": "印度调查塔塔iPhone零部件工厂污染问题；制造业从一个国家转移到另一个国家，不代表环境成本也会自动消失。",
+            "intro": "印度卫生部门正在调查塔塔电子位于泰米尔纳德邦的iPhone零部件工厂。附近农民称工厂排放影响农田和水源，并有人出现皮肤问题；政府检测的部分水样发现大肠杆菌，总溶解固体含量也超过饮用水建议标准。塔塔表示厂内检测未发现污染，调查仍在进行。",
+            "xiaziQuote": "供应链转移解决的是地缘和成本问题，不会自动解决环境治理问题。",
+            "doudouQuote": "iPhone零件换了生产地，污染账单可不会自动改成环保主题皮肤。",
+            "footerTakeaway": "塔塔iPhone零部件工厂遭健康调查，提醒全球供应链重组仍要面对环境责任。"
+          },
+          "en-US": {
+            "categoryLabel": "Apple Supply Chain",
+            "headlineFact": "India is probing pollution complaints around Tata’s iPhone parts factory",
+            "headlineView": "moving manufacturing from one country to another does not make environmental costs disappear",
+            "headlineFull": "India is probing pollution complaints around Tata’s iPhone parts factory；moving manufacturing from one country to another does not make environmental costs disappear。",
+            "intro": "Indian health authorities are investigating Tata Electronics’ iPhone components plant in Tamil Nadu. Nearby farmers said factory discharge affected farmland and water sources, and some reported skin problems. Government tests on some water samples found E. coli and total dissolved solids above recommended drinking-water standards. Tata said internal tests found no contamination, and the probe is continuing.",
+            "xiaziQuote": "Supply-chain relocation solves some geopolitical and cost problems; it does not automatically solve environmental governance.",
+            "doudouQuote": "The iPhone parts moved production sites, but the pollution bill does not magically switch to an eco-friendly theme.",
+            "footerTakeaway": "The Tata probe shows global supply-chain restructuring still has to face environmental accountability."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000245",
+            "topicId": "20000000-0000-4000-8000-000000000052",
+            "title": "Tata’s iPhone parts factory faces India health probe after farmer contamination complaints",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/environment/tatas-iphone-parts-factory-faces-india-health-probe-after-farmer-contamination-2026-06-19/",
+            "publishedAt": "2026-06-19T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000053",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "public-health",
+        "rank": 8,
+        "category": "culture",
+        "region": "North America",
+        "countryCodes": [
+          "CA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 82,
+        "storyId": "td_workiq_employee_monitoring_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "职场监控",
+            "headlineFact": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间",
+            "headlineView": "远程办公带来自由，也让“是否在线”变成新的考勤表",
+            "headlineFull": "加拿大道明银行将用软件追踪部分员工的浏览器和会议时间；远程办公带来自由，也让“是否在线”变成新的考勤表。",
+            "intro": "加拿大道明银行通知部分金融犯罪与风险管理团队员工，将使用WorkiQ软件统计其使用浏览器、内部聊天和会议应用的时间。银行称该工具不监听谈话、不读取电子表格内容，也并非人工智能，目的是优化人员和工作流程；但员工对隐私、知情同意以及数据用途提出质疑。",
+            "xiaziQuote": "混合办公的下一场争论，不是人在不在办公室，而是公司能不能把“在线痕迹”当成劳动本身。",
+            "doudouQuote": "以前摸鱼怕老板路过，现在怕软件看见；办公室没变远，只是变成了后台进程。",
+            "footerTakeaway": "TD使用WorkiQ监测部分员工活动，凸显远程与混合办公中的隐私边界问题。"
+          },
+          "en-US": {
+            "categoryLabel": "Workplace Monitoring",
+            "headlineFact": "Canada’s TD Bank will track some employees’ browser and meeting time",
+            "headlineView": "remote work brought freedom, and also turned online status into a new timesheet",
+            "headlineFull": "Canada’s TD Bank will track some employees’ browser and meeting time；remote work brought freedom, and also turned online status into a new timesheet。",
+            "intro": "Toronto-Dominion Bank told some employees in financial-crime and risk-management teams it will use WorkiQ software to track time spent on browsers, internal chat and meeting apps. The bank said the tool does not listen to conversations, read spreadsheets or use artificial intelligence, and is meant to improve staffing and workflow. Employees raised concerns over privacy, consent and future data use.",
+            "xiaziQuote": "The next hybrid-work argument is not just where people sit, but whether online traces can stand in for work itself.",
+            "doudouQuote": "Workers used to worry about the boss walking by. Now they worry about the software already being in the room.",
+            "footerTakeaway": "TD’s WorkiQ rollout highlights the privacy boundary in remote and hybrid work."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000249",
+            "topicId": "20000000-0000-4000-8000-000000000053",
+            "title": "Canadian lender TD tells some employees it will use software to monitor their work",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/canadian-lender-td-tells-some-employees-it-will-use-software-monitor-their-work-2026-06-19/",
+            "publishedAt": "2026-06-19T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "20000000-0000-4000-8000-000000000054",
+        "issueId": "10000000-0000-4000-8000-000000000008",
+        "slug": "ai-governance",
+        "rank": 9,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 86,
+        "storyId": "meta_child_harm_lawsuit_immunity_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "未成年人网络保护",
+            "headlineFact": "Meta游说美国国会，为儿童伤害诉讼争取法律保护",
+            "headlineView": "平台愿意接受监管，不代表它也愿意承担过去造成的后果",
+            "headlineFull": "Meta游说美国国会，为儿童伤害诉讼争取法律保护；平台愿意接受监管，不代表它也愿意承担过去造成的后果。",
+            "intro": "消息人士及立法文本显示，Meta正游说美国国会，希望在《儿童网络安全法案》中加入相关条款，限制依据州法律提出的未成年人网络伤害诉讼。Meta称其目标是建立统一的全国标准，而不是获得全面豁免；批评者则认为，新条款可能影响年轻用户、家长和学校已经发起的数千起诉讼。相关议员表示不会接受目前披露的豁免措辞。",
+            "xiaziQuote": "平台谈统一规则时，要小心别把“未来怎么管”变成“过去怎么免”。",
+            "doudouQuote": "大厂说要全国统一标准，听起来像修路；家长听着像先把追责出口封了。",
+            "footerTakeaway": "Meta围绕儿童网络安全法案争取诉讼保护，平台责任边界再次成为焦点。"
+          },
+          "en-US": {
+            "categoryLabel": "Child Online Safety",
+            "headlineFact": "Meta lobbied Congress for protection from child-harm lawsuits",
+            "headlineView": "a platform may accept regulation without wanting to bear the consequences of past harm",
+            "headlineFull": "Meta lobbied Congress for protection from child-harm lawsuits；a platform may accept regulation without wanting to bear the consequences of past harm。",
+            "intro": "Sources and draft legislative text show Meta has lobbied the U.S. Congress to add language to the Kids Online Safety Act that would limit child-harm lawsuits brought under state law. Meta says it wants a uniform national standard rather than broad immunity. Critics argue the language could affect thousands of lawsuits already filed by young users, parents and schools. Lawmakers said they would not accept the disclosed immunity wording.",
+            "xiaziQuote": "When platforms discuss uniform rules, they must not turn future regulation into past absolution.",
+            "doudouQuote": "Big Tech says national standard; parents hear closed exit ramp for accountability. Both sides know the wording matters.",
+            "footerTakeaway": "Meta’s push for lawsuit protection puts platform accountability back at the center of child online safety."
+          }
+        },
+        "sources": [
+          {
+            "id": "30000000-0000-4000-8000-000000000253",
+            "topicId": "20000000-0000-4000-8000-000000000054",
+            "title": "Meta lobbies Congress for protection from child-harm lawsuits",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/meta-lobbies-congress-protection-child-harm-lawsuits-2026-06-18/",
+            "publishedAt": "2026-06-18T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-06-21",
+    "releaseId": "rel_20260621_f7e2b4a31fa6f37d1eb19e9a",
+    "assetBatchId": "asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a",
+    "posters": [
+      {
+        "topicId": "20000000-0000-4000-8000-000000000046",
+        "locale": "zh",
+        "contentHash": "eac133d063ad2bf1cdbf61217ddc236be64596ec26e9a32dab1bcf76889d5d26",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/world-cup.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000046",
+        "locale": "en",
+        "contentHash": "cc84edc1dd6a16fb077e6583f4b6b3a930359c96cbd5de5a00fcbf110474da5f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/world-cup.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000047",
+        "locale": "zh",
+        "contentHash": "19b2330df2ed72b96106e399882778ed589acdeb62977c5cb44ad3adb7b24d20",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/us-iran-mou-signed.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000047",
+        "locale": "en",
+        "contentHash": "5d8bb186ba2015ca2ab01fdd2d42847ac75c4741aa44284aeab4e88dbea4ca44",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/us-iran-mou-signed.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000048",
+        "locale": "zh",
+        "contentHash": "d1a002496e5479fb7973ca30c76101534182a91ad806ccdf829031b9487299c2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/cultural-heritage.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000048",
+        "locale": "en",
+        "contentHash": "e56c64839e9f1e3abe5a6434eab2ed34ca1b78c73776974a91a3c43c1e928663",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/cultural-heritage.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000049",
+        "locale": "zh",
+        "contentHash": "18943b3a598f422f1f35faecf0a7c06e66d259da988e7b1e473bede4ff99e270",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/ukraine-moscow-refinery-drone-strike.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000049",
+        "locale": "en",
+        "contentHash": "090d246d31dba6b975f59e114baa1445ff1391528710a97ccbf7163d2a9c1d80",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/ukraine-moscow-refinery-drone-strike.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000050",
+        "locale": "zh",
+        "contentHash": "00e3192934c93a053ee870511c0f8b9dbee41322f7e05ea7aca33f06bdd1d904",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/climate-adaptation.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000050",
+        "locale": "en",
+        "contentHash": "5fe4fe642c75e10e18739c3726989a9e05ebf98f0e1691a8a237806477a82ecc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/climate-adaptation.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000051",
+        "locale": "zh",
+        "contentHash": "5d1006a57b9685969cc8dda786e02f1372240e0bc6c315663b4d1fed064e62c6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/congo-ebola-response-strained.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000051",
+        "locale": "en",
+        "contentHash": "cef89859ddd2e918e6d405e4e468a762e64f9f4adbdcce11ab4bb9f9543dec26",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/congo-ebola-response-strained.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000052",
+        "locale": "zh",
+        "contentHash": "2281df22f5aefa172dfcb7e19f71c70a750a82fd2b57ae6126399c11285d3315",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/apple-intel-us-chip-production.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000052",
+        "locale": "en",
+        "contentHash": "eb40ef4a059e72f9143af16a293971b751ff405411358949eae2ebeb2a9f5944",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/apple-intel-us-chip-production.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000053",
+        "locale": "zh",
+        "contentHash": "393777a8fc0a4f7adc3bfaba83dbe1080d983bec3352e252d24dd8bf8046dd3f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/public-health.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000053",
+        "locale": "en",
+        "contentHash": "a257f934245d47d90da6b4ec0a16dfd14a256d7d9ca1b804c52eae6964224e7c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/public-health.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000054",
+        "locale": "zh",
+        "contentHash": "25863301621be2fd134f05903c2a0ade7806067b322251fc35d01f64fe81e3b7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/zh/ai-governance.png"
+      },
+      {
+        "topicId": "20000000-0000-4000-8000-000000000054",
+        "locale": "en",
+        "contentHash": "fb9e1bdda2d6effbe87f15070564b7a758129597723412727426b5dea301d51e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260621_f7e2b4a31fa6f37d1eb19e9a/en/ai-governance.png"
+      }
+    ]
+  }
+}

@@ -1,18 +1,18 @@
 {
   "id": "314163e1-e474-4fb5-b933-3ed405d60b18",
   "slug": "2026-07-06",
-  "issueDate": "2026-07-06",
-  "assetVersion": "issue-2026-07-06-chatgpt-sop-v3",
-  "status": "published",
-  "slotHour": 5,
-  "beijingTimestamp": "2026-07-06T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-05T21:00:00Z",
-  "featuredTopicId": "5a6d1ec6-ff18-4057-8236-74f6d6af0c96",
+  "assetVersion": "rel_20260706_4b349ae3dc106679a6fa12b9",
   "style": {
     "name": "Baroque newsroom collage",
     "zhName": "巴洛克新闻拼贴",
     "description": "Ornate editorial poster language with deep navy, antique gold, parchment, red accents and layered geopolitical news vignettes."
   },
+  "issueDate": "2026-07-06",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-06T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-05T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "5a6d1ec6-ff18-4057-8236-74f6d6af0c96",
   "topics": [
     {
       "id": "5a6d1ec6-ff18-4057-8236-74f6d6af0c96",
@@ -443,7 +443,7 @@
       "issueId": "314163e1-e474-4fb5-b933-3ed405d60b18",
       "slug": "israel-court-media-regulator",
       "rank": 9,
-      "category": "politics",
+      "category": "international",
       "region": "Global",
       "countryCodes": [],
       "eventTime": null,

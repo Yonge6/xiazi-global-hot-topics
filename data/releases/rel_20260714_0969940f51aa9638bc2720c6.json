@@ -1,0 +1,639 @@
+{
+  "issue": {
+    "id": "issue-2026-07-14",
+    "slug": "2026-07-14",
+    "assetVersion": "rel_20260714_0969940f51aa9638bc2720c6",
+    "style": {
+      "name": "Swiss Style 瑞士国际主义",
+      "zhName": "Swiss Style 瑞士国际主义",
+      "description": "Swiss Style 瑞士国际主义 visual system for Xiazi global hot topics posters."
+    },
+    "issueDate": "2026-07-14",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-14T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-13T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "issue-2026-07-14-topic-01",
+    "topics": [
+      {
+        "id": "topic-2026-07-14-01",
+        "issueId": "issue-2026-07-14",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "xzs-overview-20260714",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "世界杯四强进入最后备战，美伊冲突再度升级，AI开始同时考验就业、能源与社会治理",
+            "headlineView": "今天的风险都在追问系统能否提前准备。",
+            "headlineFull": "世界杯四强进入最后备战，美伊冲突再度升级，AI开始同时考验就业、能源与社会治理；今天的风险都在追问系统能否提前准备。",
+            "intro": "过去24小时，世界杯没有新比赛完赛，法国与西班牙、英格兰与阿根廷即将争夺决赛席位。场外，美国宣布恢复对伊朗航运的封锁并提出对霍尔木兹海峡货运收费；乌克兰启动战时政府改组。巴黎附近山火、中国北方洪水和刚果（金）埃博拉疫情继续考验公共系统，AI则同时把就业转型与电网成本推到政策桌面。\n\nEnglish Title:\nThe World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy; every risk now asks whether systems prepared early enough.",
+            "xiaziQuote": "赛场、航道、灾区、医院和电网看似分散，其实都在回答同一个问题：系统有没有在压力到来前准备好。",
+            "doudouQuote": "今天的世界像九宫格直播，比分、油价、水位、病例和电费一起刷新。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Overview",
+            "headlineFact": "The World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy",
+            "headlineView": "every risk now asks whether systems prepared early enough.",
+            "headlineFull": "The World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy; every risk now asks whether systems prepared early enough.",
+            "intro": "No World Cup match finished in the Beijing-time reporting window, with France versus Spain and England versus Argentina next. Beyond football, U.S.-Iran shipping tensions escalated, Ukraine began a wartime government reshuffle, wildfires and floods strained public systems, Congo's Ebola outbreak spread, and AI forced new debates over jobs and electricity costs.",
+            "xiaziQuote": "Stadiums, sea lanes, disaster zones, hospitals and power grids all ask the same question: did the system prepare before pressure arrived?",
+            "doudouQuote": "Today feels like a nine-window live feed: scores, oil, water, cases and electricity bills all refreshing together.",
+            "footerTakeaway": "Keyword: Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-01-1",
+            "topicId": "topic-2026-07-14-01",
+            "title": "The World Cup final four prepare as U.S.-Iran tensions rise and AI tests jobs, power and public policy",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iran-escalates-attacks-us-bases-gulf-states-warns-more-incidents-strait-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-02",
+        "issueId": "issue-2026-07-14",
+        "slug": "world-cup-july14-semifinal-preview",
+        "rank": 2,
+        "category": "sports",
+        "region": "Global",
+        "countryCodes": [
+          "NO",
+          "GB",
+          "AR",
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-world-cup-july13-quarterfinals-20260713",
+        "storyStatus": "followup",
+        "followupDay": 3,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯日报",
+            "headlineFact": "世界杯休赛一天，法国、西班牙准备争夺首张决赛门票",
+            "headlineView": "到了半决赛，决定胜负的往往是谁先让对方失去耐心。",
+            "headlineFull": "世界杯休赛一天，法国、西班牙准备争夺首张决赛门票；到了半决赛，决定胜负的往往是谁先让对方失去耐心。",
+            "intro": "北京时间7月13日05:00至7月14日05:00，没有世界杯比赛完赛。法国将在7月15日03:00迎战西班牙，英格兰将在7月16日03:00对阵阿根廷。法国依靠高速攻击群，西班牙强调中场控球；另一场则让梅西首次在正式比赛中面对英格兰。休赛日没有比分，但战术、体能与心理博弈已经开始。\n\nEnglish Title:\nThe World Cup pauses for a day before France face Spain for the first final berth; at semifinal level, patience can matter more than systems.",
+            "xiaziQuote": "半决赛拼的不只是技术，而是谁能把节奏、体能和情绪都留到最后一次正确决定。",
+            "doudouQuote": "休赛日没有进球，但教练的白板大概已经踢满了九十分钟。",
+            "footerTakeaway": "今日关键词：世界杯日报。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup",
+            "headlineFact": "The World Cup pauses for a day before France face Spain for the first final berth",
+            "headlineView": "at semifinal level, patience can matter more than systems.",
+            "headlineFull": "The World Cup pauses for a day before France face Spain for the first final berth; at semifinal level, patience can matter more than systems.",
+            "intro": "No World Cup match finished between 05:00 Beijing time on July 13 and 05:00 on July 14. France face Spain at 03:00 on July 15, followed by England against Argentina at 03:00 on July 16. France's pace meets Spain's midfield control, while Lionel Messi prepares for his first competitive meeting with England.",
+            "xiaziQuote": "Semifinals are not only technical contests; the decisive edge is saving rhythm, energy and composure for the last correct choice.",
+            "doudouQuote": "No goals on the rest day, but the coaches' whiteboards have probably already played 90 minutes.",
+            "footerTakeaway": "Keyword: World Cup."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-02-1",
+            "topicId": "topic-2026-07-14-02",
+            "title": "The World Cup pauses for a day before France face Spain for the first final berth",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/sports/soccer/spain-bank-midfield-control-contain-french-fab-four-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-03",
+        "issueId": "issue-2026-07-14",
+        "slug": "us-iran-hormuz-blockade-fee",
+        "rank": 3,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "US",
+          "IR",
+          "OM"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-us-iran-hormuz-escalation-july13-20260713",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "美伊冲突",
+            "headlineFact": "美国宣布恢复对伊朗航运封锁，并提出收取20%货运费用",
+            "headlineView": "当海峡变成收费站，全球能源运输就不再只是一门生意。",
+            "headlineFull": "美国宣布恢复对伊朗航运封锁，并提出收取20%货运费用；当海峡变成收费站，全球能源运输就不再只是一门生意。",
+            "intro": "美国与伊朗再次交换导弹和无人机攻击后，特朗普宣布恢复对伊朗港口及航运的封锁，并提出由美国保障霍尔木兹海峡开放，同时向通过海峡的货运收取20%费用。伊朗表示美国无权决定海峡未来，国际海事机构也质疑强制收费的法律依据。紧张升级一度推动油价上涨超过9%。\n\nEnglish Title:\nThe United States restores its shipping blockade on Iran and proposes a 20% cargo fee; when a strait becomes a toll booth, energy transport stops being ordinary business.",
+            "xiaziQuote": "能源通道一旦被武器化，最先收到战争账单的，往往是全球普通消费者。",
+            "doudouQuote": "海峡一变收费站，油价就先把账单寄到全世界。",
+            "footerTakeaway": "今日关键词：美伊冲突。"
+          },
+          "en-US": {
+            "categoryLabel": "U.S.-Iran",
+            "headlineFact": "The United States restores its shipping blockade on Iran and proposes a 20% cargo fee",
+            "headlineView": "when a strait becomes a toll booth, energy transport stops being ordinary business.",
+            "headlineFull": "The United States restores its shipping blockade on Iran and proposes a 20% cargo fee; when a strait becomes a toll booth, energy transport stops being ordinary business.",
+            "intro": "After renewed missile and drone exchanges, President Trump announced the restoration of a blockade on Iranian ports and shipping, while proposing that U.S.-protected cargo passing through the Strait of Hormuz pay a 20% fee. Iran rejected Washington's authority over the waterway, and the escalation sent oil prices sharply higher.",
+            "xiaziQuote": "Once an energy corridor is weaponised, ordinary consumers around the world receive the first bill.",
+            "doudouQuote": "Turn a strait into a toll booth and oil prices mail the invoice worldwide.",
+            "footerTakeaway": "Keyword: U.S.-Iran."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-03-1",
+            "topicId": "topic-2026-07-14-03",
+            "title": "The United States restores its shipping blockade on Iran and proposes a 20% cargo fee",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iran-escalates-attacks-us-bases-gulf-states-warns-more-incidents-strait-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-04",
+        "issueId": "issue-2026-07-14",
+        "slug": "ukraine-government-reshuffle",
+        "rank": 4,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "UA",
+          "RU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-ukraine-government-reshuffle-20260714",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "乌克兰政府改组",
+            "headlineFact": "泽连斯基突然撤换总理，乌克兰准备组建新政府",
+            "headlineView": "战争越持久，领导层越需要在稳定与变化之间冒险。",
+            "headlineFull": "泽连斯基突然撤换总理，乌克兰准备组建新政府；战争越持久，领导层越需要在稳定与变化之间冒险。",
+            "intro": "泽连斯基宣布撤换任职约一年的总理尤利娅·斯维里登科，乌克兰议会最快本周开始审议新政府人选。乌克兰国家油气公司负责人、能源部长和国防部长均被视为可能继任者。泽连斯基称改组是为了更新政府、加强能源安全、争取更多防空系统并推进加入欧盟。\n\nEnglish Title:\nZelenskiy dismisses Ukraine's prime minister and prepares a new government; the longer a war lasts, the harder it is to balance stability with change.",
+            "xiaziQuote": "战时换人不难，难的是新的人必须马上接住旧的问题。",
+            "doudouQuote": "和平时期有交接期，战时新班子上岗就得直接接急单。",
+            "footerTakeaway": "今日关键词：乌克兰政府改组。"
+          },
+          "en-US": {
+            "categoryLabel": "Ukraine Government",
+            "headlineFact": "Zelenskiy dismisses Ukraine's prime minister and prepares a new government",
+            "headlineView": "the longer a war lasts, the harder it is to balance stability with change.",
+            "headlineFull": "Zelenskiy dismisses Ukraine's prime minister and prepares a new government; the longer a war lasts, the harder it is to balance stability with change.",
+            "intro": "President Volodymyr Zelenskiy dismissed Prime Minister Yulia Svyrydenko after roughly a year in office, opening the way for parliament to consider a new wartime government. The reshuffle is intended to strengthen energy security, speed air-defense support and advance Ukraine's European Union ambitions, but it also risks management disruption.",
+            "xiaziQuote": "Changing people in wartime is easy; the hard part is making the new team carry old problems immediately.",
+            "doudouQuote": "In peacetime there is a handover. In wartime, the new cabinet starts with an urgent ticket.",
+            "footerTakeaway": "Keyword: Russia-Ukraine."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-04-1",
+            "topicId": "topic-2026-07-14-04",
+            "title": "Zelenskiy dismisses Ukraine's prime minister and prepares a new government",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/europe/ukraine-awaits-new-government-after-prime-ministers-shock-dismissal-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-05",
+        "issueId": "issue-2026-07-14",
+        "slug": "europe-wildfires-paris-spain",
+        "rank": 5,
+        "category": "climate",
+        "region": "East Asia",
+        "countryCodes": [
+          "CN",
+          "TW",
+          "JP",
+          "PH"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-europe-wildfires-paris-spain-20260714",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲山火",
+            "headlineFact": "巴黎附近森林突发大火，西班牙山火死亡人数升至13人",
+            "headlineView": "极端高温正在把欧洲熟悉的夏天变成长期应急状态。",
+            "headlineFull": "巴黎附近森林突发大火，西班牙山火死亡人数升至13人；极端高温正在把欧洲熟悉的夏天变成长期应急状态。",
+            "intro": "法国枫丹白露附近森林发生快速蔓延的大火，迫使A6高速公路和部分铁路暂停运行，最多约800人撤离。法国首次在巴黎大区部署大型水上灭火飞机。西班牙阿尔梅里亚山火死亡人数升至13人，另有10人失踪；法国约2600万人处于最高级别高温警报之下。\n\nEnglish Title:\nA wildfire erupts near Paris as Spain's fire death toll reaches 13; extreme heat is turning Europe's familiar summer into a prolonged emergency.",
+            "xiaziQuote": "当高温同时影响交通、电力、农业和生命安全，它就不再只是天气。",
+            "doudouQuote": "夏天不该是一张全年有效的应急响应单。",
+            "footerTakeaway": "今日关键词：欧洲山火。"
+          },
+          "en-US": {
+            "categoryLabel": "European Wildfires",
+            "headlineFact": "A wildfire erupts near Paris as Spain's fire death toll reaches 13",
+            "headlineView": "extreme heat is turning Europe's familiar summer into a prolonged emergency.",
+            "headlineFull": "A wildfire erupts near Paris as Spain's fire death toll reaches 13; extreme heat is turning Europe's familiar summer into a prolonged emergency.",
+            "intro": "A fast-moving wildfire near Fontainebleau forced closures on the A6 motorway and rail lines and led to the evacuation of up to 800 people. France deployed large water-bombing aircraft in the Paris region for the first time. In Spain, the Almeria wildfire death toll rose to 13, with ten people still missing.",
+            "xiaziQuote": "When heat disrupts transport, power, agriculture and life at once, it is no longer just weather.",
+            "doudouQuote": "Summer should not become a year-round emergency response order.",
+            "footerTakeaway": "Keyword: Typhoon Bavi."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-05-1",
+            "topicId": "topic-2026-07-14-05",
+            "title": "A wildfire erupts near Paris as Spain's fire death toll reaches 13",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/environment/france-sends-water-bombers-tackle-wildfire-outside-paris-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-06",
+        "issueId": "issue-2026-07-14",
+        "slug": "northern-china-floods-bavi",
+        "rank": 6,
+        "category": "climate",
+        "region": "South Asia",
+        "countryCodes": [
+          "BD"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-northern-china-floods-20260714",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "中国北方洪水",
+            "headlineFact": "台风“巴威”残余水汽北上，中国北方多地严重积水",
+            "headlineView": "台风登陆结束，不代表灾害也已经结束。",
+            "headlineFull": "台风“巴威”残余水汽北上，中国北方多地严重积水；台风登陆结束，不代表灾害也已经结束。",
+            "intro": "河北、辽宁等地遭遇严重洪水，河北宽城部分道路水深超过两米，车辆被洪水冲走，约1800名村民一度受困。沈阳多条铁路线路暂停运行，吉林等地关闭部分学校。“巴威”登陆后仍继续向北输送强降雨，全国已有46条河流超过警戒水位。\n\nEnglish Title:\nTyphoon Bavi's residual moisture triggers severe flooding across northern China; landfall ending does not mean the disaster has ended.",
+            "xiaziQuote": "真正考验城市韧性的，不是风最大的时候，而是水开始进入道路、社区和交通系统之后。",
+            "doudouQuote": "台风下班了，积水和抢修还在加班。",
+            "footerTakeaway": "今日关键词：中国北方洪水。"
+          },
+          "en-US": {
+            "categoryLabel": "North China Floods",
+            "headlineFact": "Typhoon Bavi's residual moisture triggers severe flooding across northern China",
+            "headlineView": "landfall ending does not mean the disaster has ended.",
+            "headlineFull": "Typhoon Bavi's residual moisture triggers severe flooding across northern China; landfall ending does not mean the disaster has ended.",
+            "intro": "Flooding hit Hebei, Liaoning and other northern regions, with water more than two metres deep on some roads in Kuancheng and about 1,800 villagers temporarily stranded. Rail services were suspended around Shenyang and schools closed in parts of Jilin. Authorities said 46 rivers nationwide had exceeded warning levels.",
+            "xiaziQuote": "Urban resilience is tested after the strongest wind, when water enters roads, homes and transport systems.",
+            "doudouQuote": "The typhoon clocked out, but flooding and repairs are still working overtime.",
+            "footerTakeaway": "Keyword: Bangladesh Floods."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-06-1",
+            "topicId": "topic-2026-07-14-06",
+            "title": "Typhoon Bavi's residual moisture triggers severe flooding across northern China",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/environment/heavy-floods-submerge-roads-vehicles-northern-china-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-07",
+        "issueId": "issue-2026-07-14",
+        "slug": "congo-ebola-two-provinces",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "congo_ebola_france_case_2026",
+        "storyStatus": "followup",
+        "followupDay": 3,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "埃博拉疫情",
+            "headlineFact": "刚果（金）埃博拉疫情扩散至另外两个省份，确诊病例升至1926例",
+            "headlineView": "疫情追踪不上病例时，地图上的边界会迅速失去意义。",
+            "headlineFull": "刚果（金）埃博拉疫情扩散至另外两个省份，确诊病例升至1926例；疫情追踪不上病例时，地图上的边界会迅速失去意义。",
+            "intro": "刚果（金）公共卫生机构确认，埃博拉疫情已经扩散至上韦莱省和乔波省，全国累计确诊病例升至1926例，其中702人死亡。世界卫生组织官员警告，真实感染规模可能达到官方数字的两至四倍，因为大量新增病例无法找到与已知患者之间的传播联系。\n\nEnglish Title:\nCongo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926; when tracing falls behind, borders on a map lose meaning quickly.",
+            "xiaziQuote": "疫情最危险的信号，不只是病例增加，而是越来越多病例无法找到源头。",
+            "doudouQuote": "病例跑得比追踪快，地图上的省界就只剩装饰线。",
+            "footerTakeaway": "今日关键词：埃博拉疫情。"
+          },
+          "en-US": {
+            "categoryLabel": "Ebola Outbreak",
+            "headlineFact": "Congo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926",
+            "headlineView": "when tracing falls behind, borders on a map lose meaning quickly.",
+            "headlineFull": "Congo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926; when tracing falls behind, borders on a map lose meaning quickly.",
+            "intro": "Health authorities in the Democratic Republic of Congo confirmed that the Ebola outbreak had spread to Haut-Uele and Tshopo provinces. Confirmed cases reached 1,926, including 702 deaths. WHO officials warned the true infection count could be two to four times higher because many new cases have no known epidemiological link.",
+            "xiaziQuote": "The most dangerous outbreak signal is not only more cases, but more cases whose source cannot be found.",
+            "doudouQuote": "When cases outrun contact tracing, provincial borders become decorative lines.",
+            "footerTakeaway": "Keyword: AI and Privacy."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-07-1",
+            "topicId": "topic-2026-07-14-07",
+            "title": "Congo's Ebola outbreak spreads to two more provinces as confirmed cases reach 1,926",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/congos-ebola-outbreak-spreads-two-more-provinces-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-08",
+        "issueId": "issue-2026-07-14",
+        "slug": "ai-economic-transition-warning",
+        "rank": 8,
+        "category": "technology",
+        "region": "Southeast Asia",
+        "countryCodes": [
+          "ID"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-ai-economic-transition-20260714",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI经济冲击",
+            "headlineFact": "超过200名专家呼吁立即准备AI经济转型",
+            "headlineView": "工业革命给了人类几十年，AI可能只给我们几年。",
+            "headlineFull": "超过200名专家呼吁立即准备AI经济转型；工业革命给了人类几十年，AI可能只给我们几年。",
+            "intro": "超过200名经济学家和研究人员联合发表声明，签署者包括15名诺贝尔奖得主，以及来自OpenAI、Anthropic和Google的研究人员及高管。他们认为AI可能在远短于工业革命的时间内带来更大规模的经济重构，各国应提前建立新的劳动、教育与社会保障政策。\n\nEnglish Title:\nMore than 200 experts call for immediate preparation for an AI economic transition; industrialisation gave society decades, while AI may offer only years.",
+            "xiaziQuote": "AI真正的问题不是会不会改变工作，而是社会能不能比变化更早做好准备。",
+            "doudouQuote": "技术按快进键，政策可别还在看缓冲圈。",
+            "footerTakeaway": "今日关键词：AI经济冲击。"
+          },
+          "en-US": {
+            "categoryLabel": "AI Economy",
+            "headlineFact": "More than 200 experts call for immediate preparation for an AI economic transition",
+            "headlineView": "industrialisation gave society decades, while AI may offer only years.",
+            "headlineFull": "More than 200 experts call for immediate preparation for an AI economic transition; industrialisation gave society decades, while AI may offer only years.",
+            "intro": "More than 200 economists and researchers, including 15 Nobel laureates and people from OpenAI, Anthropic and Google, signed a statement urging governments to prepare now for AI-driven economic disruption. They warned that changes to jobs, wealth distribution and public institutions could arrive much faster than during the Industrial Revolution.",
+            "xiaziQuote": "The real AI question is not whether work will change, but whether society can prepare before the change arrives.",
+            "doudouQuote": "Technology pressed fast-forward; policy should stop staring at the loading wheel.",
+            "footerTakeaway": "Keyword: Indonesia Anti-Graft."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-08-1",
+            "topicId": "topic-2026-07-14-08",
+            "title": "More than 200 experts call for immediate preparation for an AI economic transition",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/over-200-experts-call-urgent-action-tackle-ais-economic-impact-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-14-09",
+        "issueId": "issue-2026-07-14",
+        "slug": "ai-power-cost-protection",
+        "rank": 9,
+        "category": "technology",
+        "region": "Indo-Pacific",
+        "countryCodes": [
+          "IN",
+          "NZ"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-ai-power-cost-protection-20260714",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI电力成本",
+            "headlineFact": "美国准备扩大“AI电费保护承诺”",
+            "headlineView": "科技公司建设数据中心，不能让普通家庭替它们支付电网升级费用。",
+            "headlineFull": "美国准备扩大“AI电费保护承诺”；科技公司建设数据中心，不能让普通家庭替它们支付电网升级费用。",
+            "intro": "白宫计划召集电力公司、数据中心开发商和地方政府，推动一项自愿承诺，防止AI基础设施快速扩张推高家庭和中小企业电费。Amazon、Google、Meta、Microsoft、OpenAI、Oracle和xAI此前已承诺，为其数据中心所需的新发电设施、电网升级和预留容量承担相应成本。\n\nEnglish Title:\nThe United States moves to expand an AI power-bill protection pledge; households should not fund grid upgrades built for technology companies' data centres.",
+            "xiaziQuote": "AI的成本不只写在芯片账单上，也写在每一根电缆和每个月的电费单里。",
+            "doudouQuote": "模型住进大机房，电费单别寄到普通人家里。",
+            "footerTakeaway": "今日关键词：AI电力成本。"
+          },
+          "en-US": {
+            "categoryLabel": "AI Power Costs",
+            "headlineFact": "The United States moves to expand an AI power-bill protection pledge",
+            "headlineView": "households should not fund grid upgrades built for technology companies' data centres.",
+            "headlineFull": "The United States moves to expand an AI power-bill protection pledge; households should not fund grid upgrades built for technology companies' data centres.",
+            "intro": "The White House plans to bring together utilities, data-centre developers and local governments to prevent rapid AI infrastructure growth from raising household and small-business power bills. Major technology companies have pledged to cover the generation, grid upgrades and reserved capacity required by their data centres.",
+            "xiaziQuote": "AI costs are written not only on chip invoices, but in every cable and monthly power bill.",
+            "doudouQuote": "If models move into giant data centres, do not send the electricity bill to ordinary homes.",
+            "footerTakeaway": "Keyword: Indo-Pacific."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-14-09-1",
+            "topicId": "topic-2026-07-14-09",
+            "title": "The United States moves to expand an AI power-bill protection pledge",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/legal/litigation/white-house-rally-utilities-data-centers-over-ai-power-costs-2026-07-13/",
+            "publishedAt": "2026-07-13T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-14",
+    "releaseId": "rel_20260714_0969940f51aa9638bc2720c6",
+    "assetBatchId": "asset_archive_20260714_0969940f51aa9638bc2720c6",
+    "posters": [
+      {
+        "topicId": "topic-2026-07-14-01",
+        "locale": "zh",
+        "contentHash": "54b8d281712c89c5a734847c2dc55e6960400f7a12435adaa0f54c1c3c9695d1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/overview.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-01",
+        "locale": "en",
+        "contentHash": "01a193fe6ce5075b4b4c97898d2acfc1ae26df2315f31a7a3a5d4d99b4fc629a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/overview.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-02",
+        "locale": "zh",
+        "contentHash": "5731b0d8a1b348e0b50693c8a4d62a20ee6156454bb8c793f05701b9944c975e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/world-cup-july14-semifinal-preview.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-02",
+        "locale": "en",
+        "contentHash": "f44d438e9ec45a36f936593cee0da574c322cc5f74e28e1ad3c93d5b5e0f8bc7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/world-cup-july14-semifinal-preview.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-03",
+        "locale": "zh",
+        "contentHash": "51f3d7a0a16bd0873fff088cfc20a99943b146850cec540daec2e83d9afe97e6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/us-iran-hormuz-blockade-fee.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-03",
+        "locale": "en",
+        "contentHash": "ad84b706e3c9a84f2f9ba688e1aff0cb1acb8a0b0ce44d813434282c0952a6d8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/us-iran-hormuz-blockade-fee.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-04",
+        "locale": "zh",
+        "contentHash": "7129f50dcb913527e82a08bb988db4312205f21e3a8c233ca4367a3fe123fb68",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/ukraine-government-reshuffle.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-04",
+        "locale": "en",
+        "contentHash": "938ec9c203d19f4427ce31c3e4d70d3206ee890fa48bba871b9d4cb571784b61",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/ukraine-government-reshuffle.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-05",
+        "locale": "zh",
+        "contentHash": "1c241f455eb9bf3a895d5e8b19d8d13da352abce01dc278042db1e0f19ec5d29",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/europe-wildfires-paris-spain.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-05",
+        "locale": "en",
+        "contentHash": "ba8f16c8f18cf917c06a1ce51fbee68ce2b27242616c5d47af62095a32442795",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/europe-wildfires-paris-spain.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-06",
+        "locale": "zh",
+        "contentHash": "c6a4b1b8796c0cea41e9dee33271a462a8751e5d99da8691e6153c914f66d3fe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/northern-china-floods-bavi.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-06",
+        "locale": "en",
+        "contentHash": "16e65a5fcf2b0d05fa78aaea52d1d2039a9c5fe1301def7ddcaadf1553c6e41f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/northern-china-floods-bavi.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-07",
+        "locale": "zh",
+        "contentHash": "255dbc4e9f8c487a005556e2fc5337f81b8ad1f1a4f188ed3fac7384a55f408f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/congo-ebola-two-provinces.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-07",
+        "locale": "en",
+        "contentHash": "75deb4afc3fd125c1e9644c2a53afcbe686b03cd0d20dbe36c888ba76f40bda8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/congo-ebola-two-provinces.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-08",
+        "locale": "zh",
+        "contentHash": "5f543984d7d2b3b614fff66b3e993620c5b8f06b327457ee7233140b8bf7d252",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/ai-economic-transition-warning.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-08",
+        "locale": "en",
+        "contentHash": "8ff464fa2a89e808d566fa7769cf77208e6612b1549baba0f9ba831cb2168f7f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/ai-economic-transition-warning.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-09",
+        "locale": "zh",
+        "contentHash": "4ed2befec3740283ec3878598d995f1c179b4449eaeb5e98871e353f5de5a645",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/zh/ai-power-cost-protection.png"
+      },
+      {
+        "topicId": "topic-2026-07-14-09",
+        "locale": "en",
+        "contentHash": "ec411bf3918e0e8d927cd682025d7a69f809b83efbee260aafa7dc1f2e061557",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260714_0969940f51aa9638bc2720c6/en/ai-power-cost-protection.png"
+      }
+    ]
+  }
+}

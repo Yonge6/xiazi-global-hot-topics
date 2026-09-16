@@ -1,0 +1,635 @@
+{
+  "issue": {
+    "id": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+    "slug": "2026-08-06",
+    "assetVersion": "rel_20260806_ec47e054484b987926cf1877",
+    "style": {
+      "name": "Aboriginal Dot Painting",
+      "zhName": "澳大利亚原住民点画",
+      "description": "Style Atlas daily pick: contemporary editorial translation of earth pigments, dot networks, concentric nodes and mapped pathways, without copying sacred symbols or specific artists."
+    },
+    "issueDate": "2026-08-06",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-08-06T05:00:00+08:00",
+    "gmtTimestamp": "2026-08-05T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "d42a1f5b-25cd-5d53-a427-b0132d4e2886",
+    "topics": [
+      {
+        "id": "d42a1f5b-25cd-5d53-a427-b0132d4e2886",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "today-overview-execution-memory",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-today-overview-execution-memory-20260806",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "关税、AI执行与公共记忆进入落地期",
+            "headlineView": "规则正在变成经营与社会的日常系统",
+            "headlineFull": "关税、AI执行与公共记忆进入落地期；规则正在变成经营与社会的日常系统",
+            "intro": "欧盟小包裹关税、AI透明执法、单成员公司合规、空间站维护、广岛和平纪念、月球撞击观测、母乳喂养支持与高温韧性共同显示：世界正从宣布转向执行。",
+            "xiaziQuote": "长期韧性来自可执行的规则、可维护的设施与不被遗忘的经验。",
+            "doudouQuote": "地图上的每个点，最后都要连到真实生活。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today Overview",
+            "headlineFact": "Duties, AI enforcement and public memory move into execution",
+            "headlineView": "rules become everyday operating systems",
+            "headlineFull": "Duties, AI enforcement and public memory move into execution; rules become everyday operating systems",
+            "intro": "EU parcel duties, AI transparency enforcement, solo-company compliance, station maintenance, Hiroshima remembrance, lunar observing, breastfeeding support and heat resilience show a shift from announcements to execution.",
+            "xiaziQuote": "Durable resilience comes from enforceable rules, maintainable infrastructure and experience that is not forgotten.",
+            "doudouQuote": "Every point on the map must eventually connect to real life.",
+            "footerTakeaway": "Keyword: Today Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "b0b95e1d-6459-5b61-b8e9-fa8f7bf3bc63",
+            "topicId": "d42a1f5b-25cd-5d53-a427-b0132d4e2886",
+            "title": "Guidance and legal text on temporary flat fee on low-value imports",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en?prefLang=en",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "c297731e-30c1-5e8e-abd4-54abedb621f0",
+            "topicId": "d42a1f5b-25cd-5d53-a427-b0132d4e2886",
+            "title": "Commission opens consultation on draft guidelines for AI transparency obligations",
+            "publisher": "European Commission",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "6606f2cc-1e47-554a-80d4-ff4fce29cfae",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "eu-parcel-duty-first-full-month",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-parcel-duty-first-full-month-20260806",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟3欧元小包裹关税进入首个完整月",
+            "headlineView": "商品分类与合单策略成为利润变量",
+            "headlineFull": "欧盟3欧元小包裹关税进入首个完整月；商品分类与合单策略成为利润变量",
+            "intro": "欧盟自7月起对低于150欧元、直寄消费者的小包裹按商品类别征收3欧元关税；卖家需同步重算申报数据、客单价、拆包与履约路线。",
+            "xiaziQuote": "跨境经营要把税费、商品分类和履约结构放进同一张利润表。",
+            "doudouQuote": "每个小包裹都多了一个必须算清的点。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "EU parcel duty enters its first full month",
+            "headlineView": "classification and consolidation become margin variables",
+            "headlineFull": "EU parcel duty enters its first full month; classification and consolidation become margin variables",
+            "intro": "The EU applies a EUR3 duty per item category to parcels under EUR150 sent directly to consumers, requiring sellers to recalculate declaration data, basket size, parcel structure and fulfillment routes.",
+            "xiaziQuote": "Cross-border operators must put duty, classification and fulfillment structure into one margin model.",
+            "doudouQuote": "Every small parcel now has another point that must be calculated.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "4cc877bc-6a96-5558-a5b1-b20d302be5f4",
+            "topicId": "6606f2cc-1e47-554a-80d4-ff4fce29cfae",
+            "title": "Guidance and legal text on temporary flat fee on low-value imports",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en?prefLang=en",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6cd57815-03c5-556c-bcc2-91297b5be353",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "eu-ai-transparency-enforcement-week",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-eu-ai-transparency-enforcement-week-20260806",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "人工智能 AI",
+            "headlineFact": "欧盟AI透明规则进入执法首周",
+            "headlineView": "生成内容披露成为产品基础能力",
+            "headlineFull": "欧盟AI透明规则进入执法首周；生成内容披露成为产品基础能力",
+            "intro": "自8月2日起，面向欧盟用户的部分AI交互以及生成或操纵内容需要更清晰的身份披露、标识与来源说明，监管团队开始跟踪落实。",
+            "xiaziQuote": "透明不是末端补水印，而是输出、界面和审计链共同承担的产品能力。",
+            "doudouQuote": "先说清内容从哪里来，再让它走得更远。",
+            "footerTakeaway": "今日关键词：人工智能 AI。"
+          },
+          "en-US": {
+            "categoryLabel": "Artificial Intelligence AI",
+            "headlineFact": "EU AI transparency enters its first enforcement week",
+            "headlineView": "disclosure becomes a core product capability",
+            "headlineFull": "EU AI transparency enters its first enforcement week; disclosure becomes a core product capability",
+            "intro": "From August 2, certain AI interactions and generated or manipulated content shown to EU users require clearer disclosure, marking and provenance as enforcement begins.",
+            "xiaziQuote": "Transparency is not a final watermark; output, interface and audit trail must share the responsibility.",
+            "doudouQuote": "Say where content came from before sending it farther.",
+            "footerTakeaway": "Keyword: Artificial Intelligence AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "538aec73-0a5c-569e-b476-4f1f1ac00fd3",
+            "topicId": "6cd57815-03c5-556c-bcc2-91297b5be353",
+            "title": "Commission opens consultation on draft guidelines for AI transparency obligations",
+            "publisher": "European Commission",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c53d35be-5045-561a-a263-f0d89b1284bf",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "single-member-llc-tax-identity",
+        "rank": 4,
+        "category": "business",
+        "region": "United States",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-single-member-llc-tax-identity-20260806",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "一人公司 OPC",
+            "headlineFact": "单成员LLC需要分清税务身份",
+            "headlineView": "轻公司更需要模块化合规系统",
+            "headlineFull": "单成员LLC需要分清税务身份；轻公司更需要模块化合规系统",
+            "intro": "美国税局说明，单成员LLC通常按忽略实体处理，但雇佣税和部分消费税仍以独立实体申报；经营者需分清账户、税种、合同与责任。",
+            "xiaziQuote": "一人公司越轻，记录、申报和责任边界越要提前模块化。",
+            "doudouQuote": "老板可以只有一个，账务节点不能糊成一团。",
+            "footerTakeaway": "今日关键词：一人公司 OPC。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company OPC",
+            "headlineFact": "Single-member LLCs must separate tax identities",
+            "headlineView": "lean companies need modular compliance",
+            "headlineFull": "Single-member LLCs must separate tax identities; lean companies need modular compliance",
+            "intro": "The IRS says a single-member LLC is usually disregarded for income tax, while employment and certain excise taxes still use separate-entity treatment.",
+            "xiaziQuote": "The leaner the company, the earlier records, filings and responsibility boundaries should be modularized.",
+            "doudouQuote": "One owner is fine; accounting nodes cannot blur together.",
+            "footerTakeaway": "Keyword: One-person Company OPC."
+          }
+        },
+        "sources": [
+          {
+            "id": "bfcc4119-cea7-5e99-a1f2-9e52864bcbcf",
+            "topicId": "c53d35be-5045-561a-a263-f0d89b1284bf",
+            "title": "Single member limited liability companies",
+            "publisher": "Internal Revenue Service",
+            "url": "https://www.irs.gov/businesses/small-businesses-self-employed/single-member-limited-liability-companies",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "5c059e8e-4b28-5e7e-8eb5-748a5a9513ac",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "august-space-station-spacewalk",
+        "rank": 5,
+        "category": "science",
+        "region": "Space",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-august-space-station-spacewalk-20260806",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "空间站",
+            "headlineFact": "NASA启动8月空间站维护太空行走",
+            "headlineView": "长期探索靠持续检修而非一次发射",
+            "headlineFull": "NASA启动8月空间站维护太空行走；长期探索靠持续检修而非一次发射",
+            "intro": "NASA计划在8月安排多次美国太空行走，首场于8月6日展开，任务围绕空间站外部维护与升级，体现轨道基础设施的日常运营。",
+            "xiaziQuote": "太空探索的可靠性，来自一次次可验证、可维护的工程动作。",
+            "doudouQuote": "飞得再远，也得按时拧紧下一颗螺丝。",
+            "footerTakeaway": "今日关键词：空间站。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Station",
+            "headlineFact": "NASA begins August station-maintenance spacewalks",
+            "headlineView": "long exploration depends on continuous repair",
+            "headlineFull": "NASA begins August station-maintenance spacewalks; long exploration depends on continuous repair",
+            "intro": "NASA plans multiple U.S. spacewalks in August, beginning August 6, focused on external station maintenance and upgrades.",
+            "xiaziQuote": "Reliable exploration comes from engineering work that can be verified and maintained.",
+            "doudouQuote": "However far we fly, the next bolt still needs tightening.",
+            "footerTakeaway": "Keyword: Space Station."
+          }
+        },
+        "sources": [
+          {
+            "id": "4aa7fb3b-698a-5e83-a0c0-c9dd783ea61b",
+            "topicId": "5c059e8e-4b28-5e7e-8eb5-748a5a9513ac",
+            "title": "Indian-origin astronaut Anil Menon set for first spacewalk",
+            "publisher": "Amar Ujala",
+            "url": "https://www.amarujala.com/amp/world/indian-origin-anil-menon-make-history-in-space-set-for-his-first-spacewalk-next-week-2026-07-28",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7beb03a0-360b-5655-8714-eb589a544117",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "hiroshima-81st-anniversary",
+        "rank": 6,
+        "category": "international",
+        "region": "Japan",
+        "countryCodes": [
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-hiroshima-81st-anniversary-20260806",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "和平与记忆",
+            "headlineFact": "广岛原爆81周年纪念呼吁守住和平",
+            "headlineView": "历史记忆仍是核风险时代的公共基础设施",
+            "headlineFull": "广岛原爆81周年纪念呼吁守住和平；历史记忆仍是核风险时代的公共基础设施",
+            "intro": "8月6日，广岛举行原爆81周年纪念活动。幸存者记忆与和平教育提醒世界，核武器造成的人道后果必须持续进入公共决策。",
+            "xiaziQuote": "记忆不是停在过去，而是帮助今天的人识别不可承受的风险。",
+            "doudouQuote": "把每个名字记住，和平才不只是一个口号。",
+            "footerTakeaway": "今日关键词：和平与记忆。"
+          },
+          "en-US": {
+            "categoryLabel": "Peace and Memory",
+            "headlineFact": "Hiroshima marks 81 years and renews its call for peace",
+            "headlineView": "historical memory remains public infrastructure",
+            "headlineFull": "Hiroshima marks 81 years and renews its call for peace; historical memory remains public infrastructure",
+            "intro": "On August 6, Hiroshima marks 81 years since the atomic bombing, keeping survivor testimony and the humanitarian consequences of nuclear weapons in public decision-making.",
+            "xiaziQuote": "Memory does not stop in the past; it helps people today recognize unbearable risks.",
+            "doudouQuote": "Remember every name so peace is more than a slogan.",
+            "footerTakeaway": "Keyword: Peace and Memory."
+          }
+        },
+        "sources": [
+          {
+            "id": "5716e76d-2dc7-5e73-b0ec-2d979c5e3bef",
+            "topicId": "7beb03a0-360b-5655-8714-eb589a544117",
+            "title": "Hiroshima Peace Memorial Ceremony",
+            "publisher": "City of Hiroshima",
+            "url": "https://www.city.hiroshima.lg.jp/site/english/9802.html",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6589946d-81b3-5b3f-934b-2b22985a941c",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "falcon9-lunar-impact-observation",
+        "rank": 7,
+        "category": "science",
+        "region": "Moon",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-falcon9-lunar-impact-observation-20260806",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "月球观测",
+            "headlineFact": "废弃火箭级撞月成为科学观测窗口",
+            "headlineView": "可预报撞击也提醒深空碎片责任",
+            "headlineFull": "废弃火箭级撞月成为科学观测窗口；可预报撞击也提醒深空碎片责任",
+            "intro": "研究团队围绕8月5日猎鹰9号废弃上面级撞击月球安排闪光与喷出物观测，同时推动对深空物体追踪和处置责任的讨论。",
+            "xiaziQuote": "能准确预测的残骸事件可以成为实验，也应成为治理案例。",
+            "doudouQuote": "旧火箭留下的不只一个坑，还有一张责任清单。",
+            "footerTakeaway": "今日关键词：月球观测。"
+          },
+          "en-US": {
+            "categoryLabel": "Lunar Observation",
+            "headlineFact": "Spent rocket impact becomes a lunar observing window",
+            "headlineView": "a predictable impact also raises debris responsibility",
+            "headlineFull": "Spent rocket impact becomes a lunar observing window; a predictable impact also raises debris responsibility",
+            "intro": "Researchers planned observations of the August 5 Falcon 9 upper-stage lunar impact, using its flash and ejecta as a scientific opportunity while highlighting deep-space tracking.",
+            "xiaziQuote": "A predictable debris event can be both an experiment and a governance case.",
+            "doudouQuote": "The old rocket leaves not only a crater, but a responsibility list.",
+            "footerTakeaway": "Keyword: Lunar Observation."
+          }
+        },
+        "sources": [
+          {
+            "id": "1aa9dcea-c3a5-56a1-8f0a-8673be37ccb8",
+            "topicId": "6589946d-81b3-5b3f-934b-2b22985a941c",
+            "title": "Observational planning for the 2026 August 5 Falcon 9 Upper Stage lunar impact",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2607.14625",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ee004adb-2ff5-5830-99e8-8600f2bc633a",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "world-breastfeeding-week-support",
+        "rank": 8,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-world-breastfeeding-week-support-20260806",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共健康",
+            "headlineFact": "世界母乳喂养周强调持续支持",
+            "headlineView": "医疗、工作与社区需要连成服务网络",
+            "headlineFull": "世界母乳喂养周强调持续支持；医疗、工作与社区需要连成服务网络",
+            "intro": "2026年世界母乳喂养周于8月1日至7日举行，WHO强调把已证实有效的支持嵌入医疗、工作场所与社区，让家庭获得连续帮助。",
+            "xiaziQuote": "公共健康倡议要从一周传播变成全年可获得的服务。",
+            "doudouQuote": "支持不是一个点，而是一条不断线的路。",
+            "footerTakeaway": "今日关键词：公共健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Public Health",
+            "headlineFact": "World Breastfeeding Week emphasizes continuous support",
+            "headlineView": "health care, workplaces and communities must connect",
+            "headlineFull": "World Breastfeeding Week emphasizes continuous support; health care, workplaces and communities must connect",
+            "intro": "World Breastfeeding Week 2026 runs August 1–7, with WHO emphasizing proven support across health care, workplaces and communities.",
+            "xiaziQuote": "A public-health campaign should turn one week of attention into year-round accessible support.",
+            "doudouQuote": "Support is not one point; it is a path that stays connected.",
+            "footerTakeaway": "Keyword: Public Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "82c651a7-1984-5029-84f8-80cd6679f446",
+            "topicId": "ee004adb-2ff5-5830-99e8-8600f2bc633a",
+            "title": "2026 World Breastfeeding Week",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b598773b-9669-5ee2-99ff-6cad89a1a6ec",
+        "issueId": "720c9d6c-10d0-5d34-8a04-790628a760f8",
+        "slug": "global-heat-resilience-budget",
+        "rank": 9,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-global-heat-resilience-budget-20260806",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 89,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球气候",
+            "headlineFact": "未来五年至少一年破高温纪录概率达80%",
+            "headlineView": "高温韧性需要进入长期预算",
+            "headlineFull": "未来五年至少一年破高温纪录概率达80%；高温韧性需要进入长期预算",
+            "intro": "WMO估计2025至2029年至少一年超过2024年最热纪录的概率为80%，城市、能源与企业需要把极端高温准备从应急转为常态投资。",
+            "xiaziQuote": "当高温成为高概率事件，韧性就必须写进每年的预算与运营。",
+            "doudouQuote": "不能每次热浪来临，才第一次打开应急预案。",
+            "footerTakeaway": "今日关键词：全球气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Climate",
+            "headlineFact": "Record heat in at least one of five years is 80% likely",
+            "headlineView": "heat resilience belongs in long-term budgets",
+            "headlineFull": "Record heat in at least one of five years is 80% likely; heat resilience belongs in long-term budgets",
+            "intro": "WMO estimates an 80% chance that at least one year from 2025 to 2029 will surpass 2024 as the warmest on record.",
+            "xiaziQuote": "When extreme heat becomes probable, resilience must enter annual budgets and operations.",
+            "doudouQuote": "Do not open the heat plan for the first time during the heatwave.",
+            "footerTakeaway": "Keyword: Global Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "771e2230-da5a-52c0-a8b0-37afdba9d148",
+            "topicId": "b598773b-9669-5ee2-99ff-6cad89a1a6ec",
+            "title": "WMO Global Annual to Decadal Climate Update (2025-2029)",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/publication-series/wmo-global-annual-decadal-climate-update-2025-2029",
+            "publishedAt": "2026-08-06T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-08-06",
+    "releaseId": "rel_20260806_ec47e054484b987926cf1877",
+    "assetBatchId": "asset_archive_20260806_ec47e054484b987926cf1877",
+    "posters": [
+      {
+        "topicId": "d42a1f5b-25cd-5d53-a427-b0132d4e2886",
+        "locale": "zh",
+        "contentHash": "be857576b059fc40cabb0df6a8d45b4f129e0480600ea4f0a14479aabbad1355",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/today-overview-execution-memory.png"
+      },
+      {
+        "topicId": "d42a1f5b-25cd-5d53-a427-b0132d4e2886",
+        "locale": "en",
+        "contentHash": "55cf9878428b027a6687c97ba06fcd5f0e9f4b2351ef985fc4db971da4b3f382",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/today-overview-execution-memory.png"
+      },
+      {
+        "topicId": "6606f2cc-1e47-554a-80d4-ff4fce29cfae",
+        "locale": "zh",
+        "contentHash": "a755af946a44aa913d265259d4432b84642360684d3b876d9f4ea224c2567b4c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/eu-parcel-duty-first-full-month.png"
+      },
+      {
+        "topicId": "6606f2cc-1e47-554a-80d4-ff4fce29cfae",
+        "locale": "en",
+        "contentHash": "9481f186b4dda25755164fe723a99ff039b57b77fb7ffdd92ecafcbba40e3d6b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/eu-parcel-duty-first-full-month.png"
+      },
+      {
+        "topicId": "6cd57815-03c5-556c-bcc2-91297b5be353",
+        "locale": "zh",
+        "contentHash": "0538edafb816b0275c1816de2c310e5d37998afcaceaeaed1fe173df1c366fa9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/eu-ai-transparency-enforcement-week.png"
+      },
+      {
+        "topicId": "6cd57815-03c5-556c-bcc2-91297b5be353",
+        "locale": "en",
+        "contentHash": "681eba4f6f2a840e3ce7e1c0202c80d47f635def2bf46f68f824abecb957a3f6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/eu-ai-transparency-enforcement-week.png"
+      },
+      {
+        "topicId": "c53d35be-5045-561a-a263-f0d89b1284bf",
+        "locale": "zh",
+        "contentHash": "df609b6824071e2e775c105fee9d1c6ab39963c7c2a1c13467824d89b47ba462",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/single-member-llc-tax-identity.png"
+      },
+      {
+        "topicId": "c53d35be-5045-561a-a263-f0d89b1284bf",
+        "locale": "en",
+        "contentHash": "27e9610b71c374e223babf0d33cbbe08519eb83430914e5a0b32b3d52e997e1e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/single-member-llc-tax-identity.png"
+      },
+      {
+        "topicId": "5c059e8e-4b28-5e7e-8eb5-748a5a9513ac",
+        "locale": "zh",
+        "contentHash": "001492f78ed663cdca1ebe0416c3a46a1474019016a18bfceac9495e29b7745f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/august-space-station-spacewalk.png"
+      },
+      {
+        "topicId": "5c059e8e-4b28-5e7e-8eb5-748a5a9513ac",
+        "locale": "en",
+        "contentHash": "f6eb093a59425062e1570676584115f02fd30f6c8dcb93988d7a276ac15be28e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/august-space-station-spacewalk.png"
+      },
+      {
+        "topicId": "7beb03a0-360b-5655-8714-eb589a544117",
+        "locale": "zh",
+        "contentHash": "0828bbb931db45fe0236e1145a6edbe01c59ede48dd8393586aaf10ce62f5106",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/hiroshima-81st-anniversary.png"
+      },
+      {
+        "topicId": "7beb03a0-360b-5655-8714-eb589a544117",
+        "locale": "en",
+        "contentHash": "63a57384cb0175c4b162baf3ca8dd47c19aa4e7897bd62674c54129b5c928b76",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/hiroshima-81st-anniversary.png"
+      },
+      {
+        "topicId": "6589946d-81b3-5b3f-934b-2b22985a941c",
+        "locale": "zh",
+        "contentHash": "3327e32df9b1200f03ae0a47a4da4f3033b73aba2c3b9a7f38546ad66e74425b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/falcon9-lunar-impact-observation.png"
+      },
+      {
+        "topicId": "6589946d-81b3-5b3f-934b-2b22985a941c",
+        "locale": "en",
+        "contentHash": "5d90d28dfccc4a49f0ad31ff35001a643e06de313fdf0c99bdc3a9b3b6950da0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/falcon9-lunar-impact-observation.png"
+      },
+      {
+        "topicId": "ee004adb-2ff5-5830-99e8-8600f2bc633a",
+        "locale": "zh",
+        "contentHash": "a5f2bc0a007285a39036b6ca8b4b0b7546aea4419c37d3cb2731ca9620dceb5e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/world-breastfeeding-week-support.png"
+      },
+      {
+        "topicId": "ee004adb-2ff5-5830-99e8-8600f2bc633a",
+        "locale": "en",
+        "contentHash": "ad88e070081b4e4428f7191184ce46061c436d7f750d38f3d9c23fea63cda56e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/world-breastfeeding-week-support.png"
+      },
+      {
+        "topicId": "b598773b-9669-5ee2-99ff-6cad89a1a6ec",
+        "locale": "zh",
+        "contentHash": "c5fdab3de388e4915cc76451c990df3b959b4d2d0d39fa407c5daafe0157f3d8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/zh/global-heat-resilience-budget.png"
+      },
+      {
+        "topicId": "b598773b-9669-5ee2-99ff-6cad89a1a6ec",
+        "locale": "en",
+        "contentHash": "0101275d682106742908ea59b3c2ca145a453b2d507e8b12cbcbd8a5378245d2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260806_ec47e054484b987926cf1877/en/global-heat-resilience-budget.png"
+      }
+    ]
+  }
+}

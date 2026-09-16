@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "xiazi-current-release-v1",
+  "issueDate": "2026-06-24",
+  "releaseId": "rel_20260624_7d30d1d8c9e89a319b9f6e34",
+  "assetBatchId": "asset_archive_20260624_7d30d1d8c9e89a319b9f6e34",
+  "posters": [
+    {
+      "topicId": "20000000-0000-4000-8000-000000000082",
+      "locale": "zh",
+      "contentHash": "e52e2091b94d633c73923154b57e50c4efbca9b146ed26e2dacdfc5742f77b14",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/overview.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000082",
+      "locale": "en",
+      "contentHash": "46f8ca361a9d4ee840581eacd99883bd7bd5461e0f536f3b0c9b08288dcffcac",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/overview.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000083",
+      "locale": "zh",
+      "contentHash": "dd68bd7c86a6ef997298877769f40b384016ed165cfec74d310d64aa47969b83",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/world-cup.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000083",
+      "locale": "en",
+      "contentHash": "bbedafadf5c23d8aa5067c850ee2c02ba34a8403d8229d97370cb0c5faebadda",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/world-cup.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000084",
+      "locale": "zh",
+      "contentHash": "3cf64be695f34fc3df6315b7237eec8096fe37d3861e3045282a63b5d67f53cb",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/uk-politics.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000084",
+      "locale": "en",
+      "contentHash": "06bd83da95bc8cfc39fcc07252be5ae0cc60e435c2ca9e1ffb36df7783a01b89",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/uk-politics.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000085",
+      "locale": "zh",
+      "contentHash": "212bdabf92b62ed2a004f6ef709c3f7811a6a4313db18388d27cc2babe0523db",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/us-iran-talks.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000085",
+      "locale": "en",
+      "contentHash": "05416ec335ec0d4ef4422ba2465ec34cc7a244a3392190079f97974b2395f186",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/us-iran-talks.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000086",
+      "locale": "zh",
+      "contentHash": "92f8074f16b397eea549972f32ae4eed35a4dc7b27fd95b0347d6a63a914f29e",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/colombia-election.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000086",
+      "locale": "en",
+      "contentHash": "c20bc2c4b13b39bb10f1bf27ad4626e3c17a0b29f846eea691f8eeddea857d64",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/colombia-election.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000087",
+      "locale": "zh",
+      "contentHash": "ee5e756eef3600f6f1f60a0d7d8416a1005a016e9666af13200539102ef0a003",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/russia-ukraine.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000087",
+      "locale": "en",
+      "contentHash": "90c2c49141981c7eb1c5fe8ca6f7093cae7a787e08dbcaf7dbfe5cb401e5e3ec",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/russia-ukraine.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000088",
+      "locale": "zh",
+      "contentHash": "14d81a23d0d633c623c0843a5a08aa4e9b1612d6a3312f7946b7b3470add1c4f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/europe-heatwave.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000088",
+      "locale": "en",
+      "contentHash": "3f94b8cedc160074ba0b05e81db3eb5ea76b71d002a506043a843c0ecef8245b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/europe-heatwave.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000089",
+      "locale": "zh",
+      "contentHash": "c57d1dad3abe5ec716ceeaa40270813ce365f3ea9f107a697874a0c37c036570",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/ai-digital-sovereignty.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000089",
+      "locale": "en",
+      "contentHash": "bc82c780723a9d775eb26094da2bcbe071517fa3cb044a859dc2dafbd4f0ee6f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/ai-digital-sovereignty.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000090",
+      "locale": "zh",
+      "contentHash": "2df68be176239c19ed7d25c59c2f9e449a846e73355da2cdc821681e1f008d59",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/zh/china-us-critical-minerals.png"
+    },
+    {
+      "topicId": "20000000-0000-4000-8000-000000000090",
+      "locale": "en",
+      "contentHash": "aea74b589aede20e779b35fe91ff3ee1b1106f52d987a187d71994da4d2bd7a2",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260624_7d30d1d8c9e89a319b9f6e34/en/china-us-critical-minerals.png"
+    }
+  ]
+}

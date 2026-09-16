@@ -1,0 +1,608 @@
+{
+  "issue": {
+    "id": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+    "slug": "2026-07-02",
+    "assetVersion": "rel_20260702_4d9b94d57cb21d098b05dbbe",
+    "issueDate": "2026-07-02",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-02T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-01T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "ed8a8ffb-eb09-484a-be19-86f33ef18d9e",
+    "topics": [
+      {
+        "id": "ed8a8ffb-eb09-484a-be19-86f33ef18d9e",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "daily_global_overview_july2_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "法国、墨西哥、英格兰晋级世界杯16强，美国拒绝延长美加墨贸易协定，霍尔木兹海峡再成谈判焦点",
+            "headlineView": "世界的秩序感，正在一场球、一条航道、一份协议里被重新排序",
+            "headlineFull": "法国、墨西哥、英格兰晋级世界杯16强，美国拒绝延长美加墨贸易协定，霍尔木兹海峡再成谈判焦点; 世界的秩序感，正在一场球、一条航道、一份协议里被重新排序.",
+            "intro": "过去24小时，世界杯淘汰赛继续推进：法国3:0淘汰瑞典，墨西哥2:0击败厄瓜多尔，英格兰2:1逆转刚果（金）。全球新闻方面，美国拒绝按现状延长USMCA，伊朗坚持对霍尔木兹海峡拥有控制与收费权，台海海上执法摩擦升温，俄乌攻击继续外溢到能源和民用设施，欧洲热浪造成严重死亡压力，联合国发布AI风险警告，Meta则试图把过剩AI算力变成云服务收入。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Overview",
+            "headlineFact": "France, Mexico and England reach the World Cup last 16 as North American trade, Hormuz and AI return to the front page",
+            "headlineView": "global order is being rearranged through a match, a sea lane and a trade pact",
+            "headlineFull": "France, Mexico and England reach the World Cup last 16 as North American trade, Hormuz and AI return to the front page; global order is being rearranged through a match, a sea lane and a trade pact.",
+            "intro": "In the past 24 hours, France, Mexico and England advanced in World Cup knockouts. Beyond football, the U.S. declined to extend USMCA unchanged, Iran insisted on control over the Strait of Hormuz, Taiwan waters saw more gray-zone pressure, Russia struck Ukrainian fuel stations, Spain counted severe heat deaths, the UN warned on AI risk, and Meta looked to turn excess AI compute into cloud revenue.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "463ba66e-cb31-40d3-95ad-1e8c73423ef2",
+            "topicId": "ed8a8ffb-eb09-484a-be19-86f33ef18d9e",
+            "title": "Daily ChatGPT hotspot source",
+            "publisher": "ChatGPT",
+            "url": "https://chatgpt.com/share/6a3a3a5e-d3d8-83e8-aa7e-9df622aeff22",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "be61a6c2-008d-48b9-bb3d-72614bb146f8",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "world-cup-july02-knockouts",
+        "rank": 2,
+        "category": "sports",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 99,
+        "storyId": "world_cup_july2_knockouts_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯",
+            "headlineFact": "法国、墨西哥、英格兰同日晋级16强",
+            "headlineView": "淘汰赛真正考验的，不是你能不能领先，而是被逼到悬崖边时，还能不能反击",
+            "headlineFull": "法国、墨西哥、英格兰同日晋级16强; 淘汰赛真正考验的，不是你能不能领先，而是被逼到悬崖边时，还能不能反击.",
+            "intro": "北京时间7月1日05:00至7月2日05:00，世界杯共结束3场淘汰赛：法国3:0瑞典、墨西哥2:0厄瓜多尔、英格兰2:1刚果（金）。法国凭借姆巴佩梅开二度继续展示攻击火力；墨西哥在主场终结长期淘汰赛心魔；英格兰则在先丢一球后由凯恩连进两球逆转。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：世界杯。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup",
+            "headlineFact": "France, Mexico and England advance on the same day",
+            "headlineView": "knockouts test whether a team can answer when pushed to the edge",
+            "headlineFull": "France, Mexico and England advance on the same day; knockouts test whether a team can answer when pushed to the edge.",
+            "intro": "Between 05:00 July 1 and 05:00 July 2 Beijing time, three World Cup knockout matches finished: France 3-0 Sweden, Mexico 2-0 Ecuador, and England 2-1 DR Congo. France leaned on Mbappe's double, Mexico ended a long knockout drought at home, and England came from behind through two late Kane goals.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: World Cup."
+          }
+        },
+        "sources": [
+          {
+            "id": "83c0322e-c461-4d4a-9177-d45468a2d884",
+            "topicId": "be61a6c2-008d-48b9-bb3d-72614bb146f8",
+            "title": "Mbappe double as France ease past Sweden 3-0 to reach last 16",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/sports/soccer/mbappe-double-france-ease-past-sweden-3-0-reach-last-16-2026-06-30/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ba0c9c27-df72-4c69-ba48-6d7920dbb543",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "usmca-review",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "usmca_review_countdown_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "北美贸易",
+            "headlineFact": "美国拒绝按现状延长USMCA，美加墨贸易协定进入十年倒计时",
+            "headlineView": "真正的贸易战，不一定是加关税，也可能是让规则重新悬空",
+            "headlineFull": "美国拒绝按现状延长USMCA，美加墨贸易协定进入十年倒计时; 真正的贸易战，不一定是加关税，也可能是让规则重新悬空.",
+            "intro": "美国政府宣布不按现状延长《美国-墨西哥-加拿大协定》，这将启动一段最长十年的到期倒计时。协议不会立刻失效，但三国需要每年复审并继续谈判修改条款。美国贸易代表称，需要解决汽车原产地规则、贸易逆差和经济安全问题。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：北美贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "North American Trade",
+            "headlineFact": "The U.S. declines to extend USMCA unchanged, starting a ten-year clock",
+            "headlineView": "trade wars can suspend rules without raising tariffs",
+            "headlineFull": "The U.S. declines to extend USMCA unchanged, starting a ten-year clock; trade wars can suspend rules without raising tariffs.",
+            "intro": "The U.S. declined to extend the U.S.-Mexico-Canada Agreement in its current form, starting a possible ten-year countdown. The pact does not immediately expire, but the three countries now face recurring reviews and negotiations over changes including auto rules of origin, trade deficits and economic security.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: North American Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "3fafa178-1f7a-4cd2-8023-824341da0204",
+            "topicId": "ba0c9c27-df72-4c69-ba48-6d7920dbb543",
+            "title": "US declines to extend North American trade deal, starting clock to end it while seeking changes",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/americas/us-canada-mexico-review-trade-pact-likely-putting-it-into-limbo-trump-demands-2026-07-01/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "17a3d9aa-77ed-4994-8e77-6257b4749395",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "hormuz-control",
+        "rank": 4,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "iran_hormuz_control_fees_2026",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 80,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "霍尔木兹海峡",
+            "headlineFact": "伊朗坚持对霍尔木兹海峡拥有控制与收费权",
+            "headlineView": "能源世界最脆弱的地方，往往不是油田，而是一条所有人都必须经过的窄水道",
+            "headlineFull": "伊朗坚持对霍尔木兹海峡拥有控制与收费权; 能源世界最脆弱的地方，往往不是油田，而是一条所有人都必须经过的窄水道.",
+            "intro": "两名伊朗高级消息人士称，伊朗希望国际社会承认其对霍尔木兹海峡的控制权，并保留向进出海湾船只收费的能力。根据美伊临时协议，伊朗同意60天内允许船只免费通行，但伊朗方面认为协议措辞仍允许其决定船只如何通过。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：霍尔木兹海峡。"
+          },
+          "en-US": {
+            "categoryLabel": "Hormuz Strait",
+            "headlineFact": "Iran insists on control and possible fees in the Strait of Hormuz",
+            "headlineView": "energy's weakest point is often not an oilfield, but the narrow channel everyone must cross",
+            "headlineFull": "Iran insists on control and possible fees in the Strait of Hormuz; energy's weakest point is often not an oilfield, but the narrow channel everyone must cross.",
+            "intro": "Senior Iranian sources said Tehran wants recognition of its control over the Strait of Hormuz and the ability to charge vessels entering or leaving the Gulf. Under an interim U.S.-Iran understanding, Iran allows free passage for 60 days, but says wording still leaves it room to decide how ships pass.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Hormuz Strait."
+          }
+        },
+        "sources": [
+          {
+            "id": "aa68f0c8-3606-41f2-9422-d7b734a6ee26",
+            "topicId": "17a3d9aa-77ed-4994-8e77-6257b4749395",
+            "title": "Iran insists on keeping control over Hormuz, senior Iranian sources say",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/iran-insists-keeping-control-over-hormuz-senior-iranian-sources-say-2026-07-01/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3e397b39-7fec-4a98-97ad-7bc314b46e63",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "taiwan-coast-guard",
+        "rank": 5,
+        "category": "international",
+        "region": "Taiwan Strait",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 89,
+        "storyId": "taiwan_coast_guard_boarding_requests_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "台海安全",
+            "headlineFact": "台湾要求船只无视中国海警登检要求",
+            "headlineView": "当军舰之外的船只也开始改变规则，灰色地带就变成了真正的前线",
+            "headlineFull": "台湾要求船只无视中国海警登检要求; 当军舰之外的船只也开始改变规则，灰色地带就变成了真正的前线.",
+            "intro": "台湾海巡署官员表示，若中国海警要求台湾船只接受登检，船只应通报台湾海巡，不应配合；必要时台湾海巡船会介入隔离。台方称中国无权在台湾水域主张管辖，认为北京正从单纯军事压力转向更多准民用、跨区域的灰色地带行动。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：台海安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Taiwan Waters",
+            "headlineFact": "Taiwan tells ships to ignore Chinese coast guard boarding requests",
+            "headlineView": "when civilian vessels change rules, the gray zone becomes the front line",
+            "headlineFull": "Taiwan tells ships to ignore Chinese coast guard boarding requests; when civilian vessels change rules, the gray zone becomes the front line.",
+            "intro": "Taiwan's coast guard said Taiwanese vessels should report and not comply if China's coast guard asks to board them, with Taiwanese patrol vessels ready to intervene if needed. Taipei says Beijing has no jurisdiction in Taiwan waters and is broadening gray-zone pressure beyond military activity.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Taiwan Waters."
+          }
+        },
+        "sources": [
+          {
+            "id": "2e90f76f-7053-4a76-8a4d-46382ef1a0a2",
+            "topicId": "3e397b39-7fec-4a98-97ad-7bc314b46e63",
+            "title": "Taiwan ships should ignore boarding requests by China coast guard, Taipei says",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/china/taiwan-ships-should-ignore-boarding-requests-by-china-coast-guard-taipei-says-2026-07-01/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3dc033a5-d2e3-41ec-bcfa-8513e71770bf",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "ukraine-fuel-stations",
+        "rank": 6,
+        "category": "international",
+        "region": "Russia / Ukraine",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 88,
+        "storyId": "ukraine_fuel_stations_poland_sabotage_2026",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 80,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "俄乌局势",
+            "headlineFact": "俄罗斯袭击乌克兰多处民用加油站，波兰警告俄方可能发动破坏行动",
+            "headlineView": "现代战争不只打前线，也打能源、交通和社会信任",
+            "headlineFull": "俄罗斯袭击乌克兰多处民用加油站，波兰警告俄方可能发动破坏行动; 现代战争不只打前线，也打能源、交通和社会信任.",
+            "intro": "乌克兰官员称，俄罗斯无人机袭击第聂伯罗彼得罗夫斯克地区5座民用加油站，造成1人死亡、3人受伤，并引发火灾；过去24小时内，切尔尼戈夫地区也有4座加油站遭袭。与此同时，波兰警告俄罗斯可能借波乌关系紧张实施破坏或挑衅行动。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：俄乌局势。"
+          },
+          "en-US": {
+            "categoryLabel": "Russia-Ukraine",
+            "headlineFact": "Russia hits Ukrainian fuel stations as Poland warns of possible sabotage",
+            "headlineView": "modern war targets energy, transport and social trust",
+            "headlineFull": "Russia hits Ukrainian fuel stations as Poland warns of possible sabotage; modern war targets energy, transport and social trust.",
+            "intro": "Ukrainian officials said Russian drones struck five civilian fuel stations in the Dnipropetrovsk region, killing one person and wounding three; four stations were also hit in Chernihiv over 24 hours. Poland separately warned Russia could exploit tensions with Ukraine through sabotage or provocations.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Russia-Ukraine."
+          }
+        },
+        "sources": [
+          {
+            "id": "61e0dddc-3af6-4cae-b00b-2a5926ca6182",
+            "topicId": "3dc033a5-d2e3-41ec-bcfa-8513e71770bf",
+            "title": "Russia attacks retail fuel stations in Ukraine, killing one, official says",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/world/russia-attacks-retail-fuel-stations-ukraine-killing-one-official-says-2026-07-01/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "549d6f99-1ae7-4ae8-a93b-28daacf39d8b",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "spain-heat-deaths",
+        "rank": 7,
+        "category": "climate",
+        "region": "Europe",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 87,
+        "storyId": "spain_heat_excess_deaths_june_2026",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 80,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲热浪",
+            "headlineFact": "西班牙6月因高温造成1029例超额死亡，欧洲热浪继续刷新纪录",
+            "headlineView": "气候危机最现实的样子，是城市每天都在被迫重新安排生活",
+            "headlineFull": "西班牙6月因高温造成1029例超额死亡，欧洲热浪继续刷新纪录; 气候危机最现实的样子，是城市每天都在被迫重新安排生活.",
+            "intro": "西班牙官方数据显示，6月因高温造成1029例超额死亡。过去五天热浪中，西班牙多地气温超过40摄氏度，今年6月也成为该国有记录以来第二热的6月。高温峰值期间，约3570万人面临健康风险，相当于全国人口约73%。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：欧洲热浪。"
+          },
+          "en-US": {
+            "categoryLabel": "Europe Heatwave",
+            "headlineFact": "Spain attributes 1,029 excess deaths to June heat as Europe's heatwave keeps breaking records",
+            "headlineView": "climate crisis now looks like cities rearranging daily life",
+            "headlineFull": "Spain attributes 1,029 excess deaths to June heat as Europe's heatwave keeps breaking records; climate crisis now looks like cities rearranging daily life.",
+            "intro": "Spanish authorities attributed 1,029 excess deaths in June to heat. Many areas topped 40C during the recent heatwave, and June became Spain's second-hottest on record. At the peak, about 35.7 million people faced health risk, roughly 73% of the population.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: Europe Heatwave."
+          }
+        },
+        "sources": [
+          {
+            "id": "18c230ec-2edc-4ff4-b00a-3a3548c376cf",
+            "topicId": "549d6f99-1ae7-4ae8-a93b-28daacf39d8b",
+            "title": "Spain attributes over 1,000 excess deaths to heat in second-hottest June ever",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/environment/spain-attributes-over-1000-excess-deaths-heat-second-hottest-june-ever-2026-07-01/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "55895691-8181-4e37-a13e-867f61e6bb08",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "un-ai-risk",
+        "rank": 8,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 86,
+        "storyId": "un_ai_risk_panel_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI治理",
+            "headlineFact": "联合国专家警告AI发展正快于监管和科学理解",
+            "headlineView": "真正可怕的不是AI变强，而是人类还没学会如何共同理解它",
+            "headlineFull": "联合国专家警告AI发展正快于监管和科学理解; 真正可怕的不是AI变强，而是人类还没学会如何共同理解它.",
+            "intro": "联合国独立AI科学小组发布初步报告称，AI能力发展正在超过科学理解与政府政策适应速度，未来可能带来误用、欺骗行为、失控、网络攻击、生物风险和大规模虚假信息等问题。报告提到，AI任务复杂度大约每4至7个月翻倍。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：AI治理。"
+          },
+          "en-US": {
+            "categoryLabel": "AI Governance",
+            "headlineFact": "UN experts warn AI is moving faster than regulation and scientific understanding",
+            "headlineView": "the danger is not only stronger AI, but shared understanding lagging behind",
+            "headlineFull": "UN experts warn AI is moving faster than regulation and scientific understanding; the danger is not only stronger AI, but shared understanding lagging behind.",
+            "intro": "A UN independent scientific panel warned that AI capability is advancing faster than scientific understanding and policy adaptation. The report flagged misuse, deception, loss of control, cyberattacks, bio risks and mass disinformation, and said task complexity may be doubling every four to seven months.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: AI Governance."
+          }
+        },
+        "sources": [
+          {
+            "id": "2076e2e5-fb69-497d-9aca-7546ca477c74",
+            "topicId": "55895691-8181-4e37-a13e-867f61e6bb08",
+            "title": "Unchecked AI progress may pose catastrophic risks, UN panel warns",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/unchecked-ai-progress-may-pose-catastrophic-risks-un-panel-warns-2026-07-01/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "dcd34dad-50e4-4c54-9d25-2f7eadd4bcb5",
+        "issueId": "02ceea7a-4eda-4af9-9384-815ec3cd438e",
+        "slug": "meta-ai-cloud",
+        "rank": 9,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 85,
+        "storyId": "meta_ai_cloud_compute_2026",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI算力商业化",
+            "headlineFact": "Meta计划出售过剩AI算力，科技巨头开始把烧钱基建变成云服务",
+            "headlineView": "AI竞争下一阶段，不只是拼模型，而是拼谁能把算力变成现金流",
+            "headlineFull": "Meta计划出售过剩AI算力，科技巨头开始把烧钱基建变成云服务; AI竞争下一阶段，不只是拼模型，而是拼谁能把算力变成现金流.",
+            "intro": "据彭博新闻报道，Meta正开发云业务，计划出售过剩AI计算能力，可能向开发者开放其AI模型和底层算力。Meta今年AI基础设施支出预计最高达1450亿美元，出售算力被视为缓解投资回报压力的一种方式。",
+            "xiaziQuote": "先看事实，再看它把哪条线往前推了一步。",
+            "doudouQuote": "热闹很多，别被浪花带跑，今天看这条就够醒神。",
+            "footerTakeaway": "今日关键词：AI算力商业化。"
+          },
+          "en-US": {
+            "categoryLabel": "AI Compute",
+            "headlineFact": "Meta plans to sell excess AI compute as cloud service",
+            "headlineView": "the next AI race is turning infrastructure into cash flow",
+            "headlineFull": "Meta plans to sell excess AI compute as cloud service; the next AI race is turning infrastructure into cash flow.",
+            "intro": "Bloomberg reported that Meta is developing a cloud business to sell excess AI computing capacity, potentially opening its models and infrastructure to developers. With AI infrastructure spending expected to reach as high as $145 billion this year, selling compute is one way to ease return-on-investment pressure.",
+            "xiaziQuote": "Start with the facts, then watch which line moved.",
+            "doudouQuote": "Plenty of noise today; this is the signal worth keeping.",
+            "footerTakeaway": "Keyword: AI Compute."
+          }
+        },
+        "sources": [
+          {
+            "id": "66c9302d-a6f2-4319-90a0-68319204c95f",
+            "topicId": "dcd34dad-50e4-4c54-9d25-2f7eadd4bcb5",
+            "title": "Meta building cloud business to sell excess AI capacity, Bloomberg News reports",
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+            "publishedAt": "2026-07-01T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 1,
+            "locale": "zh-CN",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-02",
+    "releaseId": "rel_20260702_4d9b94d57cb21d098b05dbbe",
+    "assetBatchId": "asset_archive_20260702_4d9b94d57cb21d098b05dbbe",
+    "posters": [
+      {
+        "topicId": "ed8a8ffb-eb09-484a-be19-86f33ef18d9e",
+        "locale": "zh",
+        "contentHash": "dd585fec271bccd9483c704ec1242464f83120e61a2a462915149d79f635b3c0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/overview.png"
+      },
+      {
+        "topicId": "ed8a8ffb-eb09-484a-be19-86f33ef18d9e",
+        "locale": "en",
+        "contentHash": "81394559f24942ce795a27e64891e936a49f7ee4d476bc611e257bca92f0310a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/overview.png"
+      },
+      {
+        "topicId": "be61a6c2-008d-48b9-bb3d-72614bb146f8",
+        "locale": "zh",
+        "contentHash": "144a941d0ac0f8a0f322fee85ca6ce0180b2fd7a1f8474457d41842b20f67324",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/world-cup-july02-knockouts.png"
+      },
+      {
+        "topicId": "be61a6c2-008d-48b9-bb3d-72614bb146f8",
+        "locale": "en",
+        "contentHash": "e647c7e1e015ac4bf8e40f9696f9cb60ef3164aea91612926ca283260435ef16",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/world-cup-july02-knockouts.png"
+      },
+      {
+        "topicId": "ba0c9c27-df72-4c69-ba48-6d7920dbb543",
+        "locale": "zh",
+        "contentHash": "d1da57c994982eda87e85fe57398e1efa9d0c8c5317189eeecede85c966f91c8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/usmca-review.png"
+      },
+      {
+        "topicId": "ba0c9c27-df72-4c69-ba48-6d7920dbb543",
+        "locale": "en",
+        "contentHash": "9301a87f6164f97616da97706ee9d1bb78e989012e15f86854698bb2b7b118d9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/usmca-review.png"
+      },
+      {
+        "topicId": "17a3d9aa-77ed-4994-8e77-6257b4749395",
+        "locale": "zh",
+        "contentHash": "497d9ac03ef78862747f5458ab9585413de6f58f5043cdffcc51dd0ebf56901c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/hormuz-control.png"
+      },
+      {
+        "topicId": "17a3d9aa-77ed-4994-8e77-6257b4749395",
+        "locale": "en",
+        "contentHash": "044abfe902bf721a78274b169705149ab4251bd0d10962635e21dc5f46da6c66",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/hormuz-control.png"
+      },
+      {
+        "topicId": "3e397b39-7fec-4a98-97ad-7bc314b46e63",
+        "locale": "zh",
+        "contentHash": "3df6b656b81d4ec4a2b468b875edf3648952b63fbe91a874c361d939dd245730",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/taiwan-coast-guard.png"
+      },
+      {
+        "topicId": "3e397b39-7fec-4a98-97ad-7bc314b46e63",
+        "locale": "en",
+        "contentHash": "c01f15f8e548df87f4e9ac4b23527a85f62e14680da66e938c339f266209687e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/taiwan-coast-guard.png"
+      },
+      {
+        "topicId": "3dc033a5-d2e3-41ec-bcfa-8513e71770bf",
+        "locale": "zh",
+        "contentHash": "207ca5a22d175cf897375af0bec566ef7e67073b3353e985cd439f48fad831a8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/ukraine-fuel-stations.png"
+      },
+      {
+        "topicId": "3dc033a5-d2e3-41ec-bcfa-8513e71770bf",
+        "locale": "en",
+        "contentHash": "b4a879e46a86205ef8e9208b3a3ba8a4f35e509fa4ede005f42ab49aa88cf4e3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/ukraine-fuel-stations.png"
+      },
+      {
+        "topicId": "549d6f99-1ae7-4ae8-a93b-28daacf39d8b",
+        "locale": "zh",
+        "contentHash": "1f12a3a8c1d994dc354dfa662a1c12662bb8fe54ba3512a836de0e21fd2296eb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/spain-heat-deaths.png"
+      },
+      {
+        "topicId": "549d6f99-1ae7-4ae8-a93b-28daacf39d8b",
+        "locale": "en",
+        "contentHash": "119b3c3c9ce6ae64d7e97f6e0a494f9021b9b1722eb07c17f7ea876527205f41",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/spain-heat-deaths.png"
+      },
+      {
+        "topicId": "55895691-8181-4e37-a13e-867f61e6bb08",
+        "locale": "zh",
+        "contentHash": "0609ce77771d2d5aa088ada21274f575e5b914a48fb12d355bb02e8e5c203418",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/un-ai-risk.png"
+      },
+      {
+        "topicId": "55895691-8181-4e37-a13e-867f61e6bb08",
+        "locale": "en",
+        "contentHash": "e94a0736c3ec5a77e4fd1920ad36a7a23a3acdf363a9c1163a31ac4e63a47216",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/un-ai-risk.png"
+      },
+      {
+        "topicId": "dcd34dad-50e4-4c54-9d25-2f7eadd4bcb5",
+        "locale": "zh",
+        "contentHash": "338a37f1f8a6f982090dd56ffe36ac29958de836a6a8a556998f1c9f2d6f06fe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/zh/meta-ai-cloud.png"
+      },
+      {
+        "topicId": "dcd34dad-50e4-4c54-9d25-2f7eadd4bcb5",
+        "locale": "en",
+        "contentHash": "c1f7a07d97c386e2797f936568c0608b09154561a840483a538ecadb9d1bc886",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260702_4d9b94d57cb21d098b05dbbe/en/meta-ai-cloud.png"
+      }
+    ]
+  }
+}

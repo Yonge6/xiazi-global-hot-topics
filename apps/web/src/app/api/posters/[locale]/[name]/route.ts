@@ -71,7 +71,7 @@ export async function GET(
       // Continue to Release V2 below when the GitHub-backed manifest is temporarily unavailable.
     }
   }
-  if (process.env.XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED === "true" && issueDate && !isLegacyGithubArchive) {
+  if (process.env.XIAZI_CURRENT_RELEASE_MANIFEST_ENABLED === "true" && issueDate) {
     try {
       const loaded = await loadProductionIssueByDate(issueDate);
       const manifest = loaded && await loadProductionReleaseManifestByDate(issueDate, loaded.issue);

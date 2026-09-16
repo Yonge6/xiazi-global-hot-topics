@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "xiazi-current-release-v1",
+  "issueDate": "2026-07-13",
+  "releaseId": "rel_20260713_f5787a9e91d10900fc3b2fcd",
+  "assetBatchId": "asset_archive_20260713_f5787a9e91d10900fc3b2fcd",
+  "posters": [
+    {
+      "topicId": "issue-2026-07-13-topic-01",
+      "locale": "zh",
+      "contentHash": "5e8f5b68bb52b0a15a9a6f2f094c08f88705b7a982606d456dc4ce724ba60344",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/overview.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-01",
+      "locale": "en",
+      "contentHash": "ae649c2670a42ed2a2e53e094e90cd7a0c253634a1f847f20e729b9af02b3c63",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/overview.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-02",
+      "locale": "zh",
+      "contentHash": "66e9f7482b096d4a4995890acfb1fcbcaf39af53f39a7ce530e6f1fd91917c7f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/world-cup-july13-quarterfinals.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-02",
+      "locale": "en",
+      "contentHash": "16376fe904748a70c8bf7a0323fd40a4131aa7260e4c087c42aea13fcc519ce1",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/world-cup-july13-quarterfinals.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-03",
+      "locale": "zh",
+      "contentHash": "4b73f11c5586dde50cee4f62f89af5b43e0671d808a1eabebca57c71ae377224",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/us-iran-hormuz-escalation-july13.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-03",
+      "locale": "en",
+      "contentHash": "d3c7386baadce5899803eb82a893e45cc8b0b2575f9e9ab6151b42b98bd06813",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/us-iran-hormuz-escalation-july13.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-04",
+      "locale": "zh",
+      "contentHash": "0db2fe734bca4f222e5dd1b7ee9042495b998023a46d02547a6675856da68391",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/ukraine-azov-tanker.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-04",
+      "locale": "en",
+      "contentHash": "fbd74905e6befe4b231f8d288b84cceda6d41ce8ed6a25ecf026f540bd84adb7",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/ukraine-azov-tanker.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-05",
+      "locale": "zh",
+      "contentHash": "02706d9fbd9ecbacc0dc59fea0b74e9f72f12f187a438bdae1412293ef1cbead",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/europe-heatwave-excess-deaths.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-05",
+      "locale": "en",
+      "contentHash": "a3d06c2b3af80c6b7679a4ce3aad7ebc4bde9875c6b1057b56148e6b6c869566",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/europe-heatwave-excess-deaths.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-06",
+      "locale": "zh",
+      "contentHash": "e5fb7c729e2f219f7fc485c52b6fd172dd064375efb116b43e3bdd9b78f6ca51",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/south-china-sea-joint-statement.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-06",
+      "locale": "en",
+      "contentHash": "69ac494fed44fdcf696a06c310c97b7be598ac8285c8f32a4c6d8af0c0cfd0f6",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/south-china-sea-joint-statement.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-07",
+      "locale": "zh",
+      "contentHash": "7a772dce09cdc8fb211867feb8f1c145694222342f3a54a41717c85a5013c5b2",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/apple-openai-trade-secrets.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-07",
+      "locale": "en",
+      "contentHash": "dc53dcc953149b3281ea87272c22dfd60bb2fdb22f8469111e9939521e0b6cb1",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/apple-openai-trade-secrets.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-08",
+      "locale": "zh",
+      "contentHash": "5d35ff551718b4fe34f98ea588512835d246f3babd243f672c4794ada0f9e9ee",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/israel-election-october27.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-08",
+      "locale": "en",
+      "contentHash": "db8a6e9defebc598d04f42d3b1d0394b8ba653146bba7acf322ca12621d492f2",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/israel-election-october27.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-09",
+      "locale": "zh",
+      "contentHash": "2d76fc37f51637b7b614d564071da1bb96431c259aef8ea341b2ea024fc00efe",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/zh/micron-us-investment-250b.png"
+    },
+    {
+      "topicId": "issue-2026-07-13-topic-09",
+      "locale": "en",
+      "contentHash": "ad73ce2d02709196c4f85060c5579271493f49aef1dbcbf5fa1ef7abd82846ce",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260713_f5787a9e91d10900fc3b2fcd/en/micron-us-investment-250b.png"
+    }
+  ]
+}

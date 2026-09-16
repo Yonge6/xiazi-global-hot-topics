@@ -1,0 +1,644 @@
+{
+  "issue": {
+    "id": "issue-2026-07-21",
+    "slug": "2026-07-21",
+    "assetVersion": "rel_20260721_76606cda6f60e8326a9e633f",
+    "style": {
+      "name": "Style Atlas #99 Isometric Illustration",
+      "zhName": "Style Atlas #99 等距插画风格",
+      "description": "Sunlit premium isometric editorial miniatures on warm ivory, with precise stepped geometry, navy and terracotta accents, realistic materials and clear hierarchy."
+    },
+    "issueDate": "2026-07-21",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-21T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-20T21:00:00Z",
+    "status": "published",
+    "featuredTopicId": "topic-2026-07-21-01",
+    "topics": [
+      {
+        "id": "topic-2026-07-21-01",
+        "issueId": "issue-2026-07-21",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "西班牙登顶，AI规则落地",
+            "headlineView": "世界在效率、开放与风险之间重排",
+            "headlineFull": "西班牙登顶，AI规则落地；世界在效率、开放与风险之间重排",
+            "intro": "西班牙世界杯夺冠、欧盟AI透明规则与Nas.com一人创业工具，与俄意外交摩擦、加巴经贸重启、基因编辑合作、疫情协议谈判和油价冲击，共同指向效率、开放与风险的再平衡。",
+            "xiaziQuote": "工具和连接越快，越要把规则、信任与风险管理做在增长之前。",
+            "doudouQuote": "世界按下快进键，护栏也得跟上。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today's Overview",
+            "headlineFact": "Spain lift the trophy as AI rules arrive",
+            "headlineView": "the world rebalances speed, openness and risk",
+            "headlineFull": "Spain lift the trophy as AI rules arrive; the world rebalances speed, openness and risk",
+            "intro": "Spain's World Cup win, EU AI transparency rules and Nas.com's solo-business tools join Russia-Italy expulsions, Canada-Pakistan ties, genome editing, pandemic talks and an oil shock in one theme: balancing speed, openness and risk.",
+            "xiaziQuote": "As tools and connections accelerate, rules, trust and risk control must come before growth.",
+            "doudouQuote": "The world pressed fast-forward; the guardrails need to keep up.",
+            "footerTakeaway": "Keyword: Today's Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-01-1",
+            "topicId": "topic-2026-07-21-01",
+            "title": "Torres rescues grim final to make Spain world champions",
+            "publisher": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/20/soccer-torres-grabs-extra-time-winner-as-spain-beat-toothless-argentina-to-win-their-second-world-cup",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-02",
+        "issueId": "issue-2026-07-21",
+        "slug": "world-cup-spain-argentina-final",
+        "rank": 2,
+        "category": "sports",
+        "region": "Global",
+        "countryCodes": [
+          "ES",
+          "AR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-world-cup-spain-argentina-final-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 100,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "世界杯日报",
+            "headlineFact": "西班牙加时1比0击败阿根廷",
+            "headlineView": "冠军属于能把控制转成一击的球队",
+            "headlineFull": "西班牙加时1比0击败阿根廷；冠军属于能把控制转成一击的球队",
+            "intro": "北京时间7月20日05:00至21日05:00，窗口内唯一完赛是世界杯决赛：费兰·托雷斯第106分钟破门，西班牙加时1比0击败阿根廷，队史第二次夺冠。",
+            "xiaziQuote": "决赛把耐心压缩成一次执行，控制比赛最终仍要落到得分。",
+            "doudouQuote": "等了106分钟，这一脚把奖杯送到西班牙。",
+            "footerTakeaway": "今日关键词：世界杯日报。"
+          },
+          "en-US": {
+            "categoryLabel": "World Cup Daily",
+            "headlineFact": "Spain beat Argentina 1-0 after extra time",
+            "headlineView": "control matters only when it becomes a goal",
+            "headlineFull": "Spain beat Argentina 1-0 after extra time; control matters only when it becomes a goal",
+            "intro": "The only match completed in the Beijing-time window was the World Cup final. Ferran Torres scored in the 106th minute as Spain beat Argentina 1-0 after extra time for a second title.",
+            "xiaziQuote": "A final compresses patience into execution; control still has to become a goal.",
+            "doudouQuote": "After 106 minutes, one strike sent the trophy to Spain.",
+            "footerTakeaway": "Keyword: World Cup Daily."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-02-1",
+            "topicId": "topic-2026-07-21-02",
+            "title": "Torres rescues grim final to make Spain world champions",
+            "publisher": "Reuters via Internazionale",
+            "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/20/soccer-torres-grabs-extra-time-winner-as-spain-beat-toothless-argentina-to-win-their-second-world-cup",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-03",
+        "issueId": "issue-2026-07-21",
+        "slug": "eu-ai-act-transparency-guidelines",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-eu-ai-act-transparency-guidelines-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI热点",
+            "headlineFact": "欧盟发布AI透明义务指南",
+            "headlineView": "生成能力正在绑定可识别责任",
+            "headlineFull": "欧盟发布AI透明义务指南；生成能力正在绑定可识别责任",
+            "intro": "欧委会发布AI法案第50条透明义务指南，8月2日起适用。互动式AI需告知用户，AI生成或篡改内容要有机器可读标记，深度伪造与公共事务内容也须披露。",
+            "xiaziQuote": "AI进入规模化应用后，可信度不只来自效果，也来自能否说明来源与责任。",
+            "doudouQuote": "会生成还不够，得让人看得出是谁生成的。",
+            "footerTakeaway": "今日关键词：AI热点。"
+          },
+          "en-US": {
+            "categoryLabel": "AI Watch",
+            "headlineFact": "EU issues AI transparency guidelines",
+            "headlineView": "generative power now carries visible duties",
+            "headlineFull": "EU issues AI transparency guidelines; generative power now carries visible duties",
+            "intro": "The Commission issued guidance for AI Act Article 50 duties applying August 2. Interactive AI must notify users, while generated content, deepfakes and some public-interest material require marking or disclosure.",
+            "xiaziQuote": "At scale, AI earns trust not only through results but by making origins and responsibility legible.",
+            "doudouQuote": "Generating is not enough; people need to know who did it.",
+            "footerTakeaway": "Keyword: AI Watch."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-03-1",
+            "topicId": "topic-2026-07-21-03",
+            "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+            "publisher": "European Commission",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-04",
+        "issueId": "issue-2026-07-21",
+        "slug": "nas-one-photo-ai-business",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "SG",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-nas-one-photo-ai-business-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 88,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Nas.com用一张照片生成生意",
+            "headlineView": "一人公司的瓶颈转向获客",
+            "headlineFull": "Nas.com用一张照片生成生意；一人公司的瓶颈转向获客",
+            "intro": "Nas.com的AI入驻流程让用户提交一个想法和一张产品或个人照片，自动生成品牌、店铺与营销素材；官网称平台服务35万创业者，但当前完整流程仍以桌面网页为主。",
+            "xiaziQuote": "建店成本继续下降，真正稀缺的仍是需求判断、信任和稳定获客。",
+            "doudouQuote": "店铺几分钟能开，顾客不会自动排队。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "OPC One-Person Company",
+            "headlineFact": "Nas.com turns one photo into a business",
+            "headlineView": "customer acquisition becomes the real bottleneck",
+            "headlineFull": "Nas.com turns one photo into a business; customer acquisition becomes the real bottleneck",
+            "intro": "Nas.com's AI onboarding takes one idea plus a product or personal photo and generates branding, a storefront and marketing assets. The site says it serves 350,000 entrepreneurs; the full flow is currently desktop-web first.",
+            "xiaziQuote": "As setup gets cheaper, demand judgment, trust and repeatable acquisition remain scarce.",
+            "doudouQuote": "A store can open in minutes; customers do not queue automatically.",
+            "footerTakeaway": "Keyword: OPC One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-04-1",
+            "topicId": "topic-2026-07-21-04",
+            "title": "Create Your Business in Minutes with AI",
+            "publisher": "Nas.com Help Center",
+            "url": "https://help.nas.com/en/articles/14319603-create-your-business-in-minutes-with-ai",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-05",
+        "issueId": "issue-2026-07-21",
+        "slug": "russia-italy-diplomatic-expulsions",
+        "rank": 5,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "RU",
+          "IT"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-russia-italy-diplomatic-expulsions-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 86,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际外交",
+            "headlineFact": "俄罗斯驱逐两名意大利外交人员",
+            "headlineView": "对等报复继续压缩沟通空间",
+            "headlineFull": "俄罗斯驱逐两名意大利外交人员；对等报复继续压缩沟通空间",
+            "intro": "俄外交部召见意大利驻俄临时代办，并以对等原则宣布两名意方外交人员为不受欢迎人物，要求三日内离境；此举回应意大利7月9日驱逐两名俄方军事外交人员。",
+            "xiaziQuote": "外交报复容易做到对称，却会让危机时刻可用的沟通渠道越来越少。",
+            "doudouQuote": "门越关越快，话就越难说清。",
+            "footerTakeaway": "今日关键词：国际外交。"
+          },
+          "en-US": {
+            "categoryLabel": "Diplomacy",
+            "headlineFact": "Russia expels two Italian diplomats",
+            "headlineView": "reciprocity keeps shrinking room for dialogue",
+            "headlineFull": "Russia expels two Italian diplomats; reciprocity keeps shrinking room for dialogue",
+            "intro": "Russia summoned Italy's acting chargé d'affaires and declared two embassy staff personae non gratae, ordering them to leave within three days in response to Italy's July 9 expulsion of two Russian military diplomats.",
+            "xiaziQuote": "Reciprocal expulsions are easy to mirror, but they leave fewer channels when a crisis needs dialogue.",
+            "doudouQuote": "The faster doors close, the harder it is to talk clearly.",
+            "footerTakeaway": "Keyword: Diplomacy."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-05-1",
+            "topicId": "topic-2026-07-21-05",
+            "title": "Russia summons Italy's acting charge d'affaires and announces reciprocal expulsions",
+            "publisher": "Lenta.ru citing the Russian Foreign Ministry",
+            "url": "https://lenta.ru/news/2026/07/20/mid-vyzval-vremennogo-poverennogo-italii-v-rossii/",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-06",
+        "issueId": "issue-2026-07-21",
+        "slug": "canada-pakistan-trade-reset",
+        "rank": 6,
+        "category": "business",
+        "region": "Asia-Pacific",
+        "countryCodes": [
+          "CA",
+          "PK"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-canada-pakistan-trade-reset-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 84,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际经贸",
+            "headlineFact": "加拿大外长近20年来首访巴基斯坦",
+            "headlineView": "经贸重启需要制度化跟进",
+            "headlineFull": "加拿大外长近20年来首访巴基斯坦；经贸重启需要制度化跟进",
+            "intro": "加拿大外长安妮塔·阿南德访问巴基斯坦，双方同意扩大贸易、投资、安全与发展合作，并恢复年度双边磋商；巴方称这是近20年来加拿大外长首次到访。",
+            "xiaziQuote": "一次高层访问能打开门，真正的关系修复靠持续会议、项目和可兑现承诺。",
+            "doudouQuote": "握手是开场，项目落地才算正文。",
+            "footerTakeaway": "今日关键词：国际经贸。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Trade",
+            "headlineFact": "Canada's foreign minister visits Pakistan after nearly 20 years",
+            "headlineView": "a reset needs institutional follow-through",
+            "headlineFull": "Canada's foreign minister visits Pakistan after nearly 20 years; a reset needs institutional follow-through",
+            "intro": "Anita Anand visited Pakistan as both sides agreed to expand trade, investment, security and development cooperation and restore annual bilateral consultations. Pakistani officials called it the first such Canadian visit in nearly 20 years.",
+            "xiaziQuote": "A senior visit opens the door; durable ties need recurring meetings, projects and deliverable promises.",
+            "doudouQuote": "The handshake starts it; delivered projects write the story.",
+            "footerTakeaway": "Keyword: Global Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-06-1",
+            "topicId": "topic-2026-07-21-06",
+            "title": "Pakistan-Canada Joint Statement: Strengthening Bilateral and Trade Relations",
+            "publisher": "Pakistan Ministry of Foreign Affairs",
+            "url": "https://mofa.gov.pk/press-releases/pakistan-canada-joint-statement-strengthening-bilateral-and-trade-relations",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-07",
+        "issueId": "issue-2026-07-21",
+        "slug": "ucsd-igi-genome-editing-partnership",
+        "rank": 7,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-ucsd-igi-genome-editing-partnership-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 87,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生命科学",
+            "headlineFact": "UCSD加入创新基因组研究所",
+            "headlineView": "基因编辑走向跨学科规模化",
+            "headlineFull": "UCSD加入创新基因组研究所；基因编辑走向跨学科规模化",
+            "intro": "加州大学圣迭戈分校成为创新基因组研究所第四个加州大学合作校区，将把海洋、环境、工程、计算机与生物医学能力接入下一代基因编辑工具研发。",
+            "xiaziQuote": "前沿技术从论文走向社会，需要跨学科团队把工具、场景与安全一起设计。",
+            "doudouQuote": "剪刀更锋利了，说明书和护栏也要更厚。",
+            "footerTakeaway": "今日关键词：生命科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Life Science",
+            "headlineFact": "UC San Diego joins the Innovative Genomics Institute",
+            "headlineView": "genome editing moves toward multidisciplinary scale",
+            "headlineFull": "UC San Diego joins the Innovative Genomics Institute; genome editing moves toward multidisciplinary scale",
+            "intro": "UC San Diego became IGI's fourth UC partner campus, bringing ocean, environmental, engineering, computing and biomedical strengths into the development of next-generation genome-editing tools.",
+            "xiaziQuote": "Moving frontier science into society means designing tools, use cases and safeguards together.",
+            "doudouQuote": "Sharper scissors need a thicker manual and stronger guardrails.",
+            "footerTakeaway": "Keyword: Life Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-07-1",
+            "topicId": "topic-2026-07-21-07",
+            "title": "UC San Diego Partners with Innovative Genomics Institute on the Next Generation of Genome Editing",
+            "publisher": "UC San Diego",
+            "url": "https://today.ucsd.edu/story/uc-san-diego-partners-with-innovative-genomics-institute-on-the-next-generation-of-genome-editing",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-08",
+        "issueId": "issue-2026-07-21",
+        "slug": "who-pabs-annex-negotiations-july2026",
+        "rank": 8,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-who-pabs-annex-negotiations-20260721",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "WHO推进病原体共享附件谈判",
+            "headlineView": "下一场疫情不会等共识",
+            "headlineFull": "WHO推进病原体共享附件谈判；下一场疫情不会等共识",
+            "intro": "WHO成员国完成两周谈判，进一步精简《大流行协定》病原体获取与惠益分享附件文本，但合同安排、实验室网络与惠益定义仍有分歧；下一轮会议定于9月14日至18日。",
+            "xiaziQuote": "公共卫生合作的难点，是让快速共享样本与公平获得疫苗药物同时成立。",
+            "doudouQuote": "病毒不参加会议，规则得抓紧。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "WHO members advance pathogen-sharing annex talks",
+            "headlineView": "the next pandemic will not wait for consensus",
+            "headlineFull": "WHO members advance pathogen-sharing annex talks; the next pandemic will not wait for consensus",
+            "intro": "After two weeks of talks, members streamlined the PABS annex to the Pandemic Agreement, but contracts, laboratory networks and benefit definitions remain unresolved. The next meeting is September 14-18.",
+            "xiaziQuote": "The challenge is making rapid sample sharing and fair access to vaccines and medicines work together.",
+            "doudouQuote": "Viruses skip meetings; the rules need to hurry.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-08-1",
+            "topicId": "topic-2026-07-21-08",
+            "title": "WHO Member States continue negotiations on the Pathogen Access and Benefit Sharing Annex",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/20-07-2026-who-member-states-continue-negotiations-on-the-pathogen-access-and-benefit-sharing-annex",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "topic-2026-07-21-09",
+        "issueId": "issue-2026-07-21",
+        "slug": "brent-oil-above-90-gulf-escalation",
+        "rank": 9,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "IR"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-us-iran-hormuz-blockade-20260715",
+        "storyStatus": "followup",
+        "followupDay": 4,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "能源市场",
+            "headlineFact": "布伦特原油突破90美元",
+            "headlineView": "海峡风险正传导到全球通胀",
+            "headlineFull": "布伦特原油突破90美元；海峡风险正传导到全球通胀",
+            "intro": "美伊冲突扩大并压缩霍尔木兹海峡能源运输，布伦特原油周一上涨约3%并突破每桶90美元。供应紧张正在把地缘风险传导至燃油、货运、物价与利率预期。",
+            "xiaziQuote": "能源冲击会沿着运输、生产和利率层层传递，离战场很远的家庭也会买单。",
+            "doudouQuote": "海峡一堵，账单就会绕到每个人桌上。",
+            "footerTakeaway": "今日关键词：能源市场。"
+          },
+          "en-US": {
+            "categoryLabel": "Energy Markets",
+            "headlineFact": "Brent crude rises above $90",
+            "headlineView": "Strait risk is feeding global inflation",
+            "headlineFull": "Brent crude rises above $90; Strait risk is feeding global inflation",
+            "intro": "As U.S.-Iran fighting expanded and curbed energy shipments through the Strait of Hormuz, Brent gained about 3% above $90. Supply stress is reaching fuel, freight, prices and rate expectations.",
+            "xiaziQuote": "Energy shocks travel through freight, production and rates, reaching households far from the battlefield.",
+            "doudouQuote": "Block one strait and the bill detours to everyone's table.",
+            "footerTakeaway": "Keyword: Energy Markets."
+          }
+        },
+        "sources": [
+          {
+            "id": "source-2026-07-21-09-1",
+            "topicId": "topic-2026-07-21-09",
+            "title": "Brent oil tops $90 as US, Iran intensify attacks in Middle East",
+            "publisher": "Reuters via Metrobank Wealth Insights",
+            "url": "https://wealthinsights.metrobank.com.ph/news/update-1-brent-oil-tops-dollar90-as-us-iran-intensify-attacks-in-middle-east",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "source-2026-07-21-09-2",
+            "topicId": "topic-2026-07-21-09",
+            "title": "Brent oil tops $90 as US, Iran expand strikes in the Middle East",
+            "publisher": "Reuters via The Business Standard",
+            "url": "https://www.tbsnews.net/world/global-economy/brent-oil-tops-90-us-iran-expand-strikes-middle-east-1492801",
+            "publishedAt": "2026-07-21T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-21",
+    "releaseId": "rel_20260721_76606cda6f60e8326a9e633f",
+    "assetBatchId": "asset_archive_20260721_76606cda6f60e8326a9e633f",
+    "posters": [
+      {
+        "topicId": "topic-2026-07-21-01",
+        "locale": "zh",
+        "contentHash": "45b8d7c20a4407b59b6fcb4fa30fd944ac6991bf9cafcf3be62a6f0cd4ab8f62",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/overview.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-01",
+        "locale": "en",
+        "contentHash": "f2bd4df05c919c387d5e09739265fb07fc71d41f41730e285af4c5b4fa840030",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/overview.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-02",
+        "locale": "zh",
+        "contentHash": "ca64fd691c972313714fa0c9c3f2e4058a9f4c4f3e87766d235b9914b3cb3520",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/world-cup-spain-argentina-final.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-02",
+        "locale": "en",
+        "contentHash": "7fb46dc0522f4c3fcbf25dd51a3fcb48a66d630aed5de73aa757ad924d862f5a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/world-cup-spain-argentina-final.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-03",
+        "locale": "zh",
+        "contentHash": "ff0c835dbcdc789388ef4dbf111421f9fac0ccd724dc7412f0b1f276d98fc378",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/eu-ai-act-transparency-guidelines.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-03",
+        "locale": "en",
+        "contentHash": "bce3bffae4b7512977d6aa862f5e87189f888d502ccf2f5eacbce6cc9fa1e70f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/eu-ai-act-transparency-guidelines.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-04",
+        "locale": "zh",
+        "contentHash": "bad5d08650229012ef35da92ff1de576ead324781ffe1e1d884493c9aed71be1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/nas-one-photo-ai-business.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-04",
+        "locale": "en",
+        "contentHash": "451414fa7beb3b382c8ffe64f74668e06cabeb436e7285d77933d01513451bbe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/nas-one-photo-ai-business.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-05",
+        "locale": "zh",
+        "contentHash": "d47a3891dd6896d82d2eadf224969e7bccab112e3518eeec193a3cbf9300c4b9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/russia-italy-diplomatic-expulsions.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-05",
+        "locale": "en",
+        "contentHash": "0687a928fcd429a94949616339ab3583433d7a4154493ea9574756b7950ea64e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/russia-italy-diplomatic-expulsions.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-06",
+        "locale": "zh",
+        "contentHash": "112f739bbb1d3a2e5a674d30ddb8d2165b47aa84286f431759ac096a602f9129",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/canada-pakistan-trade-reset.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-06",
+        "locale": "en",
+        "contentHash": "e1b18355cc7cfffafcccc6f31f1e3234a80b14b18e27a7e5f0ad6686dbd50735",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/canada-pakistan-trade-reset.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-07",
+        "locale": "zh",
+        "contentHash": "c61e4f0e1e51fa5eb9a258d148bec3eecc10ff76879ae7921b6df868b6c56466",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/ucsd-igi-genome-editing-partnership.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-07",
+        "locale": "en",
+        "contentHash": "ea111e074306192f0fa6053a09dc4e804058165c2d8de8df807a4bd9900b8258",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/ucsd-igi-genome-editing-partnership.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-08",
+        "locale": "zh",
+        "contentHash": "fea1191f61bf19ae2994260e29cebf89c7780584c3b63220994593d191256244",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/who-pabs-annex-negotiations-july2026.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-08",
+        "locale": "en",
+        "contentHash": "61176da846c4336daaf463080443c8c3682df14dc3049aa831de69d239bef214",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/who-pabs-annex-negotiations-july2026.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-09",
+        "locale": "zh",
+        "contentHash": "c245bd5dd55f26666eeebf2e77cb0b6cfa63c6bee3f5b88f8b08a1a91975a9ca",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/zh/brent-oil-above-90-gulf-escalation.png"
+      },
+      {
+        "topicId": "topic-2026-07-21-09",
+        "locale": "en",
+        "contentHash": "b517171cda54503845e30a893515f8c0b9c52430095c73f9ad6cf09756df59f0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260721_76606cda6f60e8326a9e633f/en/brent-oil-above-90-gulf-escalation.png"
+      }
+    ]
+  }
+}

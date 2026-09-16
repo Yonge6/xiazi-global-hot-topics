@@ -1,0 +1,649 @@
+{
+  "issue": {
+    "id": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+    "slug": "2026-07-24",
+    "assetVersion": "rel_20260724_a7784c6c43a6e16c84f0548e",
+    "style": {
+      "name": "Style Atlas #102 Vaporwave",
+      "zhName": "Style Atlas #102 蒸汽波",
+      "description": "Sunlit premium Vaporwave editorial illustration with warm ivory daylight, low-saturation pink-violet, mist blue and celadon gradients, restrained 1990s digital geometry and clear information hierarchy."
+    },
+    "issueDate": "2026-07-24",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-07-24T05:00:00+08:00",
+    "gmtTimestamp": "2026-07-23T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "e653b9a5-0a49-5598-b417-72809e337d14",
+    "topics": [
+      {
+        "id": "e653b9a5-0a49-5598-b417-72809e337d14",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "overview",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260724",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "台海实弹、健康AI落地",
+            "headlineView": "世界在风险、规则与公共能力之间加固底盘",
+            "headlineFull": "台海实弹、健康AI落地；世界在风险、规则与公共能力之间加固底盘",
+            "intro": "台海实弹演习、健康AI、创业扶持、溺水预防、降税磋商、欧洲旱情、数学大奖与欧洲利率，共同显示世界正在加固风险治理与公共能力。",
+            "xiaziQuote": "当技术、风险与政策同时加速，真正重要的是让公共系统比问题更早完成升级。",
+            "doudouQuote": "八条新闻看似不同，其实都在问：底盘够不够稳？",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today's Overview",
+            "headlineFact": "Live fire in the Taiwan Strait and health AI go mainstream",
+            "headlineView": "the world reinforces its foundations across risk, rules and public capacity",
+            "headlineFull": "Live fire in the Taiwan Strait and health AI go mainstream; the world reinforces its foundations across risk, rules and public capacity",
+            "intro": "Taiwan Strait drills, health AI, small-business support, drowning prevention, tariff talks, European drought, mathematics prizes and ECB rates all show systems being reinforced for risk governance and public capacity.",
+            "xiaziQuote": "When technology, risk and policy accelerate together, public systems must upgrade before problems do.",
+            "doudouQuote": "Eight different stories ask the same question: is the foundation strong enough?",
+            "footerTakeaway": "Keyword: Today's Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "0b2b9d0a-f1e4-529c-bae5-a3ee740ef972",
+            "topicId": "e653b9a5-0a49-5598-b417-72809e337d14",
+            "title": "Taiwan condemns China's July 23-24 live-fire drills in the Taiwan Strait",
+            "publisher": "Taiwan Ministry of Foreign Affairs",
+            "url": "https://www.mofa.gov.tw/News_Content.aspx?Create=1&n=95&s=122716&sms=73",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c7a46654-cdc2-5e94-abaa-4ae10afb88ce",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "china-taiwan-strait-live-fire-drills",
+        "rank": 2,
+        "category": "international",
+        "region": "Asia",
+        "countryCodes": [
+          "CN",
+          "TW"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-china-taiwan-live-fire-20260723",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "开放热点",
+            "headlineFact": "中国启动两天台海实弹演习",
+            "headlineView": "对话之后，安全仍需克制",
+            "headlineFull": "中国启动两天台海实弹演习；对话之后，安全仍需克制",
+            "intro": "中国在东山岛附近部分台海水域启动为期两天的实弹演习，每天持续12小时。演习紧随中美外长讨论台湾等议题之后，台方指其加剧区域紧张。",
+            "xiaziQuote": "对话能降低误判，但真正的安全仍取决于克制、透明与危机沟通。",
+            "doudouQuote": "话筒刚放下，火炮就响了；最怕的是没人听清对方。",
+            "footerTakeaway": "今日关键词：开放热点。"
+          },
+          "en-US": {
+            "categoryLabel": "Open Hotspot",
+            "headlineFact": "China starts two days of live-fire drills in the Taiwan Strait",
+            "headlineView": "after dialogue, security still depends on restraint",
+            "headlineFull": "China starts two days of live-fire drills in the Taiwan Strait; after dialogue, security still depends on restraint",
+            "intro": "China began two days of live-fire drills in parts of the Taiwan Strait near Dongshan Island, running for 12 hours each day. The drills followed US-China talks that included Taiwan, while Taipei said the move raised regional tensions.",
+            "xiaziQuote": "Dialogue can reduce miscalculation, but security still depends on restraint, transparency and crisis communication.",
+            "doudouQuote": "The microphones were barely off before the guns spoke; the danger is nobody hearing clearly.",
+            "footerTakeaway": "Keyword: Open Hotspot."
+          }
+        },
+        "sources": [
+          {
+            "id": "377c7737-eda3-55f9-a84c-7558b0905af0",
+            "topicId": "c7a46654-cdc2-5e94-abaa-4ae10afb88ce",
+            "title": "Taiwan condemns China's July 23-24 live-fire drills in the Taiwan Strait",
+            "publisher": "Taiwan Ministry of Foreign Affairs",
+            "url": "https://www.mofa.gov.tw/News_Content.aspx?Create=1&n=95&s=122716&sms=73",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d16fad8f-419c-5dfa-a10d-f24cf7a07a74",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "chatgpt-health-us-adults",
+        "rank": 3,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-chatgpt-health-us-rollout-20260723",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "人工智能",
+            "headlineFact": "ChatGPT Health向美国成年人开放",
+            "headlineView": "健康AI开始连接个人数据",
+            "headlineFull": "ChatGPT Health向美国成年人开放；健康AI开始连接个人数据",
+            "intro": "OpenAI开始向美国18岁以上的ChatGPT用户推出Health体验，可连接受支持的健康记录与Apple Health，在用户授权下整合化验、用药、活动和睡眠等信息。",
+            "xiaziQuote": "健康AI的竞争不只在回答能力，更在权限、隐私、可追溯性与适时转介。",
+            "doudouQuote": "数据能连起来，医生的位置可不能被删掉。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "Artificial Intelligence",
+            "headlineFact": "ChatGPT Health opens to US adults",
+            "headlineView": "health AI begins connecting personal data",
+            "headlineFull": "ChatGPT Health opens to US adults; health AI begins connecting personal data",
+            "intro": "OpenAI is rolling out Health to US ChatGPT users aged 18 and over. With user permission, it can connect supported medical records and Apple Health data, bringing labs, medications, activity and sleep into one experience.",
+            "xiaziQuote": "Health AI will compete not only on answers, but on permissions, privacy, traceability and timely referral.",
+            "doudouQuote": "Connecting the data is useful; deleting the doctor is not.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "a36c3973-f735-5e60-947b-cda42e3f335d",
+            "topicId": "d16fad8f-419c-5dfa-a10d-f24cf7a07a74",
+            "title": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
+            "publisher": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "cb972b42-a9a8-59d8-83b6-00833fb339a0",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "sba-scale-supply-chain-grants",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-sba-scale-grants-20260723",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "SBA启动900万美元SCALE计划",
+            "headlineView": "小企业韧性从供应链补课",
+            "headlineFull": "SBA启动900万美元SCALE计划；小企业韧性从供应链补课",
+            "intro": "美国小企业管理局宣布900万美元SCALE资助竞赛，计划发放20笔、每笔最高50万美元的两年期资助，帮助小企业缓解供应链瓶颈、提升生产并进入战略产业链。",
+            "xiaziQuote": "一人公司要进入更大订单，除了营销，还需要交付、产能和供应链信用。",
+            "doudouQuote": "接到大单很开心，按时交完才是真本事。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "SBA launches a $9 million SCALE program",
+            "headlineView": "small-business resilience starts with supply chains",
+            "headlineFull": "SBA launches a $9 million SCALE program; small-business resilience starts with supply chains",
+            "intro": "The US Small Business Administration announced a $9 million SCALE grant competition with 20 two-year awards of up to $500,000 to help small firms ease supply-chain constraints, raise production and enter strategic supply chains.",
+            "xiaziQuote": "To win larger orders, a one-person company needs delivery, capacity and supply-chain credibility as well as marketing.",
+            "doudouQuote": "Landing a big order feels great; delivering it on time is the real skill.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "3e22d7a4-0a7f-54fb-85a1-d9bd921f7d3a",
+            "topicId": "cb972b42-a9a8-59d8-83b6-00833fb339a0",
+            "title": "SBA Announces $9 Million in Grant Funding for the SCALE Program",
+            "publisher": "U.S. Small Business Administration",
+            "url": "https://www.sba.gov/article/2026/07/23/sba-announces-9-million-grant-funding-supply-chain-acceleration-logistics-enablement-scale-program",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "89aeaaf2-84af-54e4-a0f1-8ca95b1b76da",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "who-seven-drowning-prevention-strategies",
+        "rank": 5,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-who-drowning-protect-20260723",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "WHO发布七项防溺水策略",
+            "headlineView": "预防要从个人提醒升级为系统治理",
+            "headlineFull": "WHO发布七项防溺水策略；预防要从个人提醒升级为系统治理",
+            "intro": "WHO发布PROTECT技术包，以安全设施、救援体系、交通设计、职业安全、洪灾准备、儿童照护和游泳教育七项措施，推动政府把防溺水纳入公共政策。",
+            "xiaziQuote": "公共安全真正有效时，不靠每个人永远谨慎，而靠环境、教育和救援共同兜底。",
+            "doudouQuote": "救生圈很重要，让危险少发生更重要。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "WHO releases seven drowning-prevention strategies",
+            "headlineView": "prevention must grow from personal warnings into system governance",
+            "headlineFull": "WHO releases seven drowning-prevention strategies; prevention must grow from personal warnings into system governance",
+            "intro": "WHO launched the PROTECT technical package, covering safe facilities, rescue systems, transport design, occupational safety, flood preparedness, child care and swim education to embed drowning prevention in public policy.",
+            "xiaziQuote": "Public safety works when environments, education and rescue systems back people up, not when everyone must stay perfect forever.",
+            "doudouQuote": "Lifebuoys matter; preventing danger matters even more.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "480a6979-27d9-599e-9600-f31fbe8f7e76",
+            "topicId": "89aeaaf2-84af-54e4-a0f1-8ca95b1b76da",
+            "title": "WHO launches seven strategies to prevent drowning",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/23-07-2026-who-launches-seven-strategies-to-prevent-drowning",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "569f6eb4-43bd-569e-b979-4bdfe59936e9",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "china-us-30-billion-tariff-framework",
+        "rank": 6,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "CN",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-china-us-board-of-trade-20260723",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 86,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际贸易",
+            "headlineFact": "中美就约300亿美元降税框架征求意见",
+            "headlineView": "贸易缓和仍要等细则",
+            "headlineFull": "中美就约300亿美元降税框架征求意见；贸易缓和仍要等细则",
+            "intro": "中国商务部门正向企业、协会和地方征求约300亿美元双向降税安排意见；美国也就贸易委员会和非敏感商品清单征求公众意见，具体品类与执行方式仍待确定。",
+            "xiaziQuote": "贸易缓和不是新闻标题，而是企业能否真正算清成本、库存与交付。",
+            "doudouQuote": "税率先松口，订单才敢动脚。",
+            "footerTakeaway": "今日关键词：国际贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "International Trade",
+            "headlineFact": "China and the US seek input on a roughly $30 billion tariff-cut framework",
+            "headlineView": "trade relief still depends on the details",
+            "headlineFull": "China and the US seek input on a roughly $30 billion tariff-cut framework; trade relief still depends on the details",
+            "intro": "China is seeking views from companies, associations and local governments on reciprocal tariff cuts covering about $30 billion in trade. The US is also taking public input on the trade board and product scope, while details remain unsettled.",
+            "xiaziQuote": "Trade relief becomes real only when companies can calculate costs, inventory and delivery—not when a headline turns softer.",
+            "doudouQuote": "Let the tariffs loosen first, and the orders may start moving.",
+            "footerTakeaway": "Keyword: International Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "353ff9a7-fab4-5138-a6e8-1937a4d53729",
+            "topicId": "569f6eb4-43bd-569e-b979-4bdfe59936e9",
+            "title": "USTR seeks public comment on reciprocal trade mechanism with China",
+            "publisher": "Office of the United States Trade Representative",
+            "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-seeks-public-comment-scope-and-operation-mechanism-promote-balanced-and-reciprocal-trade-china",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "c672622e-ec05-58c8-9873-8cc693c21ba6",
+            "topicId": "569f6eb4-43bd-569e-b979-4bdfe59936e9",
+            "title": "USTR Seeks Public Comment on a Mechanism to Promote Balanced and Reciprocal Trade with China",
+            "publisher": "Office of the U.S. Trade Representative",
+            "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-seeks-public-comment-scope-and-operation-mechanism-promote-balanced-and-reciprocal-trade-china",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "33fe2782-2a73-5672-b506-4735f354061a",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "europe-heat-drought-economic-system",
+        "rank": 7,
+        "category": "climate",
+        "region": "Europe",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-europe-heat-drought-20260723",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与水资源",
+            "headlineFact": "极端高温放大欧洲干旱",
+            "headlineView": "缺水已从天气进入经济系统",
+            "headlineFull": "极端高温放大欧洲干旱；缺水已从天气进入经济系统",
+            "intro": "世界天气归因组织指出，连续高温强化欧洲干旱，河流水位、土壤水分与供水系统承压，影响农业、能源、航运、城市用水与野火风险。",
+            "xiaziQuote": "气候风险落到账本上时，水资源就是基础设施，也是生产要素。",
+            "doudouQuote": "天不下雨，账单却会到处冒出来。",
+            "footerTakeaway": "今日关键词：气候与水资源。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Water",
+            "headlineFact": "Extreme heat amplifies Europe's drought",
+            "headlineView": "water scarcity has moved from weather into the economy",
+            "headlineFull": "Extreme heat amplifies Europe's drought; water scarcity has moved from weather into the economy",
+            "intro": "World Weather Attribution says successive heatwaves have intensified drought across Europe, pressuring river levels, soil moisture and water systems while affecting agriculture, energy, shipping, urban supply and wildfire risk.",
+            "xiaziQuote": "When climate risk reaches the balance sheet, water becomes both infrastructure and a factor of production.",
+            "doudouQuote": "The rain may not arrive, but the bills appear everywhere.",
+            "footerTakeaway": "Keyword: Climate and Water."
+          }
+        },
+        "sources": [
+          {
+            "id": "df285ce9-40e9-5703-874e-06d0607f96e9",
+            "topicId": "33fe2782-2a73-5672-b506-4735f354061a",
+            "title": "Increasingly hot Europe faces more severe droughts and growing challenges for water and land management",
+            "publisher": "World Weather Attribution",
+            "url": "https://www.worldweatherattribution.org/increasingly-hot-europe-faces-more-severe-droughts-and-growing-challenges-for-water-and-land-management/",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "518da9f5-ec8a-554e-8331-026404d68c64",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "fields-medals-2026",
+        "rank": 8,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-fields-medals-2026-20260723",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学与教育",
+            "headlineFact": "2026菲尔兹奖揭晓",
+            "headlineView": "基础研究的回报来自长期无人区",
+            "headlineFull": "2026菲尔兹奖揭晓；基础研究的回报来自长期无人区",
+            "intro": "国际数学联盟公布2026年菲尔兹奖得主邓宇、John Pardon、Jacob Tsimerman与王虹，表彰他们在偏微分方程、几何拓扑、数论与调和分析等领域的突破。",
+            "xiaziQuote": "基础研究最重要的回报，常来自多年无人问津、短期难以定价的问题。",
+            "doudouQuote": "最难的题没有进度条，但答案会改变很多人的地图。",
+            "footerTakeaway": "今日关键词：科学与教育。"
+          },
+          "en-US": {
+            "categoryLabel": "Science and Education",
+            "headlineFact": "The 2026 Fields Medals are announced",
+            "headlineView": "basic research earns returns in long-unmapped territory",
+            "headlineFull": "The 2026 Fields Medals are announced; basic research earns returns in long-unmapped territory",
+            "intro": "The International Mathematical Union awarded the 2026 Fields Medals to Yu Deng, John Pardon, Jacob Tsimerman and Hong Wang for advances spanning partial differential equations, geometry, number theory and harmonic analysis.",
+            "xiaziQuote": "The most important returns from basic research often come from questions that stayed unpriced and unattended for years.",
+            "doudouQuote": "The hardest problems have no progress bar, but their answers redraw many maps.",
+            "footerTakeaway": "Keyword: Science and Education."
+          }
+        },
+        "sources": [
+          {
+            "id": "2561861c-1e9f-53b9-a18a-a7d31de90d78",
+            "topicId": "518da9f5-ec8a-554e-8331-026404d68c64",
+            "title": "2026 Fields Medals Awarded to Four of World’s Top Mathematicians",
+            "publisher": "Simons Foundation",
+            "url": "https://www.simonsfoundation.org/2026/07/23/2026-fields-medals-awarded-to-four-of-worlds-top-mathematicians/",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "79a3b369-df24-52aa-9ea0-e47375d71c27",
+        "issueId": "c341f578-177d-5a0c-aafd-ec286fd813ca",
+        "slug": "ecb-holds-rates-oil-100",
+        "rank": 9,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-ecb-july-rate-hold-20260723",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球经济",
+            "headlineFact": "欧洲央行维持2.25%利率",
+            "headlineView": "百美元油价把加息重新推上桌面",
+            "headlineFull": "欧洲央行维持2.25%利率；百美元油价把加息重新推上桌面",
+            "intro": "欧洲央行维持存款利率2.25%不变，强调能源冲击的通胀影响尚未完全显现。同日布伦特原油触及每桶100美元，市场继续押注9月或再度加息。",
+            "xiaziQuote": "央行可以暂停一次会议，但能源价格会把通胀问题重新写回每张政策表格。",
+            "doudouQuote": "利率先坐着不动，油价已经站起来发言了。",
+            "footerTakeaway": "今日关键词：全球经济。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Economy",
+            "headlineFact": "The ECB holds its rate at 2.25%",
+            "headlineView": "$100 oil puts another hike back on the table",
+            "headlineFull": "The ECB holds its rate at 2.25%; $100 oil puts another hike back on the table",
+            "intro": "The ECB kept its deposit rate at 2.25%, warning that the inflationary impact of the energy shock has not fully played out. Brent crude touched $100 a barrel the same day as markets kept betting on another hike in September.",
+            "xiaziQuote": "A central bank can pause for one meeting, but energy prices can write inflation back into every policy table.",
+            "doudouQuote": "Rates stayed seated; oil prices stood up to speak.",
+            "footerTakeaway": "Keyword: Global Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "d28003f3-f21b-5060-b8e5-a1702e4ba954",
+            "topicId": "79a3b369-df24-52aa-9ea0-e47375d71c27",
+            "title": "Monetary policy decisions",
+            "publisher": "European Central Bank",
+            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "ffa06016-91a1-5d1f-8dec-169a133d4217",
+            "topicId": "79a3b369-df24-52aa-9ea0-e47375d71c27",
+            "title": "Traders stick with ECB rate-hike bets as oil touches $100 once more",
+            "publisher": "Reuters",
+            "url": "https://live.euronext.com/en/financial-news/traders-stick-ecb-rate-hike-bets-oil-touches-100-once-more",
+            "publishedAt": "2026-07-23T00:00:00Z",
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-07-24",
+    "releaseId": "rel_20260724_a7784c6c43a6e16c84f0548e",
+    "assetBatchId": "asset_archive_20260724_a7784c6c43a6e16c84f0548e",
+    "posters": [
+      {
+        "topicId": "e653b9a5-0a49-5598-b417-72809e337d14",
+        "locale": "zh",
+        "contentHash": "8e7d19747dce70b54215720c53eda92afd52fb4b35867cc90efc412fc937a2e7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/overview.png"
+      },
+      {
+        "topicId": "e653b9a5-0a49-5598-b417-72809e337d14",
+        "locale": "en",
+        "contentHash": "0ac933e6320681ba4a299568c9f675821b1f0a1bd6aea746787e21791ce45d5d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/overview.png"
+      },
+      {
+        "topicId": "c7a46654-cdc2-5e94-abaa-4ae10afb88ce",
+        "locale": "zh",
+        "contentHash": "3639e85bae3041ecf73ca971f713d7b945fb0af7a81e22dfa0e7e0aa2c961eec",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/china-taiwan-strait-live-fire-drills.png"
+      },
+      {
+        "topicId": "c7a46654-cdc2-5e94-abaa-4ae10afb88ce",
+        "locale": "en",
+        "contentHash": "16fcc3d0ed221b522170fecab7ab88fbf6c8241e1e089cc7dc6465f9e21fea9f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/china-taiwan-strait-live-fire-drills.png"
+      },
+      {
+        "topicId": "d16fad8f-419c-5dfa-a10d-f24cf7a07a74",
+        "locale": "zh",
+        "contentHash": "7e660e7847f1206739143d0cb1eec059cee665b7795ca41b3537a7b0bb283de2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/chatgpt-health-us-adults.png"
+      },
+      {
+        "topicId": "d16fad8f-419c-5dfa-a10d-f24cf7a07a74",
+        "locale": "en",
+        "contentHash": "2fcc69a131da13021220f479fbf2d427bc9a0fa5028eb46ca7c816e7710d2a66",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/chatgpt-health-us-adults.png"
+      },
+      {
+        "topicId": "cb972b42-a9a8-59d8-83b6-00833fb339a0",
+        "locale": "zh",
+        "contentHash": "083a7b40f6b6e04d87bdfd780321e5982c59cde386a6fbde886721b5f89acf89",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/sba-scale-supply-chain-grants.png"
+      },
+      {
+        "topicId": "cb972b42-a9a8-59d8-83b6-00833fb339a0",
+        "locale": "en",
+        "contentHash": "e87e7a910642e5bf67480e8f44086d6c0f60c168d702734bb7108aff243c045b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/sba-scale-supply-chain-grants.png"
+      },
+      {
+        "topicId": "89aeaaf2-84af-54e4-a0f1-8ca95b1b76da",
+        "locale": "zh",
+        "contentHash": "5164065e8a299a477009c4dd13bce968f924d170315e3490bac7fa6bc6578381",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/who-seven-drowning-prevention-strategies.png"
+      },
+      {
+        "topicId": "89aeaaf2-84af-54e4-a0f1-8ca95b1b76da",
+        "locale": "en",
+        "contentHash": "87b7daa4b0161f526ec75df590a2723c38fbd837fcd0aa9f755b11606e41fcb0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/who-seven-drowning-prevention-strategies.png"
+      },
+      {
+        "topicId": "569f6eb4-43bd-569e-b979-4bdfe59936e9",
+        "locale": "zh",
+        "contentHash": "74d7e3793271ca6693101695d9951967e3d71a140684c10feacee703143d4ed7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/china-us-30-billion-tariff-framework.png"
+      },
+      {
+        "topicId": "569f6eb4-43bd-569e-b979-4bdfe59936e9",
+        "locale": "en",
+        "contentHash": "1a5d08304be301c95a2d80e4937d1d1ba2b7cbc5394bccc99f71af79af0b06c7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/china-us-30-billion-tariff-framework.png"
+      },
+      {
+        "topicId": "33fe2782-2a73-5672-b506-4735f354061a",
+        "locale": "zh",
+        "contentHash": "4c7d91eb609652757f0a5502c95e4da00aa4e68a85183e8b14198dde4fb786f1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/europe-heat-drought-economic-system.png"
+      },
+      {
+        "topicId": "33fe2782-2a73-5672-b506-4735f354061a",
+        "locale": "en",
+        "contentHash": "838032c5c534238cd1110d63f85e885c63031c014e7d96d5d31994993baa82ef",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/europe-heat-drought-economic-system.png"
+      },
+      {
+        "topicId": "518da9f5-ec8a-554e-8331-026404d68c64",
+        "locale": "zh",
+        "contentHash": "d5369025921c712e2b6292021f547ae6f3fe63738bdd307405c150a1b26e6571",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/fields-medals-2026.png"
+      },
+      {
+        "topicId": "518da9f5-ec8a-554e-8331-026404d68c64",
+        "locale": "en",
+        "contentHash": "cf872268ea0d8205df0e3af8ea34ac7c4fad0b25e89388ba33efdec562eea11f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/fields-medals-2026.png"
+      },
+      {
+        "topicId": "79a3b369-df24-52aa-9ea0-e47375d71c27",
+        "locale": "zh",
+        "contentHash": "f6c16cb9252a9c56fd93591e95dee278294db5be50b19163551a8b0b7e749d86",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/zh/ecb-holds-rates-oil-100.png"
+      },
+      {
+        "topicId": "79a3b369-df24-52aa-9ea0-e47375d71c27",
+        "locale": "en",
+        "contentHash": "c4541e626ffe084827b0a060d13293abeffdb6bb044b5762f5d78603d60a216b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260724_a7784c6c43a6e16c84f0548e/en/ecb-holds-rates-oil-100.png"
+      }
+    ]
+  }
+}

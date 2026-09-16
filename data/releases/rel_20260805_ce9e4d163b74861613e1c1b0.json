@@ -1,0 +1,633 @@
+{
+  "issue": {
+    "id": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+    "slug": "2026-08-05",
+    "assetVersion": "rel_20260805_ce9e4d163b74861613e1c1b0",
+    "style": {
+      "name": "Mexican Muralism",
+      "zhName": "墨西哥壁画风格",
+      "description": "Style Atlas daily pick: monumental public-wall storytelling, bold earth colors, heroic figures, sweeping diagonals and socially engaged narrative."
+    },
+    "issueDate": "2026-08-05",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-08-05T05:00:00+08:00",
+    "gmtTimestamp": "2026-08-04T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "b2d41986-41b4-526d-a1bc-9c7aa2221394",
+    "topics": [
+      {
+        "id": "b2d41986-41b4-526d-a1bc-9c7aa2221394",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "today-overview-rules-infrastructure-resilience",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-today-overview-rules-infrastructure-resilience-20260805",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "关税、AI透明与公共基础设施进入执行期",
+            "headlineView": "增长从发布转向长期运行",
+            "headlineFull": "关税、AI透明与公共基础设施进入执行期；增长从发布转向长期运行",
+            "intro": "欧盟小包裹关税、AI透明义务、单人企业合规、月面撞击观测、空间站维护、母乳喂养与极端高温共同显示：全球议题正从宣布转向执行。",
+            "xiaziQuote": "真正长期的增长，不只靠新机会，也靠清晰规则、可靠设施与可复用流程。",
+            "doudouQuote": "跑得快之前，先把路、护栏和维修站建好。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today Overview",
+            "headlineFact": "Duties, AI transparency and public infrastructure move into execution",
+            "headlineView": "growth shifts from launch to durable operations",
+            "headlineFull": "Duties, AI transparency and public infrastructure move into execution; growth shifts from launch to durable operations",
+            "intro": "EU parcel duties, AI transparency, solo-business compliance, lunar-impact observing, station maintenance, breastfeeding and extreme heat show a shift from announcements to execution.",
+            "xiaziQuote": "Long-term growth needs not only opportunities, but clear rules, reliable infrastructure and reusable processes.",
+            "doudouQuote": "Before going faster, build the road, guardrails and repair stations.",
+            "footerTakeaway": "Keyword: Today Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "56f3ef51-dc87-516b-a5ce-72631c4ae873",
+            "topicId": "b2d41986-41b4-526d-a1bc-9c7aa2221394",
+            "title": "China to expand cross-customs return policy for e-commerce exports",
+            "publisher": "The State Council of China",
+            "url": "https://english.www.gov.cn/news/202603/15/content_WS69b60842c6d00ca5f9a09e4b.html",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "5df83b76-69ff-58b1-bf8a-c1f40eec60ae",
+            "topicId": "b2d41986-41b4-526d-a1bc-9c7aa2221394",
+            "title": "Members discuss preparations to bring E-Commerce Agreement into force by mid-2027",
+            "publisher": "World Trade Organization",
+            "url": "https://www.wto.org/english/news_e/news26_e/jsec_09jun26_414_e.htm",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "91e3cc2f-f508-5b24-87e2-f8c4e9c591f6",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "eu-small-parcel-customs-duty",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-small-parcel-customs-duty-20260805",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟低价值小包裹将征收3欧元关税",
+            "headlineView": "低价直邮成本模型需要重算",
+            "headlineFull": "欧盟低价值小包裹将征收3欧元关税；低价直邮成本模型需要重算",
+            "intro": "欧盟通过新规则，计划自2026年7月起对直接寄给消费者、价值低于150欧元的小包裹按商品类别征收3欧元关税。",
+            "xiaziQuote": "跨境卖家要把关税、拆包方式、客单价和履约路线放进同一张利润表。",
+            "doudouQuote": "每包多3欧元，选品和合单策略都会变。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "EU adds a EUR3 duty to low-value parcels",
+            "headlineView": "direct-shipping economics need recalculation",
+            "headlineFull": "EU adds a EUR3 duty to low-value parcels; direct-shipping economics need recalculation",
+            "intro": "The EU adopted rules applying a EUR3 duty per item category to parcels under EUR150 sent directly to consumers from July 2026.",
+            "xiaziQuote": "Cross-border sellers must model duty, parcel structure, basket size and fulfillment route in one margin calculation.",
+            "doudouQuote": "Three euros per category can change both assortment and consolidation.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "45051eca-c66c-5333-921d-d86d9ef1a6c9",
+            "topicId": "91e3cc2f-f508-5b24-87e2-f8c4e9c591f6",
+            "title": "WCO Framework of Standards on Cross-Border E-Commerce",
+            "publisher": "World Customs Organization",
+            "url": "https://www.wcoomd.org/en/topics/facilitation/instrument-and-tools/frameworks-of-standards/ecommerce.aspx",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a47e3b6c-7a29-5ba5-8be5-29cedb50b322",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "eu-ai-transparency-goes-live",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-eu-ai-transparency-goes-live-20260805",
+        "storyStatus": "followup",
+        "followupDay": 3,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "人工智能 AI",
+            "headlineFact": "欧盟AI透明义务进入生效后的首周",
+            "headlineView": "生成内容披露成为产品功能",
+            "headlineFull": "欧盟AI透明义务进入生效后的首周；生成内容披露成为产品功能",
+            "intro": "自8月2日起，部分AI交互以及生成或操纵内容面向欧盟用户时需要更清晰的身份披露、标识与来源说明。",
+            "xiaziQuote": "透明不是发布末端补一枚水印，而是模型输出、界面和审计链共同承担的产品能力。",
+            "doudouQuote": "让AI内容先说明自己是谁、从哪里来。",
+            "footerTakeaway": "今日关键词：人工智能 AI。"
+          },
+          "en-US": {
+            "categoryLabel": "Artificial Intelligence AI",
+            "headlineFact": "EU AI transparency duties enter their first week",
+            "headlineView": "disclosure becomes a product feature",
+            "headlineFull": "EU AI transparency duties enter their first week; disclosure becomes a product feature",
+            "intro": "From August 2, certain AI interactions and generated or manipulated content shown to EU users require clearer disclosure, marking and provenance.",
+            "xiaziQuote": "Transparency is not a final watermark; it is a product capability spanning model output, interface and audit trail.",
+            "doudouQuote": "Let AI content say what it is and where it came from.",
+            "footerTakeaway": "Keyword: Artificial Intelligence AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "62c605e5-5673-5028-b7a2-2336b41125a6",
+            "topicId": "a47e3b6c-7a29-5ba5-8be5-29cedb50b322",
+            "title": "Commission opens consultation on draft guidelines for AI transparency obligations",
+            "publisher": "European Commission",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "30c9fed8-a4b9-539f-87bf-ba2173d1366b",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "single-member-llc-tax-operating-system",
+        "rank": 4,
+        "category": "business",
+        "region": "United States",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-single-member-llc-tax-operating-system-20260805",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "一人公司 OPC",
+            "headlineFact": "美国税局更新单成员LLC办税说明",
+            "headlineView": "一人公司先搭合规操作系统",
+            "headlineFull": "美国税局更新单成员LLC办税说明；一人公司先搭合规操作系统",
+            "intro": "IRS说明单成员LLC通常按忽略实体处理，但雇佣税和部分消费税仍以独立实体申报，经营者需分清税务身份与责任。",
+            "xiaziQuote": "一人公司越轻，账户、税种、合同与记录越要提前模块化。",
+            "doudouQuote": "人可以只有一个，账本不能只有一本糊涂账。",
+            "footerTakeaway": "今日关键词：一人公司 OPC。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company OPC",
+            "headlineFact": "IRS refreshes single-member LLC tax guidance",
+            "headlineView": "solo firms need a compliance operating system",
+            "headlineFull": "IRS refreshes single-member LLC tax guidance; solo firms need a compliance operating system",
+            "intro": "The IRS says a single-member LLC is usually disregarded for income tax, while employment and certain excise taxes still use separate-entity treatment.",
+            "xiaziQuote": "The leaner the company, the more deliberately accounts, taxes, contracts and records should be modularized.",
+            "doudouQuote": "One owner is fine; one confused ledger is not.",
+            "footerTakeaway": "Keyword: One-person Company OPC."
+          }
+        },
+        "sources": [
+          {
+            "id": "b70d5860-335f-5112-9182-bedc1de98267",
+            "topicId": "30c9fed8-a4b9-539f-87bf-ba2173d1366b",
+            "title": "Single member limited liability companies",
+            "publisher": "Internal Revenue Service",
+            "url": "https://www.irs.gov/businesses/small-businesses-self-employed/single-member-limited-liability-companies",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "363161df-d366-52ae-a426-6eee73be37b3",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "falcon9-upper-stage-lunar-impact",
+        "rank": 5,
+        "category": "science",
+        "region": "Moon",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-falcon9-upper-stage-lunar-impact-20260805",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "月球观测",
+            "headlineFact": "废弃猎鹰9号上面级预计撞击月球",
+            "headlineView": "一次可预报的人造撞击成为观测机会",
+            "headlineFull": "废弃猎鹰9号上面级预计撞击月球；一次可预报的人造撞击成为观测机会",
+            "intro": "研究人员预计，一枚废弃猎鹰9号上面级将在8月5日约06:35 UTC撞击月球爱因斯坦环形山附近，为撞击闪光与喷出物观测提供窗口。",
+            "xiaziQuote": "能被准确预测的太空残骸事件，也能转化为理解月表材料的科学实验。",
+            "doudouQuote": "旧火箭的最后一站，变成了月球实验。",
+            "footerTakeaway": "今日关键词：月球观测。"
+          },
+          "en-US": {
+            "categoryLabel": "Lunar Observation",
+            "headlineFact": "Spent Falcon 9 upper stage is set to strike the Moon",
+            "headlineView": "a predictable artificial impact becomes an observing opportunity",
+            "headlineFull": "Spent Falcon 9 upper stage is set to strike the Moon; a predictable artificial impact becomes an observing opportunity",
+            "intro": "Researchers expect a spent Falcon 9 upper stage to impact near the lunar Einstein crater at about 06:35 UTC on August 5, creating a window to observe the flash and ejecta.",
+            "xiaziQuote": "A precisely predicted debris event can become a scientific experiment on lunar-surface material.",
+            "doudouQuote": "An old rocket turns its final stop into a lunar experiment.",
+            "footerTakeaway": "Keyword: Lunar Observation."
+          }
+        },
+        "sources": [
+          {
+            "id": "2d4370ca-e721-5505-b5ed-24ab5b956b51",
+            "topicId": "363161df-d366-52ae-a426-6eee73be37b3",
+            "title": "Observational planning for the 2026 August 5 Falcon 9 Upper Stage lunar impact",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2607.14625",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "85729c96-ac2a-50c8-b8d9-9fc4e647a6e7",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "galileo-satellites-enter-service",
+        "rank": 6,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-galileo-satellites-enter-service-20260805",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "卫星导航",
+            "headlineFact": "两颗新伽利略卫星正式投入服务",
+            "headlineView": "欧洲导航星座继续扩容",
+            "headlineFull": "两颗新伽利略卫星正式投入服务；欧洲导航星座继续扩容",
+            "intro": "欧洲航天局宣布两颗新伽利略卫星进入服务，为全球用户增强定位、导航和授时能力，并提升星座整体韧性。",
+            "xiaziQuote": "关键基础设施的进步，常不是一次惊艳发布，而是持续增加覆盖、冗余与可靠性。",
+            "doudouQuote": "多两颗星，地面上的路线就多一层把握。",
+            "footerTakeaway": "今日关键词：卫星导航。"
+          },
+          "en-US": {
+            "categoryLabel": "Satellite Navigation",
+            "headlineFact": "Two new Galileo satellites enter service",
+            "headlineView": "Europe expands its navigation constellation",
+            "headlineFull": "Two new Galileo satellites enter service; Europe expands its navigation constellation",
+            "intro": "ESA says two new Galileo satellites have entered service, strengthening positioning, navigation and timing for users worldwide and adding resilience.",
+            "xiaziQuote": "Critical infrastructure improves through steady gains in coverage, redundancy and reliability, not only dramatic launches.",
+            "doudouQuote": "Two more satellites give routes on Earth another layer of confidence.",
+            "footerTakeaway": "Keyword: Satellite Navigation."
+          }
+        },
+        "sources": [
+          {
+            "id": "8e275206-91de-5e01-8d99-12d6ee372955",
+            "topicId": "85729c96-ac2a-50c8-b8d9-9fc4e647a6e7",
+            "title": "Two new Galileo satellites enter service",
+            "publisher": "European Space Agency",
+            "url": "https://www.esa.int/",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f3c10102-ce2e-5bf6-96db-68f4e5f76f07",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "world-breastfeeding-week-sustainable-start",
+        "rank": 7,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-world-breastfeeding-week-sustainable-start-20260805",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 89,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共健康",
+            "headlineFact": "世界母乳喂养周聚焦可持续生命起点",
+            "headlineView": "有效支持要进入日常健康系统",
+            "headlineFull": "世界母乳喂养周聚焦可持续生命起点；有效支持要进入日常健康系统",
+            "intro": "2026年世界母乳喂养周于8月1日至7日举行，WHO将重点放在强化已被证明有效的支持，让家庭在医疗、工作与社区环境中获得连续帮助。",
+            "xiaziQuote": "公共健康倡议真正有效，要从一周的传播变成全年可获得的服务。",
+            "doudouQuote": "支持喂养，不只是一句口号，还要有时间和系统。",
+            "footerTakeaway": "今日关键词：公共健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Public Health",
+            "headlineFact": "World Breastfeeding Week focuses on a sustainable start",
+            "headlineView": "proven support must enter everyday health systems",
+            "headlineFull": "World Breastfeeding Week focuses on a sustainable start; proven support must enter everyday health systems",
+            "intro": "World Breastfeeding Week 2026 runs August 1–7, with WHO emphasizing support that works across health care, workplaces and communities.",
+            "xiaziQuote": "A public-health campaign succeeds when one week of attention becomes year-round accessible support.",
+            "doudouQuote": "Feeding support needs time and systems, not only slogans.",
+            "footerTakeaway": "Keyword: Public Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "b2827e70-c745-51b1-b198-0d121fc358ef",
+            "topicId": "f3c10102-ce2e-5bf6-96db-68f4e5f76f07",
+            "title": "2026 World Breastfeeding Week",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "99c476b7-dd74-50ca-9eae-7465cc4a7185",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "wto-ecommerce-interim-pathway",
+        "rank": 8,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-wto-ecommerce-interim-pathway-20260805",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 88,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "数字贸易",
+            "headlineFact": "67个WTO成员推进电商协议临时实施",
+            "headlineView": "全球数字规则从谈判转向接入",
+            "headlineFull": "67个WTO成员推进电商协议临时实施；全球数字规则从谈判转向接入",
+            "intro": "参与方覆盖约70%的全球贸易，正通过国内程序和临时安排推动首套全球数字贸易基线规则落地。",
+            "xiaziQuote": "数字贸易协议的价值，要在电子签名、无纸化和消费者信任真正接入业务流程后才释放。",
+            "doudouQuote": "规则写完之后，系统还要真的连起来。",
+            "footerTakeaway": "今日关键词：数字贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "Digital Trade",
+            "headlineFact": "67 WTO members advance an interim e-commerce pathway",
+            "headlineView": "global digital rules move from talks to connection",
+            "headlineFull": "67 WTO members advance an interim e-commerce pathway; global digital rules move from talks to connection",
+            "intro": "Participants covering about 70% of global trade are using domestic procedures and interim arrangements to implement baseline digital-trade rules.",
+            "xiaziQuote": "Digital-trade rules create value when e-signatures, paperless trade and consumer trust enter real workflows.",
+            "doudouQuote": "After the rules are written, the systems still have to connect.",
+            "footerTakeaway": "Keyword: Digital Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "455c8d42-adaf-56a0-8722-6d28bbe1aaf4",
+            "topicId": "99c476b7-dd74-50ca-9eae-7465cc4a7185",
+            "title": "Members discuss preparations to bring E-Commerce Agreement into force by mid-2027",
+            "publisher": "World Trade Organization",
+            "url": "https://www.wto.org/english/news_e/news26_e/jsec_09jun26_414_e.htm",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "85203b1e-27e5-515d-8adb-1442f7bc78e6",
+        "issueId": "ea09db34-4961-5c1a-a8b7-71a36a05eaea",
+        "slug": "global-heat-risk-horizon",
+        "rank": 9,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-global-heat-risk-horizon-20260805",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 87,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球气候",
+            "headlineFact": "未来五年至少一年刷新高温纪录概率达80%",
+            "headlineView": "高温韧性需要成为长期预算",
+            "headlineFull": "未来五年至少一年刷新高温纪录概率达80%；高温韧性需要成为长期预算",
+            "intro": "WMO预计2025至2029年至少一年超过2024年最热纪录的概率为80%，极端高温准备需从应急转向常态投资。",
+            "xiaziQuote": "当高温从异常变成高概率事件，城市、能源和企业都要把韧性写进年度预算。",
+            "doudouQuote": "不能每次热浪来临，才第一次打开应急预案。",
+            "footerTakeaway": "今日关键词：全球气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Climate",
+            "headlineFact": "Record heat in at least one of five years is 80% likely",
+            "headlineView": "heat resilience belongs in recurring budgets",
+            "headlineFull": "Record heat in at least one of five years is 80% likely; heat resilience belongs in recurring budgets",
+            "intro": "WMO estimates an 80% chance that at least one year from 2025 to 2029 will surpass 2024 as the warmest on record.",
+            "xiaziQuote": "When extreme heat becomes probable, cities, energy systems and firms must budget for resilience every year.",
+            "doudouQuote": "Do not open the heat plan for the first time during the heatwave.",
+            "footerTakeaway": "Keyword: Global Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "7dc724e7-0886-5bee-9975-bcd7fe2280b7",
+            "topicId": "85203b1e-27e5-515d-8adb-1442f7bc78e6",
+            "title": "WMO Global Annual to Decadal Climate Update (2025-2029)",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/publication-series/wmo-global-annual-decadal-climate-update-2025-2029",
+            "publishedAt": "2026-08-05T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-08-05",
+    "releaseId": "rel_20260805_ce9e4d163b74861613e1c1b0",
+    "assetBatchId": "asset_archive_20260805_ce9e4d163b74861613e1c1b0",
+    "posters": [
+      {
+        "topicId": "b2d41986-41b4-526d-a1bc-9c7aa2221394",
+        "locale": "zh",
+        "contentHash": "ad49880cc196c00843139732c5dbc9ae51d240dfe4b2a8c542e212cc6079dbaf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/today-overview-rules-infrastructure-resilience.png"
+      },
+      {
+        "topicId": "b2d41986-41b4-526d-a1bc-9c7aa2221394",
+        "locale": "en",
+        "contentHash": "363a0417bf89db31a60553275bdc55a41dc2ed032a01d788a834c93052eb7301",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/today-overview-rules-infrastructure-resilience.png"
+      },
+      {
+        "topicId": "91e3cc2f-f508-5b24-87e2-f8c4e9c591f6",
+        "locale": "zh",
+        "contentHash": "d4fc013900923e165c7c4d8682de4168261ad759a190dd5d26cc02a2fbfe36ae",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/eu-small-parcel-customs-duty.png"
+      },
+      {
+        "topicId": "91e3cc2f-f508-5b24-87e2-f8c4e9c591f6",
+        "locale": "en",
+        "contentHash": "26483fef4ff0d0c46a0706505cda11a2325411f32848ec5ef9833c3b1bb34418",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/eu-small-parcel-customs-duty.png"
+      },
+      {
+        "topicId": "a47e3b6c-7a29-5ba5-8be5-29cedb50b322",
+        "locale": "zh",
+        "contentHash": "a40217c4545fdb8f8ec6aeadcea092d780859f9b2e6b1c6acbd23b16373435e6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/eu-ai-transparency-goes-live.png"
+      },
+      {
+        "topicId": "a47e3b6c-7a29-5ba5-8be5-29cedb50b322",
+        "locale": "en",
+        "contentHash": "29dd3882e87776e8695b27ecc2fca564ef6771943b9a64d3b1d92db03b87f1db",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/eu-ai-transparency-goes-live.png"
+      },
+      {
+        "topicId": "30c9fed8-a4b9-539f-87bf-ba2173d1366b",
+        "locale": "zh",
+        "contentHash": "3f9b962abcc91bbf8e33834901404351819df84026b64014a2ddd5e81bc20585",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/single-member-llc-tax-operating-system.png"
+      },
+      {
+        "topicId": "30c9fed8-a4b9-539f-87bf-ba2173d1366b",
+        "locale": "en",
+        "contentHash": "b20a8894cf29f0ecf3875378bd95affa42b034eb2e07a1402e85b2dd9001975c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/single-member-llc-tax-operating-system.png"
+      },
+      {
+        "topicId": "363161df-d366-52ae-a426-6eee73be37b3",
+        "locale": "zh",
+        "contentHash": "6800060a313a3c3669f4dc123b4e7b31ae4ec52847d3f2b9bb2caeacebb6d674",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/falcon9-upper-stage-lunar-impact.png"
+      },
+      {
+        "topicId": "363161df-d366-52ae-a426-6eee73be37b3",
+        "locale": "en",
+        "contentHash": "86da0a4dc5693afc94656966cca787227fac313f9ce0a0c4179a5f87264412a7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/falcon9-upper-stage-lunar-impact.png"
+      },
+      {
+        "topicId": "85729c96-ac2a-50c8-b8d9-9fc4e647a6e7",
+        "locale": "zh",
+        "contentHash": "c511ea918e0cd32b576bf596dc17f9bb97286aa9e5af4ac17d55c776c02dda9b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/galileo-satellites-enter-service.png"
+      },
+      {
+        "topicId": "85729c96-ac2a-50c8-b8d9-9fc4e647a6e7",
+        "locale": "en",
+        "contentHash": "42e3850f21ba44d27bf465349fc6beda98455ef44e34621e237f47ae96c9f0b0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/galileo-satellites-enter-service.png"
+      },
+      {
+        "topicId": "f3c10102-ce2e-5bf6-96db-68f4e5f76f07",
+        "locale": "zh",
+        "contentHash": "bbddd56fd8671ac3e7fc432d2597ca951bc6393f13ad1ae3b6756b2c57b55078",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/world-breastfeeding-week-sustainable-start.png"
+      },
+      {
+        "topicId": "f3c10102-ce2e-5bf6-96db-68f4e5f76f07",
+        "locale": "en",
+        "contentHash": "3f7a8e111459a41b1bbce3e94f8f57a22658f0c25384784c7f6e2994b9c6208a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/world-breastfeeding-week-sustainable-start.png"
+      },
+      {
+        "topicId": "99c476b7-dd74-50ca-9eae-7465cc4a7185",
+        "locale": "zh",
+        "contentHash": "d9ac6db33a23d994328defcaeaa026600df6ce02223d3e0a45c9e7394cb8ac80",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/wto-ecommerce-interim-pathway.png"
+      },
+      {
+        "topicId": "99c476b7-dd74-50ca-9eae-7465cc4a7185",
+        "locale": "en",
+        "contentHash": "0c65feb2328db9662673b010837dda0f109288d506c2191962ce1a00e4b3bbe6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/wto-ecommerce-interim-pathway.png"
+      },
+      {
+        "topicId": "85203b1e-27e5-515d-8adb-1442f7bc78e6",
+        "locale": "zh",
+        "contentHash": "c300894d8a822ebb889a83e7e00c521b81da10aa8baabb212836c65face12c19",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/zh/global-heat-risk-horizon.png"
+      },
+      {
+        "topicId": "85203b1e-27e5-515d-8adb-1442f7bc78e6",
+        "locale": "en",
+        "contentHash": "a9a9dc9d4633118fb12146b093a0d1040a6363e9b4265c0d4588d238bdff9b1e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260805_ce9e4d163b74861613e1c1b0/en/global-heat-risk-horizon.png"
+      }
+    ]
+  }
+}

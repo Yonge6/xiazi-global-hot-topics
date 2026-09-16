@@ -1,0 +1,714 @@
+{
+  "issue": {
+    "id": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+    "slug": "2026-09-09",
+    "assetVersion": "rel_20260909_1426a77feba98b659e56e0e1",
+    "style": {
+      "name": "Afrofuturism",
+      "zhName": "非洲未来主义",
+      "description": "Style Atlas daily pick: Afrofuturism. Use luminous African-diaspora futurism, sculptural geometry, celestial technology, rich indigo, copper and warm gold, with cinematic depth and contemporary editorial clarity. Reduce information density by about 20%: one main conclusion, no more than three key facts or numbers, 3-5 clear modules, larger labels and generous whitespace. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: it must contain exactly eight numbered one-sentence summaries of NO.02-NO.09 in a natural flowing composition, never a rigid grid, table, equal cards, dense borders or full-screen dashboard; use a central Earth or narrative scene with eight uneven orbital or leaf-like information ribbons and preserve the same composition in Chinese and English."
+    },
+    "issueDate": "2026-09-09",
+    "slotHour": 5,
+    "beijingTimestamp": "2026-09-09T05:00:00+08:00",
+    "gmtTimestamp": "2026-09-08T21:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+    "topics": [
+      {
+        "id": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "today-overview-commerce-ai-conflict-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "全球经营雷达：跨境、智能体与风险外溢",
+            "headlineView": "先抓渠道开放、自动化能力和供应链冲击",
+            "headlineFull": "全球经营雷达：跨境、智能体与风险外溢；先抓渠道开放、自动化能力和供应链冲击",
+            "intro": "1. TikTok Shop将打通欧盟与英国双向跨境销售，卖家要先核算履约与退货成本。 2. Mistral完成30亿欧元融资，欧洲主权AI竞赛进一步转向算力与基础设施。 3. Meta推出可跨应用执行任务的Muse个人智能体，一人公司的关键将从会提问转向会授权。 4. 胡塞武装袭击沙特石油设施并造成73人受伤，红海与能源供应风险同步上升。 5. 加拿大对约200亿美元美国商品实施反制关税，北美企业需要重算采购与定价。 6. 联合国大会第81届会议开幕，多边议程进入恢复信任与管理转型的新周期。 7. 阿尔巴尼亚反对沿海开发的抗议在第100天升级为冲突，项目合法性与社会许可风险凸显。 8. IRIS模型能从基因活动重建细胞信号历史，为干细胞与类器官研究提供新路线。",
+            "xiaziQuote": "八条变化，先按渠道、授权和风险排序。",
+            "doudouQuote": "每条一句，今天先做最关键动作。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today Overview",
+            "headlineFact": "Global operating radar: commerce, agents and spillover risk",
+            "headlineView": "Prioritize channel access, delegated work and supply shocks",
+            "headlineFull": "Global operating radar: commerce, agents and spillover risk; Prioritize channel access, delegated work and supply shocks",
+            "intro": "1. TikTok Shop will open two-way cross-border selling between the EU and UK, so merchants should model fulfilment and returns first. 2. Mistral raised €3 billion as Europe's sovereign-AI race shifts toward compute and infrastructure. 3. Meta launched Muse, a personal agent that works across apps, moving the solopreneur advantage from prompting toward controlled delegation. 4. Houthi attacks wounded 73 people and hit Saudi oil facilities, raising Red Sea and energy-supply risk together. 5. Canada imposed counter-tariffs on about $20 billion of US goods, forcing North American firms to reprice sourcing and sales. 6. The UN General Assembly opened its 81st session, beginning a new multilateral cycle around restoring trust and managing transformation. 7. Albania's anti-development protests turned violent on day 100, exposing legal and social-license risk for major projects. 8. The IRIS model can reconstruct cellular signalling history from gene activity, opening a new route for stem-cell and organoid research.",
+            "xiaziQuote": "Sort eight changes by channel, delegation and risk.",
+            "doudouQuote": "One sentence each, then act on the biggest move.",
+            "footerTakeaway": "Keyword: Today Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "47336405-dab6-5d37-afeb-e94a658ecc7c",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "TikTok Shop opens cross-border sales between EU and UK",
+            "publisher": "Ecommerce News Europe",
+            "url": "https://ecommercenews.eu/tiktok-shop-opens-cross-border-sales-between-eu-and-uk/",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "d479b9a4-eeb6-5f8d-b06e-cdee70d11769",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Mistral+raises+3+billion+euros+Series+D+Samsung&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "451ff7d6-ab93-5248-9768-74c0fe63ca0b",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "Introducing Muse: The World's First Personal AI Agent Built for Everyone",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Meta+Muse+personal+AI+agent&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "78f2b7e4-a94f-542e-b4b9-495d44c88cf6",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Houthi+attacks+Saudi+oil+facilities+wound+73&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b900fbe2-77d5-53e2-9610-3f539a08437d",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "Canada strikes back with tariffs on about $20 billion worth of US goods",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Canada+tariffs+20+billion+US+goods&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "fb7cba92-9991-5c93-a598-c49b2fd177d1",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "Opening of the 81st session",
+            "publisher": "United Nations",
+            "url": "https://static.un.org/en/ga/index.shtml",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "18f69fa9-b546-5fa4-a513-02a429275e72",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "Albanian protests against Kushner-linked coastal development turn violent on 100th day",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Albania+protests+Kushner+coastal+development+100th+day&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "47a6b1f8-48a8-501d-b37b-c924eef530f3",
+            "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+            "title": "AI model decodes the language cells use to communicate",
+            "publisher": "EurekAlert",
+            "url": "https://www.eurekalert.org/news-releases/1142799",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "2833be03-7bb4-5111-83de-44adee2573cd",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "tiktok-shop-eu-uk-cross-border",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB",
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-tiktok-eu-uk-crossborder-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "TikTok Shop将打通欧盟与英国双向销售",
+            "headlineView": "新流量入口先过履约、退货与利润三道账",
+            "headlineFull": "TikTok Shop将打通欧盟与英国双向销售；新流量入口先过履约、退货与利润三道账",
+            "intro": "平台计划9月21日向部分卖家启动试点，并于10月19日扩大开放：八个欧盟市场的卖家可进入英国，英国卖家可触达十二个欧洲市场。欧盟发往英国目前以卖家自发货为主，经营者应先确认物流、税务和售后责任。",
+            "xiaziQuote": "开店更快，不代表跨境交付更简单。",
+            "doudouQuote": "先算一单完整退货，再决定铺多少市场。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "TikTok Shop opens two-way selling between the EU and UK",
+            "headlineView": "Model fulfilment, returns and margin before chasing reach",
+            "headlineFull": "TikTok Shop opens two-way selling between the EU and UK; Model fulfilment, returns and margin before chasing reach",
+            "intro": "A selected-seller pilot is due September 21, with broader rollout planned for October 19. Sellers in eight EU markets can reach the UK, while UK merchants gain access to twelve European markets. EU-to-UK orders currently rely on seller-managed shipping, making logistics, tax and after-sales responsibility the first checks.",
+            "xiaziQuote": "Faster onboarding does not simplify cross-border delivery.",
+            "doudouQuote": "Cost one full return before opening more markets.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "d7e553e6-68a1-538a-b147-c5702270ab88",
+            "topicId": "2833be03-7bb4-5111-83de-44adee2573cd",
+            "title": "TikTok Shop opens cross-border sales between EU and UK",
+            "publisher": "Ecommerce News Europe",
+            "url": "https://ecommercenews.eu/tiktok-shop-opens-cross-border-sales-between-eu-and-uk/",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "9d82498e-eb41-5d32-ab42-46ecb9d7faa1",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "mistral-three-billion-euro-series-d",
+        "rank": 3,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-mistral-series-d-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Mistral融资30亿欧元，估值突破210亿",
+            "headlineView": "欧洲主权AI进入算力、模型与收入一体化竞赛",
+            "headlineFull": "Mistral融资30亿欧元，估值突破210亿；欧洲主权AI进入算力、模型与收入一体化竞赛",
+            "intro": "Mistral在9月8日宣布完成30亿欧元D轮融资，投后估值超过210亿欧元，由三星领投。公司称资金将用于独立计算能力、开放权重模型和欧洲基础设施；判断其竞争力不能只看模型榜单，还要看算力控制与商业收入。",
+            "xiaziQuote": "主权AI最终要同时掌握模型、算力和客户。",
+            "doudouQuote": "融资规模很大，兑现路线更重要。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Mistral raises €3 billion at a valuation above €21 billion",
+            "headlineView": "Europe's sovereign-AI contest now spans compute, models and revenue",
+            "headlineFull": "Mistral raises €3 billion at a valuation above €21 billion; Europe's sovereign-AI contest now spans compute, models and revenue",
+            "intro": "Mistral announced a €3 billion Series D on September 8 at a post-money valuation above €21 billion, led by Samsung. The company says the capital will build independent compute, open-weight models and European infrastructure. Its position should be judged across infrastructure control and commercial traction, not model rankings alone.",
+            "xiaziQuote": "Sovereign AI needs models, compute and customers together.",
+            "doudouQuote": "The round is huge; execution matters more.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "4e63c47c-573d-5ca6-b6db-6d1a50edc79d",
+            "topicId": "9d82498e-eb41-5d32-ab42-46ecb9d7faa1",
+            "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Mistral+raises+3+billion+euros+Series+D+Samsung&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b6608647-0b33-51ab-87a2-0b7ac6e48ba7",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "meta-muse-personal-agent-delegation",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-meta-muse-agent-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC 一人公司",
+            "headlineFact": "Meta推出可跨应用执行任务的Muse智能体",
+            "headlineView": "一人公司从会写提示词升级为会设计授权边界",
+            "headlineFull": "Meta推出可跨应用执行任务的Muse智能体；一人公司从会写提示词升级为会设计授权边界",
+            "intro": "Meta称Muse可在独立安全虚拟机中使用浏览器和日常应用，代办项目并根据长期目标持续优化。对一人公司而言，真正的效率增量来自把重复工作交给智能体，同时保留账户权限、审批节点和结果复核。",
+            "xiaziQuote": "自动化的核心不是更多动作，而是清楚边界。",
+            "doudouQuote": "先交出低风险重复任务，再逐步放权。",
+            "footerTakeaway": "今日关键词：OPC 一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "OPC / Solopreneur",
+            "headlineFact": "Meta launches Muse, a personal agent that works across apps",
+            "headlineView": "The solopreneur edge shifts from prompting to permission design",
+            "headlineFull": "Meta launches Muse, a personal agent that works across apps; The solopreneur edge shifts from prompting to permission design",
+            "intro": "Meta says Muse can use a browser and everyday apps inside a dedicated secure virtual machine, carry projects and improve around long-term goals. For one-person companies, the real gain is delegating repeatable work while retaining account permissions, approval gates and result review.",
+            "xiaziQuote": "Automation starts with clear boundaries, not more actions.",
+            "doudouQuote": "Delegate low-risk repetition before expanding access.",
+            "footerTakeaway": "Keyword: OPC / Solopreneur."
+          }
+        },
+        "sources": [
+          {
+            "id": "85348bd6-054f-5b7e-b712-8e480b1753bd",
+            "topicId": "b6608647-0b33-51ab-87a2-0b7ac6e48ba7",
+            "title": "Introducing Muse: The World's First Personal AI Agent Built for Everyone",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Meta+Muse+personal+AI+agent&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "4167df6c-d5f9-531d-a0b4-b0ecf0bfa711",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "houthi-saudi-oil-attacks",
+        "rank": 5,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "SA",
+          "YE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-houthi-saudi-attacks-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "中东",
+            "headlineFact": "胡塞武装袭击沙特石油设施，73人受伤",
+            "headlineView": "红海通道与替代输油路线同时承压",
+            "headlineFull": "胡塞武装袭击沙特石油设施，73人受伤；红海通道与替代输油路线同时承压",
+            "intro": "沙特方面称9月8日的多轮袭击击中石油设施和公用事业并造成73人受伤，冲突升级也威胁连接红海与亚丁湾的曼德海峡。依赖中东能源和海运的企业应同步观察油价、航线绕行与保险成本。",
+            "xiaziQuote": "供应链风险正在从海峡扩散到替代路线。",
+            "doudouQuote": "别只盯油价，也要看船期和保险。",
+            "footerTakeaway": "今日关键词：中东。"
+          },
+          "en-US": {
+            "categoryLabel": "Middle East",
+            "headlineFact": "Houthi attacks hit Saudi oil facilities and wound 73",
+            "headlineView": "Red Sea shipping and an alternative oil route face pressure together",
+            "headlineFull": "Houthi attacks hit Saudi oil facilities and wound 73; Red Sea shipping and an alternative oil route face pressure together",
+            "intro": "Saudi authorities said waves of attacks on September 8 struck oil facilities and utilities and wounded 73 people. The escalation also threatens the Bab el-Mandeb route linking the Red Sea and Gulf of Aden. Companies exposed to Middle East energy and shipping should watch oil, rerouting and insurance costs together.",
+            "xiaziQuote": "Supply risk is spreading from one chokepoint to its alternative.",
+            "doudouQuote": "Track schedules and insurance, not just oil.",
+            "footerTakeaway": "Keyword: Middle East."
+          }
+        },
+        "sources": [
+          {
+            "id": "ad2c6162-ff82-5437-9aeb-ec80fdb2ca53",
+            "topicId": "4167df6c-d5f9-531d-a0b4-b0ecf0bfa711",
+            "title": "Houthi attacks on Saudi Arabia ignite fires at oil facilities and wound 73 people",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Houthi+attacks+Saudi+oil+facilities+wound+73&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "4a427507-ecf1-501c-89c4-506dbff1db4c",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "canada-twenty-billion-counter-tariffs",
+        "rank": 6,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "CA",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-canada-countertariffs-20260909",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "贸易",
+            "headlineFact": "加拿大对约200亿美元美国商品实施反制关税",
+            "headlineView": "北美供应链必须把政策反复写进报价周期",
+            "headlineFull": "加拿大对约200亿美元美国商品实施反制关税；北美供应链必须把政策反复写进报价周期",
+            "intro": "加拿大在9月8日宣布对约200亿美元美国商品采取反制关税，使此前的关税威胁进入执行阶段。涉及双边采购、制造或零售的企业应按商品编码复核税率，缩短报价有效期，并为替代供应留出现金与交付缓冲。",
+            "xiaziQuote": "关税从表态变成账单，报价必须跟着变。",
+            "doudouQuote": "先查税号，再承诺交付和毛利。",
+            "footerTakeaway": "今日关键词：贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "Trade",
+            "headlineFact": "Canada imposes counter-tariffs on about $20 billion of US goods",
+            "headlineView": "North American supply chains must price policy volatility into quotes",
+            "headlineFull": "Canada imposes counter-tariffs on about $20 billion of US goods; North American supply chains must price policy volatility into quotes",
+            "intro": "Canada announced counter-tariffs on about $20 billion of US goods on September 8, moving the dispute from threat to execution. Companies sourcing, manufacturing or selling across the border should verify tariff codes, shorten quote validity and preserve cash and delivery buffers for alternate suppliers.",
+            "xiaziQuote": "When tariffs become invoices, quotations must move too.",
+            "doudouQuote": "Check the tariff code before promising margin.",
+            "footerTakeaway": "Keyword: Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "90460ec7-32f1-57aa-8a99-cb08cce5078b",
+            "topicId": "4a427507-ecf1-501c-89c4-506dbff1db4c",
+            "title": "Canada strikes back with tariffs on about $20 billion worth of US goods",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Canada+tariffs+20+billion+US+goods&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1a9a8ad6-b005-5ec7-8cbe-db7d37eeb8e1",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "unga-eighty-first-session-opens",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-unga81-opens-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "联合国",
+            "headlineFact": "联合国大会第81届会议在纽约开幕",
+            "headlineView": "恢复信任与管理转型成为新会期主线",
+            "headlineFull": "联合国大会第81届会议在纽约开幕；恢复信任与管理转型成为新会期主线",
+            "intro": "第80届联大于9月8日上午闭幕，第81届会议当日下午开幕，新主题聚焦恢复信任、管理转型与提升联合国交付能力。企业和机构应关注随后形成的气候、贸易、AI治理与人道议程，而不是只看开幕声明。",
+            "xiaziQuote": "多边议程的价值，在后续规则和预算里。",
+            "doudouQuote": "先记主题，再追真正落地的决议。",
+            "footerTakeaway": "今日关键词：联合国。"
+          },
+          "en-US": {
+            "categoryLabel": "United Nations",
+            "headlineFact": "The UN General Assembly opens its 81st session in New York",
+            "headlineView": "Restoring trust and managing transformation define the new cycle",
+            "headlineFull": "The UN General Assembly opens its 81st session in New York; Restoring trust and managing transformation define the new cycle",
+            "intro": "The 80th General Assembly closed on the morning of September 8 and the 81st session opened that afternoon. Its theme centers on restoring trust, managing transformation and improving delivery. Organizations should follow the climate, trade, AI-governance and humanitarian decisions that follow, not only the opening statements.",
+            "xiaziQuote": "Multilateral agendas matter when they become rules and budgets.",
+            "doudouQuote": "Note the theme, then track the decisions.",
+            "footerTakeaway": "Keyword: United Nations."
+          }
+        },
+        "sources": [
+          {
+            "id": "6d5ae735-eb78-5208-aa16-df6101d55975",
+            "topicId": "1a9a8ad6-b005-5ec7-8cbe-db7d37eeb8e1",
+            "title": "Opening of the 81st session",
+            "publisher": "United Nations",
+            "url": "https://static.un.org/en/ga/index.shtml",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "854edb7c-7bb6-5066-aac8-d3bdfecf6c55",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "albania-coastal-development-protests",
+        "rank": 8,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "AL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-albania-development-protests-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "欧洲",
+            "headlineFact": "阿尔巴尼亚沿海开发抗议第100天升级为冲突",
+            "headlineView": "大型项目的社会许可与法律许可同样关键",
+            "headlineFull": "阿尔巴尼亚沿海开发抗议第100天升级为冲突；大型项目的社会许可与法律许可同样关键",
+            "intro": "反对一项与库什纳相关沿海开发计划的抗议持续到第100天，并在9月8日出现警民冲突。事件提醒投资者：取得政府批准不等于获得稳定执行环境，土地权利、生态争议和社区沟通都应进入项目风险模型。",
+            "xiaziQuote": "批文解决程序，社会许可决定项目能否持续。",
+            "doudouQuote": "越大的项目，越要提前算社区成本。",
+            "footerTakeaway": "今日关键词：欧洲。"
+          },
+          "en-US": {
+            "categoryLabel": "Europe",
+            "headlineFact": "Albania's coastal-development protests turn violent on day 100",
+            "headlineView": "Major projects need social licence as well as legal approval",
+            "headlineFull": "Albania's coastal-development protests turn violent on day 100; Major projects need social licence as well as legal approval",
+            "intro": "Protests against a Kushner-linked coastal development reached their 100th day and clashes broke out with police on September 8. The episode reminds investors that government approval does not guarantee stable execution: land rights, environmental disputes and community engagement belong in the project-risk model.",
+            "xiaziQuote": "Permits clear procedure; social licence sustains the project.",
+            "doudouQuote": "The bigger the project, the earlier community risk matters.",
+            "footerTakeaway": "Keyword: Europe."
+          }
+        },
+        "sources": [
+          {
+            "id": "abb69c7f-4ed3-579f-b259-749fbd577ea6",
+            "topicId": "854edb7c-7bb6-5066-aac8-d3bdfecf6c55",
+            "title": "Albanian protests against Kushner-linked coastal development turn violent on 100th day",
+            "publisher": "Google News",
+            "url": "https://news.google.com/rss/search?q=Albania+protests+Kushner+coastal+development+100th+day&hl=en-US&gl=US&ceid=US:en",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6f848d6a-814f-512b-9485-660867b7800f",
+        "issueId": "5594a9ac-300d-5a06-ab30-54b2ac2411c2",
+        "slug": "iris-cell-signalling-history-model",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-iris-cell-signals-20260909",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 89,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "IRIS模型可从基因活动重建细胞信号历史",
+            "headlineView": "干细胞培养从反复试验走向可预测路线图",
+            "headlineFull": "IRIS模型可从基因活动重建细胞信号历史；干细胞培养从反复试验走向可预测路线图",
+            "intro": "Whitehead研究团队在《Nature Methods》发表IRIS模型，可识别信号通路留下的基因活动指纹，并跨细胞类型推断细胞此前收到的信号。研究已在小鼠胚胎与肺细胞方向实验中验证部分预测，有望改进类器官和再生医学研究。",
+            "xiaziQuote": "读懂细胞过去，才更可能设计它的未来。",
+            "doudouQuote": "先验证信号指纹，再谈临床应用。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "IRIS reconstructs cellular signalling history from gene activity",
+            "headlineView": "Stem-cell engineering gains a more predictive roadmap",
+            "headlineFull": "IRIS reconstructs cellular signalling history from gene activity; Stem-cell engineering gains a more predictive roadmap",
+            "intro": "A Whitehead Institute team reports in Nature Methods that IRIS recognizes gene-activity fingerprints left by signalling pathways and infers prior signals across cell types. Tests in mouse embryos and lung-cell development confirmed part of its predictions, pointing toward better organoid and regenerative-medicine research.",
+            "xiaziQuote": "Reading a cell's past may help design its future.",
+            "doudouQuote": "Validate the fingerprints before claiming clinical impact.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "86a40c09-52de-57be-88b7-22ff49bc5944",
+            "topicId": "6f848d6a-814f-512b-9485-660867b7800f",
+            "title": "AI model decodes the language cells use to communicate",
+            "publisher": "EurekAlert",
+            "url": "https://www.eurekalert.org/news-releases/1142799",
+            "publishedAt": "2026-09-09T00:00:00Z",
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ]
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-09",
+    "releaseId": "rel_20260909_1426a77feba98b659e56e0e1",
+    "assetBatchId": "asset_archive_20260909_1426a77feba98b659e56e0e1",
+    "posters": [
+      {
+        "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+        "locale": "zh",
+        "contentHash": "127828e94a23222038910d217cddcfc943138f98533da9e3d0f2086ae42099e2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/today-overview-commerce-ai-conflict-science.png"
+      },
+      {
+        "topicId": "33bc0662-4d5a-5be7-ab83-cadf845be62b",
+        "locale": "en",
+        "contentHash": "3a448ea1b6bd19fb533d642d4c13425d42392d75e72490965ac812649ea27235",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/today-overview-commerce-ai-conflict-science.png"
+      },
+      {
+        "topicId": "2833be03-7bb4-5111-83de-44adee2573cd",
+        "locale": "zh",
+        "contentHash": "315f060d7ea073e8f70053cb8c4fe98963b7630529ade0725498f2375f7105cd",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/tiktok-shop-eu-uk-cross-border.png"
+      },
+      {
+        "topicId": "2833be03-7bb4-5111-83de-44adee2573cd",
+        "locale": "en",
+        "contentHash": "6846f393cf5d13019f191e37b7c63899df5be42495cbfc53c722b55f8b49a604",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/tiktok-shop-eu-uk-cross-border.png"
+      },
+      {
+        "topicId": "9d82498e-eb41-5d32-ab42-46ecb9d7faa1",
+        "locale": "zh",
+        "contentHash": "b8666d87965fd4e0687caef4bd56abd7ab4e0aa798164d5fd0309567d20d5575",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/mistral-three-billion-euro-series-d.png"
+      },
+      {
+        "topicId": "9d82498e-eb41-5d32-ab42-46ecb9d7faa1",
+        "locale": "en",
+        "contentHash": "e49dba0edba3b8bb9287e2e92fb6d87df0cc121ba4391171c1e3cddc8cff2ade",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/mistral-three-billion-euro-series-d.png"
+      },
+      {
+        "topicId": "b6608647-0b33-51ab-87a2-0b7ac6e48ba7",
+        "locale": "zh",
+        "contentHash": "d1788e1be1be23cd0947314b89ae82f3e7e9108368bf21d60742e4198f27f5a7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/meta-muse-personal-agent-delegation.png"
+      },
+      {
+        "topicId": "b6608647-0b33-51ab-87a2-0b7ac6e48ba7",
+        "locale": "en",
+        "contentHash": "e49c322bae4ae20a16ad56ea938b743c9d9e1734bd6634522504494270100aa0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/meta-muse-personal-agent-delegation.png"
+      },
+      {
+        "topicId": "4167df6c-d5f9-531d-a0b4-b0ecf0bfa711",
+        "locale": "zh",
+        "contentHash": "c5cd7fc9b00a2cdf227f7b695c1f50f124559c533967702e5aaa6c2a0ac9a386",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/houthi-saudi-oil-attacks.png"
+      },
+      {
+        "topicId": "4167df6c-d5f9-531d-a0b4-b0ecf0bfa711",
+        "locale": "en",
+        "contentHash": "0dc9e312ccf05d094796c89fd9e152a804ea59a16cee5d685aaf47dcbe30cf44",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/houthi-saudi-oil-attacks.png"
+      },
+      {
+        "topicId": "4a427507-ecf1-501c-89c4-506dbff1db4c",
+        "locale": "zh",
+        "contentHash": "8d0c700ddcf5c0dfe85f89760696c20aca126351b891421ebf27ab758bb5ee66",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/canada-twenty-billion-counter-tariffs.png"
+      },
+      {
+        "topicId": "4a427507-ecf1-501c-89c4-506dbff1db4c",
+        "locale": "en",
+        "contentHash": "563ae6fe7fe760191352721a27a544024fbdb68abcd2148612907e930ca7e345",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/canada-twenty-billion-counter-tariffs.png"
+      },
+      {
+        "topicId": "1a9a8ad6-b005-5ec7-8cbe-db7d37eeb8e1",
+        "locale": "zh",
+        "contentHash": "9d396fba9db7fbb69d4a030eccc1e297d6005948d2202cdb4971b3255406eb84",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/unga-eighty-first-session-opens.png"
+      },
+      {
+        "topicId": "1a9a8ad6-b005-5ec7-8cbe-db7d37eeb8e1",
+        "locale": "en",
+        "contentHash": "b883c89baac54679a4f761bc7165328f42ea4be0934c9b1640ffe03ab6ca1475",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/unga-eighty-first-session-opens.png"
+      },
+      {
+        "topicId": "854edb7c-7bb6-5066-aac8-d3bdfecf6c55",
+        "locale": "zh",
+        "contentHash": "1b3f191c33a1c5348948e4f03fd60e49158c2388191df76b6471fdaa720f6ef2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/albania-coastal-development-protests.png"
+      },
+      {
+        "topicId": "854edb7c-7bb6-5066-aac8-d3bdfecf6c55",
+        "locale": "en",
+        "contentHash": "24541080fea97b7bc2afcc5e68095b65a52570c04fa480cfaa8ba9fcb5be54c5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/albania-coastal-development-protests.png"
+      },
+      {
+        "topicId": "6f848d6a-814f-512b-9485-660867b7800f",
+        "locale": "zh",
+        "contentHash": "25a3a61e7fd730a158ceb41aa20fb05feb16cf227080cc8a855b3362f81d16f0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/zh/iris-cell-signalling-history-model.png"
+      },
+      {
+        "topicId": "6f848d6a-814f-512b-9485-660867b7800f",
+        "locale": "en",
+        "contentHash": "f51772af28723ef52f8877b29e6f12b592284602a1b1c471a299ead12a4292fa",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_archive_20260909_1426a77feba98b659e56e0e1/en/iris-cell-signalling-history-model.png"
+      }
+    ]
+  }
+}

@@ -1,18 +1,18 @@
 {
   "id": "issue-2026-07-05",
   "slug": "global-hot-topics-2026-07-05",
+  "assetVersion": "rel_20260705_15b5cdab81605016a495d872",
+  "style": {
+    "name": "用户提供 Tinified 今日海报",
+    "zhName": "用户提供 Tinified 今日海报",
+    "description": "今日海报使用用户提供的压缩成图，按中文与英文 NO.01—NO.09 一一替换上线。 Today uses the user-provided compressed poster set, mapped one-to-one from NO.01 to NO.09 in Chinese and English."
+  },
   "issueDate": "2026-07-05",
-  "assetVersion": "issue-2026-07-05-user-tinified-v1",
-  "status": "published",
   "slotHour": 5,
   "beijingTimestamp": "2026-07-05T05:00:00+08:00",
   "gmtTimestamp": "2026-07-04T21:00:00Z",
+  "status": "published",
   "featuredTopicId": "topic-2026-07-05-01",
-  "style": {
-    "name": "用户提供 Tinified 今日海报",
-    "introZh": "今日海报使用用户提供的压缩成图，按中文与英文 NO.01—NO.09 一一替换上线。",
-    "introEn": "Today uses the user-provided compressed poster set, mapped one-to-one from NO.01 to NO.09 in Chinese and English."
-  },
   "topics": [
     {
       "id": "topic-2026-07-05-01",
@@ -465,7 +465,7 @@
       "issueId": "issue-2026-07-05",
       "slug": "pope-leo-lampedusa-migrants",
       "rank": 9,
-      "category": "society",
+      "category": "culture",
       "region": "Italy",
       "countryCodes": [
         "VA",

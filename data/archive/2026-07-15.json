@@ -1,18 +1,18 @@
 {
   "id": "issue-2026-07-15",
   "slug": "2026-07-15",
-  "issueDate": "2026-07-15",
-  "assetVersion": "issue-2026-07-15-art-deco-chatgpt56-sharp-v1",
-  "status": "published",
-  "slotHour": 5,
-  "beijingTimestamp": "2026-07-15T05:00:00+08:00",
-  "gmtTimestamp": "2026-07-14T21:00:00Z",
-  "featuredTopicId": "topic-2026-07-15-01",
+  "assetVersion": "rel_20260715_e23e48a4f9db8468f5d322c0",
   "style": {
     "name": "Art Deco 装饰艺术风格",
     "zhName": "Art Deco 装饰艺术风格",
     "description": "象牙白、深孔雀蓝、哑光金、酒红与墨黑构成的装饰艺术视觉系统。"
   },
+  "issueDate": "2026-07-15",
+  "slotHour": 5,
+  "beijingTimestamp": "2026-07-15T05:00:00+08:00",
+  "gmtTimestamp": "2026-07-14T21:00:00Z",
+  "status": "published",
+  "featuredTopicId": "topic-2026-07-15-01",
   "topics": [
     {
       "id": "topic-2026-07-15-01",
@@ -172,7 +172,7 @@
           "publisher": "Axios",
           "url": "https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind",
           "publishedAt": "2026-07-14T00:00:00Z",
-          "sourceType": "report",
+          "sourceType": "research",
           "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": true
@@ -350,7 +350,7 @@
       "issueId": "issue-2026-07-15",
       "slug": "libya-migrant-boat",
       "rank": 7,
-      "category": "humanitarian",
+      "category": "international",
       "region": "Africa",
       "countryCodes": [
         "LY"
