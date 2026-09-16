@@ -1,0 +1,711 @@
+{
+  "issue": {
+    "id": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+    "slug": "2026-09-17",
+    "style": {
+      "name": "Pop Art Poster",
+      "zhName": "波普海报风格",
+      "description": "Style Atlas daily pick: Pop Art Poster. Use premium editorial pop art with bold halftone color fields, expressive comic-style scenes, crisp black contours, oversized but highly readable display type and a disciplined palette of red, cobalt, yellow, black and warm cream. Keep mobile readability first: one main conclusion and no more than three key facts per poster, 3-5 clear modules, large text, generous spacing and calm low-texture text zones. Content, data, scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, with a central globe or narrative newsroom scene and eight uneven flowing speech ribbons, rays or layered story paths around it. Give every sentence a broad quiet high-contrast reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-17",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-17T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-16T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+    "topics": [
+      {
+        "id": "13834df6-1254-54d9-86d0-9c31bec00e42",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "today-overview-commerce-ai-founders-rates-war-climate-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月17日全球经营雷达",
+            "headlineView": "交易入口、生产工具、资本与全球风险同时变化",
+            "headlineFull": "9月17日全球经营雷达；交易入口、生产工具、资本与全球风险同时变化",
+            "intro": "1. Mastercard与Trip.com展示由AI代理完成搜索、预订和支付的旅行电商链路，并计划2027年初分阶段商用。\n2. Anthropic推出Claude Docs，把协作写作、评论、修订和导出整合进同一AI工作区。\n3. 美国小企业管理局将让5家从1182份申请中入围的企业争夺总额100万美元增长资金。\n4. 美联储三年来首次加息，持续通胀重新抬高企业与家庭的融资成本。\n5. 美国众议院第三次通过结束对伊朗战争的战争权力决议，但后续仍面临否决阻力。\n6. 刚果（金）警方以催泪瓦斯驱散反对修宪示威，第三任期争议与埃博拉限制叠加。\n7. 卫星记录显示格陵兰与南极洲47年间流失逾12万亿吨冰，并推动海平面上升约3.1厘米。\n8. NASA月球轨道器发现一次世纪级撞击留下的新月球陨石坑，扰动范围远超坑体本身。",
+            "xiaziQuote": "今天的共同信号是：入口、工具与风险边界都在被重新定义。",
+            "doudouQuote": "先找出哪项变化会直接改写你的成本、权限或现金流。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 17 Global Operator Radar",
+            "headlineView": "Transaction entry points, production tools, capital and global risks are shifting together",
+            "headlineFull": "September 17 Global Operator Radar; Transaction entry points, production tools, capital and global risks are shifting together",
+            "intro": "1. Mastercard and Trip.com showcase an AI-agent travel flow that can search, book and pay, with a phased commercial rollout planned for early 2027.\n2. Anthropic launches Claude Docs, combining collaborative writing, comments, revisions and export inside one AI workspace.\n3. The US Small Business Administration will have five finalists chosen from 1,182 applicants compete for $1 million in growth capital.\n4. The Federal Reserve raises rates for the first time in three years as persistent inflation lifts financing costs for firms and households.\n5. The US House passes a war-powers resolution to end the Iran war for a third time, though veto resistance still lies ahead.\n6. Congolese police use tear gas to disperse protests against constitutional changes amid third-term concerns and Ebola restrictions.\n7. Satellite records show Greenland and Antarctica lost more than 12 trillion tons of ice in 47 years, raising sea levels by about 3.1 centimeters.\n8. NASA's lunar orbiter finds a once-in-a-century new Moon crater whose impact disturbed terrain far beyond the crater itself.",
+            "xiaziQuote": "Today's shared signal is that entry points, tools and risk boundaries are all being redefined.",
+            "doudouQuote": "Identify which change directly rewrites your costs, permissions or cash flow.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "669bd6cd-e663-5286-bca2-98121e975b6c",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "Trip.com is betting an AI agent will book your next vacation",
+            "publisher": "Tech Magazine",
+            "url": "https://techmgzn.com/trip-com-is-betting-an-ai-agent-will-book-your-next-vacation/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "3b7c9ab4-707c-5eb4-b329-9987a6aae0d7",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "Anthropic debuts Claude Docs, raising stakes for Microsoft",
+            "publisher": "Internationly",
+            "url": "https://internationly.com/news/anthropic-debuts-claude-docs-raising-stakes-for-microsoft-axios",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "09c3847f-7c01-5ba0-aa57-ff9c29508130",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "SBA Small Business Expo and Million Dollar Pitch Competition",
+            "publisher": "U.S. Small Business Administration",
+            "url": "https://legacy.sba.gov/article/2026/09/15/sba-showcase-american-entrepreneurship-small-business-expo-million-dollar-pitch-competition",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0eaa15cd-ab25-55be-99f8-182f75ede179",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "Federal Reserve issues FOMC statement",
+            "publisher": "Federal Reserve Board",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "319b1a59-4244-5aad-83d6-c88417cfb2f4",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "U.S. House votes to end war on Iran for a third time",
+            "publisher": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/9/16/headlines/us_house_of_representatives_votes_to_end_war_on_iran_for_a_third_time",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b78fc9f5-1697-592e-a41c-c9765fd2b6d5",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "Police crack down on protests against constitutional change in DR Congo",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/9/15/police-crack-down-on-protests-against-constitutional-change-in-dr-congo",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d63fa987-e056-5a82-a7b4-9025f888899f",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "Satellites show Earth lost more than 12 trillion tons of ice in 47 years",
+            "publisher": "Los Angeles Times",
+            "url": "https://www.latimes.com/environment/story/2026-09-16/satellites-show-earth-lost-more-than-12-trillion-tons-of-ice-from-greenland-antarctica-in-47-years",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ec12c643-892a-5b41-b654-ec79e1049998",
+            "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+            "title": "Spectacular McGetchin Crater",
+            "publisher": "Lunar Reconnaissance Orbiter Camera",
+            "url": "https://lroc.im-ldi.com/images/1501",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "46439464-9bff-5b47-acb3-e0a2f124bbb9",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "tripcom-mastercard-agentic-travel-commerce",
+        "rank": 2,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "CN",
+          "AE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-tripcom-mastercard-agentic-commerce-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Mastercard与Trip.com展示AI代理旅行交易链路",
+            "headlineView": "搜索、预订和支付开始收进同一个授权会话",
+            "headlineFull": "Mastercard与Trip.com展示AI代理旅行交易链路；搜索、预订和支付开始收进同一个授权会话",
+            "intro": "Trip.com的TripGenie将结合Mastercard商户代理套件与Network International收单能力，展示消费者授权AI代理完成旅行搜索、预订和支付。首批聚焦景点和附加服务，并计划2027年初分阶段商用；跨境商家现在要把实时库存、价格、授权与退款规则做成机器可读接口。",
+            "xiaziQuote": "当入口从搜索框变成代理，商品数据和授权记录就是新的货架。",
+            "doudouQuote": "先检查库存、价格、退款和支付授权能否被系统实时读取。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "Mastercard and Trip.com showcase agentic travel commerce",
+            "headlineView": "Search, booking and payment move into one authorized conversation",
+            "headlineFull": "Mastercard and Trip.com showcase agentic travel commerce; Search, booking and payment move into one authorized conversation",
+            "intro": "Trip.com's TripGenie will combine Mastercard's Agent Suite for Merchants with Network International acquiring capabilities to demonstrate consumer-authorized travel search, booking and payment. Initial use cases cover attractions and ancillary services, with phased commercialization expected in early 2027. Cross-border merchants now need machine-readable inventory, pricing, authorization and refund rules.",
+            "xiaziQuote": "When the entry point shifts from search box to agent, product data and authorization records become the new shelf.",
+            "doudouQuote": "Check whether inventory, prices, refunds and payment authorization are readable in real time.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "e74fd9c8-d219-54a1-b20d-def250d7cd4b",
+            "topicId": "46439464-9bff-5b47-acb3-e0a2f124bbb9",
+            "title": "Trip.com is betting an AI agent will book your next vacation",
+            "publisher": "Tech Magazine",
+            "url": "https://techmgzn.com/trip-com-is-betting-an-ai-agent-will-book-your-next-vacation/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "91b0fc0d-49c1-5163-99fe-45333255531a",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "anthropic-claude-docs-collaborative-workspace",
+        "rank": 3,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-anthropic-claude-docs-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Anthropic推出Claude Docs协作工作区",
+            "headlineView": "AI助手正在越过聊天框，直接进入企业文件生产",
+            "headlineFull": "Anthropic推出Claude Docs协作工作区；AI助手正在越过聊天框，直接进入企业文件生产",
+            "intro": "Claude Docs可在同一文档中起草段落、提问、评论编辑选择并继续修订，团队成员能够实时协作，成品还可导出到Google Docs或Microsoft Word。该功能将先向Pro与Max用户逐步开放，Claude Slides与Claude Design也进入对话内测试。",
+            "xiaziQuote": "竞争焦点正在从谁答得更好，转向谁能完成可交付的工作。",
+            "doudouQuote": "把高频文档流程拆成起草、审阅、修订、导出四步再试用。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Anthropic launches the Claude Docs collaborative workspace",
+            "headlineView": "AI assistants are moving beyond chat into production of business files",
+            "headlineFull": "Anthropic launches the Claude Docs collaborative workspace; AI assistants are moving beyond chat into production of business files",
+            "intro": "Claude Docs can draft sections, ask questions, comment on editorial choices and revise inside one document while colleagues collaborate in real time. Outputs can be exported to Google Docs or Microsoft Word. The feature will roll out first to Pro and Max subscribers, with Claude Slides and Claude Design also entering in-conversation beta.",
+            "xiaziQuote": "The competition is shifting from who answers better to who completes deliverable work.",
+            "doudouQuote": "Break one frequent document workflow into drafting, review, revision and export before testing it.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "ea44e249-310d-5ac7-856f-42461a440c6e",
+            "topicId": "91b0fc0d-49c1-5163-99fe-45333255531a",
+            "title": "Anthropic debuts Claude Docs, raising stakes for Microsoft",
+            "publisher": "Internationly",
+            "url": "https://internationly.com/news/anthropic-debuts-claude-docs-raising-stakes-for-microsoft-axios",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bbc15d42-6dd4-5392-b5ca-c8772a4fd095",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "sba-million-dollar-pitch-founder-proof",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-sba-pitch-founder-proof-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "5家企业将争夺总额100万美元增长资金",
+            "headlineView": "从1182份申请中突围，靠的是可证明的执行力而非宏大叙事",
+            "headlineFull": "5家企业将争夺总额100万美元增长资金；从1182份申请中突围，靠的是可证明的执行力而非宏大叙事",
+            "intro": "美国小企业管理局将于9月18日举办小企业博览会与百万美元路演赛，5家从1182份、覆盖全美50州的申请中入围的企业将分享总额100万美元奖金。对一人公司而言，最可借鉴的不是舞台，而是用一页材料说明问题、牵引力、资金用途和下一里程碑。",
+            "xiaziQuote": "资源稀缺时，可信的经营证据比更响亮的愿景更有穿透力。",
+            "doudouQuote": "今天就把客户证据、现金用途和90天里程碑放进同一页。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company",
+            "headlineFact": "Five businesses will compete for $1 million in growth capital",
+            "headlineView": "Standing out from 1,182 applicants requires provable execution, not a grander story",
+            "headlineFull": "Five businesses will compete for $1 million in growth capital; Standing out from 1,182 applicants requires provable execution, not a grander story",
+            "intro": "The US Small Business Administration will host a Small Business Expo and Million Dollar Pitch Competition on September 18. Five finalists selected from 1,182 applicants across all 50 states will share $1 million in prizes. For a one-person company, the transferable lesson is to explain the problem, traction, use of funds and next milestone on one page.",
+            "xiaziQuote": "When resources are scarce, credible operating evidence travels farther than a louder vision.",
+            "doudouQuote": "Put customer proof, cash use and the next 90-day milestone on one page today.",
+            "footerTakeaway": "Keyword: One-person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "a701f171-ae3b-5da9-9827-38a381c98dee",
+            "topicId": "bbc15d42-6dd4-5392-b5ca-c8772a4fd095",
+            "title": "SBA Small Business Expo and Million Dollar Pitch Competition",
+            "publisher": "U.S. Small Business Administration",
+            "url": "https://legacy.sba.gov/article/2026/09/15/sba-showcase-american-entrepreneurship-small-business-expo-million-dollar-pitch-competition",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3f01c1f9-2c06-5a89-971d-4d86f1492798",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "fed-first-rate-hike-three-years-result",
+        "rank": 5,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": true,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-fed-rate-hike-result-20260917",
+        "storyStatus": "followup",
+        "followupDay": 2,
+        "informationIncrementScore": 88,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球经济",
+            "headlineFact": "美联储三年来首次提高基准利率",
+            "headlineView": "加息从预期变成事实，现金与融资期限需要立即重算",
+            "headlineFull": "美联储三年来首次提高基准利率；加息从预期变成事实，现金与融资期限需要立即重算",
+            "intro": "美联储在持续通胀压力下将基准利率上调，这是自2023年以来首次加息。7月核心通胀为3.3%，8月零售销售环比增长1.2%，显示需求仍有韧性；企业应重新测试浮动利率债务、库存周转和未来两个季度的现金缓冲。",
+            "xiaziQuote": "利率方向确认后，最先暴露的是现金流，而不是利润表故事。",
+            "doudouQuote": "把续贷、回款和库存三条时间线放到同一张压力测试表。",
+            "footerTakeaway": "今日关键词：全球经济。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Economy",
+            "headlineFact": "The Federal Reserve raises its benchmark rate for the first time in three years",
+            "headlineView": "A hike moves from expectation to fact, forcing an immediate reset of cash and financing horizons",
+            "headlineFull": "The Federal Reserve raises its benchmark rate for the first time in three years; A hike moves from expectation to fact, forcing an immediate reset of cash and financing horizons",
+            "intro": "The Federal Reserve raised its benchmark rate under persistent inflation pressure, its first increase since 2023. Core inflation was 3.3% in July while August retail sales rose 1.2% month over month, showing resilient demand. Businesses should retest floating-rate debt, inventory turnover and cash buffers for the next two quarters.",
+            "xiaziQuote": "Once the rate direction is confirmed, cash flow is exposed before the profit narrative.",
+            "doudouQuote": "Put refinancing, collections and inventory on one stress-test timeline.",
+            "footerTakeaway": "Keyword: Global Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "34233e56-4a1d-5d72-83ab-1b0fec468efd",
+            "topicId": "3f01c1f9-2c06-5a89-971d-4d86f1492798",
+            "title": "Federal Reserve issues FOMC statement",
+            "publisher": "Federal Reserve Board",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "998ce8b2-5c46-52f0-8b07-304f4d788fe1",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "house-third-war-powers-vote-iran",
+        "rank": 6,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "US",
+          "IR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-house-iran-war-powers-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际政治",
+            "headlineFact": "美国众议院第三次投票要求结束对伊朗战争",
+            "headlineView": "国会反战信号增强，但距离真正改变军事行动仍有多道门槛",
+            "headlineFull": "美国众议院第三次投票要求结束对伊朗战争；国会反战信号增强，但距离真正改变军事行动仍有多道门槛",
+            "intro": "美国众议院再次通过战争权力决议，要求总统在未经国会授权的情况下停止对伊朗的军事行动，这是相关冲突持续期间第三次同类表决。决议仍需跨过参议院与总统否决等门槛，但它把行政权、战争成本与能源航运风险重新拉回公开监督。",
+            "xiaziQuote": "表决未必立刻停火，却会改变战争授权与成本问责的政治节奏。",
+            "doudouQuote": "继续关注参议院、否决程序和霍尔木兹航运三个节点。",
+            "footerTakeaway": "今日关键词：国际政治。"
+          },
+          "en-US": {
+            "categoryLabel": "World Politics",
+            "headlineFact": "The US House votes for a third time to end the Iran war",
+            "headlineView": "Congressional resistance grows, but changing military action still requires several gates",
+            "headlineFull": "The US House votes for a third time to end the Iran war; Congressional resistance grows, but changing military action still requires several gates",
+            "intro": "The US House again passed a war-powers resolution directing the president to stop military action against Iran without congressional authorization, the third such vote during the conflict. Senate action and a likely presidential veto remain barriers, but the vote returns executive authority, war costs and shipping risk to public scrutiny.",
+            "xiaziQuote": "The vote may not stop the war now, but it changes the political rhythm of authorization and accountability.",
+            "doudouQuote": "Watch the Senate, veto process and Strait of Hormuz shipping as three separate gates.",
+            "footerTakeaway": "Keyword: World Politics."
+          }
+        },
+        "sources": [
+          {
+            "id": "628c8afd-59a5-5369-a421-17b45d46159b",
+            "topicId": "998ce8b2-5c46-52f0-8b07-304f4d788fe1",
+            "title": "U.S. House votes to end war on Iran for a third time",
+            "publisher": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/9/16/headlines/us_house_of_representatives_votes_to_end_war_on_iran_for_a_third_time",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bcfde5d5-8989-58dd-b0cb-7cbc0663aef4",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "congo-constitutional-protests-ebola-pressure",
+        "rank": 7,
+        "category": "international",
+        "region": "Africa",
+        "countryCodes": [
+          "CD"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-congo-constitutional-protests-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 87,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "非洲",
+            "headlineFact": "刚果（金）警方驱散反对修宪的示威",
+            "headlineView": "第三任期争议与埃博拉限制叠加，治理信任继续承压",
+            "headlineFull": "刚果（金）警方驱散反对修宪的示威；第三任期争议与埃博拉限制叠加，治理信任继续承压",
+            "intro": "刚果（金）反对派联盟C64在金沙萨等城市组织反对修宪示威，批评者担心修宪可能为总统齐塞克迪寻求第三任期打开空间。警方使用催泪瓦斯和鸣枪驱散人群，而快速扩散的埃博拉疫情已经促使当局限制大型集会，政治与公共卫生压力彼此放大。",
+            "xiaziQuote": "当制度争议遇上公共卫生限制，透明度决定社会是否相信紧急措施。",
+            "doudouQuote": "分开追踪修宪文本、示威处置和疫情数据，避免把三件事混为一谈。",
+            "footerTakeaway": "今日关键词：非洲。"
+          },
+          "en-US": {
+            "categoryLabel": "Africa",
+            "headlineFact": "Congolese police disperse protests against constitutional changes",
+            "headlineView": "Third-term concerns and Ebola restrictions combine to strain public trust",
+            "headlineFull": "Congolese police disperse protests against constitutional changes; Third-term concerns and Ebola restrictions combine to strain public trust",
+            "intro": "The opposition C64 coalition organized protests in Kinshasa and other cities against constitutional changes that critics fear could open a path for President Felix Tshisekedi to seek a third term. Police used tear gas and warning shots while a fast-spreading Ebola outbreak had already prompted restrictions on mass gatherings, amplifying political and public-health pressures.",
+            "xiaziQuote": "When constitutional disputes meet public-health limits, transparency determines whether emergency measures are trusted.",
+            "doudouQuote": "Track the amendment text, protest response and outbreak data separately.",
+            "footerTakeaway": "Keyword: Africa."
+          }
+        },
+        "sources": [
+          {
+            "id": "ea8f337f-b2c7-5a56-afe5-96816df9c93c",
+            "topicId": "bcfde5d5-8989-58dd-b0cb-7cbc0663aef4",
+            "title": "Police crack down on protests against constitutional change in DR Congo",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/9/15/police-crack-down-on-protests-against-constitutional-change-in-dr-congo",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "49951ae1-870e-52a8-8e31-d3bc447d356a",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "polar-ice-loss-forty-seven-years",
+        "rank": 8,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-polar-ice-loss-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候",
+            "headlineFact": "格陵兰与南极洲47年流失逾12万亿吨冰",
+            "headlineView": "长时间轴把海平面风险从预测变成已发生的累计变化",
+            "headlineFull": "格陵兰与南极洲47年流失逾12万亿吨冰；长时间轴把海平面风险从预测变成已发生的累计变化",
+            "intro": "国际极地科学团队结合欧洲与NASA卫星资料，把南极冰量记录追溯到1979年、格陵兰追溯到1972年。结果显示两大冰盖在47年间流失逾12万亿吨冰，形成约11.3万亿升融水，并使全球海平面累计上升约3.1厘米。",
+            "xiaziQuote": "最危险的气候变化常不是单次灾害，而是几十年都没有停下的累积。",
+            "doudouQuote": "把沿海资产、保险与供应链节点放进同一张长期暴露图。",
+            "footerTakeaway": "今日关键词：气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate",
+            "headlineFact": "Greenland and Antarctica lose more than 12 trillion tons of ice in 47 years",
+            "headlineView": "A long record turns sea-level risk from forecast into accumulated change",
+            "headlineFull": "Greenland and Antarctica lose more than 12 trillion tons of ice in 47 years; A long record turns sea-level risk from forecast into accumulated change",
+            "intro": "An international polar-science team combined European and NASA satellite records to extend Antarctic ice data back to 1979 and Greenland data to 1972. The two ice sheets lost more than 12 trillion tons over 47 years, creating roughly 11.3 quadrillion liters of meltwater and raising global sea level by about 3.1 centimeters.",
+            "xiaziQuote": "The most dangerous climate change is often not one disaster, but accumulation that never stops.",
+            "doudouQuote": "Map coastal assets, insurance and supply-chain nodes on one long-term exposure view.",
+            "footerTakeaway": "Keyword: Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "c36ebaf5-cbe0-53b3-a39b-19c66341fc1d",
+            "topicId": "49951ae1-870e-52a8-8e31-d3bc447d356a",
+            "title": "Satellites show Earth lost more than 12 trillion tons of ice in 47 years",
+            "publisher": "Los Angeles Times",
+            "url": "https://www.latimes.com/environment/story/2026-09-16/satellites-show-earth-lost-more-than-12-trillion-tons-of-ice-from-greenland-antarctica-in-47-years",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a9473c98-c835-5254-ad54-50ff1c94aa6f",
+        "issueId": "d27a3a81-7f32-56c1-89fe-aa03fd1b6feb",
+        "slug": "nasa-new-moon-crater-impact-zone",
+        "rank": 9,
+        "category": "science",
+        "region": "Space",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-nasa-moon-crater-20260917",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "NASA轨道器发现一次世纪级月球新陨石坑",
+            "headlineView": "撞击影响远超坑体，未来月面车辆要重新理解松散地表",
+            "headlineFull": "NASA轨道器发现一次世纪级月球新陨石坑；撞击影响远超坑体，未来月面车辆要重新理解松散地表",
+            "intro": "NASA月球勘测轨道器在例行数据检查中发现一个比罗马斗兽场更大的新陨石坑。撞击周围形成约4英里宽的夜间低温区，月壤被震松后更难保温；两项《科学进展》研究显示，撞击对地表的扰动可延伸至坑体之外100公里以上，并影响月球车轮与地面的相互作用。",
+            "xiaziQuote": "一个坑的价值不只在直径，而在它揭示地表如何被远距离重塑。",
+            "doudouQuote": "未来选址要同时看坑、松散月壤和夜间温差。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "NASA orbiter discovers a once-in-a-century new Moon crater",
+            "headlineView": "Impact effects extend far beyond the crater, reshaping how rovers must read loose terrain",
+            "headlineFull": "NASA orbiter discovers a once-in-a-century new Moon crater; Impact effects extend far beyond the crater, reshaping how rovers must read loose terrain",
+            "intro": "NASA's Lunar Reconnaissance Orbiter found a new crater larger than the Roman Colosseum during a routine data check. The impact created a roughly four-mile-wide nighttime cold spot as shaken regolith became less able to retain heat. Two Science Advances studies show surface disturbance extending more than 100 kilometers beyond the crater, with implications for rover-wheel interaction.",
+            "xiaziQuote": "A crater matters not only for its diameter, but for what it reveals about long-range surface change.",
+            "doudouQuote": "Future landing plans must read the crater, loose regolith and nighttime temperature together.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "cc417740-8ebb-5d83-b38d-4f22ddcc6207",
+            "topicId": "a9473c98-c835-5254-ad54-50ff1c94aa6f",
+            "title": "Spectacular McGetchin Crater",
+            "publisher": "Lunar Reconnaissance Orbiter Camera",
+            "url": "https://lroc.im-ldi.com/images/1501",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260917_be32340cf6f43ed19bb0d8cb"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-17",
+    "releaseId": "rel_20260917_be32340cf6f43ed19bb0d8cb",
+    "assetBatchId": "asset_prod_20260917_be32340cf6f43ed19bb0d8cb",
+    "posters": [
+      {
+        "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+        "locale": "zh",
+        "contentHash": "844eb6ec2ade6f64467983d0fa9bb2f25e3cb705945732ef3c3e156f4ec3e028",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/today-overview-commerce-ai-founders-rates-war-climate-science.png"
+      },
+      {
+        "topicId": "13834df6-1254-54d9-86d0-9c31bec00e42",
+        "locale": "en",
+        "contentHash": "9922eab423bfebf26fd8aa3469f618018d5d0e5648ce015aafc0f921ad3c4a0b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/today-overview-commerce-ai-founders-rates-war-climate-science.png"
+      },
+      {
+        "topicId": "46439464-9bff-5b47-acb3-e0a2f124bbb9",
+        "locale": "zh",
+        "contentHash": "b173ec4de9983b7bb2ee39ffdc4cb03e33fb9e8b642a14d0516e8b6290e2c1cb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/tripcom-mastercard-agentic-travel-commerce.png"
+      },
+      {
+        "topicId": "46439464-9bff-5b47-acb3-e0a2f124bbb9",
+        "locale": "en",
+        "contentHash": "ff35dda39eb70d070f22973b77a05ec11d2ad3cedf44031448d2cdbd5640337a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/tripcom-mastercard-agentic-travel-commerce.png"
+      },
+      {
+        "topicId": "91b0fc0d-49c1-5163-99fe-45333255531a",
+        "locale": "zh",
+        "contentHash": "cc6af7de874487499d41b4e080b5f66c3fba903f10b0d79331395300c8485adb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/anthropic-claude-docs-collaborative-workspace.png"
+      },
+      {
+        "topicId": "91b0fc0d-49c1-5163-99fe-45333255531a",
+        "locale": "en",
+        "contentHash": "f00fa97f7f9bb650104a77d500f439d4851794e4fbdeddc2463f3da0b8584b88",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/anthropic-claude-docs-collaborative-workspace.png"
+      },
+      {
+        "topicId": "bbc15d42-6dd4-5392-b5ca-c8772a4fd095",
+        "locale": "zh",
+        "contentHash": "3f3835b1d6407eba8d27a41eb46e0c2d44d9f554d0f042e56d5a7c3f1fc0d4f8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/sba-million-dollar-pitch-founder-proof.png"
+      },
+      {
+        "topicId": "bbc15d42-6dd4-5392-b5ca-c8772a4fd095",
+        "locale": "en",
+        "contentHash": "3adf099508465889fe4865c491e9a6e6b0bcd78e695f1b8059e4a464af9b2165",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/sba-million-dollar-pitch-founder-proof.png"
+      },
+      {
+        "topicId": "3f01c1f9-2c06-5a89-971d-4d86f1492798",
+        "locale": "zh",
+        "contentHash": "7334a190fb75a27cfd5588c3c08444bf05a913e89efcedaff4ce68bfac594625",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/fed-first-rate-hike-three-years-result.png"
+      },
+      {
+        "topicId": "3f01c1f9-2c06-5a89-971d-4d86f1492798",
+        "locale": "en",
+        "contentHash": "d80f4584871eaa31c6f0006bf8db5dff612ee7d9c6049f441c6ed357d45828e6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/fed-first-rate-hike-three-years-result.png"
+      },
+      {
+        "topicId": "998ce8b2-5c46-52f0-8b07-304f4d788fe1",
+        "locale": "zh",
+        "contentHash": "8dd629f685bfa7380436afa2be2ac5b99b3f422119968420889b8b87279f15dc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/house-third-war-powers-vote-iran.png"
+      },
+      {
+        "topicId": "998ce8b2-5c46-52f0-8b07-304f4d788fe1",
+        "locale": "en",
+        "contentHash": "47a6022ca7c4e24d51e6d3a1952f962f9ace977b6724396a0d175dba4da4deff",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/house-third-war-powers-vote-iran.png"
+      },
+      {
+        "topicId": "bcfde5d5-8989-58dd-b0cb-7cbc0663aef4",
+        "locale": "zh",
+        "contentHash": "8e2eec0312d3ff4a7f80c8a6d446bf4cc6244f84df96b14f9f20f9b040c67541",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/congo-constitutional-protests-ebola-pressure.png"
+      },
+      {
+        "topicId": "bcfde5d5-8989-58dd-b0cb-7cbc0663aef4",
+        "locale": "en",
+        "contentHash": "3baf7e74eabbb562d144185cc8d39986c6cd4e71ba96cd9bd9f81a322524a2a5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/congo-constitutional-protests-ebola-pressure.png"
+      },
+      {
+        "topicId": "49951ae1-870e-52a8-8e31-d3bc447d356a",
+        "locale": "zh",
+        "contentHash": "90409e362b19be2bcde528cd3ff2a94436bc6a01f0d0868a33bde0c71c4f43b8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/polar-ice-loss-forty-seven-years.png"
+      },
+      {
+        "topicId": "49951ae1-870e-52a8-8e31-d3bc447d356a",
+        "locale": "en",
+        "contentHash": "b75c9a6afe6240d90a0673627cd2928f6884b27b6c1414b6484d88e3b9119a27",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/polar-ice-loss-forty-seven-years.png"
+      },
+      {
+        "topicId": "a9473c98-c835-5254-ad54-50ff1c94aa6f",
+        "locale": "zh",
+        "contentHash": "60633737db310fa73a7b546ef523b4bc56106a609a85eb3f9c032987ae859d17",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/zh/nasa-new-moon-crater-impact-zone.png"
+      },
+      {
+        "topicId": "a9473c98-c835-5254-ad54-50ff1c94aa6f",
+        "locale": "en",
+        "contentHash": "e2336de0f32d16ab96f18a3c193e0083e2e8447a00d8b5334d0290b3379d12e2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260917_be32340cf6f43ed19bb0d8cb/en/nasa-new-moon-crater-impact-zone.png"
+      }
+    ]
+  }
+}
