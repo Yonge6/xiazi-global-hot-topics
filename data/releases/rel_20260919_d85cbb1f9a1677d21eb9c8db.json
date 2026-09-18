@@ -1,0 +1,729 @@
+{
+  "issue": {
+    "id": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+    "slug": "2026-09-19",
+    "style": {
+      "name": "Anti-Design",
+      "zhName": "反设计风格",
+      "description": "Style Atlas daily pick: Anti-Design. Use bold typography, deliberate asymmetry, unexpected scale shifts, broken-grid energy and graphic tension, but preserve strong information order and mobile readability. Each poster has one main conclusion and no more than three key facts, with 3-5 clear modules, larger type, generous spacing and calm low-texture text zones. Content, data, story scenes and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, with a central globe or global operations scene and eight uneven flowing bands, arcs or layered story paths around it. Give every sentence a broad quiet high-contrast reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-19",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-19T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-18T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+    "topics": [
+      {
+        "id": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "today-overview-commerce-ai-governance-water-development",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月19日全球经营雷达",
+            "headlineView": "平台复核、AI科研、区域合作与资源压力同时推进",
+            "headlineFull": "9月19日全球经营雷达；平台复核、AI科研、区域合作与资源压力同时推进",
+            "intro": "1. 亚马逊以AI回溯复核和一次性视频验证加强Section 3账户审查，老店也要证明身份、公司与供应链真实性。\n2. Anthropic称Claude把30多个生物模型平均提速约4倍，并开放优化代码与蛋白质设计竞赛。\n3. 小企业调查显示73%的经营者近三个月成本上升，同时AI未使用者已降至20%。\n4. 乌克兰与七个邻近国家启动喀尔巴阡八国机制，聚焦安全、能源、物流和跨境投资。\n5. 哥斯达黎加前副总统格林斯潘在联合国秘书长第三轮非正式投票中暂时领先。\n6. NASA观测显示鲍威尔湖降至历史最低水位，科罗拉多河供水与水电压力继续加深。\n7. WMO称2025年南极臭氧洞为1992年以来第四至第五小，恢复趋势仍在延续。\n8. 联合国称139个可追踪可持续发展目标中仅36%走在正轨或取得温和进展。",
+            "xiaziQuote": "今天的共同信号是：验证、效率与韧性必须一起设计。",
+            "doudouQuote": "先找出哪项变化会改动你的账户、成本或资源计划。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 19 Global Operator Radar",
+            "headlineView": "Platform checks, AI research, regional cooperation and resource pressure advance together",
+            "headlineFull": "September 19 Global Operator Radar; Platform checks, AI research, regional cooperation and resource pressure advance together",
+            "intro": "1. Amazon is tightening Section 3 account reviews through AI-led retroactive checks and one-shot video verification, requiring even veteran sellers to prove identity, company and supply-chain authenticity.\n2. Anthropic says Claude accelerated more than 30 biology models by roughly 4x on average while opening the optimized code and a protein-design competition.\n3. A small-business survey finds that 73% of owners faced higher costs in the past three months while the share not using AI fell to 20%.\n4. Ukraine and seven neighboring countries launch the Carpathian Eight to coordinate security, energy, logistics and cross-border investment.\n5. Former Costa Rican vice president Rebeca Grynspan narrowly leads the third informal vote for the next UN secretary-general.\n6. NASA observations show Lake Powell at a record low, deepening pressure on Colorado River water supply and hydropower.\n7. WMO says the 2025 Antarctic ozone hole was the fourth- to fifth-smallest since 1992 as long-term recovery continues.\n8. The UN says only 36% of 139 trackable Sustainable Development Goal targets are on course or making moderate progress.",
+            "xiaziQuote": "Today's shared signal is that verification, efficiency and resilience must be designed together.",
+            "doudouQuote": "Identify which shift changes your account, cost base or resource plan first.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "53cc2746-bc94-5139-8a6f-1e9fa1d0010d",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "Amazon Section 3 Account Sweeps: What Is AI Really Checking?",
+            "publisher": "HEYCROSS",
+            "url": "https://www.heycross.com/article/R5zW2Je3A87z1",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "08424250-39c4-5676-a8bc-8c8016302a7d",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "How Claude is uplifting biomolecular modeling",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "17824ce1-d9cd-5d29-9d4b-60459421bbc1",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "Voice of Main Street: Small business AI adoption climbs while business costs keep rising",
+            "publisher": "Small Business Majority",
+            "url": "https://smallbusinessmajority.org/our-research/voice-of-main-street/small-business-ai-adoption-climbs-while-business-costs-keep-rising",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "4a415784-48ea-5028-9fe6-51a2b7b83310",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "Carpathian 8 Summit",
+            "publisher": "Carpathian 8 Summit",
+            "url": "https://www.c8summit.org/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "df9a16e8-785c-5840-a2ac-17b314f72c17",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "UN Security Council conducts third straw poll",
+            "publisher": "1 for 8 Billion",
+            "url": "https://1for8billion.org/news/2026/9/18/un-security-council-conducts-third-straw-poll",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "cbfd72ad-0099-5215-867a-fad8eab7ac27",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "Drought in Summer 2026 in 12 Maps and Graphs",
+            "publisher": "Drought.gov",
+            "url": "https://www.drought.gov/news/drought-summer-2026-12-maps-and-graphs-2026-09-16",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "429c6f41-97b6-59b7-83f5-9db2839dd57e",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "WMO bulletin shows successes and challenges in ozone layer recovery",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/media/news/wmo-bulletin-shows-successes-and-challenges-ozone-layer-recovery",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "f5d86792-7127-5a7b-91cd-3a5fae05a8f4",
+            "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+            "title": "SDG Moment | 18 September 2026",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/sustainabledevelopment/sdg-moment-18-september-2026/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "7bb41407-45b8-5864-aa44-c25f00139743",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "amazon-section3-ai-video-verification-sweep",
+        "rank": 2,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-amazon-section3-verification-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "亚马逊Section 3审查转向AI回溯复核",
+            "headlineView": "一次视频验证正在同时核对身份、公司与供应链真实性",
+            "headlineFull": "亚马逊Section 3审查转向AI回溯复核；一次视频验证正在同时核对身份、公司与供应链真实性",
+            "intro": "近期Section 3账户审查不再只针对单个违规，而是回看账户整体可信度；部分卖家在视频验证后仍被冻结销售权限和资金。老店也应提前整理法人身份、公司资料、采购发票与库存链路，并把一次视频机会当成完整经营真实性核验。",
+            "xiaziQuote": "平台要看的不只是你是谁，而是生意链条能否互相印证。",
+            "doudouQuote": "把证件、公司、发票、库存和收款关系画成一张证据图。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "Amazon Section 3 reviews shift toward AI-led retroactive checks",
+            "headlineView": "A one-time video review now cross-checks identity, company and supply-chain authenticity",
+            "headlineFull": "Amazon Section 3 reviews shift toward AI-led retroactive checks; A one-time video review now cross-checks identity, company and supply-chain authenticity",
+            "intro": "Recent Section 3 reviews look beyond one violation toward an account's overall credibility, and some sellers report losing selling access and funds even after video verification. Veteran stores should organize owner identity, company records, purchase invoices and inventory provenance before a review, treating the single video opportunity as a full business-authenticity audit.",
+            "xiaziQuote": "The platform is checking not only who you are, but whether the whole business chain agrees.",
+            "doudouQuote": "Map IDs, company records, invoices, inventory and payment flows into one evidence chain.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "bc5b8e04-1fe7-57bb-b28a-68fbf1e9f035",
+            "topicId": "7bb41407-45b8-5864-aa44-c25f00139743",
+            "title": "Amazon Section 3 Account Sweeps: What Is AI Really Checking?",
+            "publisher": "HEYCROSS",
+            "url": "https://www.heycross.com/article/R5zW2Je3A87z1",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "cbedefb8-d46f-50b5-92ce-88ce11a3c3c0",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "claude-optimizes-biology-models-fourfold",
+        "rank": 3,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-claude-biomolecular-model-optimization-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Claude把30多个生物模型平均提速约4倍",
+            "headlineView": "通用AI开始直接压缩科研模型的算力与内存门槛",
+            "headlineFull": "Claude把30多个生物模型平均提速约4倍；通用AI开始直接压缩科研模型的算力与内存门槛",
+            "intro": "Anthropic称内部通用研究模型在不到四周内优化了30多个结构预测、蛋白设计和基因组模型，平均速度提升约4倍；相同输出条件下仍接近2倍。团队开放优化代码，并推出最高100万美元Claude额度及5000多个湿实验验证名额的蛋白设计竞赛。",
+            "xiaziQuote": "AI科研的价值不只在提出答案，也在让更多人付得起计算过程。",
+            "doudouQuote": "比较模型前，先记录速度、显存、精度和可复现性四项账。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Claude speeds up more than 30 biology models by roughly 4x on average",
+            "headlineView": "General-purpose AI is lowering the compute and memory barriers of scientific models",
+            "headlineFull": "Claude speeds up more than 30 biology models by roughly 4x on average; General-purpose AI is lowering the compute and memory barriers of scientific models",
+            "intro": "Anthropic says an internal general research model optimized more than 30 structure-prediction, protein-design and genomics models in under four weeks, averaging about a 4x speedup and nearly 2x with identical outputs. It is opening the code and launching a protein-design competition with up to $1 million in Claude credits and wet-lab validation for more than 5,000 designs.",
+            "xiaziQuote": "AI's scientific value lies not only in answers, but in making the computation affordable to more people.",
+            "doudouQuote": "Track speed, memory, accuracy and reproducibility before comparing models.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "c2a91579-c087-5bb5-a3b0-a940bb093cc0",
+            "topicId": "cbedefb8-d46f-50b5-92ce-88ce11a3c3c0",
+            "title": "How Claude is uplifting biomolecular modeling",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b78b300e-f000-5f3e-95f6-992c2ab1d622",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "small-business-costs-rise-ai-adoption-climbs",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-small-business-cost-ai-survey-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "73%的小企业称近三个月经营成本上升",
+            "headlineView": "AI使用继续扩大，但现金流与规则碎片化仍是经营主压力",
+            "headlineFull": "73%的小企业称近三个月经营成本上升；AI使用继续扩大，但现金流与规则碎片化仍是经营主压力",
+            "intro": "Small Business Majority调查显示，原材料、能源、医疗和租金共同推高小企业成本，73%的受访者称最近三个月支出上升。与此同时，未使用AI的经营者比例已从一季度的36%降至20%；59%支持联邦最低保护与州级更强规则并存。",
+            "xiaziQuote": "AI能减少时间成本，却不能替你忽略现金成本与合规成本。",
+            "doudouQuote": "把每个AI流程同时记上省下的小时和新增的审核责任。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company",
+            "headlineFact": "73% of small businesses report rising costs over the past three months",
+            "headlineView": "AI use keeps expanding, but cash flow and fragmented rules remain core operating pressures",
+            "headlineFull": "73% of small businesses report rising costs over the past three months; AI use keeps expanding, but cash flow and fragmented rules remain core operating pressures",
+            "intro": "A Small Business Majority survey finds that raw materials, utilities, health premiums and rent are pushing costs higher, with 73% reporting increased expenses in the past three months. The share not using AI fell from 36% in the first quarter to 20%, while 59% favor a federal protection floor that still allows stronger state rules.",
+            "xiaziQuote": "AI can reduce time cost, but it cannot erase cash cost or compliance cost.",
+            "doudouQuote": "Track both hours saved and the new review duty for every AI workflow.",
+            "footerTakeaway": "Keyword: One-person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "7e070655-5e53-5da5-bae9-592c0d4c14a3",
+            "topicId": "b78b300e-f000-5f3e-95f6-992c2ab1d622",
+            "title": "Voice of Main Street: Small business AI adoption climbs while business costs keep rising",
+            "publisher": "Small Business Majority",
+            "url": "https://smallbusinessmajority.org/our-research/voice-of-main-street/small-business-ai-adoption-climbs-while-business-costs-keep-rising",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c10e8116-9d29-5e7c-ae6c-d81fc46f12aa",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "carpathian-eight-security-energy-investment",
+        "rank": 5,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "UA",
+          "PL",
+          "RO",
+          "RS",
+          "SK",
+          "CZ",
+          "AT",
+          "HU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-carpathian-eight-launch-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "区域合作",
+            "headlineFact": "乌克兰与七国启动喀尔巴阡八国机制",
+            "headlineView": "安全、能源与跨境物流被装进同一套区域合作框架",
+            "headlineFull": "乌克兰与七国启动喀尔巴阡八国机制；安全、能源与跨境物流被装进同一套区域合作框架",
+            "intro": "新机制连接乌克兰、罗马尼亚、塞尔维亚、波兰、斯洛伐克、捷克、奥地利和匈牙利，并让欧盟参与。首届峰会把安全、能源、进出口线路和社区合作列为重点；投资实验室展示90个项目，计划吸引约107亿美元合作资金。",
+            "xiaziQuote": "区域合作真正落地，要从共同地图走向共同项目表。",
+            "doudouQuote": "继续看能源、铁路、口岸和关键矿产项目谁先签约。",
+            "footerTakeaway": "今日关键词：区域合作。"
+          },
+          "en-US": {
+            "categoryLabel": "Regional Cooperation",
+            "headlineFact": "Ukraine and seven countries launch the Carpathian Eight",
+            "headlineView": "Security, energy and cross-border logistics move into one regional framework",
+            "headlineFull": "Ukraine and seven countries launch the Carpathian Eight; Security, energy and cross-border logistics move into one regional framework",
+            "intro": "The initiative links Ukraine, Romania, Serbia, Poland, Slovakia, Czechia, Austria and Hungary, with the EU involved. Its first summit prioritizes security, energy, import-export routes and community cooperation. An investment lab presents 90 projects seeking about $10.7 billion from regional partners.",
+            "xiaziQuote": "Regional cooperation becomes real when a shared map turns into a shared project ledger.",
+            "doudouQuote": "Watch which energy, rail, border and critical-minerals projects sign first.",
+            "footerTakeaway": "Keyword: Regional Cooperation."
+          }
+        },
+        "sources": [
+          {
+            "id": "342bdd43-246b-5565-9c75-1ee401b8b5d9",
+            "topicId": "c10e8116-9d29-5e7c-ae6c-d81fc46f12aa",
+            "title": "Carpathian 8 Summit",
+            "publisher": "Carpathian 8 Summit",
+            "url": "https://www.c8summit.org/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "29f26e9f-4acb-51f7-98f3-7638f15ac1d0",
+            "topicId": "c10e8116-9d29-5e7c-ae6c-d81fc46f12aa",
+            "title": "Carpathian 8 Summit",
+            "publisher": "Carpathian 8 Summit",
+            "url": "https://www.c8summit.org/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "cc704a07-c58c-56e3-8840-f6600e698550",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "grynspan-leads-informal-un-chief-poll",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "CR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-grynspan-un-chief-poll-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 90,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球治理",
+            "headlineFact": "格林斯潘暂时领跑联合国秘书长非正式投票",
+            "headlineView": "第三轮结果仍只是风向，最终人选必须获得五个常任理事国同意",
+            "headlineFull": "格林斯潘暂时领跑联合国秘书长非正式投票；第三轮结果仍只是风向，最终人选必须获得五个常任理事国同意",
+            "intro": "联合国安理会第三轮闭门意向投票中，哥斯达黎加前副总统丽贝卡·格林斯潘以微弱优势居首。共有八名候选人竞逐年底卸任的古特雷斯；安理会最终需向联合国大会正式推荐一人，而五个常任理事国必须形成共识。",
+            "xiaziQuote": "领先不是当选，多边职位的真正门槛是关键参与者都能接受。",
+            "doudouQuote": "把意向票、否决风险和大会程序分开追踪。",
+            "footerTakeaway": "今日关键词：全球治理。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Governance",
+            "headlineFact": "Rebeca Grynspan narrowly leads the informal UN chief poll",
+            "headlineView": "The third-round result is only a signal; the final nominee needs agreement from all five veto powers",
+            "headlineFull": "Rebeca Grynspan narrowly leads the informal UN chief poll; The third-round result is only a signal; the final nominee needs agreement from all five veto powers",
+            "intro": "Former Costa Rican vice president Rebeca Grynspan narrowly topped the UN Security Council's third closed-door straw poll. Eight candidates are seeking to succeed Antonio Guterres at year-end. The council must formally recommend one person to the General Assembly, requiring consensus among the five permanent members.",
+            "xiaziQuote": "Leading is not winning; the real threshold for a multilateral post is broad acceptability.",
+            "doudouQuote": "Track straw votes, veto risk and the General Assembly process separately.",
+            "footerTakeaway": "Keyword: Global Governance."
+          }
+        },
+        "sources": [
+          {
+            "id": "a9b0be87-2996-52c6-979a-3f7aa7d885f2",
+            "topicId": "cc704a07-c58c-56e3-8840-f6600e698550",
+            "title": "UN Security Council conducts third straw poll",
+            "publisher": "1 for 8 Billion",
+            "url": "https://1for8billion.org/news/2026/9/18/un-security-council-conducts-third-straw-poll",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "566cc4ff-7782-505c-9e7d-ee0f007ce570",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "lake-powell-record-low-water-hydropower-risk",
+        "rank": 7,
+        "category": "climate",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-lake-powell-record-low-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与水资源",
+            "headlineFact": "鲍威尔湖降至历史最低水位",
+            "headlineView": "少雪与高温把科罗拉多河供水和水电系统推向更窄缓冲区",
+            "headlineFull": "鲍威尔湖降至历史最低水位；少雪与高温把科罗拉多河供水和水电系统推向更窄缓冲区",
+            "intro": "NASA与美国地质调查局影像显示，鲍威尔湖9月10日水位为3517.24英尺，低于2023年的旧纪录；它在8月15日首次刷新最低值。水位仍高于3490英尺的最低发电池位，但管理部门已调水、减排并取消部分生态放水来稳定系统。",
+            "xiaziQuote": "水库记录不是一张风景照片，而是一张城市、农业与能源账单。",
+            "doudouQuote": "同时看雪包、来水、发电线和下游承诺四条曲线。",
+            "footerTakeaway": "今日关键词：气候与水资源。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Water",
+            "headlineFact": "Lake Powell falls to a record-low water level",
+            "headlineView": "Snow drought and heat push Colorado River supply and hydropower into a thinner buffer",
+            "headlineFull": "Lake Powell falls to a record-low water level; Snow drought and heat push Colorado River supply and hydropower into a thinner buffer",
+            "intro": "NASA-USGS imagery shows Lake Powell at 3,517.24 feet on September 10, below the previous 2023 record after first setting a new low on August 15. It remains above the 3,490-foot minimum power-pool level, but managers have moved water, cut releases and canceled some ecological flows to stabilize the system.",
+            "xiaziQuote": "A reservoir record is not a landscape photo; it is a bill for cities, farms and energy.",
+            "doudouQuote": "Watch snowpack, inflow, the power line and downstream commitments together.",
+            "footerTakeaway": "Keyword: Climate and Water."
+          }
+        },
+        "sources": [
+          {
+            "id": "32eb8ef5-6ea9-5548-bd19-9c2fc229ccfc",
+            "topicId": "566cc4ff-7782-505c-9e7d-ee0f007ce570",
+            "title": "Drought in Summer 2026 in 12 Maps and Graphs",
+            "publisher": "Drought.gov",
+            "url": "https://www.drought.gov/news/drought-summer-2026-12-maps-and-graphs-2026-09-16",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b4da59b2-c851-5183-8f78-74274b064562",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "antarctic-ozone-hole-recovery-smallest-decades",
+        "rank": 8,
+        "category": "climate",
+        "region": "Antarctica",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-ozone-hole-recovery-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "环境科学",
+            "headlineFact": "2025年南极臭氧洞为数十年来最小之一",
+            "headlineView": "蒙特利尔议定书证明长期规则可以让全球环境系统逐步修复",
+            "headlineFull": "2025年南极臭氧洞为数十年来最小之一；蒙特利尔议定书证明长期规则可以让全球环境系统逐步修复",
+            "intro": "WMO最新公报称，2025年南极臭氧洞为1992年以来第四至第五小，深度和范围连续第二年显著低于1990至2010年平均值。气象条件会造成年度波动，但自2000年以来的长期恢复趋势持续，完整修复仍需数十年。",
+            "xiaziQuote": "环境治理最难的成果，往往要跨过很多届政府才能被看见。",
+            "doudouQuote": "别把一年变小当成终点，要看二十年的趋势线。",
+            "footerTakeaway": "今日关键词：环境科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Environmental Science",
+            "headlineFact": "The 2025 Antarctic ozone hole was among the smallest in decades",
+            "headlineView": "The Montreal Protocol shows that long-term rules can gradually repair a global environmental system",
+            "headlineFull": "The 2025 Antarctic ozone hole was among the smallest in decades; The Montreal Protocol shows that long-term rules can gradually repair a global environmental system",
+            "intro": "WMO's latest bulletin ranks the 2025 Antarctic ozone hole as the fourth- to fifth-smallest since 1992, with both depth and extent well below the 1990-2010 average for a second straight year. Weather drives annual variation, but the long recovery since 2000 continues and full repair still requires decades.",
+            "xiaziQuote": "The hardest environmental gains often take many governments before they become visible.",
+            "doudouQuote": "Do not mistake one smaller year for the finish; watch the twenty-year trend.",
+            "footerTakeaway": "Keyword: Environmental Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "f31686be-60d0-574d-9f16-d8e362e404c9",
+            "topicId": "b4da59b2-c851-5183-8f78-74274b064562",
+            "title": "WMO bulletin shows successes and challenges in ozone layer recovery",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/media/news/wmo-bulletin-shows-successes-and-challenges-ozone-layer-recovery",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "67f42fa1-6d46-501d-9ee9-8f7d0261a197",
+        "issueId": "ac6da7e9-8524-5f3b-89d5-083dacbc5f96",
+        "slug": "un-sdg-targets-progress-thirty-six-percent",
+        "rank": 9,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-un-sdg-progress-20260919",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "可持续发展",
+            "headlineFact": "仅36%的可追踪SDG目标走在正轨或取得温和进展",
+            "headlineView": "2030倒计时进入最后阶段，融资、气候、债务与冲突仍在拖慢整体速度",
+            "headlineFull": "仅36%的可追踪SDG目标走在正轨或取得温和进展；2030倒计时进入最后阶段，融资、气候、债务与冲突仍在拖慢整体速度",
+            "intro": "联合国在2026 SDG Moment指出，139个有趋势数据的目标中，36%处于正轨或取得温和进展，较上年有所改善但仍慢且不均。会议把融资缺口、气候冲击、债务压力、冲突与不平等列为主要障碍，并要求扩大已验证方案与跨部门投资。",
+            "xiaziQuote": "全球目标不能只看平均分，还要看谁被落在进度条之外。",
+            "doudouQuote": "把36%拆成国家、议题和资金缺口，行动才有入口。",
+            "footerTakeaway": "今日关键词：可持续发展。"
+          },
+          "en-US": {
+            "categoryLabel": "Sustainable Development",
+            "headlineFact": "Only 36% of trackable SDG targets are on course or making moderate progress",
+            "headlineView": "The final stretch to 2030 still faces financing, climate, debt and conflict drag",
+            "headlineFull": "Only 36% of trackable SDG targets are on course or making moderate progress; The final stretch to 2030 still faces financing, climate, debt and conflict drag",
+            "intro": "At the 2026 SDG Moment, the UN said 36% of 139 targets with trend data are on track or making moderate progress, an improvement from last year but still too slow and uneven. It identified financing gaps, climate shocks, debt distress, conflict and inequality as major barriers and called for proven solutions and cross-sector investment at scale.",
+            "xiaziQuote": "Global goals need more than an average score; they must show who remains outside the progress bar.",
+            "doudouQuote": "Break the 36% down by country, issue and financing gap to find an entry point for action.",
+            "footerTakeaway": "Keyword: Sustainable Development."
+          }
+        },
+        "sources": [
+          {
+            "id": "e2c87df6-7ca4-553c-b146-b214a9ac0a83",
+            "topicId": "67f42fa1-6d46-501d-9ee9-8f7d0261a197",
+            "title": "SDG Moment | 18 September 2026",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/sustainabledevelopment/sdg-moment-18-september-2026/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260919_d85cbb1f9a1677d21eb9c8db"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-19",
+    "releaseId": "rel_20260919_d85cbb1f9a1677d21eb9c8db",
+    "assetBatchId": "asset_prod_20260919_d85cbb1f9a1677d21eb9c8db",
+    "posters": [
+      {
+        "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+        "locale": "zh",
+        "contentHash": "48b80a975becd34a06d52d1baed6bc1aa3a6ba4970895f69dde5fbff13239ad5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/today-overview-commerce-ai-governance-water-development.png"
+      },
+      {
+        "topicId": "62474050-1a2d-538b-9ef7-a571f4074e6b",
+        "locale": "en",
+        "contentHash": "43103b251df0303d348309d63ee23bdadf481bb98ccac23b3057a84bbfa2c7ca",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/today-overview-commerce-ai-governance-water-development.png"
+      },
+      {
+        "topicId": "7bb41407-45b8-5864-aa44-c25f00139743",
+        "locale": "zh",
+        "contentHash": "f83e87a905a4299187de74944da85808312b67ad062164f40e904ee77428f184",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/amazon-section3-ai-video-verification-sweep.png"
+      },
+      {
+        "topicId": "7bb41407-45b8-5864-aa44-c25f00139743",
+        "locale": "en",
+        "contentHash": "f9119ae1b11852826d0785840490463fc66597ddfac371d7b394284187a0bc66",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/amazon-section3-ai-video-verification-sweep.png"
+      },
+      {
+        "topicId": "cbedefb8-d46f-50b5-92ce-88ce11a3c3c0",
+        "locale": "zh",
+        "contentHash": "940f4b67cd1100c4e019a6d313407d6abba63d64d9188ad710515fd6d2e530f8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/claude-optimizes-biology-models-fourfold.png"
+      },
+      {
+        "topicId": "cbedefb8-d46f-50b5-92ce-88ce11a3c3c0",
+        "locale": "en",
+        "contentHash": "1a7031893555e66a49a9d058fccf5b425e92c85f90ea63088081a313d5ceb4d7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/claude-optimizes-biology-models-fourfold.png"
+      },
+      {
+        "topicId": "b78b300e-f000-5f3e-95f6-992c2ab1d622",
+        "locale": "zh",
+        "contentHash": "57cc5cbf41a91c8d341779f29f09bd3739667264f345524327f20e45b63cec62",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/small-business-costs-rise-ai-adoption-climbs.png"
+      },
+      {
+        "topicId": "b78b300e-f000-5f3e-95f6-992c2ab1d622",
+        "locale": "en",
+        "contentHash": "ef4ff2fbdfbf8470558900ae9f30e069451135172c24a74c91c03164968ae835",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/small-business-costs-rise-ai-adoption-climbs.png"
+      },
+      {
+        "topicId": "c10e8116-9d29-5e7c-ae6c-d81fc46f12aa",
+        "locale": "zh",
+        "contentHash": "b73164621e853965a1be8c9b3df1671b959ea9aa5a4232f24f246c745672cb0b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/carpathian-eight-security-energy-investment.png"
+      },
+      {
+        "topicId": "c10e8116-9d29-5e7c-ae6c-d81fc46f12aa",
+        "locale": "en",
+        "contentHash": "0a85c1001e3e72668e76cd29b5aa2f0dcd319990b3dcfc5d3649ad237220d1a1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/carpathian-eight-security-energy-investment.png"
+      },
+      {
+        "topicId": "cc704a07-c58c-56e3-8840-f6600e698550",
+        "locale": "zh",
+        "contentHash": "c0c42f77cb2ba2f392cde3f757ff7b55c3dd33f5ca74248d7ffa81c761fef687",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/grynspan-leads-informal-un-chief-poll.png"
+      },
+      {
+        "topicId": "cc704a07-c58c-56e3-8840-f6600e698550",
+        "locale": "en",
+        "contentHash": "9b125eba2b87c96c5d52734f2faed79c39cb7359d951973732e77c903fbed1c5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/grynspan-leads-informal-un-chief-poll.png"
+      },
+      {
+        "topicId": "566cc4ff-7782-505c-9e7d-ee0f007ce570",
+        "locale": "zh",
+        "contentHash": "08184e5b1a5ec2b5fc97477d841dcdb725b33d6e6e70001c1da65864fc86e431",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/lake-powell-record-low-water-hydropower-risk.png"
+      },
+      {
+        "topicId": "566cc4ff-7782-505c-9e7d-ee0f007ce570",
+        "locale": "en",
+        "contentHash": "8ffd89f5214b745476ab6112fbc32cf75522470139a3f98a2b41ef7459944de4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/lake-powell-record-low-water-hydropower-risk.png"
+      },
+      {
+        "topicId": "b4da59b2-c851-5183-8f78-74274b064562",
+        "locale": "zh",
+        "contentHash": "2559c2c1a9d8a70cc57441d54cddbb5c6086b99909ad6a2f2b3c3adcae8d8abf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/antarctic-ozone-hole-recovery-smallest-decades.png"
+      },
+      {
+        "topicId": "b4da59b2-c851-5183-8f78-74274b064562",
+        "locale": "en",
+        "contentHash": "c0b13c46639032e29fcf90cfceb39477eed3b1c6af44d29b43b2c06c13f9a4a4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/antarctic-ozone-hole-recovery-smallest-decades.png"
+      },
+      {
+        "topicId": "67f42fa1-6d46-501d-9ee9-8f7d0261a197",
+        "locale": "zh",
+        "contentHash": "a7a9d88d77b60947b98be9389a3c430b599053610dfb456a63ec5887059ebdc7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/zh/un-sdg-targets-progress-thirty-six-percent.png"
+      },
+      {
+        "topicId": "67f42fa1-6d46-501d-9ee9-8f7d0261a197",
+        "locale": "en",
+        "contentHash": "0fc9763c5242f669fbf5d27744f793791306400bee4aecbb03ceca392961ed51",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260919_d85cbb1f9a1677d21eb9c8db/en/un-sdg-targets-progress-thirty-six-percent.png"
+      }
+    ]
+  }
+}
