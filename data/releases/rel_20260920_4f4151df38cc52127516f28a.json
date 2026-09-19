@@ -1,0 +1,706 @@
+{
+  "issue": {
+    "id": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+    "slug": "2026-09-20",
+    "style": {
+      "name": "Gustav Klimt",
+      "zhName": "克里姆特式金色装饰",
+      "description": "Style Atlas daily pick: Gustav Klimt. Use luminous gold leaf, mosaic-like ornamental fields, flowing organic geometry, jewel colors and elegant asymmetry as an original editorial language without copying any specific artwork. Every poster must keep one main conclusion and no more than three key facts, arranged in 3-5 calm readable modules with large type, generous spacing and low-texture high-contrast text zones. News scenes, data and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, centered on a richly layered golden globe or world stage with eight uneven flowing ribbons, halos or story paths. Each sentence receives a broad quiet reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-20",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-20T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-19T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+    "topics": [
+      {
+        "id": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "today-overview-trade-ai-health-finance-climate",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月20日全球经营雷达",
+            "headlineView": "关务、AI、健康、资本与气候风险同时进入执行期",
+            "headlineFull": "9月20日全球经营雷达；关务、AI、健康、资本与气候风险同时进入执行期",
+            "intro": "1. 欧盟新关税法明确非欧盟电商平台将承担进口人责任，小包裹全欧处理费计划11月1日起实施。\n2. Anthropic披露Claude已主导26%的内部AI研发任务，但尚未在任何被测环节实现完全自主。\n3. Meta One把跨应用AI、发布、分析、客服和身份工具打包给创作者与小企业。\n4. WHO成员国推进病原体获取与惠益分享附件，为9月25日联合国疫情高级别会议铺路。\n5. WHO称全球近四分之一医生超过55岁，2030年医护缺口预计仍达1110万人。\n6. 世界银行集团称2026财年动员私人资本1120亿美元，并发行超过250亿美元担保。\n7. UNESCO启动Culture x El Niño行动，帮助文化遗产为2026至2027年强厄尔尼诺提前防灾。\n8. 世界清洁日把食物浪费列为城市治理焦点，全球每天浪费超过10亿餐食。",
+            "xiaziQuote": "今天的共同信号是：变化已经从讨论进入责任、预算与执行表。",
+            "doudouQuote": "先标出截止日期、成本和最需要提前补齐的能力。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 20 Global Operator Radar",
+            "headlineView": "Customs, AI, health, capital and climate risks move into execution",
+            "headlineFull": "September 20 Global Operator Radar; Customs, AI, health, capital and climate risks move into execution",
+            "intro": "1. The EU's new customs law makes non-EU e-commerce platforms the importer and plans an EU-wide small-parcel handling fee from November 1.\n2. Anthropic says Claude now leads 26% of its internal AI R&D tasks, though none of the measured work is fully autonomous.\n3. Meta One bundles cross-app AI, publishing, analytics, customer support and identity tools for creators and small businesses.\n4. WHO members advanced the pathogen access and benefit-sharing annex ahead of the UN pandemic meeting on September 25.\n5. WHO says nearly one in four doctors worldwide is over 55 while the global health-worker gap may still reach 11.1 million by 2030.\n6. The World Bank Group says it mobilized $112 billion in private capital in FY2026 and issued more than $25 billion in guarantees.\n7. UNESCO launches Culture x El Niño to help heritage prepare for the strong 2026-2027 climate event.\n8. World Cleanup Day puts food waste at the center of urban action as more than one billion meals are wasted every day.",
+            "xiaziQuote": "Today's shared signal is that change has moved from debate into duties, budgets and execution plans.",
+            "doudouQuote": "Mark the deadlines, costs and capabilities that need strengthening first.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "91a4ac2a-3137-5d57-9271-b8b312c67aa8",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "EU Customs Reform",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "fb722f86-b05e-5548-98a7-e335d1e054b2",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "Measurements for understanding the pace of AI development inside frontier labs",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d98d7c07-aa10-5165-9d3a-99a9ada2d801",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "Meta One Puts Creator Tools Behind A $14.99 Monthly Subscription",
+            "publisher": "Self Employed",
+            "url": "https://www.selfemployed.com/news/meta-one-subscription-creator-business-tiers-2026/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "507d17f5-05bc-5579-a278-879e2084f46b",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "Member States advance negotiations on pathogen access and benefit-sharing ahead of UN General Assembly meeting on pandemics",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-member-states-advance-negotiations-on-pathogen-access-and-benefit-sharing-ahead-of-un-general-assembly-meeting-on-pandemics",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3602ff31-56e6-58c1-819a-fb7972460c98",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "One in four doctors nearing retirement age as WHO warns of global health workforce gap",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "a9d8d2a9-8ad6-589e-8cc5-d29a0bb77515",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "World Bank Group Mobilizes Record Private Capital for Developing Countries, Driving Job Creation",
+            "publisher": "World Bank Group",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/09/17/world-bank-group-mobilizes-record-private-capital-for-developing-countries-driving",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b114edec-5381-54bf-832c-9b48e4716e67",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "UNESCO launches a major campaign to respond to the threat of El Niño against culture and heritage",
+            "publisher": "UNESCO",
+            "url": "https://www.unesco.org/en/articles/unesco-launches-major-campaign-respond-threat-el-nino-against-culture-and-heritage",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "207afb36-ca3c-5ce3-8a24-2030178d3218",
+            "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+            "title": "World Cleanup Day 2026: From Clean Plates to Clean Cities",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/node/221900",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "4b539c92-b636-5471-80fb-21eb2856a547",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "eu-platforms-importer-small-parcel-fee",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "EU",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-eu-customs-platform-importer-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧盟把跨境平台明确为进口人",
+            "headlineView": "小包裹处理费11月1日起实施，平台责任与处罚同步加重",
+            "headlineFull": "欧盟把跨境平台明确为进口人；小包裹处理费11月1日起实施，平台责任与处罚同步加重",
+            "intro": "欧盟理事会通过关税体系改革：非欧盟电商平台向欧盟消费者销售时，将负责申报、缴税和合规，而不再由最终消费者承担。全欧小包裹处理费计划自11月1日起实施；严重违规最高可罚上一年度进口货值的6%，并可能失去海关便利或平台准入。",
+            "xiaziQuote": "跨境平台正在从交易入口变成关务责任主体。",
+            "doudouQuote": "现在就把商品合规、税费、申报主体和物流数据放进同一张表。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "The EU makes cross-border platforms the importer",
+            "headlineView": "A small-parcel handling fee starts November 1 as platform duties and penalties rise",
+            "headlineFull": "The EU makes cross-border platforms the importer; A small-parcel handling fee starts November 1 as platform duties and penalties rise",
+            "intro": "The Council's customs overhaul makes non-EU e-commerce platforms responsible for declarations, duties and compliance when selling to EU consumers instead of leaving those obligations to the buyer. An EU-wide small-parcel handling fee is planned from November 1, while severe noncompliance can trigger fines of up to 6% of the prior year's import value and loss of customs or platform privileges.",
+            "xiaziQuote": "Cross-border platforms are becoming customs principals, not just transaction gateways.",
+            "doudouQuote": "Put product compliance, tax, declarant identity and logistics data on one operating sheet now.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "d202cd01-42b6-513a-a32a-a11170ed4bab",
+            "topicId": "4b539c92-b636-5471-80fb-21eb2856a547",
+            "title": "EU Customs Reform",
+            "publisher": "European Commission",
+            "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "fbc2b5fc-38d1-5778-889d-dc2160f388ec",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "claude-leads-quarter-anthropic-ai-rd",
+        "rank": 3,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-anthropic-rd-automation-index-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Claude已主导26%的Anthropic AI研发任务",
+            "headlineView": "前沿实验室开始用三类指标公开AI自我加速的速度",
+            "headlineFull": "Claude已主导26%的Anthropic AI研发任务；前沿实验室开始用三类指标公开AI自我加速的速度",
+            "intro": "Anthropic公布内部研发自动化指数：截至8月，Claude在26%的AI研发任务中达到“主导”级别，超过90%的任务达到“协作”或更高，但没有任何被测环节完全自主。公司还披露约3万个内部研发代理，并主张持续公布自动化、监督覆盖与算力分配。",
+            "xiaziQuote": "讨论AI速度之前，先让自动化程度和监督能力变得可量化。",
+            "doudouQuote": "别只看完成率，还要看人工介入点、审查延迟和异常升级率。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Claude now leads 26% of Anthropic's AI R&D tasks",
+            "headlineView": "Frontier labs begin publishing three measures of AI-driven acceleration",
+            "headlineFull": "Claude now leads 26% of Anthropic's AI R&D tasks; Frontier labs begin publishing three measures of AI-driven acceleration",
+            "intro": "Anthropic's internal R&D Automation Index says Claude reached the 'leads' level on 26% of AI R&D tasks by August, with more than 90% at 'collaborates' or higher, but none fully autonomous. The company also reports roughly 30,000 internal research agents and proposes recurring disclosure of automation, oversight coverage and compute allocation.",
+            "xiaziQuote": "Before debating AI speed, make automation and oversight measurable.",
+            "doudouQuote": "Track human intervention points, review latency and escalation rates, not just completion.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "254b287e-972c-5305-b772-8be4ed37fc8d",
+            "topicId": "fbc2b5fc-38d1-5778-889d-dc2160f388ec",
+            "title": "Measurements for understanding the pace of AI development inside frontier labs",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "13e36351-90b3-5ce6-ae55-bf1d8c04beff",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "meta-one-creator-business-subscription-stack",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-meta-one-opc-stack-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Meta One把创作者经营工具打包成订阅",
+            "headlineView": "内容、分析、客服与身份保护进一步集中到平台内",
+            "headlineFull": "Meta One把创作者经营工具打包成订阅；内容、分析、客服与身份保护进一步集中到平台内",
+            "intro": "Meta One面向创作者和小企业提供增强主页、自动邀请关注、更多Business Agent客服、排期、可导出分析和团队权限。创作者与企业套餐从每月14.99美元起，更高档位扩展发布和代理容量；具体价格与功能会因地区、应用和账户而异。",
+            "xiaziQuote": "平台一体化能省操作成本，也会提高迁移与议价风险。",
+            "doudouQuote": "先算清订阅替代了哪些工具，再保留客户数据和内容的可导出路径。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company",
+            "headlineFact": "Meta One turns creator operations into a subscription stack",
+            "headlineView": "Content, analytics, support and identity protection move deeper inside the platform",
+            "headlineFull": "Meta One turns creator operations into a subscription stack; Content, analytics, support and identity protection move deeper inside the platform",
+            "intro": "Meta One gives creators and small businesses enhanced profiles, automatic follow invitations, more Business Agent support, scheduling, exportable analytics and team access. Creator and business bundles start at $14.99 per month, with higher tiers expanding publishing and agent capacity; pricing and availability vary by region, app and account.",
+            "xiaziQuote": "An integrated platform can cut operating cost while increasing switching and pricing risk.",
+            "doudouQuote": "List the tools replaced, then preserve export paths for customers, content and analytics.",
+            "footerTakeaway": "Keyword: One-person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "0002b8f5-8e5b-58c8-a417-b90e801e269e",
+            "topicId": "13e36351-90b3-5ce6-ae55-bf1d8c04beff",
+            "title": "Meta One Puts Creator Tools Behind A $14.99 Monthly Subscription",
+            "publisher": "Self Employed",
+            "url": "https://www.selfemployed.com/news/meta-one-subscription-creator-business-tiers-2026/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "932ff90d-c2f3-5e62-973a-1a627b1e5bb1",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "who-pandemic-pathogen-benefit-sharing-talks",
+        "rank": 5,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-who-pabs-negotiations-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "WHO推进病原体共享与收益分配附件",
+            "headlineView": "材料与序列更快共享，疫苗药物和诊断也要更公平回流",
+            "headlineFull": "WHO推进病原体共享与收益分配附件；材料与序列更快共享，疫苗药物和诊断也要更公平回流",
+            "intro": "WHO成员国结束第八轮谈判，继续推进《大流行协定》的病原体获取与惠益分享附件。目标是在及时共享潜在大流行病原体材料和序列信息的同时，公平分享由此开发的疫苗、治疗和诊断；该进展将进入9月25日联合国高级别会议议程。",
+            "xiaziQuote": "共享样本与共享成果必须被设计成同一套交换机制。",
+            "doudouQuote": "下一步看附件何时完成，以及国家何时签署和批准协定。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "WHO advances the pathogen-sharing and benefit-sharing annex",
+            "headlineView": "Faster access to materials and sequences must pair with fair access to vaccines, treatments and tests",
+            "headlineFull": "WHO advances the pathogen-sharing and benefit-sharing annex; Faster access to materials and sequences must pair with fair access to vaccines, treatments and tests",
+            "intro": "WHO members concluded the eighth negotiating round on the Pandemic Agreement's pathogen access and benefit-sharing annex. The system aims to speed sharing of pandemic-potential materials and sequence information while fairly sharing resulting vaccines, therapeutics and diagnostics; the progress feeds into the UN high-level meeting on September 25.",
+            "xiaziQuote": "Sharing samples and sharing outcomes must be designed as one exchange system.",
+            "doudouQuote": "Watch when the annex closes and when countries move to signature and ratification.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "8edbb981-4b2f-5852-bbb5-07016daae480",
+            "topicId": "932ff90d-c2f3-5e62-973a-1a627b1e5bb1",
+            "title": "Member States advance negotiations on pathogen access and benefit-sharing ahead of UN General Assembly meeting on pandemics",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-member-states-advance-negotiations-on-pathogen-access-and-benefit-sharing-ahead-of-un-general-assembly-meeting-on-pandemics",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "72f32619-0610-5c56-a7fd-2209615f7fcf",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "quarter-doctors-nearing-retirement-workforce-gap",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-health-workforce-ageing-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "医护人力",
+            "headlineFact": "全球近四分之一医生将在十年内接近退休",
+            "headlineView": "人才总量增长仍无法弥合地区差距与老龄化缺口",
+            "headlineFull": "全球近四分之一医生将在十年内接近退休；人才总量增长仍无法弥合地区差距与老龄化缺口",
+            "intro": "WHO称全球医护人员已超过7000万，2006至2025年每万人医护密度提高52%。但近四分之一医生已超过55岁，高收入国家接近三分之一；到2030年全球仍可能短缺1110万名医护人员，67个国家的人力不足以维持基本健康需求。",
+            "xiaziQuote": "人力危机不是只缺岗位，而是培养周期与退休速度错位。",
+            "doudouQuote": "政策要同时看招生、留任、区域分布和年龄结构。",
+            "footerTakeaway": "今日关键词：医护人力。"
+          },
+          "en-US": {
+            "categoryLabel": "Health Workforce",
+            "headlineFact": "Nearly one in four doctors could retire within a decade",
+            "headlineView": "Rising headcount still fails to close regional gaps and the ageing shortfall",
+            "headlineFull": "Nearly one in four doctors could retire within a decade; Rising headcount still fails to close regional gaps and the ageing shortfall",
+            "intro": "WHO says the global health workforce now exceeds 70 million and density rose 52% from 2006 to 2025. Yet nearly one in four doctors is over 55, rising to almost one in three in high-income countries. The global shortfall may still reach 11.1 million by 2030, with 67 countries unable to meet population needs.",
+            "xiaziQuote": "The workforce crisis is a mismatch between training time and retirement speed, not just vacancies.",
+            "doudouQuote": "Track education, retention, geographic distribution and age structure together.",
+            "footerTakeaway": "Keyword: Health Workforce."
+          }
+        },
+        "sources": [
+          {
+            "id": "be04ffc0-623f-5318-957c-01ef303c60d1",
+            "topicId": "72f32619-0610-5c56-a7fd-2209615f7fcf",
+            "title": "One in four doctors nearing retirement age as WHO warns of global health workforce gap",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "8819c457-c405-5d3d-aa70-36c3201b8a33",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "world-bank-record-private-capital-mobilization",
+        "rank": 7,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-world-bank-private-capital-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "发展融资",
+            "headlineFact": "世界银行集团一年动员私人资本1120亿美元",
+            "headlineView": "担保、当地货币融资与统一入口正把更多资金引向发展中经济体",
+            "headlineFull": "世界银行集团一年动员私人资本1120亿美元；担保、当地货币融资与统一入口正把更多资金引向发展中经济体",
+            "intro": "世界银行集团称2026财年动员私人资本1120亿美元，较2022财年的350亿美元增长逾三倍；加上自有融资，总规模超过2000亿美元。同期担保发行超过250亿美元，提前四年超过2030年年度目标，非洲动员额也从约90亿美元升至220亿美元。",
+            "xiaziQuote": "公共资金的杠杆价值，在于把原本不敢进入的私人资本带进来。",
+            "doudouQuote": "继续看资金是否真正进入基础设施、医疗、农业和制造业项目。",
+            "footerTakeaway": "今日关键词：发展融资。"
+          },
+          "en-US": {
+            "categoryLabel": "Development Finance",
+            "headlineFact": "The World Bank Group mobilizes $112 billion in private capital",
+            "headlineView": "Guarantees, local-currency tools and a unified entry point draw more money into developing economies",
+            "headlineFull": "The World Bank Group mobilizes $112 billion in private capital; Guarantees, local-currency tools and a unified entry point draw more money into developing economies",
+            "intro": "The World Bank Group says private capital mobilization reached $112 billion in FY2026, more than triple the $35 billion recorded in FY2022; together with its own financing, the total exceeded $200 billion. Guarantee issuance topped $25 billion, beating the 2030 annual target four years early, while mobilization in Africa rose from about $9 billion to $22 billion.",
+            "xiaziQuote": "Public capital creates leverage when it brings private investors into places they would otherwise avoid.",
+            "doudouQuote": "Watch whether the money reaches infrastructure, health, agribusiness and manufacturing projects.",
+            "footerTakeaway": "Keyword: Development Finance."
+          }
+        },
+        "sources": [
+          {
+            "id": "d2d496e2-75af-5af4-ab53-8ff88930ae30",
+            "topicId": "8819c457-c405-5d3d-aa70-36c3201b8a33",
+            "title": "World Bank Group Mobilizes Record Private Capital for Developing Countries, Driving Job Creation",
+            "publisher": "World Bank Group",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/09/17/world-bank-group-mobilizes-record-private-capital-for-developing-countries-driving",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0aebdab3-c650-5ec1-8739-95dd154701b4",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "unesco-el-nino-cultural-heritage-preparedness",
+        "rank": 8,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-unesco-el-nino-culture-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与文化",
+            "headlineFact": "UNESCO为强厄尔尼诺启动文化遗产预案",
+            "headlineView": "预警、应急资金与本地知识被提前接入文化保护",
+            "headlineFull": "UNESCO为强厄尔尼诺启动文化遗产预案；预警、应急资金与本地知识被提前接入文化保护",
+            "intro": "UNESCO启动Culture x El Niño行动，面向2026至2027年预计增强的厄尔尼诺，为遗产地、博物馆、档案馆和文化实践提供应急资金、技术援助与科学信息。风险包括干旱、洪水、风暴、滑坡和野火，原住民社区的本地环境知识也将纳入提前行动。",
+            "xiaziQuote": "文化遗产防灾的关键，是在损失发生前把预警变成行动。",
+            "doudouQuote": "先清点最脆弱的建筑、藏品、档案和社区实践。",
+            "footerTakeaway": "今日关键词：气候与文化。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Culture",
+            "headlineFact": "UNESCO prepares cultural heritage for a strong El Niño",
+            "headlineView": "Early warning, emergency funding and local knowledge move into cultural protection",
+            "headlineFull": "UNESCO prepares cultural heritage for a strong El Niño; Early warning, emergency funding and local knowledge move into cultural protection",
+            "intro": "UNESCO's Culture x El Niño initiative prepares heritage sites, museums, archives and cultural practices for the intensifying 2026-2027 event through emergency funding, technical help and scientific information. Droughts, floods, storms, landslides and wildfires are core threats, while Indigenous environmental knowledge will support anticipatory action.",
+            "xiaziQuote": "Heritage resilience begins when forecasts become action before damage occurs.",
+            "doudouQuote": "Inventory the most vulnerable buildings, collections, archives and community practices first.",
+            "footerTakeaway": "Keyword: Climate and Culture."
+          }
+        },
+        "sources": [
+          {
+            "id": "b97909a3-44c7-51a1-9131-4d6b254daad6",
+            "topicId": "0aebdab3-c650-5ec1-8739-95dd154701b4",
+            "title": "UNESCO launches a major campaign to respond to the threat of El Niño against culture and heritage",
+            "publisher": "UNESCO",
+            "url": "https://www.unesco.org/en/articles/unesco-launches-major-campaign-respond-threat-el-nino-against-culture-and-heritage",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f6f6d779-4cc6-5a22-b5d7-4486da1c1d03",
+        "issueId": "5e2fe4f2-04a3-54e6-9e67-db1d86866a2d",
+        "slug": "world-cleanup-day-food-waste-cities",
+        "rank": 9,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-world-cleanup-day-food-waste-20260920",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "城市与环境",
+            "headlineFact": "世界清洁日聚焦从餐盘到城市的食物浪费",
+            "headlineView": "全球每天浪费超过10亿餐食，家庭是最大来源",
+            "headlineFull": "世界清洁日聚焦从餐盘到城市的食物浪费；全球每天浪费超过10亿餐食，家庭是最大来源",
+            "intro": "9月20日世界清洁日以“从干净餐盘到清洁城市”为主题，全球纪念活动在中国绍兴举行。联合国资料显示，2022年家庭、餐饮和零售环节浪费约10.5亿吨食物，占消费者可获得食物的19%；家庭贡献约60%，食物损失和浪费产生全球8%至10%的温室气体排放。",
+            "xiaziQuote": "城市垃圾问题，往往从采购、储存和餐盘上的决定开始。",
+            "doudouQuote": "家庭和餐厅先量化一周浪费，再调整采购与分量。",
+            "footerTakeaway": "今日关键词：城市与环境。"
+          },
+          "en-US": {
+            "categoryLabel": "Cities and Environment",
+            "headlineFact": "World Cleanup Day links clean plates to clean cities",
+            "headlineView": "More than one billion meals are wasted daily, with households the largest source",
+            "headlineFull": "World Cleanup Day links clean plates to clean cities; More than one billion meals are wasted daily, with households the largest source",
+            "intro": "World Cleanup Day on September 20 uses the theme 'From Clean Plates to Clean Cities,' with the global observance in Shaoxing, China. UN figures say households, food services and retail wasted about 1.05 billion tonnes of food in 2022, equal to 19% of food available to consumers; households produced 60%, and food loss and waste generate 8-10% of global greenhouse-gas emissions.",
+            "xiaziQuote": "Urban waste often begins with decisions at purchasing, storage and the plate.",
+            "doudouQuote": "Measure one week of waste before changing purchasing and portion sizes.",
+            "footerTakeaway": "Keyword: Cities and Environment."
+          }
+        },
+        "sources": [
+          {
+            "id": "5b498eaf-fe65-5ccc-9835-8d2b8adf62bc",
+            "topicId": "f6f6d779-4cc6-5a22-b5d7-4486da1c1d03",
+            "title": "World Cleanup Day 2026: From Clean Plates to Clean Cities",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/node/221900",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260920_4f4151df38cc52127516f28a"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-20",
+    "releaseId": "rel_20260920_4f4151df38cc52127516f28a",
+    "assetBatchId": "asset_prod_20260920_4f4151df38cc52127516f28a",
+    "posters": [
+      {
+        "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+        "locale": "zh",
+        "contentHash": "a263332441fa94b9ae8b3594ecf6e2d4dcfff5eb3169157b08c9dd9a815244da",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/today-overview-trade-ai-health-finance-climate.png"
+      },
+      {
+        "topicId": "863e2af9-31fe-5bbb-bcdd-1ea4530847b3",
+        "locale": "en",
+        "contentHash": "52e553f0a1a842836535dd27b00a415684add10db0ef400b053da5e50c31e6b3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/today-overview-trade-ai-health-finance-climate.png"
+      },
+      {
+        "topicId": "4b539c92-b636-5471-80fb-21eb2856a547",
+        "locale": "zh",
+        "contentHash": "6a52434594ed48d6c142e64358874579cf3b7226f702c4723e4ca2175b328d1d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/eu-platforms-importer-small-parcel-fee.png"
+      },
+      {
+        "topicId": "4b539c92-b636-5471-80fb-21eb2856a547",
+        "locale": "en",
+        "contentHash": "dedb3ec961c11d375051229e9d37c4fa8305e0005626069c1220e30cf63f0cb6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/eu-platforms-importer-small-parcel-fee.png"
+      },
+      {
+        "topicId": "fbc2b5fc-38d1-5778-889d-dc2160f388ec",
+        "locale": "zh",
+        "contentHash": "4f1ac7707184df0488c09d118d0c9714aed35c700cfac38fea198478902d2c68",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/claude-leads-quarter-anthropic-ai-rd.png"
+      },
+      {
+        "topicId": "fbc2b5fc-38d1-5778-889d-dc2160f388ec",
+        "locale": "en",
+        "contentHash": "cce71a312a14b9cffc7becd0db3d7cab0000c03eb310c4e0244940416fee5e36",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/claude-leads-quarter-anthropic-ai-rd.png"
+      },
+      {
+        "topicId": "13e36351-90b3-5ce6-ae55-bf1d8c04beff",
+        "locale": "zh",
+        "contentHash": "d7769f32641cd5dcd06681d61ca74efbcff7ddaecfc64d45ac74f6b929d86516",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/meta-one-creator-business-subscription-stack.png"
+      },
+      {
+        "topicId": "13e36351-90b3-5ce6-ae55-bf1d8c04beff",
+        "locale": "en",
+        "contentHash": "737e88f9229d7c99bec54b09c3daa88cf19e4badff05e9732df15a793a899b56",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/meta-one-creator-business-subscription-stack.png"
+      },
+      {
+        "topicId": "932ff90d-c2f3-5e62-973a-1a627b1e5bb1",
+        "locale": "zh",
+        "contentHash": "5943a06c4e1e2f2e7627e003b49ddfbe4f69f64bee456987358417cbc8875a07",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/who-pandemic-pathogen-benefit-sharing-talks.png"
+      },
+      {
+        "topicId": "932ff90d-c2f3-5e62-973a-1a627b1e5bb1",
+        "locale": "en",
+        "contentHash": "85e925b9b3e132c48add3fb574894af83279069ff4d426f2136c39e4f74a1fcb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/who-pandemic-pathogen-benefit-sharing-talks.png"
+      },
+      {
+        "topicId": "72f32619-0610-5c56-a7fd-2209615f7fcf",
+        "locale": "zh",
+        "contentHash": "76dbfdbe75199c25431abd78779b62b1d5b80b55fdda2fe5127c3c8faf0979b0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/quarter-doctors-nearing-retirement-workforce-gap.png"
+      },
+      {
+        "topicId": "72f32619-0610-5c56-a7fd-2209615f7fcf",
+        "locale": "en",
+        "contentHash": "cd28698ce03d879fe7a0c687e7120e8e2ae7ff8de45acffe652f8f48acd25e63",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/quarter-doctors-nearing-retirement-workforce-gap.png"
+      },
+      {
+        "topicId": "8819c457-c405-5d3d-aa70-36c3201b8a33",
+        "locale": "zh",
+        "contentHash": "50fb9c0a12a607106d5c4c16a6023fee2e2156963d97dec591dbb0d4734588b9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/world-bank-record-private-capital-mobilization.png"
+      },
+      {
+        "topicId": "8819c457-c405-5d3d-aa70-36c3201b8a33",
+        "locale": "en",
+        "contentHash": "81cf509f41c4d1d2250693ffe0dcb6ccf71824823d5c72ff78b2cd55c63e1275",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/world-bank-record-private-capital-mobilization.png"
+      },
+      {
+        "topicId": "0aebdab3-c650-5ec1-8739-95dd154701b4",
+        "locale": "zh",
+        "contentHash": "5b179190f840bfe353f001ec10ecc158c42aaecf9866aa8d216e7d70b5a28d80",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/unesco-el-nino-cultural-heritage-preparedness.png"
+      },
+      {
+        "topicId": "0aebdab3-c650-5ec1-8739-95dd154701b4",
+        "locale": "en",
+        "contentHash": "deb31e525c2daa5cdc642bdbe57209d1848ffae18826a1a1c4d2a6e5ea3f3426",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/unesco-el-nino-cultural-heritage-preparedness.png"
+      },
+      {
+        "topicId": "f6f6d779-4cc6-5a22-b5d7-4486da1c1d03",
+        "locale": "zh",
+        "contentHash": "af7afa9b74b56c6cdef210addeab7cbcdc17ab69abe7d15249fd6d7c20ab9c39",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/zh/world-cleanup-day-food-waste-cities.png"
+      },
+      {
+        "topicId": "f6f6d779-4cc6-5a22-b5d7-4486da1c1d03",
+        "locale": "en",
+        "contentHash": "32818e98c75e3d4c00fc473427c8c71263c4aa471230d5e8bc69344b659e2437",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260920_4f4151df38cc52127516f28a/en/world-cleanup-day-food-waste-cities.png"
+      }
+    ]
+  }
+}
