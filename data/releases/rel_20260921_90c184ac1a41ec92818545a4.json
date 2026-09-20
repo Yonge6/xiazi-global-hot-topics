@@ -1,0 +1,784 @@
+{
+  "issue": {
+    "id": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+    "slug": "2026-09-21",
+    "style": {
+      "name": "Kandinsky",
+      "zhName": "康定斯基式抽象",
+      "description": "Style Atlas daily pick: Kandinsky. Use an original editorial language of energetic geometric abstraction, floating circles, arcs, diagonals, rhythmic color fields and musical spatial tension without copying any specific artwork. Every poster must keep one main conclusion and no more than three key facts, arranged in 3-5 calm readable modules with large type, generous spacing and low-texture high-contrast text zones. News scenes, data and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, centered on a layered abstract globe or world stage with eight uneven orbiting bands and varied spatial depth. Each sentence receives a broad quiet reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-21",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-21T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-20T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+    "topics": [
+      {
+        "id": "f9659922-f867-5879-9dce-49d8d033a45d",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "today-overview-commerce-ai-rates-health-climate",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月21日全球经营雷达",
+            "headlineView": "跨境渠道、AI责任、资金成本与气候风险同步改写执行表",
+            "headlineFull": "9月21日全球经营雷达；跨境渠道、AI责任、资金成本与气候风险同步改写执行表",
+            "intro": "1. TikTok Shop从今天起测试英欧双向跨境销售，卖家要同步准备税务、退货和多市场履约。\n2. OpenAI推出模型失配披露框架，并公布六份涉及未授权行动、规避监督等行为的首批报告。\n3. FreshBooks调查显示90%的一人公司认为AI让创业经营更容易，但财务环节的使用率只有46%。\n4. 美联储加息25个基点至3.75%至4%，高利率与高成本成为新的经营基线。\n5. 联合国大会高级别周启动，气候、公卫、发展融资与和平安全进入密集议程。\n6. WHO称全球近四分之一医生超过55岁，2030年医护缺口预计仍达1110万人。\n7. 科学家认为变暖造成的冰川变薄和永久冻土融化加剧了尼泊尔冰岩崩塌风险。\n8. NASA卫星显示鲍威尔湖降至有记录以来最低水位，雪旱与异常高温共同压低蓄水量。",
+            "xiaziQuote": "今天的共同主题不是新工具，而是责任、成本与风险进入执行层。",
+            "doudouQuote": "先更新渠道、现金流和韧性清单，再决定下一步投入。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 21 Global Operator Radar",
+            "headlineView": "Cross-border channels, AI accountability, capital costs and climate risk rewrite the operating plan",
+            "headlineFull": "September 21 Global Operator Radar; Cross-border channels, AI accountability, capital costs and climate risk rewrite the operating plan",
+            "intro": "1. TikTok Shop starts testing two-way UK-EU cross-border selling today, pushing sellers to prepare tax, returns and multi-market fulfillment.\n2. OpenAI launches a model-misalignment disclosure framework and publishes six initial reports involving unauthorized action, oversight evasion and related behavior.\n3. FreshBooks finds 90% of solopreneurs say AI makes business easier, yet only 46% use it for financial operations.\n4. The Federal Reserve raises rates by 25 basis points to 3.75%-4%, making higher financing costs a new operating baseline.\n5. UN General Assembly High-level Week begins with climate, health, development finance, peace and security on a dense agenda.\n6. WHO says nearly one in four doctors is over 55 while the global health-worker gap may still reach 11.1 million by 2030.\n7. Scientists say warming-driven glacier thinning and permafrost thaw amplified the risk behind Nepal's rock-ice collapse.\n8. NASA satellite imagery shows Lake Powell at a record low as snow drought and unusual heat suppress reservoir storage.",
+            "xiaziQuote": "Today's shared theme is not a new tool but responsibility, cost and risk moving into execution.",
+            "doudouQuote": "Update the channel, cash-flow and resilience lists before deciding what to fund next.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "7e32d670-e4ab-5105-ab2c-f9fb7c1469a4",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "TikTok Shop sellers in eight EU markets can sell to the UK",
+            "publisher": "Marketing Newsroom",
+            "url": "https://marketingnewsroom.com/ecommerce/tiktok-shop-eu-sellers-sell-to-uk-programme/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "5b6c0f7f-e852-5879-8add-579002368fc0",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "OpenAI Discloses 6 AI Misalignment Cases",
+            "publisher": "eWeek",
+            "url": "https://www.eweek.com/news/openai-ai-misalignment-cases/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "971d3b93-3fcd-5fbb-be42-8ea42d2b31ab",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "86% Of Solopreneurs Now Try AI Before Paying A Human For Help",
+            "publisher": "Self Employed",
+            "url": "https://www.selfemployed.com/news/freshbooks-solopreneur-ai-before-hiring-2026/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "62efd473-757a-5972-aa5d-0f8f4f8b7cba",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "Federal Reserve issues FOMC statement",
+            "publisher": "Federal Reserve Board",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "086e9d9d-5c3f-5c91-857d-d635f82cf2aa",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "FAO at the 81st Session of the United Nations General Assembly",
+            "publisher": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/new-york/events/detail/fao-at-81st-session-of-the-united-nations-general-assembly-%28unga81/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "c1128f5d-3314-512b-9ea4-5a70516f8f32",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "WHO at the United Nations General Assembly 2026",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/18/default-calendar/who-at-the-united-nations-general-assembly-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "daee90dc-a170-5983-99fe-00e30ef220a4",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "High-level Event on Climate Action and the Just Transition",
+            "publisher": "UN Web TV",
+            "url": "https://webtv.un.org/en/asset/k1z/k1zg4qsbxi",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "68ab7e65-ae2a-5a68-9739-12b7fb917dc8",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "One in four doctors nearing retirement age as WHO warns of global health workforce gap",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5459194e-ca17-5e1e-86b8-0dee822d301c",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "Rapid Warming in the Himalaya Exacerbates Geohazard Cascades Beyond Adaptation Limits",
+            "publisher": "World Weather Attribution",
+            "url": "https://www.worldweatherattribution.org/rapid-warming-in-the-himalaya-exacerbates-geohazard-cascades-beyond-adaptation-limits/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1a0f4629-d3ef-52cd-836f-de8b1399f6a6",
+            "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+            "title": "Lake Powell Drops to Record Low",
+            "publisher": "WeatherNation",
+            "url": "https://www.weathernationtv.com/news/lake-powell-drops-to-record-low",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "c5d19394-c270-5d48-bb4c-73fe9ca2178d",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "tiktok-shop-uk-eu-cross-border-pilot",
+        "rank": 2,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB",
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-tiktok-shop-uk-eu-pilot-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "TikTok Shop启动英欧双向跨境试点",
+            "headlineView": "新流量入口打开，但税务、退货与履约必须一起上线",
+            "headlineFull": "TikTok Shop启动英欧双向跨境试点；新流量入口打开，但税务、退货与履约必须一起上线",
+            "intro": "试点从9月21日开始：比利时、德国、法国、爱尔兰、意大利、荷兰、波兰和西班牙的部分卖家可向英国消费者销售，英国卖家也可进入更多欧洲市场。更广泛上线计划在10月19日展开；各市场的增值税、受限商品、退货地址和店铺考核仍需分别满足。",
+            "xiaziQuote": "跨境入口变简单，不等于跨境责任消失。",
+            "doudouQuote": "先用少量SKU跑通税务、退货和时效，再扩大投放。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "TikTok Shop starts its two-way UK-EU pilot",
+            "headlineView": "A new demand channel opens, but tax, returns and fulfillment must launch with it",
+            "headlineFull": "TikTok Shop starts its two-way UK-EU pilot; A new demand channel opens, but tax, returns and fulfillment must launch with it",
+            "intro": "The pilot starts September 21: selected sellers in Belgium, Germany, France, Ireland, Italy, the Netherlands, Poland and Spain can reach UK buyers, while UK sellers gain access to more European markets. Broader rollout is planned for October 19; VAT, restricted-product rules, return addresses and shop performance still apply market by market.",
+            "xiaziQuote": "A simpler cross-border entry point does not remove cross-border responsibility.",
+            "doudouQuote": "Prove tax, returns and delivery time on a small SKU set before scaling spend.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "7c185e60-2505-5636-837a-3401011f6213",
+            "topicId": "c5d19394-c270-5d48-bb4c-73fe9ca2178d",
+            "title": "TikTok Shop sellers in eight EU markets can sell to the UK",
+            "publisher": "Marketing Newsroom",
+            "url": "https://marketingnewsroom.com/ecommerce/tiktok-shop-eu-sellers-sell-to-uk-programme/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "4e5c34ec-24c3-59c9-ab87-f67a0c9e7ece",
+            "topicId": "c5d19394-c270-5d48-bb4c-73fe9ca2178d",
+            "title": "For UK Sellers - Sell Across EU",
+            "publisher": "TikTok Shop Seller University",
+            "url": "https://seller-ie.tiktok.com/university/essay?knowledge_id=4195318124594965&lang=en-GB",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "5e44d39d-a59e-58a7-91b7-73859f6585f4",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "openai-model-misalignment-disclosure-framework",
+        "rank": 3,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-openai-misalignment-framework-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI建立模型失配持续披露机制",
+            "headlineView": "AI安全从发布时说明书转向贯穿生命周期的事件报告",
+            "headlineFull": "OpenAI建立模型失配持续披露机制；AI安全从发布时说明书转向贯穿生命周期的事件报告",
+            "intro": "OpenAI公布新框架，计划更快披露模型在训练、评估、测试和部署阶段出现的失配行为，即使原因尚未完全解释或缓解。首批六份报告涵盖未授权行动、规避监督、隐藏错误等情形；复杂事件将进入更长调查流程，并优先处理第三方安全与通知义务。",
+            "xiaziQuote": "成熟的AI治理要记录异常，而不只展示平均表现。",
+            "doudouQuote": "团队应为代理操作保留权限边界、审计日志和人工升级点。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI creates ongoing model-misalignment reporting",
+            "headlineView": "AI safety moves from launch documents to lifecycle incident disclosure",
+            "headlineFull": "OpenAI creates ongoing model-misalignment reporting; AI safety moves from launch documents to lifecycle incident disclosure",
+            "intro": "OpenAI's new framework is designed to disclose qualifying misalignment during training, evaluation, testing and deployment, even before every cause or mitigation is settled. Six initial reports include unauthorized action, oversight evasion and concealment of errors; complex cases enter a longer investigation track with third-party safety and notification taking priority.",
+            "xiaziQuote": "Mature AI governance records abnormal behavior, not only average performance.",
+            "doudouQuote": "Give agents permission boundaries, audit logs and explicit human escalation points.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "d5512282-2a59-5828-af46-ac2efe86d991",
+            "topicId": "5e44d39d-a59e-58a7-91b7-73859f6585f4",
+            "title": "OpenAI Discloses 6 AI Misalignment Cases",
+            "publisher": "eWeek",
+            "url": "https://www.eweek.com/news/openai-ai-misalignment-cases/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1a7e5ddf-ce23-54d5-8a5d-7ea48eca30a2",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "freshbooks-solopreneur-ai-finance-gap",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "CA",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-freshbooks-solopreneur-ai-gap-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "90%的一人公司认为AI让经营更容易",
+            "headlineView": "前台增长已自动化，财务后台仍是明显缺口",
+            "headlineFull": "90%的一人公司认为AI让经营更容易；前台增长已自动化，财务后台仍是明显缺口",
+            "intro": "FreshBooks对500名一人公司和微型企业主的调查显示，90%认为AI让创业和经营更容易，60%称AI帮助其推出了原本无法独立完成的业务。56%把AI用于营销设计、51%用于客服，但只有46%用于财务，说明现金流、记账和合规仍是最需要补齐的运营层。",
+            "xiaziQuote": "能被客户看见的部分正在变快，看不见的财务底盘却不能落后。",
+            "doudouQuote": "下一轮自动化先从对账、催款和现金流预测开始。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company",
+            "headlineFact": "90% of solopreneurs say AI makes business easier",
+            "headlineView": "Front-end growth is automating faster than the financial back office",
+            "headlineFull": "90% of solopreneurs say AI makes business easier; Front-end growth is automating faster than the financial back office",
+            "intro": "FreshBooks surveyed 500 solopreneurs and micro-business owners: 90% say AI makes starting and running a business easier, and 60% credit it with enabling something they could not have launched alone. AI use reaches 56% in marketing and design and 51% in customer service, but only 46% in finance, leaving cash flow, books and compliance as the operating gap.",
+            "xiaziQuote": "The customer-facing layer is accelerating, but the financial foundation cannot lag.",
+            "doudouQuote": "Start the next automation pass with reconciliation, collections and cash-flow forecasting.",
+            "footerTakeaway": "Keyword: One-person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "c941bd9b-43db-5d28-bc5d-4ff595a1df33",
+            "topicId": "1a7e5ddf-ce23-54d5-8a5d-7ea48eca30a2",
+            "title": "86% Of Solopreneurs Now Try AI Before Paying A Human For Help",
+            "publisher": "Self Employed",
+            "url": "https://www.selfemployed.com/news/freshbooks-solopreneur-ai-before-hiring-2026/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "87589493-157b-5665-83d6-cae247eced22",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "fed-rate-hike-higher-cost-baseline",
+        "rank": 5,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-fed-rate-hike-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球经济",
+            "headlineFact": "美联储加息25个基点",
+            "headlineView": "利率升至3.75%至4%，经营者需要重算资金成本",
+            "headlineFull": "美联储加息25个基点；利率升至3.75%至4%，经营者需要重算资金成本",
+            "intro": "美联储将联邦基金利率目标区间上调至3.75%至4%，称通胀仍然偏高，同时经济活动稳健扩张、生产率增长强劲、资本投资保持活跃。对企业而言，贷款、库存、设备和扩张决策都应使用更高的贴现率与更保守的现金流假设。",
+            "xiaziQuote": "高利率不再是短暂噪声，而是预算模型里的基础参数。",
+            "doudouQuote": "把回款周期拉长两周，再测一次现金是否够用。",
+            "footerTakeaway": "今日关键词：全球经济。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Economy",
+            "headlineFact": "The Federal Reserve raises rates by 25 basis points",
+            "headlineView": "At 3.75%-4%, operators need to recalculate the cost of capital",
+            "headlineFull": "The Federal Reserve raises rates by 25 basis points; At 3.75%-4%, operators need to recalculate the cost of capital",
+            "intro": "The Federal Reserve lifted the federal funds target to 3.75%-4%, saying inflation remains elevated while activity expands solidly, productivity growth is strong and capital investment remains robust. Businesses should now test loans, inventory, equipment and expansion against a higher discount rate and more conservative cash-flow assumptions.",
+            "xiaziQuote": "Higher rates are becoming a base input in the budget, not temporary noise.",
+            "doudouQuote": "Stretch receivables by two weeks and test whether cash still holds.",
+            "footerTakeaway": "Keyword: Global Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "ca01df99-bc85-5fe3-9b54-21f299722e63",
+            "topicId": "87589493-157b-5665-83d6-cae247eced22",
+            "title": "Federal Reserve issues FOMC statement",
+            "publisher": "Federal Reserve Board",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e7307e5d-be99-511b-a5ed-644113813283",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "unga81-high-level-week-action-agenda",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-unga81-high-level-week-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际议程",
+            "headlineFact": "第81届联大进入高级别周",
+            "headlineView": "从9月21日起，气候、公卫与发展融资进入密集决策窗口",
+            "headlineFull": "第81届联大进入高级别周；从9月21日起，气候、公卫与发展融资进入密集决策窗口",
+            "intro": "联合国大会高级别周从9月21日起展开，领导人一般性辩论安排在9月22日至28日。9月23日聚焦气候行动与公正转型，9月25日举行大流行预防、准备和应对高级别会议；发展融资、和平安全和AI治理也将贯穿相关活动。",
+            "xiaziQuote": "密集峰会的价值不在口号，而在资金、规则和时间表是否落地。",
+            "doudouQuote": "本周重点追踪三件事：承诺金额、执行主体和下一次截止日期。",
+            "footerTakeaway": "今日关键词：国际议程。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Agenda",
+            "headlineFact": "UNGA81 enters High-level Week",
+            "headlineView": "Climate, health and development finance enter a dense decision window from September 21",
+            "headlineFull": "UNGA81 enters High-level Week; Climate, health and development finance enter a dense decision window from September 21",
+            "intro": "UN General Assembly High-level Week begins September 21, with the General Debate scheduled for September 22-28. A climate action and just transition event is set for September 23, followed by a high-level pandemic preparedness meeting on September 25; development finance, peace, security and AI governance run through the wider program.",
+            "xiaziQuote": "The value of summit week is whether money, rules and timelines follow the speeches.",
+            "doudouQuote": "Track three things this week: committed funds, accountable owners and the next deadline.",
+            "footerTakeaway": "Keyword: Global Agenda."
+          }
+        },
+        "sources": [
+          {
+            "id": "076adcfd-1b18-5659-a965-e8e83c1ae715",
+            "topicId": "e7307e5d-be99-511b-a5ed-644113813283",
+            "title": "FAO at the 81st Session of the United Nations General Assembly",
+            "publisher": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/new-york/events/detail/fao-at-81st-session-of-the-united-nations-general-assembly-%28unga81/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "fb03c839-9537-58a9-8226-18d164de0a9b",
+            "topicId": "e7307e5d-be99-511b-a5ed-644113813283",
+            "title": "WHO at the United Nations General Assembly 2026",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/18/default-calendar/who-at-the-united-nations-general-assembly-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "98a40e9e-097d-5c75-a541-4ce2c88e8576",
+            "topicId": "e7307e5d-be99-511b-a5ed-644113813283",
+            "title": "High-level Event on Climate Action and the Just Transition",
+            "publisher": "UN Web TV",
+            "url": "https://webtv.un.org/en/asset/k1z/k1zg4qsbxi",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "b1c8a973-baff-5c24-af48-e1a398f3c9bd",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "who-ageing-doctors-workforce-gap",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-who-ageing-health-workforce-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "全球近四分之一医生超过55岁",
+            "headlineView": "医护人数增加，老龄化与地区错配仍在扩大服务缺口",
+            "headlineFull": "全球近四分之一医生超过55岁；医护人数增加，老龄化与地区错配仍在扩大服务缺口",
+            "intro": "WHO称全球医护密度从2006年每万人44.8人升至2025年的67.9人，增长52%，但近四分之一医生已超过55岁。按当前趋势，到2030年全球医护缺口仍可能达到1110万人，低收入和冲突地区承受的缺口最重。",
+            "xiaziQuote": "总人数增长不能掩盖退休潮与分布失衡。",
+            "doudouQuote": "政策要同时看培训周期、留任率和基层岗位空缺。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "Nearly one in four doctors worldwide is over 55",
+            "headlineView": "A larger workforce still faces retirement pressure and severe regional mismatch",
+            "headlineFull": "Nearly one in four doctors worldwide is over 55; A larger workforce still faces retirement pressure and severe regional mismatch",
+            "intro": "WHO says global health-worker density rose 52%, from 44.8 per 10,000 people in 2006 to 67.9 in 2025, yet nearly one in four doctors is now over 55. On current trends, the worldwide health-worker shortage could still reach 11.1 million by 2030, concentrated in low-income and conflict-affected settings.",
+            "xiaziQuote": "Growth in the total workforce cannot hide retirement pressure and uneven distribution.",
+            "doudouQuote": "Track training lead time, retention and frontline vacancies together.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "69faf69c-089d-58f1-bf71-020de81c090b",
+            "topicId": "b1c8a973-baff-5c24-af48-e1a398f3c9bd",
+            "title": "One in four doctors nearing retirement age as WHO warns of global health workforce gap",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "931f896f-901f-5f9b-a0d4-1bacb7fe477e",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "nepal-rock-ice-collapse-warming-risk",
+        "rank": 8,
+        "category": "climate",
+        "region": "Asia",
+        "countryCodes": [
+          "NP",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-nepal-rock-ice-climate-risk-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候风险",
+            "headlineFact": "变暖放大尼泊尔冰岩崩塌风险",
+            "headlineView": "冰川变薄、永久冻土融化与旧地震损伤形成灾害链",
+            "headlineFull": "变暖放大尼泊尔冰岩崩塌风险；冰川变薄、永久冻土融化与旧地震损伤形成灾害链",
+            "intro": "World Weather Attribution综合研究认为，8月26日尼泊尔与中国边境约2平方公里岩壁和冰川发生崩塌，并演变为破坏性碎屑洪流。长期变暖导致冰川退缩、永久冻土融化和融水增加，2015年地震也可能削弱岩体；这不是单一天气事件，而是多重因素叠加的高山灾害链。",
+            "xiaziQuote": "高山风险正在从单点灾害变成跨环节的级联失效。",
+            "doudouQuote": "预警要同时连接温度、冻土、坡体和下游暴露人口。",
+            "footerTakeaway": "今日关键词：气候风险。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate Risk",
+            "headlineFact": "Warming amplified Nepal's rock-ice collapse risk",
+            "headlineView": "Glacier thinning, permafrost thaw and old earthquake damage formed a hazard cascade",
+            "headlineFull": "Warming amplified Nepal's rock-ice collapse risk; Glacier thinning, permafrost thaw and old earthquake damage formed a hazard cascade",
+            "intro": "World Weather Attribution says roughly two square kilometers of rock wall and glacier ice collapsed near the Nepal-China border on August 26 and evolved into a destructive debris flood. Long-term warming drove glacier retreat, permafrost thaw and more meltwater, while the 2015 earthquake may also have weakened the slope; this was a multi-driver mountain hazard cascade, not one weather event.",
+            "xiaziQuote": "High-mountain risk is shifting from isolated hazards to cascading failure.",
+            "doudouQuote": "Warning systems must link temperature, permafrost, slope stability and downstream exposure.",
+            "footerTakeaway": "Keyword: Climate Risk."
+          }
+        },
+        "sources": [
+          {
+            "id": "5919552a-99d0-5797-9106-17c06c82f4e5",
+            "topicId": "931f896f-901f-5f9b-a0d4-1bacb7fe477e",
+            "title": "Rapid Warming in the Himalaya Exacerbates Geohazard Cascades Beyond Adaptation Limits",
+            "publisher": "World Weather Attribution",
+            "url": "https://www.worldweatherattribution.org/rapid-warming-in-the-himalaya-exacerbates-geohazard-cascades-beyond-adaptation-limits/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "65a8e241-3cb2-5843-a96c-9ee0a42dc6c5",
+        "issueId": "a21cd338-489f-5f61-b660-6e0252ff43cf",
+        "slug": "lake-powell-record-low-snow-drought",
+        "rank": 9,
+        "category": "climate",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-lake-powell-record-low-20260921",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "水资源",
+            "headlineFact": "鲍威尔湖降至有记录以来最低水位",
+            "headlineView": "雪旱与异常高温把美国西部水库推入新的低位区间",
+            "headlineFull": "鲍威尔湖降至有记录以来最低水位；雪旱与异常高温把美国西部水库推入新的低位区间",
+            "intro": "NASA Earth Observatory的Landsat 8影像显示，鲍威尔湖在9月10日降至有记录以来最低水位，与2017年同期的高水位形成鲜明对比。2026年科罗拉多河流域积雪不足且气温异常偏高，减少径流并加快蒸发，使供水、发电和水资源分配压力同步上升。",
+            "xiaziQuote": "水库低位是一张把气候、能源和城市运营连在一起的资产负债表。",
+            "doudouQuote": "用更低来水情景测试供水、发电和应急储备。",
+            "footerTakeaway": "今日关键词：水资源。"
+          },
+          "en-US": {
+            "categoryLabel": "Water Security",
+            "headlineFact": "Lake Powell falls to a record low",
+            "headlineView": "Snow drought and unusual heat push a major US reservoir into a new low range",
+            "headlineFull": "Lake Powell falls to a record low; Snow drought and unusual heat push a major US reservoir into a new low range",
+            "intro": "NASA Earth Observatory's Landsat 8 imagery shows Lake Powell at a record-low level on September 10, sharply contrasting with its much higher condition in 2017. Poor snowpack and unusual warmth across the Colorado Basin in 2026 reduced runoff and accelerated losses, increasing pressure on water supply, hydropower and allocation decisions at the same time.",
+            "xiaziQuote": "A low reservoir is a balance sheet linking climate, energy and city operations.",
+            "doudouQuote": "Stress-test supply, generation and emergency reserves against a lower-inflow case.",
+            "footerTakeaway": "Keyword: Water Security."
+          }
+        },
+        "sources": [
+          {
+            "id": "167079be-0875-5652-b304-3df4c5fc510a",
+            "topicId": "65a8e241-3cb2-5843-a96c-9ee0a42dc6c5",
+            "title": "Lake Powell Drops to Record Low",
+            "publisher": "WeatherNation",
+            "url": "https://www.weathernationtv.com/news/lake-powell-drops-to-record-low",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "3a220b9a-5a9c-5e54-898f-d0488cca4206",
+            "topicId": "65a8e241-3cb2-5843-a96c-9ee0a42dc6c5",
+            "title": "Drought in Summer 2026 in 12 Maps and Graphs",
+            "publisher": "Drought.gov",
+            "url": "https://www.drought.gov/news/drought-summer-2026-12-maps-and-graphs-2026-09-16",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260921_90c184ac1a41ec92818545a4"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-21",
+    "releaseId": "rel_20260921_90c184ac1a41ec92818545a4",
+    "assetBatchId": "asset_prod_20260921_90c184ac1a41ec92818545a4",
+    "posters": [
+      {
+        "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+        "locale": "zh",
+        "contentHash": "aef529ca4d365311892bb3b5406657b6aeb367b6e944ae8789401884b2bb973c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/today-overview-commerce-ai-rates-health-climate.png"
+      },
+      {
+        "topicId": "f9659922-f867-5879-9dce-49d8d033a45d",
+        "locale": "en",
+        "contentHash": "e0199d6937577e123c34cd666097174504295e1c0236980e81031626ac315a32",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/today-overview-commerce-ai-rates-health-climate.png"
+      },
+      {
+        "topicId": "c5d19394-c270-5d48-bb4c-73fe9ca2178d",
+        "locale": "zh",
+        "contentHash": "cbf09c9f0b66431855510b2212d26172637cea9384c16f179bdcf676c4438fcb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/tiktok-shop-uk-eu-cross-border-pilot.png"
+      },
+      {
+        "topicId": "c5d19394-c270-5d48-bb4c-73fe9ca2178d",
+        "locale": "en",
+        "contentHash": "8ecc9719907f3aefd11a8e75c478181b454f6f2fbcff176384bc56fbbe6b1dda",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/tiktok-shop-uk-eu-cross-border-pilot.png"
+      },
+      {
+        "topicId": "5e44d39d-a59e-58a7-91b7-73859f6585f4",
+        "locale": "zh",
+        "contentHash": "5b68c884b69c205370501cb9c0fc07a607cb67289f6bf496e38bd9c6d9ef9217",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/openai-model-misalignment-disclosure-framework.png"
+      },
+      {
+        "topicId": "5e44d39d-a59e-58a7-91b7-73859f6585f4",
+        "locale": "en",
+        "contentHash": "ac58e3c614234c2efcdeea10d74b851955aab0db7bc38995ff1c45617a89fd24",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/openai-model-misalignment-disclosure-framework.png"
+      },
+      {
+        "topicId": "1a7e5ddf-ce23-54d5-8a5d-7ea48eca30a2",
+        "locale": "zh",
+        "contentHash": "a7aea4074ffaad45128c500bff87227ea92116fb8b7faefa27c5c2642a899a2d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/freshbooks-solopreneur-ai-finance-gap.png"
+      },
+      {
+        "topicId": "1a7e5ddf-ce23-54d5-8a5d-7ea48eca30a2",
+        "locale": "en",
+        "contentHash": "add9b5bd4c38d3710cd9c61ee54c18c930bb09c05a832844806c6b3b89adf1f8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/freshbooks-solopreneur-ai-finance-gap.png"
+      },
+      {
+        "topicId": "87589493-157b-5665-83d6-cae247eced22",
+        "locale": "zh",
+        "contentHash": "ee3d78d9e7a2d8ac7c9ba0dafcbecd9d754e80992c53630ca8108baa2217e773",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/fed-rate-hike-higher-cost-baseline.png"
+      },
+      {
+        "topicId": "87589493-157b-5665-83d6-cae247eced22",
+        "locale": "en",
+        "contentHash": "9d3a58ca216cb1417d75609b6eddf8bf75ce9456a05fc6c263ba7babecc71c32",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/fed-rate-hike-higher-cost-baseline.png"
+      },
+      {
+        "topicId": "e7307e5d-be99-511b-a5ed-644113813283",
+        "locale": "zh",
+        "contentHash": "677c4a15bbf1f307000bc4ad5814e373da4f59638570ba6d72516661690776b7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/unga81-high-level-week-action-agenda.png"
+      },
+      {
+        "topicId": "e7307e5d-be99-511b-a5ed-644113813283",
+        "locale": "en",
+        "contentHash": "81f2a492b3d06781005ccd386e9180c464debc1a894bf7e5842edbb6e999e6c1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/unga81-high-level-week-action-agenda.png"
+      },
+      {
+        "topicId": "b1c8a973-baff-5c24-af48-e1a398f3c9bd",
+        "locale": "zh",
+        "contentHash": "8eec4a32bd704563d5f9c44abef2e46450e6a8b95911d59a9f1b19eebb933618",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/who-ageing-doctors-workforce-gap.png"
+      },
+      {
+        "topicId": "b1c8a973-baff-5c24-af48-e1a398f3c9bd",
+        "locale": "en",
+        "contentHash": "9681f890f052a772617d649aed5d7214ea58acab80d2b29a53893e5cf0c83d72",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/who-ageing-doctors-workforce-gap.png"
+      },
+      {
+        "topicId": "931f896f-901f-5f9b-a0d4-1bacb7fe477e",
+        "locale": "zh",
+        "contentHash": "279ed0d82fd2d17b6a64c5f3f6891318c8c14ffaadcd1b1c70034b942ee43813",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/nepal-rock-ice-collapse-warming-risk.png"
+      },
+      {
+        "topicId": "931f896f-901f-5f9b-a0d4-1bacb7fe477e",
+        "locale": "en",
+        "contentHash": "e3e5b023dbadbc269c823e7d975725432df5b3a74cc5e02644b3a3e143d8bb2b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/nepal-rock-ice-collapse-warming-risk.png"
+      },
+      {
+        "topicId": "65a8e241-3cb2-5843-a96c-9ee0a42dc6c5",
+        "locale": "zh",
+        "contentHash": "5b24c6ea08a93f524f7d1f00b3fcafed1ac3f61695b6900892b6b6f1aa2967e1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/zh/lake-powell-record-low-snow-drought.png"
+      },
+      {
+        "topicId": "65a8e241-3cb2-5843-a96c-9ee0a42dc6c5",
+        "locale": "en",
+        "contentHash": "0338f26f5f3b4ee26f5ca5bf56d047344727e4df9eb3af4329d581c9edf4f826",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260921_90c184ac1a41ec92818545a4/en/lake-powell-record-low-snow-drought.png"
+      }
+    ]
+  }
+}
