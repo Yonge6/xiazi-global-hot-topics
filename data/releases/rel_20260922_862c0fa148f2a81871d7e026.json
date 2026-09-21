@@ -1,0 +1,749 @@
+{
+  "issue": {
+    "id": "81660e88-22bc-53a6-b045-4d255a73298b",
+    "slug": "2026-09-22",
+    "style": {
+      "name": "Mid-century Modern",
+      "zhName": "世纪中期现代设计",
+      "description": "Style Atlas daily pick: Mid-century Modern. Use an original editorial language of clean structural geometry, organic curves, warm wood tones, cream paper, mustard, teal and burnt orange with airy asymmetrical balance; do not imitate any specific designer or artwork. Every poster must keep one main conclusion and no more than three key facts in 3-5 calm readable modules with large type, generous spacing and low-texture high-contrast text zones. News scenes, data and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, centered on a layered globe or world stage with eight uneven orbiting ribbons, sculptural panels or organic pathways. Each sentence receives a broad quiet reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-22",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-22T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-21T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+    "topics": [
+      {
+        "id": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "today-overview-ai-opc-commerce-health-climate-mars",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月22日全球经营雷达",
+            "headlineView": "模型效率、单人经营、商业落地与全球风险同时进入执行表",
+            "headlineFull": "9月22日全球经营雷达；模型效率、单人经营、商业落地与全球风险同时进入执行表",
+            "intro": "1. SpaceXAI发布Grok 4.7，以每百万输入2美元、输出6美元的价格强化长时编程、自检与专业知识工作。\n2. 名古屋单人开发者古田悠的棒球手游11个月累计收入1290万日元，一张100日元的留人券让内购收入增长10倍。\n3. Skild AI在首次商业部署10个月后自报ARR突破1亿美元，60多家付费客户把机器人基础模型用于制造、物流和巡检。\n4. WTO案例显示Animalhouse Fitness借助完税交付与本地化结账把订单扩至45个经济体，收入增长25%。\n5. 美国HHS推出跨机构人源研究行动，投入超过8800万美元建设基础设施，并让类器官、机器人和AI进入标准化实验。\n6. 俄罗斯统一俄罗斯党在超95%计票后预计获得450席中的355席，进一步巩固对国家杜马的控制。\n7. 2026行星健康检查称九项行星边界已有七项越界，而且七项压力都仍在加剧。\n8. 毅力号研究发现火星耶泽罗陨石坑边缘岩石至少经历三轮水活动，改写当地早期宜居环境的认识。",
+            "xiaziQuote": "今天的共同信号是：能力增长必须同时经过收入、责任与边界检验。",
+            "doudouQuote": "先看真实交易和可执行动作，再判断一个变化值不值得投入。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 22 Global Operator Radar",
+            "headlineView": "Model efficiency, solo economics, commercial AI and global risk move into one execution plan",
+            "headlineFull": "September 22 Global Operator Radar; Model efficiency, solo economics, commercial AI and global risk move into one execution plan",
+            "intro": "1. SpaceXAI launches Grok 4.7 at $2 per million input tokens and $6 per million output tokens, improving long-horizon coding, self-checking and professional work.\n2. Nagoya solo developer Yu Furuta's baseball game earned ¥12.9 million in 11 months, while a ¥100 retention ticket multiplied in-app purchase revenue tenfold.\n3. Skild AI says it crossed $100 million in ARR ten months after its first commercial deployment, with more than 60 paying customers across manufacturing, logistics and inspection.\n4. A WTO case says Animalhouse Fitness used delivered-duty-paid fulfillment and localized checkout to reach 45 economies and increase revenue by 25%.\n5. The U.S. HHS launches agency-wide human-based research actions, investing more than $88 million and bringing organoids, robotics and AI into standardized experiments.\n6. With over 95% counted, United Russia is projected to take 355 of 450 State Duma seats and further consolidate control of parliament.\n7. The 2026 Planetary Health Check says seven of nine planetary boundaries are breached and pressure is still rising across all seven.\n8. Perseverance data show rocks at the edge of Mars' Jezero Crater experienced at least three episodes of water activity, reshaping the area's early habitability story.",
+            "xiaziQuote": "Today's shared signal is that growing capability must be tested against revenue, responsibility and limits.",
+            "doudouQuote": "Look for real transactions and executable actions before deciding what deserves investment.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "d00ce402-4704-5d7e-b78c-7e65b919ee9f",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "Introducing Grok 4.7",
+            "publisher": "SpaceXAI",
+            "url": "https://x.ai/news/grok-4-7",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "89676bf6-78fa-50ca-966d-3a80a89a5401",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "Take Me to Koshien: ¥12.9M in 11 months",
+            "publisher": "Small Start",
+            "url": "https://small-start.com/en/cases/case-koshien-kantoku-app-1290man/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "aabaf5e3-cdfa-56cd-a69e-434beaf0d440",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "The Hidden Pillar of Robotics",
+            "publisher": "Skild AI",
+            "url": "https://skild.ai/blogs/skild-crosses-100m-arr",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "bff52329-11bd-563c-8d8b-b0185633ba60",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "FlavorCloud",
+            "publisher": "World Trade Organization",
+            "url": "https://www.wto.org/english/tratop_e/dtt_e/aicasestudy/flavorcloud_e.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b756df50-880e-51b3-8c4e-b1a2c9f37280",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "HHS Accelerates Shift to Human-Based Research",
+            "publisher": "Health.gov",
+            "url": "https://health.gov/news/hhs-accelerates-shift-human-based-research-reduces-reliance-animal-testing",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d92d2d4d-930e-531b-9e6f-e76a030aa4fd",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "Putin's United Russia party wins record 355 parliament seats",
+            "publisher": "Agence France-Presse",
+            "url": "https://www.afp.com/en/putins-united-russia-party-wins-record-355-parliament-seats-election-chief",
+            "publishedAt": null,
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ccd9d3ad-ccc7-5aaa-a19d-fb93396797aa",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "Planetary Health Check 2026",
+            "publisher": "Potsdam Institute for Climate Impact Research",
+            "url": "https://publications.pik-potsdam.de/pubman/faces/ViewItemFullPage.jsp?itemId=item_35009_3&view=EXPORT",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8291f04f-4c97-5b11-bc6e-3def26017694",
+            "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+            "title": "NASA Discovery Reveals Complex Water Systems on Early Mars",
+            "publisher": "Caltech Jet Propulsion Laboratory",
+            "url": "https://www.caltech.edu/research/jpl",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "baa7170d-c5c3-547b-b1c4-0d92f4cf2821",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "grok-47-long-horizon-coding-price-performance",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-grok-47-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Grok 4.7面向长时编程与知识工作发布",
+            "headlineView": "同价升级的重点不是更快回答，而是更长执行与更强自检",
+            "headlineFull": "Grok 4.7面向长时编程与知识工作发布；同价升级的重点不是更快回答，而是更长执行与更强自检",
+            "intro": "SpaceXAI称Grok 4.7采用更大的基础模型与更长的强化学习训练，重点覆盖需要数小时的编程和专业任务。其CursorBench 4.0得分46.3%，DeepSWE高努力模式为71.0%；API起价仍为每百万输入2美元、输出6美元，并已进入Cursor、Grok Build及第三方编程工具。",
+            "xiaziQuote": "模型竞争正从一次性答案转向能否长时间把工作做完并复核。",
+            "doudouQuote": "试用时别只看榜单，先测你的长任务成本、失败率与人工接管点。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Grok 4.7 launches for long-horizon coding and knowledge work",
+            "headlineView": "The same-price upgrade emphasizes longer execution and stronger self-checking, not just faster answers",
+            "headlineFull": "Grok 4.7 launches for long-horizon coding and knowledge work; The same-price upgrade emphasizes longer execution and stronger self-checking, not just faster answers",
+            "intro": "SpaceXAI says Grok 4.7 uses a larger base model and a longer reinforcement-learning run weighted toward tasks that take hours. It scores 46.3% on CursorBench 4.0 and 71.0% on DeepSWE at high effort. API pricing remains $2 per million input tokens and $6 per million output tokens, with availability in Cursor, Grok Build and third-party coding tools.",
+            "xiaziQuote": "Model competition is shifting from one-shot answers to finishing and checking long-running work.",
+            "doudouQuote": "Test your task cost, failure rate and human handoff points before trusting a leaderboard.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "f01b457c-efc3-549f-838e-500d9c9f52ab",
+            "topicId": "baa7170d-c5c3-547b-b1c4-0d92f4cf2821",
+            "title": "Introducing Grok 4.7",
+            "publisher": "SpaceXAI",
+            "url": "https://x.ai/news/grok-4-7",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "66ce3136-e886-5254-ba67-a0a3a5b9ae1d",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "solo-baseball-game-yen129m-retention-ticket",
+        "rank": 3,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-solo-koshien-game-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "单人棒球手游11个月累计收入1290万日元",
+            "headlineView": "一张100日元的“留住毕业球员券”让内购收入增长10倍",
+            "headlineFull": "单人棒球手游11个月累计收入1290万日元；一张100日元的“留住毕业球员券”让内购收入增长10倍",
+            "intro": "名古屋开发者古田悠一人制作高中棒球经营游戏《私を甲子園に連れてって》，通过App Store搜索与口碑获客。公开访谈显示，产品上线11个月获4.8万下载、约3000日活，收入76%来自内购、24%来自广告；5%至6%的付费用户人均约3000日元。数据为2018年创始人自报毛收入，未扣平台费与人工成本，当前盈利水平未确认。",
+            "xiaziQuote": "小团队最强的杠杆，是把用户害怕失去的价值做成清晰、低门槛的付费点。",
+            "doudouQuote": "渠道靠商店搜索，交付靠软件，成本上限则由时间、平台抽成和维护决定。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company",
+            "headlineFact": "A solo baseball game earned ¥12.9M in its first 11 months",
+            "headlineView": "A ¥100 ticket that preserves graduating players multiplied in-app purchase revenue tenfold",
+            "headlineFull": "A solo baseball game earned ¥12.9M in its first 11 months; A ¥100 ticket that preserves graduating players multiplied in-app purchase revenue tenfold",
+            "intro": "Nagoya developer Yu Furuta built the high-school baseball management game Take Me to Koshien alone and acquired users through app-store search and word of mouth. A founder interview reported 48,000 downloads, about 3,000 daily active users and a 76% in-app purchase versus 24% advertising revenue mix; 5%-6% paid about ¥3,000 each. These are founder-reported 2018 gross figures before platform fees and labor, and current profitability is unconfirmed.",
+            "xiaziQuote": "A solo company's strongest leverage can be a clear, low-friction payment tied to value users fear losing.",
+            "doudouQuote": "Discovery came from store search, delivery from software, while time, platform fees and maintenance set the cost ceiling.",
+            "footerTakeaway": "Keyword: One-person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "14a6ba1d-867a-5bef-b11b-2435ff6054cc",
+            "topicId": "66ce3136-e886-5254-ba67-a0a3a5b9ae1d",
+            "title": "Take Me to Koshien: ¥12.9M in 11 months",
+            "publisher": "Small Start",
+            "url": "https://small-start.com/en/cases/case-koshien-kantoku-app-1290man/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "ce5a4a40-8841-5b0e-bc1c-c4f087d59aed",
+            "topicId": "66ce3136-e886-5254-ba67-a0a3a5b9ae1d",
+            "title": "個人開発の高校野球ゲームが収益1,290万円超えるまでにやった3つのこと",
+            "publisher": "アプリマーケティング研究所",
+            "url": "https://appmarketinglabo.net/furuapp-koushien/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "95025642-0c8e-5634-924b-b2d24a00757a",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "skild-ai-robotics-100m-arr-commercial-deployment",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-skild-ai-commercial-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Skild AI首次商业部署10个月后ARR突破1亿美元",
+            "headlineView": "让机器人从一段示范视频学习新任务，把模型卖进真实工厂与仓库",
+            "headlineFull": "Skild AI首次商业部署10个月后ARR突破1亿美元；让机器人从一段示范视频学习新任务，把模型卖进真实工厂与仓库",
+            "intro": "Skild AI称其机器人基础模型已服务60多家付费客户，覆盖制造、物流、巡检、安防、餐饮与数据中心；约90%收入来自机械臂操作任务，部署10个月已确认收入5000万美元。S1通过单段视频示范学习新任务，减少逐任务重编程；但ARR、客户与收入均为公司自报，硬件部署、集成和资本成本仍是扩张限制。",
+            "xiaziQuote": "AI真正变现的时刻，是模型开始接手客户愿意持续付费的现场任务。",
+            "doudouQuote": "看收入，也要看每个新场景还需多少硬件、集成与人工支持。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Profitable AI in Practice",
+            "headlineFact": "Skild AI crosses $100M ARR ten months after first commercial deployment",
+            "headlineView": "A robot learns a new task from one demonstration video and sells into real factories and warehouses",
+            "headlineFull": "Skild AI crosses $100M ARR ten months after first commercial deployment; A robot learns a new task from one demonstration video and sells into real factories and warehouses",
+            "intro": "Skild AI says its robotics foundation model now serves more than 60 paying customers across manufacturing, logistics, inspection, security, food preparation and data centers; roughly 90% of revenue comes from manipulation tasks and $50 million has been recognized in ten months. S1 learns a new task from one video demonstration, reducing task-by-task reprogramming. ARR, customer and revenue figures are company-reported, while hardware, integration and capital costs remain scaling constraints.",
+            "xiaziQuote": "AI becomes commercially real when a model takes on field work customers will keep paying for.",
+            "doudouQuote": "Track revenue, but also the hardware, integration and human support still required for every new site.",
+            "footerTakeaway": "Keyword: Profitable AI in Practice."
+          }
+        },
+        "sources": [
+          {
+            "id": "db3c3c68-9dfd-5ad1-b239-30223eb0fc4e",
+            "topicId": "95025642-0c8e-5634-924b-b2d24a00757a",
+            "title": "The Hidden Pillar of Robotics",
+            "publisher": "Skild AI",
+            "url": "https://skild.ai/blogs/skild-crosses-100m-arr",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "bc5ec61e-f585-5bc3-a096-9a79687eabad",
+            "topicId": "95025642-0c8e-5634-924b-b2d24a00757a",
+            "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+            "publisher": "NVIDIA",
+            "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "1eb9d90a-37e9-5dbf-89ea-b632fa219fa0",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "animalhouse-fitness-ddp-cross-border-revenue-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "GB",
+          "AU",
+          "CA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-animalhouse-cross-border-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Animalhouse Fitness跨境订单进入45个经济体",
+            "headlineView": "完税交付与本地化结账推动收入增长25%，利润先从落地成本透明开始",
+            "headlineFull": "Animalhouse Fitness跨境订单进入45个经济体；完税交付与本地化结账推动收入增长25%，利润先从落地成本透明开始",
+            "intro": "WTO案例显示，这家健身产品商家借助FlavorCloud把关税、税费、运费和其他费用一次性显示在结账页，并以完税交付连接海外履约，收入增长25%。赚钱机制来自降低意外收费与弃购，再用真实订单数据选择市场和仓配；主要成本与风险仍是承运费、关税、清关可靠性、退货和SKU资料质量，净利润未披露。",
+            "xiaziQuote": "跨境增长不是把流量推得更远，而是先把每一单的落地成本说清楚。",
+            "doudouQuote": "先挑一个高转化市场跑通完税价、履约与退货，再复制到更多国家。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "Animalhouse Fitness receives cross-border orders from 45 economies",
+            "headlineView": "Delivered-duty-paid fulfillment and localized checkout lift revenue 25% by making landed cost visible",
+            "headlineFull": "Animalhouse Fitness receives cross-border orders from 45 economies; Delivered-duty-paid fulfillment and localized checkout lift revenue 25% by making landed cost visible",
+            "intro": "A WTO case says the fitness-products merchant used FlavorCloud to show duties, taxes, shipping and fees as one checkout price and connect orders to delivered-duty-paid fulfillment, increasing revenue by 25%. The profit mechanism is lower surprise and cart abandonment, then market and fulfillment decisions based on real orders. Carrier cost, duties, clearance reliability, returns and SKU data quality remain the main risks; net profit was not disclosed.",
+            "xiaziQuote": "Cross-border growth starts by making every order's landed cost clear, not merely pushing traffic farther.",
+            "doudouQuote": "Prove duty-paid pricing, fulfillment and returns in one high-converting market before copying the playbook.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "c53c5a92-2abb-5454-9050-8a149dac1c3f",
+            "topicId": "1eb9d90a-37e9-5dbf-89ea-b632fa219fa0",
+            "title": "FlavorCloud",
+            "publisher": "World Trade Organization",
+            "url": "https://www.wto.org/english/tratop_e/dtt_e/aicasestudy/flavorcloud_e.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "21b324b0-7aa9-57c2-8efe-83aa542e4a35",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "hhs-human-based-research-animal-testing-shift",
+        "rank": 6,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-hhs-human-research-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生命科学",
+            "headlineFact": "美国HHS加速以人源研究方法替代动物实验",
+            "headlineView": "超过8800万美元基础设施投入，把类器官、机器人和AI接入标准化实验",
+            "headlineFull": "美国HHS加速以人源研究方法替代动物实验；超过8800万美元基础设施投入，把类器官、机器人和AI接入标准化实验",
+            "intro": "HHS宣布20多项跨机构行动：NIH投入超过8800万美元建设人源研究基础设施，并设立逾700万美元挑战赛；新实验室将整合标准化人类类器官、机器人、AI与数据能力。FDA同步发布直接最终规则，用更宽泛的“非临床”术语替代部分动物测试表述，为经验证的新方法进入药物安全与有效性评估打开制度入口。",
+            "xiaziQuote": "科研替代真正发生，需要资金、实验标准与监管语言一起改变。",
+            "doudouQuote": "下一步要看这些方法能否重复、被监管接受，并更准确预测人体反应。",
+            "footerTakeaway": "今日关键词：生命科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Life Science",
+            "headlineFact": "U.S. HHS accelerates the shift from animal testing to human-based research",
+            "headlineView": "More than $88M in infrastructure brings organoids, robotics and AI into standardized experiments",
+            "headlineFull": "U.S. HHS accelerates the shift from animal testing to human-based research; More than $88M in infrastructure brings organoids, robotics and AI into standardized experiments",
+            "intro": "HHS announced more than 20 agency actions. NIH will invest over $88 million in human-based research infrastructure and offer more than $7 million in challenge awards, while a new lab integrates standardized human organoids, robotics, AI and advanced data. FDA issued a direct final rule replacing some animal-testing references with broader nonclinical language, creating a regulatory path for validated alternatives in safety and efficacy evaluation.",
+            "xiaziQuote": "Research substitution becomes real only when funding, experimental standards and regulatory language change together.",
+            "doudouQuote": "The next test is reproducibility, regulatory acceptance and better prediction of human response.",
+            "footerTakeaway": "Keyword: Life Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "e9899590-c179-542a-9d76-243b18f2d654",
+            "topicId": "21b324b0-7aa9-57c2-8efe-83aa542e4a35",
+            "title": "HHS Accelerates Shift to Human-Based Research",
+            "publisher": "Health.gov",
+            "url": "https://health.gov/news/hhs-accelerates-shift-human-based-research-reduces-reliance-animal-testing",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d2a51b6b-109f-5b40-b3f0-31de15d9ded1",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "united-russia-record-duma-majority-election",
+        "rank": 7,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "RU",
+          "UA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-russia-duma-election-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球政治",
+            "headlineFact": "统一俄罗斯党预计获得国家杜马355席",
+            "headlineView": "创纪录的四分之三多数进一步巩固克里姆林宫对议会的控制",
+            "headlineFull": "统一俄罗斯党预计获得国家杜马355席；创纪录的四分之三多数进一步巩固克里姆林宫对议会的控制",
+            "intro": "在超过95%选票完成统计后，俄罗斯中央选举委员会数据指向统一俄罗斯党获得约57.8%的政党票，并预计拿下450席中的355席。此次是全面入侵乌克兰以来首次议会选举，投票也在俄罗斯占领的乌克兰地区举行；加拿大与欧盟拒绝承认这些地区的结果，独立OSCE观察员未获邀请。",
+            "xiaziQuote": "席位数字决定的不只是多数，而是未来数年战争、预算与法律的制衡空间。",
+            "doudouQuote": "结果要与竞争环境、观察机制和争议地区投票一起阅读。",
+            "footerTakeaway": "今日关键词：全球政治。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Politics",
+            "headlineFact": "United Russia is projected to win 355 State Duma seats",
+            "headlineView": "A record three-quarters majority further consolidates Kremlin control of parliament",
+            "headlineFull": "United Russia is projected to win 355 State Duma seats; A record three-quarters majority further consolidates Kremlin control of parliament",
+            "intro": "With more than 95% of ballots counted, Russia's Central Election Commission put United Russia at about 57.8% of the party-list vote and projected 355 of 450 seats. It was the first parliamentary election since the full-scale invasion of Ukraine and included voting in Russian-occupied Ukrainian territory. Canada and the EU rejected those results, while independent OSCE observers were not invited.",
+            "xiaziQuote": "The seat count defines not only a majority but the space for checks on war, budgets and law over the next term.",
+            "doudouQuote": "Read the result together with the competitive environment, observation access and voting in disputed territory.",
+            "footerTakeaway": "Keyword: Global Politics."
+          }
+        },
+        "sources": [
+          {
+            "id": "ca556616-b42d-57cb-9b58-1a181751ac62",
+            "topicId": "d2a51b6b-109f-5b40-b3f0-31de15d9ded1",
+            "title": "Putin's United Russia party wins record 355 parliament seats",
+            "publisher": "Agence France-Presse",
+            "url": "https://www.afp.com/en/putins-united-russia-party-wins-record-355-parliament-seats-election-chief",
+            "publishedAt": null,
+            "sourceType": "wire",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "764a8350-8c27-5ba0-a91c-b7c92f909cd9",
+            "topicId": "d2a51b6b-109f-5b40-b3f0-31de15d9ded1",
+            "title": "Russian Federation failed to invite OSCE observers to parliamentary elections",
+            "publisher": "OSCE Office for Democratic Institutions and Human Rights",
+            "url": "https://odihr.osce.org/odihr/667020",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "f01683d7-b403-5bfe-8176-dcde7bf19a30",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "planetary-health-check-seven-boundaries-worsening",
+        "rank": 8,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-planetary-health-check-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "地球系统",
+            "headlineFact": "九项行星边界已有七项越过安全范围",
+            "headlineView": "2026健康检查称所有七项压力仍在加剧，风险正在相互叠加",
+            "headlineFull": "九项行星边界已有七项越过安全范围；2026健康检查称所有七项压力仍在加剧，风险正在相互叠加",
+            "intro": "波茨坦气候影响研究所发布120页年度评估，由60多位科学家参与。报告指出，气候变化、生物圈完整性、土地系统、淡水、生物地球化学流、新实体污染和海洋酸化七项边界均已越界，而且所有七项趋势继续恶化；臭氧层与大气气溶胶负荷仍在全球安全范围内，但局部风险不能忽视。",
+            "xiaziQuote": "真正危险的不是单个指标变红，而是多个地球系统同时失去缓冲。",
+            "doudouQuote": "企业和城市要把水、热、供应链与生态风险放进同一张韧性地图。",
+            "footerTakeaway": "今日关键词：地球系统。"
+          },
+          "en-US": {
+            "categoryLabel": "Earth Systems",
+            "headlineFact": "Seven of nine planetary boundaries are beyond the safe range",
+            "headlineView": "The 2026 health check says pressure is still rising across all seven, compounding systemic risk",
+            "headlineFull": "Seven of nine planetary boundaries are beyond the safe range; The 2026 health check says pressure is still rising across all seven, compounding systemic risk",
+            "intro": "The Potsdam Institute for Climate Impact Research published a 120-page annual assessment involving more than 60 scientists. It finds climate change, biosphere integrity, land systems, freshwater, biogeochemical flows, novel entities and ocean acidification beyond their boundaries, with all seven worsening. Stratospheric ozone and atmospheric aerosol loading remain globally within the safe range, though regional risks still matter.",
+            "xiaziQuote": "The deepest danger is not one red indicator but several Earth systems losing resilience at the same time.",
+            "doudouQuote": "Businesses and cities need one resilience map linking water, heat, supply chains and ecosystems.",
+            "footerTakeaway": "Keyword: Earth Systems."
+          }
+        },
+        "sources": [
+          {
+            "id": "b8c4a2fc-4df0-5cc8-b6d3-ad9c7d8109e7",
+            "topicId": "f01683d7-b403-5bfe-8176-dcde7bf19a30",
+            "title": "Planetary Health Check 2026",
+            "publisher": "Potsdam Institute for Climate Impact Research",
+            "url": "https://publications.pik-potsdam.de/pubman/faces/ViewItemFullPage.jsp?itemId=item_35009_3&view=EXPORT",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a1774ffe-53ca-5a7e-9dbd-fb6a0df55f8a",
+        "issueId": "81660e88-22bc-53a6-b045-4d255a73298b",
+        "slug": "mars-jezero-three-water-episodes-perseverance",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-mars-jezero-water-20260922",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "太空科学",
+            "headlineFact": "火星耶泽罗陨石坑边缘至少经历三轮水活动",
+            "headlineView": "地下水、古湖与热液依次改造岩石，早期宜居环境比预想更复杂",
+            "headlineFull": "火星耶泽罗陨石坑边缘至少经历三轮水活动；地下水、古湖与热液依次改造岩石，早期宜居环境比预想更复杂",
+            "intro": "毅力号用SuperCam分析边缘单元185个以上基岩目标，发现原以为由古湖沉积形成的碳酸盐区实际上包含火成岩。岩石先与富二氧化碳地下水反应，后受古湖水影响，最后又出现形成硫酸钙和萤石的热液活动；碳酸盐与二氧化硅可保存古代环境线索，但这并不是生命证据。",
+            "xiaziQuote": "寻找宜居历史，关键不是发现一次有水，而是还原水如何反复改变环境。",
+            "doudouQuote": "三轮水活动让采样点更有价值，也提醒我们别把矿物信号直接等同生命。",
+            "footerTakeaway": "今日关键词：太空科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Science",
+            "headlineFact": "The edge of Mars' Jezero Crater experienced at least three water episodes",
+            "headlineView": "Groundwater, an ancient lake and hydrothermal fluids altered the rocks in sequence, complicating early habitability",
+            "headlineFull": "The edge of Mars' Jezero Crater experienced at least three water episodes; Groundwater, an ancient lake and hydrothermal fluids altered the rocks in sequence, complicating early habitability",
+            "intro": "Perseverance used SuperCam to analyze more than 185 bedrock targets in the Margin Unit and found igneous rock where lake sediments had been expected. Carbon-dioxide-rich groundwater reacted first, ancient lake water likely followed, and a later heated-water event formed calcium sulfate and fluorite. Carbonate and silica can preserve environmental clues, but the findings are not evidence of life.",
+            "xiaziQuote": "Reconstructing habitability means tracing how water repeatedly changed an environment, not merely finding water once.",
+            "doudouQuote": "Three water episodes raise the value of these samples—and warn against equating mineral signals with life.",
+            "footerTakeaway": "Keyword: Space Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "637d3f6d-e5d9-59ae-a7ba-1c5faad4db66",
+            "topicId": "a1774ffe-53ca-5a7e-9dbd-fb6a0df55f8a",
+            "title": "NASA Discovery Reveals Complex Water Systems on Early Mars",
+            "publisher": "Caltech Jet Propulsion Laboratory",
+            "url": "https://www.caltech.edu/research/jpl",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260922_862c0fa148f2a81871d7e026"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-22",
+    "releaseId": "rel_20260922_862c0fa148f2a81871d7e026",
+    "assetBatchId": "asset_prod_20260922_862c0fa148f2a81871d7e026",
+    "posters": [
+      {
+        "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+        "locale": "zh",
+        "contentHash": "b61d85f9b9d9b8a5f3c44d64f88aa942e099a16b254f7c215e221f940bd1c536",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/today-overview-ai-opc-commerce-health-climate-mars.png"
+      },
+      {
+        "topicId": "81da4f98-90bf-5652-8d7c-d74dd4a22099",
+        "locale": "en",
+        "contentHash": "a53d17421a492ee4820f75691ca5929a11fe8d54cd6a202f63b43daa7a583d90",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/today-overview-ai-opc-commerce-health-climate-mars.png"
+      },
+      {
+        "topicId": "baa7170d-c5c3-547b-b1c4-0d92f4cf2821",
+        "locale": "zh",
+        "contentHash": "64d17f5eb9ac3b867c69fca2c1ce3c0d06fcd2443e95a90fbb5082140d2fcb53",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/grok-47-long-horizon-coding-price-performance.png"
+      },
+      {
+        "topicId": "baa7170d-c5c3-547b-b1c4-0d92f4cf2821",
+        "locale": "en",
+        "contentHash": "6e404eb759d00b3ff3842758dfd092b70685d3105d425e2a2afee28e229ce88d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/grok-47-long-horizon-coding-price-performance.png"
+      },
+      {
+        "topicId": "66ce3136-e886-5254-ba67-a0a3a5b9ae1d",
+        "locale": "zh",
+        "contentHash": "cd0543875beb9c5bd8fcd0570523d3fadce7ed5775ba3d63cb01f256f5c0c0a3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/solo-baseball-game-yen129m-retention-ticket.png"
+      },
+      {
+        "topicId": "66ce3136-e886-5254-ba67-a0a3a5b9ae1d",
+        "locale": "en",
+        "contentHash": "315b23559decd87b296a83ffcca9dcdcbae8e7eba5c730b0d0e4aa8f996df506",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/solo-baseball-game-yen129m-retention-ticket.png"
+      },
+      {
+        "topicId": "95025642-0c8e-5634-924b-b2d24a00757a",
+        "locale": "zh",
+        "contentHash": "85ca2e470209d014bdd3592fff6783c6c577cc3d16a945e34de89cb3c6770bc1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/skild-ai-robotics-100m-arr-commercial-deployment.png"
+      },
+      {
+        "topicId": "95025642-0c8e-5634-924b-b2d24a00757a",
+        "locale": "en",
+        "contentHash": "54a0e6a0ad9e7e2ee987dfc3a47b69527b18263eff24b0d469ff435e716ffcd8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/skild-ai-robotics-100m-arr-commercial-deployment.png"
+      },
+      {
+        "topicId": "1eb9d90a-37e9-5dbf-89ea-b632fa219fa0",
+        "locale": "zh",
+        "contentHash": "515edb136bc3eb77345229f147d02f5f350ba185aa910c111cb1ce956cf7c705",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/animalhouse-fitness-ddp-cross-border-revenue-growth.png"
+      },
+      {
+        "topicId": "1eb9d90a-37e9-5dbf-89ea-b632fa219fa0",
+        "locale": "en",
+        "contentHash": "5e7b74aeacc3e3e8962758fab6b43fd702f638d4b05f1e568e49b56e41663f18",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/animalhouse-fitness-ddp-cross-border-revenue-growth.png"
+      },
+      {
+        "topicId": "21b324b0-7aa9-57c2-8efe-83aa542e4a35",
+        "locale": "zh",
+        "contentHash": "830a3b76df065fc55498a6b3b48936cf06c83c4c1fc931ddd0f41078451360c7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/hhs-human-based-research-animal-testing-shift.png"
+      },
+      {
+        "topicId": "21b324b0-7aa9-57c2-8efe-83aa542e4a35",
+        "locale": "en",
+        "contentHash": "4144c30b325b5e0db99a57988b83a0e84c5e2dd0d64f4a3968c67158c059b3e9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/hhs-human-based-research-animal-testing-shift.png"
+      },
+      {
+        "topicId": "d2a51b6b-109f-5b40-b3f0-31de15d9ded1",
+        "locale": "zh",
+        "contentHash": "b380a5b90cdcc7134d3d2fea31f2bd55bf483760326ab8bd41a7c7fafed87047",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/united-russia-record-duma-majority-election.png"
+      },
+      {
+        "topicId": "d2a51b6b-109f-5b40-b3f0-31de15d9ded1",
+        "locale": "en",
+        "contentHash": "3a1144db3dffdc975d3d778fa18c30dc6da001bc6183c83c567a04b1e510a312",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/united-russia-record-duma-majority-election.png"
+      },
+      {
+        "topicId": "f01683d7-b403-5bfe-8176-dcde7bf19a30",
+        "locale": "zh",
+        "contentHash": "50c771c9283c999024bfa13b5f1c150b51acb873928883ff85ef661947b2e6ef",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/planetary-health-check-seven-boundaries-worsening.png"
+      },
+      {
+        "topicId": "f01683d7-b403-5bfe-8176-dcde7bf19a30",
+        "locale": "en",
+        "contentHash": "6d3e841b97e6baa63c43f9b142ae5542d31cf2dab399dee630d2010f894f5265",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/planetary-health-check-seven-boundaries-worsening.png"
+      },
+      {
+        "topicId": "a1774ffe-53ca-5a7e-9dbd-fb6a0df55f8a",
+        "locale": "zh",
+        "contentHash": "7e68dbda17847dd3137a75027d4f178d171ff337bb6e6ef4651fb6d2951a240a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/zh/mars-jezero-three-water-episodes-perseverance.png"
+      },
+      {
+        "topicId": "a1774ffe-53ca-5a7e-9dbd-fb6a0df55f8a",
+        "locale": "en",
+        "contentHash": "934896753af97faaa87dedfb333e474cd847ef7c88390214b36741947a8057a1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260922_862c0fa148f2a81871d7e026/en/mars-jezero-three-water-episodes-perseverance.png"
+      }
+    ]
+  }
+}
