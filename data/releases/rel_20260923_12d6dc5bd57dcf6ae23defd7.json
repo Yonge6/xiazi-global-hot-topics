@@ -1,0 +1,734 @@
+{
+  "issue": {
+    "id": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+    "slug": "2026-09-23",
+    "style": {
+      "name": "Vienna Secession",
+      "zhName": "维也纳分离派",
+      "description": "Style Atlas daily pick: Vienna Secession. Use an original editorial language of disciplined geometry, botanical ornament, cream paper, flat black linework, muted gold, moss green and burgundy, with asymmetrical exhibition-poster composition; do not imitate any specific artist or artwork. Every poster must keep one main conclusion and no more than three key facts in 3-5 calm readable modules with large type, generous spacing and low-texture high-contrast text zones. News scenes, data and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, centered on a layered globe or world stage with eight uneven orbiting ribbons, botanical frames or sculptural pathways. Each sentence receives a broad quiet reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-23",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-23T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-22T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+    "topics": [
+      {
+        "id": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "today-overview-ai-opc-commerce-weather-health-arctic",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月23日全球经营雷达",
+            "headlineView": "监管、单人经营、商业落地与全球风险进入同一张执行图",
+            "headlineFull": "9月23日全球经营雷达；监管、单人经营、商业落地与全球风险进入同一张执行图",
+            "intro": "1. 20个国家与欧盟呼吁让前沿AI始终处于人类监督之下，并研究建立可制定与执行标准的全球监管机制。\n2. Jason McCreary一人运营Laravel Shift，十年完成17.5万次升级，以约100美元月成本稳定创造超过5万美元MRR。\n3. Chatbase把大模型接入客服与支持流程，三年达到1000万美元ARR，并通过自动催收挽回超过87万美元收入。\n4. Marc Jacobs上线本地币种、支付、完税价和退货后，国际线上收入同比增长130%，国际订单增长77%。\n5. 台风杜鹃给日本关东带来创纪录降雨、滑坡和洪水，官方灾情汇总显示5人死亡、6人失踪。\n6. 摩洛哥395席议会选举今日投票，7288名候选人面对就业、工资、住房、教育与医疗等青年诉求。\n7. WHO、FAO、WOAH与CMS发布全球禽流感行动框架，把人类、动物与环境的预防、监测和快速响应连成一体。\n8. NASA主导研究发现北极融冰季长期延长趋势约在2010年后趋稳，但这并不代表海冰损失已经逆转。",
+            "xiaziQuote": "今天的共同信号是：增长要经得起治理、现金流与现实冲击的同时检验。",
+            "doudouQuote": "先找可验证结果，再把风险、成本与下一步动作放进同一张图。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 23 Global Operator Radar",
+            "headlineView": "Governance, solo economics, commercial execution and global risk move onto one operating map",
+            "headlineFull": "September 23 Global Operator Radar; Governance, solo economics, commercial execution and global risk move onto one operating map",
+            "intro": "1. Twenty countries and the EU call for frontier AI to remain under human oversight and propose exploring a global body able to set and enforce standards.\n2. Jason McCreary runs Laravel Shift alone, completing 175,000 upgrades over ten years while producing more than $50K MRR on roughly $100 in monthly overhead.\n3. Chatbase turns large language models into customer-service agents, reaching $10M ARR in three years and recovering more than $870K in failed-payment revenue.\n4. After Marc Jacobs added local currency, payments, landed cost and returns, international online revenue rose 130% year over year and orders rose 77%.\n5. Typhoon Dujuan brought record rain, landslides and flooding to Japan's Kanto region, with an official disaster summary listing five dead and six missing.\n6. Morocco votes today for a 395-seat parliament, with 7,288 candidates facing youth demands on jobs, wages, housing, schools and healthcare.\n7. WHO, FAO, WOAH and CMS launch a global avian-influenza framework linking prevention, surveillance and rapid response across human, animal and environmental health.\n8. A NASA-led study finds the Arctic melt season's long expansion leveled off around 2010, without implying that sea-ice loss has reversed.",
+            "xiaziQuote": "Today's shared signal is that growth must survive governance, cash-flow and real-world shocks at the same time.",
+            "doudouQuote": "Start with verifiable results, then place risk, cost and the next action on one map.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "9e3371d6-e475-5393-afd9-da4a0b6c5706",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "20 countries propose global oversight body to manage AI dangers",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/9/22/20-countries-propose-global-oversight-body-to-manage-ai-dangers",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "508c8799-afa4-5244-a824-b3b3442f2ac4",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "Turning a developer tool into a $50k MRR lifestyle business",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/turning-a-developer-tool-into-a-50k-mrr-lifestyle-business-9GL6b2gcc31LXjx7g3yC",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "313bbfe7-09ac-5b43-9aa3-4b648a428afb",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "Chatbase: Scaling to $10M ARR",
+            "publisher": "Supabase",
+            "url": "https://supabase.com/customers/chatbase",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "81e1ced9-f107-5c98-9f8d-4766b17cfba3",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "Marc Jacobs saw a 130% YoY increase in online international revenues",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/marc-jacobs/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "eec40c98-867d-5156-b878-e113fc6594de",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "Typhoon Dujuan leaves five dead and six missing in Japan",
+            "publisher": "ARA",
+            "url": "https://en.ara.cat/international/typhoon-dujuan-leaves-five-dead-and-six-missing-in-japan_25_5857153.amp.html",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "e2ae5138-939e-5c6e-b57a-a1c8fa1b27b6",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "Les élections législatives du 23 septembre en chiffres",
+            "publisher": "Maroc.ma",
+            "url": "https://www.maroc.ma/fr/actualites/les-elections-legislatives-du-23-septembre-en-chiffres",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "11bbfd8f-da81-56ac-b932-e75058a87130",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "Global framework to accelerate action on avian influenza",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/publications/i/item/9789240125445",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5f17c247-24d5-5744-a302-f3001f841f7a",
+            "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+            "title": "A recent stabilization in the lengthening of the Arctic sea ice melt season into a highly variable regime",
+            "publisher": "NASA Cryospheric Sciences Laboratory",
+            "url": "https://science.gsfc.nasa.gov/earth/cryosphere/publications/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "e4a55fb5-e9f5-5f51-ab35-a24f354970c8",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "twenty-countries-eu-ai-human-oversight-declaration",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-ai-oversight-declaration-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "20国与欧盟呼吁建立全球AI监督机制",
+            "headlineView": "前沿模型必须保持在人类指挥、监督和控制之下",
+            "headlineFull": "20国与欧盟呼吁建立全球AI监督机制；前沿模型必须保持在人类指挥、监督和控制之下",
+            "intro": "联合声明警告，快速发展的前沿模型可能放大生物武器、AI代理网络攻击和自主致命武器等风险。签署方提出加强国际风险管理，并研究一个能够制定和执行共同标准的全球机构；美国、中国和英国未加入，意味着覆盖范围、执行权和与现有联合国机制的关系仍待解决。",
+            "xiaziQuote": "AI治理的难点不再是有没有原则，而是谁来测量、披露和执行。",
+            "doudouQuote": "企业现在就该建立模型清单、红队测试、事故上报和人工接管规则。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Twenty countries and the EU call for global AI oversight",
+            "headlineView": "Frontier systems should remain under human direction, supervision and control",
+            "headlineFull": "Twenty countries and the EU call for global AI oversight; Frontier systems should remain under human direction, supervision and control",
+            "intro": "The declaration warns that rapidly advancing frontier models could amplify risks from biological weapons, AI-agent cyberattacks and autonomous lethal systems. Signatories call for stronger international risk management and exploration of a global body able to set and enforce common standards. The US, China and UK did not join, leaving scope, enforcement and alignment with existing UN mechanisms unresolved.",
+            "xiaziQuote": "The hard part of AI governance is no longer stating principles, but deciding who measures, discloses and enforces them.",
+            "doudouQuote": "Companies should build model inventories, red-team tests, incident reporting and human handoff rules now.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "f61674fa-1409-5028-b5cf-4ab6af679962",
+            "topicId": "e4a55fb5-e9f5-5f51-ab35-a24f354970c8",
+            "title": "20 countries propose global oversight body to manage AI dangers",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/9/22/20-countries-propose-global-oversight-body-to-manage-ai-dangers",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "60c5fca1-6684-558b-95b3-bf774ffc3191",
+            "topicId": "e4a55fb5-e9f5-5f51-ab35-a24f354970c8",
+            "title": "Home — Global Dialogue on AI Governance",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/global-dialogue-ai-governance/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "31162c20-4fe1-5d22-9818-08d3d880872f",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "laravel-shift-solo-50k-mrr-upgrade-tool",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-laravel-shift-solo-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Laravel Shift一人运营稳定超过5万美元MRR",
+            "headlineView": "把框架升级变成一分钟交付的代码服务，十年做了17.5万次",
+            "headlineFull": "Laravel Shift一人运营稳定超过5万美元MRR；把框架升级变成一分钟交付的代码服务，十年做了17.5万次",
+            "intro": "Jason McCreary独自运营Shift：开发者连接代码仓库、付款后即可收到拆分清晰的升级PR。创始人访谈称，收入约一半来自单次购买、一半来自订阅，月固定开销约100美元，无员工、无融资；早期获客来自Laravel创始人转发，随后靠社区演讲、播客、文章与课程建立信任。AI和版本变化减少已让增长放缓，数据为创始人自报。",
+            "xiaziQuote": "一人公司的护城河可以很窄：把高频、昂贵又可重复的麻烦持续做深。",
+            "doudouQuote": "定价、社区信任和自动交付，比盲目扩团队更适合这个生意。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company",
+            "headlineFact": "Laravel Shift runs solo at more than $50K MRR",
+            "headlineView": "A framework upgrade becomes a pull request in under a minute, with 175,000 jobs completed over ten years",
+            "headlineFull": "Laravel Shift runs solo at more than $50K MRR; A framework upgrade becomes a pull request in under a minute, with 175,000 jobs completed over ten years",
+            "intro": "Jason McCreary runs Shift alone: developers connect a repository, pay and receive an upgrade pull request in clean atomic commits. In a founder interview, he says revenue is split roughly evenly between one-off purchases and subscriptions, fixed overhead is about $100 a month, and the business has no employees or investors. Early distribution came from Laravel's creator, followed by talks, podcasts, articles and courses. AI and fewer framework changes have slowed growth; all operating figures are founder-reported.",
+            "xiaziQuote": "A solo moat can be narrow: keep solving one frequent, expensive and repeatable pain better than anyone else.",
+            "doudouQuote": "Pricing, community trust and automated delivery fit this business better than premature hiring.",
+            "footerTakeaway": "Keyword: One-person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "322322e5-ab74-5522-b08e-ee260c21b5bc",
+            "topicId": "31162c20-4fe1-5d22-9818-08d3d880872f",
+            "title": "Turning a developer tool into a $50k MRR lifestyle business",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/turning-a-developer-tool-into-a-50k-mrr-lifestyle-business-9GL6b2gcc31LXjx7g3yC",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3a0751e4-7721-57b4-afb2-11b00b3d8f01",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "chatbase-ai-support-agents-10m-arr",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-chatbase-commercial-ai-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Chatbase三年达到1000万美元ARR",
+            "headlineView": "让企业用自有资料部署客服AI代理，自助订阅与企业销售同时变现",
+            "headlineFull": "Chatbase三年达到1000万美元ARR；让企业用自有资料部署客服AI代理，自助订阅与企业销售同时变现",
+            "intro": "Chatbase把大模型落在客户问答与支持工单，面向初创公司到大型企业提供基础套餐、用量额度与附加项。Stripe案例显示，它在2026年3月达到1000万美元ARR，三年通过自动重试等机制挽回超过87万美元收入，并把欺诈交易降低37%。这些结果来自合作方案例；团队已增至26人，企业级服务与欺诈治理仍带来交付成本。",
+            "xiaziQuote": "AI应用赚钱的关键，是把模型接进一个已有预算、可度量结果的业务流程。",
+            "doudouQuote": "自助增长带来速度，企业销售带来客单，但计费、风控和服务都要同步升级。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Profitable AI in Practice",
+            "headlineFact": "Chatbase reaches $10M ARR in three years",
+            "headlineView": "Companies deploy support agents on their own data while self-serve subscriptions and enterprise sales monetize together",
+            "headlineFull": "Chatbase reaches $10M ARR in three years; Companies deploy support agents on their own data while self-serve subscriptions and enterprise sales monetize together",
+            "intro": "Chatbase applies large language models to customer questions and support workflows, selling base plans, included usage and add-ons to startups and large enterprises. A Stripe case says it reached $10 million ARR in March 2026, recovered more than $870,000 through payment-recovery tools over three years and cut fraudulent transactions 37%. These are partner-case figures; the team has grown to 26 people, and enterprise service plus fraud control still create delivery cost.",
+            "xiaziQuote": "AI monetizes when the model enters a business process with an existing budget and measurable outcome.",
+            "doudouQuote": "Self-serve brings speed and enterprise sales bring ticket size, but billing, risk and service must scale together.",
+            "footerTakeaway": "Keyword: Profitable AI in Practice."
+          }
+        },
+        "sources": [
+          {
+            "id": "5b00e4a6-25ae-5988-8c40-5ef749f3b4dd",
+            "topicId": "3a0751e4-7721-57b4-afb2-11b00b3d8f01",
+            "title": "Chatbase: Scaling to $10M ARR",
+            "publisher": "Supabase",
+            "url": "https://supabase.com/customers/chatbase",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "4b0f0ca5-4ce5-5a36-bef4-4b8bf7f16011",
+            "topicId": "3a0751e4-7721-57b4-afb2-11b00b3d8f01",
+            "title": "Chatbase Hits $10M ARR",
+            "publisher": "WebTribunal",
+            "url": "https://webtribunal.net/chatbase-10-million-arr/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "8551be27-d67a-5e11-bd34-1f14d1fddf40",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "marc-jacobs-cross-border-localization-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "DE",
+          "FR",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-marc-jacobs-cross-border-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Marc Jacobs国际线上收入同比增长130%",
+            "headlineView": "本地币种、支付、完税成本与退货把跨境结账变成接近本地购买",
+            "headlineFull": "Marc Jacobs国际线上收入同比增长130%；本地币种、支付、完税成本与退货把跨境结账变成接近本地购买",
+            "intro": "Global-e案例称，Marc Jacobs用三周接入30多种语言、本地定价和支付、关税税费预付与本地退货中心；三个月后国际订单同比增长77%，国际线上收入增长130%，德国转化率增长155%，法国前五个月收入增长484%。数据来自服务商案例，未披露广告成本、履约成本与净利润；主要风险仍是关税、汇率、退货和本地合规。",
+            "xiaziQuote": "跨境赚钱不是把页面翻译完，而是把价格、支付、税费和退货一起本地化。",
+            "doudouQuote": "先用一个重点市场验证转化提升能覆盖履约与退货成本，再扩大国家范围。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "Marc Jacobs grows international online revenue 130% year over year",
+            "headlineView": "Local currency, payments, landed cost and returns make cross-border checkout feel domestic",
+            "headlineFull": "Marc Jacobs grows international online revenue 130% year over year; Local currency, payments, landed cost and returns make cross-border checkout feel domestic",
+            "intro": "A Global-e case says Marc Jacobs implemented 30-plus languages, local pricing and payments, prepaid duties and taxes, and local return centers in three weeks. After three months, international orders rose 77% year over year and international online revenue rose 130%; German conversion increased 155% and French revenue rose 484% in five months. The vendor case does not disclose acquisition cost, fulfillment cost or net profit; duties, currency, returns and local compliance remain major risks.",
+            "xiaziQuote": "Cross-border profit does not come from translation alone; price, payment, tax and returns must localize together.",
+            "doudouQuote": "Prove that conversion gains cover fulfillment and return costs in one priority market before expanding.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "9ec02d0b-a853-51a5-b501-3a436d69d822",
+            "topicId": "8551be27-d67a-5e11-bd34-1f14d1fddf40",
+            "title": "Marc Jacobs saw a 130% YoY increase in online international revenues",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/marc-jacobs/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1d4733da-8f49-52cd-9815-e334a146d1f5",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "typhoon-dujuan-japan-kanto-record-rain",
+        "rank": 6,
+        "category": "climate",
+        "region": "Asia",
+        "countryCodes": [
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-typhoon-dujuan-japan-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "极端天气",
+            "headlineFact": "台风杜鹃重创日本关东地区",
+            "headlineView": "创纪录降雨触发滑坡与洪水，饱和土壤让风暴离开后的风险继续存在",
+            "headlineFull": "台风杜鹃重创日本关东地区；创纪录降雨触发滑坡与洪水，饱和土壤让风暴离开后的风险继续存在",
+            "intro": "亚洲减灾中心汇总日本消防厅9月22日12时30分数据：5人死亡、6人失踪、23人受伤，21栋房屋完全毁坏，另有大批住宅进水。风暴给东京周边带来滑坡、洪水、停电和交通中断；即使台风已向太平洋移开，搜救与延迟性滑坡风险仍在持续。",
+            "xiaziQuote": "风暴离开不等于风险结束，真正的恢复从搜救、供电和坡地安全开始。",
+            "doudouQuote": "企业应把员工安全、断电、交通和供应链恢复按72小时窗口联动演练。",
+            "footerTakeaway": "今日关键词：极端天气。"
+          },
+          "en-US": {
+            "categoryLabel": "Extreme Weather",
+            "headlineFact": "Typhoon Dujuan hits Japan's Kanto region",
+            "headlineView": "Record rain triggers landslides and floods, while saturated ground keeps risk alive after the storm moves away",
+            "headlineFull": "Typhoon Dujuan hits Japan's Kanto region; Record rain triggers landslides and floods, while saturated ground keeps risk alive after the storm moves away",
+            "intro": "The Asian Disaster Reduction Center summarizes Japan Fire and Disaster Management Agency data at 12:30 p.m. on September 22: five dead, six missing, 23 injured and 21 homes destroyed, with many more flooded. The storm disrupted power and transport around Tokyo. Even as Dujuan moved into the Pacific, search operations and the threat of delayed landslides continued.",
+            "xiaziQuote": "A storm's departure is not the end of risk; recovery begins with rescue, power and slope safety.",
+            "doudouQuote": "Businesses should rehearse employee safety, outages, transport and supply-chain recovery in one 72-hour plan.",
+            "footerTakeaway": "Keyword: Extreme Weather."
+          }
+        },
+        "sources": [
+          {
+            "id": "8b6fd80c-2635-5560-a910-cf9c859db391",
+            "topicId": "1d4733da-8f49-52cd-9815-e334a146d1f5",
+            "title": "Typhoon Dujuan leaves five dead and six missing in Japan",
+            "publisher": "ARA",
+            "url": "https://en.ara.cat/international/typhoon-dujuan-leaves-five-dead-and-six-missing-in-japan_25_5857153.amp.html",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6979a7f9-90ab-54cc-9c8b-03b8b73998e8",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "morocco-parliament-election-youth-demands",
+        "rank": 7,
+        "category": "international",
+        "region": "Africa",
+        "countryCodes": [
+          "MA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-morocco-election-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球政治",
+            "headlineFact": "摩洛哥今日选举395席众议院",
+            "headlineView": "7288名候选人面对青年对就业、工资、教育、医疗与住房的集中诉求",
+            "headlineFull": "摩洛哥今日选举395席众议院；7288名候选人面对青年对就业、工资、教育、医疗与住房的集中诉求",
+            "intro": "摩洛哥官方资料显示，27个政党共7288名候选人竞逐395席，得票最多政党将产生由国王任命的政府首脑。投票发生在青年抗议和向休达的大规模越境事件之后，新政府还将管理2030年世界杯前的数十亿美元投资；但外交、安全与战略事务仍由王室掌握广泛权力。",
+            "xiaziQuote": "选举要回答的不是口号，而是公共投资能否转化为青年看得见的机会与服务。",
+            "doudouQuote": "看席位，也要看投票率、青年参与和预算最后流向哪里。",
+            "footerTakeaway": "今日关键词：全球政治。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Politics",
+            "headlineFact": "Morocco votes today for a 395-seat House of Representatives",
+            "headlineView": "7,288 candidates face concentrated youth demands on jobs, wages, schools, healthcare and housing",
+            "headlineFull": "Morocco votes today for a 395-seat House of Representatives; 7,288 candidates face concentrated youth demands on jobs, wages, schools, healthcare and housing",
+            "intro": "Official Moroccan figures show 7,288 candidates from 27 parties competing for 395 seats, with the king appointing the head of government from the winning party. The vote follows youth protests and a mass attempt to cross into Ceuta, while the next government will oversee billions in investment before the 2030 World Cup. The monarchy retains broad power over foreign policy, security and strategic affairs.",
+            "xiaziQuote": "The election must answer whether public investment becomes visible opportunity and services for young people.",
+            "doudouQuote": "Watch the seat count, but also turnout, youth participation and where the budget ultimately goes.",
+            "footerTakeaway": "Keyword: Global Politics."
+          }
+        },
+        "sources": [
+          {
+            "id": "71165222-8b9c-5b63-953b-d3d6539700a0",
+            "topicId": "6979a7f9-90ab-54cc-9c8b-03b8b73998e8",
+            "title": "Les élections législatives du 23 septembre en chiffres",
+            "publisher": "Maroc.ma",
+            "url": "https://www.maroc.ma/fr/actualites/les-elections-legislatives-du-23-septembre-en-chiffres",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "8e89a778-7aa5-5ec2-9591-a30eba8a575e",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "global-avian-influenza-one-health-framework",
+        "rank": 8,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-avian-influenza-framework-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "四大机构发布全球禽流感行动框架",
+            "headlineView": "把人类、动物、野生生物与环境风险纳入同一套One Health协作",
+            "headlineFull": "四大机构发布全球禽流感行动框架；把人类、动物、野生生物与环境风险纳入同一套One Health协作",
+            "intro": "WHO、FAO、WOAH与《保护野生动物迁徙物种公约》指出，高致病性禽流感已跨洲传播、在野鸟种群中扎根，并影响更多哺乳动物、家禽生产和相关经济。26页框架聚焦预防、早期发现、快速响应、风险评估、沟通、监测和数据共享，目标是减少重复并支持国家主导的跨部门行动。",
+            "xiaziQuote": "禽流感不是单一物种问题，监测链条必须跨越农场、野外、医院与环境。",
+            "doudouQuote": "真正的执行指标，是异常能否更早发现、信息能否更快共享、响应能否同时启动。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "Four organizations launch a global avian-influenza action framework",
+            "headlineView": "Human, animal, wildlife and environmental risks enter one One Health collaboration model",
+            "headlineFull": "Four organizations launch a global avian-influenza action framework; Human, animal, wildlife and environmental risks enter one One Health collaboration model",
+            "intro": "WHO, FAO, WOAH and the Convention on Migratory Species say highly pathogenic avian influenza has spread across continents, become established in wild birds and affected more mammals, poultry production and related economies. The 26-page framework centers on prevention, early detection, rapid response, risk assessment, communication, surveillance and data sharing, aiming to reduce duplication and support country-led cross-sector action.",
+            "xiaziQuote": "Avian influenza is not a single-species problem; surveillance must connect farms, wildlife, hospitals and the environment.",
+            "doudouQuote": "Execution means detecting anomalies earlier, sharing information faster and activating responses together.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "516ba58e-f93b-522f-87fd-ff8d27da6d4f",
+            "topicId": "8e89a778-7aa5-5ec2-9591-a30eba8a575e",
+            "title": "Global framework to accelerate action on avian influenza",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/publications/i/item/9789240125445",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "34fc80b4-89e0-5338-bf57-871e6d6ec609",
+        "issueId": "207ca4b8-99b0-5fde-8e00-c7a858360a30",
+        "slug": "arctic-melt-season-length-levels-off",
+        "rank": 9,
+        "category": "climate",
+        "region": "Arctic",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-arctic-melt-season-20260923",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "地球科学",
+            "headlineFact": "北极融冰季延长趋势约在2010年后趋稳",
+            "headlineView": "卫星数据出现意外平台期，但海冰总量损失并未因此逆转",
+            "headlineFull": "北极融冰季延长趋势约在2010年后趋稳；卫星数据出现意外平台期，但海冰总量损失并未因此逆转",
+            "intro": "NASA主导研究比较卫星记录发现，北极融冰季在此前数十年显著延长，但2010至2023年多数区域的变化明显放缓，局部甚至缩短。研究关注的是融化开始到重新结冰之间的时长，而不是海冰面积或厚度；海冰仍受变暖、海洋热量、风场和区域差异共同影响，不能把平台期解释为气候风险消失。",
+            "xiaziQuote": "一个指标停在平台期，不等于整个系统已经恢复。",
+            "doudouQuote": "读气候数据要先分清季节长度、面积、厚度和长期趋势。",
+            "footerTakeaway": "今日关键词：地球科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Earth Science",
+            "headlineFact": "Arctic melt-season expansion levels off around 2010",
+            "headlineView": "Satellite data reveal an unexpected plateau, but total sea-ice loss has not reversed",
+            "headlineFull": "Arctic melt-season expansion levels off around 2010; Satellite data reveal an unexpected plateau, but total sea-ice loss has not reversed",
+            "intro": "A NASA-led study comparing satellite records finds that the Arctic melt season lengthened strongly for decades, then changed much more slowly across most regions from 2010 to 2023, even shortening in some places. The research measures time between melt onset and freeze-up, not sea-ice area or thickness. Warming, ocean heat, winds and regional variation still shape ice loss, so the plateau does not mean climate risk has disappeared.",
+            "xiaziQuote": "A plateau in one indicator does not mean the whole system has recovered.",
+            "doudouQuote": "Read climate data by separating season length, area, thickness and the long-term trend.",
+            "footerTakeaway": "Keyword: Earth Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "2be9769d-e2b5-5769-bd51-4a200288db62",
+            "topicId": "34fc80b4-89e0-5338-bf57-871e6d6ec609",
+            "title": "A recent stabilization in the lengthening of the Arctic sea ice melt season into a highly variable regime",
+            "publisher": "NASA Cryospheric Sciences Laboratory",
+            "url": "https://science.gsfc.nasa.gov/earth/cryosphere/publications/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260923_12d6dc5bd57dcf6ae23defd7"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-23",
+    "releaseId": "rel_20260923_12d6dc5bd57dcf6ae23defd7",
+    "assetBatchId": "asset_prod_20260923_12d6dc5bd57dcf6ae23defd7",
+    "posters": [
+      {
+        "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+        "locale": "zh",
+        "contentHash": "5344516ab3d3ab172d856c4ed216a32e0b5bd0c790ea1626da205325a6185d91",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/today-overview-ai-opc-commerce-weather-health-arctic.png"
+      },
+      {
+        "topicId": "2e9d2274-089b-5ee9-aadd-0081305532b2",
+        "locale": "en",
+        "contentHash": "63dd3786e1f00723dc2fa080bd5d329c74241e743e64aaed4472e3bb03a65cc1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/today-overview-ai-opc-commerce-weather-health-arctic.png"
+      },
+      {
+        "topicId": "e4a55fb5-e9f5-5f51-ab35-a24f354970c8",
+        "locale": "zh",
+        "contentHash": "a660d6ca347dd127d5bc0f94b55973c122938d5645a3e736ad82e7fb994a2871",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/twenty-countries-eu-ai-human-oversight-declaration.png"
+      },
+      {
+        "topicId": "e4a55fb5-e9f5-5f51-ab35-a24f354970c8",
+        "locale": "en",
+        "contentHash": "c897f49ca30c4f0af8b1acc31dd4b637ccd7c2f622ac12e7d55461111d297f4f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/twenty-countries-eu-ai-human-oversight-declaration.png"
+      },
+      {
+        "topicId": "31162c20-4fe1-5d22-9818-08d3d880872f",
+        "locale": "zh",
+        "contentHash": "c09945332af68341bb4764433445951773caae8733ce46bf1c7e956fcb50bba3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/laravel-shift-solo-50k-mrr-upgrade-tool.png"
+      },
+      {
+        "topicId": "31162c20-4fe1-5d22-9818-08d3d880872f",
+        "locale": "en",
+        "contentHash": "e8ff3f3ccda3f06d3ce09fe9f33c1be0795331dca030e4b7d33dac372e69c4d3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/laravel-shift-solo-50k-mrr-upgrade-tool.png"
+      },
+      {
+        "topicId": "3a0751e4-7721-57b4-afb2-11b00b3d8f01",
+        "locale": "zh",
+        "contentHash": "56b13c9f7d9660c2d96f278cf4f16f165a0fcf28d8ade04d55a4e881d55ef539",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/chatbase-ai-support-agents-10m-arr.png"
+      },
+      {
+        "topicId": "3a0751e4-7721-57b4-afb2-11b00b3d8f01",
+        "locale": "en",
+        "contentHash": "a20bb3e35073a62a74c0fea7937e6cd5dc95734d593b4bfa44227cab89816804",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/chatbase-ai-support-agents-10m-arr.png"
+      },
+      {
+        "topicId": "8551be27-d67a-5e11-bd34-1f14d1fddf40",
+        "locale": "zh",
+        "contentHash": "a929a9764ee28ba287d581fa8f577925ca706be75cebb6473cd9dc48292f8fd5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/marc-jacobs-cross-border-localization-growth.png"
+      },
+      {
+        "topicId": "8551be27-d67a-5e11-bd34-1f14d1fddf40",
+        "locale": "en",
+        "contentHash": "c24ba66488521cdb82f397a418a1946daa342b6e8ade06e20fc55e63c18c2f7c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/marc-jacobs-cross-border-localization-growth.png"
+      },
+      {
+        "topicId": "1d4733da-8f49-52cd-9815-e334a146d1f5",
+        "locale": "zh",
+        "contentHash": "9744a07069bb1eba77f3bbc5f6ce862c386a3512890f89af7c6d1af9cf8d3034",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/typhoon-dujuan-japan-kanto-record-rain.png"
+      },
+      {
+        "topicId": "1d4733da-8f49-52cd-9815-e334a146d1f5",
+        "locale": "en",
+        "contentHash": "f8a69ca6f0aebfd5c2b9cd75cb7087c2d5ba50de7741afbf756c5432ce3c01b1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/typhoon-dujuan-japan-kanto-record-rain.png"
+      },
+      {
+        "topicId": "6979a7f9-90ab-54cc-9c8b-03b8b73998e8",
+        "locale": "zh",
+        "contentHash": "ca0ae84fc79b529dab407a083caa80eeeb7adea2d477f44b7461626639b7af7d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/morocco-parliament-election-youth-demands.png"
+      },
+      {
+        "topicId": "6979a7f9-90ab-54cc-9c8b-03b8b73998e8",
+        "locale": "en",
+        "contentHash": "971e731660686929e3e8ed45389427ee6522ddf0835755b39e5b182c5346bc3c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/morocco-parliament-election-youth-demands.png"
+      },
+      {
+        "topicId": "8e89a778-7aa5-5ec2-9591-a30eba8a575e",
+        "locale": "zh",
+        "contentHash": "9e7d39a82c7a382ac581e4d420edfb834ec2147b0587f0e7e21f0ad4d4d87cef",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/global-avian-influenza-one-health-framework.png"
+      },
+      {
+        "topicId": "8e89a778-7aa5-5ec2-9591-a30eba8a575e",
+        "locale": "en",
+        "contentHash": "f523c7a14282890e3dbf181b144abe092354d0bd914cdab61c7f1384bb9204fb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/global-avian-influenza-one-health-framework.png"
+      },
+      {
+        "topicId": "34fc80b4-89e0-5338-bf57-871e6d6ec609",
+        "locale": "zh",
+        "contentHash": "659edee96abb96d69a514b0ef7f31ba894f31934f871bd7437887ff5982b5fde",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/zh/arctic-melt-season-length-levels-off.png"
+      },
+      {
+        "topicId": "34fc80b4-89e0-5338-bf57-871e6d6ec609",
+        "locale": "en",
+        "contentHash": "5a6ac93c59ab84127e1eb6741bd9c6e7387f2f35d74cc1f90fd339959eabcb42",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260923_12d6dc5bd57dcf6ae23defd7/en/arctic-melt-season-length-levels-off.png"
+      }
+    ]
+  }
+}
