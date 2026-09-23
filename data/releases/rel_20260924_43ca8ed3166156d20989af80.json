@@ -1,0 +1,706 @@
+{
+  "issue": {
+    "id": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+    "slug": "2026-09-24",
+    "style": {
+      "name": "Sachplakat",
+      "zhName": "物体海报",
+      "description": "Style Atlas daily pick: Sachplakat. Use an original object-poster editorial language built around one oversized, instantly recognizable object metaphor, flat high-contrast color fields, crisp silhouettes, restrained typography, bold negative space and direct commercial-poster clarity; do not imitate any specific artist or historical poster. Every poster must keep one main conclusion and no more than three key facts in 3-5 calm readable modules with large type, generous spacing and low-texture high-contrast text zones. News scenes, data and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly, centered on a monumental globe or operating compass assembled from oversized object symbols, with eight uneven flowing labels or pathways. Each sentence receives a broad quiet reading zone; never use a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-24",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-24T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-23T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+    "topics": [
+      {
+        "id": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "today-overview-ai-opc-commerce-sea-health-space-economy",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月24日全球经营雷达",
+            "headlineView": "算力、单人经营、商业化与全球公共风险进入同一张执行图",
+            "headlineFull": "9月24日全球经营雷达；算力、单人经营、商业化与全球公共风险进入同一张执行图",
+            "intro": "1. 阿里公布自研AI芯片、智能体云与Qwen 4路线图，并称后续模型规模将迈向5万亿至10万亿参数。\n2. 越南独立开发者Daniel Nguyen用一次性授权销售BoltAI，在7000多名客户基础上自报约1.5万美元月收入。\n3. AI音乐视频平台One More Shot AI把订阅与额外创作包结合，一年达到创始人自报的71万美元月度收入运行率。\n4. Johnstons of Elgin用本地支付、完税价与更低物流成本，让国际收入一年增长60%、订单增长59%。\n5. 联合国今日召开海平面上升高级别会议，近9亿低海拔沿海居民的生计、主权与韧性成为核心议题。\n6. WHO扩大循证避孕选择，支持更长周期使用现有方法，并为未来男性避孕产品设定首个目标产品标准。\n7. 哈勃完成第20万圈地球轨道，并追踪将再次出现的超新星Athena以改进宇宙膨胀测量。\n8. OECD预计全球经济2026年增长2.9%、2027年增长3.0%，但能源冲击与通胀仍让前景承压。",
+            "xiaziQuote": "今天的共同信号是：真正的增长必须同时算清技术、现金流、交付与外部风险。",
+            "doudouQuote": "先看可验证结果，再看它靠什么渠道、成本和制度持续。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 24 Global Operator Radar",
+            "headlineView": "Compute, solo economics, commercialization and public risk move onto one operating map",
+            "headlineFull": "September 24 Global Operator Radar; Compute, solo economics, commercialization and public risk move onto one operating map",
+            "intro": "1. Alibaba unveils proprietary AI chips, an agentic cloud and its Qwen 4 roadmap, with later models projected at 5-10 trillion parameters.\n2. Vietnamese indie developer Daniel Nguyen sells BoltAI through perpetual licenses and reports about $15K monthly revenue from more than 7,000 customers.\n3. AI music-video platform One More Shot AI combines subscriptions with extra creation packs and reaches a founder-reported $710K monthly run rate in one year.\n4. Johnstons of Elgin uses local payments, landed pricing and lower logistics cost to lift international revenue 60% and orders 59% in one year.\n5. The UN convenes today's high-level sea-level-rise meeting as nearly 900 million people in low-lying coastal zones face risks to livelihoods, sovereignty and resilience.\n6. WHO broadens evidence-based contraceptive choices, supports longer use of existing methods and sets its first target profile for future male products.\n7. Hubble completes its 200,000th Earth orbit while monitoring supernova Athena's predicted reappearance to refine measurements of cosmic expansion.\n8. The OECD projects 2.9% global growth in 2026 and 3.0% in 2027 while energy shocks and inflation keep the outlook under pressure.",
+            "xiaziQuote": "Today's shared signal is that durable growth must price technology, cash flow, delivery and external risk together.",
+            "doudouQuote": "Start with verifiable results, then inspect the channels, costs and institutions that sustain them.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "70fe03f0-97a7-5c65-b12b-95c62652347a",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "Alibaba Unveils Roadmap on Full-Stack AI Strategy from Chips, Cloud Infrastructure, Models to Agents",
+            "publisher": "Alibaba Cloud",
+            "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy?_p_lc=1",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "145aa6d4-b343-5dc1-8b17-78cb7b37126c",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "Making $15k a month from an AI app",
+            "publisher": "High Signal",
+            "url": "https://www.highsignal.io/making-15k-a-month-from-an-ai-app/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "4d92dd6f-d618-5a53-8d2d-4b2588861c3c",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "How KRNL uses RevenueCat to focus its AI app studio on what's worth scaling",
+            "publisher": "RevenueCat",
+            "url": "https://www-docs.revenuecat.com/customers/how-krnl-focuses-ai-app-studio-revenuecat",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6744f392-71e5-57f9-ba34-dcd0c9f9a82b",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "Johnstons of Elgin",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/en/success-stories/johnstons-of-elgin/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "945d9a3e-1d04-576a-be80-fc9eae23df95",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "General Assembly High-level Week 2026",
+            "publisher": "United Nations",
+            "url": "https://webtv.un.org/en/asset/k1u/k1u0xp7957",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b3985b26-a4cb-5f57-b428-3aa8aa81aaf4",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "WHO expands safe options for contraception",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/23-09-2026-who-expands-safe-options-for-contraception",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "86274ef6-23e0-55c0-bbde-fb81903bbbe2",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "NASA's Hubble Seeks Lensed Supernova, Marks 200,000 Orbits",
+            "publisher": "SpaceWireDaily",
+            "url": "https://spacewiredaily.com/article/2026-09-23-nasas-hubble-seeks-lensed-supernova-mark",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8354dd73-5a65-5df6-bd96-177a23393f10",
+            "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+            "title": "Global growth holds up despite successive shocks, but risks persist",
+            "publisher": "Reuters via Kitco",
+            "url": "https://www.kitco.com/news/off-the-wire/2026-09-23/oecd-expects-ai-boom-help-offset-middle-east-energy-shock-now",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "ad7e5349-0868-5ba2-b54b-67838352067c",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "alibaba-full-stack-ai-chip-qwen4-roadmap",
+        "rank": 2,
+        "category": "technology",
+        "region": "Asia",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-alibaba-full-stack-ai-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "阿里公布自研AI芯片与Qwen 4路线图",
+            "headlineView": "从芯片、智能体云到移动端平台，试图把模型能力变成一体化基础设施",
+            "headlineFull": "阿里公布自研AI芯片与Qwen 4路线图；从芯片、智能体云到移动端平台，试图把模型能力变成一体化基础设施",
+            "intro": "阿里云在云栖大会公布高性能自研AI芯片、智能体云、移动端AI智能体平台，并确认Qwen 4正在训练，后续Qwen 4.5和Qwen 5规划扩展到5万亿至10万亿参数。公司还称Qwen3.8-Max通过33轮自动迭代提高评测分数，并在芯片设计实验中完成逾1万次EDA调用、在性能不降时把面积缩小42%；这些均为公司自报结果，尚需独立基准与客户部署验证。",
+            "xiaziQuote": "竞争焦点正从单个模型跑分，转向芯片、云、智能体与交付能否形成闭环。",
+            "doudouQuote": "路线图很大，先看可用产品、真实成本和独立评测是否同步出现。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Alibaba unveils proprietary AI chips and its Qwen 4 roadmap",
+            "headlineView": "Chips, an agentic cloud and a mobile platform aim to turn model capability into integrated infrastructure",
+            "headlineFull": "Alibaba unveils proprietary AI chips and its Qwen 4 roadmap; Chips, an agentic cloud and a mobile platform aim to turn model capability into integrated infrastructure",
+            "intro": "At Apsara Conference, Alibaba Cloud announced high-performance proprietary AI chips, a purpose-built agentic cloud and a mobile AI-agent platform. Qwen 4 is in training, while Qwen 4.5 and Qwen 5 are projected to scale to 5-10 trillion parameters. Alibaba also says Qwen3.8-Max improved through 33 autonomous iterations and made more than 10,000 EDA calls in a chip-design experiment, reducing area 42% with no performance loss. These are company-reported results awaiting independent benchmarks and customer deployment evidence.",
+            "xiaziQuote": "The contest is moving from one model score to whether chips, cloud, agents and delivery form a working loop.",
+            "doudouQuote": "The roadmap is large; watch whether usable products, real cost and independent tests arrive together.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "ba12bf80-6e3c-57db-add7-2556aa07ff5e",
+            "topicId": "ad7e5349-0868-5ba2-b54b-67838352067c",
+            "title": "Alibaba Unveils Roadmap on Full-Stack AI Strategy from Chips, Cloud Infrastructure, Models to Agents",
+            "publisher": "Alibaba Cloud",
+            "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy?_p_lc=1",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "393cb5da-8a7f-5f93-b169-3a7b01de29e9",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "boltai-solo-perpetual-license-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "VN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-boltai-solo-business-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "BoltAI一人经营月收入约1.5万美元",
+            "headlineView": "一次性软件授权加用户自付模型费用，把经常性推理成本移出产品毛利",
+            "headlineFull": "BoltAI一人经营月收入约1.5万美元；一次性软件授权加用户自付模型费用，把经常性推理成本移出产品毛利",
+            "intro": "越南独立开发者Daniel Nguyen为Mac用户制作原生多模型客户端BoltAI，用户购买软件授权后连接自己的AI供应商密钥。创始人访谈称，产品2023年5月上线，已服务7000多名客户、迭代100多次，约产生1.5万美元月收入；早期靠X上的开发记录、独立开发者社区和口碑获客。数据为创始人自报且时间截点较早，买断收入会波动，单人支持与平台依赖仍是限制。",
+            "xiaziQuote": "一人公司不一定要承担全部边际成本，也可以重新设计谁为算力买单。",
+            "doudouQuote": "买断制降低续费摩擦，却要求持续获客、克制支持成本，并防止产品老化。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-person Company",
+            "headlineFact": "BoltAI runs solo at about $15K in monthly revenue",
+            "headlineView": "Perpetual software licenses plus user-paid model usage move recurring inference cost outside product margin",
+            "headlineFull": "BoltAI runs solo at about $15K in monthly revenue; Perpetual software licenses plus user-paid model usage move recurring inference cost outside product margin",
+            "intro": "Vietnamese indie developer Daniel Nguyen built BoltAI, a native Mac client that lets buyers connect their own AI-provider keys after purchasing a software license. In a founder interview, he says the product launched in May 2023, serves more than 7,000 customers, has shipped over 100 updates and generates about $15,000 a month. Early acquisition came from building in public on X, indie communities and word of mouth. The figures are founder-reported and dated; one-off sales fluctuate, while solo support and platform dependence remain constraints.",
+            "xiaziQuote": "A solo company does not have to absorb every marginal cost; it can redesign who pays for compute.",
+            "doudouQuote": "Perpetual pricing removes renewal friction but demands steady acquisition, controlled support and resistance to product aging.",
+            "footerTakeaway": "Keyword: One-person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "e8e1e62c-16d2-5426-9ebd-faef2e0e915d",
+            "topicId": "393cb5da-8a7f-5f93-b169-3a7b01de29e9",
+            "title": "Making $15k a month from an AI app",
+            "publisher": "High Signal",
+            "url": "https://www.highsignal.io/making-15k-a-month-from-an-ai-app/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f9bb501a-9a4c-5c50-8371-3dff2e18f1ed",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "one-more-shot-ai-music-video-monetization",
+        "rank": 4,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "IT"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-one-more-shot-ai-commercial-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "One More Shot AI一年达到71万美元月度收入运行率",
+            "headlineView": "为音乐人生成口型同步MV、歌词视频和宣发素材，订阅之外再卖创作包",
+            "headlineFull": "One More Shot AI一年达到71万美元月度收入运行率；为音乐人生成口型同步MV、歌词视频和宣发素材，订阅之外再卖创作包",
+            "intro": "KRNL把生成式AI落在音乐人持续需要的宣传内容：上传歌曲后制作口型同步MV、歌词视频、封面和社交素材。RevenueCat合作案例称，One More Shot AI上线一年后达到71万美元月度收入运行率；变现同时依赖订阅和额外创作包，团队用留存、回本周期、定价与LTV决定投放。数字来自公司负责人在服务商案例中的自报，未披露净利润与获客成本，算力、版权和付费投放仍是主要风险。",
+            "xiaziQuote": "赚钱的AI应用不是只生成一次，而是嵌入一个会反复产生内容预算的工作流。",
+            "doudouQuote": "订阅证明持续需求，额外创作包则把重度使用直接转成收入。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Profitable AI in Practice",
+            "headlineFact": "One More Shot AI reaches a $710K monthly run rate in one year",
+            "headlineView": "Artists generate lip-synced videos, lyrics and campaign assets, then buy creation packs beyond the subscription",
+            "headlineFull": "One More Shot AI reaches a $710K monthly run rate in one year; Artists generate lip-synced videos, lyrics and campaign assets, then buy creation packs beyond the subscription",
+            "intro": "KRNL applies generative AI to a recurring job for music artists: turning songs into lip-synced music videos, lyric videos, covers and social promotion assets. A RevenueCat partner case says One More Shot AI reached a $710,000 monthly run rate after one year. Monetization combines subscriptions with extra creation packages, while retention, payback time, pricing and LTV guide spending. The result is executive-reported through a vendor case; net profit and acquisition cost are undisclosed, and compute, rights and paid distribution remain major risks.",
+            "xiaziQuote": "Profitable AI is not a one-time generation trick; it enters a workflow with recurring content budgets.",
+            "doudouQuote": "Subscriptions prove recurring demand, while creation packs convert heavy usage directly into revenue.",
+            "footerTakeaway": "Keyword: Profitable AI in Practice."
+          }
+        },
+        "sources": [
+          {
+            "id": "d3bb7353-3f85-56ed-8c7f-47f26c2a5c5e",
+            "topicId": "f9bb501a-9a4c-5c50-8371-3dff2e18f1ed",
+            "title": "How KRNL uses RevenueCat to focus its AI app studio on what's worth scaling",
+            "publisher": "RevenueCat",
+            "url": "https://www-docs.revenuecat.com/customers/how-krnl-focuses-ai-app-studio-revenuecat",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6add4800-bd05-5d69-9fd8-402ba867fb46",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "johnstons-elgin-cross-border-localization-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "GB",
+          "HK"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-johnstons-cross-border-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Johnstons国际收入一年增长60%",
+            "headlineView": "本地支付、完税价、低物流成本与重点市场激励共同提高跨境转化",
+            "headlineFull": "Johnstons国际收入一年增长60%；本地支付、完税价、低物流成本与重点市场激励共同提高跨境转化",
+            "intro": "苏格兰羊绒品牌Johnstons of Elgin把多币种支付、关税税费预付、本地退货和30多种语言接入跨境结账，并通过更低物流成本在重点市场提供包邮等激励。Global-e案例称，一年内国际收入增长60%、转化率增长38%、订单增长59%，覆盖58个目的地，香港转化率增长195%。数据来自服务商案例且未披露广告、退货与净利润；高客单服饰仍受汇率、季节性和逆向物流影响。",
+            "xiaziQuote": "跨境利润来自整条结账与履约链，而不是单独压低运费。",
+            "doudouQuote": "先把关税、支付、退货和激励装进同一个市场模型，再看订单增长是否真正赚钱。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-border E-commerce",
+            "headlineFact": "Johnstons grows international revenue 60% in one year",
+            "headlineView": "Local payments, landed pricing, lower logistics cost and targeted incentives raise cross-border conversion together",
+            "headlineFull": "Johnstons grows international revenue 60% in one year; Local payments, landed pricing, lower logistics cost and targeted incentives raise cross-border conversion together",
+            "intro": "Scottish cashmere brand Johnstons of Elgin added multi-currency payment, prepaid duties and taxes, local returns and 30-plus languages to cross-border checkout, then used logistics savings for incentives such as free shipping in priority markets. A Global-e case reports 60% international revenue growth, 38% higher conversion and 59% more orders across 58 destinations within a year; Hong Kong conversion rose 195%. The vendor case omits advertising, return and net-profit data. Currency, seasonality and reverse logistics remain key risks for premium apparel.",
+            "xiaziQuote": "Cross-border profit comes from the full checkout and fulfillment chain, not a single shipping discount.",
+            "doudouQuote": "Put duties, payment, returns and incentives into one market model, then test whether order growth truly pays.",
+            "footerTakeaway": "Keyword: Cross-border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "ef3870ca-2e7d-50ae-8ce0-c1ac87c4cbf8",
+            "topicId": "6add4800-bd05-5d69-9fd8-402ba867fb46",
+            "title": "Johnstons of Elgin",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/en/success-stories/johnstons-of-elgin/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7dc084ed-8ba2-51f5-b379-187d990b5307",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "un-sea-level-rise-high-level-meeting",
+        "rank": 6,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-un-sea-level-rise-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候行动",
+            "headlineFact": "联合国今日聚焦海平面上升的生存威胁",
+            "headlineView": "近9亿低海拔沿海居民面对土地、生计、淡水、边界与国家存续风险",
+            "headlineFull": "联合国今日聚焦海平面上升的生存威胁；近9亿低海拔沿海居民面对土地、生计、淡水、边界与国家存续风险",
+            "intro": "联合国大会9月24日召开海平面上升高级别会议，目标是形成更强的国际合作、韧性和适应行动。联合国指出，全球海平面在2014至2023年的上升速率已超过1993至2002年的两倍；对小岛屿和低洼沿海国家，风险不仅是灾害损失，还延伸到海洋边界、国籍、文化与国家地位。会议能否把政治声明转成融资和可执行保护仍是关键。",
+            "xiaziQuote": "海平面上升不是遥远预测，它正在改写资产、迁移与主权的时间表。",
+            "doudouQuote": "真正要盯的是资金、预警、基础设施和迁移方案何时落到地点与责任人。",
+            "footerTakeaway": "今日关键词：气候行动。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate Action",
+            "headlineFact": "The UN focuses today on the existential threat of sea-level rise",
+            "headlineView": "Nearly 900 million low-lying coastal residents face risks to land, livelihoods, freshwater, boundaries and statehood",
+            "headlineFull": "The UN focuses today on the existential threat of sea-level rise; Nearly 900 million low-lying coastal residents face risks to land, livelihoods, freshwater, boundaries and statehood",
+            "intro": "The UN General Assembly convenes a high-level meeting on sea-level rise on September 24 to strengthen international cooperation, resilience and adaptation. The UN says the global rate in 2014-2023 was more than twice that of 1993-2002. For small islands and low-lying coastal countries, exposure extends beyond disaster damage to maritime boundaries, nationality, culture and statehood. The central test is whether a political declaration becomes funded, executable protection.",
+            "xiaziQuote": "Sea-level rise is not a distant forecast; it is rewriting timelines for assets, migration and sovereignty.",
+            "doudouQuote": "Watch when finance, warning systems, infrastructure and migration plans gain locations and accountable owners.",
+            "footerTakeaway": "Keyword: Climate Action."
+          }
+        },
+        "sources": [
+          {
+            "id": "a7dcb392-97e9-5287-bbc8-13cd68e7f45c",
+            "topicId": "7dc084ed-8ba2-51f5-b379-187d990b5307",
+            "title": "General Assembly High-level Week 2026",
+            "publisher": "United Nations",
+            "url": "https://webtv.un.org/en/asset/k1u/k1u0xp7957",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a98a4040-11fb-57de-9cf4-d0974f787657",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "who-expanded-contraceptive-options-guideline",
+        "rank": 7,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-who-contraception-options-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "WHO扩大安全有效的避孕选择",
+            "headlineView": "更长周期用药、五年植入与男性产品标准把选择权延伸到更完整的生命周期",
+            "headlineFull": "WHO扩大安全有效的避孕选择；更长周期用药、五年植入与男性产品标准把选择权延伸到更完整的生命周期",
+            "intro": "WHO新指南支持复方口服避孕药延长至六个月或连续使用一年、植入物使用至五年，并把米非司酮列为无保护性行为后五天内的额外紧急避孕选择；同时因证据不足，不建议部分方法进入国家项目。全球约有1.64亿希望推迟或避免怀孕的女性未使用避孕措施。WHO还发布首个男性避孕产品目标标准，称可逆产品可能在5至10年进入市场。",
+            "xiaziQuote": "医疗选择扩大的前提，是把便利、安全、可负担与证据强度一起说明白。",
+            "doudouQuote": "新指南不是越多越好，而是让每种方法的适用边界更清楚。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "WHO broadens safe and effective contraceptive choices",
+            "headlineView": "Longer regimens, five-year implants and a male-product profile extend choice across more of the life cycle",
+            "headlineFull": "WHO broadens safe and effective contraceptive choices; Longer regimens, five-year implants and a male-product profile extend choice across more of the life cycle",
+            "intro": "WHO's new guideline supports taking combined oral contraceptives for up to six months or continuously for a year, using implants for up to five years, and adding mifepristone within five days as an emergency option. It also rejects some methods from national programs where evidence is insufficient. About 164 million women who want to delay or avoid pregnancy use no contraception. WHO also issued its first target product profile for male methods and says reversible products may reach the market in 5-10 years.",
+            "xiaziQuote": "More medical choice works only when convenience, safety, affordability and evidence strength are explained together.",
+            "doudouQuote": "A wider guideline is not simply more options; it makes each method's boundary clearer.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "2a764c61-d7f2-5c3c-9042-de79967d8fb6",
+            "topicId": "a98a4040-11fb-57de-9cf4-d0974f787657",
+            "title": "WHO expands safe options for contraception",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/23-09-2026-who-expands-safe-options-for-contraception",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bf180379-c5cb-5607-a4fa-dec51cfd10fd",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "hubble-two-hundred-thousand-orbits-athena",
+        "rank": 8,
+        "category": "science",
+        "region": "Space",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-hubble-200k-orbits-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "空间科学",
+            "headlineFact": "哈勃完成第20万圈地球轨道",
+            "headlineView": "36年飞行逾50亿英里，并等待超新星Athena再次出现来校准宇宙膨胀",
+            "headlineFull": "哈勃完成第20万圈地球轨道；36年飞行逾50亿英里，并等待超新星Athena再次出现来校准宇宙膨胀",
+            "intro": "哈勃空间望远镜9月19日完成第20万圈地球轨道，累计运行36年、观测超过170万次。纪念轨道当天的一项观测追踪由星系团MACS J0417引力透镜放大的超新星Athena；同一次爆炸的光沿不同路径抵达地球，预计在现在至2027年3月初再次出现。时间差可以帮助绘制星系团质量，并改进哈勃常数测量。",
+            "xiaziQuote": "长期科学基础设施的价值，来自一次次可比较观测累积出的时间尺度。",
+            "doudouQuote": "等同一颗超新星再出现，时间本身就会变成测量宇宙的尺子。",
+            "footerTakeaway": "今日关键词：空间科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Science",
+            "headlineFact": "Hubble completes its 200,000th orbit around Earth",
+            "headlineView": "After 36 years and 5 billion miles, it waits for supernova Athena to reappear and refine cosmic expansion",
+            "headlineFull": "Hubble completes its 200,000th orbit around Earth; After 36 years and 5 billion miles, it waits for supernova Athena to reappear and refine cosmic expansion",
+            "intro": "NASA's Hubble Space Telescope completed its 200,000th Earth orbit on September 19 after 36 years and more than 1.7 million observations. A milestone-day exposure monitors supernova Athena, magnified by galaxy cluster MACS J0417. Light from the same explosion follows different paths and is predicted to reappear between now and early March 2027. The timing can map the cluster's mass and improve measurements of the Hubble Constant.",
+            "xiaziQuote": "Long-lived scientific infrastructure creates value by accumulating observations that remain comparable across time.",
+            "doudouQuote": "When the same supernova appears again, time itself becomes a ruler for the universe.",
+            "footerTakeaway": "Keyword: Space Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "00902449-0491-53a8-8d4d-9242e6894fab",
+            "topicId": "bf180379-c5cb-5607-a4fa-dec51cfd10fd",
+            "title": "NASA's Hubble Seeks Lensed Supernova, Marks 200,000 Orbits",
+            "publisher": "SpaceWireDaily",
+            "url": "https://spacewiredaily.com/article/2026-09-23-nasas-hubble-seeks-lensed-supernova-mark",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6585803d-8479-53c3-b062-b545c764e003",
+        "issueId": "01b1ad9a-87d0-506e-a9e9-e4b4fc77a8ef",
+        "slug": "oecd-interim-outlook-energy-shock-growth",
+        "rank": 9,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-oecd-interim-outlook-20260924",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球经济",
+            "headlineFact": "OECD预计2026年全球经济增长2.9%",
+            "headlineView": "替代运输、库存释放与额外供给缓冲能源冲击，但通胀和不确定性仍在累积",
+            "headlineFull": "OECD预计2026年全球经济增长2.9%；替代运输、库存释放与额外供给缓冲能源冲击，但通胀和不确定性仍在累积",
+            "intro": "OECD最新中期展望预计全球经济2026年增长2.9%、2027年增长3.0%。中东冲突引发的能源供应冲击被替代路线、战略库存释放、海湾外增产和中国需求偏弱部分吸收；AI投资继续支撑贸易，OECD称全球商品贸易增量近三分之二来自AI相关产品。基准情景仍高度依赖冲突演变，通胀预计在2026年第四季度见顶。",
+            "xiaziQuote": "韧性不是没有冲击，而是缓冲机制仍能争取调整时间。",
+            "doudouQuote": "增长预测要和能源价格、库存、运输路线与通胀峰值一起看。",
+            "footerTakeaway": "今日关键词：全球经济。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Economy",
+            "headlineFact": "OECD projects 2.9% global growth in 2026",
+            "headlineView": "Alternative routes, inventory releases and extra supply cushion the energy shock while inflation and uncertainty build",
+            "headlineFull": "OECD projects 2.9% global growth in 2026; Alternative routes, inventory releases and extra supply cushion the energy shock while inflation and uncertainty build",
+            "intro": "The OECD's Interim Economic Outlook projects global growth of 2.9% in 2026 and 3.0% in 2027. Alternative supply routes, strategic-reserve releases, production outside the Gulf and weaker Chinese demand partly absorbed the Middle East energy shock. AI investment continues to support trade; the OECD says almost two-thirds of growth in global goods trade now comes from AI-related products. The baseline remains highly sensitive to the conflict, with inflation expected to peak in the fourth quarter of 2026.",
+            "xiaziQuote": "Resilience is not the absence of shocks; it is whether buffers still buy time to adjust.",
+            "doudouQuote": "Read the growth forecast alongside energy prices, inventories, shipping routes and the inflation peak.",
+            "footerTakeaway": "Keyword: Global Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "ddcbc48e-b3cc-53ec-9a81-847acae66e57",
+            "topicId": "6585803d-8479-53c3-b062-b545c764e003",
+            "title": "Global growth holds up despite successive shocks, but risks persist",
+            "publisher": "Reuters via Kitco",
+            "url": "https://www.kitco.com/news/off-the-wire/2026-09-23/oecd-expects-ai-boom-help-offset-middle-east-energy-shock-now",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260924_43ca8ed3166156d20989af80"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-24",
+    "releaseId": "rel_20260924_43ca8ed3166156d20989af80",
+    "assetBatchId": "asset_prod_20260924_43ca8ed3166156d20989af80",
+    "posters": [
+      {
+        "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+        "locale": "zh",
+        "contentHash": "22e00534e061e403c958d435cfb07d4427db6d096e20020b22274b86e251f56c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/today-overview-ai-opc-commerce-sea-health-space-economy.png"
+      },
+      {
+        "topicId": "e11d11b4-f261-5578-a04a-fe196102b0d4",
+        "locale": "en",
+        "contentHash": "9b9c7d2c35b57fa43ed20c412064181aa87288deac760012f7129e3b35571156",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/today-overview-ai-opc-commerce-sea-health-space-economy.png"
+      },
+      {
+        "topicId": "ad7e5349-0868-5ba2-b54b-67838352067c",
+        "locale": "zh",
+        "contentHash": "29f397e7632a94d654759c4a1efee864534a02c2190650537e7bb15a804ca008",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/alibaba-full-stack-ai-chip-qwen4-roadmap.png"
+      },
+      {
+        "topicId": "ad7e5349-0868-5ba2-b54b-67838352067c",
+        "locale": "en",
+        "contentHash": "96ed5c6dbb151bc918b94ca6605e6ace76a4fd60475834a51d7d4d0d1911bc24",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/alibaba-full-stack-ai-chip-qwen4-roadmap.png"
+      },
+      {
+        "topicId": "393cb5da-8a7f-5f93-b169-3a7b01de29e9",
+        "locale": "zh",
+        "contentHash": "901ace8ae4e5eff1e0e05e7614c16481b3347abe76b16045e55a2ee5733c7986",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/boltai-solo-perpetual-license-revenue.png"
+      },
+      {
+        "topicId": "393cb5da-8a7f-5f93-b169-3a7b01de29e9",
+        "locale": "en",
+        "contentHash": "f11a0ccecec3d45f114b3859356bebd06bb10221cffbb8ab790b3f2f50cc4a5c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/boltai-solo-perpetual-license-revenue.png"
+      },
+      {
+        "topicId": "f9bb501a-9a4c-5c50-8371-3dff2e18f1ed",
+        "locale": "zh",
+        "contentHash": "58c6f7719479abe415078809d910f730e824b05cac7c9e3308b8ed6fb000c3fc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/one-more-shot-ai-music-video-monetization.png"
+      },
+      {
+        "topicId": "f9bb501a-9a4c-5c50-8371-3dff2e18f1ed",
+        "locale": "en",
+        "contentHash": "c13723844a9b6c5741230702925c70d0c80cae4bc93e15b865b445ee5d5e5940",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/one-more-shot-ai-music-video-monetization.png"
+      },
+      {
+        "topicId": "6add4800-bd05-5d69-9fd8-402ba867fb46",
+        "locale": "zh",
+        "contentHash": "fc22b5c14bf0ec475b5ea813ed65df012dcbb00b76a30d3c164d483c0d0ef92e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/johnstons-elgin-cross-border-localization-growth.png"
+      },
+      {
+        "topicId": "6add4800-bd05-5d69-9fd8-402ba867fb46",
+        "locale": "en",
+        "contentHash": "d9e19b06fe800fcf024d9611cadfc4be55b9263ec0ec0a3ed236f1991b522bbc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/johnstons-elgin-cross-border-localization-growth.png"
+      },
+      {
+        "topicId": "7dc084ed-8ba2-51f5-b379-187d990b5307",
+        "locale": "zh",
+        "contentHash": "fd27190de9edf2819cf08ab2687ce0b9bf9fdf56f14eb97d8e0fb495c4918bf2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/un-sea-level-rise-high-level-meeting.png"
+      },
+      {
+        "topicId": "7dc084ed-8ba2-51f5-b379-187d990b5307",
+        "locale": "en",
+        "contentHash": "643f6ea3f040ddf69189e30b6892a8c4b8386e34a7d9671d4782021bee367b9b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/un-sea-level-rise-high-level-meeting.png"
+      },
+      {
+        "topicId": "a98a4040-11fb-57de-9cf4-d0974f787657",
+        "locale": "zh",
+        "contentHash": "38c153bd234bfe6e22b526c46f6c5985d76643c433838725d0b6d6477499970f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/who-expanded-contraceptive-options-guideline.png"
+      },
+      {
+        "topicId": "a98a4040-11fb-57de-9cf4-d0974f787657",
+        "locale": "en",
+        "contentHash": "a01c470751fa859096e5bd6b864d58a6bef3050b1bec328a34cd008640a2356e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/who-expanded-contraceptive-options-guideline.png"
+      },
+      {
+        "topicId": "bf180379-c5cb-5607-a4fa-dec51cfd10fd",
+        "locale": "zh",
+        "contentHash": "62fa4f118433bc00d9a76d36b3c683f3b866a27c0ae00b4658fe0ff1f5d131ae",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/hubble-two-hundred-thousand-orbits-athena.png"
+      },
+      {
+        "topicId": "bf180379-c5cb-5607-a4fa-dec51cfd10fd",
+        "locale": "en",
+        "contentHash": "410fd2ce8c083c87ba610decc60e99f1d6428474f6e02e85e433ab37ee937268",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/hubble-two-hundred-thousand-orbits-athena.png"
+      },
+      {
+        "topicId": "6585803d-8479-53c3-b062-b545c764e003",
+        "locale": "zh",
+        "contentHash": "6bef62bc522b64bf26bddbe35d63dba016bbb32ee7fc8bcc6611b4d341aaea70",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/zh/oecd-interim-outlook-energy-shock-growth.png"
+      },
+      {
+        "topicId": "6585803d-8479-53c3-b062-b545c764e003",
+        "locale": "en",
+        "contentHash": "8e09b8de4d7844b542fb64cc8bb28df764d1ba557e64f9622c3569d648d2fd0c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260924_43ca8ed3166156d20989af80/en/oecd-interim-outlook-energy-shock-growth.png"
+      }
+    ]
+  }
+}
