@@ -1,0 +1,711 @@
+{
+  "issue": {
+    "id": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+    "slug": "2026-09-25",
+    "style": {
+      "name": "Risograph",
+      "zhName": "Riso 孔版印刷视觉",
+      "description": "Style Atlas daily pick: Risograph. Use an original editorial risograph language with a limited set of vivid spot inks, visible halftone dots, gentle registration offsets, tactile uncoated-paper texture, bold flat silhouettes and playful overlapping color fields; do not copy a specific artist or existing print. Every poster keeps one main conclusion and no more than three key facts in 3-5 calm readable modules, with large type, generous spacing and quiet high-contrast text zones. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or operating press, using uneven flowing paper ribbons, ink paths and layered scenes instead of a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-25",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-25T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-24T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+    "topics": [
+      {
+        "id": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "today-overview-ai-opc-app-commerce-health-energy-science-markets",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月25日全球经营雷达",
+            "headlineView": "AI发现、单人经营、付费应用与全球系统风险进入同一张执行图",
+            "headlineFull": "9月25日全球经营雷达；AI发现、单人经营、付费应用与全球系统风险进入同一张执行图",
+            "intro": "1. Anthropic称约950个Claude智能体用21小时筛查DNA，发现具有CRISPR式重复序列的未知酶系统ART。\n2. 新加坡独立创始人Steven Goh用订阅与按量积分销售NinjaPear，自报上线六个月后单月总收入超过1.5万美元。\n3. Payout把AI生成开发与创作者分发结合，创始人自报九个月达到1003227美元年经常性收入。\n4. 英国珠宝品牌Loquet London用本地货币、税费预付与本地支付，让国际收入一年增长82%、订单增长138%。\n5. 联合国今日召开第二次大流行防范高级别会议，重点推进国际卫生条例、流行病协定与公平获得医疗产品。\n6. 联合国启动全球电网加速器，帮助非洲和东南亚把清洁电力项目从排队状态转向可投资、可实施。\n7. 新发现的火焰变形虫能在63摄氏度分裂繁殖，把已知真核生命耐热上限从60摄氏度向上推。\n8. 美国10年期与30年期国债收益率冲上多年高位，油价与再度加息预期共同抬高全球资金成本。",
+            "xiaziQuote": "今天的共同信号是：AI和全球化都必须穿过验证、分发、基础设施与资金成本四道关。",
+            "doudouQuote": "先分清自报收入、真实转化和系统风险，再决定下一步投入。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 25 Global Operator Radar",
+            "headlineView": "AI discovery, solo economics, paid apps and systemic risk move onto one operating map",
+            "headlineFull": "September 25 Global Operator Radar; AI discovery, solo economics, paid apps and systemic risk move onto one operating map",
+            "intro": "1. Anthropic says roughly 950 Claude agents searched DNA for 21 hours and found an uncharacterized enzyme system, ART, with CRISPR-like repeats.\n2. Singapore solo founder Steven Goh sells NinjaPear through subscriptions and usage credits and reports more than $15,000 in gross monthly revenue six months after launch.\n3. Payout pairs AI-generated development with creator distribution and its founders report $1,003,227 in annual recurring revenue after nine months.\n4. UK jewelry brand Loquet London uses local currencies, prepaid duties and local payments to lift international revenue 82% and orders 138% in one year.\n5. The UN convenes its second high-level pandemic-preparedness meeting today, focusing on health rules, the Pandemic Agreement and equitable access to medical products.\n6. The UN launches a Global Grids Accelerator to move clean-power projects in Africa and Southeast Asia from connection queues toward investable delivery.\n7. The newly described fire amoeba divides at 63 degrees Celsius, raising the known heat ceiling for eukaryotic life from 60 degrees.\n8. US 10-year and 30-year Treasury yields reach multiyear highs as oil and renewed rate-hike expectations raise global financing costs.",
+            "xiaziQuote": "Today's shared signal is that AI and globalization must both clear four gates: verification, distribution, infrastructure and cost of capital.",
+            "doudouQuote": "Separate self-reported revenue, real conversion and systemic risk before committing the next dollar.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "22c01fed-4667-5544-ac62-ef4df8639fc7",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "d12775f1-df6d-55f6-8814-d3d275fcfd86",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "Hitting $15k/mo six months after getting sued and acquired",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/hitting-15k-mo-six-months-after-getting-sued-and-acquired-MMWkpCaClOB6wVgbuPI7",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5a787847-b06a-5a08-ae0f-1d358985526c",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "Payout: A Class-Action App Vibe-Coded in 14 Days Reached $1,003,227 ARR in 9 Months",
+            "publisher": "Small Start",
+            "url": "https://small-start.com/en/cases/global-payout-vibe-coded-1m-arr/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "e8ac5a75-e2ec-53fa-9b0b-9d4e2c06ba4a",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "Loquet London",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/loquet-london/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1c283a0e-7a07-5749-a01e-ce93dde9c1c9",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "WHO at the United Nations General Assembly 2026",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/18/default-calendar/who-at-the-united-nations-general-assembly-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6a2fbb52-2594-5159-bc47-eb946f11d829",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "Climate Summit 2026",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/climatechange/climate-summit-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d8182cd1-dc4d-5543-b1a5-8802b4eb0955",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "Pushing Life's Thermal Limits",
+            "publisher": "Syracuse University",
+            "url": "https://artsandsciences.syracuse.edu/biology/news/pushing-lifes-thermal-limits/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "a42cebeb-4710-5da2-aec0-5ab358a46e41",
+            "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+            "title": "Global Markets: Yields elevated as inflation fears keep markets on edge",
+            "publisher": "Reuters via Fidelity",
+            "url": "https://www.fidelity.com/news/article/international/202609241155RTRSNEWSCOMBINED_L1N45G0J4_1",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "d2b90d98-a1c3-5a7b-b5ac-a8319ff85de8",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "claude-agents-discover-art-enzyme-system",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-claude-art-enzyme-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Claude用950个智能体发现未知酶系统",
+            "headlineView": "AI不只总结论文，而是从20万种逆转录酶里提出可进实验室验证的候选",
+            "headlineFull": "Claude用950个智能体发现未知酶系统；AI不只总结论文，而是从20万种逆转录酶里提出可进实验室验证的候选",
+            "intro": "Anthropic称，约950个Claude智能体消耗2.1亿token、连续检索21小时，汇总逾20万种逆转录酶，筛出3500个新候选并最终锁定20个重点。实验室随后验证了一个带CRISPR式重复序列的未知系统ART；它可能与切割、复制或粘贴DNA有关，但主要功能仍未确定，现阶段属于公司团队发布的早期预印本结果。",
+            "xiaziQuote": "真正的变化不是AI写得更快，而是它开始生成能被实验排除或证实的假设。",
+            "doudouQuote": "发现值得关注，但功能未知、预印本与公司自报都意味着还不能跳过复现。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Claude uses 950 agents to find an uncharacterized enzyme system",
+            "headlineView": "AI moves beyond paper summaries to produce laboratory-testable candidates from 200,000 reverse transcriptases",
+            "headlineFull": "Claude uses 950 agents to find an uncharacterized enzyme system; AI moves beyond paper summaries to produce laboratory-testable candidates from 200,000 reverse transcriptases",
+            "intro": "Anthropic says roughly 950 Claude agents used 210 million tokens over 21 hours, gathered more than 200,000 reverse transcriptases, selected 3,500 new candidate systems and narrowed them to 20. Human laboratory work then validated an uncharacterized system, ART, with CRISPR-like repeats. It may relate to cutting, copying or pasting DNA, but its primary function remains unknown and the result is an early company-team preprint.",
+            "xiaziQuote": "The shift is not faster writing; it is AI generating hypotheses that experiments can reject or confirm.",
+            "doudouQuote": "The discovery matters, but unknown function, preprint status and company reporting still require replication.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "2abf52d3-c058-53c3-bd0b-df19797edb8b",
+            "topicId": "d2b90d98-a1c3-5a7b-b5ac-a8319ff85de8",
+            "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "98633bc0-10f1-54cf-87f7-27202f0f07c7",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "ninjapear-solo-b2b-data-fifteen-thousand-month",
+        "rank": 3,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "SG"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-ninjapear-solo-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "NinjaPear独立创始人自报月营收超1.5万美元",
+            "headlineView": "把二十年行业经验、已有受众与实时AI研究API压进一个人的经营闭环",
+            "headlineFull": "NinjaPear独立创始人自报月营收超1.5万美元；把二十年行业经验、已有受众与实时AI研究API压进一个人的经营闭环",
+            "intro": "Steven Goh以全职独立创始人运营NinjaPear，向销售、招聘与投资团队出售B2B公司情报和数据补全API，收费采用更便宜的订阅积分与按量充值。产品用LLM实时研究公开网络，邮件触达其2万多订阅者，并靠保留域名的SEO和Reddit获客；他自报上线六个月后上月总收入超过1.5万美元且已盈利。服务器、数据与模型仍需自己维护，实时结果偏慢带来流失；收入、利润和客户结构均未审计。",
+            "xiaziQuote": "AI把开发压短到两周，但真正的杠杆是行业经验、已有分发和可控数据源。",
+            "doudouQuote": "这是创始人自报的毛收入下限；速度、流失和合规仍决定它能否持续。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "NinjaPear's solo founder reports more than $15K in monthly revenue",
+            "headlineView": "Twenty years of domain experience, an owned audience and a real-time AI research API form a one-person operating loop",
+            "headlineFull": "NinjaPear's solo founder reports more than $15K in monthly revenue; Twenty years of domain experience, an owned audience and a real-time AI research API form a one-person operating loop",
+            "intro": "Steven Goh runs NinjaPear as a full-time solo founder, selling B2B company-intelligence and enrichment APIs to sales, recruiting and investment teams through discounted subscription credits and pay-as-you-go top-ups. The product uses LLMs to research the public web in real time; acquisition comes from a 20,000-plus newsletter, SEO on a retained domain and Reddit. He reports more than $15,000 in gross revenue in the prior month and profitability six months after launch. He still owns operations, servers and data quality, while slower live research drives churn; revenue, profit and customer mix are unaudited.",
+            "xiaziQuote": "AI compressed the build to two weeks, but domain experience, owned distribution and controllable data created the leverage.",
+            "doudouQuote": "This is a founder-reported gross-revenue floor; speed, churn and compliance still determine durability.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "6cf31792-791e-5779-8e11-071ad7c94b87",
+            "topicId": "98633bc0-10f1-54cf-87f7-27202f0f07c7",
+            "title": "Hitting $15k/mo six months after getting sued and acquired",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/hitting-15k-mo-six-months-after-getting-sued-and-acquired-MMWkpCaClOB6wVgbuPI7",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ee3aed32-2106-580b-9746-a2b2dabab807",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "payout-ai-built-class-action-app-one-million-arr",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-payout-ai-app-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Payout用AI两周开发，自报ARR超100万美元",
+            "headlineView": "代码成本极低，真正的商业引擎却是订阅定价、创作者分发与高意图搜索",
+            "headlineFull": "Payout用AI两周开发，自报ARR超100万美元；代码成本极低，真正的商业引擎却是订阅定价、创作者分发与高意图搜索",
+            "intro": "Payout帮助美国消费者发现可申领的集体诉讼和解金，以每周9.99美元或每年39.99美元订阅。团队称Claude Code与Cursor在14天内完成首版，初期获得17000名用户、1750份付费订阅和30017美元收入；2026年5月创始人展示的仪表盘为1003227美元ARR、83602美元MRR。增长依靠拥有千万级受众的股权合作伙伴、每千次观看1至2美元的创作者激励与Apple搜索广告。所有收入均为创始人披露，留存、流失、广告成本与净利润未确认。",
+            "xiaziQuote": "AI降低了做出产品的门槛，拥有分发和能被持续付费的场景才把它变成生意。",
+            "doudouQuote": "ARR不是利润；周订阅的留存、创作者成本和合规边界必须继续核验。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Payout was built with AI in 14 days and reports more than $1M ARR",
+            "headlineView": "Code cost was tiny, but subscription pricing, creator distribution and high-intent search powered the business",
+            "headlineFull": "Payout was built with AI in 14 days and reports more than $1M ARR; Code cost was tiny, but subscription pricing, creator distribution and high-intent search powered the business",
+            "intro": "Payout helps US consumers find class-action settlements they may claim and charges $9.99 weekly or $39.99 annually. The team says Claude Code and Cursor produced the first version in 14 days; its early run brought 17,000 users, 1,750 paid subscriptions and $30,017 in revenue. A founder-shared dashboard showed $1,003,227 ARR and $83,602 MRR in May 2026. Growth used an equity partner with a 10-million-plus audience, creator incentives of $1-$2 per thousand views and Apple Search Ads. All revenue is founder-disclosed; retention, churn, acquisition cost and net profit remain unconfirmed.",
+            "xiaziQuote": "AI lowered the cost of making the product; owned distribution and a recurring paid job turned it into a business.",
+            "doudouQuote": "ARR is not profit; weekly-subscription retention, creator costs and legal boundaries still need verification.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "975897fb-3bf9-5084-a953-60c07a8b40a1",
+            "topicId": "ee3aed32-2106-580b-9746-a2b2dabab807",
+            "title": "Payout: A Class-Action App Vibe-Coded in 14 Days Reached $1,003,227 ARR in 9 Months",
+            "publisher": "Small Start",
+            "url": "https://small-start.com/en/cases/global-payout-vibe-coded-1m-arr/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3bc3d930-d6b8-518f-87f9-eff27d43f4d2",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "loquet-london-cross-border-localization-revenue-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "GB",
+          "US",
+          "NL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-loquet-cross-border-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Loquet跨境收入一年增长82%",
+            "headlineView": "高客单珠宝的增长来自税费透明、本地支付和交付承诺，而不是只把页面翻译一遍",
+            "headlineFull": "Loquet跨境收入一年增长82%；高客单珠宝的增长来自税费透明、本地支付和交付承诺，而不是只把页面翻译一遍",
+            "intro": "英国精品珠宝品牌Loquet London面向全球销售定制吊坠与珠宝，但仅支持三种货币、支付方式有限，关税不透明还迫使部分顾客电话下单。接入Global-e后，站点支持本地货币与语言、税费预付、150多种支付方式、免费快递与简化退货；案例方称一年内国际转化率增长110%、订单增长138%、收入增长82%。美国贡献一半国际销售，荷兰65%顾客选择Klarna或iDeal。绝对收入、履约成本和利润率未披露，免费快递与退货仍是主要成本风险。",
+            "xiaziQuote": "跨境赚钱不是流量搬运，而是把价格、税费、支付和退货做得像本地购买。",
+            "doudouQuote": "增长数据来自服务商案例；下一步要看绝对收入、毛利和退货后的净贡献。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Loquet grows cross-border revenue 82% in one year",
+            "headlineView": "High-ticket jewelry grows through transparent duties, local payments and delivery promises, not translation alone",
+            "headlineFull": "Loquet grows cross-border revenue 82% in one year; High-ticket jewelry grows through transparent duties, local payments and delivery promises, not translation alone",
+            "intro": "UK fine-jewelry brand Loquet London sells bespoke lockets and jewelry worldwide, but supported only three currencies, offered few payment methods and left duties unclear, pushing some shoppers to order by phone. After adding localized currencies and languages, prepaid duties, more than 150 payment methods, free express shipping and simpler returns through Global-e, the case provider reports international conversion up 110%, orders up 138% and revenue up 82% in one year. The US supplies half of international sales, while 65% of Dutch shoppers use Klarna or iDeal. Absolute revenue, fulfillment cost and margin are undisclosed; free shipping and returns remain core cost risks.",
+            "xiaziQuote": "Cross-border profit comes from making price, duties, payment and returns feel local, not merely translating pages.",
+            "doudouQuote": "The growth figures come from the service provider; absolute revenue, margin and post-return contribution still matter.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "2ffd9eeb-a286-526a-bdb4-4381baa02726",
+            "topicId": "3bc3d930-d6b8-518f-87f9-eff27d43f4d2",
+            "title": "Loquet London",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/loquet-london/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2b460156-5264-5811-883e-5e6971c4ab61",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "un-second-pandemic-preparedness-high-level-meeting",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-un-pandemic-preparedness-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "联合国今日召开第二次大流行防范高级别会议",
+            "headlineView": "议题从宣言走向规则生效、病原体共享、公平供应与可持续融资",
+            "headlineFull": "联合国今日召开第二次大流行防范高级别会议；议题从宣言走向规则生效、病原体共享、公平供应与可持续融资",
+            "intro": "各国领导人、部长、国际组织、学界、企业与民间团体将于9月25日在纽约复盘2023年政治宣言后的进展。会议预计推动强化后的《国际卫生条例》落实、WHO《大流行协定》生效、病原体获取与惠益分享附件谈判，以及监测预警、疫苗诊断药物公平供应和可持续融资。近期埃博拉、猴痘、霍乱和汉坦病毒事件说明工具虽已增加，执行能力与资金缺口仍在。",
+            "xiaziQuote": "真正的准备不是再写一份宣言，而是让规则、资金、供应链和一线能力同时可用。",
+            "doudouQuote": "今天看承诺，后续更要看协定何时生效、谁出钱、谁能及时拿到产品。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "The UN convenes its second high-level pandemic-preparedness meeting today",
+            "headlineView": "The agenda moves from declarations toward rules, pathogen sharing, equitable supply and sustainable finance",
+            "headlineFull": "The UN convenes its second high-level pandemic-preparedness meeting today; The agenda moves from declarations toward rules, pathogen sharing, equitable supply and sustainable finance",
+            "intro": "Heads of state, ministers, international organizations, researchers, businesses and civil society meet in New York on September 25 to review progress since the 2023 political declaration. The meeting is expected to advance implementation of strengthened International Health Regulations, entry into force of the WHO Pandemic Agreement, negotiation of its pathogen-access and benefit-sharing annex, stronger surveillance, equitable access to vaccines, diagnostics and therapeutics, and sustainable finance. Recent Ebola, mpox, cholera and hantavirus events show that tools have improved while execution and funding gaps remain.",
+            "xiaziQuote": "Preparedness is not another declaration; rules, finance, supply chains and frontline capability must work together.",
+            "doudouQuote": "Watch when the agreement enters force, who pays and who receives products on time after today's commitments.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "888956fc-11ca-5bcb-a4fd-9d0c2e9dcde4",
+            "topicId": "2b460156-5264-5811-883e-5e6971c4ab61",
+            "title": "WHO at the United Nations General Assembly 2026",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/18/default-calendar/who-at-the-united-nations-general-assembly-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "5201b492-7579-54bc-b645-4699c176605b",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "un-global-grids-accelerator-africa-southeast-asia",
+        "rank": 7,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-global-grids-accelerator-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "能源转型",
+            "headlineFact": "联合国启动全球电网加速器",
+            "headlineView": "可再生能源扩张的瓶颈正从发电转向输电、并网、项目准备与融资",
+            "headlineFull": "联合国启动全球电网加速器；可再生能源扩张的瓶颈正从发电转向输电、并网、项目准备与融资",
+            "intro": "联合国秘书长在气候峰会期间启动Global Grids Accelerator，先聚焦非洲与东南亚，由政府确定优先电网项目，再把政策、项目准备、融资和执行支持组合起来。UNCTAD称全球用电需求增速已超过总能源需求两倍，全球有逾2500吉瓦可再生能源与储能项目排队等待并网；到2030年，每年新增用电需求相当于一个日本。计划设定从COP31延伸至2027年的里程碑，但具体资金规模、项目名单与落地速度仍待披露。",
+            "xiaziQuote": "新能源不缺发电故事，真正稀缺的是把电送出去并让项目获得融资的电网能力。",
+            "doudouQuote": "加速器只是起点；要盯项目清单、资本成本、开工率和新增并网容量。",
+            "footerTakeaway": "今日关键词：能源转型。"
+          },
+          "en-US": {
+            "categoryLabel": "Energy Transition",
+            "headlineFact": "The UN launches a Global Grids Accelerator",
+            "headlineView": "The renewable bottleneck shifts from generation to transmission, connection, project preparation and finance",
+            "headlineFull": "The UN launches a Global Grids Accelerator; The renewable bottleneck shifts from generation to transmission, connection, project preparation and finance",
+            "intro": "The UN Secretary-General launched the Global Grids Accelerator during Climate Summit week, initially focusing on Africa and Southeast Asia. Governments identify priority grid projects, while partners combine policy expertise, project preparation, finance and implementation support. UNCTAD says electricity demand is growing more than twice as fast as total energy demand and more than 2,500 gigawatts of renewable and storage projects are waiting in grid queues; by 2030, annual demand growth will equal Japan's electricity use. Milestones extend through COP31 and 2027, but funding, project lists and delivery speed remain undisclosed.",
+            "xiaziQuote": "Renewables do not lack generation stories; the scarce asset is grid capacity that delivers power and attracts finance.",
+            "doudouQuote": "The accelerator is a start; track project lists, cost of capital, construction rates and new connected capacity.",
+            "footerTakeaway": "Keyword: Energy Transition."
+          }
+        },
+        "sources": [
+          {
+            "id": "29820c53-d380-5c9d-91da-349e05206f89",
+            "topicId": "5201b492-7579-54bc-b645-4699c176605b",
+            "title": "Climate Summit 2026",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/climatechange/climate-summit-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3419e610-9eac-5752-a096-4747951dc51f",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "fire-amoeba-sixty-three-celsius-eukaryote-record",
+        "rank": 8,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-fire-amoeba-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生命科学",
+            "headlineFact": "火焰变形虫把真核生命耐热上限推至63℃",
+            "headlineView": "复杂细胞在高温中的边界被改写，也扩大了地外生命与耐热蛋白研究空间",
+            "headlineFull": "火焰变形虫把真核生命耐热上限推至63℃；复杂细胞在高温中的边界被改写，也扩大了地外生命与耐热蛋白研究空间",
+            "intro": "研究团队从美国拉森火山国家公园温泉分离出Incendiamoeba cascadensis。它能在63℃进行有丝分裂，超过此前少数真菌与红藻保持的60℃真核生物繁殖纪录；在64℃仍可移动，短时暴露70℃后还能恢复。基因组显示蛋白稳态、基因组稳定和环境感知相关机制富集。它仍是单细胞变形虫，不能据此推断人类或其他复杂生物可耐受相同温度，但结果扩大了已知真核生命边界。",
+            "xiaziQuote": "科学突破常来自把旧上限当成待验证假设，而不是不可跨越的墙。",
+            "doudouQuote": "63℃记录属于这种单细胞真核生物，不能外推到人类或整个生态系统。",
+            "footerTakeaway": "今日关键词：生命科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Life Science",
+            "headlineFact": "A fire amoeba raises the eukaryotic heat ceiling to 63°C",
+            "headlineView": "The limit for complex cells shifts upward, widening questions in astrobiology and heat-stable proteins",
+            "headlineFull": "A fire amoeba raises the eukaryotic heat ceiling to 63°C; The limit for complex cells shifts upward, widening questions in astrobiology and heat-stable proteins",
+            "intro": "Researchers isolated Incendiamoeba cascadensis from hot springs in California's Lassen Volcanic National Park. It undergoes mitosis at 63°C, above the previous 60°C reproduction record held by a few fungi and red algae; it still moves at 64°C and can recover after brief exposure to 70°C. Its genome is enriched for mechanisms tied to protein homeostasis, genome stability and environmental sensing. It remains a single-celled amoeba, so the record does not imply that humans or other complex organisms can tolerate the same heat, but it expands the known boundary of eukaryotic life.",
+            "xiaziQuote": "Scientific breakthroughs often come from treating an old ceiling as a testable hypothesis, not an unbreakable wall.",
+            "doudouQuote": "The 63°C record belongs to this single-celled eukaryote and cannot be generalized to humans or whole ecosystems.",
+            "footerTakeaway": "Keyword: Life Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "bd9ee5d3-fc6b-53b0-869d-753716c9691f",
+            "topicId": "3419e610-9eac-5752-a096-4747951dc51f",
+            "title": "Pushing Life's Thermal Limits",
+            "publisher": "Syracuse University",
+            "url": "https://artsandsciences.syracuse.edu/biology/news/pushing-lifes-thermal-limits/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "5d309787-80d4-5ef9-b209-02a6d50b8c33",
+        "issueId": "49fbdf44-602e-5ba9-8597-9361c23c3953",
+        "slug": "treasury-yields-oil-rate-hike-global-financing-costs",
+        "rank": 9,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-global-yields-oil-20260925",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球市场",
+            "headlineFact": "美债收益率与油价共同抬高资金成本",
+            "headlineView": "通胀、能源与再度加息预期，把增长型企业重新拉回现金流与融资纪律",
+            "headlineFull": "美债收益率与油价共同抬高资金成本；通胀、能源与再度加息预期，把增长型企业重新拉回现金流与融资纪律",
+            "intro": "9月24日，美国10年期国债收益率盘中触及5.1497%，为2007年以来最高；30年期一度升至5.4461%，创2004年以来高位。强于预期的商业活动与近四年最快的投入价格升幅推动市场重估通胀，联邦基金期货对下月加息的定价从约53%升至66%。与此同时，美伊谈判进展有限令油价上涨约2%。债券收益率上升会提高企业借贷与估值折现率，油价又推高运输和生产成本；数字为盘中市场数据，仍会波动。",
+            "xiaziQuote": "当无风险利率和能源成本一起上升，收入增长必须更快变成可见现金流。",
+            "doudouQuote": "别把盘中高点当成长期定局，但融资、库存和投放预算都该做压力测试。",
+            "footerTakeaway": "今日关键词：全球市场。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Markets",
+            "headlineFact": "Treasury yields and oil jointly raise the cost of capital",
+            "headlineView": "Inflation, energy and renewed rate-hike expectations push growth businesses back toward cash-flow discipline",
+            "headlineFull": "Treasury yields and oil jointly raise the cost of capital; Inflation, energy and renewed rate-hike expectations push growth businesses back toward cash-flow discipline",
+            "intro": "On September 24, the US 10-year Treasury yield reached 5.1497%, its highest since 2007, while the 30-year yield touched 5.4461%, the highest since 2004. Stronger business activity and the fastest rise in input prices in nearly four years led markets to reprice inflation, lifting the implied probability of a rate hike next month from about 53% to 66%. Oil rose roughly 2% as US-Iran talks made little progress. Higher yields increase borrowing costs and valuation discount rates, while oil raises transport and production costs; these are intraday market readings and remain volatile.",
+            "xiaziQuote": "When risk-free rates and energy costs rise together, revenue growth must turn into visible cash flow sooner.",
+            "doudouQuote": "Do not treat intraday peaks as permanent, but stress-test financing, inventory and acquisition budgets now.",
+            "footerTakeaway": "Keyword: Global Markets."
+          }
+        },
+        "sources": [
+          {
+            "id": "b2121ed3-6dce-5d51-92ed-b16f609e3988",
+            "topicId": "5d309787-80d4-5ef9-b209-02a6d50b8c33",
+            "title": "Global Markets: Yields elevated as inflation fears keep markets on edge",
+            "publisher": "Reuters via Fidelity",
+            "url": "https://www.fidelity.com/news/article/international/202609241155RTRSNEWSCOMBINED_L1N45G0J4_1",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260925_765b0e218561ed476fbdcff4"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-25",
+    "releaseId": "rel_20260925_765b0e218561ed476fbdcff4",
+    "assetBatchId": "asset_prod_20260925_765b0e218561ed476fbdcff4",
+    "posters": [
+      {
+        "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+        "locale": "zh",
+        "contentHash": "b506cb69c5a05025539798b341b714d32daa9f69142b694915cadedfe3d62a82",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/today-overview-ai-opc-app-commerce-health-energy-science-markets.png"
+      },
+      {
+        "topicId": "53d60c3a-405a-5e2d-bc12-cc9fce605c19",
+        "locale": "en",
+        "contentHash": "10b314898caf4d9b12e6cc8132c2b4b0099dcf1c781fa9abeabd316f995d1372",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/today-overview-ai-opc-app-commerce-health-energy-science-markets.png"
+      },
+      {
+        "topicId": "d2b90d98-a1c3-5a7b-b5ac-a8319ff85de8",
+        "locale": "zh",
+        "contentHash": "3af51e895cbe76cb76db7c079799da3138141703a27a3f9a1f39931dd6202464",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/claude-agents-discover-art-enzyme-system.png"
+      },
+      {
+        "topicId": "d2b90d98-a1c3-5a7b-b5ac-a8319ff85de8",
+        "locale": "en",
+        "contentHash": "b659086e1bcb62477ef6e5429c15f58647bd1c2937664cee5af7fe2c01bca986",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/claude-agents-discover-art-enzyme-system.png"
+      },
+      {
+        "topicId": "98633bc0-10f1-54cf-87f7-27202f0f07c7",
+        "locale": "zh",
+        "contentHash": "797887e1ef140309bcfa7fda95bfcb4354f2e688846d9347c11f24f5543bed06",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/ninjapear-solo-b2b-data-fifteen-thousand-month.png"
+      },
+      {
+        "topicId": "98633bc0-10f1-54cf-87f7-27202f0f07c7",
+        "locale": "en",
+        "contentHash": "b9c4473f4eec7c387e6d898267f8415b9d5e0506941a76b96e2a78dd66a604e7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/ninjapear-solo-b2b-data-fifteen-thousand-month.png"
+      },
+      {
+        "topicId": "ee3aed32-2106-580b-9746-a2b2dabab807",
+        "locale": "zh",
+        "contentHash": "b560482fd15d790d8a5430f8621f6814480f05f614cfbb7764cd47b35c7671f2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/payout-ai-built-class-action-app-one-million-arr.png"
+      },
+      {
+        "topicId": "ee3aed32-2106-580b-9746-a2b2dabab807",
+        "locale": "en",
+        "contentHash": "3a3813800c69f9ac8d864dffcd13d177d232bd293c4bfb0f3237a7eaa2ccbb9f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/payout-ai-built-class-action-app-one-million-arr.png"
+      },
+      {
+        "topicId": "3bc3d930-d6b8-518f-87f9-eff27d43f4d2",
+        "locale": "zh",
+        "contentHash": "a696635dcc5d88d0ca9680bac844f4469f2004b35a935d5c01a4dfa647620398",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/loquet-london-cross-border-localization-revenue-growth.png"
+      },
+      {
+        "topicId": "3bc3d930-d6b8-518f-87f9-eff27d43f4d2",
+        "locale": "en",
+        "contentHash": "4df232a320e5321deed1e9e51826ceaa43e6bd2901c818be5fcbdcc06de203d1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/loquet-london-cross-border-localization-revenue-growth.png"
+      },
+      {
+        "topicId": "2b460156-5264-5811-883e-5e6971c4ab61",
+        "locale": "zh",
+        "contentHash": "30ba755689d6c2dd9c73d6e069e5650f5901d4c6ef408fb784c56ceb52a480c3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/un-second-pandemic-preparedness-high-level-meeting.png"
+      },
+      {
+        "topicId": "2b460156-5264-5811-883e-5e6971c4ab61",
+        "locale": "en",
+        "contentHash": "32a95f3fe58fe7fa3c49b6691f40bc62dfe3418ac516d09d786f61b3eea39e8e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/un-second-pandemic-preparedness-high-level-meeting.png"
+      },
+      {
+        "topicId": "5201b492-7579-54bc-b645-4699c176605b",
+        "locale": "zh",
+        "contentHash": "3006b40f591d486f1648a6615fa0020a287aa4d7f2c316f834f20f227c051ab0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/un-global-grids-accelerator-africa-southeast-asia.png"
+      },
+      {
+        "topicId": "5201b492-7579-54bc-b645-4699c176605b",
+        "locale": "en",
+        "contentHash": "e2df6070288d5eb9b4252501573d4e6c730af1bf1e396e0c6eb70b91173fdf17",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/un-global-grids-accelerator-africa-southeast-asia.png"
+      },
+      {
+        "topicId": "3419e610-9eac-5752-a096-4747951dc51f",
+        "locale": "zh",
+        "contentHash": "031d62183360afd63a1e6bbf8c57a1381ab6295faec912a7a1d0f593336e6d8d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/fire-amoeba-sixty-three-celsius-eukaryote-record.png"
+      },
+      {
+        "topicId": "3419e610-9eac-5752-a096-4747951dc51f",
+        "locale": "en",
+        "contentHash": "2d995e7e211aa7abae938471e929d50e97bcaeddeedad0c68b442a7029e74757",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/fire-amoeba-sixty-three-celsius-eukaryote-record.png"
+      },
+      {
+        "topicId": "5d309787-80d4-5ef9-b209-02a6d50b8c33",
+        "locale": "zh",
+        "contentHash": "4db669a9c6b619ac9cd970be771daac47dabb6ca94c66e2fcd19f4db8da86450",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/zh/treasury-yields-oil-rate-hike-global-financing-costs.png"
+      },
+      {
+        "topicId": "5d309787-80d4-5ef9-b209-02a6d50b8c33",
+        "locale": "en",
+        "contentHash": "33ee5f9004b682ac2d27d79b3b490c6d72b91bedf2255d5ebf9d6b0c8451e326",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260925_765b0e218561ed476fbdcff4/en/treasury-yields-oil-rate-hike-global-financing-costs.png"
+      }
+    ]
+  }
+}
