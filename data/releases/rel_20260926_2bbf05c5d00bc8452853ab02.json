@@ -1,0 +1,737 @@
+{
+  "issue": {
+    "id": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+    "slug": "2026-09-26",
+    "style": {
+      "name": "Cyanotype",
+      "zhName": "蓝晒",
+      "description": "Style Atlas daily pick: Cyanotype. Use an original editorial cyanotype language built from deep Prussian-blue exposure fields, pale photographic silhouettes, botanical and technical blueprint traces, translucent layered negatives, hand-brushed borders and quiet paper grain; do not imitate a specific existing artwork. Every poster keeps one main conclusion and no more than three key facts in 3-5 calm readable modules, with large type, generous spacing and broad pale low-texture text zones. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central glowing globe or exposure table, using uneven flowing light trails, film strips and layered silhouettes instead of a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-26",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-26T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-25T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+    "topics": [
+      {
+        "id": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "today-overview-ai-opc-app-commerce-health-justice-security-space",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月26日全球经营雷达",
+            "headlineView": "AI规则、单人经营、跨境交易与公共系统进入同一张风险底片",
+            "headlineFull": "9月26日全球经营雷达；AI规则、单人经营、跨境交易与公共系统进入同一张风险底片",
+            "intro": "1. 据报道，Google、OpenAI与Anthropic正筹建暂名SAFA的前沿AI标准机构，计划推动发布前测试与共同安全规则。\n2. Zigpoll创始人Jason Zigelbaum称自己无合伙人、无融资、无销售团队，把客户反馈SaaS做到12.5万美元月经常性收入。\n3. Comp AI创始人自报ARR达800万美元，而其Stripe连接数据同时显示近30天收款70.4万美元与1.25万美元订阅MRR，口径差异仍待解释。\n4. 瑞士运动品牌On通过全球支付优化把转化率提高0.85个百分点，一年多完成7.1万笔额外成功交易。\n5. WHO把避孕器械、结核病AI筛查软件和包皮环切器械纳入扩大的医疗器械预认证体系。\n6. 第15届联合国预防犯罪和刑事司法大会今日在阿布扎比开幕，讨论数字时代的法治与跨境犯罪协作。\n7. 新《削减战略武器条约》到期且无后继安排后，美俄战略核武库首次自20世纪70年代以来失去双方商定的数量限制。\n8. NASA选定PRIMA进入下一阶段，这台远红外望远镜若最终确认将于2033年发射，项目成本上限12亿美元。",
+            "xiaziQuote": "今天的共同信号是：越强的能力、越快的交易，越需要把标准、证据和边界一起设计。",
+            "doudouQuote": "先区分报道、公司自报、真实收款和正式生效，再决定投入。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 26 Global Operator Radar",
+            "headlineView": "AI rules, solo economics, cross-border transactions and public systems share one risk negative",
+            "headlineFull": "September 26 Global Operator Radar; AI rules, solo economics, cross-border transactions and public systems share one risk negative",
+            "intro": "1. Google, OpenAI and Anthropic are reportedly shaping a frontier-AI standards body tentatively called SAFA to support pre-release testing and shared safety rules.\n2. Zigpoll founder Jason Zigelbaum says he has no cofounder, funding or sales team and has grown the customer-feedback SaaS to $125,000 in monthly recurring revenue.\n3. Comp AI's founder reports $8 million ARR, while connected Stripe data simultaneously shows $704,000 collected in 30 days and $12,500 in subscription MRR, leaving the revenue mix unresolved.\n4. Swiss sports brand On says global payment optimization lifted conversion 0.85 percentage points and produced 71,000 additional successful transactions in one year.\n5. WHO expands medical-device prequalification to cover contraceptive devices, AI-assisted TB screening software and male-circumcision devices.\n6. The 15th UN Crime Congress opens in Abu Dhabi today to address rule of law and cross-border crime cooperation in the digital age.\n7. With New START expired and no successor, US and Russian strategic nuclear arsenals face no bilaterally agreed numerical limits for the first time since the 1970s.\n8. NASA advances PRIMA, a far-infrared telescope targeted for a 2033 launch with a $1.2 billion project cost cap if finally confirmed.",
+            "xiaziQuote": "The stronger the capability and the faster the transaction, the more standards, evidence and boundaries must be designed together.",
+            "doudouQuote": "Separate reporting, company claims, real collections and rules in force before committing resources.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "a311331b-4e31-5953-b859-86fd9d786873",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "AI labs name a self-regulator: the Standards Authority for Frontier AI",
+            "publisher": "Sovereign Magazine",
+            "url": "https://www.sovereignmagazine.com/article/standards-authority-frontier-ai-safa-krishnan",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "31508727-1083-5cbf-a7b4-dbb42c2b511b",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "Hitting $125k MRR as a solo founder by doubling down on the right segment",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "7b5ac317-9b40-565a-bba2-77f613cf4d8e",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "Comp AI: Inside Its Rise From Launch to $8 Million ARR",
+            "publisher": "WebTribunal",
+            "url": "https://webtribunal.net/comp-ai-growth/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "2c539d28-697d-58d4-9dd2-999152af6ba5",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "On: Scaling Retail Payments with Adyen",
+            "publisher": "Adyen",
+            "url": "https://www.adyen.com/en_AU/knowledge-hub/on-running-case-study",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "2544242b-3ed2-56f3-a00c-4bd17d4391a8",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "WHO announces expansion of prequalification programme for medical devices",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/philippines/news/detail-global/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "793c61e7-186e-5215-8e8d-00ae18622f5f",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "15th United Nations Congress on Crime Prevention and Criminal Justice",
+            "publisher": "United Nations",
+            "url": "https://indico.un.org/event/1020655/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "aafeb894-ed31-5a71-bd32-be62d759ccb2",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "International Day for the Total Elimination of Nuclear Weapons",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/node/98419",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "e1ee3ada-2245-5479-86e5-ecc0eaee15fb",
+            "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+            "title": "NASA Selects Far-Infrared Telescope as First in New Mission Class",
+            "publisher": "NASA",
+            "url": "https://explorers.larc.nasa.gov/2023APPROBE/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "15e49370-0ce8-5d5c-84ef-2c39f236afc9",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "frontier-ai-labs-safa-standards-body-reported",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-safa-ai-standards-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "三家AI巨头据报正筹建前沿模型标准机构",
+            "headlineView": "共同测试规则正在成形，但独立性、治理与强制力尚未定案",
+            "headlineFull": "三家AI巨头据报正筹建前沿模型标准机构；共同测试规则正在成形，但独立性、治理与强制力尚未定案",
+            "intro": "据The Information报道，Google、OpenAI与Anthropic正在筹建一个行业主导的前沿AI标准机构，暂名Standards Authority for Frontier AI（SAFA），目标是在2026年底或2027年初启动。讨论方向包括发布前模型测试、共同安全标准与科学顾问参与；报道提到METR创始人Beth Barnes和OpenAI基金会董事Paul Christiano等潜在人选。这仍是筹备中的报道，三家公司尚未正式联合宣布，资金来源、治理独立性、测试结果是否公开以及不合格模型能否被约束都未确认。",
+            "xiaziQuote": "共同测试可以降低重复成本，但标准是否可信取决于谁出钱、谁审计、谁公开结果。",
+            "doudouQuote": "把暂定名称和目标日期当作筹备信号，不要当作已经生效的监管制度。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Three AI labs reportedly shape a frontier-model standards body",
+            "headlineView": "Shared testing rules are taking form, but independence, governance and enforcement remain unresolved",
+            "headlineFull": "Three AI labs reportedly shape a frontier-model standards body; Shared testing rules are taking form, but independence, governance and enforcement remain unresolved",
+            "intro": "The Information reports that Google, OpenAI and Anthropic are assembling an industry-led frontier-AI standards organization tentatively called the Standards Authority for Frontier AI, or SAFA, with a possible late-2026 or early-2027 launch. Discussions reportedly include pre-release model testing, shared safety standards and scientific advisers, with METR founder Beth Barnes and OpenAI Foundation director Paul Christiano among possible names. This remains a reported proposal rather than a joint formal launch; funding, governance independence, publication of test results and consequences for failed models are unconfirmed.",
+            "xiaziQuote": "Shared testing can reduce duplicated effort, but credibility depends on who funds, audits and publishes the results.",
+            "doudouQuote": "Treat the tentative name and target date as planning signals, not regulation already in force.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "23387500-975e-5d58-8562-0098424038ba",
+            "topicId": "15e49370-0ce8-5d5c-84ef-2c39f236afc9",
+            "title": "AI labs name a self-regulator: the Standards Authority for Frontier AI",
+            "publisher": "Sovereign Magazine",
+            "url": "https://www.sovereignmagazine.com/article/standards-authority-frontier-ai-safa-krishnan",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d59ed51b-6eb9-5231-a4aa-5083ec546660",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "zigpoll-solo-founder-one-hundred-twenty-five-thousand-mrr",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-zigpoll-solo-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Zigpoll单人经营做到12.5万美元MRR",
+            "headlineView": "围绕电商客户反馈深耕细分市场，让订阅增长快于一个人的成本基座",
+            "headlineFull": "Zigpoll单人经营做到12.5万美元MRR；围绕电商客户反馈深耕细分市场，让订阅增长快于一个人的成本基座",
+            "intro": "Jason Zigelbaum称自己无合伙人、无融资、无销售团队，全职单人运营Zigpoll，为电商品牌和SaaS团队提供购买后、退出意图与转化调查。产品按每月收集的回复数量分层订阅，通过应用市场、口碑与生成式搜索曝光获客；他自报2026年初ARR约103万美元，6月底MRR约12.5万美元、年化约150万美元，上半年增长约44%。主要成本是基础设施、经营工具和少量付费获客，小型电商品牌停业或季节性暂停会带来流失；收入与利润率均为创始人自报，未审计。",
+            "xiaziQuote": "一人公司真正的杠杆不是多做功能，而是找到会自然扩张的客户群并持续追问原因。",
+            "doudouQuote": "高MRR仍要和流失、渠道依赖及创始人单点风险一起看。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Zigpoll reaches $125K MRR as a solo operation",
+            "headlineView": "A narrow ecommerce-feedback segment lets subscription growth outrun a one-person cost base",
+            "headlineFull": "Zigpoll reaches $125K MRR as a solo operation; A narrow ecommerce-feedback segment lets subscription growth outrun a one-person cost base",
+            "intro": "Jason Zigelbaum says he runs Zigpoll full time with no cofounder, outside funding or sales team, selling post-purchase, exit-intent and conversion surveys to ecommerce brands and SaaS teams. Monthly subscriptions are tiered by survey responses, while app marketplaces, word of mouth and generative-search visibility compound acquisition. He reports roughly $1.03 million ARR at the start of 2026 and about $125,000 MRR by late June, a $1.5 million run rate and roughly 44% first-half growth. Costs include infrastructure, business tools and some paid acquisition; closures and seasonality among small brands create churn. Revenue and margins are founder-reported and unaudited.",
+            "xiaziQuote": "The solo-company leverage is not more features; it is finding customers who naturally expand and repeatedly asking why.",
+            "doudouQuote": "High MRR still needs to be read alongside churn, channel dependence and founder concentration risk.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "1eb9ac88-1870-5524-827e-70f69db89714",
+            "topicId": "d59ed51b-6eb9-5231-a4aa-5083ec546660",
+            "title": "Hitting $125k MRR as a solo founder by doubling down on the right segment",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2e8c3c6d-d528-55f9-961d-a411f02a9fb2",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "comp-ai-eight-million-arr-stripe-collections-gap",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-comp-ai-revenue-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Comp AI近30天Stripe收款70.4万美元",
+            "headlineView": "AI代理把合规材料、证据和控制监测变成可收费交付，但ARR口径仍需拆开看",
+            "headlineFull": "Comp AI近30天Stripe收款70.4万美元；AI代理把合规材料、证据和控制监测变成可收费交付，但ARR口径仍需拆开看",
+            "intro": "Comp AI向软件公司销售SOC 2等合规与安全平台，让AI代理收集证据、起草政策、生成风险记录并持续监测控制。创始人自报17个月达到800万美元ARR和1000多名客户；其连接TrustMRR的Stripe账户截至9月16日显示累计收款约531.8万美元、近30天收款70.4万美元，但系统识别的订阅MRR仅1.25万美元、58个活跃订阅。获客来自创始人X受众、开源社区和约20分钟现场演示，演示中先完成一半配置再发送付款链接。年付合同、发票和服务可能解释差异，但续费、收入确认、毛利及软件与服务占比未披露，人工审核仍不可省略。",
+            "xiaziQuote": "AI能把慢流程做成现场可见的价值，但商业证据必须把ARR、现金收款和订阅MRR分开。",
+            "doudouQuote": "70.4万美元收款是真实交易信号，却不自动证明800万美元都是可续费软件收入。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Comp AI collects $704K through Stripe in 30 days",
+            "headlineView": "Agents turn policies, evidence and control monitoring into paid delivery, while ARR still needs reconciliation",
+            "headlineFull": "Comp AI collects $704K through Stripe in 30 days; Agents turn policies, evidence and control monitoring into paid delivery, while ARR still needs reconciliation",
+            "intro": "Comp AI sells SOC 2 and security-compliance software that uses agents to gather evidence, draft policies, build risk records and continuously monitor controls. Its founder reports $8 million ARR and more than 1,000 customers after 17 months. As of September 16, its connected TrustMRR Stripe account showed about $5.318 million cumulative collections and $704,000 in the latest 30 days, but only $12,500 in detected subscription MRR across 58 active subscriptions. Acquisition came from the founder's X audience, open source and 20-minute live demos that completed part of setup before a payment link. Annual contracts, invoices and services may explain the gap, but renewals, recognition policy, gross margin and software-versus-services mix are undisclosed; human review remains necessary.",
+            "xiaziQuote": "AI can make a slow workflow visibly valuable during the sale, but ARR, cash collections and subscription MRR must stay separate.",
+            "doudouQuote": "$704K in collections is a real transaction signal, not proof that all $8M is renewable software revenue.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "afc7807b-b639-569e-97eb-3c8d07dbd310",
+            "topicId": "2e8c3c6d-d528-55f9-961d-a411f02a9fb2",
+            "title": "Comp AI: Inside Its Rise From Launch to $8 Million ARR",
+            "publisher": "WebTribunal",
+            "url": "https://webtribunal.net/comp-ai-growth/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "344aa1b4-d9e9-527f-a274-c2f9a7502557",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "on-global-payments-seventy-one-thousand-extra-transactions",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "CH",
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-on-cross-border-payments-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "On全球支付优化一年新增7.1万笔成功交易",
+            "headlineView": "跨境增长来自减少误拒、统一线上线下数据和适配各市场风险，而不只是投放流量",
+            "headlineFull": "On全球支付优化一年新增7.1万笔成功交易；跨境增长来自减少误拒、统一线上线下数据和适配各市场风险，而不只是投放流量",
+            "intro": "瑞士跑鞋与运动装备品牌On以直营电商和全球门店触达海外消费者，支付复杂度随本地偏好、监管和欺诈风险上升。Adyen案例称，On使用Uplift动态优化线上授权与风险、用Tap to Pay on iPhone在八个国家简化门店结账；12个月内全球支付转化率提高0.85个百分点、欺诈率下降0.17个百分点，带来超过7.1万笔额外成功交易，人工维护风控规则的工作量下降60%。结果来自支付服务商案例，绝对收入、客单价、退货、手续费和净利润未披露。",
+            "xiaziQuote": "跨境电商的隐形增长常在支付通过率里：少拒绝一个真实顾客，就是多完成一笔订单。",
+            "doudouQuote": "交易数增加不等于利润增加，还要扣除欺诈、退货、支付与门店履约成本。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "On adds 71,000 successful global transactions in one year",
+            "headlineView": "Cross-border growth comes from fewer false declines, unified data and market-specific risk decisions, not traffic alone",
+            "headlineFull": "On adds 71,000 successful global transactions in one year; Cross-border growth comes from fewer false declines, unified data and market-specific risk decisions, not traffic alone",
+            "intro": "Swiss running-shoe and performance brand On reaches international customers through direct ecommerce and a growing global store network, where local preferences, regulation and fraud make payments a scaling constraint. An Adyen case says On used Uplift to optimize online authorization and risk dynamically, plus Tap to Pay on iPhone across eight countries. Over 12 months, global payment conversion rose 0.85 percentage points, fraud fell 0.17 points and more than 71,000 additional transactions succeeded, while manual risk-rule work fell 60%. The figures come from the payment provider; absolute revenue, order value, returns, fees and net profit are undisclosed.",
+            "xiaziQuote": "Invisible cross-border growth often sits in authorization: one fewer false decline means one more real order.",
+            "doudouQuote": "More transactions are not automatically more profit after fraud, returns, payment fees and fulfillment costs.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "5936e34d-81cb-5604-bf37-036e567935c7",
+            "topicId": "344aa1b4-d9e9-527f-a274-c2f9a7502557",
+            "title": "On: Scaling Retail Payments with Adyen",
+            "publisher": "Adyen",
+            "url": "https://www.adyen.com/en_AU/knowledge-hub/on-running-case-study",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b5366b29-f6e8-5f53-9b7c-8f3d74a75fb4",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "who-expands-medical-device-prequalification",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-who-medical-device-prequalification-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "WHO扩大医疗器械预认证范围",
+            "headlineView": "避孕器械与结核病AI筛查软件进入统一质量入口，帮助监管能力有限的国家采购",
+            "headlineFull": "WHO扩大医疗器械预认证范围；避孕器械与结核病AI筛查软件进入统一质量入口，帮助监管能力有限的国家采购",
+            "intro": "WHO 9月25日宣布把医疗器械预认证扩大到男用和女用安全套、宫内节育器、结核病计算机辅助检测软件及包皮环切器械。CAD-TB利用数字胸片和AI识别可能患结核病、需要进一步检查的人群；通过独立、标准化、透明的评估后，合格产品会进入WHO清单，为联合国机构、采购方、捐助者和国家监管部门提供依据。WHO称约70%的国家报告药品与疫苗监管体系不足或薄弱，其他健康产品面临更大缺口；预认证提高采购信心，但不替代各国注册、部署培训和上市后监测。",
+            "xiaziQuote": "把AI筛查软件纳入同一质量入口，是让数字健康从演示走向可采购基础设施。",
+            "doudouQuote": "进入清单只是第一关，真实效果还取决于本地注册、设备、人员与转诊能力。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "WHO expands medical-device prequalification",
+            "headlineView": "Contraceptive devices and AI-assisted TB screening enter a common quality gateway for countries with limited regulation",
+            "headlineFull": "WHO expands medical-device prequalification; Contraceptive devices and AI-assisted TB screening enter a common quality gateway for countries with limited regulation",
+            "intro": "WHO announced on September 25 that medical-device prequalification now covers male and female condoms, intrauterine devices, computer-aided detection software for tuberculosis screening and male-circumcision devices. CAD-TB uses digital chest X-rays and AI to flag people who may need further testing. Products that pass an independent, standardized and transparent assessment enter the WHO list used by UN agencies, procurers, donors and national authorities. WHO says about 70% of countries report inadequate or weak systems for medicines and vaccines, with larger gaps for other health products. Prequalification improves procurement confidence but does not replace national registration, training or post-market surveillance.",
+            "xiaziQuote": "Putting AI screening software through the same quality gateway helps digital health become procurable infrastructure rather than a demo.",
+            "doudouQuote": "Listing is only the first gate; local registration, equipment, staff and referral capacity still decide outcomes.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "29f7a42e-c066-5493-a4ed-1dff2cd5785f",
+            "topicId": "b5366b29-f6e8-5f53-9b7c-8f3d74a75fb4",
+            "title": "WHO announces expansion of prequalification programme for medical devices",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/philippines/news/detail-global/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2cdedcd0-b923-56f6-9482-3fb3ea225766",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "fifteenth-un-crime-congress-opens-abu-dhabi",
+        "rank": 7,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "AE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-un-crime-congress-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "数字法治",
+            "headlineFact": "第15届联合国犯罪大会今日开幕",
+            "headlineView": "数字时代的犯罪预防、刑事司法与跨境协作将写入下一阶段行动框架",
+            "headlineFull": "第15届联合国犯罪大会今日开幕；数字时代的犯罪预防、刑事司法与跨境协作将写入下一阶段行动框架",
+            "intro": "第15届联合国预防犯罪和刑事司法大会9月26日至10月1日在阿布扎比举行，今天当地时间9时30分开幕。大会总主题是加快犯罪预防、刑事司法与法治，保护人与地球并推进数字时代的2030议程；主办方预计3000至5000人、来自97个以上国家参与，并讨论《阿布扎比宣言》草案和“正义承诺”。联合国犯罪大会自1955年起每五年举行一次；最终影响取决于宣言中的具体承诺、各国执行及跨境证据和技术协作。",
+            "xiaziQuote": "数字犯罪跨越国界的速度，正在逼迫司法合作从原则声明走向可执行接口。",
+            "doudouQuote": "会议规模不是结果，后续要看宣言、承诺和各国落地是否能被追踪。",
+            "footerTakeaway": "今日关键词：数字法治。"
+          },
+          "en-US": {
+            "categoryLabel": "Digital Rule of Law",
+            "headlineFact": "The 15th UN Crime Congress opens today",
+            "headlineView": "Crime prevention, criminal justice and cross-border cooperation in the digital age move into the next action framework",
+            "headlineFull": "The 15th UN Crime Congress opens today; Crime prevention, criminal justice and cross-border cooperation in the digital age move into the next action framework",
+            "intro": "The 15th United Nations Congress on Crime Prevention and Criminal Justice runs from September 26 to October 1 in Abu Dhabi and opens today at 9:30 a.m. local time. Its theme is accelerating crime prevention, criminal justice and the rule of law to protect people and planet and advance the 2030 Agenda in the digital age. Hosts expect 3,000-5,000 participants from more than 97 countries and discussions around a draft Abu Dhabi Declaration and a Pledge for Justice. UN crime congresses have met every five years since 1955; impact will depend on concrete commitments, national implementation and workable cross-border evidence and technology cooperation.",
+            "xiaziQuote": "The speed of borderless digital crime is pushing justice cooperation from broad principles toward executable interfaces.",
+            "doudouQuote": "Attendance is not an outcome; track the declaration, pledges and national implementation that follow.",
+            "footerTakeaway": "Keyword: Digital Rule of Law."
+          }
+        },
+        "sources": [
+          {
+            "id": "c621147a-9823-59f4-8039-576d9eea971b",
+            "topicId": "2cdedcd0-b923-56f6-9482-3fb3ea225766",
+            "title": "15th United Nations Congress on Crime Prevention and Criminal Justice",
+            "publisher": "United Nations",
+            "url": "https://indico.un.org/event/1020655/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "af3a1aed-a4d8-594c-933a-61ba9e154c2b",
+            "topicId": "2cdedcd0-b923-56f6-9482-3fb3ea225766",
+            "title": "UAE reviews readiness to host fifteenth United Nations Congress on Crime Prevention and Criminal Justice",
+            "publisher": "UAE Ministry of Justice",
+            "url": "https://www.moj.gov.ae/en/media-center/news/21/9/2026/uae-reviews-readiness-to-host-fifteenth-united-nations-congress-on-crime-prevention-and-criminal.aspx",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "b66bc035-a927-507a-97db-ddc8d53dcb4c",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "nuclear-weapons-day-new-start-limits-expired",
+        "rank": 8,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "RU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-nuclear-disarmament-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球安全",
+            "headlineFact": "美俄战略核武库失去双方商定的数量限制",
+            "headlineView": "国际彻底消除核武器日遇上新START到期，军控空窗成为现实风险",
+            "headlineFull": "美俄战略核武库失去双方商定的数量限制；国际彻底消除核武器日遇上新START到期，军控空窗成为现实风险",
+            "intro": "9月26日是联合国国际彻底消除核武器日。联合国指出，新《削减战略武器条约》已于2026年2月5日到期且没有后继安排，因此自20世纪70年代以来，美俄战略核武库首次不再受双方商定的数量上限约束。秘书长古特雷斯称核灾难威胁正在加剧，紧张关系、互不信任、军事竞争和核武库现代化都在扩大风险。纪念日不是新的条约或裁军结果；真正指标是后续谈判、核查机制与可执行的数量限制能否恢复。",
+            "xiaziQuote": "风险上升的不只是武器数量，而是核查、沟通和可预测性同时消失。",
+            "doudouQuote": "纪念日提醒问题存在，只有可核查协议才能真正降低误判。",
+            "footerTakeaway": "今日关键词：全球安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Security",
+            "headlineFact": "US and Russian strategic arsenals lose agreed numerical limits",
+            "headlineView": "The nuclear-elimination observance meets a real arms-control gap after New START expires",
+            "headlineFull": "US and Russian strategic arsenals lose agreed numerical limits; The nuclear-elimination observance meets a real arms-control gap after New START expires",
+            "intro": "September 26 is the UN International Day for the Total Elimination of Nuclear Weapons. The UN says New START expired on February 5, 2026 without a successor, leaving US and Russian strategic nuclear arsenals without bilaterally agreed numerical limits for the first time since the 1970s. Secretary-General António Guterres says the threat of nuclear catastrophe is growing as tensions, mistrust, military competition and arsenal modernization intensify. The observance is not a new treaty or a disarmament result; the real measures are whether negotiations, verification and enforceable numerical limits return.",
+            "xiaziQuote": "The risk is not only more weapons; it is losing verification, communication and predictability at the same time.",
+            "doudouQuote": "An observance identifies the danger, but only a verifiable agreement reduces miscalculation.",
+            "footerTakeaway": "Keyword: Global Security."
+          }
+        },
+        "sources": [
+          {
+            "id": "a2cea98e-d59c-5ff5-9b85-5259cb190e2d",
+            "topicId": "b66bc035-a927-507a-97db-ddc8d53dcb4c",
+            "title": "International Day for the Total Elimination of Nuclear Weapons",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/node/98419",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "5f8a1667-3c73-54e7-a4f0-8790e4e1f6df",
+            "topicId": "b66bc035-a927-507a-97db-ddc8d53dcb4c",
+            "title": "Secretary-General's Message for the International Day for the Total Elimination of Nuclear Weapons 2026",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/observances/nuclear-weapons-elimination-day/messages",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "5e9b5a07-4919-5877-b18c-c1476d16ec64",
+        "issueId": "0d9de704-6493-5ec4-82ea-8d57f2c0fc69",
+        "slug": "nasa-prima-far-infrared-probe-explorer",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-nasa-prima-20260926",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "空间科学",
+            "headlineFact": "NASA推进首个Probe Explorers任务PRIMA",
+            "headlineView": "5.9英尺远红外望远镜将补上JWST与射电观测之间的宇宙窗口",
+            "headlineFull": "NASA推进首个Probe Explorers任务PRIMA；5.9英尺远红外望远镜将补上JWST与射电观测之间的宇宙窗口",
+            "intro": "NASA选定PRIMA远红外天体物理探测任务进入B阶段，推进初步设计和关键技术开发；这是新的Probe Explorers任务级别的首个项目。若通过后续确认评审，项目成本上限为12亿美元，不含发射等费用，目标2033年发射并运行五年。5.9英尺口径望远镜将做深度远红外巡天，研究行星与恒星形成、星系和黑洞演化以及尘埃、重元素和水的来源。当前决定不是最终发射批准，进度仍取决于技术、成本和计划评审。",
+            "xiaziQuote": "新望远镜的价值不是再看同一片天空，而是打开现有红外与射电之间被尘埃遮住的尺度。",
+            "doudouQuote": "进入B阶段代表被选中继续开发，不等于已确认发射；成本和技术门槛仍在前面。",
+            "footerTakeaway": "今日关键词：空间科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Science",
+            "headlineFact": "NASA advances PRIMA as the first Probe Explorers mission",
+            "headlineView": "A 5.9-foot far-infrared telescope would fill the cosmic window between Webb and radio observatories",
+            "headlineFull": "NASA advances PRIMA as the first Probe Explorers mission; A 5.9-foot far-infrared telescope would fill the cosmic window between Webb and radio observatories",
+            "intro": "NASA selected the PRobe far-Infrared Mission for Astrophysics, or PRIMA, to enter Phase B for preliminary design and technology development, making it the first project in the new Probe Explorers mission class. If it passes a later confirmation review, project cost is capped at $1.2 billion excluding launch and other non-project costs, with a 2033 target launch and a planned five-year mission. The 5.9-foot telescope would survey the far-infrared universe to study planet and star formation, galaxy and black-hole evolution, and the origins of dust, heavy elements and water. This is not final launch approval; technical, cost and schedule reviews remain.",
+            "xiaziQuote": "The value is not looking at the same sky again; it is opening the dust-hidden scale between current infrared and radio views.",
+            "doudouQuote": "Phase B means selected for further development, not confirmed for launch; cost and technology gates remain.",
+            "footerTakeaway": "Keyword: Space Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "0e55e0c9-b9da-5220-8144-077d95d067ea",
+            "topicId": "5e9b5a07-4919-5877-b18c-c1476d16ec64",
+            "title": "NASA Selects Far-Infrared Telescope as First in New Mission Class",
+            "publisher": "NASA",
+            "url": "https://explorers.larc.nasa.gov/2023APPROBE/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260926_2bbf05c5d00bc8452853ab02"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-26",
+    "releaseId": "rel_20260926_2bbf05c5d00bc8452853ab02",
+    "assetBatchId": "asset_prod_20260926_2bbf05c5d00bc8452853ab02",
+    "posters": [
+      {
+        "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+        "locale": "zh",
+        "contentHash": "ac137ae4bf84a698beea31a60be0fb911a6270c5d2f917762424d369ff536485",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/today-overview-ai-opc-app-commerce-health-justice-security-space.png"
+      },
+      {
+        "topicId": "6bca8479-4e18-585b-a352-cd0b6123bec7",
+        "locale": "en",
+        "contentHash": "847582cc121bfc19feffb659f7409b17cd993f709d106b9debdf90f33ba283b3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/today-overview-ai-opc-app-commerce-health-justice-security-space.png"
+      },
+      {
+        "topicId": "15e49370-0ce8-5d5c-84ef-2c39f236afc9",
+        "locale": "zh",
+        "contentHash": "116fa9da8f4d2591407faf8cd43478e79d7e3e91b2c3edf4df54a6f8682133f5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/frontier-ai-labs-safa-standards-body-reported.png"
+      },
+      {
+        "topicId": "15e49370-0ce8-5d5c-84ef-2c39f236afc9",
+        "locale": "en",
+        "contentHash": "622d8e714d4609643d137425922b715bade9fecd0f113af036be820a0b549e48",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/frontier-ai-labs-safa-standards-body-reported.png"
+      },
+      {
+        "topicId": "d59ed51b-6eb9-5231-a4aa-5083ec546660",
+        "locale": "zh",
+        "contentHash": "afd01ee40599136f6b3ea24815cd70aa39033bc6fb0c781e88556718d57a09c4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/zigpoll-solo-founder-one-hundred-twenty-five-thousand-mrr.png"
+      },
+      {
+        "topicId": "d59ed51b-6eb9-5231-a4aa-5083ec546660",
+        "locale": "en",
+        "contentHash": "2b22c99a6b19977c23d8cc21cf1faee4548bf18ea17faf6519c525a444562d90",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/zigpoll-solo-founder-one-hundred-twenty-five-thousand-mrr.png"
+      },
+      {
+        "topicId": "2e8c3c6d-d528-55f9-961d-a411f02a9fb2",
+        "locale": "zh",
+        "contentHash": "b1f64d8f7edc69a88a8cd8a7932bd74cbff87d5fc9ec6a5b6e0a6d2210594d67",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/comp-ai-eight-million-arr-stripe-collections-gap.png"
+      },
+      {
+        "topicId": "2e8c3c6d-d528-55f9-961d-a411f02a9fb2",
+        "locale": "en",
+        "contentHash": "3496817404e9c3786e4c6c75e5986bf2b26c452fc2d67385cd79567e94d60c87",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/comp-ai-eight-million-arr-stripe-collections-gap.png"
+      },
+      {
+        "topicId": "344aa1b4-d9e9-527f-a274-c2f9a7502557",
+        "locale": "zh",
+        "contentHash": "42a6cc40778891e9fddf21e854fde0d7f32f43a0f04799dba1e6920f26a8f191",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/on-global-payments-seventy-one-thousand-extra-transactions.png"
+      },
+      {
+        "topicId": "344aa1b4-d9e9-527f-a274-c2f9a7502557",
+        "locale": "en",
+        "contentHash": "7c216caec8059e7f4dc074e2bea1fc2f263b7b8d40ca55b43672ef924f368dc2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/on-global-payments-seventy-one-thousand-extra-transactions.png"
+      },
+      {
+        "topicId": "b5366b29-f6e8-5f53-9b7c-8f3d74a75fb4",
+        "locale": "zh",
+        "contentHash": "152440be6e8e7c4811855861fd0a1d8f000bdb1f1833e9d13302f5cc71329c24",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/who-expands-medical-device-prequalification.png"
+      },
+      {
+        "topicId": "b5366b29-f6e8-5f53-9b7c-8f3d74a75fb4",
+        "locale": "en",
+        "contentHash": "69e5eed8f4226680d1f374189d0cf63922415428673f890f1d61b468eda00502",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/who-expands-medical-device-prequalification.png"
+      },
+      {
+        "topicId": "2cdedcd0-b923-56f6-9482-3fb3ea225766",
+        "locale": "zh",
+        "contentHash": "0a36d2346070982d4867b1794718aafe978f4a86fee53471194efffa491c3c22",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/fifteenth-un-crime-congress-opens-abu-dhabi.png"
+      },
+      {
+        "topicId": "2cdedcd0-b923-56f6-9482-3fb3ea225766",
+        "locale": "en",
+        "contentHash": "7704d834b6a1064b4176bd9462a02e3d3df9e14cd65ad7588feb3607901ad0ee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/fifteenth-un-crime-congress-opens-abu-dhabi.png"
+      },
+      {
+        "topicId": "b66bc035-a927-507a-97db-ddc8d53dcb4c",
+        "locale": "zh",
+        "contentHash": "a242499923882214a40f8258047a6cc443796b79e04dea902f48d707c7ba2156",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/nuclear-weapons-day-new-start-limits-expired.png"
+      },
+      {
+        "topicId": "b66bc035-a927-507a-97db-ddc8d53dcb4c",
+        "locale": "en",
+        "contentHash": "cd904b0e45bfb35025c7d4f8e4c112581b37e6085c8963db32998f3639ccbca3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/nuclear-weapons-day-new-start-limits-expired.png"
+      },
+      {
+        "topicId": "5e9b5a07-4919-5877-b18c-c1476d16ec64",
+        "locale": "zh",
+        "contentHash": "22c80db2f19598f4719bb3764292d337154c03f24bc76cdcbae1c757f322dfdb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/zh/nasa-prima-far-infrared-probe-explorer.png"
+      },
+      {
+        "topicId": "5e9b5a07-4919-5877-b18c-c1476d16ec64",
+        "locale": "en",
+        "contentHash": "55e0c3d7314c0c254cb35f9548be697e1d589520acb77f7ad0a8a6bdd3a5e1a4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260926_2bbf05c5d00bc8452853ab02/en/nasa-prima-far-infrared-probe-explorer.png"
+      }
+    ]
+  }
+}
