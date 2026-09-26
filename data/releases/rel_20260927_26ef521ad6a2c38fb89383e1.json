@@ -1,0 +1,740 @@
+{
+  "issue": {
+    "id": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+    "slug": "2026-09-27",
+    "style": {
+      "name": "Linocut",
+      "zhName": "油毡版画",
+      "description": "Style Atlas daily pick: Linocut. Use an original editorial linocut language built from bold carved gouge marks, strong positive-negative shapes, imperfect ink edges, limited black, warm ivory and one restrained vermilion accent, tactile paper grain and hand-registered layers; do not imitate a specific existing artwork. Every poster keeps one main conclusion and no more than three key facts in 3-5 calm readable modules, with large type, generous spacing and broad low-texture text zones. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central carved globe or printing press, using uneven flowing ribbons, radial cuts and layered silhouettes instead of a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-27",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-27T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-26T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "073c4304-0b98-569c-af89-bc189448186c",
+    "topics": [
+      {
+        "id": "073c4304-0b98-569c-af89-bc189448186c",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "today-overview-opc-app-commerce-tourism-weather-election-brain",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月27日全球经营雷达",
+            "headlineView": "AI工作入口、可验证收入、跨境经营与公共风险刻进同一块版",
+            "headlineFull": "9月27日全球经营雷达；AI工作入口、可验证收入、跨境经营与公共风险刻进同一块版",
+            "intro": "1. 微软发布新版Copilot，把Home、Code与Autopilot合并到一个工作入口，并为长时代理采用用量计费。\n2. ScreenshotOne创始人自报单人经营约3.2万美元MRR，以分层截图API订阅服务开发者和企业。\n3. Lovable联合创始人称AI应用构建平台年化收入已突破6亿美元，但该口径尚未审计。\n4. 英国户外品牌Passenger借助本地化市场和多币种结算，让海外销售占比两年从不足1%升至40%。\n5. 2026年世界旅游日以数字议程与AI重塑旅游为主题，并强调技术收益不能绕开员工与目的地社区。\n6. 强热带风暴苏力今日预计增强为台风并逼近琉球群岛附近海域，航运与出行需跟踪路径变化。\n7. 圣多美和普林西比今日举行议会、地方与地区选举，欧盟观察团约50人覆盖投票日。\n8. PsychAD项目用1494名捐献者的630多万个基因表达谱绘制最大规模人类前额叶皮层图谱。",
+            "xiaziQuote": "今天的共同信号是：把能力做成入口，把收入拆成证据，把风险留在决策桌面上。",
+            "doudouQuote": "先分清正式上线、创始人自报、平台案例和仍在变化的预报。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 27 Global Operator Radar",
+            "headlineView": "AI work entry points, evidenced revenue, cross-border operations and public risk share one carved block",
+            "headlineFull": "September 27 Global Operator Radar; AI work entry points, evidenced revenue, cross-border operations and public risk share one carved block",
+            "intro": "1. Microsoft launches a rebuilt Copilot that unifies Home, Code and Autopilot in one work entry point and charges long-running agent work by usage.\n2. ScreenshotOne's founder reports about $32,000 MRR from a solo business selling tiered screenshot-API subscriptions to developers and companies.\n3. Lovable's co-founder says the AI app-building platform has crossed $600 million in annualized revenue, though the figure is unaudited.\n4. UK outdoor brand Passenger used localized markets and multi-currency settlement to lift international sales from under 1% to 40% of its mix in two years.\n5. World Tourism Day 2026 centers on digital policy and AI redesigning tourism while warning that workers and destination communities must share the gains.\n6. Severe Tropical Storm Surigae is forecast to strengthen into a typhoon near the Ryukyu area today, leaving travel and shipping exposed to track changes.\n7. Sao Tome and Principe holds parliamentary, local and regional elections today with roughly 50 EU observers deployed for election day.\n8. PsychAD maps more than 6.3 million gene-expression profiles from 1,494 donors into the largest atlas of the human prefrontal cortex.",
+            "xiaziQuote": "Turn capability into an entry point, separate revenue into evidence, and keep risk visible at the decision table.",
+            "doudouQuote": "Distinguish a live launch, a founder claim, a vendor case and a forecast that is still moving.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "dbf507bf-77bd-58b0-9cde-120ed06a8b9d",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "Introducing the new Copilot with Home, Code and Autopilot",
+            "publisher": "Microsoft",
+            "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "e6ae9e48-7dcf-56c1-a908-0146b370c121",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "ScreenshotOne Revenue: $32K MRR and How They Got There",
+            "publisher": "Thonest",
+            "url": "https://thonest.com/c/screenshotone",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8b918e70-3084-5262-9673-18c328891143",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "Lovable says two-thirds of the Fortune 500 use it and revenue hit $600m",
+            "publisher": "The Next Web",
+            "url": "https://thenextweb.com/news/lovable-fabian-hedin-fortune-500-600m-revenue-humanx",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "4f47171d-eabb-54d4-9e3e-fc8e8a58a1b6",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "Passenger Grows Cross-Border Revenue Mix from 1% to 40% in Two Years",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/hk-en/case-studies/passenger",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "46bbe108-9204-5fdf-bb08-c3617dce591e",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "World Tourism Day 2026 - Secretary-General's Message",
+            "publisher": "United Nations",
+            "url": "https://indonesia.un.org/en/322925-world-tourism-day-2026-secretary-generals-message-ant%C3%B3nio-guterres",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "eb2524a3-42fa-578c-99d4-e1fee5c8b175",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "Tropical Cyclone Position",
+            "publisher": "Hong Kong Observatory",
+            "url": "https://www.weather.gov.hk/textonly/tc/tcp.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8c1fa6bd-58be-5006-95b0-4158d522ed0f",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "On election day, 27 September, the EU EOM will have around 50 observers on the ground",
+            "publisher": "European External Action Service",
+            "url": "https://www.eeas.europa.eu/eom-sao-tome-e-principe-2026/election-day-27-september-eu-eom-will-have-around-50-observers-ground_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d47cd86f-b4ca-5c41-a2e0-cd3ca25ab715",
+            "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+            "title": "Detailed brain maps probe development, ageing, decline and disease",
+            "publisher": "Nature Portfolio",
+            "url": "https://www.natureasia.com/en/info/press-releases/detail/9445",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "7d8a8b07-0b14-514e-bbe4-dae59bab2ee0",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "microsoft-copilot-home-code-autopilot-work-platform",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-microsoft-copilot-work-platform-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "微软把Copilot重构为Home、Code与Autopilot",
+            "headlineView": "AI从问答窗口延伸到可编辑文件、应用构建和持续运行的数字同事",
+            "headlineFull": "微软把Copilot重构为Home、Code与Autopilot；AI从问答窗口延伸到可编辑文件、应用构建和持续运行的数字同事",
+            "intro": "微软9月25日发布新版Copilot：Home把Chat、Cowork以及可直接编辑的Word、Excel、PowerPoint放进同一入口；Code让用户用自然语言生成仪表盘、应用和自动化，并在企业租户的沙箱环境运行；Autopilot则拥有独立身份、记忆、电脑与工作区，可持续跟进频道、线程和周期性任务。Home与Code先进入Frontier项目，Autopilot月底扩大私测，均不是全面可用状态。普通AI使用走固定席位订阅，长时代理、前沿模型与运行时走用量计费；企业仍需配置权限、审计、预算上限和人工复核。",
+            "xiaziQuote": "真正的变化不是多一个聊天框，而是文件、代码、运行时和代理开始共用一个工作入口。",
+            "doudouQuote": "私测和滚动上线不等于全员可用，先把权限与用量边界画清楚。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Microsoft rebuilds Copilot around Home, Code and Autopilot",
+            "headlineView": "AI expands from a chat window into editable files, app building and a persistent digital teammate",
+            "headlineFull": "Microsoft rebuilds Copilot around Home, Code and Autopilot; AI expands from a chat window into editable files, app building and a persistent digital teammate",
+            "intro": "Microsoft introduced a rebuilt Copilot on September 25. Home combines Chat and Cowork with live, editable Word, Excel and PowerPoint files. Code lets people describe dashboards, apps and automations in natural language and runs them in a sandboxed enterprise tenant. Autopilot gets its own identity, memory, computer and workspace to follow channels, threads and recurring work over time. Home and Code begin in the Frontier program, while Autopilot expands private preview at month-end; none is universally available yet. Everyday AI stays on fixed per-user subscriptions, while long-running agents, frontier models and runtime use usage-based billing. Organizations still need permission, audit, budget and human-review controls.",
+            "xiaziQuote": "The shift is not another chat box; files, code, runtime and agents now share one work entry point.",
+            "doudouQuote": "Private preview and staged rollout are not general availability, so define permissions and usage limits first.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "d6262934-fb4c-549c-8965-689e1a91f99f",
+            "topicId": "7d8a8b07-0b14-514e-bbe4-dae59bab2ee0",
+            "title": "Introducing the new Copilot with Home, Code and Autopilot",
+            "publisher": "Microsoft",
+            "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b657eed1-3b01-55ab-82ba-ab845e1ee76a",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "screenshotone-solo-founder-thirty-two-thousand-mrr",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-screenshotone-solo-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "ScreenshotOne单人经营自报约3.2万美元MRR",
+            "headlineView": "一个稳定的截图API用搜索流量、按量订阅与自动交付，把窄需求做成可持续现金流",
+            "headlineFull": "ScreenshotOne单人经营自报约3.2万美元MRR；一个稳定的截图API用搜索流量、按量订阅与自动交付，把窄需求做成可持续现金流",
+            "intro": "Dmytro Krasun单人、无融资运营ScreenshotOne，为开发者和企业提供网页截图、PDF、视频与AI代理视觉抓取API。官网按用量收费：Basic每月17美元含2000张，Growth每月79美元含1万张，Scale每月259美元含5万张，超额请求另计费；交付依靠托管浏览器、SDK、CDN缓存、Webhook与自助文档。公开记录显示其2026年7月自报MRR约3.2万美元，客户超过1000家；获客主要来自SEO、开发者社区、集成案例与长期公开经营。成本集中在浏览器计算、带宽、反爬维护、支持与创始人时间，近期增长停滞也暴露单点经营和流失风险；收入与利润均为创始人自报、未审计。",
+            "xiaziQuote": "一人公司不必卖复杂愿景，也可以把一个高频技术麻烦做成清楚、可计量的订阅。",
+            "doudouQuote": "3.2万美元MRR很真实地说明需求，却不能省略流失、算力和单人支持的上限。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "ScreenshotOne's solo founder reports about $32K MRR",
+            "headlineView": "A dependable screenshot API turns a narrow pain point into recurring cash flow through search, usage tiers and automated delivery",
+            "headlineFull": "ScreenshotOne's solo founder reports about $32K MRR; A dependable screenshot API turns a narrow pain point into recurring cash flow through search, usage tiers and automated delivery",
+            "intro": "Dmytro Krasun runs ScreenshotOne solo and bootstrapped, selling website screenshot, PDF, video and AI-agent visual-capture APIs to developers and companies. Official pricing is usage-tiered: Basic is $17 a month for 2,000 screenshots, Growth $79 for 10,000 and Scale $259 for 50,000, with overages charged separately. Hosted browsers, SDKs, CDN caching, webhooks and self-serve documentation automate delivery. Public tracking records his founder-reported MRR at roughly $32,000 in July 2026 with more than 1,000 customers; acquisition compounds through SEO, developer communities, integrations and building in public. Browser compute, bandwidth, anti-bot maintenance, support and founder time remain the main costs. A recent growth plateau exposes churn and key-person limits; revenue and profit are unaudited founder claims.",
+            "xiaziQuote": "A one-person company can sell a measurable fix to one recurring technical headache instead of a sprawling vision.",
+            "doudouQuote": "$32K MRR proves demand, but it does not erase churn, compute costs or the ceiling of solo support.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "d6025c28-5229-5458-a2d3-80906eb620ce",
+            "topicId": "b657eed1-3b01-55ab-82ba-ab845e1ee76a",
+            "title": "ScreenshotOne Revenue: $32K MRR and How They Got There",
+            "publisher": "Thonest",
+            "url": "https://thonest.com/c/screenshotone",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "f31b9b72-e7b9-5628-b611-9d85ff161a5e",
+            "topicId": "b657eed1-3b01-55ab-82ba-ab845e1ee76a",
+            "title": "Website Screenshot API Pricing and Plans",
+            "publisher": "ScreenshotOne",
+            "url": "https://screenshotone.com/pricing/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "1c8a1f0b-c7ba-5151-b2a2-0940f00a52eb",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "lovable-six-hundred-million-annualized-revenue-ai-app-builder",
+        "rank": 4,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "SE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-lovable-revenue-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Lovable联合创始人称年化收入突破6亿美元",
+            "headlineView": "AI不只生成代码，而是把构建、托管、部署与企业扩张一起变成可收费产品",
+            "headlineFull": "Lovable联合创始人称年化收入突破6亿美元；AI不只生成代码，而是把构建、托管、部署与企业扩张一起变成可收费产品",
+            "intro": "Lovable让用户用对话生成并部署网站和Web应用，AI具体承担界面、逻辑、认证、数据连接、迭代与发布，平台再以共享Credits覆盖构建、云托管和应用内AI功能，并销售Pro、Business与企业容量。联合创始人Fabian Hedin在HumanX Amsterdam称，年化收入已从6月约5亿美元升至6亿美元，用户创建的应用每月接近10亿次访问，财富500强约三分之二的公司有人在使用；这些数据均为公司高管现场披露，未审计，且“有人使用”不等于企业合同。增长依赖订阅、用量和企业升级，成本则包括模型推理、托管、支持、安全与滥用治理。",
+            "xiaziQuote": "赚钱的落地点不是把代码写快一点，而是把从想法到在线产品的整条交付链收费。",
+            "doudouQuote": "6亿美元是年化运行率，不是已确认的全年收入，更不能用访问量替代留存和毛利。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Lovable's co-founder says annualized revenue crossed $600M",
+            "headlineView": "AI becomes a paid product by bundling building, hosting, deployment and enterprise scale rather than merely outputting code",
+            "headlineFull": "Lovable's co-founder says annualized revenue crossed $600M; AI becomes a paid product by bundling building, hosting, deployment and enterprise scale rather than merely outputting code",
+            "intro": "Lovable lets people build and deploy websites and web apps through conversation. AI handles interface, logic, authentication, data connections, iteration and publishing, while shared credits pay for building, cloud hosting and AI features inside the resulting apps; Pro, Business and enterprise capacity create the revenue ladder. At HumanX Amsterdam, co-founder Fabian Hedin said annualized revenue had risen from about $500 million in June to $600 million, that user-built apps attract nearly one billion visits a month, and that people at roughly two-thirds of the Fortune 500 use the platform. These are unaudited executive disclosures, and employee use is not the same as an enterprise contract. Subscription, usage and enterprise expansion drive monetization; inference, hosting, support, security and abuse control drive costs.",
+            "xiaziQuote": "The monetizable AI layer is the full path from idea to running product, not just faster code generation.",
+            "doudouQuote": "$600M is an annualized run rate, not audited full-year revenue, and visits do not replace retention or margin.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "1b0684b3-bddf-5a5c-9873-17dc6afa0f7d",
+            "topicId": "1c8a1f0b-c7ba-5151-b2a2-0940f00a52eb",
+            "title": "Lovable says two-thirds of the Fortune 500 use it and revenue hit $600m",
+            "publisher": "The Next Web",
+            "url": "https://thenextweb.com/news/lovable-fabian-hedin-fortune-500-600m-revenue-humanx",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "8d91e9d6-87c9-57bd-a8e0-eba049ed1f3e",
+            "topicId": "1c8a1f0b-c7ba-5151-b2a2-0940f00a52eb",
+            "title": "Lovable Pricing",
+            "publisher": "Lovable",
+            "url": "https://lovable.dev/pricing",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "88f1564a-f205-5023-aa04-99087e8ccdc1",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "passenger-cross-border-sales-share-one-to-forty-percent",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB",
+          "US",
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-passenger-cross-border-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Passenger海外销售占比两年从不足1%升至40%",
+            "headlineView": "单一店铺、本地定价与多币种结算，把国际需求变成收入并减少重复换汇",
+            "headlineFull": "Passenger海外销售占比两年从不足1%升至40%；单一店铺、本地定价与多币种结算，把国际需求变成收入并减少重复换汇",
+            "intro": "英国户外服饰品牌Passenger面向美国、德国等市场销售，Shopify案例称其四年GMV从约50万美元增至超过1亿美元，采用Markets后两年内海外销售占比从不足1%升至40%。获客依靠品牌内容、市场测试与在高潜国家追加营销；同一店铺统一库存、内容和报表，同时按市场调整语言、价格、配送和结账。Multi-Currency Payouts让公司保留美元与欧元支付全球供应商，避免销售款先换成英镑、采购时再换回外币；公司每年采购数千万英镑商品，换汇、库存、国际物流、退货和本地履约仍是主要成本。结果来自平台客户案例，未披露各市场利润率、广告回收期和退货率。",
+            "xiaziQuote": "跨境增长不是多开几个站点，而是让顾客的本地体验和公司的全球资金流同时变简单。",
+            "doudouQuote": "40%的海外销售占比很亮眼，但最终要看汇率、库存、投放、物流和退货后的贡献利润。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Passenger lifts international sales from under 1% to 40% of its mix",
+            "headlineView": "One store, localized pricing and multi-currency settlement convert global demand while reducing repeated foreign exchange",
+            "headlineFull": "Passenger lifts international sales from under 1% to 40% of its mix; One store, localized pricing and multi-currency settlement convert global demand while reducing repeated foreign exchange",
+            "intro": "UK outdoor brand Passenger sells into markets including the United States and Germany. A Shopify case says GMV grew from about $500,000 to more than $100 million in four years and that international sales rose from under 1% to 40% of the mix within two years of adopting Markets. Brand content, market tests and added marketing in countries showing traction drive acquisition. One store keeps inventory, content and reporting unified while language, pricing, shipping and checkout adapt locally. Multi-Currency Payouts lets Passenger retain dollars and euros to pay global suppliers instead of converting sales to pounds and back again; the company buys tens of millions of pounds of product each year. FX, inventory, international logistics, returns and local fulfillment remain core costs. The vendor case does not disclose market-level margins, payback or return rates.",
+            "xiaziQuote": "Cross-border growth comes from simplifying the customer's local experience and the company's global money flow at the same time.",
+            "doudouQuote": "A 40% international mix is strong, but contribution profit still depends on FX, inventory, acquisition, logistics and returns.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "5384d4db-4f8a-5d79-b7f6-96615bddb415",
+            "topicId": "88f1564a-f205-5023-aa04-99087e8ccdc1",
+            "title": "Passenger Grows Cross-Border Revenue Mix from 1% to 40% in Two Years",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/hk-en/case-studies/passenger",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d4136d16-3cb1-5812-bde8-a1e0996185cd",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "world-tourism-day-digital-agenda-ai-redesign-tourism",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "SV"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-world-tourism-day-ai-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "旅游与数字化",
+            "headlineFact": "世界旅游日聚焦AI重塑旅游业",
+            "headlineView": "技术既能放大小目的地和小企业，也可能把流量进一步集中到少数平台与景点",
+            "headlineFull": "世界旅游日聚焦AI重塑旅游业；技术既能放大小目的地和小企业，也可能把流量进一步集中到少数平台与景点",
+            "intro": "9月27日世界旅游日的2026年主题是“数字议程与人工智能重塑旅游”，官方庆祝活动由萨尔瓦多主办。联合国秘书长指出，AI正在改变游客选择目的地、企业运营和旅行体验设计，能提升小企业服务并创造机会；但若缺少治理，也可能把游客和收益进一步导向少数热门地点与平台。倡议要求旅游从业者、本地社区和新兴目的地共同参与技术设计，并投资数字技能与技术可及性。今天是议程和倡议节点，不代表收入、就业或可持续性结果已经实现；后续应看具体培训、平台分发、当地采购和社区收益指标。",
+            "xiaziQuote": "旅游AI真正要重塑的不是推荐页，而是目的地、劳动者和平台之间的收益分配。",
+            "doudouQuote": "主题日给出方向，是否普惠要看小企业能否获得流量、能力和可留存的收入。",
+            "footerTakeaway": "今日关键词：旅游与数字化。"
+          },
+          "en-US": {
+            "categoryLabel": "Tourism and Digitalization",
+            "headlineFact": "World Tourism Day focuses on AI redesigning tourism",
+            "headlineView": "Technology can amplify small destinations and firms, or concentrate demand further on a few platforms and hotspots",
+            "headlineFull": "World Tourism Day focuses on AI redesigning tourism; Technology can amplify small destinations and firms, or concentrate demand further on a few platforms and hotspots",
+            "intro": "World Tourism Day on September 27 uses the 2026 theme 'Digital Agenda and Artificial Intelligence to Redesign Tourism,' with El Salvador hosting the official celebration. The UN Secretary-General says AI is changing destination choice, operations and travel-experience design, with the potential to strengthen small businesses and services. Without governance, however, it can funnel visitors and value toward the same destinations and platforms. The message calls for tourism workers, local communities and emerging destinations to shape the technology, backed by digital skills and wider access. This is an agenda-setting observance, not evidence that revenue, jobs or sustainability outcomes have already improved. Follow-through should be measured through training, distribution, local procurement and community income.",
+            "xiaziQuote": "Tourism AI should redesign how value is shared among destinations, workers and platforms, not merely the recommendation screen.",
+            "doudouQuote": "A theme sets direction; inclusion depends on whether small firms gain reach, capability and income they can keep.",
+            "footerTakeaway": "Keyword: Tourism and Digitalization."
+          }
+        },
+        "sources": [
+          {
+            "id": "51fbba97-ade8-57d3-87b3-c5fb04f2b299",
+            "topicId": "d4136d16-3cb1-5812-bde8-a1e0996185cd",
+            "title": "World Tourism Day 2026 - Secretary-General's Message",
+            "publisher": "United Nations",
+            "url": "https://indonesia.un.org/en/322925-world-tourism-day-2026-secretary-generals-message-ant%C3%B3nio-guterres",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "8fd22cf9-5cf6-5d87-a625-cf20b167dcb8",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "typhoon-surigae-ryukyu-intensification-forecast",
+        "rank": 7,
+        "category": "climate",
+        "region": "Asia Pacific",
+        "countryCodes": [
+          "JP",
+          "PH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-surigae-typhoon-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "极端天气",
+            "headlineFact": "苏力今日预计增强为台风",
+            "headlineView": "路径指向琉球群岛附近海域，强度、转向时间与外围风雨仍会变化",
+            "headlineFull": "苏力今日预计增强为台风；路径指向琉球群岛附近海域，强度、转向时间与外围风雨仍会变化",
+            "intro": "香港天文台9月26日10时更新显示，强热带风暴苏力当日8时位于香港以东约1330公里，中心附近最高持续风速105公里/小时。预报其逐渐增强并向琉球群岛附近海域移动，9月27日8时可能达到台风级、中心风速约140公里/小时，28日约145公里/小时，随后转向东北并在日本以南海域移动。该路径意味着琉球及邻近航线需要准备强风、巨浪、航班和船期调整，但落点与雨带不能从单次预报确定；个人和企业应以当地气象机构、港口和航空公司的滚动公告为准。",
+            "xiaziQuote": "面对仍在增强的风暴，最有价值的不是猜中落点，而是提前设计可调整的行程与履约。",
+            "doudouQuote": "140公里时速是预报值，不是已经观测到的结果，路径每次更新都可能改变。",
+            "footerTakeaway": "今日关键词：极端天气。"
+          },
+          "en-US": {
+            "categoryLabel": "Extreme Weather",
+            "headlineFact": "Surigae is forecast to become a typhoon today",
+            "headlineView": "Its track points toward waters near the Ryukyus, while strength, recurvature timing and outer rain bands remain uncertain",
+            "headlineFull": "Surigae is forecast to become a typhoon today; Its track points toward waters near the Ryukyus, while strength, recurvature timing and outer rain bands remain uncertain",
+            "intro": "The Hong Kong Observatory's 10 a.m. September 26 update placed Severe Tropical Storm Surigae about 1,330 kilometers east of Hong Kong at 8 a.m., with maximum sustained winds near 105 kilometers per hour. It was forecast to intensify while moving toward waters near the Ryukyu Islands, reaching typhoon strength around 8 a.m. September 27 with winds near 140 kilometers per hour and about 145 kilometers per hour on September 28, before turning northeast south of Japan. The track raises wind, wave, aviation and shipping risks for the Ryukyus and nearby routes, but landfall and rainfall cannot be fixed from one forecast. Residents and operators should use rolling updates from local weather agencies, ports and airlines.",
+            "xiaziQuote": "For an intensifying storm, adaptable travel and fulfillment plans matter more than guessing the exact landfall.",
+            "doudouQuote": "The 140 km/h figure is a forecast, not an observed outcome, and each track update can change it.",
+            "footerTakeaway": "Keyword: Extreme Weather."
+          }
+        },
+        "sources": [
+          {
+            "id": "a60d7bcc-d573-57d5-8d78-50ca347d3dc9",
+            "topicId": "8fd22cf9-5cf6-5d87-a625-cf20b167dcb8",
+            "title": "Tropical Cyclone Position",
+            "publisher": "Hong Kong Observatory",
+            "url": "https://www.weather.gov.hk/textonly/tc/tcp.htm",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "322ec09d-20da-5611-a54e-d509bd29ec4c",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "sao-tome-principe-parliamentary-local-regional-elections",
+        "rank": 8,
+        "category": "international",
+        "region": "Africa",
+        "countryCodes": [
+          "ST"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-sao-tome-elections-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球政治",
+            "headlineFact": "圣多美和普林西比今日举行三类选举",
+            "headlineView": "议会、地方和普林西比地区投票同日进行，结果与程序评估都尚未出炉",
+            "headlineFull": "圣多美和普林西比今日举行三类选举；议会、地方和普林西比地区投票同日进行，结果与程序评估都尚未出炉",
+            "intro": "圣多美和普林西比9月27日举行议会、地方和地区选举。欧盟选举观察团已部署约50名观察员，其中包括核心分析团队、长期与短期观察员，覆盖法律框架、选举准备、投票程序、政治环境、传统媒体和社交媒体。观察团称评估将基于长期、客观和全面观察，并计划在投票后发布初步声明。今日能确认的是投票安排和观察能力，而不是胜负、席位或程序质量；在官方计票和独立评估公布前，不应把社交平台的早期数字当作最终结果。",
+            "xiaziQuote": "选举日的第一份可靠信息不是谁赢，而是谁按什么规则投票、计票和接受观察。",
+            "doudouQuote": "等待官方结果与观察团初步声明，别用零散计票截图提前下结论。",
+            "footerTakeaway": "今日关键词：全球政治。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Politics",
+            "headlineFact": "Sao Tome and Principe holds three elections today",
+            "headlineView": "Parliamentary, local and Principe regional ballots run together, with results and process assessments still pending",
+            "headlineFull": "Sao Tome and Principe holds three elections today; Parliamentary, local and Principe regional ballots run together, with results and process assessments still pending",
+            "intro": "Sao Tome and Principe holds parliamentary, local and regional elections on September 27. The European Union Election Observation Mission has deployed roughly 50 observers, including a core analytical team plus long- and short-term observers, to cover the legal framework, preparations, voting procedures, political environment, traditional media and social media. The mission says its assessment will be long-term, objective and comprehensive, followed by a preliminary statement after voting. What can be confirmed today is the election schedule and observation capacity, not winners, seats or procedural quality. Early numbers circulating on social platforms should not be treated as final before official tabulation and independent assessment.",
+            "xiaziQuote": "The first reliable election-day fact is not who won, but how voting, counting and observation are organized.",
+            "doudouQuote": "Wait for official results and the observers' preliminary statement before treating screenshots as outcomes.",
+            "footerTakeaway": "Keyword: Global Politics."
+          }
+        },
+        "sources": [
+          {
+            "id": "ca6f8d64-a530-54fb-b01d-133750d5bb2b",
+            "topicId": "322ec09d-20da-5611-a54e-d509bd29ec4c",
+            "title": "On election day, 27 September, the EU EOM will have around 50 observers on the ground",
+            "publisher": "European External Action Service",
+            "url": "https://www.eeas.europa.eu/eom-sao-tome-e-principe-2026/election-day-27-september-eu-eom-will-have-around-50-observers-ground_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1c5cbf2d-cb5f-562f-a176-98ce20d7b97a",
+        "issueId": "402ea26b-ca0f-5c07-a1e5-bf8e281b77cc",
+        "slug": "psychad-human-prefrontal-cortex-gene-expression-atlas",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-psychad-brain-atlas-20260927",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生命科学",
+            "headlineFact": "最大规模人类前额叶基因表达图谱发布",
+            "headlineView": "630多万个单细胞表达谱连接生命周期、脑区变化与多种精神及神经退行性疾病",
+            "headlineFull": "最大规模人类前额叶基因表达图谱发布；630多万个单细胞表达谱连接生命周期、脑区变化与多种精神及神经退行性疾病",
+            "intro": "PsychAD项目在Nature及相关期刊发布多篇开放研究，分析1494名已故捐献者脑组织的630多万个基因表达谱，建立目前已知规模最大的人类前额叶皮层单细胞图谱。研究跨越婴儿到百岁老人，比较不同生命周期、细胞类型和脑区的表达变化，并构建与阿尔茨海默病及多种神经精神疾病相关的细胞脆弱性与遗传调控资源。它能帮助研究者定位候选基因、细胞类型和疾病机制，但数据来自捐献样本与关联分析，不是诊断工具，也没有证明任何候选靶点能直接转化为治疗。",
+            "xiaziQuote": "大图谱的价值不是立即给出药物答案，而是把疾病问题精确到细胞、时间和调控层。",
+            "doudouQuote": "630万个谱是研究基础设施，不是630万个临床结论。",
+            "footerTakeaway": "今日关键词：生命科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Life Science",
+            "headlineFact": "The largest human prefrontal gene-expression atlas is released",
+            "headlineView": "More than 6.3 million single-cell profiles connect lifespan change with psychiatric and neurodegenerative disease",
+            "headlineFull": "The largest human prefrontal gene-expression atlas is released; More than 6.3 million single-cell profiles connect lifespan change with psychiatric and neurodegenerative disease",
+            "intro": "The PsychAD program published a set of open studies in Nature and related journals analyzing more than 6.3 million gene-expression profiles from brain tissue donated by 1,494 deceased people, creating the largest-known single-cell atlas of the human prefrontal cortex. Samples span infants to centenarians, allowing researchers to compare expression changes across life stages, cell types and brain regions and to build resources on cellular vulnerability and genetic regulation linked to Alzheimer's and multiple neuropsychiatric disorders. The atlas can help prioritize genes, cell types and mechanisms for further study, but it is based on donated tissue and association analyses. It is not a diagnostic tool and does not show that any candidate target will become a treatment.",
+            "xiaziQuote": "A large atlas does not deliver a drug immediately; it locates disease questions at the level of cells, time and regulation.",
+            "doudouQuote": "Six-point-three million profiles are research infrastructure, not six-point-three million clinical conclusions.",
+            "footerTakeaway": "Keyword: Life Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "c2cd4fb0-36c4-55b3-ba0e-46f01a658c65",
+            "topicId": "1c5cbf2d-cb5f-562f-a176-98ce20d7b97a",
+            "title": "Detailed brain maps probe development, ageing, decline and disease",
+            "publisher": "Nature Portfolio",
+            "url": "https://www.natureasia.com/en/info/press-releases/detail/9445",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260927_26ef521ad6a2c38fb89383e1"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-27",
+    "releaseId": "rel_20260927_26ef521ad6a2c38fb89383e1",
+    "assetBatchId": "asset_prod_20260927_26ef521ad6a2c38fb89383e1",
+    "posters": [
+      {
+        "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+        "locale": "zh",
+        "contentHash": "81f3360b29bb0d5bdcde043617b71733a7e2c1fb447b531d1b828695fb1e6d54",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/today-overview-opc-app-commerce-tourism-weather-election-brain.png"
+      },
+      {
+        "topicId": "073c4304-0b98-569c-af89-bc189448186c",
+        "locale": "en",
+        "contentHash": "ca4c0314d392bac16c54ba6002474aa190d1aae357d8869cdd5e88e3c2dfbe73",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/today-overview-opc-app-commerce-tourism-weather-election-brain.png"
+      },
+      {
+        "topicId": "7d8a8b07-0b14-514e-bbe4-dae59bab2ee0",
+        "locale": "zh",
+        "contentHash": "a0ff1072e46682ee3b18222a95b1c6428b7f9c5accefece0185e9f21c0526f31",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/microsoft-copilot-home-code-autopilot-work-platform.png"
+      },
+      {
+        "topicId": "7d8a8b07-0b14-514e-bbe4-dae59bab2ee0",
+        "locale": "en",
+        "contentHash": "3e9a630fddabab1797c743c76ebe3429616f34e81e4d2f51829369a94263a758",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/microsoft-copilot-home-code-autopilot-work-platform.png"
+      },
+      {
+        "topicId": "b657eed1-3b01-55ab-82ba-ab845e1ee76a",
+        "locale": "zh",
+        "contentHash": "ff8bf4a5af30bd9930dbc1b2aefddd2d39f5262eb16654251423e039d1b847c4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/screenshotone-solo-founder-thirty-two-thousand-mrr.png"
+      },
+      {
+        "topicId": "b657eed1-3b01-55ab-82ba-ab845e1ee76a",
+        "locale": "en",
+        "contentHash": "45aafa2cc9a215e4b5a12d061878e4498f1e9fccc593a4a9155e531bcb2931cb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/screenshotone-solo-founder-thirty-two-thousand-mrr.png"
+      },
+      {
+        "topicId": "1c8a1f0b-c7ba-5151-b2a2-0940f00a52eb",
+        "locale": "zh",
+        "contentHash": "f8598934603aa9b141b885b5c5a93200d62cfc40849e29eb04c3fc7d8e80ef01",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/lovable-six-hundred-million-annualized-revenue-ai-app-builder.png"
+      },
+      {
+        "topicId": "1c8a1f0b-c7ba-5151-b2a2-0940f00a52eb",
+        "locale": "en",
+        "contentHash": "db4ce6dc378cafd83f5e8f063735f0c0f52a1cc764ab4cadac87a80d55a74784",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/lovable-six-hundred-million-annualized-revenue-ai-app-builder.png"
+      },
+      {
+        "topicId": "88f1564a-f205-5023-aa04-99087e8ccdc1",
+        "locale": "zh",
+        "contentHash": "5f9821bdffca6cea332bb3d750b2ff301e7bf55392d87b940157160c52e191f0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/passenger-cross-border-sales-share-one-to-forty-percent.png"
+      },
+      {
+        "topicId": "88f1564a-f205-5023-aa04-99087e8ccdc1",
+        "locale": "en",
+        "contentHash": "ec09f3028150d697c3c39c8f53e60c8f41bfb2c18f9659d8dd596edb4f6ada3c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/passenger-cross-border-sales-share-one-to-forty-percent.png"
+      },
+      {
+        "topicId": "d4136d16-3cb1-5812-bde8-a1e0996185cd",
+        "locale": "zh",
+        "contentHash": "c2e376f7bf367aae0177065abe2827df8030f8d2e0bae291a1d7a2a34d817d76",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/world-tourism-day-digital-agenda-ai-redesign-tourism.png"
+      },
+      {
+        "topicId": "d4136d16-3cb1-5812-bde8-a1e0996185cd",
+        "locale": "en",
+        "contentHash": "f254356c6abcdbf374b72f139f7143ba6542c5f37e93b82935374ce7337c8f47",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/world-tourism-day-digital-agenda-ai-redesign-tourism.png"
+      },
+      {
+        "topicId": "8fd22cf9-5cf6-5d87-a625-cf20b167dcb8",
+        "locale": "zh",
+        "contentHash": "c978aa7cd446f11029c9b04ef0614be0a26dab06746db774e5dd0f42bc24b7ce",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/typhoon-surigae-ryukyu-intensification-forecast.png"
+      },
+      {
+        "topicId": "8fd22cf9-5cf6-5d87-a625-cf20b167dcb8",
+        "locale": "en",
+        "contentHash": "191dfcb152583fe5eb890d10845f1f3286991fae97fd9f27aef4acd3d0d6932f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/typhoon-surigae-ryukyu-intensification-forecast.png"
+      },
+      {
+        "topicId": "322ec09d-20da-5611-a54e-d509bd29ec4c",
+        "locale": "zh",
+        "contentHash": "31ae3ad22a97ded4668ceb5a0e4c72a545e268ce8429de3bf5fa9f1178cd7ee5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/sao-tome-principe-parliamentary-local-regional-elections.png"
+      },
+      {
+        "topicId": "322ec09d-20da-5611-a54e-d509bd29ec4c",
+        "locale": "en",
+        "contentHash": "f841e54bdd48892c6638dcbe161d1f55722862744f7a5c7fdb1678752c136f6c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/sao-tome-principe-parliamentary-local-regional-elections.png"
+      },
+      {
+        "topicId": "1c5cbf2d-cb5f-562f-a176-98ce20d7b97a",
+        "locale": "zh",
+        "contentHash": "e4c01ae4af8e998a48024db9ea42d5cf10dc5dfe5324ced624d26059a763a95c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/zh/psychad-human-prefrontal-cortex-gene-expression-atlas.png"
+      },
+      {
+        "topicId": "1c5cbf2d-cb5f-562f-a176-98ce20d7b97a",
+        "locale": "en",
+        "contentHash": "0805fe9e66e58c61ff8d0c80c39f593fa8c212917c090d69cf3d6fe38b6ff55f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260927_26ef521ad6a2c38fb89383e1/en/psychad-human-prefrontal-cortex-gene-expression-atlas.png"
+      }
+    ]
+  }
+}
