@@ -1,0 +1,737 @@
+{
+  "issue": {
+    "id": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+    "slug": "2026-09-29",
+    "style": {
+      "name": "Swiss Style",
+      "zhName": "瑞士国际主义风格",
+      "description": "Style Atlas daily pick: Swiss Style. Use an original International Typographic Style editorial language with crisp sans-serif typography, disciplined alignment, strong red-cobalt-black accents, geometric rules, photographic or diagrammatic story scenes and generous off-white negative space; do not imitate a specific poster or designer. Every poster keeps one main conclusion and no more than three key facts in 3-5 calm readable modules, with large type, generous line spacing and broad low-texture text zones. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at the edges or bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage composition, using offset typographic bands, varied circular paths and asymmetric blocks rather than a rigid eight-card grid, table, equal boxes, dense borders or tiny type. Chinese and English keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-29",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-29T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-28T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+    "topics": [
+      {
+        "id": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "today-overview-voice-ai-opc-commerce-health-food-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月29日全球经营雷达",
+            "headlineView": "语音AI、单人开源生意、用量计费、跨境扩张与公共系统进入同一张执行图",
+            "headlineFull": "9月29日全球经营雷达；语音AI、单人开源生意、用量计费、跨境扩张与公共系统进入同一张执行图",
+            "intro": "1. Google发布Gemini 3.8 Live与Extended Thinking，把实时语音、视觉理解和后台工具执行放进同一套模型。\n2. Typebot以开源自托管建立信任，再用托管订阅变现，当前Stripe验证的近30天收入约4.33万美元。\n3. Chipp.ai把AI代理从固定订阅改成按LLM令牌计费，首月收入增长20%，两个月计费59亿令牌。\n4. Qlear复用英国验证过的广告并从单一枢纽发往美国和澳大利亚，三个月收入增长104%、新增订单超过1.2万笔。\n5. WHO今日讲解视力康复三步规划指南，全球约6000万成年人需要相关服务，多数仍无法获得。\n6. 联合国粮食损失与浪费日把减少浪费连接到森林、土地、气候与更有韧性的农业食品系统。\n7. FAO今日启动中东2026至2030年口蹄疫防控战略，把跨境监测、疫苗和应急协作纳入区域框架。\n8. 一项同行评议研究解析人类Mic60-Mic19复合体如何跨越线粒体嵴连接并形成动态扩散屏障。",
+            "xiaziQuote": "今天的共同信号是：技术要变成生意，需要收费机制；公共目标要变成结果，需要可执行的系统。",
+            "doudouQuote": "先分清模型能力、创始人收入、供应链增长和会议议程，它们的证据口径完全不同。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 29 Global Operator Radar",
+            "headlineView": "Voice AI, solo open-source economics, usage billing, cross-border expansion and public systems enter one execution map",
+            "headlineFull": "September 29 Global Operator Radar; Voice AI, solo open-source economics, usage billing, cross-border expansion and public systems enter one execution map",
+            "intro": "1. Google launches Gemini 3.8 Live and Extended Thinking, combining real-time voice, visual understanding and background tool execution.\n2. Typebot builds trust through open-source self-hosting and monetizes managed cloud subscriptions, with about $43,300 in Stripe-verified revenue over the latest 30 days.\n3. Chipp.ai replaces flat AI-agent subscriptions with LLM-token billing, lifting first-month revenue 20% and billing 5.9 billion tokens in two months.\n4. Qlear reuses UK-proven ads and one fulfillment hub to enter the US and Australia, growing revenue 104% and shipping more than 12,000 new-market orders in three months.\n5. WHO explains its three-step vision-rehabilitation planning guide today as about 60 million adults need services and most still lack access.\n6. The UN food-loss-and-waste observance links prevention to forests, land, climate and more resilient agrifood systems.\n7. FAO launches a 2026-2030 Middle East foot-and-mouth-disease strategy today, joining cross-border surveillance, vaccination and emergency cooperation.\n8. A peer-reviewed study resolves how the human Mic60-Mic19 complex spans mitochondrial crista junctions and forms a dynamic diffusion barrier.",
+            "xiaziQuote": "Today's shared signal: technology becomes business through a charging mechanism, while public goals become outcomes through executable systems.",
+            "doudouQuote": "Separate model capability, founder revenue, supply-chain growth and meeting agendas; their evidence standards are not interchangeable.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "21799532-009f-540f-b961-b1538b451d8b",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+            "publisher": "Google",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "ea99f043-7145-5ffe-9a71-2841bfaa7496",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "Typebot revenue",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/product/typebot/revenue",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b0a48793-a595-585c-89ff-8ae51e11bb7f",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "Chipp.ai Billed 5.9 Billion LLM Tokens in Two Months and Lifted Revenue 20%",
+            "publisher": "API Token",
+            "url": "https://www.apitoken.company/en/news",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1e4535fe-ad6d-5e62-b57e-2b8399ed76c3",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "How Qlear 2x'd revenue in 3 months by expanding into the US and Australia",
+            "publisher": "Portless",
+            "url": "https://www.portless.com/case-studies/how-qlear-2xd-revenue-in-3-months",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0c313e5e-522f-5321-9335-ec7b73c64cb5",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "Planning guide for integrated vision rehabilitation",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/29/default-calendar/planning-guide-for-integrated-vision-rehabilitation--a-deep-dive-into-the-who-guidance",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "535bc357-0b32-523f-b165-ba6a79871493",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "Seventh Observance of the International Day of Awareness of Food Loss and Waste",
+            "publisher": "United Nations Environment Programme",
+            "url": "https://www.unep.org/events/unep-event/seventh-observance-international-day-awareness-food-loss-and-waste",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "f9bd18c8-baf7-50d2-a57e-e187c7b6a7bf",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "Virtual regional launch of the Middle East foot-and-mouth disease prevention and control strategy 2026-2030",
+            "publisher": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/neareast/events/details/virtual-regional-launch-of-the-middle-east-foot-and-mouth-disease-%28fmd%29-prevention-and-control-strategy-2026---2030/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "779b90d3-034d-5a44-9604-b8ec4b4c0891",
+            "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+            "title": "Integrative structural modelling reveals the human Mic60-Mic19 subcomplex as a diffusion barrier in mitochondria",
+            "publisher": "Life Science Network",
+            "url": "https://www.lifescience.net/publications/2224741/integrative-structural-modelling-reveals-the-human/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "a964411e-39f9-5b16-9b14-0749f6f33b9c",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "gemini-38-live-realtime-voice-agents",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-gemini-38-live-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Gemini 3.8 Live把复杂推理带进实时语音",
+            "headlineView": "快模型负责规模与自然对话，Extended Thinking在不中断交流时并行完成多步任务",
+            "headlineFull": "Gemini 3.8 Live把复杂推理带进实时语音；快模型负责规模与自然对话，Extended Thinking在不中断交流时并行完成多步任务",
+            "intro": "Google发布Gemini 3.8 Live与Gemini 3.8 Live Extended Thinking。前者强调低延迟对话、视觉落地与成本效率；后者面向复杂任务，在对话继续时于后台调用工具并进行多步推理。Google报告Extended Thinking在Artificial Analysis语音到语音质量指数得82.6，在τ-Voice任务完成基准得68.6%，并已通过Gemini API、Workspace、Search与Gemini应用提供。关键变化不是更像真人聊天，而是把不中断的语音交互、视觉上下文和任务执行合成一个代理入口；但这些是厂商与基准报告，真实电话环境中的噪声、延迟、工具失败和人类接管仍要按场景验证。",
+            "xiaziQuote": "语音代理的竞争点正在从“听懂一句话”转向“边聊边把多步工作做完”。",
+            "doudouQuote": "基准领先不等于生产可靠，先测噪声、打断、工具失败和转人工的完整链路。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Gemini 3.8 Live brings complex reasoning into real-time voice",
+            "headlineView": "The fast model targets scale and fluid dialogue while Extended Thinking completes multi-step work in parallel without stopping the conversation",
+            "headlineFull": "Gemini 3.8 Live brings complex reasoning into real-time voice; The fast model targets scale and fluid dialogue while Extended Thinking completes multi-step work in parallel without stopping the conversation",
+            "intro": "Google has launched Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking. The first emphasizes low-latency dialogue, visual grounding and cost efficiency; the second handles complex tasks with background tool use and multi-step reasoning while conversation continues. Google reports an 82.6 score for Extended Thinking on Artificial Analysis' speech-to-speech quality index and 68.6% on the tau-Voice task-completion benchmark, with access through the Gemini API, Workspace, Search and the Gemini app. The meaningful change is not merely more human-sounding speech, but one agent surface joining uninterrupted voice, visual context and task execution. These remain vendor and benchmark results; noise, latency, tool failure and human handoff still need scenario-level testing.",
+            "xiaziQuote": "Voice-agent competition is moving from understanding one sentence to finishing multi-step work while the conversation continues.",
+            "doudouQuote": "A leading benchmark is not production reliability; test noise, interruptions, tool failures and human escalation end to end.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "2690e6eb-d6c1-5304-af3e-b8f86a9dc675",
+            "topicId": "a964411e-39f9-5b16-9b14-0749f6f33b9c",
+            "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+            "publisher": "Google",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bc1289a9-b328-5063-84ad-0704c6aa1f49",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "typebot-solo-open-source-cloud-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-typebot-solo-revenue-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Typebot一人经营近30天收入约4.33万美元",
+            "headlineView": "免费自托管建立信任，付费云托管把开源分发转成可重复收入",
+            "headlineFull": "Typebot一人经营近30天收入约4.33万美元；免费自托管建立信任，付费云托管把开源分发转成可重复收入",
+            "intro": "法国开发者Baptiste Arnaud一人运营Typebot，为企业和创作者提供无代码聊天机器人与对话式表单。产品前8个月只有约100美元MRR，2021年一次终身授权带来2.3万美元和900多名用户，随后以AGPLv3重写成开源版本，并保留省去部署维护的付费云服务。Indie Hackers的Stripe连接页面目前显示最近30天收入43,288美元；Small Start梳理其获客来自市场、社区与口碑，巴西创作者分享曾在2023年带来一次88%的收入跃升。交付杠杆来自软件、自托管社区和托管订阅，主要成本是云资源、支持、维护与创始人时间。Stripe数字可核验，但不含站外支付；利润、流失率和单人支持负荷未公开。",
+            "xiaziQuote": "开源不是放弃收费，而是把信任与分发免费化，再对省心的托管体验收费。",
+            "doudouQuote": "4.33万美元是近30天Stripe收入，不等于利润；单人业务还要看支持负荷与流失。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run Typebot shows about $43.3K revenue over the latest 30 days",
+            "headlineView": "Free self-hosting builds trust while paid cloud hosting converts open-source distribution into recurring revenue",
+            "headlineFull": "Solo-run Typebot shows about $43.3K revenue over the latest 30 days; Free self-hosting builds trust while paid cloud hosting converts open-source distribution into recurring revenue",
+            "intro": "French developer Baptiste Arnaud runs Typebot alone, offering a no-code builder for chatbots and conversational forms. The product reached only about $100 MRR in its first eight months; a 2021 lifetime deal brought $23,000 and more than 900 users, after which Arnaud rebuilt it under AGPLv3 while keeping a paid cloud option for customers who prefer not to deploy and maintain it. Indie Hackers' Stripe-connected page currently shows $43,288 over the latest 30 days. Small Start describes acquisition through marketplaces, community and word of mouth, including an influencer-driven 88% revenue jump in Brazil in 2023. Software, self-hosting contributors and managed subscriptions create leverage; cloud, support, maintenance and founder time remain costs. The Stripe figure is verifiable but excludes off-platform payments, while profit, churn and solo support load are undisclosed.",
+            "xiaziQuote": "Open source does not abandon monetization; it makes trust and distribution free, then charges for operational convenience.",
+            "doudouQuote": "$43.3K is Stripe revenue over thirty days, not profit; support load and churn still define the solo ceiling.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "f0e4a539-4dd9-5bfe-a6eb-da2ca01e1f2a",
+            "topicId": "bc1289a9-b328-5063-84ad-0704c6aa1f49",
+            "title": "Typebot: Stuck at $100 MRR for 8 Months",
+            "publisher": "Small Start",
+            "url": "https://small-start.com/en/cases/global-typebot-chatbot-builder/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "54516606-dfa8-53fc-a616-f3ffc62f9a7e",
+            "topicId": "bc1289a9-b328-5063-84ad-0704c6aa1f49",
+            "title": "Typebot revenue",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/product/typebot/revenue",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "66237075-db34-5f8b-82bb-8a33681620e6",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "chipp-ai-usage-billing-revenue-lift",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-chipp-ai-revenue-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Chipp.ai按令牌计费后首月收入增长20%",
+            "headlineView": "让客户为真实模型用量付费，同时覆盖推理成本并释放四分之一运营时间",
+            "headlineFull": "Chipp.ai按令牌计费后首月收入增长20%；让客户为真实模型用量付费，同时覆盖推理成本并释放四分之一运营时间",
+            "intro": "Chipp.ai让酒店、诊所、代理机构等客户用Anthropic、OpenAI和Google模型搭建品牌化客服、获客与销售代理。固定月费曾造成成本错配：一个29美元套餐客户即可产生4000美元令牌账单。公司在2025年接入按LLM令牌计费，把每次查询、模型与成本记录到客户账户，并让代理机构把平台费用转给终端客户。Stripe案例称，新模式首月收入增长20%，两个月计费59亿令牌，自动账单和余额提醒释放约25%的团队运营时间；公司以可预测的30%利润率管理用量。结果来自支付服务商客户案例，未披露绝对收入、客户数和留存；模型价格变化与高用量客户仍是主要风险。",
+            "xiaziQuote": "AI应用开始赚钱的关键，不只是有人使用，而是每一次模型成本都能被准确计量并转化为收入。",
+            "doudouQuote": "收入增长20%很清楚，但没有绝对收入和留存，仍不能把增长率直接当成业务规模。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Chipp.ai lifts first-month revenue 20% with token billing",
+            "headlineView": "Customers pay for real model consumption while the product covers inference cost and recovers a quarter of operating time",
+            "headlineFull": "Chipp.ai lifts first-month revenue 20% with token billing; Customers pay for real model consumption while the product covers inference cost and recovers a quarter of operating time",
+            "intro": "Chipp.ai lets hotels, medical practices and agencies build branded customer-service, lead-generation and sales agents using models from Anthropic, OpenAI and Google. Flat subscriptions created a cost mismatch: one customer on a $29 plan could generate a $4,000 token bill. In 2025 the company added LLM-token billing, recording each query, model and cost against the customer's account and letting agencies pass platform charges to their own clients. A Stripe case says the new model lifted revenue 20% in its first month, billed 5.9 billion tokens in two months and automated invoices and balance alerts that had consumed roughly 25% of team time. Chipp says it now manages usage around a predictable 30% margin. The partner case does not disclose absolute revenue, customer count or retention; model-price changes and power-user concentration remain risks.",
+            "xiaziQuote": "AI monetizes when every unit of model cost can be measured accurately and converted into customer revenue.",
+            "doudouQuote": "A 20% lift is clear, but without absolute revenue and retention it should not be confused with business scale.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "8ade0454-9259-53dd-a734-75eca8c5b406",
+            "topicId": "66237075-db34-5f8b-82bb-8a33681620e6",
+            "title": "Chipp.ai Billed 5.9 Billion LLM Tokens in Two Months and Lifted Revenue 20%",
+            "publisher": "API Token",
+            "url": "https://www.apitoken.company/en/news",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "8c12188b-7885-5dea-90a7-68ca0fe10428",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "qlear-cross-border-us-australia-revenue-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "GB",
+          "US",
+          "AU",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-qlear-cross-border-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Qlear进入美澳三个月收入增长104%",
+            "headlineView": "先在英国验证广告，再复用创意和单一履约枢纽，以零新增仓库扩展两个英语市场",
+            "headlineFull": "Qlear进入美澳三个月收入增长104%；先在英国验证广告，再复用创意和单一履约枢纽，以零新增仓库扩展两个英语市场",
+            "intro": "英国科学护肤品牌Qlear先用代发模式测试精华、手膜等产品，首日获得15笔订单，再投资品牌、包装与白牌配方。原中国代发商把货品、采购与运费混在报价里，成本不透明、时效波动，限制美国扩张。Qlear更换履约伙伴后，复用在英国已验证的Meta广告，不新建仓库或签新的3PL合同，在60天内进入美国并同步拓展澳大利亚。Portless客户案例称，三个月内新市场发出超过1.2万笔订单，订单量增长80%，收入较扩张前运行率增长104%。赚钱机制是先在低CPM市场验证漏斗，再用同一创意和集中履约复制；主要风险是供应商案例口径、广告依赖、退货、合规与初期可能亏损，净利润未披露。",
+            "xiaziQuote": "跨境扩张最省钱的顺序，是先把广告漏斗在一个市场跑通，再复制到语言和需求相近的市场。",
+            "doudouQuote": "收入翻倍不等于利润翻倍，广告、履约、退货和白牌供应成本仍要分开核算。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Qlear grows revenue 104% in three months after entering the US and Australia",
+            "headlineView": "The brand proves ads in the UK, then reuses creative and one fulfillment hub to add two English-speaking markets without new warehouses",
+            "headlineFull": "Qlear grows revenue 104% in three months after entering the US and Australia; The brand proves ads in the UK, then reuses creative and one fulfillment hub to add two English-speaking markets without new warehouses",
+            "intro": "UK science-backed beauty brand Qlear first tested serums, hand masks and related products through dropshipping, making fifteen sales on day one before investing in branding, packaging and white-label formulas. Its original China-based agent bundled product, sourcing and freight into opaque quotes and delivered inconsistent shipping, blocking US expansion. After changing fulfillment partners, Qlear reused its UK-proven Meta ads, added no warehouse or new 3PL contract, entered the US within sixty days and expanded into Australia. A Portless customer case says more than 12,000 new-market orders shipped in three months, with orders up 80% and revenue 104% above the pre-expansion run rate. The mechanism is to prove a funnel in a lower-CPM market, then copy creative through centralized fulfillment. Vendor-reported figures, ad dependence, returns, compliance and early loss-leading remain limits; net profit is undisclosed.",
+            "xiaziQuote": "The capital-efficient sequence is to prove an ad funnel in one market, then copy it into markets with similar language and demand.",
+            "doudouQuote": "Doubling revenue does not double profit; advertising, fulfillment, returns and white-label supply still need separate accounting.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "d2b7da0f-e99b-5db9-950a-27fb0ae5d524",
+            "topicId": "8c12188b-7885-5dea-90a7-68ca0fe10428",
+            "title": "How Qlear 2x'd revenue in 3 months by expanding into the US and Australia",
+            "publisher": "Portless",
+            "url": "https://www.portless.com/case-studies/how-qlear-2xd-revenue-in-3-months",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "9d5b697d-7f73-5754-9094-aaf46bdefead",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "who-integrated-vision-rehabilitation-guide",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-vision-rehabilitation-guide-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "WHO推动视力康复进入国家卫生系统",
+            "headlineView": "三步规划指南把零散项目转成从需求评估、服务设计到长期实施的连续体系",
+            "headlineFull": "WHO推动视力康复进入国家卫生系统；三步规划指南把零散项目转成从需求评估、服务设计到长期实施的连续体系",
+            "intro": "WHO今日举行线上说明会，介绍《综合视力康复规划指南》。全球约6000万成年人需要视力康复以维持独立生活和劳动参与，但多数人，尤其低中收入国家居民，仍无法获得服务。指南响应以人为中心综合眼健康的全球授权，提出三步路线，帮助成员国把康复从零散的单一项目纳入国家眼健康与全民健康覆盖体系。会议将展示摩洛哥的实际实施案例。今天能确认的是指南、需求规模和政策工具，不是服务缺口已经关闭；训练有素人员不足、基础设施薄弱、融资不足和政策整合困难仍是主要限制。",
+            "xiaziQuote": "康复真正普及，不是多办一个项目，而是把评估、转介、辅具和长期支持接进同一套卫生系统。",
+            "doudouQuote": "6000万是需求规模，不是已服务人数；后续要看人员、预算和覆盖率。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "WHO pushes vision rehabilitation into national health systems",
+            "headlineView": "A three-step planning guide turns fragmented projects into a continuum from needs assessment and service design to durable implementation",
+            "headlineFull": "WHO pushes vision rehabilitation into national health systems; A three-step planning guide turns fragmented projects into a continuum from needs assessment and service design to durable implementation",
+            "intro": "WHO holds an online briefing today on its Planning Guide for Integrated Vision Rehabilitation. About 60 million adults worldwide need vision rehabilitation to maintain independence and workforce participation, yet most, especially in low- and middle-income countries, lack access. Responding to the global mandate for integrated people-centred eye care, the guide offers a three-step roadmap for placing rehabilitation inside national eye-care systems and universal health coverage rather than leaving it as isolated projects. The session includes a real-world implementation case from Morocco. What is confirmed today is the guide, the scale of need and a policy tool, not closure of the service gap. Shortages of trained staff, weak infrastructure, financing constraints and poor policy integration remain the main barriers.",
+            "xiaziQuote": "Vision rehabilitation scales when assessment, referral, assistive products and long-term support enter one health system, not another stand-alone project.",
+            "doudouQuote": "Sixty million measures need, not people already served; watch staffing, budgets and coverage next.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "c7217021-55ce-53f4-bf4f-22a71cbc33b5",
+            "topicId": "9d5b697d-7f73-5754-9094-aaf46bdefead",
+            "title": "Planning guide for integrated vision rehabilitation",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/29/default-calendar/planning-guide-for-integrated-vision-rehabilitation--a-deep-dive-into-the-who-guidance",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d54fe2a3-6413-5624-893e-4ee18e359386",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "food-loss-waste-forests-transformative-potential",
+        "rank": 7,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [
+          "IT"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-food-loss-waste-day-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "粮食与气候",
+            "headlineFact": "减少粮食损失与浪费被连接到森林保护",
+            "headlineView": "联合国今日把被浪费的食物重新计算为土地、水、能源、排放和生产率问题",
+            "headlineFull": "减少粮食损失与浪费被连接到森林保护；联合国今日把被浪费的食物重新计算为土地、水、能源、排放和生产率问题",
+            "intro": "9月29日是第七个国际粮食损失和浪费问题宣传日。UNEP与FAO在罗马举行全球活动，今年主题聚焦“减少粮食损失和浪费的变革潜力——与林业部门的关联”。农业扩张仍是毁林的主要驱动之一，而食物损失与浪费让已经投入的土地、水、能源和排放无法转化为营养与收入。联合国将减少浪费定义为三重收益：改善粮食安全与营养、减轻自然资源和温室气体压力、提高生产率与经济增长。目标仍是到2030年把零售和消费端人均食物浪费减半并减少供应链损失；今日活动提供议程和工具，不能替代各国可量化的基线、冷链投资与执行结果。",
+            "xiaziQuote": "最便宜的新粮食供给，往往是让已经种出来、运出来的食物不再消失。",
+            "doudouQuote": "先量化损失发生在哪一段，再决定投冷链、包装、预测还是消费端改变。",
+            "footerTakeaway": "今日关键词：粮食与气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Food and Climate",
+            "headlineFact": "Food-loss reduction is linked directly to forest protection",
+            "headlineView": "Today's UN observance recasts wasted food as a land, water, energy, emissions and productivity problem",
+            "headlineFull": "Food-loss reduction is linked directly to forest protection; Today's UN observance recasts wasted food as a land, water, energy, emissions and productivity problem",
+            "intro": "September 29 marks the seventh International Day of Awareness of Food Loss and Waste. UNEP and FAO hold a global event in Rome under the theme 'The transformative potential of reducing Food Loss and Waste - Relevance for the Forestry Sector.' Agricultural expansion remains a leading driver of deforestation, while lost and wasted food turns land, water, energy and emissions already invested in production into neither nutrition nor income. The UN frames reduction as a triple gain: better food security and nutrition, lower pressure on natural resources and greenhouse gases, and stronger productivity and growth. SDG 12.3 still aims to halve per-capita retail and consumer food waste and reduce supply-chain losses by 2030. Today's event supplies an agenda and tools, not national baselines, cold-chain investment or verified implementation results.",
+            "xiaziQuote": "The cheapest new food supply is often the food already grown and moved that no longer disappears along the way.",
+            "doudouQuote": "Measure where loss occurs first, then choose cold chain, packaging, forecasting or consumer behavior.",
+            "footerTakeaway": "Keyword: Food and Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "b169ba5b-f986-5da4-865c-8f2b61f3fdb7",
+            "topicId": "d54fe2a3-6413-5624-893e-4ee18e359386",
+            "title": "Seventh Observance of the International Day of Awareness of Food Loss and Waste",
+            "publisher": "United Nations Environment Programme",
+            "url": "https://www.unep.org/events/unep-event/seventh-observance-international-day-awareness-food-loss-and-waste",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "08d240dc-8e05-5e97-8318-4662a352d711",
+            "topicId": "d54fe2a3-6413-5624-893e-4ee18e359386",
+            "title": "International Day of Awareness of Food Loss and Waste 2026",
+            "publisher": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/platform-food-loss-waste/flw-events/international-day-food-loss-and-waste/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "9ac347b0-6ea5-5cf0-9af4-b3c90ac5a563",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "middle-east-foot-mouth-disease-strategy-2026-2030",
+        "rank": 8,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-middle-east-fmd-strategy-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "农业安全",
+            "headlineFact": "中东启动2026至2030年口蹄疫防控战略",
+            "headlineView": "跨境动物贸易让单国防线不足，区域框架把监测、疫苗、预警与应急响应接在一起",
+            "headlineFull": "中东启动2026至2030年口蹄疫防控战略；跨境动物贸易让单国防线不足，区域框架把监测、疫苗、预警与应急响应接在一起",
+            "intro": "FAO与成员国及区域伙伴今日线上启动中东口蹄疫防控战略2026至2030。口蹄疫是影响牲畜生产、粮食安全、生计与贸易的重要跨境动物疾病；动物和动物产品跨境流动，加上各国监测、接种、准备和响应能力不一，使疫情能够反复传播。新战略强调持续的国家行动与区域协调、信息共享和协作，并邀请参考实验室、发展伙伴与技术专家参与。今天确认的是战略正式启动和协作架构，不是疫情已经受控。真正的验收指标应包括监测覆盖、实验室时效、疫苗匹配度、通报速度、跨境演练与养殖户损失变化。",
+            "xiaziQuote": "跨境动物疫病没有一国独立的终点，最弱的监测环节会决定整条供应链的风险。",
+            "doudouQuote": "战略发布只是起点，接下来要看疫苗、实验室、通报和演练是否同步到位。",
+            "footerTakeaway": "今日关键词：农业安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Agricultural Security",
+            "headlineFact": "The Middle East launches a 2026-2030 foot-and-mouth-disease strategy",
+            "headlineView": "Cross-border animal trade makes national defenses insufficient, so the regional framework connects surveillance, vaccination, warning and response",
+            "headlineFull": "The Middle East launches a 2026-2030 foot-and-mouth-disease strategy; Cross-border animal trade makes national defenses insufficient, so the regional framework connects surveillance, vaccination, warning and response",
+            "intro": "FAO, member countries and regional partners launch the Middle East Foot-and-Mouth Disease Prevention and Control Strategy 2026-2030 online today. FMD is a major transboundary animal disease affecting livestock production, food security, livelihoods and trade. Movement of animals and animal products, combined with uneven national capacity for surveillance, vaccination, preparedness and response, enables recurrent cross-border spread. The strategy joins sustained national work with regional coordination, information sharing and collaboration, involving reference laboratories, development partners and technical experts. What is confirmed today is the strategy's launch and coordination structure, not disease control. Meaningful acceptance measures include surveillance coverage, laboratory turnaround, vaccine matching, notification speed, cross-border exercises and changes in farmer losses.",
+            "xiaziQuote": "Transboundary animal disease has no national finish line; the weakest surveillance link sets risk for the whole supply chain.",
+            "doudouQuote": "A strategy launch is a starting point; vaccines, laboratories, reporting and exercises must now move together.",
+            "footerTakeaway": "Keyword: Agricultural Security."
+          }
+        },
+        "sources": [
+          {
+            "id": "743a7dc0-0186-5d7b-bd6e-dc1dde9918d0",
+            "topicId": "9ac347b0-6ea5-5cf0-9af4-b3c90ac5a563",
+            "title": "Virtual regional launch of the Middle East foot-and-mouth disease prevention and control strategy 2026-2030",
+            "publisher": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/neareast/events/details/virtual-regional-launch-of-the-middle-east-foot-and-mouth-disease-%28fmd%29-prevention-and-control-strategy-2026---2030/en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "30e8ecc0-9aa4-5d06-99dc-afb22a9cd2df",
+        "issueId": "86149dcb-ba53-5c2c-a50a-31ebd6b60c4b",
+        "slug": "mic60-mic19-mitochondria-diffusion-barrier",
+        "rank": 9,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "DE",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-mic60-mic19-mitochondria-20260929",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生命科学",
+            "headlineFact": "研究解析线粒体嵴入口的动态扩散屏障",
+            "headlineView": "Mic60-Mic19四聚体跨越嵴连接，像可变形闸门一样调控蛋白、代谢物与离子环境",
+            "headlineFull": "研究解析线粒体嵴入口的动态扩散屏障；Mic60-Mic19四聚体跨越嵴连接，像可变形闸门一样调控蛋白、代谢物与离子环境",
+            "intro": "《自然·通讯》9月26日发表的开放获取研究聚焦线粒体嵴连接：这些狭窄入口把内膜褶皱与其蛋白、代谢物和离子微环境隔开。团队解析人类Mic60氨基端二聚螺旋束晶体结构，再结合既有结构、生化数据、细胞器内与体外交联以及分子动力学模拟，建立Mic60-Mic19四聚亚复合体跨越嵴连接的动态模型。模型显示它可作为扩散屏障，同时适应柔性多结构域复合体的运动。工作提供的是经同行评议的结构与计算机制，不是人体治疗结果；它的价值在于让传统方法难以捕捉的柔性蛋白机器可以被功能化研究，疾病意义仍需后续实验验证。",
+            "xiaziQuote": "细胞里的“门”不一定是刚性孔道，也可能是一组会移动、会筛选环境的柔性蛋白。",
+            "doudouQuote": "这是结构机制研究，不是新药结论；从模型到疾病干预还有很长验证链。",
+            "footerTakeaway": "今日关键词：生命科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Life Science",
+            "headlineFact": "Researchers resolve a dynamic diffusion barrier at mitochondrial crista entrances",
+            "headlineView": "A Mic60-Mic19 tetramer spans crista junctions like a flexible gate that helps regulate proteins, metabolites and ions",
+            "headlineFull": "Researchers resolve a dynamic diffusion barrier at mitochondrial crista entrances; A Mic60-Mic19 tetramer spans crista junctions like a flexible gate that helps regulate proteins, metabolites and ions",
+            "intro": "An open-access Nature Communications study published September 26 examines mitochondrial crista junctions, narrow gateways that separate inner-membrane folds and their tuned protein, metabolite and ion environment. The team determined the crystal structure of an amino-terminal dimeric helical bundle of human Mic60, then combined structural and biochemical evidence, in-organello and in-vitro cross-linking, and molecular-dynamics simulations to build a dynamic model of the tetrameric Mic60-Mic19 subcomplex spanning the junction. The model supports a diffusion-barrier function while accommodating the movement of a flexible multi-domain complex. This is peer-reviewed structural and computational mechanism, not a human therapeutic result. Its immediate value is a way to investigate flexible protein machines that conventional structural methods struggle to capture; disease relevance still requires further experiments.",
+            "xiaziQuote": "A cellular gate need not be a rigid pore; it can be a flexible protein assembly that moves while shaping its local environment.",
+            "doudouQuote": "This is structural mechanism, not a drug result; the path from model to disease intervention still needs extensive validation.",
+            "footerTakeaway": "Keyword: Life Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "a07c4ca4-defd-5919-bc5b-8528244c6e7e",
+            "topicId": "30e8ecc0-9aa4-5d06-99dc-afb22a9cd2df",
+            "title": "Integrative structural modelling reveals the human Mic60-Mic19 subcomplex as a diffusion barrier in mitochondria",
+            "publisher": "Life Science Network",
+            "url": "https://www.lifescience.net/publications/2224741/integrative-structural-modelling-reveals-the-human/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260929_8a93d132f903cacab996b5ad"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-29",
+    "releaseId": "rel_20260929_8a93d132f903cacab996b5ad",
+    "assetBatchId": "asset_prod_20260929_8a93d132f903cacab996b5ad",
+    "posters": [
+      {
+        "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+        "locale": "zh",
+        "contentHash": "5cf76bb826b4b18438b2f77454f6fe991f299e9d8cbf54ec3774f7fb98dc8954",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/today-overview-voice-ai-opc-commerce-health-food-science.png"
+      },
+      {
+        "topicId": "67b42c37-bdfd-58c4-8345-9ccaefcad9ff",
+        "locale": "en",
+        "contentHash": "e3ff06ebd87b7236165a59031ca887b5cc32e26e6701d3114238743c06ede976",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/today-overview-voice-ai-opc-commerce-health-food-science.png"
+      },
+      {
+        "topicId": "a964411e-39f9-5b16-9b14-0749f6f33b9c",
+        "locale": "zh",
+        "contentHash": "a960ec616be353223fa86646e851eecfa93fe21ede040892e8ec0710df547b7e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/gemini-38-live-realtime-voice-agents.png"
+      },
+      {
+        "topicId": "a964411e-39f9-5b16-9b14-0749f6f33b9c",
+        "locale": "en",
+        "contentHash": "4be93655708a713153cac95f08557b779c91397861f479ea05ca122e8088d210",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/gemini-38-live-realtime-voice-agents.png"
+      },
+      {
+        "topicId": "bc1289a9-b328-5063-84ad-0704c6aa1f49",
+        "locale": "zh",
+        "contentHash": "a1f0cf3f2b97ed3fe26061fd8eb2bd51a58d93a9c4038b518b41cbef41b75811",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/typebot-solo-open-source-cloud-revenue.png"
+      },
+      {
+        "topicId": "bc1289a9-b328-5063-84ad-0704c6aa1f49",
+        "locale": "en",
+        "contentHash": "f06ebb228c0e5db458df3b27a42e1e560e33c666ef36b1908e703b06e192aed6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/typebot-solo-open-source-cloud-revenue.png"
+      },
+      {
+        "topicId": "66237075-db34-5f8b-82bb-8a33681620e6",
+        "locale": "zh",
+        "contentHash": "0ebd52f4c23e52f93ece6ca254d799251fbcd4c287df5ca511a28aa442cde67d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/chipp-ai-usage-billing-revenue-lift.png"
+      },
+      {
+        "topicId": "66237075-db34-5f8b-82bb-8a33681620e6",
+        "locale": "en",
+        "contentHash": "5b4d2192510c0ff3db3691719a385e71ef57ab01a978be529de7c2ef592297c0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/chipp-ai-usage-billing-revenue-lift.png"
+      },
+      {
+        "topicId": "8c12188b-7885-5dea-90a7-68ca0fe10428",
+        "locale": "zh",
+        "contentHash": "78956f66d8cb10b55dac72dfc9f9c3567cdc0d653f655745552beaebe2fa6f57",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/qlear-cross-border-us-australia-revenue-growth.png"
+      },
+      {
+        "topicId": "8c12188b-7885-5dea-90a7-68ca0fe10428",
+        "locale": "en",
+        "contentHash": "19af2deaa675b860ab493f65900a71b39e764209a788e96d74c3e53816f48b8a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/qlear-cross-border-us-australia-revenue-growth.png"
+      },
+      {
+        "topicId": "9d5b697d-7f73-5754-9094-aaf46bdefead",
+        "locale": "zh",
+        "contentHash": "ee18e08cf7a862db1ce4e4b16659b812391cfc2c811de850434d1f55a6cd2e67",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/who-integrated-vision-rehabilitation-guide.png"
+      },
+      {
+        "topicId": "9d5b697d-7f73-5754-9094-aaf46bdefead",
+        "locale": "en",
+        "contentHash": "56f58c8b878e95be863bc27f944dc63d7f351156b57e262e0c3d16e99792d404",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/who-integrated-vision-rehabilitation-guide.png"
+      },
+      {
+        "topicId": "d54fe2a3-6413-5624-893e-4ee18e359386",
+        "locale": "zh",
+        "contentHash": "2629d7558614e21a3f5f68fcfd6ccf40e5d7845eea231cf2af436ff46af20a34",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/food-loss-waste-forests-transformative-potential.png"
+      },
+      {
+        "topicId": "d54fe2a3-6413-5624-893e-4ee18e359386",
+        "locale": "en",
+        "contentHash": "a9bbf2c69d3586023245bb9f691779d191651d1b2d0e53709c576bbe1d6f027a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/food-loss-waste-forests-transformative-potential.png"
+      },
+      {
+        "topicId": "9ac347b0-6ea5-5cf0-9af4-b3c90ac5a563",
+        "locale": "zh",
+        "contentHash": "acf0df245ebed8ca10f185179f0fa882d8c522b957663c01237d6b4d3489cffb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/middle-east-foot-mouth-disease-strategy-2026-2030.png"
+      },
+      {
+        "topicId": "9ac347b0-6ea5-5cf0-9af4-b3c90ac5a563",
+        "locale": "en",
+        "contentHash": "7fb7f1ab00b58c92f1a03d639610d0c1d2b0dc8f45f4daea2f0400cb78b4f60d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/middle-east-foot-mouth-disease-strategy-2026-2030.png"
+      },
+      {
+        "topicId": "30e8ecc0-9aa4-5d06-99dc-afb22a9cd2df",
+        "locale": "zh",
+        "contentHash": "3f2e61c9f32782012c281a7e59753a1b55331bfaf49cfa0d699c99ad9cf5a839",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/zh/mic60-mic19-mitochondria-diffusion-barrier.png"
+      },
+      {
+        "topicId": "30e8ecc0-9aa4-5d06-99dc-afb22a9cd2df",
+        "locale": "en",
+        "contentHash": "2618a70e441f4dedfded7bc334d228696bfe7c2bc2986b990e4c26a092bedf20",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260929_8a93d132f903cacab996b5ad/en/mic60-mic19-mitochondria-diffusion-barrier.png"
+      }
+    ]
+  }
+}
