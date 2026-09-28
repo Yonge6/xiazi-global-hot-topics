@@ -1,0 +1,729 @@
+{
+  "issue": {
+    "id": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+    "slug": "2026-09-28",
+    "style": {
+      "name": "Paper Collage",
+      "zhName": "纸艺拼贴",
+      "description": "Style Atlas daily pick: Paper Collage. Use an original editorial paper-collage language built from cut and torn paper edges, layered silhouettes, restrained paper grain, visible overlaps and a warm off-white base with cobalt, vermilion, mustard and forest-green accents; do not imitate a specific artwork. Every poster keeps one main conclusion and no more than three key facts in 3-5 calm readable modules, with large type, generous spacing and broad low-texture text zones. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central layered-paper globe or editorial worktable, using uneven flowing ribbons, torn strips and overlapping silhouettes instead of a rigid grid, table, equal cards, dense borders or tiny type. Chinese and English keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-28",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-28T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-27T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+    "topics": [
+      {
+        "id": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "today-overview-ai-opc-video-commerce-rights-health-physics",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月28日全球经营雷达",
+            "headlineView": "AI基础设施、百万美元级AI收入、跨境增长与公共治理叠成一幅纸上世界",
+            "headlineFull": "9月28日全球经营雷达；AI基础设施、百万美元级AI收入、跨境增长与公共治理叠成一幅纸上世界",
+            "intro": "1. DeepSeek公开DSec智能体沙箱平台，称单个生产单元每天服务约300万个沙箱，并支持超过38万个并发实例。\n2. Photo AI公开收入时间线显示一人、零员工业务在2026年3月约为10.5万美元月收入，创始人同期披露月利润约8万美元。\n3. ParakeetAI创始人9月23日披露其实时AI通话助手在两年内做到月收入超过100万美元、150万用户。\n4. Impact Dog Crates在六个月内实现全球销售同比增长164%，本地币定价与预付关税把跨境转化率提高77%。\n5. 世界信息获取日聚焦数字时代的信息完整性，全球会议今日在塞拉利昂开幕。\n6. 联合国大会今日举行德班宣言25周年高级别会议，议程聚焦反种族主义的具体行动。\n7. 2026世界狂犬病日以“团结更强”为主题，强调犬只免疫、监测与暴露后处置协同。\n8. ATLAS首次观测到W玻色子散射产生双光子，以6.2个标准差完成电弱理论预言的矢量玻色子散射观测拼图。",
+            "xiaziQuote": "今天的共同信号是：能力要靠基础设施落地，收入要靠付款证明，治理要靠可执行的协同。",
+            "doudouQuote": "先看数字的口径、来源和限制，再决定它是趋势、案例还是已经发生的结果。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 28 Global Operator Radar",
+            "headlineView": "AI infrastructure, million-dollar AI revenue, cross-border growth and public governance overlap in one paper world",
+            "headlineFull": "September 28 Global Operator Radar; AI infrastructure, million-dollar AI revenue, cross-border growth and public governance overlap in one paper world",
+            "intro": "1. DeepSeek details DSec, an agent-sandbox platform that it says serves about three million sandboxes a day per production unit and supports more than 380,000 concurrent instances.\n2. Photo AI's public revenue timeline records about $105,000 monthly revenue in March 2026 for the one-person, zero-employee business; its founder also reported about $80,000 monthly profit.\n3. ParakeetAI's founder reported on September 23 that its real-time AI call assistant passed $1 million in monthly revenue and 1.5 million users within two years.\n4. Impact Dog Crates reports 164% year-over-year global sales growth in six months as local-currency pricing and prepaid duties lifted cross-border conversion 77%.\n5. International Day for Universal Access to Information focuses on information integrity in the digital age as its global conference opens in Sierra Leone today.\n6. The UN General Assembly holds a high-level meeting today for the Durban Declaration's twenty-fifth anniversary, centered on concrete action against racism.\n7. World Rabies Day 2026 uses the theme Stronger Together to connect dog vaccination, surveillance and timely post-exposure care.\n8. ATLAS observes W-boson scattering producing two photons for the first time at 6.2 standard deviations, completing the observed electroweak vector-boson-scattering set.",
+            "xiaziQuote": "Today's shared signal: infrastructure turns capability into action, payments prove revenue, and coordination makes governance real.",
+            "doudouQuote": "Check the metric, source and limit before deciding whether a number is a trend, a case or a completed outcome.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "a6d0dd09-7180-5083-923e-ad810374d569",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2609.22978",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "e68d8611-bd56-5ca5-b75c-ecc3f704fba2",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "Photo AI Revenue: $105K MRR and How They Got There",
+            "publisher": "Thonest",
+            "url": "https://thonest.com/c/photo-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3cebfdac-8ab7-5446-abba-190e4748cfea",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "From weekend project to $1M+ MRR in two years",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/from-weekend-project-to-1m-mrr-in-two-years-YRaa1QlGTjaqh0XgzWkc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6af248ec-1c2e-5b51-87fa-bad71d2b79a9",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "Impact Dog Crates fetches 164% global sales growth with Managed Markets",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/impact-dog-crates",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0e0c7493-6b14-5d0e-a3cc-ec98f07a9ad5",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "International Day for Universal Access to Information",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/node/97666",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "4377c532-6b1a-5fde-a9a2-4ddb35718e7f",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "High-level Meeting to Commemorate the 25th Anniversary of the Adoption of the Durban Declaration and Programme of Action",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/pga/81/event/high-level-meeting-to-commemorate-the-25th-anniversary-of-the-adoption-of-the-durban-declaration-and-programme-of-action/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6d162420-f39f-5019-987e-38d368e44eaa",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "World Rabies Day 2026",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/28/default-calendar/world-rabies-day-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "830dbd0b-2d4d-554f-9ec7-014ba1f904d3",
+            "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+            "title": "When scattered vector bosons shine",
+            "publisher": "ATLAS Collaboration",
+            "url": "https://atlas.cern/Updates/Briefing/VBS-Shine",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "fb610426-1b0b-5e90-9425-9a476d437b9d",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "deepseek-dsec-agent-sandbox-scale",
+        "rank": 2,
+        "category": "technology",
+        "region": "Asia Pacific",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-deepseek-dsec-agent-sandbox-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "DeepSeek公开大规模智能体沙箱平台DSec",
+            "headlineView": "AI训练竞争从模型与GPU延伸到隔离执行、状态保留和每秒数千次环境创建",
+            "headlineFull": "DeepSeek公开大规模智能体沙箱平台DSec；AI训练竞争从模型与GPU延伸到隔离执行、状态保留和每秒数千次环境创建",
+            "intro": "DeepSeek团队9月19日发布31页DSec报告，为智能体训练和评测提供函数调用、容器、微虚拟机与完整虚拟机四类隔离环境，并用统一Python SDK管理生命周期、资源和网络规则。团队称单个约160节点的生产单元每天服务约300万个沙箱，生产环境支持超过38万个并发实例、每秒创建超过5000个沙箱；按需加载镜像和可组合环境层减少完整镜像搬运，内存回收机制在实验中把时间积分内存消耗降低21.2%。这些是团队自报的生产与评测数据，论文仍是arXiv预印本；它说明智能体规模化的瓶颈正从模型本身扩展到安全、调度和基础设施经济性。",
+            "xiaziQuote": "智能体真正变成生产系统之前，先要有能承受百万次试错、又不把主机暴露出去的执行层。",
+            "doudouQuote": "38万并发是平台规模指标，不等于每个智能体都可靠，也不替代外部复现和安全审计。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "DeepSeek details DSec for agent sandboxes at production scale",
+            "headlineView": "AI competition expands beyond models and GPUs into isolated execution, retained state and thousands of environment launches per second",
+            "headlineFull": "DeepSeek details DSec for agent sandboxes at production scale; AI competition expands beyond models and GPUs into isolated execution, retained state and thousands of environment launches per second",
+            "intro": "A 31-page report posted September 19 describes DeepSeek Elastic Compute, or DSec, for agent training and evaluation across function-call, container, microVM and full-VM sandboxes, managed through one Python SDK with lifecycle, resource and network controls. The authors say one roughly 160-node production unit serves about three million sandboxes a day, while production supports more than 380,000 concurrent sandboxes and over 5,000 creations per second. On-demand image loading and composable layers avoid moving full images, while a reclamation mechanism cut time-integrated memory use 21.2% in evaluation. These are team-reported deployment and benchmark figures from an arXiv preprint, not independent replication. The broader signal is that agent scale now depends on security, scheduling and infrastructure economics as much as model quality.",
+            "xiaziQuote": "Before agents become production systems, they need an execution layer that can absorb millions of trials without exposing the host.",
+            "doudouQuote": "380,000 concurrent sandboxes measure platform scale, not agent reliability, and still need outside replication and security review.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "3c4db4f8-1a2b-52ef-b910-75b3f67e6caf",
+            "topicId": "fb610426-1b0b-5e90-9425-9a476d437b9d",
+            "title": "DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2609.22978",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ce01c336-2813-5a94-a5c6-248bba97c54a",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "photo-ai-solo-founder-105k-mrr-80k-profit",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "NL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-photo-ai-solo-founder-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Photo AI一人公司月收入10.5万美元",
+            "headlineView": "零员工、单服务器把AI写真做成月利润约8万美元的订阅业务",
+            "headlineFull": "Photo AI一人公司月收入10.5万美元；零员工、单服务器把AI写真做成月利润约8万美元的订阅业务",
+            "intro": "Photo AI由Pieter Levels一人运营，把用户上传的5至15张自拍训练成个人AI模型，再生成写真、换装、产品照、AI网红与短视频。公开收入时间线记录其2026年3月约为10.5万美元月收入；创始人同期披露月利润约8万美元、利润率约76%。业务仍保持一人、零员工并运行在单台服务器上，增长基础不是一次爆款：创始人先用十年公开构建积累受众，再持续增加写真包、视频和电商内容等付费场景。主要成本包括GPU推理、模型训练、存储、支付与创始人时间。收入和利润来自创始人公开披露与时间线整理，并非审计财报；2025年11月公开峰值曾达到13.8万美元月收入，说明当前数字也会波动。",
+            "xiaziQuote": "真正有说服力的一人公司，不只证明有人付钱，还要同时证明收入规模、利润空间和持续运营能力。",
+            "doudouQuote": "10.5万美元月收入与8万美元月利润都很亮眼，但仍是创始人披露，不能省略口径、时间点与波动。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Photo AI's one-person company reports $105K monthly revenue",
+            "headlineView": "Zero employees and one server support an AI-photo subscription business reporting about $80K monthly profit",
+            "headlineFull": "Photo AI's one-person company reports $105K monthly revenue; Zero employees and one server support an AI-photo subscription business reporting about $80K monthly profit",
+            "intro": "Pieter Levels operates Photo AI alone. Users train a personal AI model from five to fifteen selfies, then generate portraits, virtual try-ons, product photography, AI influencers and videos. A public revenue timeline records about $105,000 monthly revenue in March 2026; the founder also reported roughly $80,000 monthly profit, or about a 76% margin. The business still has one person, zero employees and a single server. Its distribution advantage was built over ten years in public rather than one viral launch, while the product kept expanding into photo packs, video and commerce content. GPU inference, training, storage, payments and founder time remain the main costs. Revenue and profit are founder-disclosed and timeline-curated rather than audited; a public November 2025 peak of $138,000 MRR also shows the number can move.",
+            "xiaziQuote": "A persuasive one-person company proves more than willingness to pay: it shows revenue scale, profit headroom and sustained operating capacity together.",
+            "doudouQuote": "$105K monthly revenue and $80K monthly profit are striking, but they remain founder-disclosed figures with a date, a method and real volatility.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "03a48ecf-4f0b-5809-aba4-7350866ca828",
+            "topicId": "ce01c336-2813-5a94-a5c6-248bba97c54a",
+            "title": "Photo AI Revenue: $105K MRR and How They Got There",
+            "publisher": "Thonest",
+            "url": "https://thonest.com/c/photo-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c787ef2b-49cb-58b3-a58e-1ef6ae5643d8",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "parakeet-ai-one-million-mrr-call-assistant",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "SI",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-parakeet-ai-revenue-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "ParakeetAI两年做到月收入超100万美元",
+            "headlineView": "周末MVP从面试切入，再扩展到销售与会议，用自然短视频推向150万用户",
+            "headlineFull": "ParakeetAI两年做到月收入超100万美元；周末MVP从面试切入，再扩展到销售与会议，用自然短视频推向150万用户",
+            "intro": "ParakeetAI是一款实时AI通话助手，在面试、销售电话和会议中听取对话并即时生成回答。创始人9月23日在Indie Hackers披露：产品从一个周末MVP起步，两年内达到月收入超过100万美元、累计150万用户；第一笔收入在上线首周出现。团队先抓住远程面试这一高焦虑、强付费场景，再扩展到销售、会议和演示，并与100多位内容创作者长期合作，以真人演示式短视频建立分发网络，创始人称相关内容每月约获得10亿次自然播放。收入主要来自订阅；成本包括实时转写、推理、语音、基础设施、客服和创作者合作。公司以小团队自筹资金运营，但收入、用户与播放量均来自创始人披露，未审计，利润和留存未公开。",
+            "xiaziQuote": "百万美元级AI收入通常不是靠功能堆叠，而是先拿下一个高焦虑、高频、愿意立即付费的时刻，再扩展场景。",
+            "doudouQuote": "月收入超过100万美元很强，但这仍是创始人披露；利润、留存和创作者分发成本决定含金量。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "ParakeetAI reports more than $1M in monthly revenue after two years",
+            "headlineView": "A weekend MVP started with interviews, expanded into sales and meetings, then used native short video to reach 1.5M users",
+            "headlineFull": "ParakeetAI reports more than $1M in monthly revenue after two years; A weekend MVP started with interviews, expanded into sales and meetings, then used native short video to reach 1.5M users",
+            "intro": "ParakeetAI is a real-time AI call assistant that listens during interviews, sales calls and meetings and generates answers instantly. In a September 23 Indie Hackers post, its founder reported more than $1 million in monthly revenue and 1.5 million users within two years; the first sale arrived in the first week after a weekend MVP. The small, bootstrapped team first focused on the high-anxiety, high-intent moment of a remote interview, then expanded into sales, meetings and presentations. It built an ongoing network of more than 100 creators using native demonstration videos; the founder says related content now receives about one billion organic views a month. Subscriptions drive revenue, while real-time transcription, inference, voice, infrastructure, support and creator partnerships are the main costs. Revenue, user and view figures are founder-disclosed and unaudited; profit and retention were not published.",
+            "xiaziQuote": "Million-dollar AI revenue usually starts by winning one frequent, high-anxiety moment people will pay to solve immediately, then expanding the workflow.",
+            "doudouQuote": "More than $1M in monthly revenue is powerful, but it remains founder-disclosed; profit, retention and creator-distribution cost determine its quality.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "28a1d979-978e-54b9-bb15-3f82807dea11",
+            "topicId": "c787ef2b-49cb-58b3-a58e-1ef6ae5643d8",
+            "title": "From weekend project to $1M+ MRR in two years",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/from-weekend-project-to-1m-mrr-in-two-years-YRaa1QlGTjaqh0XgzWkc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0b693e7c-5014-5915-9919-c449b554da37",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "impact-dog-crates-global-sales-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "CA",
+          "GB",
+          "AU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-impact-dog-crates-cross-border-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Impact Dog Crates全球销售六个月同比增长164%",
+            "headlineView": "本地币结账、预付关税和更小包装，把高客单铝制犬笼跨境运费痛点转成增长",
+            "headlineFull": "Impact Dog Crates全球销售六个月同比增长164%；本地币结账、预付关税和更小包装，把高客单铝制犬笼跨境运费痛点转成增长",
+            "intro": "美国Impact Dog Crates向家庭、救援机构和警犬单位销售高强度铝制犬笼。Shopify客户案例称，启用Managed Markets六个月后，全球销售同比增长164%、全球转化率增长77%，加拿大转化率增长99%。赚钱机制不是低价铺货，而是让海外顾客看到本地币价格、结账时预付税费并使用更合适的国际承运商，同时根据访问、首购与复购数据扩大加拿大、欧洲和澳大利亚广告；公司还缩小包装体积以压低履约成本。此前运往欧洲的费用有时占顾客总成本50%，关税差错、清关延迟和客服时间直接侵蚀利润。结果来自平台客户案例，未披露订单基数、广告回收期、退货率与市场级利润率。",
+            "xiaziQuote": "重货跨境最先要卖的不是梦想，而是一个在结账页就看得懂、到货时不意外的总成本。",
+            "doudouQuote": "164%是同比增长率，不是利润率；包装、运费、关税、退货和投放仍要逐项核算。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Impact Dog Crates reports 164% global sales growth in six months",
+            "headlineView": "Local-currency checkout, prepaid duties and smaller packaging turn a high-ticket aluminum crate's shipping pain into growth",
+            "headlineFull": "Impact Dog Crates reports 164% global sales growth in six months; Local-currency checkout, prepaid duties and smaller packaging turn a high-ticket aluminum crate's shipping pain into growth",
+            "intro": "US-based Impact Dog Crates sells secure aluminum dog crates to households, rescues and police K-9 units. A Shopify customer case says that six months after enabling Managed Markets, year-over-year global sales rose 164%, global conversion 77% and Canadian conversion 99%. The mechanism is not discount volume: overseas shoppers see local-currency prices, prepay duties at checkout and use better international carrier options, while traffic, first-order and repeat-purchase data guide advertising in Canada, Europe and Australia. The company also redesigned packaging to reduce fulfillment cost. Before the change, shipping to Europe could reach 50% of the customer's total cost, while duty errors, customs delays and service calls consumed margin. The vendor case does not disclose order bases, advertising payback, returns or market-level profit.",
+            "xiaziQuote": "For bulky cross-border goods, the first product is a total landed cost that is clear at checkout and unsurprising at delivery.",
+            "doudouQuote": "164% is a growth rate, not a margin; packaging, freight, duties, returns and acquisition still need separate accounting.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "1f15e880-c392-5454-89e4-04da8f5ed421",
+            "topicId": "0b693e7c-5014-5915-9919-c449b554da37",
+            "title": "Impact Dog Crates fetches 164% global sales growth with Managed Markets",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/impact-dog-crates",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "02b19590-c5d9-5ad8-ae55-c58e8a847309",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "universal-access-information-integrity-2026",
+        "rank": 6,
+        "category": "international",
+        "region": "Africa",
+        "countryCodes": [
+          "SL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-universal-access-information-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "数字治理",
+            "headlineFact": "世界信息获取日聚焦数字时代的信息完整性",
+            "headlineView": "公开信息的价值从“能否访问”升级为是否及时、可信、可验证并能抵抗信息失序",
+            "headlineFull": "世界信息获取日聚焦数字时代的信息完整性；公开信息的价值从“能否访问”升级为是否及时、可信、可验证并能抵抗信息失序",
+            "intro": "9月28日国际普遍获取信息日的2026主题是“维护数字时代的信息完整性：获取信息在应对信息失序中的作用”。联合国指出，信息过载环境里仅有访问权已不够，政府主动公开、可信数据、媒体与信息素养以及数字技术需要共同提供及时可靠的信息。全球会议与第17届信息专员国际会议今日至30日在塞拉利昂弗里敦地区举行，由UNESCO与塞拉利昂政府主办。今天确认的是议题和会议安排，不是各国透明度已经改善；后续应看公开时限、机器可读数据、纠错机制、少数语言与残障可及性，以及独立监督能否落地。",
+            "xiaziQuote": "信息公开真正进入数字时代，不只是把文件放上网，而是让人及时找到、理解、验证并追责。",
+            "doudouQuote": "“可访问”不等于“可相信”，发布速度、原始数据和更正记录同样重要。",
+            "footerTakeaway": "今日关键词：数字治理。"
+          },
+          "en-US": {
+            "categoryLabel": "Digital Governance",
+            "headlineFact": "Access-to-information day focuses on integrity in the digital age",
+            "headlineView": "Public information now has to be timely, credible and verifiable, not merely reachable, to resist information disorder",
+            "headlineFull": "Access-to-information day focuses on integrity in the digital age; Public information now has to be timely, credible and verifiable, not merely reachable, to resist information disorder",
+            "intro": "The 2026 theme for the September 28 International Day for Universal Access to Information is 'Upholding Information Integrity in the Digital Age: The role of access to information in addressing information disorder.' The United Nations says access alone is insufficient in an overloaded information environment; proactive disclosure, credible data, media and information literacy and digital tools must work together to supply timely, reliable information. A global conference and the seventeenth International Conference of Information Commissioners run today through September 30 in Sierra Leone, hosted by UNESCO and the government. This confirms an agenda and meeting, not improved transparency. Follow-through should be measured through disclosure deadlines, machine-readable data, correction records, minority-language and disability access, and independent oversight.",
+            "xiaziQuote": "Digital access to information means people can find, understand, verify and challenge a record, not simply that a file exists online.",
+            "doudouQuote": "Accessible is not the same as trustworthy; publication speed, source data and visible corrections all matter.",
+            "footerTakeaway": "Keyword: Digital Governance."
+          }
+        },
+        "sources": [
+          {
+            "id": "844d9d05-1f84-5fc6-b1a5-ff90e9799517",
+            "topicId": "02b19590-c5d9-5ad8-ae55-c58e8a847309",
+            "title": "International Day for Universal Access to Information",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/node/97666",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f5f30375-7334-5ac3-81b9-a6172d3acc85",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "durban-declaration-twenty-fifth-anniversary",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "ZA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-durban-declaration-anniversary-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球治理",
+            "headlineFact": "联合国今日纪念德班宣言通过25周年",
+            "headlineView": "高级别会议把反种族主义从周年回顾推向法律、数据、教育与救济的具体行动",
+            "headlineFull": "联合国今日纪念德班宣言通过25周年；高级别会议把反种族主义从周年回顾推向法律、数据、教育与救济的具体行动",
+            "intro": "联合国大会9月28日在纽约总部举行德班宣言和行动纲领通过25周年高级别会议，由第81届联大主席主持。2001年通过的框架聚焦种族主义、种族歧视、仇外心理及相关不容忍；本次会议已有议程、概念说明和政治宣言最终草案，目标是评估进展并推动具体行动。会前能确认的是会议、文件与政策方向，不能把草案当成已经执行的国内法律或预算。有效结果应落在反歧视执法、可比较数据、教育、受害者救济、移民和少数群体保护，以及国家定期报告上；政治分歧与执行能力仍是主要限制。",
+            "xiaziQuote": "周年会议只有在权利被写进可执行规则、数据和救济渠道时，才不只是纪念。",
+            "doudouQuote": "政治宣言给出共同语言，真正的进展要看各国之后如何立法、投入和公开结果。",
+            "footerTakeaway": "今日关键词：全球治理。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Governance",
+            "headlineFact": "The UN marks twenty-five years of the Durban Declaration today",
+            "headlineView": "A high-level meeting pushes anti-racism from anniversary review toward concrete law, data, education and remedy",
+            "headlineFull": "The UN marks twenty-five years of the Durban Declaration today; A high-level meeting pushes anti-racism from anniversary review toward concrete law, data, education and remedy",
+            "intro": "The United Nations General Assembly meets at headquarters in New York on September 28 to mark the twenty-fifth anniversary of the Durban Declaration and Programme of Action, chaired by the President of the eighty-first session. Adopted in 2001, the framework addresses racism, racial discrimination, xenophobia and related intolerance. The meeting has a programme, concept note and final draft political declaration intended to review progress and call for action. Before the meeting concludes, those documents should not be treated as implemented domestic law or funded programs. Meaningful results require enforceable anti-discrimination rules, comparable data, education, remedies for victims, protection for migrants and minorities, and regular national reporting; political division and implementation capacity remain constraints.",
+            "xiaziQuote": "An anniversary matters when rights move into enforceable rules, public data and practical routes to remedy.",
+            "doudouQuote": "A political declaration supplies common language; progress depends on what countries legislate, fund and report afterward.",
+            "footerTakeaway": "Keyword: Global Governance."
+          }
+        },
+        "sources": [
+          {
+            "id": "4591dade-32c4-5456-aa2e-021916f5629c",
+            "topicId": "f5f30375-7334-5ac3-81b9-a6172d3acc85",
+            "title": "High-level Meeting to Commemorate the 25th Anniversary of the Adoption of the Durban Declaration and Programme of Action",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/pga/81/event/high-level-meeting-to-commemorate-the-25th-anniversary-of-the-adoption-of-the-durban-declaration-and-programme-of-action/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "da7f3a40-c373-5325-8218-8b1d14fa0618",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "world-rabies-day-stronger-together",
+        "rank": 8,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-world-rabies-day-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "世界狂犬病日强调“团结更强”",
+            "headlineView": "犬只免疫、暴露后处置、监测和社区教育必须连成同一条One Health防线",
+            "headlineFull": "世界狂犬病日强调“团结更强”；犬只免疫、暴露后处置、监测和社区教育必须连成同一条One Health防线",
+            "intro": "2026世界狂犬病日于9月28日举行，主题为“Stronger Together”。WHO强调狂犬病消除不能靠单一环节：犬只大规模免疫从源头降低传播，医疗机构要在暴露后及时清洗伤口、接种疫苗并按风险使用免疫球蛋白，监测和报告帮助定位风险，政府、兽医、学校与社区共同维持覆盖。PAHO称美洲犬传播人狂犬病病例从1983年的300例降至2025年及2026年截至7月共11例，约减少98%；智利在2026年9月成为南美首个获WHO验证消除犬传播人狂犬病的国家。纪念日不是终点，疫苗可及性、漏报和野生动物宿主仍是主要风险。",
+            "xiaziQuote": "狂犬病几乎百分之百可预防，真正难的是让动物免疫、医疗处置和基层报告永远不断链。",
+            "doudouQuote": "病例下降不等于病毒消失，被咬后仍要立即清洗伤口并尽快寻求专业处置。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "World Rabies Day says we are Stronger Together",
+            "headlineView": "Dog vaccination, post-exposure care, surveillance and community education must operate as one One Health defense",
+            "headlineFull": "World Rabies Day says we are Stronger Together; Dog vaccination, post-exposure care, surveillance and community education must operate as one One Health defense",
+            "intro": "World Rabies Day 2026 falls on September 28 with the theme 'Stronger Together.' WHO stresses that elimination cannot rely on one step: mass dog vaccination reduces transmission at the source; health services need timely wound washing, vaccination and risk-based immunoglobulin after exposure; surveillance and reporting locate threats; and governments, veterinarians, schools and communities sustain coverage. PAHO says dog-mediated human rabies cases in the Americas fell about 98%, from 300 in 1983 to 11 reported across 2025 and 2026 through July. Chile became the first South American country validated by WHO for eliminating dog-mediated human rabies in September 2026. An awareness day is not an endpoint; vaccine access, under-reporting and wildlife reservoirs remain material risks.",
+            "xiaziQuote": "Rabies is almost entirely preventable; the hard part is keeping animal vaccination, clinical response and local reporting connected every day.",
+            "doudouQuote": "Falling case counts do not mean the virus is gone; wash any bite immediately and seek professional care quickly.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "1fe60db5-bac8-52c6-aae6-9dee09ae8a0e",
+            "topicId": "da7f3a40-c373-5325-8218-8b1d14fa0618",
+            "title": "World Rabies Day 2026",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/09/28/default-calendar/world-rabies-day-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "72b4efa9-ef1d-5c8e-9cb6-f88352d1eb37",
+            "topicId": "da7f3a40-c373-5325-8218-8b1d14fa0618",
+            "title": "World Rabies Day 2026",
+            "publisher": "Pan American Health Organization",
+            "url": "https://www.paho.org/en/campaigns/world-rabies-day-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "544594a2-04f5-57b5-b006-1a30c42a0e95",
+        "issueId": "d6cbe595-9727-58f1-be27-bcb6fc55fc9f",
+        "slug": "atlas-w-boson-scattering-two-photons",
+        "rank": 9,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "CH",
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-atlas-w-boson-photons-20260928",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "基础科学",
+            "headlineFact": "ATLAS首次观测W玻色子散射产生双光子",
+            "headlineView": "6.2个标准差完成电弱理论预言的矢量玻色子散射观测拼图，暂未发现新物理偏差",
+            "headlineFull": "ATLAS首次观测W玻色子散射产生双光子；6.2个标准差完成电弱理论预言的矢量玻色子散射观测拼图，暂未发现新物理偏差",
+            "intro": "CERN的ATLAS合作组用LHC第二轮2015至2018年完整数据，首次观测到两个W玻色子散射后产生两个高能光子，并伴随两个相隔很远的喷注。目标信号极稀有，主要强相互作用背景约常见1000倍；筛选后预计约每6个候选事件有1个是真实信号。观测显著性达到6.2个标准差，测得产生率13.8±3.0飞巴恩，与标准模型预测的17.1±2.4飞巴恩相容。它补齐了电弱理论预言中由W或Z散射产生W、Z或光子的全套已观测过程；本次未发现偏离标准模型的迹象，但为未来高亮度LHC寻找细微异常建立了基线。",
+            "xiaziQuote": "基础科学的突破有时不是发现新粒子，而是把一个极罕见的标准模型过程从背景噪声里可靠地看见。",
+            "doudouQuote": "“没有偏差”不是没有价值，它把未来任何新物理信号的参照系测得更清楚。",
+            "footerTakeaway": "今日关键词：基础科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Fundamental Science",
+            "headlineFact": "ATLAS first observes W-boson scattering into two photons",
+            "headlineView": "A 6.2-sigma result completes the observed electroweak vector-boson-scattering set, with no new-physics deviation yet",
+            "headlineFull": "ATLAS first observes W-boson scattering into two photons; A 6.2-sigma result completes the observed electroweak vector-boson-scattering set, with no new-physics deviation yet",
+            "intro": "The ATLAS Collaboration at CERN used the full 2015–2018 LHC Run-2 dataset to observe two W bosons scattering into two high-energy photons for the first time, accompanied by two widely separated jets. The target is extremely rare: the dominant strong-interaction background is roughly 1,000 times more common, and after selection only about one in six candidate events was expected to be signal. The result reaches 6.2 standard deviations, with a measured production rate of 13.8 ± 3.0 femtobarns, consistent with the Standard Model prediction of 17.1 ± 2.4. It completes the observed set of electroweak processes in which W or Z bosons scatter into combinations of W, Z and photons. No deviation was found, but the result provides a baseline for more precise High-Luminosity LHC tests.",
+            "xiaziQuote": "A fundamental-science breakthrough can be the reliable sighting of an exceptionally rare Standard Model process inside overwhelming background.",
+            "doudouQuote": "No deviation is still valuable: it sharpens the reference against which future signs of new physics must be measured.",
+            "footerTakeaway": "Keyword: Fundamental Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "3301c27c-fd03-5553-bd7e-2d370654696f",
+            "topicId": "544594a2-04f5-57b5-b006-1a30c42a0e95",
+            "title": "When scattered vector bosons shine",
+            "publisher": "ATLAS Collaboration",
+            "url": "https://atlas.cern/Updates/Briefing/VBS-Shine",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260928_179a5fdfe6c72e0396478a8d"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-28",
+    "releaseId": "rel_20260928_179a5fdfe6c72e0396478a8d",
+    "assetBatchId": "asset_prod_20260928_179a5fdfe6c72e0396478a8d",
+    "posters": [
+      {
+        "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+        "locale": "zh",
+        "contentHash": "6f306e2e296c54c300083e739f7503b9a18f70c1aba04ac2a34ae665c76e0fb2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/today-overview-ai-opc-video-commerce-rights-health-physics.png"
+      },
+      {
+        "topicId": "49acd39f-3bc8-50a2-bb1d-9cf9090e90f7",
+        "locale": "en",
+        "contentHash": "a5a4411059b418c7a6718163b0dd549d5d0e70d26d7989adb0ad19a109485187",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/today-overview-ai-opc-video-commerce-rights-health-physics.png"
+      },
+      {
+        "topicId": "fb610426-1b0b-5e90-9425-9a476d437b9d",
+        "locale": "zh",
+        "contentHash": "e052192a4560e29064c4ca684c8a33aa4a6c97f4cdb425f01377335259cf3007",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/deepseek-dsec-agent-sandbox-scale.png"
+      },
+      {
+        "topicId": "fb610426-1b0b-5e90-9425-9a476d437b9d",
+        "locale": "en",
+        "contentHash": "e5cbfe91fd722d5b0ed2d3b7d80e456327ef9dee3dc113f4c180842bf806038b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/deepseek-dsec-agent-sandbox-scale.png"
+      },
+      {
+        "topicId": "ce01c336-2813-5a94-a5c6-248bba97c54a",
+        "locale": "zh",
+        "contentHash": "cfddc1cfa20057c2814245317c702f6e3572d7af68d2eed264fa7512b5c184c2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/photo-ai-solo-founder-105k-mrr-80k-profit.png"
+      },
+      {
+        "topicId": "ce01c336-2813-5a94-a5c6-248bba97c54a",
+        "locale": "en",
+        "contentHash": "9da6296fe4f8d1fb640078724da64306dcaeb2ef604196c20c18aa08d4ae5f05",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/photo-ai-solo-founder-105k-mrr-80k-profit.png"
+      },
+      {
+        "topicId": "c787ef2b-49cb-58b3-a58e-1ef6ae5643d8",
+        "locale": "zh",
+        "contentHash": "5c0cb5d2ca5ceecf8690814d1b66ae5f2817793cd19a5669cdb0a2ddcbeec921",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/parakeet-ai-one-million-mrr-call-assistant.png"
+      },
+      {
+        "topicId": "c787ef2b-49cb-58b3-a58e-1ef6ae5643d8",
+        "locale": "en",
+        "contentHash": "77c01a2c339906ba836cd97eb969233639c35d11c1b639ace4ed38b646d8c77f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/parakeet-ai-one-million-mrr-call-assistant.png"
+      },
+      {
+        "topicId": "0b693e7c-5014-5915-9919-c449b554da37",
+        "locale": "zh",
+        "contentHash": "5082405181a64b80871e6e3b3a13a3c6ab89af815ad05e58418aae773a3b7a12",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/impact-dog-crates-global-sales-growth.png"
+      },
+      {
+        "topicId": "0b693e7c-5014-5915-9919-c449b554da37",
+        "locale": "en",
+        "contentHash": "bda52eda80d42e9421fa8e41fdca194dcd0f108018bc377c8ebdbdd4ab76892d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/impact-dog-crates-global-sales-growth.png"
+      },
+      {
+        "topicId": "02b19590-c5d9-5ad8-ae55-c58e8a847309",
+        "locale": "zh",
+        "contentHash": "cc18b381d77cfb95609f6f4608a533e8e4afefb8976282e591ee6c96597467d1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/universal-access-information-integrity-2026.png"
+      },
+      {
+        "topicId": "02b19590-c5d9-5ad8-ae55-c58e8a847309",
+        "locale": "en",
+        "contentHash": "188bd79a9bb2224ed663492f7d17dd8e3a0608e989a1f9cd6f92d7753ac09469",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/universal-access-information-integrity-2026.png"
+      },
+      {
+        "topicId": "f5f30375-7334-5ac3-81b9-a6172d3acc85",
+        "locale": "zh",
+        "contentHash": "cd844f96274a31358a52ac5ac5c5d74e224061eab5aa0607f266a917f9e991bd",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/durban-declaration-twenty-fifth-anniversary.png"
+      },
+      {
+        "topicId": "f5f30375-7334-5ac3-81b9-a6172d3acc85",
+        "locale": "en",
+        "contentHash": "500d55dc7532dbbcf8c3e5709a6f7f1a3a1de5792cd29ad1c4dc0d39873700a0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/durban-declaration-twenty-fifth-anniversary.png"
+      },
+      {
+        "topicId": "da7f3a40-c373-5325-8218-8b1d14fa0618",
+        "locale": "zh",
+        "contentHash": "288b7745947b05bcbdcd0118a9af7f5d4a8edb03671a7100f2446165c4126f8e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/world-rabies-day-stronger-together.png"
+      },
+      {
+        "topicId": "da7f3a40-c373-5325-8218-8b1d14fa0618",
+        "locale": "en",
+        "contentHash": "40d641c73251a218a961fdb255582592f3f635f8bab2b2d205848bfc334d25c2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/world-rabies-day-stronger-together.png"
+      },
+      {
+        "topicId": "544594a2-04f5-57b5-b006-1a30c42a0e95",
+        "locale": "zh",
+        "contentHash": "94a7cd4f4c03efdbd8f6b23716ddaa38b9e6e25477fa9bbf0edeb634f4aee659",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/zh/atlas-w-boson-scattering-two-photons.png"
+      },
+      {
+        "topicId": "544594a2-04f5-57b5-b006-1a30c42a0e95",
+        "locale": "en",
+        "contentHash": "a7cc627cf4588e579b85bd446c6466b4c1e6ceae44a9d934dbf1552e1beb5acc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260928_179a5fdfe6c72e0396478a8d/en/atlas-w-boson-scattering-two-photons.png"
+      }
+    ]
+  }
+}
