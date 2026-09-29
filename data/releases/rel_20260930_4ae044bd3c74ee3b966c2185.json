@@ -1,0 +1,741 @@
+{
+  "issue": {
+    "id": "a23f403d-56a0-5b38-ba76-b4842395b839",
+    "slug": "2026-09-30",
+    "style": {
+      "name": "Rococo",
+      "zhName": "洛可可风格",
+      "description": "Style Atlas daily pick: Rococo. Use an original editorial Rococo language with airy asymmetry, shell-like curves, delicate floral scrolls, ivory and powder-blue grounds, blush and mint accents, restrained gilt details and luminous theatrical depth; do not imitate a specific artwork or artist. Keep ornament mostly around the edges so every text zone stays calm, low-texture and high-contrast. Every poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and broad breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage scene, using flowing ribbons, varied cartouches and layered foreground-background movement rather than a rigid eight-card grid, table, equal boxes, dense borders or tiny type. Chinese and English keep the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-09-30",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-09-30T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-29T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+    "topics": [
+      {
+        "id": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "today-overview-ai-opc-commerce-conflict-weather-language-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "9月30日全球经营雷达",
+            "headlineView": "主动智能体、单人订阅、AI变现、跨境履约与公共系统进入同一张行动地图",
+            "headlineFull": "9月30日全球经营雷达；主动智能体、单人订阅、AI变现、跨境履约与公共系统进入同一张行动地图",
+            "intro": "1. OpenAI在DevDay发布主动执行持续任务的Dots，并推出面向代理编程、电脑操作与专业工作的GPT-6.1 Sol。\n2. Personal Best由一名开发者经营，靠免费本地运行的iOS健身应用加Pro订阅做到接近5000美元月经常性收入。\n3. Okara用AI代理交付营销规划与执行，Stripe称其上线两小时内年化经常性收入突破100万美元并获得数千名付费客户。\n4. Highland通过含税定价和单一迪拜履约枢纽进入30多个国家，首四周国际收入增长237%。\n5. 联合国也门问题特使与胡塞谈判代表及区域各方会谈，试图阻止西海岸战事继续升级。\n6. ITU与WMO今日完成气象频谱全球研讨会，推动保护天气预报、地球观测和灾害预警依赖的无线电频率。\n7. 国际翻译日聚焦语言如何促进包容，以及语言塑造AI、AI反过来塑造语言的双向关系。\n8. NASA罕见捕捉到蒙大拿野火云顶部短暂的幞状云，把地表火势、强上升气流与云过程连接起来。",
+            "xiaziQuote": "今天的共同信号是：能力只有接进收费、履约、协作和可验证观测，才会变成真实结果。",
+            "doudouQuote": "把厂商发布、创始人自报、供应商案例和公共机构行动分开看，证据强度才不会混在一起。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "September 30 Global Operator Radar",
+            "headlineView": "Proactive agents, solo subscriptions, AI monetization, cross-border fulfillment and public systems enter one action map",
+            "headlineFull": "September 30 Global Operator Radar; Proactive agents, solo subscriptions, AI monetization, cross-border fulfillment and public systems enter one action map",
+            "intro": "1. OpenAI unveils Dots for ongoing proactive tasks at DevDay and launches GPT-6.1 Sol for agentic coding, computer use and professional work.\n2. One developer runs Personal Best, approaching $5,000 MRR with a free on-device iOS fitness app and an optional Pro subscription.\n3. Okara delivers marketing planning and execution through AI agents, and Stripe says it passed $1 million ARR within two hours of launch with thousands of paying customers.\n4. Highland uses duty-inclusive pricing and one Dubai fulfillment hub to reach more than thirty countries, lifting international revenue 237% in four weeks.\n5. The UN envoy for Yemen meets Houthi negotiators and regional parties in an effort to stop escalating battles on the western coast.\n6. ITU and WMO conclude a global seminar today on protecting radio spectrum used by forecasting, Earth observation and hazard warning.\n7. International Translation Day examines how languages foster inclusion and the two-way relationship between language and AI.\n8. NASA captures a rare, short-lived pileus above a Montana fire cloud, linking surface fire behavior, powerful updrafts and cloud processes.",
+            "xiaziQuote": "Today's shared signal: capability becomes an outcome only when it connects to pricing, delivery, coordination and verifiable observation.",
+            "doudouQuote": "Keep vendor launches, founder reports, supplier case studies and public-institution actions in separate evidence buckets.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "31a02e92-b70d-5676-8479-319aa2c6471b",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "OpenAI DevDay 2026 unveils Dots, ChatGPT Space and GPT-6.1 Sol",
+            "publisher": "INSIDE",
+            "url": "https://www.inside.com.tw/article/42519-openai-devday-2026-dots-chatgpt-space-gpt-6-1-sol",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "d60aa6b9-b838-5444-bc65-ab8e0fff6c82",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "Building a $5k MRR app while freelancing to keep the lights on",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/building-a-5k-mrr-app-while-freelancing-to-keep-the-lights-on-JhX6p14De0nagI0j1Xg1",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "218687e3-5eee-5c82-b620-5025d81ba04d",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "Okara reaches thousands of paying customers in weeks with Stripe",
+            "publisher": "Stripe",
+            "url": "https://stripe.com/en-se/customers/okara",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ecf262cf-00a3-5ce8-b76d-5182b631b301",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "Highland went global. Revenue followed.",
+            "publisher": "Mayple",
+            "url": "https://maypleglobal.com/case-study-highland",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "18aba321-d14d-59c7-a1d1-8206520ab763",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "UN envoy meets Houthi negotiators in a bid to halt escalating violence in Yemen",
+            "publisher": "SFGATE / Associated Press",
+            "url": "https://www.sfgate.com/news/world/article/un-envoy-meets-houthi-negotiators-in-a-bid-to-22454118.php",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0600282f-8a40-56dd-95c9-e28a116fd12e",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "ITU-WMO event to review risks to radio spectrum for weather and climate services",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/media/announcement/itu-wmo-event-review-risks-radio-spectrum-weather-and-climate-services",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "371838bb-1009-5ebe-a3f8-ff3dd02a3ee5",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "European Day of Languages 2026",
+            "publisher": "European Commission",
+            "url": "https://knowledge-centre-translation-interpretation.ec.europa.eu/en/events/european-day-languages-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3022acb3-0605-520f-a54f-6382be065707",
+            "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+            "title": "Fire Cloud With Pileus On Top",
+            "publisher": "Mirage News / NASA Earth Observatory",
+            "url": "https://www.miragenews.com/fire-cloud-with-pileus-on-top-1751625/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "14994356-4b52-534e-8ecc-7f93a207f622",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "openai-devday-dots-gpt-61-sol",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-openai-devday-dots-sol-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI发布主动智能体Dots与GPT-6.1 Sol",
+            "headlineView": "AI从回答一次问题转向持续执行任务，工作模型同时强化代理编程、电脑操作与专业工作",
+            "headlineFull": "OpenAI发布主动智能体Dots与GPT-6.1 Sol；AI从回答一次问题转向持续执行任务，工作模型同时强化代理编程、电脑操作与专业工作",
+            "intro": "OpenAI在9月29日DevDay公布Dots：可代表用户持续、主动完成任务的智能体，初期向Pro、Business与Enterprise用户提供，每人先配置一个。公司同时发布GPT-6.1 Sol，官方说明其相较GPT-6 Sol提升代理编程、电脑操作和专业工作能力，并从Pro用户开始在ChatGPT Work与Codex中逐步推出。大会还展示团队共享的Space和面向重复决策的接口。新方向把竞争从一次性聊天推向持续工作与上下文协作；但现场演示出现过延迟，官方发布也没有提供生产环境成功率、错误恢复或长期任务可靠性数据。",
+            "xiaziQuote": "主动智能体真正的门槛不是会不会开始，而是能否在数小时和数天后仍按边界完成。",
+            "doudouQuote": "先测持续任务的暂停、恢复、审批和失败回滚，再讨论把它放进核心流程。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI launches proactive Dots and GPT-6.1 Sol",
+            "headlineView": "AI moves from answering once to sustaining tasks, while the work model strengthens agentic coding, computer use and professional work",
+            "headlineFull": "OpenAI launches proactive Dots and GPT-6.1 Sol; AI moves from answering once to sustaining tasks, while the work model strengthens agentic coding, computer use and professional work",
+            "intro": "At its September 29 DevDay, OpenAI unveiled Dots, agents designed to perform ongoing tasks proactively for users. Initial access is for Pro, Business and Enterprise users, starting with one dot per person. OpenAI also released GPT-6.1 Sol, which its official notes say improves on GPT-6 Sol in agentic coding, computer use and professional work, with rollout beginning for Pro users in ChatGPT Work and Codex. The event also showed shared team Spaces and an interface for repetitive decisions. The direction shifts competition from one-off chat to durable work and shared context, but a live demo experienced lag and no production success rate, recovery metric or long-horizon reliability figure was disclosed.",
+            "xiaziQuote": "The hard part of a proactive agent is not starting; it is staying within bounds and finishing hours or days later.",
+            "doudouQuote": "Test pause, resume, approval and rollback paths before putting persistent agents into a core workflow.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "b86177ac-d840-5ee9-b350-6cff11502e9e",
+            "topicId": "14994356-4b52-534e-8ecc-7f93a207f622",
+            "title": "OpenAI DevDay 2026 unveils Dots, ChatGPT Space and GPT-6.1 Sol",
+            "publisher": "INSIDE",
+            "url": "https://www.inside.com.tw/article/42519-openai-devday-2026-dots-chatgpt-space-gpt-6-1-sol",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "31c91d97-3b89-5b39-9254-2731d40864de",
+            "topicId": "14994356-4b52-534e-8ecc-7f93a207f622",
+            "title": "OpenAI announces Dots and GPT-6.1 Sol at DevDay 2026",
+            "publisher": "ASCII.jp",
+            "url": "https://ascii.jp/elem/000/004/438/4438355/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "1ce3feef-db16-537f-b297-1bfc4544437a",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "personal-best-solo-ios-fitness-mrr",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-personal-best-solo-mrr-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Personal Best单人经营接近5000美元MRR",
+            "headlineView": "免费本地运行降低边际成本，Pro订阅、终身买断与App Store推荐把健身数据工具变成慢生意",
+            "headlineFull": "Personal Best单人经营接近5000美元MRR；免费本地运行降低边际成本，Pro订阅、终身买断与App Store推荐把健身数据工具变成慢生意",
+            "intro": "伦敦开发者Shaun Donnelly一人经营iOS健身应用Personal Best，同时保留兼职合同工作。应用从五天做出的兴趣项目成长到超过50万次下载、约5万月活，创始人自报月经常性收入接近5000美元。产品免费使用，Pro订阅和终身买断提供更多统计、心率区间、历史记录与无限目标；所有数据都在手机本地运行，没有服务器组件，因此创始人称订阅收入几乎没有边际基础设施成本。获客主要来自App Store多次推荐、可分享的训练图卡、口碑和用户支持，几乎不投广告。限制是收入为创始人自报，绝大多数用户仍在免费层，定价、转化、退款、平台抽成和创始人时间未完整披露。",
+            "xiaziQuote": "一个人的利润杠杆，不一定来自更大的团队，也可以来自把交付留在用户设备上。",
+            "doudouQuote": "5000美元MRR不是到手利润；还要扣平台抽成，并计算兼职时间和免费用户支持。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run Personal Best approaches $5K MRR",
+            "headlineView": "Free on-device delivery lowers marginal cost while Pro subscriptions, lifetime access and App Store features turn fitness data into a slow-building business",
+            "headlineFull": "Solo-run Personal Best approaches $5K MRR; Free on-device delivery lowers marginal cost while Pro subscriptions, lifetime access and App Store features turn fitness data into a slow-building business",
+            "intro": "London developer Shaun Donnelly runs the iOS fitness app Personal Best alone while keeping part-time contract work. What began as a five-day hobby project has passed 500,000 downloads and roughly 50,000 monthly active users, with founder-reported recurring revenue approaching $5,000 a month. The app is free; Pro subscriptions and a lifetime option unlock deeper statistics, heart-rate zones, form history and unlimited goals. All processing stays on the phone with no server-side component, so Donnelly says subscription revenue has almost no marginal infrastructure cost. Acquisition comes mainly from repeated App Store features, shareable workout images, word of mouth and user support, with almost no paid marketing. The number is founder-reported; most users remain free, and pricing, conversion, refunds, platform fees and founder time are not fully disclosed.",
+            "xiaziQuote": "Solo leverage does not always require a bigger team; sometimes delivery can remain on the customer's device.",
+            "doudouQuote": "$5K MRR is not take-home profit; platform fees, part-time labor and support for free users still count.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "83b9ed51-8b71-56ed-b10e-5924ba75e29d",
+            "topicId": "1ce3feef-db16-537f-b297-1bfc4544437a",
+            "title": "Building a $5k MRR app while freelancing to keep the lights on",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/building-a-5k-mrr-app-while-freelancing-to-keep-the-lights-on-JhX6p14De0nagI0j1Xg1",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e35cc421-4ef7-5a01-bb28-6681162ff7c3",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "okara-ai-cmo-paying-customers-arr",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "SG",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-okara-ai-cmo-revenue-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Okara上线两小时年化收入突破100万美元",
+            "headlineView": "AI代理把营销规划与执行打包成订阅产品，全球支付让新加坡团队直接服务美国客户",
+            "headlineFull": "Okara上线两小时年化收入突破100万美元；AI代理把营销规划与执行打包成订阅产品，全球支付让新加坡团队直接服务美国客户",
+            "intro": "Okara是一款面向创始人和团队的AI CMO，用代理完成增长与分发工作，以订阅收费。新加坡四人团队在2026年3月全球上线，用LLM读取Stripe文档并在一次开发会话中完成支付接入。Stripe客户案例称，产品上线两小时内年化经常性收入突破100万美元，数周内获得数千名付费客户，其中70%位于美国；68%的支付额通过Link完成。多币种收款、托管结账、订阅账单、失败重试与反欺诈让小团队不必自建金融运营。这里的结果来自支付服务商案例，说明发生了真实付费，但没有披露净收入、退款、获客成本、留存和代理模型成本；年化运行率也不等于已实现年度收入。",
+            "xiaziQuote": "AI应用的商业落点，是把一个昂贵岗位拆成客户愿意持续付费的可交付任务。",
+            "doudouQuote": "两小时突破百万ARR是运行率，不是已收一百万美元；还要看续费、退款和模型毛利。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Okara crosses a $1M annualized run rate within two hours of launch",
+            "headlineView": "AI agents package marketing planning and execution into subscriptions, while global payments let a Singapore team sell directly to US customers",
+            "headlineFull": "Okara crosses a $1M annualized run rate within two hours of launch; AI agents package marketing planning and execution into subscriptions, while global payments let a Singapore team sell directly to US customers",
+            "intro": "Okara is an AI CMO for founders and teams, selling subscription access to agents that handle growth and distribution work. The four-person Singapore team launched globally in March 2026 and used an LLM to read Stripe documentation and complete its payments integration in one session. A Stripe customer case says annualized recurring revenue exceeded $1 million within two hours, followed by thousands of paying customers in weeks, 70% of them in the United States; 68% of payment volume flowed through Link. Multicurrency acceptance, hosted checkout, subscription billing, retry logic and fraud tooling let the small team avoid building financial operations. The payment-provider case confirms real paying customers but does not disclose net revenue, refunds, acquisition cost, retention or model cost. An annualized run rate is not a full year of realized revenue.",
+            "xiaziQuote": "An AI application monetizes when an expensive job becomes a repeatable set of deliverables customers keep paying for.",
+            "doudouQuote": "A $1M run rate in two hours is not $1M collected; renewal, refunds and model gross margin remain the test.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "f3bfe5ed-a6ab-502b-b3c5-33c0458c770e",
+            "topicId": "e35cc421-4ef7-5a01-bb28-6681162ff7c3",
+            "title": "Okara reaches thousands of paying customers in weeks with Stripe",
+            "publisher": "Stripe",
+            "url": "https://stripe.com/en-se/customers/okara",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "55122e56-9c0a-50e5-8bcf-e531717d2bbb",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "highland-cross-border-duty-inclusive-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "AE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-highland-cross-border-growth-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Highland首四周国际收入增长237%",
+            "headlineView": "含税定价和单一迪拜枢纽把高运费、慢时效与到门补税变成可计算的跨境体验",
+            "headlineFull": "Highland首四周国际收入增长237%；含税定价和单一迪拜枢纽把高运费、慢时效与到门补税变成可计算的跨境体验",
+            "intro": "美国护发品牌Highland已有海外需求，但旧承运成本接近订单金额三分之一，配送报价超过一周，关税还会在到门时突然出现，国际订单缺乏利润空间。品牌接入Mayple后，在Shopify中启用九个市场区域，以保护毛利的上调幅度设置含税价格，不新增仓库、ERP迁移或运营员工，统一从迪拜枢纽发往30多个国家。供应商案例称，平均从结账到送达为3.5天、每包运费约15美元，首四周国际收入增长237%，随后总收入增长38%。赚钱机制是把运费、关税与定价前置到结账；主要风险是供应商自报、基期未知、退货与广告成本未公开，净利润仍未确认。",
+            "xiaziQuote": "跨境利润常常不是输在商品，而是输在结账后才出现的运费、关税和时间。",
+            "doudouQuote": "237%是国际收入增长，不是利润率；要继续核对基期、退货和获客成本。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Highland lifts international revenue 237% in four weeks",
+            "headlineView": "Duty-inclusive pricing and one Dubai hub turn high freight, slow delivery and surprise taxes into a calculable cross-border experience",
+            "headlineFull": "Highland lifts international revenue 237% in four weeks; Duty-inclusive pricing and one Dubai hub turn high freight, slow delivery and surprise taxes into a calculable cross-border experience",
+            "intro": "US haircare brand Highland already had international demand, but legacy carrier rates approached one-third of order value, quoted delivery beyond a week and left duties as a surprise at the door, making overseas orders difficult to serve profitably. After installing Mayple, Highland activated nine Shopify markets, applied duty-inclusive prices with margin-protective uplifts and shipped from one Dubai hub to more than thirty countries without a new warehouse, ERP migration or operations hire. The vendor case reports 3.5 days from checkout to doorstep, roughly $15 shipping per parcel, 237% international revenue growth in four weeks and 38% total revenue growth afterward. The mechanism moves freight, duties and margin into checkout. Supplier reporting, an undisclosed baseline, returns and acquisition costs limit the claim; net profit is unconfirmed.",
+            "xiaziQuote": "Cross-border margin often fails not in the product, but in freight, duties and time that appear after checkout.",
+            "doudouQuote": "A 237% international revenue gain is not a profit margin; baseline, returns and acquisition cost still matter.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "58e5680d-f58c-5541-80b7-4e12f0c25b86",
+            "topicId": "55122e56-9c0a-50e5-8bcf-e531717d2bbb",
+            "title": "Highland went global. Revenue followed.",
+            "publisher": "Mayple",
+            "url": "https://maypleglobal.com/case-study-highland",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "64b98dd8-e2ff-5e7b-875b-82432a6baa49",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "yemen-un-envoy-escalation-talks",
+        "rank": 6,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "YE",
+          "OM",
+          "SA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-yemen-un-envoy-talks-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际局势",
+            "headlineFact": "联合国特使斡旋也门西海岸升级",
+            "headlineView": "马斯喀特与利雅得两条会谈线同时运作，目标是避免地区力量把新一轮战事继续推高",
+            "headlineFull": "联合国特使斡旋也门西海岸升级；马斯喀特与利雅得两条会谈线同时运作，目标是避免地区力量把新一轮战事继续推高",
+            "intro": "联合国也门问题特使Hans Grundberg表示，他周末在马斯喀特会见胡塞首席谈判代表Mohammed Abdul-Salam，探索避免冲突继续升级的路径；他也在利雅得同也门国际承认政府和包括沙特在内的地区力量会谈。也门西海岸近期爆发激烈战斗，已造成数百人死亡、数万人流离失所。特使把当前升级描述为前所未有且剧烈，并指出伊朗和邻国等地区力量影响冲突走向。现在能确认的是斡旋渠道仍在运作，不是停火已经达成；需要继续观察战线变化、人道准入、谈判安排与可验证的降级措施。",
+            "xiaziQuote": "在多方代理冲突里，能让所有关键方保持同一条沟通线，本身就是防止误判的基础设施。",
+            "doudouQuote": "会谈不等于停火，真正转折要看战线降温、人道通道和双方可验证行动。",
+            "footerTakeaway": "今日关键词：国际局势。"
+          },
+          "en-US": {
+            "categoryLabel": "International Affairs",
+            "headlineFact": "UN envoy works to contain escalation on Yemen's western coast",
+            "headlineView": "Parallel talks in Muscat and Riyadh aim to stop regional actors from driving the new round of fighting higher",
+            "headlineFull": "UN envoy works to contain escalation on Yemen's western coast; Parallel talks in Muscat and Riyadh aim to stop regional actors from driving the new round of fighting higher",
+            "intro": "UN Special Envoy for Yemen Hans Grundberg says he met Houthi chief negotiator Mohammed Abdul-Salam in Muscat over the weekend to explore ways to prevent further escalation. He also held talks in Riyadh with Yemen's internationally recognized government and regional powers including Saudi Arabia. Fierce battles on Yemen's western coast have killed hundreds and displaced tens of thousands. Grundberg described the escalation as unprecedented and dramatic, while pointing to the influence of Iran and neighboring states on the conflict. What is confirmed is that mediation channels remain active, not that a ceasefire exists. The next tests are movement on the front, humanitarian access, a negotiating framework and verifiable de-escalation measures.",
+            "xiaziQuote": "In a proxy conflict, keeping every decisive party on one communication line is itself infrastructure against miscalculation.",
+            "doudouQuote": "Talks are not a ceasefire; watch the front line, humanitarian access and verifiable actions by both sides.",
+            "footerTakeaway": "Keyword: International Affairs."
+          }
+        },
+        "sources": [
+          {
+            "id": "6fd45d62-8bb2-597e-b0e5-340823c34010",
+            "topicId": "64b98dd8-e2ff-5e7b-875b-82432a6baa49",
+            "title": "UN envoy meets Houthi negotiators in a bid to halt escalating violence in Yemen",
+            "publisher": "SFGATE / Associated Press",
+            "url": "https://www.sfgate.com/news/world/article/un-envoy-meets-houthi-negotiators-in-a-bid-to-22454118.php",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e5bab47a-048f-582c-af1f-a678c0afeb7a",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "itu-wmo-weather-spectrum-seminar",
+        "rank": 7,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-itu-wmo-spectrum-weather-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气象基础设施",
+            "headlineFact": "ITU与WMO推动保护气象无线电频谱",
+            "headlineView": "天气预报、地球观测与灾害预警依赖看不见的频率资源，通信扩张正在抬高干扰风险",
+            "headlineFull": "ITU与WMO推动保护气象无线电频谱；天气预报、地球观测与灾害预警依赖看不见的频率资源，通信扩张正在抬高干扰风险",
+            "intro": "ITU与WMO在日内瓦举行的气象频谱全球研讨会今日结束。会议汇集频谱监管者、气象部门、卫星专家和国际组织，讨论天气、气候、水文与灾害预警所需无线电频率的保护和未来需求，并启动新版联合手册。议程覆盖空间与地面观测、射频干扰、商业数据、云处理及2027和2031年世界无线电通信大会准备。核心矛盾是无线通信和卫星服务需求快速增长，而被动遥感、雷达和数据链路一旦受干扰，会削弱预报和早期预警。今天确认的是规则与技术协调进程，不是频谱冲突已经解决；后续要看监管采纳、干扰监测与跨境执行。",
+            "xiaziQuote": "天气预报最容易被忽视的基础设施，不只在卫星和雷达，也在它们必须安静使用的频率里。",
+            "doudouQuote": "发布手册只是共同语言，真正验收要看频谱规则、监测和违规处置。",
+            "footerTakeaway": "今日关键词：气象基础设施。"
+          },
+          "en-US": {
+            "categoryLabel": "Weather Infrastructure",
+            "headlineFact": "ITU and WMO push to protect radio spectrum for meteorology",
+            "headlineView": "Forecasting, Earth observation and hazard warning depend on invisible frequency resources now facing greater interference pressure from communications growth",
+            "headlineFull": "ITU and WMO push to protect radio spectrum for meteorology; Forecasting, Earth observation and hazard warning depend on invisible frequency resources now facing greater interference pressure from communications growth",
+            "intro": "The ITU-WMO Global Seminar on spectrum use for meteorology concludes in Geneva today. Spectrum regulators, weather services, satellite experts and international organizations are reviewing how to protect radio frequencies used for weather, climate, water and hazard warning, while launching an updated joint handbook. The agenda covers space- and ground-based observation, radio-frequency interference, commercial data, cloud processing and preparations for the 2027 and 2031 World Radiocommunication Conferences. The tension is that demand for wireless communications and satellite services is rising while interference can degrade passive sensing, radar and data links that support forecasts and early warning. Today confirms a regulatory and technical coordination process, not resolution; adoption, interference monitoring and cross-border enforcement are the next tests.",
+            "xiaziQuote": "Forecasting infrastructure lives not only in satellites and radar, but in the quiet frequencies they must be able to use.",
+            "doudouQuote": "A handbook creates common language; acceptance requires rules, monitoring and enforcement.",
+            "footerTakeaway": "Keyword: Weather Infrastructure."
+          }
+        },
+        "sources": [
+          {
+            "id": "f3df0dbe-d958-5c71-8e5c-b4f2864395b3",
+            "topicId": "e5bab47a-048f-582c-af1f-a678c0afeb7a",
+            "title": "ITU-WMO event to review risks to radio spectrum for weather and climate services",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/media/announcement/itu-wmo-event-review-risks-radio-spectrum-weather-and-climate-services",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7cf99b78-8acb-5aae-9a69-065451b176da",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "international-translation-day-language-ai-inclusion",
+        "rank": 8,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "BE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-translation-day-language-ai-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "语言与包容",
+            "headlineFact": "国际翻译日讨论语言与AI的双向塑造",
+            "headlineView": "多语言不只是翻译输出，也决定谁能被模型理解、谁能进入公共信息与学习机会",
+            "headlineFull": "国际翻译日讨论语言与AI的双向塑造；多语言不只是翻译输出，也决定谁能被模型理解、谁能进入公共信息与学习机会",
+            "intro": "9月30日是联合国认可的国际翻译日。欧盟委员会今天以“语言联合我们：语言如何塑造包容”为主题举办线上活动，讨论语言在终身包容中的作用，并设置“语言如何塑造AI、AI如何塑造语言”以及翻译实习质量两场并行专题。语言技术扩大了跨语沟通和内容生产，但低资源语言的数据不足、评测缺口、错误传播与文化语境丢失也会放大不平等。今天的活动确认了议题和实践指南方向，不代表模型已经实现语言公平；后续应观察训练数据覆盖、按语言拆分的质量评测、专业审校和公共服务可达性。",
+            "xiaziQuote": "当AI成为信息入口，语言覆盖就不只是体验问题，而是参与权问题。",
+            "doudouQuote": "会说很多语言不等于每种语言都同样可靠，评测必须按语言和场景拆开。",
+            "footerTakeaway": "今日关键词：语言与包容。"
+          },
+          "en-US": {
+            "categoryLabel": "Language and Inclusion",
+            "headlineFact": "International Translation Day examines the two-way shaping of language and AI",
+            "headlineView": "Multilingualism is not merely translated output; it determines who models understand and who reaches public information and learning",
+            "headlineFull": "International Translation Day examines the two-way shaping of language and AI; Multilingualism is not merely translated output; it determines who models understand and who reaches public information and learning",
+            "intro": "September 30 is the UN-recognized International Translation Day. The European Commission holds a virtual event today under the theme 'Languages unite! How languages shape inclusion,' with discussion of language across lifelong inclusion and parallel sessions on how languages shape AI and AI shapes languages, plus quality guidance for translation traineeships. Language technology can expand cross-language communication and production, but sparse data for low-resource languages, missing evaluation, error propagation and lost cultural context can also deepen inequality. Today's event establishes an agenda and practice-guidance direction, not language equity in deployed models. Next measures include training-data coverage, language-specific evaluation, professional review and access in public services.",
+            "xiaziQuote": "When AI becomes an information gateway, language coverage becomes a participation-rights issue, not only a user-experience issue.",
+            "doudouQuote": "Speaking many languages does not make every language equally reliable; evaluate by language and use case.",
+            "footerTakeaway": "Keyword: Language and Inclusion."
+          }
+        },
+        "sources": [
+          {
+            "id": "554abd32-9f0a-5633-8dce-db6062827bd7",
+            "topicId": "7cf99b78-8acb-5aae-9a69-065451b176da",
+            "title": "European Day of Languages 2026",
+            "publisher": "European Commission",
+            "url": "https://knowledge-centre-translation-interpretation.ec.europa.eu/en/events/european-day-languages-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "a85f5d86-4da4-5ab7-8341-403d5baa705a",
+            "topicId": "7cf99b78-8acb-5aae-9a69-065451b176da",
+            "title": "List of International Days and Weeks",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/observances/list-days-weeks",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "418cc930-14c2-53b3-9213-1b2efb23ec7d",
+        "issueId": "a23f403d-56a0-5b38-ba76-b4842395b839",
+        "slug": "nasa-fire-cloud-pileus-observation",
+        "rank": 9,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-nasa-fire-cloud-pileus-20260930",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "地球科学",
+            "headlineFact": "NASA罕见捕捉野火云顶部幞状云",
+            "headlineView": "一次短暂云帽让研究人员把地表火势、极强上升气流与云内过程放进同一组观测",
+            "headlineFull": "NASA罕见捕捉野火云顶部幞状云；一次短暂云帽让研究人员把地表火势、极强上升气流与云内过程放进同一组观测",
+            "intro": "NASA发布8月11日蒙大拿Sand Creek野火上空的机载观测：快速发展的火积云顶部出现一层平滑、短暂的幞状云。幞状云通常在强上升气流顶起上方湿空气、使其冷却凝结时形成，但与野火云相互作用的高细节观测很少。ER-2高空飞机搭载的MASTER仪器同时记录可见光和短波红外信息，50个光谱波段连接了活跃火点、烧毁区、烟羽和云结构；该云在约每30分钟一次的影像中只清晰出现一帧，提示极端上升气流动力。研究属于NASA INSPYRE计划，价值在于改进火势到对流烟羽的过程理解，不是新的火灾预测产品。",
+            "xiaziQuote": "一朵只存在几分钟的云，也可能把火场、烟羽和大气动力学连成一条证据链。",
+            "doudouQuote": "罕见观测能解释机制，但还需要更多样本才能变成稳定的预测能力。",
+            "footerTakeaway": "今日关键词：地球科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Earth Science",
+            "headlineFact": "NASA captures a rare pileus above a wildfire cloud",
+            "headlineView": "A fleeting cloud cap lets researchers connect surface fire behavior, extreme updrafts and cloud processes in one observation set",
+            "headlineFull": "NASA captures a rare pileus above a wildfire cloud; A fleeting cloud cap lets researchers connect surface fire behavior, extreme updrafts and cloud processes in one observation set",
+            "intro": "NASA has published airborne observations from August 11 over Montana's Sand Creek fire, where a smooth, short-lived pileus cloud formed above a rapidly developing pyrocumulus. Pileus typically appears when a powerful updraft lifts a moist layer overhead until it cools and condenses, but detailed observations of interaction with a fire cloud are rare. The MASTER instrument aboard a high-altitude ER-2 aircraft captured visible and shortwave-infrared information across fifty spectral bands, joining active fire, burn scar, smoke plume and cloud structure. The pileus was clearly visible in only one scene among images collected roughly thirty minutes apart, pointing to extreme updraft dynamics. The INSPYRE campaign observation improves process understanding from fire behavior to convective plume; it is not a new operational forecast product.",
+            "xiaziQuote": "A cloud lasting only minutes can still connect the fireground, smoke plume and atmospheric dynamics into one chain of evidence.",
+            "doudouQuote": "A rare observation explains a mechanism, but more samples are needed before it becomes reliable prediction.",
+            "footerTakeaway": "Keyword: Earth Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "383d00c0-7d24-5082-8988-5fc606b30ef9",
+            "topicId": "418cc930-14c2-53b3-9213-1b2efb23ec7d",
+            "title": "Fire Cloud With Pileus On Top",
+            "publisher": "Mirage News / NASA Earth Observatory",
+            "url": "https://www.miragenews.com/fire-cloud-with-pileus-on-top-1751625/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20260930_4ae044bd3c74ee3b966c2185"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-09-30",
+    "releaseId": "rel_20260930_4ae044bd3c74ee3b966c2185",
+    "assetBatchId": "asset_prod_20260930_4ae044bd3c74ee3b966c2185",
+    "posters": [
+      {
+        "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+        "locale": "zh",
+        "contentHash": "734f041cc671d44069ccc06b574e7de4acf0945452614f2a3eb7dcbb9a6eafdf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/today-overview-ai-opc-commerce-conflict-weather-language-science.png"
+      },
+      {
+        "topicId": "ed3d9c27-f2eb-51cf-b05b-c8fc75b5eb58",
+        "locale": "en",
+        "contentHash": "fe204c50e9a264720199f1c2566e51fc0bf34749577e028cbdea66dec5479be6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/today-overview-ai-opc-commerce-conflict-weather-language-science.png"
+      },
+      {
+        "topicId": "14994356-4b52-534e-8ecc-7f93a207f622",
+        "locale": "zh",
+        "contentHash": "198c32e36f0595441c2ab5620d4a43d22ecece3c9cabb0a662230c261a050e67",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/openai-devday-dots-gpt-61-sol.png"
+      },
+      {
+        "topicId": "14994356-4b52-534e-8ecc-7f93a207f622",
+        "locale": "en",
+        "contentHash": "98c852cfabd2b3d5babce1b2d54e03e445115d6258ac34ad6615966f01bd5a23",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/openai-devday-dots-gpt-61-sol.png"
+      },
+      {
+        "topicId": "1ce3feef-db16-537f-b297-1bfc4544437a",
+        "locale": "zh",
+        "contentHash": "a13c7b950be2a8aa1d4461815fe44048958a385f4bdd68820846905e8e79bc7f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/personal-best-solo-ios-fitness-mrr.png"
+      },
+      {
+        "topicId": "1ce3feef-db16-537f-b297-1bfc4544437a",
+        "locale": "en",
+        "contentHash": "9c66807948af52209d660eb43a31ecc34d06b86466d11d6d5bdec98ecfaa9a11",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/personal-best-solo-ios-fitness-mrr.png"
+      },
+      {
+        "topicId": "e35cc421-4ef7-5a01-bb28-6681162ff7c3",
+        "locale": "zh",
+        "contentHash": "43bc91470fa7bc3bd95477bb2214dc84ecd995d1bd89c93ac500a68a60fdbec4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/okara-ai-cmo-paying-customers-arr.png"
+      },
+      {
+        "topicId": "e35cc421-4ef7-5a01-bb28-6681162ff7c3",
+        "locale": "en",
+        "contentHash": "45a0c7dfb8c23eb8090feb4c13b1417cca4037c4b5e618277a3366a992005731",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/okara-ai-cmo-paying-customers-arr.png"
+      },
+      {
+        "topicId": "55122e56-9c0a-50e5-8bcf-e531717d2bbb",
+        "locale": "zh",
+        "contentHash": "6093e4d43db0d84d6e0760d5f5764754f6a607b94329feee2466db851b2e4b11",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/highland-cross-border-duty-inclusive-growth.png"
+      },
+      {
+        "topicId": "55122e56-9c0a-50e5-8bcf-e531717d2bbb",
+        "locale": "en",
+        "contentHash": "23709c87f2f7414a3ca01fb46e6708ffb14c27be00459c24612cbc0b27115a9f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/highland-cross-border-duty-inclusive-growth.png"
+      },
+      {
+        "topicId": "64b98dd8-e2ff-5e7b-875b-82432a6baa49",
+        "locale": "zh",
+        "contentHash": "3947d5382642b02365a2d01c6f2d71c05f08da6d8963a8015d45691e3749c3ab",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/yemen-un-envoy-escalation-talks.png"
+      },
+      {
+        "topicId": "64b98dd8-e2ff-5e7b-875b-82432a6baa49",
+        "locale": "en",
+        "contentHash": "91a4eb635a4b188469005414938bd418c2afbc5b7d5977895a5bc4ce8322eabb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/yemen-un-envoy-escalation-talks.png"
+      },
+      {
+        "topicId": "e5bab47a-048f-582c-af1f-a678c0afeb7a",
+        "locale": "zh",
+        "contentHash": "c7ea940fe5242bd6f0442888b2145861377922431cd560a47c303eead30e426c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/itu-wmo-weather-spectrum-seminar.png"
+      },
+      {
+        "topicId": "e5bab47a-048f-582c-af1f-a678c0afeb7a",
+        "locale": "en",
+        "contentHash": "d5cb975e9d44793c02246e406f9151591830db43a48a194f15462ea87c87572a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/itu-wmo-weather-spectrum-seminar.png"
+      },
+      {
+        "topicId": "7cf99b78-8acb-5aae-9a69-065451b176da",
+        "locale": "zh",
+        "contentHash": "79b3f7dc3e09fb3d39f5408b6868979c83fff649e0644b19cbb28cebd31c798d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/international-translation-day-language-ai-inclusion.png"
+      },
+      {
+        "topicId": "7cf99b78-8acb-5aae-9a69-065451b176da",
+        "locale": "en",
+        "contentHash": "4db6aff66393a910577ab0ae60c1977c5cafc451df5d3e7d97a2f8522ee8c52b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/international-translation-day-language-ai-inclusion.png"
+      },
+      {
+        "topicId": "418cc930-14c2-53b3-9213-1b2efb23ec7d",
+        "locale": "zh",
+        "contentHash": "3abe49f8001b5d8be23bebfa84ca939f64490a8aa2b03fbb14374395b9ad560c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/zh/nasa-fire-cloud-pileus-observation.png"
+      },
+      {
+        "topicId": "418cc930-14c2-53b3-9213-1b2efb23ec7d",
+        "locale": "en",
+        "contentHash": "7e64d81810df1c07e22a43e71fa37c2c1588a7732d759ba48d301e005e15ab34",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20260930_4ae044bd3c74ee3b966c2185/en/nasa-fire-cloud-pileus-observation.png"
+      }
+    ]
+  }
+}
