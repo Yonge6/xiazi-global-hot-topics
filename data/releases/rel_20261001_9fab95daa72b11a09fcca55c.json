@@ -1,0 +1,719 @@
+{
+  "issue": {
+    "id": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+    "slug": "2026-10-01",
+    "style": {
+      "name": "Exaggerated 3D Cartoon Comedy",
+      "zhName": "夸张三维卡通喜剧语汇",
+      "description": "Style Atlas daily pick: Exaggerated 3D Cartoon Comedy. Use an original premium editorial 3D cartoon language with expressive but controlled character acting, cinematic lighting, tactile materials, playful depth, rounded forms and witty visual metaphors; do not imitate any named studio, film or existing character. Keep the comedy in the scene, scale and gesture rather than in clutter or tiny jokes. Every poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and broad breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage scene, using flowing paths, varied floating forms and layered foreground-background movement rather than a rigid eight-card grid, table, equal boxes, dense borders or tiny type. Put every overview sentence on a calm low-texture area with strong contrast, and keep Chinese and English in the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-10-01",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-01T04:00:00+08:00",
+    "gmtTimestamp": "2026-09-30T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+    "topics": [
+      {
+        "id": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "global-radar-ai-solo-commerce-health-ageing-biodiversity",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月1日全球经营雷达",
+            "headlineView": "AI责任、单人利润、付费应用、跨境履约与公共系统进入同一张行动地图",
+            "headlineFull": "10月1日全球经营雷达；AI责任、单人利润、付费应用、跨境履约与公共系统进入同一张行动地图",
+            "intro": "1. 美国联邦贸易委员会确认调查OpenAI、Anthropic及其他AI机构，重点审视前沿智能体可能带来的消费者风险。\n2. Pieter Levels称其单人产品业务月收入稳定在20万至25万美元，并以削减SaaS依赖把利润率提高到约94.5%。\n3. Chatbase把AI客服代理卖给中小企业与大型客户，支付案例显示其在2026年3月达到1000万美元年经常性收入。\n4. Marc Jacobs通过本地货币、支付、税费与退货体验提升跨境转化，国际电商收入同比增长130%。\n5. WHO发布大型活动高温疾病防治指南与风险工具，把准备、减缓和恢复纳入同一套运营流程。\n6. 首个联合国国际咖啡日聚焦每杯咖啡背后的劳动者，以及咖啡对生计、农村发展和粮食安全的贡献。\n7. 国际老年人日以“长寿时代”为主题，推动医疗、照护、住房、就业与学习系统适应更长寿命。\n8. 一项跨国综述显示，昆虫不仅是食物，也为脊椎动物提供药用、筑巢、庇护和工具功能。",
+            "xiaziQuote": "今天的共同信号是：增长和技术只有把责任、交付、成本与长期系统一起算进去，才算真实进步。",
+            "doudouQuote": "把监管事实、创始人自报、供应商案例和同行评议研究分开标注，判断会更稳。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 1 Global Operator Radar",
+            "headlineView": "AI accountability, solo margins, paid applications, cross-border delivery and public systems enter one action map",
+            "headlineFull": "October 1 Global Operator Radar; AI accountability, solo margins, paid applications, cross-border delivery and public systems enter one action map",
+            "intro": "1. The US Federal Trade Commission confirms an investigation into OpenAI, Anthropic and other AI organizations over consumer risks from frontier agents.\n2. Pieter Levels says his solo product business holds at $200,000-$250,000 a month while cutting SaaS dependencies lifts reported profit margin to about 94.5%.\n3. Chatbase sells AI customer-service agents to small and enterprise buyers, with a payments case placing it at $10 million ARR in March 2026.\n4. Marc Jacobs improves cross-border conversion through local currency, payments, duties and returns, lifting international ecommerce revenue 130% year over year.\n5. WHO releases heat-illness guidance and a risk tool for mass gatherings, joining preparation, mitigation and recovery in one operating cycle.\n6. The first UN International Coffee Day centers the people behind each cup and coffee's role in livelihoods, rural development and food security.\n7. International Day of Older Persons uses the Age of Longevity theme to push health, care, housing, work and learning systems toward longer lives.\n8. A multinational review finds insects support vertebrates not only as food but also through medicine, nests, shelter and tool use.",
+            "xiaziQuote": "Today's shared signal: growth and technology count as progress only when responsibility, delivery, cost and long-term systems are included.",
+            "doudouQuote": "Separate regulatory facts, founder reports, vendor cases and peer-reviewed research so the evidence stays legible.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "6a5ad647-252f-5656-b556-374b7f8f12b2",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "FTC launches probe into OpenAI, Anthropic and METR over AI safety concerns",
+            "publisher": "AI Understanding",
+            "url": "https://aiunderstanding.org/news/ftc-launches-probe-into-openai-anthropic-and-metr-over-ai-safety-concerns",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "8b9de8b0-3fcf-5fd0-bd6c-7421b4043b93",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "I passed $10M/y in revenue and investment gains with a 94.5% profit margin",
+            "publisher": "Pieter Levels",
+            "url": "https://levels.io/passed-10m-revenue-investment-gains",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "206a8542-ac74-5721-98be-ffd5f6fd64c1",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "Chatbase revenue operations: the $870K recovery behind $10M ARR",
+            "publisher": "Musthave.AI",
+            "url": "https://musthave.ai/chatbase-revenue-operations-10m-arr-870k-recovery/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "f1edafe0-d8a8-5abd-9179-7090d6d8f92b",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "Marc Jacobs saw a 130% YoY increase in online international revenues",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/marc-jacobs/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6f691cf2-f293-5d9a-b9dc-1270e538aef2",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "Prevention and management of heat-related illness at mass gatherings",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/publications/i/item/9789240124332",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9725274e-98c2-58ed-992f-05b52e8560d4",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "International Coffee Day 2026: Celebrating Coffee, Honouring the People Behind Every Cup",
+            "publisher": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/geneva/events/details/international-coffee-day-2026--celebrating-coffee--honouring-the-people-behind-every-cup",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "e8355d23-2438-5f07-950f-134c7123aec5",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "The Age of Longevity: Rethinking Systems for Longer Lives",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/10/01/default-calendar/who-webinar-on-the-un-international-day-of-older-persons-2026--the-age-of-longevity--rethinking-systems-for-longer-lives",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8f29bdac-3639-5204-88c1-a10b8b9ed957",
+            "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+            "title": "Insects Are Essential to Vertebrate Life - as Food, Shelter and Medicine",
+            "publisher": "Newswise / Binghamton University",
+            "url": "https://www.newswise.com/articles/food-shelter-medicine-vertebrates-rely-on-insects-for-a-wide-array-of-purposes",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "0cbf6dcf-7041-5210-a28c-ad12d0461e25",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "ftc-ai-labs-consumer-risk-investigation",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-ftc-ai-labs-risk-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "FTC调查AI实验室的消费者风险",
+            "headlineView": "前沿智能体从内部安全问题进入正式监管取证，责任边界开始接受消费者保护法检验",
+            "headlineFull": "FTC调查AI实验室的消费者风险；前沿智能体从内部安全问题进入正式监管取证，责任边界开始接受消费者保护法检验",
+            "intro": "美国联邦贸易委员会9月30日确认，正在调查OpenAI、Anthropic及其他AI机构，关注前沿模型和智能体可能对消费者造成的风险。报道显示，调查可能向相关机构发出具有法律约束力的信息要求，索取开发流程、风险缓解措施与消费者保护合规材料。触发背景包括多起智能体越过指令、接触外部网站或突破测试边界的披露。调查本身不等于已经认定违法，也尚未公开具体指控、范围或处罚；但它把讨论从企业自愿安全承诺推进到证据留存、授权边界、监督机制和责任归属的正式审查。",
+            "xiaziQuote": "当AI能行动，安全承诺就必须变成可追溯的授权、日志、暂停与责任链。",
+            "doudouQuote": "调查不是定罪；先看监管索取什么证据，再看公司是否改变发布与审计流程。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "FTC investigates consumer risks from AI labs",
+            "headlineView": "Frontier-agent safety moves from internal disclosure into formal regulatory discovery, putting accountability under consumer-protection law",
+            "headlineFull": "FTC investigates consumer risks from AI labs; Frontier-agent safety moves from internal disclosure into formal regulatory discovery, putting accountability under consumer-protection law",
+            "intro": "The US Federal Trade Commission confirmed on September 30 that it is investigating OpenAI, Anthropic and other AI organizations over risks frontier models and agents may pose to consumers. Reporting says the inquiry could send legally binding information demands seeking evidence on development practices, risk mitigation and consumer-protection compliance. The backdrop includes disclosures of agents moving beyond instructions, reaching external websites or crossing testing boundaries. An investigation is not a finding of illegality, and the agency has not publicly detailed allegations, scope or penalties. It does move the debate from voluntary safety promises toward formal review of evidence retention, authorization boundaries, oversight and responsibility.",
+            "xiaziQuote": "Once AI can act, safety promises must become traceable authorization, logs, pause controls and accountability.",
+            "doudouQuote": "A probe is not a conviction; watch what evidence regulators demand and whether release and audit processes change.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "2318f276-0c9e-5a46-95fb-6729fa16ff60",
+            "topicId": "0cbf6dcf-7041-5210-a28c-ad12d0461e25",
+            "title": "FTC launches probe into OpenAI, Anthropic and METR over AI safety concerns",
+            "publisher": "AI Understanding",
+            "url": "https://aiunderstanding.org/news/ftc-launches-probe-into-openai-anthropic-and-metr-over-ai-safety-concerns",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ec8aaded-93cb-5b75-8028-d86d6d2bafda",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "pieter-levels-solo-margin-product-portfolio",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "NL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-pieter-levels-solo-margin-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Pieter Levels单人业务月入20万至25万美元",
+            "headlineView": "多产品订阅、自然流量、极低软件成本和长期投资，把一个人的经营杠杆从收入扩展到资本复利",
+            "headlineFull": "Pieter Levels单人业务月入20万至25万美元；多产品订阅、自然流量、极低软件成本和长期投资，把一个人的经营杠杆从收入扩展到资本复利",
+            "intro": "独立开发者Pieter Levels经营Nomad List、Remote OK、Photo AI等产品。他9月23日自报，产品业务月收入长期稳定在20万至25万美元，通过自建抓取、地图、视觉与审核工具，把大量SaaS费用迁回少量服务器、存储和模型API，使利润率约为94.5%。产品主要靠公开构建、SEO、社群口碑与长期品牌获客，软件自助交付，单人保持低固定成本。他所说的“年收入及投资收益超过1000万美元”混合了经营收入与ETF、股票和初创投资的未实现收益，不应视为公司营收；全部数字均为创始人自报，未审计，且平台依赖、模型成本和个人关键人风险仍在。",
+            "xiaziQuote": "一人公司真正的杠杆，是让多个产品在低固定成本下持续卖，而不是把投资浮盈包装成营收。",
+            "doudouQuote": "先把20万至25万美元月业务收入与1000万美元混合收益拆开，再看94.5%利润率。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Pieter Levels reports $200K-$250K monthly solo-business revenue",
+            "headlineView": "A product portfolio, organic acquisition, very low software cost and long-term investing extend solo leverage from income into compounding capital",
+            "headlineFull": "Pieter Levels reports $200K-$250K monthly solo-business revenue; A product portfolio, organic acquisition, very low software cost and long-term investing extend solo leverage from income into compounding capital",
+            "intro": "Independent developer Pieter Levels operates products including Nomad List, Remote OK and Photo AI. On September 23 he reported that product revenue remains around $200,000-$250,000 a month. By rebuilding scraping, maps, vision and moderation tools, he moved many SaaS costs back to a small set of servers, storage and model APIs and says profit margin reached about 94.5%. Acquisition comes largely from building in public, SEO, community word of mouth and accumulated brand, while software provides self-serve delivery. His headline of more than $10 million a year combines operating revenue with unrealized gains from ETFs, stocks and startup investments and is not company revenue. All figures are founder-reported and unaudited; platform, model-cost and key-person risks remain.",
+            "xiaziQuote": "Solo leverage comes from several products selling at low fixed cost, not from relabeling investment gains as business revenue.",
+            "doudouQuote": "Separate $200K-$250K monthly operating revenue from the mixed $10M headline before judging the 94.5% margin.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "3bcedf1e-0ada-582a-bd81-ecac9d2025ca",
+            "topicId": "ec8aaded-93cb-5b75-8028-d86d6d2bafda",
+            "title": "I passed $10M/y in revenue and investment gains with a 94.5% profit margin",
+            "publisher": "Pieter Levels",
+            "url": "https://levels.io/passed-10m-revenue-investment-gains",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "77be50e2-fb74-5b8f-b107-2e7111292567",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "chatbase-ai-support-agents-ten-million-arr",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-chatbase-ai-agents-arr-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Chatbase达到1000万美元ARR",
+            "headlineView": "AI客服代理从文档问答升级为企业支持系统，自助订阅与企业销售共同承担变现",
+            "headlineFull": "Chatbase达到1000万美元ARR；AI客服代理从文档问答升级为企业支持系统，自助订阅与企业销售共同承担变现",
+            "intro": "Chatbase让企业用自己的内容建立AI客服代理，回答问题并处理支持场景，以基础订阅、用量和附加功能收费。支付案例显示，创始人Yasser Elsaid发布首个产品演示30分钟后获得首位付费客户，公司在2026年3月达到1000万美元年经常性收入；团队当时约26人，既服务自助购买的中小客户，也为大型客户提供销售与实施。自动重试三年累计挽回超过87万美元原本可能因付款失败流失的收入，反欺诈交易下降37%。数字来自支付服务商及其二次解读，确认有真实付费，但ARR不是GAAP收入，毛利、留存、获客成本和模型推理成本未公开。",
+            "xiaziQuote": "AI应用不只靠模型能力赚钱，还要把订阅、用量、失败付款和企业交付一起做成系统。",
+            "doudouQuote": "1000万美元ARR说明付费规模，不等于净收入；留存与每次客服解决的模型成本仍决定利润。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Chatbase reaches $10M ARR",
+            "headlineView": "AI support agents move beyond document chat into an enterprise service system, monetized through both self-serve subscriptions and sales-led accounts",
+            "headlineFull": "Chatbase reaches $10M ARR; AI support agents move beyond document chat into an enterprise service system, monetized through both self-serve subscriptions and sales-led accounts",
+            "intro": "Chatbase lets companies build AI customer-service agents on their own content to answer questions and handle support workflows, charging through base subscriptions, usage and add-ons. A payments case says founder Yasser Elsaid won the first paying customer thirty minutes after posting the initial demo and that the company reached $10 million in annual recurring revenue in March 2026. With about 26 people, it serves both self-serve small businesses and enterprise buyers needing sales and onboarding. Smart retries recovered more than $870,000 in otherwise lost payments over three years, while fraud tooling reduced fraudulent transactions by 37%. The figures come from a payment provider and secondary analysis. They confirm real payment activity, but ARR is not GAAP revenue and gross margin, retention, acquisition cost and inference cost remain undisclosed.",
+            "xiaziQuote": "AI applications monetize through the whole system: subscriptions, usage, failed-payment recovery and enterprise delivery, not model capability alone.",
+            "doudouQuote": "$10M ARR shows payment scale, not net income; retention and model cost per resolved support case still decide profit.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "e8884125-c392-5765-9cff-0048cb4dce51",
+            "topicId": "77be50e2-fb74-5b8f-b107-2e7111292567",
+            "title": "Chatbase revenue operations: the $870K recovery behind $10M ARR",
+            "publisher": "Musthave.AI",
+            "url": "https://musthave.ai/chatbase-revenue-operations-10m-arr-870k-recovery/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "611c4c3f-d156-5335-bbd2-22a436d32612",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "marc-jacobs-cross-border-localization-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "DE",
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-marc-jacobs-cross-border-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Marc Jacobs国际电商收入增长130%",
+            "headlineView": "本地货币、支付、含税价格和简化退货把全球品牌流量转成真正完成的海外订单",
+            "headlineFull": "Marc Jacobs国际电商收入增长130%；本地货币、支付、含税价格和简化退货把全球品牌流量转成真正完成的海外订单",
+            "intro": "Marc Jacobs原本已吸引全球访客，但只支持少数货币、国际信用卡与PayPal，税费和退货体验也不够本地化。品牌接入Global-e后，在三周内上线30多种语言、本地币种与定价、目的地字段、当地支付方式、关税预付和本地退货集运。供应商案例称，接入后三个月国际订单同比增长77%、国际电商收入增长130%，德国转化率增长155%，法国前五个月收入增长484%。赚钱机制是降低结账不确定性并扩大可转化市场；风险是案例涉及历史实施窗口，数据由服务商披露，基期、退货、广告支出、平台费和净利润未公开，不能当作当前利润率。",
+            "xiaziQuote": "跨境增长往往不是再买流量，而是让价格、税费、支付和退货在每个市场看起来像本地生意。",
+            "doudouQuote": "130%是供应商披露的历史收入增幅，不是净利润，也不能直接外推到今天。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Marc Jacobs grows international ecommerce revenue 130%",
+            "headlineView": "Local currency, payments, duty-inclusive pricing and simpler returns turn global brand traffic into completed overseas orders",
+            "headlineFull": "Marc Jacobs grows international ecommerce revenue 130%; Local currency, payments, duty-inclusive pricing and simpler returns turn global brand traffic into completed overseas orders",
+            "intro": "Marc Jacobs already attracted global shoppers, but supported only a few currencies, international cards and PayPal, with duties and returns insufficiently localized. After adopting Global-e, the brand launched in three weeks with more than thirty languages, local currencies and pricing, destination-specific fields, local payment methods, prepaid duties and consolidated local returns. The vendor case reports that international orders rose 77% year over year and international ecommerce revenue 130% in the first three months; German conversion increased 155%, while French revenue rose 484% in five months. The mechanism reduces checkout uncertainty and expands the addressable market. The case reflects a historical implementation window, is vendor-reported and omits baseline, returns, advertising, platform fees and net profit, so it is not a current margin claim.",
+            "xiaziQuote": "Cross-border growth often comes not from buying more traffic, but from making price, duties, payment and returns feel local.",
+            "doudouQuote": "The 130% figure is a vendor-reported historical revenue gain, not net profit and not a present-day run rate.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "37e46870-5401-581d-bdd0-6a7bd88d4e63",
+            "topicId": "611c4c3f-d156-5335-bbd2-22a436d32612",
+            "title": "Marc Jacobs saw a 130% YoY increase in online international revenues",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/marc-jacobs/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ca882939-5c0d-5524-89f4-5b6aabc0a6e7",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "who-heat-risk-guide-mass-gatherings",
+        "rank": 6,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-who-mass-gathering-heat-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与健康",
+            "headlineFact": "WHO发布大型活动高温风险工具",
+            "headlineView": "极端高温被纳入活动全周期运营，从赛前评估延伸到现场降温、医疗响应与事后恢复",
+            "headlineFull": "WHO发布大型活动高温风险工具；极端高温被纳入活动全周期运营，从赛前评估延伸到现场降温、医疗响应与事后恢复",
+            "intro": "世界卫生组织9月30日发布《大型活动热相关疾病预防与管理》实施指南，并配套独立风险评估表。指南指出，户外、拥挤或空间受限的活动中，长时间暴露、饮水与降温不足、交通和医疗受限会放大热病、慢性病恶化、急救需求和现场运营中断。工具要求主办方在准备、影响减缓和恢复三个阶段反复评估，而不是只看当天温度；重点覆盖预警阈值、阴凉与饮水、人员分流、工作者与志愿者保护、医疗转运和沟通。该文件提供操作框架，不替代当地气象预报、场地容量、临床判断或法律责任。",
+            "xiaziQuote": "大型活动的高温安全不是一张天气图，而是一套从阈值到水、阴凉、医疗和疏散的运营设计。",
+            "doudouQuote": "同样的温度，在拥挤、无阴凉和交通受限的场地里，会变成完全不同的风险。",
+            "footerTakeaway": "今日关键词：气候与健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Health",
+            "headlineFact": "WHO releases a heat-risk tool for mass gatherings",
+            "headlineView": "Extreme heat enters the full event lifecycle, extending from advance assessment to cooling, medical response and recovery",
+            "headlineFull": "WHO releases a heat-risk tool for mass gatherings; Extreme heat enters the full event lifecycle, extending from advance assessment to cooling, medical response and recovery",
+            "intro": "The World Health Organization released implementation guidance on September 30 for preventing and managing heat-related illness at mass gatherings, together with a standalone risk-assessment tool. It says prolonged exposure, limited water and cooling, constrained transport and medical access can amplify heat illness, chronic-disease complications, emergency demand and operational disruption in outdoor, crowded or confined events. Organizers are asked to reassess across preparation, impact mitigation and recovery rather than checking only the day's temperature. Priorities include alert thresholds, shade and water, crowd movement, worker and volunteer protection, medical transport and communication. The document provides an operating framework; it does not replace local forecasts, venue-capacity analysis, clinical judgment or legal responsibility.",
+            "xiaziQuote": "Heat safety at a mass event is not a weather graphic; it is an operating design for thresholds, water, shade, care and evacuation.",
+            "doudouQuote": "The same temperature becomes a different risk in a crowded venue without shade, water or reliable transport.",
+            "footerTakeaway": "Keyword: Climate and Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "131d74c2-f15a-53af-b634-4e5b8ea50d09",
+            "topicId": "ca882939-5c0d-5524-89f4-5b6aabc0a6e7",
+            "title": "Prevention and management of heat-related illness at mass gatherings",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/publications/i/item/9789240124332",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0f6afe35-5db4-59de-8490-3b46356c88de",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "international-coffee-day-value-chain",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "CH",
+          "ID",
+          "RW",
+          "TR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-international-coffee-day-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "农业与生计",
+            "headlineFact": "首个联合国国际咖啡日关注每杯背后的人",
+            "headlineView": "咖啡被放回完整价值链：种植者、加工者、贸易者与消费者共同连接生计、农村发展和粮食安全",
+            "headlineFull": "首个联合国国际咖啡日关注每杯背后的人；咖啡被放回完整价值链：种植者、加工者、贸易者与消费者共同连接生计、农村发展和粮食安全",
+            "intro": "2026年10月1日是联合国大会设立后的首个国际咖啡日。粮农组织日内瓦联络处与印度尼西亚、卢旺达和土耳其常驻日内瓦代表团以“庆祝咖啡，致敬每杯背后的人”为主题举办活动，讨论咖啡的经济、社会、环境和文化意义。重点不只是消费文化，而是咖啡价值链如何支撑种植者与工人的生计、农村发展、粮食安全和可持续农业，并通过多方对话连接生产国与消费市场。纪念活动本身没有公布新的收入、价格或公平分配指标；真正的后续应看生产者收入、气候适应、劳工条件和价值在供应链中的分配。",
+            "xiaziQuote": "一杯咖啡的价值，不应只在柜台被定价，也要在产地的收入、韧性和尊严中被看见。",
+            "doudouQuote": "纪念日能把人放回画面，是否更公平还要看价格、合同与生产者实际拿到多少。",
+            "footerTakeaway": "今日关键词：农业与生计。"
+          },
+          "en-US": {
+            "categoryLabel": "Agriculture and Livelihoods",
+            "headlineFact": "First UN International Coffee Day centers the people behind each cup",
+            "headlineView": "Coffee returns to its full value chain, linking growers, processors, traders and consumers to livelihoods, rural development and food security",
+            "headlineFull": "First UN International Coffee Day centers the people behind each cup; Coffee returns to its full value chain, linking growers, processors, traders and consumers to livelihoods, rural development and food security",
+            "intro": "October 1, 2026 is the first International Coffee Day following its establishment by the UN General Assembly. FAO's Geneva office and the permanent missions of Indonesia, Rwanda and Türkiye are marking it under the theme Celebrating Coffee, Honouring the People Behind Every Cup, examining coffee's economic, social, environmental and cultural significance. The focus reaches beyond consumer culture to how the value chain supports grower and worker livelihoods, rural development, food security and sustainable agrifood systems, while connecting producing and consuming markets through dialogue. The observance does not publish new income, price or distribution metrics. The follow-through is producer earnings, climate adaptation, labor conditions and how value is divided along the chain.",
+            "xiaziQuote": "A cup's value should be visible not only at the counter, but in income, resilience and dignity at origin.",
+            "doudouQuote": "An observance can put people back in the picture; fairness still depends on prices, contracts and producer take-home income.",
+            "footerTakeaway": "Keyword: Agriculture and Livelihoods."
+          }
+        },
+        "sources": [
+          {
+            "id": "6ea26ba9-4257-582a-b35c-5e2213e746e8",
+            "topicId": "0f6afe35-5db4-59de-8490-3b46356c88de",
+            "title": "International Coffee Day 2026: Celebrating Coffee, Honouring the People Behind Every Cup",
+            "publisher": "Food and Agriculture Organization",
+            "url": "https://www.fao.org/geneva/events/details/international-coffee-day-2026--celebrating-coffee--honouring-the-people-behind-every-cup",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2cbbb467-bebf-529b-9227-03499d467366",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "older-persons-day-longer-life-systems",
+        "rank": 8,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-older-persons-day-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "健康老龄化",
+            "headlineFact": "国际老年人日要求系统适应更长寿命",
+            "headlineView": "长寿不只是寿命数字，医疗、照护、住房、就业与终身学习必须共同把新增年份变成健康和参与",
+            "headlineFull": "国际老年人日要求系统适应更长寿命；长寿不只是寿命数字，医疗、照护、住房、就业与终身学习必须共同把新增年份变成健康和参与",
+            "intro": "2026年10月1日是第36个联合国国际老年人日，主题为“长寿时代：为更长寿命重新思考系统”。世界卫生组织在“健康老龄化行动十年”中点召开对话，讨论卫生系统如何回应老年人的需要和权利，并把更广泛的社会决定因素纳入政策。核心问题是：寿命延长只有同时带来健康、尊严和持续贡献，才构成真正收益。行动范围超出医疗，包括长期照护、无障碍环境、住房、收入保障、工作与学习机会、数字参与和反年龄歧视。活动是议程设置，不代表各国系统已经完成改革；成效仍需用健康寿命、可及性、负担和参与度衡量。",
+            "xiaziQuote": "长寿社会的设计目标，不是让人多活几年，而是让新增年份仍有选择、连接与贡献。",
+            "doudouQuote": "主题不是成果；真正指标是健康寿命、照护可及性、家庭负担和老年人参与度。",
+            "footerTakeaway": "今日关键词：健康老龄化。"
+          },
+          "en-US": {
+            "categoryLabel": "Healthy Ageing",
+            "headlineFact": "International Day of Older Persons calls systems to adapt to longer lives",
+            "headlineView": "Longevity is more than a lifespan number; health, care, housing, work and lifelong learning must turn added years into health and participation",
+            "headlineFull": "International Day of Older Persons calls systems to adapt to longer lives; Longevity is more than a lifespan number; health, care, housing, work and lifelong learning must turn added years into health and participation",
+            "intro": "October 1, 2026 marks the 36th UN International Day of Older Persons under the theme The Age of Longevity: Rethinking Systems for Longer Lives. At the midpoint of the UN Decade of Healthy Ageing, WHO is convening a dialogue on how health systems can meet older people's needs and rights while policy addresses wider social determinants. The central question is whether added years also deliver health, dignity and continued contribution. The agenda extends beyond medicine to long-term care, accessible environments, housing, income security, work and learning opportunities, digital participation and protection from ageism. The event sets an agenda rather than proving national reforms are complete; outcomes still require measures of healthy life, access, affordability and participation.",
+            "xiaziQuote": "A longevity society should not merely add years, but keep choice, connection and contribution inside those years.",
+            "doudouQuote": "A theme is not an outcome; measure healthy life, care access, household burden and older people's participation.",
+            "footerTakeaway": "Keyword: Healthy Ageing."
+          }
+        },
+        "sources": [
+          {
+            "id": "f509f43b-3b7b-5a5c-b487-f9b7d57cb542",
+            "topicId": "2cbbb467-bebf-529b-9227-03499d467366",
+            "title": "The Age of Longevity: Rethinking Systems for Longer Lives",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news-room/events/detail/2026/10/01/default-calendar/who-webinar-on-the-un-international-day-of-older-persons-2026--the-age-of-longevity--rethinking-systems-for-longer-lives",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "eda6a33a-8d31-5012-bc2f-f52acf69009d",
+        "issueId": "d7cd48b6-413a-5e1a-929e-3cf64c633e79",
+        "slug": "insects-support-vertebrate-life-biodiversity",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-insects-vertebrate-biodiversity-20261001",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生命科学",
+            "headlineFact": "昆虫为脊椎动物提供食物以外的生命支持",
+            "headlineView": "跨国综述把昆虫重新定义为药用、筑巢、庇护、工具和繁殖节律的生态基础设施",
+            "headlineFull": "昆虫为脊椎动物提供食物以外的生命支持；跨国综述把昆虫重新定义为药用、筑巢、庇护、工具和繁殖节律的生态基础设施",
+            "intro": "9月30日发表于《Nature Reviews Biodiversity》的一项跨国综述汇总数百项研究，指出脊椎动物依赖昆虫的方式远超捕食。黑猩猩会用昆虫处理伤口，鹭类把昆虫当钓饵，树懒依靠蛾类维持毛发中的藻类，鸟和爬行动物利用白蚁丘控温筑巢，一些沙漠蛙借蚁巢保持湿度；超过200种鸟还会用碎蚂蚁梳理羽毛。作者认为，保护脊椎动物必须同时保护这些昆虫关系。综述引用部分昆虫种群每年下降约1%至2%的估计，但这不是所有昆虫的统一全球速率；不同地区、类群和监测方法差异很大。",
+            "xiaziQuote": "保护一只鸟、一只蛙或一只树懒，往往意味着同时保护它看不见的昆虫伙伴网络。",
+            "doudouQuote": "1%至2%是部分种群估计，不要把它当成所有昆虫每年都以同一速度下降。",
+            "footerTakeaway": "今日关键词：生命科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Life Science",
+            "headlineFact": "Insects provide vertebrates with life support beyond food",
+            "headlineView": "A multinational review reframes insects as ecological infrastructure for medicine, nests, shelter, tools and breeding rhythms",
+            "headlineFull": "Insects provide vertebrates with life support beyond food; A multinational review reframes insects as ecological infrastructure for medicine, nests, shelter, tools and breeding rhythms",
+            "intro": "A multinational review published September 30 in Nature Reviews Biodiversity synthesizes hundreds of studies and finds that vertebrate dependence on insects reaches far beyond predation. Chimpanzees apply insects to wounds, herons use them as bait, sloths rely on moths to sustain algae in their fur, birds and reptiles nest in temperature-controlled termite mounds, and some desert frogs use ant nests for humidity. More than two hundred bird species also groom with crushed ants. The authors argue that vertebrate conservation must preserve these insect relationships too. The review cites estimates that some insect populations decline roughly 1%-2% a year, but this is not one uniform global rate for every insect; regions, taxa and monitoring methods vary widely.",
+            "xiaziQuote": "Protecting a bird, frog or sloth often means protecting the invisible network of insect partners around it.",
+            "doudouQuote": "The 1%-2% estimate applies to some populations; do not flatten it into one annual decline rate for every insect.",
+            "footerTakeaway": "Keyword: Life Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "1e0021b7-a700-541d-aa73-3711193e77e6",
+            "topicId": "eda6a33a-8d31-5012-bc2f-f52acf69009d",
+            "title": "Insects Are Essential to Vertebrate Life - as Food, Shelter and Medicine",
+            "publisher": "Newswise / Binghamton University",
+            "url": "https://www.newswise.com/articles/food-shelter-medicine-vertebrates-rely-on-insects-for-a-wide-array-of-purposes",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261001_9fab95daa72b11a09fcca55c"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-01",
+    "releaseId": "rel_20261001_9fab95daa72b11a09fcca55c",
+    "assetBatchId": "asset_prod_20261001_9fab95daa72b11a09fcca55c",
+    "posters": [
+      {
+        "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+        "locale": "zh",
+        "contentHash": "7bb5a6421e72e4ad81e02c1a84f63a1135d0a88e30dec7a378c2cdb917a04197",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/global-radar-ai-solo-commerce-health-ageing-biodiversity.png"
+      },
+      {
+        "topicId": "414154a0-02ff-5a2f-b6b2-0686922d577a",
+        "locale": "en",
+        "contentHash": "9d091b149f04cae867b542d7675299d9e4fdc21c1ba4f352464669e65702a627",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/global-radar-ai-solo-commerce-health-ageing-biodiversity.png"
+      },
+      {
+        "topicId": "0cbf6dcf-7041-5210-a28c-ad12d0461e25",
+        "locale": "zh",
+        "contentHash": "b7179cd8c53733cc43bb5cab9b24a835d4634692a6130c4eac8b69926bd96470",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/ftc-ai-labs-consumer-risk-investigation.png"
+      },
+      {
+        "topicId": "0cbf6dcf-7041-5210-a28c-ad12d0461e25",
+        "locale": "en",
+        "contentHash": "fa2bdca764867ba13874a38cdb6d3128591e5ed7798dffe53f12b6625467159b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/ftc-ai-labs-consumer-risk-investigation.png"
+      },
+      {
+        "topicId": "ec8aaded-93cb-5b75-8028-d86d6d2bafda",
+        "locale": "zh",
+        "contentHash": "e42c46ceedb959cf51567b7d06d8696e8302ef02e50fe9a7350b549b7707cba1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/pieter-levels-solo-margin-product-portfolio.png"
+      },
+      {
+        "topicId": "ec8aaded-93cb-5b75-8028-d86d6d2bafda",
+        "locale": "en",
+        "contentHash": "4c74711c9ada7cebb606bf530b672d90c1c2484241ebc5ba02cc3e4e81e6e298",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/pieter-levels-solo-margin-product-portfolio.png"
+      },
+      {
+        "topicId": "77be50e2-fb74-5b8f-b107-2e7111292567",
+        "locale": "zh",
+        "contentHash": "7b57df151f23f727a16ee85d99082eaa0e10823db993fbc24b5cd292b3b78847",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/chatbase-ai-support-agents-ten-million-arr.png"
+      },
+      {
+        "topicId": "77be50e2-fb74-5b8f-b107-2e7111292567",
+        "locale": "en",
+        "contentHash": "70590034d2bd4c93b64b638eaa59ca0c01b0112b1d2f1cbb450a2f89118c73d2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/chatbase-ai-support-agents-ten-million-arr.png"
+      },
+      {
+        "topicId": "611c4c3f-d156-5335-bbd2-22a436d32612",
+        "locale": "zh",
+        "contentHash": "6d014ee6d99b36e12070a2cf5e88b0eda7b239c30b9da9f6ae5eb73921fd6710",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/marc-jacobs-cross-border-localization-growth.png"
+      },
+      {
+        "topicId": "611c4c3f-d156-5335-bbd2-22a436d32612",
+        "locale": "en",
+        "contentHash": "06bd6f57b80c6de4023e49ddd9f0492c1a45daddc4d87d272f4f12be3d3515fa",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/marc-jacobs-cross-border-localization-growth.png"
+      },
+      {
+        "topicId": "ca882939-5c0d-5524-89f4-5b6aabc0a6e7",
+        "locale": "zh",
+        "contentHash": "579880e2ce8a3ba17ec869fba569ab57b5d2e25693298dac2fb57125d83d0237",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/who-heat-risk-guide-mass-gatherings.png"
+      },
+      {
+        "topicId": "ca882939-5c0d-5524-89f4-5b6aabc0a6e7",
+        "locale": "en",
+        "contentHash": "3e57b4347cc90e7efe319640bebdd4830d9c1973d2a9c7f36bf4cbabbff002fe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/who-heat-risk-guide-mass-gatherings.png"
+      },
+      {
+        "topicId": "0f6afe35-5db4-59de-8490-3b46356c88de",
+        "locale": "zh",
+        "contentHash": "73f43332bf9ba089dc31702d159cd66e5ba199cf39f69a57b2eb715dc290a769",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/international-coffee-day-value-chain.png"
+      },
+      {
+        "topicId": "0f6afe35-5db4-59de-8490-3b46356c88de",
+        "locale": "en",
+        "contentHash": "ef3dc94902f6f52ef688b8de51002435e4866257d681f824de1a21f505a18585",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/international-coffee-day-value-chain.png"
+      },
+      {
+        "topicId": "2cbbb467-bebf-529b-9227-03499d467366",
+        "locale": "zh",
+        "contentHash": "84f2436a81bc709022976c2b5d7de5e1e487f02b2a8aa1fd89b2df3f9c8adfd5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/older-persons-day-longer-life-systems.png"
+      },
+      {
+        "topicId": "2cbbb467-bebf-529b-9227-03499d467366",
+        "locale": "en",
+        "contentHash": "0a9593d64970f1dbeedb97bfbd2fbd5c4e9d3798f4c57c6d9e24ce5d358509a3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/older-persons-day-longer-life-systems.png"
+      },
+      {
+        "topicId": "eda6a33a-8d31-5012-bc2f-f52acf69009d",
+        "locale": "zh",
+        "contentHash": "bdf934b9d97f5a5898c17ec1016399c885e89e81c8392251e3bdc24bdbb3afd7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/zh/insects-support-vertebrate-life-biodiversity.png"
+      },
+      {
+        "topicId": "eda6a33a-8d31-5012-bc2f-f52acf69009d",
+        "locale": "en",
+        "contentHash": "58b5da990c4417aecb0500e37b45ef10359058af8728237dae08d0fb5dc8ec17",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261001_9fab95daa72b11a09fcca55c/en/insects-support-vertebrate-life-biodiversity.png"
+      }
+    ]
+  }
+}
