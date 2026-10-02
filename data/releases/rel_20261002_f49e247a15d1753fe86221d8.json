@@ -1,0 +1,719 @@
+{
+  "issue": {
+    "id": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+    "slug": "2026-10-02",
+    "style": {
+      "name": "Anime",
+      "zhName": "日漫风格",
+      "description": "Style Atlas daily pick: Anime. Use an original premium editorial Japanese-animation visual language with cinematic framing, confident cel shading, expressive but controlled poses, dynamic perspective, luminous atmospheric color and selective speed-line energy; do not imitate any named studio, film, series or existing character. Keep the scene mature, globally editorial and evidence-led rather than cute or fan-art-like. Every poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and broad breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage scene, using flowing paths, varied floating forms and layered foreground-background movement rather than a rigid eight-card grid, table, equal boxes, dense borders or tiny type. Put every overview sentence on a calm low-texture area with strong contrast, and keep Chinese and English in the same composition, scene and rhythm."
+    },
+    "issueDate": "2026-10-02",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-02T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-01T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "afbdb440-f1da-515e-914a-d79c30747327",
+    "topics": [
+      {
+        "id": "afbdb440-f1da-515e-914a-d79c30747327",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "global-radar-ai-opc-app-commerce-platform-trade-security-space",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月2日全球经营雷达",
+            "headlineView": "开源训练、单人收入、付费AI、跨境成交与数字基础设施进入同一张行动地图",
+            "headlineFull": "10月2日全球经营雷达；开源训练、单人收入、付费AI、跨境成交与数字基础设施进入同一张行动地图",
+            "intro": "1. Ai2发布Olmo-core 3，开放面向大规模混合专家模型的训练栈，并展示万亿参数级系统扩展能力。\n2. HabitKit创始人2024年披露，单人运营的习惯追踪应用每月经常性收入与终身买断合计约1.51万美元。\n3. Sunflower创始人称，这款AI戒酒支持应用在10个月达到100万美元年经常性收入和1万名付费订阅者。\n4. Shopify案例显示，Anker通过多站点、多币种和本地支付运营全球DTC，网站收入曾同比增长112%。\n5. Reddit将于11月13日停止RSS，并在2027年3月结束剩余公开API访问，把应用与机器人迁入开发者平台。\n6. G20贸易部长就反对以胁迫性贸易行动把食品武器化达成成果文件共识，但后续执行仍待观察。\n7. NSA要求2027年起新商用国家安全系统支持抗量子算法，并计划在2030年前淘汰无法迁移的旧系统。\n8. Crew-13载四名来自美国、加拿大和俄罗斯的宇航员升空，开启约六个月的国际空间站任务。",
+            "xiaziQuote": "今天的共同信号是：真正的增长来自可复制的系统、清楚的证据和可迁移的基础设施。",
+            "doudouQuote": "把当前事件、历史案例、创始人披露和供应商案例分开看，数字才不会误导。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 2 Global Operator Radar",
+            "headlineView": "Open training, solo revenue, paid AI, cross-border conversion and digital infrastructure enter one action map",
+            "headlineFull": "October 2 Global Operator Radar; Open training, solo revenue, paid AI, cross-border conversion and digital infrastructure enter one action map",
+            "intro": "1. Ai2 releases Olmo-core 3, an open training stack for large mixture-of-experts models with demonstrated trillion-parameter system scale.\n2. HabitKit's founder disclosed in 2024 that his solo habit-tracking app generated about $15,100 a month across recurring and lifetime purchases.\n3. Sunflower's founder says the AI sobriety-support app reached $1 million ARR and 10,000 paying subscribers in ten months.\n4. A Shopify case says Anker used multi-site, multi-currency and local-payment operations for global DTC, with website revenue once rising 112% year over year.\n5. Reddit will end RSS on November 13 and remaining public API access in March 2027, moving apps and bots to its Developer Platform.\n6. G20 trade ministers agree on an outcome statement opposing the weaponization of food through coercive trade actions, with implementation still to be tested.\n7. NSA says new commercial national-security systems must support quantum-resistant algorithms from 2027, with non-migratable legacy systems phased out by 2030.\n8. Crew-13 launches four astronauts from the United States, Canada and Russia for an approximately six-month International Space Station mission.",
+            "xiaziQuote": "Today's shared signal: durable growth comes from repeatable systems, clear evidence and infrastructure that can migrate.",
+            "doudouQuote": "Separate current events, historical cases, founder disclosures and vendor cases so the numbers do not mislead.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "a0f319a0-a8c3-5f2d-9741-9d9b77e4b17f",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+            "publisher": "Ai2 / Hugging Face",
+            "url": "https://huggingface.co/blog/allenai/olmocore3",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "a0e3bf55-38fb-5313-a211-6d196c4deaaa",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "How building in public got my habit-tracking mobile app to $15k/mo",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/how-building-in-public-got-my-habit-tracking-mobile-app-to-15k-mo-DCOYyF9O14dBnuGkkaQR",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "09da4a3e-b58c-5588-b08a-bebfd2bcc41e",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "Koby Conrad - I speedran an ai app from 0 to $1m/yr in 10 months",
+            "publisher": "The Superwall Podcast",
+            "url": "https://www.buzzsprout.com/2522779/episodes/18958263-koby-conrad-i-speedran-an-ai-app-from-0-to-1m-yr-in-10-months",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6b747caa-ee69-5ddc-bbac-11ecba4d2593",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "Anker replatforms 16 ecommerce sites in three months",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/anker",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "dc3d073c-6e51-5e9a-b7a3-3143a3dd5970",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "Reddit to end RSS feeds and public API access",
+            "publisher": "ITmedia NEWS",
+            "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001919/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d6e68545-f05d-565e-8db8-5a2c0f64ddce",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "G20 Trade Ministers reach consensus on food weaponization statement",
+            "publisher": "Press Information Bureau, Government of India",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2317915&lang=2&reg=48",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6ff98102-cd0e-58db-8b2e-b3d9ff75069d",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "CNSA 2.0 and the 2027 Inflection Point",
+            "publisher": "SafeLogic",
+            "url": "https://www.safelogic.com/blog/cnsa-2.0-and-the-2027-inflection-point",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "a26edb43-4e8e-51d2-ac86-e9771823544d",
+            "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+            "title": "Crew-13 mission",
+            "publisher": "Canadian Space Agency",
+            "url": "https://www.asc-csa.gc.ca/eng/missions/crew-13/mission.asp",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "48951de8-c076-5cbf-ad22-55f0899abe18",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "ai2-olmo-core-three-open-moe-training",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-ai2-olmocore3-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Ai2开放万亿参数MoE训练栈",
+            "headlineView": "Olmo-core 3把专家路由、并行策略和低精度训练做成可复用基础设施，让开放研究不只停在模型权重",
+            "headlineFull": "Ai2开放万亿参数MoE训练栈；Olmo-core 3把专家路由、并行策略和低精度训练做成可复用基础设施，让开放研究不只停在模型权重",
+            "intro": "Ai2于10月1日发布Olmo-core 3，一个重新设计的开放混合专家模型训练系统。其基准把专家数量从8扩到128、每个词元仍只激活4个专家，总参数从46亿增至470亿时吞吐下降不到5%；在8张NVIDIA B300上，新栈对470亿参数MoE达到每GPU每秒5.2万词元，约为旧实现的2.7倍。团队还展示了1.2万亿总参数、512张GPU的系统基准，但强调这些是系统性能测试，不等于已经训练出同规模高质量模型。代码、技术报告和交互演示已开放，价值在于让研究者检查训练决策并适配不同硬件。",
+            "xiaziQuote": "开放模型的下一道门槛，不是再放一组权重，而是把训练系统和失败实验也交出来。",
+            "doudouQuote": "万亿参数是扩展测试，不是模型能力结论；吞吐和质量要分开读。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Ai2 opens a trillion-scale MoE training stack",
+            "headlineView": "Olmo-core 3 turns expert routing, parallelism and low-precision training into reusable infrastructure so open research goes beyond model weights",
+            "headlineFull": "Ai2 opens a trillion-scale MoE training stack; Olmo-core 3 turns expert routing, parallelism and low-precision training into reusable infrastructure so open research goes beyond model weights",
+            "intro": "Ai2 released Olmo-core 3 on October 1, a redesigned open training system for mixture-of-experts models. In one benchmark, expanding from eight to 128 experts while activating only four per token grew total capacity from 4.6B to 47B parameters with less than a 5% throughput decline. On eight NVIDIA B300 GPUs, the new stack processed 52,000 tokens per second per GPU for a 47B MoE, about 2.7 times the prior implementation. Ai2 also demonstrated a 1.2-trillion-parameter systems benchmark across 512 GPUs, while stressing that it measured infrastructure performance, not the quality of a fully trained model. Code, a technical report and an interactive walkthrough are open for inspection and adaptation.",
+            "xiaziQuote": "The next threshold for open models is not another weight release; it is opening the training system and the failed experiments too.",
+            "doudouQuote": "Trillion-scale here is a systems test, not a model-quality claim; read throughput and capability separately.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "11b3f2a2-ae68-501e-9dc2-d375962c9966",
+            "topicId": "48951de8-c076-5cbf-ad22-55f0899abe18",
+            "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+            "publisher": "Ai2 / Hugging Face",
+            "url": "https://huggingface.co/blog/allenai/olmocore3",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bc63bfb5-b0ac-52d4-85a4-9e2dfd6e7b5b",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "habitkit-solo-app-fifteen-thousand-monthly",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-habitkit-solo-revenue-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "HabitKit单人应用月收入约1.51万美元",
+            "headlineView": "一个离线习惯追踪器用免费增值、应用商店搜索和终身买断，把单人开发变成可持续现金流",
+            "headlineFull": "HabitKit单人应用月收入约1.51万美元；一个离线习惯追踪器用免费增值、应用商店搜索和终身买断，把单人开发变成可持续现金流",
+            "intro": "开发者Sebastian Röhl在2024年Indie Hackers访谈中披露，HabitKit每月经常性收入约7800美元，终身买断每月约7300美元，合计约1.51万美元；新年旺季单月收入曾超过3.3万美元。产品面向希望用网格直观看习惯的个人用户，基础功能免费，Pro通过月付、年付或终身买断变现。约98%的新用户直接来自App Store或Google Play，主要靠关键词优化与公开构建内容获客。应用用Flutter维护一套iOS/Android代码，数据离线存储且无需后端，降低基础设施与交付复杂度。数字来自创始人披露且时间点为2024年，不代表今天仍保持同一收入，也未披露退款、平台抽成、税费和净利润。",
+            "xiaziQuote": "一人公司最强的杠杆，常常不是更多功能，而是更窄的需求、更便宜的分发和更简单的交付。",
+            "doudouQuote": "约1.51万美元是2024年披露的月度组合收入，不是已审计的当前利润。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "HabitKit's solo app disclosed about $15.1K monthly revenue",
+            "headlineView": "An offline habit tracker combines freemium, app-store search and lifetime purchases to turn solo development into durable cash flow",
+            "headlineFull": "HabitKit's solo app disclosed about $15.1K monthly revenue; An offline habit tracker combines freemium, app-store search and lifetime purchases to turn solo development into durable cash flow",
+            "intro": "Developer Sebastian Röhl disclosed in a 2024 Indie Hackers interview that HabitKit generated about $7,800 in monthly recurring revenue plus roughly $7,300 a month in lifetime purchases, or around $15,100 combined; a New Year peak exceeded $33,000 in one month. The product serves people who want a visual grid for habit tracking. Core features are free, while Pro sells monthly, annual and lifetime access. About 98% of new users arrived directly through the App Store or Google Play, supported by keyword optimization and build-in-public content. A single Flutter codebase delivers iOS and Android, while offline storage removes the need for a backend. The figures are founder-disclosed from 2024, not audited current profit, and omit refunds, store fees, taxes and take-home income.",
+            "xiaziQuote": "The strongest solo-business leverage is often not more features, but a narrower need, cheaper distribution and simpler delivery.",
+            "doudouQuote": "About $15.1K is a disclosed 2024 monthly revenue mix, not audited current profit.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "954893f8-02ee-5ad6-bdcf-bb0dcb2a8d75",
+            "topicId": "bc63bfb5-b0ac-52d4-85a4-9e2dfd6e7b5b",
+            "title": "How building in public got my habit-tracking mobile app to $15k/mo",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/how-building-in-public-got-my-habit-tracking-mobile-app-to-15k-mo-DCOYyF9O14dBnuGkkaQR",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "692673c8-a0a2-52d3-88c0-d03378330390",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "sunflower-ai-sobriety-one-million-arr",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-sunflower-ai-sobriety-revenue-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Sunflower十个月做到100万美元ARR",
+            "headlineView": "AI陪伴负责高频支持，戒酒计时器承担核心留存，订阅墙实验把真实需求转成1万名付费用户",
+            "headlineFull": "Sunflower十个月做到100万美元ARR；AI陪伴负责高频支持，戒酒计时器承担核心留存，订阅墙实验把真实需求转成1万名付费用户",
+            "intro": "Sunflower是一款戒酒支持应用，创始人Koby Conrad在2026年4月Superwall访谈中称，产品用10个月达到100万美元年经常性收入和1万名付费订阅者。AI具体落在全天候支持伙伴上，一年处理约400万条消息；但团队发现最简单的戒酒计时器仍是用户最看重的核心功能。变现依靠订阅，试用提醒页实验据称把收入提高48%、年订阅提高70%，默认年付与对价格敏感用户降价也改善总收入。获客的关键不是批量小达人投放，而是把戒酒领域头部创作者招为员工，单一关系每月带来5万至10万次链接点击。数字来自创始人访谈，未披露毛利、AI推理成本、退款、留存曲线或净利润。",
+            "xiaziQuote": "AI应用赚钱，不是把AI做成全部，而是让AI承担高频服务，把最简单的核心价值留给用户。",
+            "doudouQuote": "100万美元ARR和1万付费用户是创始人披露；没有成本与留存明细，就不能推出利润。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Sunflower reaches $1M ARR in ten months",
+            "headlineView": "AI companionship handles frequent support, a sobriety timer anchors retention and paywall experiments convert real demand into 10,000 paying users",
+            "headlineFull": "Sunflower reaches $1M ARR in ten months; AI companionship handles frequent support, a sobriety timer anchors retention and paywall experiments convert real demand into 10,000 paying users",
+            "intro": "Sunflower is a sobriety-support app whose founder, Koby Conrad, said in an April 2026 Superwall interview that it reached $1 million ARR and 10,000 paying subscribers in ten months. AI powers an always-available support companion that handled about four million messages in a year, while the simplest sobriety timer remained the feature users valued most. Monetization comes from subscriptions. A trial-reminder experiment reportedly lifted revenue 48% and annual subscriptions 70%; defaulting to annual and lowering price for price-sensitive users also improved total revenue. Acquisition centered on hiring the category's leading sobriety influencer as an employee, with that relationship driving 50,000-100,000 link clicks a month. The figures are founder-disclosed and do not include gross margin, inference cost, refunds, cohort retention or net profit.",
+            "xiaziQuote": "A profitable AI app does not make AI the whole product; it lets AI carry frequent service while the simplest core value stays obvious.",
+            "doudouQuote": "$1M ARR and 10,000 payers are founder-disclosed; without cost and retention detail, they do not establish profit.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "142bd186-9119-54ef-bcfb-74c8a55ec632",
+            "topicId": "692673c8-a0a2-52d3-88c0-d03378330390",
+            "title": "Koby Conrad - I speedran an ai app from 0 to $1m/yr in 10 months",
+            "publisher": "The Superwall Podcast",
+            "url": "https://www.buzzsprout.com/2522779/episodes/18958263-koby-conrad-i-speedran-an-ai-app-from-0-to-1m-yr-in-10-months",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "71440185-aaa9-5443-9e2b-175cdcb7c963",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "anker-global-dtc-website-revenue-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "CN",
+          "US",
+          "DE",
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-anker-crossborder-revenue-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Anker全球DTC网站收入曾同比增长112%",
+            "headlineView": "50多个本地站点、多币种与本地支付把消费电子的全球品牌认知转成更稳定的自营成交",
+            "headlineFull": "Anker全球DTC网站收入曾同比增长112%；50多个本地站点、多币种与本地支付把消费电子的全球品牌认知转成更稳定的自营成交",
+            "intro": "Shopify案例显示，Anker为消费电子业务把四个主要品牌的16个站点在三个月内迁移，之后扩展到50多个全球在线商店，覆盖140多个国家和地区。各市场使用不同站点、币种、结账配置与Shop Pay、PayPal、Amazon Pay、Google Pay等支付方式，以匹配本地购买习惯。案例称，2023年上半年网站收入同比增长112%，网站收入连续三年同比增长70%，结账支付成功率超过90%，平均客单价与毛利也有提升。赚钱机制是把第三方平台流量与品牌认知导入自营DTC，通过本地化结账减少支付失败并保留更多客户关系。数据来自平台供应商的历史案例，未披露各国广告、关税、物流、退货、平台成本或当前净利润，不能外推为今天的增长率。",
+            "xiaziQuote": "跨境电商的护城河不只在货，而在每个市场都能顺利付钱、理解价格并收到货。",
+            "doudouQuote": "112%是历史网站收入增幅，来自供应商案例，不是当前净利润。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Anker's global DTC website revenue once grew 112% year over year",
+            "headlineView": "More than fifty local storefronts, multiple currencies and local payments turn global electronics awareness into more reliable owned-channel conversion",
+            "headlineFull": "Anker's global DTC website revenue once grew 112% year over year; More than fifty local storefronts, multiple currencies and local payments turn global electronics awareness into more reliable owned-channel conversion",
+            "intro": "A Shopify case says Anker migrated sixteen sites for four major consumer-electronics brands in three months, then expanded to more than fifty global online stores across over 140 countries and regions. Markets receive different storefronts, currencies, checkout configurations and payment methods including Shop Pay, PayPal, Amazon Pay and Google Pay. The case reports 112% year-over-year website revenue growth in the first half of 2023, 70% annual website revenue growth for three consecutive years, a payment success rate above 90%, and increases in average order value and gross margin. The mechanism moves brand demand from third-party marketplaces into owned DTC while local checkout reduces payment failure and preserves customer relationships. The figures are historical vendor-reported results and omit market-level advertising, duties, logistics, returns, platform cost and current net profit.",
+            "xiaziQuote": "The cross-border moat is not only the product; it is letting every market understand the price, pay successfully and receive the order.",
+            "doudouQuote": "The 112% figure is historical website-revenue growth from a vendor case, not current net profit.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "b5fe430b-a645-5e23-8c0e-374435a7f4aa",
+            "topicId": "71440185-aaa9-5443-9e2b-175cdcb7c963",
+            "title": "Anker replatforms 16 ecommerce sites in three months",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/anker",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "06574260-adfe-501e-a24e-48999b5e7714",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "reddit-rss-public-api-shutdown-migration",
+        "rank": 6,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-reddit-rss-api-migration-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "平台与开放网络",
+            "headlineFact": "Reddit将关闭RSS与公开API",
+            "headlineView": "反抓取把开放订阅与外部自动化迁进受控平台，开发者、机器人和信息获取方式都要重建",
+            "headlineFull": "Reddit将关闭RSS与公开API；反抓取把开放订阅与外部自动化迁进受控平台，开发者、机器人和信息获取方式都要重建",
+            "intro": "Reddit宣布将于2026年11月13日停止RSS支持，并分阶段关闭公开数据API：10月31日停止新申请，2027年1月12日起移除未注册或未参与迁移的访问，剩余公开访问在2027年3月结束。公司把大规模抓取和自动化滥用列为原因，要求第三方应用与机器人迁入Developer Platform。已有超过1.4万个应用和机器人登记；Reddit提供总额100万美元的迁移计划，并为合规项目提供技术支持和托管。版主的部分工作流有替代方案，但非版主社区的RSS订阅没有直接替代。这减少了无许可采集面，也收紧了开放网络的可移植性、归档与独立客户端空间。",
+            "xiaziQuote": "当开放接口变成受控平台，安全会提高一部分，但生态的可移植性与独立创新也会付出成本。",
+            "doudouQuote": "11月和明年3月是迁移节点；依赖RSS或公开API的工作流现在就该盘点。",
+            "footerTakeaway": "今日关键词：平台与开放网络。"
+          },
+          "en-US": {
+            "categoryLabel": "Platforms and the Open Web",
+            "headlineFact": "Reddit will close RSS and public API access",
+            "headlineView": "Anti-scraping measures move open subscriptions and external automation into a controlled platform, forcing developers, bots and information workflows to rebuild",
+            "headlineFull": "Reddit will close RSS and public API access; Anti-scraping measures move open subscriptions and external automation into a controlled platform, forcing developers, bots and information workflows to rebuild",
+            "intro": "Reddit says RSS support will end on November 13, 2026, while the public Data API closes in stages: new applications end October 31, unregistered or unengaged access begins losing service January 12, 2027, and remaining public access ends in March 2027. The company cites large-scale scraping and automated abuse and requires third-party apps and bots to move to its Developer Platform. More than 14,000 apps and bots have registered. Reddit is offering a $1 million migration program plus technical support and hosting for qualifying projects. Some moderation workflows have alternatives, but RSS subscriptions to communities a user does not moderate will not. The change reduces unlicensed collection surfaces while tightening portability, archiving and room for independent clients.",
+            "xiaziQuote": "When an open interface becomes a controlled platform, some security improves, but portability and independent innovation pay a price.",
+            "doudouQuote": "November and next March are migration deadlines; audit every workflow that depends on RSS or the public API now.",
+            "footerTakeaway": "Keyword: Platforms and the Open Web."
+          }
+        },
+        "sources": [
+          {
+            "id": "a9ab2730-0832-5f97-9a02-824137a75f31",
+            "topicId": "06574260-adfe-501e-a24e-48999b5e7714",
+            "title": "Reddit to end RSS feeds and public API access",
+            "publisher": "ITmedia NEWS",
+            "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001919/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3eeffc70-e6fa-5dc8-8df2-e388f83f4917",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "g20-food-coercive-trade-consensus",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "IN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-g20-food-trade-consensus-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球贸易",
+            "headlineFact": "G20就反对食品贸易胁迫达成共识",
+            "headlineView": "食品安全、出口限制与贸易施压被放进同一份成果文件，但定义、例外与执行仍决定真实影响",
+            "headlineFull": "G20就反对食品贸易胁迫达成共识；食品安全、出口限制与贸易施压被放进同一份成果文件，但定义、例外与执行仍决定真实影响",
+            "intro": "在美国密尔沃基举行的G20贸易部长会议上，与会部长就《通过胁迫性贸易行动把食品武器化》成果文件达成共识，并表示将继续合作。印度官方通报强调，应区分为保障国内粮食可得性而采取的临时、透明措施，与把食品、农产品或农业投入品当作施压工具的行为。讨论还涉及全球南方受到食品、燃料和化肥危机冲击，以及世界粮食计划署采购免受出口限制等既有机制。这份共识表明各方愿意建立共同语言，但当前披露没有给出统一法律定义、争端解决、监督指标或强制执行路径，因此不能把政治声明当作已经生效的贸易规则。",
+            "xiaziQuote": "食品贸易规则真正难的不是写下反对胁迫，而是把合法保供与政治施压划出可执行的边界。",
+            "doudouQuote": "部长共识是方向，不是自动生效的禁令；后续要看定义、例外和执行机制。",
+            "footerTakeaway": "今日关键词：全球贸易。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Trade",
+            "headlineFact": "G20 agrees to oppose coercive weaponization of food trade",
+            "headlineView": "Food security, export restrictions and trade pressure enter one outcome document, but definitions, exceptions and enforcement will determine real impact",
+            "headlineFull": "G20 agrees to oppose coercive weaponization of food trade; Food security, export restrictions and trade pressure enter one outcome document, but definitions, exceptions and enforcement will determine real impact",
+            "intro": "At the G20 Trade Ministerial in Milwaukee, ministers reached consensus on an outcome document titled 'G20 Statement on the Weaponization of Food through Coercive Trade Actions' and expressed intent to continue cooperation. India's official account stressed a distinction between temporary, transparent measures used to preserve domestic food availability and actions that use food, agricultural products or inputs as instruments of pressure. Discussion also covered the effect of food, fuel and fertilizer crises on the Global South and existing exemptions for World Food Programme purchases from export restrictions. The consensus creates shared political language, but the current disclosure does not specify a uniform legal definition, dispute process, monitoring metric or binding enforcement path. It is therefore not yet an operative trade ban.",
+            "xiaziQuote": "The hard part is not opposing food coercion in words; it is drawing an enforceable line between legitimate supply protection and political pressure.",
+            "doudouQuote": "Ministerial consensus is direction, not an automatic ban; watch definitions, exceptions and enforcement.",
+            "footerTakeaway": "Keyword: Global Trade."
+          }
+        },
+        "sources": [
+          {
+            "id": "f2125cc7-608b-53f8-bf29-d249d5ad28ad",
+            "topicId": "3eeffc70-e6fa-5dc8-8df2-e388f83f4917",
+            "title": "G20 Trade Ministers reach consensus on food weaponization statement",
+            "publisher": "Press Information Bureau, Government of India",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2317915&lang=2&reg=48",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "08dfec94-c729-5c05-abc4-f67bc4458392",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "nsa-post-quantum-migration-2027-2030",
+        "rank": 8,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-nsa-postquantum-migration-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "网络安全",
+            "headlineFact": "NSA给出2027与2030抗量子节点",
+            "headlineView": "后量子密码从算法选择进入采购、架构与退役计划，今天被截获的数据也要按未来解密风险保护",
+            "headlineFull": "NSA给出2027与2030抗量子节点；后量子密码从算法选择进入采购、架构与退役计划，今天被截获的数据也要按未来解密风险保护",
+            "intro": "美国国家安全局10月1日公布新的后量子密码迁移措施。依据国家安全系统政策，从2027年起，所有新采购的商用国家安全系统必须能够支持抗量子算法；无法支持抗量子迁移的旧系统计划在2030年前淘汰。NSA把风险概括为“现在收集、未来解密”与“现在信任、未来利用”，要求同时保护长期敏感数据、身份认证和关键系统。对组织而言，动作不只是更换算法，还包括清点密码资产、确认硬件与协议升级能力、调整供应商采购条款、设计双栈迁移与退役顺序。量子计算何时足以破解现有公钥体系仍不确定，但长期数据暴露窗口已经开始。",
+            "xiaziQuote": "抗量子迁移不是等量子电脑出现再升级，而是今天就决定哪些数据和系统不能留下十年的技术债。",
+            "doudouQuote": "2027约束新系统，2030清理不可迁移旧系统；先做密码资产清单。",
+            "footerTakeaway": "今日关键词：网络安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Cybersecurity",
+            "headlineFact": "NSA sets 2027 and 2030 quantum-resistance milestones",
+            "headlineView": "Post-quantum cryptography moves from algorithm selection into procurement, architecture and retirement plans, protecting today's intercepted data from future decryption",
+            "headlineFull": "NSA sets 2027 and 2030 quantum-resistance milestones; Post-quantum cryptography moves from algorithm selection into procurement, architecture and retirement plans, protecting today's intercepted data from future decryption",
+            "intro": "The US National Security Agency announced new post-quantum cryptography migration measures on October 1. Under national-security-systems policy, all new commercial NSS must support quantum-resistant algorithms from 2027, while legacy systems that cannot migrate are to be phased out by 2030. NSA frames the risk as both 'harvest now, decrypt later' and 'trust now, exploit later,' covering long-lived sensitive data, authentication and critical systems. The operating work is broader than swapping algorithms: inventory cryptographic assets, verify hardware and protocol upgrade paths, update supplier requirements, design hybrid migration and sequence retirements. The date when quantum machines can break today's public-key systems remains uncertain, but the exposure window for long-lived data has already started.",
+            "xiaziQuote": "Quantum resistance is not an upgrade to schedule after the machine arrives; it is deciding now which data and systems cannot carry a decade of technical debt.",
+            "doudouQuote": "2027 constrains new systems and 2030 removes non-migratable legacy systems; start with a cryptographic inventory.",
+            "footerTakeaway": "Keyword: Cybersecurity."
+          }
+        },
+        "sources": [
+          {
+            "id": "542292ba-bd14-50d7-a72a-2eda92261a39",
+            "topicId": "08dfec94-c729-5c05-abc4-f67bc4458392",
+            "title": "CNSA 2.0 and the 2027 Inflection Point",
+            "publisher": "SafeLogic",
+            "url": "https://www.safelogic.com/blog/cnsa-2.0-and-the-2027-inflection-point",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2b56f8ea-d781-5466-9286-f8959f742b91",
+        "issueId": "58bb3384-1886-5a36-926b-5ec4fa86f23a",
+        "slug": "crew-thirteen-launches-six-month-iss-mission",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "CA",
+          "RU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-crew13-launch-20261002",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "太空",
+            "headlineFact": "Crew-13四人组升空前往空间站",
+            "headlineView": "三国乘组开启约六个月任务，把载人运输、健康研究、机器人操作与空间站维护接成一次长期交付",
+            "headlineFull": "Crew-13四人组升空前往空间站；三国乘组开启约六个月任务，把载人运输、健康研究、机器人操作与空间站维护接成一次长期交付",
+            "intro": "SpaceX Crew-13于10月1日11时10分（美国东部时间）从佛罗里达升空，龙飞船搭载NASA宇航员Jessica Watkins、Luke Delaney，加拿大航天局宇航员Joshua Kutryk和俄罗斯航天国家集团宇航员Sergey Teteryatnikov。四人计划在国际空间站执行约六个月任务。加拿大官方说明，Kutryk将参与心理健康、骨密度、心肺健康、方向感知、贫血和眼部刚度等实验，也会测试新的体能训练方案。乘组还将承担空间站维护、维修、机器人操作与可能的舱外活动支持。发射成功意味着运输阶段完成，但科学成果、在轨安全和任务交付仍需在未来数月逐项验证。",
+            "xiaziQuote": "载人航天的新闻不只在点火瞬间，而在六个月里把健康、维护和国际协作一项项做完。",
+            "doudouQuote": "已经升空不等于任务完成；后续看交会对接、在轨运行和实验数据。",
+            "footerTakeaway": "今日关键词：太空。"
+          },
+          "en-US": {
+            "categoryLabel": "Space",
+            "headlineFact": "Crew-13 launches four astronauts toward the station",
+            "headlineView": "A three-nation crew begins an approximately six-month mission linking human transport, health research, robotics and station maintenance into one long delivery",
+            "headlineFull": "Crew-13 launches four astronauts toward the station; A three-nation crew begins an approximately six-month mission linking human transport, health research, robotics and station maintenance into one long delivery",
+            "intro": "SpaceX Crew-13 lifted off from Florida at 11:10 a.m. Eastern on October 1 aboard a Dragon spacecraft carrying NASA astronauts Jessica Watkins and Luke Delaney, Canadian Space Agency astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov. The four are set to spend approximately six months aboard the International Space Station. Canada's official release says Kutryk will support studies on mental health, bone density, cardiorespiratory health, orientation perception, anemia and ocular rigidity, and test a new physical-training protocol. The crew will also handle station maintenance, repairs, robotics operations and potential spacewalk support. Launch success completes the transport's first stage, not the mission; docking, operational safety and scientific delivery must still be verified over the coming months.",
+            "xiaziQuote": "The story of human spaceflight is not only ignition; it is completing health, maintenance and international-cooperation work across six months.",
+            "doudouQuote": "Reaching orbit is not mission completion; watch docking, on-orbit operations and experimental results.",
+            "footerTakeaway": "Keyword: Space."
+          }
+        },
+        "sources": [
+          {
+            "id": "f8c5c5c0-5a96-510d-b734-84f9aabdae93",
+            "topicId": "2b56f8ea-d781-5466-9286-f8959f742b91",
+            "title": "Crew-13 mission",
+            "publisher": "Canadian Space Agency",
+            "url": "https://www.asc-csa.gc.ca/eng/missions/crew-13/mission.asp",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261002_f49e247a15d1753fe86221d8"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-02",
+    "releaseId": "rel_20261002_f49e247a15d1753fe86221d8",
+    "assetBatchId": "asset_prod_20261002_f49e247a15d1753fe86221d8",
+    "posters": [
+      {
+        "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+        "locale": "zh",
+        "contentHash": "1f0dfff062884497d7472cb6cf6c8b07849b1b1fd48271e5ac79087798cde2a1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/global-radar-ai-opc-app-commerce-platform-trade-security-space.png"
+      },
+      {
+        "topicId": "afbdb440-f1da-515e-914a-d79c30747327",
+        "locale": "en",
+        "contentHash": "1ba36701dbfb5176f98d91f1cae7741b4c57e5264c664436c87c38a7559364cf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/global-radar-ai-opc-app-commerce-platform-trade-security-space.png"
+      },
+      {
+        "topicId": "48951de8-c076-5cbf-ad22-55f0899abe18",
+        "locale": "zh",
+        "contentHash": "f78b78f67a2f6ef9fb9dc01d381ab966e6bd3bfba5cba7705285c97539d36a1b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/ai2-olmo-core-three-open-moe-training.png"
+      },
+      {
+        "topicId": "48951de8-c076-5cbf-ad22-55f0899abe18",
+        "locale": "en",
+        "contentHash": "763c7ed12c8d1ef2a5cf4eb2c7bf6b18640eab29aa8231ab3eb05ba0edb3ce90",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/ai2-olmo-core-three-open-moe-training.png"
+      },
+      {
+        "topicId": "bc63bfb5-b0ac-52d4-85a4-9e2dfd6e7b5b",
+        "locale": "zh",
+        "contentHash": "187a7eaa6b7727493c6b3af1139a582b6345fc346cbc69c74d78428013dfd574",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/habitkit-solo-app-fifteen-thousand-monthly.png"
+      },
+      {
+        "topicId": "bc63bfb5-b0ac-52d4-85a4-9e2dfd6e7b5b",
+        "locale": "en",
+        "contentHash": "60802f46e42b1c3b4eb57e3b19c895b6969b13ba11481532498eb68748185891",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/habitkit-solo-app-fifteen-thousand-monthly.png"
+      },
+      {
+        "topicId": "692673c8-a0a2-52d3-88c0-d03378330390",
+        "locale": "zh",
+        "contentHash": "96913f1687272f34ef3af7b05bbeb3c27ebe53db088a3cfbf5509fceaf28e19e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/sunflower-ai-sobriety-one-million-arr.png"
+      },
+      {
+        "topicId": "692673c8-a0a2-52d3-88c0-d03378330390",
+        "locale": "en",
+        "contentHash": "5f9404e50ebf4f557930b038c39ac8248b13e7269ad012abe5fc56bf40385945",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/sunflower-ai-sobriety-one-million-arr.png"
+      },
+      {
+        "topicId": "71440185-aaa9-5443-9e2b-175cdcb7c963",
+        "locale": "zh",
+        "contentHash": "d71a1ad99771d9b1fb55cdadc65f96c8d63e8aecd426cbe3735833902f0b8c32",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/anker-global-dtc-website-revenue-growth.png"
+      },
+      {
+        "topicId": "71440185-aaa9-5443-9e2b-175cdcb7c963",
+        "locale": "en",
+        "contentHash": "b98fda6e02df712eed7f99274512c2ff80b70c5e78fa0f352ee70b6fac8b57db",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/anker-global-dtc-website-revenue-growth.png"
+      },
+      {
+        "topicId": "06574260-adfe-501e-a24e-48999b5e7714",
+        "locale": "zh",
+        "contentHash": "fd1843e5ace5d7ef9610f6e2292cf92d43482f169b10410d4af5f21ffeb7d22a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/reddit-rss-public-api-shutdown-migration.png"
+      },
+      {
+        "topicId": "06574260-adfe-501e-a24e-48999b5e7714",
+        "locale": "en",
+        "contentHash": "df1ef440aca186c1011b34ad268fbaab5878ad7cce20920350599d12e88a146b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/reddit-rss-public-api-shutdown-migration.png"
+      },
+      {
+        "topicId": "3eeffc70-e6fa-5dc8-8df2-e388f83f4917",
+        "locale": "zh",
+        "contentHash": "d269d15eb7c533e67224b6f9c03d0244164c928522c9e79f36b939566680dc80",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/g20-food-coercive-trade-consensus.png"
+      },
+      {
+        "topicId": "3eeffc70-e6fa-5dc8-8df2-e388f83f4917",
+        "locale": "en",
+        "contentHash": "8f9b21f8b7b7354259fb08424c0f5e0b5751807dd33973eef389fabb3903ccde",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/g20-food-coercive-trade-consensus.png"
+      },
+      {
+        "topicId": "08dfec94-c729-5c05-abc4-f67bc4458392",
+        "locale": "zh",
+        "contentHash": "090e903819dbe2831e30f0f4b5e67a2c4050a3ca9d851258b8c67dea3f507115",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/nsa-post-quantum-migration-2027-2030.png"
+      },
+      {
+        "topicId": "08dfec94-c729-5c05-abc4-f67bc4458392",
+        "locale": "en",
+        "contentHash": "98c13a3d40b3ad5df6b0f934ccbb78b84ae1a24241c9e79abfc521f1fd3ed199",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/nsa-post-quantum-migration-2027-2030.png"
+      },
+      {
+        "topicId": "2b56f8ea-d781-5466-9286-f8959f742b91",
+        "locale": "zh",
+        "contentHash": "1b6dd708fa3a58d844df4f5dc343453f3a23be1a6d1e66b0ff6a308617b9807d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/zh/crew-thirteen-launches-six-month-iss-mission.png"
+      },
+      {
+        "topicId": "2b56f8ea-d781-5466-9286-f8959f742b91",
+        "locale": "en",
+        "contentHash": "592a1067055d78ffde135e671ce0a83badfd2b0b1b708dc0b57d1a3bf95c4fc7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261002_f49e247a15d1753fe86221d8/en/crew-thirteen-launches-six-month-iss-mission.png"
+      }
+    ]
+  }
+}
