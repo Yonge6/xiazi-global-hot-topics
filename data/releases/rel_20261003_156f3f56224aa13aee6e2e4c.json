@@ -1,0 +1,767 @@
+{
+  "issue": {
+    "id": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+    "slug": "2026-10-03",
+    "style": {
+      "name": "Manga",
+      "zhName": "漫画黑白风格",
+      "description": "Style Atlas daily pick: Manga. Use an original premium black-and-white editorial manga language: cinematic lighting, expressive but controlled character acting, rich screentone, confident ink lines, layered panels and a clear page-turn reading path. Do not imitate any named artist, studio, series or existing character. Keep every scene mature, global and evidence-led. Black, white and gray dominate; one restrained accent tone is allowed only when it helps hierarchy. Every poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and calm low-texture text areas. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a natural central globe or world-stage story scene, using sweeping panel paths, varied speech balloons and layered foreground-background movement rather than a rigid grid, equal boxes, table, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm."
+    },
+    "issueDate": "2026-10-03",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-03T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-02T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+    "topics": [
+      {
+        "id": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "global-radar-privacy-revenue-commerce-rights-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月3日全球经营雷达",
+            "headlineView": "人脸防护、单人收入、付费AI、跨境结账、战争基础设施、教育与数字人格权进入同一张证据地图",
+            "headlineFull": "10月3日全球经营雷达；人脸防护、单人收入、付费AI、跨境结账、战争基础设施、教育与数字人格权进入同一张证据地图",
+            "intro": "1. FaceGuardian用语义流形扰动保护人脸免受扩散模型恶意编辑，在一项测试中把人脸识别相似度从0.833降至0.272。\n2. Getlead经Stripe验证的累计收入为9.31万美元，但月经常性收入只有2134美元，提醒创始人拆开一次性销售与订阅质量。\n3. Solo Content Studio面向教练提供品牌语气AI写作，验证月经常性收入3733美元、67个活跃订阅。\n4. BigCommerce案例称MUJI欧洲电商同比增长50%，并把配送市场从12个扩至29个，支付选择增加Adyen等方案。\n5. 俄方空袭迫使基辅三座第聂伯河公路桥部分或全部关闭，多国同时提出能源与黑海航运局部停火方案。\n6. 联合国难民署称2025年仍有580万学龄难民儿童失学，中学毛入学率仅32%。\n7. 东京地方法院首次确认声音可受公开权保护，但因相关账号与视频已经消失而驳回删除请求。\n8. 对84头野生非洲象的902段录音分析发现，象群在联系、问候和协调行动时的低频合唱会趋于相似。",
+            "xiaziQuote": "今天的共同信号是：可验证的收入、可执行的权利和可复用的基础设施，比漂亮叙事更有长期价值。",
+            "doudouQuote": "把实验结果、供应商案例、法院原则和最终救济分别标清，结论才不会跑得比证据快。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 3 Global Operator Radar",
+            "headlineView": "Face defense, solo revenue, paid AI, cross-border checkout, wartime infrastructure, education and digital personality rights enter one evidence map",
+            "headlineFull": "October 3 Global Operator Radar; Face defense, solo revenue, paid AI, cross-border checkout, wartime infrastructure, education and digital personality rights enter one evidence map",
+            "intro": "1. FaceGuardian uses semantic-manifold perturbations to defend portraits against malicious diffusion edits, reducing face-recognition similarity from 0.833 to 0.272 in one test.\n2. Getlead shows $93,081 in Stripe-verified all-time revenue but only $2,134 MRR, a reminder to separate one-off sales from subscription quality.\n3. Solo Content Studio sells brand-voice AI writing to coaches and shows $3,733 verified MRR across 67 active subscriptions.\n4. A BigCommerce case says MUJI Europe's ecommerce grew 50% year over year while shipping markets expanded from 12 to 29 and payment choices added Adyen.\n5. Russian strikes forced full or partial closures of three Kyiv road bridges as several countries proposed a limited energy and Black Sea shipping truce.\n6. UNHCR says 5.8 million school-age refugee children remained out of school in 2025, with gross secondary enrolment at only 32%.\n7. Tokyo District Court recognized that a voice may receive publicity-right protection, but dismissed the deletion request because the account and videos were already gone.\n8. Analysis of 902 recordings from 84 wild African elephants finds rumble choruses converge during contact, greeting and movement coordination.",
+            "xiaziQuote": "Today's shared signal: verified revenue, enforceable rights and reusable infrastructure matter more over time than a polished narrative.",
+            "doudouQuote": "Label experiments, vendor cases, legal principles and final remedies separately so conclusions never outrun evidence.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "7e2dffb4-4f5e-562f-b9b4-97c224c38574",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "IEEE SaTML 2026 Program: FaceGuardian",
+            "publisher": "IEEE SaTML",
+            "url": "https://satml.org/2026/program/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "904de250-dc8f-5428-9130-aaa74f67f7ac",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "Getlead - verified startup revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/getlead",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "c79b94b1-f9cc-5ebe-94c6-c9f513d8bb1e",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "Solo Content Studio - verified startup revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/solo-content-studio",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "4cddd9b8-411d-5382-9c4a-b7346d949b29",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "MUJI updates and future-proofs its ecommerce strategy",
+            "publisher": "Global IT Research",
+            "url": "https://globalitresearch.com/whitepaper/muji-updates-and-future-proofs-their-ecommerce-strategy-with-bigcommerce/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "89a49c62-3daa-511a-9718-6a260efa0468",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "Ukraine calls for tighter sanctions as Russian attacks spark Kyiv gridlock",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/2/ukraine-calls-for-tighter-sanctions-as-russian-attacks-spark-kyiv-gridlock",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0f5804d5-c767-5b5d-8f1a-6e30d0c38f08",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "5.8 million refugee children still out of school",
+            "publisher": "UNHCR Canada",
+            "url": "https://www.unhcr.ca/news/unhcr-5-8-million-refugee-children-still-out-of-school-as-funding-cuts-threaten-hard-won-progress/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9cfd98df-009d-526d-a440-46cad030ea5e",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "Japan Court Recognizes Publicity Rights in Voice for 1st Time",
+            "publisher": "Nippon.com / Jiji Press",
+            "url": "https://www.nippon.com/en/news/yjj2026093000118/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9b51b4fe-8f42-5a14-a1f1-6ed5cd067f97",
+            "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+            "title": "Social context information and acoustic convergence in elephant vocal choruses",
+            "publisher": "Scientific Reports",
+            "url": "https://www.nature.com/articles/s41598-026-68525-3",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "6acc4c1d-4dfc-5199-a486-e4516a205d8a",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "faceguardian-semantic-defense-ai-image-editing",
+        "rank": 2,
+        "category": "technology",
+        "region": "Middle East",
+        "countryCodes": [
+          "AE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-faceguardian-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "FaceGuardian把人脸防护移入语义空间",
+            "headlineView": "不只让编辑失败，而是让恶意生成后的脸无法再可靠关联原身份",
+            "headlineFull": "FaceGuardian把人脸防护移入语义空间；不只让编辑失败，而是让恶意生成后的脸无法再可靠关联原身份",
+            "intro": "MBZUAI与哈利法大学团队公布FaceGuardian：它在高层语义流形中优化难以察觉的扰动，目标是在扩散编辑后破坏身份可识别性，同时保留原图观感。在一项数据集测试中，未保护图像的人脸识别相似度为0.833，FaceGuardian降至0.272，优于次优方法的0.315；压缩后仍为0.361，而FaceLock为0.709。方法在InstructPix2Pix与LEDITS++上测试，并获ECCV LifeGenIP工作坊最佳论文。局限是团队可访问开源模型组件，属于灰盒条件；对封闭模型与视频的泛化仍待验证。",
+            "xiaziQuote": "真正的隐私防护，不只是把像素弄乱，而是让身份特征在生成链路里失效。",
+            "doudouQuote": "0.272是特定模型和数据集下的人脸识别相似度，不等于现实世界里绝对匿名。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "FaceGuardian moves portrait defense into semantic space",
+            "headlineView": "The aim is not merely to break an edit, but to stop the generated face from reliably linking back to the original identity",
+            "headlineFull": "FaceGuardian moves portrait defense into semantic space; The aim is not merely to break an edit, but to stop the generated face from reliably linking back to the original identity",
+            "intro": "Researchers at MBZUAI and Khalifa University introduced FaceGuardian, which optimizes subtle perturbations in a high-level semantic manifold to weaken identity recognition after diffusion editing while preserving the source image's appearance. On one dataset, face-recognition similarity fell from 0.833 for unprotected images to 0.272 with FaceGuardian, better than the next method's 0.315. After compression it scored 0.361 versus FaceLock's 0.709. The method was tested on InstructPix2Pix and LEDITS++ and won best paper at the ECCV LifeGenIP workshop. The limitation is material: researchers had access to open-model components in a gray-box setting; closed models and video remain future work.",
+            "xiaziQuote": "Useful privacy defense does more than scramble pixels; it breaks identity features inside the generation path.",
+            "doudouQuote": "The 0.272 score belongs to specific models and datasets; it is not a guarantee of real-world anonymity.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "7a7bdae9-6623-501a-8937-78288571ef0e",
+            "topicId": "6acc4c1d-4dfc-5199-a486-e4516a205d8a",
+            "title": "IEEE SaTML 2026 Program: FaceGuardian",
+            "publisher": "IEEE SaTML",
+            "url": "https://satml.org/2026/program/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "16b11ed0-e447-5c80-bafa-146d41f57fad",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "getlead-verified-revenue-mix",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "PL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-getlead-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "一人公司",
+            "headlineFact": "Getlead累计9.31万美元，MRR仅2134美元",
+            "headlineView": "单人产品的收入质量要拆开看：一次性成交能推高现金，却不自动变成稳定订阅",
+            "headlineFull": "Getlead累计9.31万美元，MRR仅2134美元；单人产品的收入质量要拆开看：一次性成交能推高现金，却不自动变成稳定订阅",
+            "intro": "B2B获客与外联产品Getlead在TrustMRR页面显示：截至10月2日，Stripe验证累计收入93,081美元，月经常性收入2,134美元，50个活跃订阅；定价为每月19.90、99.90和199.90欧元。产品把4.2亿级联系人访问、线索抓取和外联整合到一处，面向自由职业者、代理商和SaaS团队。经营启示不是追一个更大的总收入截图，而是把终身套餐、一次性付款与订阅分层，持续盯住MRR、留存和交付成本；页面未披露利润、退款或流失率。",
+            "xiaziQuote": "单人公司先问收入能否重复，再问截图够不够大。",
+            "doudouQuote": "累计收入93,081美元不等于年经常性收入；利润也没有被公开验证。",
+            "footerTakeaway": "今日关键词：一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Getlead shows $93.1K total revenue but $2,134 MRR",
+            "headlineView": "Revenue quality must be separated: one-off sales can accelerate cash without automatically becoming durable subscriptions",
+            "headlineFull": "Getlead shows $93.1K total revenue but $2,134 MRR; Revenue quality must be separated: one-off sales can accelerate cash without automatically becoming durable subscriptions",
+            "intro": "B2B lead-generation and outreach product Getlead shows $93,081 in Stripe-verified all-time revenue, $2,134 MRR and 50 active subscriptions as of October 2 on TrustMRR. Its plans are priced at €19.90, €99.90 and €199.90 per month. The product combines access to a 420M-plus contact pool, lead scraping and outreach for freelancers, agencies and SaaS teams. The operator lesson is to segment lifetime or one-time payments from subscriptions and keep watching MRR, retention and delivery cost. The page does not disclose profit, refunds or churn.",
+            "xiaziQuote": "For a one-person company, ask whether revenue repeats before asking how large the screenshot looks.",
+            "doudouQuote": "$93,081 all-time revenue is not annual recurring revenue, and profit has not been publicly verified.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "16eed5f7-c3ec-5606-8326-57cc65ade804",
+            "topicId": "16b11ed0-e447-5c80-bafa-146d41f57fad",
+            "title": "Getlead - verified startup revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/getlead",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b557e1b3-c716-5a6c-9d1f-413ca87bfafb",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "solo-content-studio-paid-ai-writing",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-solo-content-studio-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用",
+            "headlineFact": "Solo Content Studio验证MRR达3733美元",
+            "headlineView": "把通用写作模型包装成教练的品牌语气工作台，用明确人群、持续工作流和高客单价完成收费",
+            "headlineFull": "Solo Content Studio验证MRR达3733美元；把通用写作模型包装成教练的品牌语气工作台，用明确人群、持续工作流和高客单价完成收费",
+            "intro": "Solo Content Studio是一款面向商业、营销和生活方式教练的AI写作应用，强调先学习用户的品牌语气，再生成邮件、社交帖、视频脚本和博客等内容。TrustMRR显示，截至10月2日其Stripe验证月经常性收入为3,733美元、累计收入24,526美元、67个活跃订阅；标准版每月99美元，专业版199美元，提供7天试用。成立时间为2026年4月。案例证明窄人群加完整内容流程可以支撑高于通用聊天工具的定价，但页面未披露模型成本、毛利、留存或获客成本。",
+            "xiaziQuote": "AI应用真正能收费的部分，往往不是生成按钮，而是被压缩成一个职业场景的完整工作流。",
+            "doudouQuote": "MRR和订阅数已验证，利润、留存与获客成本仍是空白。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI App",
+            "headlineFact": "Solo Content Studio verifies $3,733 MRR",
+            "headlineView": "A general writing model becomes a paid coach workflow through a narrow audience, brand voice, repeatable production and premium pricing",
+            "headlineFull": "Solo Content Studio verifies $3,733 MRR; A general writing model becomes a paid coach workflow through a narrow audience, brand voice, repeatable production and premium pricing",
+            "intro": "Solo Content Studio is an AI writing app for business, marketing and lifestyle coaches. It learns a user's brand voice before drafting newsletters, social posts, video scripts and blog content. TrustMRR shows $3,733 in Stripe-verified MRR, $24,526 all-time revenue and 67 active subscriptions as of October 2. Standard pricing is $99 a month, Pro is $199, with a seven-day trial; the product was founded in April 2026. The case shows how a narrow audience and an end-to-end content workflow can support pricing above a generic chat tool, but model costs, gross margin, retention and acquisition cost are undisclosed.",
+            "xiaziQuote": "What customers pay for is rarely the generate button; it is a complete workflow compressed into one professional context.",
+            "doudouQuote": "MRR and subscription count are verified; profit, retention and acquisition cost remain unknown.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI App."
+          }
+        },
+        "sources": [
+          {
+            "id": "0c4645b4-d96d-5291-a7bd-4754cdec954c",
+            "topicId": "b557e1b3-c716-5a6c-9d1f-413ca87bfafb",
+            "title": "Solo Content Studio - verified startup revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/solo-content-studio",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "545baf50-b6cb-5fb7-bff6-a95957727aeb",
+            "topicId": "b557e1b3-c716-5a6c-9d1f-413ca87bfafb",
+            "title": "Solo Content Studio",
+            "publisher": "Solo Content Studio",
+            "url": "https://solocontent.studio/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "d1dc0624-4cb4-5cb5-ab74-9cba499d2e58",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "muji-europe-local-payments-conversion",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "JP",
+          "GB",
+          "FR",
+          "NL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-muji-adyen-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "MUJI欧洲线上收入同比增长50%",
+            "headlineView": "跨境增长不是翻译一个网站，而是把平台、币种、本地支付和持续优化接成同一条结账链路",
+            "headlineFull": "MUJI欧洲线上收入同比增长50%；跨境增长不是翻译一个网站，而是把平台、币种、本地支付和持续优化接成同一条结账链路",
+            "intro": "BigCommerce案例称，MUJI欧洲电商通过可定制平台与支付集成扩展市场，配送覆盖在半年内从12个增至29个，涉及英国、欧盟、挪威和瑞士，并加入Adyen、PayPal等支付选择。案例披露2024年9月至2025年2月期间同比增长50%。可复制的方法是统一底层平台与数据接口，同时在前台保留各市场熟悉的付款与履约方式。数字来自供应商案例和特定观察窗口，不等于品牌整体利润或今天仍保持同速增长。",
+            "xiaziQuote": "跨境结账最重要的本地化，不是文案，而是顾客能不能用熟悉的方式顺利付完钱。",
+            "doudouQuote": "50%是供应商案例里的历史线上收入增幅，不是MUJI全球业务的利润增长。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "MUJI's European online revenue rises 50% year over year",
+            "headlineView": "Cross-border growth means connecting platform, currency, local payments and continuous optimization into one checkout system",
+            "headlineFull": "MUJI's European online revenue rises 50% year over year; Cross-border growth means connecting platform, currency, local payments and continuous optimization into one checkout system",
+            "intro": "A BigCommerce case says MUJI Europe used a customizable commerce platform and payment integrations to expand shipping from 12 to 29 markets in six months across the UK, EU, Norway and Switzerland, adding options including Adyen and PayPal. The case reports 50% year-over-year growth during the September 2024-February 2025 measurement window. The repeatable method is a unified platform and data foundation with locally familiar payment and fulfilment choices. These are vendor-reported historical ecommerce results, not proof of MUJI's company-wide profit or current growth rate.",
+            "xiaziQuote": "The most consequential checkout localization is not copy; it is letting customers pay smoothly in a familiar way.",
+            "doudouQuote": "The 50% figure is historical online revenue growth in a vendor case, not global profit growth for MUJI.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "3ea2a8ab-4511-5033-bb89-d37608a2eba4",
+            "topicId": "d1dc0624-4cb4-5cb5-ab74-9cba499d2e58",
+            "title": "MUJI updates and future-proofs its ecommerce strategy",
+            "publisher": "Global IT Research",
+            "url": "https://globalitresearch.com/whitepaper/muji-updates-and-future-proofs-their-ecommerce-strategy-with-bigcommerce/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0e87f96f-08de-5c67-9530-0b769b42a16b",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "kyiv-bridges-energy-black-sea-truce",
+        "rank": 6,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "UA",
+          "RU",
+          "US",
+          "IN",
+          "TR",
+          "EG"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-kyiv-bridges-truce-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际",
+            "headlineFact": "空袭迫使基辅三座第聂伯河公路桥关闭",
+            "headlineView": "城市交通、能源设施与黑海粮运被卷入同一条基础设施战线，局部停火方案仍未成为协议",
+            "headlineFull": "空袭迫使基辅三座第聂伯河公路桥关闭；城市交通、能源设施与黑海粮运被卷入同一条基础设施战线，局部停火方案仍未成为协议",
+            "intro": "美联社10月2日报道，俄方空袭迫使基辅六座公路桥中的三座部分或全部关闭，引发跨河交通拥堵。乌克兰外长称，美国、印度、土耳其和埃及分别提出局部停火方案，可能覆盖双方对能源设施的攻击以及黑海粮食等货运船只；乌方表示可在能源与黑海两个方向同时停火，但俄方仍主张先达成全面和平协议。当前可确认的是提案与乌方条件，不是双方已经同意停火。",
+            "xiaziQuote": "当桥梁、能源和粮运同时成为目标，基础设施就是平民生活与谈判筹码的交界面。",
+            "doudouQuote": "多国提出方案不等于协议成立；执行日期、监督机制和俄方接受都未确认。",
+            "footerTakeaway": "今日关键词：国际。"
+          },
+          "en-US": {
+            "categoryLabel": "International",
+            "headlineFact": "Strikes close three Dnipro road bridges in Kyiv",
+            "headlineView": "Urban mobility, energy systems and Black Sea grain shipping now sit on one infrastructure front, while limited-truce proposals remain unsigned",
+            "headlineFull": "Strikes close three Dnipro road bridges in Kyiv; Urban mobility, energy systems and Black Sea grain shipping now sit on one infrastructure front, while limited-truce proposals remain unsigned",
+            "intro": "The Associated Press reported on October 2 that Russian strikes forced full or partial closures of three of Kyiv's six road bridges, producing cross-river gridlock. Ukraine's foreign minister said the United States, India, Türkiye and Egypt had separately proposed a limited ceasefire covering attacks on energy infrastructure and Black Sea cargo shipping, including grain exports. Kyiv said it could accept energy and Black Sea pauses together, while Moscow continued to argue for a comprehensive peace agreement first. What is confirmed is a set of proposals and Ukraine's conditions, not an agreed ceasefire.",
+            "xiaziQuote": "When bridges, energy and grain routes become targets together, infrastructure is where civilian life meets negotiating leverage.",
+            "doudouQuote": "Proposals from several countries are not an agreement; timing, monitoring and Russian acceptance remain unconfirmed.",
+            "footerTakeaway": "Keyword: International."
+          }
+        },
+        "sources": [
+          {
+            "id": "79b4e30b-6074-57ee-9186-cfc91eaa3c93",
+            "topicId": "0e87f96f-08de-5c67-9530-0b769b42a16b",
+            "title": "Ukraine calls for tighter sanctions as Russian attacks spark Kyiv gridlock",
+            "publisher": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/2/ukraine-calls-for-tighter-sanctions-as-russian-attacks-spark-kyiv-gridlock",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2c2292b4-c414-5d44-8cb8-2acf77487a19",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "unhcr-refugee-education-2026",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-unhcr-education-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "社会",
+            "headlineFact": "全球580万学龄难民儿童仍未入学",
+            "headlineView": "小学覆盖尚可，中学与大学出现断崖，援助削减可能把已取得的教育进展推回去",
+            "headlineFull": "全球580万学龄难民儿童仍未入学；小学覆盖尚可，中学与大学出现断崖，援助削减可能把已取得的教育进展推回去",
+            "intro": "联合国难民署《2026难民教育报告》估计，2025年全球1310万学龄难民儿童中约580万、即44%没有上学。难民小学毛入学率为65%，中学降至32%，高等教育为11%；在低收入和受冲突影响国家，高等教育入学率只有2%。报告警告，人道与发展援助削减会进一步挤压教师、校舍和国家教育体系支持。这里使用的是跨国估计与毛入学率，不能直接等同于每个东道国的净入学率或教育质量。",
+            "xiaziQuote": "真正决定难民能否自立的，不只是让孩子进小学，而是让学习路径能穿过中学和大学。",
+            "doudouQuote": "580万是全球估计；不同国家的数据质量、年龄结构和入学定义并不完全一致。",
+            "footerTakeaway": "今日关键词：社会。"
+          },
+          "en-US": {
+            "categoryLabel": "Society",
+            "headlineFact": "5.8 million school-age refugee children remain out of school",
+            "headlineView": "Primary access holds up better, but secondary and tertiary pathways collapse as aid cuts threaten hard-won progress",
+            "headlineFull": "5.8 million school-age refugee children remain out of school; Primary access holds up better, but secondary and tertiary pathways collapse as aid cuts threaten hard-won progress",
+            "intro": "UNHCR's 2026 Refugee Education Report estimates that 5.8 million of the world's 13.1 million school-age refugee children, or 44%, were out of school in 2025. Gross enrolment was 65% at primary level, 32% at secondary and 11% in tertiary education; in low-income and conflict-affected countries, tertiary enrolment was only 2%. The report warns that cuts to humanitarian and development aid could further constrain teachers, facilities and support to national education systems. These are cross-country estimates and gross rates, not direct measures of net attendance or education quality in every host country.",
+            "xiaziQuote": "Refugee self-reliance depends not only on entering primary school, but on a pathway that survives through secondary and university.",
+            "doudouQuote": "The 5.8 million figure is a global estimate; data quality, age structures and enrolment definitions vary by country.",
+            "footerTakeaway": "Keyword: Society."
+          }
+        },
+        "sources": [
+          {
+            "id": "3381241f-6d0a-5618-add3-5a85071af953",
+            "topicId": "2c2292b4-c414-5d44-8cb8-2acf77487a19",
+            "title": "5.8 million refugee children still out of school",
+            "publisher": "UNHCR Canada",
+            "url": "https://www.unhcr.ca/news/unhcr-5-8-million-refugee-children-still-out-of-school-as-funding-cuts-threaten-hard-won-progress/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "1f3aec85-b767-54e5-aea0-39eb0181bc7c",
+            "topicId": "2c2292b4-c414-5d44-8cb8-2acf77487a19",
+            "title": "UN Geneva Press Briefing, 2 October 2026",
+            "publisher": "UN Geneva",
+            "url": "https://www.unognewsroom.org/teleprompter/en/3283/un-geneva-press-briefing-02-october2026/9734",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "1b33a29f-ef61-549a-9c70-60223e76c4cf",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "japan-voice-publicity-right-ai-clone",
+        "rank": 8,
+        "category": "technology",
+        "region": "Asia",
+        "countryCodes": [
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-japan-ai-voice-rights-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科技与法律",
+            "headlineFact": "日本法院首次确认声音可受公开权保护",
+            "headlineView": "AI模仿的不是录音文件也可能侵权，关键在于是否利用可识别声音的商业吸引力",
+            "headlineFull": "日本法院首次确认声音可受公开权保护；AI模仿的不是录音文件也可能侵权，关键在于是否利用可识别声音的商业吸引力",
+            "intro": "东京地方法院在声优津田健次郎起诉TikTok相关案件中认定，人的声音与肖像一样可象征个人人格；若未经授权、明显利用其商业吸引力，可能侵犯公开权。这是日本首次在生成式AI声音案件中确认这一原则。涉案账号曾发布180多段疑似模仿其声音的视频，但法院驳回删除请求，因为账号与视频已经关闭或删除。判决确立了保护逻辑，却没有带来本案中的强制下架救济，也不等于日本已经建立完整的AI声音专门法。",
+            "xiaziQuote": "生成式AI把人格权从脸扩展到声音，产品合规必须在采集、训练和发布三个环节都留证。",
+            "doudouQuote": "法院承认保护原则，但本案删除请求被驳回；不要把它写成全面胜诉或新立法。",
+            "footerTakeaway": "今日关键词：科技与法律。"
+          },
+          "en-US": {
+            "categoryLabel": "Technology & Law",
+            "headlineFact": "A Japanese court recognizes voice as protectable publicity",
+            "headlineView": "An AI imitation may implicate rights even without copying an audio file when it exploits the commercial appeal of an identifiable voice",
+            "headlineFull": "A Japanese court recognizes voice as protectable publicity; An AI imitation may implicate rights even without copying an audio file when it exploits the commercial appeal of an identifiable voice",
+            "intro": "In voice actor Kenjiro Tsuda's case involving TikTok, Tokyo District Court said a human voice can symbolize personality like a portrait and that unauthorized use clearly exploiting its commercial appeal may infringe publicity rights. It was Japan's first generative-AI voice case to recognize that principle. The account had posted more than 180 videos allegedly imitating Tsuda's voice, but the court dismissed his deletion request because the account and videos were already gone. The judgment establishes a protection theory without granting a takedown remedy in this case, and it does not amount to a complete new AI-voice statute.",
+            "xiaziQuote": "Generative AI extends personality rights from faces to voices; products need consent evidence across collection, training and publication.",
+            "doudouQuote": "The court recognized a principle but dismissed the deletion request; this was neither a total victory nor new legislation.",
+            "footerTakeaway": "Keyword: Technology & Law."
+          }
+        },
+        "sources": [
+          {
+            "id": "f55a4de4-925a-5892-9fea-a7dcbe2132d7",
+            "topicId": "1b33a29f-ef61-549a-9c70-60223e76c4cf",
+            "title": "Japan Court Recognizes Publicity Rights in Voice for 1st Time",
+            "publisher": "Nippon.com / Jiji Press",
+            "url": "https://www.nippon.com/en/news/yjj2026093000118/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "d9cb8b71-ed79-52aa-b864-3fdb09e293f0",
+            "topicId": "1b33a29f-ef61-549a-9c70-60223e76c4cf",
+            "title": "While calling voice a protected right, court dismisses voice actor's AI case",
+            "publisher": "The Japan Times",
+            "url": "https://www.japantimes.co.jp/news/2026/09/30/japan/crime-legal/voice-actor-lawsuit-ai-tiktok/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "c39cae8b-e5c5-5734-8fdd-b6e6b686704d",
+        "issueId": "6fbc3a1c-6196-5da5-9db3-41fafdb107fc",
+        "slug": "elephant-rumble-chorus-convergence",
+        "rank": 9,
+        "category": "science",
+        "region": "Africa",
+        "countryCodes": [
+          "KE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-elephant-rumble-chorus-20261003",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "大象低频合唱会在互动中趋于相似",
+            "headlineView": "象群并非只是同时发声，它们可能通过声学趋同共享情境并协调下一步行动",
+            "headlineFull": "大象低频合唱会在互动中趋于相似；象群并非只是同时发声，它们可能通过声学趋同共享情境并协调下一步行动",
+            "intro": "《Scientific Reports》研究分析了肯尼亚安博塞利国家公园84头野生非洲草原象、39个家族的902段低频隆隆声录音，素材横跨1986至2022年。约60%的低频声以两头或更多大象重叠的合唱出现。机器学习可从声学特征预测六类社会情境；在联系、问候和节律性协调等连续交流中，声音会出现趋同。结果支持合唱承担群体信号功能，但研究基于观察性录音与统计模型，没有用回放实验直接证明大象如何理解每一种变化。",
+            "xiaziQuote": "群体沟通不只是轮流说话，有时同步和趋同本身就是组织行动的语言。",
+            "doudouQuote": "模型识别到情境与趋同，不等于已经翻译出大象的句子或因果意图。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "Elephant rumble choruses converge during social exchange",
+            "headlineView": "Elephants do more than vocalize together: acoustic convergence may share context and coordinate what the group does next",
+            "headlineFull": "Elephant rumble choruses converge during social exchange; Elephants do more than vocalize together: acoustic convergence may share context and coordinate what the group does next",
+            "intro": "A Scientific Reports study analyzed 902 low-frequency rumble recordings from 84 wild African savannah elephants across 39 families in Kenya's Amboseli National Park, collected between 1986 and 2022. About 60% of rumbles occurred in overlapping choruses involving two or more elephants. Machine learning could predict six social contexts from acoustic features, and successive exchanges converged during contact, greeting and cadenced coordination. The findings support a group-signaling function, but the work relies on observational recordings and statistical models; it did not use playback experiments to prove how elephants interpret every change.",
+            "xiaziQuote": "Group communication is not only taking turns; sometimes synchrony and convergence are themselves a language for organizing action.",
+            "doudouQuote": "Context prediction and convergence do not mean researchers have translated elephant sentences or proven causal intent.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "bd08fa95-96e2-5e83-b5ff-d32eea9ddbeb",
+            "topicId": "c39cae8b-e5c5-5734-8fdd-b6e6b686704d",
+            "title": "Social context information and acoustic convergence in elephant vocal choruses",
+            "publisher": "Scientific Reports",
+            "url": "https://www.nature.com/articles/s41598-026-68525-3",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "3c7d86ea-f334-5f85-bae3-501b0093ed60",
+            "topicId": "c39cae8b-e5c5-5734-8fdd-b6e6b686704d",
+            "title": "Zoology: Elephant rumbles get herds on the same wavelength",
+            "publisher": "Nature Portfolio",
+            "url": "https://www.natureasia.com/en/info/press-releases/detail/9451",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261003_156f3f56224aa13aee6e2e4c"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-03",
+    "releaseId": "rel_20261003_156f3f56224aa13aee6e2e4c",
+    "assetBatchId": "asset_prod_20261003_156f3f56224aa13aee6e2e4c",
+    "posters": [
+      {
+        "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+        "locale": "zh",
+        "contentHash": "412c9a14fd700412adacdcee59d24c60a7d550f890f753ed9ea1f8baed2ab0ec",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/global-radar-privacy-revenue-commerce-rights-science.png"
+      },
+      {
+        "topicId": "88d4e109-c3d3-54a1-8e44-121ae0f206de",
+        "locale": "en",
+        "contentHash": "0451c0e57e5da90830abdefcfe77d538b7717ea8845a11e98c20c82319e0e52e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/global-radar-privacy-revenue-commerce-rights-science.png"
+      },
+      {
+        "topicId": "6acc4c1d-4dfc-5199-a486-e4516a205d8a",
+        "locale": "zh",
+        "contentHash": "abdbb2c928dace69677fbf4ac294fe255fb77974e96eacdeb2c12ad135087810",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/faceguardian-semantic-defense-ai-image-editing.png"
+      },
+      {
+        "topicId": "6acc4c1d-4dfc-5199-a486-e4516a205d8a",
+        "locale": "en",
+        "contentHash": "a999fee9d38a943f43e144ce97f9a0f6e23c881565fe50ab4e29048b6b090492",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/faceguardian-semantic-defense-ai-image-editing.png"
+      },
+      {
+        "topicId": "16b11ed0-e447-5c80-bafa-146d41f57fad",
+        "locale": "zh",
+        "contentHash": "02c2ff6e96d975787c2bdcd3bb4ec316059382137f88630d6acf1ebb6149aad1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/getlead-verified-revenue-mix.png"
+      },
+      {
+        "topicId": "16b11ed0-e447-5c80-bafa-146d41f57fad",
+        "locale": "en",
+        "contentHash": "94e12dd21dabc27d19b61b387dd52666164fd1f4364a2de50e6f59be0c594ecb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/getlead-verified-revenue-mix.png"
+      },
+      {
+        "topicId": "b557e1b3-c716-5a6c-9d1f-413ca87bfafb",
+        "locale": "zh",
+        "contentHash": "c28f8acc495380e618605cac8485d252bbfae2b38a39693baecc44b21b06a989",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/solo-content-studio-paid-ai-writing.png"
+      },
+      {
+        "topicId": "b557e1b3-c716-5a6c-9d1f-413ca87bfafb",
+        "locale": "en",
+        "contentHash": "469c20f8d54dec709517efab9492151c7d06f5a0e2f283c37b8fdc949bb39730",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/solo-content-studio-paid-ai-writing.png"
+      },
+      {
+        "topicId": "d1dc0624-4cb4-5cb5-ab74-9cba499d2e58",
+        "locale": "zh",
+        "contentHash": "d831257953ee83b5df930d24a5b19d2564f60eac9b54ba9f919364a8d87950a5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/muji-europe-local-payments-conversion.png"
+      },
+      {
+        "topicId": "d1dc0624-4cb4-5cb5-ab74-9cba499d2e58",
+        "locale": "en",
+        "contentHash": "e1d2c294df8306719eb20756243c4259206781cea82e59c2ea56772e904e85e0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/muji-europe-local-payments-conversion.png"
+      },
+      {
+        "topicId": "0e87f96f-08de-5c67-9530-0b769b42a16b",
+        "locale": "zh",
+        "contentHash": "be540463a71f4ded60671f34c22bcb5039549ec98c0f9a7eb793520028cea4da",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/kyiv-bridges-energy-black-sea-truce.png"
+      },
+      {
+        "topicId": "0e87f96f-08de-5c67-9530-0b769b42a16b",
+        "locale": "en",
+        "contentHash": "4a7892477f7723df69d1bf3aeaefe08d26b3c805c90f23c06154f1712f9b7374",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/kyiv-bridges-energy-black-sea-truce.png"
+      },
+      {
+        "topicId": "2c2292b4-c414-5d44-8cb8-2acf77487a19",
+        "locale": "zh",
+        "contentHash": "300698533524ca2120e58a75ebbf476c1a5ad2ae6ab3d086d156a9c208ab7e75",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/unhcr-refugee-education-2026.png"
+      },
+      {
+        "topicId": "2c2292b4-c414-5d44-8cb8-2acf77487a19",
+        "locale": "en",
+        "contentHash": "9fe21e31d0543b01b398665369df2fc9630964060a2d9a941754260db0a1c23d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/unhcr-refugee-education-2026.png"
+      },
+      {
+        "topicId": "1b33a29f-ef61-549a-9c70-60223e76c4cf",
+        "locale": "zh",
+        "contentHash": "79581515e7fe0105edd39e423695adc545e32bcacafcfdd23905935d20fc3f71",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/japan-voice-publicity-right-ai-clone.png"
+      },
+      {
+        "topicId": "1b33a29f-ef61-549a-9c70-60223e76c4cf",
+        "locale": "en",
+        "contentHash": "b265e2eca57fc40aff4129113d7f3afcc0cf7da43af83a3fab459b595676c3f6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/japan-voice-publicity-right-ai-clone.png"
+      },
+      {
+        "topicId": "c39cae8b-e5c5-5734-8fdd-b6e6b686704d",
+        "locale": "zh",
+        "contentHash": "9476064e02672931fbfe0b34a980aca20358594cf049eda9687a666b9f5b9e98",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/zh/elephant-rumble-chorus-convergence.png"
+      },
+      {
+        "topicId": "c39cae8b-e5c5-5734-8fdd-b6e6b686704d",
+        "locale": "en",
+        "contentHash": "564569d94eeadb4c3e36f03c94aaf1abfa1953a1eb73f943f1e3e59987bcd5ee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261003_156f3f56224aa13aee6e2e4c/en/elephant-rumble-chorus-convergence.png"
+      }
+    ]
+  }
+}
