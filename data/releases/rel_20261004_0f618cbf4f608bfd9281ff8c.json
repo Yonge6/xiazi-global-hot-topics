@@ -1,0 +1,729 @@
+{
+  "issue": {
+    "id": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+    "slug": "2026-10-04",
+    "style": {
+      "name": "Shonen",
+      "zhName": "少年漫画风格",
+      "description": "Style Atlas daily pick: Shonen. Use an original premium shonen-inspired editorial visual language without imitating any named artist, studio, series or existing character: dynamic perspective, cinematic lighting, decisive action, expressive but mature character acting, clear speed and impact lines, bold cel shading, and story-first staging. Keep the palette energetic but controlled, with strong contrast and calm low-texture text zones. Every poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous spacing and clear hierarchy. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage action scene, using sweeping paths, staggered ribbons and foreground-background movement rather than a rigid grid, equal cards, table, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm."
+    },
+    "issueDate": "2026-10-04",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-04T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-03T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+    "topics": [
+      {
+        "id": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "global-radar-ai-revenue-commerce-crisis-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月4日全球经营雷达",
+            "headlineView": "AI人才、单人收入、付费应用、跨境零售、航运风险、住房压力、疫情试验与气候机制进入同一张证据地图",
+            "headlineFull": "10月4日全球经营雷达；AI人才、单人收入、付费应用、跨境零售、航运风险、住房压力、疫情试验与气候机制进入同一张证据地图",
+            "intro": "1. Anthropic承诺投入1亿美元，计划在2027年底前训练1万名前沿部署工程师，把企业AI从试验带到真实生产系统。\n2. 一款单人经营的高尔夫击球轨迹App近30天验证收入7427美元、MRR 5374美元，拥有995个活跃订阅。\n3. CoupleAI用AI分析对话并给出回复建议，近30天验证收入4081美元、MRR 3715美元，拥有191个活跃订阅。\n4. 西班牙火腿电商IberGour近30天验证收入约8.2万美元，并以覆盖欧盟与英国的配送和无条件退货降低跨境购买风险。\n5. 英国海上贸易行动办公室称，两艘油轮在霍尔木兹海峡附近分别遭不明弹体击中，其中一艘报告船员安全且无环境损害。\n6. 西班牙多座城市数万人上街要求保护租客，此前议会否决住房紧急措施，政府称26%的租户平均将40%收入用于房租与水电。\n7. 刚果已有超过250人参加obeldesivir暴露后预防试验，目标接近1000人，试图阻断尚无获批疫苗或疗法的本迪布焦型埃博拉。\n8. 新研究发现，土地利用变化造成的全球平均温度响应与行星反照率变化近似线性，而主导局地温度的非辐射效应在全球尺度相互抵消。",
+            "xiaziQuote": "今天的共同信号是：把能力、收入和风险放进可验证的系统，变化才可能持续。",
+            "doudouQuote": "训练目标、平台验证收入、新闻现场和模型结论要分层阅读，别让一个数字替代全部事实。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 4 Global Operator Radar",
+            "headlineView": "AI talent, solo revenue, paid apps, cross-border retail, shipping risk, housing pressure, outbreak trials and climate mechanisms enter one evidence map",
+            "headlineFull": "October 4 Global Operator Radar; AI talent, solo revenue, paid apps, cross-border retail, shipping risk, housing pressure, outbreak trials and climate mechanisms enter one evidence map",
+            "intro": "1. Anthropic is committing $100 million to train 10,000 Frontier Deployed Engineers by the end of 2027, aiming to move enterprise AI from pilots into production systems.\n2. A one-person golf shot-tracer app verifies $7,427 in 30-day revenue, $5,374 MRR and 995 active subscriptions.\n3. CoupleAI uses AI to analyze conversations and suggest replies, verifying $4,081 in 30-day revenue, $3,715 MRR and 191 active subscriptions.\n4. Spanish ham retailer IberGour verifies about $82,000 in 30-day revenue while using EU-and-UK delivery plus no-questions returns to reduce cross-border purchase risk.\n5. UK Maritime Trade Operations says two tankers were separately struck by unidentified projectiles near the Strait of Hormuz; one reported its crew safe and no environmental damage.\n6. Tens of thousands marched across Spain for renter protection after parliament rejected emergency housing measures; the government says 26% of renters spend an average 40% of income on rent and utilities.\n7. More than 250 people have joined an obeldesivir post-exposure trial in Congo, targeting nearly 1,000 participants against Bundibugyo Ebola, which has no approved vaccine or treatment.\n8. A new study finds the global mean temperature response to land-use change scales nearly linearly with planetary-albedo shifts, while non-radiative local effects cancel at global scale.",
+            "xiaziQuote": "Today's shared signal: capability, revenue and risk become durable only when they enter verifiable systems.",
+            "doudouQuote": "Separate training targets, platform-verified revenue, reported events and model conclusions; no single number explains the whole story.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "f8c31c4f-5fb4-5703-a631-7e0d4a0610e7",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/news/claude-frontier-academy",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "66aa9bca-e8dc-5456-9cb6-e2212aea1bf8",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "Hidden Business - verified golf shot-tracer app revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/startup-f5208a0753ad",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "cde89f7f-9be0-5c28-ae9b-5a401a23d4ed",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "CoupleAI - verified app revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/coupleai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "036204a5-6d18-5f3b-bc59-eb2d42894638",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "E-commerce startups - verified revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/category/ecommerce",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d659aeda-0040-5c86-bfdf-68a8b9731ad0",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "UKMTO maritime incident notices",
+            "publisher": "UK Maritime Trade Operations",
+            "url": "https://www.ukmto.org/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d5331ac3-153d-5b37-b832-14923de8ae2b",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "What to know about Spain's housing protests",
+            "publisher": "ABC News / Associated Press",
+            "url": "https://abcnews.com/Business/wireStory/spains-housing-protests-sparked-eviction-87-year-maricarmen-136971976",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "e911e3b6-822e-505e-b90f-836adf2db2fc",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "Inside the study for a remedy to fight Congo's Ebola outbreak",
+            "publisher": "ABC News / Associated Press",
+            "url": "https://abcnews.com/amp/International/wireStory/inside-study-remedy-fight-congos-deadliest-ebola-outbreak-136967362",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "94b4c23e-ae18-5b3b-a69a-eede32055968",
+            "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+            "title": "Global climate impact of land-surface change driven by radiative effects",
+            "publisher": "Nature Communications",
+            "url": "https://www.nature.com/articles/s41467-026-77834-0",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "f1f9b59a-04dc-55d0-ae12-40410be83b06",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "anthropic-frontier-academy-enterprise-ai-talent",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-anthropic-frontier-academy-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Anthropic投入1亿美元训练1万名AI部署工程师",
+            "headlineView": "企业AI的稀缺资源正从模型访问转向能把需求、安全审查和生产交付串起来的人",
+            "headlineFull": "Anthropic投入1亿美元训练1万名AI部署工程师；企业AI的稀缺资源正从模型访问转向能把需求、安全审查和生产交付串起来的人",
+            "intro": "Anthropic 10月2日启动Claude Frontier Academy，承诺投入1亿美元，并计划在2027年底前训练1万名前沿部署工程师。首批来自埃森哲、贝恩、凯捷、澳大利亚联邦银行、德勤、麦肯锡、摩根士丹利和诺和诺德等机构。工程师先完成多日线下模拟部署与考核，再进入12周驻留期，在本机构领导一个真实Claude项目。参与者由组织提名，首批在旧金山、纽约和伦敦运行。这里的关键变化不是又一张证书，而是把用例选择、安全审查、上线和交接变成同一套可考核能力；1万名是目标，不是已经完成的人数。",
+            "xiaziQuote": "模型越来越强以后，真正稀缺的是把它安全接进业务结果的人。",
+            "doudouQuote": "1亿美元是承诺投入，1万人是2027年底目标，不能写成已经培训完成。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Anthropic commits $100M to train 10,000 AI deployment engineers",
+            "headlineView": "The scarce enterprise-AI resource is shifting from model access to people who can connect requirements, security review and production delivery",
+            "headlineFull": "Anthropic commits $100M to train 10,000 AI deployment engineers; The scarce enterprise-AI resource is shifting from model access to people who can connect requirements, security review and production delivery",
+            "intro": "Anthropic launched Claude Frontier Academy on October 2 with a $100 million commitment and a goal of training 10,000 Frontier Deployed Engineers by the end of 2027. Initial cohorts include people from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk. Engineers complete a multi-day simulated deployment and practical assessment, then enter a 12-week residency leading a real Claude project at their organization. Participants are nominated by employers, with early cohorts in San Francisco, New York and London. The shift is not another certificate: use-case selection, security review, shipping and handover become one assessed discipline. Ten thousand is a target, not a completed count.",
+            "xiaziQuote": "As models improve, the scarce skill is connecting them safely to business outcomes.",
+            "doudouQuote": "$100 million is a commitment and 10,000 is an end-2027 goal, not a completed training count.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "e2ee035e-dfac-5aa1-ba36-9fe51e9f8273",
+            "topicId": "f1f9b59a-04dc-55d0-ae12-40410be83b06",
+            "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+            "publisher": "Anthropic",
+            "url": "https://www.anthropic.com/news/claude-frontier-academy",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c70c0f28-c97e-50a3-af1f-a2c337966f9f",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "solo-golf-shot-tracer-verified-subscription-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-solo-golf-shot-tracer-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "单人高尔夫轨迹App近30天收入7427美元",
+            "headlineView": "把专业电视转播效果压缩成手机上一键处理，用单一人群、端侧计算和订阅做出轻交付业务",
+            "headlineFull": "单人高尔夫轨迹App近30天收入7427美元；把专业电视转播效果压缩成手机上一键处理，用单一人群、端侧计算和订阅做出轻交付业务",
+            "intro": "TrustMRR显示，一款由Emmett Deen单人经营、面向高尔夫球手的击球轨迹App，近30天RevenueCat验证收入7427美元、MRR 5374美元，拥有995个活跃订阅。产品把手机视频转成带专业击球轨迹的短片，Flutter开发，并强调100%端侧处理。它卖给希望分享挥杆和击球结果的高尔夫球手，收入由移动订阅驱动；端侧处理减少服务器推理成本，也缩短交付链路。平台未披露定价、获客渠道、退款、留存或利润，因此不能从收入直接推断高利润。",
+            "xiaziQuote": "一人公司最有力的杠杆，是把一个专业效果压缩成无需人工交付的一次点击。",
+            "doudouQuote": "收入、MRR和订阅数已验证；利润、留存和获客成本仍未公开。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo golf shot-tracer app earns $7,427 in 30 days",
+            "headlineView": "A broadcast-style effect becomes a lean business through one audience, one-tap delivery, on-device processing and subscriptions",
+            "headlineFull": "Solo golf shot-tracer app earns $7,427 in 30 days; A broadcast-style effect becomes a lean business through one audience, one-tap delivery, on-device processing and subscriptions",
+            "intro": "TrustMRR shows a one-person golf shot-tracer app run by Emmett Deen with $7,427 in RevenueCat-verified 30-day revenue, $5,374 MRR and 995 active subscriptions. It turns phone video into clips with professional-looking ball-flight traces, is built with Flutter and says processing is 100% on device. The customer is a golfer who wants to share a clearer swing or shot result, and mobile subscriptions drive revenue. On-device processing can reduce inference costs and simplify delivery. Pricing, acquisition channels, refunds, retention and profit are undisclosed, so verified revenue does not prove high margins.",
+            "xiaziQuote": "A strong solo-company lever compresses a professional effect into one click with no manual delivery.",
+            "doudouQuote": "Revenue, MRR and subscriptions are verified; profit, retention and acquisition cost are not public.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "fff52bc9-3f33-5eb4-84af-d2b78112153b",
+            "topicId": "c70c0f28-c97e-50a3-af1f-a2c337966f9f",
+            "title": "Hidden Business - verified golf shot-tracer app revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/startup-f5208a0753ad",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "93a3e748-ed45-5a36-bbf1-daa9d69152cb",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "coupleai-verified-paid-conversation-coaching",
+        "rank": 4,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "ES"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-coupleai-revenue-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "CoupleAI验证MRR达3715美元",
+            "headlineView": "它把AI落在对话分析与回复建议上，用拉美用户基础、网红获客和移动订阅完成付费转化",
+            "headlineFull": "CoupleAI验证MRR达3715美元；它把AI落在对话分析与回复建议上，用拉美用户基础、网红获客和移动订阅完成付费转化",
+            "intro": "CoupleAI是一款面向消费者的移动与网页应用，用AI分析聊天内容、给出回复建议并帮助改善互动。TrustMRR截至10月3日显示，它近30天RevenueCat验证收入4081美元、MRR 3715美元、191个活跃订阅；周订阅8.99美元、月订阅7.99美元、年订阅39.99美元。创始人称产品在拉美已有30万注册用户，主要获客渠道为网红，但注册量与健康利润率属于创始人陈述，未被收入接口单独验证。案例说明情绪场景、即时建议和移动支付可以形成收费闭环；模型成本、留存、退款和获客成本仍未披露。",
+            "xiaziQuote": "AI应用能收费，不只因为会生成文字，而是它出现在用户最想立刻得到帮助的时刻。",
+            "doudouQuote": "4081美元近30天收入与3715美元MRR已验证；30万注册和健康利润率来自创始人陈述。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI App",
+            "headlineFact": "CoupleAI verifies $3,715 MRR",
+            "headlineView": "Conversation analysis and reply suggestions turn into paid conversion through a Latin American user base, influencer acquisition and mobile subscriptions",
+            "headlineFull": "CoupleAI verifies $3,715 MRR; Conversation analysis and reply suggestions turn into paid conversion through a Latin American user base, influencer acquisition and mobile subscriptions",
+            "intro": "CoupleAI is a consumer mobile and web app that uses AI to analyze conversations, suggest replies and improve interactions. TrustMRR shows $4,081 in RevenueCat-verified 30-day revenue, $3,715 MRR and 191 active subscriptions as of October 3. Pricing is $8.99 weekly, $7.99 monthly or $39.99 annually. The founder says it has 300,000 registered users, a strong Latin American base and influencer-led acquisition, but the user count and healthy-margin claim are founder-provided rather than independently verified by the payment connection. The case shows how an emotional use case, immediate advice and mobile billing can close the payment loop; model cost, retention, refunds and CAC remain undisclosed.",
+            "xiaziQuote": "An AI app earns money not only by generating text, but by appearing at the moment a user urgently wants help.",
+            "doudouQuote": "$4,081 in 30-day revenue and $3,715 MRR are verified; 300,000 users and healthy margins are founder claims.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI App."
+          }
+        },
+        "sources": [
+          {
+            "id": "83ff42df-716d-5e39-b8a2-718b6a0e06cb",
+            "topicId": "93a3e748-ed45-5a36-bbf1-daa9d69152cb",
+            "title": "CoupleAI - verified app revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/coupleai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "eaa58edd-fa78-5b92-bd23-a2d73fc2207c",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "ibergour-cross-border-ham-revenue-returns",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "ES",
+          "GB",
+          "FR",
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-ibergour-cross-border-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "IberGour近30天验证收入约8.2万美元",
+            "headlineView": "高客单食品跨境靠的不是无限市场，而是明确可达国家、快速履约、税费说明与敢于承担退货成本",
+            "headlineFull": "IberGour近30天验证收入约8.2万美元；高客单食品跨境靠的不是无限市场，而是明确可达国家、快速履约、税费说明与敢于承担退货成本",
+            "intro": "TrustMRR电商品类页显示，西班牙火腿电商IberGour近30天验证收入约8.2万美元、累计约87.6万美元；其官网称自2005年起服务欧盟与英国超过3万名客户，并列出可配送的28个欧洲国家和地区。产品包含整腿、去骨与切片火腿，支持信用卡、PayPal和银行转账，多数目的地可选1至2个工作日加急。赚钱机制是把高客单西班牙产地商品卖到欧洲多语种市场，并用六个月无条件退货、免费取件和清晰税费降低信任摩擦。风险是易腐食品、冷链与边境规则、退货运费和平台验证收入的短期波动；利润率未披露。",
+            "xiaziQuote": "跨境高客单商品的转化，往往来自把顾客最怕的退货、税费和送达不确定性先替他承担。",
+            "doudouQuote": "约8.2万美元是平台近30天验证收入，不是利润；跨境退货承诺也会形成真实成本。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "IberGour verifies about $82K in 30-day revenue",
+            "headlineView": "High-ticket food commerce scales through explicit destinations, fast fulfilment, tax clarity and a willingness to absorb return risk—not unlimited market coverage",
+            "headlineFull": "IberGour verifies about $82K in 30-day revenue; High-ticket food commerce scales through explicit destinations, fast fulfilment, tax clarity and a willingness to absorb return risk—not unlimited market coverage",
+            "intro": "TrustMRR's ecommerce category shows roughly $82,000 in verified 30-day revenue and about $876,000 total for Spanish ham retailer IberGour. Its site says it has served more than 30,000 customers across the EU and UK since 2005 and lists 28 European countries and territories it can reach. Products include whole, boneless and sliced ham, with card, PayPal and bank-transfer payment; one- or two-business-day express service is available for many destinations. The model sells high-ticket Spanish-origin food across localized European storefronts while reducing trust friction through a six-month no-questions guarantee, free collection and clear tax guidance. Risks include perishability, border rules, return freight and short-window revenue volatility; profit margin is undisclosed.",
+            "xiaziQuote": "High-ticket cross-border conversion often comes from absorbing the customer's fear of returns, tax and delivery uncertainty.",
+            "doudouQuote": "About $82,000 is verified 30-day revenue, not profit; a cross-border return promise creates real cost.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "b625731a-c624-5c1d-8be1-8251502f92e2",
+            "topicId": "eaa58edd-fa78-5b92-bd23-a2d73fc2207c",
+            "title": "E-commerce startups - verified revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/category/ecommerce",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "c587975c-b8c6-5bf6-b71a-70836dcfc77f",
+            "topicId": "eaa58edd-fa78-5b92-bd23-a2d73fc2207c",
+            "title": "IberGour shipping, payments and returns",
+            "publisher": "IberGour",
+            "url": "https://www.ibergour.co.uk/en/ayuda",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "06153b97-728a-537a-ae59-78214e630f4a",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "hormuz-two-tankers-hit-shipping-risk",
+        "rank": 6,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "OM",
+          "IR",
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-hormuz-tankers-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "能源与航运",
+            "headlineFact": "两艘油轮在霍尔木兹附近遭不明弹体击中",
+            "headlineView": "一条关键能源航道的安全事件，会沿保险、船期、运价和油价迅速传导到全球经营成本",
+            "headlineFull": "两艘油轮在霍尔木兹附近遭不明弹体击中；一条关键能源航道的安全事件，会沿保险、船期、运价和油价迅速传导到全球经营成本",
+            "intro": "英国海上贸易行动办公室10月3日前后接获两起独立报告：一艘油轮在驶出霍尔木兹海峡时遭不明弹体击中，出现小规模火情与断电；数小时后，另一艘原油轮在阿曼以东也报告中弹。公开报道说第二艘船船员安全、没有环境损害。事件发生在美伊冲突令海湾商船风险持续上升之际。经营层面的直接变量包括战争险保费、绕航或延误、原油与成品油价格以及到港稳定性；袭击责任尚未明确，不能把“不明弹体”写成已确认由某一方发动。",
+            "xiaziQuote": "航道风险不会停在海上，它会变成每一张保单、每一段船期和每一吨能源的成本。",
+            "doudouQuote": "可确认的是两起中弹报告；责任方、长期供应影响和价格幅度仍不能提前下结论。",
+            "footerTakeaway": "今日关键词：能源与航运。"
+          },
+          "en-US": {
+            "categoryLabel": "Energy & Shipping",
+            "headlineFact": "Two tankers struck by unidentified projectiles near Hormuz",
+            "headlineView": "A security event on a critical energy route can move rapidly through insurance, schedules, freight rates and oil prices into global operating costs",
+            "headlineFull": "Two tankers struck by unidentified projectiles near Hormuz; A security event on a critical energy route can move rapidly through insurance, schedules, freight rates and oil prices into global operating costs",
+            "intro": "UK Maritime Trade Operations received two separate reports around October 3. One tanker was struck by an unknown projectile while leaving the Strait of Hormuz, causing a small fire and blackout; hours later another crude-oil tanker reported a strike east of Oman. Public reporting says the second vessel's crew was safe and there was no environmental damage. The incidents come as the US-Iran conflict keeps commercial-shipping risk elevated across the Gulf. Immediate operating variables include war-risk premiums, rerouting or delay, crude and refined-product prices and arrival reliability. Responsibility has not been established, so 'unidentified projectile' must not be converted into a confirmed attribution.",
+            "xiaziQuote": "Shipping risk does not stay at sea; it becomes a cost inside every policy, schedule and tonne of energy.",
+            "doudouQuote": "Two strike reports are confirmed; attribution, long-term supply effects and price magnitude are not.",
+            "footerTakeaway": "Keyword: Energy & Shipping."
+          }
+        },
+        "sources": [
+          {
+            "id": "8655b61a-cab1-53c6-8be6-5493449a77b1",
+            "topicId": "06153b97-728a-537a-ae59-78214e630f4a",
+            "title": "UKMTO maritime incident notices",
+            "publisher": "UK Maritime Trade Operations",
+            "url": "https://www.ukmto.org/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "df4cfb83-504a-5262-9dc6-4ff0f9215133",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "spain-housing-protests-renter-cost-pressure",
+        "rank": 7,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "ES"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-spain-housing-protests-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "社会与住房",
+            "headlineFact": "西班牙数万人上街要求保护租客",
+            "headlineView": "一位87岁老人的驱逐事件，把租金负担、房源稀缺与议会否决紧急措施推到同一条街上",
+            "headlineFull": "西班牙数万人上街要求保护租客；一位87岁老人的驱逐事件，把租金负担、房源稀缺与议会否决紧急措施推到同一条街上",
+            "intro": "10月3日，西班牙多座城市数万人游行要求政府加强租客保护；在瓦伦西亚，警方与突破房地产峰会警戒线的示威者发生冲突。抗议浪潮由87岁的María del Carmen Abascal从住了70年的马德里住所被驱逐点燃；她后来与房东达成回家协议。前一天，议会否决限制驱逐、遏制投机和延长租约等住房紧急措施。西班牙政府称，26%的租户平均将40%收入用于房租与水电，公共出租房不足可用住房的2%，低于欧盟8%的平均水平。抗议规模与成本数据可确认，但政策下一步仍未确定。",
+            "xiaziQuote": "住房压力从私人账单变成公共政治，往往只差一个人人看得见的故事。",
+            "doudouQuote": "老人已获准回家，不等于住房紧急措施已经通过，结构性供给也没有因此解决。",
+            "footerTakeaway": "今日关键词：社会与住房。"
+          },
+          "en-US": {
+            "categoryLabel": "Society & Housing",
+            "headlineFact": "Tens of thousands march across Spain for renter protection",
+            "headlineView": "The eviction of an 87-year-old brought rent burden, scarce housing and parliament's rejection of emergency measures onto the same streets",
+            "headlineFull": "Tens of thousands march across Spain for renter protection; The eviction of an 87-year-old brought rent burden, scarce housing and parliament's rejection of emergency measures onto the same streets",
+            "intro": "Tens of thousands marched across Spanish cities on October 3 demanding stronger renter protection; in Valencia, police clashed with demonstrators who breached the perimeter of a property summit. The wave was sparked by the eviction of 87-year-old María del Carmen Abascal from the Madrid home where she had lived for seven decades; she later reached an agreement to return. A day earlier, parliament rejected emergency measures covering eviction restrictions, speculation and longer leases. Spain's government says 26% of renters spend an average 40% of income on rent and utilities, while public rental homes make up less than 2% of available stock versus an EU average of 8%. The protests and cost figures are clear; the policy path is not.",
+            "xiaziQuote": "Housing pressure becomes public politics when one visible story connects private bills to a shared system.",
+            "doudouQuote": "Maricarmen's return does not mean the emergency package passed or the structural shortage is solved.",
+            "footerTakeaway": "Keyword: Society & Housing."
+          }
+        },
+        "sources": [
+          {
+            "id": "2bca149c-1738-5ead-a5bb-d9ba14c29770",
+            "topicId": "df4cfb83-504a-5262-9dc6-4ff0f9215133",
+            "title": "What to know about Spain's housing protests",
+            "publisher": "ABC News / Associated Press",
+            "url": "https://abcnews.com/Business/wireStory/spains-housing-protests-sparked-eviction-87-year-maricarmen-136971976",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0040a90a-0795-509b-a8d6-252c9eca415c",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "congo-ebola-obeldesivir-post-exposure-trial",
+        "rank": 8,
+        "category": "science",
+        "region": "Africa",
+        "countryCodes": [
+          "CD"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-congo-ebola-pep-trial-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "刚果逾250人参加埃博拉暴露后预防试验",
+            "headlineView": "obeldesivir不是疫苗也不是发病后的治疗，而是在密接者尚无症状时争取切断感染链",
+            "headlineFull": "刚果逾250人参加埃博拉暴露后预防试验；obeldesivir不是疫苗也不是发病后的治疗，而是在密接者尚无症状时争取切断感染链",
+            "intro": "美联社报道，刚果本迪布焦型埃博拉暴发期间，已有超过250名密接者参加EBO-PEP试验；该毒株目前没有获批疫苗或疗法。试验测试吉利德实验性口服抗病毒药obeldesivir，计划招募接近1000名在确诊病例接触后五天内且尚无症状的12岁以上参与者，一半使用安慰剂。参与者每天线下随访21天，并在42天接受最终电话随访；一旦出现症状立即接受支持治疗。试验的目标是暴露后预防而非治愈，现阶段只能说正在评估，不能宣称药物已经有效。",
+            "xiaziQuote": "在暴发现场，提前几天把密接者纳入可执行的预防流程，可能比事后追赶更有价值。",
+            "doudouQuote": "超过250人已入组，但目标接近1000人；没有结果前，参与试验不等于疗效已证实。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "More than 250 join Congo Ebola post-exposure trial",
+            "headlineView": "Obeldesivir is neither a vaccine nor treatment after illness; it is being tested in symptom-free contacts to interrupt infection after exposure",
+            "headlineFull": "More than 250 join Congo Ebola post-exposure trial; Obeldesivir is neither a vaccine nor treatment after illness; it is being tested in symptom-free contacts to interrupt infection after exposure",
+            "intro": "AP reports that more than 250 exposed contacts have joined the EBO-PEP study during Congo's Bundibugyo Ebola outbreak, for which no vaccine or treatment is approved. The trial is testing Gilead's experimental oral antiviral obeldesivir and aims to recruit nearly 1,000 adults and children over 12 who had contact with a confirmed case within five days but have no symptoms; half receive placebo. Participants are followed in person daily for 21 days and receive a final phone call at day 42, with supportive care started immediately if symptoms appear. The goal is post-exposure prevention, not cure. At this stage it is being evaluated and must not be described as proven effective.",
+            "xiaziQuote": "In an outbreak, enrolling exposed people into an executable prevention path days earlier may matter more than chasing cases later.",
+            "doudouQuote": "More than 250 are enrolled toward nearly 1,000; participation is not proof of efficacy before results arrive.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "2dbd5f5c-eb82-5983-9562-27f20ad744d1",
+            "topicId": "0040a90a-0795-509b-a8d6-252c9eca415c",
+            "title": "Inside the study for a remedy to fight Congo's Ebola outbreak",
+            "publisher": "ABC News / Associated Press",
+            "url": "https://abcnews.com/amp/International/wireStory/inside-study-remedy-fight-congos-deadliest-ebola-outbreak-136967362",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "61e6eee4-bceb-528e-a12e-f02e793e7471",
+        "issueId": "f32fce97-59a9-5bde-a4a9-7e0b595226c7",
+        "slug": "land-surface-change-albedo-global-temperature-response",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-land-albedo-temperature-20261004",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候科学",
+            "headlineFact": "土地变化的全球温度效应可由反照率主导",
+            "headlineView": "森林、农田或裸地会同时改变反射、蒸散与粗糙度，但全球平均响应比局地体感更接近一条辐射关系",
+            "headlineFull": "土地变化的全球温度效应可由反照率主导；森林、农田或裸地会同时改变反射、蒸散与粗糙度，但全球平均响应比局地体感更接近一条辐射关系",
+            "intro": "10月3日发表于《自然·通讯》的开放研究使用地球系统模型比较土地表面变化的辐射与非辐射效应。结果显示，全球积分的温度响应与土地变化造成的行星反照率位移近似线性；蒸散、湍流和地表粗糙度等非辐射效应虽然决定许多局地温度差异，却在全球尺度大体相互抵消。这有助于把造林、毁林、作物转换等土地决策的局地影响与全球气候效应分开评估。结论来自模型实验，不意味着所有地区都会出现同方向或同幅度变化，也不能把反照率当作土地政策的唯一指标。",
+            "xiaziQuote": "同一块土地在本地和全球可以讲出不同的温度故事，尺度本身就是结论的一部分。",
+            "doudouQuote": "线性关系属于模型中的全球平均响应，不能直接替代具体地区的生态与社会评估。",
+            "footerTakeaway": "今日关键词：气候科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate Science",
+            "headlineFact": "Albedo can dominate land change's global temperature effect",
+            "headlineView": "Forests, crops and bare land alter reflection, evapotranspiration and roughness, but the global mean response is simpler than local experience",
+            "headlineFull": "Albedo can dominate land change's global temperature effect; Forests, crops and bare land alter reflection, evapotranspiration and roughness, but the global mean response is simpler than local experience",
+            "intro": "An open Nature Communications study published October 3 used Earth-system models to separate radiative and non-radiative effects of land-surface change. It finds that the globally integrated temperature response scales nearly linearly with the shift in planetary albedo caused by land change. Non-radiative effects such as evapotranspiration, turbulence and surface roughness drive many local temperature differences but largely cancel at global scale. This helps distinguish local impacts from the global climate consequences of afforestation, deforestation or crop conversion. The result comes from model experiments; it does not mean every region changes in the same direction or magnitude, and albedo cannot be the sole land-policy metric.",
+            "xiaziQuote": "The same land can tell different temperature stories locally and globally; scale is part of the conclusion.",
+            "doudouQuote": "The linear relation is a modeled global mean response, not a replacement for regional ecological and social assessment.",
+            "footerTakeaway": "Keyword: Climate Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "2c7a46b5-86fe-51fc-b2ad-4e7442a3edc5",
+            "topicId": "61e6eee4-bceb-528e-a12e-f02e793e7471",
+            "title": "Global climate impact of land-surface change driven by radiative effects",
+            "publisher": "Nature Communications",
+            "url": "https://www.nature.com/articles/s41467-026-77834-0",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261004_0f618cbf4f608bfd9281ff8c"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-04",
+    "releaseId": "rel_20261004_0f618cbf4f608bfd9281ff8c",
+    "assetBatchId": "asset_prod_20261004_0f618cbf4f608bfd9281ff8c",
+    "posters": [
+      {
+        "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+        "locale": "zh",
+        "contentHash": "b8146507e919c263a01cbd118741292e5592cbd3becf3ddebd818095ff4f0274",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/global-radar-ai-revenue-commerce-crisis-science.png"
+      },
+      {
+        "topicId": "d1f1cfdc-621c-59b1-b2d5-eef608c5f85d",
+        "locale": "en",
+        "contentHash": "6bce1a4b437acc6dfe7df9979557828201583695f2c62e0d8ff32cda544a2f2e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/global-radar-ai-revenue-commerce-crisis-science.png"
+      },
+      {
+        "topicId": "f1f9b59a-04dc-55d0-ae12-40410be83b06",
+        "locale": "zh",
+        "contentHash": "b4e2315bc95bbbfbc9679166f71b63bc77d5301fb2943bf76879b1597ebfb99c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/anthropic-frontier-academy-enterprise-ai-talent.png"
+      },
+      {
+        "topicId": "f1f9b59a-04dc-55d0-ae12-40410be83b06",
+        "locale": "en",
+        "contentHash": "095bbbf9c8838c82c730c39300308af68261ecc76c84024da9aa658e289419bf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/anthropic-frontier-academy-enterprise-ai-talent.png"
+      },
+      {
+        "topicId": "c70c0f28-c97e-50a3-af1f-a2c337966f9f",
+        "locale": "zh",
+        "contentHash": "e15a2ece56db0b4cd9393a4b20b5ca5dbe2be2d97e6128c53e1e7e0f2f0799e8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/solo-golf-shot-tracer-verified-subscription-revenue.png"
+      },
+      {
+        "topicId": "c70c0f28-c97e-50a3-af1f-a2c337966f9f",
+        "locale": "en",
+        "contentHash": "b16450ae818bea936ecf47094f094850258d83c312e9fe2c172dceaa0c19e5e4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/solo-golf-shot-tracer-verified-subscription-revenue.png"
+      },
+      {
+        "topicId": "93a3e748-ed45-5a36-bbf1-daa9d69152cb",
+        "locale": "zh",
+        "contentHash": "880c26be390eb2e5365639178f42ee327bcd6d29a65461f3f4f0cc7b6e38884b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/coupleai-verified-paid-conversation-coaching.png"
+      },
+      {
+        "topicId": "93a3e748-ed45-5a36-bbf1-daa9d69152cb",
+        "locale": "en",
+        "contentHash": "f0497fb956a74b5635491e66edb507613ff8bfb4b018876ed9d6b80cea39f214",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/coupleai-verified-paid-conversation-coaching.png"
+      },
+      {
+        "topicId": "eaa58edd-fa78-5b92-bd23-a2d73fc2207c",
+        "locale": "zh",
+        "contentHash": "c9f1a536ff75f69314e05f1608a7d7c90e96488a3ccb9af308de3d0a7f3debab",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/ibergour-cross-border-ham-revenue-returns.png"
+      },
+      {
+        "topicId": "eaa58edd-fa78-5b92-bd23-a2d73fc2207c",
+        "locale": "en",
+        "contentHash": "ddf5d39a7027e5e63800e1583e0833148c09a6d777d12eb013cca0f658fb1caf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/ibergour-cross-border-ham-revenue-returns.png"
+      },
+      {
+        "topicId": "06153b97-728a-537a-ae59-78214e630f4a",
+        "locale": "zh",
+        "contentHash": "675b6f3905df9329d2b81356b7bea72954791ef3b3dbad54e52a3fba114350a0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/hormuz-two-tankers-hit-shipping-risk.png"
+      },
+      {
+        "topicId": "06153b97-728a-537a-ae59-78214e630f4a",
+        "locale": "en",
+        "contentHash": "c22cd6d7126647046241b4e9b819d34949cc0924cae14ea4ea6113a8fb4afb1d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/hormuz-two-tankers-hit-shipping-risk.png"
+      },
+      {
+        "topicId": "df4cfb83-504a-5262-9dc6-4ff0f9215133",
+        "locale": "zh",
+        "contentHash": "ff142c1cfaeae45822cd42d399cf2df1493eb2982d5752a4bc833ce9e06c59a3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/spain-housing-protests-renter-cost-pressure.png"
+      },
+      {
+        "topicId": "df4cfb83-504a-5262-9dc6-4ff0f9215133",
+        "locale": "en",
+        "contentHash": "321a192c55b555270df49285575a4d476b12ab4b6891a15f787d3b086b716bb9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/spain-housing-protests-renter-cost-pressure.png"
+      },
+      {
+        "topicId": "0040a90a-0795-509b-a8d6-252c9eca415c",
+        "locale": "zh",
+        "contentHash": "99ab0fa486929641ef7fffec52523ce1fcd5a86276f3da91ab7fa9de5c908e8a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/congo-ebola-obeldesivir-post-exposure-trial.png"
+      },
+      {
+        "topicId": "0040a90a-0795-509b-a8d6-252c9eca415c",
+        "locale": "en",
+        "contentHash": "d086619e36f6c7912dabfac9e59c4bf8287049f2773c56bc5846484f7e2364d0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/congo-ebola-obeldesivir-post-exposure-trial.png"
+      },
+      {
+        "topicId": "61e6eee4-bceb-528e-a12e-f02e793e7471",
+        "locale": "zh",
+        "contentHash": "579432fa09d933c14264044cc59594740117f7cdd078b401d7e45ce3e2933ea2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/zh/land-surface-change-albedo-global-temperature-response.png"
+      },
+      {
+        "topicId": "61e6eee4-bceb-528e-a12e-f02e793e7471",
+        "locale": "en",
+        "contentHash": "1a3b6433d64b0b085d8d3cfbfa27731a6088358b868bfc4a7e4ff922f714fe7e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261004_0f618cbf4f608bfd9281ff8c/en/land-surface-change-albedo-global-temperature-response.png"
+      }
+    ]
+  }
+}
