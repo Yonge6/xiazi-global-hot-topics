@@ -1,0 +1,761 @@
+{
+  "issue": {
+    "id": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+    "slug": "2026-10-05",
+    "style": {
+      "name": "Shojo",
+      "zhName": "少女漫画风格",
+      "description": "Style Atlas daily pick: Shojo. Use an original premium shojo-inspired editorial visual language without imitating any named artist, studio, series or existing character: delicate confident linework, graceful cinematic framing, luminous backlight, expressive but mature character acting, soft cel shading, atmospheric depth, flowing fabric and restrained floral or sparkle motifs. Keep decorative detail at the edges so text sits on calm, low-texture, high-contrast areas. Every poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and broad breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage story scene, using flowing orbital ribbons, petal-like information bands and layered foreground-background movement rather than a rigid grid, equal cards, table, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm."
+    },
+    "issueDate": "2026-10-05",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-05T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-04T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+    "topics": [
+      {
+        "id": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "global-radar-ai-solo-commerce-education-space-health-science",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月5日全球经营雷达",
+            "headlineView": "生命科学AI、单人收入、付费影像、跨境防晒、教师地位、空间合作、健康负担与数字嗅觉进入同一张证据地图",
+            "headlineFull": "10月5日全球经营雷达；生命科学AI、单人收入、付费影像、跨境防晒、教师地位、空间合作、健康负担与数字嗅觉进入同一张证据地图",
+            "intro": "1. GPT-Rosalind今日开始执行公开商业计价，把面向合格研究机构的生命科学专用模型从研究预览推入受控商业使用。\n2. 单人经营的TrustMRR近30天验证收入48882美元、MRR 24733美元，以收入验证数据库和软件交易市场服务创业者与买家。\n3. AI照片应用Boothie近30天验证收入43678美元、MRR 41686美元，以周订阅和点数包把自拍重绘成多种影像风格。\n4. 防晒伞品牌UV-Blocker近30天验证收入10406美元、累计收入超100万美元，并通过SEO、邮件和全球配送销售59.95美元起的实体产品。\n5. 2026年世界教师日纪念教师地位建议书60周年，呼吁在技术、气候、包容与迁移压力下提升教师的专业和物质地位。\n6. 第77届国际宇航大会今日在安塔利亚开幕，8330份摘要来自108个国家，主题聚焦安全、开放与可持续的空间合作。\n7. WHO最新估计显示2023年全球预期寿命回升至73.3岁，但非传染性疾病已占全球死亡的74%。\n8. 新发布的OdorNet统一了2万多条记录和9000种独特分子的气味标签，为机器嗅觉建立更可学习的数据基础。",
+            "xiaziQuote": "今天的共同信号是：模型、收入与公共系统都在从概念走向可验证的结构。",
+            "doudouQuote": "收入要区分近30天、MRR与累计值；研究和机构目标也要区分已发生与计划。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 5 Global Operator Radar",
+            "headlineView": "Life-science AI, solo revenue, paid imaging, cross-border sun protection, teacher status, space cooperation, health burden and digital smell enter one evidence map",
+            "headlineFull": "October 5 Global Operator Radar; Life-science AI, solo revenue, paid imaging, cross-border sun protection, teacher status, space cooperation, health burden and digital smell enter one evidence map",
+            "intro": "1. GPT-Rosalind begins published commercial pricing today, moving a life-science specialist model for eligible research organizations from preview into controlled paid use.\n2. One-person TrustMRR verifies $48,882 in 30-day revenue and $24,733 MRR by serving founders and buyers with a verified-revenue database and software marketplace.\n3. AI photo app Boothie verifies $43,678 in 30-day revenue and $41,686 MRR by restyling selfies through weekly subscriptions and credit packs.\n4. Sun-protection umbrella brand UV-Blocker verifies $10,406 in 30-day revenue and more than $1 million lifetime while selling products from $59.95 through SEO, email and worldwide shipping.\n5. World Teachers' Day 2026 marks 60 years of the teacher-status recommendation and calls for stronger professional and material standing amid technology, climate, inclusion and migration pressures.\n6. The 77th International Astronautical Congress opens in Antalya today after drawing 8,330 abstracts from 108 countries around secure, open and sustainable space cooperation.\n7. New WHO estimates put global life expectancy at 73.3 years in 2023 while noncommunicable diseases now account for 74% of deaths.\n8. Newly published OdorNet unifies more than 20,000 records and 9,000 unique molecules into standardized smell labels for more learnable machine olfaction.",
+            "xiaziQuote": "Today's shared signal: models, revenue and public systems are moving from concepts into verifiable structures.",
+            "doudouQuote": "Separate 30-day revenue, MRR and lifetime totals, and separate completed outcomes from institutional targets.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "c6aa9a6e-5583-5f91-86a8-b154cc2f130b",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "OpenAI API pricing",
+            "publisher": "OpenAI Developers",
+            "url": "https://developers.openai.com/api/docs/pricing.md",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "3e98d79d-c400-5734-9b75-77d4c75d91a1",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "TrustMRR verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/trustmrr",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "51bd50aa-8034-53af-8f0f-2bbd99d34a2b",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "Boothie: AI Photo Editor verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/boothie",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3806a043-0ea0-5609-9e38-54daab48df1f",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "UV-Blocker verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/uv-blocker",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "f0025288-0b8a-511a-b9bc-9eb4b539901b",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "ILO-UNESCO Recommendation concerning the Status of Teachers, 1966",
+            "publisher": "International Labour Organization",
+            "url": "https://www.ilo.org/ilo-unesco-recommendation-concerning-status-teachers-1966",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "023d166c-9f77-53e3-8db2-a9ea1ff0e2ef",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "77th International Astronautical Congress",
+            "publisher": "International Astronautical Federation",
+            "url": "https://www.iafastro.org/events/iac/international-astronautical-congress-2026/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "389114c8-22ca-5509-a548-b3f148490e71",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "New WHO estimates show changing global health landscape",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/02-10-2026-new-who-estimates-show-changing-global-health-landscape",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1ef93cf8-f810-5134-906a-d383de08c924",
+            "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+            "title": "OdorNet dataset repository",
+            "publisher": "NKU-DOIE",
+            "url": "https://github.com/NKU-DOIE/OdorNet",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "2a288544-61a8-589f-8341-488dd584e963",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "gpt-rosalind-life-science-commercial-pricing",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-gpt-rosalind-pricing-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "GPT-Rosalind今日开始商业计价",
+            "headlineView": "生命科学专用模型正在从研究预览进入受控付费部署，价值要由真实科研工作流而非通用榜单检验",
+            "headlineFull": "GPT-Rosalind今日开始商业计价；生命科学专用模型正在从研究预览进入受控付费部署，价值要由真实科研工作流而非通用榜单检验",
+            "intro": "OpenAI此前宣布，GPT-Rosalind面向符合条件、具备治理与安全监督的研究机构全球开放，公开价格自10月5日起生效。该系列把GPT-5.5的智能体编码与工具使用能力，结合药物化学、基因组学和湿实验排错等生命科学任务。官方评估中，GPT-Rosalind在MedChemBench达到27.5%，高于GPT-5.5的25.1%；在GeneBench准确率为21.6%对20.4%，同时少用31%的令牌。真正的门槛不是一次分数，而是受控访问、数据安全、实验验证与责任链能否一起进入机构流程。",
+            "xiaziQuote": "垂直模型开始收费以后，采购者买的不是聊天能力，而是可治理的科研工作流。",
+            "doudouQuote": "这些数字来自官方内部评估，不能替代独立复现或实验结果。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "GPT-Rosalind begins commercial pricing today",
+            "headlineView": "A life-science specialist model is moving from research preview into controlled paid deployment, where real workflows matter more than generic leaderboards",
+            "headlineFull": "GPT-Rosalind begins commercial pricing today; A life-science specialist model is moving from research preview into controlled paid deployment, where real workflows matter more than generic leaderboards",
+            "intro": "OpenAI previously announced that GPT-Rosalind is available globally to eligible research organizations with governance and safety oversight, with published pricing taking effect on October 5. The series combines GPT-5.5's agentic coding and tool use with life-science work across medicinal chemistry, genomics and wet-lab troubleshooting. In OpenAI's evaluations, GPT-Rosalind scored 27.5% on MedChemBench versus 25.1% for GPT-5.5; on GeneBench it reached 21.6% versus 20.4% while using 31% fewer tokens. The real deployment threshold is not one score but whether controlled access, data security, experimental validation and accountability enter the same institutional workflow.",
+            "xiaziQuote": "Once a vertical model has a price, buyers are purchasing a governable research workflow, not just chat capability.",
+            "doudouQuote": "These figures are OpenAI's internal evaluations, not independent replication or experimental outcomes.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "6099e76d-fba1-5b11-8d08-572c2faf088a",
+            "topicId": "2a288544-61a8-589f-8341-488dd584e963",
+            "title": "OpenAI API pricing",
+            "publisher": "OpenAI Developers",
+            "url": "https://developers.openai.com/api/docs/pricing.md",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "bb40eba4-93a9-572b-b9d1-aadcedcfa3ba",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "trustmrr-one-person-verified-revenue-marketplace",
+        "rank": 3,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "SG"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-trustmrr-solo-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "TrustMRR单人经营近30天收入48882美元",
+            "headlineView": "把付款数据变成信任基础设施，再把数据库升级为软件交易市场，一人也能靠高杠杆数据产品赚钱",
+            "headlineFull": "TrustMRR单人经营近30天收入48882美元；把付款数据变成信任基础设施，再把数据库升级为软件交易市场，一人也能靠高杠杆数据产品赚钱",
+            "intro": "TrustMRR是一家由一人经营、无融资的B2B业务，向SaaS创始人、电商、机构和买家提供经支付平台验证的收入数据库与软件交易市场。平台页面显示，近30天验证收入为48882美元，MRR为24733美元，累计收入366656美元，当前有13个活跃订阅。获客来自SEO、口碑、X、YouTube、通讯、内容、LinkedIn与Reddit；交付完全数字化，技术栈以Next.js、MongoDB和Stripe为主。它的杠杆来自把可信数据、搜索流量和交易意图放进同一平台；限制是验证收入不等于审计利润，13个订阅也说明收入可能包含非订阅交易。",
+            "xiaziQuote": "一人公司最强的杠杆，常常是让数据自己获得信任、分发和交易。",
+            "doudouQuote": "48882美元是近30天收入，24733美元才是MRR；页面没有披露利润。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "One-person TrustMRR verifies $48,882 in 30-day revenue",
+            "headlineView": "Turning payment data into trust infrastructure, then expanding the database into a software marketplace, creates high leverage for one operator",
+            "headlineFull": "One-person TrustMRR verifies $48,882 in 30-day revenue; Turning payment data into trust infrastructure, then expanding the database into a software marketplace, creates high leverage for one operator",
+            "intro": "TrustMRR is a one-person, bootstrapped B2B business serving SaaS founders, ecommerce operators, agencies and buyers with a payment-verified revenue database and software marketplace. Its profile shows $48,882 in verified 30-day revenue, $24,733 MRR, $366,656 lifetime revenue and 13 active subscriptions. Acquisition spans SEO, word of mouth, X, YouTube, newsletters, content, LinkedIn and Reddit; delivery is fully digital on a Next.js, MongoDB and Stripe stack. The leverage comes from putting trusted data, search demand and transaction intent into one product. The limit: verified revenue is not audited profit, and 13 subscriptions suggest some revenue may be non-recurring marketplace activity.",
+            "xiaziQuote": "A one-person company gains unusual leverage when its data can earn trust, distribution and transactions by itself.",
+            "doudouQuote": "$48,882 is 30-day revenue and $24,733 is MRR; the profile does not disclose profit.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "2c6476a4-fa92-5036-bd68-1753f2c1751c",
+            "topicId": "bb40eba4-93a9-572b-b9d1-aadcedcfa3ba",
+            "title": "TrustMRR verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/trustmrr",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "fa62b97b-3329-5916-80b5-e456b784053d",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "boothie-ai-photo-app-revenuecat-subscriptions",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "TR",
+          "US",
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-boothie-ai-photo-revenue-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Boothie验证MRR达41686美元",
+            "headlineView": "把生成式影像压缩成选风格、传自拍、数秒出图的消费流程，再用周订阅与点数包收钱",
+            "headlineFull": "Boothie验证MRR达41686美元；把生成式影像压缩成选风格、传自拍、数秒出图的消费流程，再用周订阅与点数包收钱",
+            "intro": "Boothie是一款在iOS和Android运行的AI照片应用，用户选择数码相机、胶片、复古照相亭或夜间闪光等视觉效果，上传自拍后由AI重绘。免费版保留本地滤镜，AI生成通过周订阅和点数包变现。TrustMRR页面显示，RevenueCat验证的近30天收入为43678美元，MRR为41686美元，累计收入125385美元，当前有1622个活跃订阅；产品2026年6月上线iOS、9月上线Google Play。主要获客渠道是TikTok，目标用户是16至40岁、会在短视频平台发图的女性。限制是留存、推理成本和平台抽成未披露，页面收入也不等于利润。",
+            "xiaziQuote": "AI应用赚钱的关键，不是模型多复杂，而是把一次生成变成可重复购买的消费动作。",
+            "doudouQuote": "收入由RevenueCat验证，但推理成本、退款、平台抽成和净利润都没有公开。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI App",
+            "headlineFact": "Boothie verifies $41,686 MRR",
+            "headlineView": "It compresses generative imaging into pick a look, upload a selfie and render in seconds, then monetizes with weekly subscriptions and credit packs",
+            "headlineFull": "Boothie verifies $41,686 MRR; It compresses generative imaging into pick a look, upload a selfie and render in seconds, then monetizes with weekly subscriptions and credit packs",
+            "intro": "Boothie is an AI photo app on iOS and Android. Users choose aesthetics such as digicam, film, vintage photobooth or night flash, upload a selfie and have AI restyle it. Local filters remain free, while AI generations are sold through weekly subscriptions and credit packs. TrustMRR shows RevenueCat-verified 30-day revenue of $43,678, MRR of $41,686, lifetime revenue of $125,385 and 1,622 active subscriptions. The app launched on iOS in June 2026 and Google Play in September, with TikTok as its main acquisition channel and women aged 16-40 who post on short-form platforms as its stated audience. Retention, inference costs, store fees and profit are not disclosed.",
+            "xiaziQuote": "An AI app makes money when a complex model becomes a repeatable consumer purchase, not merely an impressive demo.",
+            "doudouQuote": "RevenueCat verifies revenue, but inference cost, refunds, store fees and net profit are not public.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI App."
+          }
+        },
+        "sources": [
+          {
+            "id": "af636c5a-064c-5be5-afb1-9526377d19fd",
+            "topicId": "fa62b97b-3329-5916-80b5-e456b784053d",
+            "title": "Boothie: AI Photo Editor verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/boothie",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "88dd9a8d-50b9-579e-83bf-fd02d8c7f725",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "uv-blocker-worldwide-sun-protection-ecommerce",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-uv-blocker-crossborder-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "UV-Blocker累计验证收入突破100万美元",
+            "headlineView": "用可量化的防晒性能服务高意图人群，再通过SEO、邮件和全球配送把功能型实体产品卖向海外",
+            "headlineFull": "UV-Blocker累计验证收入突破100万美元；用可量化的防晒性能服务高意图人群，再通过SEO、邮件和全球配送把功能型实体产品卖向海外",
+            "intro": "UV-Blocker销售59.95美元起的高端防晒伞，核心卖点是专利Solarteck面料、阻挡99%紫外线、伞下温度降低15华氏度，以及UPF 50+认证；目标用户包括光敏感人群、阳光目的地旅行者、家长和有黑色素瘤风险的家庭。TrustMRR页面显示，Shopify验证的近30天收入为10406美元，累计收入1008686美元，业务面向美国并支持全球配送。获客主要依靠SEO和邮件，团队为6至10人。赚钱机制是把明确健康需求、可比较性能和较高客单价组合起来；主要风险是季节性、库存、跨境运费、退货和合规成本，利润率未披露。",
+            "xiaziQuote": "跨境实体商品更容易赚钱的时刻，是性能证据能直接回答一个高意图问题。",
+            "doudouQuote": "页面验证的是Shopify销售收入，不是GMV之外的净利润或国际市场占比。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Ecommerce",
+            "headlineFact": "UV-Blocker passes $1 million in verified lifetime revenue",
+            "headlineView": "Quantified sun protection targets high-intent buyers, while SEO, email and worldwide shipping carry a functional physical product across borders",
+            "headlineFull": "UV-Blocker passes $1 million in verified lifetime revenue; Quantified sun protection targets high-intent buyers, while SEO, email and worldwide shipping carry a functional physical product across borders",
+            "intro": "UV-Blocker sells premium sun-protection umbrellas from $59.95. Its core claims are patented Solarteck fabric, 99% UV blocking, a 15°F cooler area underneath and UPF 50+ certification; stated buyers include sun-sensitive people, travelers to sunny destinations, parents and families with melanoma risk. TrustMRR shows Shopify-verified 30-day revenue of $10,406 and lifetime revenue of $1,008,686, with US and worldwide shipping. Acquisition relies mainly on SEO and email, and the team is 6-10 people. The mechanism combines a clear health need, comparable performance and a higher ticket. Seasonality, inventory, cross-border shipping, returns and compliance remain key costs and risks; profit margin is not disclosed.",
+            "xiaziQuote": "A physical cross-border product earns when its performance evidence directly answers a high-intent need.",
+            "doudouQuote": "The page verifies Shopify sales revenue, not net profit or the share generated outside the United States.",
+            "footerTakeaway": "Keyword: Cross-Border Ecommerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "6bd44f06-0a94-5234-bd13-f713778f48cc",
+            "topicId": "88dd9a8d-50b9-579e-83bf-fd02d8c7f725",
+            "title": "UV-Blocker verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/uv-blocker",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "35400342-b22d-55b0-b64f-385cf28d7c73",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "world-teachers-day-60-years-profession-status",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "FR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-world-teachers-day-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "教育与劳动",
+            "headlineFact": "世界教师日纪念教师地位建议书60周年",
+            "headlineView": "技术、气候、包容、迁移和流离失所正在同时重写教师的专业自主、工作条件与社会地位",
+            "headlineFull": "世界教师日纪念教师地位建议书60周年；技术、气候、包容、迁移和流离失所正在同时重写教师的专业自主、工作条件与社会地位",
+            "intro": "10月5日的2026年世界教师日以“与教师站在一起：保护职业、提升地位、塑造未来60年”为主题，纪念1966年国际劳工组织与联合国教科文组织《关于教师地位的建议书》通过60周年。UNESCO指出，这份建议书正在修订，而数字技术、气候变化、包容、迁移与流离失所带来了新挑战，既影响教师的社会认可与政策发声，也影响工资、工作量和工作环境。UNESCO教育页面同时估计，到2030年实现普及中小学教育仍需新增4400万名教师，全球有2.73亿儿童和青年失学。当天在巴黎举行的全球活动将讨论如何保护并提升教师职业。",
+            "xiaziQuote": "教育系统能否适应新技术，先取决于教师有没有时间、权利和资源参与改变。",
+            "doudouQuote": "纪念日不是成果本身；4400万缺口和2.73亿失学人口说明执行压力仍然巨大。",
+            "footerTakeaway": "今日关键词：教育与劳动。"
+          },
+          "en-US": {
+            "categoryLabel": "Education and Work",
+            "headlineFact": "World Teachers' Day marks 60 years of the teacher-status recommendation",
+            "headlineView": "Technology, climate, inclusion, migration and displacement are simultaneously reshaping teacher autonomy, conditions and social standing",
+            "headlineFull": "World Teachers' Day marks 60 years of the teacher-status recommendation; Technology, climate, inclusion, migration and displacement are simultaneously reshaping teacher autonomy, conditions and social standing",
+            "intro": "World Teachers' Day 2026 on October 5 carries the theme 'Standing with teachers: 60 years of protecting the profession, advancing its status and shaping our futures,' marking six decades since the 1966 ILO/UNESCO Recommendation concerning the Status of Teachers. UNESCO says the recommendation is being revised as digital technology, climate change, inclusion, migration and displacement create new pressures on teachers' recognition, policy voice, pay, workload and working environments. UNESCO's education overview also estimates that 44 million more teachers are needed by 2030 for universal primary and secondary education, while 273 million children and youth remain out of school. A global celebration in Paris will focus on protecting and advancing the profession.",
+            "xiaziQuote": "Whether education systems adapt to new technology first depends on whether teachers have time, rights and resources to shape the change.",
+            "doudouQuote": "An observance is not an outcome; a 44-million teacher gap and 273 million learners out of school show the implementation burden.",
+            "footerTakeaway": "Keyword: Education and Work."
+          }
+        },
+        "sources": [
+          {
+            "id": "c942d1d9-4d23-5e54-9d89-a5be0d065ad2",
+            "topicId": "35400342-b22d-55b0-b64f-385cf28d7c73",
+            "title": "ILO-UNESCO Recommendation concerning the Status of Teachers, 1966",
+            "publisher": "International Labour Organization",
+            "url": "https://www.ilo.org/ilo-unesco-recommendation-concerning-status-teachers-1966",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "5a5c9dab-3fc8-5c5d-9d60-494465d86fa7",
+            "topicId": "35400342-b22d-55b0-b64f-385cf28d7c73",
+            "title": "World Teachers' Day",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/observances/world-teachers%E2%80%99-day",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "e594e3b0-b0ca-5c3b-a0b4-aa09e406a3e2",
+            "topicId": "35400342-b22d-55b0-b64f-385cf28d7c73",
+            "title": "UNICEF Digital Education and AI Strategy 2025-2030",
+            "publisher": "UNICEF",
+            "url": "https://www.unicef.org/digitaleducation/digital-education-strategy-2025-2030",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "8885d60a-dc0d-55f2-8a4e-2ba274dcf285",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "iac-2026-global-space-congress-opens-antalya",
+        "rank": 7,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "TR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-iac-2026-opens-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "空间合作",
+            "headlineFact": "第77届国际宇航大会今日在安塔利亚开幕",
+            "headlineView": "空间活动参与者快速增加以后，开放、安全、治理和轨道可持续性正在变成同一套合作议题",
+            "headlineFull": "第77届国际宇航大会今日在安塔利亚开幕；空间活动参与者快速增加以后，开放、安全、治理和轨道可持续性正在变成同一套合作议题",
+            "intro": "第77届国际宇航大会于10月5日至9日在土耳其安塔利亚举行，这是大会首次在土耳其举办，主题为“世界需要更多空间”。主办方称，本届收到来自108个国家的8330份摘要，创历史纪录；其中4619份进入计划，包括4077份正式接收和542份候补，覆盖204场技术会议。议程把空间安全、探索、伦理、卫星星座治理与可持续利用放在同一平台，也让政府、产业和学术机构寻找合作伙伴。规模本身不等于成果，真正要观察的是会议后形成的规则、项目与跨国合作能否落地。",
+            "xiaziQuote": "当更多国家进入太空，最稀缺的不只是运载能力，还有共同遵守的轨道规则。",
+            "doudouQuote": "8330份是投稿量，4619份是进入计划的摘要；会议规模不能写成已经完成的合作。",
+            "footerTakeaway": "今日关键词：空间合作。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Cooperation",
+            "headlineFact": "The 77th International Astronautical Congress opens in Antalya today",
+            "headlineView": "As more actors enter space, openness, security, governance and orbital sustainability are becoming one connected cooperation agenda",
+            "headlineFull": "The 77th International Astronautical Congress opens in Antalya today; As more actors enter space, openness, security, governance and orbital sustainability are becoming one connected cooperation agenda",
+            "intro": "The 77th International Astronautical Congress runs October 5-9 in Antalya, the first time the event is hosted in Türkiye, under the theme 'The World Needs More Space.' Organizers report a record 8,330 abstracts from 108 countries. Of those, 4,619 entered the programme, including 4,077 accepted papers and 542 strong backups across 204 technical sessions. The agenda puts space security, exploration, ethics, constellation governance and sustainable use on one platform while governments, industry and academia seek partnerships. Scale is not an outcome by itself; the evidence to watch is which rules, projects and cross-border collaborations survive after the congress.",
+            "xiaziQuote": "As more nations enter space, shared orbital rules become as scarce and valuable as launch capacity.",
+            "doudouQuote": "8,330 is the submission count and 4,619 entered the programme; conference scale is not completed cooperation.",
+            "footerTakeaway": "Keyword: Space Cooperation."
+          }
+        },
+        "sources": [
+          {
+            "id": "8cd6ab71-d0d5-569d-8b32-62ac32dac237",
+            "topicId": "8885d60a-dc0d-55f2-8a4e-2ba274dcf285",
+            "title": "77th International Astronautical Congress",
+            "publisher": "International Astronautical Federation",
+            "url": "https://www.iafastro.org/events/iac/international-astronautical-congress-2026/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "32ede54c-d5e1-5e48-83fb-51b9e0509681",
+            "topicId": "8885d60a-dc0d-55f2-8a4e-2ba274dcf285",
+            "title": "IAC 2026 Abstract Selection Results",
+            "publisher": "International Astronautical Federation",
+            "url": "https://www.iafastro.org/news/iac-2026-abstract-selection-results.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "5c416e71-62af-51dd-a5b5-9d01d6d64e40",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "who-global-health-estimates-life-expectancy-ncds",
+        "rank": 8,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-who-global-health-estimates-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "全球健康",
+            "headlineFact": "非传染性疾病已占全球死亡的74%",
+            "headlineView": "寿命从疫情冲击中恢复，并不代表健康寿命同步恢复，疾病负担正继续转向慢性病、心理健康与药物使用",
+            "headlineFull": "非传染性疾病已占全球死亡的74%；寿命从疫情冲击中恢复，并不代表健康寿命同步恢复，疾病负担正继续转向慢性病、心理健康与药物使用",
+            "intro": "WHO 10月2日发布的最新全球健康估计显示，2023年全球预期寿命回升至73.3岁，接近2019年的73.4岁；健康预期寿命为62.8岁，仍比2019年低0.4岁。非传染性疾病占全球死亡的74%，高于2000年的58%，全球十大死因中已有八个属于非传染性疾病。缺血性心脏病2023年造成约950万人死亡；阿尔茨海默病及其他痴呆死亡数自2000年以来增长三倍，痴呆从第19位升至全球第五大死因。数据说明系统不能只追求活得更久，还要把慢病、心理健康和健康数据能力放在同一张政策图上。",
+            "xiaziQuote": "寿命回来了，不等于健康年数和医疗系统承受力也一起回来。",
+            "doudouQuote": "这些是覆盖2000至2023年的估计值，用于看趋势，不应被当作每个国家的实时统计。",
+            "footerTakeaway": "今日关键词：全球健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Global Health",
+            "headlineFact": "Noncommunicable diseases now cause 74% of global deaths",
+            "headlineView": "Life expectancy has recovered from the pandemic shock, but healthy years lag while the burden keeps shifting toward chronic disease, mental health and drug use",
+            "headlineFull": "Noncommunicable diseases now cause 74% of global deaths; Life expectancy has recovered from the pandemic shock, but healthy years lag while the burden keeps shifting toward chronic disease, mental health and drug use",
+            "intro": "WHO's latest Global Health Estimates, released October 2, put global life expectancy at 73.3 years in 2023, close to 73.4 in 2019. Healthy life expectancy reached 62.8 years, still 0.4 years below 2019. Noncommunicable diseases caused 74% of global deaths, up from 58% in 2000, and eight of the ten leading causes of death were NCDs. Ischaemic heart disease caused about 9.5 million deaths in 2023. Deaths from Alzheimer's disease and other dementias tripled since 2000, moving dementia from nineteenth to the fifth leading cause globally. The policy challenge is not only longer lives but connecting chronic disease, mental health and data capacity.",
+            "xiaziQuote": "Recovering lifespan does not automatically restore healthy years or health-system capacity.",
+            "doudouQuote": "These are estimates covering 2000-2023 for trend analysis, not real-time counts for every country.",
+            "footerTakeaway": "Keyword: Global Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "c280e9db-50ad-58c2-99e9-06e9047e3323",
+            "topicId": "5c416e71-62af-51dd-a5b5-9d01d6d64e40",
+            "title": "New WHO estimates show changing global health landscape",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/02-10-2026-new-who-estimates-show-changing-global-health-landscape",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ef98bcad-8084-54bf-b49d-31d47addedd6",
+        "issueId": "78f97af8-ab05-5495-aa88-b19b4d88fc75",
+        "slug": "odornet-standardized-dataset-for-machine-olfaction",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-odornet-machine-olfaction-20261005",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学与数据",
+            "headlineFact": "OdorNet统一9000种分子的气味标签",
+            "headlineView": "机器嗅觉长期缺的不是模型，而是跨来源、可比较、能把同义词与冲突标签整理成层级的数据语言",
+            "headlineFull": "OdorNet统一9000种分子的气味标签；机器嗅觉长期缺的不是模型，而是跨来源、可比较、能把同义词与冲突标签整理成层级的数据语言",
+            "intro": "Scientific Data 10月2日发布OdorNet，研究团队用统计共现、调香知识和AI语义对齐组成SEA分类框架，处理跨来源标签不一致、同义词重复与分布偏斜。数据集汇总1960至2021年的学术文献和开放数据库，包含2万多条记录、9000种独特分子，并把杂乱气味描述整理成统一的层级词汇。技术验证中，同一基线模型在OdorNet上使用SEA标签后Macro F1达到0.42，高于常用气味数据集以及不使用该分类体系的OdorNet版本。它为数字气味编辑与人机交互提供基础，但0.42也说明结构到气味的学习仍远未解决。",
+            "xiaziQuote": "很多AI突破先从命名开始：世界被更一致地描述，模型才有机会学会它。",
+            "doudouQuote": "0.42是基线模型的Macro F1，不是机器已经能像人一样闻到并理解气味。",
+            "footerTakeaway": "今日关键词：科学与数据。"
+          },
+          "en-US": {
+            "categoryLabel": "Science and Data",
+            "headlineFact": "OdorNet standardizes smell labels for 9,000 molecules",
+            "headlineView": "Machine olfaction has lacked not only models but a cross-source language that resolves synonyms, conflicts and incomparable labels",
+            "headlineFull": "OdorNet standardizes smell labels for 9,000 molecules; Machine olfaction has lacked not only models but a cross-source language that resolves synonyms, conflicts and incomparable labels",
+            "intro": "Scientific Data published OdorNet on October 2. The team built a SEA taxonomy from statistical co-occurrence, perfumery expertise and AI-assisted semantic alignment to address inconsistent source labels, redundant synonyms and skewed distributions. The dataset combines academic literature and open databases from 1960-2021 into more than 20,000 entries covering 9,000 unique molecules, organizing messy descriptors into a unified hierarchy. In technical validation, the same baseline model reached a Macro F1 of 0.42 with SEA labels, outperforming commonly used odor datasets and OdorNet without the taxonomy. It creates a foundation for digital odor editing and human-computer interaction, but 0.42 also shows that learning structure-odor relationships remains far from solved.",
+            "xiaziQuote": "Many AI breakthroughs begin with naming: models can learn the world only after it is described more consistently.",
+            "doudouQuote": "A 0.42 Macro F1 is a baseline result, not evidence that machines can already smell and understand like humans.",
+            "footerTakeaway": "Keyword: Science and Data."
+          }
+        },
+        "sources": [
+          {
+            "id": "c90c1f0d-3f03-5640-8a39-37490fd957b3",
+            "topicId": "ef98bcad-8084-54bf-b49d-31d47addedd6",
+            "title": "OdorNet dataset repository",
+            "publisher": "NKU-DOIE",
+            "url": "https://github.com/NKU-DOIE/OdorNet",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "8c2a8c47-e273-5788-bc6c-d70bc28e6efd",
+            "topicId": "ef98bcad-8084-54bf-b49d-31d47addedd6",
+            "title": "Researchers Created Standardized OdorNet Database",
+            "publisher": "Wisevoter",
+            "url": "https://wisevoter.com/world/2026/10/02/researchers-created-standardized-odornet-database",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261005_bf0d4eaccaeea2b5188e4394"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-05",
+    "releaseId": "rel_20261005_bf0d4eaccaeea2b5188e4394",
+    "assetBatchId": "asset_prod_20261005_bf0d4eaccaeea2b5188e4394",
+    "posters": [
+      {
+        "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+        "locale": "zh",
+        "contentHash": "dd99c331f49f42e812056da231d1fea47dc7874d0b9ec838acf95e1f4e240888",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/global-radar-ai-solo-commerce-education-space-health-science.png"
+      },
+      {
+        "topicId": "52fb027c-a31b-557e-b43b-d46b51aa87da",
+        "locale": "en",
+        "contentHash": "fbf2b8544e76df6c90401d094da6f33cc0f9b9d5d6868cbcf7b540eae7788dcc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/global-radar-ai-solo-commerce-education-space-health-science.png"
+      },
+      {
+        "topicId": "2a288544-61a8-589f-8341-488dd584e963",
+        "locale": "zh",
+        "contentHash": "a6b45f2a7668baa65fef809c4cbb9ead3bc5e02f08388e386055b5e9610c171a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/gpt-rosalind-life-science-commercial-pricing.png"
+      },
+      {
+        "topicId": "2a288544-61a8-589f-8341-488dd584e963",
+        "locale": "en",
+        "contentHash": "0907f6f168acdf492a0be6bca22f3e2ebca12ea5fd65c7b965514292b28ffbc1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/gpt-rosalind-life-science-commercial-pricing.png"
+      },
+      {
+        "topicId": "bb40eba4-93a9-572b-b9d1-aadcedcfa3ba",
+        "locale": "zh",
+        "contentHash": "ab36f38558818afab3dc42a4c95b2fa46ae2404011e4dd135627a91a13233ac6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/trustmrr-one-person-verified-revenue-marketplace.png"
+      },
+      {
+        "topicId": "bb40eba4-93a9-572b-b9d1-aadcedcfa3ba",
+        "locale": "en",
+        "contentHash": "d1ac2bc10daecd98aad809e67ac68326216a30689e09ce40518ebcc5739c1a97",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/trustmrr-one-person-verified-revenue-marketplace.png"
+      },
+      {
+        "topicId": "fa62b97b-3329-5916-80b5-e456b784053d",
+        "locale": "zh",
+        "contentHash": "e53b1e34d06acf4aa780dc01dbe4ba2eaa2f67efecaaad776efb8c208337f166",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/boothie-ai-photo-app-revenuecat-subscriptions.png"
+      },
+      {
+        "topicId": "fa62b97b-3329-5916-80b5-e456b784053d",
+        "locale": "en",
+        "contentHash": "f2caf6c4ff605b786094359e397ac5aa67d1f97e529989ac703220e03e27e4ba",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/boothie-ai-photo-app-revenuecat-subscriptions.png"
+      },
+      {
+        "topicId": "88dd9a8d-50b9-579e-83bf-fd02d8c7f725",
+        "locale": "zh",
+        "contentHash": "bdd82d14787e47512ecfea8053079c59bfddcd14a6d04fd83d9879dc9f599f97",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/uv-blocker-worldwide-sun-protection-ecommerce.png"
+      },
+      {
+        "topicId": "88dd9a8d-50b9-579e-83bf-fd02d8c7f725",
+        "locale": "en",
+        "contentHash": "456a021ce30bec657aacb8b6e69343f43aa6323fb02ce52a2c4fb676547e412e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/uv-blocker-worldwide-sun-protection-ecommerce.png"
+      },
+      {
+        "topicId": "35400342-b22d-55b0-b64f-385cf28d7c73",
+        "locale": "zh",
+        "contentHash": "0e9ca175da1cd8810319b85d12505541b5fd34d14190de355a360b4771b7bc85",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/world-teachers-day-60-years-profession-status.png"
+      },
+      {
+        "topicId": "35400342-b22d-55b0-b64f-385cf28d7c73",
+        "locale": "en",
+        "contentHash": "e01d00836474df9ea435da4dffebb55ced0b5a6c451af0e843cf448819637bf8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/world-teachers-day-60-years-profession-status.png"
+      },
+      {
+        "topicId": "8885d60a-dc0d-55f2-8a4e-2ba274dcf285",
+        "locale": "zh",
+        "contentHash": "7186b5d2f80031558d0dafc73cc4703eec9bc92ed8e127e8cc41f53e299564c4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/iac-2026-global-space-congress-opens-antalya.png"
+      },
+      {
+        "topicId": "8885d60a-dc0d-55f2-8a4e-2ba274dcf285",
+        "locale": "en",
+        "contentHash": "9e7525c8495823a0a7705d95c3cbd4b17492e90e812086304c706a7bc94f2efa",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/iac-2026-global-space-congress-opens-antalya.png"
+      },
+      {
+        "topicId": "5c416e71-62af-51dd-a5b5-9d01d6d64e40",
+        "locale": "zh",
+        "contentHash": "48faf0165abcadf4e6e806ef3f1e4be8e8ac4401a3b094d889bca7056f7112d2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/who-global-health-estimates-life-expectancy-ncds.png"
+      },
+      {
+        "topicId": "5c416e71-62af-51dd-a5b5-9d01d6d64e40",
+        "locale": "en",
+        "contentHash": "77dffab7f02376524bcd721e7cdff71eaa68427ecc2fcc6a0d0f4f0ef6929534",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/who-global-health-estimates-life-expectancy-ncds.png"
+      },
+      {
+        "topicId": "ef98bcad-8084-54bf-b49d-31d47addedd6",
+        "locale": "zh",
+        "contentHash": "f6f2efaca570582f02bc30c65aa0d4a1e6602c454f345d51f603c3467b8fed15",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/zh/odornet-standardized-dataset-for-machine-olfaction.png"
+      },
+      {
+        "topicId": "ef98bcad-8084-54bf-b49d-31d47addedd6",
+        "locale": "en",
+        "contentHash": "fbd4170b045f694690d46e1573f43af9d19f078bac572b9015ff1a87825389c7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261005_bf0d4eaccaeea2b5188e4394/en/odornet-standardized-dataset-for-machine-olfaction.png"
+      }
+    ]
+  }
+}
