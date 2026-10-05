@@ -1,0 +1,718 @@
+{
+  "issue": {
+    "id": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+    "slug": "2026-10-06",
+    "style": {
+      "name": "American Comic Book",
+      "zhName": "美式漫画风格",
+      "description": "Style Atlas daily pick #90: American Comic Book. Use an original premium American-comic editorial language without imitating any named artist, publisher, franchise or existing character: confident ink contours, cinematic lighting, dynamic perspective, expressive action poses, bold spot colors, halftone texture used sparingly, and strong foreground-background storytelling. Keep decoration and action effects away from copy so text sits on calm, low-texture, high-contrast areas. Each poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and broad breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage story scene, using flowing orbital ribbons, speech-panel shapes of varied sizes and layered cinematic movement rather than a rigid eight-cell grid, equal cards, table, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm."
+    },
+    "issueDate": "2026-10-06",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-06T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-05T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+    "topics": [
+      {
+        "id": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "global-operator-radar-20261006",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月6日全球经营雷达",
+            "headlineView": "文本来源、单人利润、AI收入、跨境品牌、脑科学、商业空间站、耐药性资金与GPU优化进入同一张证据地图",
+            "headlineFull": "10月6日全球经营雷达；文本来源、单人利润、AI收入、跨境品牌、脑科学、商业空间站、耐药性资金与GPU优化进入同一张证据地图",
+            "intro": "1. OpenAI今日开放API自愿启用textGrain水印，并将为欧盟合资格的ChatGPT与Codex文本加入不可见标记。\n2. 单人App Hear it验证近30天收入208美元、MRR 311美元，创始人自报过去一年利润5690美元。\n3. AI视频工具Vid.AI验证近30天收入40447美元、MRR 55295美元，自动完成配音、画面与剪辑。\n4. 德语区吊床品牌HÄNG累计验证收入4987915美元，靠自研产品与精简自动化运营覆盖DACH市场。\n5. 2026医学诺奖授予Deisseroth、Hegemann与Nagel，以表彰光控离子通道和光遗传学发现。\n6. ESA与Vast签署三年备忘录，研究国际空间站退役后欧洲使用Haven商业空间站的路径。\n7. 亚太28国耐药性计划更成熟，但49%仍未核算成本，只有8国完全由国内资金支持。\n8. GPU求解器cuLoRADS让部分大规模优化提速最高四个数量级，并攻克18年计算障碍。",
+            "xiaziQuote": "今天的共同信号是：透明度、收入和科研能力都必须从口号落到可验证的机制。",
+            "doudouQuote": "收入要区分验证数据与创始人自报，合作备忘录也不等于已经执行的任务。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 6 Global Operator Radar",
+            "headlineView": "Text provenance, solo profit, AI revenue, cross-border brands, brain science, commercial stations, AMR funding and GPU optimization enter one evidence map",
+            "headlineFull": "October 6 Global Operator Radar; Text provenance, solo profit, AI revenue, cross-border brands, brain science, commercial stations, AMR funding and GPU optimization enter one evidence map",
+            "intro": "1. OpenAI opens opt-in textGrain; EU ChatGPT and Codex will get invisible text marks.\n2. Hear it verifies $208 in 30-day revenue and $311 MRR; its founder reports $5,690 yearly profit.\n3. Vid.AI verifies $40,447 in 30-day revenue and $55,295 MRR while automating video production.\n4. HÄNG verifies $4.99 million lifetime revenue from DACH hammocks and lean automation.\n5. The 2026 medicine Nobel honors Deisseroth, Hegemann and Nagel for optogenetics.\n6. ESA and Vast sign a three-year memo for European Haven use after the ISS.\n7. In 28-country AMR data, 49% of plans are uncosted and only eight are fully domestically funded.\n8. cuLoRADS speeds some massive optimizations by up to 10,000× and clears an 18-year barrier.",
+            "xiaziQuote": "Today's shared signal is that transparency, revenue and scientific capability must move from slogans into verifiable mechanisms.",
+            "doudouQuote": "Separate verified revenue from founder-reported profit, and remember that a memorandum is not an executed mission.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "aedc7ea3-2908-553e-98e3-90f467c0b998",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "OpenAI’s approach to EU text provenance rules",
+            "publisher": "OpenAI Developer Community",
+            "url": "https://community.openai.com/t/openais-approach-to-eu-text-provenance-rules/1403521",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "65734f27-13c2-5dcf-b548-a158932ee10a",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "Hear it verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/hear-it",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b45ff0a9-de1e-588d-8b7c-be67070687ee",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "Vid.AI verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/vidai-llc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6fd6002c-79af-5720-b0d0-04fda3cfa162",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "Green Tech startups — verified revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/category/green-tech",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9407ecd2-c332-5230-87f1-85e5caa3630f",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "EU-funded researcher Peter Hegemann wins 2026 Nobel Prize in Physiology or Medicine",
+            "publisher": "European Commission",
+            "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/eu-funded-researcher-peter-hegemann-wins-2026-nobel-prize-physiology-or-medicine-2026-10-05_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ec4c3c8c-df9e-5d7e-9a5a-2fdb9348797c",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "ESA and Vast strengthen cooperation on post-ISS",
+            "publisher": "European Space Agency",
+            "url": "https://www.esa.int/Newsroom/Press_Releases/The_European_Space_Agency_and_Vast_Build_on_Existing_Mission_Collaborations_and_Strengthen_Cooperation_on_Post-ISS",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0d99104e-98ae-5717-86ac-bf978cb86065",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "Asia-Pacific countries sharpen AMR plans but most remain unfunded",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/japan/news/detail/05-10-2026-asia-pacific-countries-sharpen-plans-to-fight-antimicrobial-resistance--but-most-remain-unfunded",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "25288502-20fa-5ce1-9104-a51293c14b7b",
+            "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+            "title": "Large-scale semidefinite programming with graphics processing units",
+            "publisher": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42804647/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "35480ed6-9c9c-5f65-aa56-c19be938c738",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "openai-textgrain-eu-text-provenance",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "EU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-openai-textgrain-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI今日开放API自愿启用文本水印",
+            "headlineView": "textGrain把机器可读来源信号写进词语选择，但短文本与改写会显著削弱检测",
+            "headlineFull": "OpenAI今日开放API自愿启用文本水印；textGrain把机器可读来源信号写进词语选择，但短文本与改写会显著削弱检测",
+            "intro": "OpenAI从10月5日起允许全球API客户为部分模型自愿启用textGrain，并计划未来数周为欧盟合资格的ChatGPT与Codex文本加入不可见水印。以1%误报率为目标时，心理学类200词文本的检出率约80%，400词约95%；在400词文本中替换10%的词，同义改写可把检出率从约92%降至66%，替换25%则降至17%。水印不能识别用户、判断所有权或验证事实，未检出也不能证明文本由人类创作。",
+            "xiaziQuote": "文本来源标记开始进入产品，但它是概率信号，不是作者身份证。",
+            "doudouQuote": "合规团队还要为短文本、翻译和后期编辑保留人工判断。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI opens opt-in API text watermarking today",
+            "headlineView": "textGrain embeds machine-readable provenance in word choice, but short text and rewriting sharply weaken detection",
+            "headlineFull": "OpenAI opens opt-in API text watermarking today; textGrain embeds machine-readable provenance in word choice, but short text and rewriting sharply weaken detection",
+            "intro": "Starting October 5, OpenAI lets API customers worldwide opt into textGrain for select models and plans invisible watermarking for eligible ChatGPT and Codex text in the EU over the coming weeks. At a 1% target false-positive rate, detection reached about 80% for 200-token psychology passages and 95% at 400 tokens; replacing 10% of words in 400-token passages cut detection from about 92% to 66%, and replacing 25% cut it to 17%. A watermark cannot identify the user, settle ownership or verify truth, and no detected mark does not prove human authorship.",
+            "xiaziQuote": "Text provenance is entering products, but it remains a probabilistic signal rather than an author identity card.",
+            "doudouQuote": "Compliance teams still need human judgment for short text, translation and later editing.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "17d874ce-b4d8-5ccd-838b-bb4899c6b952",
+            "topicId": "35480ed6-9c9c-5f65-aa56-c19be938c738",
+            "title": "OpenAI’s approach to EU text provenance rules",
+            "publisher": "OpenAI Developer Community",
+            "url": "https://community.openai.com/t/openais-approach-to-eu-text-provenance-rules/1403521",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2d30e62b-6cef-51be-9d53-872b0b501ef9",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "hear-it-solo-pronunciation-app-profit",
+        "rank": 3,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "AE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-hear-it-solo-profit-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Hear it单人App自报过去一年利润5690美元",
+            "headlineView": "一款小而专的发音练习工具，用App Store搜索、免费增值和轻量交付证明单人业务也能形成正利润",
+            "headlineFull": "Hear it单人App自报过去一年利润5690美元；一款小而专的发音练习工具，用App Store搜索、免费增值和轻量交付证明单人业务也能形成正利润",
+            "intro": "Hear it是一款由单人运营的iOS发音练习App，TrustMRR通过RevenueCat验证其近30天收入208美元、MRR 311美元；创始人另行自报过去12个月收入6830美元、利润5690美元，约83%的利润率，需与验证数据分开看。产品面向语言学习者，定价为每周5.99美元、每年29.99美元或终身9.99美元，依靠App Store搜索优化获得自然下载，以SwiftUI和RevenueCat交付。它的杠杆是低服务成本与重复订阅，限制是收入规模仍小、商店算法依赖和增长速度有限。",
+            "xiaziQuote": "单人公司不一定先追大规模，先让获客和交付都足够轻，也能形成真利润。",
+            "doudouQuote": "5690美元利润是创始人自报，近30天收入和MRR才是平台验证口径。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo app Hear it reports $5,690 in trailing-year profit",
+            "headlineView": "A narrow pronunciation tool uses App Store search, freemium pricing and lightweight delivery to show how a one-person business can reach positive profit",
+            "headlineFull": "Solo app Hear it reports $5,690 in trailing-year profit; A narrow pronunciation tool uses App Store search, freemium pricing and lightweight delivery to show how a one-person business can reach positive profit",
+            "intro": "Hear it is a solo-run iOS pronunciation app. TrustMRR verifies $208 in 30-day revenue and $311 MRR through RevenueCat, while the founder separately reports $6,830 in trailing-12-month revenue and $5,690 in profit, about an 83% margin. It serves language learners at $5.99 weekly, $29.99 yearly or $9.99 lifetime, acquires downloads organically through App Store optimization, and delivers through SwiftUI and RevenueCat. Its leverage is low service cost plus repeat subscriptions; its limits are still-small revenue, dependence on store discovery and a modest growth ceiling.",
+            "xiaziQuote": "A one-person company need not chase scale first: lightweight acquisition and delivery can still produce real profit.",
+            "doudouQuote": "The $5,690 profit is founder-reported; only 30-day revenue and MRR use the platform's verified scope.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "d3fc60c6-7e61-5450-9aa4-448262e96c42",
+            "topicId": "2d30e62b-6cef-51be-9d53-872b0b501ef9",
+            "title": "Hear it verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/hear-it",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f810a9b6-6383-58bf-be59-b1fa4237e14e",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "vidai-verified-ai-video-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-vidai-revenue-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Vid.AI验证MRR达55295美元",
+            "headlineView": "把脚本变成含配音、画面和剪辑的成片，AI价值直接落在创作者持续出片的生产成本上",
+            "headlineFull": "Vid.AI验证MRR达55295美元；把脚本变成含配音、画面和剪辑的成片，AI价值直接落在创作者持续出片的生产成本上",
+            "intro": "Vid.AI面向内容创作者与YouTube用户，把想法或脚本自动生成配音、视觉素材并完成剪辑。TrustMRR通过Stripe验证其近30天收入40447美元、MRR 55295美元、累计收入1613729美元和777个活跃订阅；产品采用每月39、99和199美元三级订阅，由2至5人团队运营且未融资。获客主要来自Meta广告和影响者合作，商业结果说明用户愿为减少人工剪辑与稳定产能付费，但广告成本、内容质量一致性与平台规则仍是主要风险。",
+            "xiaziQuote": "AI真正赚钱的落点不是生成一次惊喜，而是替客户持续省下制作时间。",
+            "doudouQuote": "这里的收入与订阅已验证，但团队规模不是一人公司，不能与OPC栏目混淆。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI App",
+            "headlineFact": "Vid.AI verifies $55,295 MRR",
+            "headlineView": "Turning scripts into voiced, visual and edited videos puts AI value directly against creators' recurring production cost",
+            "headlineFull": "Vid.AI verifies $55,295 MRR; Turning scripts into voiced, visual and edited videos puts AI value directly against creators' recurring production cost",
+            "intro": "Vid.AI serves content creators and YouTubers by turning an idea or script into voiceovers, visuals and edited video. TrustMRR verifies $40,447 in 30-day revenue, $55,295 MRR, $1,613,729 lifetime revenue and 777 active subscriptions through Stripe; the bootstrapped company has 2-5 people and prices plans at $39, $99 and $199 per month. Acquisition comes mainly from Meta ads and influencers. The result shows willingness to pay for lower editing labor and steady output, while ad costs, quality consistency and platform rules remain key risks.",
+            "xiaziQuote": "AI makes money here not by creating one surprise, but by repeatedly saving customers production time.",
+            "doudouQuote": "Revenue and subscriptions are verified, but this is a small team rather than a one-person company.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI App."
+          }
+        },
+        "sources": [
+          {
+            "id": "e3f10ec7-7408-5b6d-b892-c1daa3864cbf",
+            "topicId": "f810a9b6-6383-58bf-be59-b1fa4237e14e",
+            "title": "Vid.AI verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/vidai-llc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "aeac5b8d-abeb-5a59-b6fc-a36b9376c060",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "hang-dach-hammock-cross-border-revenue",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "DE",
+          "AT",
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-hang-dach-commerce-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "HÄNG累计验证收入接近500万美元",
+            "headlineView": "自研高毛利户外吊床以精简自动化运营覆盖德语区，区域跨境也能靠产品差异和渠道复用赚钱",
+            "headlineFull": "HÄNG累计验证收入接近500万美元；自研高毛利户外吊床以精简自动化运营覆盖德语区，区域跨境也能靠产品差异和渠道复用赚钱",
+            "intro": "德国户外吊床品牌HÄNG面向德国、奥地利和瑞士等DACH市场销售自研产品。TrustMRR最新统计显示其累计验证收入4987915美元、近30天约2.4万美元，并将其描述为高毛利、强客户信任且高度自动化的精简电商品牌。赚钱机制是用差异化实体产品承接区域统一语言与相近消费场景，再复用线上获客和自动化履约；主要成本与风险来自库存、跨境物流、退货、户外品类季节性和付费渠道波动，公开数据未披露净利润率。",
+            "xiaziQuote": "跨境不一定先做全球，先把一个相邻区域的产品、语言和履约跑通也能形成规模。",
+            "doudouQuote": "收入已经验证，但高毛利是卖方描述，净利润率仍未公开。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Ecommerce",
+            "headlineFact": "HÄNG approaches $5 million in verified lifetime revenue",
+            "headlineView": "A proprietary high-margin hammock line reaches the German-speaking region through lean automation, showing how regional cross-border commerce can monetize product differentiation",
+            "headlineFull": "HÄNG approaches $5 million in verified lifetime revenue; A proprietary high-margin hammock line reaches the German-speaking region through lean automation, showing how regional cross-border commerce can monetize product differentiation",
+            "intro": "German outdoor-hammock brand HÄNG sells proprietary products across the DACH region including Germany, Austria and Switzerland. TrustMRR's latest statistics show $4,987,915 in verified lifetime revenue and roughly $24,000 over 30 days, describing a lean, highly automated brand with strong customer trust and high-margin products. The model combines differentiated physical goods with one language region and reusable online acquisition and fulfillment. Key costs and risks are inventory, cross-border logistics, returns, outdoor seasonality and paid-channel volatility; public data does not disclose net margin.",
+            "xiaziQuote": "Cross-border commerce need not start global; one adjacent region can scale once product, language and fulfillment fit together.",
+            "doudouQuote": "Revenue is verified, but high margin is the seller's description and net profitability remains undisclosed.",
+            "footerTakeaway": "Keyword: Cross-Border Ecommerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "118d16c5-ff8c-5f40-a387-a25507a0241b",
+            "topicId": "aeac5b8d-abeb-5a59-b6fc-a36b9376c060",
+            "title": "Green Tech startups — verified revenue",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/category/green-tech",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6cb21395-029b-5c59-8878-f9f26e1655a6",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "nobel-medicine-optogenetics-2026",
+        "rank": 6,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "DE",
+          "SE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-nobel-optogenetics-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生命科学",
+            "headlineFact": "2026医学诺奖授予光遗传学三位开创者",
+            "headlineView": "光控离子通道让研究者能在活体中开关特定神经元，把脑图谱从相关性推进到因果实验",
+            "headlineFull": "2026医学诺奖授予光遗传学三位开创者；光控离子通道让研究者能在活体中开关特定神经元，把脑图谱从相关性推进到因果实验",
+            "intro": "2026年诺贝尔生理学或医学奖授予Karl Deisseroth、Peter Hegemann与Georg Nagel，以表彰他们关于光控离子通道和光遗传学的发现。该方法把光敏蛋白导入特定神经元，再用光在活体中精确开启或关闭其活动，使研究者可以测试神经回路与记忆、情绪、行为和疾病之间的因果关系。欧盟委员会表示Hegemann曾获得240万欧元ERC高级研究资助；这说明长期基础研究、工具发明与全球实验室采用共同构成了奖项价值。",
+            "xiaziQuote": "真正改变学科的工具，常常不是给出一张更清楚的图，而是让因果第一次可以被操控。",
+            "doudouQuote": "奖项表彰的是基础发现，临床治疗仍需独立验证和长期转化。",
+            "footerTakeaway": "今日关键词：生命科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Life Science",
+            "headlineFact": "2026 medicine Nobel honors three optogenetics pioneers",
+            "headlineView": "Light-gated ion channels let scientists switch selected neurons in living systems, moving brain maps from correlation toward causal experiments",
+            "headlineFull": "2026 medicine Nobel honors three optogenetics pioneers; Light-gated ion channels let scientists switch selected neurons in living systems, moving brain maps from correlation toward causal experiments",
+            "intro": "The 2026 Nobel Prize in Physiology or Medicine goes to Karl Deisseroth, Peter Hegemann and Georg Nagel for discoveries concerning light-gated ion channels and optogenetics. The method introduces light-sensitive proteins into selected neurons and uses light to turn activity on or off in living systems, allowing causal tests of circuits linked to memory, emotion, behavior and disease. The European Commission notes that Hegemann received a €2.4 million ERC Advanced Grant; the prize reflects the combined value of long-horizon basic research, tool invention and worldwide laboratory adoption.",
+            "xiaziQuote": "A field-changing tool often does more than sharpen the picture: it makes causality experimentally controllable for the first time.",
+            "doudouQuote": "The prize recognizes foundational discoveries; clinical treatments still require separate validation and long translation.",
+            "footerTakeaway": "Keyword: Life Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "a7168c7f-d32e-54fb-9bc5-b7522bd50040",
+            "topicId": "6cb21395-029b-5c59-8878-f9f26e1655a6",
+            "title": "EU-funded researcher Peter Hegemann wins 2026 Nobel Prize in Physiology or Medicine",
+            "publisher": "European Commission",
+            "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/eu-funded-researcher-peter-hegemann-wins-2026-nobel-prize-physiology-or-medicine-2026-10-05_en",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "624ac2e0-d8eb-520d-9b36-9018b686e4d5",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "esa-vast-post-iss-haven-cooperation",
+        "rank": 7,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "EU",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-esa-vast-haven-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "商业航天",
+            "headlineFact": "ESA与Vast扩大国际空间站退役后合作",
+            "headlineView": "三年备忘录把欧洲宇航员、微重力研究、货运与未来商业空间站接口放进同一份可行性路线图",
+            "headlineFull": "ESA与Vast扩大国际空间站退役后合作；三年备忘录把欧洲宇航员、微重力研究、货运与未来商业空间站接口放进同一份可行性路线图",
+            "intro": "ESA与Vast在IAC 2026期间签署新的三年谅解备忘录，替代2024年版本并扩大人类航天、科研、技术和商业化合作范围。双方将研究欧洲宇航员未来前往Haven空间站、ESA硬件和科研载荷使用、上下行货运、乘组时间以及欧洲货运和载人飞船对接等可能性，并先开展联合可行性研究形成路线图和指示性时间表。它为国际空间站退役后的低轨连续使用保留选项，但目前仍是非约束性准备框架，不等于已经购买任务。",
+            "xiaziQuote": "商业空间站真正的竞争力，不只是舱体，而是谁能提前把科研、乘组和物流接口接起来。",
+            "doudouQuote": "这是一份三年备忘录与可行性研究，具体任务和采购尚未确定。",
+            "footerTakeaway": "今日关键词：商业航天。"
+          },
+          "en-US": {
+            "categoryLabel": "Commercial Space",
+            "headlineFact": "ESA and Vast broaden post-ISS cooperation",
+            "headlineView": "A three-year memorandum puts European astronauts, microgravity research, cargo and future commercial-station interfaces into one feasibility roadmap",
+            "headlineFull": "ESA and Vast broaden post-ISS cooperation; A three-year memorandum puts European astronauts, microgravity research, cargo and future commercial-station interfaces into one feasibility roadmap",
+            "intro": "ESA and Vast signed a new three-year memorandum during IAC 2026, replacing their 2024 version and broadening cooperation across human spaceflight, science, technology and commercialization. They will study possible European astronaut missions to Haven stations, ESA hardware and research use, upmass and downmass, crew time, and future European cargo or crew vehicle interfaces, beginning with a joint feasibility study and indicative roadmap. The agreement preserves options for low-Earth-orbit continuity after the ISS, but remains a non-binding preparation framework rather than a purchased mission.",
+            "xiaziQuote": "A commercial station competes through more than its habitat; it wins by connecting research, crew and logistics interfaces early.",
+            "doudouQuote": "This is a three-year memorandum and feasibility study, not a confirmed mission or procurement.",
+            "footerTakeaway": "Keyword: Commercial Space."
+          }
+        },
+        "sources": [
+          {
+            "id": "c419646b-5aa9-5f18-870b-6ba510339199",
+            "topicId": "624ac2e0-d8eb-520d-9b36-9018b686e4d5",
+            "title": "ESA and Vast strengthen cooperation on post-ISS",
+            "publisher": "European Space Agency",
+            "url": "https://www.esa.int/Newsroom/Press_Releases/The_European_Space_Agency_and_Vast_Build_on_Existing_Mission_Collaborations_and_Strengthen_Cooperation_on_Post-ISS",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2e87cc02-02fe-572a-a9df-d1a771a93bc2",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "asia-pacific-amr-plans-funding-gap",
+        "rank": 8,
+        "category": "science",
+        "region": "Asia-Pacific",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-asia-pacific-amr-funding-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共健康",
+            "headlineFact": "亚太近半耐药性行动计划仍未核算成本",
+            "headlineView": "政策文件越来越完整，但预算、院感基础设施与合理用药指标仍决定计划能否真正救命",
+            "headlineFull": "亚太近半耐药性行动计划仍未核算成本；政策文件越来越完整，但预算、院感基础设施与合理用药指标仍决定计划能否真正救命",
+            "intro": "WHO与日本政府发布的28国区域数据表明，27国已批准至少一份跨部门抗微生物药物耐药性行动计划；第二代计划包含监测框架的比例从33%升至93%，含可量化目标的比例从8%升至71%。但49%的现有计划仍未核算成本，只有8国完全用国内资金支持；仅16国报告超过75%的医疗机构具备基本水、环境卫生和个人卫生服务，只有9国的Access类抗生素使用占比超过70%。制度设计在进步，资金与执行基础仍是主要缺口。",
+            "xiaziQuote": "公共健康计划的成熟度，最终要看预算、设施和用药行为能否一起改变。",
+            "doudouQuote": "有计划不等于有执行；49%未核算成本就是最直接的风险信号。",
+            "footerTakeaway": "今日关键词：公共健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Public Health",
+            "headlineFact": "Nearly half of Asia-Pacific AMR plans remain uncosted",
+            "headlineView": "Policy documents are improving, but budgets, infection-control infrastructure and appropriate-use metrics still determine whether plans save lives",
+            "headlineFull": "Nearly half of Asia-Pacific AMR plans remain uncosted; Policy documents are improving, but budgets, infection-control infrastructure and appropriate-use metrics still determine whether plans save lives",
+            "intro": "WHO and Japan's regional data from 28 countries show that 27 have endorsed at least one multisectoral antimicrobial-resistance plan. Second-generation plans with monitoring frameworks rose from 33% to 93%, and those with measurable targets from 8% to 71%. Yet 49% of current plans are still uncosted and only eight countries fully fund activities domestically; just 16 report basic water, sanitation and hygiene in more than 75% of health facilities, while only nine say Access antibiotics exceed 70% of use. Governance is improving, but financing and delivery remain the gap.",
+            "xiaziQuote": "A public-health plan matures only when budgets, facilities and prescribing behavior change together.",
+            "doudouQuote": "Having a plan is not execution; the 49% uncosted share is the clearest risk signal.",
+            "footerTakeaway": "Keyword: Public Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "b27f8bff-1aa8-536d-aafe-748702bcb07f",
+            "topicId": "2e87cc02-02fe-572a-a9df-d1a771a93bc2",
+            "title": "Asia-Pacific countries sharpen AMR plans but most remain unfunded",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/japan/news/detail/05-10-2026-asia-pacific-countries-sharpen-plans-to-fight-antimicrobial-resistance--but-most-remain-unfunded",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "8d388fb1-0891-5e3f-a53b-324115835dd9",
+        "issueId": "2d751075-b93f-5ce1-b69c-aed5fe2acbc3",
+        "slug": "culorads-gpu-semidefinite-optimization",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "CN",
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-culorads-gpu-sdp-20261006",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "计算科学",
+            "headlineFact": "GPU让部分大规模优化问题提速最高四个数量级",
+            "headlineView": "cuLoRADS把低秩算法与H100硬件协同设计，令过去需数十小时的问题缩短到秒或分钟",
+            "headlineFull": "GPU让部分大规模优化问题提速最高四个数量级；cuLoRADS把低秩算法与H100硬件协同设计，令过去需数十小时的问题缩短到秒或分钟",
+            "intro": "PNAS论文介绍GPU加速的低秩交替方向乘子分裂求解器cuLoRADS，用算法与硬件协同设计突破半定规划的规模瓶颈。部分MaxCut问题在80GB NVIDIA H100上可于10秒至1分钟求解，而此前CPU求解器需要数十小时；系统还在数分钟内处理巨大矩阵完成与最大割实例，并解决量子有序搜索中持续18年的半定规划计算障碍。作者报告特定稀疏、低秩问题的速度与可扩展性提升最高四个数量级，不能外推为所有优化任务。",
+            "xiaziQuote": "算力升级最有价值的时刻，是算法也同时为硬件结构重新设计。",
+            "doudouQuote": "四个数量级针对特定稀疏低秩问题，并不等于所有优化都能同样提速。",
+            "footerTakeaway": "今日关键词：计算科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Computational Science",
+            "headlineFact": "GPUs accelerate some massive optimization problems by four orders",
+            "headlineView": "cuLoRADS co-designs low-rank algorithms with H100 hardware, shrinking jobs from tens of hours to seconds or minutes",
+            "headlineFull": "GPUs accelerate some massive optimization problems by four orders; cuLoRADS co-designs low-rank algorithms with H100 hardware, shrinking jobs from tens of hours to seconds or minutes",
+            "intro": "A PNAS paper introduces cuLoRADS, a GPU-accelerated low-rank alternating-direction splitting solver designed to break semidefinite programming's scale bottleneck through algorithm-hardware co-design. Some MaxCut instances run in 10 seconds to one minute on an 80 GB NVIDIA H100 where reported CPU solvers took tens of hours; the system also handles huge matrix-completion and MaxCut instances in minutes and clears an 18-year computational barrier in quantum ordered search. The authors report up to four orders of speed and scalability gain for specific sparse, low-rank structures, not every optimization task.",
+            "xiaziQuote": "A compute upgrade matters most when the algorithm is redesigned for the hardware at the same time.",
+            "doudouQuote": "The four-order gain applies to particular sparse, low-rank problems, not all optimization workloads.",
+            "footerTakeaway": "Keyword: Computational Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "56360c3e-0486-59d1-9e32-41d8ec2c9d2b",
+            "topicId": "8d388fb1-0891-5e3f-a53b-324115835dd9",
+            "title": "Large-scale semidefinite programming with graphics processing units",
+            "publisher": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42804647/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261006_4aa99e15a7d2dc49c7732379"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-06",
+    "releaseId": "rel_20261006_4aa99e15a7d2dc49c7732379",
+    "assetBatchId": "asset_prod_20261006_4aa99e15a7d2dc49c7732379",
+    "posters": [
+      {
+        "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+        "locale": "zh",
+        "contentHash": "e7fcd09f1fc1af3a1c3f62e13cb9dfc5a37287cb0f5777aca4fa5d8f9aa3f0d2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/global-operator-radar-20261006.png"
+      },
+      {
+        "topicId": "2f998c9d-2f21-5951-bc02-3ac1fc96a758",
+        "locale": "en",
+        "contentHash": "df7d0fe71d2a790ee4c5118b09ff282017a51b4707016a7eaf02e23d2316b9fc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/global-operator-radar-20261006.png"
+      },
+      {
+        "topicId": "35480ed6-9c9c-5f65-aa56-c19be938c738",
+        "locale": "zh",
+        "contentHash": "5495f6d42d49e6eb3ec45d979608d7146b7d2d8c7cc7140a579e879a38b558c6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/openai-textgrain-eu-text-provenance.png"
+      },
+      {
+        "topicId": "35480ed6-9c9c-5f65-aa56-c19be938c738",
+        "locale": "en",
+        "contentHash": "5605a83e6bc80e0abdba6018029b960389b8d9fea94fc65671bd7c35a0294d82",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/openai-textgrain-eu-text-provenance.png"
+      },
+      {
+        "topicId": "2d30e62b-6cef-51be-9d53-872b0b501ef9",
+        "locale": "zh",
+        "contentHash": "be960f31297af9ff4e9ff2c6bdc25a7b73827da4afb6c36c07990fc27f61af85",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/hear-it-solo-pronunciation-app-profit.png"
+      },
+      {
+        "topicId": "2d30e62b-6cef-51be-9d53-872b0b501ef9",
+        "locale": "en",
+        "contentHash": "b9fec7432b76c1a4ec153eadcbe516d5650ad73d864933af40eb1cda5fdad7fc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/hear-it-solo-pronunciation-app-profit.png"
+      },
+      {
+        "topicId": "f810a9b6-6383-58bf-be59-b1fa4237e14e",
+        "locale": "zh",
+        "contentHash": "9732b54a1eb92df6e0411f347635341340f2a24bae0b999b67fba63fd52d7541",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/vidai-verified-ai-video-revenue.png"
+      },
+      {
+        "topicId": "f810a9b6-6383-58bf-be59-b1fa4237e14e",
+        "locale": "en",
+        "contentHash": "abbc64077ccc887a5dc3e3a7adee0e3fa27a4cc8101d0ba3e6574d725e858b23",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/vidai-verified-ai-video-revenue.png"
+      },
+      {
+        "topicId": "aeac5b8d-abeb-5a59-b6fc-a36b9376c060",
+        "locale": "zh",
+        "contentHash": "7724429bbc91385b3b6b2c269c2a84c790d9060c9e729436e89e016a71b65b88",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/hang-dach-hammock-cross-border-revenue.png"
+      },
+      {
+        "topicId": "aeac5b8d-abeb-5a59-b6fc-a36b9376c060",
+        "locale": "en",
+        "contentHash": "2b677110cb3cda682350da2d34e37eb9c282310a9e240ae1076b2e03fb488510",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/hang-dach-hammock-cross-border-revenue.png"
+      },
+      {
+        "topicId": "6cb21395-029b-5c59-8878-f9f26e1655a6",
+        "locale": "zh",
+        "contentHash": "b458328d9576821a9967e6f10b3b42214ba21bf15dc55272321aaf9ed11cfd01",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/nobel-medicine-optogenetics-2026.png"
+      },
+      {
+        "topicId": "6cb21395-029b-5c59-8878-f9f26e1655a6",
+        "locale": "en",
+        "contentHash": "6ca73d0dc2285a70b9c65dabe05215cf17d05cdbe82c39c30dc79bb4b17967ae",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/nobel-medicine-optogenetics-2026.png"
+      },
+      {
+        "topicId": "624ac2e0-d8eb-520d-9b36-9018b686e4d5",
+        "locale": "zh",
+        "contentHash": "172bdfbc71204ca4f7c8a066fd363af3fd00e7a656a9ae01343d8f02629180bb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/esa-vast-post-iss-haven-cooperation.png"
+      },
+      {
+        "topicId": "624ac2e0-d8eb-520d-9b36-9018b686e4d5",
+        "locale": "en",
+        "contentHash": "51b37e0bcda1d8cecd1635a2db185e29985a200000eab25d07e70d2d3daf784c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/esa-vast-post-iss-haven-cooperation.png"
+      },
+      {
+        "topicId": "2e87cc02-02fe-572a-a9df-d1a771a93bc2",
+        "locale": "zh",
+        "contentHash": "2f6e6cdb962e73d1bf90e7f1642e638aa4acf8eb61ef476d0d5396135760c163",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/asia-pacific-amr-plans-funding-gap.png"
+      },
+      {
+        "topicId": "2e87cc02-02fe-572a-a9df-d1a771a93bc2",
+        "locale": "en",
+        "contentHash": "0ec7e51c8b6135f5262a4a1e145c8fd7749b68915873451af3e7831943220b4d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/asia-pacific-amr-plans-funding-gap.png"
+      },
+      {
+        "topicId": "8d388fb1-0891-5e3f-a53b-324115835dd9",
+        "locale": "zh",
+        "contentHash": "c9149c3a576b236ab39a9224188236f273e6d7b49424ada222a387189239f5de",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/zh/culorads-gpu-semidefinite-optimization.png"
+      },
+      {
+        "topicId": "8d388fb1-0891-5e3f-a53b-324115835dd9",
+        "locale": "en",
+        "contentHash": "c2e15f4087375118b82fb2434add3c23976bc9ecbbc358955b3f79c8beef4b44",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261006_4aa99e15a7d2dc49c7732379/en/culorads-gpu-semidefinite-optimization.png"
+      }
+    ]
+  }
+}
