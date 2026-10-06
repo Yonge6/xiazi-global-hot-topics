@@ -1,0 +1,724 @@
+{
+  "issue": {
+    "id": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+    "slug": "2026-10-07",
+    "style": {
+      "name": "Ligne Claire",
+      "zhName": "清线漫画风格",
+      "description": "Style Atlas daily pick #91: Ligne Claire. Use an original premium editorial clear-line comic language without imitating any named artist, studio, book or existing character: clean uniform contours, flat controlled color, precise perspective, legible diagrams, calm backgrounds and crisp story-specific scenes. Keep copy on quiet low-texture fields with strong contrast. Each poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and broad breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage scene, using flowing paths, varied speech-panel shapes and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm. Every final image must fill the entire 887x1774 canvas with zero non-design white edge strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-07",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-07T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-06T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+    "topics": [
+      {
+        "id": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "global-operator-radar-20261007",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月7日全球经营雷达",
+            "headlineView": "AI治理、单人订阅、AI应用收入、跨境转化、基础科学、能源韧性、住房政治与脑影像证据进入同一张行动地图",
+            "headlineFull": "10月7日全球经营雷达；AI治理、单人订阅、AI应用收入、跨境转化、基础科学、能源韧性、住房政治与脑影像证据进入同一张行动地图",
+            "intro": "1. 美国新设由情报总监Jay Clayton牵头的联邦AI协调小组，但具体权力、预算与规则仍待明确。\n2. Zigpoll创始人自报单人经营达到12.5万美元MRR，Shopify应用商店约贡献三分之一新注册。\n3. AI音乐视频应用One More Shot AI一年做到约71万美元月度收入运行率，收入来自订阅与追加内容包。\n4. 新加坡表带品牌Delugs本地化价格、币种和关税后，结账转化率同比提高58%，总订单增长13%。\n5. Francis Halzen因IceCube与高能宇宙中微子发现获得2026年诺贝尔物理学奖。\n6. IEA预计东南亚2026至2030年电力需求年均增长5.4%，区域互联与供应多元化成为能源安全重点。\n7. 西班牙解散议会并把大选提前至11月29日，住房改革受阻成为重新寻求授权的直接背景。\n8. UCLA汇总八国3711人的脑影像，发现童年虐待严重度与多处脑结构差异相关，但不证明因果或个人能力受损。",
+            "xiaziQuote": "今天的共同信号是：增长、治理和科学结论都必须把可核验结果与尚未证明的部分分开。",
+            "doudouQuote": "先看数据口径、制度权限与研究边界，再决定行动。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 7 Global Operator Radar",
+            "headlineView": "AI governance, solo subscriptions, AI-app revenue, cross-border conversion, basic science, energy resilience, housing politics and brain-imaging evidence enter one action map",
+            "headlineFull": "October 7 Global Operator Radar; AI governance, solo subscriptions, AI-app revenue, cross-border conversion, basic science, energy resilience, housing politics and brain-imaging evidence enter one action map",
+            "intro": "1. A new US federal AI coordinating group is led by intelligence chief Jay Clayton, while its exact authority, budget and rules remain unclear.\n2. Zigpoll's founder reports $125,000 MRR as a solo operator, with the Shopify App Store supplying about one-third of new signups.\n3. AI music-video app One More Shot AI reached an approximately $710,000 monthly revenue run rate in one year through subscriptions and add-on packs.\n4. Singapore watch-strap brand Delugs localized pricing, currency and duties, lifting checkout conversion 58% year over year and total orders 13%.\n5. Francis Halzen wins the 2026 Nobel Prize in Physics for IceCube and the discovery of high-energy cosmic neutrinos.\n6. The IEA projects Southeast Asian electricity demand to grow 5.4% annually in 2026-2030, making regional links and diversified supply priorities.\n7. Spain dissolves parliament and brings its election forward to November 29 after blocked housing reforms triggered a fresh mandate bid.\n8. A UCLA-led MRI study of 3,711 people in eight countries links childhood-abuse severity to structural brain differences, without proving causation or individual impairment.",
+            "xiaziQuote": "Today's shared signal: separate verified outcomes from what governance and science have not yet proved.",
+            "doudouQuote": "Check the metric, the legal authority and the study boundary before acting.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "b847a8d8-6b9e-5c38-af2d-e0bc5cf90cc4",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "Trump Names Jay Clayton AI Czar to Lead New Super Intelligence Force",
+            "publisher": "TechRepublic",
+            "url": "https://www.techrepublic.com/article/news-trump-jay-clayton-ai-czar-super-intelligence-force/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "b43cf222-281f-5620-b4da-ea1f7bff93f4",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "Hitting $125k MRR as a solo founder by doubling down on the right segment",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "223e2db6-a6b4-57d3-b16d-427969e62373",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "How KRNL uses RevenueCat to focus its AI app studio on what is worth scaling",
+            "publisher": "RevenueCat",
+            "url": "https://www-docs.revenuecat.com/customers/how-krnl-focuses-ai-app-studio-revenuecat",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "0c0a66f7-ef32-51dc-841c-19c2391f75c1",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "How Delugs expanded globally while boosting checkout conversion by 58 percent",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/delugs",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "bddcb5e0-7ff3-5084-9425-164cd9750c26",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "Francis Halzen named 2026 Nobel laureate in physics",
+            "publisher": "University of Wisconsin-Madison",
+            "url": "https://news.wisc.edu/university-of-wisconsin-madison-professor-francis-halzen-named-2026-nobel-laureate-in-physics/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9847ed0e-5f8e-5c70-a5f7-a8de090b35e6",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "ASEAN Energy Security Review executive summary",
+            "publisher": "International Energy Agency",
+            "url": "https://www.iea.org/reports/asean-energy-security-review/executive-summary",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5438604c-2c90-5878-a2a9-f638cf6139e4",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "Pedro Sanchez announces general elections for November 29",
+            "publisher": "La Moncloa",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2026/20261005-institutional-statement.aspx",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5eea19bb-ffe8-5ad6-befa-16c9a231debd",
+            "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+            "title": "Childhood abuse leaves a scar on the brain, study finds",
+            "publisher": "UCLA",
+            "url": "https://newsroom.ucla.edu/releases/childhood-abuse-leaves-scar-on-brain-ucla-research-study",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "19878653-d806-5faf-9ffd-334b161822f5",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "us-super-intelligence-force-ai-governance",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-us-ai-task-force-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "美国组建新的联邦AI协调小组",
+            "headlineView": "情报、国防、消费者保护与政府人事负责人共同进入AI治理核心，但权限与问责框架仍不清楚",
+            "headlineFull": "美国组建新的联邦AI协调小组；情报、国防、消费者保护与政府人事负责人共同进入AI治理核心，但权限与问责框架仍不清楚",
+            "intro": "美国政府宣布由国家情报总监Jay Clayton牵头新的“Super Intelligence Force”，副手来自联邦贸易委员会、国防研发体系和人事管理局。小组将协调联邦政府与消费者、公共利益团体、关键基础设施和AI公司的互动。它把竞争力、安全、消费者保护与政府用人放到同一机构讨论，但目前公开信息没有给出独立预算、法定权力或具体规则；企业应把它视为政策方向信号，而不是已经生效的新合规义务。",
+            "xiaziQuote": "治理架构已经成形，真正影响产品的仍是后续权力、规则与执行。",
+            "doudouQuote": "别把一个协调小组误读成一套已经落地的监管制度。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "The US forms a new federal AI coordinating group",
+            "headlineView": "Intelligence, defense, consumer-protection and federal-workforce leaders enter the core of AI governance, while authority and accountability remain unclear",
+            "headlineFull": "The US forms a new federal AI coordinating group; Intelligence, defense, consumer-protection and federal-workforce leaders enter the core of AI governance, while authority and accountability remain unclear",
+            "intro": "The US government announced a new Super Intelligence Force led by Director of National Intelligence Jay Clayton, with senior leaders from the Federal Trade Commission, defense research and the Office of Personnel Management. The group will coordinate federal engagement with consumers, public-interest groups, critical-infrastructure providers and AI companies. It brings competitiveness, security, consumer protection and the federal workforce into one forum, but public information does not yet establish an independent budget, statutory power or detailed rules. Companies should treat it as a policy-direction signal, not a compliance obligation already in force.",
+            "xiaziQuote": "The governance structure is forming; product impact will come from later authority, rules and enforcement.",
+            "doudouQuote": "Do not mistake a coordinating group for a complete regulatory regime.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "c9d4e106-3dbb-5f2b-b36a-9a18636774e7",
+            "topicId": "19878653-d806-5faf-9ffd-334b161822f5",
+            "title": "Trump Names Jay Clayton AI Czar to Lead New Super Intelligence Force",
+            "publisher": "TechRepublic",
+            "url": "https://www.techrepublic.com/article/news-trump-jay-clayton-ai-czar-super-intelligence-force/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "609b5576-fd1a-5be2-a0ec-99d5c9949ec9",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "zigpoll-solo-founder-125k-mrr",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-zigpoll-solo-mrr-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Zigpoll创始人自报单人做到12.5万美元MRR",
+            "headlineView": "把电商问卷做深、借平台分发与代理商口碑扩张，比同时追逐更多产品更能放大单人杠杆",
+            "headlineFull": "Zigpoll创始人自报单人做到12.5万美元MRR；把电商问卷做深、借平台分发与代理商口碑扩张，比同时追逐更多产品更能放大单人杠杆",
+            "intro": "Zigpoll向电商品牌和SaaS团队销售按问卷回答量分级的月度订阅，创始人Jason Zigelbaum称自己无联合创始人、无融资、无销售团队，2026年6月达到约12.5万美元MRR，较年初约103万美元ARR增长44%；数字来自创始人披露，未经独立审计。约三分之一新注册来自Shopify应用商店，约四分之一来自口碑，约14%来自ChatGPT、Claude和Gemini推荐。交付依靠稳定的软件栈和第三方服务，主要成本是基础设施、工具、少量付费获客和创始人时间；限制是小商户流失、平台依赖与单点经营风险。",
+            "xiaziQuote": "一人公司的规模来自渠道复利与范围克制，不是把一切都自己做。",
+            "doudouQuote": "12.5万美元MRR是创始人披露，读数字时要保留审计边界。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Zigpoll's founder reports $125,000 MRR as a solo operator",
+            "headlineView": "Going deep on ecommerce surveys and compounding platform distribution plus agency referrals creates more solo leverage than chasing more products",
+            "headlineFull": "Zigpoll's founder reports $125,000 MRR as a solo operator; Going deep on ecommerce surveys and compounding platform distribution plus agency referrals creates more solo leverage than chasing more products",
+            "intro": "Zigpoll sells monthly subscriptions tiered by survey responses to ecommerce brands and SaaS teams. Founder Jason Zigelbaum says he has no cofounder, funding or sales team and reached about $125,000 MRR in June 2026, up 44% from roughly $1.03 million ARR at the start of the year; these are founder-disclosed, unaudited figures. About one-third of new signups come from the Shopify App Store, one-quarter from word of mouth and roughly 14% from recommendations by ChatGPT, Claude and Gemini. Delivery relies on a stable software stack and third-party services; costs include infrastructure, tools, limited paid acquisition and founder time. Risks include small-merchant churn, platform dependence and single-person concentration.",
+            "xiaziQuote": "Solo scale comes from compounding channels and disciplined scope, not doing everything alone.",
+            "doudouQuote": "$125,000 MRR is founder-reported, so keep the audit boundary visible.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "6899ed78-3f4d-5ee4-a41f-449c23361d76",
+            "topicId": "609b5576-fd1a-5be2-a0ec-99d5c9949ec9",
+            "title": "Hitting $125k MRR as a solo founder by doubling down on the right segment",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/hitting-125k-mrr-as-a-solo-founder-by-doubling-down-on-the-right-segment-c4o2Tfs6mjdpip5yZhaO",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7edc79df-fc04-5a06-950f-dcf86586c776",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "one-more-shot-ai-710k-monthly-run-rate",
+        "rank": 4,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "IT"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-one-more-shot-ai-revenue-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "One More Shot AI一年做到约71万美元月度收入运行率",
+            "headlineView": "把AI视频集中服务音乐人，并用订阅加追加内容包承接高频创作，收入信号才从一次试用变成持续消费",
+            "headlineFull": "One More Shot AI一年做到约71万美元月度收入运行率；把AI视频集中服务音乐人，并用订阅加追加内容包承接高频创作，收入信号才从一次试用变成持续消费",
+            "intro": "KRNL旗下One More Shot AI让音乐人生成口型同步音乐视频、歌词视频、封面与社交推广素材。KRNL首席执行官称产品上线一年后达到约71万美元月度收入运行率；RevenueCat被用作App Store、Google Play和Stripe的统一变现数据源，数字属于公司案例披露，并非审计财报。产品通过订阅获得基础使用权，再向持续创作的用户销售追加内容包；团队按留存、回本期、价格与LTV决定是否继续投放。赚钱机制不是“用了AI”本身，而是明确人群、反复使用和可计量追加消费；风险是生成成本、买量回本和创作者需求波动。",
+            "xiaziQuote": "AI应用真正的收入飞轮，是用户回来继续创作并愿意再次付费。",
+            "doudouQuote": "月度运行率是公司披露口径，不等同于已审计月收入。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI Application",
+            "headlineFact": "One More Shot AI reaches an approximately $710,000 monthly revenue run rate in one year",
+            "headlineView": "Focusing AI video on musicians and combining subscriptions with add-on packs turns a trial into repeat creative spending",
+            "headlineFull": "One More Shot AI reaches an approximately $710,000 monthly revenue run rate in one year; Focusing AI video on musicians and combining subscriptions with add-on packs turns a trial into repeat creative spending",
+            "intro": "KRNL's One More Shot AI lets musicians make lip-synced music videos, lyric videos, covers and promotional social assets. KRNL's CEO says the product reached an approximately $710,000 monthly revenue run rate after one year. RevenueCat serves as the monetization source of truth across App Store, Google Play and Stripe; the number is a company case-study disclosure, not an audited financial statement. Subscriptions provide access, while additional packs monetize continued creation. The team uses retention, payback period, pricing and LTV to decide where to keep investing. The business mechanism is a clear user niche, repeated creation and measurable extra spending—not AI alone. Risks include generation cost, paid-acquisition payback and volatile creator demand.",
+            "xiaziQuote": "The real AI-app flywheel is a user who returns to create and pays again.",
+            "doudouQuote": "A monthly run rate is company-disclosed, not audited monthly revenue.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "cd3fe7de-6065-5430-a5cc-30b28d2928ee",
+            "topicId": "7edc79df-fc04-5a06-950f-dcf86586c776",
+            "title": "How KRNL uses RevenueCat to focus its AI app studio on what is worth scaling",
+            "publisher": "RevenueCat",
+            "url": "https://www-docs.revenuecat.com/customers/how-krnl-focuses-ai-app-studio-revenuecat",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3a634549-c132-5f39-ba9c-058b62703d39",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "delugs-cross-border-conversion-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "SG",
+          "US",
+          "HK"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-delugs-cross-border-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Delugs跨境结账转化率同比提高58%",
+            "headlineView": "高客单表带靠兼容性选购、本地价格币种与关税透明减少错单，而不是只靠更便宜的流量",
+            "headlineFull": "Delugs跨境结账转化率同比提高58%；高客单表带靠兼容性选购、本地价格币种与关税透明减少错单，而不是只靠更便宜的流量",
+            "intro": "新加坡奢侈腕表表带品牌Delugs面向美国、中东、香港等市场销售，其中美国贡献超过40%的业务。Shopify案例显示，升级后其结账转化率同比提高58%、回头客增长14%、总订单增长13%。赚钱机制包括Watch Finder帮助用户按腕表型号匹配表带、本地化价格币种和关税、更多支付方式，以及独立B2B门户服务零售伙伴；自动首单邮件还能在发货前发现错误尺寸，降低退货损失。主要成本与风险是高SKU兼容管理、跨境税费、支付欺诈、退货和对平台基础设施的依赖，案例数据也由供应商发布。",
+            "xiaziQuote": "跨境利润常常藏在少一次错单、少一次退货和更清楚的落地价里。",
+            "doudouQuote": "58%是结账转化提升，不等同于利润也同比增长58%。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border E-commerce",
+            "headlineFact": "Delugs lifts cross-border checkout conversion 58% year over year",
+            "headlineView": "Premium watch straps win by reducing wrong orders through compatibility tools, local pricing, currencies and duty clarity—not only cheaper traffic",
+            "headlineFull": "Delugs lifts cross-border checkout conversion 58% year over year; Premium watch straps win by reducing wrong orders through compatibility tools, local pricing, currencies and duty clarity—not only cheaper traffic",
+            "intro": "Singapore luxury watch-strap brand Delugs sells across the US, Middle East, Hong Kong and other markets, with the US contributing more than 40% of business. A Shopify case study reports a 58% year-over-year increase in checkout conversion, 14% growth in returning customers and 13% growth in total orders after the upgrade. Its mechanism combines a Watch Finder for model compatibility, localized pricing, currency and duties, broader payment options, and a dedicated B2B portal for retail partners. Automated first-order emails catch sizing mistakes before fulfillment and reduce return loss. Costs and risks include high-SKU compatibility, duties, payment fraud, returns and platform dependence; the figures are also vendor-published.",
+            "xiaziQuote": "Cross-border margin often hides in one fewer wrong order, one fewer return and a clearer landed price.",
+            "doudouQuote": "A 58% conversion lift does not mean profit also rose 58%.",
+            "footerTakeaway": "Keyword: Cross-Border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "e5fb125d-ba1e-5fc8-9525-f1d87e19c2c8",
+            "topicId": "3a634549-c132-5f39-ba9c-058b62703d39",
+            "title": "How Delugs expanded globally while boosting checkout conversion by 58 percent",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/delugs",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f3c0bb10-0b6b-5c78-8a63-d25b916e4f1b",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "francis-halzen-nobel-physics-icecube",
+        "rank": 6,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "AQ"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-halzen-nobel-physics-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "Francis Halzen获2026年诺贝尔物理学奖",
+            "headlineView": "IceCube把南极冰层变成世界最大中微子望远镜，为宇宙最高能事件打开一种不依赖光的新观测方式",
+            "headlineFull": "Francis Halzen获2026年诺贝尔物理学奖；IceCube把南极冰层变成世界最大中微子望远镜，为宇宙最高能事件打开一种不依赖光的新观测方式",
+            "intro": "瑞典皇家科学院把2026年诺贝尔物理学奖授予威斯康星大学麦迪逊分校物理学家Francis Halzen，以表彰他对IceCube中微子观测站和天体高能中微子发现的决定性贡献。IceCube在南极冰层中布设探测器，追踪几乎不与物质作用的中微子；2017年它把一次高能中微子指向遥远活动星系核，随后又给出邻近活动星系与银河系高能中微子辐射证据。这不是单人完成的装置，而是大型国际合作；奖项确认的是一种全新的“中微子天文学”观测窗口。",
+            "xiaziQuote": "当光无法讲完宇宙故事时，中微子提供了另一条信使通道。",
+            "doudouQuote": "奖授予一人，发现依靠的是跨越数十年的大型合作。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "Francis Halzen wins the 2026 Nobel Prize in Physics",
+            "headlineView": "IceCube turns Antarctic ice into the world's largest neutrino telescope, opening a way to observe the highest-energy cosmic events without relying on light",
+            "headlineFull": "Francis Halzen wins the 2026 Nobel Prize in Physics; IceCube turns Antarctic ice into the world's largest neutrino telescope, opening a way to observe the highest-energy cosmic events without relying on light",
+            "intro": "The Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Physics to University of Wisconsin-Madison physicist Francis Halzen for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin. IceCube embeds detectors deep in Antarctic ice to trace particles that rarely interact with matter. In 2017 it linked a high-energy neutrino to a distant active galaxy, later adding evidence from a nearby active galaxy and the Milky Way. The observatory is a large international collaboration rather than a one-person instrument; the prize recognizes the opening of a new neutrino-astronomy window.",
+            "xiaziQuote": "When light cannot tell the whole cosmic story, neutrinos provide another messenger channel.",
+            "doudouQuote": "One person receives the prize, but decades of large-scale collaboration enabled the discovery.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "ffe147d5-86d4-5616-91dd-8f97ca3845e9",
+            "topicId": "f3c0bb10-0b6b-5c78-8a63-d25b916e4f1b",
+            "title": "Francis Halzen named 2026 Nobel laureate in physics",
+            "publisher": "University of Wisconsin-Madison",
+            "url": "https://news.wisc.edu/university-of-wisconsin-madison-professor-francis-halzen-named-2026-nobel-laureate-in-physics/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "234e8edb-720c-5bba-b654-e3d3c1d7030a",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "asean-electricity-demand-energy-security",
+        "rank": 7,
+        "category": "international",
+        "region": "Asia",
+        "countryCodes": [
+          "BN",
+          "KH",
+          "ID",
+          "LA",
+          "MY",
+          "MM",
+          "PH",
+          "SG",
+          "TH",
+          "TL",
+          "VN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-asean-energy-security-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "能源",
+            "headlineFact": "东南亚电力需求未来五年预计年均增长5.4%",
+            "headlineView": "制冷、数据中心与工业同时推高用电，单国储备已不足以应对燃料、价格和基础设施冲击",
+            "headlineFull": "东南亚电力需求未来五年预计年均增长5.4%；制冷、数据中心与工业同时推高用电，单国储备已不足以应对燃料、价格和基础设施冲击",
+            "intro": "国际能源署《东盟能源安全评估》预计，东南亚2026至2030年电力需求年均增长约5.4%，煤炭需求年均增长约4.4%，天然气消费每年增长超过3%；东盟净成品油进口到2031年还可能较2025年增加约5%。需求来自制冷、数据中心与工业扩张，而供应路线集中、进口依赖和极端天气使风险互相放大。报告建议多元化来源与路线、加快电气化和能效，并把东盟电网、跨国天然气管线与石油安全安排从协议推进到可执行的监测、应急和互助机制。",
+            "xiaziQuote": "能源安全不是多买一种燃料，而是让电网、效率与邻国协作同时可用。",
+            "doudouQuote": "5.4%需求增长意味着备用容量和跨境调度都要提前建设。",
+            "footerTakeaway": "今日关键词：能源。"
+          },
+          "en-US": {
+            "categoryLabel": "Energy",
+            "headlineFact": "Southeast Asian electricity demand is projected to grow 5.4% a year through 2030",
+            "headlineView": "Cooling, data centres and industry raise demand together, while national reserves alone cannot absorb fuel, price and infrastructure shocks",
+            "headlineFull": "Southeast Asian electricity demand is projected to grow 5.4% a year through 2030; Cooling, data centres and industry raise demand together, while national reserves alone cannot absorb fuel, price and infrastructure shocks",
+            "intro": "The IEA's ASEAN Energy Security Review projects Southeast Asian electricity demand to grow about 5.4% annually in 2026-2030, coal demand about 4.4% and gas consumption more than 3%. ASEAN net oil-product imports could rise about 5% between 2025 and 2031. Cooling, data centres and industry drive demand, while concentrated routes, import dependence and extreme weather compound risks. The report calls for diversified sources and routes, faster electrification and efficiency, and operational monitoring, emergency procedures and mutual support through the ASEAN Power Grid, the trans-ASEAN gas framework and regional petroleum-security arrangements.",
+            "xiaziQuote": "Energy security is not one more fuel source; grids, efficiency and regional cooperation must work together.",
+            "doudouQuote": "A 5.4% demand path means reserve capacity and cross-border dispatch must be built early.",
+            "footerTakeaway": "Keyword: Energy."
+          }
+        },
+        "sources": [
+          {
+            "id": "c4c93f5c-e23b-5aad-9e09-09c0de25cd43",
+            "topicId": "234e8edb-720c-5bba-b654-e3d3c1d7030a",
+            "title": "ASEAN Energy Security Review executive summary",
+            "publisher": "International Energy Agency",
+            "url": "https://www.iea.org/reports/asean-energy-security-review/executive-summary",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "67032130-3d9d-5c81-aa25-719d5b11c932",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "spain-snap-election-housing-crisis",
+        "rank": 8,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "ES"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-spain-snap-election-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际",
+            "headlineFact": "西班牙把全国大选提前至11月29日",
+            "headlineView": "住房紧张把街头抗议、议会否决与政府授权危机连成一条政治链",
+            "headlineFull": "西班牙把全国大选提前至11月29日；住房紧张把街头抗议、议会否决与政府授权危机连成一条政治链",
+            "intro": "西班牙首相Pedro Sánchez宣布解散议会，并依法把全国大选定在11月29日，较原计划提前约八个月。直接背景是少数派政府提出的住房紧急措施在议会受挫，全国多地同时出现要求解决租金、驱逐和投机问题的示威。政府随后又批准21项紧急住房措施，包括延长弱势租户保护、规范分租和季节性租赁等。提前大选让住房从社会政策变成执政授权的核心议题，也增加法规、预算与投资预期在未来两个月内反复调整的可能。",
+            "xiaziQuote": "当住房问题同时进入街头、议会与选票，它就不再只是房地产政策。",
+            "doudouQuote": "选举日期已确定，具体政策仍要看投票与新议会。",
+            "footerTakeaway": "今日关键词：国际。"
+          },
+          "en-US": {
+            "categoryLabel": "World",
+            "headlineFact": "Spain brings its general election forward to November 29",
+            "headlineView": "Housing pressure links street protests, parliamentary defeat and a government mandate crisis into one political chain",
+            "headlineFull": "Spain brings its general election forward to November 29; Housing pressure links street protests, parliamentary defeat and a government mandate crisis into one political chain",
+            "intro": "Spanish Prime Minister Pedro Sánchez announced the dissolution of parliament and set a general election for November 29, roughly eight months early. The immediate backdrop was the minority government's defeat on emergency housing measures as demonstrations across the country demanded action on rents, evictions and speculation. The government then approved 21 urgent measures, including extended protection for vulnerable tenants and new rules for room and seasonal rentals. The snap vote turns housing from a social-policy issue into a test of governing authority and raises the chance of shifting regulatory, budget and investment expectations over the next two months.",
+            "xiaziQuote": "When housing reaches streets, parliament and ballots at once, it is no longer only property policy.",
+            "doudouQuote": "The election date is fixed; specific policy still depends on the vote and the next parliament.",
+            "footerTakeaway": "Keyword: World."
+          }
+        },
+        "sources": [
+          {
+            "id": "13c3071c-38e3-58b3-9d89-1093d11c07b6",
+            "topicId": "67032130-3d9d-5c81-aa25-719d5b11c932",
+            "title": "Pedro Sanchez announces general elections for November 29",
+            "publisher": "La Moncloa",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2026/20261005-institutional-statement.aspx",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "29f1ca82-d85f-5430-920c-741acb91327f",
+        "issueId": "812997a9-374f-5d68-8ad6-1d9d6d1ccde2",
+        "slug": "childhood-abuse-brain-structure-mri-study",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-childhood-abuse-brain-study-20261007",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "八国脑影像研究关联童年虐待与脑结构差异",
+            "headlineView": "影响并非单一静态“伤痕”，而会随虐待类型、严重度、年龄与性别呈现不同模式",
+            "headlineFull": "八国脑影像研究关联童年虐待与脑结构差异；影响并非单一静态“伤痕”，而会随虐待类型、严重度、年龄与性别呈现不同模式",
+            "intro": "UCLA牵头团队汇总八国1389名创伤后应激或重度抑郁患者与2322名健康对照的MRI，共3711人，并用问卷回溯童年身体、情感和性虐待及忽视。更严重虐待与丘脑和苍白球体积异常增大、扣带峡部较小、内侧眶额皮层表面积较大等差异相关，在年轻女性中更明显；忽视呈现更有限且性别不同的模式。研究规模大且跨国，但仍是关联研究，依赖回溯性自报，不能证明虐待直接导致这些差异，也不能据脑影像推断个人认知、情绪或发展能力。",
+            "xiaziQuote": "大样本让模式更清楚，也更提醒我们不能把相关性写成命运。",
+            "doudouQuote": "脑结构差异不是个人能力标签，更不是因果结论。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "Eight-country MRI study links childhood abuse to structural brain differences",
+            "headlineView": "The pattern is not one static scar; it varies by adversity type, severity, age and sex",
+            "headlineFull": "Eight-country MRI study links childhood abuse to structural brain differences; The pattern is not one static scar; it varies by adversity type, severity, age and sex",
+            "intro": "A UCLA-led team combined MRI data from 1,389 people with PTSD or major depression and 2,322 healthy controls across eight countries, for 3,711 participants, and used questionnaires to retrospectively assess physical, emotional and sexual abuse plus neglect. More severe abuse was associated with unusually larger thalamus and pallidum volumes, a smaller isthmus cingulate region and larger medial orbitofrontal surface area, with stronger patterns among young women. Neglect showed narrower, sex-specific patterns. The study is large and international but remains associative and relies on retrospective self-report; it cannot prove abuse caused the differences or infer an individual's cognitive, emotional or developmental ability from a scan.",
+            "xiaziQuote": "A large sample clarifies patterns—and makes it even more important not to turn correlation into destiny.",
+            "doudouQuote": "Brain-structure differences are neither a label of ability nor a causal conclusion.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "5e6c5659-fe12-5ca7-926b-99964113d3e1",
+            "topicId": "29f1ca82-d85f-5430-920c-741acb91327f",
+            "title": "Childhood abuse leaves a scar on the brain, study finds",
+            "publisher": "UCLA",
+            "url": "https://newsroom.ucla.edu/releases/childhood-abuse-leaves-scar-on-brain-ucla-research-study",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261007_be705529294948c6d3bce713"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-07",
+    "releaseId": "rel_20261007_be705529294948c6d3bce713",
+    "assetBatchId": "asset_prod_20261007_be705529294948c6d3bce713",
+    "posters": [
+      {
+        "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+        "locale": "zh",
+        "contentHash": "015b1fdf96a8093e20203b76f024c8cba25f97e9798f6be5404fb6380d14e8cf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/global-operator-radar-20261007.png"
+      },
+      {
+        "topicId": "633498f6-e52f-59b9-8b00-d998b4bf255e",
+        "locale": "en",
+        "contentHash": "8ad916ad753accd2ed5b1544879d94420618691564f8174b76124466dd5fbe94",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/global-operator-radar-20261007.png"
+      },
+      {
+        "topicId": "19878653-d806-5faf-9ffd-334b161822f5",
+        "locale": "zh",
+        "contentHash": "d9f2f8122b909b0aa4a0157702eb13a243af4a8d0f2eedc32631aa7797b359e9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/us-super-intelligence-force-ai-governance.png"
+      },
+      {
+        "topicId": "19878653-d806-5faf-9ffd-334b161822f5",
+        "locale": "en",
+        "contentHash": "677c0d22f25d677808269d8f76c75dcb92ed77c9a3d39b3ab3e8ecc531ea05ad",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/us-super-intelligence-force-ai-governance.png"
+      },
+      {
+        "topicId": "609b5576-fd1a-5be2-a0ec-99d5c9949ec9",
+        "locale": "zh",
+        "contentHash": "234faa7b9ac66e3e095429cf4145222f6fa464b349f2474b1a0331abe89e4e0d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/zigpoll-solo-founder-125k-mrr.png"
+      },
+      {
+        "topicId": "609b5576-fd1a-5be2-a0ec-99d5c9949ec9",
+        "locale": "en",
+        "contentHash": "77a85f8aba83fa89814d654950e2da27eafb27499801a887b33445ffe242668b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/zigpoll-solo-founder-125k-mrr.png"
+      },
+      {
+        "topicId": "7edc79df-fc04-5a06-950f-dcf86586c776",
+        "locale": "zh",
+        "contentHash": "a76b9a4370a0b9502213096f2fb8d7c13bfc884ff5d8c3dacb0a48a501d8d56a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/one-more-shot-ai-710k-monthly-run-rate.png"
+      },
+      {
+        "topicId": "7edc79df-fc04-5a06-950f-dcf86586c776",
+        "locale": "en",
+        "contentHash": "9adbffc8717a5b321050c7f759442ba34e0886cf9c55b9a5d74a906e1dec9e9d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/one-more-shot-ai-710k-monthly-run-rate.png"
+      },
+      {
+        "topicId": "3a634549-c132-5f39-ba9c-058b62703d39",
+        "locale": "zh",
+        "contentHash": "2c348a5b11b10138eacafcabb561ee33390ae887397d291458ca277ba68f44a6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/delugs-cross-border-conversion-growth.png"
+      },
+      {
+        "topicId": "3a634549-c132-5f39-ba9c-058b62703d39",
+        "locale": "en",
+        "contentHash": "4ba9db4f8ce522c5a4c26484afb10b726d724889cbeb9e17d93233791a1eda1b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/delugs-cross-border-conversion-growth.png"
+      },
+      {
+        "topicId": "f3c0bb10-0b6b-5c78-8a63-d25b916e4f1b",
+        "locale": "zh",
+        "contentHash": "012c0c905af571c3446a08f992dda82ba137ee4099be248d730c0a0c26f92fee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/francis-halzen-nobel-physics-icecube.png"
+      },
+      {
+        "topicId": "f3c0bb10-0b6b-5c78-8a63-d25b916e4f1b",
+        "locale": "en",
+        "contentHash": "df7758b20453899683fc0c6f1758c4d5d37a5d93f615ab7a457e982faad12425",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/francis-halzen-nobel-physics-icecube.png"
+      },
+      {
+        "topicId": "234e8edb-720c-5bba-b654-e3d3c1d7030a",
+        "locale": "zh",
+        "contentHash": "e645cc20b5cc65a4cae148deb1f66794935e133780f0aa31ba2fa620a8ed17d4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/asean-electricity-demand-energy-security.png"
+      },
+      {
+        "topicId": "234e8edb-720c-5bba-b654-e3d3c1d7030a",
+        "locale": "en",
+        "contentHash": "151018e5b31a94d228b01509dd3864557753ed66bc18bf77f3f4d670fb6b9aac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/asean-electricity-demand-energy-security.png"
+      },
+      {
+        "topicId": "67032130-3d9d-5c81-aa25-719d5b11c932",
+        "locale": "zh",
+        "contentHash": "e16a3e601ec3480f2155d7728559cc6bd264d8d3112554f7949c8a3349b55707",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/spain-snap-election-housing-crisis.png"
+      },
+      {
+        "topicId": "67032130-3d9d-5c81-aa25-719d5b11c932",
+        "locale": "en",
+        "contentHash": "bed89937552b8ce5bc0c0667dbef4e8af794dc4c01fdd2a6ecc9b1d765f82766",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/spain-snap-election-housing-crisis.png"
+      },
+      {
+        "topicId": "29f1ca82-d85f-5430-920c-741acb91327f",
+        "locale": "zh",
+        "contentHash": "4f44222b01112a422655d63c96646627d8cded54a80c881361cff3383a20f8f3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/zh/childhood-abuse-brain-structure-mri-study.png"
+      },
+      {
+        "topicId": "29f1ca82-d85f-5430-920c-741acb91327f",
+        "locale": "en",
+        "contentHash": "332eaa6c1d034f3b7328959ea4e32bc0a59f996ccb30678d2b678f47d2086992",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261007_be705529294948c6d3bce713/en/childhood-abuse-brain-structure-mri-study.png"
+      }
+    ]
+  }
+}
