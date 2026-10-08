@@ -1,0 +1,771 @@
+{
+  "issue": {
+    "id": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+    "slug": "2026-10-08",
+    "style": {
+      "name": "Graphic Novel",
+      "zhName": "图像小说风格",
+      "description": "Style Atlas daily pick #92: Graphic Novel. Use an original premium editorial graphic-novel language without imitating any named artist, studio, book or existing character: confident ink contours, cinematic panel rhythm, dramatic but controlled lighting, expressive story scenes, restrained texture and highly legible infographic overlays. Keep copy on quiet low-texture fields with strong contrast. Each poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and broad breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage scene, using flowing panels, varied caption shapes and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm. Every final image must fill the entire 887x1774 canvas with zero non-design white edge strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-08",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-08T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-07T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+    "topics": [
+      {
+        "id": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "global-operator-radar-20261008",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月8日全球经营雷达",
+            "headlineView": "交互式AI、微型单人收入、创作者订阅、跨境转化、手性化学、青少年健康、热韧性与住房权进入同一张行动地图",
+            "headlineFull": "10月8日全球经营雷达；交互式AI、微型单人收入、创作者订阅、跨境转化、手性化学、青少年健康、热韧性与住房权进入同一张行动地图",
+            "intro": "1. GPT-6在ChatGPT推出Intelligent UI，可按问题生成图表、按钮、表单和交互工具，但仅限Chat界面并分批开放。\n2. 单人约会规划应用DateMore有9个活跃订阅、43美元MRR，证明小而具体的问题可先获得真实付费。\n3. Draft AI把语音变成社交内容，RevenueCat验证近30天收入23511美元、MRR 22542美元。\n4. 童装品牌Lola + The Boys透明展示运费与关税后，九个月国际销售增长66%、跨境转化率提高18%。\n5. Kagan与Soai因不对称有机合成中的非线性效应和自催化获得2026年诺贝尔化学奖。\n6. WHO首次发布儿童与青少年肥胖全球指南，强调生活方式和行为支持，药物与手术只在严格条件下考虑。\n7. 曼谷全球热论坛汇集近600名参与者，把极端高温证据转化为可投资、可执行的韧性路线图。\n8. 2026世界人居日把“人人享有适足住房”置于核心，强调土地权、可负担租住与气候韧性。",
+            "xiaziQuote": "今天的共同信号是：技术和增长必须落到可操作界面、真实付费与可执行制度。",
+            "doudouQuote": "先问谁能使用、谁在付费、谁来实施，再看宏大叙事。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 8 Global Operator Radar",
+            "headlineView": "Interactive AI, tiny solo revenue, creator subscriptions, cross-border conversion, chiral chemistry, youth health, heat resilience and housing rights enter one action map",
+            "headlineFull": "October 8 Global Operator Radar; Interactive AI, tiny solo revenue, creator subscriptions, cross-border conversion, chiral chemistry, youth health, heat resilience and housing rights enter one action map",
+            "intro": "1. GPT-6 brings Intelligent UI to ChatGPT, generating charts, buttons, forms and interactive tools by request, but only in Chat and through a staged rollout.\n2. Solo date-planning app DateMore has nine active subscriptions and $43 MRR, showing that a narrow problem can earn real payment before scale.\n3. Draft AI turns speech into social content, with RevenueCat verifying $23,511 in 30-day revenue and $22,542 MRR.\n4. Kidswear brand Lola + The Boys made shipping and duties clear, lifting international sales 66% in nine months and cross-border conversion 18%.\n5. Kagan and Soai win the 2026 Nobel Prize in Chemistry for nonlinear effects and autocatalysis in asymmetric organic synthesis.\n6. WHO issues its first global child-and-adolescent obesity guidelines, prioritizing lifestyle and behavior support while reserving medicines and surgery for strict conditions.\n7. The Bangkok Global Heat Forum gathers nearly 600 participants to turn extreme-heat evidence into an investable, actionable resilience roadmap.\n8. World Habitat Day 2026 puts adequate housing for all at the center, emphasizing tenure, affordable rental options and climate resilience.",
+            "xiaziQuote": "Today's shared signal: technology and growth must resolve into usable interfaces, real payments and implementable institutions.",
+            "doudouQuote": "Ask who can use it, who pays and who implements it before buying the grand narrative.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "46674d22-e759-5f02-97a1-3253049f1081",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "GPT-6 and Intelligent UI for everyone",
+            "publisher": "Prismix OpenAI mirror",
+            "url": "https://prismix.dev/news/a097ef0d441a",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "12bb74ed-5b6e-5c46-9a20-04cefccfcef5",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "DateMore verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/datemore",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8e68ffb4-abfa-5e2a-9dba-07887eb0e918",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "Draft AI verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/draft-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "c6db51f4-626d-5b3c-8646-28f46ddf2afa",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "Lola and the Boys sees 66 percent growth in international sales",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/ch/case-studies/lola-and-the-boys",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "69188464-e81f-53fd-ab29-75507f3c2c45",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "The Nobel Prize in Chemistry 2026",
+            "publisher": "Royal Swedish Academy of Sciences",
+            "url": "https://www.kva.se/en/news/the-nobel-prize-in-chemistry-2026/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ef3cc756-b216-549b-9f52-fcf3c7870af8",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "WHO issues first global guidelines on child and adolescent obesity",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/frenchpolynesia/news/detail-global/07-10-2026-who-issues-first-global-guidelines-on-child-and-adolescent-obesity",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8ede3365-eb0e-57f2-a350-9af0605f55f4",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "Global Heat Forum seeks to galvanize action and investment",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/news/media-centre/global-heat-forum-seeks-galvanize-action-and-investment",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "918ec1a7-7332-5aad-881a-baf6131e7a2a",
+            "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+            "title": "World Habitat Day",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/observances/habitat-day",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "42c24398-deca-59ab-96b4-3157d108e55b",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "gpt6-intelligent-ui-chat-rollout",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-gpt6-intelligent-ui-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "GPT-6把Intelligent UI带进ChatGPT",
+            "headlineView": "回答不再只是一段文字，而能按任务即时组合图表、按钮、表单、计算器与可操作界面",
+            "headlineFull": "GPT-6把Intelligent UI带进ChatGPT；回答不再只是一段文字，而能按任务即时组合图表、按钮、表单、计算器与可操作界面",
+            "intro": "OpenAI于10月7日开始在ChatGPT的Chat界面推出GPT-6与Intelligent UI。模型可根据问题把文字、视觉和原生交互组件组合成渐进生成的回答，例如可点击按钮、图表、表单、地图、计算器与小工具。付费档先行，Free与Go次日开始扩展；OpenAI说明本次更新不改变Work与Codex所用模型。官方内部评估称GPT-6 Instant在联网问题上平均更早44%开始回答，但这是公司自测，不等于所有任务都更快或更准确。产品意义在于界面开始随意图生成，限制则是分批可用、设计判断仍需改进，且交互内容仍要核实数据与结果。",
+            "xiaziQuote": "下一代AI产品竞争，不只是答得更好，也是谁能把答案变成能直接操作的界面。",
+            "doudouQuote": "会生成按钮不等于按钮背后的数据和动作自动可信。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "GPT-6 brings Intelligent UI into ChatGPT",
+            "headlineView": "An answer can now assemble charts, buttons, forms, calculators and task-specific interfaces instead of remaining a wall of text",
+            "headlineFull": "GPT-6 brings Intelligent UI into ChatGPT; An answer can now assemble charts, buttons, forms, calculators and task-specific interfaces instead of remaining a wall of text",
+            "intro": "OpenAI began rolling GPT-6 and Intelligent UI into ChatGPT's Chat experience on October 7. The model can combine text, visuals and native interactive components as it generates, including tappable buttons, charts, forms, maps, calculators and small tools. Paid tiers start first, with Free and Go expanding the next day; OpenAI says the release does not change the models used in Work or Codex. In an internal company evaluation, GPT-6 Instant began answering web-search questions 44% sooner on average, but that is not proof that every task is faster or more accurate. The product shift is an interface generated around intent. Limits include staged availability, unfinished design judgment, and the continued need to verify data and actions behind interactive output.",
+            "xiaziQuote": "The next AI-product contest is not only better answers, but turning answers into interfaces people can use immediately.",
+            "doudouQuote": "A generated button does not make the data or action behind it automatically trustworthy.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "90af94a9-58c1-54e6-b55a-bcb2056c7c6d",
+            "topicId": "42c24398-deca-59ab-96b4-3157d108e55b",
+            "title": "GPT-6 and Intelligent UI for everyone",
+            "publisher": "Prismix OpenAI mirror",
+            "url": "https://prismix.dev/news/a097ef0d441a",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "66f5b99d-e86e-52b9-93c7-3baed2305477",
+            "topicId": "42c24398-deca-59ab-96b4-3157d108e55b",
+            "title": "OpenAI launches Intelligent UI in ChatGPT",
+            "publisher": "RuntimeWire",
+            "url": "https://runtimewire.com/article/openai-gpt-6-intelligent-ui-chatgpt",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "86b1c992-2d89-5be7-a83b-c3ae6982e945",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "datemore-solo-dating-planner-mrr",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-datemore-solo-revenue-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "DateMore单人小应用先赚到43美元MRR",
+            "headlineView": "把“今晚约会做什么”缩成一个具体订阅问题，小收入也能验证真实需求与付费路径",
+            "headlineFull": "DateMore单人小应用先赚到43美元MRR；把“今晚约会做什么”缩成一个具体订阅问题，小收入也能验证真实需求与付费路径",
+            "intro": "DateMore帮助情侣发现个性化约会点子并减少计划压力，由一人团队自筹运营。TrustMRR通过RevenueCat验证其当前有9个活跃订阅、43美元MRR和近30天20美元收入；规模很小，但已经不是下载量或流量，而是真实付费。产品提供每月6.99美元、每年49.99美元并含7天试用，获客依靠应用商店优化、口碑、Instagram和TikTok，交付由React Native、Supabase、Sentry与RevenueCat支撑。主要成本是应用商店抽成、云服务、内容与创始人时间；限制是样本极小、订阅波动大、评分数量少，尚不能证明可持续生意规模。",
+            "xiaziQuote": "一人公司的第一道门槛不是一万美元MRR，而是有人愿意为一个足够窄的问题付第一笔钱。",
+            "doudouQuote": "43美元是验证信号，不是规模成功；下一步要看留存与稳定获客。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo app DateMore first earns $43 MRR",
+            "headlineView": "Turning 'what should we do for a date tonight?' into one narrow subscription problem lets even tiny revenue validate real demand and payment",
+            "headlineFull": "Solo app DateMore first earns $43 MRR; Turning 'what should we do for a date tonight?' into one narrow subscription problem lets even tiny revenue validate real demand and payment",
+            "intro": "DateMore helps couples discover personalized date ideas and reduce planning stress. It is bootstrapped and operated by one person. TrustMRR verifies through RevenueCat that it currently has nine active subscriptions, $43 MRR and $20 in the last 30 days. The scale is tiny, but it represents actual payment rather than downloads or traffic. Pricing is $6.99 monthly or $49.99 yearly with a seven-day trial. Acquisition relies on app-store optimization, word of mouth, Instagram and TikTok, while React Native, Supabase, Sentry and RevenueCat support delivery. Costs include store commissions, cloud services, content and founder time. The limitations are a very small sample, volatile subscriptions and few ratings, so sustainable business scale is not yet established.",
+            "xiaziQuote": "A solo company's first threshold is not $10,000 MRR; it is someone paying the first dollar for a narrow enough problem.",
+            "doudouQuote": "$43 is a validation signal, not scale success; retention and repeatable acquisition come next.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "64e9cc7f-c6a1-59db-85c2-2fe0a0ba7e95",
+            "topicId": "86b1c992-2d89-5be7-a83b-c3ae6982e945",
+            "title": "DateMore verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/datemore",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b635dfae-c155-51b5-9a67-dd73cf139cbd",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "draft-ai-voice-content-verified-mrr",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-draft-ai-revenue-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Draft AI验证MRR达到22542美元",
+            "headlineView": "把语音想法直接变成轮播帖与短视频脚本，用高频创作工作流支撑移动订阅",
+            "headlineFull": "Draft AI验证MRR达到22542美元；把语音想法直接变成轮播帖与短视频脚本，用高频创作工作流支撑移动订阅",
+            "intro": "Draft AI让创作者、创业者和专家说出想法，再用AI生成可发布的Instagram轮播、LinkedIn幻灯片、短视频脚本和标题。TrustMRR通过RevenueCat验证其近30天收入23511美元、MRR 22542美元和1741个活跃订阅；应用商店显示月订阅14.99美元、年订阅99.99美元等方案。AI落点不是泛化聊天，而是语音转写、结构化、钩子与分镜，再输出可发布资产。变现来自iOS订阅，创始人内容与应用商店搜索承担获客。结果是毛收入而非净利润；苹果抽成、税费、推理成本、退款和留存会影响实际收益，历史收入波动也说明增长并非线性。",
+            "xiaziQuote": "AI应用赚钱的关键，是把一次灵感压缩成用户每周都会重复的完整工作流。",
+            "doudouQuote": "22542美元MRR是支付验证口径，不等于创始人到手利润。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI Application",
+            "headlineFact": "Draft AI reaches $22,542 in verified MRR",
+            "headlineView": "Turning spoken ideas directly into carousels and short-video scripts supports a recurring mobile subscription around frequent creator work",
+            "headlineFull": "Draft AI reaches $22,542 in verified MRR; Turning spoken ideas directly into carousels and short-video scripts supports a recurring mobile subscription around frequent creator work",
+            "intro": "Draft AI lets creators, entrepreneurs and experts speak an idea, then uses AI to produce publishable Instagram carousels, LinkedIn slides, short-video scripts and hooks. TrustMRR verifies through RevenueCat $23,511 in last-30-day revenue, $22,542 MRR and 1,741 active subscriptions. App-store plans include $14.99 monthly and $99.99 yearly options. The AI implementation is not generic chat: it transcribes speech, structures the idea, writes hooks and scenes, and exports ready-to-publish assets. Monetization comes from iOS subscriptions, with founder content and app-store discovery supporting acquisition. The figure is gross payment data, not net profit; store commission, tax, inference, refunds and retention affect take-home economics, while historical revenue swings show growth is not linear.",
+            "xiaziQuote": "An AI app earns when it compresses one idea into a complete workflow users repeat every week.",
+            "doudouQuote": "$22,542 MRR is verified payment data, not founder take-home profit.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "0c85d7a7-8414-5c2b-b766-c8528876dc7b",
+            "topicId": "b635dfae-c155-51b5-9a67-dd73cf139cbd",
+            "title": "Draft AI verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/draft-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "ce792a71-8065-5e64-b298-2c5c2e5029ac",
+            "topicId": "b635dfae-c155-51b5-9a67-dd73cf139cbd",
+            "title": "Draft AI app revenue and pricing",
+            "publisher": "WhatsTheApp",
+            "url": "https://www.whatsthe.app/app.Draft",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "fd72e128-ad9a-5a6d-b081-c8e9b91a283b",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "lola-boys-cross-border-sales-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-lola-boys-cross-border-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Lola + The Boys国际销售九个月增长66%",
+            "headlineView": "结账时透明展示税费、运费和时效，把跨境顾客的犹豫直接变成订单与更少客服成本",
+            "headlineFull": "Lola + The Boys国际销售九个月增长66%；结账时透明展示税费、运费和时效，把跨境顾客的犹豫直接变成订单与更少客服成本",
+            "intro": "美国童装品牌Lola + The Boys在本土增长后，国际访客却因运费、关税与交付不确定而放弃订单。Shopify案例显示，启用Managed Markets九个月后国际销售增长66%、国际转化率提高18%，国际收入占比达到原来的四倍，客服每月减少16小时处理跨境订单。赚钱机制不是单纯扩大广告，而是在结账前给出落地价、配送时间、本地币种与支付方式，并把关税和履约流程集中处理。成本与风险包括平台和服务费、国际退货、汇率、合规以及案例由解决方案供应商发布，未披露绝对收入或利润。",
+            "xiaziQuote": "跨境增长最值钱的优化，常常是让买家在付款前知道最后要付多少、等多久。",
+            "doudouQuote": "66%是国际销售增长，不是利润率；绝对收入和退货成本仍未披露。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border E-commerce",
+            "headlineFact": "Lola + The Boys grows international sales 66% in nine months",
+            "headlineView": "Showing duties, shipping cost and delivery timing at checkout turns cross-border hesitation into orders and lower support cost",
+            "headlineFull": "Lola + The Boys grows international sales 66% in nine months; Showing duties, shipping cost and delivery timing at checkout turns cross-border hesitation into orders and lower support cost",
+            "intro": "US kidswear brand Lola + The Boys grew domestically, yet international visitors abandoned orders because shipping, duties and delivery were uncertain. A Shopify case study reports that nine months after adopting Managed Markets, international sales grew 66%, international conversion improved 18%, international share of revenue quadrupled, and support time on overseas orders fell by 16 hours per month. The mechanism is not simply more advertising: buyers see landed cost, delivery timing, local currency and payment options before checkout while duties and fulfillment are centralized. Costs and risks include platform and service fees, international returns, currency movement and compliance. The vendor-published case does not disclose absolute revenue or profit.",
+            "xiaziQuote": "The most valuable cross-border optimization is often telling buyers the final price and wait before they pay.",
+            "doudouQuote": "A 66% sales lift is not a profit margin; absolute revenue and return costs remain undisclosed.",
+            "footerTakeaway": "Keyword: Cross-Border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "d5da19a9-2771-5211-91fc-eb5ddf65fcb7",
+            "topicId": "fd72e128-ad9a-5a6d-b081-c8e9b91a283b",
+            "title": "Lola and the Boys sees 66 percent growth in international sales",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/ch/case-studies/lola-and-the-boys",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "697d4e88-0e9e-5884-a12b-b24c30e84dd2",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "nobel-chemistry-asymmetric-autocatalysis",
+        "rank": 6,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "FR",
+          "JP",
+          "SE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-nobel-chemistry-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "2026化学诺奖奖励分子“选边”机制",
+            "headlineView": "Kagan与Soai揭示不对称合成中的非线性效应和自催化，让化学能更精确地产生单一手性分子",
+            "headlineFull": "2026化学诺奖奖励分子“选边”机制；Kagan与Soai揭示不对称合成中的非线性效应和自催化，让化学能更精确地产生单一手性分子",
+            "intro": "瑞典皇家科学院把2026年诺贝尔化学奖平均授予法国化学家Henri B. Kagan与日本化学家Kensō Soai，表彰他们发现不对称有机合成中的非线性效应和自催化。许多分子存在如左右手般的镜像版本，生物与药物却常只需要其中一种。Kagan奠定高选择性生成单一构型的原则，Soai发现某些手性分子可催化自身形成并放大最初极小的不平衡。成果推动手性药物与精细化学品设计，也帮助解释生命为何偏向一种分子手性；奖项认可基础发现，不代表每种药物都由该反应直接制造。",
+            "xiaziQuote": "能控制分子朝哪一边形成，才让许多药物从混合物变成可设计的精准化学。",
+            "doudouQuote": "基础机制改变整个工具箱，但别把它简化成所有现代药物的单一来源。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "The 2026 chemistry Nobel rewards how molecules choose a side",
+            "headlineView": "Kagan and Soai reveal nonlinear effects and autocatalysis in asymmetric synthesis, helping chemistry produce one molecular handedness with precision",
+            "headlineFull": "The 2026 chemistry Nobel rewards how molecules choose a side; Kagan and Soai reveal nonlinear effects and autocatalysis in asymmetric synthesis, helping chemistry produce one molecular handedness with precision",
+            "intro": "The Royal Swedish Academy of Sciences awarded the 2026 Nobel Prize in Chemistry equally to French chemist Henri B. Kagan and Japanese chemist Kensō Soai for discovering nonlinear effects and autocatalysis in asymmetric organic synthesis. Many molecules exist as mirror-image forms like left and right hands, yet biology and medicine often require only one. Kagan established principles for producing one configuration with high selectivity, while Soai discovered that some chiral molecules can catalyze their own formation and amplify a tiny initial imbalance. The work advanced chiral drugs and fine chemicals and helps explain life's preference for one handedness. It is a foundational mechanism, not proof that every medicine is directly made through these reactions.",
+            "xiaziQuote": "Controlling which side a molecule takes turns a mixture into chemistry that can be designed with precision.",
+            "doudouQuote": "A foundational mechanism changes the toolbox, but it is not the single source of every modern medicine.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "7c4c4666-0a0b-5f49-bd58-ae95ff16e826",
+            "topicId": "697d4e88-0e9e-5884-a12b-b24c30e84dd2",
+            "title": "The Nobel Prize in Chemistry 2026",
+            "publisher": "Royal Swedish Academy of Sciences",
+            "url": "https://www.kva.se/en/news/the-nobel-prize-in-chemistry-2026/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "9fd23317-e8cc-5e9b-8c1f-861c1adb9420",
+            "topicId": "697d4e88-0e9e-5884-a12b-b24c30e84dd2",
+            "title": "Henri Kagan and Kenso Soai win the 2026 Nobel Prize in Chemistry",
+            "publisher": "French Academy of Sciences",
+            "url": "https://www.academie-sciences.fr/en/henri-kagan-member-academy-sciences-and-kenso-soai-winners-2026-nobel-prize-chemistry",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "88b5bba5-a0da-5052-a03f-cb276cb69ae8",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "who-child-adolescent-obesity-guidelines",
+        "rank": 7,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-who-youth-obesity-guidelines-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "健康",
+            "headlineFact": "WHO首次发布儿童青少年肥胖全球指南",
+            "headlineView": "治疗核心是长期、家庭参与的饮食运动与行为支持，药物和手术不是儿童常规起点",
+            "headlineFull": "WHO首次发布儿童青少年肥胖全球指南；治疗核心是长期、家庭参与的饮食运动与行为支持，药物和手术不是儿童常规起点",
+            "intro": "WHO表示，2024年全球5至19岁儿童与青少年中约1.7亿人患肥胖，比例从1990年的2%升至8%。新指南强烈建议以结构化饮食、身体活动和行为改变为核心，并在家长或照护者监督下有条件使用数字健康干预。对0至9岁儿童不建议药物、减重手术或器械；对10至19岁青少年，只有在监督下的多模式生活方式方案未达到目标时才可考虑获批药物，严重肥胖的手术也需严格条件。目标不只是减重，还包括功能、心理健康与长期随访；各国仍需根据资源、可及性与权益调整实施。",
+            "xiaziQuote": "儿童肥胖不是一颗药解决的问题，而是一套长期照护与支持环境。",
+            "doudouQuote": "指南允许严格条件下升级治疗，不等于把药物当第一步。",
+            "footerTakeaway": "今日关键词：健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Health",
+            "headlineFact": "WHO issues its first global child and adolescent obesity guidelines",
+            "headlineView": "Long-term, family-engaged diet, activity and behavior support form the core of care; medicines and surgery are not routine starting points for children",
+            "headlineFull": "WHO issues its first global child and adolescent obesity guidelines; Long-term, family-engaged diet, activity and behavior support form the core of care; medicines and surgery are not routine starting points for children",
+            "intro": "WHO says about 170 million children and adolescents aged 5–19 lived with obesity in 2024, with prevalence rising from 2% in 1990 to 8%. The new guidelines strongly recommend structured dietary, physical-activity and behavior-change interventions, while digital-health tools are conditionally recommended under parent or caregiver supervision. WHO does not recommend medicines, bariatric surgery or weight-loss devices for ages 0–9. For ages 10–19, approved medicines may be considered only when supervised multimodal lifestyle care has not achieved the desired result, while surgery for severe obesity requires strict conditions. The goal extends beyond weight loss to functioning, mental health and continued follow-up, and countries still need to adapt implementation to resources, access and equity.",
+            "xiaziQuote": "Childhood obesity is not a one-pill problem; it requires a durable care system and supportive environment.",
+            "doudouQuote": "Escalation under strict conditions does not make medicine the first step.",
+            "footerTakeaway": "Keyword: Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "9ac30e00-6ddf-52d7-be17-1abc5a377679",
+            "topicId": "88b5bba5-a0da-5052-a03f-cb276cb69ae8",
+            "title": "WHO issues first global guidelines on child and adolescent obesity",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/frenchpolynesia/news/detail-global/07-10-2026-who-issues-first-global-guidelines-on-child-and-adolescent-obesity",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "7553481c-092a-5236-b56b-1df5f4cc7914",
+            "topicId": "88b5bba5-a0da-5052-a03f-cb276cb69ae8",
+            "title": "WHO releases first global guidelines on child obesity as cases surge",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/who-releases-first-global-guidelines-child-obesity-cases-surge",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "57aba4ff-ab5c-523e-8b33-9a22dfb6aa16",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "global-heat-forum-investment-roadmap",
+        "rank": 8,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "TH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-global-heat-forum-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候行动",
+            "headlineFact": "全球热论坛把极端高温从研究推向投资清单",
+            "headlineView": "近600名科学、商业、慈善和健康参与者在曼谷共同筛选可验证、可融资、可复制的热韧性方案",
+            "headlineFull": "全球热论坛把极端高温从研究推向投资清单；近600名科学、商业、慈善和健康参与者在曼谷共同筛选可验证、可融资、可复制的热韧性方案",
+            "intro": "世界气象组织等机构在曼谷举行10月6至9日全球热论坛，近600名科学家、企业负责人、慈善机构和健康专家参加。会议处在最暖的连续11年之后，并遇上增强中的厄尔尼诺，目标是把已知证据转成城市和国家能执行的行动。论坛推出开放证据平台，按证据强度、效果、成本、见效时间和环境影响评价降温干预，并将共同形成《极端高温投资与行动路线图》，为COP31及后续政策提供项目优先级。当前仍是共创过程，路线图尚未完成；真正验收要看资金承诺、负责机构与落地时间表。",
+            "xiaziQuote": "热风险不缺警告，缺的是带成本、证据与责任人的可投资方案。",
+            "doudouQuote": "论坛人数不是成果，最终要看路线图有没有资金与执行者。",
+            "footerTakeaway": "今日关键词：气候行动。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate Action",
+            "headlineFact": "The Global Heat Forum moves extreme heat from research toward an investment list",
+            "headlineView": "Nearly 600 science, business, philanthropy and health participants in Bangkok are selecting heat-resilience measures that can be verified, financed and scaled",
+            "headlineFull": "The Global Heat Forum moves extreme heat from research toward an investment list; Nearly 600 science, business, philanthropy and health participants in Bangkok are selecting heat-resilience measures that can be verified, financed and scaled",
+            "intro": "The World Meteorological Organization and partners are holding the Global Heat Forum in Bangkok from October 6–9 with nearly 600 scientists, business leaders, philanthropies and health experts. It follows the warmest 11-year sequence on record and arrives during an intensifying El Niño, aiming to convert known evidence into action cities and countries can implement. The forum launched an open evidence platform rating heat interventions by strength of evidence, effectiveness, cost, time to benefit and environmental impact. Participants are co-creating a Roadmap for Investment and Action on Extreme Heat to shape priorities for COP31 and beyond. The roadmap is still in development; real acceptance will depend on funding commitments, responsible institutions and delivery timelines.",
+            "xiaziQuote": "Heat risk does not lack warnings; it lacks investable actions with cost, evidence and accountable owners.",
+            "doudouQuote": "Attendance is not an outcome; the roadmap needs money and implementers.",
+            "footerTakeaway": "Keyword: Climate Action."
+          }
+        },
+        "sources": [
+          {
+            "id": "a972bfe9-9d5f-549a-9ec2-a780fb70fc3b",
+            "topicId": "57aba4ff-ab5c-523e-8b33-9a22dfb6aa16",
+            "title": "Global Heat Forum seeks to galvanize action and investment",
+            "publisher": "World Meteorological Organization",
+            "url": "https://wmo.int/news/media-centre/global-heat-forum-seeks-galvanize-action-and-investment",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "938c832f-f10a-53f9-9cc1-1bb5010b9019",
+            "topicId": "57aba4ff-ab5c-523e-8b33-9a22dfb6aa16",
+            "title": "About the Global Heat Forum",
+            "publisher": "Global Heat Health Information Network",
+            "url": "https://heathealth.info/globalheatforum/about-the-global-heat-forum/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "41f41049-c151-5a0d-a5af-efa90d3211cd",
+        "issueId": "24f9f4ae-61d0-511c-9ce5-494af2976b74",
+        "slug": "world-habitat-day-adequate-housing",
+        "rank": 9,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "OM"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-world-habitat-day-20261008",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "城市",
+            "headlineFact": "世界人居日把适足住房置于城市议程核心",
+            "headlineView": "住房不仅是建更多房，还要同时处理土地权、可负担租住、社区服务与气候韧性",
+            "headlineFull": "世界人居日把适足住房置于城市议程核心；住房不仅是建更多房，还要同时处理土地权、可负担租住、社区服务与气候韧性",
+            "intro": "2026世界人居日全球纪念活动于10月5至8日在阿曼马斯喀特举行，主题是“人人享有适足住房”。联合国强调，住房策略需要覆盖低收入家庭、无家可归者、灾害和冲突影响社区以及面临流离失所的人群。行动组合包括更安全的土地保有权、规划良好且服务完备的社区，以及社会住房、公共住房、租赁、合作社、社区主导和市场化等多种选择，同时要适应气候并尊重当地文化。会议提供政策与伙伴交流平台，但宣言本身不会自动增加供给；城市仍需公布预算、土地、审批、租赁保护和交付指标。",
+            "xiaziQuote": "适足住房不是一个建筑数量，而是价格、权利、服务和韧性的组合结果。",
+            "doudouQuote": "主题正确不等于房子落地，下一步看预算、土地与交付指标。",
+            "footerTakeaway": "今日关键词：城市。"
+          },
+          "en-US": {
+            "categoryLabel": "Cities",
+            "headlineFact": "World Habitat Day puts adequate housing at the center of the urban agenda",
+            "headlineView": "Housing means more than building units: it must address tenure, affordable rental options, neighborhood services and climate resilience together",
+            "headlineFull": "World Habitat Day puts adequate housing at the center of the urban agenda; Housing means more than building units: it must address tenure, affordable rental options, neighborhood services and climate resilience together",
+            "intro": "The global observance of World Habitat Day 2026 runs October 5–8 in Muscat, Oman, under the theme 'Adequate Housing for All.' The United Nations says housing strategies must include lower-income households, people experiencing homelessness, crisis- and disaster-affected communities, and people at risk of displacement. The action mix includes secure land tenure, well-planned and serviced neighborhoods, and social, public, rental, cooperative, community-led and market options, while remaining climate-resilient and culturally appropriate. The event creates a platform for policy and partnership exchange, but a declaration does not automatically expand supply. Cities still need to publish budgets, land, approvals, rental protections and delivery metrics.",
+            "xiaziQuote": "Adequate housing is not a building count; it is the combined result of price, rights, services and resilience.",
+            "doudouQuote": "A sound theme does not deliver homes; watch budgets, land and measurable delivery.",
+            "footerTakeaway": "Keyword: Cities."
+          }
+        },
+        "sources": [
+          {
+            "id": "2a0a0604-f0ed-5f29-bba8-6dd2b7598315",
+            "topicId": "41f41049-c151-5a0d-a5af-efa90d3211cd",
+            "title": "World Habitat Day",
+            "publisher": "United Nations",
+            "url": "https://www.un.org/en/observances/habitat-day",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261008_356156c8a7cc9a89f9a198da"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-08",
+    "releaseId": "rel_20261008_356156c8a7cc9a89f9a198da",
+    "assetBatchId": "asset_prod_20261008_356156c8a7cc9a89f9a198da",
+    "posters": [
+      {
+        "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+        "locale": "zh",
+        "contentHash": "82305ea276bd8a837fc1db341736225fb3229df85aef47a6d1f36f9fb0234fc0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/global-operator-radar-20261008.png"
+      },
+      {
+        "topicId": "6d40a25e-4d9f-5f9a-aae8-79d4d7c8e667",
+        "locale": "en",
+        "contentHash": "efad721b0b946cc1c886ec86355769097cd64367c36eecb757bcfa6c3b407429",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/global-operator-radar-20261008.png"
+      },
+      {
+        "topicId": "42c24398-deca-59ab-96b4-3157d108e55b",
+        "locale": "zh",
+        "contentHash": "61b2cfe2a2ace3f110bf9ac94f368fa85a8b08a84556f3a063ef98241b1b91ca",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/gpt6-intelligent-ui-chat-rollout.png"
+      },
+      {
+        "topicId": "42c24398-deca-59ab-96b4-3157d108e55b",
+        "locale": "en",
+        "contentHash": "87a6fc90c944686d7c19ebae6e6d90a732cf5191a1071dcde21516d6ada19781",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/gpt6-intelligent-ui-chat-rollout.png"
+      },
+      {
+        "topicId": "86b1c992-2d89-5be7-a83b-c3ae6982e945",
+        "locale": "zh",
+        "contentHash": "94a154e3d90d53a53a984a5cf2c31362f9a5837160e4881aebd9b220d9758992",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/datemore-solo-dating-planner-mrr.png"
+      },
+      {
+        "topicId": "86b1c992-2d89-5be7-a83b-c3ae6982e945",
+        "locale": "en",
+        "contentHash": "ad4d0c4500f9426bca28f2d7f3c27656fad6040f197549f229d6fe5e09ed1ce2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/datemore-solo-dating-planner-mrr.png"
+      },
+      {
+        "topicId": "b635dfae-c155-51b5-9a67-dd73cf139cbd",
+        "locale": "zh",
+        "contentHash": "d1e5e055ad6073059fde348b0e2929e24713a44b1f85831de361c233ed5cae60",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/draft-ai-voice-content-verified-mrr.png"
+      },
+      {
+        "topicId": "b635dfae-c155-51b5-9a67-dd73cf139cbd",
+        "locale": "en",
+        "contentHash": "9ee448f03a40018e445589d1c452e95c732db09484f4671c038284bd52054ac1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/draft-ai-voice-content-verified-mrr.png"
+      },
+      {
+        "topicId": "fd72e128-ad9a-5a6d-b081-c8e9b91a283b",
+        "locale": "zh",
+        "contentHash": "e388701b1cf7cf50d4227c86c1e28551db96a0668ad81d88ba4dfe09fbb214ec",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/lola-boys-cross-border-sales-growth.png"
+      },
+      {
+        "topicId": "fd72e128-ad9a-5a6d-b081-c8e9b91a283b",
+        "locale": "en",
+        "contentHash": "864ab44859839e2952e73c0a3cfc1c96c87ecffc8504a6ea53a9f80eb2670f54",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/lola-boys-cross-border-sales-growth.png"
+      },
+      {
+        "topicId": "697d4e88-0e9e-5884-a12b-b24c30e84dd2",
+        "locale": "zh",
+        "contentHash": "f327c0c2cb8c5ed1dc1c6c307b908286ecc39659a81a92994507a52f803400c6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/nobel-chemistry-asymmetric-autocatalysis.png"
+      },
+      {
+        "topicId": "697d4e88-0e9e-5884-a12b-b24c30e84dd2",
+        "locale": "en",
+        "contentHash": "5af8b0ee68cd3e80ab6e52f38ac40e49d005c857543f0010824d20ed0b1f0483",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/nobel-chemistry-asymmetric-autocatalysis.png"
+      },
+      {
+        "topicId": "88b5bba5-a0da-5052-a03f-cb276cb69ae8",
+        "locale": "zh",
+        "contentHash": "585123f423142ae5681660912e75426c6f21e07d52d3155afaca34c87a4bb5c0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/who-child-adolescent-obesity-guidelines.png"
+      },
+      {
+        "topicId": "88b5bba5-a0da-5052-a03f-cb276cb69ae8",
+        "locale": "en",
+        "contentHash": "c07719a25033f5145d853847e8e62c755192366bf124e5fd8d2de7368a6891fd",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/who-child-adolescent-obesity-guidelines.png"
+      },
+      {
+        "topicId": "57aba4ff-ab5c-523e-8b33-9a22dfb6aa16",
+        "locale": "zh",
+        "contentHash": "b18a3286ccfb506ea5403c7d7f8f8c6c4a09424d49942995be6737799189aca5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/global-heat-forum-investment-roadmap.png"
+      },
+      {
+        "topicId": "57aba4ff-ab5c-523e-8b33-9a22dfb6aa16",
+        "locale": "en",
+        "contentHash": "3f75733caed26da45139cac91eb20de3366c829df375ed70cef36d23c94cda70",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/global-heat-forum-investment-roadmap.png"
+      },
+      {
+        "topicId": "41f41049-c151-5a0d-a5af-efa90d3211cd",
+        "locale": "zh",
+        "contentHash": "fb18fd224baec0502e09696e2eafe75ee0796837c7b331e970ffe9330a79cf3d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/zh/world-habitat-day-adequate-housing.png"
+      },
+      {
+        "topicId": "41f41049-c151-5a0d-a5af-efa90d3211cd",
+        "locale": "en",
+        "contentHash": "312d98da5a80d8bafd3ea8c5e06056be1f8db25e801806a0f9a13e42c33e4934",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261008_356156c8a7cc9a89f9a198da/en/world-habitat-day-adequate-housing.png"
+      }
+    ]
+  }
+}
