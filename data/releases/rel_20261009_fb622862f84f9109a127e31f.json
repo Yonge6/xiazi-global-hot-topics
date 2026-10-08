@@ -1,0 +1,727 @@
+{
+  "issue": {
+    "id": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+    "slug": "2026-10-09",
+    "style": {
+      "name": "Noir Illustration",
+      "zhName": "黑色电影插画",
+      "description": "Style Atlas daily pick #93: Noir Illustration. Use an original premium editorial noir language without imitating any named artist, film, studio, book or existing character: deep ink blacks, selective warm ivory and signal-red accents, cinematic light and shadow, atmospheric perspective, clear silhouettes and restrained grain. This is not a generic dark template: each poster needs a distinct factual scene and legible information design. Keep all copy on quiet low-texture fields with strong contrast. Each poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central globe or world-stage scene, using flowing beams, staggered caption ribbons and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and the artwork must fill all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-09",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-09T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-08T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+    "topics": [
+      {
+        "id": "b9af0719-e738-5b14-91af-700bc9409e7f",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "global-operator-radar-20261009",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月9日全球经营雷达",
+            "headlineView": "Agent训练、单人SEO、AI商品影像、跨境结账、文学创新、孕产安全、珊瑚韧性与犬类衰老进入同一张行动地图",
+            "headlineFull": "10月9日全球经营雷达；Agent训练、单人SEO、AI商品影像、跨境结账、文学创新、孕产安全、珊瑚韧性与犬类衰老进入同一张行动地图",
+            "intro": "1. 微软开源Agent Lightning v1.0，让现有Agent运行框架直接参与强化学习，约6000条样本把Qwen3.5-9B的SWE-bench Verified成绩从41.8%提高到56.4%。\n2. 荷兰单人公司VerifiedDR用90天SEO增长计划与后续监测服务，取得3474美元累计收入和105美元MRR。\n3. AI商品影像工具Magic通过Paddle验证累计收入266633美元、MRR 3495美元和147个活跃订阅。\n4. 手工酒杯品牌Glasvin用DDP落地价、本地币种和支付方式，在五个月内让全球销售同比增长71%。\n5. 加拿大诗人、散文家与翻译家Anne Carson获得2026年诺贝尔文学奖，以跨越诗歌、散文与古典传统的形式创新获肯定。\n6. WHO发布2026至2035年妊娠期高血压全球路线图，直面每年约42000例孕产妇死亡和50万余例死胎及新生儿死亡。\n7. 斐济发布国家珊瑚礁保护行动计划，把气候韧性研究、700万美元国际资金与本地主导保护连接起来。\n8. 一项覆盖894只犬的研究发现大型犬的表观遗传衰老更快，LINE1跳跃基因调控差异可能解释部分寿命差距。",
+            "xiaziQuote": "今天的共同信号是：把复杂问题拆成可训练、可收费、可执行、可验证的下一步。",
+            "doudouQuote": "先看证据口径和适用边界，再决定能否复制。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 9 Global Operator Radar",
+            "headlineView": "Agent training, solo SEO, AI product imagery, cross-border checkout, literary invention, maternal safety, coral resilience and canine aging enter one action map",
+            "headlineFull": "October 9 Global Operator Radar; Agent training, solo SEO, AI product imagery, cross-border checkout, literary invention, maternal safety, coral resilience and canine aging enter one action map",
+            "intro": "1. Microsoft open-sources Agent Lightning v1.0 so deployed agent harnesses can join reinforcement learning directly, lifting Qwen3.5-9B on SWE-bench Verified from 41.8% to 56.4% with about 6,000 samples.\n2. Dutch one-person company VerifiedDR sells 90-day SEO growth programs and follow-on monitoring, reaching $3,474 total revenue and $105 MRR.\n3. AI product-imagery tool Magic has Paddle-verified total revenue of $266,633, $3,495 MRR and 147 active subscriptions.\n4. Hand-blown glassware brand Glasvin used landed-cost clarity, local currency and payment options to lift global sales 71% year over year in five months.\n5. Canadian poet, essayist and translator Anne Carson wins the 2026 Nobel Prize in Literature for formal invention across poetry, prose and classical tradition.\n6. WHO launches a 2026-2035 global roadmap on hypertensive disorders of pregnancy, confronting roughly 42,000 maternal deaths and over 500,000 stillbirths and newborn deaths each year.\n7. Fiji launches a national coral-reef action plan linking climate-resilience research, US$7 million in international funding and locally led conservation.\n8. A study of 894 dogs finds faster epigenetic aging in larger breeds, with LINE1 jumping-gene regulation potentially explaining part of the lifespan gap.",
+            "xiaziQuote": "Today's shared signal is to turn complex problems into the next trainable, billable, executable and verifiable step.",
+            "doudouQuote": "Check the evidence definition and boundary before deciding whether a result can travel.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "125a0805-6fda-5684-b4cb-4fe5945bde21",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+            "publisher": "Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "d833a154-d4de-583b-9787-5c1e881085ce",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "VerifiedDR verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/verifieddr",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "49ebfa1b-48e8-5455-bfc0-1a3fd482bce6",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "Magic verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/magic",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6b4c5474-d7a7-5f20-8d50-b4c58ddd0566",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "Glasvin boosts global sales by 71 percent with Managed Markets",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/glasvin",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "2d9415c0-c4e4-5378-9731-55f8ff5e7883",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "Nobel Prize in Literature 2026: Anne Carson",
+            "publisher": "Swedish Academy",
+            "url": "https://www.svenskaakademien.se/nobelpriset/2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6c595786-5110-5f98-8c78-aa7b5fa0967b",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "New global roadmap launched to tackle hypertension in pregnancy",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/08-10-2026-new-global-roadmap-launched-to-tackle-hypertension-in-pregnancy-a-leading-cause-of-maternal-and-newborn-deaths",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "22b08732-8217-5d1f-ad23-8f5eaaf4aa45",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "From UQ reef science to national action in Fiji",
+            "publisher": "University of Queensland",
+            "url": "https://news.uq.edu.au/2026-10-uq-reef-science-national-action-fiji",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "05cee1db-83e2-5ed2-93b6-166d2a16d31b",
+            "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+            "title": "Why big dogs age faster",
+            "publisher": "EurekAlert / Arizona State University",
+            "url": "https://www.eurekalert.org/news-releases/1146795",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "21ce0db2-0c49-5a8e-9cc9-be2091a0f297",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "microsoft-agent-lightning-v1",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-agent-lightning-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Agent Lightning让真实Agent框架直接进入强化学习",
+            "headlineView": "不必为训练重写Agent循环，3500行开源控制面把部署环境、采样与训练接在一起",
+            "headlineFull": "Agent Lightning让真实Agent框架直接进入强化学习；不必为训练重写Agent循环，3500行开源控制面把部署环境、采样与训练接在一起",
+            "intro": "微软亚洲研究院发布并开源Agent Lightning v1.0，提出Harnessed Agentic RL：部署时使用的Agent框架直接参与强化学习，而不是在训练系统里重写一套近似环境。现有Agent只需把模型端点指向兼容OpenAI接口的代理，框架即可记录调用、组织rollout并把Agent作为本地进程或Kubernetes任务运行。完整控制面约3500行代码；官方实验用约6000条样本，把Qwen3.5-9B在SWE-bench Verified上的Pass@1从41.8%提升到56.4%。这是一项研究与工程结果，并不保证其他模型、任务或生产Agent获得同样增益，训练成本、奖励设计和安全约束仍需单独验证。",
+            "xiaziQuote": "Agent训练正在从重建一个假世界，转向直接学习真实运行轨迹。",
+            "doudouQuote": "14.6个百分点来自特定模型、数据和基准，不能外推成通用提升。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Agent Lightning brings real agent harnesses directly into RL",
+            "headlineView": "A 3,500-line open control plane connects deployment, rollouts and training without rebuilding the agent loop",
+            "headlineFull": "Agent Lightning brings real agent harnesses directly into RL; A 3,500-line open control plane connects deployment, rollouts and training without rebuilding the agent loop",
+            "intro": "Microsoft Research Asia has released Agent Lightning v1.0 and formalized Harnessed Agentic RL: the same agent harness used in deployment participates directly in reinforcement learning instead of being reimplemented inside the trainer. An existing agent can point its model endpoint to an OpenAI-compatible proxy, while the framework records calls, manages rollouts and runs agents as local processes or Kubernetes jobs. The complete control plane is about 3,500 lines. In the reported experiment, roughly 6,000 samples raised Qwen3.5-9B from 41.8% to 56.4% Pass@1 on SWE-bench Verified. This is a research and engineering result, not a guarantee for other models, tasks or production agents; training cost, reward design and safety controls still need separate validation.",
+            "xiaziQuote": "Agent training is moving from rebuilding a fake world to learning from the real execution harness.",
+            "doudouQuote": "The 14.6-point gain belongs to one model, dataset and benchmark, not every agent.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "fe833632-5400-5a2d-9264-5e6f7af3193f",
+            "topicId": "21ce0db2-0c49-5a8e-9cc9-be2091a0f297",
+            "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+            "publisher": "Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "be4f0c0b-a4af-524f-a13f-a83714718468",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "verifieddr-solo-seo-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "NL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-verifieddr-solo-revenue-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "VerifiedDR一人运营，累计收入3474美元",
+            "headlineView": "把SEO焦虑包装成90天可交付计划，再用低频监测延长客户生命周期",
+            "headlineFull": "VerifiedDR一人运营，累计收入3474美元；把SEO焦虑包装成90天可交付计划，再用低频监测延长客户生命周期",
+            "intro": "荷兰的VerifiedDR由一人运营，为网站所有者、创业者和SEO团队提供可信外链匹配、Domain Rating与搜索排名跟踪、AI提及监测，以及明确的90天增长步骤。TrustMRR通过Stripe验证其累计收入3474美元、105美元MRR和2个活跃订阅，约有1100名用户。价格从免费入口到129、299、599美元的90天项目，项目结束后监测29美元起，Agency方案199美元/月。获客渠道主要是SEO与X，交付依赖自动化产品和结构化计划；主要成本与风险是创始人时间、外链质量、搜索算法变化和极少的活跃订阅，当前数据只能证明有人付费，不能证明稳定规模化。",
+            "xiaziQuote": "一人公司可以把模糊服务变成有期限、有价格、有下一步的产品化交付。",
+            "doudouQuote": "3474美元累计收入是真实验证，但2个活跃订阅意味着留存仍很脆弱。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "One-person VerifiedDR reaches $3,474 total revenue",
+            "headlineView": "Package SEO anxiety into a 90-day deliverable, then extend the customer life cycle with lightweight monitoring",
+            "headlineFull": "One-person VerifiedDR reaches $3,474 total revenue; Package SEO anxiety into a 90-day deliverable, then extend the customer life cycle with lightweight monitoring",
+            "intro": "Netherlands-based VerifiedDR is operated by one person. It gives website owners, founders and SEO teams trusted link matching, Domain Rating and search-rank tracking, AI-mention monitoring and a clear 90-day growth sequence. TrustMRR verifies through Stripe $3,474 in total revenue, $105 MRR and two active subscriptions, with about 1,100 users. Pricing runs from a free entry point to $129, $299 and $599 90-day programs, monitoring from $29 afterward, and a $199-per-month agency plan. Acquisition is mainly SEO and X, while an automated product and structured plan support delivery. Costs and risks include founder time, link quality, search-algorithm changes and the tiny active-subscriber base. The data proves payment, not stable scale.",
+            "xiaziQuote": "A solo operator can productize a fuzzy service into a timed, priced deliverable with an explicit next step.",
+            "doudouQuote": "$3,474 total revenue is real validation, but two active subscriptions make retention fragile.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "c1abfd7b-22a0-5655-b26f-3b72f5a1c380",
+            "topicId": "be4f0c0b-a4af-524f-a13f-a83714718468",
+            "title": "VerifiedDR verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/verifieddr",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7a7c31f5-2169-5b24-b405-ba581bf64e03",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "magic-ai-product-imagery-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-magic-ai-revenue-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Magic的AI商品影像累计收入超过26.6万美元",
+            "headlineView": "把不稳定的通用生成变成可规模复用的商品视频与图片工作流，向电商内容需求收费",
+            "headlineFull": "Magic的AI商品影像累计收入超过26.6万美元；把不稳定的通用生成变成可规模复用的商品视频与图片工作流，向电商内容需求收费",
+            "intro": "Magic面向消费品牌和营销团队生成商品视频与图片，AI的具体落点是保持产品主体一致、批量产出可投放视觉，并减少传统拍摄和反复试错。TrustMRR通过Paddle验证其累计收入266633美元、MRR 3495美元、147个活跃订阅，近期30天收入2917美元；平台称约有25万用户并提供免费入口。变现来自订阅式SaaS，而不是融资、下载或流量。获客可能受内容展示和免费试用驱动，交付依赖生成模型、GPU与人工质量控制。公开页未披露套餐价格、净利润、退款率和留存，因此不能把总收入等同于健康增长，且生成一致性与推理成本仍是关键限制。",
+            "xiaziQuote": "AI影像产品真正收费的部分，不是会生成，而是能稳定生成可直接用的商品资产。",
+            "doudouQuote": "26.6万美元是累计支付口径，利润、留存和推理成本仍未知。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI Application",
+            "headlineFact": "Magic passes $266K in total AI-imagery revenue",
+            "headlineView": "Turn unreliable general generation into a reusable product-video and image workflow that commerce teams will pay for",
+            "headlineFull": "Magic passes $266K in total AI-imagery revenue; Turn unreliable general generation into a reusable product-video and image workflow that commerce teams will pay for",
+            "intro": "Magic generates product videos and images for consumer brands and marketing teams. Its AI implementation focuses on keeping the product consistent, producing campaign-ready visual variations at scale and reducing traditional shoots and repeated creative misses. TrustMRR verifies through Paddle $266,633 in total revenue, $3,495 MRR, 147 active subscriptions and $2,917 in recent 30-day revenue; the profile reports about 250,000 users and a free entry point. Monetization is subscription SaaS, not funding, downloads or traffic. Acquisition can be supported by visual demos and free trials, while delivery depends on generation models, GPU capacity and quality control. Public data does not disclose pricing, net profit, refunds or retention, so total revenue is not proof of healthy growth; consistency and inference cost remain key constraints.",
+            "xiaziQuote": "The billable part of AI imagery is not generation itself, but reliably producing assets a merchant can use.",
+            "doudouQuote": "$266K is cumulative payment data; profit, retention and inference cost remain unknown.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "73c012ea-faff-5d4d-b161-069565c30c5e",
+            "topicId": "7a7c31f5-2169-5b24-b405-ba581bf64e03",
+            "title": "Magic verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/magic",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "46c37dfd-c000-5d55-9aa4-d1f92c0feafa",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "glasvin-cross-border-managed-markets",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "CA",
+          "GB",
+          "AU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-glasvin-cross-border-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Glasvin全球销售五个月同比增长71%",
+            "headlineView": "对易碎重货，透明的DDP落地价、本地币种与支付方式比追加流量更直接改善成交",
+            "headlineFull": "Glasvin全球销售五个月同比增长71%；对易碎重货，透明的DDP落地价、本地币种与支付方式比追加流量更直接改善成交",
+            "intro": "美国手工酒杯品牌Glasvin向加拿大、英国和欧洲扩张时，易碎重货的运费、关税和到货后加收费用让客户退单，创始人称国际销售利润一度接近零。Shopify案例显示，启用Managed Markets后，结账页提前展示DDP运费与税费、本地币种和本地支付方式；五个月内全球销售同比增长71%、全球转化率提高11%，加拿大和澳大利亚转化率分别提高122%和109%。赚钱机制是减少意外费用与弃单，而非只买更多广告。成本与风险仍包括平台服务费、破损包装、国际退货、汇率和供应商案例未披露绝对收入或利润。",
+            "xiaziQuote": "跨境重货先解决落地价与信任，再谈投放放量。",
+            "doudouQuote": "71%销售增长不等于利润恢复，物流与退货成本仍要单独核算。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border E-commerce",
+            "headlineFact": "Glasvin lifts global sales 71% year over year in five months",
+            "headlineView": "For fragile heavy goods, transparent DDP landed cost, local currency and payment options can improve orders more directly than added traffic",
+            "headlineFull": "Glasvin lifts global sales 71% year over year in five months; For fragile heavy goods, transparent DDP landed cost, local currency and payment options can improve orders more directly than added traffic",
+            "intro": "US hand-blown wine-glass brand Glasvin ran into shipping, duty and surprise-delivery charges as it expanded to Canada, the UK and Europe. Refunds followed, and the founder said international margins had been close to zero. Shopify reports that after Glasvin adopted Managed Markets, checkout showed DDP shipping and duties, local currency and local payment methods before purchase. In five months, global sales rose 71% year over year, global conversion increased 11%, and conversion in Canada and Australia rose 122% and 109%. The earning mechanism is lower surprise and abandonment, not simply more advertising. Costs and risks still include platform fees, protective packaging, international returns and currency. The vendor case discloses no absolute revenue or profit.",
+            "xiaziQuote": "For heavy cross-border goods, fix landed cost and trust before scaling acquisition.",
+            "doudouQuote": "A 71% sales lift does not prove profit recovery; logistics and returns need separate math.",
+            "footerTakeaway": "Keyword: Cross-Border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "d38462f5-6a3d-5f98-9be9-23c131f831ed",
+            "topicId": "46c37dfd-c000-5d55-9aa4-d1f92c0feafa",
+            "title": "Glasvin boosts global sales by 71 percent with Managed Markets",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/glasvin",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "53efbb22-e6c1-5f5f-9f8a-0942078253f9",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "anne-carson-nobel-literature-2026",
+        "rank": 6,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "CA",
+          "SE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-anne-carson-nobel-literature-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "文化",
+            "headlineFact": "Anne Carson获2026年诺贝尔文学奖",
+            "headlineView": "诗歌、散文、翻译与古典学被重新编排，文学形式本身成为一种探索工具",
+            "headlineFull": "Anne Carson获2026年诺贝尔文学奖；诗歌、散文、翻译与古典学被重新编排，文学形式本身成为一种探索工具",
+            "intro": "瑞典学院将2026年诺贝尔文学奖授予加拿大诗人、散文家、翻译家与古典学者Anne Carson，理由是她以大胆而富有创意的作品，在与古典传统的游戏式对话中创造当代文学新形式。Carson长期把古希腊罗马文本、现代经验、诗歌、散文、翻译与跨媒介合作放在同一作品结构中。奖项肯定的是整个创作谱系，而非某一本畅销书或一次热点事件。2026年奖金为1200万瑞典克朗，将于12月10日颁发。文化意义在于边界混合不只是风格标签，也可以成为重新组织知识、记忆与个人经验的方法。",
+            "xiaziQuote": "真正的新形式，不是装饰旧内容，而是让我们以不同方式理解经验。",
+            "doudouQuote": "文学奖奖励的是整体创作，不应压缩成一本书的销量故事。",
+            "footerTakeaway": "今日关键词：文化。"
+          },
+          "en-US": {
+            "categoryLabel": "Culture",
+            "headlineFact": "Anne Carson wins the 2026 Nobel Prize in Literature",
+            "headlineView": "Poetry, essay, translation and classics are rearranged until literary form itself becomes a tool for inquiry",
+            "headlineFull": "Anne Carson wins the 2026 Nobel Prize in Literature; Poetry, essay, translation and classics are rearranged until literary form itself becomes a tool for inquiry",
+            "intro": "The Swedish Academy has awarded the 2026 Nobel Prize in Literature to Canadian poet, essayist, translator and classicist Anne Carson. It cited her bold and inventive body of work, which creates new forms for contemporary literature through playful dialogue with the classical tradition. Carson has long placed Greek and Roman texts, modern experience, poetry, prose, translation and cross-media collaboration inside the same structures. The award recognizes an oeuvre, not one bestseller or news cycle. The 2026 prize is worth SEK 12 million and will be presented on December 10. Its wider cultural signal is that crossing boundaries is not merely a style label; it can be a method for reorganizing knowledge, memory and personal experience.",
+            "xiaziQuote": "A genuinely new form does not decorate old content; it changes how experience can be understood.",
+            "doudouQuote": "The literature prize recognizes an oeuvre, not a one-book sales story.",
+            "footerTakeaway": "Keyword: Culture."
+          }
+        },
+        "sources": [
+          {
+            "id": "91ea2726-a80c-56b3-b1f4-39b855971af8",
+            "topicId": "53efbb22-e6c1-5f5f-9f8a-0942078253f9",
+            "title": "Nobel Prize in Literature 2026: Anne Carson",
+            "publisher": "Swedish Academy",
+            "url": "https://www.svenskaakademien.se/nobelpriset/2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "aa9a1cae-19df-55d9-9e17-f6a0edb69853",
+            "topicId": "53efbb22-e6c1-5f5f-9f8a-0942078253f9",
+            "title": "Statement by Prime Minister Carney to congratulate Anne Carson on winning the 2026 Nobel Prize in Literature",
+            "publisher": "Prime Minister of Canada",
+            "url": "https://www.pm.gc.ca/en/news/statements/2026/10/08/statement-prime-minister-carney-congratulate-anne-carson-winning-2026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "a7fb5353-6693-5485-92ee-202a70f16c2c",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "who-pregnancy-hypertension-roadmap",
+        "rank": 7,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-who-pregnancy-hypertension-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "健康",
+            "headlineFact": "WHO发布妊娠期高血压全球路线图",
+            "headlineView": "从及时测量血压、尿蛋白检测和基本药物做起，把可预防的孕产妇与新生儿死亡变成系统责任",
+            "headlineFull": "WHO发布妊娠期高血压全球路线图；从及时测量血压、尿蛋白检测和基本药物做起，把可预防的孕产妇与新生儿死亡变成系统责任",
+            "intro": "WHO与合作伙伴发布《2026至2035年及以后妊娠期高血压全球路线图》。这类疾病影响全球约10%至15%的妊娠，约占孕产妇死亡的16%，每年关联约42000例孕产妇死亡和50万余例死胎及新生儿死亡。路线图把研究创新、临床指南、药物与诊断可及性、实施、倡导和问责纳入同一行动框架。现实缺口包括缺少基础血压测量、尿蛋白检测、阿司匹林、降压药、硫酸镁、转诊和急诊产科服务。路线图不是新药成功报告；其成效取决于各国预算、基层执行与可衡量覆盖率。",
+            "xiaziQuote": "很多健康突破并不先来自新技术，而是让已知有效的检查与药物真正到达需要的人。",
+            "doudouQuote": "路线图发布只是起点，关键指标是覆盖、及时转诊与死亡率下降。",
+            "footerTakeaway": "今日关键词：健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Health",
+            "headlineFact": "WHO launches a global roadmap on hypertension in pregnancy",
+            "headlineView": "Start with timely blood-pressure checks, urine-protein testing and essential medicines, turning preventable maternal and newborn deaths into a systems responsibility",
+            "headlineFull": "WHO launches a global roadmap on hypertension in pregnancy; Start with timely blood-pressure checks, urine-protein testing and essential medicines, turning preventable maternal and newborn deaths into a systems responsibility",
+            "intro": "WHO and partners have launched the Global Roadmap for Hypertensive Disorders of Pregnancy from 2026 to 2035 and beyond. These disorders complicate an estimated 10-15% of pregnancies, account for about 16% of maternal deaths, and are linked to roughly 42,000 maternal deaths plus more than 500,000 stillbirths and newborn deaths each year. The roadmap joins research, clinical guidance, access to medicines and diagnostics, implementation, advocacy and accountability. Current gaps include basic blood-pressure measurement, urine-protein testing, aspirin, antihypertensives, magnesium sulfate, referral and emergency obstetric care. This is not a successful-drug announcement; impact depends on national budgets, frontline execution and measurable coverage.",
+            "xiaziQuote": "Many health breakthroughs begin not with a new technology, but with getting known effective checks and medicines to people in time.",
+            "doudouQuote": "Publishing a roadmap is the start; coverage, timely referral and lower mortality are the test.",
+            "footerTakeaway": "Keyword: Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "6774d8f5-3471-5f52-91dd-38f7fe476d63",
+            "topicId": "a7fb5353-6693-5485-92ee-202a70f16c2c",
+            "title": "New global roadmap launched to tackle hypertension in pregnancy",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/08-10-2026-new-global-roadmap-launched-to-tackle-hypertension-in-pregnancy-a-leading-cause-of-maternal-and-newborn-deaths",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b032507d-5603-5081-ad26-9ae4362837f7",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "fiji-coral-reef-action-plan",
+        "rank": 8,
+        "category": "international",
+        "region": "Oceania",
+        "countryCodes": [
+          "FJ",
+          "AU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-fiji-coral-plan-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候",
+            "headlineFact": "斐济把珊瑚韧性研究写入国家行动计划",
+            "headlineView": "识别更能承受气候压力的珊瑚礁，再把科学、传统知识、融资与社区保护接成一条实施链",
+            "headlineFull": "斐济把珊瑚韧性研究写入国家行动计划；识别更能承受气候压力的珊瑚礁，再把科学、传统知识、融资与社区保护接成一条实施链",
+            "intro": "斐济在Nadi举行的Pre-COP气候会议期间发布国家珊瑚礁保护行动计划。昆士兰大学研究通过洋流等局地海洋条件识别气候压力暴露较低、相对更具韧性的珊瑚礁，为保护优先级提供依据。计划采用全国性路径，覆盖研究、教育、传播、能力建设和可持续融资，并吸收传统生态知识。相关珊瑚礁拯救项目由全球环境基金提供700万美元支持，跨6个国家开展，斐济重点包括Great Sea Reef、Vatu-i-Ra和Somosomo Strait。发布计划不等于珊瑚已获保护，后续要看资金落地、渔业与污染治理、社区权利以及长期生态监测。",
+            "xiaziQuote": "气候适应真正落地，要把地图上的韧性热点变成预算、规则和社区行动。",
+            "doudouQuote": "700万美元是项目资金，不是生态结果；珊瑚恢复需要多年回读。",
+            "footerTakeaway": "今日关键词：气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate",
+            "headlineFact": "Fiji turns coral-resilience research into a national action plan",
+            "headlineView": "Identify reefs better able to withstand climate stress, then connect science, traditional knowledge, finance and community protection into one delivery chain",
+            "headlineFull": "Fiji turns coral-resilience research into a national action plan; Identify reefs better able to withstand climate stress, then connect science, traditional knowledge, finance and community protection into one delivery chain",
+            "intro": "Fiji launched its National Action Plan for Coral Reef Conservation during the Pre-COP climate meeting in Nadi. University of Queensland analysis used local ocean conditions such as currents to identify reefs with comparatively lower exposure to climate stress, helping set protection priorities. The whole-of-country plan covers research, education, communication, capacity building and sustainable finance while incorporating traditional ecological knowledge. A related Coral Reef Rescue Project is backed by US$7 million from the Global Environment Facility, operates across six countries, and focuses in Fiji on the Great Sea Reef, Vatu-i-Ra and Somosomo Strait. Launching a plan does not mean reefs are protected; the next evidence is deployed finance, fishing and pollution controls, community rights and long-term ecological monitoring.",
+            "xiaziQuote": "Climate adaptation becomes real when resilience hotspots on a map turn into budgets, rules and community action.",
+            "doudouQuote": "US$7 million is project funding, not an ecological result; reef recovery needs years of readback.",
+            "footerTakeaway": "Keyword: Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "0d41117b-005c-5dff-a79b-2b2ab7be1b7d",
+            "topicId": "b032507d-5603-5081-ad26-9ae4362837f7",
+            "title": "From UQ reef science to national action in Fiji",
+            "publisher": "University of Queensland",
+            "url": "https://news.uq.edu.au/2026-10-uq-reef-science-national-action-fiji",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "ad7e4843-0059-5947-ae39-49e787f1ead5",
+        "issueId": "c889f9d9-2669-5f00-a615-6291e7b5c83a",
+        "slug": "dog-aging-jumping-genes-study",
+        "rank": 9,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-dog-aging-epigenetics-20261009",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "894只犬揭示大型犬为何衰老更快",
+            "headlineView": "体型越大，DNA甲基化变化越快；LINE1跳跃基因失去调控可能压缩寿命",
+            "headlineFull": "894只犬揭示大型犬为何衰老更快；体型越大，DNA甲基化变化越快；LINE1跳跃基因失去调控可能压缩寿命",
+            "intro": "发表于Science的一项研究分析Dog Aging Project中894只、约120个品种的犬，并生成1640份甲基化组数据。研究团队建立的表观遗传时钟可把犬龄预测到约一年误差内；大型犬与雄犬表现出更快的分子衰老。差异尤其集中在转座元件LINE1相关区域，超过40%的这些区域会随年龄失去甲基化，大型犬每年LINE1甲基化丢失约比小型犬高35%。这为大型犬寿命更短提供了分子线索，但仍不能证明LINE1变化是原因而非结果，也不能直接外推到人类治疗；需要长期随访和机制实验。",
+            "xiaziQuote": "同一物种内部的寿命差异，可能藏在基因如何被调控，而不只是基因写了什么。",
+            "doudouQuote": "相关性很强，但“跳跃基因导致衰老”仍需要因果实验。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "894 dogs reveal why large breeds may age faster",
+            "headlineView": "Larger body size tracks with faster DNA-methylation change, while lost control of LINE1 jumping genes may compress lifespan",
+            "headlineFull": "894 dogs reveal why large breeds may age faster; Larger body size tracks with faster DNA-methylation change, while lost control of LINE1 jumping genes may compress lifespan",
+            "intro": "A Science study analyzed 894 dogs from roughly 120 breeds in the Dog Aging Project and generated 1,640 methylomes. The resulting epigenetic clock could estimate a dog's age to within about one year, while larger and male dogs showed faster molecular aging. The strongest body-size differences appeared around LINE1 transposable elements: more than 40% of LINE1-associated regions lost methylation with age, and giant breeds lost roughly 35% more LINE1 methylation per year than small breeds. The work offers a molecular clue for shorter large-dog lifespans, but it does not yet prove that LINE1 change is a cause rather than a consequence, nor can it be directly converted into human therapy. Longitudinal and mechanistic studies are still needed.",
+            "xiaziQuote": "Lifespan differences within one species may hide in how genes are regulated, not only in what the genes say.",
+            "doudouQuote": "The correlation is strong, but jumping genes as a cause of aging still needs causal tests.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "087053f6-7fef-57ca-8508-412793be1695",
+            "topicId": "ad7e4843-0059-5947-ae39-49e787f1ead5",
+            "title": "Why big dogs age faster",
+            "publisher": "EurekAlert / Arizona State University",
+            "url": "https://www.eurekalert.org/news-releases/1146795",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261009_fb622862f84f9109a127e31f"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-09",
+    "releaseId": "rel_20261009_fb622862f84f9109a127e31f",
+    "assetBatchId": "asset_prod_20261009_fb622862f84f9109a127e31f",
+    "posters": [
+      {
+        "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+        "locale": "zh",
+        "contentHash": "ce9254633fda1a3c3696890505d3e581a3e762f2e2b134012db6767c561df7da",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/global-operator-radar-20261009.png"
+      },
+      {
+        "topicId": "b9af0719-e738-5b14-91af-700bc9409e7f",
+        "locale": "en",
+        "contentHash": "2f18c48d33583a6135623ff5e44667c1bcba1c2804c668f0406e76f49e8fca34",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/global-operator-radar-20261009.png"
+      },
+      {
+        "topicId": "21ce0db2-0c49-5a8e-9cc9-be2091a0f297",
+        "locale": "zh",
+        "contentHash": "5c4a6c806b909db179efd6d47c2e140999e3057ec163bb2966769c846498e343",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/microsoft-agent-lightning-v1.png"
+      },
+      {
+        "topicId": "21ce0db2-0c49-5a8e-9cc9-be2091a0f297",
+        "locale": "en",
+        "contentHash": "c9a5c4163cd59b8b50be0f85c92b7608dd574288b968ce8586844e4d3e8384ae",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/microsoft-agent-lightning-v1.png"
+      },
+      {
+        "topicId": "be4f0c0b-a4af-524f-a13f-a83714718468",
+        "locale": "zh",
+        "contentHash": "0d806ad5365677e67c79af239c0248197849cc7880e4acd933ed041a0263008e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/verifieddr-solo-seo-revenue.png"
+      },
+      {
+        "topicId": "be4f0c0b-a4af-524f-a13f-a83714718468",
+        "locale": "en",
+        "contentHash": "efa8bedec426a178805675808d4e62653de79d4df31c358241e8a403975836f5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/verifieddr-solo-seo-revenue.png"
+      },
+      {
+        "topicId": "7a7c31f5-2169-5b24-b405-ba581bf64e03",
+        "locale": "zh",
+        "contentHash": "fe5d7924e0139b6c5338de74540b180e42699bc9813bc0864e4d572094301d05",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/magic-ai-product-imagery-revenue.png"
+      },
+      {
+        "topicId": "7a7c31f5-2169-5b24-b405-ba581bf64e03",
+        "locale": "en",
+        "contentHash": "341ceb89a4f882b392a184c47484ba3e4ff376051b1e8cadfaf34c6bdf50995e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/magic-ai-product-imagery-revenue.png"
+      },
+      {
+        "topicId": "46c37dfd-c000-5d55-9aa4-d1f92c0feafa",
+        "locale": "zh",
+        "contentHash": "089535cda33c99ab953ce5d59d1dba9fa4fdd89d0d916ad9a09ddf17c09e7ef6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/glasvin-cross-border-managed-markets.png"
+      },
+      {
+        "topicId": "46c37dfd-c000-5d55-9aa4-d1f92c0feafa",
+        "locale": "en",
+        "contentHash": "545815234c63e56c31eab57c7c029087748e2edfd8c4fd80c212c27169d25542",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/glasvin-cross-border-managed-markets.png"
+      },
+      {
+        "topicId": "53efbb22-e6c1-5f5f-9f8a-0942078253f9",
+        "locale": "zh",
+        "contentHash": "b47cbcbb388b72cf0a268b04785b47e9f1ab2694f3a16bf4a470e207d0532c74",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/anne-carson-nobel-literature-2026.png"
+      },
+      {
+        "topicId": "53efbb22-e6c1-5f5f-9f8a-0942078253f9",
+        "locale": "en",
+        "contentHash": "d27b489e9b6877877af8cc75f445e064328990126922e274a7ab0c740466503b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/anne-carson-nobel-literature-2026.png"
+      },
+      {
+        "topicId": "a7fb5353-6693-5485-92ee-202a70f16c2c",
+        "locale": "zh",
+        "contentHash": "7b28982140975e9c3c76c928a3a1a8cfe90e0abfcd6df55a43cee22a2f09e5da",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/who-pregnancy-hypertension-roadmap.png"
+      },
+      {
+        "topicId": "a7fb5353-6693-5485-92ee-202a70f16c2c",
+        "locale": "en",
+        "contentHash": "f23007accc7a3cc2085a2d4201c1f2e805a242f69c0db7a4aa14275e45f12afe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/who-pregnancy-hypertension-roadmap.png"
+      },
+      {
+        "topicId": "b032507d-5603-5081-ad26-9ae4362837f7",
+        "locale": "zh",
+        "contentHash": "80f27ead3288c5bebcdc9004992991195a90c6ea37b22cb42c0318a5de95eef6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/fiji-coral-reef-action-plan.png"
+      },
+      {
+        "topicId": "b032507d-5603-5081-ad26-9ae4362837f7",
+        "locale": "en",
+        "contentHash": "20da89251976e7acb3617c6cd4f66d744627f255ca351a90a0cebfb936fddaf2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/fiji-coral-reef-action-plan.png"
+      },
+      {
+        "topicId": "ad7e4843-0059-5947-ae39-49e787f1ead5",
+        "locale": "zh",
+        "contentHash": "2e53b98c6b4c2998f557ba9f9887249fa8f4bc0cd29326c397e2116b9107800f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/zh/dog-aging-jumping-genes-study.png"
+      },
+      {
+        "topicId": "ad7e4843-0059-5947-ae39-49e787f1ead5",
+        "locale": "en",
+        "contentHash": "c673525e8e898eca7156185bd2f79d1d8f3d173230a4c540fe6181e904d6f30a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261009_fb622862f84f9109a127e31f/en/dog-aging-jumping-genes-study.png"
+      }
+    ]
+  }
+}
