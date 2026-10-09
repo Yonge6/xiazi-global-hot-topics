@@ -1,0 +1,709 @@
+{
+  "issue": {
+    "id": "9f8bf065-f38d-59d0-b951-2880ee167267",
+    "slug": "2026-10-10",
+    "style": {
+      "name": "Claymorphism",
+      "zhName": "黏土风格",
+      "description": "Style Atlas daily pick #115: Claymorphism. Use an original premium editorial clay visual language: soft 3D forms, rounded clay materials, bright friendly color, gentle shadows and clear spatial depth. Each poster needs a distinct factual scene and legible information design. Keep all copy on quiet low-texture fields with strong contrast. Each poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central clay globe or world-stage scene, using flowing orbits, staggered ribbons and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Chinese and English must keep the same composition, scene, hierarchy and rhythm. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and the artwork must fill all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-10",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-10T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-09T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+    "topics": [
+      {
+        "id": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "global-operator-radar-20261010",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月10日全球经营雷达",
+            "headlineView": "Agent降本、单人职业成长、AI护肤变现、跨境西装、国际法、社区精神健康、泰国洪灾与全球贸易进入同一张行动地图",
+            "headlineFull": "10月10日全球经营雷达；Agent降本、单人职业成长、AI护肤变现、跨境西装、国际法、社区精神健康、泰国洪灾与全球贸易进入同一张行动地图",
+            "intro": "1. Asana通过缓存浏览历史、扩大上下文预算和批量移除截图，把GPT-6.1 Sol浏览器Agent测试成本降至原流程的1/76，速度提高5倍。\n2. 阿根廷单人公司ProductPrepa以产品经理测评、个性化成长路径和月度1对1辅导，验证累计收入6880美元、MRR 2054美元。\n3. AI护肤扫描应用SkinStuff通过拍照识别成分、安全性与肤质适配，以周订阅变现并验证累计收入2184美元、MRR 506美元。\n4. 西装品牌SuitShop使用本地化结账、关税税务处理和履约服务，国际订单增长600%，国际转化率提高32%。\n5. 南非法学家Navi Pillay因推动和平与国际法获得2026年诺贝尔和平奖。\n6. WHO新指南要求从长期精神病院照护转向尊重权利与选择的社区支持，目前仅9%的报告国家完成这一转型。\n7. 泰国自9月中旬以来的洪灾波及50个府、超过400万人，并损坏约27万公顷农田。\n8. UNCTAD预计2026年全球经济增长放缓至2.6%，但货物与服务贸易按不变价格仍增长约4%。",
+            "xiaziQuote": "今天的共同信号，是把成本、收入、权利与风险都变成可以验证的行动指标。",
+            "doudouQuote": "先分清企业自报、平台验证与公共机构数据，再决定下一步。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 10 Global Operator Radar",
+            "headlineView": "Agent economics, solo career growth, AI skincare revenue, cross-border suits, international law, community mental health, Thailand floods and global trade enter one action map",
+            "headlineFull": "October 10 Global Operator Radar; Agent economics, solo career growth, AI skincare revenue, cross-border suits, international law, community mental health, Thailand floods and global trade enter one action map",
+            "intro": "1. By caching browsing history, expanding context budgets and removing screenshots in batches, Asana cut the tested cost of its GPT-6.1 Sol browser agent to one seventy-sixth of the original workflow and made it five times faster.\n2. Argentine one-person company ProductPrepa sells PM assessments, personalized growth paths and monthly one-to-one mentoring, with $6,880 in verified lifetime revenue and $2,054 MRR.\n3. AI skincare scanner SkinStuff photographs labels to explain ingredients, safety and skin fit, monetizing through weekly subscriptions with $2,184 verified lifetime revenue and $506 MRR.\n4. Suit brand SuitShop combined localized checkout, tax and duty handling, and fulfillment services to increase international orders 600% and international conversion 32%.\n5. South African jurist Navi Pillay wins the 2026 Nobel Peace Prize for advancing peace and international law.\n6. A new WHO guide calls for moving from long-term psychiatric institutions to rights-based community support, while only 9% of reporting countries have completed the shift.\n7. Flooding in Thailand since mid-September has affected 50 provinces, more than 4 million people and about 270,000 hectares of farmland.\n8. UNCTAD projects global growth will slow to 2.6% in 2026 while goods and services trade still expands by about 4% at constant prices.",
+            "xiaziQuote": "Today's shared signal is to turn cost, revenue, rights and risk into verifiable action metrics.",
+            "doudouQuote": "Separate company claims, platform verification and public-agency data before choosing the next move.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "4106d19a-896c-5e2b-af3a-aa0a0aa7852d",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "GPT-6.1 Sol's 76x Browser-Agent Result: What It Measured",
+            "publisher": "OrcaRouter",
+            "url": "https://www.orcarouter.ai/blog/gpt-6-1-sol-browser-agent-76x",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "3155a4c4-b171-54ae-8b65-08867e52e3ca",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "ProductPrepa verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/productprepa",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "df6311d3-9dff-5a81-9433-71547157b5c3",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "SkinStuff verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/skinstuff",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "fbc1eabc-6704-51c6-92c4-e2cf2a17a320",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "How SuitShop Uses Shopify Plus and Managed Markets to Scale Without Limits",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/suitshop",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "082d1b5f-fc7a-578e-a105-70c6d2e671cb",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "An important prize in our time",
+            "publisher": "Nobel Peace Center",
+            "url": "https://www.nobelpeacecenter.org/en/pressrelease/an-important-prize-in-our-time",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "38cace43-9d4b-5e08-8c73-ad1cb985c538",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "WHO urges shift from institutional to community-based mental health care",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/09-10-2026-who-urges-shift-from-institutional-to-community-based-mental-health-care",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "7288c73d-8ff9-5690-91df-67e8e91d6846",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "Thailand floods hit 1.7m rai including over 26,000 rai of orchards",
+            "publisher": "The Nation Thailand",
+            "url": "https://www.nationthailand.com/news/general/40071973",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "666632d9-7157-56bd-8add-db34640a21fc",
+            "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+            "title": "Global GDP growth seen at 2.6% in 2026 vs 2.9% in 2025 - UNCTAD",
+            "publisher": "Borsa Italiana",
+            "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economy/dettaglio/global-gdp-growth-seen-at-26-in-2026-vs-29-in-2025-unctad-nRC_09102026_1411_384138760.html?lang=en",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "b5aeb22a-1ff1-5303-98a7-4ca71ca2a0ca",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "asana-browser-agent-cost-optimization",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-asana-browser-agent-cost-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Asana把浏览器Agent测试成本降低76倍",
+            "headlineView": "缓存浏览历史、扩大上下文并批量移除截图，让GPT-6.1 Sol平均每次运行只需0.47美元",
+            "headlineFull": "Asana把浏览器Agent测试成本降低76倍；缓存浏览历史、扩大上下文并批量移除截图，让GPT-6.1 Sol平均每次运行只需0.47美元",
+            "intro": "Asana旗下StackAI用GPT-6 Astra在Codex中检查浏览器Agent，并对四个模型、两档历史预算、六种缓存与截图策略做了144次受控运行。最佳方案把历史预算扩大到48万字符、缓存稳定历史，并让截图累积到20张再批量裁减。优化后的GPT-6.1 Sol平均模型成本0.47美元，约4分钟完成一次任务，比原生产流程在Model B上的成本低76倍、速度快5倍；18次运行全部给出正确答案。结果来自固定的32本书数据采集任务和Asana自身估算，不能保证其他Agent、网站或计价结构获得相同幅度。",
+            "xiaziQuote": "先测工作流，再谈模型贵不贵。",
+            "doudouQuote": "76倍属于特定任务、基线与计价，不是通用折扣。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Asana cuts tested browser-agent cost 76x",
+            "headlineView": "Caching browsing history, expanding context and batching screenshot removal brings GPT-6.1 Sol to $0.47 per run",
+            "headlineFull": "Asana cuts tested browser-agent cost 76x; Caching browsing history, expanding context and batching screenshot removal brings GPT-6.1 Sol to $0.47 per run",
+            "intro": "StackAI, part of Asana, used GPT-6 Astra in Codex to inspect its browser agent and ran 144 controlled trials across four models, two history budgets and six caching and screenshot policies. The best policy expanded history to 480,000 characters, cached stable history and let screenshots accumulate to 20 before trimming them in a batch. Optimized GPT-6.1 Sol averaged $0.47 and roughly four minutes per run, 76 times cheaper and five times faster than the original Model B production setup; all 18 runs returned the correct answer. The result comes from a fixed 32-book collection task and Asana's own cost estimates, so it does not guarantee the same gain for other agents, sites or pricing structures.",
+            "xiaziQuote": "Measure the workflow before declaring the model expensive.",
+            "doudouQuote": "The 76x result belongs to one task, baseline and pricing setup, not every agent.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "6471f15a-cc2f-5f99-98d1-75e32740c8c7",
+            "topicId": "b5aeb22a-1ff1-5303-98a7-4ca71ca2a0ca",
+            "title": "GPT-6.1 Sol's 76x Browser-Agent Result: What It Measured",
+            "publisher": "OrcaRouter",
+            "url": "https://www.orcarouter.ai/blog/gpt-6-1-sol-browser-agent-76x",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "17cbf81d-b5e5-57e2-9b78-db67903ac7f7",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "productprepa-solo-pm-mentorship-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "South America",
+        "countryCodes": [
+          "AR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-productprepa-solo-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "ProductPrepa单人运营，验证MRR 2054美元",
+            "headlineView": "免费产品经理测评获客，再卖个性化成长路径、课程与月度1对1辅导",
+            "headlineFull": "ProductPrepa单人运营，验证MRR 2054美元；免费产品经理测评获客，再卖个性化成长路径、课程与月度1对1辅导",
+            "intro": "阿根廷创始人Nico以一人团队运营ProductPrepa，面向产品经理及希望转入产品岗位的设计师、开发者和营销人员，先用约10分钟的免费能力测评呈现短板，再销售个性化成长路径、课程与月度1对1辅导。TrustMRR页面显示LemonSqueezy验证累计收入6880美元、MRR 2054美元和19个活跃订阅；团队规模标注为1人、未融资，主要通过LinkedIn和X获客。这个模型用窄人群、高信任与高接触交付换收入，但辅导时间、创始人依赖和小样本留存仍是扩张限制。",
+            "xiaziQuote": "窄人群加高信任交付，也能长成一门真生意。",
+            "doudouQuote": "当前体量仍小，辅导交付的时间上限是主要约束。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo ProductPrepa verifies $2,054 MRR",
+            "headlineView": "A free PM assessment acquires users before personalized growth paths, courses and monthly one-to-one mentoring",
+            "headlineFull": "Solo ProductPrepa verifies $2,054 MRR; A free PM assessment acquires users before personalized growth paths, courses and monthly one-to-one mentoring",
+            "intro": "Argentine founder Nico operates ProductPrepa as a one-person team for product managers and designers, developers and marketers moving into product roles. A free assessment reveals skill gaps in about ten minutes, then the business sells personalized growth paths, courses and monthly one-to-one mentoring. TrustMRR lists $6,880 in LemonSqueezy-verified lifetime revenue, $2,054 MRR and 19 active subscriptions, with a one-person bootstrapped team acquiring customers through LinkedIn and X. The model converts a narrow audience, trust and high-touch delivery into revenue, but mentoring time, founder dependence and retention on a small sample still constrain scale.",
+            "xiaziQuote": "A narrow audience and trusted delivery can still become a real business.",
+            "doudouQuote": "The business is still small, and mentoring hours are the clearest scaling limit.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "22714638-0395-5ac5-b964-d48eca2c93a2",
+            "topicId": "17cbf81d-b5e5-57e2-9b78-db67903ac7f7",
+            "title": "ProductPrepa verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/productprepa",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "41e53d3f-6d81-59bc-a0c3-47e1fe2df6ba",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "skinstuff-ai-skincare-scanner-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "TR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-skinstuff-ai-revenue-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "SkinStuff用AI护肤扫描验证MRR 506美元",
+            "headlineView": "拍照识别成分、安全性与肤质适配，用高频购买判断换周订阅收入",
+            "headlineFull": "SkinStuff用AI护肤扫描验证MRR 506美元；拍照识别成分、安全性与肤质适配，用高频购买判断换周订阅收入",
+            "intro": "土耳其一人团队SkinStuff让用户拍摄护肤品标签或产品照片，AI把成分安全性、相关研究和个人肤质适配整理成购买前解释。TrustMRR页面显示RevenueCat验证累计收入2184美元、MRR 506美元和60个活跃订阅；产品采用7天试用后的周订阅，分为7.99、5.29和3.49美元档，并通过App Store优化、Meta广告和TikTok广告获客。产品把AI嵌入真实购买决策而非只提供聊天，但高周费、广告成本、建议准确性和长期留存仍决定利润能否持续。",
+            "xiaziQuote": "AI不是装饰，它要缩短一次真实购买判断。",
+            "doudouQuote": "高周费要持续证明留存与复购价值。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI",
+            "headlineFact": "SkinStuff verifies $506 MRR with AI skincare scans",
+            "headlineView": "Photo-based ingredient, safety and skin-fit explanations turn a recurring purchase decision into weekly subscriptions",
+            "headlineFull": "SkinStuff verifies $506 MRR with AI skincare scans; Photo-based ingredient, safety and skin-fit explanations turn a recurring purchase decision into weekly subscriptions",
+            "intro": "Turkey-based one-person company SkinStuff lets users photograph a skincare label or product, then uses AI to organize ingredient safety, relevant research and compatibility with the user's skin type before purchase. TrustMRR lists $2,184 in RevenueCat-verified lifetime revenue, $506 MRR and 60 active subscriptions. After a seven-day trial, weekly plans cost $7.99, $5.29 or $3.49, while acquisition comes from App Store optimization, Meta ads and TikTok ads. The product embeds AI in a real buying decision instead of offering a generic chat, but high weekly pricing, ad cost, recommendation accuracy and long-term retention still determine durable profit.",
+            "xiaziQuote": "AI is not decoration; it should shorten a real purchase decision.",
+            "doudouQuote": "A high weekly price has to keep proving retention and repeat value.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "0c2c262f-d04a-5431-bf61-8f1be1d8312c",
+            "topicId": "41e53d3f-6d81-59bc-a0c3-47e1fe2df6ba",
+            "title": "SkinStuff verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/skinstuff",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "42b36e08-7274-514a-bafb-550f10935a14",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "suitshop-cross-border-managed-markets",
+        "rank": 5,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-suitshop-cross-border-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "SuitShop国际订单增长600%",
+            "headlineView": "本地化结账、关税税务与履约一起改，国际转化率提高32%",
+            "headlineFull": "SuitShop国际订单增长600%；本地化结账、关税税务与履约一起改，国际转化率提高32%",
+            "intro": "美国线上优先西装与礼服品牌SuitShop服务婚礼等明确场景，价格低于租赁，并通过内容、门店、婚礼展会和口碑触达顾客。公司采用Shopify Managed Markets处理本地币种、关税税务、清关和每日仓库取件，并用分期付款、退货工具和统一库存降低跨境摩擦。Shopify案例引用SuitShop提供的结果：切换后国际订单增长600%、国际订单转化率提高32%，交付问题从约50%的订单降至零；公司另自报约18% EBITDA利润率。结果由企业提供，复制前仍要按品类重算退货、尺码、物流与获客成本。",
+            "xiaziQuote": "跨境增长不是开通一个国家，而是消掉每个结账与交付摩擦。",
+            "doudouQuote": "这是企业案例自报，复用前要重算退货率和物流成本。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "SuitShop grows international orders 600%",
+            "headlineView": "Localized checkout, tax and duty handling, and fulfillment lift international conversion 32%",
+            "headlineFull": "SuitShop grows international orders 600%; Localized checkout, tax and duty handling, and fulfillment lift international conversion 32%",
+            "intro": "US online-first suit and tuxedo brand SuitShop serves high-intent wedding occasions at prices below rentals, reaching customers through content, showrooms, wedding expos and word of mouth. It uses Shopify Managed Markets for local currency, duties and taxes, customs, and daily warehouse pickup, while installments, returns tools and unified inventory reduce friction. Shopify's case study cites results supplied by SuitShop: international orders rose 600%, international conversion increased 32% and delivery problems fell from roughly 50% of orders to zero. The company also reports about an 18% EBITDA margin. Because the results are company supplied, merchants should recalculate returns, sizing, logistics and acquisition cost for their own category.",
+            "xiaziQuote": "Cross-border growth is not opening a country; it is removing each checkout and delivery friction.",
+            "doudouQuote": "This is company-reported evidence, so recalculate returns and logistics before copying it.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "bfc9192f-54e6-5adb-9fdc-cdf51ae6e921",
+            "topicId": "42b36e08-7274-514a-bafb-550f10935a14",
+            "title": "How SuitShop Uses Shopify Plus and Managed Markets to Scale Without Limits",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/suitshop",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b5e44ef0-687c-537a-bd56-d45359db58b8",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "navi-pillay-nobel-peace-prize-2026",
+        "rank": 6,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [
+          "ZA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-navi-pillay-peace-prize-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际",
+            "headlineFact": "Navi Pillay获2026年诺贝尔和平奖",
+            "headlineView": "和平奖把国际法、问责与人权置于和平秩序的核心",
+            "headlineFull": "Navi Pillay获2026年诺贝尔和平奖；和平奖把国际法、问责与人权置于和平秩序的核心",
+            "intro": "挪威诺贝尔委员会把2026年和平奖授予南非出生的法学家Navanethem“​Navi”Pillay，表彰她“推动和平与国际法的努力”。Pillay曾反对南非种族隔离，担任联合国人权事务高级专员和国际刑事法院法官，并参与国际法院案件与国际调查。委员会强调，在国际法与相关机构承压之际，持久和平依赖法治、问责与人权。奖项确认的是长期公共贡献与价值方向，并不等于争议案件已经获得所有国家一致接受，真正影响仍取决于规则能否执行。",
+            "xiaziQuote": "当力量冲突时，规则的可执行性决定和平能走多远。",
+            "doudouQuote": "荣誉表达价值方向，真正考验仍是制度能否落地。",
+            "footerTakeaway": "今日关键词：国际。"
+          },
+          "en-US": {
+            "categoryLabel": "International",
+            "headlineFact": "Navi Pillay wins the 2026 Nobel Peace Prize",
+            "headlineView": "The prize places international law, accountability and human rights at the center of a peaceful order",
+            "headlineFull": "Navi Pillay wins the 2026 Nobel Peace Prize; The prize places international law, accountability and human rights at the center of a peaceful order",
+            "intro": "The Norwegian Nobel Committee awarded the 2026 Peace Prize to South African-born jurist Navanethem 'Navi' Pillay for her efforts to advance peace and international law. Pillay challenged apartheid, served as UN High Commissioner for Human Rights and a judge at the International Criminal Court, and has participated in International Court of Justice proceedings and international investigations. The committee stressed that, as international law and its institutions face pressure, durable peace depends on the rule of law, accountability and human rights. The award recognizes a lifetime of public contribution and a value direction; it does not mean contested cases have unanimous state acceptance, and impact still depends on enforceable institutions.",
+            "xiaziQuote": "When power collides, enforceable rules determine how far peace can travel.",
+            "doudouQuote": "An award signals a direction; the real test is whether institutions can act.",
+            "footerTakeaway": "Keyword: International."
+          }
+        },
+        "sources": [
+          {
+            "id": "105dd1cc-2b02-511b-8e49-16dda4a9f186",
+            "topicId": "b5e44ef0-687c-537a-bd56-d45359db58b8",
+            "title": "An important prize in our time",
+            "publisher": "Nobel Peace Center",
+            "url": "https://www.nobelpeacecenter.org/en/pressrelease/an-important-prize-in-our-time",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "195f2244-b695-5151-8d13-2d438a4ea4a1",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "who-community-mental-health-care-shift",
+        "rank": 7,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-who-community-mental-health-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "健康",
+            "headlineFact": "WHO呼吁精神健康照护回到社区",
+            "headlineView": "长期住院不应成为默认，住房、就业、教育和家庭支持必须进入照护体系",
+            "headlineFull": "WHO呼吁精神健康照护回到社区；长期住院不应成为默认，住房、就业、教育和家庭支持必须进入照护体系",
+            "intro": "世界精神卫生日前夕，WHO发布去机构化指南，要求各国从长期精神病院和社会照护机构转向以权利、选择和社区生活为核心的支持。指南面向医院领导者，提出减少入院与长期住院、改变侵权实践，并让住院六个月以上的人在住房、医疗、社保、教育、就业与家庭支持下回到社区。WHO《精神健康地图》显示，仅9%的报告国家已经完全转向社区照护，53%仍处改革早期，精神病院住院者中28%停留超过六个月。改革需要跨部门投入，不能只靠医院缩床位。",
+            "xiaziQuote": "照护不是把人隔离得更久，而是让生活重新长回来。",
+            "doudouQuote": "转型需要医院之外的住房、社保和就业协同。",
+            "footerTakeaway": "今日关键词：健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Health",
+            "headlineFact": "WHO urges mental health care back into communities",
+            "headlineView": "Long-term admission should not be the default; housing, work, education and family support belong inside care",
+            "headlineFull": "WHO urges mental health care back into communities; Long-term admission should not be the default; housing, work, education and family support belong inside care",
+            "intro": "Ahead of World Mental Health Day, WHO released a deinstitutionalization guide calling for countries to move from long-term psychiatric hospitals and social-care institutions toward rights, choice and life in the community. It asks hospital leaders to reduce admissions and long stays, change practices that restrict rights, and help people hospitalized for six months or more return with housing, health care, social protection, education, employment and family support. WHO's Mental Health Atlas finds that only 9% of reporting countries have fully shifted to community care, 53% remain in an early reform stage and 28% of psychiatric inpatients stay longer than six months. Reform needs cross-sector investment, not bed closures alone.",
+            "xiaziQuote": "Care should not isolate people longer; it should help life grow back.",
+            "doudouQuote": "The shift requires housing, social protection and work beyond the hospital.",
+            "footerTakeaway": "Keyword: Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "a7ba93c8-1af0-5f8c-bc77-4cf46ce2886b",
+            "topicId": "195f2244-b695-5151-8d13-2d438a4ea4a1",
+            "title": "WHO urges shift from institutional to community-based mental health care",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/09-10-2026-who-urges-shift-from-institutional-to-community-based-mental-health-care",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "42890ede-d99e-5925-8fa7-04de826a3226",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "thailand-floods-four-million-affected",
+        "rank": 8,
+        "category": "climate",
+        "region": "Asia",
+        "countryCodes": [
+          "TH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-thailand-floods-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候",
+            "headlineFact": "泰国洪灾已影响超过400万人",
+            "headlineView": "持续强降雨把城市、农田与水产设施同时推入长期积水风险",
+            "headlineFull": "泰国洪灾已影响超过400万人；持续强降雨把城市、农田与水产设施同时推入长期积水风险",
+            "intro": "NASA Earth Observatory对比Landsat 8和9影像显示，9月下旬至10月初的持续强降雨和强对流让泰国多地长期积水；10月2日，巴真府Bang Pakong河沿岸农田和水产设施被大片淹没。曼谷在48小时内降雨接近300毫米，接近其9月月均344毫米。NASA援引红十字与政府数据称，自9月中旬以来洪灾波及50个府、超过400万人并造成数十人死亡，约27万公顷农田受损。全国汇总有助于配置救援，但地方行动仍需服从实时预警。",
+            "xiaziQuote": "灾害地图的价值，是把救援与恢复资源送到最急的地方。",
+            "doudouQuote": "区域总数不替代地方预报，行动仍要看当地警报。",
+            "footerTakeaway": "今日关键词：气候。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate",
+            "headlineFact": "Thailand floods affect more than 4 million people",
+            "headlineView": "Persistent heavy rain pushes cities, farms and aquaculture into sustained inundation risk",
+            "headlineFull": "Thailand floods affect more than 4 million people; Persistent heavy rain pushes cities, farms and aquaculture into sustained inundation risk",
+            "intro": "NASA Earth Observatory compared Landsat 8 and 9 imagery showing that persistent heavy rain and intense downpours in late September and early October left wide areas of Thailand under sustained flooding. On October 2, farmland and aquaculture along the Bang Pakong River in Prachin Buri were extensively inundated. Bangkok received nearly 300 millimeters in 48 hours, close to its 344-millimeter September monthly average. Citing Red Cross and government data, NASA says flooding since mid-September reached 50 provinces, affected more than 4 million people, caused dozens of deaths and damaged about 270,000 hectares of farmland. National totals guide relief allocation, but local action still depends on current warnings.",
+            "xiaziQuote": "A disaster map matters when it directs relief and recovery to the most urgent places.",
+            "doudouQuote": "Regional totals do not replace local forecasts; follow local alerts.",
+            "footerTakeaway": "Keyword: Climate."
+          }
+        },
+        "sources": [
+          {
+            "id": "c2812f48-3a77-5207-8a38-5349362bf51e",
+            "topicId": "42890ede-d99e-5925-8fa7-04de826a3226",
+            "title": "Thailand floods hit 1.7m rai including over 26,000 rai of orchards",
+            "publisher": "The Nation Thailand",
+            "url": "https://www.nationthailand.com/news/general/40071973",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "de147314-ea9c-5074-a58f-196b1dfd05f1",
+        "issueId": "9f8bf065-f38d-59d0-b951-2880ee167267",
+        "slug": "unctad-trade-development-report-2026",
+        "rank": 9,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-unctad-trade-report-20261010",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "经济",
+            "headlineFact": "UNCTAD预计2026年全球增长放缓至2.6%",
+            "headlineView": "贸易仍增长约4%，但技术、金融与地缘条件正在收窄追赶路径",
+            "headlineFull": "UNCTAD预计2026年全球增长放缓至2.6%；贸易仍增长约4%，但技术、金融与地缘条件正在收窄追赶路径",
+            "intro": "联合国贸易和发展组织《2026年贸易和发展报告》预计，2026年全球经济增长为2.6%，低于2025年的2.9%；发展中经济体增长由4.7%降至4%。与此同时，货物和服务贸易按不变价格仍预计增长约4%，全球贸易额已在2025年达到35万亿美元。报告认为，AI推动部分贸易活力，但收益高度集中；亚洲预计贡献2026年全球增长的59%，而中美贸易较2024年下降逾20%。贸易总量上升并不意味着机会平均分配，企业仍需按行业评估准入、融资、能源与供应链条件。",
+            "xiaziQuote": "交易总量增长，不代表机会会平均落到每个市场。",
+            "doudouQuote": "先看你所在行业的准入、融资与供应链条件。",
+            "footerTakeaway": "今日关键词：经济。"
+          },
+          "en-US": {
+            "categoryLabel": "Economy",
+            "headlineFact": "UNCTAD sees 2026 global growth slowing to 2.6%",
+            "headlineView": "Trade still expands about 4%, while technology, finance and geopolitics narrow the catch-up path",
+            "headlineFull": "UNCTAD sees 2026 global growth slowing to 2.6%; Trade still expands about 4%, while technology, finance and geopolitics narrow the catch-up path",
+            "intro": "UN Trade and Development's Trade and Development Report 2026 projects global economic growth of 2.6%, down from 2.9% in 2025, while developing economies slow from 4.7% to 4%. Goods and services trade is still expected to expand by about 4% at constant prices after global trade reached $35 trillion in 2025. The report says AI contributes to trade dynamism but gains are highly concentrated; Asia is projected to supply 59% of global growth in 2026, while China-US trade has fallen more than 20% since 2024. Rising trade volume does not distribute opportunity evenly, so firms still need sector-specific checks on access, finance, energy and supply chains.",
+            "xiaziQuote": "More trade does not mean opportunity lands evenly in every market.",
+            "doudouQuote": "Start with your industry's access, financing and supply-chain conditions.",
+            "footerTakeaway": "Keyword: Economy."
+          }
+        },
+        "sources": [
+          {
+            "id": "741a3a01-3c0d-56fa-a06f-15c45c4722b9",
+            "topicId": "de147314-ea9c-5074-a58f-196b1dfd05f1",
+            "title": "Global GDP growth seen at 2.6% in 2026 vs 2.9% in 2025 - UNCTAD",
+            "publisher": "Borsa Italiana",
+            "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economy/dettaglio/global-gdp-growth-seen-at-26-in-2026-vs-29-in-2025-unctad-nRC_09102026_1411_384138760.html?lang=en",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261010_88c2987a2570889e540e74d6"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-10",
+    "releaseId": "rel_20261010_88c2987a2570889e540e74d6",
+    "assetBatchId": "asset_prod_20261010_88c2987a2570889e540e74d6",
+    "posters": [
+      {
+        "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+        "locale": "zh",
+        "contentHash": "07ead9b9cee4d98e16cdbaa2a3a54379e9b4fb41bc1305ceea263a6c18244dd2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/global-operator-radar-20261010.png"
+      },
+      {
+        "topicId": "6c26f4c5-d6e6-599e-ab90-ed7a827c9725",
+        "locale": "en",
+        "contentHash": "ce5d647c3d0e66cb052a28bd0189d065debf9316e1175758461c9ab576ffd371",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/global-operator-radar-20261010.png"
+      },
+      {
+        "topicId": "b5aeb22a-1ff1-5303-98a7-4ca71ca2a0ca",
+        "locale": "zh",
+        "contentHash": "72f76ef434cf9a0cf453e4a05c082759274a22122898a886e7d060eb792b1a2f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/asana-browser-agent-cost-optimization.png"
+      },
+      {
+        "topicId": "b5aeb22a-1ff1-5303-98a7-4ca71ca2a0ca",
+        "locale": "en",
+        "contentHash": "1da0be683af65bab4cb98df43eb3db07dbe3daab3f8f50b76b4b94e329296a93",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/asana-browser-agent-cost-optimization.png"
+      },
+      {
+        "topicId": "17cbf81d-b5e5-57e2-9b78-db67903ac7f7",
+        "locale": "zh",
+        "contentHash": "14cd5b364d959e5f0ad001b2183f859ad00189e52d5e8f8b6e477344a702b575",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/productprepa-solo-pm-mentorship-revenue.png"
+      },
+      {
+        "topicId": "17cbf81d-b5e5-57e2-9b78-db67903ac7f7",
+        "locale": "en",
+        "contentHash": "e7de0557cd83bfff9aad5392957f7d38680dd09015ac7aea6008c8ece53a41ca",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/productprepa-solo-pm-mentorship-revenue.png"
+      },
+      {
+        "topicId": "41e53d3f-6d81-59bc-a0c3-47e1fe2df6ba",
+        "locale": "zh",
+        "contentHash": "724dca5cdd6fe8eeaa542ec17594896062ca27066c27fe1e7b95e9a52ec4b275",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/skinstuff-ai-skincare-scanner-revenue.png"
+      },
+      {
+        "topicId": "41e53d3f-6d81-59bc-a0c3-47e1fe2df6ba",
+        "locale": "en",
+        "contentHash": "b7059cabfb3b2d777357035994d98a63663202499e6f35be0c8686eaa224d9e4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/skinstuff-ai-skincare-scanner-revenue.png"
+      },
+      {
+        "topicId": "42b36e08-7274-514a-bafb-550f10935a14",
+        "locale": "zh",
+        "contentHash": "2b1a533e6cdb038f7970ef9c180d2db97f067b7d1f469fa22545769ef8ffcad4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/suitshop-cross-border-managed-markets.png"
+      },
+      {
+        "topicId": "42b36e08-7274-514a-bafb-550f10935a14",
+        "locale": "en",
+        "contentHash": "6af993651c636b26371ae11d52c691d88d66fd1d90e2f65de6c5059ae03458cd",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/suitshop-cross-border-managed-markets.png"
+      },
+      {
+        "topicId": "b5e44ef0-687c-537a-bd56-d45359db58b8",
+        "locale": "zh",
+        "contentHash": "5ebe191a43b25f62f3113972e961122c2843694fbb81f81072136f7cc67c9db3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/navi-pillay-nobel-peace-prize-2026.png"
+      },
+      {
+        "topicId": "b5e44ef0-687c-537a-bd56-d45359db58b8",
+        "locale": "en",
+        "contentHash": "599069b788cf7e7b805480430a52fc94e23ae66abc7d38df542c0d25d28b4e75",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/navi-pillay-nobel-peace-prize-2026.png"
+      },
+      {
+        "topicId": "195f2244-b695-5151-8d13-2d438a4ea4a1",
+        "locale": "zh",
+        "contentHash": "4739b40941300a59e8ec3925804862896bf2fd2be2f591bba22a9a123b4bda70",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/who-community-mental-health-care-shift.png"
+      },
+      {
+        "topicId": "195f2244-b695-5151-8d13-2d438a4ea4a1",
+        "locale": "en",
+        "contentHash": "e8966c8b612648c37ef6f1847cc40bf2a7b9e6e6c97a14fd26887752ef5291b1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/who-community-mental-health-care-shift.png"
+      },
+      {
+        "topicId": "42890ede-d99e-5925-8fa7-04de826a3226",
+        "locale": "zh",
+        "contentHash": "5c5ec74dd3a0ec84946af4cb44be616d1fd1c6a4dead50be512f886a7f2055ac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/thailand-floods-four-million-affected.png"
+      },
+      {
+        "topicId": "42890ede-d99e-5925-8fa7-04de826a3226",
+        "locale": "en",
+        "contentHash": "2ee6887a7378b5a5466cb1a7412759ebdafeec217b679b09f49dd4fd772cc7f4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/thailand-floods-four-million-affected.png"
+      },
+      {
+        "topicId": "de147314-ea9c-5074-a58f-196b1dfd05f1",
+        "locale": "zh",
+        "contentHash": "703b1154b37c1c521607c74230d22b79245b22f935800dcb1ea57d5609617b06",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/zh/unctad-trade-development-report-2026.png"
+      },
+      {
+        "topicId": "de147314-ea9c-5074-a58f-196b1dfd05f1",
+        "locale": "en",
+        "contentHash": "b127034af8d9a28367c526e39d3b37d3f39acb3228ecaf922b5852ccdf3071f7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261010_88c2987a2570889e540e74d6/en/unctad-trade-development-report-2026.png"
+      }
+    ]
+  }
+}
