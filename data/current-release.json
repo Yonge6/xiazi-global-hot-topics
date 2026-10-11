@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-10-11",
-  "releaseId": "rel_20261011_549b2b1f527f3d56f46d8f0f",
-  "assetBatchId": "asset_prod_20261011_549b2b1f527f3d56f46d8f0f",
+  "issueDate": "2026-10-12",
+  "releaseId": "rel_20261012_b5bf38a754dc45f932c9abbb",
+  "assetBatchId": "asset_prod_20261012_b5bf38a754dc45f932c9abbb",
   "posters": [
     {
-      "topicId": "4a1dbefb-0d10-5901-9dce-3368b385da37",
+      "topicId": "68f37b8a-c8c6-530a-86d5-6a374cea3454",
       "locale": "zh",
-      "contentHash": "c96ebb333ed120ebb12298a350a0140e1ebd3c051121c56414e868fa16ce9989",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/global-operator-radar-20261011.png"
+      "contentHash": "bc76c9d5496975f0a0b0a8186537d2a6e371208f4f9a0f6a9da0aed61438820f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/global-operator-radar-20261012.png"
     },
     {
-      "topicId": "4a1dbefb-0d10-5901-9dce-3368b385da37",
+      "topicId": "68f37b8a-c8c6-530a-86d5-6a374cea3454",
       "locale": "en",
-      "contentHash": "18b16c0632af6ae0eeac7864840ef76fc5f257fa6d58431009c7b2f2b21a0bff",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/global-operator-radar-20261011.png"
+      "contentHash": "64b5590ad4aea7c0aa56a8234e96008e0c3539a8062097f5a8f0ffd4f3f67e7b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/global-operator-radar-20261012.png"
     },
     {
-      "topicId": "cd54e502-45fc-52b5-ad77-2630002fa86d",
+      "topicId": "fc3b6196-2e03-5cb5-a6ee-5540137ddf19",
       "locale": "zh",
-      "contentHash": "7a737a885f8b6efa402b149d13adf0f411615f874c6f84ddb3a30a352c9569fb",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/google-gemini-universal-work-agent.png"
+      "contentHash": "cb1b58da754499ee4d4f88f1fa11d80c73f067b985fd174bffc097102732dc28",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/anthropic-unintended-model-actions.png"
     },
     {
-      "topicId": "cd54e502-45fc-52b5-ad77-2630002fa86d",
+      "topicId": "fc3b6196-2e03-5cb5-a6ee-5540137ddf19",
       "locale": "en",
-      "contentHash": "c7057d5ad14812b0ad5de1fe7533cf2b9eda7f6c78964f403c3385e56dbd043b",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/google-gemini-universal-work-agent.png"
+      "contentHash": "80047fa8339c40855fd3afd06bdbb23b6def91f75aad57b25099caca1210d494",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/anthropic-unintended-model-actions.png"
     },
     {
-      "topicId": "eff638d1-6f29-55ca-91bc-fccc2045ad80",
+      "topicId": "1e5fb298-72e2-57bd-9b3b-5a31957390ef",
       "locale": "zh",
-      "contentHash": "b1390b10080db51380826253afda1963e38fbc5726c91420c05c3ea0d9242f97",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/connor-cedro-solo-seo-consulting-revenue.png"
+      "contentHash": "5c352bc8e26645ea372b464686d1a23059e18ec2782a494e80fe4500f4c33d30",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/vectosolve-solo-vector-tool-revenue.png"
     },
     {
-      "topicId": "eff638d1-6f29-55ca-91bc-fccc2045ad80",
+      "topicId": "1e5fb298-72e2-57bd-9b3b-5a31957390ef",
       "locale": "en",
-      "contentHash": "a93465b55a8aa8be4c004c77bdfe14c809820358b84397e0c0e80c5ba0f5479e",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/connor-cedro-solo-seo-consulting-revenue.png"
+      "contentHash": "a17a2a57e4bcd0577db3626d654cf0633a75d9f6d4fbbfd4660675e1356ff5d1",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/vectosolve-solo-vector-tool-revenue.png"
     },
     {
-      "topicId": "5ca9b2a9-fddf-514d-9b33-a3410f131dcd",
+      "topicId": "08a528ff-e265-5a3c-b94a-7205578d50c7",
       "locale": "zh",
-      "contentHash": "bd1c55037a0d8689eae6b48c84a1392984301b0feca9dc4b2876f0544ff0937e",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/taja-ai-video-repurposing-verified-revenue.png"
+      "contentHash": "e43c7a452e56095415814f4e1542eea9e872474ff641fd1d42d65a68d9219355",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/nsketch-ai-creative-studio-revenue.png"
     },
     {
-      "topicId": "5ca9b2a9-fddf-514d-9b33-a3410f131dcd",
+      "topicId": "08a528ff-e265-5a3c-b94a-7205578d50c7",
       "locale": "en",
-      "contentHash": "307bfc291052cf4d457e1b15dd25eca6f50461a9ecbeb7931984a07489029d64",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/taja-ai-video-repurposing-verified-revenue.png"
+      "contentHash": "a3be79236e9ec3259aa997d5492208039375a18ab2b9ae8ede3aabfe7d80b75a",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/nsketch-ai-creative-studio-revenue.png"
     },
     {
-      "topicId": "4646903b-4fe2-587a-b768-ae21499a5b2b",
+      "topicId": "67d1845b-b816-5401-b854-d4c07fa71446",
       "locale": "zh",
-      "contentHash": "0160a0eaa5262e5f5a30bee7dba42d69f5a2267572ddac1a26767d20012f5ab1",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/fenity-cross-border-ddp-gmv-growth.png"
+      "contentHash": "85636fdfc51d446227d4ff489b163d31bebcd6b27a1c475edf28a5196566317a",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/braingain-cross-border-gmv-growth.png"
     },
     {
-      "topicId": "4646903b-4fe2-587a-b768-ae21499a5b2b",
+      "topicId": "67d1845b-b816-5401-b854-d4c07fa71446",
       "locale": "en",
-      "contentHash": "e12585f30e4e857425832b490d4eba5034bec3367105bb435c21dacd065a63e7",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/fenity-cross-border-ddp-gmv-growth.png"
+      "contentHash": "89c36ac2ba146e5ffac97b5e042e8ac4dd00ec0f42de24cab08b83b8f518c3c0",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/braingain-cross-border-gmv-growth.png"
     },
     {
-      "topicId": "b07989d0-67a3-5a1f-b2bc-2d1f198b405e",
+      "topicId": "a93d4882-3464-532a-97c6-14dc39c61a82",
       "locale": "zh",
-      "contentHash": "484351d8a0e719db3c264c5bd66f32e4d18d46312cd811ba092aee943a1e1d43",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/international-day-girl-child-marriage-rights-2026.png"
+      "contentHash": "8394d3009f796de9a6efd71086fcc09e1572ab625b871eac23f965b607e844fb",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/yemen-full-scale-war-returns.png"
     },
     {
-      "topicId": "b07989d0-67a3-5a1f-b2bc-2d1f198b405e",
+      "topicId": "a93d4882-3464-532a-97c6-14dc39c61a82",
       "locale": "en",
-      "contentHash": "97a15a8c26917f31632df9c4b3f7a9d42be715abc4545ee6ef0e086bf37e3d5f",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/international-day-girl-child-marriage-rights-2026.png"
+      "contentHash": "9adcc929a8c5e9e2b9e164f2a1cdb826d1a0b2eaf7dec562b2f43dd7646c8e0b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/yemen-full-scale-war-returns.png"
     },
     {
-      "topicId": "024d049c-6074-5cf8-994e-72d2a6ce2fe2",
+      "topicId": "d11ed5c1-6fe8-524f-b468-6eb46b6b127e",
       "locale": "zh",
-      "contentHash": "270653ab2b1f1083b474445ab70fc8fe61d74d7ccda1415ad1c0282d7f92f894",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/sleep-ecg-deep-learning-cardiovascular-risk.png"
+      "contentHash": "2ebc7d98b6eed92f9fc8b2ade1328fe34a744971c0b895571f0597820af210a3",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/clean-cooking-un-carbon-market.png"
     },
     {
-      "topicId": "024d049c-6074-5cf8-994e-72d2a6ce2fe2",
+      "topicId": "d11ed5c1-6fe8-524f-b468-6eb46b6b127e",
       "locale": "en",
-      "contentHash": "65cc08b3ea0a19e0c973539940fd61bb412c07f3e8a5b0e4d3cf6597311bc4c6",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/sleep-ecg-deep-learning-cardiovascular-risk.png"
+      "contentHash": "853112116a495ffb75609af4b2e684f794b27f77054a3d443dca1b038f97e3e0",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/clean-cooking-un-carbon-market.png"
     },
     {
-      "topicId": "27a2905b-8943-536a-a27e-122fd6b80988",
+      "topicId": "4d32e4bb-021a-5141-abea-c8d50b94e727",
       "locale": "zh",
-      "contentHash": "cde605597683b1b216367ae1260dee2299fc43091e040587d7fff270735e16c5",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/sophie-adenot-european-spaceflight-record.png"
+      "contentHash": "a96a06aafa50375538a12259563be627550a629aa6dae971d01fb451b437a8bc",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/nih-early-career-grants-record.png"
     },
     {
-      "topicId": "27a2905b-8943-536a-a27e-122fd6b80988",
+      "topicId": "4d32e4bb-021a-5141-abea-c8d50b94e727",
       "locale": "en",
-      "contentHash": "25b8e9bd45d942a47a280ba1831d5250278f75fc2224a03c9e89a2a0c6f269a5",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/sophie-adenot-european-spaceflight-record.png"
+      "contentHash": "dfb8f64594d9d1e07f78bd8451121d39d17b99283073e02c78b0f03a9161ca9f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/nih-early-career-grants-record.png"
     },
     {
-      "topicId": "47d20eae-8545-52ab-a890-1baf9a40566c",
+      "topicId": "10168c34-18bf-5e6c-8e28-fbd385848946",
       "locale": "zh",
-      "contentHash": "75a1f30c956e60c79e68f366e73c314d26a49f491f50d1e1f64bf0e3c5435877",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/zh/cop31-host-agreement-inclusion-cost-rules.png"
+      "contentHash": "3c98167a1a9a8660248676dc6c28ae5c1d9c67c5e313896377abab6ddc93932f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/zh/migratory-bird-community-science.png"
     },
     {
-      "topicId": "47d20eae-8545-52ab-a890-1baf9a40566c",
+      "topicId": "10168c34-18bf-5e6c-8e28-fbd385848946",
       "locale": "en",
-      "contentHash": "7b4d1e7b878b33a94bd68d8ea113690c6921f802bd41b10adf600cf998d0a322",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261011_549b2b1f527f3d56f46d8f0f/en/cop31-host-agreement-inclusion-cost-rules.png"
+      "contentHash": "de99a09fb8b5c79df0cc3ecbb89b722ea40740d7f7c683b33406c2d97b4cbb41",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261012_b5bf38a754dc45f932c9abbb/en/migratory-bird-community-science.png"
     }
   ]
 }
