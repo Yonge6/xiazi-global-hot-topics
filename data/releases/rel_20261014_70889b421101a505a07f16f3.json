@@ -1,0 +1,721 @@
+{
+  "issue": {
+    "id": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+    "slug": "2026-10-14",
+    "style": {
+      "name": "Fractal Art",
+      "zhName": "分形艺术",
+      "description": "Style Atlas daily pick #119: Fractal Art. Use an original premium editorial fractal visual language built from recursive geometry, branching structures, self-similar patterns, mathematical rhythm, luminous depth and controlled infinite detail. Every poster must turn the day’s specific subject into a distinct real scene whose architecture, data paths or natural forms grow through fractal logic; do not substitute generic spirals, kaleidoscopes, repeated cards or one abstract background for factual storytelling. Keep text on calm, low-texture, high-contrast fields and actively reduce decorative detail near copy. Each poster has one main conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central fractal globe or world-stage scene, using branching paths, staggered organic information ribbons and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each summary needs a quiet readable field, with a clear 1-8 order and no extra event. Chinese and English must keep the same composition, scene, hierarchy and rhythm. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and the artwork must fill all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-14",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-14T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-13T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+    "topics": [
+      {
+        "id": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "global-operator-radar-20261014",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月14日全球经营雷达",
+            "headlineView": "Agent算力、单人数据生意、AI客服收入、跨境背包、能源停火、量子产品、长效胰岛素与太阳风机制进入同一张行动地图",
+            "headlineFull": "10月14日全球经营雷达；Agent算力、单人数据生意、AI客服收入、跨境背包、能源停火、量子产品、长效胰岛素与太阳风机制进入同一张行动地图",
+            "intro": "1. AMD发布Helion开放式Agent算力机架，可按任务组合最多32768个CPU核心、GPU节点与跨模型Token Router，计划11月由生态伙伴推出。\n2. TrustMRR由一人运营，以经支付平台验证的创业收入数据库和交易市场做到378700美元累计收入、23234美元MRR。\n3. Chat Data把企业文档训练成多渠道AI客服与销售Agent，以19至399美元月费验证累计收入231416美元、MRR 14928美元。\n4. 健身背包品牌WOLFpak用到岸价、清关与本地化结账拓展加拿大、墨西哥、英国和澳大利亚，18个月全球销售增长433%。\n5. 英国在华沙安全论坛支持乌克兰能源停火倡议，称俄罗斯一周内对乌能源基础设施发动200次袭击。\n6. 英国以5000万英镑支持量子铁路故障探测、便携眼科扫描和无GPS导航，并另投2000万英镑建设量子通信供应链。\n7. 英国MHRA批准每周一次的Onswik长效胰岛素，可把部分2型糖尿病患者的基础胰岛素注射从每年365次降至52次。\n8. 十国团队利用帕克太阳探测器数据首次发现太阳风湍流磁场旋转在流体尺度与粒子尺度之间发生方向反转。",
+            "xiaziQuote": "今天的共同信号，是把复杂系统拆成可验证、可配置、可交付的关键节点。",
+            "doudouQuote": "增长数字要看成本，技术突破要看边界，政策倡议要看真正执行。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 14 Global Operator Radar",
+            "headlineView": "Agent compute, solo data revenue, AI-support income, cross-border backpacks, an energy ceasefire, quantum products, weekly insulin and solar-wind physics enter one action map",
+            "headlineFull": "October 14 Global Operator Radar; Agent compute, solo data revenue, AI-support income, cross-border backpacks, an energy ceasefire, quantum products, weekly insulin and solar-wind physics enter one action map",
+            "intro": "1. AMD introduced the open Helion agentic-compute rack, combining up to 32,768 CPU cores, GPU nodes and a cross-model token router, with partner systems planned for November.\n2. One-person TrustMRR turned a payment-verified startup revenue database and marketplace into $378,700 total revenue and $23,234 MRR.\n3. Chat Data turns company documents into multichannel AI support and sales agents, verifying $231,416 total revenue and $14,928 MRR on plans from $19 to $399 monthly.\n4. Fitness-backpack brand WOLFpak used landed-cost clarity, customs and localized checkout to expand across Canada, Mexico, the UK and Australia, lifting global sales 433% in 18 months.\n5. The UK backed Ukraine’s call for an energy ceasefire at the Warsaw Security Forum after reporting 200 Russian attacks on Ukrainian energy infrastructure in one week.\n6. The UK committed £50 million to quantum rail-fault detection, portable eye scans and GPS-independent navigation, plus £20 million for quantum-communications supply chains.\n7. The UK MHRA authorized once-weekly Onswik basal insulin, potentially cutting injections for some adults with type 2 diabetes from 365 to 52 a year.\n8. A ten-country team used Parker Solar Probe data to reveal the first reversal in magnetic-field rotation between fluid and particle scales of solar-wind turbulence.",
+            "xiaziQuote": "Today's shared signal is to break complex systems into critical nodes that can be verified, configured and delivered.",
+            "doudouQuote": "Read growth beside cost, breakthroughs beside boundaries and policy proposals beside execution.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "7c8b8a64-5ccf-5951-aa8c-6d18bb951e7a",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale",
+            "publisher": "AMD",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "279b3ae6-4f7e-5ab9-9450-28b81e429503",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "TrustMRR verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/trustmrr",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9a03634f-a55f-56e8-b016-2eaf1657dd5c",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "Chat Data LLC verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/chat-data-llc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1aedb370-118e-533a-85b7-392d04b6c725",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "WOLFpak boosts global sales by 433% with Managed Markets",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/nz/case-studies/wolfpak",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "2853bb5e-4f8e-5f2d-852e-745eeb305bc3",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "Back Zelenskyy and Ukraine with an energy ceasefire",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/back-zelenskyy-and-ukraine-with-an-energy-ceasefire-foreign-secretary-tells-european-partners",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "f090ab5d-1951-529f-8d13-f27802ce94c9",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "Quantum firms backed to keep railways running and cut waiting lists",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/quantum-firms-backed-to-keep-railways-running-and-cut-waiting-lists-as-uk-harnesses-potential-of-future-tech",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "ede6f1e1-c50c-5769-9024-2b72676d6a68",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "MHRA authorises Onswik for adults with type 2 diabetes",
+            "publisher": "UK Medicines and Healthcare products Regulatory Agency",
+            "url": "https://www.gov.uk/government/news/mhra-authorises-onswik-insulin-efsitora-alfa-for-adults-with-type-2-diabetes",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "fa11c0d5-3f43-5212-89cd-e886ef64e2dd",
+            "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+            "title": "Structure in the unstructured: New phenomenon discovered in the solar wind",
+            "publisher": "School of Science, The University of Tokyo",
+            "url": "https://www.s.u-tokyo.ac.jp/en/press/11251/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "5b41604f-4748-5e44-8402-d383d62c6556",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "amd-helion-agentic-compute-rack",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-amd-helion-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "AMD发布Helion开放式Agent算力机架",
+            "headlineView": "把Agent执行、模型推理与通用计算拆成可配置节点，Token Router跨前沿模型与开源模型分配调用",
+            "headlineFull": "AMD发布Helion开放式Agent算力机架；把Agent执行、模型推理与通用计算拆成可配置节点，Token Router跨前沿模型与开源模型分配调用",
+            "intro": "AMD于10月12日发布Helion Agentic AI Rack开放蓝图，基于Open Compute Project规格，把Agent执行、模型推理和通用计算放进可按负载调整的机架架构。CPU-only版本可由第六代EPYC组成最多32768个CPU核心，企业一体化版本则组合EPYC、Instinct MI350P GPU与通用节点；集成Token Router负责把Agent的模型调用分配到前沿或开源模型。方案支持风冷和液冷，AMD计划把规格贡献给OCP，生态伙伴配置预计11月上市。它解决的是异构Agent负载的功耗与利用率问题，但目前仍是开发中蓝图，实际价格、能效、交付规模与软件成熟度尚待客户验证。",
+            "xiaziQuote": "Agent基础设施的下一步，不是只堆GPU，而是让每类任务去最合适的计算节点。",
+            "doudouQuote": "开放蓝图降低锁定风险，但上市后的能效和运维才是真成绩。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "AMD introduces the open Helion agentic-compute rack",
+            "headlineView": "Configurable nodes separate agent execution, model inference and general compute while a token router distributes calls across frontier and open models",
+            "headlineFull": "AMD introduces the open Helion agentic-compute rack; Configurable nodes separate agent execution, model inference and general compute while a token router distributes calls across frontier and open models",
+            "intro": "AMD introduced the Helion Agentic AI Rack on October 12 as an open blueprint based on an Open Compute Project specification. It separates agent execution, model inference and general compute into configurations that can match workload and power needs. A CPU-only design can provide up to 32,768 sixth-generation EPYC cores, while an enterprise all-in-one option combines EPYC CPUs, Instinct MI350P GPUs and general-purpose nodes. An integrated token router directs model calls across frontier and open-source models. Air- and liquid-cooled versions are supported, AMD plans to contribute the specification to OCP, and partner systems are planned for November. It targets utilization and power problems in heterogeneous agent workloads, but pricing, field efficiency, delivery scale and software maturity remain unproven until deployment.",
+            "xiaziQuote": "The next step in agent infrastructure is not merely more GPUs, but routing each kind of work to the right compute.",
+            "doudouQuote": "An open blueprint reduces lock-in, but post-launch efficiency and operations will be the real score.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "40c64624-b79d-59ab-b421-7c597cdbd2ee",
+            "topicId": "5b41604f-4748-5e44-8402-d383d62c6556",
+            "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale",
+            "publisher": "AMD",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c2d674b3-e731-5bb7-b628-b17546bdf2cc",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "trustmrr-solo-verified-revenue-marketplace",
+        "rank": 3,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "SG"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-trustmrr-solo-revenue-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "TrustMRR一人运营，验证MRR 23234美元",
+            "headlineView": "把创业者最难证明的收入数据做成公开数据库、付费曝光与并购撮合市场",
+            "headlineFull": "TrustMRR一人运营，验证MRR 23234美元；把创业者最难证明的收入数据做成公开数据库、付费曝光与并购撮合市场",
+            "intro": "TrustMRR由Marc Lou在新加坡一人运营，面向SaaS创始人、电商、机构、创作者和营销者，用只读支付平台连接验证收入，并把数据组织成排行榜、分析和创业项目交易市场。平台自身通过Stripe验证累计收入378700美元、MRR 23234美元和12个活跃订阅，数据于10月13日更新。获客来自SEO、口碑、X、YouTube、Newsletter、内容营销、LinkedIn和Reddit；交付以自动化数据库和撮合产品为主，边际成本低。创始人约40.95万X关注者是强分发杠杆，主要限制则是订阅数集中、创始人品牌依赖，以及收入验证与商业曝光之间必须持续维持信任边界。",
+            "xiaziQuote": "一人公司可以把“可信证据”本身做成产品，再让数据连接交易。",
+            "doudouQuote": "高MRR配12个订阅意味着客单很高，也意味着客户集中风险更高。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "One-person TrustMRR verifies $23,234 MRR",
+            "headlineView": "It turns the hardest startup claim to prove—revenue—into a public database, paid visibility and acquisition marketplace",
+            "headlineFull": "One-person TrustMRR verifies $23,234 MRR; It turns the hardest startup claim to prove—revenue—into a public database, paid visibility and acquisition marketplace",
+            "intro": "TrustMRR is operated by Marc Lou as a one-person company in Singapore. It serves SaaS founders, merchants, agencies, creators and marketers by verifying revenue through read-only payment connections, then organizing the data into rankings, analytics and a startup marketplace. Its own Stripe connection verifies $378,700 in total revenue, $23,234 MRR and 12 active subscriptions, updated October 13. Acquisition spans SEO, word of mouth, X, YouTube, newsletters, content, LinkedIn and Reddit; an automated data and matching product keeps delivery scalable. The founder's roughly 409,500 X followers are a powerful distribution advantage. Limits include subscription concentration, dependence on the founder's brand and the need to preserve trust between verification and paid exposure.",
+            "xiaziQuote": "A solo company can productize trusted evidence itself, then let the data connect transactions.",
+            "doudouQuote": "High MRR across 12 subscriptions implies high value—and greater customer concentration risk.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "a9b0a92d-bd69-51bd-861f-cc704b86043e",
+            "topicId": "c2d674b3-e731-5bb7-b628-b17546bdf2cc",
+            "title": "TrustMRR verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/trustmrr",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "3024f816-6747-5bdb-9065-5c0efb0807e2",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "chat-data-ai-agents-verified-revenue",
+        "rank": 4,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-chat-data-ai-revenue-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Chat Data验证MRR 14928美元",
+            "headlineView": "把企业文档变成跨网站、WhatsApp、Slack与Shopify的客服和销售Agent，用19至399美元月费变现",
+            "headlineFull": "Chat Data验证MRR 14928美元；把企业文档变成跨网站、WhatsApp、Slack与Shopify的客服和销售Agent，用19至399美元月费变现",
+            "intro": "Chat Data面向中小企业、电商、机构和医疗服务团队，把网站、文档与文件训练成AI客服和销售Agent，从同一控制台部署到网站、WhatsApp、Messenger、Instagram、Slack、Telegram和Shopify。AI落地点不是单次问答，而是重复问题自动应答、线索收集、真人转接，以及通过MCP连接800多个应用执行动作。TrustMRR通过Stripe验证累计收入231416美元、MRR 14928美元和296个活跃订阅，约有9000名用户；价格从免费、19美元、99美元到399美元月费，企业版另议。收入成立，但团队2至5人、模型成本、跨渠道稳定性、隐私合规和企业留存仍决定净利润。",
+            "xiaziQuote": "企业AI愿意付费的地方，是从回答问题走到跨渠道完成一段工作。",
+            "doudouQuote": "296个订阅证明需求，但模型成本、合规与真人接管仍要一起算。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Chat Data verifies $14,928 MRR",
+            "headlineView": "It turns company content into support and sales agents across websites, WhatsApp, Slack and Shopify, monetized from $19 to $399 a month",
+            "headlineFull": "Chat Data verifies $14,928 MRR; It turns company content into support and sales agents across websites, WhatsApp, Slack and Shopify, monetized from $19 to $399 a month",
+            "intro": "Chat Data serves SMBs, merchants, agencies and healthcare teams by turning websites, documents and files into AI support and sales agents deployed from one dashboard to websites, WhatsApp, Messenger, Instagram, Slack, Telegram and Shopify. The AI implementation goes beyond one-off answers: it automates repeated questions, captures leads, hands complex cases to people and takes actions across more than 800 apps through MCP. TrustMRR verifies through Stripe $231,416 in total revenue, $14,928 MRR and 296 active subscriptions across roughly 9,000 users. Pricing runs from free to $19, $99 and $399 monthly, plus enterprise. Revenue is proven, but a two-to-five-person team, model cost, cross-channel reliability, privacy compliance and enterprise retention still determine profit.",
+            "xiaziQuote": "Enterprise AI earns payment when it moves from answering questions to completing a workflow across channels.",
+            "doudouQuote": "Two hundred ninety-six subscriptions prove demand, but model cost, compliance and human handoff still belong in the math.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "ad127a7c-e8e6-5d5a-ac7f-eb9828e0a25c",
+            "topicId": "3024f816-6747-5bdb-9065-5c0efb0807e2",
+            "title": "Chat Data LLC verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/chat-data-llc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "5cd138ef-14c3-5349-982d-0bf66fb6cb0a",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "wolfpak-cross-border-global-sales-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "CA",
+          "MX",
+          "GB",
+          "AU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-wolfpak-cross-border-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "WOLFpak跨境上线18个月全球销售增长433%",
+            "headlineView": "健身背包用到岸价透明、清关与本地化结账，把海外口碑转成加拿大、墨西哥、英国和澳大利亚的订单",
+            "headlineFull": "WOLFpak跨境上线18个月全球销售增长433%；健身背包用到岸价透明、清关与本地化结账，把海外口碑转成加拿大、墨西哥、英国和澳大利亚的订单",
+            "intro": "美国健身背包品牌WOLFpak早已有海外社群需求，但关税到货后加收、运输不准和清关复杂损害信任。Shopify案例显示，启用Managed Markets后，品牌把预付关税、清关、运输准确性和本地化结账交给平台，重点拓展加拿大、墨西哥、英国和澳大利亚。18个月全球销售增长433%，过去12个月全球转化率提高30%，黑五网一全球转化率同比提高102%；创始人称仅节省成本已达数十万美元，并预计国际业务将接近总收入20%。赚钱机制是把已有社媒口碑转成无意外费用的订单，但供应商案例未披露绝对收入、毛利、退货和平台费，背包库存与国际履约仍是主要风险。",
+            "xiaziQuote": "跨境增长常常不是先找新流量，而是先消除结账和到货时的意外。",
+            "doudouQuote": "433%是销售增幅，利润仍要扣平台费、库存、退货和国际物流。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "WOLFpak grows global sales 433% in 18 months",
+            "headlineView": "The fitness-backpack brand turns overseas word of mouth into orders across Canada, Mexico, the UK and Australia with transparent landed cost, customs and localized checkout",
+            "headlineFull": "WOLFpak grows global sales 433% in 18 months; The fitness-backpack brand turns overseas word of mouth into orders across Canada, Mexico, the UK and Australia with transparent landed cost, customs and localized checkout",
+            "intro": "US fitness-backpack brand WOLFpak already had overseas community demand, but duties charged after arrival, delivery inaccuracy and customs complexity damaged trust. Shopify says the brand used Managed Markets to handle prepaid duties, customs, shipping accuracy and localized checkout while expanding in Canada, Mexico, the UK and Australia. Global sales grew 433% in 18 months, global conversion rose 30% over the last 12 months and Black Friday/Cyber Monday global conversion increased 102% year over year. The founder says savings alone reached hundreds of thousands of dollars and expects international business to approach 20% of revenue. The earning mechanism converts existing social demand into orders without surprise charges, but the vendor case omits absolute revenue, margin, returns and platform fees; inventory and global fulfilment remain key risks.",
+            "xiaziQuote": "Cross-border growth often starts by removing checkout and delivery surprises before buying more traffic.",
+            "doudouQuote": "A 433% sales lift is not profit; subtract platform fees, inventory, returns and international logistics.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "4f7c8758-1aa4-5a64-b7cd-f00d30033f4c",
+            "topicId": "5cd138ef-14c3-5349-982d-0bf66fb6cb0a",
+            "title": "WOLFpak boosts global sales by 433% with Managed Markets",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/nz/case-studies/wolfpak",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2ad9c3d0-08d1-5e83-996b-677b1bc38c8b",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "ukraine-energy-ceasefire-warsaw-forum",
+        "rank": 6,
+        "category": "international",
+        "region": "Europe",
+        "countryCodes": [
+          "UA",
+          "RU",
+          "GB",
+          "PL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-ukraine-energy-ceasefire-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际局势",
+            "headlineFact": "英国支持乌克兰能源停火倡议",
+            "headlineView": "冬季临近且一周发生200次能源设施袭击，欧洲把电网保护与反混合威胁放进同一安全议程",
+            "headlineFull": "英国支持乌克兰能源停火倡议；冬季临近且一周发生200次能源设施袭击，欧洲把电网保护与反混合威胁放进同一安全议程",
+            "intro": "英国外交大臣10月13日在华沙安全论坛支持乌克兰总统提出的能源停火，要求停止攻击乌克兰能源基础设施，并与欧洲伙伴共同防范俄罗斯混合威胁。英国政府称，过去一周俄罗斯对乌能源基础设施发动200次袭击，同期投下1450枚炸弹并发射1600架无人机；这些数字来自英国官方声明，应按来源归属理解。倡议的核心是把即将到来的冬季供暖、电力和民生设施从军事打击中隔离，同时加强欧洲信息防御与基础设施韧性。声明未说明俄方回应，也不是已经达成的停火协议；执行需要交战方承诺、可核验边界与持续监督。",
+            "xiaziQuote": "能源停火的价值，不在口号，而在能否让电网、供暖和医院真正免受攻击。",
+            "doudouQuote": "先区分倡议、谈判和生效协议，再判断冬季风险有没有下降。",
+            "footerTakeaway": "今日关键词：国际局势。"
+          },
+          "en-US": {
+            "categoryLabel": "International Affairs",
+            "headlineFact": "The UK backs Ukraine’s call for an energy ceasefire",
+            "headlineView": "With winter approaching and 200 attacks on energy infrastructure reported in one week, Europe puts grid protection and hybrid threats on one security agenda",
+            "headlineFull": "The UK backs Ukraine’s call for an energy ceasefire; With winter approaching and 200 attacks on energy infrastructure reported in one week, Europe puts grid protection and hybrid threats on one security agenda",
+            "intro": "The UK Foreign Secretary used the Warsaw Security Forum on October 13 to back President Zelenskyy's call for an energy ceasefire, urging an end to attacks on Ukrainian energy infrastructure and joint European defence against Russian hybrid threats. The UK government says Russia mounted 200 attacks on Ukraine's energy infrastructure in the previous week, alongside 1,450 bombs and 1,600 drones; these figures belong to the official UK statement and should remain attributed. The proposal seeks to shield winter heating, electricity and essential services from military attack while strengthening information defence and infrastructure resilience. The release gives no Russian response and does not describe an agreed ceasefire. Implementation would require commitments by the belligerents, verifiable boundaries and sustained monitoring.",
+            "xiaziQuote": "An energy ceasefire matters only if grids, heating systems and hospitals actually become safer from attack.",
+            "doudouQuote": "Separate a proposal, a negotiation and an agreement in force before judging whether winter risk has fallen.",
+            "footerTakeaway": "Keyword: International Affairs."
+          }
+        },
+        "sources": [
+          {
+            "id": "983137ec-091f-552d-9236-24e55aa22365",
+            "topicId": "2ad9c3d0-08d1-5e83-996b-677b1bc38c8b",
+            "title": "Back Zelenskyy and Ukraine with an energy ceasefire",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/back-zelenskyy-and-ukraine-with-an-energy-ceasefire-foreign-secretary-tells-european-partners",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "afb3f6c0-e375-575f-b896-7e3e52c7dff2",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "uk-quantum-products-funding-package",
+        "rank": 7,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-uk-quantum-products-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "前沿产业",
+            "headlineFact": "英国投5000万英镑推动量子技术进入铁路、医疗与导航",
+            "headlineView": "从实验室走向铁路故障定位、便携眼科扫描和无GPS无线电，并补上通信供应链与技术学徒",
+            "headlineFull": "英国投5000万英镑推动量子技术进入铁路、医疗与导航；从实验室走向铁路故障定位、便携眼科扫描和无GPS无线电，并补上通信供应链与技术学徒",
+            "intro": "英国政府10月13日宣布通过UKRI提供5000万英镑，支持量子传感与定位企业把早期测试转成真实产品。项目包括MoniRail的无GPS铁路故障定位、Siloton的便携量子眼科扫描仪、ColdQuanta UK的移动量子无线电，以及可穿戴脑扫描、温室气体相机和卫星时钟。另有2000万英镑建设本土量子通信网络供应链，800万英镑扩大学徒计划，目标2030年前培养150名相关工程学徒。政策把技术、供应链和技能放在同一商业化路径上，但项目仍处研发与试制阶段，采购需求、单位成本、监管审批和规模制造将决定能否真正落地。",
+            "xiaziQuote": "深科技商业化要同时打通样机、供应链、人才和首批客户。",
+            "doudouQuote": "5000万英镑买来的是验证机会，不是已经成熟的市场。",
+            "footerTakeaway": "今日关键词：前沿产业。"
+          },
+          "en-US": {
+            "categoryLabel": "Frontier Industry",
+            "headlineFact": "The UK commits £50 million to move quantum technology into rail, health and navigation",
+            "headlineView": "Laboratory ideas become rail-fault positioning, portable eye scans and GPS-independent radio while supply chains and apprenticeships fill the delivery gap",
+            "headlineFull": "The UK commits £50 million to move quantum technology into rail, health and navigation; Laboratory ideas become rail-fault positioning, portable eye scans and GPS-independent radio while supply chains and apprenticeships fill the delivery gap",
+            "intro": "The UK government announced on October 13 that UKRI will provide £50 million to help quantum sensing and positioning companies turn early tests into practical products. Projects include MoniRail's GPS-independent rail-fault location, Siloton's portable quantum eye scanner, ColdQuanta UK's mobile quantum radio, plus wearable brain scanning, greenhouse-gas cameras and satellite clocks. A further £20 million targets domestic quantum-communications supply chains, while an £8 million apprenticeship expansion aims to equip 150 engineering apprentices by 2030. The package connects technology, components and skills in one commercialization path. Yet the projects remain in development and prototyping: procurement demand, unit economics, regulatory approval and manufacturing scale will determine whether they reach everyday use.",
+            "xiaziQuote": "Deep-tech commercialization must connect prototypes, supply chains, talent and first customers at the same time.",
+            "doudouQuote": "Fifty million pounds buys validation opportunities, not a mature market.",
+            "footerTakeaway": "Keyword: Frontier Industry."
+          }
+        },
+        "sources": [
+          {
+            "id": "d413bd87-e742-50bd-850b-4c92c67bc58e",
+            "topicId": "afb3f6c0-e375-575f-b896-7e3e52c7dff2",
+            "title": "Quantum firms backed to keep railways running and cut waiting lists",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/quantum-firms-backed-to-keep-railways-running-and-cut-waiting-lists-as-uk-harnesses-potential-of-future-tech",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7343b006-5878-560a-a6e9-35873fcaef6d",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "mhra-onswik-weekly-insulin-authorisation",
+        "rank": 8,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-onswik-weekly-insulin-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "医疗健康",
+            "headlineFact": "英国批准每周一次的Onswik长效胰岛素",
+            "headlineView": "部分2型糖尿病成人的基础胰岛素注射可从每年最多365次降至52次，试验显示血糖控制与每日方案相当",
+            "headlineFull": "英国批准每周一次的Onswik长效胰岛素；部分2型糖尿病成人的基础胰岛素注射可从每年最多365次降至52次，试验显示血糖控制与每日方案相当",
+            "intro": "英国药品和医疗产品监管局10月13日批准Onswik（insulin efsitora alfa）用于成年2型糖尿病患者。它是一种每周注射一次的长效基础胰岛素，可能把部分患者的基础胰岛素注射频率从每天一次、每年最多365次降至52次。MHRA称临床试验显示其血糖控制与每日基础胰岛素相当；NICE已发布最终草案，建议特定成人使用，前提是获得许可，如今这一条件已经满足。最常见不良反应是低血糖，药物并不适合所有患者，也不能替代医生根据血糖、并发症和个体风险制定方案，上市后的长期安全监测仍将继续。",
+            "xiaziQuote": "长效药物的价值，是在疗效不退步的前提下降低长期执行负担。",
+            "doudouQuote": "每周一次更方便，但低血糖风险与个体剂量仍必须由医生管理。",
+            "footerTakeaway": "今日关键词：医疗健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Health",
+            "headlineFact": "The UK authorizes once-weekly Onswik basal insulin",
+            "headlineView": "Some adults with type 2 diabetes could move from as many as 365 basal-insulin injections a year to 52, with trials showing comparable glucose control",
+            "headlineFull": "The UK authorizes once-weekly Onswik basal insulin; Some adults with type 2 diabetes could move from as many as 365 basal-insulin injections a year to 52, with trials showing comparable glucose control",
+            "intro": "The UK Medicines and Healthcare products Regulatory Agency authorized Onswik, or insulin efsitora alfa, on October 13 for adults with type 2 diabetes. The long-acting basal insulin is injected once weekly and may reduce basal-insulin dosing for some patients from once daily, or as many as 365 injections a year, to 52. The MHRA says clinical-trial data showed glycaemic control comparable to once-daily basal insulin. NICE has issued final draft guidance recommending it for certain adults subject to authorization, a condition now met. Hypoglycaemia is the most common adverse reaction. The drug will not suit every patient and cannot replace clinician-led decisions based on glucose, complications and individual risk; long-term safety monitoring will continue after launch.",
+            "xiaziQuote": "The value of a long-acting medicine is reducing years of treatment burden without giving up control.",
+            "doudouQuote": "Once-weekly is more convenient, but hypoglycaemia risk and individual dosing still need clinical management.",
+            "footerTakeaway": "Keyword: Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "1ff21b59-0965-55fb-b8ef-875fff0df16e",
+            "topicId": "7343b006-5878-560a-a6e9-35873fcaef6d",
+            "title": "MHRA authorises Onswik for adults with type 2 diabetes",
+            "publisher": "UK Medicines and Healthcare products Regulatory Agency",
+            "url": "https://www.gov.uk/government/news/mhra-authorises-onswik-insulin-efsitora-alfa-for-adults-with-type-2-diabetes",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "59de8a71-4876-5c38-a985-30c1aeb386cb",
+        "issueId": "bed398b6-ba7e-5c50-9185-d007a374a57c",
+        "slug": "solar-wind-magnetic-rotation-reversal",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "DE",
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-solar-wind-turbulence-20261014",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "太空科学",
+            "headlineFact": "太阳风湍流首次发现磁场旋转方向反转",
+            "headlineView": "帕克太阳探测器数据显示，磁场从大尺度逆时针转为小尺度顺时针，边界正落在流体行为向粒子行为过渡处",
+            "headlineFull": "太阳风湍流首次发现磁场旋转方向反转；帕克太阳探测器数据显示，磁场从大尺度逆时针转为小尺度顺时针，边界正落在流体行为向粒子行为过渡处",
+            "intro": "德国布伦瑞克工业大学、东京大学等十国团队利用NASA帕克太阳探测器的高精度磁场与粒子数据，首次直接展示太阳风湍流中的磁场旋转方向反转。远离太阳径向观察时，大尺度磁场偏向逆时针旋转；到更小波长则转为顺时针，反转位置随离太阳距离增加而向更长波长移动。这个边界恰好对应等离子体从流体式运动转向粒子式运动，成果发表于《天体物理学杂志快报》。机制有助理解日冕物质抛射产生的冲击波和磁云，并可能改善地磁暴物理模型，但它仍是基础研究，并非已经形成可直接提高预报准确率的业务工具。",
+            "xiaziQuote": "看似无序的太阳风里，尺度变化藏着稳定的旋转结构。",
+            "doudouQuote": "发现新机制不等于预报立刻变准，还要进入模型并通过长期检验。",
+            "footerTakeaway": "今日关键词：太空科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Science",
+            "headlineFact": "Solar-wind turbulence reveals its first magnetic-rotation reversal",
+            "headlineView": "Parker Solar Probe data show counterclockwise rotation at large scales becoming clockwise at small scales exactly where fluid behavior gives way to particle behavior",
+            "headlineFull": "Solar-wind turbulence reveals its first magnetic-rotation reversal; Parker Solar Probe data show counterclockwise rotation at large scales becoming clockwise at small scales exactly where fluid behavior gives way to particle behavior",
+            "intro": "A ten-country team led by researchers at TU Braunschweig and the University of Tokyo used high-precision magnetic-field and particle data from NASA's Parker Solar Probe to demonstrate the first direct reversal of magnetic rotation in solar-wind turbulence. Viewed radially away from the Sun, large-scale fields preferentially rotate counterclockwise, while smaller wavelengths rotate clockwise. The reversal shifts toward longer wavelengths farther from the Sun and coincides with the transition from fluid-like to particle-like plasma dynamics. The work appears in The Astrophysical Journal Letters. The mechanism can improve understanding of shock waves and magnetic clouds from solar eruptions and may strengthen geomagnetic-storm physics, but it remains basic research rather than an operational forecasting tool with proven accuracy gains.",
+            "xiaziQuote": "Inside apparently unstructured solar wind, a stable rotation pattern appears when scale changes.",
+            "doudouQuote": "A new mechanism does not instantly improve forecasts; it must enter models and survive long-term testing.",
+            "footerTakeaway": "Keyword: Space Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "86a0e221-34f1-5f03-9821-bf96e955d7d8",
+            "topicId": "59de8a71-4876-5c38-a985-30c1aeb386cb",
+            "title": "Structure in the unstructured: New phenomenon discovered in the solar wind",
+            "publisher": "School of Science, The University of Tokyo",
+            "url": "https://www.s.u-tokyo.ac.jp/en/press/11251/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261014_70889b421101a505a07f16f3"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-14",
+    "releaseId": "rel_20261014_70889b421101a505a07f16f3",
+    "assetBatchId": "asset_prod_20261014_70889b421101a505a07f16f3",
+    "posters": [
+      {
+        "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+        "locale": "zh",
+        "contentHash": "d6ad4db14a91e97c3b307559b5b7c41b16d3c571749807423f99d4218e2b1aee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/global-operator-radar-20261014.png"
+      },
+      {
+        "topicId": "d729930a-1d97-598f-bfec-9ad5c7d0dcfa",
+        "locale": "en",
+        "contentHash": "c60452dbd321b62c1bd1f2f27dce399aba1137c23b43a167d27300c0ec750fb8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/global-operator-radar-20261014.png"
+      },
+      {
+        "topicId": "5b41604f-4748-5e44-8402-d383d62c6556",
+        "locale": "zh",
+        "contentHash": "c01712d23a3139e32dd21e61ed77ea293957be714a8fdd9835bff8cc754cb7b7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/amd-helion-agentic-compute-rack.png"
+      },
+      {
+        "topicId": "5b41604f-4748-5e44-8402-d383d62c6556",
+        "locale": "en",
+        "contentHash": "f735c40d9bc14f7fb9dafb16b71b7912fad0cbdcf6d70443fb0230e8b76ca35a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/amd-helion-agentic-compute-rack.png"
+      },
+      {
+        "topicId": "c2d674b3-e731-5bb7-b628-b17546bdf2cc",
+        "locale": "zh",
+        "contentHash": "ca5035ce0c90e7a5ea8c61b83cb7e390cfe61c7599616161ab89e91ac308af76",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/trustmrr-solo-verified-revenue-marketplace.png"
+      },
+      {
+        "topicId": "c2d674b3-e731-5bb7-b628-b17546bdf2cc",
+        "locale": "en",
+        "contentHash": "36692bd3ff1154fa62e2068fe440e0aaa070b7e84e8d467c9af2382e4424f03f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/trustmrr-solo-verified-revenue-marketplace.png"
+      },
+      {
+        "topicId": "3024f816-6747-5bdb-9065-5c0efb0807e2",
+        "locale": "zh",
+        "contentHash": "b973a251bf02c142be1f8b7e72be68f9f1ab1f6a0496263da3b90140ef247d55",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/chat-data-ai-agents-verified-revenue.png"
+      },
+      {
+        "topicId": "3024f816-6747-5bdb-9065-5c0efb0807e2",
+        "locale": "en",
+        "contentHash": "dd0ab2575c78256f880cf6e918b8ff240cf144641a913068040bc94db9586e9b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/chat-data-ai-agents-verified-revenue.png"
+      },
+      {
+        "topicId": "5cd138ef-14c3-5349-982d-0bf66fb6cb0a",
+        "locale": "zh",
+        "contentHash": "da38de5d287229230b28eb3bfc561f8f4d212004b7532fd84c1734cad3443414",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/wolfpak-cross-border-global-sales-growth.png"
+      },
+      {
+        "topicId": "5cd138ef-14c3-5349-982d-0bf66fb6cb0a",
+        "locale": "en",
+        "contentHash": "6517f07d9a6a1fa46247752d62e2bbdc5777a071a4ff5f1ded361047a7489f28",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/wolfpak-cross-border-global-sales-growth.png"
+      },
+      {
+        "topicId": "2ad9c3d0-08d1-5e83-996b-677b1bc38c8b",
+        "locale": "zh",
+        "contentHash": "226f649d759a588850fb1dd4192473c0f78348baf818288fa7be0e80b51eb3dc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/ukraine-energy-ceasefire-warsaw-forum.png"
+      },
+      {
+        "topicId": "2ad9c3d0-08d1-5e83-996b-677b1bc38c8b",
+        "locale": "en",
+        "contentHash": "1f3847e87e73812e633efe6cf1eae889a684291ad93f02a32c643054c1750976",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/ukraine-energy-ceasefire-warsaw-forum.png"
+      },
+      {
+        "topicId": "afb3f6c0-e375-575f-b896-7e3e52c7dff2",
+        "locale": "zh",
+        "contentHash": "e8f9906f8a03de1e185f3ddb12b14aab9a7e1de76516caeec80373eeed45db5e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/uk-quantum-products-funding-package.png"
+      },
+      {
+        "topicId": "afb3f6c0-e375-575f-b896-7e3e52c7dff2",
+        "locale": "en",
+        "contentHash": "a536b2c529db6d04b0b76fa80c08dc5d3eb648b5aed9016871e8b3f8ef9648ac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/uk-quantum-products-funding-package.png"
+      },
+      {
+        "topicId": "7343b006-5878-560a-a6e9-35873fcaef6d",
+        "locale": "zh",
+        "contentHash": "f42750452e27c168f8064612aa97ac17d69a87f70fc92ac9d8435673d9ae7d30",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/mhra-onswik-weekly-insulin-authorisation.png"
+      },
+      {
+        "topicId": "7343b006-5878-560a-a6e9-35873fcaef6d",
+        "locale": "en",
+        "contentHash": "8776df98275a91d820623799d90d307541481d78f96eeb46fd220991256a0b9c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/mhra-onswik-weekly-insulin-authorisation.png"
+      },
+      {
+        "topicId": "59de8a71-4876-5c38-a985-30c1aeb386cb",
+        "locale": "zh",
+        "contentHash": "d85de3e61c1b7adda5e7b21f542e7e8ed50683577c44b7e4db1eea30d466957c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/zh/solar-wind-magnetic-rotation-reversal.png"
+      },
+      {
+        "topicId": "59de8a71-4876-5c38-a985-30c1aeb386cb",
+        "locale": "en",
+        "contentHash": "400c597800c5415a9b3b69ba5e083c9850175e5ce11c778a4e65c1360083e8ca",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261014_70889b421101a505a07f16f3/en/solar-wind-magnetic-rotation-reversal.png"
+      }
+    ]
+  }
+}
