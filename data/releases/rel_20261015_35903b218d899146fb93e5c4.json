@@ -1,0 +1,751 @@
+{
+  "issue": {
+    "id": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+    "slug": "2026-10-15",
+    "style": {
+      "name": "Generative AI Dreamlike",
+      "zhName": "AI 梦境风格",
+      "description": "Style Atlas daily pick #120: Generative AI Dreamlike / AI 梦境风格. Build a premium editorial dreamscape from soft surreal transitions, layered spatial depth, luminous atmospheric detail and scene-specific visual metaphors. Each poster must tell its own factual story through a complete setting rather than generic floating spheres, repeated cards or one recycled background. Keep copy on calm low-texture fields with strong contrast; reduce information density by about 20%, emphasize one conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central dreamlike world-stage, using flowing paths, cloud ribbons, portals and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each summary needs a quiet readable field, clear 1-8 order and no extra event. Chinese and English keep the same composition, scene, hierarchy and rhythm. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and artwork filling all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-15",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-15T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-14T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+    "topics": [
+      {
+        "id": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "global-operator-radar-20261015",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月15日全球经营雷达",
+            "headlineView": "技术文档复核、单人社媒分发、AI搜索收入、跨境球拍、铅暴露、有机农业、埃塞援助与月球演化进入同一张行动地图",
+            "headlineFull": "10月15日全球经营雷达；技术文档复核、单人社媒分发、AI搜索收入、跨境球拍、铅暴露、有机农业、埃塞援助与月球演化进入同一张行动地图",
+            "intro": "1. Google把已复核逾16000篇技术论文的Deep Review向公众开放，用Agent检查复杂文档的逻辑一致性与事实依据。\n2. Post Bridge由Jack Friks单人运营，把一次内容同步到多个社媒平台，Stripe验证累计收入535627美元、MRR 49453美元。\n3. AEO Engine用Agent执行内容、Schema与AI引用追踪，以1597至10000美元以上月费验证累计收入2569792美元、MRR 157959美元。\n4. Padel Pro Shop把稳定结账、本地支付与跨境履约带到德国、意大利、法国和英国，2026年预计年收入2600万欧元。\n5. WHO称铅暴露每年导致超过350万人死亡，并要求各国从血铅检测转向在产品与环境源头预防。\n6. 英格兰有机行动计划瞄准每年39亿英镑市场，计划到2036年把有机耕地占比从约3.4%推向10%。\n7. 联合国从中央应急基金拨款850万美元，为埃塞俄比亚北部超过202700名受冲突与流离失所影响者提供援助。\n8. 嫦娥六号月背样本研究提出，早期潮汐加热驱动的岩浆洋横向对流塑造了月球正反面差异。",
+            "xiaziQuote": "今天的共同信号，是把看不见的风险、分发与证据链变成可测量的行动。",
+            "doudouQuote": "收入要看验证口径，计划要看执行路径，研究结论要看证据边界。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 15 Global Operator Radar",
+            "headlineView": "Technical-document review, solo social distribution, AI-search revenue, cross-border padel gear, lead exposure, organic farming, Ethiopia aid and lunar evolution enter one action map",
+            "headlineFull": "October 15 Global Operator Radar; Technical-document review, solo social distribution, AI-search revenue, cross-border padel gear, lead exposure, organic farming, Ethiopia aid and lunar evolution enter one action map",
+            "intro": "1. Google opened Deep Review to the public after the agentic system had helped review more than 16,000 technical papers, checking logic and factual grounding in complex documents.\n2. Solo operator Jack Friks runs Post Bridge, publishing one piece of content across social platforms while Stripe verifies $535,627 total revenue and $49,453 MRR.\n3. AEO Engine uses agents for content, schema and AI-citation tracking, verifying $2,569,792 total revenue and $157,959 MRR on plans from $1,597 to $10,000-plus monthly.\n4. Padel Pro Shop brought stable checkout, local payments and cross-border fulfilment to Germany, Italy, France and the UK, with 2026 annual revenue expected at €26 million.\n5. WHO says lead exposure contributes to more than 3.5 million deaths a year and urges countries to move from detection toward prevention at product and environmental sources.\n6. England's Organic Action Plan targets a £3.9 billion annual market and aims to move organic farmland from about 3.4% toward 10% by 2036.\n7. The UN allocated $8.5 million from CERF to aid more than 202,700 people affected by conflict and displacement across northern Ethiopia.\n8. Research using Chang'e-6 farside samples proposes that tidal-heating-driven lateral convection in the early lunar magma ocean shaped the Moon's two different faces.",
+            "xiaziQuote": "Today's shared signal is to turn invisible risk, distribution and evidence chains into measurable action.",
+            "doudouQuote": "Read revenue beside its verification method, plans beside execution and research claims beside their evidence limits.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "78206ce7-ab45-57c7-84dd-a882f3ba2c1a",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+            "publisher": "Google Research",
+            "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "208cd256-0291-57ef-a965-419cf7cdf39f",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "POST BRIDGE verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/post-bridge",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3556fe72-8234-5caf-8196-37c207bcd669",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "AEO Engine verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/aeo-engine",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "18efbbaa-997e-5cd8-ad32-3c0f04f5fb83",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "How Padel Pro Shop grew revenue more than 10 times",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/padel-pro-shop",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "edc499e1-751f-5f8a-85d2-eb045bfe6474",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "Countries move to accelerate action against lead poisoning",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/15-10-2026-countries-move-to-accelerate-action-against-lead-poisoning",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "604e3824-8919-5b1c-b45f-2d6bca855545",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "Plan to unlock organic market for stronger farms, more homegrown food",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/plan-to-unlock-organic-market-for-stronger-farms-more-homegrown-food",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "3e004d6a-1b3f-557d-862e-cdac57cf4235",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "UN Allocates US$8.5 Million from Emergency Fund to Address Humanitarian Needs in Ethiopia's Northern Regions",
+            "publisher": "United Nations in Ethiopia",
+            "url": "https://ethiopia.un.org/en/324425-un-allocates-us85-million-emergency-fund-address-humanitarian-needs-ethiopia%E2%80%99s-northern",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "452cd6c4-4870-5f73-9d5b-0735f5b2508d",
+            "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+            "title": "Scientists may have finally solved the mystery of the Moon's two faces",
+            "publisher": "ScienceDaily",
+            "url": "https://sciencedaily.com/releases/2026/10/261012185019.htm",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "00737036-746a-51fb-9831-3de927c3e1b8",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "google-deep-review-public-technical-documents",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-google-deep-review-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Google向公众开放Deep Review",
+            "headlineView": "Agent式复核系统检查复杂文档的逻辑一致性与事实依据，早期版本已参与复核逾16000篇技术论文",
+            "headlineFull": "Google向公众开放Deep Review；Agent式复核系统检查复杂文档的逻辑一致性与事实依据，早期版本已参与复核逾16000篇技术论文",
+            "intro": "Google Research在10月14日的Research@活动上宣布扩大Deep Review访问范围，让公众可用它复核法律协议、财务报告等复杂技术文档。系统采用多阶段Agent流程，重点检查论证是否前后一致、关键事实是否有依据，并把繁重的核对工作交给模型，同时保留作者对创作方向和最终判断的控制。Google称，许多内部与外部作者已经用早期版本复核超过16000篇提交到顶级计算机会议的论文。它不是自动替代同行评审，也没有证明能发现全部错误；真正价值取决于可追溯证据、误报率、领域专家复核和敏感文档的隐私边界。",
+            "xiaziQuote": "AI复核真正有用的地方，是让人更早看到论证链上的断点。",
+            "doudouQuote": "检查16000篇不等于判断都正确，最终责任仍在作者和专家。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Google opens Deep Review to the public",
+            "headlineView": "The agentic system checks logical consistency and factual grounding in complex documents after an early version helped review more than 16,000 technical papers",
+            "headlineFull": "Google opens Deep Review to the public; The agentic system checks logical consistency and factual grounding in complex documents after an early version helped review more than 16,000 technical papers",
+            "intro": "Google Research announced at Research@ on October 14 that it is expanding access to Deep Review so the public can use it on complex technical documents such as legal agreements and financial reports. Its multi-stage agentic workflow checks whether arguments remain logically consistent and whether important claims are grounded, moving heavy verification work to the model while leaving authors in charge of creative direction and final judgment. Google says internal and external authors have already used an early version to review more than 16,000 papers submitted to leading computer-science conferences. It does not replace peer review and has not been shown to catch every error; its value depends on traceable evidence, false-positive rates, expert oversight and privacy controls for sensitive documents.",
+            "xiaziQuote": "AI review earns its place by showing people where an argument chain breaks before publication.",
+            "doudouQuote": "Reviewing 16,000 papers does not make every judgment correct; authors and experts still own the decision.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "53589b31-2862-5064-a8ad-c57a5dbe8823",
+            "topicId": "00737036-746a-51fb-9831-3de927c3e1b8",
+            "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+            "publisher": "Google Research",
+            "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "01f591d9-dfcd-5943-a05e-2f4981b06692",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "post-bridge-solo-social-scheduling-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "CA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-post-bridge-solo-revenue-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Post Bridge单人运营，验证MRR 49453美元",
+            "headlineView": "把一次内容同步到多个社媒平台，以39美元和99美元月费服务个人营销者，并靠持续公开构建获客",
+            "headlineFull": "Post Bridge单人运营，验证MRR 49453美元；把一次内容同步到多个社媒平台，以39美元和99美元月费服务个人营销者，并靠持续公开构建获客",
+            "intro": "Post Bridge由加拿大创始人Jack Friks单人开发和运营，核心产品是让个人营销者从一个控制台把内容同步发布到多个社交平台，并提供API、命令行与Agent可调用的MCP能力。TrustMRR通过Stripe验证累计收入535627美元、MRR 49453美元、1690个活跃订阅，数据于10月13日更新；价格为每月39美元的Marketer和99美元的Operator。Friks在公开采访中说产品最初约一个月完成，日常基础设施成本曾约100至200美元，获客主要依靠X、TikTok、Instagram和YouTube持续展示产品与构建过程。当前数字证明付费需求，但高度依赖创始人分发、平台API稳定性与单人支持能力，且受访成本数据可能已随规模上升。",
+            "xiaziQuote": "一人公司最强的杠杆，是把自己的重复动作做成别人愿意订阅的工具。",
+            "doudouQuote": "高MRR很亮眼，也要同时看平台依赖、支持负荷与创始人渠道风险。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run Post Bridge verifies $49,453 MRR",
+            "headlineView": "It publishes one piece of content across multiple social platforms, charges individuals $39 or $99 monthly and acquires customers through consistent building in public",
+            "headlineFull": "Solo-run Post Bridge verifies $49,453 MRR; It publishes one piece of content across multiple social platforms, charges individuals $39 or $99 monthly and acquires customers through consistent building in public",
+            "intro": "Canadian founder Jack Friks develops and operates Post Bridge alone. The product lets individual marketers publish content across multiple social platforms from one dashboard and also exposes an API, command-line tools and MCP access for agents. TrustMRR verifies through Stripe $535,627 in total revenue, $49,453 MRR and 1,690 active subscriptions, updated October 13; plans cost $39 a month for Marketer and $99 for Operator. In a public interview, Friks said the first version took about a month to build, infrastructure once cost roughly $100 to $200 monthly, and customer acquisition came largely from consistently showing the product and his build process on X, TikTok, Instagram and YouTube. The numbers prove paid demand, but founder-led distribution, platform API stability and solo support capacity remain concentration risks, while the quoted cost figure may have risen with scale.",
+            "xiaziQuote": "A solo company's strongest leverage is turning its own repeated task into a tool other people subscribe to.",
+            "doudouQuote": "High MRR shines, but platform dependence, support load and founder-channel risk belong in the same picture.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "e672ec04-d02a-5cda-afd3-d7fb6e70c621",
+            "topicId": "01f591d9-dfcd-5943-a05e-2f4981b06692",
+            "title": "POST BRIDGE verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/post-bridge",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "a45c2e0f-f154-5054-b4e0-7d588bc3962f",
+            "topicId": "01f591d9-dfcd-5943-a05e-2f4981b06692",
+            "title": "Hitting $35k MRR after struggling to make money online for four years",
+            "publisher": "Indie Hackers",
+            "url": "https://www.indiehackers.com/post/tech/hitting-35k-mrr-after-struggling-to-make-money-online-for-four-years-CNVpxrwIVqxcsfZ4fERw",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "aeo-engine-ai-search-verified-revenue",
+        "rank": 4,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-aeo-engine-revenue-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "AEO Engine验证MRR 157959美元",
+            "headlineView": "把AI搜索可见性做成Agent执行的内容、Schema、引用追踪与人类策略服务，月费从1597美元到10000美元以上",
+            "headlineFull": "AEO Engine验证MRR 157959美元；把AI搜索可见性做成Agent执行的内容、Schema、引用追踪与人类策略服务，月费从1597美元到10000美元以上",
+            "intro": "AEO Engine面向SaaS、法律、服务与电商品牌，监测ChatGPT、Gemini、Perplexity和Google AI Overviews实际引用谁，再用专门Agent执行研究、内容、Schema、内链、权威建设与周报，人类负责策略和客户结果。TrustMRR通过Stripe验证累计收入2569792美元、MRR 157959美元和55个活跃订阅，数据于10月14日更新。其Growth、Scale与Enterprise方案月费分别从1597美元、2997美元和10000美元起，服务以90天增长承诺降低采购风险。变现成立，但这是“人类管理+Agent执行”的服务型软件，不是纯SaaS；交付成本、搜索平台规则变化、归因口径和高客单客户集中度都会影响利润。",
+            "xiaziQuote": "AI应用赚钱的关键，是把模型能力嵌进客户愿意持续购买的结果链。",
+            "doudouQuote": "157959美元MRR验证了需求，但服务成本和结果归因决定净利润。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "AEO Engine verifies $157,959 MRR",
+            "headlineView": "It packages AI-search visibility into agent-executed content, schema and citation tracking with human strategy, charging from $1,597 to more than $10,000 monthly",
+            "headlineFull": "AEO Engine verifies $157,959 MRR; It packages AI-search visibility into agent-executed content, schema and citation tracking with human strategy, charging from $1,597 to more than $10,000 monthly",
+            "intro": "AEO Engine serves SaaS, legal, services and ecommerce brands by measuring which companies ChatGPT, Gemini, Perplexity and Google AI Overviews actually cite. Specialized agents execute research, content, schema, internal linking, authority building and weekly reporting while humans own strategy and client outcomes. TrustMRR verifies through Stripe $2,569,792 in total revenue, $157,959 MRR and 55 active subscriptions, updated October 14. Growth, Scale and Enterprise plans start at $1,597, $2,997 and $10,000 per month, with a 90-day growth guarantee used to reduce purchasing risk. Monetization is proven, but this is service-as-software rather than pure SaaS; delivery cost, platform rule changes, attribution and high-ticket customer concentration still determine profit.",
+            "xiaziQuote": "An AI application earns durable revenue when model capability sits inside an outcome customers keep buying.",
+            "doudouQuote": "$157,959 MRR proves demand, while service cost and attribution decide net profit.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "45cc39a3-3d5b-54da-941d-7bee745746f5",
+            "topicId": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
+            "title": "AEO Engine verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/aeo-engine",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "e3076e76-0098-552d-9edc-bfac35651475",
+            "topicId": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
+            "title": "The AI SEO agency that makes you the answer in AI search",
+            "publisher": "AEO Engine",
+            "url": "https://aeoengine.ai/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "b3b725cc-d0f1-5c13-aed8-b0d9f8b895a0",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "padel-pro-shop-cross-border-revenue-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "ES",
+          "DE",
+          "IT",
+          "FR",
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-padel-pro-shop-cross-border-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Padel Pro Shop预计2026年收入2600万欧元",
+            "headlineView": "从首年250万欧元增长十倍，以稳定结账、本地支付、单仓跨境配送和俱乐部合作拓展欧洲市场",
+            "headlineFull": "Padel Pro Shop预计2026年收入2600万欧元；从首年250万欧元增长十倍，以稳定结账、本地支付、单仓跨境配送和俱乐部合作拓展欧洲市场",
+            "intro": "西班牙Padel Pro Shop向欧洲及其他市场销售球拍、球、握把与装备。Shopify案例显示，品牌2020年末成立，首个完整年度收入250万欧元，之后依次达到500万、900万、1600万和2000万欧元，2026年预计约2600万欧元。跨境增长并非只靠广告：它用稳定结账替代易崩的平台，引入本地支付与Shop Pay，从一个仓库重点服务德国、意大利、法国和英国；Shop App订单过去一年增长284%，团队从3人扩至约50人，并尝试通过约20家板式网球俱乐部获客。主要成本与风险是库存、跨境配送、支付费率、退货和高速扩张下的服务稳定性，2600万欧元仍是公司预计值而非审计结果。",
+            "xiaziQuote": "跨境品类真正放大时，稳定履约与本地结账往往比多开仓更先产生回报。",
+            "doudouQuote": "收入十倍不等于利润十倍，库存、配送、退货和支付费要一起算。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Padel Pro Shop expects €26 million revenue in 2026",
+            "headlineView": "It grew tenfold from €2.5 million in year one by combining stable checkout, local payments, single-warehouse cross-border delivery and club partnerships across Europe",
+            "headlineFull": "Padel Pro Shop expects €26 million revenue in 2026; It grew tenfold from €2.5 million in year one by combining stable checkout, local payments, single-warehouse cross-border delivery and club partnerships across Europe",
+            "intro": "Spain's Padel Pro Shop sells rackets, balls, grips and equipment across Europe and beyond. Shopify's case study says the brand launched in late 2020, made €2.5 million in its first full year and then reached €5 million, €9 million, €16 million and €20 million, with about €26 million expected in 2026. Cross-border growth did not come from ads alone: a dependable checkout replaced a fragile platform, local payment methods and Shop Pay reduced friction, and one warehouse supports a growing focus on Germany, Italy, France and the UK. Shop app orders rose 284% over the past year, the team grew from three to about 50 and roughly 20 partner padel clubs are being tested as an acquisition channel. Inventory, international delivery, payment fees, returns and service stability remain the main risks, and the €26 million figure is company guidance rather than audited revenue.",
+            "xiaziQuote": "When a cross-border category scales, reliable fulfilment and local checkout often pay before opening more warehouses.",
+            "doudouQuote": "Tenfold revenue is not tenfold profit; inventory, delivery, returns and payment costs still count.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "bf59fb7a-3d9a-5650-9312-f4f50d55c994",
+            "topicId": "b3b725cc-d0f1-5c13-aed8-b0d9f8b895a0",
+            "title": "How Padel Pro Shop grew revenue more than 10 times by outgrowing a fragile platform",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/case-studies/padel-pro-shop",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d92f62e8-f5dd-57b7-9f99-4c780cba2d0f",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "who-lead-poisoning-prevention-action",
+        "rank": 6,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-who-lead-prevention-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共健康",
+            "headlineFact": "WHO要求从检测转向源头预防铅中毒",
+            "headlineView": "铅暴露估计每年导致超过350万人死亡，儿童即使低水平暴露也可能遭受不可逆伤害",
+            "headlineFull": "WHO要求从检测转向源头预防铅中毒；铅暴露估计每年导致超过350万人死亡，儿童即使低水平暴露也可能遭受不可逆伤害",
+            "intro": "WHO在10月15日国际铅中毒预防周前呼吁各国加速消除铅暴露。组织估计，铅暴露每年在全球导致超过350万人死亡，并影响数亿儿童；来源包括油漆、炊具、化妆品、香料、非正规回收和工业污染。儿童发育中的大脑与神经系统尤其脆弱，目前没有已知安全暴露水平，很多病例又因早期无明显症状而延迟发现。WHO成员国已要求制定全球铅减缓行动计划，计划于2027年提交世界卫生大会，并将推出PREVENT技术包帮助识别高风险来源、选择干预、执法和追踪。最新全球评估中，确认对含铅油漆实施有法律约束控制的国家仍不到一半。",
+            "xiaziQuote": "真正有效的预防，是让铅在进入孩子血液前就离开产品与环境。",
+            "doudouQuote": "没有安全暴露水平，法规、检测、回收与工业治理必须同时推进。",
+            "footerTakeaway": "今日关键词：公共健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Public Health",
+            "headlineFact": "WHO urges a shift from detecting lead poisoning to preventing it at the source",
+            "headlineView": "Lead exposure is estimated to contribute to more than 3.5 million deaths each year, while even low exposure can irreversibly harm children",
+            "headlineFull": "WHO urges a shift from detecting lead poisoning to preventing it at the source; Lead exposure is estimated to contribute to more than 3.5 million deaths each year, while even low exposure can irreversibly harm children",
+            "intro": "WHO used October 15, ahead of International Lead Poisoning Prevention Week, to call for faster elimination of lead exposure. It estimates that lead contributes to more than 3.5 million deaths globally each year and affects hundreds of millions of children. Sources include paint, cookware, cosmetics, spices, informal recycling and industrial contamination. Developing brains and nervous systems are especially vulnerable, no safe exposure level is known and many cases remain hidden because early symptoms are not obvious. Member States have asked WHO to prepare a Global Action Plan on Lead Mitigation for the 2027 World Health Assembly, alongside a PREVENT technical package for source identification, intervention, enforcement and monitoring. In WHO's latest assessment, fewer than half of countries had confirmed legally binding controls on lead paint.",
+            "xiaziQuote": "Prevention works when lead leaves products and environments before it reaches a child's bloodstream.",
+            "doudouQuote": "With no safe exposure level, regulation, testing, recycling and industrial controls must move together.",
+            "footerTakeaway": "Keyword: Public Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "84b7025c-0941-5b41-8bd9-fb6c12899fbd",
+            "topicId": "d92f62e8-f5dd-57b7-9f99-4c780cba2d0f",
+            "title": "Countries move to accelerate action against lead poisoning",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/15-10-2026-countries-move-to-accelerate-action-against-lead-poisoning",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "8952b413-c631-5387-80e6-cc2352b3869b",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "england-organic-action-plan-market",
+        "rank": 7,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-england-organic-plan-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "绿色产业",
+            "headlineFact": "英格兰瞄准每年39亿英镑有机市场",
+            "headlineView": "有机行动计划要把耕地占比从约3.4%推向2036年的10%，同时补齐加工、采购与销售渠道",
+            "headlineFull": "英格兰瞄准每年39亿英镑有机市场；有机行动计划要把耕地占比从约3.4%推向2036年的10%，同时补齐加工、采购与销售渠道",
+            "intro": "英国政府10月14日发布英格兰有机行动计划，试图让本地农民在每年超过39亿英镑且仍在增长的有机食品市场中获得更大份额。计划目标是到2036年把有机耕地占比从约3.4%推向10%，并通过转型建议、加工与供应链支持、超市和餐饮渠道、公共采购以及消费者认知来拉近本地供给与需求。案例包括Riverford盒装农产品约70%来自英国，以及Shimpling Park Farm以规模化有机生产改善土壤并支持周边农户。机会来自有价格溢价与稳定采购的细分市场，但政策没有承诺个体农场利润；认证成本、转换期减产、劳动投入、渠道议价和需求波动仍决定商业结果。",
+            "xiaziQuote": "绿色产业不是只换一种种法，而是要把认证、加工、采购和渠道接成闭环。",
+            "doudouQuote": "39亿英镑是市场规模，不是每个农场都能得到的利润。",
+            "footerTakeaway": "今日关键词：绿色产业。"
+          },
+          "en-US": {
+            "categoryLabel": "Green Industry",
+            "headlineFact": "England targets a £3.9 billion-a-year organic market",
+            "headlineView": "The Organic Action Plan aims to move farmland from about 3.4% organic toward 10% by 2036 while strengthening processing, procurement and routes to market",
+            "headlineFull": "England targets a £3.9 billion-a-year organic market; The Organic Action Plan aims to move farmland from about 3.4% organic toward 10% by 2036 while strengthening processing, procurement and routes to market",
+            "intro": "The UK government published England's Organic Action Plan on October 14 to help domestic farmers capture more of an organic-food market worth over £3.9 billion a year and still growing. It aims to move the organic share of agricultural land from about 3.4% toward 10% by 2036, combining transition advice with processing and supply-chain support, supermarket and restaurant access, public procurement and consumer awareness. Examples include Riverford sourcing roughly 70% of produce in its boxes from the UK and Shimpling Park Farm using organic production at scale while supporting neighbouring growers. The opportunity lies in a differentiated market with potential price premiums and steadier procurement, but the policy does not guarantee farm profit; certification cost, conversion-period yield, labour, buyer power and demand volatility still determine returns.",
+            "xiaziQuote": "A green industry needs more than a new production method; certification, processing, procurement and channels must form one loop.",
+            "doudouQuote": "£3.9 billion is market size, not guaranteed profit for every farm.",
+            "footerTakeaway": "Keyword: Green Industry."
+          }
+        },
+        "sources": [
+          {
+            "id": "7a21dd7c-95f2-5b6a-ba69-a3006d9b70e3",
+            "topicId": "8952b413-c631-5387-80e6-cc2352b3869b",
+            "title": "Plan to unlock organic market for stronger farms, more homegrown food",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/plan-to-unlock-organic-market-for-stronger-farms-more-homegrown-food",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "7b38992d-ad36-5396-949d-c62ea8de52f5",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "un-ethiopia-cerf-humanitarian-allocation",
+        "rank": 8,
+        "category": "international",
+        "region": "Africa",
+        "countryCodes": [
+          "ET"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-ethiopia-cerf-aid-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际局势",
+            "headlineFact": "联合国向埃塞俄比亚北部拨款850万美元",
+            "headlineView": "中央应急基金将覆盖超过202700名受冲突、再次流离失所与基本服务中断影响的人",
+            "headlineFull": "联合国向埃塞俄比亚北部拨款850万美元；中央应急基金将覆盖超过202700名受冲突、再次流离失所与基本服务中断影响的人",
+            "intro": "联合国10月14日宣布，紧急救济协调员从中央应急基金拨款850万美元，用于埃塞俄比亚北部的救命援助与平民保护。资金将重点覆盖提格雷、阿姆哈拉、阿法尔、贝尼尚古尔-古马兹等地区超过202700人，优先支持新近或再次流离失所者、基本服务中断社区和人道响应能力不足的地点。支出范围包括饮水、环境卫生、住所、医疗、营养、保护及共享服务；加上这笔款项，CERF在2026年对埃塞俄比亚的支持超过2250万美元。它是应急补充而非冲突解决方案，实际效果仍取决于安全通行、物资抵达、地方协调和持续融资。",
+            "xiaziQuote": "人道资金的价值，要用物资能否安全到达最需要的人来衡量。",
+            "doudouQuote": "850万美元能补急缺，不能替代停火、通行与长期恢复。",
+            "footerTakeaway": "今日关键词：国际局势。"
+          },
+          "en-US": {
+            "categoryLabel": "International Affairs",
+            "headlineFact": "The UN allocates $8.5 million for northern Ethiopia",
+            "headlineView": "The Central Emergency Response Fund will target more than 202,700 people affected by conflict, renewed displacement and disrupted essential services",
+            "headlineFull": "The UN allocates $8.5 million for northern Ethiopia; The Central Emergency Response Fund will target more than 202,700 people affected by conflict, renewed displacement and disrupted essential services",
+            "intro": "The UN announced on October 14 that its Emergency Relief Coordinator had allocated $8.5 million from the Central Emergency Response Fund for life-saving assistance and civilian protection in northern Ethiopia. The funding targets more than 202,700 people across Tigray, Amhara, Afar, Benishangul-Gumuz and other areas, prioritizing newly or repeatedly displaced people, communities with disrupted essential services and places where response capacity is limited. Water, sanitation, shelter, health, nutrition, protection and shared response services are included. The allocation brings CERF support to Ethiopia in 2026 above $22.5 million. It is emergency reinforcement rather than a solution to the conflict; results still depend on safe access, delivery, local coordination and sustained financing.",
+            "xiaziQuote": "Humanitarian funding proves its value only when supplies safely reach the people who need them most.",
+            "doudouQuote": "$8.5 million can fill urgent gaps, but it cannot replace peace, access and long-term recovery.",
+            "footerTakeaway": "Keyword: International Affairs."
+          }
+        },
+        "sources": [
+          {
+            "id": "f530451f-75d3-5d8d-977b-870a326096ba",
+            "topicId": "7b38992d-ad36-5396-949d-c62ea8de52f5",
+            "title": "UN Allocates US$8.5 Million from Emergency Fund to Address Humanitarian Needs in Ethiopia's Northern Regions",
+            "publisher": "United Nations in Ethiopia",
+            "url": "https://ethiopia.un.org/en/324425-un-allocates-us85-million-emergency-fund-address-humanitarian-needs-ethiopia%E2%80%99s-northern",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
+        "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
+        "slug": "change6-moon-two-faces-magma-convection",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-change6-lunar-asymmetry-20261015",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "太空科学",
+            "headlineFact": "嫦娥六号样本解释月球为何有两张脸",
+            "headlineView": "月背与月正面岩石显示地幔成分相近、地壳却不对称，研究指向潮汐加热驱动的岩浆洋横向对流",
+            "headlineFull": "嫦娥六号样本解释月球为何有两张脸；月背与月正面岩石显示地幔成分相近、地壳却不对称，研究指向潮汐加热驱动的岩浆洋横向对流",
+            "intro": "南京大学等团队比较嫦娥六号月背样本、阿波罗样本和嫦娥五号月正面样本，发现两侧玄武岩与镁质岩指向相近的地幔来源，但月背斜长岩更富镁、地壳更厚，钾、稀土和磷富集的晚期岩浆洋产物则更薄。团队据此提出：月球被地球潮汐锁定后，早期地月距离更近，正反面的潮汐加热差异在仍未完全凝固的岩浆洋中驱动横向对流，把更多斜长质地壳推向月背，并让残余熔体偏向月正面。模型把化学样本、地壳厚度和两侧地貌放进同一演化路径，但仍是对早期月球的机制解释，需更多月背样本和年代学检验。",
+            "xiaziQuote": "月球的两张脸，可能是几十亿年前热量在岩浆海中流动留下的记忆。",
+            "doudouQuote": "模型能统一多种证据，但更多月背样本才会决定它有多稳固。",
+            "footerTakeaway": "今日关键词：太空科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Space Science",
+            "headlineFact": "Chang'e-6 samples offer an explanation for the Moon's two faces",
+            "headlineView": "Farside and nearside rocks point to similar mantle composition but asymmetric crust, directing researchers toward tidal-heating-driven lateral convection in a magma ocean",
+            "headlineFull": "Chang'e-6 samples offer an explanation for the Moon's two faces; Farside and nearside rocks point to similar mantle composition but asymmetric crust, directing researchers toward tidal-heating-driven lateral convection in a magma ocean",
+            "intro": "A team including Nanjing University compared Chang'e-6 farside samples with Apollo and Chang'e-5 nearside material. Basalts and Mg-suite rocks point to broadly similar mantle sources on both hemispheres, while farside anorthosites are more magnesium-rich, the crust is thicker and late magma-ocean products rich in potassium, rare earth elements and phosphorus appear thinner. The proposed mechanism begins after the Moon became tidally locked, when the Earth-Moon distance was smaller and unequal tidal heating drove lateral convection through a still-molten magma ocean. That circulation moved more anorthositic crust toward the farside and residual melt toward the nearside. The model connects chemistry, crustal thickness and surface appearance in one evolutionary path, but it remains a mechanism for the early Moon that needs more farside samples and chronological tests.",
+            "xiaziQuote": "The Moon's two faces may preserve the memory of heat moving through a magma ocean billions of years ago.",
+            "doudouQuote": "One model unifies several clues, but more farside samples will decide how firmly it holds.",
+            "footerTakeaway": "Keyword: Space Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "9959c4d9-6b9a-549f-86bb-89946ba47a09",
+            "topicId": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
+            "title": "Scientists may have finally solved the mystery of the Moon's two faces",
+            "publisher": "ScienceDaily",
+            "url": "https://sciencedaily.com/releases/2026/10/261012185019.htm",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "b2d22fff-c3b5-587f-9e01-30fc2f4087a0",
+            "topicId": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
+            "title": "Lunar farside-nearside asymmetry formation during magma ocean solidification",
+            "publisher": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42577914/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261015_35903b218d899146fb93e5c4"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-15",
+    "releaseId": "rel_20261015_35903b218d899146fb93e5c4",
+    "assetBatchId": "asset_prod_20261015_35903b218d899146fb93e5c4",
+    "posters": [
+      {
+        "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+        "locale": "zh",
+        "contentHash": "106aac27dc052331c6d86c20a3af0fc10811b313331bf8e6dafec668e6e0b83c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/global-operator-radar-20261015.png"
+      },
+      {
+        "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+        "locale": "en",
+        "contentHash": "64dd60cd9885a895ebef5040ecbbd2e3b1738c80bac8988d90bfa259efebfeaf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/global-operator-radar-20261015.png"
+      },
+      {
+        "topicId": "00737036-746a-51fb-9831-3de927c3e1b8",
+        "locale": "zh",
+        "contentHash": "73480286e6eaebe68328eafe02ed029048cbcca8cc2deb68c90c845bd7603023",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/google-deep-review-public-technical-documents.png"
+      },
+      {
+        "topicId": "00737036-746a-51fb-9831-3de927c3e1b8",
+        "locale": "en",
+        "contentHash": "6ce958b9e9e2f331c3729535990a49326dcc75a65b2f79e757851eba037f9050",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/google-deep-review-public-technical-documents.png"
+      },
+      {
+        "topicId": "01f591d9-dfcd-5943-a05e-2f4981b06692",
+        "locale": "zh",
+        "contentHash": "a5ee4030c550658ba6ef0bafba2a5763d5a1d12995cb88928d9e60f4add226bd",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/post-bridge-solo-social-scheduling-revenue.png"
+      },
+      {
+        "topicId": "01f591d9-dfcd-5943-a05e-2f4981b06692",
+        "locale": "en",
+        "contentHash": "229d3d39e2a91e4412a4507988d9d4714ba470eda2a13261a2461abdc8b66cbf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/post-bridge-solo-social-scheduling-revenue.png"
+      },
+      {
+        "topicId": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
+        "locale": "zh",
+        "contentHash": "85858016485829360f5b93d1b2676196af752fd93fbb5c41e1819c506599930e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/aeo-engine-ai-search-verified-revenue.png"
+      },
+      {
+        "topicId": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
+        "locale": "en",
+        "contentHash": "6a32de3ed86c3810e17030d05d65e9bed00c8f438eded90716f72054e644cfa0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/aeo-engine-ai-search-verified-revenue.png"
+      },
+      {
+        "topicId": "b3b725cc-d0f1-5c13-aed8-b0d9f8b895a0",
+        "locale": "zh",
+        "contentHash": "f28439b661889d857960c5cb71d4cc0a97f82da5cd4c986255d0e83a19060eec",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/padel-pro-shop-cross-border-revenue-growth.png"
+      },
+      {
+        "topicId": "b3b725cc-d0f1-5c13-aed8-b0d9f8b895a0",
+        "locale": "en",
+        "contentHash": "0c0ac0c151b8aad46fa4f66620519f4a0e23c8395e2c4461cce74e7c3086bd04",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/padel-pro-shop-cross-border-revenue-growth.png"
+      },
+      {
+        "topicId": "d92f62e8-f5dd-57b7-9f99-4c780cba2d0f",
+        "locale": "zh",
+        "contentHash": "8daad129040da5882ef3d184d855f522bcbcc16142acc592f9eaee593f3950a0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/who-lead-poisoning-prevention-action.png"
+      },
+      {
+        "topicId": "d92f62e8-f5dd-57b7-9f99-4c780cba2d0f",
+        "locale": "en",
+        "contentHash": "57fae4e976e1f0dcd8cf4d39b681d4f4bb1fb6ddf8acdc6f340c0d3b48513109",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/who-lead-poisoning-prevention-action.png"
+      },
+      {
+        "topicId": "8952b413-c631-5387-80e6-cc2352b3869b",
+        "locale": "zh",
+        "contentHash": "7bee3ece56da09889d7b26dfd166ad63dfe1ec5bee3bedb52bb0e9256a0c5984",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/england-organic-action-plan-market.png"
+      },
+      {
+        "topicId": "8952b413-c631-5387-80e6-cc2352b3869b",
+        "locale": "en",
+        "contentHash": "c6dbed64c801171910f16f581452e00b8679f2ce6a718ee2568ba17a43fcab47",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/england-organic-action-plan-market.png"
+      },
+      {
+        "topicId": "7b38992d-ad36-5396-949d-c62ea8de52f5",
+        "locale": "zh",
+        "contentHash": "2f9287b49451c6cb7440f22fdd581d026b475266351f2d2e027a23f2c4310631",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/un-ethiopia-cerf-humanitarian-allocation.png"
+      },
+      {
+        "topicId": "7b38992d-ad36-5396-949d-c62ea8de52f5",
+        "locale": "en",
+        "contentHash": "4112cdff48f607bbc38975eebfed3b0da33b4c811ec154c436a5b902a62f537b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/un-ethiopia-cerf-humanitarian-allocation.png"
+      },
+      {
+        "topicId": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
+        "locale": "zh",
+        "contentHash": "72833911b6a606d63051ad3e2aeb4bb43aca1fbaea287e641c860dba5d8c029b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/zh/change6-moon-two-faces-magma-convection.png"
+      },
+      {
+        "topicId": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
+        "locale": "en",
+        "contentHash": "d270a0edf79076696e733c380312632484618f60896b06bf74f9dbcf1daac105",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261015_35903b218d899146fb93e5c4/en/change6-moon-two-faces-magma-convection.png"
+      }
+    ]
+  }
+}
