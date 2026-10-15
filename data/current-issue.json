@@ -1,22 +1,22 @@
 {
-  "id": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-  "slug": "2026-10-15",
+  "id": "3485e99d-ece7-51e1-ab75-8318af233b09",
+  "slug": "2026-10-16",
   "style": {
-    "name": "Generative AI Dreamlike",
-    "zhName": "AI 梦境风格",
-    "description": "Style Atlas daily pick #120: Generative AI Dreamlike / AI 梦境风格. Build a premium editorial dreamscape from soft surreal transitions, layered spatial depth, luminous atmospheric detail and scene-specific visual metaphors. Each poster must tell its own factual story through a complete setting rather than generic floating spheres, repeated cards or one recycled background. Keep copy on calm low-texture fields with strong contrast; reduce information density by about 20%, emphasize one conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central dreamlike world-stage, using flowing paths, cloud ribbons, portals and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each summary needs a quiet readable field, clear 1-8 order and no extra event. Chinese and English keep the same composition, scene, hierarchy and rhythm. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and artwork filling all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    "name": "Rinpa",
+    "zhName": "琳派",
+    "description": "Style Atlas daily pick #121: Rinpa / 琳派. Build nine distinct premium editorial scenes with gold-or-silver ground, bold seasonal flowers, grasses, birds, water currents and cloud shapes, simplified decorative contours, luminous mineral pigments, asymmetric balance and large intentional negative space. Translate every modern news subject into a complete Rinpa-inspired scene rather than a generic poster template, repeated cards or a dashboard. Keep copy on calm low-texture fields with strong contrast; reduce information density by about 20%, emphasize one conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central flowing gold-ground world-stage, using curving streams, cloud bands, folding-screen rhythms and layered foreground-background storytelling rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each summary needs a quiet readable field, clear 1-8 order and no extra event. Chinese and English keep the same composition, scene, hierarchy and rhythm. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and artwork filling all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
   },
-  "issueDate": "2026-10-15",
+  "issueDate": "2026-10-16",
   "slotHour": 4,
-  "beijingTimestamp": "2026-10-15T04:00:00+08:00",
-  "gmtTimestamp": "2026-10-14T20:00:00.000Z",
+  "beijingTimestamp": "2026-10-16T04:00:00+08:00",
+  "gmtTimestamp": "2026-10-15T20:00:00.000Z",
   "status": "published",
-  "featuredTopicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
+  "featuredTopicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
   "topics": [
     {
-      "id": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "global-operator-radar-20261015",
+      "id": "ce9b006b-0d84-5220-baa9-b6437727053c",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "global-operator-radar-20261016",
       "rank": 1,
       "category": "international",
       "region": "Global",
@@ -25,39 +25,39 @@
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 98,
-      "storyId": "xzs-overview-20261015",
+      "storyId": "xzs-overview-20261016",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 99,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "今日总览",
-          "headlineFact": "10月15日全球经营雷达",
-          "headlineView": "技术文档复核、单人社媒分发、AI搜索收入、跨境球拍、铅暴露、有机农业、埃塞援助与月球演化进入同一张行动地图",
-          "headlineFull": "10月15日全球经营雷达；技术文档复核、单人社媒分发、AI搜索收入、跨境球拍、铅暴露、有机农业、埃塞援助与月球演化进入同一张行动地图",
-          "intro": "1. Google把已复核逾16000篇技术论文的Deep Review向公众开放，用Agent检查复杂文档的逻辑一致性与事实依据。\n2. Post Bridge由Jack Friks单人运营，把一次内容同步到多个社媒平台，Stripe验证累计收入535627美元、MRR 49453美元。\n3. AEO Engine用Agent执行内容、Schema与AI引用追踪，以1597至10000美元以上月费验证累计收入2569792美元、MRR 157959美元。\n4. Padel Pro Shop把稳定结账、本地支付与跨境履约带到德国、意大利、法国和英国，2026年预计年收入2600万欧元。\n5. WHO称铅暴露每年导致超过350万人死亡，并要求各国从血铅检测转向在产品与环境源头预防。\n6. 英格兰有机行动计划瞄准每年39亿英镑市场，计划到2036年把有机耕地占比从约3.4%推向10%。\n7. 联合国从中央应急基金拨款850万美元，为埃塞俄比亚北部超过202700名受冲突与流离失所影响者提供援助。\n8. 嫦娥六号月背样本研究提出，早期潮汐加热驱动的岩浆洋横向对流塑造了月球正反面差异。",
-          "xiaziQuote": "今天的共同信号，是把看不见的风险、分发与证据链变成可测量的行动。",
-          "doudouQuote": "收入要看验证口径，计划要看执行路径，研究结论要看证据边界。",
+          "headlineFact": "10月16日全球经营雷达",
+          "headlineView": "开放模型、单人工具、AI影像收入、跨境服装、埃博拉防线、亚马逊火情、社会包容与粮食创新进入同一张行动地图",
+          "headlineFull": "10月16日全球经营雷达；开放模型、单人工具、AI影像收入、跨境服装、埃博拉防线、亚马逊火情、社会包容与粮食创新进入同一张行动地图",
+          "intro": "1. 瑞士AI团队发布Apertus 1.5技术说明，8B与70B开放模型新增图像和音频理解、思考模式、26.2万上下文及更强工具调用。\n2. Screenshot to Code由Abi Raja一人运营，把截图、设计稿和录屏转成前端代码，Stripe验证累计收入260054美元、MRR 4783美元。\n3. Boothie把自拍重绘成胶片、数码相机和复古影棚风格，以周订阅和点数包验证累计收入143960美元、MRR 50264美元。\n4. 英国户外服饰品牌Passenger从约50万美元增长到超过1亿美元GMV，跨境销售占比两年内从不足1%升至40%。\n5. 肯尼亚确认第二例Bundibugyo埃博拉病例，患者是首例死亡病例的亲属，在隔离期间被发现且暂无社区传播证据。\n6. 亚马逊火点自巴西首轮大选后增加约三倍，政府调查人为纵火线索，烟霾已扰乱马瑙斯学校与公共生活。\n7. 联合国《世界社会报告2026》提出把社会包容视为数字、绿色与经济转型的前置投资，并指出27%的15至24岁年轻女性未就业、未就学或未培训。\n8. 2026年世界粮食日以“创新当下，粮安未来”为主题，提醒全球仍约有6.73亿人挨饿、26亿人负担不起健康膳食。",
+          "xiaziQuote": "今天的共同信号，是让开放能力、商业验证与公共风险都落到可衡量的行动上。",
+          "doudouQuote": "先区分实收、估算与公共目标，再决定下一步。",
           "footerTakeaway": "今日关键词：今日总览。"
         },
         "en-US": {
           "categoryLabel": "Daily Overview",
-          "headlineFact": "October 15 Global Operator Radar",
-          "headlineView": "Technical-document review, solo social distribution, AI-search revenue, cross-border padel gear, lead exposure, organic farming, Ethiopia aid and lunar evolution enter one action map",
-          "headlineFull": "October 15 Global Operator Radar; Technical-document review, solo social distribution, AI-search revenue, cross-border padel gear, lead exposure, organic farming, Ethiopia aid and lunar evolution enter one action map",
-          "intro": "1. Google opened Deep Review to the public after the agentic system had helped review more than 16,000 technical papers, checking logic and factual grounding in complex documents.\n2. Solo operator Jack Friks runs Post Bridge, publishing one piece of content across social platforms while Stripe verifies $535,627 total revenue and $49,453 MRR.\n3. AEO Engine uses agents for content, schema and AI-citation tracking, verifying $2,569,792 total revenue and $157,959 MRR on plans from $1,597 to $10,000-plus monthly.\n4. Padel Pro Shop brought stable checkout, local payments and cross-border fulfilment to Germany, Italy, France and the UK, with 2026 annual revenue expected at €26 million.\n5. WHO says lead exposure contributes to more than 3.5 million deaths a year and urges countries to move from detection toward prevention at product and environmental sources.\n6. England's Organic Action Plan targets a £3.9 billion annual market and aims to move organic farmland from about 3.4% toward 10% by 2036.\n7. The UN allocated $8.5 million from CERF to aid more than 202,700 people affected by conflict and displacement across northern Ethiopia.\n8. Research using Chang'e-6 farside samples proposes that tidal-heating-driven lateral convection in the early lunar magma ocean shaped the Moon's two different faces.",
-          "xiaziQuote": "Today's shared signal is to turn invisible risk, distribution and evidence chains into measurable action.",
-          "doudouQuote": "Read revenue beside its verification method, plans beside execution and research claims beside their evidence limits.",
+          "headlineFact": "October 16 Global Operator Radar",
+          "headlineView": "Open models, a solo developer tool, AI-photo revenue, cross-border apparel, Ebola containment, Amazon fires, social inclusion and food innovation enter one action map",
+          "headlineFull": "October 16 Global Operator Radar; Open models, a solo developer tool, AI-photo revenue, cross-border apparel, Ebola containment, Amazon fires, social inclusion and food innovation enter one action map",
+          "intro": "1. Swiss AI published Apertus 1.5 release details, adding image and audio understanding, thinking mode, a 262K context window and stronger tool use to open 8B and 70B models.\n2. Abi Raja runs Screenshot to Code alone, turning screenshots, mockups and recordings into front-end code while Stripe verifies $260,054 total revenue and $4,783 MRR.\n3. Boothie restyles selfies into film, compact-camera and vintage-booth looks, using weekly subscriptions and credit packs to verify $143,960 total revenue and $50,264 MRR.\n4. UK outdoor brand Passenger grew from about $500,000 to more than $100 million GMV as cross-border sales rose from under 1% to 40% in two years.\n5. Kenya confirmed a second Bundibugyo Ebola case, a relative of the first fatal case who was detected in quarantine, with no evidence of community spread.\n6. Amazon fire counts roughly tripled after Brazil's first election round as authorities investigate deliberate ignition and smoke disrupts schools and daily life in Manaus.\n7. The UN World Social Report 2026 frames inclusion as upfront investment in digital, green and economic transitions and says 27% of women aged 15-24 are not in employment, education or training.\n8. World Food Day 2026 carries the theme “Innovate today. Nourish tomorrow.” while roughly 673 million people still face hunger and 2.6 billion cannot afford a healthy diet.",
+          "xiaziQuote": "Today's shared signal is to turn open capability, commercial proof and public risk into measurable action.",
+          "doudouQuote": "Separate collected revenue, estimates and public targets before choosing the next move.",
           "footerTakeaway": "Keyword: Daily Overview."
         }
       },
       "sources": [
         {
-          "id": "78206ce7-ab45-57c7-84dd-a882f3ba2c1a",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-          "publisher": "Google Research",
-          "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+          "id": "b0dc70e4-042c-5bdb-bc1b-8a265e822142",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "Apertus 1.5 Release Notes",
+          "publisher": "Swiss AI on Hugging Face",
+          "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
           "publishedAt": null,
           "sourceType": "official",
           "sourceTier": 1,
@@ -65,11 +65,11 @@
           "isPrimary": true
         },
         {
-          "id": "208cd256-0291-57ef-a965-419cf7cdf39f",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "POST BRIDGE verified revenue profile",
+          "id": "9041ae15-0b67-5718-9cc4-e124b7ce2faa",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "Screenshot to Code verified revenue profile",
           "publisher": "TrustMRR",
-          "url": "https://trustmrr.com/startup/post-bridge",
+          "url": "https://trustmrr.com/startup/screenshot-to-code-whimsyworks-inc",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -77,11 +77,11 @@
           "isPrimary": false
         },
         {
-          "id": "3556fe72-8234-5caf-8196-37c207bcd669",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "AEO Engine verified revenue profile",
+          "id": "7d54cdba-0a53-5d4c-8bf9-16c4f99ace8c",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "Boothie verified revenue profile",
           "publisher": "TrustMRR",
-          "url": "https://trustmrr.com/startup/aeo-engine",
+          "url": "https://trustmrr.com/startup/boothie",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -89,11 +89,11 @@
           "isPrimary": false
         },
         {
-          "id": "18efbbaa-997e-5cd8-ad32-3c0f04f5fb83",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "How Padel Pro Shop grew revenue more than 10 times",
+          "id": "b6c32d8c-b3ca-5adc-8906-8cb4e24f69eb",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "Passenger Grows Cross-Border Revenue Mix from 1% to 40% in Two Years",
           "publisher": "Shopify",
-          "url": "https://www.shopify.com/case-studies/padel-pro-shop",
+          "url": "https://www.shopify.com/jp/case-studies/passenger",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -101,61 +101,116 @@
           "isPrimary": false
         },
         {
-          "id": "edc499e1-751f-5f8a-85d2-eb045bfe6474",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "Countries move to accelerate action against lead poisoning",
-          "publisher": "World Health Organization",
-          "url": "https://www.who.int/news/item/15-10-2026-countries-move-to-accelerate-action-against-lead-poisoning",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        },
-        {
-          "id": "604e3824-8919-5b1c-b45f-2d6bca855545",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "Plan to unlock organic market for stronger farms, more homegrown food",
-          "publisher": "UK Government",
-          "url": "https://www.gov.uk/government/news/plan-to-unlock-organic-market-for-stronger-farms-more-homegrown-food",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        },
-        {
-          "id": "3e004d6a-1b3f-557d-862e-cdac57cf4235",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "UN Allocates US$8.5 Million from Emergency Fund to Address Humanitarian Needs in Ethiopia's Northern Regions",
-          "publisher": "United Nations in Ethiopia",
-          "url": "https://ethiopia.un.org/en/324425-un-allocates-us85-million-emergency-fund-address-humanitarian-needs-ethiopia%E2%80%99s-northern",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": false
-        },
-        {
-          "id": "452cd6c4-4870-5f73-9d5b-0735f5b2508d",
-          "topicId": "0eebaca5-0b3e-5b08-913a-6da00362b842",
-          "title": "Scientists may have finally solved the mystery of the Moon's two faces",
-          "publisher": "ScienceDaily",
-          "url": "https://sciencedaily.com/releases/2026/10/261012185019.htm",
+          "id": "4bc51503-049a-56a4-a5c2-a26bcf385ff0",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "Kenya records second Ebola case as outbreak in Congo keeps growing",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/10/15/kenya-records-second-ebola-case-as-outbreak-in-congo-keeps-growing",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "5f153503-ebe2-5d15-bb45-6cc991d10a59",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "Brazil investigates Amazon wildfires disrupting daily life, fueled political attacks",
+          "publisher": "AsiaOne",
+          "url": "https://www.asiaone.com/world/brazil-investigates-amazon-wildfires-life-political-attacks",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "9006e6f6-4f7d-5ff5-845e-7793654348b0",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "World Social Report 2026",
+          "publisher": "United Nations DESA",
+          "url": "https://desapublications.un.org/publications/world-social-report-2026-new-economics-social-inclusion-marking-transformations-work",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "c319ff34-5738-517b-94ac-af8f451124bf",
+          "topicId": "ce9b006b-0d84-5220-baa9-b6437727053c",
+          "title": "World Food Forum 2026 opens under Innovate Today, Nourish Tomorrow",
+          "publisher": "FAO",
+          "url": "https://www.fao.org/newsroom/detail/world-food-forum-2026--flagship-event-opens-under-theme--innovate-today.-nourish-tomorrow/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
           "locale": "en-US",
           "isPrimary": false
         }
       ]
     },
     {
-      "id": "00737036-746a-51fb-9831-3de927c3e1b8",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "google-deep-review-public-technical-documents",
+      "id": "a31df388-d632-5d48-a3ef-15fbcf04338b",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "apertus-15-open-multimodal-reasoning-models",
       "rank": 2,
       "category": "technology",
+      "region": "Europe",
+      "countryCodes": [
+        "CH"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-apertus-15-20261016",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 99,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI",
+          "headlineFact": "Apertus 1.5把开放模型扩展到图像与音频",
+          "headlineView": "8B和70B版本新增思考模式、26.2万上下文与更强工具调用，并公开权重、数据、价值准则和训练细节",
+          "headlineFull": "Apertus 1.5把开放模型扩展到图像与音频；8B和70B版本新增思考模式、26.2万上下文与更强工具调用，并公开权重、数据、价值准则和训练细节",
+          "intro": "瑞士AI团队10月15日发布Apertus 1.5技术说明。8B与70B模型可把图像和音频与文本作为同一序列中的离散token输入，理解文档、图表、照片与实验性语音，但只生成文本；上下文窗口扩展到262144 token，并加入可切换的思考模式、指令遵循与工具使用训练。项目在Apertus 1.0基础上继续训练，8B加入4万亿token、70B加入2万亿token，并公开权重、数据来源、训练配方、阶段检查点与可复现实验。团队承认其整体表现仍落后于前沿开放权重模型；真正优势是透明、可审计与可本地部署，而不是单靠榜单数字宣称领先。",
+          "xiaziQuote": "开放模型的竞争力，不只在分数，也在别人能否复查它如何被做出来。",
+          "doudouQuote": "26.2万上下文和多模态很实用，但部署成本与真实任务评测仍要自己算。",
+          "footerTakeaway": "今日关键词：AI。"
+        },
+        "en-US": {
+          "categoryLabel": "AI",
+          "headlineFact": "Apertus 1.5 extends open models to images and audio",
+          "headlineView": "The 8B and 70B releases add thinking mode, a 262K context window and stronger tool use while publishing weights, data, values and training details",
+          "headlineFull": "Apertus 1.5 extends open models to images and audio; The 8B and 70B releases add thinking mode, a 262K context window and stronger tool use while publishing weights, data, values and training details",
+          "intro": "Swiss AI published Apertus 1.5 release details on October 15. The 8B and 70B models can accept images and audio as discrete tokens in the same sequence as text, understanding documents, charts, photos and experimental speech while generating text only. The context window grows to 262,144 tokens, with optional thinking mode and improved instruction following and tool use. Continued training added 4 trillion tokens to the 8B model and 2 trillion to the 70B model. Weights, data sources, recipes, intermediate checkpoints and reproducible evaluations are public. The team says overall performance still trails frontier open-weight models; the distinctive value is transparency, auditability and local deployment rather than a claim of benchmark dominance.",
+          "xiaziQuote": "An open model competes not only on scores but on whether others can inspect how it was made.",
+          "doudouQuote": "A 262K window and multimodality help, but deployment cost and real-task evaluation still belong to you.",
+          "footerTakeaway": "Keyword: AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "c49bdde0-f94f-50cc-8f09-f0e672c2520a",
+          "topicId": "a31df388-d632-5d48-a3ef-15fbcf04338b",
+          "title": "Apertus 1.5 Release Notes",
+          "publisher": "Swiss AI on Hugging Face",
+          "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "4672a569-3489-569f-947b-5bf0b008978d",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "screenshot-to-code-solo-verified-revenue",
+      "rank": 3,
+      "category": "business",
       "region": "North America",
       "countryCodes": [
         "US"
@@ -163,233 +218,154 @@
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
-      "scoreTotal": 97,
-      "storyId": "xzs-google-deep-review-20261015",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 99,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "AI",
-          "headlineFact": "Google向公众开放Deep Review",
-          "headlineView": "Agent式复核系统检查复杂文档的逻辑一致性与事实依据，早期版本已参与复核逾16000篇技术论文",
-          "headlineFull": "Google向公众开放Deep Review；Agent式复核系统检查复杂文档的逻辑一致性与事实依据，早期版本已参与复核逾16000篇技术论文",
-          "intro": "Google Research在10月14日的Research@活动上宣布扩大Deep Review访问范围，让公众可用它复核法律协议、财务报告等复杂技术文档。系统采用多阶段Agent流程，重点检查论证是否前后一致、关键事实是否有依据，并把繁重的核对工作交给模型，同时保留作者对创作方向和最终判断的控制。Google称，许多内部与外部作者已经用早期版本复核超过16000篇提交到顶级计算机会议的论文。它不是自动替代同行评审，也没有证明能发现全部错误；真正价值取决于可追溯证据、误报率、领域专家复核和敏感文档的隐私边界。",
-          "xiaziQuote": "AI复核真正有用的地方，是让人更早看到论证链上的断点。",
-          "doudouQuote": "检查16000篇不等于判断都正确，最终责任仍在作者和专家。",
-          "footerTakeaway": "今日关键词：AI。"
-        },
-        "en-US": {
-          "categoryLabel": "AI",
-          "headlineFact": "Google opens Deep Review to the public",
-          "headlineView": "The agentic system checks logical consistency and factual grounding in complex documents after an early version helped review more than 16,000 technical papers",
-          "headlineFull": "Google opens Deep Review to the public; The agentic system checks logical consistency and factual grounding in complex documents after an early version helped review more than 16,000 technical papers",
-          "intro": "Google Research announced at Research@ on October 14 that it is expanding access to Deep Review so the public can use it on complex technical documents such as legal agreements and financial reports. Its multi-stage agentic workflow checks whether arguments remain logically consistent and whether important claims are grounded, moving heavy verification work to the model while leaving authors in charge of creative direction and final judgment. Google says internal and external authors have already used an early version to review more than 16,000 papers submitted to leading computer-science conferences. It does not replace peer review and has not been shown to catch every error; its value depends on traceable evidence, false-positive rates, expert oversight and privacy controls for sensitive documents.",
-          "xiaziQuote": "AI review earns its place by showing people where an argument chain breaks before publication.",
-          "doudouQuote": "Reviewing 16,000 papers does not make every judgment correct; authors and experts still own the decision.",
-          "footerTakeaway": "Keyword: AI."
-        }
-      },
-      "sources": [
-        {
-          "id": "53589b31-2862-5064-a8ad-c57a5dbe8823",
-          "topicId": "00737036-746a-51fb-9831-3de927c3e1b8",
-          "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-          "publisher": "Google Research",
-          "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "01f591d9-dfcd-5943-a05e-2f4981b06692",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "post-bridge-solo-social-scheduling-revenue",
-      "rank": 3,
-      "category": "business",
-      "region": "North America",
-      "countryCodes": [
-        "CA"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
       "scoreTotal": 96,
-      "storyId": "xzs-post-bridge-solo-revenue-20261015",
+      "storyId": "xzs-screenshot-to-code-solo-20261016",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 98,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "OPC一人公司",
-          "headlineFact": "Post Bridge单人运营，验证MRR 49453美元",
-          "headlineView": "把一次内容同步到多个社媒平台，以39美元和99美元月费服务个人营销者，并靠持续公开构建获客",
-          "headlineFull": "Post Bridge单人运营，验证MRR 49453美元；把一次内容同步到多个社媒平台，以39美元和99美元月费服务个人营销者，并靠持续公开构建获客",
-          "intro": "Post Bridge由加拿大创始人Jack Friks单人开发和运营，核心产品是让个人营销者从一个控制台把内容同步发布到多个社交平台，并提供API、命令行与Agent可调用的MCP能力。TrustMRR通过Stripe验证累计收入535627美元、MRR 49453美元、1690个活跃订阅，数据于10月13日更新；价格为每月39美元的Marketer和99美元的Operator。Friks在公开采访中说产品最初约一个月完成，日常基础设施成本曾约100至200美元，获客主要依靠X、TikTok、Instagram和YouTube持续展示产品与构建过程。当前数字证明付费需求，但高度依赖创始人分发、平台API稳定性与单人支持能力，且受访成本数据可能已随规模上升。",
-          "xiaziQuote": "一人公司最强的杠杆，是把自己的重复动作做成别人愿意订阅的工具。",
-          "doudouQuote": "高MRR很亮眼，也要同时看平台依赖、支持负荷与创始人渠道风险。",
+          "headlineFact": "Screenshot to Code一人运营，验证MRR 4783美元",
+          "headlineView": "用8万星开源项目持续导流，把截图、设计稿和录屏转前端代码的托管版做成约300个订阅",
+          "headlineFull": "Screenshot to Code一人运营，验证MRR 4783美元；用8万星开源项目持续导流，把截图、设计稿和录屏转前端代码的托管版做成约300个订阅",
+          "intro": "Screenshot to Code由Abi Raja一人运营，面向前端开发者、设计师、自由职业者和独立创始人，把截图、设计稿、短录屏或文字描述转成HTML、Tailwind、React、Vue等可编辑前端代码，再用自然语言迭代。TrustMRR通过Stripe验证累计收入260054美元、MRR 4783美元和314个活跃订阅，10月15日更新；Hobby与Pro方案为每月15美元和40美元。获客杠杆来自保持公开的8万星开源仓库，它带来稳定自然流量；创始人自报约25.8万注册用户、每周运营不足2小时、过去12个月利润率60%。这是可核验收入加创始人自报经营数据，限制在模型调用成本、输出质量、开源替代品与单人维护风险。",
+          "xiaziQuote": "把开源信任变成托管便利，是一人公司可以长期复利的分发结构。",
+          "doudouQuote": "MRR由Stripe验证，利润率与工时仍是创始人自报。",
           "footerTakeaway": "今日关键词：OPC一人公司。"
         },
         "en-US": {
           "categoryLabel": "One-Person Company",
-          "headlineFact": "Solo-run Post Bridge verifies $49,453 MRR",
-          "headlineView": "It publishes one piece of content across multiple social platforms, charges individuals $39 or $99 monthly and acquires customers through consistent building in public",
-          "headlineFull": "Solo-run Post Bridge verifies $49,453 MRR; It publishes one piece of content across multiple social platforms, charges individuals $39 or $99 monthly and acquires customers through consistent building in public",
-          "intro": "Canadian founder Jack Friks develops and operates Post Bridge alone. The product lets individual marketers publish content across multiple social platforms from one dashboard and also exposes an API, command-line tools and MCP access for agents. TrustMRR verifies through Stripe $535,627 in total revenue, $49,453 MRR and 1,690 active subscriptions, updated October 13; plans cost $39 a month for Marketer and $99 for Operator. In a public interview, Friks said the first version took about a month to build, infrastructure once cost roughly $100 to $200 monthly, and customer acquisition came largely from consistently showing the product and his build process on X, TikTok, Instagram and YouTube. The numbers prove paid demand, but founder-led distribution, platform API stability and solo support capacity remain concentration risks, while the quoted cost figure may have risen with scale.",
-          "xiaziQuote": "A solo company's strongest leverage is turning its own repeated task into a tool other people subscribe to.",
-          "doudouQuote": "High MRR shines, but platform dependence, support load and founder-channel risk belong in the same picture.",
+          "headlineFact": "Solo-run Screenshot to Code verifies $4,783 MRR",
+          "headlineView": "An 80K-star open-source project provides steady acquisition while the hosted screenshot-to-front-end service supports roughly 300 subscriptions",
+          "headlineFull": "Solo-run Screenshot to Code verifies $4,783 MRR; An 80K-star open-source project provides steady acquisition while the hosted screenshot-to-front-end service supports roughly 300 subscriptions",
+          "intro": "Abi Raja operates Screenshot to Code alone for front-end developers, designers, freelancers and indie founders. It turns screenshots, mockups, short recordings or text prompts into editable HTML, Tailwind, React, Vue and other front-end code, then accepts natural-language refinements. TrustMRR verifies through Stripe $260,054 in total revenue, $4,783 MRR and 314 active subscriptions, updated October 15; Hobby and Pro plans cost $15 and $40 monthly. Its acquisition leverage is the public 80K-star open-source repository, which feeds steady organic traffic into the hosted service. The founder reports about 258,000 registered users, under two hours of weekly operations and a 60% trailing-12-month margin. Revenue is independently connected, while margin and workload are founder-reported; model cost, output quality, open-source substitutes and solo maintenance remain the limits.",
+          "xiaziQuote": "Turning open-source trust into hosted convenience gives a solo company a compounding distribution structure.",
+          "doudouQuote": "Stripe verifies the MRR; margin and weekly workload remain founder-reported.",
           "footerTakeaway": "Keyword: One-Person Company."
         }
       },
       "sources": [
         {
-          "id": "e672ec04-d02a-5cda-afd3-d7fb6e70c621",
-          "topicId": "01f591d9-dfcd-5943-a05e-2f4981b06692",
-          "title": "POST BRIDGE verified revenue profile",
+          "id": "371d0d45-7004-56ed-8ee8-33a89a767ffc",
+          "topicId": "4672a569-3489-569f-947b-5bf0b008978d",
+          "title": "Screenshot to Code verified revenue profile",
           "publisher": "TrustMRR",
-          "url": "https://trustmrr.com/startup/post-bridge",
+          "url": "https://trustmrr.com/startup/screenshot-to-code-whimsyworks-inc",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
-        },
-        {
-          "id": "a45c2e0f-f154-5054-b4e0-7d588bc3962f",
-          "topicId": "01f591d9-dfcd-5943-a05e-2f4981b06692",
-          "title": "Hitting $35k MRR after struggling to make money online for four years",
-          "publisher": "Indie Hackers",
-          "url": "https://www.indiehackers.com/post/tech/hitting-35k-mrr-after-struggling-to-make-money-online-for-four-years-CNVpxrwIVqxcsfZ4fERw",
-          "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
         }
       ]
     },
     {
-      "id": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "aeo-engine-ai-search-verified-revenue",
+      "id": "a9d06e48-cbf4-5773-94a9-631c24336fd3",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "boothie-ai-photo-app-verified-revenue",
       "rank": 4,
       "category": "technology",
-      "region": "North America",
+      "region": "Global",
       "countryCodes": [
-        "US"
+        "TR",
+        "US",
+        "DE"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 95,
-      "storyId": "xzs-aeo-engine-revenue-20261015",
+      "storyId": "xzs-boothie-revenue-20261016",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 98,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "赚钱的AI应用落地",
-          "headlineFact": "AEO Engine验证MRR 157959美元",
-          "headlineView": "把AI搜索可见性做成Agent执行的内容、Schema、引用追踪与人类策略服务，月费从1597美元到10000美元以上",
-          "headlineFull": "AEO Engine验证MRR 157959美元；把AI搜索可见性做成Agent执行的内容、Schema、引用追踪与人类策略服务，月费从1597美元到10000美元以上",
-          "intro": "AEO Engine面向SaaS、法律、服务与电商品牌，监测ChatGPT、Gemini、Perplexity和Google AI Overviews实际引用谁，再用专门Agent执行研究、内容、Schema、内链、权威建设与周报，人类负责策略和客户结果。TrustMRR通过Stripe验证累计收入2569792美元、MRR 157959美元和55个活跃订阅，数据于10月14日更新。其Growth、Scale与Enterprise方案月费分别从1597美元、2997美元和10000美元起，服务以90天增长承诺降低采购风险。变现成立，但这是“人类管理+Agent执行”的服务型软件，不是纯SaaS；交付成本、搜索平台规则变化、归因口径和高客单客户集中度都会影响利润。",
-          "xiaziQuote": "AI应用赚钱的关键，是把模型能力嵌进客户愿意持续购买的结果链。",
-          "doudouQuote": "157959美元MRR验证了需求，但服务成本和结果归因决定净利润。",
+          "headlineFact": "Boothie验证MRR 50264美元",
+          "headlineView": "把自拍重绘成胶片、数码相机与复古影棚风格，以周订阅、每日点数和额外点数包在iOS与Android变现",
+          "headlineFull": "Boothie验证MRR 50264美元；把自拍重绘成胶片、数码相机与复古影棚风格，以周订阅、每日点数和额外点数包在iOS与Android变现",
+          "intro": "Boothie面向16至40岁、常在TikTok和Instagram发图的女性用户：选择Canon G7X数码感、Kodak Gold胶片、复古照相亭或夜间闪光等风格，上传自拍后由AI快速重绘；免费本地滤镜承担试用，AI生成通过Plus、Gold周订阅的每日点数和额外点数包收费。TrustMRR通过RevenueCat验证累计收入143960美元、MRR 50264美元和2152个活跃订阅，数据于10月15日更新；应用6月上线iOS、9月上线Android。创始人自报早期依靠美国、德国和土耳其近十个TikTok人格账号的轮播内容获客且未投付费广告。结果证明移动端视觉玩法能付费，但留存、生成成本、平台抽成、内容账号依赖和风格同质化决定利润。",
+          "xiaziQuote": "AI影像赚钱，不是堆模型名，而是把一个想晒出来的结果压缩到几秒。",
+          "doudouQuote": "50264美元MRR验证了付费，留存和每次生成毛利才决定能否长跑。",
           "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
         },
         "en-US": {
           "categoryLabel": "Revenue-Backed AI Application",
-          "headlineFact": "AEO Engine verifies $157,959 MRR",
-          "headlineView": "It packages AI-search visibility into agent-executed content, schema and citation tracking with human strategy, charging from $1,597 to more than $10,000 monthly",
-          "headlineFull": "AEO Engine verifies $157,959 MRR; It packages AI-search visibility into agent-executed content, schema and citation tracking with human strategy, charging from $1,597 to more than $10,000 monthly",
-          "intro": "AEO Engine serves SaaS, legal, services and ecommerce brands by measuring which companies ChatGPT, Gemini, Perplexity and Google AI Overviews actually cite. Specialized agents execute research, content, schema, internal linking, authority building and weekly reporting while humans own strategy and client outcomes. TrustMRR verifies through Stripe $2,569,792 in total revenue, $157,959 MRR and 55 active subscriptions, updated October 14. Growth, Scale and Enterprise plans start at $1,597, $2,997 and $10,000 per month, with a 90-day growth guarantee used to reduce purchasing risk. Monetization is proven, but this is service-as-software rather than pure SaaS; delivery cost, platform rule changes, attribution and high-ticket customer concentration still determine profit.",
-          "xiaziQuote": "An AI application earns durable revenue when model capability sits inside an outcome customers keep buying.",
-          "doudouQuote": "$157,959 MRR proves demand, while service cost and attribution decide net profit.",
+          "headlineFact": "Boothie verifies $50,264 MRR",
+          "headlineView": "It restyles selfies into film, compact-camera and vintage-booth looks, monetizing on iOS and Android through weekly subscriptions, daily credits and credit packs",
+          "headlineFull": "Boothie verifies $50,264 MRR; It restyles selfies into film, compact-camera and vintage-booth looks, monetizing on iOS and Android through weekly subscriptions, daily credits and credit packs",
+          "intro": "Boothie targets women aged 16 to 40 who post on TikTok and Instagram. A user selects a Canon G7X-style digital look, Kodak Gold film, vintage photobooth, night flash or another aesthetic, uploads a selfie and receives an AI restyle. Free local filters provide the trial layer; AI generations monetize through daily credits in Plus and Gold weekly subscriptions plus extra credit packs. TrustMRR verifies through RevenueCat $143,960 in total revenue, $50,264 MRR and 2,152 active subscriptions, updated October 15. The app launched on iOS in June and Android in September. The founder reports that early acquisition came from almost a dozen TikTok persona accounts across the US, Germany and Türkiye without paid ads. Paid demand is proven, while retention, generation cost, store fees, channel dependence and visual sameness determine profit.",
+          "xiaziQuote": "AI imagery earns when a share-worthy result is compressed into a few seconds, not when model names are stacked up.",
+          "doudouQuote": "$50,264 MRR proves payment; retention and gross margin per generation decide endurance.",
           "footerTakeaway": "Keyword: Revenue-Backed AI Application."
         }
       },
       "sources": [
         {
-          "id": "45cc39a3-3d5b-54da-941d-7bee745746f5",
-          "topicId": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
-          "title": "AEO Engine verified revenue profile",
+          "id": "c4e7c02a-5022-5290-a5ff-13f985e5c6fd",
+          "topicId": "a9d06e48-cbf4-5773-94a9-631c24336fd3",
+          "title": "Boothie verified revenue profile",
           "publisher": "TrustMRR",
-          "url": "https://trustmrr.com/startup/aeo-engine",
+          "url": "https://trustmrr.com/startup/boothie",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
           "locale": "en-US",
           "isPrimary": true
-        },
-        {
-          "id": "e3076e76-0098-552d-9edc-bfac35651475",
-          "topicId": "8e4cb82b-ddbd-5504-ad47-67abde6369fc",
-          "title": "The AI SEO agency that makes you the answer in AI search",
-          "publisher": "AEO Engine",
-          "url": "https://aeoengine.ai/",
-          "publishedAt": null,
-          "sourceType": "publisher",
-          "sourceTier": 2,
-          "locale": "en-US",
-          "isPrimary": false
         }
       ]
     },
     {
-      "id": "b3b725cc-d0f1-5c13-aed8-b0d9f8b895a0",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "padel-pro-shop-cross-border-revenue-growth",
+      "id": "8ac7838c-490c-5d57-95b4-7aeeb2b803c7",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "passenger-cross-border-sales-forty-percent",
       "rank": 5,
       "category": "business",
-      "region": "Europe",
+      "region": "Global",
       "countryCodes": [
-        "ES",
-        "DE",
-        "IT",
-        "FR",
-        "GB"
+        "GB",
+        "US",
+        "DE"
       ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 94,
-      "storyId": "xzs-padel-pro-shop-cross-border-20261015",
+      "storyId": "xzs-passenger-cross-border-20261016",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 98,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "跨境电商",
-          "headlineFact": "Padel Pro Shop预计2026年收入2600万欧元",
-          "headlineView": "从首年250万欧元增长十倍，以稳定结账、本地支付、单仓跨境配送和俱乐部合作拓展欧洲市场",
-          "headlineFull": "Padel Pro Shop预计2026年收入2600万欧元；从首年250万欧元增长十倍，以稳定结账、本地支付、单仓跨境配送和俱乐部合作拓展欧洲市场",
-          "intro": "西班牙Padel Pro Shop向欧洲及其他市场销售球拍、球、握把与装备。Shopify案例显示，品牌2020年末成立，首个完整年度收入250万欧元，之后依次达到500万、900万、1600万和2000万欧元，2026年预计约2600万欧元。跨境增长并非只靠广告：它用稳定结账替代易崩的平台，引入本地支付与Shop Pay，从一个仓库重点服务德国、意大利、法国和英国；Shop App订单过去一年增长284%，团队从3人扩至约50人，并尝试通过约20家板式网球俱乐部获客。主要成本与风险是库存、跨境配送、支付费率、退货和高速扩张下的服务稳定性，2600万欧元仍是公司预计值而非审计结果。",
-          "xiaziQuote": "跨境品类真正放大时，稳定履约与本地结账往往比多开仓更先产生回报。",
-          "doudouQuote": "收入十倍不等于利润十倍，库存、配送、退货和支付费要一起算。",
+          "headlineFact": "Passenger跨境销售占比两年从不足1%升至40%",
+          "headlineView": "户外服饰品牌用单店多市场、本地化结账与多币种留存降低复杂度，四年GMV从约50万美元增至超过1亿美元",
+          "headlineFull": "Passenger跨境销售占比两年从不足1%升至40%；户外服饰品牌用单店多市场、本地化结账与多币种留存降低复杂度，四年GMV从约50万美元增至超过1亿美元",
+          "intro": "英国户外服饰品牌Passenger销售强调耐用与负责任面料的服装，Shopify案例称其GMV四年内从约50万美元增长到超过1亿美元，跨境销售占收入比例又在两年内从不足1%升至40%。它没有为每个国家拆分独立商店，而是在单一后台快速测试约10个市场，并针对美国和德国调整语言、配送方式、结账措辞与营销投入；多币种收款让美元和欧元销售款直接支付全球供应商，减少先换英镑再换回外币的双重汇兑。赚钱机制是全球户外消费需求加本地化转化和更高支付授权率，主要成本与风险是库存、退货、物流、市场投放、汇率和供应链，所有结果均为商家向Shopify提供。",
+          "xiaziQuote": "跨境增长的捷径不是多开店，而是先让结账、库存与资金流像一个系统。",
+          "doudouQuote": "1亿美元是GMV，真正利润还要扣库存、退货、物流和获客。",
           "footerTakeaway": "今日关键词：跨境电商。"
         },
         "en-US": {
           "categoryLabel": "Cross-Border Commerce",
-          "headlineFact": "Padel Pro Shop expects €26 million revenue in 2026",
-          "headlineView": "It grew tenfold from €2.5 million in year one by combining stable checkout, local payments, single-warehouse cross-border delivery and club partnerships across Europe",
-          "headlineFull": "Padel Pro Shop expects €26 million revenue in 2026; It grew tenfold from €2.5 million in year one by combining stable checkout, local payments, single-warehouse cross-border delivery and club partnerships across Europe",
-          "intro": "Spain's Padel Pro Shop sells rackets, balls, grips and equipment across Europe and beyond. Shopify's case study says the brand launched in late 2020, made €2.5 million in its first full year and then reached €5 million, €9 million, €16 million and €20 million, with about €26 million expected in 2026. Cross-border growth did not come from ads alone: a dependable checkout replaced a fragile platform, local payment methods and Shop Pay reduced friction, and one warehouse supports a growing focus on Germany, Italy, France and the UK. Shop app orders rose 284% over the past year, the team grew from three to about 50 and roughly 20 partner padel clubs are being tested as an acquisition channel. Inventory, international delivery, payment fees, returns and service stability remain the main risks, and the €26 million figure is company guidance rather than audited revenue.",
-          "xiaziQuote": "When a cross-border category scales, reliable fulfilment and local checkout often pay before opening more warehouses.",
-          "doudouQuote": "Tenfold revenue is not tenfold profit; inventory, delivery, returns and payment costs still count.",
+          "headlineFact": "Passenger grew cross-border sales from under 1% to 40% in two years",
+          "headlineView": "The outdoor brand used one store, localized checkout and multi-currency balances to reduce complexity as GMV rose from about $500,000 to more than $100 million in four years",
+          "headlineFull": "Passenger grew cross-border sales from under 1% to 40% in two years; The outdoor brand used one store, localized checkout and multi-currency balances to reduce complexity as GMV rose from about $500,000 to more than $100 million in four years",
+          "intro": "UK outdoor apparel brand Passenger sells durable clothing with an emphasis on responsible materials. A Shopify case study says GMV grew from about $500,000 to more than $100 million in four years, while cross-border sales moved from under 1% to 40% of revenue in two years. Instead of splitting every country into a separate store, Passenger tested roughly ten markets from one backend and localized language, shipping methods, checkout wording and marketing for the US and Germany. Multi-currency payouts let it keep dollars and euros from sales to pay global suppliers, reducing the double foreign-exchange cost of converting into pounds and back. The earning mechanism combines global outdoor demand, localized conversion and higher payment authorization; inventory, returns, logistics, acquisition, FX and supply-chain risk remain the main costs. Results were supplied by the merchant to Shopify.",
+          "xiaziQuote": "The shortcut to cross-border growth is not more stores but one system for checkout, inventory and cash flow.",
+          "doudouQuote": "$100 million is GMV; profit still subtracts inventory, returns, logistics and acquisition.",
           "footerTakeaway": "Keyword: Cross-Border Commerce."
         }
       },
       "sources": [
         {
-          "id": "bf59fb7a-3d9a-5650-9312-f4f50d55c994",
-          "topicId": "b3b725cc-d0f1-5c13-aed8-b0d9f8b895a0",
-          "title": "How Padel Pro Shop grew revenue more than 10 times by outgrowing a fragile platform",
+          "id": "7516e39e-eccb-58e9-a1d1-4bfaa7da734c",
+          "topicId": "8ac7838c-490c-5d57-95b4-7aeeb2b803c7",
+          "title": "Passenger Grows Cross-Border Revenue Mix from 1% to 40% in Two Years",
           "publisher": "Shopify",
-          "url": "https://www.shopify.com/case-studies/padel-pro-shop",
+          "url": "https://www.shopify.com/jp/case-studies/passenger",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -399,215 +375,53 @@
       ]
     },
     {
-      "id": "d92f62e8-f5dd-57b7-9f99-4c780cba2d0f",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "who-lead-poisoning-prevention-action",
+      "id": "dd34cb91-23c5-5389-8ddb-9245c7cefdbf",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "kenya-second-bundibugyo-ebola-case",
       "rank": 6,
       "category": "science",
-      "region": "Global",
-      "countryCodes": [],
+      "region": "Africa",
+      "countryCodes": [
+        "KE",
+        "CD"
+      ],
       "eventTime": null,
       "isDeveloping": false,
       "verificationStatus": "verified",
       "scoreTotal": 93,
-      "storyId": "xzs-who-lead-prevention-20261015",
+      "storyId": "xzs-kenya-ebola-second-case-20261016",
       "storyStatus": "new",
       "followupDay": 1,
       "informationIncrementScore": 99,
       "localizations": {
         "zh-CN": {
           "categoryLabel": "公共健康",
-          "headlineFact": "WHO要求从检测转向源头预防铅中毒",
-          "headlineView": "铅暴露估计每年导致超过350万人死亡，儿童即使低水平暴露也可能遭受不可逆伤害",
-          "headlineFull": "WHO要求从检测转向源头预防铅中毒；铅暴露估计每年导致超过350万人死亡，儿童即使低水平暴露也可能遭受不可逆伤害",
-          "intro": "WHO在10月15日国际铅中毒预防周前呼吁各国加速消除铅暴露。组织估计，铅暴露每年在全球导致超过350万人死亡，并影响数亿儿童；来源包括油漆、炊具、化妆品、香料、非正规回收和工业污染。儿童发育中的大脑与神经系统尤其脆弱，目前没有已知安全暴露水平，很多病例又因早期无明显症状而延迟发现。WHO成员国已要求制定全球铅减缓行动计划，计划于2027年提交世界卫生大会，并将推出PREVENT技术包帮助识别高风险来源、选择干预、执法和追踪。最新全球评估中，确认对含铅油漆实施有法律约束控制的国家仍不到一半。",
-          "xiaziQuote": "真正有效的预防，是让铅在进入孩子血液前就离开产品与环境。",
-          "doudouQuote": "没有安全暴露水平，法规、检测、回收与工业治理必须同时推进。",
+          "headlineFact": "肯尼亚确认第二例Bundibugyo埃博拉病例",
+          "headlineView": "患者是首例死亡病例的39岁亲属，在隔离期间出现症状并被快速确诊，目前暂无社区传播证据",
+          "headlineFull": "肯尼亚确认第二例Bundibugyo埃博拉病例；患者是首例死亡病例的39岁亲属，在隔离期间出现症状并被快速确诊，目前暂无社区传播证据",
+          "intro": "肯尼亚卫生部门10月15日确认第二例Bundibugyo埃博拉病例。患者为39岁男性，是该国首例病例的近亲；首例患者曾从刚果（金）经乌干达到内罗毕，10月5日确诊后死亡。第二名患者此前已被列为密切接触者并隔离，出现症状后接受检测，因此更早进入治疗。官方称约128名接触者已被识别，其中108人在隔离，5人位于境外并已通知相关国家；截至通报时，两例有明确流行病学联系，暂无社区传播证据。埃博拉不是空气传播，而是通过患者或遗体的血液和体液直接接触传播，防线取决于接触者追踪、隔离、医疗机构感染控制与跨境信息协作。",
+          "xiaziQuote": "第二例最重要的信息，是它在已知接触链和隔离体系内被发现。",
+          "doudouQuote": "暂无社区传播不等于零风险，接触者追踪必须完整走完。",
           "footerTakeaway": "今日关键词：公共健康。"
         },
         "en-US": {
           "categoryLabel": "Public Health",
-          "headlineFact": "WHO urges a shift from detecting lead poisoning to preventing it at the source",
-          "headlineView": "Lead exposure is estimated to contribute to more than 3.5 million deaths each year, while even low exposure can irreversibly harm children",
-          "headlineFull": "WHO urges a shift from detecting lead poisoning to preventing it at the source; Lead exposure is estimated to contribute to more than 3.5 million deaths each year, while even low exposure can irreversibly harm children",
-          "intro": "WHO used October 15, ahead of International Lead Poisoning Prevention Week, to call for faster elimination of lead exposure. It estimates that lead contributes to more than 3.5 million deaths globally each year and affects hundreds of millions of children. Sources include paint, cookware, cosmetics, spices, informal recycling and industrial contamination. Developing brains and nervous systems are especially vulnerable, no safe exposure level is known and many cases remain hidden because early symptoms are not obvious. Member States have asked WHO to prepare a Global Action Plan on Lead Mitigation for the 2027 World Health Assembly, alongside a PREVENT technical package for source identification, intervention, enforcement and monitoring. In WHO's latest assessment, fewer than half of countries had confirmed legally binding controls on lead paint.",
-          "xiaziQuote": "Prevention works when lead leaves products and environments before it reaches a child's bloodstream.",
-          "doudouQuote": "With no safe exposure level, regulation, testing, recycling and industrial controls must move together.",
+          "headlineFact": "Kenya confirms a second Bundibugyo Ebola case",
+          "headlineView": "The 39-year-old relative of the first fatal patient developed symptoms in quarantine and was diagnosed quickly, with no evidence of community transmission",
+          "headlineFull": "Kenya confirms a second Bundibugyo Ebola case; The 39-year-old relative of the first fatal patient developed symptoms in quarantine and was diagnosed quickly, with no evidence of community transmission",
+          "intro": "Kenyan health authorities confirmed the country's second Bundibugyo Ebola case on October 15. The 39-year-old man is a close relative of Kenya's first case, who travelled from the Democratic Republic of the Congo through Uganda to Nairobi and died after testing positive on October 5. The second patient had already been identified as a contact and quarantined, allowing testing and treatment soon after symptoms appeared. Officials said roughly 128 contacts had been identified, 108 were in quarantine and five were outside Kenya with the relevant countries notified. The two cases have a clear epidemiological link and there was no evidence of community spread at the time of the update. Ebola is not airborne; it spreads through direct contact with blood or body fluids, making tracing, isolation, clinical infection control and cross-border coordination the core defences.",
+          "xiaziQuote": "The critical fact in the second case is that it was found inside a known contact chain and quarantine system.",
+          "doudouQuote": "No community spread is not zero risk; the full contact-monitoring period still matters.",
           "footerTakeaway": "Keyword: Public Health."
         }
       },
       "sources": [
         {
-          "id": "84b7025c-0941-5b41-8bd9-fb6c12899fbd",
-          "topicId": "d92f62e8-f5dd-57b7-9f99-4c780cba2d0f",
-          "title": "Countries move to accelerate action against lead poisoning",
-          "publisher": "World Health Organization",
-          "url": "https://www.who.int/news/item/15-10-2026-countries-move-to-accelerate-action-against-lead-poisoning",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "8952b413-c631-5387-80e6-cc2352b3869b",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "england-organic-action-plan-market",
-      "rank": 7,
-      "category": "business",
-      "region": "Europe",
-      "countryCodes": [
-        "GB"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 92,
-      "storyId": "xzs-england-organic-plan-20261015",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 97,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "绿色产业",
-          "headlineFact": "英格兰瞄准每年39亿英镑有机市场",
-          "headlineView": "有机行动计划要把耕地占比从约3.4%推向2036年的10%，同时补齐加工、采购与销售渠道",
-          "headlineFull": "英格兰瞄准每年39亿英镑有机市场；有机行动计划要把耕地占比从约3.4%推向2036年的10%，同时补齐加工、采购与销售渠道",
-          "intro": "英国政府10月14日发布英格兰有机行动计划，试图让本地农民在每年超过39亿英镑且仍在增长的有机食品市场中获得更大份额。计划目标是到2036年把有机耕地占比从约3.4%推向10%，并通过转型建议、加工与供应链支持、超市和餐饮渠道、公共采购以及消费者认知来拉近本地供给与需求。案例包括Riverford盒装农产品约70%来自英国，以及Shimpling Park Farm以规模化有机生产改善土壤并支持周边农户。机会来自有价格溢价与稳定采购的细分市场，但政策没有承诺个体农场利润；认证成本、转换期减产、劳动投入、渠道议价和需求波动仍决定商业结果。",
-          "xiaziQuote": "绿色产业不是只换一种种法，而是要把认证、加工、采购和渠道接成闭环。",
-          "doudouQuote": "39亿英镑是市场规模，不是每个农场都能得到的利润。",
-          "footerTakeaway": "今日关键词：绿色产业。"
-        },
-        "en-US": {
-          "categoryLabel": "Green Industry",
-          "headlineFact": "England targets a £3.9 billion-a-year organic market",
-          "headlineView": "The Organic Action Plan aims to move farmland from about 3.4% organic toward 10% by 2036 while strengthening processing, procurement and routes to market",
-          "headlineFull": "England targets a £3.9 billion-a-year organic market; The Organic Action Plan aims to move farmland from about 3.4% organic toward 10% by 2036 while strengthening processing, procurement and routes to market",
-          "intro": "The UK government published England's Organic Action Plan on October 14 to help domestic farmers capture more of an organic-food market worth over £3.9 billion a year and still growing. It aims to move the organic share of agricultural land from about 3.4% toward 10% by 2036, combining transition advice with processing and supply-chain support, supermarket and restaurant access, public procurement and consumer awareness. Examples include Riverford sourcing roughly 70% of produce in its boxes from the UK and Shimpling Park Farm using organic production at scale while supporting neighbouring growers. The opportunity lies in a differentiated market with potential price premiums and steadier procurement, but the policy does not guarantee farm profit; certification cost, conversion-period yield, labour, buyer power and demand volatility still determine returns.",
-          "xiaziQuote": "A green industry needs more than a new production method; certification, processing, procurement and channels must form one loop.",
-          "doudouQuote": "£3.9 billion is market size, not guaranteed profit for every farm.",
-          "footerTakeaway": "Keyword: Green Industry."
-        }
-      },
-      "sources": [
-        {
-          "id": "7a21dd7c-95f2-5b6a-ba69-a3006d9b70e3",
-          "topicId": "8952b413-c631-5387-80e6-cc2352b3869b",
-          "title": "Plan to unlock organic market for stronger farms, more homegrown food",
-          "publisher": "UK Government",
-          "url": "https://www.gov.uk/government/news/plan-to-unlock-organic-market-for-stronger-farms-more-homegrown-food",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "7b38992d-ad36-5396-949d-c62ea8de52f5",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "un-ethiopia-cerf-humanitarian-allocation",
-      "rank": 8,
-      "category": "international",
-      "region": "Africa",
-      "countryCodes": [
-        "ET"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 91,
-      "storyId": "xzs-ethiopia-cerf-aid-20261015",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 99,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "国际局势",
-          "headlineFact": "联合国向埃塞俄比亚北部拨款850万美元",
-          "headlineView": "中央应急基金将覆盖超过202700名受冲突、再次流离失所与基本服务中断影响的人",
-          "headlineFull": "联合国向埃塞俄比亚北部拨款850万美元；中央应急基金将覆盖超过202700名受冲突、再次流离失所与基本服务中断影响的人",
-          "intro": "联合国10月14日宣布，紧急救济协调员从中央应急基金拨款850万美元，用于埃塞俄比亚北部的救命援助与平民保护。资金将重点覆盖提格雷、阿姆哈拉、阿法尔、贝尼尚古尔-古马兹等地区超过202700人，优先支持新近或再次流离失所者、基本服务中断社区和人道响应能力不足的地点。支出范围包括饮水、环境卫生、住所、医疗、营养、保护及共享服务；加上这笔款项，CERF在2026年对埃塞俄比亚的支持超过2250万美元。它是应急补充而非冲突解决方案，实际效果仍取决于安全通行、物资抵达、地方协调和持续融资。",
-          "xiaziQuote": "人道资金的价值，要用物资能否安全到达最需要的人来衡量。",
-          "doudouQuote": "850万美元能补急缺，不能替代停火、通行与长期恢复。",
-          "footerTakeaway": "今日关键词：国际局势。"
-        },
-        "en-US": {
-          "categoryLabel": "International Affairs",
-          "headlineFact": "The UN allocates $8.5 million for northern Ethiopia",
-          "headlineView": "The Central Emergency Response Fund will target more than 202,700 people affected by conflict, renewed displacement and disrupted essential services",
-          "headlineFull": "The UN allocates $8.5 million for northern Ethiopia; The Central Emergency Response Fund will target more than 202,700 people affected by conflict, renewed displacement and disrupted essential services",
-          "intro": "The UN announced on October 14 that its Emergency Relief Coordinator had allocated $8.5 million from the Central Emergency Response Fund for life-saving assistance and civilian protection in northern Ethiopia. The funding targets more than 202,700 people across Tigray, Amhara, Afar, Benishangul-Gumuz and other areas, prioritizing newly or repeatedly displaced people, communities with disrupted essential services and places where response capacity is limited. Water, sanitation, shelter, health, nutrition, protection and shared response services are included. The allocation brings CERF support to Ethiopia in 2026 above $22.5 million. It is emergency reinforcement rather than a solution to the conflict; results still depend on safe access, delivery, local coordination and sustained financing.",
-          "xiaziQuote": "Humanitarian funding proves its value only when supplies safely reach the people who need them most.",
-          "doudouQuote": "$8.5 million can fill urgent gaps, but it cannot replace peace, access and long-term recovery.",
-          "footerTakeaway": "Keyword: International Affairs."
-        }
-      },
-      "sources": [
-        {
-          "id": "f530451f-75d3-5d8d-977b-870a326096ba",
-          "topicId": "7b38992d-ad36-5396-949d-c62ea8de52f5",
-          "title": "UN Allocates US$8.5 Million from Emergency Fund to Address Humanitarian Needs in Ethiopia's Northern Regions",
-          "publisher": "United Nations in Ethiopia",
-          "url": "https://ethiopia.un.org/en/324425-un-allocates-us85-million-emergency-fund-address-humanitarian-needs-ethiopia%E2%80%99s-northern",
-          "publishedAt": null,
-          "sourceType": "official",
-          "sourceTier": 1,
-          "locale": "en-US",
-          "isPrimary": true
-        }
-      ]
-    },
-    {
-      "id": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
-      "issueId": "aed4b6d6-c8d4-5995-b693-320499f0993f",
-      "slug": "change6-moon-two-faces-magma-convection",
-      "rank": 9,
-      "category": "science",
-      "region": "Global",
-      "countryCodes": [
-        "CN"
-      ],
-      "eventTime": null,
-      "isDeveloping": false,
-      "verificationStatus": "verified",
-      "scoreTotal": 90,
-      "storyId": "xzs-change6-lunar-asymmetry-20261015",
-      "storyStatus": "new",
-      "followupDay": 1,
-      "informationIncrementScore": 97,
-      "localizations": {
-        "zh-CN": {
-          "categoryLabel": "太空科学",
-          "headlineFact": "嫦娥六号样本解释月球为何有两张脸",
-          "headlineView": "月背与月正面岩石显示地幔成分相近、地壳却不对称，研究指向潮汐加热驱动的岩浆洋横向对流",
-          "headlineFull": "嫦娥六号样本解释月球为何有两张脸；月背与月正面岩石显示地幔成分相近、地壳却不对称，研究指向潮汐加热驱动的岩浆洋横向对流",
-          "intro": "南京大学等团队比较嫦娥六号月背样本、阿波罗样本和嫦娥五号月正面样本，发现两侧玄武岩与镁质岩指向相近的地幔来源，但月背斜长岩更富镁、地壳更厚，钾、稀土和磷富集的晚期岩浆洋产物则更薄。团队据此提出：月球被地球潮汐锁定后，早期地月距离更近，正反面的潮汐加热差异在仍未完全凝固的岩浆洋中驱动横向对流，把更多斜长质地壳推向月背，并让残余熔体偏向月正面。模型把化学样本、地壳厚度和两侧地貌放进同一演化路径，但仍是对早期月球的机制解释，需更多月背样本和年代学检验。",
-          "xiaziQuote": "月球的两张脸，可能是几十亿年前热量在岩浆海中流动留下的记忆。",
-          "doudouQuote": "模型能统一多种证据，但更多月背样本才会决定它有多稳固。",
-          "footerTakeaway": "今日关键词：太空科学。"
-        },
-        "en-US": {
-          "categoryLabel": "Space Science",
-          "headlineFact": "Chang'e-6 samples offer an explanation for the Moon's two faces",
-          "headlineView": "Farside and nearside rocks point to similar mantle composition but asymmetric crust, directing researchers toward tidal-heating-driven lateral convection in a magma ocean",
-          "headlineFull": "Chang'e-6 samples offer an explanation for the Moon's two faces; Farside and nearside rocks point to similar mantle composition but asymmetric crust, directing researchers toward tidal-heating-driven lateral convection in a magma ocean",
-          "intro": "A team including Nanjing University compared Chang'e-6 farside samples with Apollo and Chang'e-5 nearside material. Basalts and Mg-suite rocks point to broadly similar mantle sources on both hemispheres, while farside anorthosites are more magnesium-rich, the crust is thicker and late magma-ocean products rich in potassium, rare earth elements and phosphorus appear thinner. The proposed mechanism begins after the Moon became tidally locked, when the Earth-Moon distance was smaller and unequal tidal heating drove lateral convection through a still-molten magma ocean. That circulation moved more anorthositic crust toward the farside and residual melt toward the nearside. The model connects chemistry, crustal thickness and surface appearance in one evolutionary path, but it remains a mechanism for the early Moon that needs more farside samples and chronological tests.",
-          "xiaziQuote": "The Moon's two faces may preserve the memory of heat moving through a magma ocean billions of years ago.",
-          "doudouQuote": "One model unifies several clues, but more farside samples will decide how firmly it holds.",
-          "footerTakeaway": "Keyword: Space Science."
-        }
-      },
-      "sources": [
-        {
-          "id": "9959c4d9-6b9a-549f-86bb-89946ba47a09",
-          "topicId": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
-          "title": "Scientists may have finally solved the mystery of the Moon's two faces",
-          "publisher": "ScienceDaily",
-          "url": "https://sciencedaily.com/releases/2026/10/261012185019.htm",
+          "id": "b433be25-676e-56f5-974a-e7e9961256f3",
+          "topicId": "dd34cb91-23c5-5389-8ddb-9245c7cefdbf",
+          "title": "Kenya records second Ebola case as outbreak in Congo keeps growing",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/10/15/kenya-records-second-ebola-case-as-outbreak-in-congo-keeps-growing",
           "publishedAt": null,
           "sourceType": "publisher",
           "sourceTier": 2,
@@ -615,11 +429,196 @@
           "isPrimary": true
         },
         {
-          "id": "b2d22fff-c3b5-587f-9e01-30fc2f4087a0",
-          "topicId": "e4dc383f-18b8-557c-94ba-0a00e5ef3c61",
-          "title": "Lunar farside-nearside asymmetry formation during magma ocean solidification",
-          "publisher": "PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42577914/",
+          "id": "e1e853ca-3927-53b5-a137-7893a0da7165",
+          "topicId": "dd34cb91-23c5-5389-8ddb-9245c7cefdbf",
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "d401d153-bab2-5ea7-9b4e-b449cebc26e0",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "amazon-fires-surge-election-manaus-smoke",
+      "rank": 7,
+      "category": "climate",
+      "region": "South America",
+      "countryCodes": [
+        "BR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-amazon-fires-manaus-20261016",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候与环境",
+          "headlineFact": "亚马逊火点在巴西首轮大选后增加约三倍",
+          "headlineView": "政府调查是否存在政治动机纵火，干旱与厄尔尼诺则让森林更易燃，马瑙斯烟霾已冲击学校和公共生活",
+          "headlineFull": "亚马逊火点在巴西首轮大选后增加约三倍；政府调查是否存在政治动机纵火，干旱与厄尔尼诺则让森林更易燃，马瑙斯烟霾已冲击学校和公共生活",
+          "intro": "巴西亚马逊雨林近期火点快速增加。美联社10月15日报道，自10月4日巴西总统选举首轮投票后，生物群系内火点约增至此前三倍；环境部长表示已有迹象指向预谋纵火，联邦与州机构正在调查，但个别火灾原因仍待证据确认。与此同时，厄尔尼诺伴随的干旱降低了森林湿度，卫星在马瑙斯和圣塔伦周边看到密集烟羽。马瑙斯空气污染已迫使学校停课、公共活动取消并影响超过200万居民。政治调查不能替代气候事实，气候条件也不能证明每场火灾的点火者；当前行动应同时覆盖执法取证、禁火管理、空气健康预警和长期森林保护。",
+          "xiaziQuote": "火灾风险来自可燃的森林，也来自决定是否点火的人。",
+          "doudouQuote": "先分清气候放大器与人为点火证据，才能对症行动。",
+          "footerTakeaway": "今日关键词：气候与环境。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate and Environment",
+          "headlineFact": "Amazon fire counts roughly tripled after Brazil's first election round",
+          "headlineView": "Authorities are investigating possible politically motivated ignition while drought and El Niño leave forests more combustible and smoke disrupts schools and public life in Manaus",
+          "headlineFull": "Amazon fire counts roughly tripled after Brazil's first election round; Authorities are investigating possible politically motivated ignition while drought and El Niño leave forests more combustible and smoke disrupts schools and public life in Manaus",
+          "intro": "Fire activity has surged across Brazil's Amazon rainforest. The Associated Press reported on October 15 that fire counts in the biome roughly tripled after the first round of Brazil's presidential election on October 4. The environment minister said indications point to a deliberate effort to start fires, and federal and state agencies are investigating, though the cause of individual fires still requires evidence. At the same time, El Niño-linked drought has lowered forest moisture and satellites have observed dense smoke around Manaus and Santarém. Pollution in Manaus has closed schools, cancelled public events and affected a city of more than two million people. The political investigation does not replace the climate evidence, and climate conditions do not identify who lit each fire; action must combine enforcement, burn controls, health alerts and long-term forest protection.",
+          "xiaziQuote": "Fire risk comes from combustible forest conditions and from human decisions about ignition.",
+          "doudouQuote": "Separate the climate amplifier from evidence of deliberate ignition so each response fits the cause.",
+          "footerTakeaway": "Keyword: Climate and Environment."
+        }
+      },
+      "sources": [
+        {
+          "id": "4cbe2e98-8a17-5bef-ba92-77112404ad84",
+          "topicId": "d401d153-bab2-5ea7-9b4e-b449cebc26e0",
+          "title": "Brazil investigates Amazon wildfires disrupting daily life, fueled political attacks",
+          "publisher": "AsiaOne",
+          "url": "https://www.asiaone.com/world/brazil-investigates-amazon-wildfires-life-political-attacks",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "97616892-bb15-5980-a297-4d436a1e34f8",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "world-social-report-inclusion-investment",
+      "rank": 8,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-world-social-report-2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "社会经济",
+          "headlineFact": "联合国要求把社会包容从补救项变成前置投资",
+          "headlineView": "《世界社会报告2026》警告数字、绿色与经济转型若忽视技能、服务和保障，会把效率收益转化为更高排斥成本",
+          "headlineFull": "联合国要求把社会包容从补救项变成前置投资；《世界社会报告2026》警告数字、绿色与经济转型若忽视技能、服务和保障，会把效率收益转化为更高排斥成本",
+          "intro": "联合国经济和社会事务部发布《世界社会报告2026：社会包容新经济学》，把包容定义为成功转型的前提，而不是增长完成后的补偿。报告指出，全球仍有数十亿人无法获得参与数字化、绿色与经济转型所需的工作、技能、基础服务、基础设施和社会保护；15至24岁年轻女性中有27%未就业、未就学或未接受培训。其核心主张是把教育、数字接入、普惠金融、社会保障、无障碍基础设施与劳动力转岗同时写入投资项目，因为延后包容会形成可测量的经济损失。报告提供全球政策框架而非单个国家的收益承诺，执行仍取决于财政能力、数据质量、地方参与和问责。",
+          "xiaziQuote": "转型若先排除一部分人，后来花更多钱修补也补不回失去的机会。",
+          "doudouQuote": "包容不是口号，要在预算、技能、基础设施和结果指标里同时出现。",
+          "footerTakeaway": "今日关键词：社会经济。"
+        },
+        "en-US": {
+          "categoryLabel": "Social Economy",
+          "headlineFact": "The UN says social inclusion must move from repair cost to upfront investment",
+          "headlineView": "The World Social Report 2026 warns that digital, green and economic transitions can turn efficiency gains into exclusion costs when skills, services and protection are missing",
+          "headlineFull": "The UN says social inclusion must move from repair cost to upfront investment; The World Social Report 2026 warns that digital, green and economic transitions can turn efficiency gains into exclusion costs when skills, services and protection are missing",
+          "intro": "The UN Department of Economic and Social Affairs released The World Social Report 2026: The New Economics of Social Inclusion, defining inclusion as a precondition for successful transformation rather than compensation after growth. Billions still lack the jobs, skills, essential services, infrastructure and protection needed to benefit from digital, green and economic change; 27% of young women aged 15 to 24 are not in employment, education or training. The report argues that education, digital access, inclusive finance, social protection, accessible infrastructure and worker transitions should be designed into investment from the start because delayed inclusion creates measurable economic losses. It is a global policy framework, not a promised return for any one country; delivery still depends on fiscal capacity, reliable data, local participation and accountability.",
+          "xiaziQuote": "When transformation excludes people first, later repair spending cannot restore every lost opportunity.",
+          "doudouQuote": "Inclusion becomes real only when it appears in budgets, skills, infrastructure and outcome metrics together.",
+          "footerTakeaway": "Keyword: Social Economy."
+        }
+      },
+      "sources": [
+        {
+          "id": "6ba84a11-eeeb-5ae9-90fd-17e5b2e49065",
+          "topicId": "97616892-bb15-5980-a297-4d436a1e34f8",
+          "title": "World Social Report 2026",
+          "publisher": "United Nations DESA",
+          "url": "https://desapublications.un.org/publications/world-social-report-2026-new-economics-social-inclusion-marking-transformations-work",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "08707fbf-56c3-5f02-8fa1-5582d29fb09f",
+          "topicId": "97616892-bb15-5980-a297-4d436a1e34f8",
+          "title": "Rethinking inclusion: From afterthought to foundation",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/desa/rethinking-inclusion-from-afterthought-to-foundation",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "21c78bc2-0872-510d-97a8-a3d0f5759430",
+      "issueId": "3485e99d-ece7-51e1-ab75-8318af233b09",
+      "slug": "world-food-day-2026-innovation-hunger",
+      "rank": 9,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-world-food-day-2026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 99,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "全球粮食",
+          "headlineFact": "世界粮食日呼吁“创新当下，粮安未来”",
+          "headlineView": "全球仍约有6.73亿人挨饿、26亿人负担不起健康膳食，创新必须从实验室走到农田、市场、金融与物流",
+          "headlineFull": "世界粮食日呼吁“创新当下，粮安未来”；全球仍约有6.73亿人挨饿、26亿人负担不起健康膳食，创新必须从实验室走到农田、市场、金融与物流",
+          "intro": "10月16日世界粮食日以“创新当下，粮安未来”为主题。联合国粮农组织指出，全球拥有足以生产充足食物的能力，但冲突、经济冲击、气候压力与分配缺口仍让约6.73亿人挨饿、26亿人无力负担健康膳食。这里的创新不只指AI或生物技术，也包括改良种子、数字化农技服务、数据系统、农民田间学校、传统水土管理、合作社、金融和物流新模式；关键是技术被采用、适应、融资并扩大到真正需要的人。2026世界粮食论坛把青年行动、科学创新与投资配对放在同一平台。当天主题提供行动方向而非短期减饥结果，成效要看营养可负担性、小农收益、损耗减少和抗冲击能力。",
+          "xiaziQuote": "粮食创新的终点不是一个演示，而是一顿更多人买得起的健康饭。",
+          "doudouQuote": "从试点到规模，中间还隔着融资、物流、政策和农民收益。",
+          "footerTakeaway": "今日关键词：全球粮食。"
+        },
+        "en-US": {
+          "categoryLabel": "Global Food",
+          "headlineFact": "World Food Day calls to “Innovate today. Nourish tomorrow.”",
+          "headlineView": "Roughly 673 million people still face hunger and 2.6 billion cannot afford a healthy diet, so innovation must travel from laboratories into farms, markets, finance and logistics",
+          "headlineFull": "World Food Day calls to “Innovate today. Nourish tomorrow.”; Roughly 673 million people still face hunger and 2.6 billion cannot afford a healthy diet, so innovation must travel from laboratories into farms, markets, finance and logistics",
+          "intro": "World Food Day on October 16 carries the theme “Innovate today. Nourish tomorrow.” FAO says the world has the capacity to produce enough food, yet conflict, economic shocks, climate pressure and distribution gaps still leave roughly 673 million people hungry and 2.6 billion unable to afford a healthy diet. Innovation here is broader than AI or biotechnology: it includes improved seeds, digital advisory services, data systems, farmer field schools, traditional soil and water management, cooperatives, finance and new logistics. The decisive step is adoption, adaptation, funding and scale for the people who need the solution. The 2026 World Food Forum joins youth action, science and innovation with investment matchmaking. The theme is an action direction rather than a short-term hunger result; progress must be measured through diet affordability, smallholder income, lower loss and stronger resilience.",
+          "xiaziQuote": "Food innovation ends not in a demo but in a healthy meal that more people can afford.",
+          "doudouQuote": "Between pilot and scale sit finance, logistics, policy and the producer's own return.",
+          "footerTakeaway": "Keyword: Global Food."
+        }
+      },
+      "sources": [
+        {
+          "id": "32cece7f-a401-5fcf-a7ca-270df8349cd4",
+          "topicId": "21c78bc2-0872-510d-97a8-a3d0f5759430",
+          "title": "World Food Forum 2026 opens under Innovate Today, Nourish Tomorrow",
+          "publisher": "FAO",
+          "url": "https://www.fao.org/newsroom/detail/world-food-forum-2026--flagship-event-opens-under-theme--innovate-today.-nourish-tomorrow/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "a95ffbd2-a4d7-5412-b538-dafa6c7b6285",
+          "topicId": "21c78bc2-0872-510d-97a8-a3d0f5759430",
+          "title": "World Food Day 2026",
+          "publisher": "FAO",
+          "url": "https://www.fao.org/world-food-day/en/",
           "publishedAt": null,
           "sourceType": "official",
           "sourceTier": 1,
@@ -629,5 +628,5 @@
       ]
     }
   ],
-  "assetVersion": "rel_20261015_35903b218d899146fb93e5c4"
+  "assetVersion": "rel_20261016_ba9063e0d1a29e1e6615dab5"
 }
