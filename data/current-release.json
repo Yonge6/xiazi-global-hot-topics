@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-10-18",
-  "releaseId": "rel_20261018_5d6c399b6d1cd01a09411319",
-  "assetBatchId": "asset_prod_20261018_5d6c399b6d1cd01a09411319",
+  "issueDate": "2026-10-19",
+  "releaseId": "rel_20261019_6dc51b939745a97ac2393818",
+  "assetBatchId": "asset_prod_20261019_6dc51b939745a97ac2393818",
   "posters": [
     {
-      "topicId": "fa0ae2ac-1a4f-5dc5-a7fd-ac47fca1f925",
+      "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
       "locale": "zh",
-      "contentHash": "79fc1033295352af912ad891c1ddb27bb4c0b61cf069ae862f7f6f793f0905d3",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/global-operator-radar-20261018.png"
+      "contentHash": "765e4b039cb5883dd8317894c9ccf3aaa3d6f20e5ff928fbad27669ff6631a12",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/global-operator-radar-20261019.png"
     },
     {
-      "topicId": "fa0ae2ac-1a4f-5dc5-a7fd-ac47fca1f925",
+      "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
       "locale": "en",
-      "contentHash": "fd584741728980a745a1c061f5ac74356cdcbc8798d95b40325410130851119f",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/global-operator-radar-20261018.png"
+      "contentHash": "10eb0335ddd14d296dddacb473fd29a2411f90a503320c8831bb7a7e94e1d92a",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/global-operator-radar-20261019.png"
     },
     {
-      "topicId": "80caf938-fb9f-553c-b5b7-812e499515dd",
+      "topicId": "82cbe66c-3647-5f4c-8f14-4456ed21881b",
       "locale": "zh",
-      "contentHash": "de79050151d6ba436fdf862db41ef8c69a54a4cd29ce705e9a52da9458382b1a",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/google-ai-search-source-links-update.png"
+      "contentHash": "0c917ff4e6ac3fca4ff33547b0809287ea036162a7119d3ed817fadf78cbedf6",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/reflection-beam-open-weights-release.png"
     },
     {
-      "topicId": "80caf938-fb9f-553c-b5b7-812e499515dd",
+      "topicId": "82cbe66c-3647-5f4c-8f14-4456ed21881b",
       "locale": "en",
-      "contentHash": "62c6a87aac87a8d32438770fd8b33315263e325ef9272c7cbc8bc64a5372daa2",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/google-ai-search-source-links-update.png"
+      "contentHash": "18d5891b4af682d3ee24179ab6a3f8754789d46e19644bf2d7cb07821dc57df3",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/reflection-beam-open-weights-release.png"
     },
     {
-      "topicId": "f53c2abd-8db1-51bc-ae8a-6f3b4b880da2",
+      "topicId": "959e51ac-da79-59a5-8299-9da8524581db",
       "locale": "zh",
-      "contentHash": "9cde20c48270837c26fd389678ecdf60a5f1e78f7d9b1fd89a348b0354c7c121",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/validatethat-solo-user-research-revenue.png"
+      "contentHash": "a904a67fe4b430ef826b893cea41892b74c0905ccf73a7cb8685000dce5c53ac",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/mono-solo-multimodel-ai-revenue.png"
     },
     {
-      "topicId": "f53c2abd-8db1-51bc-ae8a-6f3b4b880da2",
+      "topicId": "959e51ac-da79-59a5-8299-9da8524581db",
       "locale": "en",
-      "contentHash": "45d523376b9fe9e4cf9686682a022fc62daec6f69bd645acb4cf452a97cbf025",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/validatethat-solo-user-research-revenue.png"
+      "contentHash": "fc0b9d17ff22c45075d6ea0f4236b5bdfd4a5a00f0b7dd480ce33b9061e7665d",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/mono-solo-multimodel-ai-revenue.png"
     },
     {
-      "topicId": "663572d7-46d3-534e-9467-0b6bc25bb93f",
+      "topicId": "733e8c40-1c63-5109-a86f-9016564be853",
       "locale": "zh",
-      "contentHash": "ce32dbe65493c0ffc71f348b375200ce011e7128569d432ca66c16360652712b",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/sensorhub-ai-social-selling-verified-revenue.png"
+      "contentHash": "9412ae7c70ba66d63b200925714229317af86f68c315e1d62838848f5e475b01",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/ugcraft-ai-roblox-3d-verified-revenue.png"
     },
     {
-      "topicId": "663572d7-46d3-534e-9467-0b6bc25bb93f",
+      "topicId": "733e8c40-1c63-5109-a86f-9016564be853",
       "locale": "en",
-      "contentHash": "f0a1f403642633a699346ab78700be0715e9670f8ba94797a2fb5b597fc29c3c",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/sensorhub-ai-social-selling-verified-revenue.png"
+      "contentHash": "f303eeaac48ab83a0e69aa8ac31746fd7390d885709f0502006b77d3445458ae",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/ugcraft-ai-roblox-3d-verified-revenue.png"
     },
     {
-      "topicId": "f93187e7-da3d-55b7-9085-6fc12e6d6e67",
+      "topicId": "57c95acd-6f6c-54a5-bf24-e0512c0df853",
       "locale": "zh",
-      "contentHash": "aa2497459057abc171613aef1b1487b0fb006fde92f0eba477f0f483429158d0",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/function18-cross-border-golf-growth.png"
+      "contentHash": "7105e4eaad93851d1f8c5c09665e245333abdcf22fd845b614d2311944afb275",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/movora-global-veterinary-b2b-growth.png"
     },
     {
-      "topicId": "f93187e7-da3d-55b7-9085-6fc12e6d6e67",
+      "topicId": "57c95acd-6f6c-54a5-bf24-e0512c0df853",
       "locale": "en",
-      "contentHash": "26bf7212caa4d42148d3f04ee5bba1c1de047fcff0e328073504fe5d2d4714a9",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/function18-cross-border-golf-growth.png"
+      "contentHash": "40b93b94e25b2a518cf452256c51e1da091097006611c4cd026403d66f4cff6b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/movora-global-veterinary-b2b-growth.png"
     },
     {
-      "topicId": "0ca43f40-959b-5648-b07d-b99cacfab0d5",
+      "topicId": "5c87f908-8b22-51b6-8326-049c13f1d64d",
       "locale": "zh",
-      "contentHash": "096a3486805167ec823925ba79f18d07a9f2713d76d62bba0d48135e9d7074fa",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/poverty-day-safe-homes-2026.png"
+      "contentHash": "2ba9ed919c943f38e043c07dc648bc453670749c4c0dc8fafa4ace8d6b7c5897",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/macquarie-island-first-h5-event.png"
     },
     {
-      "topicId": "0ca43f40-959b-5648-b07d-b99cacfab0d5",
+      "topicId": "5c87f908-8b22-51b6-8326-049c13f1d64d",
       "locale": "en",
-      "contentHash": "2301a75c0b66f3276df436b727852791b60604beff80b84712c1633980d9c00d",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/poverty-day-safe-homes-2026.png"
+      "contentHash": "6f583999fdda04d2be31750841ab4872cf07d54f9f7dcf3628959b971989a879",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/macquarie-island-first-h5-event.png"
     },
     {
-      "topicId": "56143a0d-a9d1-5e0b-8e22-474e0a3f81d5",
+      "topicId": "1b292d4d-efa0-5596-b501-5498509a8eb1",
       "locale": "zh",
-      "contentHash": "74d460fd5740b43ec5f7f4b0e52707f9d2c3d476dfbea2c3a1f6dad4d8e5cc4b",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/nepal-flood-helicopter-harvest-lifeline.png"
+      "contentHash": "e441d6428daf43563fd549a8e8be314a7e93866152d2babb3b8e399ec09abdbe",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/bangladesh-measles-outbreak-october-update.png"
     },
     {
-      "topicId": "56143a0d-a9d1-5e0b-8e22-474e0a3f81d5",
+      "topicId": "1b292d4d-efa0-5596-b501-5498509a8eb1",
       "locale": "en",
-      "contentHash": "318b3b7ff663adef65f29ba87123c983f08c295f390a8448c2c5667621603d44",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/nepal-flood-helicopter-harvest-lifeline.png"
+      "contentHash": "7d1ec4093087a6b8cf226cd93ac1ac477c9e48d8447a6ac2906313f32662f40e",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/bangladesh-measles-outbreak-october-update.png"
     },
     {
-      "topicId": "8797c375-d519-5a61-b491-5502dc67bb31",
+      "topicId": "cd9ca544-e4da-597e-83a9-b76852ca28ac",
       "locale": "zh",
-      "contentHash": "13e24a2d186a828c2fc3f12cd3eeefe3909af5cfa17d332052d1dcb2bdc4f7d7",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/ocean-warming-atmospheric-ducts-radar.png"
+      "contentHash": "7344af975a7f57c15c140eff4dac5c461f0fc0c979ba8a8fd7ead26ed8cd33b7",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/alaska-13800-year-beringia-base-camp.png"
     },
     {
-      "topicId": "8797c375-d519-5a61-b491-5502dc67bb31",
+      "topicId": "cd9ca544-e4da-597e-83a9-b76852ca28ac",
       "locale": "en",
-      "contentHash": "4572a707f23904f5b90732099055cd65b264c734e5474ade4314d9a299914308",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/ocean-warming-atmospheric-ducts-radar.png"
+      "contentHash": "e766d740a9645cb869645166d3e08fe561a573809186b4a0f9052db9c377eb9b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/alaska-13800-year-beringia-base-camp.png"
     },
     {
-      "topicId": "d4e33978-c503-5ef1-9a69-29086a4d7901",
+      "topicId": "92d5275e-1af9-5da3-bf55-5041e23da9ec",
       "locale": "zh",
-      "contentHash": "1ade5543db9239596a55ec1bcbf4cfd6b49ee6c6dcb470b8b8e3a6d0fa0e7b24",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/zh/who-alcohol-breast-cancer-ai-screening-hub.png"
+      "contentHash": "7ac4f782752b0da8b697e8e2721b12ad52293483b79b1662cb27525efc0ff8a6",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/strong-el-nino-west-coast-fisheries-shift.png"
     },
     {
-      "topicId": "d4e33978-c503-5ef1-9a69-29086a4d7901",
+      "topicId": "92d5275e-1af9-5da3-bf55-5041e23da9ec",
       "locale": "en",
-      "contentHash": "61351510f0df5ec935a0e2c3b6a96bbc32fb8bfe381c41f895bac2ff6d2d2e18",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261018_5d6c399b6d1cd01a09411319/en/who-alcohol-breast-cancer-ai-screening-hub.png"
+      "contentHash": "d8fbf73b9cf93243025871f04a173658ede2809bc787ecbd25df953d2e0e9311",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/strong-el-nino-west-coast-fisheries-shift.png"
     }
   ]
 }

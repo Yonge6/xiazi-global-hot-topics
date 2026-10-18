@@ -1,0 +1,712 @@
+{
+  "issue": {
+    "id": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+    "slug": "2026-10-19",
+    "style": {
+      "name": "Song Academy Bird-and-flower",
+      "zhName": "宋代院体花鸟",
+      "description": "Style Atlas daily pick #124: Song Academy Bird-and-flower / 宋代院体花鸟. Build nine distinct premium editorial scenes using close natural observation, fine gongbi linework, mineral and plant pigments, silk texture, elegant branch-and-bird composition, restrained pale jade, warm ivory, cinnabar, ink and muted gold, with contemporary data storytelling integrated into the painted environment. Every news subject must become a different spatial narrative rather than a repeated template, generic sphere, three number cards or dashboard. Keep text on calm low-texture silk or mist fields with strong contrast; reduce information density by about 20%, emphasize one conclusion and no more than three key facts in 3-5 readable modules, with large type, generous line spacing and breathing room. News scenes, evidence and infographics occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central handscroll world landscape, using flowing branches, birds in motion, water and cloud paths, organic asymmetry and varied quiet text fields rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each summary needs a complete calm readable field, clear 1-8 order and no extra event. Chinese and English keep the same composition, scene, hierarchy and rhythm. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and artwork filling all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-19",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-19T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-18T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+    "topics": [
+      {
+        "id": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "global-operator-radar-20261019",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月19日全球经营雷达",
+            "headlineView": "开放模型、单人订阅、AI 3D、跨境兽医电商、禽流感、麻疹、冰期营地与厄尔尼诺进入同一张行动地图",
+            "headlineFull": "10月19日全球经营雷达；开放模型、单人订阅、AI 3D、跨境兽医电商、禽流感、麻疹、冰期营地与厄尔尼诺进入同一张行动地图",
+            "intro": "1. Reflection正式开放Beam 1.0权重，这个5010亿参数、每次激活234亿参数的模型面向编码、推理与长程智能体任务。\n2. Jonas Kamber一人运营Mono，把多个AI模型统一到一个订阅中，TrustMRR验证MRR 10331美元和374个活跃订阅。\n3. UGCraft用AI把文本或图片在约2分钟内变成Roblox可发布的3D饰品与服装，验证MRR 1988美元。\n4. Movora统一全球产品目录并上线欧美、加拿大本地化B2B站点，美国电商上线两个月同比增长超过100%。\n5. 澳大利亚确认麦夸里岛象海豹和海带鸥样本感染高致病性H5禽流感，为该岛首次H5事件。\n6. 孟加拉麻疹疫情累计约20.2万疑似病例、2.2万实验室确诊病例，近2000万儿童已在应急行动中接种。\n7. 阿拉斯加1.38万年前营地发现住所痕迹、土炉、骨针与远距离黑曜石，显示早期居民已形成稳定生活网络。\n8. 强厄尔尼诺把黄鳍金枪鱼、刺鲅与其他暖水物种推向美国西海岸，同时增加海藻林和定栖物种风险。",
+            "xiaziQuote": "今天的共同信号，是开放能力与可验证结果正在同时重塑工具、商业与自然系统。",
+            "doudouQuote": "看见增长数字，也要把规模、来源和生态代价放在同一张图里。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 19 Global Operator Radar",
+            "headlineView": "Open models, solo subscriptions, AI 3D, cross-border veterinary commerce, bird flu, measles, an Ice Age camp and El Niño enter one action map",
+            "headlineFull": "October 19 Global Operator Radar; Open models, solo subscriptions, AI 3D, cross-border veterinary commerce, bird flu, measles, an Ice Age camp and El Niño enter one action map",
+            "intro": "1. Reflection released Beam 1.0's open weights, a 501-billion-parameter model activating 23.4 billion parameters for coding, reasoning and long-horizon agents.\n2. Jonas Kamber runs Mono alone, combining multiple AI models under one subscription, while TrustMRR verifies $10,331 MRR and 374 active subscriptions.\n3. UGCraft uses AI to turn text or images into Roblox-ready 3D accessories and clothing in about two minutes, with $1,988 verified MRR.\n4. Movora unified its global catalog and launched localized B2B sites across Europe, Canada and the US, where ecommerce grew more than 100% year on year within two months.\n5. Australia confirmed highly pathogenic H5 bird flu in elephant-seal and kelp-gull samples on Macquarie Island, the island's first H5 event.\n6. Bangladesh's measles outbreak reached about 202,000 suspected and 22,000 laboratory-confirmed cases, while emergency campaigns vaccinated nearly 20 million children.\n7. A 13,800-year-old Alaska camp yielded traces of a dwelling, an earth oven, bone needles and distant obsidian, showing early settlers built stable living networks.\n8. Strong El Niño is pushing yellowfin tuna, wahoo and other warm-water species toward the US West Coast while raising risks for kelp and less mobile species.",
+            "xiaziQuote": "Today's shared signal is that open capability and verified outcomes are reshaping tools, business and natural systems at once.",
+            "doudouQuote": "Read growth numbers together with scale, evidence source and ecological cost.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "bd6dbedf-4fe9-5073-ae2c-3d5e6f8388a3",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "Beam is now available",
+            "publisher": "Reflection",
+            "url": "https://reflection.ai/blog/beam-is-available",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "421dd66b-9a38-50e1-ae65-8136c20bd4b6",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "Mono verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/mono",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "925e974a-c03c-5f3a-b217-f4fc6ee5a277",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "UGCraft verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/ugcraft",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5adb029a-0bd2-55d8-a6be-b0de2a2e6f27",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "Commerce customers named finalists in 2025 B2B Ecommerce Industry Awards",
+            "publisher": "Nasdaq",
+            "url": "https://www.nasdaq.com/press-release/commerce-customers-named-finalists-2025-b2b-ecommerce-industry-awards-americas",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "f27c3196-69b2-51d4-a03e-6082927c9969",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "Bird flu detected on Macquarie Island in southern elephant seal and gull samples",
+            "publisher": "ABC News Australia",
+            "url": "https://www.abc.net.au/news/2026-10-15/bird-flu-macquarie-island-southern-elephant-seal-kelp-gull/107271424",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "7d90d5b9-07a4-531c-b42a-1b08fdf434c8",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "Bangladesh battles severe measles surge following immunization gaps",
+            "publisher": "Azat TV",
+            "url": "https://azat.tv/en/bangladesh-measles-outbreak-vaccination-gaps-2026/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "12ea600f-e800-548a-843e-386cb18590c8",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "Highlights from an early base camp in Beringia 13,800 years ago",
+            "publisher": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42873868/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9fcbdafb-0ea1-5980-bf19-9f263c526755",
+            "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+            "title": "How Will El Niño Affect Your Local Fisheries?",
+            "publisher": "NOAA Fisheries",
+            "url": "https://www.fisheries.noaa.gov/feature-story/how-will-el-nino-affect-your-local-fisheries",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "82cbe66c-3647-5f4c-8f14-4456ed21881b",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "reflection-beam-open-weights-release",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-reflection-beam-open-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Beam 1.0开放5010亿参数模型权重",
+            "headlineView": "每次推理激活234亿参数、支持100万上下文，并以Apache 2.0覆盖编码、推理与长程智能体任务",
+            "headlineFull": "Beam 1.0开放5010亿参数模型权重；每次推理激活234亿参数、支持100万上下文，并以Apache 2.0覆盖编码、推理与长程智能体任务",
+            "intro": "Reflection于10月16日正式发布Beam 1.0权重，把此前预告的模型变成可下载、自托管和定制的开放模型。Beam采用稀疏混合专家架构，总参数5013亿、每个token激活234亿参数，支持100万token上下文，提供BF16、FP8和NVFP4版本，文本输入输出面向软件工程、工具调用、数学科学推理与长程智能体任务。模型权重以Apache 2.0许可发布，同时提供部署容器、推理集成和定制流水线，并与40多家生态伙伴接入。开放权重扩大了企业自托管和领域微调选择，但BF16仓库约1TB，算力、评测、安全防护、英文偏重和2026年6月知识截止仍是实际门槛。",
+            "xiaziQuote": "开放模型的竞争，不只在分数，还在谁能把权重、部署和定制真正交到开发者手中。",
+            "doudouQuote": "Apache 2.0降低许可摩擦，1TB级权重仍把基础设施留在门口。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Beam 1.0 opens weights for a 501-billion-parameter model",
+            "headlineView": "It activates 23.4 billion parameters per token, supports a one-million-token context and targets coding, reasoning and long-horizon agents under Apache 2.0",
+            "headlineFull": "Beam 1.0 opens weights for a 501-billion-parameter model; It activates 23.4 billion parameters per token, supports a one-million-token context and targets coding, reasoning and long-horizon agents under Apache 2.0",
+            "intro": "Reflection released Beam 1.0's weights on October 16, turning its earlier announcement into a downloadable model that developers can self-host and customize. Beam uses a sparse mixture-of-experts architecture with 501.3 billion total and 23.4 billion active parameters per token, a one-million-token context and BF16, FP8 and NVFP4 variants. The text model targets software engineering, tool use, math and science reasoning and long-horizon agent work. Apache 2.0 weights arrive with deployment containers, inference integrations, customization pipelines and more than 40 ecosystem partners. The release expands self-hosting and domain adaptation, but the roughly one-terabyte BF16 repository, compute cost, evaluation, safeguards, English emphasis and June 2026 knowledge cutoff remain practical limits.",
+            "xiaziQuote": "Open-model competition is about more than scores; it is about putting weights, deployment and customization in builders' hands.",
+            "doudouQuote": "Apache 2.0 removes licensing friction, while terabyte-scale weights keep infrastructure at the door.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "6ee14a44-779d-51d8-b2ae-e3e2fd2e5e59",
+            "topicId": "82cbe66c-3647-5f4c-8f14-4456ed21881b",
+            "title": "Beam is now available",
+            "publisher": "Reflection",
+            "url": "https://reflection.ai/blog/beam-is-available",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "959e51ac-da79-59a5-8299-9da8524581db",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "mono-solo-multimodel-ai-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-mono-solo-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Mono一人运营，验证MRR 10331美元",
+            "headlineView": "把多个主流AI模型、统一记忆、研究与自定义技能打包，374个活跃订阅支撑20至96美元月费",
+            "headlineFull": "Mono一人运营，验证MRR 10331美元；把多个主流AI模型、统一记忆、研究与自定义技能打包，374个活跃订阅支撑20至96美元月费",
+            "intro": "瑞士创始人Jonas Kamber一人运营Mono，面向个人与团队，把多个AI模型放进同一个聊天与工作空间，提供统一记忆、多模型研究、隐私层和自定义技能，减少用户在不同工具与订阅之间切换。TrustMRR通过Stripe验证累计收入77306美元、近30天收入13024美元、MRR 10331美元和374个活跃订阅，数据更新于10月18日。套餐为Mono每月20美元、Pro 34美元、Max 96美元；交付依赖网页产品、模型路由、欧洲托管与统一账户体验。单人杠杆来自订阅聚合和自动化软件交付，限制是上游模型成本与条款、毛利波动、供应商差异、隐私承诺和支持容量。",
+            "xiaziQuote": "一人公司不必训练新模型，也能靠减少订阅碎片和工作流切换创造付费价值。",
+            "doudouQuote": "10331美元MRR证明需求，真正利润取决于上游推理成本和续费。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run Mono verifies $10,331 MRR",
+            "headlineView": "Multiple leading AI models, unified memory, research and custom skills are bundled into $20-to-$96 monthly plans serving 374 active subscriptions",
+            "headlineFull": "Solo-run Mono verifies $10,331 MRR; Multiple leading AI models, unified memory, research and custom skills are bundled into $20-to-$96 monthly plans serving 374 active subscriptions",
+            "intro": "Swiss founder Jonas Kamber runs Mono alone for individuals and teams. The product puts multiple AI models inside one chat and workspace with unified memory, multi-model research, a privacy layer and custom skills, reducing the need to switch among tools and subscriptions. TrustMRR verifies through Stripe $77,306 in total revenue, $13,024 in last-30-day revenue, $10,331 MRR and 374 active subscriptions, updated October 18. Plans cost $20 per month for Mono, $34 for Pro and $96 for Max; delivery relies on the web product, model routing, European hosting and a unified account experience. Solo leverage comes from subscription aggregation and automated software delivery. Limits include upstream model cost and terms, margin volatility, provider differences, privacy commitments and support capacity.",
+            "xiaziQuote": "A solo company can create paid value without training a model by removing subscription fragmentation and workflow switching.",
+            "doudouQuote": "$10,331 MRR proves demand; real profit depends on inference cost and renewal.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "a56057f4-0bc5-597e-9691-cb4ce0a08bdd",
+            "topicId": "959e51ac-da79-59a5-8299-9da8524581db",
+            "title": "Mono verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/mono",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "733e8c40-1c63-5109-a86f-9016564be853",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "ugcraft-ai-roblox-3d-verified-revenue",
+        "rank": 4,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-ugcraft-ai-revenue-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "UGCraft验证MRR 1988美元",
+            "headlineView": "AI把文本或图片在约2分钟内变成Roblox可发布3D饰品与服装，111个活跃订阅购买9至30美元月费",
+            "headlineFull": "UGCraft验证MRR 1988美元；AI把文本或图片在约2分钟内变成Roblox可发布3D饰品与服装，111个活跃订阅购买9至30美元月费",
+            "intro": "UGCraft由一人运营，面向Roblox UGC创作者，把文本提示或参考图转换成带PBR材质的3D饰品、头发、帽子与分层服装，并自动处理笼形变形、R15蒙皮和平台限制检查，让没有Blender经验的创作者约2分钟完成可预览、可发布的资产。TrustMRR通过Creem验证累计收入18756美元、近30天收入2926美元、MRR 1988美元和111个活跃订阅，最近一期收入增长56%，数据更新于10月18日。免费层给10积分，Creator月付15美元、Pro月付30美元，年付更低，另售积分包。付费结果已验证，但利润仍受3D生成成本、Roblox规则、审核通过率、版权和SEO单一获客渠道影响。",
+            "xiaziQuote": "AI应用真正赚钱，是把专业制作门槛压缩成用户能立刻出售的数字商品。",
+            "doudouQuote": "1988美元MRR说明创作者愿意付费，审核率和生成成本决定规模。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "UGCraft verifies $1,988 MRR",
+            "headlineView": "AI turns text or images into Roblox-ready 3D accessories and clothing in about two minutes, with 111 active subscriptions paying $9-to-$30 monthly plans",
+            "headlineFull": "UGCraft verifies $1,988 MRR; AI turns text or images into Roblox-ready 3D accessories and clothing in about two minutes, with 111 active subscriptions paying $9-to-$30 monthly plans",
+            "intro": "UGCraft is run by one person for Roblox UGC creators. It converts a text prompt or reference image into 3D accessories, hair, hats and layered clothing with PBR textures, then automates cages, R15 skinning and platform-limit checks so people without Blender experience can preview and prepare an asset in about two minutes. TrustMRR verifies through Creem $18,756 in total revenue, $2,926 in last-30-day revenue, $1,988 MRR and 111 active subscriptions, with the latest period up 56%, updated October 18. The free tier includes 10 credits; Creator costs $15 monthly and Pro $30, with lower annual prices and extra credit packs. Payment is verified, while profit still depends on generation cost, Roblox rules, approval rate, copyright and reliance on SEO for acquisition.",
+            "xiaziQuote": "An AI application earns when it compresses a professional production barrier into a digital good users can sell immediately.",
+            "doudouQuote": "$1,988 MRR shows willingness to pay; approval rate and generation cost determine scale.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "5f940199-7248-5399-b9d0-3635c9843528",
+            "topicId": "733e8c40-1c63-5109-a86f-9016564be853",
+            "title": "UGCraft verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/ugcraft",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "57c95acd-6f6c-54a5-bf24-e0512c0df853",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "movora-global-veterinary-b2b-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US",
+          "CA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-movora-cross-border-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Movora美国电商上线两个月同比增长超过100%",
+            "headlineView": "统一全球兽医产品目录、三套ERP与本地定价规则后，欧洲、加拿大和美国区域年增长均超过10%",
+            "headlineFull": "Movora美国电商上线两个月同比增长超过100%；统一全球兽医产品目录、三套ERP与本地定价规则后，欧洲、加拿大和美国区域年增长均超过10%",
+            "intro": "兽医医疗产品集团Movora此前由七个分散电商平台支撑不同品牌，目录、定价、库存和客户账户不一致，限制跨区域B2B增长。公司在BigCommerce上建立统一后台与全球产品目录，以无头前端和B2B Edition连接三套ERP，分阶段上线欧洲、加拿大与美国本地化站点，让兽医诊所可按区域价格、库存和账户结构下单。案例显示，美国站上线两个月电商同比增长超过100%，三个区域均实现10%以上同比增长，34%的订单已在线完成。赚钱机制是把关键兽医耗材的重复采购转为自助数字订单，降低人工摩擦并扩大区域覆盖；结果来自平台客户案例，净利润仍受集成成本、库存、物流、法规与专业售后影响。",
+            "xiaziQuote": "跨境B2B增长的关键，不是多开几个站，而是让目录、价格、库存与客户账户真正协同。",
+            "doudouQuote": "100%增长很亮眼，基期、实施成本和履约质量决定它是否可持续。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Movora's US ecommerce grew more than 100% year on year within two months",
+            "headlineView": "After unifying a global veterinary catalog, three ERPs and localized pricing rules, Europe, Canada and the US each grew more than 10% year on year",
+            "headlineFull": "Movora's US ecommerce grew more than 100% year on year within two months; After unifying a global veterinary catalog, three ERPs and localized pricing rules, Europe, Canada and the US each grew more than 10% year on year",
+            "intro": "Veterinary medical-products group Movora previously relied on seven disconnected ecommerce platforms across brands, leaving catalogs, pricing, inventory and customer accounts inconsistent and limiting cross-region B2B growth. It created one backend and global product catalog on BigCommerce, used a headless storefront and B2B Edition to connect three ERP systems, then phased in localized sites for Europe, Canada and the United States so veterinary practices could buy under regional pricing, inventory and account rules. The case reports more than 100% US ecommerce growth year on year two months after launch, over 10% growth across all three regions and 34% of orders now placed online. Revenue comes from moving repeat purchases of critical veterinary supplies into self-service digital ordering. The vendor case does not establish net profit, which still depends on integration, inventory, logistics, regulation and specialist support.",
+            "xiaziQuote": "Cross-border B2B grows not by opening more sites but by making catalog, price, inventory and customer accounts work together.",
+            "doudouQuote": "Growth above 100% is striking; base period, implementation cost and fulfilment quality determine durability.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "26736df3-ba7a-50b5-9fc7-f461973f35cf",
+            "topicId": "57c95acd-6f6c-54a5-bf24-e0512c0df853",
+            "title": "Commerce customers named finalists in 2025 B2B Ecommerce Industry Awards",
+            "publisher": "Nasdaq",
+            "url": "https://www.nasdaq.com/press-release/commerce-customers-named-finalists-2025-b2b-ecommerce-industry-awards-americas",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "5c87f908-8b22-51b6-8326-049c13f1d64d",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "macquarie-island-first-h5-event",
+        "rank": 6,
+        "category": "science",
+        "region": "Oceania",
+        "countryCodes": [
+          "AU"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-macquarie-h5-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "健康与生态",
+            "headlineFact": "麦夸里岛确认首次高致病性H5禽流感事件",
+            "headlineView": "象海豹与海带鸥样本检测阳性，这是该岛首次H5事件，澳方称人类健康风险仍低",
+            "headlineFull": "麦夸里岛确认首次高致病性H5禽流感事件；象海豹与海带鸥样本检测阳性，这是该岛首次H5事件，澳方称人类健康风险仍低",
+            "intro": "澳大利亚官方10月16日通报，CSIRO澳大利亚疾病防范中心在麦夸里岛采集的一头象海豹和一只海带鸥样本中确认高致病性H5禽流感，标志着该岛首次出现H5事件。麦夸里岛由塔斯马尼亚州管理，检测结果将纳入该州H5报告；目前没有证据显示澳大利亚发生与H5相关的哺乳动物间传播，官方称人类健康风险仍低，家禽和农业生产系统也尚无检出。相关部门正扩大采样、监测野生动物死亡并加强人员防护。偏远繁殖地中的跨物种感染会增加监测、生态保护与后勤难度，实际范围仍需更多检测确认。",
+            "xiaziQuote": "偏远并不等于隔绝，候鸟与海洋生态能把病毒带到全球监测最困难的地方。",
+            "doudouQuote": "确认首例事件不是确认全部范围，后续采样和物种监测更重要。",
+            "footerTakeaway": "今日关键词：健康与生态。"
+          },
+          "en-US": {
+            "categoryLabel": "Health and Ecology",
+            "headlineFact": "Macquarie Island confirms its first highly pathogenic H5 bird-flu event",
+            "headlineView": "Elephant-seal and kelp-gull samples tested positive in the island's first H5 event, while Australia says public-health risk remains low",
+            "headlineFull": "Macquarie Island confirms its first highly pathogenic H5 bird-flu event; Elephant-seal and kelp-gull samples tested positive in the island's first H5 event, while Australia says public-health risk remains low",
+            "intro": "Australian authorities reported on October 16 that CSIRO's Australian Centre for Disease Preparedness confirmed highly pathogenic H5 avian influenza in samples from an elephant seal and a kelp gull collected on Macquarie Island, marking the island's first H5 event. Macquarie Island is administered as part of Tasmania, and the results will enter the state's H5 reporting. Officials say there is currently no evidence of H5-related mammal-to-mammal transmission in Australia, public-health risk remains low and no infections have been detected in poultry or agricultural production. Agencies are expanding sampling, wildlife-mortality surveillance and worker precautions. Cross-species infection at a remote breeding site raises monitoring, conservation and logistics challenges, and more testing is needed to define the true extent.",
+            "xiaziQuote": "Remote does not mean isolated; migratory birds and marine ecosystems can carry a virus into the hardest places to monitor.",
+            "doudouQuote": "A first confirmed event does not define the full extent; sampling and species surveillance come next.",
+            "footerTakeaway": "Keyword: Health and Ecology."
+          }
+        },
+        "sources": [
+          {
+            "id": "405c2d42-f7db-59f4-8e70-aa03cc8c7b6e",
+            "topicId": "5c87f908-8b22-51b6-8326-049c13f1d64d",
+            "title": "Bird flu detected on Macquarie Island in southern elephant seal and gull samples",
+            "publisher": "ABC News Australia",
+            "url": "https://www.abc.net.au/news/2026-10-15/bird-flu-macquarie-island-southern-elephant-seal-kelp-gull/107271424",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "1b292d4d-efa0-5596-b501-5498509a8eb1",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "bangladesh-measles-outbreak-october-update",
+        "rank": 7,
+        "category": "science",
+        "region": "Asia",
+        "countryCodes": [
+          "BD"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-bangladesh-measles-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共卫生",
+            "headlineFact": "孟加拉麻疹疫情达约20.2万疑似病例",
+            "headlineView": "其中约2.2万例经实验室确认，达卡区负担最重，应急行动已为近2000万儿童接种",
+            "headlineFull": "孟加拉麻疹疫情达约20.2万疑似病例；其中约2.2万例经实验室确认，达卡区负担最重，应急行动已为近2000万儿童接种",
+            "intro": "国际红十字会与红新月会联合会10月中旬现场报告显示，孟加拉自3月中旬暴发麻疹以来累计约20.2万疑似病例，其中约2.2万例经实验室确认；达卡区累计约8.72万疑似病例、486例疑似死亡，吉大港和巴里萨尔负担也很高。医院在报告期内每天约收治1000名疑似患者，10月8日达到1251人。疫情背景包括2024至2025年疫苗短缺、常规接种缺口与多年未开展全国补充免疫。自4月以来近2000万儿童已接种，9月26日又启动针对约340万漏种儿童的全国行动，但病例定义包含疑似与确诊，死亡归因和最终规模仍需持续核实。",
+            "xiaziQuote": "麻疹不是缺少工具的疾病，真正的风险来自接种链条中断后迅速累积的免疫缺口。",
+            "doudouQuote": "大规模补种已经展开，覆盖率、冷链和病例核实决定拐点何时出现。",
+            "footerTakeaway": "今日关键词：公共卫生。"
+          },
+          "en-US": {
+            "categoryLabel": "Public Health",
+            "headlineFact": "Bangladesh's measles outbreak reaches about 202,000 suspected cases",
+            "headlineView": "About 22,000 were laboratory confirmed, Dhaka bears the largest burden and emergency operations have vaccinated nearly 20 million children",
+            "headlineFull": "Bangladesh's measles outbreak reaches about 202,000 suspected cases; About 22,000 were laboratory confirmed, Dhaka bears the largest burden and emergency operations have vaccinated nearly 20 million children",
+            "intro": "A mid-October field report from the International Federation of Red Cross and Red Crescent Societies says Bangladesh recorded about 202,000 suspected measles cases since the outbreak began in mid-March, including roughly 22,000 laboratory-confirmed cases. Dhaka Division carried about 87,200 suspected cases and 486 suspected deaths, with heavy burdens in Chattogram and Barishal. Hospitals logged around 1,000 suspected admissions a day during the reporting period, peaking at 1,251 on October 8. The outbreak followed a 2024-2025 vaccine shortage, routine-immunization gaps and years without a nationwide supplementary campaign. Nearly 20 million children have been vaccinated since April, and a September 26 campaign targets about 3.4 million missed children. Suspected and confirmed counts remain distinct, and mortality attribution and final scale require continued verification.",
+            "xiaziQuote": "Measles is not a disease without tools; danger grows when breaks in the vaccination chain rapidly accumulate immunity gaps.",
+            "doudouQuote": "Mass vaccination is underway; coverage, cold chain and case verification determine when the curve turns.",
+            "footerTakeaway": "Keyword: Public Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "b083523b-5353-5208-aa89-42ff9befd980",
+            "topicId": "1b292d4d-efa0-5596-b501-5498509a8eb1",
+            "title": "Bangladesh battles severe measles surge following immunization gaps",
+            "publisher": "Azat TV",
+            "url": "https://azat.tv/en/bangladesh-measles-outbreak-vaccination-gaps-2026/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "cd9ca544-e4da-597e-83a9-b76852ca28ac",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "alaska-13800-year-beringia-base-camp",
+        "rank": 8,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-alaska-beringia-camp-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "考古",
+            "headlineFact": "阿拉斯加发现1.38万年前稳定营地证据",
+            "headlineView": "住所痕迹、土炉、骨针、吊坠与远距离黑曜石说明冰期居民不只是短暂停留的猎人",
+            "headlineFull": "阿拉斯加发现1.38万年前稳定营地证据；住所痕迹、土炉、骨针、吊坠与远距离黑曜石说明冰期居民不只是短暂停留的猎人",
+            "intro": "发表于《科学进展》的多学科研究梳理阿拉斯加内陆Shég' Xdaltth'í'遗址，最早活动层约距今1.38万年。考古人员发现壁柱痕迹、炉灶和小坑组成的潜在住所区，附近土炉保存木炭与动物骨骼；骨针碎片、鹿角吊坠、石器和数万件遗物显示这里曾反复承载家庭生活、烹饪、缝制和工具制作。黑曜石来自数百英里外，菱形双面石器与西白令地区相似，又与冰原以南的早期美洲技术相连。研究称这是北美最早的潜在居住结构案例之一，但住所形态和犬类驯化仍属于基于遗迹组合的谨慎解释。",
+            "xiaziQuote": "迁徙史不只由脚印写成，炉火、针线和远方石材也记录人们何时开始安顿。",
+            "doudouQuote": "证据支持稳定生活网络，但住所与犬类解释仍需要保留不确定性。",
+            "footerTakeaway": "今日关键词：考古。"
+          },
+          "en-US": {
+            "categoryLabel": "Archaeology",
+            "headlineFact": "Alaska reveals evidence of a stable camp 13,800 years ago",
+            "headlineView": "Dwelling traces, an earth oven, bone needles, a pendant and distant obsidian show Ice Age settlers were more than brief hunting visitors",
+            "headlineFull": "Alaska reveals evidence of a stable camp 13,800 years ago; Dwelling traces, an earth oven, bone needles, a pendant and distant obsidian show Ice Age settlers were more than brief hunting visitors",
+            "intro": "A multidisciplinary Science Advances study details Shég' Xdaltth'í' in interior Alaska, where the earliest occupation dates to about 13,800 years ago. A post stain, hearth and small pit form a potential dwelling area, while a nearby earth oven held charcoal and animal bone. Bone-needle fragments, an antler pendant, stone tools and tens of thousands of artifacts show repeated family life, cooking, sewing and toolmaking. Obsidian came from hundreds of miles away, and diamond-shaped bifaces resemble western Beringian technologies while also connecting with early traditions south of the ice sheets. The researchers describe one of North America's earliest potential habitation structures, while the exact dwelling form and possible dog domestication remain cautious interpretations of the evidence assemblage.",
+            "xiaziQuote": "Migration history is written not only in footprints but in hearths, needles and distant stone that show when people began to settle in.",
+            "doudouQuote": "The evidence supports a stable living network, while dwelling and dog interpretations retain uncertainty.",
+            "footerTakeaway": "Keyword: Archaeology."
+          }
+        },
+        "sources": [
+          {
+            "id": "2538a686-220c-5191-bc58-c44c36ef1914",
+            "topicId": "cd9ca544-e4da-597e-83a9-b76852ca28ac",
+            "title": "Highlights from an early base camp in Beringia 13,800 years ago",
+            "publisher": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42873868/",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "92d5275e-1af9-5da3-bf55-5041e23da9ec",
+        "issueId": "960fdfc5-29ab-5eab-8ae8-b07cc9233fab",
+        "slug": "strong-el-nino-west-coast-fisheries-shift",
+        "rank": 9,
+        "category": "climate",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-el-nino-fisheries-20261019",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与生态",
+            "headlineFact": "强厄尔尼诺正在重排美国西海岸渔场",
+            "headlineView": "黄鳍金枪鱼、刺鲅和条纹马林鱼北移带来短期渔获，同时威胁海藻林、海鸟与无法迁移的物种",
+            "headlineFull": "强厄尔尼诺正在重排美国西海岸渔场；黄鳍金枪鱼、刺鲅和条纹马林鱼北移带来短期渔获，同时威胁海藻林、海鸟与无法迁移的物种",
+            "intro": "NOAA Fisheries称，2026至2027年厄尔尼诺已显著改变美国西海岸海洋条件，南加州渔民开始大量捕到通常分布在墨西哥附近的黄鳍金枪鱼、刺鲅和条纹马林鱼。暖水、海平面抬升与营养盐上升流减弱会推动物种分布北移，给休闲捕鱼和部分商业活动带来短期机会；但海藻林、冷水鱼、海鸟和行动能力较弱的底栖生物可能失去栖息地与食物。NOAA同时监测温度、海平面、浮游生物和渔获变化。厄尔尼诺是自然周期，具体影响还与此前海洋热浪、人为变暖、区域海流和冬季风暴叠加，不能把单一物种出现直接当成长期生态收益。",
+            "xiaziQuote": "同一股暖流能创造新渔获，也能抽走旧生态系统赖以生存的冷水与营养。",
+            "doudouQuote": "短期捕获增加不等于生态变好，迁不走的物种承担更大风险。",
+            "footerTakeaway": "今日关键词：气候与生态。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Ecology",
+            "headlineFact": "Strong El Niño is rearranging US West Coast fisheries",
+            "headlineView": "Yellowfin tuna, wahoo and striped marlin move north and create short-term catches while kelp, seabirds and immobile species face greater risk",
+            "headlineFull": "Strong El Niño is rearranging US West Coast fisheries; Yellowfin tuna, wahoo and striped marlin move north and create short-term catches while kelp, seabirds and immobile species face greater risk",
+            "intro": "NOAA Fisheries says the 2026-2027 El Niño is already changing marine conditions along the US West Coast, with Southern California fishermen catching large numbers of yellowfin tuna, wahoo and striped marlin normally associated with waters off Mexico. Warmer water, higher sea level and weaker nutrient-rich upwelling can move species north, creating short-term opportunities for recreational and some commercial fishing. Kelp forests, cold-water fish, seabirds and less mobile bottom species may instead lose habitat and food. NOAA is tracking temperature, sea level, plankton and catches. El Niño is a natural cycle, while actual outcomes combine with a preceding marine heatwave, human-driven warming, regional currents and winter storms; the appearance of a single species cannot be treated as a lasting ecosystem gain.",
+            "xiaziQuote": "The same warm current can create new catches while removing the cold water and nutrients an older ecosystem needs.",
+            "doudouQuote": "More catch in the short term does not mean a healthier ecosystem; species that cannot move carry greater risk.",
+            "footerTakeaway": "Keyword: Climate and Ecology."
+          }
+        },
+        "sources": [
+          {
+            "id": "971caae6-8b14-50b4-94fe-3527c3bb726e",
+            "topicId": "92d5275e-1af9-5da3-bf55-5041e23da9ec",
+            "title": "How Will El Niño Affect Your Local Fisheries?",
+            "publisher": "NOAA Fisheries",
+            "url": "https://www.fisheries.noaa.gov/feature-story/how-will-el-nino-affect-your-local-fisheries",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261019_6dc51b939745a97ac2393818"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-19",
+    "releaseId": "rel_20261019_6dc51b939745a97ac2393818",
+    "assetBatchId": "asset_prod_20261019_6dc51b939745a97ac2393818",
+    "posters": [
+      {
+        "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+        "locale": "zh",
+        "contentHash": "765e4b039cb5883dd8317894c9ccf3aaa3d6f20e5ff928fbad27669ff6631a12",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/global-operator-radar-20261019.png"
+      },
+      {
+        "topicId": "e969e4ef-f991-5470-bff8-b5d312385cb4",
+        "locale": "en",
+        "contentHash": "10eb0335ddd14d296dddacb473fd29a2411f90a503320c8831bb7a7e94e1d92a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/global-operator-radar-20261019.png"
+      },
+      {
+        "topicId": "82cbe66c-3647-5f4c-8f14-4456ed21881b",
+        "locale": "zh",
+        "contentHash": "0c917ff4e6ac3fca4ff33547b0809287ea036162a7119d3ed817fadf78cbedf6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/reflection-beam-open-weights-release.png"
+      },
+      {
+        "topicId": "82cbe66c-3647-5f4c-8f14-4456ed21881b",
+        "locale": "en",
+        "contentHash": "18d5891b4af682d3ee24179ab6a3f8754789d46e19644bf2d7cb07821dc57df3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/reflection-beam-open-weights-release.png"
+      },
+      {
+        "topicId": "959e51ac-da79-59a5-8299-9da8524581db",
+        "locale": "zh",
+        "contentHash": "a904a67fe4b430ef826b893cea41892b74c0905ccf73a7cb8685000dce5c53ac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/mono-solo-multimodel-ai-revenue.png"
+      },
+      {
+        "topicId": "959e51ac-da79-59a5-8299-9da8524581db",
+        "locale": "en",
+        "contentHash": "fc0b9d17ff22c45075d6ea0f4236b5bdfd4a5a00f0b7dd480ce33b9061e7665d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/mono-solo-multimodel-ai-revenue.png"
+      },
+      {
+        "topicId": "733e8c40-1c63-5109-a86f-9016564be853",
+        "locale": "zh",
+        "contentHash": "9412ae7c70ba66d63b200925714229317af86f68c315e1d62838848f5e475b01",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/ugcraft-ai-roblox-3d-verified-revenue.png"
+      },
+      {
+        "topicId": "733e8c40-1c63-5109-a86f-9016564be853",
+        "locale": "en",
+        "contentHash": "f303eeaac48ab83a0e69aa8ac31746fd7390d885709f0502006b77d3445458ae",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/ugcraft-ai-roblox-3d-verified-revenue.png"
+      },
+      {
+        "topicId": "57c95acd-6f6c-54a5-bf24-e0512c0df853",
+        "locale": "zh",
+        "contentHash": "7105e4eaad93851d1f8c5c09665e245333abdcf22fd845b614d2311944afb275",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/movora-global-veterinary-b2b-growth.png"
+      },
+      {
+        "topicId": "57c95acd-6f6c-54a5-bf24-e0512c0df853",
+        "locale": "en",
+        "contentHash": "40b93b94e25b2a518cf452256c51e1da091097006611c4cd026403d66f4cff6b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/movora-global-veterinary-b2b-growth.png"
+      },
+      {
+        "topicId": "5c87f908-8b22-51b6-8326-049c13f1d64d",
+        "locale": "zh",
+        "contentHash": "2ba9ed919c943f38e043c07dc648bc453670749c4c0dc8fafa4ace8d6b7c5897",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/macquarie-island-first-h5-event.png"
+      },
+      {
+        "topicId": "5c87f908-8b22-51b6-8326-049c13f1d64d",
+        "locale": "en",
+        "contentHash": "6f583999fdda04d2be31750841ab4872cf07d54f9f7dcf3628959b971989a879",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/macquarie-island-first-h5-event.png"
+      },
+      {
+        "topicId": "1b292d4d-efa0-5596-b501-5498509a8eb1",
+        "locale": "zh",
+        "contentHash": "e441d6428daf43563fd549a8e8be314a7e93866152d2babb3b8e399ec09abdbe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/bangladesh-measles-outbreak-october-update.png"
+      },
+      {
+        "topicId": "1b292d4d-efa0-5596-b501-5498509a8eb1",
+        "locale": "en",
+        "contentHash": "7d1ec4093087a6b8cf226cd93ac1ac477c9e48d8447a6ac2906313f32662f40e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/bangladesh-measles-outbreak-october-update.png"
+      },
+      {
+        "topicId": "cd9ca544-e4da-597e-83a9-b76852ca28ac",
+        "locale": "zh",
+        "contentHash": "7344af975a7f57c15c140eff4dac5c461f0fc0c979ba8a8fd7ead26ed8cd33b7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/alaska-13800-year-beringia-base-camp.png"
+      },
+      {
+        "topicId": "cd9ca544-e4da-597e-83a9-b76852ca28ac",
+        "locale": "en",
+        "contentHash": "e766d740a9645cb869645166d3e08fe561a573809186b4a0f9052db9c377eb9b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/alaska-13800-year-beringia-base-camp.png"
+      },
+      {
+        "topicId": "92d5275e-1af9-5da3-bf55-5041e23da9ec",
+        "locale": "zh",
+        "contentHash": "7ac4f782752b0da8b697e8e2721b12ad52293483b79b1662cb27525efc0ff8a6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/zh/strong-el-nino-west-coast-fisheries-shift.png"
+      },
+      {
+        "topicId": "92d5275e-1af9-5da3-bf55-5041e23da9ec",
+        "locale": "en",
+        "contentHash": "d8fbf73b9cf93243025871f04a173658ede2809bc787ecbd25df953d2e0e9311",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261019_6dc51b939745a97ac2393818/en/strong-el-nino-west-coast-fisheries-shift.png"
+      }
+    ]
+  }
+}
