@@ -1,0 +1,711 @@
+{
+  "issue": {
+    "id": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+    "slug": "2026-10-20",
+    "style": {
+      "name": "Bauhaus",
+      "zhName": "包豪斯风格",
+      "description": "Style Atlas daily pick: Bauhaus / 包豪斯风格. Build nine distinct premium editorial scenes from disciplined geometry, primary red-yellow-blue accents, black and warm ivory, functional typography, circles, diagonals, grids, material texture and visible spatial construction. Every news subject must become a different scene rather than a repeated template, generic sphere, three number cards or dashboard. Content, evidence, diagrams and story scenes occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. Reduce information density by about 20%, emphasize one conclusion and no more than three key facts in 3-5 large readable modules, and keep text on calm low-texture fields with generous spacing. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central Bauhaus world-machine scene, using asymmetrical bands, arcs, stairs and varied quiet text planes rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each overview sentence must remain complete, with clear 1-8 order and no extra event. Chinese and English keep the same composition, scene, hierarchy and rhythm. Use only the labels 虾子曰： and 豆豆龙： or Xiazi Says: and Doudoulong:. Put the exact text xiazishuo.com legibly in the bottom safe area of every poster. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and artwork filling all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-20",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-20T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-19T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+    "topics": [
+      {
+        "id": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "global-operator-radar-20261020",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月20日全球经营雷达",
+            "headlineView": "模型效率、单人播客检索、AI建筑渲染、跨境美发、中国经济、也门冲突、医生老龄化与聚变芯片进入同一张行动地图",
+            "headlineFull": "10月20日全球经营雷达；模型效率、单人播客检索、AI建筑渲染、跨境美发、中国经济、也门冲突、医生老龄化与聚变芯片进入同一张行动地图",
+            "intro": "1. DeepSeek-V4.1-Flash-1017以MIT权重更新推理、编码、智能体与视觉能力，并把100万上下文和更短任务时间放进同一版本。\n2. Anjum Sayed一人运营Tapesearch，把AI生成的播客转录做成可搜索订阅，Stripe验证MRR 4208美元和182个活跃订阅。\n3. Visualizee让建筑师与设计师在约30秒内把草图或模型变成写实渲染，Stripe验证MRR 8084美元和287个活跃订阅。\n4. 美国美发品牌Highland通过含税定价与单枢纽履约进入30多个国家，案例称4周国际销售增长237%。\n5. 中国第三季度GDP同比增长4.5%，前三季度增长4.6%，高技术制造与出口支撑增长而内需仍偏弱。\n6. 也门舍卜沃省一处政府军训练中心遭三枚弹道导弹袭击，地方当局称至少53名新兵死亡、200多人受伤。\n7. WHO称全球近四分之一医生已超过55岁，67个国家到2030年将无法维持人口健康所需的卫生人力。\n8. 首款超导神经网络芯片以每秒100万次采样处理托卡马克数据，完成异常分类、破裂预测与等离子体不稳定性识别。",
+            "xiaziQuote": "今天的共同信号，是效率提升只有在收入、履约、公共系统和真实实验中才会变成可用能力。",
+            "doudouQuote": "看见增长与突破，也要同时看来源、限制、代价和下一步验证。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 20 Global Operator Radar",
+            "headlineView": "Model efficiency, solo podcast search, AI architectural rendering, cross-border haircare, China's economy, Yemen conflict, ageing doctors and fusion chips enter one action map",
+            "headlineFull": "October 20 Global Operator Radar; Model efficiency, solo podcast search, AI architectural rendering, cross-border haircare, China's economy, Yemen conflict, ageing doctors and fusion chips enter one action map",
+            "intro": "1. DeepSeek-V4.1-Flash-1017 updates reasoning, coding, agentic and visual capability under MIT weights while combining a one-million-token context with shorter task time.\n2. Anjum Sayed runs Tapesearch alone, selling search across AI-generated podcast transcripts, with Stripe verifying $4,208 MRR and 182 active subscriptions.\n3. Visualizee lets architects and designers turn sketches or models into photoreal renders in about 30 seconds, with Stripe verifying $8,084 MRR and 287 active subscriptions.\n4. US haircare brand Highland reached more than 30 countries through duty-inclusive pricing and one-hub fulfilment, with its case reporting 237% international-sales growth in four weeks.\n5. China's GDP grew 4.5% year on year in the third quarter and 4.6% over nine months, supported by high-tech manufacturing and exports while domestic demand stayed weak.\n6. Three ballistic missiles hit a government training centre in Yemen's Shabwa province, where local authorities reported at least 53 recruits killed and more than 200 wounded.\n7. WHO says nearly one in four doctors worldwide is older than 55, while 67 countries will lack enough health workers to sustain population needs by 2030.\n8. A first-of-a-kind superconducting neural-network chip processed tokamak data at one million samples per second for anomaly classification, disruption prediction and plasma-instability detection.",
+            "xiaziQuote": "Today's shared signal is that efficiency becomes useful capability only when it survives revenue, delivery, public systems and real experiments.",
+            "doudouQuote": "Read growth and breakthroughs together with evidence, limits, cost and the next verification step.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "2af80490-a567-57a4-a0ce-9889c0d64d67",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "DeepSeek-V4.1-Flash-1017",
+            "publisher": "DeepSeek on Hugging Face",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "bc1dc01d-c09b-5099-82f5-21204848db38",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "Tapesearch verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/tapesearch",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "edb77f80-b098-5f7e-b53d-f250d1ab0028",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "Visualizee.ai verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/visualizee-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "91ec049b-55e3-5cd6-92ae-77d2cf1060be",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "Highland went global. Revenue followed.",
+            "publisher": "Mayple",
+            "url": "https://maypleglobal.com/case-study-highland",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8737fd5c-2c67-5dc3-82ea-8fb798499bde",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "National Economy was Generally Stable with New Achievement Made in High-Quality Development in the First Three Quarters",
+            "publisher": "National Bureau of Statistics of China",
+            "url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "77d22b2d-87e8-5a51-b87e-2f8532764cd1",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "More than 53 killed, over 200 wounded in Houthi attack on southern Yemen",
+            "publisher": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/middle-east/more-than-53-killed-over-200-wounded-in-houthi-attack-on-southern-yemen/4093625",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "383c26e7-5436-591d-a1b8-d7cf1fb8f295",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "One in four doctors nearing retirement age as WHO warns of global health workforce gap",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "96fb8e28-e927-5358-bf39-beebe2f8b4a1",
+            "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+            "title": "First-of-a-Kind Super Intelligence Chips Successfully Analyze Fusion Plasmas",
+            "publisher": "Brookhaven National Laboratory",
+            "url": "https://www.bnl.gov/newsroom/news.php?a=123222",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "ae1846f6-0359-5940-92f6-4dd5c8a864d6",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "deepseek-v41-flash-1017-update",
+        "rank": 2,
+        "category": "technology",
+        "region": "Asia",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-deepseek-v41-flash-1017-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "DeepSeek-V4.1-Flash-1017开放MIT权重",
+            "headlineView": "小版本同时提高推理、编码、智能体与视觉基准，并缩短任务时间和输出长度",
+            "headlineFull": "DeepSeek-V4.1-Flash-1017开放MIT权重；小版本同时提高推理、编码、智能体与视觉基准，并缩短任务时间和输出长度",
+            "intro": "DeepSeek在官方Hugging Face组织发布V4.1-Flash-1017，定位为V4.1-Flash的小版本更新。模型卡称它在推理、编码、智能体和视觉基准上取得显著提升，同时减少任务执行时间与输出长度；公开对比中，Terminal-Bench 4.0从31.2升至42.3，DeepSWE v1.1从74.2升至77.0，Automation-Bench从54.8升至60.5。版本支持图文输入、100万token上下文和至少25.6万输出上限，并给出Transformers、vLLM、SGLang和Docker用法。权重采用MIT许可，但官方也明确推理、工具执行与HTTP传输由调用方负责，真实成本、安全和长任务稳定性仍需独立评估。",
+            "xiaziQuote": "模型升级的价值，不只看峰值分数，还看同一任务是否更快、更短、更便宜。",
+            "doudouQuote": "MIT权重降低接入门槛，部署工程和真实评测仍不能省略。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "DeepSeek-V4.1-Flash-1017 opens MIT-licensed weights",
+            "headlineView": "The minor update raises reasoning, coding, agentic and visual benchmarks while shortening task time and output length",
+            "headlineFull": "DeepSeek-V4.1-Flash-1017 opens MIT-licensed weights; The minor update raises reasoning, coding, agentic and visual benchmarks while shortening task time and output length",
+            "intro": "DeepSeek released V4.1-Flash-1017 through its official Hugging Face organization as a minor update to V4.1-Flash. The model card reports substantial gains across reasoning, coding, agentic and visual benchmarks while reducing execution time and output length. Its published comparison moves Terminal-Bench 4.0 from 31.2 to 42.3, DeepSWE v1.1 from 74.2 to 77.0 and Automation-Bench from 54.8 to 60.5. The image-text model supports a one-million-token context, at least 256,000 output tokens and documented use through Transformers, vLLM, SGLang and Docker. Weights use the MIT license, but inference, tool execution and HTTP transport remain the caller's responsibility, so real cost, safety and long-task reliability still require independent evaluation.",
+            "xiaziQuote": "A model upgrade matters not only at peak score but when the same task becomes faster, shorter and cheaper.",
+            "doudouQuote": "MIT weights lower access friction; deployment engineering and real evaluation remain mandatory.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "45e8f81e-ee34-5617-8ae2-fc0805a3191f",
+            "topicId": "ae1846f6-0359-5940-92f6-4dd5c8a864d6",
+            "title": "DeepSeek-V4.1-Flash-1017",
+            "publisher": "DeepSeek on Hugging Face",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "38f5f577-dbcb-5644-900a-ad4a3fed4c83",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "tapesearch-solo-podcast-search-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-tapesearch-solo-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Tapesearch一人运营，验证MRR 4208美元",
+            "headlineView": "把AI播客转录做成精确时刻检索，182个活跃订阅购买16.66至60美元月费",
+            "headlineFull": "Tapesearch一人运营，验证MRR 4208美元；把AI播客转录做成精确时刻检索，182个活跃订阅购买16.66至60美元月费",
+            "intro": "英国创始人Anjum Sayed一人运营Tapesearch，面向市场研究者、播客主、金融分析师、学术研究者、广告从业者与记者，把AI生成的播客转录做成全文搜索，让用户不必听完数小时音频就能找到某句话出现的准确时刻。TrustMRR通过Stripe验证累计收入96432美元、MRR 4208美元和182个活跃订阅，数据更新于10月19日。Pro月费16.66美元、Insights 31美元、API 60美元，约1.7万用户通过网页搜索和API交付，公开获客渠道为Google Ads。单人杠杆来自自动转录、搜索索引和订阅交付；限制是转录与算力成本、版权边界、索引覆盖、搜索准确度和广告获客回报。",
+            "xiaziQuote": "一人公司可以把海量内容里的寻找时间，压缩成一项可重复收费的搜索服务。",
+            "doudouQuote": "4208美元MRR验证需求，长期利润取决于索引成本和留存。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run Tapesearch verifies $4,208 MRR",
+            "headlineView": "AI podcast transcripts become exact-moment search, with 182 active subscriptions buying $16.66-to-$60 monthly plans",
+            "headlineFull": "Solo-run Tapesearch verifies $4,208 MRR; AI podcast transcripts become exact-moment search, with 182 active subscriptions buying $16.66-to-$60 monthly plans",
+            "intro": "UK founder Anjum Sayed runs Tapesearch alone for market researchers, podcasters, financial analysts, academics, advertisers and journalists. It turns AI-generated podcast transcripts into full-text search so users can locate the exact moment a phrase was spoken without listening through hours of audio. TrustMRR verifies through Stripe $96,432 in all-time revenue, $4,208 MRR and 182 active subscriptions, updated October 19. Pro costs $16.66 monthly, Insights $31 and API access $60, delivering web search and API access to roughly 17,000 users; Google Ads is the listed acquisition channel. Solo leverage comes from automated transcription, indexing and subscription delivery. Limits include transcription and compute cost, copyright boundaries, catalog coverage, search accuracy and paid-acquisition return.",
+            "xiaziQuote": "A one-person company can turn time lost searching a vast content archive into a repeatable paid service.",
+            "doudouQuote": "$4,208 MRR proves demand; long-term profit depends on indexing cost and retention.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "44011bef-82ae-5196-b146-75d6c7496c96",
+            "topicId": "38f5f577-dbcb-5644-900a-ad4a3fed4c83",
+            "title": "Tapesearch verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/tapesearch",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "fbec5d27-72db-53f7-be5c-c45f356a6456",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "visualizee-ai-architecture-rendering-revenue",
+        "rank": 4,
+        "category": "technology",
+        "region": "Europe",
+        "countryCodes": [
+          "PL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-visualizee-ai-revenue-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Visualizee验证MRR 8084美元",
+            "headlineView": "AI约30秒把平面图、草图或SketchUp画面变成写实渲染，287个活跃订阅购买15至80美元月费",
+            "headlineFull": "Visualizee验证MRR 8084美元；AI约30秒把平面图、草图或SketchUp画面变成写实渲染，287个活跃订阅购买15至80美元月费",
+            "intro": "波兰创始人Piotr Obidowski的Visualizee面向建筑师、室内设计师、城市与景观规划师等专业用户，把二维平面图变成带家具的2.5D方案，也能把草图、黏土模型或SketchUp画面在约30秒内转成写实渲染，让客户沟通和材质、光线、季节迭代不再依赖完整3D制作流程。TrustMRR通过Stripe验证累计收入90836美元、MRR 8084美元和287个活跃订阅，更新于10月19日。免费层提供5张带水印渲染，Hobby、Pro、Max月费分别为15、35和80美元。收入已验证，但利润仍受GPU与第三方模型成本、生成质量、商业授权、专业工作流适配和订阅留存影响。",
+            "xiaziQuote": "AI应用赚钱的关键，是把专业交付里最慢的一步变成客户能立即看懂的结果。",
+            "doudouQuote": "8084美元MRR证明愿意付费，生成成本与专业可信度决定能走多远。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Backed AI Application",
+            "headlineFact": "Visualizee verifies $8,084 MRR",
+            "headlineView": "AI turns floor plans, sketches or SketchUp views into photoreal renders in about 30 seconds, with 287 active subscriptions paying $15-to-$80 monthly plans",
+            "headlineFull": "Visualizee verifies $8,084 MRR; AI turns floor plans, sketches or SketchUp views into photoreal renders in about 30 seconds, with 287 active subscriptions paying $15-to-$80 monthly plans",
+            "intro": "Polish founder Piotr Obidowski's Visualizee serves architects, interior designers, urban and landscape planners and other professionals. It turns 2D floor plans into furnished 2.5D layouts and converts sketches, clay models or SketchUp views into photoreal renders in about 30 seconds, shortening client communication and iterations on material, lighting and season without a full 3D pipeline. TrustMRR verifies through Stripe $90,836 in all-time revenue, $8,084 MRR and 287 active subscriptions, updated October 19. A free tier includes five watermarked renders; Hobby, Pro and Max cost $15, $35 and $80 monthly. Revenue is verified, while profit still depends on GPU and third-party-model cost, output quality, commercial licensing, professional workflow fit and retention.",
+            "xiaziQuote": "An AI application earns when it turns the slowest step in professional delivery into a result clients understand immediately.",
+            "doudouQuote": "$8,084 MRR proves willingness to pay; generation cost and professional trust determine durability.",
+            "footerTakeaway": "Keyword: Revenue-Backed AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "f0e20843-dc9f-5617-86a0-605d3a2b089c",
+            "topicId": "fbec5d27-72db-53f7-be5c-c45f356a6456",
+            "title": "Visualizee.ai verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/visualizee-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "93012c86-599a-529a-a180-5268b30fdbf2",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "highland-cross-border-haircare-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-highland-cross-border-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Highland跨境销售4周增长237%",
+            "headlineView": "含税定价、约15美元运费与迪拜单枢纽把美国美发品牌送进30多个国家，总收入增长38%",
+            "headlineFull": "Highland跨境销售4周增长237%；含税定价、约15美元运费与迪拜单枢纽把美国美发品牌送进30多个国家，总收入增长38%",
+            "intro": "美国美发品牌Highland已有国际需求，但旧承运商运费接近订单金额三分之一、时效超过一周，税费又在到货时突然出现，导致订单在结账环节流失。品牌通过Mayple在Shopify Markets上线9个区域，把库存目录映射到各市场，以含税到手价加入保护利润的上调幅度，并从迪拜单一枢纽发往30多个国家，无需新建海外仓、ERP迁移或增设运营团队。平台案例称4周国际销售增长237%、总收入增长38%，平均3.5天送达、每票运费约15美元。赚钱机制是降低结账、关税与履约摩擦，但数据来自服务商客户案例，净利润仍受产品毛利、退货、税务、枢纽稳定性和统计基期影响。",
+            "xiaziQuote": "跨境增长常常不是缺需求，而是运费、税费与交付把需求挡在结账页。",
+            "doudouQuote": "237%是销售增幅，不等于利润；含税定价和退货成本仍要算清。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Commerce",
+            "headlineFact": "Highland's cross-border sales grew 237% in four weeks",
+            "headlineView": "Duty-inclusive pricing, roughly $15 shipping and one Dubai hub brought the US haircare brand to 30-plus countries while total revenue rose 38%",
+            "headlineFull": "Highland's cross-border sales grew 237% in four weeks; Duty-inclusive pricing, roughly $15 shipping and one Dubai hub brought the US haircare brand to 30-plus countries while total revenue rose 38%",
+            "intro": "US haircare brand Highland already had international demand, but legacy shipping approached one-third of the order value, delivery quotes exceeded a week and duties arrived as a surprise at the door, causing demand to leak at checkout. Through Mayple, the brand launched nine zones in Shopify Markets, mapped its in-stock catalog, added duty-inclusive prices with margin-protective uplifts and served more than 30 countries through one Dubai hub without a new warehouse, ERP migration or international operations hire. The vendor case reports 237% international-sales growth in four weeks, 38% total-revenue growth, 3.5-day average delivery and roughly $15 shipping per package. The mechanism is lower checkout, tax and fulfilment friction, while net profit remains unconfirmed and depends on product margin, returns, tax, hub reliability and the comparison base.",
+            "xiaziQuote": "Cross-border growth often lacks neither product nor demand; shipping, duty and delivery block it at checkout.",
+            "doudouQuote": "A 237% sales increase is not profit; duty-inclusive pricing and returns still need full accounting.",
+            "footerTakeaway": "Keyword: Cross-Border Commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "8743a6a5-f21f-5d43-8a8c-73271bf66bc4",
+            "topicId": "93012c86-599a-529a-a180-5268b30fdbf2",
+            "title": "Highland went global. Revenue followed.",
+            "publisher": "Mayple",
+            "url": "https://maypleglobal.com/case-study-highland",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "50eed85c-8bfb-547f-8eb7-679d70613b14",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "china-q3-2026-gdp-growth",
+        "rank": 6,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-china-q3-gdp-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "经济观察",
+            "headlineFact": "中国第三季度GDP同比增长4.5%",
+            "headlineView": "前三季度增长4.6%，高技术制造增长14.3%、出口增长16.4%，但固定资产投资下降7.2%",
+            "headlineFull": "中国第三季度GDP同比增长4.5%；前三季度增长4.6%，高技术制造增长14.3%、出口增长16.4%，但固定资产投资下降7.2%",
+            "intro": "中国国家统计局10月19日发布前三季度数据：第三季度GDP同比增长4.5%、环比增长1.2%，前三季度GDP为107.1万亿元，同比增长4.6%。装备制造业和高技术制造业增加值分别增长10.2%和14.3%，货物出口增长16.4%，成为主要支撑；同期社会消费品零售总额增长1.1%，固定资产投资下降7.2%，房地产开发投资下降20.6%，显示内需与投资仍承压。前三季度CPI上涨0.9%，城镇调查失业率平均为5.2%。数据接近全年4.5%至5%的目标区间，但官方也承认国内需求不足、稳定增长基础仍需巩固。",
+            "xiaziQuote": "总量回升与结构分化可以同时发生，增长速度不能替代增长质量。",
+            "doudouQuote": "出口和高技术制造在托底，消费与投资决定下一段韧性。",
+            "footerTakeaway": "今日关键词：经济观察。"
+          },
+          "en-US": {
+            "categoryLabel": "Economy Watch",
+            "headlineFact": "China's GDP grew 4.5% year on year in the third quarter",
+            "headlineView": "Nine-month growth reached 4.6%, high-tech manufacturing rose 14.3% and exports 16.4%, while fixed-asset investment fell 7.2%",
+            "headlineFull": "China's GDP grew 4.5% year on year in the third quarter; Nine-month growth reached 4.6%, high-tech manufacturing rose 14.3% and exports 16.4%, while fixed-asset investment fell 7.2%",
+            "intro": "China's National Bureau of Statistics released nine-month data on October 19: third-quarter GDP grew 4.5% year on year and 1.2% quarter on quarter, while output for the first three quarters reached 107.1 trillion yuan and grew 4.6%. Equipment and high-tech manufacturing value added rose 10.2% and 14.3%, and goods exports grew 16.4%, providing major support. Retail sales increased only 1.1%, fixed-asset investment fell 7.2% and real-estate development investment dropped 20.6%, showing continued pressure on domestic demand and investment. CPI rose 0.9% and the surveyed urban unemployment rate averaged 5.2%. Growth is near the 4.5%-to-5% annual target, but the official release also says insufficient domestic demand and the foundation for stable growth remain concerns.",
+            "xiaziQuote": "Aggregate recovery and structural divergence can coexist; growth speed cannot substitute for growth quality.",
+            "doudouQuote": "Exports and high-tech manufacturing provide support; consumption and investment determine the next stretch of resilience.",
+            "footerTakeaway": "Keyword: Economy Watch."
+          }
+        },
+        "sources": [
+          {
+            "id": "0402bb7e-4edd-58e7-8b2e-09a934663343",
+            "topicId": "50eed85c-8bfb-547f-8eb7-679d70613b14",
+            "title": "National Economy was Generally Stable with New Achievement Made in High-Quality Development in the First Three Quarters",
+            "publisher": "National Bureau of Statistics of China",
+            "url": "https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "6752460a-2ba6-5956-9b4d-6f660a0ae901",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "shabwa-yemen-missile-attack",
+        "rank": 7,
+        "category": "international",
+        "region": "Middle East",
+        "countryCodes": [
+          "YE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-shabwa-attack-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际局势",
+            "headlineFact": "也门训练中心遭袭，至少53人死亡",
+            "headlineView": "舍卜沃地方当局称三枚弹道导弹击中新兵训练现场，另有200多人受伤",
+            "headlineFull": "也门训练中心遭袭，至少53人死亡；舍卜沃地方当局称三枚弹道导弹击中新兵训练现场，另有200多人受伤",
+            "intro": "也门舍卜沃省地方当局称，10月19日三枚弹道导弹击中Al Alam地区的Martyr Ahmed Al Sulaymani训练中心，当时新兵正在接受晨间训练，造成至少53人死亡、200多人受伤。胡塞武装承认发动袭击并称目标是由沙特人员管理的军事设施；也门政府军方发言人和地方政府要求加强防空与预警能力。此次袭击发生在2022年停火今年破裂、政府军试图夺回胡塞控制区的背景下，也门冲突正与更广泛的地区战争叠加。死伤数字来自地方当局，现场核实仍在继续，巴布·曼德海峡附近的升级同时增加航运与人道风险。",
+            "xiaziQuote": "一次训练营袭击会同时放大人员伤亡、地区升级与关键航道风险。",
+            "doudouQuote": "数字仍需持续核实，但防空缺口与停火破裂已经十分明确。",
+            "footerTakeaway": "今日关键词：国际局势。"
+          },
+          "en-US": {
+            "categoryLabel": "International Affairs",
+            "headlineFact": "Yemen training-centre strike kills at least 53",
+            "headlineView": "Shabwa authorities say three ballistic missiles hit recruits during morning training and wounded more than 200",
+            "headlineFull": "Yemen training-centre strike kills at least 53; Shabwa authorities say three ballistic missiles hit recruits during morning training and wounded more than 200",
+            "intro": "Local authorities in Yemen's Shabwa province say three ballistic missiles struck the Martyr Ahmed Al Sulaymani Training Centre in the Al Alam area on October 19 while new recruits were in morning training, killing at least 53 people and wounding more than 200. The Houthis acknowledged the strike and said they targeted a military facility managed by Saudi personnel; Yemen's government military spokesman and provincial authorities called for stronger air defence and early warning. The attack comes after the collapse this year of the 2022 truce and a government campaign to retake Houthi-held areas, linking Yemen's war to the wider regional conflict. Casualty figures come from local authorities and remain subject to verification, while escalation near the Bab Al Mandeb strait also raises shipping and humanitarian risks.",
+            "xiaziQuote": "A strike on a training camp amplifies casualties, regional escalation and risk to a critical shipping route at once.",
+            "doudouQuote": "The toll still needs verification, but the air-defence gap and broken truce are already clear.",
+            "footerTakeaway": "Keyword: International Affairs."
+          }
+        },
+        "sources": [
+          {
+            "id": "7d0ad230-5c55-5fdd-b180-d4fd683d87c2",
+            "topicId": "6752460a-2ba6-5956-9b4d-6f660a0ae901",
+            "title": "More than 53 killed, over 200 wounded in Houthi attack on southern Yemen",
+            "publisher": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/middle-east/more-than-53-killed-over-200-wounded-in-houthi-attack-on-southern-yemen/4093625",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f06dbe52-5562-5957-8865-ba901fbc6d08",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "who-ageing-global-health-workforce",
+        "rank": 8,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-who-ageing-health-workers-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共健康",
+            "headlineFact": "WHO：全球近四分之一医生超过55岁",
+            "headlineView": "高收入国家接近三分之一，67个国家到2030年将无法维持人口健康所需的卫生人力",
+            "headlineFull": "WHO：全球近四分之一医生超过55岁；高收入国家接近三分之一，67个国家到2030年将无法维持人口健康所需的卫生人力",
+            "intro": "WHO发布首份年度《国家卫生人力账户：2026年卫生人力水平与趋势》报告。过去20年，医生、护理和助产人员、牙医与药剂师的全球密度从每万人44.8人升至67.9人，增长52%，全球卫生与照护工作者已超过7000万。但最新可用的122国数据表明，平均近四分之一医生已超过55岁，高收入国家接近三分之一；人口老龄化同时推高服务需求，全球卫生人力缺口到2030年预计达到1110万，67个国家届时无法满足人口健康需求。欧洲与非洲医生密度相差13倍，说明培训总量增加仍无法自动解决分布、留任与退休接替问题。",
+            "xiaziQuote": "卫生系统的隐性倒计时，不只是谁生病，还包括谁会在下一轮退休。",
+            "doudouQuote": "培养更多人只是起点，分布、留任和接班计划决定真实供给。",
+            "footerTakeaway": "今日关键词：公共健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Public Health",
+            "headlineFact": "WHO: Nearly one in four doctors worldwide is older than 55",
+            "headlineView": "The share nears one in three in high-income countries, while 67 countries will lack enough health workers for population needs by 2030",
+            "headlineFull": "WHO: Nearly one in four doctors worldwide is older than 55; The share nears one in three in high-income countries, while 67 countries will lack enough health workers for population needs by 2030",
+            "intro": "WHO released the first annual National health workforce accounts: health workforce levels and trends 2026 report. Over two decades, global density of doctors, nursing and midwifery personnel, dentists and pharmacists rose 52%, from 44.8 to 67.9 per 10,000 people, and the world now has more than 70 million health and care workers. Yet the latest available data from 122 countries show nearly one in four doctors is older than 55 on average, rising to almost one in three in high-income countries. Population ageing raises demand at the same time, the global workforce shortage is projected at 11.1 million by 2030 and 67 countries will lack enough workers to maintain population health needs. Doctor density is 13 times higher in Europe than Africa, showing that more training alone does not solve distribution, retention and succession.",
+            "xiaziQuote": "The hidden countdown in health systems is not only who gets sick but who retires next.",
+            "doudouQuote": "Training more people is the start; distribution, retention and succession determine real supply.",
+            "footerTakeaway": "Keyword: Public Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "5b6f1fb9-3161-53da-8d5e-d0d6259f11ed",
+            "topicId": "f06dbe52-5562-5957-8865-ba901fbc6d08",
+            "title": "One in four doctors nearing retirement age as WHO warns of global health workforce gap",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "9bc8b4e6-e318-562d-8559-15198323c398",
+        "issueId": "ba569a90-cfd2-5900-a92a-eb13116f5bc9",
+        "slug": "superconducting-neural-chip-fusion-plasma",
+        "rank": 9,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-superconducting-fusion-chip-20261020",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "前沿科技",
+            "headlineFact": "超导神经芯片首次实时分析聚变等离子体",
+            "headlineView": "芯片以每秒100万次采样跟上托卡马克数据，并完成异常分类、破裂预测与锯齿不稳定性识别",
+            "headlineFull": "超导神经芯片首次实时分析聚变等离子体；芯片以每秒100万次采样跟上托卡马克数据，并完成异常分类、破裂预测与锯齿不稳定性识别",
+            "intro": "美国能源部布鲁克海文国家实验室、普林斯顿等离子体物理实验室、DIII-D国家聚变设施与Great Sky联合开发首款以超导电路模仿神经网络的Super Intelligence芯片，并用三项托卡马克控制任务进行演示。两项任务把DIII-D真实数据以每秒100万次采样送入芯片，完成异常分类和破裂预测；第三项使用Google DeepMind Fusion团队TORAX模拟数据，识别锯齿不稳定性，证明其可服务实时等离子体状态模拟。成果尚待论文详述，也未在反应堆现场闭环控制；团队计划2027年初演示神经网络规模扩大10倍的下一代芯片，随后部署到DIII-D。",
+            "xiaziQuote": "聚变控制需要的不只是更聪明的算法，还要能在极端环境里跟上等离子体的速度。",
+            "doudouQuote": "百万采样每秒是重要演示，现场闭环控制才是下一道门。",
+            "footerTakeaway": "今日关键词：前沿科技。"
+          },
+          "en-US": {
+            "categoryLabel": "Frontier Technology",
+            "headlineFact": "Superconducting neural chip analyzes fusion plasma in real time",
+            "headlineView": "The chip kept pace with tokamak data at one million samples per second for anomaly classification, disruption prediction and sawtooth-instability detection",
+            "headlineFull": "Superconducting neural chip analyzes fusion plasma in real time; The chip kept pace with tokamak data at one million samples per second for anomaly classification, disruption prediction and sawtooth-instability detection",
+            "intro": "The US Department of Energy's Brookhaven National Laboratory, Princeton Plasma Physics Laboratory, DIII-D National Fusion Facility and Great Sky jointly developed a first-of-a-kind Super Intelligence chip that mimics neural networks with superconducting circuitry and demonstrated it on three tokamak-control tasks. Two tasks fed real DIII-D data into the chip at one million samples per second for anomaly classification and disruption prediction. A third used TORAX simulated data from the Google DeepMind Fusion team to detect sawtooth instabilities, showing feasibility for real-time plasma-state simulation. A detailed paper is still pending and the device has not yet performed closed-loop control inside a reactor. The team plans a next-generation chip with a ten-times-larger neural network in early 2027, followed by deployment at DIII-D.",
+            "xiaziQuote": "Fusion control needs more than a smarter algorithm; hardware must keep pace with plasma inside an extreme environment.",
+            "doudouQuote": "One million samples per second is a meaningful demonstration; onsite closed-loop control is the next gate.",
+            "footerTakeaway": "Keyword: Frontier Technology."
+          }
+        },
+        "sources": [
+          {
+            "id": "cc44e850-733d-530e-8dbe-02533437423d",
+            "topicId": "9bc8b4e6-e318-562d-8559-15198323c398",
+            "title": "First-of-a-Kind Super Intelligence Chips Successfully Analyze Fusion Plasmas",
+            "publisher": "Brookhaven National Laboratory",
+            "url": "https://www.bnl.gov/newsroom/news.php?a=123222",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261020_13bb1bdbd21838e9decd1db6"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-20",
+    "releaseId": "rel_20261020_13bb1bdbd21838e9decd1db6",
+    "assetBatchId": "asset_prod_20261020_13bb1bdbd21838e9decd1db6",
+    "posters": [
+      {
+        "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+        "locale": "zh",
+        "contentHash": "3d790501cff25cfbea6ebd267c21d97aee25707c96213745be7cb68f990f0d7a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/global-operator-radar-20261020.png"
+      },
+      {
+        "topicId": "b4b406a4-3fba-50b2-b8b9-d8d69f9d9f7b",
+        "locale": "en",
+        "contentHash": "069c63f9c73f62e60467e5157fef69703173e7679d97017315147366c68e5620",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/global-operator-radar-20261020.png"
+      },
+      {
+        "topicId": "ae1846f6-0359-5940-92f6-4dd5c8a864d6",
+        "locale": "zh",
+        "contentHash": "b387e4be08526f15e7277fde9993fcc28ee27e2430daaf7d891b1fba9c64cdf5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/deepseek-v41-flash-1017-update.png"
+      },
+      {
+        "topicId": "ae1846f6-0359-5940-92f6-4dd5c8a864d6",
+        "locale": "en",
+        "contentHash": "5bcaaae943ff22b95c87e47624b6ad5c3fc152e7c7eb2d141a069df64c0d1c86",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/deepseek-v41-flash-1017-update.png"
+      },
+      {
+        "topicId": "38f5f577-dbcb-5644-900a-ad4a3fed4c83",
+        "locale": "zh",
+        "contentHash": "b46643231b9248599b28b658aedd106f7ffa3a945df7a85ad3a3aa738760ff2c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/tapesearch-solo-podcast-search-revenue.png"
+      },
+      {
+        "topicId": "38f5f577-dbcb-5644-900a-ad4a3fed4c83",
+        "locale": "en",
+        "contentHash": "9df3fd72aaff44832ab016d46c8fa357a363a01687c8e9caa3de1d3cd0ac9ade",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/tapesearch-solo-podcast-search-revenue.png"
+      },
+      {
+        "topicId": "fbec5d27-72db-53f7-be5c-c45f356a6456",
+        "locale": "zh",
+        "contentHash": "8af9f91462d103a4cae91e783a7678e3bc7faafb1fa31318416dd78cd49eabad",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/visualizee-ai-architecture-rendering-revenue.png"
+      },
+      {
+        "topicId": "fbec5d27-72db-53f7-be5c-c45f356a6456",
+        "locale": "en",
+        "contentHash": "a17806a5a654fb2ceb1196f2468f9c223dcd35f000a8f75c340fe316828b3d12",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/visualizee-ai-architecture-rendering-revenue.png"
+      },
+      {
+        "topicId": "93012c86-599a-529a-a180-5268b30fdbf2",
+        "locale": "zh",
+        "contentHash": "cec68f55a6d3332bab35f2a2b0b1c7e0002b283315c11ca25851574acb8d1498",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/highland-cross-border-haircare-growth.png"
+      },
+      {
+        "topicId": "93012c86-599a-529a-a180-5268b30fdbf2",
+        "locale": "en",
+        "contentHash": "78e3d1a9128bb76cd6d6eb216fcebef87b333d957810276be7b5c1fa1891f3cd",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/highland-cross-border-haircare-growth.png"
+      },
+      {
+        "topicId": "50eed85c-8bfb-547f-8eb7-679d70613b14",
+        "locale": "zh",
+        "contentHash": "1f8005877eaa91b24e3be776424d0ba54c318755e685866fc52d0f3d9d59d61f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/china-q3-2026-gdp-growth.png"
+      },
+      {
+        "topicId": "50eed85c-8bfb-547f-8eb7-679d70613b14",
+        "locale": "en",
+        "contentHash": "da8d74798e0f055e0ff4fe69eb9afc5fd7aee38af4a2c44396f9649c570b8b0c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/china-q3-2026-gdp-growth.png"
+      },
+      {
+        "topicId": "6752460a-2ba6-5956-9b4d-6f660a0ae901",
+        "locale": "zh",
+        "contentHash": "6f25b4667fc8d5fdfc8e9555f89f63faff1808359613fc24e04ef3eb50bc03c6",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/shabwa-yemen-missile-attack.png"
+      },
+      {
+        "topicId": "6752460a-2ba6-5956-9b4d-6f660a0ae901",
+        "locale": "en",
+        "contentHash": "6cc710d99cb800bc33e4b990efaaaecc4759dd664ed451e8290d77448f2f4ddf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/shabwa-yemen-missile-attack.png"
+      },
+      {
+        "topicId": "f06dbe52-5562-5957-8865-ba901fbc6d08",
+        "locale": "zh",
+        "contentHash": "7973877b6d04a88fe3b02a7043e393d3b7b58db79818cf74c5f5573e57c8d5ee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/who-ageing-global-health-workforce.png"
+      },
+      {
+        "topicId": "f06dbe52-5562-5957-8865-ba901fbc6d08",
+        "locale": "en",
+        "contentHash": "fc502f762bd99637b97f8bffed232c8ed253682c7cfed81e0d890188da11bad1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/who-ageing-global-health-workforce.png"
+      },
+      {
+        "topicId": "9bc8b4e6-e318-562d-8559-15198323c398",
+        "locale": "zh",
+        "contentHash": "d260cfcb5615c11f4b3adb620e273adaa0b54e12789d1f841e61c686a005d778",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/zh/superconducting-neural-chip-fusion-plasma.png"
+      },
+      {
+        "topicId": "9bc8b4e6-e318-562d-8559-15198323c398",
+        "locale": "en",
+        "contentHash": "40ae0e65e0af0ca68b38d75dc530a1c2ae5b160aac5ab4ce14e642ad2ec419d4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261020_13bb1bdbd21838e9decd1db6/en/superconducting-neural-chip-fusion-plasma.png"
+      }
+    ]
+  }
+}
