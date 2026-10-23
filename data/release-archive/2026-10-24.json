@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "xiazi-current-release-v1",
+  "issueDate": "2026-10-24",
+  "releaseId": "rel_20261024_5d0a289eb308bb1ffed30b24",
+  "assetBatchId": "asset_prod_20261024_5d0a289eb308bb1ffed30b24",
+  "posters": [
+    {
+      "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+      "locale": "zh",
+      "contentHash": "fc90118f44813c0f41067c619ad52f71017acd1bf2e074ceef79ad177413ce30",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/global-operator-radar-20261024.png"
+    },
+    {
+      "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+      "locale": "en",
+      "contentHash": "de18707884c0b61ca1b6dce11e468822e5118f8eed07447068662039c2769a0f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/global-operator-radar-20261024.png"
+    },
+    {
+      "topicId": "69c2615b-3536-50a5-9485-85defa21b2d8",
+      "locale": "zh",
+      "contentHash": "88b2a4d443ca31cf1c60c25967f9d16a11cbe39e34f65ec0a969174c41b7aa27",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/openai-orchestra-bio-acquisition.png"
+    },
+    {
+      "topicId": "69c2615b-3536-50a5-9485-85defa21b2d8",
+      "locale": "en",
+      "contentHash": "d0188f8fb4f1a5ffd3e2b0783d06a8e8634433d15911f2fffb311a3e3877441c",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/openai-orchestra-bio-acquisition.png"
+    },
+    {
+      "topicId": "a5e7abc5-6201-5ac0-a1ce-4dbe18e0ff88",
+      "locale": "zh",
+      "contentHash": "89e0cf77625f1c3e676fb3e28d79a74eabe1635500fd885cb03cac4075dc38f9",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/solo-launches-verified-lifetime-revenue.png"
+    },
+    {
+      "topicId": "a5e7abc5-6201-5ac0-a1ce-4dbe18e0ff88",
+      "locale": "en",
+      "contentHash": "202a5034e249e58ef13722de1aaedec451db22af33028c715f053827fcede14e",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/solo-launches-verified-lifetime-revenue.png"
+    },
+    {
+      "topicId": "e74afc09-b093-59e2-a697-703a69a7da70",
+      "locale": "zh",
+      "contentHash": "39aff0a030c65dbd1cd6fceef43dfe7256d2c7cd5bcb33286f7cee75779eeada",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/solo-content-studio-ai-revenue.png"
+    },
+    {
+      "topicId": "e74afc09-b093-59e2-a697-703a69a7da70",
+      "locale": "en",
+      "contentHash": "4bbb0afedbed4338b8cc8ad0f32611aad43249fd52204a298ca94f1941765797",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/solo-content-studio-ai-revenue.png"
+    },
+    {
+      "topicId": "64070a72-8efa-55b6-a8fe-f56e88d07c82",
+      "locale": "zh",
+      "contentHash": "79ecc1ab3a82e5b198940e93c37c6ed59a547be36589aae9352ebb02a1563521",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/itokri-international-revenue-growth.png"
+    },
+    {
+      "topicId": "64070a72-8efa-55b6-a8fe-f56e88d07c82",
+      "locale": "en",
+      "contentHash": "fc5dc254dd476cd7385ebdaae0be7fc2e95e5a581b095a9adf90671f60179d52",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/itokri-international-revenue-growth.png"
+    },
+    {
+      "topicId": "abf6010a-5d24-548e-abe5-ceb3a00abed9",
+      "locale": "zh",
+      "contentHash": "4a1e52a8afa6825a3f80bbc336d938053d0af84621e37c24bc8005bcb21bb829",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/sudan-famine-risk-joint-statement.png"
+    },
+    {
+      "topicId": "abf6010a-5d24-548e-abe5-ceb3a00abed9",
+      "locale": "en",
+      "contentHash": "84afe966db504679f8ad6f3a005ad9d8e06cb9ab08957529b4225cbc6bae0a06",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/sudan-famine-risk-joint-statement.png"
+    },
+    {
+      "topicId": "de9dfe48-b291-5f32-acbf-2ead308de121",
+      "locale": "zh",
+      "contentHash": "89a8b19dbbe1c93ab900efd013e2e8f52033391f3cb5185f1ff1c13f5e9a60ac",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/extra-school-year-dementia-risk.png"
+    },
+    {
+      "topicId": "de9dfe48-b291-5f32-acbf-2ead308de121",
+      "locale": "en",
+      "contentHash": "d342f90472eb9950891d3818c827683b7e1aa0a1f9166ff40f6105abe42b2e19",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/extra-school-year-dementia-risk.png"
+    },
+    {
+      "topicId": "2083540e-0921-58bb-a30f-319197329f6f",
+      "locale": "zh",
+      "contentHash": "4f96de0cc3abd3206267fec5468608dcd482e1687bb6b1b7e028032b0b7cce37",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/invika-precision-t-cell-trial.png"
+    },
+    {
+      "topicId": "2083540e-0921-58bb-a30f-319197329f6f",
+      "locale": "en",
+      "contentHash": "ebb93ebad6ca4710e01b053a1759880547d4739263458900a16455c9a42c5525",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/invika-precision-t-cell-trial.png"
+    },
+    {
+      "topicId": "f74838b2-68f3-5aa1-9235-c166cd340cc7",
+      "locale": "zh",
+      "contentHash": "77ea2c7bb216d1f3523e8cab1bb5ad6cdcf974d05c72441d2c922b25471a932b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/zh/autonomous-quantum-error-correction.png"
+    },
+    {
+      "topicId": "f74838b2-68f3-5aa1-9235-c166cd340cc7",
+      "locale": "en",
+      "contentHash": "855c6c3a038e18d35a8927218ce6e26400db39e5751952963a5d0c2654839f01",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_5d0a289eb308bb1ffed30b24/en/autonomous-quantum-error-correction.png"
+    }
+  ]
+}
