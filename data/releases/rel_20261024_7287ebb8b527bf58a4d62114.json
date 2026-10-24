@@ -1,0 +1,713 @@
+{
+  "issue": {
+    "id": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+    "slug": "2026-10-24",
+    "style": {
+      "name": "De Stijl",
+      "zhName": "风格派",
+      "description": "Style Atlas daily pick: De Stijl / 风格派. Build nine distinct premium editorial scenes from asymmetric orthogonal structure, floating rectangular planes, black vertical and horizontal lines, calm white space, and a disciplined palette of primary red, blue and yellow with black and warm white. Translate every modern news subject into a different spatial narrative rather than repeating a template, generic sphere, three number cards or dashboard. Content, evidence, diagrams and story scenes occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. Reduce information density by about 20%, emphasize one conclusion and no more than three key facts in 3-5 large readable modules, and keep text on calm low-texture fields with generous spacing. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central abstract world-machine, using intersecting planes, offset bands, layered depth and naturally staggered quiet text fields rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each overview sentence must remain complete, with clear 1-8 order and no extra event. Chinese and English keep the same composition, scene, hierarchy and rhythm. Use only the labels 虾子曰： and 豆豆龙： or Xiazi Says: and Doudoulong:. Put the exact text xiazishuo.com legibly in the bottom safe area of every poster. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and artwork filling all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-24",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-24T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-23T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "08485432-00c4-54f8-860d-40120e702c64",
+    "topics": [
+      {
+        "id": "08485432-00c4-54f8-860d-40120e702c64",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "global-operator-radar-20261024",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月24日全球经营雷达",
+            "headlineView": "生命科学AI、单人发布平台、AI内容订阅、印度手工艺出海、苏丹饥荒、教育与痴呆、精准免疫疗法和自主量子纠错进入同一张行动地图",
+            "headlineFull": "10月24日全球经营雷达；生命科学AI、单人发布平台、AI内容订阅、印度手工艺出海、苏丹饥荒、教育与痴呆、精准免疫疗法和自主量子纠错进入同一张行动地图",
+            "intro": "1. OpenAI收购Orchestra Bio，把药物研发的项目协同能力接入生命科学模型Rosalind，交易金额未披露。\n2. Solo Launches由一人运营，向独立开发者出售19美元的精选展示与SEO文章，验证累计收入944美元，但尚无活跃订阅。\n3. Solo Content Studio用AI为教练保留个人语气并批量写内容，Stripe验证MRR 3201美元、59个活跃订阅。\n4. iTokri把近1万名印度工匠的10万多种商品卖向全球，国际收入同比增长91%，复购客户增长42%。\n5. 32个伙伴警告苏丹有1950万人处于严重粮食不安全，500万人已进入紧急等级，冲突和援助受阻正在放大饥荒风险。\n6. 英国延长一年义务教育的自然实验显示，额外一年中学教育让约50年后的痴呆发生率下降0.88个百分点。\n7. 精准T细胞药物invika在27名最佳剂量受试者中让16人的肿瘤停止进展，4人的目标肿瘤缩小超过30%。\n8. 单个囚禁离子的自主纠错把逻辑量子比特寿命延长到约11.6毫秒，并取消重复测量和实时反馈。",
+            "xiaziQuote": "今天的共同信号，是把复杂系统拆成可验证的机制，再判断它能否规模化。",
+            "doudouQuote": "收入、临床结果和实验突破都要同时写清样本、边界与尚未解决的问题。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 24 Global Operator Radar",
+            "headlineView": "Life-science AI, a solo launch platform, AI content subscriptions, Indian crafts abroad, Sudan famine risk, education and dementia, precision immunotherapy and autonomous quantum correction enter one action map",
+            "headlineFull": "October 24 Global Operator Radar; Life-science AI, a solo launch platform, AI content subscriptions, Indian crafts abroad, Sudan famine risk, education and dementia, precision immunotherapy and autonomous quantum correction enter one action map",
+            "intro": "1. OpenAI acquired Orchestra Bio to connect drug-development coordination with its Rosalind life-science models, without disclosing the transaction value.\n2. Solo-run Solo Launches sells $19 featured placements and SEO articles to indie builders, with $944 in verified lifetime revenue but no active subscriptions.\n3. Solo Content Studio uses AI to preserve coaches' individual voices while producing content at scale, with $3,201 Stripe-verified MRR and 59 active subscriptions.\n4. iTokri takes more than 100,000 products from nearly 10,000 Indian artisans worldwide, lifting international revenue 91% year on year and returning customers 42%.\n5. Thirty-two partners warn that 19.5 million people in Sudan face high acute food insecurity and five million are already at emergency levels as conflict and blocked aid deepen famine risk.\n6. A natural experiment from Britain's one-year extension of compulsory schooling links the extra secondary-school year to a 0.88-percentage-point fall in dementia incidence about 50 years later.\n7. Precision T-cell drug invika halted progression in 16 of 27 participants at the optimal dose and shrank target tumors by more than 30% in four.\n8. Autonomous correction in one trapped ion extended logical-qubit lifetime to about 11.6 ms while removing repeated measurement and real-time feedback.",
+            "xiaziQuote": "Today's shared signal is to break complex systems into verifiable mechanisms before deciding whether they can scale.",
+            "doudouQuote": "Revenue, clinical results and laboratory milestones all need their samples, boundaries and unresolved questions beside them.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "7643d97d-c30e-52e7-b621-fa8fb2b32dac",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "OpenAI acquires startup Orchestra Bio to beef up its biotech business",
+            "publisher": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "d01026b6-a6f9-5a52-a722-24e10e6047d4",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "Solo Launches verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/solo-launches",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "07d419d9-3fc1-5642-8525-e68757ba378f",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "Solo Content Studio verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/solo-content-studio",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "223919ce-2820-56f1-b665-f40bf1d4c763",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "iTokri grows international revenue by 91% with automated sales",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/uk/case-studies/itokri",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "890b4b89-cd29-56e2-b03b-374fbda1c893",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "Joint ministerial statement on the risk of famine in Sudan",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/joint-ministerial-statement-on-the-risk-of-famine-in-sudan",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "9f8821f3-eeef-5a92-ad49-8ae1b67c4914",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "An extra year of secondary school lowered dementia diagnoses later in life",
+            "publisher": "National Institutes of Health",
+            "url": "https://www.nih.gov/news-events/news-releases/extra-year-secondary-school-lowered-dementia-diagnoses-later-life",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "78e4e40f-4724-5c85-a376-c7f47539a043",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "A precision T-cell therapy stalls treatment-resistant cancers in clinical trial",
+            "publisher": "National Institutes of Health",
+            "url": "https://www.nih.gov/news-events/news-releases/precision-t-cell-therapy-stalls-treatment-resistant-cancers-clinical-trial",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "d1e58288-4891-5d40-862e-a2e0fc249717",
+            "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+            "title": "Beating the break-even point with autonomous quantum error correction",
+            "publisher": "Nature Physics",
+            "url": "https://www.nature.com/subjects/qubits/nphys",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "69c2615b-3536-50a5-9485-85defa21b2d8",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "openai-orchestra-bio-acquisition",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-openai-orchestra-bio-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI收购Orchestra Bio",
+            "headlineView": "生命科学AI从回答研究问题，进一步进入跨部门、跨伙伴和跨阶段的药物研发项目执行",
+            "headlineFull": "OpenAI收购Orchestra Bio；生命科学AI从回答研究问题，进一步进入跨部门、跨伙伴和跨阶段的药物研发项目执行",
+            "intro": "OpenAI宣布收购Orchestra Bio，并把其团队与技术并入面向生命科学研究的Rosalind模型与工具。Orchestra解决的是药物研发里的协同难题：一个项目往往持续10至15年，牵涉研发、临床、监管、供应链和外部伙伴，信息却分散在不同系统。OpenAI的目标不是只生成分子或总结论文，而是让AI承担专业任务、跟踪依赖关系，并帮助团队把发现推进到真正进入患者的治疗。交易金额和具体整合时间表没有披露；这仍是一项能力与团队收购，不等于新药已获批或产生收入。真正的检验在于Rosalind能否在合规、可审计和人类负责的前提下缩短项目周期。",
+            "xiaziQuote": "AI进入药物研发的下一步，不是多写一份报告，而是把十年项目里断裂的协作链连起来。",
+            "doudouQuote": "收购说明方向，不说明疗效；临床结果、监管批准和真实节省仍要分别验证。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI acquires Orchestra Bio",
+            "headlineView": "Life-science AI moves beyond answering research questions into coordinating drug programs across teams, partners and stages",
+            "headlineFull": "OpenAI acquires Orchestra Bio; Life-science AI moves beyond answering research questions into coordinating drug programs across teams, partners and stages",
+            "intro": "OpenAI said it will acquire Orchestra Bio and bring its team and technology into Rosalind, its models and tools for life-science research. Orchestra addresses the coordination burden inside drug development: programs often run for 10 to 15 years across research, clinical, regulatory, supply-chain and external partners while information remains fragmented across systems. The ambition is not merely to generate molecules or summarize papers, but to let AI handle specialized tasks, track dependencies and help teams move discoveries toward treatments that reach patients. OpenAI did not disclose the transaction value or a detailed integration timetable. This is an acquisition of capability and talent, not evidence that a medicine has been approved or earned revenue. The real test is whether Rosalind can shorten programs while remaining compliant, auditable and under human responsibility.",
+            "xiaziQuote": "The next step for AI in drug development is not another report; it is reconnecting the broken coordination chain inside a decade-long program.",
+            "doudouQuote": "An acquisition signals direction, not efficacy; clinical outcomes, regulatory approval and actual savings still require separate proof.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "fcf572ef-ce79-5642-b0b8-d0c8816bfa7e",
+            "topicId": "69c2615b-3536-50a5-9485-85defa21b2d8",
+            "title": "OpenAI acquires startup Orchestra Bio to beef up its biotech business",
+            "publisher": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a5e7abc5-6201-5ac0-a1ce-4dbe18e0ff88",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "solo-launches-verified-lifetime-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "IN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-solo-launches-opc-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "Solo Launches验证累计收入944美元",
+            "headlineView": "一名创始人把独立产品发布后的持续曝光做成19美元的小额服务，但收入仍是一次性而非订阅",
+            "headlineFull": "Solo Launches验证累计收入944美元；一名创始人把独立产品发布后的持续曝光做成19美元的小额服务，但收入仍是一次性而非订阅",
+            "intro": "Solo Launches由印度创始人Sharanjit Singh一人运营，面向独立开发者和SaaS创始人提供免费产品发布入口，再销售19美元的精选展示与SEO博客文章。TrustMRR通过DodoPayment连接验证其累计收入为944美元，最新资料没有显示活跃订阅或MRR，因此这里不能把一次性成交写成经常性业务。产品卖给缺少分发能力的独立开发者，获客杠杆来自公开目录、搜索内容和被收录产品带来的双边流量；数字交付让边际成本较低。当前限制也很清楚：客单低、复购证据不足、平台需要持续积累真实流量，且对创始人的内容和审核时间有依赖。这个案例的价值不是规模已经很大，而是证明一人可以先把“发布后没人看见”切成一个可收费的窄服务，再检验复购和订阅。",
+            "xiaziQuote": "先卖19美元的明确结果，比先造一个庞大社区更容易知道用户是否真愿意付钱。",
+            "doudouQuote": "944美元是成交证据，不是稳定MRR；下一步要看复购、自然流量和交付时间。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo Launches verifies $944 in lifetime revenue",
+            "headlineView": "One founder turned persistent visibility after product launch into a $19 service, but the money remains one-off rather than subscription revenue",
+            "headlineFull": "Solo Launches verifies $944 in lifetime revenue; One founder turned persistent visibility after product launch into a $19 service, but the money remains one-off rather than subscription revenue",
+            "intro": "Solo Launches is operated by Indian founder Sharanjit Singh as a one-person business. It gives indie builders and SaaS founders a free place to launch products, then sells featured placement and an SEO blog article for $19. TrustMRR verifies $944 in lifetime revenue through DodoPayment, while the latest profile shows no active subscriptions or MRR, so one-off transactions must not be presented as recurring business. The customer is an independent builder short on distribution; acquisition leverage comes from the public directory, search content and the two-sided traffic created by listed products. Digital delivery keeps marginal cost low. The constraints are equally visible: low order value, unproven repeat purchase, the need to keep building real traffic and dependence on the founder's content and review time. The lesson is not that this is already large, but that one person can carve 'nobody sees my launch' into a narrow paid service before testing repeatability and subscriptions.",
+            "xiaziQuote": "Selling a specific $19 outcome reveals willingness to pay sooner than building a large community first.",
+            "doudouQuote": "$944 proves transactions, not stable MRR; repeat purchase, organic traffic and delivery time are the next checks.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "0848f087-f0c9-5bae-ac05-beb7af6a834d",
+            "topicId": "a5e7abc5-6201-5ac0-a1ce-4dbe18e0ff88",
+            "title": "Solo Launches verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/solo-launches",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "e74afc09-b093-59e2-a697-703a69a7da70",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "solo-content-studio-ai-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-solo-content-studio-ai-revenue-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Solo Content Studio验证MRR 3201美元",
+            "headlineView": "AI不替教练写成统一腔调，而是保留个人语气、持续交付团队级内容产量，并按月订阅收费",
+            "headlineFull": "Solo Content Studio验证MRR 3201美元；AI不替教练写成统一腔调，而是保留个人语气、持续交付团队级内容产量，并按月订阅收费",
+            "intro": "Solo Content Studio面向商业、营销和生活方式教练，用AI学习并维持用户的个人表达风格，再批量生成持续发布所需的内容。TrustMRR通过Stripe验证其MRR为3201美元、累计收入27599美元，拥有59个活跃订阅；公开价格是7天免费试用后每月99美元，Pro为每月199美元。AI具体落在语气保持、内容草拟和重复生产流程，变现不是广告或融资，而是教练为稳定内容产能付月费。高客单也意味着产品必须持续证明节省时间且没有抹平个人品牌。公开资料没有披露获客成本、流失率和毛利，创始人的个人受众可能帮助分发，但不能替代可持续渠道证据。当前结果证明小众专业用户愿意为“像自己、但产量更高”付费，而不是只为通用AI写作付费。",
+            "xiaziQuote": "赚钱点不是AI会写，而是它能在高频交付中守住客户最怕丢掉的个人语气。",
+            "doudouQuote": "59个订阅证明需求，真正的增长题是留存、获客成本和每位客户的服务负担。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI",
+            "headlineFact": "Solo Content Studio verifies $3,201 MRR",
+            "headlineView": "Instead of flattening coaches into one AI voice, the product preserves individual tone, delivers team-level content volume and charges monthly",
+            "headlineFull": "Solo Content Studio verifies $3,201 MRR; Instead of flattening coaches into one AI voice, the product preserves individual tone, delivers team-level content volume and charges monthly",
+            "intro": "Solo Content Studio serves business, marketing and lifestyle coaches by using AI to learn and preserve each user's voice while producing the continuing stream of content they need to publish. TrustMRR verifies $3,201 in MRR, $27,599 in lifetime revenue and 59 active subscriptions through Stripe. Public pricing is a seven-day free trial followed by $99 per month, with Pro at $199 per month. AI is applied to voice retention, drafting and repetitive production, and monetization comes from coaches paying for reliable content capacity rather than advertising or funding. The higher price also means the product must keep proving that it saves time without erasing the customer's personal brand. Public data does not disclose acquisition cost, churn or gross margin; the founder's own audience may support distribution but is not proof of a durable channel. The verified result shows that a narrow professional audience will pay for 'more output that still sounds like me,' not merely generic AI writing.",
+            "xiaziQuote": "The money is not in AI being able to write; it is in protecting the voice customers fear losing during high-frequency delivery.",
+            "doudouQuote": "Fifty-nine subscriptions prove demand; retention, acquisition cost and service load per customer define the growth case.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "d8b0f202-3b32-5c8a-8186-46dcf4b6c437",
+            "topicId": "e74afc09-b093-59e2-a697-703a69a7da70",
+            "title": "Solo Content Studio verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/solo-content-studio",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "64070a72-8efa-55b6-a8fe-f56e88d07c82",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "itokri-international-revenue-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "IN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-itokri-crossborder-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "iTokri国际收入同比增长91%",
+            "headlineView": "把近1万名印度工匠的非标手工艺供给组织成10万多SKU，再用自动化活动和个性化结账承接全球需求",
+            "headlineFull": "iTokri国际收入同比增长91%；把近1万名印度工匠的非标手工艺供给组织成10万多SKU，再用自动化活动和个性化结账承接全球需求",
+            "intro": "iTokri销售印度手工艺、织物、珠宝、绘画等商品，连接近1万名工匠并拥有10万多个在售条目，每天还新增500多个SKU。Shopify案例显示，升级运营系统后，其国际收入同比增长91%，复购客户增长42%，管理和促销设置时间减少50%。赚钱机制来自全球买家对本地难以获得的独特手工艺需求，平台通过Launchpad自动化促销、个性化营销、礼品包装和一单多地址配送提高转化与复购，并提前向工匠付款以稳定供给。成本与风险同样具体：90多人团队要处理庞大非标目录、跨境履约、库存、税费与质量一致性，国际收入增长也不等于披露了利润率。这个案例说明跨境优势不只是低价，而是把分散、独特且有文化来源的供给组织成可搜索、可支付、可交付的商品系统。",
+            "xiaziQuote": "真正的跨境壁垒，是让全球买家买到本地找不到的供给，同时把十万种非标商品交付稳定。",
+            "doudouQuote": "91%是国际收入增速，不是利润率；目录、履约和工匠现金流都决定增长能否持续。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border Ecommerce",
+            "headlineFact": "iTokri grows international revenue 91% year on year",
+            "headlineView": "Nearly 10,000 Indian artisans and more than 100,000 non-standard craft SKUs become a global offer through automated campaigns and personalized checkout",
+            "headlineFull": "iTokri grows international revenue 91% year on year; Nearly 10,000 Indian artisans and more than 100,000 non-standard craft SKUs become a global offer through automated campaigns and personalized checkout",
+            "intro": "iTokri sells Indian handicrafts, handlooms, fabrics, jewelry, paintings and other artworks. It connects nearly 10,000 artisans, carries more than 100,000 listings and adds over 500 SKUs a day. Shopify's case study reports that after upgrading operations, international revenue grew 91% year on year, returning customers increased 42% and time spent on administration and sales setup fell 50%. The money mechanism begins with global demand for distinctive crafts unavailable locally. Launchpad automates sales events, while personalized messaging, gift wrapping and multi-address checkout improve conversion and repeat purchase; paying artisans upfront stabilizes supply. Costs and risks are equally concrete: a team of more than 90 must manage a huge non-standard catalog, cross-border fulfillment, inventory, taxes and quality consistency, and international revenue growth does not reveal profit margin. The case shows that cross-border advantage is not only low price; it is organizing fragmented, culturally distinctive supply into a searchable, payable and deliverable product system.",
+            "xiaziQuote": "The real cross-border moat is giving global buyers supply they cannot find locally while delivering 100,000 non-standard products reliably.",
+            "doudouQuote": "Ninety-one percent is international revenue growth, not margin; catalog, fulfillment and artisan cash flow decide whether it lasts.",
+            "footerTakeaway": "Keyword: Cross-Border Ecommerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "3963851d-cb87-5c7c-b526-12e89383364f",
+            "topicId": "64070a72-8efa-55b6-a8fe-f56e88d07c82",
+            "title": "iTokri grows international revenue by 91% with automated sales",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/uk/case-studies/itokri",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "abf6010a-5d24-548e-abe5-ceb3a00abed9",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "sudan-famine-risk-joint-statement",
+        "rank": 6,
+        "category": "international",
+        "region": "Africa",
+        "countryCodes": [
+          "SD"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-sudan-famine-risk-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际",
+            "headlineFact": "苏丹1950万人面临严重粮食不安全",
+            "headlineView": "32个伙伴要求开放跨线、跨境和空中援助通道，避免高风险地区由14个翻倍并出现更大规模饥荒",
+            "headlineFull": "苏丹1950万人面临严重粮食不安全；32个伙伴要求开放跨线、跨境和空中援助通道，避免高风险地区由14个翻倍并出现更大规模饥荒",
+            "intro": "英国与另外31个伙伴10月23日联合警告，苏丹粮食安全正在急剧恶化：1950万人、约占全国人口41%，处于严重急性粮食不安全，其中500万人达到紧急等级。若当前趋势不逆转，严重急性营养不良儿童可能超过预计的82.5万人，高风险地区可能从14个增加一倍。声明把冲突、关键基础设施受损、粮食生产与市场中断、援助被系统性阻碍以及厄尔尼诺带来的少雨和干旱列为共同驱动因素。签署方要求冲突各方开放全部跨线、跨境和空中通道，保护援助人员，不得攻击农业与粮食系统，并呼吁国际社会扩大资金、支持冬季播种。数字是风险预警，不是已经确认所有地区进入饥荒；行动窗口在通道、资金和本地粮食生产同时恢复之前迅速缩小。",
+            "xiaziQuote": "饥荒不是突然发生的天灾，而是冲突、通道和市场连续失灵后可以被看见的结果。",
+            "doudouQuote": "最紧迫的指标不只是人数，而是援助能否通行、冬季作物能否种下、儿童营养能否及时补上。",
+            "footerTakeaway": "今日关键词：国际。"
+          },
+          "en-US": {
+            "categoryLabel": "International",
+            "headlineFact": "19.5 million people in Sudan face high acute food insecurity",
+            "headlineView": "Thirty-two partners call for crossline, cross-border and air access before the 14 high-risk areas double and famine spreads further",
+            "headlineFull": "19.5 million people in Sudan face high acute food insecurity; Thirty-two partners call for crossline, cross-border and air access before the 14 high-risk areas double and famine spreads further",
+            "intro": "The United Kingdom and 31 other partners warned on October 23 that Sudan's food security is deteriorating sharply. An estimated 19.5 million people, about 41% of the population, face high acute food insecurity, including five million at emergency levels. If the trajectory is not reversed, the number of children with severe acute malnutrition could exceed the projected 825,000 and the 14 areas currently assessed at risk could double. The statement identifies conflict, damaged infrastructure, disrupted food production and markets, systematic obstruction of aid, and El Niño-driven low rainfall and drought as connected causes. Signatories demand all crossline, cross-border and air routes be opened, aid workers protected, attacks on agriculture and food systems stopped, and international funding scaled alongside support for winter planting. These figures are a risk warning, not confirmation that every area is already in famine. The action window is narrowing before access, finance and local food production can recover together.",
+            "xiaziQuote": "Famine is not a sudden natural disaster; it is the visible result of conflict, access and markets failing in sequence.",
+            "doudouQuote": "The urgent measure is not only how many people are affected, but whether aid moves, winter crops are planted and children receive nutrition in time.",
+            "footerTakeaway": "Keyword: International."
+          }
+        },
+        "sources": [
+          {
+            "id": "8d2b5fc3-3b9e-513a-b663-3523235c9d2c",
+            "topicId": "abf6010a-5d24-548e-abe5-ceb3a00abed9",
+            "title": "Joint ministerial statement on the risk of famine in Sudan",
+            "publisher": "UK Government",
+            "url": "https://www.gov.uk/government/news/joint-ministerial-statement-on-the-risk-of-famine-in-sudan",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "de9dfe48-b291-5f32-acbf-2ead308de121",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "extra-school-year-dementia-risk",
+        "rank": 7,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-education-dementia-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "健康",
+            "headlineFact": "额外一年中学教育与50年后更低痴呆率相关",
+            "headlineView": "英国1972年义务教育改革形成自然实验，超过10万人的医疗记录把长期相关性推进到更强的因果证据",
+            "headlineFull": "额外一年中学教育与50年后更低痴呆率相关；英国1972年义务教育改革形成自然实验，超过10万人的医疗记录把长期相关性推进到更强的因果证据",
+            "intro": "一项NIH资助研究利用英国1972年把最低离校年龄从15岁提高到16岁的改革，比较改革边界前后出生的人群。改革使留校至16岁的人数增加14%；研究者分析英国生物样本库超过10万名参与者的医疗史、住院记录和死亡登记，发现额外一年教育与随后约50年内阿尔茨海默病及相关痴呆发生率下降0.88个百分点相关，而且携带较高遗传风险变异的人获益信号最强。自然实验比普通观察研究更接近因果识别，但仍有限制：主要比较时最年长参与者只有65岁，痴呆总体发生率较低，随着队列继续老化，差异可能扩大也可能缩小。结果不意味着教育能消除遗传风险，而是说明社会政策可能改变长期脑健康轨迹。",
+            "xiaziQuote": "一次看似普通的教育政策，可能在半个世纪后留下可测量的脑健康结果。",
+            "doudouQuote": "0.88个百分点要放在低基线发生率和年龄上限里理解，但自然实验让因果证据明显更强。",
+            "footerTakeaway": "今日关键词：健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Health",
+            "headlineFact": "One extra year of secondary school links to lower dementia incidence 50 years later",
+            "headlineView": "Britain's 1972 compulsory-schooling reform created a natural experiment that moved evidence from long-term correlation toward causality in more than 100,000 records",
+            "headlineFull": "One extra year of secondary school links to lower dementia incidence 50 years later; Britain's 1972 compulsory-schooling reform created a natural experiment that moved evidence from long-term correlation toward causality in more than 100,000 records",
+            "intro": "An NIH-funded study used Britain's 1972 reform that raised the minimum school-leaving age from 15 to 16 to compare people born just before and after the policy boundary. The reform increased the share staying in school until 16 by 14%. Researchers analyzed medical histories, hospital records and death registries from more than 100,000 UK Biobank participants and linked the extra year of education to a 0.88-percentage-point reduction in Alzheimer's disease and related dementia incidence over roughly the next 50 years. The signal was strongest among people carrying variants associated with higher genetic risk. A natural experiment supports stronger causal inference than a standard observational study, but limits remain: the oldest participants were only 65 at the main comparison, dementia rates were low, and the difference may grow or shrink as the cohort ages. Education does not erase inherited risk; the result shows that social policy may alter long-term brain-health trajectories.",
+            "xiaziQuote": "An ordinary-looking education policy can leave a measurable brain-health result half a century later.",
+            "doudouQuote": "The 0.88-point change belongs beside a low baseline rate and age cap, but the natural experiment makes the causal evidence much stronger.",
+            "footerTakeaway": "Keyword: Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "5c4ee21e-2318-55b4-8590-5ce1c1668980",
+            "topicId": "de9dfe48-b291-5f32-acbf-2ead308de121",
+            "title": "An extra year of secondary school lowered dementia diagnoses later in life",
+            "publisher": "National Institutes of Health",
+            "url": "https://www.nih.gov/news-events/news-releases/extra-year-secondary-school-lowered-dementia-diagnoses-later-life",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "2083540e-0921-58bb-a30f-319197329f6f",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "invika-precision-t-cell-trial",
+        "rank": 8,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-invika-t-cell-therapy-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "医学",
+            "headlineFact": "精准T细胞药物让59.3%的难治肿瘤停止进展",
+            "headlineView": "invika只刺激两类肿瘤浸润T细胞，试图在保留抗肿瘤活性的同时避开广泛免疫激活的严重副作用",
+            "headlineFull": "精准T细胞药物让59.3%的难治肿瘤停止进展；invika只刺激两类肿瘤浸润T细胞，试图在保留抗肿瘤活性的同时避开广泛免疫激活的严重副作用",
+            "intro": "NIH、Mass General Brigham和Memorial Sloan Kettering公布invika首次人体试验的早期结果。该双特异性药物不是广泛激活所有T细胞，而是选择性刺激两类肿瘤浸润淋巴细胞。27名在一期和二期接受最佳剂量的受试者中，16人、即59.3%的疾病没有继续进展；4人、即14.8%的目标肿瘤缩小超过30%，其中包括已经接受第七线治疗的转移性结直肠癌患者。常见流感样副作用总体可管理，非最佳剂量组没有显示显著获益。结果仍来自小规模早期试验，涉及多种肿瘤，稳定不等于治愈，免疫活性也不总会转化为临床获益。下一步要验证更大样本、持续时间、具体癌种和联合治疗。",
+            "xiaziQuote": "精准免疫的价值，不是把免疫系统开到最大，而是只叫醒真正接近肿瘤的那部分细胞。",
+            "doudouQuote": "16人稳定、4人缩瘤值得继续研究，但小样本早期试验离确定疗效还有距离。",
+            "footerTakeaway": "今日关键词：医学。"
+          },
+          "en-US": {
+            "categoryLabel": "Medicine",
+            "headlineFact": "Precision T-cell drug halts progression in 59.3% of refractory tumors",
+            "headlineView": "Invika stimulates only two tumor-infiltrating T-cell groups, seeking antitumor activity without the severe effects of broad immune activation",
+            "headlineFull": "Precision T-cell drug halts progression in 59.3% of refractory tumors; Invika stimulates only two tumor-infiltrating T-cell groups, seeking antitumor activity without the severe effects of broad immune activation",
+            "intro": "The NIH, Mass General Brigham and Memorial Sloan Kettering reported early results from the first human trial of invika. Rather than activating T cells broadly, the bispecific drug selectively stimulates two populations of tumor-infiltrating lymphocytes. Among 27 participants treated at the optimal dose across phases 1 and 2, disease did not progress in 16, or 59.3%, and target tumors shrank by more than 30% in four, or 14.8%. Responders included people with metastatic colorectal cancer receiving seventh-line therapy. Flu-like side effects were generally manageable, while non-optimal dose groups showed no significant benefit. The evidence still comes from a small, early trial spanning several tumor types. Stable disease is not a cure, and immune activity does not always become clinical benefit. Larger samples must test durability, cancer-specific effects and combinations with other treatments.",
+            "xiaziQuote": "Precision immunity is not turning the whole immune system to maximum; it is waking the cells already closest to the tumor.",
+            "doudouQuote": "Sixteen stable cases and four tumor reductions justify more study, but a small early trial remains far from settled efficacy.",
+            "footerTakeaway": "Keyword: Medicine."
+          }
+        },
+        "sources": [
+          {
+            "id": "059846a2-a730-51f7-ad2c-bf351412c786",
+            "topicId": "2083540e-0921-58bb-a30f-319197329f6f",
+            "title": "A precision T-cell therapy stalls treatment-resistant cancers in clinical trial",
+            "publisher": "National Institutes of Health",
+            "url": "https://www.nih.gov/news-events/news-releases/precision-t-cell-therapy-stalls-treatment-resistant-cancers-clinical-trial",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f74838b2-68f3-5aa1-9235-c166cd340cc7",
+        "issueId": "499c725c-3c52-56e0-9c58-ebb7231bf493",
+        "slug": "autonomous-quantum-error-correction",
+        "rank": 9,
+        "category": "technology",
+        "region": "Asia",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-autonomous-quantum-error-correction-20261024",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "科学",
+            "headlineFact": "自主量子纠错把逻辑寿命延长到约11.6毫秒",
+            "headlineView": "一个囚禁离子的多能级结构自动把错误熵搬到运动模式，再由辅助离子冷却清除，无需反复测量和实时反馈",
+            "headlineFull": "自主量子纠错把逻辑寿命延长到约11.6毫秒；一个囚禁离子的多能级结构自动把错误熵搬到运动模式，再由辅助离子冷却清除，无需反复测量和实时反馈",
+            "intro": "发表于Nature Physics的研究在单个囚禁离子的多个内部自旋态中编码逻辑量子比特，并实现超过盈亏平衡点的自主纠错。传统方案通常需要测量错误综合、实时反馈和多个物理量子比特，控制复杂且会引入新错误。团队设计自旋—运动耦合，把错误产生的熵转移到离子运动，再通过辅助离子的同情冷却将其耗散。在注入低频磁噪声的条件下，反复执行协议把逻辑量子比特寿命延长到约11.6毫秒，明显超过约0.9毫秒的物理量子比特和约0.8毫秒的未纠错逻辑量子比特。实验展示的是硬件高效的量子存储路径，不等于通用容错量子计算已经实现；规模化时仍需处理多比特门、纠错周期误差与系统集成。",
+            "xiaziQuote": "最有价值的纠错，是让硬件自己搬走错误，而不是每次都停下来测量和指挥。",
+            "doudouQuote": "11.6毫秒跨过了实验门槛，但从单逻辑比特到可扩展计算仍有多层工程距离。",
+            "footerTakeaway": "今日关键词：科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Science",
+            "headlineFact": "Autonomous quantum correction extends logical lifetime to about 11.6 ms",
+            "headlineView": "A trapped ion's multilevel structure moves error entropy into motion and an ancilla ion cools it away, without repeated measurement or real-time feedback",
+            "headlineFull": "Autonomous quantum correction extends logical lifetime to about 11.6 ms; A trapped ion's multilevel structure moves error entropy into motion and an ancilla ion cools it away, without repeated measurement or real-time feedback",
+            "intro": "A Nature Physics study encoded a logical qubit in multiple internal spin states of one trapped ion and demonstrated autonomous correction beyond the break-even point. Conventional schemes often measure error syndromes, apply real-time feedback and spread encoding across multiple physical qubits, adding control complexity and new error paths. The team engineered spin-motion coupling to transfer error-induced entropy into ion motion, then dissipated it through sympathetic cooling with an ancilla ion. Under injected low-frequency magnetic noise, repeated correction extended logical-qubit lifetime to about 11.6 ms, far beyond roughly 0.9 ms for the physical qubit and 0.8 ms for the uncorrected logical qubit. The experiment demonstrates a hardware-efficient path to quantum memory, not a completed general fault-tolerant computer. Scaling still has to solve multi-qubit gates, cycle errors and system integration.",
+            "xiaziQuote": "The most valuable correction lets hardware carry errors away instead of stopping to measure and command every cycle.",
+            "doudouQuote": "Eleven-point-six milliseconds crosses an experimental threshold, but many engineering layers remain between one logical qubit and scalable computing.",
+            "footerTakeaway": "Keyword: Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "ec1218f8-7056-5f40-9309-9b52f05237de",
+            "topicId": "f74838b2-68f3-5aa1-9235-c166cd340cc7",
+            "title": "Beating the break-even point with autonomous quantum error correction",
+            "publisher": "Nature Physics",
+            "url": "https://www.nature.com/subjects/qubits/nphys",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261024_7287ebb8b527bf58a4d62114"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-24",
+    "releaseId": "rel_20261024_7287ebb8b527bf58a4d62114",
+    "assetBatchId": "asset_prod_20261024_7287ebb8b527bf58a4d62114",
+    "posters": [
+      {
+        "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+        "locale": "zh",
+        "contentHash": "a90c77d4b186b3a77f0c535a53eb85f6985721ac4331c27db4aed7cc041abe06",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/global-operator-radar-20261024.png"
+      },
+      {
+        "topicId": "08485432-00c4-54f8-860d-40120e702c64",
+        "locale": "en",
+        "contentHash": "856a69bd43ff536cec87cad4195809043ddd7f71da349002a6b14fe332a4380c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/global-operator-radar-20261024.png"
+      },
+      {
+        "topicId": "69c2615b-3536-50a5-9485-85defa21b2d8",
+        "locale": "zh",
+        "contentHash": "22a03b312f83c9ca0b077f45a4b29795eec4f1250530e05c9fbafba34bf9a498",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/openai-orchestra-bio-acquisition.png"
+      },
+      {
+        "topicId": "69c2615b-3536-50a5-9485-85defa21b2d8",
+        "locale": "en",
+        "contentHash": "73769b297ab39736cb23e86949a771c2494816a0b0e1b34c9dc0bfda832d7d93",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/openai-orchestra-bio-acquisition.png"
+      },
+      {
+        "topicId": "a5e7abc5-6201-5ac0-a1ce-4dbe18e0ff88",
+        "locale": "zh",
+        "contentHash": "0d3adcec08ecee9215e8c46a19af64358109333a860f2370b4be111cc5dfce0d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/solo-launches-verified-lifetime-revenue.png"
+      },
+      {
+        "topicId": "a5e7abc5-6201-5ac0-a1ce-4dbe18e0ff88",
+        "locale": "en",
+        "contentHash": "14675f0af8a97eacb5e7746dda62b4cc50d49a901806b26f5dab75499dbc0d6d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/solo-launches-verified-lifetime-revenue.png"
+      },
+      {
+        "topicId": "e74afc09-b093-59e2-a697-703a69a7da70",
+        "locale": "zh",
+        "contentHash": "3766700793e086d034d5135c1250c4e916a2529c6826145dd74bb2b36410e080",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/solo-content-studio-ai-revenue.png"
+      },
+      {
+        "topicId": "e74afc09-b093-59e2-a697-703a69a7da70",
+        "locale": "en",
+        "contentHash": "b52b64a26f6142f1b54f61aa1fa02912a938a0aee8d637ed3665fd55146768ac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/solo-content-studio-ai-revenue.png"
+      },
+      {
+        "topicId": "64070a72-8efa-55b6-a8fe-f56e88d07c82",
+        "locale": "zh",
+        "contentHash": "9d7bdf9c9237bd5c9fe0b55268d15060c9c5277900a0503970d2d3ed5c73d2af",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/itokri-international-revenue-growth.png"
+      },
+      {
+        "topicId": "64070a72-8efa-55b6-a8fe-f56e88d07c82",
+        "locale": "en",
+        "contentHash": "8b16374cf881b962bd348ac369b08223ee224f0e84cc711dbfa84d47115a2054",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/itokri-international-revenue-growth.png"
+      },
+      {
+        "topicId": "abf6010a-5d24-548e-abe5-ceb3a00abed9",
+        "locale": "zh",
+        "contentHash": "cb144a570185cff37ddd83dfc127ae9651176860010879d1917255cb497dda0d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/sudan-famine-risk-joint-statement.png"
+      },
+      {
+        "topicId": "abf6010a-5d24-548e-abe5-ceb3a00abed9",
+        "locale": "en",
+        "contentHash": "3f4b41e197c759cfa312253248dfe9ec257e12dc3036761dcc4893c09d6687c7",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/sudan-famine-risk-joint-statement.png"
+      },
+      {
+        "topicId": "de9dfe48-b291-5f32-acbf-2ead308de121",
+        "locale": "zh",
+        "contentHash": "76d8a5da2868cc82b1d7a778482db95d8208e680e8d57544fbdcb7686d51f481",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/extra-school-year-dementia-risk.png"
+      },
+      {
+        "topicId": "de9dfe48-b291-5f32-acbf-2ead308de121",
+        "locale": "en",
+        "contentHash": "d2f26cea1a3e62982f7cd0c4691e244cd32aa9f0259e2451615f334941f21b20",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/extra-school-year-dementia-risk.png"
+      },
+      {
+        "topicId": "2083540e-0921-58bb-a30f-319197329f6f",
+        "locale": "zh",
+        "contentHash": "4f2e3100fcb401919a6bbe2d8f0b881a97f5b2586379f3e006691cc843e4c54e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/invika-precision-t-cell-trial.png"
+      },
+      {
+        "topicId": "2083540e-0921-58bb-a30f-319197329f6f",
+        "locale": "en",
+        "contentHash": "828167b7d62029e34cdc2079977cba6ed9494f0d6ab058a50ac8ee4885e43c1b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/invika-precision-t-cell-trial.png"
+      },
+      {
+        "topicId": "f74838b2-68f3-5aa1-9235-c166cd340cc7",
+        "locale": "zh",
+        "contentHash": "272534888c5bab19db79a760e5295d4d707945df9a8e4c897305cb626943ebd9",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/zh/autonomous-quantum-error-correction.png"
+      },
+      {
+        "topicId": "f74838b2-68f3-5aa1-9235-c166cd340cc7",
+        "locale": "en",
+        "contentHash": "ab9923ee00e6bb220d26aeec08774f63dde55cb58e56a44bb668ff2fa0050917",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261024_7287ebb8b527bf58a4d62114/en/autonomous-quantum-error-correction.png"
+      }
+    ]
+  }
+}
