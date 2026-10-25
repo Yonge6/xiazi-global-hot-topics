@@ -1,0 +1,749 @@
+{
+  "issue": {
+    "id": "6954d607-84d9-5457-8dfd-2943080c3991",
+    "slug": "2026-10-25",
+    "style": {
+      "name": "Futurism",
+      "zhName": "未来主义风格",
+      "description": "Style Atlas daily pick: Futurism / 未来主义风格. Build nine distinct premium editorial scenes with dramatic diagonals, forward motion, layered perspective, speed lines, industrial geometry, luminous metallic surfaces and a disciplined palette of electric red, cobalt, black, silver and warm ivory. Translate every modern news subject into a different spatial narrative rather than repeating a template, generic sphere, three number cards or dashboard. Content, evidence, diagrams and story scenes occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. Reduce information density by about 20%, emphasize one conclusion and no more than three key facts in 3-5 large readable modules, and keep text on calm low-texture fields with generous spacing. NO.01 is the exception: preserve all eight numbered one-sentence summaries exactly around a central accelerating world-machine, using sweeping trajectories, staggered planes and naturally varied quiet text fields rather than a rigid eight-cell grid, table, equal cards, dense borders or tiny type. Each overview sentence must remain complete, with clear 1-8 order and no extra event. Chinese and English keep the same composition, scene, hierarchy and rhythm. Use only the labels 虾子曰： and 豆豆龙： or Xiazi Says: and Doudoulong:. Put the exact text xiazishuo.com legibly in the bottom safe area of every poster. Every raw image must be native 1:2 portrait, every final image exactly 887x1774, with natural undistorted faces, circles, type and characters, and artwork filling all four edges with zero non-design white strips, pillarbox, letterbox or scaling gaps."
+    },
+    "issueDate": "2026-10-25",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-25T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-24T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+    "topics": [
+      {
+        "id": "0bed7168-a399-554d-83d5-894932cee3e9",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "global-operator-radar-20261025",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-overview-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月25日全球经营雷达",
+            "headlineView": "旗舰模型、单人跑步应用、AI设计订阅、日本时尚出海、台风灾情、癌症生存期、钙钛矿寿命与镜像生命预警进入同一张行动地图",
+            "headlineFull": "10月25日全球经营雷达；旗舰模型、单人跑步应用、AI设计订阅、日本时尚出海、台风灾情、癌症生存期、钙钛矿寿命与镜像生命预警进入同一张行动地图",
+            "intro": "1. Kimi K3.1 Pro以3万亿级参数、100万上下文和面向编程、3D与金融研究的增强能力进入应用、代码工具与API。\n2. RunRoutes由一人业余运营，把家门口闭环跑步路线做成应用，验证累计收入926美元、MRR 92美元和12个活跃订阅。\n3. Kodo用AI生成可逐层编辑的演示、海报和菜单，Stripe验证MRR 1573美元、105个活跃订阅和累计收入10924美元。\n4. 日本时尚品牌Her lip to通过本地化语言、货币和跨境结账，让启用跨境服务后六个月的海外销售约增长400%。\n5. 台风薔琵掠过台湾后降为热带风暴，官方统计一人死亡、616人受伤，并收到9027件灾损报告。\n6. 718人的DUO-E三期试验中，度伐利尤单抗联合奥拉帕利方案把晚期或复发子宫内膜癌中位总生存期延长11.5个月。\n7. 韩国团队用氧化镍催化并过滤锂离子，使钙钛矿电池在85°C和85%湿度下1000小时后仍保留95%初始效率。\n8. 英国研究团队提出用圆偏振发光识别分子手性，为尚未出现的镜像生命建立第一种候选检测方法。",
+            "xiaziQuote": "今天的共同信号，是把速度转化为可验证的产品、收入、韧性与安全边界。",
+            "doudouQuote": "增长与突破都要带上样本、时间尺度和限制，才不会把动量误读成终局。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Daily Overview",
+            "headlineFact": "October 25 Global Operator Radar",
+            "headlineView": "A flagship model, solo running app, AI design subscriptions, Japanese fashion abroad, typhoon damage, cancer survival, perovskite durability and mirror-life safeguards enter one action map",
+            "headlineFull": "October 25 Global Operator Radar; A flagship model, solo running app, AI design subscriptions, Japanese fashion abroad, typhoon damage, cancer survival, perovskite durability and mirror-life safeguards enter one action map",
+            "intro": "1. Kimi K3.1 Pro brings 3T-class scale, a one-million-token context and stronger coding, 3D and financial-research capability into apps, coding tools and APIs.\n2. Solo-run RunRoutes turns loops from a runner's front door into an app, with $926 verified lifetime revenue, $92 MRR and 12 active subscriptions.\n3. Kodo uses AI to generate editable layered presentations, posters and menus, with Stripe verifying $1,573 MRR, 105 active subscriptions and $10,924 lifetime revenue.\n4. Japanese fashion brand Her lip to used localized language, currency and cross-border checkout to lift overseas sales about 400% in six months after enabling cross-border services.\n5. Typhoon Champi weakened after brushing Taiwan, where authorities reported one death, 616 injuries and 9,027 damage reports.\n6. In the 718-patient Phase 3 DUO-E trial, a durvalumab-plus-olaparib regimen extended median overall survival by 11.5 months in advanced or recurrent endometrial cancer.\n7. A Korean team used nickel oxide to catalyze and filter lithium ions, helping perovskite cells retain 95% of initial efficiency after 1,000 hours at 85°C and 85% humidity.\n8. UK researchers proposed circularly polarized luminescence as the first candidate method to identify molecular handedness and detect hypothetical mirror life.",
+            "xiaziQuote": "Today's shared signal is to turn speed into verifiable products, revenue, resilience and safety boundaries.",
+            "doudouQuote": "Growth and breakthroughs need samples, time horizons and limits, or momentum gets mistaken for an endpoint.",
+            "footerTakeaway": "Keyword: Daily Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "dbb78e66-dcbf-52ca-850d-74896a1d735a",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "K3.1 Pro Series is live",
+            "publisher": "Kimi Code",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "1fdd6cb5-423d-51dd-b94e-825dbdc9322d",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "RunRoutes verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/runroutes-run-route-planner",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "4e739cca-e9ac-5afc-80d4-912cd5329ede",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "Kodo verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/kodo",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "99093c0b-69b2-5560-a6c6-eaf181f4e2c7",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "Her lip to cross-border growth case study",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/tw/case-studies/her-lip-to",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1a72d4a5-a99e-57a8-bdc3-554c24a71971",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "Champi leaves 1 dead, 616 injured as storm moves away from Taiwan",
+            "publisher": "Focus Taiwan",
+            "url": "https://focustaiwan.tw/society/202610240017",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "bd6767b7-00fd-5a18-b438-f5362fff0797",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "ESMO 2026: Immunotherapy combination extends survival in advanced endometrial cancer",
+            "publisher": "UT MD Anderson Cancer Center",
+            "url": "https://www.mdanderson.org/newsroom/research-newsroom/esmo-2026--immunotherapy-combination-extends-survival-in-advanced-endometrial-cancer.h00-159859290.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "947ea765-fe62-5082-a2bf-69b8773d81d4",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "KIER boosts perovskite solar cell stability to 95% after 1,000 hours",
+            "publisher": "DongA Science",
+            "url": "https://www.dongascience.com/en/news/80358",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "b0297fcf-9f49-56e9-8fcb-8358268e3456",
+            "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+            "title": "Researchers propose first method to detect mirror life",
+            "publisher": "University of Strathclyde",
+            "url": "https://www.strath.ac.uk/whystrathclyde/news/2026/researchersproposefirstmethodtodetectmirrorlife/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "c63961c9-ab2a-5fe3-9574-73eb7825e49b",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "kimi-k31-pro-series-launch",
+        "rank": 2,
+        "category": "technology",
+        "region": "Asia",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-kimi-k31-pro-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Kimi K3.1 Pro正式上线",
+            "headlineView": "3万亿级旗舰把100万上下文、原生视觉和长程智能体能力同时带入代码工具与API",
+            "headlineFull": "Kimi K3.1 Pro正式上线；3万亿级旗舰把100万上下文、原生视觉和长程智能体能力同时带入代码工具与API",
+            "intro": "月之暗面于10月23日上线Kimi K3.1 Pro及Highspeed版本，官方称这是K3.1系列首款、迄今能力最强的3万亿级模型。它提供100万上下文并加强编程、3D创作、金融研究和长程智能体任务；Highspeed保持同等模型质量，速度约提升2至3倍。模型已进入Kimi Code与API，普通版API输入与输出价格分别为每百万token 2美元和10美元，高速版则为4美元和20美元。当前边界是K3.1 Pro只支持思考模式，长上下文还受会员层级限制；官方能力与基准不等于每个真实工作流都更优，采用前仍需同时测试质量、延迟和成本。",
+            "xiaziQuote": "真正改变工作流的不是参数规模，而是长任务能否以可接受的速度和价格完成。",
+            "doudouQuote": "先用自己的代码库和金融任务做小样本对比，再决定是否切换默认模型。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Kimi K3.1 Pro goes live",
+            "headlineView": "A 3T-class flagship brings one-million-token context, native vision and long-horizon agent capability into coding tools and APIs",
+            "headlineFull": "Kimi K3.1 Pro goes live; A 3T-class flagship brings one-million-token context, native vision and long-horizon agent capability into coding tools and APIs",
+            "intro": "Moonshot AI launched Kimi K3.1 Pro and its Highspeed variant on October 23, calling it the first K3.1-series model and its most capable 3T-class system to date. It offers a one-million-token context window and stronger coding, 3D creation, financial research and long-horizon agent performance. Highspeed keeps the same model quality at roughly two to three times the speed. The models are live in Kimi Code and the API, where standard input and output cost $2 and $10 per million tokens; Highspeed costs $4 and $20. The current boundaries are that K3.1 Pro supports thinking mode only and full context depends on membership tier. Official capabilities and benchmarks do not guarantee superiority in every workflow, so teams still need to test quality, latency and cost together.",
+            "xiaziQuote": "What changes a workflow is not parameter count, but whether long tasks finish at an acceptable speed and price.",
+            "doudouQuote": "Test a small sample on your own codebase and finance work before changing the default model.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "4151c580-04a2-5408-9dd7-baf2e0dedba0",
+            "topicId": "c63961c9-ab2a-5fe3-9574-73eb7825e49b",
+            "title": "K3.1 Pro Series is live",
+            "publisher": "Kimi Code",
+            "url": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "6fd517dd-7c3f-54f2-9d16-e23a02aa9c21",
+            "topicId": "c63961c9-ab2a-5fe3-9574-73eb7825e49b",
+            "title": "Kimi API Platform latest models and pricing",
+            "publisher": "Kimi",
+            "url": "https://platform.kimi.ai/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "d5f8d951-c440-5aae-9a9f-7056cf9e9621",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "runroutes-solo-running-app-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "NL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-runroutes-opc-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "RunRoutes一人运营，验证MRR 92美元",
+            "headlineView": "一名荷兰开发者把“从家门口跑一圈”做成跨iPhone、Apple Watch和Android的窄应用",
+            "headlineFull": "RunRoutes一人运营，验证MRR 92美元；一名荷兰开发者把“从家门口跑一圈”做成跨iPhone、Apple Watch和Android的窄应用",
+            "intro": "荷兰开发者Tom在业余时间一人运营RunRoutes：用户输入距离，应用基于真实道路生成从家门口出发又回到原点的跑步环线，并提供语音转向、Apple Watch提示、GPX导出和九周入门计划。TrustMRR通过App Store连接验证累计收入926美元、MRR 92美元、12个活跃订阅，最近30天收入574美元。收费为每周4.99欧元、每年34.99欧元或一次性49.99欧元，获客来自应用商店优化、SEO、Product Hunt和社交平台；数字路线与商店分发放大了一人交付。成本与限制包括应用商店分成、地图与设备维护、客服，以及OpenStreetMap路径可能私有、封闭或不安全；现有订阅样本也仍很小。",
+            "xiaziQuote": "一人公司的杠杆来自把一个高频犹豫，压缩成三次点击就能交付的具体结果。",
+            "doudouQuote": "12个订阅证明有人付钱，还不足以证明留存；路线安全和商店评价会决定下一阶段。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run RunRoutes verifies $92 MRR",
+            "headlineView": "A Dutch developer turned 'run a loop from my front door' into a narrow app across iPhone, Apple Watch and Android",
+            "headlineFull": "Solo-run RunRoutes verifies $92 MRR; A Dutch developer turned 'run a loop from my front door' into a narrow app across iPhone, Apple Watch and Android",
+            "intro": "Dutch developer Tom runs RunRoutes alone in his spare time. A runner enters a distance and the app builds a loop along real streets that starts and ends at the front door, with spoken turns, Apple Watch taps, GPX export and a nine-week beginner plan. TrustMRR verifies $926 lifetime revenue, $92 MRR, 12 active subscriptions and $574 in the last 30 days through an App Store connection. Pricing is EUR4.99 weekly, EUR34.99 yearly or EUR49.99 lifetime. Acquisition comes from app-store optimization, SEO, Product Hunt and social channels, while digital routes and store distribution let one person deliver at scale. Costs and limits include store commissions, map and device maintenance, support, and the possibility that OpenStreetMap paths are private, closed or unsafe. The current subscription sample also remains small.",
+            "xiaziQuote": "A one-person company gains leverage by compressing one recurring hesitation into a result delivered in three taps.",
+            "doudouQuote": "Twelve subscriptions prove payment, not retention; route safety and store reviews will shape the next stage.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "f72abf7c-7623-5c13-96e0-62d42aadfcd7",
+            "topicId": "d5f8d951-c440-5aae-9a9f-7056cf9e9621",
+            "title": "RunRoutes verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/runroutes-run-route-planner",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "9f81ccf3-6d57-51ee-9f45-a541300cdc37",
+            "topicId": "d5f8d951-c440-5aae-9a9f-7056cf9e9621",
+            "title": "Running Route Generator: Loops From Your Own Door",
+            "publisher": "RunRoutes",
+            "url": "https://runroutes.app/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "a5971c23-b322-570e-ade2-e4ea5fc0ba5a",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "kodo-ai-editable-design-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "CA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-kodo-ai-revenue-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Kodo验证MRR 1573美元",
+            "headlineView": "AI不只交付一张扁平图片，而是生成每个文字、图片和版式都可继续编辑的商业设计",
+            "headlineFull": "Kodo验证MRR 1573美元；AI不只交付一张扁平图片，而是生成每个文字、图片和版式都可继续编辑的商业设计",
+            "intro": "Kodo面向独立经营者、品牌和代理商，把一句需求直接生成演示文稿、海报、菜单、社交图等完整设计，并保留文字、图片和样式为可点击编辑的独立图层。TrustMRR通过Stripe验证其累计收入10924美元、MRR 1573美元和105个活跃订阅。产品用积分覆盖模型成本：免费版30积分，付费档为每月12、39和99美元，单张海报约消耗5至10积分，完整演示约30至60积分。变现来自订阅，获客渠道包括SEO、X、LinkedIn和Product Hunt。可编辑交付是用户付费理由，主要限制则是生成成本、设计一致性、留存和与Canva等成熟平台的竞争；注册数或发布热度本身不能替代已验证收入。",
+            "xiaziQuote": "AI设计真正可卖的不是第一张图，而是客户能继续改、继续用、继续交付的文件。",
+            "doudouQuote": "1573美元MRR证明小规模付费，接下来要盯积分毛利、活跃留存和导出后的真实使用。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI Application",
+            "headlineFact": "Kodo verifies $1,573 MRR",
+            "headlineView": "AI delivers more than a flat picture by generating business designs whose text, images and layout remain editable",
+            "headlineFull": "Kodo verifies $1,573 MRR; AI delivers more than a flat picture by generating business designs whose text, images and layout remain editable",
+            "intro": "Kodo serves independent operators, brands and agencies by turning a prompt into complete presentations, posters, menus and social graphics while keeping text, images and styles as separate editable layers. TrustMRR verifies $10,924 lifetime revenue, $1,573 MRR and 105 active subscriptions through Stripe. Credits map usage to model cost: the free plan includes 30 credits, while paid tiers cost $12, $39 and $99 a month; a poster typically uses five to ten credits and a full presentation 30 to 60. Revenue comes from subscriptions, with SEO, X, LinkedIn and Product Hunt listed as acquisition channels. Editable output is the reason to pay. The constraints are generation cost, design consistency, retention and competition with mature platforms such as Canva; signups and launch attention are not substitutes for verified revenue.",
+            "xiaziQuote": "The sellable part of AI design is not the first image, but a file the customer can keep editing, using and delivering.",
+            "doudouQuote": "$1,573 MRR proves small-scale payment; next watch credit margins, active retention and actual use after export.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "cace6e00-347f-58be-9347-ceb119532469",
+            "topicId": "a5971c23-b322-570e-ade2-e4ea5fc0ba5a",
+            "title": "Kodo verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/kodo",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "6ba48506-f1ae-511f-822c-d61d556c38ec",
+            "topicId": "a5971c23-b322-570e-ade2-e4ea5fc0ba5a",
+            "title": "Kodo pricing",
+            "publisher": "Kodo",
+            "url": "https://usekodo.ai/pricing",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "fd1440b5-734a-521f-ade6-6023dd255315",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "her-lip-to-cross-border-sales-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-her-lip-to-crossborder-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Her lip to跨境销售六个月约增长400%",
+            "headlineView": "日本时尚品牌用本地语言、货币与结账降低海外摩擦，同时把复购和整体GMV一起做高",
+            "headlineFull": "Her lip to跨境销售六个月约增长400%；日本时尚品牌用本地语言、货币与结账降低海外摩擦，同时把复购和整体GMV一起做高",
+            "intro": "日本时尚与生活方式品牌Her lip to在启用Shopify跨境电商服务后的六个月里，海外销售约增长400%；案例同时报告，比较前后两个各14个月的期间，GMV增长120%、复购率增长149%。品牌的目标市场从日本扩展到台湾等海外消费者，获客依靠创始人影响力、内容与品牌社区，转化机制则是Translate & Adapt自动本地化、当地货币与更顺畅的Shop Pay结账。赚钱来自服装、美妆和生活方式商品的直接销售，以及更高复购带来的客户终身价值。主要成本与风险是库存、退货、国际物流、关税和本地合规；400%是启用服务后六个月的相对增幅，不代表披露了绝对销售额或利润。",
+            "xiaziQuote": "跨境增长常常不是再买一批流量，而是把语言、货币和结账里的每一处阻力拿掉。",
+            "doudouQuote": "400%增长很醒目，但毛利要扣除库存、退货、物流与关税后才知道。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border E-commerce",
+            "headlineFact": "Her lip to grows cross-border sales about 400% in six months",
+            "headlineView": "The Japanese fashion brand reduced overseas friction with local language, currency and checkout while lifting repeat purchase and total GMV",
+            "headlineFull": "Her lip to grows cross-border sales about 400% in six months; The Japanese fashion brand reduced overseas friction with local language, currency and checkout while lifting repeat purchase and total GMV",
+            "intro": "Japanese fashion and lifestyle brand Her lip to increased overseas sales by about 400% in the six months after enabling Shopify's cross-border services. The case also reports 120% GMV growth and a 149% rise in repeat-customer rate when comparing two consecutive 14-month periods. The target expanded from Japan to markets including Taiwan. Acquisition draws on founder influence, content and brand community, while Translate & Adapt localization, local currency and a smoother Shop Pay checkout improve conversion. Revenue comes from direct sales of apparel, beauty and lifestyle goods, with higher repeat purchase raising customer lifetime value. The main costs and risks are inventory, returns, international fulfillment, duties and local compliance. The 400% figure is a relative six-month increase after activation; the case does not disclose absolute overseas sales or profit.",
+            "xiaziQuote": "Cross-border growth often comes not from buying more traffic, but from removing each language, currency and checkout barrier.",
+            "doudouQuote": "A 400% increase is striking, but margin appears only after inventory, returns, logistics and duties.",
+            "footerTakeaway": "Keyword: Cross-Border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "0904c56a-a1e2-5fab-8e1c-1f5d4e5d18ef",
+            "topicId": "fd1440b5-734a-521f-ade6-6023dd255315",
+            "title": "Her lip to sees a 400% increase in cross-border ecommerce",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/tw/case-studies/her-lip-to",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a9d54f4d-67a7-53cc-a0e3-979f9890786a",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "typhoon-champi-taiwan-damage",
+        "rank": 6,
+        "category": "international",
+        "region": "Asia",
+        "countryCodes": [
+          "TW"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-typhoon-champi-taiwan-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "国际",
+            "headlineFact": "台风薔琵在台湾造成1死616伤",
+            "headlineView": "风暴中心没有登陆，广阔风圈仍带来大范围强风、树木倒伏与基础设施损害",
+            "headlineFull": "台风薔琵在台湾造成1死616伤；风暴中心没有登陆，广阔风圈仍带来大范围强风、树木倒伏与基础设施损害",
+            "intro": "台湾中央灾害应变中心称，薔琵从台风减弱为热带风暴并于10月24日下午远离台湾后，已造成1人死亡、616人受伤，没有人员失踪。全台收到9027件灾损报告，其中3287件涉及倒树；新北、屏东、宜兰、台东等地仍受外围环流影响。气象部门当天下午解除陆上警报，晚间解除海上警报，系统随后朝日本南部移动。这个事件说明，中心不登陆并不等于低风险：大型风圈仍能通过阵风、豪雨、电力与交通中断制造广泛损失。当前数字是当日傍晚的阶段统计，灾损修复与伤者情况仍可能继续更新。",
+            "xiaziQuote": "面对大型风暴，路线预测只是第一层信息，真正要看的是风圈、地形和基础设施暴露。",
+            "doudouQuote": "警报解除意味着威胁下降，不意味着倒树、积水和修复风险立刻归零。",
+            "footerTakeaway": "今日关键词：国际。"
+          },
+          "en-US": {
+            "categoryLabel": "International",
+            "headlineFact": "Typhoon Champi leaves 1 dead and 616 injured in Taiwan",
+            "headlineView": "The center never made landfall, yet the storm's broad circulation still produced widespread wind, fallen trees and infrastructure damage",
+            "headlineFull": "Typhoon Champi leaves 1 dead and 616 injured in Taiwan; The center never made landfall, yet the storm's broad circulation still produced widespread wind, fallen trees and infrastructure damage",
+            "intro": "Taiwan's Central Emergency Operation Center said Champi had weakened from a typhoon to a tropical storm and moved away on the afternoon of October 24 after causing one death and 616 injuries, with nobody missing. Authorities received 9,027 damage reports nationwide, including 3,287 involving fallen trees, while outer circulation still affected New Taipei, Pingtung, Yilan, Taitung and other areas. Weather officials lifted the land warning in the afternoon and the sea warning that evening as the system moved toward southern Japan. The event shows why a center that does not make landfall can still be dangerous: a large wind field can disrupt power, transport and infrastructure over a wide area. These were evening-stage figures, so repair and injury totals could continue to change.",
+            "xiaziQuote": "For a large storm, the track is only the first layer; wind field, terrain and infrastructure exposure determine damage.",
+            "doudouQuote": "A lifted warning means the threat is falling, not that fallen trees, flooding and repair risks instantly disappear.",
+            "footerTakeaway": "Keyword: International."
+          }
+        },
+        "sources": [
+          {
+            "id": "558ce836-a515-5ae3-9a37-5ffb3e2cea45",
+            "topicId": "a9d54f4d-67a7-53cc-a0e3-979f9890786a",
+            "title": "Champi leaves 1 dead, 616 injured as storm moves away from Taiwan",
+            "publisher": "Focus Taiwan",
+            "url": "https://focustaiwan.tw/society/202610240017",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "9d6f339e-1936-58cd-9615-635cb2a268e0",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "duo-e-endometrial-cancer-survival",
+        "rank": 7,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-duoe-endometrial-survival-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "健康与科学",
+            "headlineFact": "联合方案把子宫内膜癌中位生存期延长11.5个月",
+            "headlineView": "DUO-E三期试验首次显示免疫治疗加PARP抑制剂的长期总生存获益",
+            "headlineFull": "联合方案把子宫内膜癌中位生存期延长11.5个月；DUO-E三期试验首次显示免疫治疗加PARP抑制剂的长期总生存获益",
+            "intro": "全球DUO-E三期试验纳入718名晚期或复发子宫内膜癌患者。与单用化疗后安慰剂相比，化疗联合度伐利尤单抗、随后以度伐利尤单抗加奥拉帕利维持的组别，中位总生存期达到51.1个月，延长11.5个月；36个月时存活比例为63.4%，对照组为52%。研究者称，错配修复功能正常、过去治疗选择较少的多数患者也观察到获益，且本次分析没有发现新的安全信号。结果于ESMO 2026公布，研究由阿斯利康资助，最终总生存分析仍在继续，因此这是一项重要三期结果，不等同于对每位患者的确定疗效或新的自动用药标准。",
+            "xiaziQuote": "从延缓进展走到延长总生存，是癌症试验里更接近患者真实结果的一步。",
+            "doudouQuote": "同时看绝对月份、36个月生存率、资助来源和最终分析，避免只读一个漂亮数字。",
+            "footerTakeaway": "今日关键词：健康与科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Health and Science",
+            "headlineFact": "Combination extends median endometrial-cancer survival by 11.5 months",
+            "headlineView": "The Phase 3 DUO-E trial reports the first long-term overall-survival benefit from combining immunotherapy with a PARP inhibitor",
+            "headlineFull": "Combination extends median endometrial-cancer survival by 11.5 months; The Phase 3 DUO-E trial reports the first long-term overall-survival benefit from combining immunotherapy with a PARP inhibitor",
+            "intro": "The global Phase 3 DUO-E trial enrolled 718 patients with advanced or recurrent endometrial cancer. Compared with chemotherapy followed by placebo, chemotherapy plus durvalumab followed by maintenance durvalumab and olaparib produced median overall survival of 51.1 months, an 11.5-month extension. At 36 months, 63.4% of patients in that arm were alive versus 52% in the control arm. Researchers also observed benefit among the majority with mismatch-repair-proficient tumors, who historically have fewer effective options, and reported no new safety signals in this analysis. The findings were presented at ESMO 2026 and the study was funded by AstraZeneca. Final overall-survival analysis continues, so this is an important Phase 3 result, not a guaranteed outcome for every patient or an automatic new treatment standard.",
+            "xiaziQuote": "Moving from delayed progression to longer overall survival brings a cancer trial closer to the outcome patients actually feel.",
+            "doudouQuote": "Read absolute months, 36-month survival, funding and the pending final analysis together, not one attractive number.",
+            "footerTakeaway": "Keyword: Health and Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "52275166-419c-5062-b839-611588ca0f75",
+            "topicId": "9d6f339e-1936-58cd-9615-635cb2a268e0",
+            "title": "ESMO 2026: Immunotherapy combination extends survival in advanced endometrial cancer",
+            "publisher": "UT MD Anderson Cancer Center",
+            "url": "https://www.mdanderson.org/newsroom/research-newsroom/esmo-2026--immunotherapy-combination-extends-survival-in-advanced-endometrial-cancer.h00-159859290.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c0a7590a-68d6-57c9-ae7e-2af9f7ee42f4",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "perovskite-nickel-oxide-lifetime",
+        "rank": 8,
+        "category": "science",
+        "region": "Asia",
+        "countryCodes": [
+          "KR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-perovskite-niox-lifetime-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "能源与科学",
+            "headlineFact": "钙钛矿电池高温高湿1000小时后保留95%效率",
+            "headlineView": "氧化镍先催化反应、再连同锂离子一起被过滤，绕开寿命与效率的传统取舍",
+            "headlineFull": "钙钛矿电池高温高湿1000小时后保留95%效率；氧化镍先催化反应、再连同锂离子一起被过滤，绕开寿命与效率的传统取舍",
+            "intro": "韩国能源研究院与蔚山科学技术院团队针对正置钙钛矿电池寿命短的问题，开发了“先催化、后过滤”的制程。氧化镍粉末先促进空穴传输层所需反应并吸附锂离子，随后连同锂相关副产物一起被物理过滤，得到不含残余锂和挥发性添加剂的溶液。制成的电池在85°C、85%相对湿度下测试1000小时后仍保留95%初始效率，功率转换效率达到25.24%，略高于传统含添加剂工艺的25.21%。这解决的是实验器件的一项关键耐久性机制；距离大面积组件、长期户外运行、规模制造和成本验证仍有明显距离。",
+            "xiaziQuote": "好的材料创新不是只追一个峰值，而是把效率、寿命和制造步骤放在同一条线上。",
+            "doudouQuote": "1000小时湿热测试很重要，但还要等组件尺寸、户外年限和量产良率。",
+            "footerTakeaway": "今日关键词：能源与科学。"
+          },
+          "en-US": {
+            "categoryLabel": "Energy and Science",
+            "headlineFact": "Perovskite cell retains 95% efficiency after 1,000 hot-humid hours",
+            "headlineView": "Nickel oxide catalyzes the reaction and is then filtered out with lithium ions, avoiding the usual lifetime-efficiency tradeoff",
+            "headlineFull": "Perovskite cell retains 95% efficiency after 1,000 hot-humid hours; Nickel oxide catalyzes the reaction and is then filtered out with lithium ions, avoiding the usual lifetime-efficiency tradeoff",
+            "intro": "A team from the Korea Institute of Energy Research and UNIST developed a catalyze-then-filter process for the short lifetime of regular-architecture perovskite cells. Nickel-oxide powder first promotes the needed reaction in the hole-transport layer and captures lithium ions, then is physically filtered out together with lithium-related byproducts, leaving a solution without residual lithium or volatile additives. Cells made this way retained 95% of initial efficiency after 1,000 hours at 85°C and 85% relative humidity. Power-conversion efficiency reached 25.24%, slightly above the 25.21% achieved with the conventional additive process. The work addresses one durability mechanism in laboratory devices; large modules, years of outdoor operation, manufacturing scale and cost still require validation.",
+            "xiaziQuote": "Good materials innovation does not chase one peak number; it aligns efficiency, lifetime and manufacturing steps.",
+            "doudouQuote": "A 1,000-hour damp-heat test matters, but module size, outdoor years and production yield still come next.",
+            "footerTakeaway": "Keyword: Energy and Science."
+          }
+        },
+        "sources": [
+          {
+            "id": "17284ead-cc0f-5b7f-928a-2b4fcf1a7933",
+            "topicId": "c0a7590a-68d6-57c9-ae7e-2af9f7ee42f4",
+            "title": "KIER boosts perovskite solar cell stability to 95% after 1,000 hours",
+            "publisher": "DongA Science",
+            "url": "https://www.dongascience.com/en/news/80358",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "cda470af-1e36-534c-b989-79e50613a423",
+        "issueId": "6954d607-84d9-5457-8dfd-2943080c3991",
+        "slug": "mirror-life-cpl-detection-method",
+        "rank": 9,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-mirror-life-detection-20261025",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生物安全",
+            "headlineFact": "研究团队提出首种镜像生命候选检测方法",
+            "headlineView": "用圆偏振发光读取分子左右手性，为尚未出现的合成生物风险提前建立传感器",
+            "headlineFull": "研究团队提出首种镜像生命候选检测方法；用圆偏振发光读取分子左右手性，为尚未出现的合成生物风险提前建立传感器",
+            "intro": "杜伦大学与斯特拉斯克莱德大学研究者提出，用圆偏振发光检测生命分子的“左右手性”。自然生命的蛋白质、DNA和糖具有固定方向，而理论上的镜像生命会采用相反手性，现有生物监测工具可能难以识别。团队建议让荧光分子与细胞结构结合，再读取其发出的左旋或右旋偏振光，从而把手性差异转成可测信号；论文发表于Royal Society Open Science，并认为该原理未来可适配多种设备。镜像生命目前仍不存在，完整镜像生物也可能还需数十年，这是一种预防性候选方法，尚未在真实镜像细胞上验证。",
+            "xiaziQuote": "高风险技术最便宜的安全窗口，往往是在它还没被造出来之前先准备好检测。",
+            "doudouQuote": "这是检测原理，不是现成报警器；下一步要验证灵敏度、误报和复杂环境表现。",
+            "footerTakeaway": "今日关键词：生物安全。"
+          },
+          "en-US": {
+            "categoryLabel": "Biosafety",
+            "headlineFact": "Researchers propose the first candidate detector for mirror life",
+            "headlineView": "Circularly polarized luminescence reads molecular handedness, preparing a sensor for a synthetic-biology risk that does not yet exist",
+            "headlineFull": "Researchers propose the first candidate detector for mirror life; Circularly polarized luminescence reads molecular handedness, preparing a sensor for a synthetic-biology risk that does not yet exist",
+            "intro": "Researchers at Durham and Strathclyde proposed using circularly polarized luminescence to detect the left-right handedness, or chirality, of life's molecules. Natural proteins, DNA and sugars use fixed orientations, while hypothetical mirror life would use the opposite chirality and could evade existing biological surveillance. The team suggests binding fluorescent molecules to cellular structures and reading whether they emit left- or right-handed polarized light, turning chirality into a measurable signal. The paper appears in Royal Society Open Science and the principle could eventually fit a range of devices. Mirror life does not currently exist and a complete mirror organism may be decades away. This is a preventive candidate method, not a detector already validated on real mirror cells.",
+            "xiaziQuote": "The cheapest safety window for a high-risk technology is often before it exists, when detection can be prepared first.",
+            "doudouQuote": "This is a detection principle, not a finished alarm; sensitivity, false positives and complex environments come next.",
+            "footerTakeaway": "Keyword: Biosafety."
+          }
+        },
+        "sources": [
+          {
+            "id": "68bbc91f-9e83-5a18-a9dd-5556f9c9cb3a",
+            "topicId": "cda470af-1e36-534c-b989-79e50613a423",
+            "title": "Researchers propose first method to detect mirror life",
+            "publisher": "University of Strathclyde",
+            "url": "https://www.strath.ac.uk/whystrathclyde/news/2026/researchersproposefirstmethodtodetectmirrorlife/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261025_04fbc2b0443f512e2377fad5"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-25",
+    "releaseId": "rel_20261025_04fbc2b0443f512e2377fad5",
+    "assetBatchId": "asset_prod_20261025_04fbc2b0443f512e2377fad5",
+    "posters": [
+      {
+        "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+        "locale": "zh",
+        "contentHash": "709234daf84467570436a7059679b333aaf149c7c4d804f4c83ffe6e78dbe430",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/global-operator-radar-20261025.png"
+      },
+      {
+        "topicId": "0bed7168-a399-554d-83d5-894932cee3e9",
+        "locale": "en",
+        "contentHash": "20b7cb086eade0739876ff3b7b9ed4ebad3287f48b9760b9a951f05eb93e30c1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/global-operator-radar-20261025.png"
+      },
+      {
+        "topicId": "c63961c9-ab2a-5fe3-9574-73eb7825e49b",
+        "locale": "zh",
+        "contentHash": "22a6e7bea5a28c88e763f8e3384e0f262daa1d59da3e56f6bedae001aad1b367",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/kimi-k31-pro-series-launch.png"
+      },
+      {
+        "topicId": "c63961c9-ab2a-5fe3-9574-73eb7825e49b",
+        "locale": "en",
+        "contentHash": "a292d7c4c52a984259330425d184a7cc105e89fa51916e9ca63854fbc6299967",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/kimi-k31-pro-series-launch.png"
+      },
+      {
+        "topicId": "d5f8d951-c440-5aae-9a9f-7056cf9e9621",
+        "locale": "zh",
+        "contentHash": "2615a64481c85de68e0e7318925a8f96e5b8707d0935239002cad54a41e2ecea",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/runroutes-solo-running-app-revenue.png"
+      },
+      {
+        "topicId": "d5f8d951-c440-5aae-9a9f-7056cf9e9621",
+        "locale": "en",
+        "contentHash": "8783169e5ea659d3e8a498aa4cc1ee469fc700b63faca293f69a087fa18d2494",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/runroutes-solo-running-app-revenue.png"
+      },
+      {
+        "topicId": "a5971c23-b322-570e-ade2-e4ea5fc0ba5a",
+        "locale": "zh",
+        "contentHash": "045d132c097d25c1bc7342cdb4e8bd0031fcadcb6e50feaa78a08a6dac84b903",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/kodo-ai-editable-design-revenue.png"
+      },
+      {
+        "topicId": "a5971c23-b322-570e-ade2-e4ea5fc0ba5a",
+        "locale": "en",
+        "contentHash": "c8965583c7a371c284b94fa6b190b04a35ba90e4a1d0a3bd17a12dcc77e302e3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/kodo-ai-editable-design-revenue.png"
+      },
+      {
+        "topicId": "fd1440b5-734a-521f-ade6-6023dd255315",
+        "locale": "zh",
+        "contentHash": "95a4c6939d89de59a926368a2f3b48e65365c015c6d769036fee413e0bacdbbc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/her-lip-to-cross-border-sales-growth.png"
+      },
+      {
+        "topicId": "fd1440b5-734a-521f-ade6-6023dd255315",
+        "locale": "en",
+        "contentHash": "72de09a2304d8c6bdfd624163340f8a800343f2494fb0b6caa4410bd240f1af8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/her-lip-to-cross-border-sales-growth.png"
+      },
+      {
+        "topicId": "a9d54f4d-67a7-53cc-a0e3-979f9890786a",
+        "locale": "zh",
+        "contentHash": "2a23b536121817c0448916bbdafb1676f8003321fc4436266da79202e7b7f413",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/typhoon-champi-taiwan-damage.png"
+      },
+      {
+        "topicId": "a9d54f4d-67a7-53cc-a0e3-979f9890786a",
+        "locale": "en",
+        "contentHash": "3d0c66783224eda3961882e78193f9c78b4a4854a7b776ea248f79af96def331",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/typhoon-champi-taiwan-damage.png"
+      },
+      {
+        "topicId": "9d6f339e-1936-58cd-9615-635cb2a268e0",
+        "locale": "zh",
+        "contentHash": "5b84490e394b80113cd0305739978dcfa9e9cfb17d9090d7890dad498797b291",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/duo-e-endometrial-cancer-survival.png"
+      },
+      {
+        "topicId": "9d6f339e-1936-58cd-9615-635cb2a268e0",
+        "locale": "en",
+        "contentHash": "9832a3c6d7b9fa43f3622c759919c2116ce38c6b94664cdb3dda5e76d46114f8",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/duo-e-endometrial-cancer-survival.png"
+      },
+      {
+        "topicId": "c0a7590a-68d6-57c9-ae7e-2af9f7ee42f4",
+        "locale": "zh",
+        "contentHash": "02f768cacf3bdad515120af7571bf11d291e73ad3b3cb9e1026a9591389ab763",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/perovskite-nickel-oxide-lifetime.png"
+      },
+      {
+        "topicId": "c0a7590a-68d6-57c9-ae7e-2af9f7ee42f4",
+        "locale": "en",
+        "contentHash": "8ac114092ffe24b9dc943cae542b4ff8876390d8820e9a849d8e085eea02756e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/perovskite-nickel-oxide-lifetime.png"
+      },
+      {
+        "topicId": "cda470af-1e36-534c-b989-79e50613a423",
+        "locale": "zh",
+        "contentHash": "0e78334d22c6614dbeec655918ca53b2ee1fed5e64f79ee371e99492ab75717e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/zh/mirror-life-cpl-detection-method.png"
+      },
+      {
+        "topicId": "cda470af-1e36-534c-b989-79e50613a423",
+        "locale": "en",
+        "contentHash": "d955dfe6b3f66b77d6e27c43046742a98b7666306646a556b99074bc93943a8e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261025_04fbc2b0443f512e2377fad5/en/mirror-life-cpl-detection-method.png"
+      }
+    ]
+  }
+}
