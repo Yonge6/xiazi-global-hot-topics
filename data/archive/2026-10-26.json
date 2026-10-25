@@ -1,0 +1,593 @@
+{
+  "id": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+  "slug": "2026-10-26",
+  "style": {
+    "name": "Minimalism",
+    "zhName": "极简主义风格",
+    "description": "Style Atlas daily pick: Minimalism / 极简主义风格. Use restrained editorial geometry, a limited palette, generous breathing room, strong hierarchy and one memorable visual metaphor per story. Keep every poster visually rich enough to explain the news, but reduce information density by about 20%: one conclusion and at most three large facts in three to five calm modules. Content and evidence occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. Avoid dashboards, dense grids, repeated three-card templates, generic spheres and decorative noise. NO.01 preserves all eight numbered one-sentence summaries exactly, arranged in a natural flowing composition around one central world motif rather than an eight-box grid. Every poster must be native 1:2 and 887x1774, with undistorted figures, circles and type, visible xiazishuo.com in the bottom safe area, and no full-edge white or near-white strip. Because this is Minimalism, use a dark or colored edge-to-edge frame or edge field so the canvas is fully filled while interior quiet areas may use warm ivory."
+  },
+  "issueDate": "2026-10-26",
+  "slotHour": 4,
+  "beijingTimestamp": "2026-10-26T04:00:00+08:00",
+  "gmtTimestamp": "2026-10-25T20:00:00.000Z",
+  "status": "published",
+  "featuredTopicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+  "topics": [
+    {
+      "id": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "global-operator-radar-20261026",
+      "rank": 1,
+      "category": "international",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 98,
+      "storyId": "xzs-global-radar-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "今日总览",
+          "headlineFact": "10月26日全球经营雷达",
+          "headlineView": "企业AI、单人数据API、AI工作台、巴西跨境服装、靶向药、脑机接口、冰盖逆转与细菌黏附进入同一张行动地图",
+          "headlineFull": "10月26日全球经营雷达；企业AI、单人数据API、AI工作台、巴西跨境服装、靶向药、脑机接口、冰盖逆转与细菌黏附进入同一张行动地图",
+          "intro": "1. ARIS把流程挖掘、流程透镜与MCP合成企业AI的流程上下文层。\n2. Captapi一人运营，验证MRR 537美元。\n3. Morphy把多个AI编码Agent并排放进一个桌面画布，验证MRR 245美元。\n4. 巴西跨境服装案例年GMV达3200万雷亚尔，90天复购提升47%。\n5. Divarasib把KRAS G12C肺癌中位总生存期从12个月提高到17.7个月。\n6. 无反应ICU患者中约三分之一能用脑电信号控制提示音。\n7. 证据显示下一次冰期已经启动，却在约1960年被全球变暖打断。\n8. 细菌黏附蛋白可在轻度酸化时直接解开共价连接。",
+          "xiaziQuote": "今天的共同线索，是把复杂系统压缩成可执行的上下文、接口和反馈。",
+          "doudouQuote": "先分清厂商口径、支付验证、临床试验和基础研究，再决定哪条信息能直接行动。",
+          "footerTakeaway": "今日关键词：今日总览。"
+        },
+        "en-US": {
+          "categoryLabel": "Today's Overview",
+          "headlineFact": "October 26 Global Operator Radar",
+          "headlineView": "Enterprise AI, a solo data API, an AI workspace, Brazilian cross-border apparel, targeted therapy, brain-computer interfaces, glacial reversal and bacterial adhesion form one action map",
+          "headlineFull": "October 26 Global Operator Radar; Enterprise AI, a solo data API, an AI workspace, Brazilian cross-border apparel, targeted therapy, brain-computer interfaces, glacial reversal and bacterial adhesion form one action map",
+          "intro": "1. ARIS combines process mining, Process Lens and MCP into a process-context layer for enterprise AI.\n2. Solo-run Captapi verifies $537 MRR.\n3. Morphy puts multiple AI coding agents side by side on one desktop canvas and verifies $245 MRR.\n4. A Brazilian cross-border apparel case reports R$32 million annual GMV and 47% higher 90-day repeat orders.\n5. Divarasib raises median overall survival in KRAS G12C lung cancer from 12 to 17.7 months.\n6. About one in three unresponsive ICU patients controlled a tone through EEG signals.\n7. Evidence suggests the next glacial period had begun before global warming reversed it around 1960.\n8. Bacterial adhesion proteins can directly release a covalent bond when conditions become mildly acidic.",
+          "xiaziQuote": "Today's common thread is compressing complex systems into usable context, interfaces and feedback.",
+          "doudouQuote": "Separate vendor claims, payment verification, clinical trials and basic research before deciding what is actionable.",
+          "footerTakeaway": "Keyword: Today's Overview."
+        }
+      },
+      "sources": [
+        {
+          "id": "d2c7f7a1-04cd-5b5a-9671-8d6874034353",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "ARIS Launches Process Context for Enterprise AI",
+          "publisher": "ARIS",
+          "url": "https://aris.com/newsroom/aris-launches-process-context-for-enterprise-ai/",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        },
+        {
+          "id": "ffbf2419-9982-55d8-b68c-b32a856185e0",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "Captapi verified revenue profile",
+          "publisher": "TrustMRR",
+          "url": "https://trustmrr.com/startup/captapi",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "846ef685-36b6-5986-8897-a129a268b33f",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "Morphy verified revenue profile",
+          "publisher": "TrustMRR",
+          "url": "https://trustmrr.com/startup/morphy",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "72b6489a-6d4e-5c6b-8aa0-7137cf07e980",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "Cross-Border Apparel Case Study: 9-Day DDP to Brazil",
+          "publisher": "FFOrder",
+          "url": "https://www.fforder.com/resources/cross-border-apparel-case-study",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "067252fe-ac8e-52d5-953a-f480ea56c32f",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "ESMO 2026: New targeted therapy improved survival for patients with KRAS-mutated lung cancer",
+          "publisher": "UT MD Anderson Cancer Center",
+          "url": "https://www.mdanderson.org/newsroom/research-newsroom/esmo-2026--new-targeted-therapy-improved-survival-for-patients-with-KRAS-mutated-lung-cancer.h00-159859290.html",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "10809f7a-f176-53ee-b38b-011771d98554",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "A Brain-Computer Interface May Give Unresponsive ICU Patients a Voice",
+          "publisher": "Columbia University Irving Medical Center",
+          "url": "https://www.cuimc.columbia.edu/news/brain-computer-interface-may-give-unresponsive-icu-patients-voice",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "4ec83e13-9f81-5ffc-94ad-ade3802ed38a",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "Climate Change Stopped the Next Ice Age",
+          "publisher": "Columbia Climate School",
+          "url": "https://news.climate.columbia.edu/2026/10/22/climate-change-stopped-the-next-ice-age/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        },
+        {
+          "id": "14624fb4-28f9-5bb8-bb6d-69cc8ba9e8f9",
+          "topicId": "7b75e6c3-dd56-51a1-8829-4890db0e290f",
+          "title": "A chemically encoded pH sensor enables bacterial adhesion proteins to let go",
+          "publisher": "The University of Tokyo",
+          "url": "https://www.t.u-tokyo.ac.jp/en/press/pr2026-10-22-001",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": false
+        }
+      ]
+    },
+    {
+      "id": "91f77a54-c0a6-5ca0-87e5-c42d01bd7304",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "aris-process-context-enterprise-ai",
+      "rank": 2,
+      "category": "technology",
+      "region": "Europe",
+      "countryCodes": [
+        "DE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 97,
+      "storyId": "xzs-aris-process-context-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "AI",
+          "headlineFact": "ARIS发布企业AI流程上下文层",
+          "headlineView": "流程挖掘、流程透镜与MCP把角色、系统、规则、风险和控制一起交给Agent",
+          "headlineFull": "ARIS发布企业AI流程上下文层；流程挖掘、流程透镜与MCP把角色、系统、规则、风险和控制一起交给Agent",
+          "intro": "ARIS于10月26日开放Process Context for Enterprise AI，把对象中心流程挖掘、用于识别AI高价值环节的Process Lens，以及向Agent提供流程、角色、系统、规则、风险与控制的MCP接口组合在同一平台。其基础是连接流程设计与实际执行数据的组织数字孪生。ARIS与Hackett Group对200多名大型及跨国企业高管的调查显示，82%认为部署AI Agent需要流程上下文，但只有21%拥有全面、实时的流程可见性；使用流程上下文工具的组织自报可衡量AI投资回报的概率超过五倍。这些是厂商与合作研究口径，不是随机对照实验；落地仍受数据质量、权限治理、系统集成与流程持续维护约束。",
+          "xiaziQuote": "Agent能调用工具不等于懂业务，真正缺的常常是角色、规则和例外如何连在一起。",
+          "doudouQuote": "82%和五倍ROI来自厂商合作调查，试点时仍要自己量错误率、周期和节省。",
+          "footerTakeaway": "今日关键词：AI。"
+        },
+        "en-US": {
+          "categoryLabel": "AI",
+          "headlineFact": "ARIS launches a process-context layer for enterprise AI",
+          "headlineView": "Process mining, Process Lens and MCP expose roles, systems, rules, risks and controls to agents together",
+          "headlineFull": "ARIS launches a process-context layer for enterprise AI; Process mining, Process Lens and MCP expose roles, systems, rules, risks and controls to agents together",
+          "intro": "ARIS made Process Context for Enterprise AI available on October 26, combining object-centric process mining, Process Lens for locating high-value AI opportunities, and an MCP interface that gives agents access to processes, roles, systems, rules, risks and controls. The foundation is a digital twin of the organization linking process design with execution data. In an ARIS and Hackett Group survey of more than 200 executives at large and multinational organizations, 82% said process context is required to deploy AI agents, while only 21% reported comprehensive real-time visibility into work flows; organizations using process-context tools were over five times as likely to report measurable AI ROI. These are vendor and partner-research findings, not a randomized trial. Deployment still depends on data quality, access governance, integration and continuous process maintenance.",
+          "xiaziQuote": "An agent that can call tools does not yet understand the business; the missing layer is often how roles, rules and exceptions connect.",
+          "doudouQuote": "The 82% and five-times ROI figures come from partner research, so pilots should still measure errors, cycle time and savings directly.",
+          "footerTakeaway": "Keyword: AI."
+        }
+      },
+      "sources": [
+        {
+          "id": "d3d8d47e-dc7c-5bfc-866c-33ce8c5cb78f",
+          "topicId": "91f77a54-c0a6-5ca0-87e5-c42d01bd7304",
+          "title": "ARIS Launches Process Context for Enterprise AI",
+          "publisher": "ARIS",
+          "url": "https://aris.com/newsroom/aris-launches-process-context-for-enterprise-ai/",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "6f540c74-9b6c-5177-9009-6f831b8b10d2",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "captapi-solo-social-data-api-revenue",
+      "rank": 3,
+      "category": "business",
+      "region": "Global",
+      "countryCodes": [],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 96,
+      "storyId": "xzs-captapi-opc-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "OPC一人公司",
+          "headlineFact": "Captapi一人运营，验证MRR 537美元",
+          "headlineView": "把八个社交平台和四个广告资料库统一成REST API与远程MCP，按积分收费",
+          "headlineFull": "Captapi一人运营，验证MRR 537美元；把八个社交平台和四个广告资料库统一成REST API与远程MCP，按积分收费",
+          "intro": "Captapi由Fuat Sezer一人、无融资运营，面向开发者、AI创业公司、营销机构、创作者和研究者，把TikTok、Instagram、YouTube、X、Facebook、Threads、Reddit与LinkedIn公司页的公开资料，以及Meta、Google、LinkedIn和TikTok广告资料库，统一成REST API和远程MCP。TrustMRR通过Paddle验证累计收入1976美元、MRR 537美元、近30天收入772美元和26个活跃订阅。价格为免费、每月9、27和90美元，失败或空结果不扣积分；获客信号来自约1100名用户与公开产品分发。数字接口让一人可重复交付，但平台规则变化、反爬限制、数据准确性、请求成本和合规边界会直接影响毛利与可靠性。",
+          "xiaziQuote": "一人API生意卖的不是数据列表，而是把多平台的不稳定差异变成可重试的统一接口。",
+          "doudouQuote": "537美元MRR证明有人持续付费，平台政策和抓取成本决定这门生意能否稳住。",
+          "footerTakeaway": "今日关键词：OPC一人公司。"
+        },
+        "en-US": {
+          "categoryLabel": "One-Person Company",
+          "headlineFact": "Solo-run Captapi verifies $537 MRR",
+          "headlineView": "Eight social platforms and four ad libraries become one REST API and remote MCP server with credit pricing",
+          "headlineFull": "Solo-run Captapi verifies $537 MRR; Eight social platforms and four ad libraries become one REST API and remote MCP server with credit pricing",
+          "intro": "Fuat Sezer runs Captapi alone and bootstrapped it for developers, AI startups, agencies, creators and researchers. It normalizes public profiles, posts, comments, transcripts and search from TikTok, Instagram, YouTube, X, Facebook, Threads, Reddit and LinkedIn company pages, plus Meta, Google, LinkedIn and TikTok ad libraries, through one REST API and remote MCP server. TrustMRR verifies $1,976 total revenue, $537 MRR, $772 in the last 30 days and 26 active subscriptions through Paddle. Plans are free, $9, $27 and $90 per month, with failed or empty requests costing no credits; roughly 1,100 users provide an early acquisition signal. A digital interface enables repeatable solo delivery, but platform policy changes, anti-scraping controls, data accuracy, request cost and compliance boundaries directly affect margin and reliability.",
+          "xiaziQuote": "A solo API business sells more than a data list; it turns unstable platform differences into one retryable interface.",
+          "doudouQuote": "$537 MRR proves recurring payment, while platform policy and collection cost decide whether it remains durable.",
+          "footerTakeaway": "Keyword: One-Person Company."
+        }
+      },
+      "sources": [
+        {
+          "id": "2f9f72d6-9913-5257-b188-25da9213cf4e",
+          "topicId": "6f540c74-9b6c-5177-9009-6f831b8b10d2",
+          "title": "Captapi verified revenue profile",
+          "publisher": "TrustMRR",
+          "url": "https://trustmrr.com/startup/captapi",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "483271b2-dca4-58ad-a7d8-9713e68c130d",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "morphy-ai-agent-workspace-revenue",
+      "rank": 4,
+      "category": "business",
+      "region": "Europe",
+      "countryCodes": [
+        "BE"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 95,
+      "storyId": "xzs-morphy-ai-revenue-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "赚钱的AI应用落地",
+          "headlineFact": "Morphy验证MRR 245美元",
+          "headlineView": "不再给每个编码Agent开一堆终端，而是在同一桌面画布并排管理对话、项目、笔记、流程和浏览器",
+          "headlineFull": "Morphy验证MRR 245美元；不再给每个编码Agent开一堆终端，而是在同一桌面画布并排管理对话、项目、笔记、流程和浏览器",
+          "intro": "比利时开发者Casper Apers推出跨Windows、Mac和Linux的Morphy，把Claude Code、Codex、Gemini、Copilot、Grok、OpenRouter和Ollama等Agent放进同一桌面画布，用户继续使用自己已有的模型订阅，同时在项目、笔记、流程和浏览器之间保持上下文。TrustMRR通过Stripe验证其10月上线后累计及近30天收入均为450美元、MRR 245美元、41个活跃订阅；约700名用户与1300多人的Discord构成早期分发。产品以免费版、每月9美元Pro和99美元限量终身版变现，后续计划涨至14美元与299美元。主要限制是早期样本很小、终身付费会透支未来支持成本，多Agent集成稳定性与留存仍待验证。",
+          "xiaziQuote": "AI工作台真正卖的是减少上下文切换，而不是再包一层聊天窗口。",
+          "doudouQuote": "41个订阅证明早期付费，但终身版收入和MRR要分开看，后续支持成本也不能忽略。",
+          "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+        },
+        "en-US": {
+          "categoryLabel": "Revenue-Generating AI Application",
+          "headlineFact": "Morphy verifies $245 MRR",
+          "headlineView": "Instead of opening terminals for every coding agent, one desktop canvas manages chats, projects, notes, flows and a browser side by side",
+          "headlineFull": "Morphy verifies $245 MRR; Instead of opening terminals for every coding agent, one desktop canvas manages chats, projects, notes, flows and a browser side by side",
+          "intro": "Belgian developer Casper Apers launched Morphy for Windows, Mac and Linux, placing Claude Code, Codex, Gemini, Copilot, Grok, OpenRouter and Ollama on one desktop canvas while customers keep using the model plans they already pay for. Projects, notes, flows and a browser preserve working context. TrustMRR verifies $450 total and last-30-day revenue, $245 MRR and 41 active subscriptions through Stripe since the October launch; roughly 700 users and a Discord community of more than 1,300 builders provide early distribution. Monetization includes a free plan, $9 monthly Pro and a limited $99 lifetime offer, later planned at $14 and $299. The sample is still small, lifetime sales can pre-spend future support capacity, and multi-agent integration reliability and retention remain unproven.",
+          "xiaziQuote": "An AI workspace earns its price by reducing context switching, not by wrapping another chat window.",
+          "doudouQuote": "Forty-one subscriptions prove early payment, but lifetime cash and MRR are different, and support obligations remain.",
+          "footerTakeaway": "Keyword: Revenue-Generating AI Application."
+        }
+      },
+      "sources": [
+        {
+          "id": "c7416a59-bcf7-529e-9951-b827dd55c53a",
+          "topicId": "483271b2-dca4-58ad-a7d8-9713e68c130d",
+          "title": "Morphy verified revenue profile",
+          "publisher": "TrustMRR",
+          "url": "https://trustmrr.com/startup/morphy",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "fde90deb-af74-57f6-8c25-de55599aaf60",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "brazil-cross-border-apparel-fulfillment-growth",
+      "rank": 5,
+      "category": "business",
+      "region": "South America",
+      "countryCodes": [
+        "BR"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 94,
+      "storyId": "xzs-brazil-crossborder-apparel-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "跨境电商",
+          "headlineFact": "巴西跨境服装案例年GMV达3200万雷亚尔",
+          "headlineView": "目的地完税、低起订量定制与葡语售后，把海关扣留率从18%降至2%以内，90天复购提高47%",
+          "headlineFull": "巴西跨境服装案例年GMV达3200万雷亚尔；目的地完税、低起订量定制与葡语售后，把海关扣留率从18%降至2%以内，90天复购提高47%",
+          "intro": "FFOrder披露的一家匿名圣保罗跨境服装品牌，通过Shopify、Mercado Livre、Amazon BR与Shopee BR销售1200个活跃SKU，年GMV为3200万雷亚尔。此前旺季约18%的入境货物被海关扣留，目录从样品到上架需45天，葡语售后首次回复14小时，综合毛利率一度压到8%。接入目的地完税、多线路物流、低起订量OEM/ODM/POD和葡语售后后，目录周期缩到21天，海关扣留率持续低于2%，90天复购在广告支出持平时提高47%，客单价提高32%，退款率降至3.5%。赚钱机制来自更快上新、更少退款和更高复购；但全部数据由服务商案例披露、客户匿名，缺少独立审计，且库存、关税、物流和供应商质量仍是主要风险。",
+          "xiaziQuote": "跨境利润不是只看流量，清关、目录速度和本地售后会一起决定退款与复购。",
+          "doudouQuote": "3200万雷亚尔GMV和47%复购提升来自匿名服务商案例，先把它当经营信号而非审计结论。",
+          "footerTakeaway": "今日关键词：跨境电商。"
+        },
+        "en-US": {
+          "categoryLabel": "Cross-Border E-commerce",
+          "headlineFact": "Brazilian cross-border apparel case reaches R$32M annual GMV",
+          "headlineView": "Delivered-duty-paid routing, low-MOQ customization and Portuguese support cut customs holds from 18% to under 2% and lift 90-day repeat orders 47%",
+          "headlineFull": "Brazilian cross-border apparel case reaches R$32M annual GMV; Delivered-duty-paid routing, low-MOQ customization and Portuguese support cut customs holds from 18% to under 2% and lift 90-day repeat orders 47%",
+          "intro": "An anonymous São Paulo cross-border apparel brand in an FFOrder case sells 1,200 active SKUs through Shopify, Mercado Livre, Amazon BR and Shopee BR and reports R$32 million in annual GMV. Previously, roughly 18% of inbound peak-season shipments were held by customs, the sample-to-live catalog cycle took 45 days, first Portuguese support reply averaged 14 hours and blended gross margin had compressed to 8%. After adding delivered-duty-paid routing, multiple logistics lanes, low-MOQ OEM, ODM and print-on-demand, plus Portuguese support, the catalog cycle fell to 21 days, customs holds stayed below 2%, 90-day repeat orders rose 47% on flat ad spend, average order value rose 32% and refunds fell to 3.5%. Profit comes from faster drops, fewer refunds and repeat demand. All figures are vendor-reported for an anonymous client, not independently audited, while inventory, duties, logistics and supplier quality remain key risks.",
+          "xiaziQuote": "Cross-border margin depends on more than traffic; customs, catalog speed and local support jointly shape refunds and repeat orders.",
+          "doudouQuote": "R$32M GMV and 47% repeat growth come from an anonymous vendor case, so treat them as operating signals, not audited conclusions.",
+          "footerTakeaway": "Keyword: Cross-Border E-commerce."
+        }
+      },
+      "sources": [
+        {
+          "id": "6b8b7411-26cc-550c-876f-6cac47730787",
+          "topicId": "fde90deb-af74-57f6-8c25-de55599aaf60",
+          "title": "Cross-Border Apparel Case Study: 9-Day DDP to Brazil",
+          "publisher": "FFOrder",
+          "url": "https://www.fforder.com/resources/cross-border-apparel-case-study",
+          "publishedAt": null,
+          "sourceType": "publisher",
+          "sourceTier": 2,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "008c3df6-9f82-5d01-a4dd-6f87c72da9c3",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "divarasib-kras-lung-cancer-survival",
+      "rank": 6,
+      "category": "science",
+      "region": "Global",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 93,
+      "storyId": "xzs-divarasib-kras-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 98,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "医学",
+          "headlineFact": "Divarasib把中位总生存期提高到17.7个月",
+          "headlineView": "首个头对头三期试验显示，新一代KRAS G12C抑制剂较现有靶向药把死亡风险降低44%",
+          "headlineFull": "Divarasib把中位总生存期提高到17.7个月；首个头对头三期试验显示，新一代KRAS G12C抑制剂较现有靶向药把死亡风险降低44%",
+          "intro": "全球三期Krascendo 1试验在26个国家151个中心纳入338名既往治疗后进展的晚期或转移性KRAS G12C突变非小细胞肺癌患者，将Divarasib与索托拉西布或阿达格拉西布直接比较。中位总生存期为17.7个月对12个月，死亡风险降低44%；中位无进展生存期为9.8个月对5.7个月，进展风险降低42%。客观缓解率为58.4%对32.3%，三级及以上治疗相关副作用为25%对35%。结果发表于《新英格兰医学杂志》并在ESMO 2026公布。限制包括开放标签设计、对照组中阿达格拉西布样本较小、未纳入未经治疗的脑转移患者，研究由罗氏与基因泰克资助，监管与指南采用仍需后续程序。",
+          "xiaziQuote": "靶向药真正有分量的进步，是在头对头试验里同时延长生存并降低严重副作用。",
+          "doudouQuote": "看17.7个月的同时，也要看开放标签、入组条件、资助来源和后续审批。",
+          "footerTakeaway": "今日关键词：医学。"
+        },
+        "en-US": {
+          "categoryLabel": "Medicine",
+          "headlineFact": "Divarasib raises median overall survival to 17.7 months",
+          "headlineView": "The first head-to-head Phase 3 trial shows a next-generation KRAS G12C inhibitor cuts death risk 44% versus current targeted drugs",
+          "headlineFull": "Divarasib raises median overall survival to 17.7 months; The first head-to-head Phase 3 trial shows a next-generation KRAS G12C inhibitor cuts death risk 44% versus current targeted drugs",
+          "intro": "The global Phase 3 Krascendo 1 trial enrolled 338 patients at 151 centers in 26 countries with advanced or metastatic KRAS G12C-mutant non-small cell lung cancer that had progressed after prior treatment, directly comparing divarasib with sotorasib or adagrasib. Median overall survival was 17.7 versus 12 months, a 44% lower risk of death; median progression-free survival was 9.8 versus 5.7 months, a 42% lower risk of progression. Objective response was 58.4% versus 32.3%, while severe treatment-related side effects occurred in 25% versus 35%. Results were published in The New England Journal of Medicine and presented at ESMO 2026. Limits include the open-label design, a smaller adagrasib subgroup, exclusion of untreated brain metastases and sponsorship by Roche and Genentech; regulatory and guideline adoption still require further steps.",
+          "xiaziQuote": "A meaningful targeted-therapy advance extends survival and lowers severe toxicity in a head-to-head trial.",
+          "doudouQuote": "Read 17.7 months alongside the open-label design, eligibility, funding and pending adoption steps.",
+          "footerTakeaway": "Keyword: Medicine."
+        }
+      },
+      "sources": [
+        {
+          "id": "e9ce1921-9356-52cd-afea-5145b1d77f3a",
+          "topicId": "008c3df6-9f82-5d01-a4dd-6f87c72da9c3",
+          "title": "ESMO 2026: New targeted therapy improved survival for patients with KRAS-mutated lung cancer",
+          "publisher": "UT MD Anderson Cancer Center",
+          "url": "https://www.mdanderson.org/newsroom/research-newsroom/esmo-2026--new-targeted-therapy-improved-survival-for-patients-with-KRAS-mutated-lung-cancer.h00-159859290.html",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "8268f873-a931-5314-9f7e-a23225515f9d",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "icu-eeg-brain-computer-interface",
+      "rank": 7,
+      "category": "science",
+      "region": "North America",
+      "countryCodes": [
+        "US"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 92,
+      "storyId": "xzs-icu-eeg-bci-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 96,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "脑科学",
+          "headlineFact": "约三分之一无反应ICU患者能用脑电控制提示音",
+          "headlineView": "非侵入式脑机接口把“试着张合手”的脑信号实时变成可听反馈，为隐匿意识建立沟通入口",
+          "headlineFull": "约三分之一无反应ICU患者能用脑电控制提示音；非侵入式脑机接口把“试着张合手”的脑信号实时变成可听反馈，为隐匿意识建立沟通入口",
+          "intro": "哥伦比亚大学团队在41名急性脑损伤后临床无反应的ICU患者中测试非侵入式脑机接口：常规EEG记录脑波，床边计算机实时分析，患者听到指令后尝试张合手，以思维改变耳机中提示音的频率。短暂训练后，约三分之一患者能仅靠思维控制声音，包括另一项检查中检测到认知—运动分离的全部患者。团队2019年的研究曾在15%的无反应脑损伤患者中检测到隐匿意识。本次系统仍只完成简单反馈，不能等同于自由表达，也尚未进入常规临床；样本小、识别准确率、疲劳与个体差异都需要扩大验证，目标是未来让患者表达疼痛、饥饿或基本意愿。",
+          "xiaziQuote": "当肌肉不能回答时，实时脑电反馈可能把“有意识但无法动作”从推测变成沟通。",
+          "doudouQuote": "约三分之一能控制提示音是第一步，不等于已经能稳定回答复杂问题。",
+          "footerTakeaway": "今日关键词：脑科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Brain Science",
+          "headlineFact": "About one in three unresponsive ICU patients controlled a tone with EEG",
+          "headlineView": "A noninvasive brain-computer interface turns attempted hand movements into real-time audio feedback, opening a channel to hidden consciousness",
+          "headlineFull": "About one in three unresponsive ICU patients controlled a tone with EEG; A noninvasive brain-computer interface turns attempted hand movements into real-time audio feedback, opening a channel to hidden consciousness",
+          "intro": "A Columbia team tested a noninvasive brain-computer interface in 41 clinically unresponsive ICU patients after acute brain injury. Routine EEG recorded brainwaves while a bedside computer analyzed them in real time; patients heard instructions to try opening and closing their hands and used that mental effort to change the frequency of a tone in headphones. After brief training, about one in three controlled the sound through thought alone, including every patient whose cognitive-motor dissociation was found in a separate exam. The group had previously detected hidden consciousness in 15% of unresponsive brain-injury patients in 2019. This system still provides simple feedback, not free communication, and is not routine clinical care. Larger studies must test accuracy, fatigue and individual variation before patients can reliably express pain, hunger or basic wishes.",
+          "xiaziQuote": "When muscles cannot answer, real-time EEG feedback may turn hidden consciousness from an inference into communication.",
+          "doudouQuote": "Controlling a tone is a first step, not proof that complex questions can already be answered reliably.",
+          "footerTakeaway": "Keyword: Brain Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "78adaf87-fd2c-5c11-9128-b86730237d22",
+          "topicId": "8268f873-a931-5314-9f7e-a23225515f9d",
+          "title": "A Brain-Computer Interface May Give Unresponsive ICU Patients a Voice",
+          "publisher": "Columbia University Irving Medical Center",
+          "url": "https://www.cuimc.columbia.edu/news/brain-computer-interface-may-give-unresponsive-icu-patients-voice",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "335147be-f227-58c0-9697-c84a0fbb03f5",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "climate-stopped-next-glacial-period",
+      "rank": 8,
+      "category": "science",
+      "region": "North America",
+      "countryCodes": [
+        "CA"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 91,
+      "storyId": "xzs-next-glaciation-reversed-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 95,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "气候科学",
+          "headlineFact": "全球变暖打断了已经启动的下一次冰期",
+          "headlineView": "巴芬岛植物碳14记录显示，劳伦泰德冰盖残余约2000年前重新扩张，却在约1960年转为退缩",
+          "headlineFull": "全球变暖打断了已经启动的下一次冰期；巴芬岛植物碳14记录显示，劳伦泰德冰盖残余约2000年前重新扩张，却在约1960年转为退缩",
+          "intro": "哥伦比亚气候学院团队通过巴芬岛Barnes冰盖及附近小冰盖下保存的植物碳14年龄，重建劳伦泰德冰盖残余的边缘变化。证据显示它约3000年前缩到最低范围，约2000年前重新扩张，研究者认为这已是下一次冰期的开端；但到约1960年，夏季升温让冰盖融化量超过冬季积累，扩张方向逆转。按研究者估计，若没有这次逆转，大陆尺度冰盖仍需约3万年才会重新形成。Barnes冰盖目前约为美国特拉华州大小，模型预计未来几个世纪可能完全消失。这个结论会挑战“冰期必须等大陆冰盖成形才算开始”的传统定义，仍需其他冰盖与模型检验。",
+          "xiaziQuote": "气候变化不是只让未来变暖，它已经反转了一条持续两千年的自然冰盖轨迹。",
+          "doudouQuote": "这里说的是冰期起点的科学定义，不是地球原本会在短期突然进入冰河时代。",
+          "footerTakeaway": "今日关键词：气候科学。"
+        },
+        "en-US": {
+          "categoryLabel": "Climate Science",
+          "headlineFact": "Global warming interrupted a glacial period that had already begun",
+          "headlineView": "Carbon-14 records from Baffin Island show the Laurentide remnant resumed growing about 2,000 years ago, then reversed around 1960",
+          "headlineFull": "Global warming interrupted a glacial period that had already begun; Carbon-14 records from Baffin Island show the Laurentide remnant resumed growing about 2,000 years ago, then reversed around 1960",
+          "intro": "Columbia Climate School researchers used carbon-14 ages of vegetation preserved beneath the Barnes Ice Cap and nearby small ice caps on Baffin Island to reconstruct changes in the last remnant of the Laurentide Ice Sheet. Evidence indicates it reached a minimum about 3,000 years ago and began expanding again about 2,000 years ago, which the authors interpret as the start of the next glacial period. Around 1960, warmer summers made ice loss exceed winter accumulation and reversed the advance. Without that reversal, the authors estimate a continent-scale ice sheet would still have taken roughly 30,000 years to form. The Delaware-sized Barnes Ice Cap may disappear within coming centuries. The interpretation challenges the convention that a glacial period begins only after continental ice forms and still requires testing against other ice records and models.",
+          "xiaziQuote": "Climate change is not only warming the future; it has reversed a natural ice-sheet trajectory that lasted two millennia.",
+          "doudouQuote": "This is about how scientists define a glacial beginning, not a claim that Earth was about to freeze suddenly.",
+          "footerTakeaway": "Keyword: Climate Science."
+        }
+      },
+      "sources": [
+        {
+          "id": "7de96820-e48d-587c-b88c-ee8b2853535c",
+          "topicId": "335147be-f227-58c0-9697-c84a0fbb03f5",
+          "title": "Climate Change Stopped the Next Ice Age",
+          "publisher": "Columbia Climate School",
+          "url": "https://news.climate.columbia.edu/2026/10/22/climate-change-stopped-the-next-ice-age/",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    },
+    {
+      "id": "b7f9cc51-ee82-5546-97ae-557a7c8b2574",
+      "issueId": "ab2cae1f-4a24-51d9-bace-ac01429a4ef8",
+      "slug": "bacterial-adhesion-ph-sensor-release",
+      "rank": 9,
+      "category": "science",
+      "region": "Asia",
+      "countryCodes": [
+        "JP"
+      ],
+      "eventTime": null,
+      "isDeveloping": false,
+      "verificationStatus": "verified",
+      "scoreTotal": 90,
+      "storyId": "xzs-bacterial-ph-adhesion-20261026",
+      "storyStatus": "new",
+      "followupDay": 1,
+      "informationIncrementScore": 94,
+      "localizations": {
+        "zh-CN": {
+          "categoryLabel": "微生物",
+          "headlineFact": "轻度酸化能让细菌黏附蛋白主动松手",
+          "headlineView": "形成牢固共价键的同一套化学反应也可逆转，让蛋白无需等待基因表达就响应环境pH",
+          "headlineFull": "轻度酸化能让细菌黏附蛋白主动松手；形成牢固共价键的同一套化学反应也可逆转，让蛋白无需等待基因表达就响应环境pH",
+          "intro": "东京大学团队研究广泛存在于细菌黏附蛋白中的硫酯结构域（TED），用生物层干涉实时跟踪结合与解离。A族化脓性链球菌SfbI黏附蛋白的TED可与宿主纤维蛋白原形成牢固共价键，但在轻度酸性条件下会快速释放。生化实验与热力学分析显示，酸化有利于成键反应的逆过程，因此共价连接能够解开；在远缘的产气荚膜梭菌CpTIE蛋白中也看到支持证据，说明pH敏感性可能来自这类蛋白共有的化学结构。研究发表于《Science Advances》。这是一项分子机制发现，还没有证明可直接用于抗感染治疗；不同TED的表现可能不同，真实组织环境中的pH、宿主因素与细菌生存策略仍需验证。",
+          "xiaziQuote": "最牢的黏附也可能带着化学开关，细菌不必先改基因表达就能快速应变。",
+          "doudouQuote": "机制漂亮不等于药物已成形，下一步要看真实感染环境里能否安全利用这个开关。",
+          "footerTakeaway": "今日关键词：微生物。"
+        },
+        "en-US": {
+          "categoryLabel": "Microbiology",
+          "headlineFact": "Mild acidity makes bacterial adhesion proteins let go",
+          "headlineView": "The same chemistry that forms a strong covalent bond can reverse, letting a protein respond to pH without waiting for gene expression",
+          "headlineFull": "Mild acidity makes bacterial adhesion proteins let go; The same chemistry that forms a strong covalent bond can reverse, letting a protein respond to pH without waiting for gene expression",
+          "intro": "University of Tokyo researchers studied thioester domains, or TEDs, found across bacterial adhesion proteins and used biolayer interferometry to track binding and release in real time. The TED in the SfbI adhesion protein of group A Streptococcus pyogenes forms a strong covalent bond with host fibrinogen, yet releases it rapidly under mildly acidic conditions. Biochemical and thermodynamic analysis indicates that acidification favors the reverse of the bond-forming reaction, allowing the covalent attachment to come undone. Supporting evidence from the distantly related Clostridium perfringens CpTIE protein suggests pH sensitivity may be rooted in chemistry shared across this protein family. The work appears in Science Advances. It is a molecular-mechanism finding, not an infection treatment; different TEDs may behave differently, and tissue pH, host factors and bacterial survival strategies still need validation.",
+          "xiaziQuote": "Even the strongest adhesion can carry a chemical switch, letting bacteria respond before changing gene expression.",
+          "doudouQuote": "An elegant mechanism is not yet a medicine; the next test is whether this switch can be used safely in real infections.",
+          "footerTakeaway": "Keyword: Microbiology."
+        }
+      },
+      "sources": [
+        {
+          "id": "09a07062-dd87-5a23-adc6-23858c43e408",
+          "topicId": "b7f9cc51-ee82-5546-97ae-557a7c8b2574",
+          "title": "A chemically encoded pH sensor enables bacterial adhesion proteins to let go",
+          "publisher": "The University of Tokyo",
+          "url": "https://www.t.u-tokyo.ac.jp/en/press/pr2026-10-22-001",
+          "publishedAt": null,
+          "sourceType": "official",
+          "sourceTier": 1,
+          "locale": "en-US",
+          "isPrimary": true
+        }
+      ]
+    }
+  ],
+  "assetVersion": "rel_20261026_684e8daabad5c384a9518548"
+}
