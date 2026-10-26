@@ -28,4 +28,15 @@
 - source: authenticated production source/schema and exact Git archive comparison
 - action: reproduce archive failure, add regression coverage and normalize two invalid metadata values
 - result: original test fails on the two documented values; after the patch all 10 contract tests pass and all other canonical archive fields retain their hash
-- status: code_verified_pending_production
+- status: deployed_public_verified_with_historical_asset_gap
+
+## Production acceptance — 2026-10-26
+- actor: Codex
+- source: pinned production runtime, public HTTP/API and browser readback
+- action: run the guarded data-only repair script against the two existing June 23 runtime JSON copies after backing them up; no service restart or app build was needed because executable code was unchanged
+- result: runtime schema accepts all nine topics; `/api/archive/?date=2026-06-23`, `/en/?issue=2026-06-23` and `/zh/?issue=2026-06-23` return HTTP 200 with the correct archive date. English browser readback displays the archive edition and original article text.
+- current publication: still `2026-10-26`, asset version `rel_20261026_684e8daabad5c384a9518548`; the three current issue/release JSON hashes were unchanged during repair
+- rollback: original files retained under `/srv/wonderelian/.seo-fix-20261026/xiazi-archive-backup/`; runtime release remains `/opt/xiazi/releases/seo-20261022-v1`
+- data SHA-256: `6de70035fa0e085cecade23c8b1663b8e535229c49f6798e3204476a0232fc0c`
+- remaining gap: existing migration records identify nine absent English poster originals. Current representative `overview` poster readback confirms Chinese HTTP 200 image/png and English HTTP 404. Text/page recovery does not mean all historical poster assets were recovered. No substitute historical images were generated.
+- indexing: no claim of Google reindexing; Search Console can lag behind the corrected public response.
