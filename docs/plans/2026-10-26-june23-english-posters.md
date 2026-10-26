@@ -46,3 +46,13 @@ The user explicitly requested the missing nine posters be supplied on 2026-10-26
 - validation: contracts check 11/11; archive/publication Node tests 13/13; focused web tests 24/24; production webpack build passed. Default Turbopack cannot follow the SSD dependency symlink outside its root, so the supported webpack build was used without changing production code. An initial fixture failure was resolved by materializing the existing sparse-checkout current JSON files; no test behavior was weakened.
 - status: assets_verified; production_archive_switch_pending
 - Additional validation: full web unit suite 192/192, ESLint and TypeScript passed after materializing existing migration/test fixtures in this sparse worktree. Production code and all migration files remain unchanged.
+
+## Production acceptance — 2026-10-27
+- actor: Codex
+- source: public archive API, all 18 public poster redirects and final PNG bodies, browser image decode, pinned production deployment script
+- action: pushed repair commit `42aa10c`; staged three JSON files with SHA-256 pins, backed up both runtime archive copies, installed only the June 23 manifest/bundle/issue and ran `nginx -t`. No restart, application code replacement or current-release update.
+- result: public archive API HTTP 200, original nine topics, assetVersion `rel_20260623_d52a14ffe5488da0fec2a40f`. All 18 public routes redirect to the expected immutable objects with matching contentHash; all final PNGs return HTTP 200 and exact SHA-256. English browser images loaded 9/9 at 887×1774. Current publication remains `2026-10-26`, `rel_20261026_684e8daabad5c384a9518548`, with the same content hash.
+- quality: full web check passed (ESLint, TypeScript, 192 tests and config audit); contracts check 11/11; publication helpers 13/13; webpack production build passed. Public JSON safety scan passed.
+- public archive: https://xiazishuo.com/en/?issue=2026-06-23 and https://xiazishuo.com/zh/?issue=2026-06-23
+- rollback: original runtime JSON copies preserved at `/srv/wonderelian/.seo-fix-20261026/june23-posters-backup/`; immutable objects are not overwritten or removed.
+- status: deployed_public_verified; restored English images are new authorized localizations, not recovered historical originals. This does not claim Google indexing completion.
