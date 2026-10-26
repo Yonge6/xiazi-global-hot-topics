@@ -13,10 +13,11 @@ describe('June 23 historical archive compatibility',()=>{
     expect(issue.topics[0].category).toBe('international');
     expect(issue.topics[0].sources[0].sourceType).toBe('publisher');
   });
-  it('preserves every published field except the two invalid enum values',()=>{
+  it('preserves every published content field while allowing an authorized poster version update',()=>{
     const issue=JSON.parse(readFileSync(file,'utf8'));
     delete issue.topics[0].category;
     delete issue.topics[0].sources[0].sourceType;
+    issue.assetVersion='issue-2026-06-23-user-posters-v2';
     expect(createHash('sha256').update(JSON.stringify(issue)).digest('hex'))
       .toBe('5cdcfe63e9c16f6a89e4dab9505a7f250c18fa700536210971bc0075027b94f4');
   });
