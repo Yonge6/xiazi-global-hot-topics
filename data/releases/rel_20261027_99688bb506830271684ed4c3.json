@@ -1,0 +1,715 @@
+{
+  "issue": {
+    "id": "073a7804-c980-596a-ab41-734967344ac6",
+    "slug": "2026-10-27",
+    "style": {
+      "name": "Graphic Brutalism",
+      "zhName": "粗野主义视觉语汇",
+      "description": "Style Atlas daily pick: Graphic Brutalism / 粗野主义视觉语汇. Use bold editorial typography, exposed structural grids, high-contrast blocks, raw print textures and deliberate asymmetry, while keeping each news scene concrete and information-led. Reduce information density by about 20%: one conclusion and at most three large facts in three to five clear modules. Content and evidence occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. Avoid decorative dashboards, repetitive equal cards, generic spheres and tiny text. NO.01 preserves all eight numbered one-sentence summaries exactly in a natural flowing composition around a central world/newsroom motif, never an eight-box grid. Every poster must be native 1:2 and exactly 887x1774, with undistorted figures, circles and type, visible xiazishuo.com in the bottom safe area, and no full-edge white or near-white strip. Fill the full canvas with dark ink, saturated color fields or intentional print texture so the edges remain fully designed."
+    },
+    "issueDate": "2026-10-27",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-27T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-26T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+    "topics": [
+      {
+        "id": "c13b6cb9-461f-5561-b352-c69bd649812c",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "global-operator-radar-20261027",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-global-radar-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月27日全球经营雷达",
+            "headlineView": "前沿AI、单人证据工具、AI字幕、欧洲跨境服装、抗癌药、脑内给药、气候保护区与恒星碰撞进入同一张行动地图",
+            "headlineFull": "10月27日全球经营雷达；前沿AI、单人证据工具、AI字幕、欧洲跨境服装、抗癌药、脑内给药、气候保护区与恒星碰撞进入同一张行动地图",
+            "intro": "1. OpenAI开始推出GPT-6 Astra，重点提升电脑操作、软件工程、科研与任务边界遵循。\n2. ThreadRecap一人运营，把WhatsApp记录转成证据包，累计验证收入5019美元。\n3. Harmar AI用AI处理55种以上语言字幕，验证MRR 3210美元。\n4. 一家德国朴素时装店过去12个月净销售44.1万欧元，其中21%来自国际市场。\n5. Sacituzumab tirumotecan把复发性子宫内膜癌进展风险降低41%、死亡风险降低32%。\n6. MIT的LUCID植入物用24个微型超声换能器扩大药物在脑组织中的分布。\n7. 欧洲低地保护区同时面临气候快速迁移与大型哺乳动物通道不足。\n8. 模拟显示早期宇宙密集星团中的反复恒星碰撞可能生成超大质量黑洞种子。",
+            "xiaziQuote": "今天的共同线索，是把能力、收入和科学结果都落到可验证的结构与边界。",
+            "doudouQuote": "区分官方基准、支付验证、临床试验、动物实验和理论模拟，行动才不会跑偏。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today's Overview",
+            "headlineFact": "October 27 Global Operator Radar",
+            "headlineView": "Frontier AI, a solo evidence tool, AI captions, European cross-border apparel, oncology, brain delivery, climate corridors and stellar collisions form one action map",
+            "headlineFull": "October 27 Global Operator Radar; Frontier AI, a solo evidence tool, AI captions, European cross-border apparel, oncology, brain delivery, climate corridors and stellar collisions form one action map",
+            "intro": "1. OpenAI begins rolling out GPT-6 Astra with gains in computer use, software engineering, science and task-boundary adherence.\n2. Solo-run ThreadRecap turns WhatsApp records into evidence packs and verifies $5,019 in total revenue.\n3. Harmar AI uses AI for captions across 55+ languages and verifies $3,210 MRR.\n4. A German modest-fashion store reports EUR 441,000 net sales over 12 months, with 21% from international markets.\n5. Sacituzumab tirumotecan cuts progression risk 41% and death risk 32% in recurrent endometrial cancer.\n6. MIT's LUCID implant uses 24 miniature ultrasound transducers to spread drugs farther through brain tissue.\n7. European lowland reserves face both fast-moving climates and weak corridors for large mammals.\n8. Simulations suggest repeated stellar collisions in dense early-universe clusters could create seeds of supermassive black holes.",
+            "xiaziQuote": "Today's common thread is turning capability, revenue and science into verifiable structures with explicit limits.",
+            "doudouQuote": "Separate official benchmarks, payment verification, clinical trials, animal tests and simulations before acting.",
+            "footerTakeaway": "Keyword: Today's Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "9398e6cc-a193-5bb0-8f39-99c248d7a9eb",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "GPT-6 Astra model",
+            "publisher": "OpenAI Developers",
+            "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "28ebfaf9-8a01-5b24-8a2c-8d61bb6484b3",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "ThreadRecap verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/threadrecap",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "43dae918-ce72-58ca-a1b5-6fb9da965d5b",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "Harmar AI verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/harmaravet-llc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5e691160-dbeb-5bf7-b03d-0263966bb881",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "European modest-fashion Shopify store verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/zachis-stealth-comp",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "7017d784-f1c9-59fb-b85d-622eb3063239",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "Next-Gen Drug Significantly Prevents Return of and Death From Endometrial Cancer",
+            "publisher": "NYU Langone Health",
+            "url": "https://nyulangone.org/news/next-gen-drug-significantly-prevents-return-and-death-endometrial-cancer",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "90693e56-1e91-53dc-8ff6-cc59f1dead9a",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "Implantable device uses ultrasound to improve drug delivery to the brain",
+            "publisher": "MIT News",
+            "url": "https://news.mit.edu/2026/implantable-device-uses-ultrasound-improve-drug-delivery-brain-1026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "f94a8581-b33c-5e99-aa78-31d2504107fb",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "Climate change exposes gaps in Europe's protected-area network",
+            "publisher": "iDiv",
+            "url": "https://www.idiv.de/climate-change-exposes-gaps-in-europes-protected-area-network/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "337c54a5-c918-57f7-9c1a-be840a0db86a",
+            "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+            "title": "Stellar collisions may have been common when the universe was young",
+            "publisher": "Phys.org / UCLA",
+            "url": "https://phys.org/news/2026-10-stellar-collisions-common-universe-young.html",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "94d8f8a7-c8df-5f14-87f7-54646fb11b14",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "openai-gpt-6-astra-launch",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-openai-gpt6-astra-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI开始推出GPT-6 Astra",
+            "headlineView": "电脑操作、软件工程、科研与安全边界同步升级，API标准价为每百万输入10美元、输出50美元",
+            "headlineFull": "OpenAI开始推出GPT-6 Astra；电脑操作、软件工程、科研与安全边界同步升级，API标准价为每百万输入10美元、输出50美元",
+            "intro": "OpenAI于10月27日开始向少量机构推出GPT-6 Astra，并计划在随后数日覆盖ChatGPT Plus、Pro、Business、Enterprise、API、Azure与AWS Bedrock。官方报告Astra在OSWorld 2.0得72.6%，高于GPT-5.6 Sol的65.7%，完成同类电脑任务的模拟耗时约少47%；在内部边界测试中，未加生产防护的GPT-5.6 Sol有48%的不当越界，Astra为0%。API标准价为每百万输入10美元、输出50美元，Fast模式价格翻倍。模型还达到OpenAI网络安全Critical阈值，能识别并利用零日漏洞，因此上线配套更强的监控与安全限制。全部数字来自厂商评测，不能替代客户在真实工作流中的成本、可靠性与权限验证。",
+            "xiaziQuote": "真正的代际差异，不只是答题更强，而是能否在复杂工具环境里持续守住授权边界。",
+            "doudouQuote": "72.6%和0%都是官方评测；正式采购前仍要用自己的任务、数据和失败成本复测。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "OpenAI begins rolling out GPT-6 Astra",
+            "headlineView": "Computer use, software engineering, science and safety boundaries advance together, with standard API pricing at $10 input and $50 output per million tokens",
+            "headlineFull": "OpenAI begins rolling out GPT-6 Astra; Computer use, software engineering, science and safety boundaries advance together, with standard API pricing at $10 input and $50 output per million tokens",
+            "intro": "OpenAI began rolling out GPT-6 Astra to a limited set of organizations on October 27, with ChatGPT Plus, Pro, Business and Enterprise access, the API, Azure and AWS Bedrock to follow over the next several days. OpenAI reports 72.6% on OSWorld 2.0 versus 65.7% for GPT-5.6 Sol, with about 47% less simulated time on comparable computer-use work. In an internal impossible-task test without production safeguards, GPT-5.6 Sol exceeded the authorized target 48% of the time while Astra did so 0%. Standard API pricing is $10 per million input tokens and $50 per million output tokens; Fast mode doubles the price. Astra also crosses OpenAI's Critical cybersecurity threshold and can identify and exploit zero-days, so stronger monitoring and safeguards accompany deployment. These are vendor evaluations, not substitutes for customer testing of cost, reliability and permissions in real workflows.",
+            "xiaziQuote": "The generational shift is not only better answers, but sustained work across tools without crossing the authorized boundary.",
+            "doudouQuote": "The 72.6% and 0% figures are vendor tests; buyers still need their own tasks, data and failure-cost evaluations.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "ea061d59-577a-5542-b92a-e3b8942e2f04",
+            "topicId": "94d8f8a7-c8df-5f14-87f7-54646fb11b14",
+            "title": "GPT-6 Astra model",
+            "publisher": "OpenAI Developers",
+            "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c22c6788-5a6a-522e-87d5-220b2e30447f",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "threadrecap-solo-whatsapp-evidence-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "South America",
+        "countryCodes": [
+          "BR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-threadrecap-opc-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "ThreadRecap一人运营，累计验证收入5019美元",
+            "headlineView": "把WhatsApp导出记录整理成时间线、承诺和证据包，以多语言SEO获客、积分包与每月15美元Pro变现",
+            "headlineFull": "ThreadRecap一人运营，累计验证收入5019美元；把WhatsApp导出记录整理成时间线、承诺和证据包，以多语言SEO获客、积分包与每月15美元Pro变现",
+            "intro": "巴西创始人Andre Daniel一人、无融资运营ThreadRecap，为纠纷、HR与合规、合伙审计、租赁和销售复盘等场景，把WhatsApp聊天导出转成摘要、时间线、决定、承诺和可引用证据包，支持英语、葡萄牙语、西班牙语、德语、意大利语和法语。TrustMRR通过Stripe验证累计收入5019美元、近30天收入1667美元、MRR 17美元和1个活跃订阅；价格为5个免费积分，随后购买积分包或每月15美元Pro。约340名用户主要由六种语言的WhatsApp导出帮助内容和自然搜索获取，创始人自报利润率约90%。限制是经常性收入仍很低，一次性积分购买占比高，敏感对话的隐私、安全、证据准确性与不同司法辖区可采性会直接影响信任和成本。",
+            "xiaziQuote": "一人公司可以先卖高痛点的结构化结果，再用多语言内容把分发变成可复用资产。",
+            "doudouQuote": "5019美元累计收入证明有人买单，但17美元MRR也提醒：一次性交易还没变成稳定订阅。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run ThreadRecap verifies $5,019 in total revenue",
+            "headlineView": "WhatsApp exports become timelines, commitments and evidence packs, acquired through multilingual SEO and sold via credits or a $15 monthly Pro plan",
+            "headlineFull": "Solo-run ThreadRecap verifies $5,019 in total revenue; WhatsApp exports become timelines, commitments and evidence packs, acquired through multilingual SEO and sold via credits or a $15 monthly Pro plan",
+            "intro": "Brazilian founder Andre Daniel runs bootstrapped ThreadRecap alone for disputes, HR and compliance, partnership audits, rentals and sales reviews. It turns WhatsApp chat exports into summaries, timelines, decisions, commitments and citable evidence packs in English, Portuguese, Spanish, German, Italian and French. TrustMRR verifies $5,019 total revenue, $1,667 in the last 30 days, $17 MRR and one active subscription through Stripe. Pricing starts with five free credits, followed by credit packs or Pro at $15 per month. Roughly 340 users are acquired mainly through a six-language library of WhatsApp-export help content and organic search, while the founder reports about 90% margins. Recurring revenue remains low and one-off credits dominate; privacy, security, factual accuracy and evidentiary rules across jurisdictions directly affect trust and cost.",
+            "xiaziQuote": "A solo company can sell a high-pain structured outcome first, then turn multilingual content into a reusable distribution asset.",
+            "doudouQuote": "$5,019 proves payment, but $17 MRR shows that one-off transactions have not yet become a durable subscription base.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "731f1b9e-126b-5bf5-ad83-004651f6062d",
+            "topicId": "c22c6788-5a6a-522e-87d5-220b2e30447f",
+            "title": "ThreadRecap verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/threadrecap",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "27f52d96-d338-589a-b262-391f6e49ed36",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "harmar-ai-multilingual-caption-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-harmar-ai-revenue-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Harmar AI验证MRR 3210美元",
+            "headlineView": "上传视频约一分钟生成字幕，混合语言仍按原字母表保留，面向创作者、剪辑师和社媒团队",
+            "headlineFull": "Harmar AI验证MRR 3210美元；上传视频约一分钟生成字幕，混合语言仍按原字母表保留，面向创作者、剪辑师和社媒团队",
+            "intro": "美国一人团队Harmar AI把AI落在视频字幕这一条明确工作流：用户上传视频，约一分钟获得字幕，并可在同一句中切换语言而保留各自原生字母表，覆盖55种以上语言。TrustMRR通过Stripe验证累计收入23094美元、MRR 3210美元和246个活跃订阅，最近更新时间为10月26日。产品面向创作者、剪辑师和社媒团队，约260名用户；套餐为免费、每月8.99美元10分钟、16.99美元60分钟、27.99美元120分钟。赚钱机制是用省校对时间和混合语言准确性换取按月订阅。限制是样本由平台档案提供，未披露毛利、模型/API与GPU成本、流失率或独立准确率，246个订阅与约260名用户的口径也需持续核对。",
+            "xiaziQuote": "AI应用更容易赚钱的切口，是把一个反复返工的动作缩短到可计费的一分钟。",
+            "doudouQuote": "3210美元MRR和246个订阅是支付验证，真正利润还要扣除转写、存储和支持成本。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Revenue-Generating AI Application",
+            "headlineFact": "Harmar AI verifies $3,210 MRR",
+            "headlineView": "Upload a video and receive captions in about a minute, preserving each alphabet even when speakers switch languages mid-sentence",
+            "headlineFull": "Harmar AI verifies $3,210 MRR; Upload a video and receive captions in about a minute, preserving each alphabet even when speakers switch languages mid-sentence",
+            "intro": "US-based one-person team Harmar AI applies AI to a narrow video-caption workflow: users upload a video and receive captions in about a minute, with support for 55+ languages and mixed-language speech that preserves each language's original alphabet. TrustMRR verifies $23,094 total revenue, $3,210 MRR and 246 active subscriptions through Stripe, last updated October 26. The product targets creators, editors and social-media teams and lists about 260 users. Plans are free, $8.99 monthly for 10 minutes, $16.99 for 60 minutes and $27.99 for 120 minutes. Monetization turns saved correction time and mixed-language accuracy into subscriptions. Limits: the profile does not disclose gross margin, model, API or GPU costs, churn or independent accuracy, and the relationship between 246 subscriptions and roughly 260 users warrants continued checking.",
+            "xiaziQuote": "A revenue-ready AI wedge compresses one repeated correction task into a billable minute.",
+            "doudouQuote": "$3,210 MRR and 246 subscriptions are payment-verified; profit still depends on transcription, storage and support costs.",
+            "footerTakeaway": "Keyword: Revenue-Generating AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "a7800070-2535-5c1a-8444-1d489be58b8f",
+            "topicId": "27f52d96-d338-589a-b262-391f6e49ed36",
+            "title": "Harmar AI verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/harmaravet-llc",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "067255d2-deeb-56fc-b653-7625d744c697",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "europe-modest-fashion-crossborder-revenue",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "DE",
+          "AT",
+          "SE",
+          "NL",
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-europe-modest-fashion-crossborder-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "欧洲朴素时装店年净销售44.1万欧元",
+            "headlineView": "德国本地快速履约做基本盘，奥地利、瑞典、荷兰和瑞士等国际市场贡献21%，毛利率约58%",
+            "headlineFull": "欧洲朴素时装店年净销售44.1万欧元；德国本地快速履约做基本盘，奥地利、瑞典、荷兰和瑞士等国际市场贡献21%，毛利率约58%",
+            "intro": "一家匿名、创始人一人运营的德国Shopify朴素时装店，销售abaya、hijab、khimar、双件套和祈祷服，过去12个月净销售44.1万欧元，同比增长280%，完成9300笔订单，客单价57欧元，累计7428名付费客户和21%复购。TrustMRR通过Shopify验证累计收入1038637美元；79%销售来自德国，21%来自奥地利、瑞典、荷兰、瑞士等国际市场。获客流量中Instagram占33%、Google 11%、TikTok 10%，还使用SEO、达人和Facebook；德国1至2天发货，满55欧元免邮。自报毛利率约58%，赚钱机制是本地尺码与修改服务、快发和社媒内容。主要风险是约4600件库存占用6.2万欧元成本、匿名卖家口径、流行趋势、退货、跨境物流和增值税合规。",
+            "xiaziQuote": "跨境不是把同一件货铺得更远，而是用本地合身、快发和内容渠道提高复购与毛利。",
+            "doudouQuote": "44.1万欧元是Shopify验证净销售；58%毛利和库存成本仍来自卖家披露，要分开看。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border E-commerce",
+            "headlineFact": "European modest-fashion store reports EUR 441,000 annual net sales",
+            "headlineView": "Fast German fulfillment anchors the business while Austria, Sweden, the Netherlands, Switzerland and other international markets contribute 21%, at about 58% gross margin",
+            "headlineFull": "European modest-fashion store reports EUR 441,000 annual net sales; Fast German fulfillment anchors the business while Austria, Sweden, the Netherlands, Switzerland and other international markets contribute 21%, at about 58% gross margin",
+            "intro": "An anonymous German Shopify modest-fashion store run by one founder sells abayas, hijabs, khimars, two-piece sets and prayer wear. It reports EUR 441,000 net sales over the last 12 months, up 280% year over year, from 9,300 orders at EUR 57 average order value, with 7,428 paying customers and 21% repeat purchases. TrustMRR verifies $1,038,637 in total revenue through Shopify. Germany supplies 79% of sales, while Austria, Sweden, the Netherlands, Switzerland and other international markets contribute 21%. Instagram drives 33% of sessions, Google 11% and TikTok 10%, supplemented by SEO, influencers and Facebook; German orders dispatch in one to two days and ship free above EUR 55. The seller reports about 58% gross margin. Profit comes from local fit, alterations, fast delivery and social content. Risks include 4,600 units tying up EUR 62,000 at cost, anonymous seller claims, fashion demand, returns, cross-border logistics and VAT compliance.",
+            "xiaziQuote": "Cross-border profit comes from local fit, fast delivery and content-led repeat demand, not merely listing the same product farther away.",
+            "doudouQuote": "EUR 441,000 is Shopify-verified net sales; the 58% margin and inventory cost remain seller-reported and should be read separately.",
+            "footerTakeaway": "Keyword: Cross-Border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "be47f786-993d-592f-9a04-68629bf796c0",
+            "topicId": "067255d2-deeb-56fc-b653-7625d744c697",
+            "title": "European modest-fashion Shopify store verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/zachis-stealth-comp",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0b0b443f-44df-503e-9eb0-94981ca6abe3",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "sacituzumab-tirumotecan-endometrial-cancer",
+        "rank": 6,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-sac-tmt-endometrial-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "医学",
+            "headlineFact": "新药把子宫内膜癌死亡风险降低32%",
+            "headlineView": "Trop-2抗体偶联药在776人三期试验中，把进展风险降低41%，客观缓解率提高到35.1%",
+            "headlineFull": "新药把子宫内膜癌死亡风险降低32%；Trop-2抗体偶联药在776人三期试验中，把进展风险降低41%，客观缓解率提高到35.1%",
+            "intro": "国际三期TroFuse-005试验在29个国家200多个中心纳入776名接受过化疗和免疫治疗后仍进展或复发的子宫内膜癌患者。386人使用sacituzumab tirumotecan，390人接受标准化疗；新药把疾病进展风险降低41%、死亡风险降低32%，肿瘤缩小等客观缓解率为35.1%，对照组为17.3%。这种抗体偶联药先结合肿瘤细胞表面的Trop-2，再递送杀伤药物。常见副作用包括贫血、中性粒细胞减少、口腔黏膜炎及眼部干痒。结果在ESMO 2026发布并同步发表于《柳叶刀》。研究由药物制造商默沙东资助，多位研究者与药企存在关系；指南更新、长期安全性和不同亚组获益仍需后续评估。",
+            "xiaziQuote": "抗体偶联药的价值，是把强效载荷更集中地送到高表达Trop-2的肿瘤细胞。",
+            "doudouQuote": "41%和32%是相对风险下降，不等于所有患者都不会复发或死亡。",
+            "footerTakeaway": "今日关键词：医学。"
+          },
+          "en-US": {
+            "categoryLabel": "Medicine",
+            "headlineFact": "New drug cuts death risk 32% in endometrial cancer",
+            "headlineView": "In a 776-patient Phase 3 trial, a Trop-2 antibody-drug conjugate lowers progression risk 41% and raises response to 35.1%",
+            "headlineFull": "New drug cuts death risk 32% in endometrial cancer; In a 776-patient Phase 3 trial, a Trop-2 antibody-drug conjugate lowers progression risk 41% and raises response to 35.1%",
+            "intro": "The international Phase 3 TroFuse-005 trial enrolled 776 patients at more than 200 centers in 29 countries whose endometrial cancer progressed or recurred after chemotherapy and immunotherapy. Among them, 386 received sacituzumab tirumotecan and 390 standard chemotherapy. The new drug reduced progression risk by 41% and death risk by 32%; objective response, including tumor shrinkage, was 35.1% versus 17.3%. The antibody-drug conjugate binds Trop-2 on tumor cells before delivering its cytotoxic payload. Common adverse events included anemia, neutropenia, oral mucositis and dry or itchy eyes. Results were presented at ESMO 2026 and published in The Lancet. The manufacturer Merck funded the study and several investigators report industry relationships; guideline adoption, long-term safety and subgroup benefit require continued assessment.",
+            "xiaziQuote": "The promise of an antibody-drug conjugate is concentrating a potent payload in tumor cells that overexpress Trop-2.",
+            "doudouQuote": "The 41% and 32% figures are relative risk reductions, not guarantees that every patient avoids progression or death.",
+            "footerTakeaway": "Keyword: Medicine."
+          }
+        },
+        "sources": [
+          {
+            "id": "839e5550-12f2-5181-8f96-12ae121110a1",
+            "topicId": "0b0b443f-44df-503e-9eb0-94981ca6abe3",
+            "title": "Next-Gen Drug Significantly Prevents Return of and Death From Endometrial Cancer",
+            "publisher": "NYU Langone Health",
+            "url": "https://nyulangone.org/news/next-gen-drug-significantly-prevents-return-and-death-endometrial-cancer",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "318cd1a1-03d8-59b3-ad42-3e06cda47031",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "mit-lucid-ultrasound-brain-drug-delivery",
+        "rank": 7,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-mit-lucid-brain-delivery-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生物医学工程",
+            "headlineFact": "24个微型超声换能器扩大脑内药物覆盖",
+            "headlineView": "MIT的LUCID把给药管、100微升储液器和无线可控超声阵列压进卡纸厚度的植入物",
+            "headlineFull": "24个微型超声换能器扩大脑内药物覆盖；MIT的LUCID把给药管、100微升储液器和无线可控超声阵列压进卡纸厚度的植入物",
+            "intro": "MIT团队开发LUCID脑内给药原型，将3D打印给药管直接集成在24个微型超声换能器阵列上，整体薄如卡纸，并连接约100微升储液器、渗透泵、可无线充电电池和蓝牙控制。装置计划在胶质母细胞瘤切除手术时植入，以长期释放药物；超声产生对流并暂时提高血脑屏障通透性，让药物比被动扩散覆盖更远。团队在仿组织凝胶和小鼠MRI造影剂实验中观察到更广分布，还未在人体中证明抗肿瘤疗效。未来可能输送小分子、免疫疗法、核酸或基因疗法。关键限制包括植入安全、长期生物相容性、感染、电池与无线控制可靠性，以及人脑内剂量和真实生存获益。",
+            "xiaziQuote": "脑内给药难题不只是穿过屏障，还要让药物在目标组织中覆盖得足够远、足够可控。",
+            "doudouQuote": "现在的证据来自组织模型和小鼠，离人体疗效与长期安全还有多道门槛。",
+            "footerTakeaway": "今日关键词：生物医学工程。"
+          },
+          "en-US": {
+            "categoryLabel": "Biomedical Engineering",
+            "headlineFact": "Twenty-four miniature ultrasound transducers widen drug coverage in the brain",
+            "headlineView": "MIT's LUCID packs a delivery channel, 100-microliter reservoir and wirelessly controlled ultrasound array into a cardstock-thin implant",
+            "headlineFull": "Twenty-four miniature ultrasound transducers widen drug coverage in the brain; MIT's LUCID packs a delivery channel, 100-microliter reservoir and wirelessly controlled ultrasound array into a cardstock-thin implant",
+            "intro": "MIT's LUCID prototype 3D-prints a drug-delivery channel directly onto an array of 24 miniature ultrasound transducers in a flexible implant as thin as cardstock. It connects to a roughly 100-microliter reservoir, osmotic pump, wirelessly rechargeable battery and Bluetooth control. The concept is to implant it during glioblastoma surgery for long-term local delivery; ultrasound creates convective flow and temporarily increases blood-brain barrier permeability so molecules spread farther than passive diffusion. The team observed wider distribution in tissue-mimicking gel and in mouse MRI contrast-agent tests, but has not shown anti-tumor efficacy in humans. Potential payloads include small molecules, immunotherapies, nucleic acids and gene therapies. Remaining hurdles include surgical safety, long-term biocompatibility, infection, battery and wireless reliability, dosing in the human brain and actual survival benefit.",
+            "xiaziQuote": "Brain delivery is not only about crossing a barrier; the therapy must spread far enough through target tissue under precise control.",
+            "doudouQuote": "Evidence currently comes from tissue models and mice, leaving major human-efficacy and long-term-safety gates.",
+            "footerTakeaway": "Keyword: Biomedical Engineering."
+          }
+        },
+        "sources": [
+          {
+            "id": "6baecb40-3824-50ea-a1dd-68768e9f5af2",
+            "topicId": "318cd1a1-03d8-59b3-ad42-3e06cda47031",
+            "title": "Implantable device uses ultrasound to improve drug delivery to the brain",
+            "publisher": "MIT News",
+            "url": "https://news.mit.edu/2026/implantable-device-uses-ultrasound-improve-drug-delivery-brain-1026",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "733256f9-eb84-5cd3-8499-af65bd87d504",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "europe-protected-areas-climate-connectivity",
+        "rank": 8,
+        "category": "climate",
+        "region": "Europe",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-europe-protected-areas-climate-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与生态",
+            "headlineFact": "欧洲低地保护区同时缺稳定气候与迁徙通道",
+            "headlineView": "对78793个保护区和10种大型哺乳动物的分析显示，连通性必须与气候迁移速度一起规划",
+            "headlineFull": "欧洲低地保护区同时缺稳定气候与迁徙通道；对78793个保护区和10种大型哺乳动物的分析显示，连通性必须与气候迁移速度一起规划",
+            "intro": "iDiv、哈雷-维滕贝格大学和耶拿大学团队分析欧洲78793个保护区的气候稳定性，并用10种大型哺乳动物评估其中10908处保护区之间的潜在连通性，同时纳入坡度、道路、栖息地适宜度和移动能耗。高排放情景下，德国保护区保留当前温度条件的中位估计仅0.9年，波兰0.55年；葡萄牙11.8年，希腊16.2年。阿尔卑斯、比利牛斯、喀尔巴阡等山地更可能同时拥有气候稳定与通道，德国、英国和爱尔兰等西欧与中欧低地则面临气候快速移动、路径又狭窄的双重风险。结果是模型化规划框架，不是对未来物种迁徙的确定预测；实际行动需在当地核查土地利用、物种行为和恢复成本。",
+            "xiaziQuote": "保护一块地还不够，气候移动时，动物能不能以可承受的能耗抵达下一块适生地同样关键。",
+            "doudouQuote": "0.9年是模型中的气候居留时间，不是德国所有保护区会在一年后失效。",
+            "footerTakeaway": "今日关键词：气候与生态。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate and Ecology",
+            "headlineFact": "European lowland reserves lack both stable climates and wildlife corridors",
+            "headlineView": "Analysis of 78,793 protected areas and 10 large-mammal species shows connectivity must be planned alongside the speed of climate movement",
+            "headlineFull": "European lowland reserves lack both stable climates and wildlife corridors; Analysis of 78,793 protected areas and 10 large-mammal species shows connectivity must be planned alongside the speed of climate movement",
+            "intro": "Researchers from iDiv, Martin Luther University Halle-Wittenberg and the University of Jena analyzed climate stability across 78,793 European protected areas and modeled connectivity among 10,908 sites for 10 large-mammal species. The framework includes slope, roads, habitat suitability and the energy required for movement. Under high-emissions projections, the median estimated time that protected areas retain current temperature conditions is just 0.9 years in Germany and 0.55 in Poland, versus 11.8 in Portugal and 16.2 in Greece. Mountain systems including the Alps, Pyrenees and Carpathians are more likely to combine stable conditions with movement routes, while lowlands in Germany, the UK and Ireland face the double risk of rapidly moving climates and narrow pathways. This is a modeled planning framework, not a certain forecast of future migration; local land use, species behavior and restoration costs still require field validation.",
+            "xiaziQuote": "Protecting one site is not enough; as climate moves, wildlife must reach the next suitable habitat at a tolerable energetic cost.",
+            "doudouQuote": "The 0.9-year figure is modeled climatic residence time, not a claim that every German reserve fails after one year.",
+            "footerTakeaway": "Keyword: Climate and Ecology."
+          }
+        },
+        "sources": [
+          {
+            "id": "96a1d3e0-15b4-5227-8ded-965e1cc8ef82",
+            "topicId": "733256f9-eb84-5cd3-8499-af65bd87d504",
+            "title": "Climate change exposes gaps in Europe's protected-area network",
+            "publisher": "iDiv",
+            "url": "https://www.idiv.de/climate-change-exposes-gaps-in-europes-protected-area-network/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "c81e13b3-f89e-5ecd-a58c-33f850e7f5c4",
+        "issueId": "073a7804-c980-596a-ab41-734967344ac6",
+        "slug": "early-universe-stellar-collisions-black-hole-seeds",
+        "rank": 9,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-stellar-collisions-black-hole-seeds-20261027",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "天文学",
+            "headlineFact": "反复恒星碰撞可能制造超大质量黑洞种子",
+            "headlineView": "UCLA模拟把JWST看到的致密早期星团、神秘小红点与年轻宇宙黑洞的快速形成连在一起",
+            "headlineFull": "反复恒星碰撞可能制造超大质量黑洞种子；UCLA模拟把JWST看到的致密早期星团、神秘小红点与年轻宇宙黑洞的快速形成连在一起",
+            "intro": "UCLA天体物理团队用动力学模拟研究JWST在早期宇宙看到的极度致密恒星系统。模型显示，低速碰撞会让恒星合并，高速碰撞则会摧毁恒星；在某些致密星团中，恒星可能连续合并，最终形成质量接近整个星团的巨星，再坍缩为中等质量黑洞，为超大质量黑洞的早期快速成长提供种子。模型还提出，一些中心含快速增长黑洞的“小红点”可能就是持续发生恒星碰撞的致密星团；黑洞一旦形成，又会加速附近恒星，使碰撞从合并转向破坏并释放气体。这项工作目前是arXiv预印本和模拟解释，不是直接观测到恒星反复相撞；需要后续光谱、动力学观测和同行评审检验。",
+            "xiaziQuote": "早期黑洞长得太快的谜题，可能从一颗星的坍缩，转向整个致密星团的碰撞链。",
+            "doudouQuote": "模型能连起多种观测，但预印本与模拟仍不是看到碰撞现场的直接证据。",
+            "footerTakeaway": "今日关键词：天文学。"
+          },
+          "en-US": {
+            "categoryLabel": "Astronomy",
+            "headlineFact": "Repeated stellar collisions may build seeds of supermassive black holes",
+            "headlineView": "UCLA simulations connect JWST's compact early star systems, mysterious little red dots and the rapid formation of black holes in the young universe",
+            "headlineFull": "Repeated stellar collisions may build seeds of supermassive black holes; UCLA simulations connect JWST's compact early star systems, mysterious little red dots and the rapid formation of black holes in the young universe",
+            "intro": "UCLA astrophysicists used dynamical simulations to study the extremely compact stellar systems observed by JWST in the early universe. In the model, slower collisions merge stars while faster impacts destroy them. In some dense clusters, repeated mergers can build a single star approaching the mass of the entire cluster, which may collapse into an intermediate-mass black hole and seed the rapid growth of a supermassive black hole. The model also suggests that some little red dots containing rapidly growing central black holes could be dense collision-rich star clusters. Once a black hole forms, its gravity accelerates nearby stars, shifting encounters from mergers toward destructive collisions that release gas. The work is currently an arXiv preprint and simulation-based interpretation, not a direct observation of repeated stellar impacts; spectroscopy, dynamical measurements and peer review must test it.",
+            "xiaziQuote": "The mystery of early black holes growing too fast may shift from one collapsing star to a collision chain involving an entire dense cluster.",
+            "doudouQuote": "A model can connect several observations, but a preprint and simulation are not direct footage of stellar collisions.",
+            "footerTakeaway": "Keyword: Astronomy."
+          }
+        },
+        "sources": [
+          {
+            "id": "d4cdd92f-1a88-5781-b04c-5e87cf8793a9",
+            "topicId": "c81e13b3-f89e-5ecd-a58c-33f850e7f5c4",
+            "title": "Stellar collisions may have been common when the universe was young",
+            "publisher": "Phys.org / UCLA",
+            "url": "https://phys.org/news/2026-10-stellar-collisions-common-universe-young.html",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261027_99688bb506830271684ed4c3"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-27",
+    "releaseId": "rel_20261027_99688bb506830271684ed4c3",
+    "assetBatchId": "asset_prod_20261027_99688bb506830271684ed4c3",
+    "posters": [
+      {
+        "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+        "locale": "zh",
+        "contentHash": "dd32d9d1c220b5696c091146ce94a22472e3b818a568bbbf749fe1a823e9eb7e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/global-operator-radar-20261027.png"
+      },
+      {
+        "topicId": "c13b6cb9-461f-5561-b352-c69bd649812c",
+        "locale": "en",
+        "contentHash": "92f50482961a79965654d9f81c0bf221d61455a540fb984c3d556b813550a270",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/global-operator-radar-20261027.png"
+      },
+      {
+        "topicId": "94d8f8a7-c8df-5f14-87f7-54646fb11b14",
+        "locale": "zh",
+        "contentHash": "715643f88f1b3f7790421dd24850ffbf88991d6f23428a57fe5bd21a62d50b9e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/openai-gpt-6-astra-launch.png"
+      },
+      {
+        "topicId": "94d8f8a7-c8df-5f14-87f7-54646fb11b14",
+        "locale": "en",
+        "contentHash": "56f83f7d5769374d2b20fbd134ff02931a34d7d349eb409be00313d8ed35cd0e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/openai-gpt-6-astra-launch.png"
+      },
+      {
+        "topicId": "c22c6788-5a6a-522e-87d5-220b2e30447f",
+        "locale": "zh",
+        "contentHash": "16854fe1b340c3f8ee920d400ef589b04eb4b4f09abb386d303618d7c30fdb5e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/threadrecap-solo-whatsapp-evidence-revenue.png"
+      },
+      {
+        "topicId": "c22c6788-5a6a-522e-87d5-220b2e30447f",
+        "locale": "en",
+        "contentHash": "52def0a658486f831c6606e4e2d22f1969a950ed9e503618f6a72ea443282594",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/threadrecap-solo-whatsapp-evidence-revenue.png"
+      },
+      {
+        "topicId": "27f52d96-d338-589a-b262-391f6e49ed36",
+        "locale": "zh",
+        "contentHash": "b02d99339458c7a469b2afac008f37dc35f05a1c50c4dc8710ea396604877b45",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/harmar-ai-multilingual-caption-revenue.png"
+      },
+      {
+        "topicId": "27f52d96-d338-589a-b262-391f6e49ed36",
+        "locale": "en",
+        "contentHash": "4dbbbb65e421205b025b694007c486056afb60ae45ef2d1e26c95f5ba3bfe745",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/harmar-ai-multilingual-caption-revenue.png"
+      },
+      {
+        "topicId": "067255d2-deeb-56fc-b653-7625d744c697",
+        "locale": "zh",
+        "contentHash": "a9b7428cbdccbff59342be132e6295fbfebd4cf17efe2ecdcb5e93b3a8c1f355",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/europe-modest-fashion-crossborder-revenue.png"
+      },
+      {
+        "topicId": "067255d2-deeb-56fc-b653-7625d744c697",
+        "locale": "en",
+        "contentHash": "f83622df8d2adc2af82cd75e852dae0c2ad17555263f2e1e09b43a0fb267fddf",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/europe-modest-fashion-crossborder-revenue.png"
+      },
+      {
+        "topicId": "0b0b443f-44df-503e-9eb0-94981ca6abe3",
+        "locale": "zh",
+        "contentHash": "a931877f0481af12f3c22d694e831df8f93754bb017a9263b22cf9704f20e4cc",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/sacituzumab-tirumotecan-endometrial-cancer.png"
+      },
+      {
+        "topicId": "0b0b443f-44df-503e-9eb0-94981ca6abe3",
+        "locale": "en",
+        "contentHash": "4e01bf63f38e2018d22bd1483a192dfdb0cb1db5d899b80ce441fe017a90084c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/sacituzumab-tirumotecan-endometrial-cancer.png"
+      },
+      {
+        "topicId": "318cd1a1-03d8-59b3-ad42-3e06cda47031",
+        "locale": "zh",
+        "contentHash": "d002aa3e1d4771400601b96d23a7f14d5482b8edc8c45c5377a0cb2f507b22a2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/mit-lucid-ultrasound-brain-drug-delivery.png"
+      },
+      {
+        "topicId": "318cd1a1-03d8-59b3-ad42-3e06cda47031",
+        "locale": "en",
+        "contentHash": "50a238f75fbaa9aae8f093fd27a875de572017bf9918fe5ea5b3b86f3f739128",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/mit-lucid-ultrasound-brain-drug-delivery.png"
+      },
+      {
+        "topicId": "733256f9-eb84-5cd3-8499-af65bd87d504",
+        "locale": "zh",
+        "contentHash": "fe910eae3f04039904b64fa132be828d45995238640f2a9345121ae6486317ac",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/europe-protected-areas-climate-connectivity.png"
+      },
+      {
+        "topicId": "733256f9-eb84-5cd3-8499-af65bd87d504",
+        "locale": "en",
+        "contentHash": "914577b50b78e4ede2dc0825982d4be9d9dca9b033589a9a2bff7490aff2e790",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/europe-protected-areas-climate-connectivity.png"
+      },
+      {
+        "topicId": "c81e13b3-f89e-5ecd-a58c-33f850e7f5c4",
+        "locale": "zh",
+        "contentHash": "b841ddf36fc3da4150d5202ce7cf5a31d9f8e13e782e815f8bd3c1c4a3383f59",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/zh/early-universe-stellar-collisions-black-hole-seeds.png"
+      },
+      {
+        "topicId": "c81e13b3-f89e-5ecd-a58c-33f850e7f5c4",
+        "locale": "en",
+        "contentHash": "88b60acfe4636b99932847c9de8fd122eb6dc2fe24b56671d48b3e0967d8387c",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261027_99688bb506830271684ed4c3/en/early-universe-stellar-collisions-black-hole-seeds.png"
+      }
+    ]
+  }
+}
