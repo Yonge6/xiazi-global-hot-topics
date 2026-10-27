@@ -1,0 +1,713 @@
+{
+  "issue": {
+    "id": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+    "slug": "2026-10-28",
+    "style": {
+      "name": "Memphis",
+      "zhName": "孟菲斯风格",
+      "description": "Style Atlas daily pick: Memphis / 孟菲斯风格. Use playful 1980s postmodern geometry, bold asymmetric diagonals, squiggles, dots and terrazzo-like marks, with saturated coral, cobalt, teal, lemon and black. Each poster still needs one concrete news scene with spatial depth rather than a flat decorative template. Reduce information density by about 20%: one conclusion and at most three large facts in three to five clear modules. Content and evidence occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 preserves all eight numbered one-sentence summaries exactly in a natural flowing composition around a central globe/newsroom motif, never an eight-box grid. Every poster must be native 1:2 and exactly 887x1774, with undistorted figures, circles and type, visible xiazishuo.com in the bottom safe area, and no full-edge white or near-white strip. Fill the full canvas with designed color, pattern or scene detail while keeping text areas calm and readable."
+    },
+    "issueDate": "2026-10-28",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-28T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-27T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+    "topics": [
+      {
+        "id": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "global-operator-radar-20261028",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-global-radar-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月28日全球经营雷达",
+            "headlineView": "智能体治理、单人创意工具、端侧AI、高端食品出海、折纸建筑、儿童健康、肌肉模型与甲烷卫星进入同一张行动地图",
+            "headlineFull": "10月28日全球经营雷达；智能体治理、单人创意工具、端侧AI、高端食品出海、折纸建筑、儿童健康、肌肉模型与甲烷卫星进入同一张行动地图",
+            "intro": "1. IBM把AI智能体身份、短期凭据、最小权限、实时撤销和跨平台发现带进企业治理。\n2. ContactSheetMaker一人运营，以免费工具获客，验证MRR 1067美元。\n3. 一款端侧AI高尔夫击球轨迹应用验证近30天收入9557美元、MRR 6319美元。\n4. IberGour把西班牙伊比利亚火腿卖向欧盟和英国，累计验证收入93.6万美元。\n5. MIT折纸模块建筑比部分同类方法刚度高约3.5倍、材料少约三分之一。\n6. 逾1.3万名儿童病历显示，低水平铅暴露与链球菌性咽炎诊断概率升高相关。\n7. 多伦多大学的三维实验室肌肉模型用稳定同位素更灵敏地测到蛋白合成反应。\n8. 481次受控释放测试显示，专用卫星在晴天识别92%至100%的甲烷羽流。",
+            "xiaziQuote": "今天的共同线索，是把能力变成可测、可控、可交付的具体结果。",
+            "doudouQuote": "验证收入、实验样本和受控测试都比口号更接近真实决策。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "Today's Overview",
+            "headlineFact": "October 28 Global Operator Radar",
+            "headlineView": "Agent governance, a solo creative tool, on-device AI, premium food exports, origami construction, child health, muscle models and methane satellites form one action map",
+            "headlineFull": "October 28 Global Operator Radar; Agent governance, a solo creative tool, on-device AI, premium food exports, origami construction, child health, muscle models and methane satellites form one action map",
+            "intro": "1. IBM brings agent identity, short-lived credentials, least privilege, real-time revocation and cross-platform discovery into enterprise AI governance.\n2. Solo-run ContactSheetMaker acquires users with a free tool and verifies $1,067 MRR.\n3. An on-device AI golf shot-tracer app verifies $9,557 in 30-day revenue and $6,319 MRR.\n4. IberGour sells Spanish jamon iberico across the EU and UK and verifies $935,746 in total revenue.\n5. MIT's modular origami structures are about 3.5 times stiffer than some alternatives while using roughly one-third less material.\n6. Records from more than 13,000 children link low-level lead exposure with higher odds of a strep-throat diagnosis.\n7. A University of Toronto 3D lab-muscle model uses stable isotopes to detect protein-synthesis responses more sensitively.\n8. In 481 controlled releases, dedicated satellites detected 92-100% of methane plumes on clear days.",
+            "xiaziQuote": "Today's common thread is turning capability into outcomes that can be measured, controlled and delivered.",
+            "doudouQuote": "Verified revenue, experimental samples and controlled tests are closer to decisions than slogans.",
+            "footerTakeaway": "Keyword: Today's Overview."
+          }
+        },
+        "sources": [
+          {
+            "id": "544d12e6-9f38-5b40-96d6-3f534b8006f0",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "IBM Introduces Identity and Control for AI Agents",
+            "publisher": "IBM Newsroom",
+            "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "98a374f6-82bc-5799-a8d4-d54456f1468a",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "ContactSheetMaker verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/contact-sheet-maker",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "76cfd86a-15cd-5820-85f0-46119f328797",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "On-device golf shot tracer verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/startup-f5208a0753ad",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "631ffaa7-bf40-5617-a317-115eae217095",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "IberGour verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/ibergour",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "461ae231-e286-5e3f-b366-6c724ed4aaf0",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "Origami-based construction method yields lightweight load-bearing structures",
+            "publisher": "MIT News",
+            "url": "https://news.mit.edu/2026/origami-based-construction-method-yields-lightweight-load-bearing-structures-architecture-1027",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "1902299f-304f-5055-a34a-28899a7b0741",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "Low levels of lead exposure linked with strep throat in children",
+            "publisher": "University at Buffalo",
+            "url": "https://www.buffalo.edu/provost/admin-units.host.html/content/shared/smbs/news/2026/10/lehman-lead-exposure-strep-27594.detail.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "614b3808-5773-5715-8f1b-274e42d4e311",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "New method measures growth in laboratory-grown muscle",
+            "publisher": "University of Toronto Institute of Biomedical Engineering",
+            "url": "https://bme.utoronto.ca/news/new-method-could-help-researchers-study-muscle-growth-without-relying-solely-on-human-testing/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "edc3a472-984d-5b3e-8dd0-f40583a0b755",
+            "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+            "title": "Evaluating space-based methane detection through a one-year blind test",
+            "publisher": "Nature",
+            "url": "https://www.nature.com/articles/s41586-026-11115-0",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "8ae453ab-9754-5750-a0ac-cf603502e30c",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "ibm-agent-identity-governed-access",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-ibm-agent-identity-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "IBM给AI智能体发放可撤销身份",
+            "headlineView": "Agent Identity与Vault把所有者、授权、短期凭据和最小权限连成一条治理链",
+            "headlineFull": "IBM给AI智能体发放可撤销身份；Agent Identity与Vault把所有者、授权、短期凭据和最小权限连成一条治理链",
+            "intro": "IBM在TechXchange 2026发布面向企业AI智能体的身份与控制组合。Agent Identity记录每个智能体的所有者、生命周期状态和授权范围；HashiCorp Vault为其发放短期凭据，自动续期，并在智能体越权时实时拒绝访问、撤销会话。watsonx Orchestrate还能跨Amazon Bedrock、Microsoft Foundry和Google Gemini发现智能体、模型与MCP服务器，在沙箱中隔离运行，并提供质量、合规和成本评估。Vault 2.2、Agent Identity和评估能力已正式可用；跨平台发现、隔离与一键停止仍处于技术预览。厂商引用Gartner称，到2028年财富500强企业平均可能使用超过15万个智能体，而只有13%的组织认为自己的治理已到位；这组预测不是已发生事实，采购仍需验证覆盖范围、集成成本和真实撤销效果。",
+            "xiaziQuote": "智能体真正进入生产，不是先问它会什么，而是先明确谁拥有它、它能做什么、何时收回权限。",
+            "doudouQuote": "正式可用与技术预览要分开：身份和评估已上线，跨平台发现与隔离还在预览。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "IBM gives AI agents revocable identities",
+            "headlineView": "Agent Identity and Vault link ownership, authority, short-lived credentials and least privilege into one governance chain",
+            "headlineFull": "IBM gives AI agents revocable identities; Agent Identity and Vault link ownership, authority, short-lived credentials and least privilege into one governance chain",
+            "intro": "At TechXchange 2026, IBM introduced an enterprise control stack for AI agents. Agent Identity records each agent's owner, lifecycle status and granted authority. HashiCorp Vault issues short-lived credentials, renews them automatically and can deny access and revoke a session when an agent exceeds approved permissions. watsonx Orchestrate can discover agents, models and MCP servers across Amazon Bedrock, Microsoft Foundry and Google Gemini, isolate agents in sandboxes and evaluate quality, compliance and cost. Vault 2.2, Agent Identity and evaluation capabilities are generally available; cross-platform discovery, containment and a kill switch remain in technical preview. IBM cites Gartner forecasting more than 150,000 agents for the average Fortune 500 company by 2028 while only 13% of organizations say governance is ready. That is a forecast, not an observed outcome; buyers still need to test coverage, integration cost and real revocation behavior.",
+            "xiaziQuote": "Before asking what a production agent can do, define who owns it, what authority it has and when that authority ends.",
+            "doudouQuote": "Separate availability from preview: identity and evaluation are live, while cross-platform discovery and containment remain previews.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "bdb14f3a-3b84-519a-970c-75c31da0e3d0",
+            "topicId": "8ae453ab-9754-5750-a0ac-cf603502e30c",
+            "title": "IBM Introduces Identity and Control for AI Agents",
+            "publisher": "IBM Newsroom",
+            "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "f0a3fc2a-5c73-52fa-878d-b870bacd51a7",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "contactsheetmaker-solo-creative-saas-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-contactsheetmaker-opc-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "ContactSheetMaker一人运营，验证MRR 1067美元",
+            "headlineView": "免费联系表工具做SEO入口，向摄影师与创意团队销售每月9美元和19美元订阅",
+            "headlineFull": "ContactSheetMaker一人运营，验证MRR 1067美元；免费联系表工具做SEO入口，向摄影师与创意团队销售每月9美元和19美元订阅",
+            "intro": "英国创始人Mark Ashton一人、无融资运营ContactSheetMaker.com，为摄影师、创意机构、房地产营销和制作团队在浏览器中生成联系表、情绪板与客户选片页面，替代来回发送散乱图片。TrustMRR通过Polar验证累计收入14811美元、MRR 1067美元和127个活跃订阅；创始人补充另有约200美元月度收入来自旧LemonSqueezy订阅。价格为免费层、每月9美元Pro和19美元Ultimate。获客核心是自然搜索，免费工具长期承担注册漏斗，自助交付把支持负担压低。限制是平台档案未给出流失率、免费到付费转化、存储与带宽成本；创始人关于低维护与盈利的描述属于自报，出售状态也可能改变增长投入。",
+            "xiaziQuote": "一人公司未必需要大而全，先把一个高频文件协作动作做成免费入口，再卖更顺畅的交付。",
+            "doudouQuote": "1067美元MRR和127个订阅由支付接口验证，但利润率与流失率仍未公开。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "One-Person Company",
+            "headlineFact": "Solo-run ContactSheetMaker verifies $1,067 MRR",
+            "headlineView": "A free contact-sheet tool becomes an SEO funnel, while photographers and creative teams buy $9 and $19 monthly plans",
+            "headlineFull": "Solo-run ContactSheetMaker verifies $1,067 MRR; A free contact-sheet tool becomes an SEO funnel, while photographers and creative teams buy $9 and $19 monthly plans",
+            "intro": "UK founder Mark Ashton runs bootstrapped ContactSheetMaker.com alone. It lets photographers, creative agencies, real-estate marketers and production teams create contact sheets, mood boards and client-proofing pages in a browser instead of emailing loose images back and forth. TrustMRR verifies $14,811 in total revenue, $1,067 MRR and 127 active subscriptions through Polar; the founder says another roughly $200 per month comes from legacy LemonSqueezy subscriptions. Pricing is free, $9 per month for Pro and $19 for Ultimate. Organic search is the main acquisition channel, the free tool acts as a permanent signup funnel, and self-service delivery keeps support light. The profile does not disclose churn, free-to-paid conversion, storage or bandwidth costs. Claims of low maintenance and profitability are founder-reported, and the for-sale status may change growth investment.",
+            "xiaziQuote": "A solo company can turn one frequent file-collaboration task into a free entry point, then charge for smoother delivery.",
+            "doudouQuote": "$1,067 MRR and 127 subscriptions are payment-verified, but margin and churn remain undisclosed.",
+            "footerTakeaway": "Keyword: One-Person Company."
+          }
+        },
+        "sources": [
+          {
+            "id": "2607ca74-bb6a-509f-a33c-02bbb8735efe",
+            "topicId": "f0a3fc2a-5c73-52fa-878d-b870bacd51a7",
+            "title": "ContactSheetMaker verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/contact-sheet-maker",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "839e2d70-88d4-58e7-abe5-1bbd0cdc5a4c",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "on-device-ai-golf-shot-tracer-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-ai-golf-shot-tracer-revenue-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "端侧AI击球轨迹应用验证月收入9557美元",
+            "headlineView": "手机视频一键生成电视级高尔夫球飞行线，1149个订阅支撑MRR 6319美元",
+            "headlineFull": "端侧AI击球轨迹应用验证月收入9557美元；手机视频一键生成电视级高尔夫球飞行线，1149个订阅支撑MRR 6319美元",
+            "intro": "美国创始人Emmett Deen一人、无融资运营一款高尔夫视频应用。它把AI落在一个很具体的结果：用户上传手机拍摄的挥杆视频，应用在数秒内加入类似电视转播的球路追踪线，面向希望分享训练与比赛片段的高尔夫球手。TrustMRR通过RevenueCat验证近30天收入9557美元、MRR 6319美元和1149个活跃订阅，跟踪始于2025年12月。产品使用Flutter，档案称处理100%在设备端完成，这有利于隐私、延迟和推理成本。赚钱机制是移动订阅，而不是把下载量当收入。限制是产品名、价格、留存、应用商店抽成与获客渠道未公开；端侧处理的准确率和不同拍摄条件下的可靠性也缺少独立测试。",
+            "xiaziQuote": "AI应用更容易收费的地方，往往是把一个原本需要专业剪辑的可见结果压缩成一次点击。",
+            "doudouQuote": "9557美元是近30天真实收入，不等于利润；平台抽成、获客和续订仍决定长期价值。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "Monetized AI Application",
+            "headlineFact": "On-device AI shot tracer verifies $9,557 monthly revenue",
+            "headlineView": "One tap adds broadcast-style golf flight lines to phone video, with 1,149 subscriptions supporting $6,319 MRR",
+            "headlineFull": "On-device AI shot tracer verifies $9,557 monthly revenue; One tap adds broadcast-style golf flight lines to phone video, with 1,149 subscriptions supporting $6,319 MRR",
+            "intro": "US founder Emmett Deen runs a bootstrapped golf-video app alone. AI is applied to one concrete outcome: a golfer uploads a phone video and the app adds a broadcast-style ball-flight tracer in seconds for training and shareable match clips. TrustMRR verifies $9,557 in last-30-day revenue, $6,319 MRR and 1,149 active subscriptions through RevenueCat, tracked since December 2025. The Flutter app says processing is 100% on-device, which can improve privacy, latency and inference cost. Monetization is mobile subscription revenue rather than downloads being treated as income. The profile does not disclose the product name, price, retention, app-store fees or acquisition channels. Accuracy and reliability across different filming conditions also lack independent testing.",
+            "xiaziQuote": "AI becomes easier to sell when it compresses a visible result that once needed specialist editing into one tap.",
+            "doudouQuote": "$9,557 is real 30-day revenue, not profit; platform fees, acquisition and renewal still determine durability.",
+            "footerTakeaway": "Keyword: Monetized AI Application."
+          }
+        },
+        "sources": [
+          {
+            "id": "85f168e5-ab14-5a89-9d1a-cdb8436590a3",
+            "topicId": "839e2d70-88d4-58e7-abe5-1bbd0cdc5a4c",
+            "title": "On-device golf shot tracer verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/startup-f5208a0753ad",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "57a16f63-34f2-5c39-9e97-57f73eace1fe",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "ibergour-spanish-ham-crossborder-revenue",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "ES"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-ibergour-crossborder-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "IberGour跨境卖火腿，累计验证收入93.6万美元",
+            "headlineView": "从西班牙服务欧盟与英国3万多名客户，用高客单与无条件退换降低高端食品信任门槛",
+            "headlineFull": "IberGour跨境卖火腿，累计验证收入93.6万美元；从西班牙服务欧盟与英国3万多名客户，用高客单与无条件退换降低高端食品信任门槛",
+            "intro": "西班牙IberGour自2005年在线销售伊比利亚火腿，覆盖欧盟和英国3万多名客户，品类包括pata negra、橡果饲养和有机火腿。TrustMRR通过Stripe验证累计收入935746美元，近30天收入76224美元；它不是订阅业务，因此MRR与活跃订阅显示为空。单件价格差异较大，档案举例5J Cinco Jotas火腿售价533.93欧元。赚钱机制是高客单的产地特色食品，加上20多年信任积累和100%满意保证：不喜欢即可免费取回并换货或退款。限制包括冷链或常温跨境履约、食品合规、英国脱欧后手续、退货损耗与季节性；页面未披露毛利、广告成本和各国收入占比，累计收入也不能直接代表当前利润。",
+            "xiaziQuote": "高端食品出海卖的不只是产地，还要把品质不确定性变成明确、敢兑现的退换承诺。",
+            "doudouQuote": "近30天7.6万美元收入证明需求，但高客单食品最终要看毛利、履约和退货损耗。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "Cross-Border E-commerce",
+            "headlineFact": "IberGour verifies $935,746 selling Spanish ham across borders",
+            "headlineView": "It serves 30,000+ EU and UK customers with premium baskets and a no-questions return promise that lowers trust friction",
+            "headlineFull": "IberGour verifies $935,746 selling Spanish ham across borders; It serves 30,000+ EU and UK customers with premium baskets and a no-questions return promise that lowers trust friction",
+            "intro": "Spain-based IberGour has sold jamon iberico online since 2005 to more than 30,000 customers across the EU and UK, including pata negra, acorn-fed and organic products. TrustMRR verifies $935,746 in total revenue and $76,224 over the last 30 days through Stripe. It is not a subscription business, so MRR and active subscriptions are blank. Prices vary; the profile lists a 5J Cinco Jotas ham at EUR 533.93. The profit mechanism combines high-ticket regional food with more than 20 years of trust and a 100% satisfaction guarantee: unwanted ham is collected free for exchange or refund. Costs and risks include cross-border fulfillment, food compliance, post-Brexit procedures, return loss and seasonality. Gross margin, advertising cost and country revenue mix are undisclosed, and cumulative revenue is not current profit.",
+            "xiaziQuote": "Premium food exports sell origin plus a clear promise that absorbs quality uncertainty for the buyer.",
+            "doudouQuote": "$76,224 in 30-day revenue proves demand, but margin, fulfillment and return loss decide the economics.",
+            "footerTakeaway": "Keyword: Cross-Border E-commerce."
+          }
+        },
+        "sources": [
+          {
+            "id": "74a53592-4307-5823-8a47-fe427cc6738a",
+            "topicId": "57a16f63-34f2-5c39-9e97-57f73eace1fe",
+            "title": "IberGour verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/ibergour",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "438a73ac-fe17-5abd-a51f-5bcf2e474cbc",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "mit-modular-origami-load-bearing-structures",
+        "rank": 6,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-mit-origami-structures-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "工程与建筑",
+            "headlineFact": "折纸模块让大型结构刚度提高约3.5倍",
+            "headlineView": "MIT把平板切割、单元折叠和无焊接装配串成可扩展系统，材料比部分同类方法少约三分之一",
+            "headlineFull": "折纸模块让大型结构刚度提高约3.5倍；MIT把平板切割、单元折叠和无焊接装配串成可扩展系统，材料比部分同类方法少约三分之一",
+            "intro": "MIT团队把Ron Resch折纸镶嵌转成可计算设计的刚性模块。自动求解器把整体形状拆成可折叠单元，CNC从铝等平板切割，工人只用螺丝刀等手工具折叠和连接，不依赖大型焊接设备；单元在装配时会自然校正到唯一构型。模拟显示，该方法比部分结构折纸方案刚度约高3.5倍，只用约三分之二材料。团队还让没有专业施工经验的人在数日内组装一座23英尺长的铝制悬挂结构。潜在用途包括灾后快速住房、飞机与模块机器人部件、吸音板和建筑立面。证据目前来自模拟、原型与展览级结构，还未证明符合长期建筑规范、风载、耐火和极端环境要求。",
+            "xiaziQuote": "把制造约束写进每个模块，复杂建筑就能从一次性工程变成可运输、可重复的装配系统。",
+            "doudouQuote": "3.5倍刚度来自与部分折纸方案的模拟比较，不等于已经能替代所有传统建筑。",
+            "footerTakeaway": "今日关键词：工程与建筑。"
+          },
+          "en-US": {
+            "categoryLabel": "Engineering and Architecture",
+            "headlineFact": "Origami modules make large structures about 3.5 times stiffer",
+            "headlineView": "MIT links flat-sheet cutting, unit folding and weld-free assembly into a scalable system using roughly one-third less material than some alternatives",
+            "headlineFull": "Origami modules make large structures about 3.5 times stiffer; MIT links flat-sheet cutting, unit folding and weld-free assembly into a scalable system using roughly one-third less material than some alternatives",
+            "intro": "MIT researchers turned Ron Resch's folded tessellations into computably designed rigid modules. An automated solver breaks a target shape into foldable cells, CNC machines cut them from flat sheets such as aluminum, and builders fold and connect them with hand tools instead of large welding equipment. The units naturally settle into their only valid configuration during assembly. Simulations indicate about 3.5 times the stiffness of some structural-origami approaches while using roughly two-thirds as much material. A team without professional construction experience also assembled a 23-foot aluminum hanging structure in a few days. Potential uses include disaster shelters, aircraft and modular-robot parts, acoustic panels and facades. Evidence comes from simulations, prototypes and an exhibition-scale structure, not long-term compliance with building codes, wind, fire or extreme environments.",
+            "xiaziQuote": "Embedding fabrication constraints in every module can turn complex structures into transportable, repeatable assembly systems.",
+            "doudouQuote": "The 3.5-times figure compares simulations with some origami methods; it does not yet replace every conventional structure.",
+            "footerTakeaway": "Keyword: Engineering and Architecture."
+          }
+        },
+        "sources": [
+          {
+            "id": "607a600e-0044-50f4-9d38-2e53202788af",
+            "topicId": "438a73ac-fe17-5abd-a51f-5bcf2e474cbc",
+            "title": "Origami-based construction method yields lightweight load-bearing structures",
+            "publisher": "MIT News",
+            "url": "https://news.mit.edu/2026/origami-based-construction-method-yields-lightweight-load-bearing-structures-architecture-1027",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "452f5cc7-2e35-5de3-ad90-aef4dae1d29f",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "child-lead-exposure-strep-association",
+        "rank": 7,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-child-lead-strep-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "环境与儿童健康",
+            "headlineFact": "低水平铅暴露与儿童链球菌咽炎概率上升相关",
+            "headlineView": "逾1.3万名儿童病历中，血铅1至3.4微克/分升对应约2.5倍诊断优势比",
+            "headlineFull": "低水平铅暴露与儿童链球菌咽炎概率上升相关；逾1.3万名儿童病历中，血铅1至3.4微克/分升对应约2.5倍诊断优势比",
+            "intro": "布法罗大学等团队分析费城Temple University Health System中逾1.3万名14岁及以下儿童2010至2020年的病历，把12月龄和24月龄常规筛查的血铅浓度与之后链球菌性咽炎或哮吼诊断相连。与血铅低于1微克/分升相比，1至3.4微克/分升儿童被诊断链球菌咽炎的优势比约2.5倍，达到或超过CDC公共卫生行动参考值3.5微克/分升时约2.7倍；血铅越高，重复诊断也越多。研究未发现与哮吼的清晰关联。结果是医疗记录中的观察性关联，不能证明铅直接导致感染，也可能受住房、收入、就医与其他环境暴露影响；但它支持没有安全铅暴露水平，并提示现有行动阈值以下仍可能有临床意义。",
+            "xiaziQuote": "环境毒物的风险不只在神经发育，也可能通过免疫脆弱性进入日常感染负担。",
+            "doudouQuote": "2.5倍是调整后的诊断优势比和关联，不是说每个低水平暴露儿童都会得链球菌咽炎。",
+            "footerTakeaway": "今日关键词：环境与儿童健康。"
+          },
+          "en-US": {
+            "categoryLabel": "Environment and Child Health",
+            "headlineFact": "Low-level lead exposure is linked with higher odds of strep in children",
+            "headlineView": "In records from 13,000+ children, blood lead of 1-3.4 micrograms per deciliter corresponded to about 2.5 times the diagnostic odds",
+            "headlineFull": "Low-level lead exposure is linked with higher odds of strep in children; In records from 13,000+ children, blood lead of 1-3.4 micrograms per deciliter corresponded to about 2.5 times the diagnostic odds",
+            "intro": "Researchers including the University at Buffalo analyzed medical records from more than 13,000 children aged 14 or younger in Philadelphia's Temple University Health System from 2010 to 2020. Blood lead from routine screening at ages 12 and 24 months was linked with later diagnoses of strep throat or croup. Compared with levels below 1 microgram per deciliter, children at 1-3.4 had about 2.5 times the odds of a strep diagnosis; at or above the CDC public-health action reference of 3.5, odds were about 2.7 times higher. Higher lead also correlated with more repeated diagnoses, while no clear croup association appeared. This observational medical-record study cannot prove lead directly caused infection and may be influenced by housing, income, care access and other exposures. It nevertheless supports the view that no lead level is safe and that levels below current action thresholds may remain clinically relevant.",
+            "xiaziQuote": "Environmental toxicants may burden children not only through neurodevelopment, but also through immune vulnerability and everyday infection.",
+            "doudouQuote": "The 2.5-times figure is an adjusted association in diagnostic odds, not a claim that every exposed child develops strep.",
+            "footerTakeaway": "Keyword: Environment and Child Health."
+          }
+        },
+        "sources": [
+          {
+            "id": "a53500ee-1132-54fa-aa59-933fefeb5f35",
+            "topicId": "452f5cc7-2e35-5de3-ad90-aef4dae1d29f",
+            "title": "Low levels of lead exposure linked with strep throat in children",
+            "publisher": "University at Buffalo",
+            "url": "https://www.buffalo.edu/provost/admin-units.host.html/content/shared/smbs/news/2026/10/lehman-lead-exposure-strep-27594.detail.html",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "860b60f1-238c-5c56-a4ff-75bb1e0dc096",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "lab-grown-muscle-stable-isotope-measurement",
+        "rank": 8,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "CA"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-lab-muscle-stable-isotope-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 92,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "生物医学工程",
+            "headlineFact": "三维实验室肌肉更灵敏地测到蛋白合成",
+            "headlineView": "稳定同位素示踪捕捉到传统嘌呤霉素标记漏掉的氨基酸反应，减少早期研究对人体活检的依赖",
+            "headlineFull": "三维实验室肌肉更灵敏地测到蛋白合成；稳定同位素示踪捕捉到传统嘌呤霉素标记漏掉的氨基酸反应，减少早期研究对人体活检的依赖",
+            "intro": "多伦多大学团队把微型三维实验室培养肌肉与人体研究常用的稳定同位素示踪结合，用来测量肌肉蛋白合成。研究比较稳定同位素与实验室常用的嘌呤霉素标记，并测试氨基酸、酮体和电刺激收缩。稳定同位素持续检测到氨基酸刺激后的蛋白合成上升，而传统方法经常未识别出显著变化；三维组织的反应也比普通二维细胞培养更接近真实人体肌肉。这个模型有望更快、更低成本地筛选营养、运动和潜在治疗，再决定哪些进入人体研究，减少侵入性、昂贵且难以大规模开展的肌肉活检。它仍是实验室模型，不能复制血流、神经、免疫和全身代谢，任何干预效果都需要动物或人体试验确认。",
+            "xiaziQuote": "更好的体外模型不是替代人，而是让进入人体试验的问题更少、更准。",
+            "doudouQuote": "检测更灵敏不等于治疗有效；三维组织仍缺少完整人体系统。",
+            "footerTakeaway": "今日关键词：生物医学工程。"
+          },
+          "en-US": {
+            "categoryLabel": "Biomedical Engineering",
+            "headlineFact": "3D lab-grown muscle detects protein synthesis more sensitively",
+            "headlineView": "Stable-isotope tracing catches amino-acid responses missed by puromycin labeling and could reduce early reliance on human biopsies",
+            "headlineFull": "3D lab-grown muscle detects protein synthesis more sensitively; Stable-isotope tracing catches amino-acid responses missed by puromycin labeling and could reduce early reliance on human biopsies",
+            "intro": "A University of Toronto team combined miniature 3D lab-grown muscle tissues with stable-isotope tracing, a method used in human studies, to measure muscle protein synthesis. The researchers compared isotopes with common puromycin labeling and tested amino acids, ketones and electrically induced contractions. Stable isotopes consistently detected increased protein synthesis after amino-acid stimulation, while the conventional method often missed significant changes. The 3D tissues also behaved more like real human muscle than standard 2D cell cultures. The model could screen nutrition, exercise and candidate treatments faster and more cheaply before selecting interventions for invasive, expensive and hard-to-scale human muscle biopsies. It remains a laboratory model without full blood flow, nerves, immunity or whole-body metabolism, so any intervention still requires animal or human confirmation.",
+            "xiaziQuote": "A better in-vitro model does not replace people; it helps make the questions entering human trials fewer and sharper.",
+            "doudouQuote": "More sensitive measurement is not treatment efficacy, and 3D tissue still lacks the full human system.",
+            "footerTakeaway": "Keyword: Biomedical Engineering."
+          }
+        },
+        "sources": [
+          {
+            "id": "37250693-c9ec-512f-a793-405402f88263",
+            "topicId": "860b60f1-238c-5c56-a4ff-75bb1e0dc096",
+            "title": "New method measures growth in laboratory-grown muscle",
+            "publisher": "University of Toronto Institute of Biomedical Engineering",
+            "url": "https://bme.utoronto.ca/news/new-method-could-help-researchers-study-muscle-growth-without-relying-solely-on-human-testing/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "785945e3-922a-5837-ac0f-059b1d50bfe6",
+        "issueId": "2ebdb388-f7f2-5ee9-b5fa-04c4b9854072",
+        "slug": "satellite-methane-controlled-release-benchmark",
+        "rank": 9,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-satellite-methane-benchmark-20261028",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 91,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候监测",
+            "headlineFact": "专用卫星晴天识别92%至100%的甲烷羽流",
+            "headlineView": "481次受控释放建立最大规模盲测基准，也暴露通用卫星与AI算法的误报问题",
+            "headlineFull": "专用卫星晴天识别92%至100%的甲烷羽流；481次受控释放建立最大规模盲测基准，也暴露通用卫星与AI算法的误报问题",
+            "intro": "斯坦福团队在亚利桑那沙漠进行一年盲测，把481次已知流量的甲烷受控释放安排在11颗政府、非营利和商业卫星过境时，来自9个国家的15个团队独立判断是否存在羽流并估算排放。晴天条件下，专用甲烷传感器识别92%至100%的测试羽流；改装用途仪器识别62%至88%，通用陆地扫描卫星仅29%至37%。多数定量估算与真实流量相差可达正负50%，但平均误差大致抵消，足以优先定位大泄漏。研究还设置265次零排放过境测试误报，其中79%的误报来自把AI方法用于通用陆地扫描数据。云层、风、海面和非沙漠地表仍会削弱结果，受控试验也不等于全球日常运行。",
+            "xiaziQuote": "甲烷监测从能不能看见，开始进入在哪里可靠、误差多大、谁先去修的执行阶段。",
+            "doudouQuote": "92%至100%只适用于晴天和专用传感器，云层与通用卫星会显著拉低表现。",
+            "footerTakeaway": "今日关键词：气候监测。"
+          },
+          "en-US": {
+            "categoryLabel": "Climate Monitoring",
+            "headlineFact": "Dedicated satellites detect 92-100% of methane plumes on clear days",
+            "headlineView": "A 481-release blind benchmark tests the largest sample yet and exposes false positives from general-purpose satellites and AI methods",
+            "headlineFull": "Dedicated satellites detect 92-100% of methane plumes on clear days; A 481-release blind benchmark tests the largest sample yet and exposes false positives from general-purpose satellites and AI methods",
+            "intro": "Stanford researchers ran a yearlong blind test in the Arizona desert, timing 481 controlled methane releases of known flow to overpasses by 11 government, nonprofit and commercial satellites. Fifteen teams across nine countries independently judged whether a plume was present and estimated emissions. On clear days, dedicated methane sensors detected 92-100% of test plumes; repurposed instruments found 62-88%, while general-purpose land scanners found only 29-37%. Most quantity estimates were within roughly plus or minus 50% of actual flows, with over- and underestimates balancing on average well enough to prioritize major leaks. The study also included 265 zero-release overpasses: 79% of false positives came from AI methods applied to general land-scanning data. Clouds, wind, water and non-desert surfaces can weaken performance, and a controlled trial is not everyday global operation.",
+            "xiaziQuote": "Methane monitoring is moving from whether satellites can see leaks to where they are reliable, how wrong they are and what gets fixed first.",
+            "doudouQuote": "The 92-100% rate applies to clear skies and dedicated sensors; clouds and general-purpose satellites perform much worse.",
+            "footerTakeaway": "Keyword: Climate Monitoring."
+          }
+        },
+        "sources": [
+          {
+            "id": "db23809e-9dca-599c-aff1-35b164fe9332",
+            "topicId": "785945e3-922a-5837-ac0f-059b1d50bfe6",
+            "title": "Evaluating space-based methane detection through a one-year blind test",
+            "publisher": "Nature",
+            "url": "https://www.nature.com/articles/s41586-026-11115-0",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261028_a5d1af3155ee576f0eeba194"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-28",
+    "releaseId": "rel_20261028_a5d1af3155ee576f0eeba194",
+    "assetBatchId": "asset_prod_20261028_a5d1af3155ee576f0eeba194",
+    "posters": [
+      {
+        "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+        "locale": "zh",
+        "contentHash": "7e0f57268ecdc883cf2679786f2971b68902cae94105bfd8a2643bc5a29b8125",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/global-operator-radar-20261028.png"
+      },
+      {
+        "topicId": "655ed12f-9db7-59ba-b81e-4ac9da22b4c0",
+        "locale": "en",
+        "contentHash": "e3a657972db80d639934dc35874a78784d5e4fd8e9c81e60d244ea6ad54784f5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/global-operator-radar-20261028.png"
+      },
+      {
+        "topicId": "8ae453ab-9754-5750-a0ac-cf603502e30c",
+        "locale": "zh",
+        "contentHash": "4a2ab463b487f55e8f5366ebd2184c0952f6be0fce203db167eccf9e4d3c89da",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/ibm-agent-identity-governed-access.png"
+      },
+      {
+        "topicId": "8ae453ab-9754-5750-a0ac-cf603502e30c",
+        "locale": "en",
+        "contentHash": "7d988663c69d35d8339bac0a713feebef0455c53c5a9a5509de778d9c6d4ebfb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/ibm-agent-identity-governed-access.png"
+      },
+      {
+        "topicId": "f0a3fc2a-5c73-52fa-878d-b870bacd51a7",
+        "locale": "zh",
+        "contentHash": "64e4c43fdbdf55494feba5ee6c6796c75f74874fdcb99d605d8212971754425b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/contactsheetmaker-solo-creative-saas-revenue.png"
+      },
+      {
+        "topicId": "f0a3fc2a-5c73-52fa-878d-b870bacd51a7",
+        "locale": "en",
+        "contentHash": "cb4e9477563a933662dfde0897c2ef871d9c0a8226fcfe1047fb6e06ea23a0b5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/contactsheetmaker-solo-creative-saas-revenue.png"
+      },
+      {
+        "topicId": "839e2d70-88d4-58e7-abe5-1bbd0cdc5a4c",
+        "locale": "zh",
+        "contentHash": "a884abfad68339b737845338ea499967dcb33ae55c6e6f20f3b8ae543e2dfed3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/on-device-ai-golf-shot-tracer-revenue.png"
+      },
+      {
+        "topicId": "839e2d70-88d4-58e7-abe5-1bbd0cdc5a4c",
+        "locale": "en",
+        "contentHash": "5ed870f36f7023a4a36473d56e4919409ef5a297d07482df5ad36df007914e0e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/on-device-ai-golf-shot-tracer-revenue.png"
+      },
+      {
+        "topicId": "57a16f63-34f2-5c39-9e97-57f73eace1fe",
+        "locale": "zh",
+        "contentHash": "df889dd5ceff9064f2d9385ea8819951bf85f8db8673281562038558a1efbef2",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/ibergour-spanish-ham-crossborder-revenue.png"
+      },
+      {
+        "topicId": "57a16f63-34f2-5c39-9e97-57f73eace1fe",
+        "locale": "en",
+        "contentHash": "b5a2ffca50cda7132a0f7dab2c32673422712c2e22b4aab9b0108cc3b0b3592d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/ibergour-spanish-ham-crossborder-revenue.png"
+      },
+      {
+        "topicId": "438a73ac-fe17-5abd-a51f-5bcf2e474cbc",
+        "locale": "zh",
+        "contentHash": "8f167a3fd4e21664708bd43c371294748480986e41c966f4422d53dde44f0a52",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/mit-modular-origami-load-bearing-structures.png"
+      },
+      {
+        "topicId": "438a73ac-fe17-5abd-a51f-5bcf2e474cbc",
+        "locale": "en",
+        "contentHash": "dd0a669f4cea3d794e72d792da0cf747a551b9aa2691de5ec5fb74acdf3a5367",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/mit-modular-origami-load-bearing-structures.png"
+      },
+      {
+        "topicId": "452f5cc7-2e35-5de3-ad90-aef4dae1d29f",
+        "locale": "zh",
+        "contentHash": "e871630528d12d6b48b0f936e99d142f64167e643f1cc0bc7b95d98c8e96cbf1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/child-lead-exposure-strep-association.png"
+      },
+      {
+        "topicId": "452f5cc7-2e35-5de3-ad90-aef4dae1d29f",
+        "locale": "en",
+        "contentHash": "88b148b9aec6e7dcd9306aabcdc537e2799baeb98aee5b33d9c0f9486be5dcd4",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/child-lead-exposure-strep-association.png"
+      },
+      {
+        "topicId": "860b60f1-238c-5c56-a4ff-75bb1e0dc096",
+        "locale": "zh",
+        "contentHash": "4ea7e7178e5c27b50736d54ed45b656aff25a0a86a551b1e51f5e479fea3ae8e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/lab-grown-muscle-stable-isotope-measurement.png"
+      },
+      {
+        "topicId": "860b60f1-238c-5c56-a4ff-75bb1e0dc096",
+        "locale": "en",
+        "contentHash": "69ba2c12fa2d7dcfcb44cb116f06f0594287feb2908a2058a452c35745679754",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/lab-grown-muscle-stable-isotope-measurement.png"
+      },
+      {
+        "topicId": "785945e3-922a-5837-ac0f-059b1d50bfe6",
+        "locale": "zh",
+        "contentHash": "896d5739747e6146d2e3764e5c22e0508be4b5330efb0ab4791a9e1a880d0401",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/zh/satellite-methane-controlled-release-benchmark.png"
+      },
+      {
+        "topicId": "785945e3-922a-5837-ac0f-059b1d50bfe6",
+        "locale": "en",
+        "contentHash": "04e20faef280b6916b56d7a71028fad4f692083893ef1afd0fdeb91b9c7b25c3",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261028_a5d1af3155ee576f0eeba194/en/satellite-methane-controlled-release-benchmark.png"
+      }
+    ]
+  }
+}
