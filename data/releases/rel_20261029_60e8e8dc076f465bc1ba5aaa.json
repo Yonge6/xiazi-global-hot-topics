@@ -1,0 +1,712 @@
+{
+  "issue": {
+    "id": "108507da-260d-54d4-b4e8-7a175a387d73",
+    "slug": "2026-10-29",
+    "style": {
+      "name": "Editorial Typography",
+      "zhName": "编辑排版风格",
+      "description": "Style Atlas daily pick: Editorial Typography / 编辑排版风格. Use bold magazine-scale typography, a disciplined asymmetric grid, strong hierarchy, editorial photography or richly illustrated news scenes, restrained rules and captions, and a limited palette of ink black, warm paper, signal red and one topic-specific accent. Every poster must feel like a designed feature spread rather than a dashboard or generic template. Reduce information density by about 20%: one conclusion and at most three large facts in three to five clear modules. Content and evidence occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. NO.01 preserves all eight numbered one-sentence summaries exactly in a natural flowing editorial composition around a central news desk or globe motif, never an eight-box grid. Every poster must be native 1:2 and exactly 887x1774, with undistorted figures, circles and type, visible xiazishuo.com in the bottom safe area, and no full-edge white or near-white strip. Fill the full canvas with designed color, image or typographic structure while keeping text areas calm and highly readable."
+    },
+    "issueDate": "2026-10-29",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-10-29T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-28T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+    "topics": [
+      {
+        "id": "eb34a872-0a03-5030-a665-2bea2891de97",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "global-operator-radar-2026-10-29",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-global-radar-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "10月29日全球经营雷达",
+            "headlineView": "企业语音、单人工具、AI陪伴、户外服装出海、气候健康、结核给药、碳导线与分子量子接口进入同一张行动地图",
+            "headlineFull": "10月29日全球经营雷达；企业语音、单人工具、AI陪伴、户外服装出海、气候健康、结核给药、碳导线与分子量子接口进入同一张行动地图",
+            "intro": "1. Rime发布Prism企业语音模型，约500毫秒响应，先生成可审查文本并让工具调用与语音并行。\n2. It’s a Plan一人运营，把自托管项目管理和AI智能体协作做成产品，验证累计收入511美元、MRR 64美元。\n3. MyEx把AI关系分析、30天计划与陪伴聊天做进iPhone，验证累计收入13988美元、MRR 975美元。\n4. Passenger跨境销售占比两年从不足1%升至40%，四年GMV从约50万美元增长到逾1亿美元。\n5. 2026年《柳叶刀倒计时》称巴黎协定后年均热相关死亡较此前十年增加近36%。\n6. WHO为结核长效注射剂设定目标：预防可一次注射，治疗不超过4个月和3次给药。\n7. 仅由五元和七元碳环组成的窄纳米带表现出金属般导电性。\n8. 单个有机分子在4.5K实现毫秒级自旋相干和可寻址光学接口。",
+            "xiaziQuote": "今天的共同线索，是把复杂能力压缩进更可审查、更少摩擦、更易扩展的接口。",
+            "doudouQuote": "收入、厂商案例、公共卫生指标和实验室性能口径不同，先分清证据再决定行动。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "TODAY'S OVERVIEW",
+            "headlineFact": "Global Operator Radar — October 29",
+            "headlineView": "Enterprise voice, a solo tool, AI companionship, outdoor apparel exports, climate health, TB delivery, carbon wires and a molecular quantum interface on one action map",
+            "headlineFull": "Global Operator Radar — October 29; Enterprise voice, a solo tool, AI companionship, outdoor apparel exports, climate health, TB delivery, carbon wires and a molecular quantum interface on one action map",
+            "intro": "1. Rime launched Prism for enterprise voice, claiming roughly 500 ms responses, inspectable text before speech and tool calls that run alongside audio.\n2. One-person It’s a Plan sells self-hosted project management where AI agents work on the same board, with $511 total revenue and $64 MRR verified.\n3. MyEx puts AI relationship analysis, a 30-day plan and companion chat into an iPhone app, with $13,988 total revenue and $975 MRR verified.\n4. Passenger grew cross-border sales from under 1% to 40% of revenue in two years as GMV rose from about $500,000 to over $100 million in four years.\n5. The 2026 Lancet Countdown says average annual heat-related deaths rose nearly 36% after the Paris Agreement versus the prior decade.\n6. WHO targets a single-injection TB prevention course and TB treatment lasting no more than four months across three or fewer encounters.\n7. A narrow nanoribbon made only from five- and seven-membered carbon rings shows metal-like conduction.\n8. A single organic molecule achieved millisecond-scale spin coherence and an addressable optical interface at 4.5 K.",
+            "xiaziQuote": "Today's shared pattern is compressing complex capability into interfaces that are easier to inspect, use and scale.",
+            "doudouQuote": "Verified revenue, vendor cases, public-health indicators and lab performance are different evidence classes—separate them before acting.",
+            "footerTakeaway": "Keyword: TODAY'S OVERVIEW."
+          }
+        },
+        "sources": [
+          {
+            "id": "37095386-f329-5161-844b-582410a80701",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "Introducing Prism: the first composable speech-to-speech model",
+            "publisher": "Rime",
+            "url": "https://www.rime.ai/resources/prism-first-speech-to-speech-for-enterprise",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "8f140d78-fb7a-52d8-ad7f-98c308cc0a8d",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "It’s a Plan verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/itsaplan",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "349f672d-0533-5a64-ac4a-2fe1a6baf809",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "Recently Added Startups — MyEx",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/recent",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "4e84e398-faaf-504f-bf16-2f77440fc508",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "Passenger grows cross-border revenue mix from 1% to 40% in two years",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/au/case-studies/passenger",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "2859baf2-cb1d-5ca8-8431-43380b02b939",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "Climate change is a growing health emergency",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "049b9305-faa3-5098-8703-de4fd302ced9",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "Target regimen profiles for long-acting injectables for tuberculosis",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/publications/i/item/9789240125506",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "6c2eb291-160a-5759-b8ad-cde2c85e0a4f",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "Narrow carbon pentaheptite nanoribbon as a covalent metal",
+            "publisher": "Nature",
+            "url": "https://www.nature.com/articles/s41586-026-11202-2",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5707fa17-6582-55e7-867e-2e3ebf9108b5",
+            "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+            "title": "A Single-Molecule Spin-Photon Interface",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2605.10077",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "51a236dc-ede6-5914-9b01-18efa8252351",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "rime-prism-enterprise-speech-to-speech",
+        "rank": 2,
+        "category": "technology",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-rime-prism-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Prism把企业语音响应压到约500毫秒",
+            "headlineView": "先生成可审查文本，再开口说话；工具调用与语音并行，模型还能在企业自己的基础设施中微调运行",
+            "headlineFull": "Prism把企业语音响应压到约500毫秒；先生成可审查文本，再开口说话；工具调用与语音并行，模型还能在企业自己的基础设施中微调运行",
+            "intro": "Rime于10月28日发布企业级语音到语音模型Prism。公司称模型可在约500毫秒内响应，并在合成语音前先生成一层可检查文本，让企业把合规规则和安全护栏应用到每句话；工具调用可与语音同时进行，减少“先等工具、再开口”的停顿。Prism还支持按行业术语、发音和情绪线索微调，并可部署在企业自己的基础设施中，以控制数据和运行环境。其核心定位不是把文字转语音做得更像人，而是同时保留实时互动、可组合系统与输出审查。500毫秒、能力领先和人类感知表现来自Rime官方口径，尚缺广泛独立基准；企业采用前仍需验证多语言、噪声环境、打断处理、幻觉、端到端成本与真实客服流程中的稳定性。",
+            "xiaziQuote": "语音智能体进入高风险业务，关键不只是像人，而是每句话在说出口前仍可检查和阻断。",
+            "doudouQuote": "先在真实电话流量里测延迟、打断和误操作，再把厂商的500毫秒变成自己的SLA。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Prism targets roughly 500 ms enterprise voice responses",
+            "headlineView": "It emits inspectable text before speaking, runs tool calls alongside audio and can be fine-tuned inside a company’s own infrastructure",
+            "headlineFull": "Prism targets roughly 500 ms enterprise voice responses; It emits inspectable text before speaking, runs tool calls alongside audio and can be fine-tuned inside a company’s own infrastructure",
+            "intro": "Rime launched Prism on October 28 as an enterprise speech-to-speech model. The company says Prism responds in roughly 500 milliseconds and emits an inspectable text layer before synthesizing speech, so policy and safety checks can review every word. Tool calls can run in parallel with spoken output, reducing the pause created by waiting for an action to finish before the agent speaks. Prism can also be fine-tuned for industry vocabulary, pronunciation and emotional cues, and deployed inside customer-controlled infrastructure for data and runtime control. Its central proposition is not merely human-like audio, but real-time conversation that remains composable and reviewable. The 500 ms figure, performance claims and human-perception results come from Rime; broad independent benchmarks are not yet available. Buyers still need to test multilingual accuracy, noise, interruptions, hallucinations, end-to-end cost and reliability in their own call flows.",
+            "xiaziQuote": "For voice agents in high-stakes work, sounding human matters less than keeping every sentence inspectable and stoppable before it is heard.",
+            "doudouQuote": "Test latency, interruptions and unsafe actions on real calls before turning a vendor’s 500 ms claim into your SLA.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "2a3b8e28-9423-5dcb-8ac1-622743d64809",
+            "topicId": "51a236dc-ede6-5914-9b01-18efa8252351",
+            "title": "Introducing Prism: the first composable speech-to-speech model",
+            "publisher": "Rime",
+            "url": "https://www.rime.ai/resources/prism-first-speech-to-speech-for-enterprise",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "10ead23e-dfa5-59f4-b312-91932deaf169",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "its-a-plan-solo-open-source-agent-board",
+        "rank": 3,
+        "category": "business",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-its-a-plan-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "It’s a Plan一人运营，验证收入511美元",
+            "headlineView": "把自托管项目板和AI智能体协作放进同一产品，以每年240美元Pro套餐换取无按席位收费",
+            "headlineFull": "It’s a Plan一人运营，验证收入511美元；把自托管项目板和AI智能体协作放进同一产品，以每年240美元Pro套餐换取无按席位收费",
+            "intro": "It’s a Plan由Croffasia一人于2026年10月创办，是一个开源、自托管的Linear/Jira替代方案。人和AI智能体在同一项目板工作：团队可把卡片分配给智能体、在评论中@它们，或按计划触发任务；客户使用自己的模型密钥，文件和问题数据留在自己的服务器。TrustMRR通过Stripe验证累计及近30天收入均为511美元、MRR 64美元和3个活跃订阅。社区版采用AGPL-3.0免费开放，Pro版每年240美元、不按席位收费；获客渠道包括SEO、X和Threads。数字产品、自托管和开源社区降低了一人交付成本，但当前收入和订阅样本仍很小。主要限制是企业安装支持、升级兼容、智能体执行安全、客户自带模型的故障归因，以及不按席位收费能否覆盖高使用量客户的支持成本。",
+            "xiaziQuote": "一人开发者可以把“AI同事”卖给团队，但真正的杠杆来自自托管、开源分发和按组织交付。",
+            "doudouQuote": "511美元证明有人付钱，不证明已经形成稳定生意；接下来要看续费、支持时长和客单价。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "ONE-PERSON COMPANY",
+            "headlineFact": "Solo-run It’s a Plan verifies $511 in revenue",
+            "headlineView": "A self-hosted project board puts people and AI agents in one workflow, charging $240 a year for Pro with no per-seat fee",
+            "headlineFull": "Solo-run It’s a Plan verifies $511 in revenue; A self-hosted project board puts people and AI agents in one workflow, charging $240 a year for Pro with no per-seat fee",
+            "intro": "Croffasia founded It’s a Plan as a one-person company in October 2026. The open-source, self-hosted Linear/Jira alternative lets people and AI agents work on the same board: teams can assign a card to an agent, @mention it in comments or trigger work on a schedule. Customers use their own model keys while issues and files stay on their own server. TrustMRR verifies $511 in total and last-30-day revenue through Stripe, with $64 MRR and three active subscriptions. The Community edition is free under AGPL-3.0; Pro costs $240 a year with no per-seat pricing. Acquisition channels are SEO, X and Threads. Digital delivery, self-hosting and open-source distribution create leverage for one operator, but the revenue and subscription sample is still tiny. Key constraints are installation support, upgrade compatibility, agent execution safety, fault ownership when customers bring model keys and whether flat organizational pricing covers heavy-support accounts.",
+            "xiaziQuote": "A solo builder can sell an 'AI teammate' to organizations, but the leverage comes from self-hosting, open distribution and organization-level delivery.",
+            "doudouQuote": "$511 proves someone paid; it does not prove durable economics. Watch renewals, support hours and contract value next.",
+            "footerTakeaway": "Keyword: ONE-PERSON COMPANY."
+          }
+        },
+        "sources": [
+          {
+            "id": "632d3d23-22e6-5b8d-adeb-321145c96b6b",
+            "topicId": "10ead23e-dfa5-59f4-b312-91932deaf169",
+            "title": "It’s a Plan verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/itsaplan",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "cbf5e7b4-50fa-5ff8-bb3f-81f5f0a4e3eb",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "myex-ai-breakup-coach-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "TR"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-myex-ai-app-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "MyEx验证MRR 975美元",
+            "headlineView": "把关系资料、AI分析、30天行动计划和陪伴聊天组合成英语与土耳其语iPhone订阅应用",
+            "headlineFull": "MyEx验证MRR 975美元；把关系资料、AI分析、30天行动计划和陪伴聊天组合成英语与土耳其语iPhone订阅应用",
+            "intro": "MyEx面向分手恢复与关系指导，把AI落在一条高情绪、持续30天的移动工作流：用户提交关系信息或WhatsApp摘要，应用生成关系分析与复合概率、每日行动计划、无联系追踪，并提供Aphrodite或Zeus AI陪伴聊天。TrustMRR最新列表显示累计验证收入13988美元、MRR 975美元；第三方收入图表显示近30天收入约1079.50美元。App Store显示应用支持英语和土耳其语，以每周或年度订阅解锁分析和完整计划，并另售应用内金币，公开内购价格包括9.99美元、29.99美元及多个金币档。赚钱来自订阅与应用内购，而不是下载或评分。主要风险是高流失、应用商店分成、获客成本、敏感关系数据隐私，以及AI给出过度确定的“复合概率”；它是指导和陪伴产品，不应替代心理健康或危机支持。",
+            "xiaziQuote": "AI陪伴真正可收费的不是一句安慰，而是把分析、每日行动和持续追踪组织成一个完整周期。",
+            "doudouQuote": "975美元MRR已经是付费证据，但敏感数据、夸大承诺和情绪依赖会直接决定长期信任。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "MONETIZED AI IN PRACTICE",
+            "headlineFact": "MyEx verifies $975 MRR",
+            "headlineView": "Relationship intake, AI analysis, a 30-day action plan and companion chat become an English-and-Turkish iPhone subscription",
+            "headlineFull": "MyEx verifies $975 MRR; Relationship intake, AI analysis, a 30-day action plan and companion chat become an English-and-Turkish iPhone subscription",
+            "intro": "MyEx applies AI to a high-emotion, 30-day breakup-recovery workflow. Users submit relationship information or a WhatsApp summary; the app produces relationship analysis and a reconciliation probability, a daily plan, no-contact tracking and companion chat with Aphrodite or Zeus. TrustMRR’s latest directory shows $13,988 in verified total revenue and $975 MRR; a third-party revenue chart shows about $1,079.50 in the last 30 days. The App Store says the English-and-Turkish app unlocks analysis and the full plan through weekly or annual subscriptions and also sells in-app coin packs, with public purchase points including $9.99 and $29.99. Monetization is verified subscription and in-app spending, not downloads or ratings. Constraints include churn, store commissions, acquisition cost, privacy for sensitive relationship data and overconfident AI-generated 'reconciliation odds.' The product is guidance and companionship, not a substitute for mental-health or crisis support.",
+            "xiaziQuote": "Paid AI companionship is not one comforting sentence; it is analysis, daily action and continued tracking organized into a complete cycle.",
+            "doudouQuote": "$975 MRR is payment evidence, but sensitive data, exaggerated promises and emotional dependence will determine durable trust.",
+            "footerTakeaway": "Keyword: MONETIZED AI IN PRACTICE."
+          }
+        },
+        "sources": [
+          {
+            "id": "39354084-bb4f-5cd2-9a80-c385409f8838",
+            "topicId": "cbf5e7b4-50fa-5ff8-bb3f-81f5f0a4e3eb",
+            "title": "Recently Added Startups — MyEx",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/recent",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "b4163cb7-54f3-5263-830e-6c6f4626bdf8",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "passenger-cross-border-sales-mix",
+        "rank": 5,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "GB",
+          "US",
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-passenger-cross-border-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Passenger跨境销售占比两年升至40%",
+            "headlineView": "英国户外服装品牌把十个市场放在单店运营，本地化美国与德国结账，并用多币种余额支付全球供应商",
+            "headlineFull": "Passenger跨境销售占比两年升至40%；英国户外服装品牌把十个市场放在单店运营，本地化美国与德国结账，并用多币种余额支付全球供应商",
+            "intro": "英国户外服装品牌Passenger的Shopify案例显示，其四年GMV从约50万美元增长到逾1亿美元；跨境销售原先不足收入的1%，采用Markets后两年升至40%。品牌在数周内测试约10个市场，部分市场一天内上线，随后在美国和德国获得明显增长，并针对当地语言、配送方式和结账文案做本地化。赚钱机制是把同一户外服装与可持续品牌叙事卖向更多季节和市场，同时用单一店铺统一库存、内容和报告。多币种收款让品牌保留美元和欧元支付全球供应商，减少销售先换英镑、采购再换回外币的双重汇兑成本。数据来自Shopify厂商案例，未披露利润、退货率或广告回报；库存、尺码退货、国际配送、关税税务、汇率和市场本地化仍是主要成本与风险。",
+            "xiaziQuote": "跨境增长不只来自更多国家的流量，还来自把库存、结账、币种和供应商付款放在同一经营系统。",
+            "doudouQuote": "1%到40%是销售结构变化；真正利润仍要扣除营销、退货、物流、税费和外汇波动。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "CROSS-BORDER COMMERCE",
+            "headlineFact": "Passenger lifts cross-border sales share to 40% in two years",
+            "headlineView": "The UK outdoor brand runs ten markets from one store, localizes US and German checkout and holds foreign currency to pay global suppliers",
+            "headlineFull": "Passenger lifts cross-border sales share to 40% in two years; The UK outdoor brand runs ten markets from one store, localizes US and German checkout and holds foreign currency to pay global suppliers",
+            "intro": "A Shopify case study says UK outdoor-apparel brand Passenger grew GMV from about $500,000 to more than $100 million in four years. Cross-border sales were initially below 1% of revenue; two years after adopting Markets they represented 40%. The brand tested roughly ten markets over a few weeks, sometimes launching in under a day, then saw meaningful traction in the United States and Germany and localized language, delivery methods and checkout wording. The profit mechanism is selling the same outdoor range and sustainability story across more markets and seasons while one store unifies inventory, content and reporting. Multi-currency payouts let Passenger retain dollars and euros to pay global suppliers, avoiding a double conversion through sterling. The figures come from a Shopify vendor case and do not disclose profit, returns or ad efficiency. Inventory, size-related returns, international delivery, duties, tax, FX and localization remain key costs and risks.",
+            "xiaziQuote": "Cross-border growth is not only more traffic from more countries; it is one operating system for inventory, checkout, currencies and supplier payments.",
+            "doudouQuote": "A move from 1% to 40% changes the sales mix. Profit still depends on marketing, returns, logistics, tax and FX.",
+            "footerTakeaway": "Keyword: CROSS-BORDER COMMERCE."
+          }
+        },
+        "sources": [
+          {
+            "id": "27d467a2-02f9-5ed5-b122-3da4d55aa283",
+            "topicId": "b4163cb7-54f3-5263-830e-6c6f4626bdf8",
+            "title": "Passenger grows cross-border revenue mix from 1% to 40% in two years",
+            "publisher": "Shopify",
+            "url": "https://www.shopify.com/au/case-studies/passenger",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "83f52c93-d5cb-57ed-93d2-508eb66752b9",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "lancet-countdown-climate-health-2026",
+        "rank": 6,
+        "category": "climate",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-climate-health-countdown-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "气候与健康",
+            "headlineFact": "热相关死亡年均水平较此前十年增加近36%",
+            "headlineView": "2026年《柳叶刀倒计时》用54项指标显示，气候健康伤害加速快于全球应对，但清洁能源也开始减少过早死亡",
+            "headlineFull": "热相关死亡年均水平较此前十年增加近36%；2026年《柳叶刀倒计时》用54项指标显示，气候健康伤害加速快于全球应对，但清洁能源也开始减少过早死亡",
+            "intro": "WHO转述2026年《柳叶刀健康与气候变化倒计时》称，巴黎协定生效后的年份里，年均热相关死亡较此前十年增加近36%。2023年全球约71万人死亡与高温相关，其中逾70%的负担归因于人为气候变化；报告还记录干旱恶化、水文极端暴露增加和热暴露造成的经济损失。与此同时，2025年全球清洁能源投资达到创纪录的2.1万亿美元，降低化石燃料空气污染的国家被估计已避免数千例过早死亡。报告由30多个国家100多家机构的146名研究者合作，追踪54项指标。它呼吁把气候变化视作健康紧急事件，并加强减排、适应、预警和韧性医疗系统。死亡归因和避免死亡是基于模型与比较风险评估，不是逐例确诊，地区数据质量和适应能力差异需要一并阅读。",
+            "xiaziQuote": "气候政策不是遥远的温度目标，也是今天能减少中暑、污染和医疗系统压力的健康干预。",
+            "doudouQuote": "36%和71万来自全球估算模型；趋势很重要，但不能把归因数字当作逐例死亡证明。",
+            "footerTakeaway": "今日关键词：气候与健康。"
+          },
+          "en-US": {
+            "categoryLabel": "CLIMATE & HEALTH",
+            "headlineFact": "Average annual heat-related deaths rose nearly 36%",
+            "headlineView": "The 2026 Lancet Countdown tracks 54 indicators showing climate-health harm outpacing the global response, while clean energy begins to prevent early deaths",
+            "headlineFull": "Average annual heat-related deaths rose nearly 36%; The 2026 Lancet Countdown tracks 54 indicators showing climate-health harm outpacing the global response, while clean energy begins to prevent early deaths",
+            "intro": "WHO’s summary of the 2026 Lancet Countdown on Health and Climate Change says average annual heat-related deaths in the years after the Paris Agreement rose nearly 36% versus the previous decade. Heat was linked to roughly 710,000 deaths worldwide in 2023, with more than 70% of the burden attributed to human-caused climate change. The report also records worsening drought, greater exposure to hydrological extremes and economic losses from heat exposure. At the same time, global clean-energy investment reached a record $2.1 trillion in 2025, and countries reducing fossil-fuel air pollution are estimated to be preventing thousands of premature deaths. The report brings together 146 researchers from more than 100 institutions in over 30 countries and follows 54 indicators. It calls for mitigation, adaptation, early warning and resilient health systems. Attribution and avoided-death figures come from models and comparative risk assessment, not case-by-case diagnoses, and regional data quality and adaptive capacity vary.",
+            "xiaziQuote": "Climate policy is not only a distant temperature target; it is a health intervention that can cut heat illness, pollution and pressure on care today.",
+            "doudouQuote": "The 36% and 710,000 figures are global estimates. The trend matters, but attribution is not a case-by-case death certificate.",
+            "footerTakeaway": "Keyword: CLIMATE & HEALTH."
+          }
+        },
+        "sources": [
+          {
+            "id": "eb2ac9da-97ff-518a-86aa-088dbad3aa1c",
+            "topicId": "83f52c93-d5cb-57ed-93d2-508eb66752b9",
+            "title": "Climate change is a growing health emergency",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "d793f6fc-bd92-5009-92af-385a1f59430d",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "who-long-acting-injectables-tb-targets",
+        "rank": 7,
+        "category": "science",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-who-tb-lai-targets-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 93,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共卫生",
+            "headlineFact": "WHO为结核长效针设定“一针预防”目标",
+            "headlineView": "预防方案争取一次就诊完成，结核病治疗不超过4个月、最多3次给药，并尽量无需冷链",
+            "headlineFull": "WHO为结核长效针设定“一针预防”目标；预防方案争取一次就诊完成，结核病治疗不超过4个月、最多3次给药，并尽量无需冷链",
+            "intro": "WHO发布结核预防和治疗用长效注射剂目标方案，为进入或接近临床开发的候选药物设定最低与理想标准。结核预防目标是一次就诊、单次注射完成全疗程；结核病治疗目标是不超过4个月，并在3次或更少给药就诊中完成。两类产品都应尽量在基层卫生系统给药、注射体积小、不依赖冷链，疗效和安全性至少不低于现有口服方案。文件还要求在试验设计中评估总体治疗负担、规模化、公平可及、透明定价与成本。长效针的价值是把每天服药的依从性压力部分转移给医疗系统，但也会把供应、注射服务、不良反应持续时间和耐药监测集中到更少的接触点。该文件是研发目标，不是已经批准的新疗法；候选药仍需临床试验证明药效、安全、可逆性、孕妇和儿童适用性及真实世界交付能力。",
+            "xiaziQuote": "结核治疗的突破不只是一种新分子，也可能是把数月每日服药压缩成少数几次可靠接触。",
+            "doudouQuote": "一针预防是研发目标，不是现成产品；越少给药，越要把长效副作用、供应和随访设计清楚。",
+            "footerTakeaway": "今日关键词：公共卫生。"
+          },
+          "en-US": {
+            "categoryLabel": "PUBLIC HEALTH",
+            "headlineFact": "WHO sets a one-shot target for TB prevention",
+            "headlineView": "Prevention should fit one visit; TB treatment should last no more than four months and three encounters, ideally without a cold chain",
+            "headlineFull": "WHO sets a one-shot target for TB prevention; Prevention should fit one visit; TB treatment should last no more than four months and three encounters, ideally without a cold chain",
+            "intro": "WHO has published target regimen profiles for long-acting injectables for tuberculosis prevention and treatment, defining minimum and optimal standards for candidates entering or approaching clinical development. The prevention target is a full course delivered as one injection at one encounter. The disease-treatment target is a regimen no longer than four months across three or fewer dosing encounters. Both should be deliverable at the lowest feasible level of the health system, use small injection volumes, avoid cold-chain dependence and match or exceed the efficacy and safety of current oral regimens. The profiles also require trial design to consider total treatment burden, scalability, equitable access, transparent pricing and cost. Long-acting products could shift part of daily adherence pressure from patients to health systems, but concentrate supply, injection capacity, prolonged adverse effects and resistance monitoring into fewer contacts. This is a research target, not an approved therapy; candidates still need trials for efficacy, safety, reversibility, pregnancy and paediatric use and real-world delivery.",
+            "xiaziQuote": "A TB breakthrough may be more than a new molecule: it may compress months of daily pills into a few reliable clinical contacts.",
+            "doudouQuote": "One-shot prevention is a development target, not a product. Fewer doses require clearer plans for long-lived side effects, supply and follow-up.",
+            "footerTakeaway": "Keyword: PUBLIC HEALTH."
+          }
+        },
+        "sources": [
+          {
+            "id": "ff3f2207-864e-5b97-a586-5204c4647759",
+            "topicId": "d793f6fc-bd92-5009-92af-385a1f59430d",
+            "title": "Target regimen profiles for long-acting injectables for tuberculosis",
+            "publisher": "World Health Organization",
+            "url": "https://www.who.int/publications/i/item/9789240125506",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "020b5668-454c-5da9-8b59-62be9cc64547",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "carbon-pentaheptite-nanoribbon-covalent-metal",
+        "rank": 8,
+        "category": "science",
+        "region": "Asia",
+        "countryCodes": [
+          "CN"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-carbon-pentaheptite-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "材料科学",
+            "headlineFact": "五七元环碳纳米带表现出金属般导电性",
+            "headlineView": "研究者把此前难以获得的成对五元环链横向连接，合成只含五元与七元碳环的原子级窄带",
+            "headlineFull": "五七元环碳纳米带表现出金属般导电性；研究者把此前难以获得的成对五元环链横向连接，合成只含五元与七元碳环的原子级窄带",
+            "intro": "中国科学技术大学等团队在《自然》报告合成窄型碳五七元环纳米带。与石墨烯常见的六元碳环不同，这类带状材料的骨架由中央七元环链和两侧五元环链构成；团队先制备聚环辛二烯链，再通过表面反应转化并横向熔合成两种原子级结构。测量与计算显示，纳米带具有金属般电子输运和电导，为全共价、原子级宽度的碳“量子导线”提供可能路线。研究重要性在于，过去理论预测五七元环碳同素异形体可能导电，但精确合成与结构验证一直困难。当前成果仍是超高真空表面上的纳米尺度样品，不是可批量制造的电线；室温器件接触、电流承载、缺陷容忍、长度扩展、基底转移与环境稳定性仍需验证。",
+            "xiaziQuote": "碳材料不只有六边形世界，改变环的组合方式，就可能把同一种元素改造成完全不同的电子通道。",
+            "doudouQuote": "金属般导电来自原子级样品，离可接触、可转移、可量产的芯片互连还有很长距离。",
+            "footerTakeaway": "今日关键词：材料科学。"
+          },
+          "en-US": {
+            "categoryLabel": "MATERIALS SCIENCE",
+            "headlineFact": "Five–seven-ring carbon ribbon conducts like a metal",
+            "headlineView": "Researchers laterally linked previously inaccessible paired five-membered-ring chains into atomically narrow ribbons made only of pentagons and heptagons",
+            "headlineFull": "Five–seven-ring carbon ribbon conducts like a metal; Researchers laterally linked previously inaccessible paired five-membered-ring chains into atomically narrow ribbons made only of pentagons and heptagons",
+            "intro": "A University of Science and Technology of China-led team reports narrow carbon pentaheptite nanoribbons in Nature. Unlike graphene’s familiar six-membered rings, the ribbons contain a central chain of seven-membered rings flanked by chains of five-membered rings. The team first made polycyclooctadiene chains, transformed them through on-surface reactions and fused them laterally into two atomically precise structures. Measurements and calculations show metal-like electron transport and conductance, suggesting a route toward fully covalent, atomically narrow carbon 'quantum wires.' The result matters because theory had long predicted conductive five–seven-ring carbon allotropes, while precise synthesis and structural verification remained difficult. These are still nanoscale samples made on surfaces under ultrahigh vacuum, not manufacturable wires. Room-temperature contacts, current capacity, defect tolerance, longer lengths, substrate transfer and environmental stability all remain to be demonstrated.",
+            "xiaziQuote": "Carbon is not only a six-sided world. Rearranging its rings can turn the same element into a very different electronic channel.",
+            "doudouQuote": "Metal-like conduction is measured in atomically precise samples; practical, transferable and manufacturable interconnects remain far away.",
+            "footerTakeaway": "Keyword: MATERIALS SCIENCE."
+          }
+        },
+        "sources": [
+          {
+            "id": "d6ec4aed-83cf-5718-b532-5776a7254332",
+            "topicId": "020b5668-454c-5da9-8b59-62be9cc64547",
+            "title": "Narrow carbon pentaheptite nanoribbon as a covalent metal",
+            "publisher": "Nature",
+            "url": "https://www.nature.com/articles/s41586-026-11202-2",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "34dc20af-8ee4-5709-ac11-87d9bc2281ae",
+        "issueId": "108507da-260d-54d4-b4e8-7a175a387d73",
+        "slug": "single-molecule-spin-photon-interface",
+        "rank": 9,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "DE",
+          "IL"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-single-molecule-spin-photon-20261029",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "量子科技",
+            "headlineFact": "单个有机分子实现自旋—光子接口",
+            "headlineView": "三重态卡宾嵌入匹配晶体，在4.5K同时获得可寻址荧光、窄光谱线与毫秒级相干",
+            "headlineFull": "单个有机分子实现自旋—光子接口；三重态卡宾嵌入匹配晶体，在4.5K同时获得可寻址荧光、窄光谱线与毫秒级相干",
+            "intro": "德国乌尔姆大学、NVision及合作团队在《自然》展示单分子级自旋—光子接口。研究者把具有三重态基态的卡宾分子嵌入结构匹配的宿主晶体，使单个分子既能作为自旋量子比特，又能通过光子被初始化、读取和连接。系统表现出超过一小时的光谱稳定性、自旋选择性光学跃迁和单分子光学探测磁共振；在4.5K下，相干控制获得毫秒级动态解耦相干时间，自旋弛豫达到数十毫秒。相比依赖晶体缺陷的传统方案，分子可以通过化学合成精确调节，并有望以薄膜方式集成到光子芯片。当前结果仍依赖低温、精心匹配晶体与实验室单分子测量；大规模制备、器件耦合、光子收集效率、分子一致性、室温运行和多节点纠缠尚未证明。",
+            "xiaziQuote": "分子量子比特的诱人之处，是把量子器件从寻找天然缺陷，转向按原子设计可复制的功能单元。",
+            "doudouQuote": "毫秒级相干很重要，但它发生在4.5K；真正网络还要解决芯片耦合、良率和多节点纠缠。",
+            "footerTakeaway": "今日关键词：量子科技。"
+          },
+          "en-US": {
+            "categoryLabel": "QUANTUM TECHNOLOGY",
+            "headlineFact": "A single organic molecule becomes a spin–photon interface",
+            "headlineView": "A triplet carbene in a matched crystal combines addressable fluorescence, narrow optical lines and millisecond coherence at 4.5 K",
+            "headlineFull": "A single organic molecule becomes a spin–photon interface; A triplet carbene in a matched crystal combines addressable fluorescence, narrow optical lines and millisecond coherence at 4.5 K",
+            "intro": "A team from Ulm University, NVision and collaborators reports a single-molecule spin–photon interface in Nature. The researchers embedded a triplet-ground-state carbene molecule in a structurally matched host crystal, allowing one molecule to act as a spin qubit that can also be initialized, read and connected through photons. The system showed spectral stability for more than an hour, spin-selective optical transitions and optically detected magnetic resonance at the single-molecule level. Coherent control at 4.5 K produced millisecond-scale dynamical-decoupling coherence and spin relaxation lasting tens of milliseconds. Unlike conventional approaches based on crystal defects, molecules can be tuned through chemical synthesis and may eventually be integrated as thin films on photonic chips. The result still depends on cryogenic temperature, a carefully matched crystal and laboratory single-molecule measurement. Scalable fabrication, device coupling, photon collection, molecule-to-molecule consistency, room-temperature operation and multi-node entanglement remain unproven.",
+            "xiaziQuote": "Molecular qubits could shift quantum hardware from finding useful natural defects to designing repeatable functional units atom by atom.",
+            "doudouQuote": "Millisecond coherence matters, but it occurs at 4.5 K. A network still needs chip coupling, yield and multi-node entanglement.",
+            "footerTakeaway": "Keyword: QUANTUM TECHNOLOGY."
+          }
+        },
+        "sources": [
+          {
+            "id": "27633be9-4796-5d93-94df-ed1b191b62cd",
+            "topicId": "34dc20af-8ee4-5709-ac11-87d9bc2281ae",
+            "title": "A Single-Molecule Spin-Photon Interface",
+            "publisher": "arXiv",
+            "url": "https://arxiv.org/abs/2605.10077",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261029_60e8e8dc076f465bc1ba5aaa"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-10-29",
+    "releaseId": "rel_20261029_60e8e8dc076f465bc1ba5aaa",
+    "assetBatchId": "asset_prod_20261029_60e8e8dc076f465bc1ba5aaa",
+    "posters": [
+      {
+        "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+        "locale": "zh",
+        "contentHash": "bbc40c2c62c2367b55243d589ca464c3dd61d5093914a3c36f9e3e4cf1b43d08",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/global-operator-radar-2026-10-29.png"
+      },
+      {
+        "topicId": "eb34a872-0a03-5030-a665-2bea2891de97",
+        "locale": "en",
+        "contentHash": "ced6b87d906edc6125fb48bf1f349cdc217ce6de6b5025d74bf3312af2c81a59",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/global-operator-radar-2026-10-29.png"
+      },
+      {
+        "topicId": "51a236dc-ede6-5914-9b01-18efa8252351",
+        "locale": "zh",
+        "contentHash": "d5d3918f224ce62b77af9bf0cfe3ff9d391b99bb7d79a6f76ddde8983251c959",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/rime-prism-enterprise-speech-to-speech.png"
+      },
+      {
+        "topicId": "51a236dc-ede6-5914-9b01-18efa8252351",
+        "locale": "en",
+        "contentHash": "3a229c12326ec2a7d490d1508dd84a6a2a6b1ebd135d279941fe66f41117ec93",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/rime-prism-enterprise-speech-to-speech.png"
+      },
+      {
+        "topicId": "10ead23e-dfa5-59f4-b312-91932deaf169",
+        "locale": "zh",
+        "contentHash": "d6cac0b7bfbb9e560233d32254f4b35cbec549a245af43901c0e2db3b3799bbe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/its-a-plan-solo-open-source-agent-board.png"
+      },
+      {
+        "topicId": "10ead23e-dfa5-59f4-b312-91932deaf169",
+        "locale": "en",
+        "contentHash": "430f842600103fa0f914a5247c5290b61d3f3520906da972ddc26c3cfa81f646",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/its-a-plan-solo-open-source-agent-board.png"
+      },
+      {
+        "topicId": "cbf5e7b4-50fa-5ff8-bb3f-81f5f0a4e3eb",
+        "locale": "zh",
+        "contentHash": "1db6a38f2c385077e2122498a748f3e46d0a62eaaeaffd34f7367dc67b691bfe",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/myex-ai-breakup-coach-revenue.png"
+      },
+      {
+        "topicId": "cbf5e7b4-50fa-5ff8-bb3f-81f5f0a4e3eb",
+        "locale": "en",
+        "contentHash": "4ae3f67ea6a52347e469607ee31056b29f1e213f7c76912eb28a0a2b51f65013",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/myex-ai-breakup-coach-revenue.png"
+      },
+      {
+        "topicId": "b4163cb7-54f3-5263-830e-6c6f4626bdf8",
+        "locale": "zh",
+        "contentHash": "e2305271e7329163985534a4357093fae11471c68378bf5c276089dba4f0e8b5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/passenger-cross-border-sales-mix.png"
+      },
+      {
+        "topicId": "b4163cb7-54f3-5263-830e-6c6f4626bdf8",
+        "locale": "en",
+        "contentHash": "93fc4671c0654edf8a43f2f3e7339fa1f2507f6ebc0bf6b4378a0dea0ed22566",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/passenger-cross-border-sales-mix.png"
+      },
+      {
+        "topicId": "83f52c93-d5cb-57ed-93d2-508eb66752b9",
+        "locale": "zh",
+        "contentHash": "22ad582c465edd2d6724d6536d30518f2da2d3d68916a5d193c90f8f1aff537e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/lancet-countdown-climate-health-2026.png"
+      },
+      {
+        "topicId": "83f52c93-d5cb-57ed-93d2-508eb66752b9",
+        "locale": "en",
+        "contentHash": "6f28b2ae13bccfc4bbc8f5886aafebbe2c59404ca5e5405a24bc352b5da42e4e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/lancet-countdown-climate-health-2026.png"
+      },
+      {
+        "topicId": "d793f6fc-bd92-5009-92af-385a1f59430d",
+        "locale": "zh",
+        "contentHash": "c7dd907ad4e2fe1754c6ffb024169ffb8667fb3e27b7275cfc3bbf0ac132e9ee",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/who-long-acting-injectables-tb-targets.png"
+      },
+      {
+        "topicId": "d793f6fc-bd92-5009-92af-385a1f59430d",
+        "locale": "en",
+        "contentHash": "085f5d12bfac411fe5def07197f0bc4c42adfc08fadc18d124a7b15bf0a61816",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/who-long-acting-injectables-tb-targets.png"
+      },
+      {
+        "topicId": "020b5668-454c-5da9-8b59-62be9cc64547",
+        "locale": "zh",
+        "contentHash": "252a512016d250e2a8751aad25c15c9c4f279814935161aba1b4ccd6926ae141",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/carbon-pentaheptite-nanoribbon-covalent-metal.png"
+      },
+      {
+        "topicId": "020b5668-454c-5da9-8b59-62be9cc64547",
+        "locale": "en",
+        "contentHash": "7244b3814f5878006a26876a2313cf142b8a66136d600b45d04b57a431eebd7d",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/carbon-pentaheptite-nanoribbon-covalent-metal.png"
+      },
+      {
+        "topicId": "34dc20af-8ee4-5709-ac11-87d9bc2281ae",
+        "locale": "zh",
+        "contentHash": "e0ca64fe262d8695bdbe99267515f118e916885b1f88753221027f047e560f7a",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/zh/single-molecule-spin-photon-interface.png"
+      },
+      {
+        "topicId": "34dc20af-8ee4-5709-ac11-87d9bc2281ae",
+        "locale": "en",
+        "contentHash": "eb3c104bf55444a4b025af90ebb9fa9a8e0f51554c38e6207e0c85b28d3e6b60",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261029_60e8e8dc076f465bc1ba5aaa/en/single-molecule-spin-photon-interface.png"
+      }
+    ]
+  }
+}
