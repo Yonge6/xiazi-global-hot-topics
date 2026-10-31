@@ -1,0 +1,723 @@
+{
+  "issue": {
+    "id": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+    "slug": "2026-11-01",
+    "style": {
+      "name": "Islamic Geometric",
+      "zhName": "伊斯兰几何纹样",
+      "description": "Style Atlas daily pick: Islamic Geometric / 伊斯兰几何纹样. Use interlocking stars, polygons, measured line rhythm, architectural arches and jewel-like mineral colors as the visual grammar, while giving every topic its own evidence-rich real-world scene. Content, facts and diagrams occupy at least 70%; Xiazi and Doudou together stay around 10-15% at edges or the bottom. Reduce information density by about 20%: one conclusion and at most three large facts in three to five clear modules, with calm low-texture text fields, strong contrast and generous spacing. NO.01 preserves all eight numbered one-sentence summaries exactly around a central globe and geometric rosette, using naturally staggered ribbons, radial paths and layered architectural space instead of an eight-box grid, table, equal cards or dense dashboard. Chinese and English preserve the same scene, hierarchy and rhythm. Every poster must be native 1:2 and exactly 887x1774, with undistorted people, circles, type and canonical characters, visible xiazishuo.com in the bottom safe area, and no full-edge white or near-white strip. Fill the full canvas with color and scene detail while keeping every text block highly readable."
+    },
+    "issueDate": "2026-11-01",
+    "slotHour": 4,
+    "beijingTimestamp": "2026-11-01T04:00:00+08:00",
+    "gmtTimestamp": "2026-10-31T20:00:00.000Z",
+    "status": "published",
+    "featuredTopicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+    "topics": [
+      {
+        "id": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "global-operator-radar-20261101",
+        "rank": 1,
+        "category": "international",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 98,
+        "storyId": "xzs-global-radar-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 99,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "今日总览",
+            "headlineFact": "11月1日全球经营雷达",
+            "headlineView": "连接型AI、一人效率助手、AI看盘、手帐出海、健康老龄化、癌症疫苗、基因组参考与深海共生进入同一张行动地图",
+            "headlineFull": "11月1日全球经营雷达；连接型AI、一人效率助手、AI看盘、手帐出海、健康老龄化、癌症疫苗、基因组参考与深海共生进入同一张行动地图",
+            "intro": "1. Google开放Connected Apps Platform预览，让开发者一次接入Search与Gemini，并用云端MCP或Android AppFunctions注册和测试应用。\n2. 一人运营的notis.ai把WhatsApp语音、消息、邮件与截图变成任务和内容，Stripe验证累计收入241397美元、MRR 13243美元。\n3. Setup AI读取外汇、黄金、加密货币或股票图表生成入场、止损与止盈计划，RevenueCat验证MRR 3245美元。\n4. 日本Hobonichi用当地货币、150多种支付方式和税费预付简化手帐跨境结账，厂商案例称四个月全球线上收入同比增长70%。\n5. WHO欧洲53个成员国通过健康老龄化战略；预计到2050年，区域内65岁以上人口占比将达到27%。\n6. MIT用可调抗原密度的M13噬菌体纳米纤维制成个性化癌症疫苗，在小鼠中降低黑色素瘤和结肠肿瘤形成。\n7. 研究团队用490319份UK Biobank全基因组构建参考面板，提高多个人群低频变异的基因型填补精度。\n8. 深海无板纲软体动物把硫氧化细菌养在约12微米多层球形细胞器中，研究者将其命名为dracosphera。",
+            "xiaziQuote": "今天的共同线索，是把连接、收入、健康与生命结构都变成可验证、可复用的系统。",
+            "doudouQuote": "平台发布、支付数据、厂商案例和动物实验证据等级不同，先看边界再行动。",
+            "footerTakeaway": "今日关键词：今日总览。"
+          },
+          "en-US": {
+            "categoryLabel": "TODAY'S OVERVIEW",
+            "headlineFact": "Global Operator Radar — November 1",
+            "headlineView": "Connected AI, a solo productivity assistant, AI chart analysis, planner exports, healthy ageing, cancer vaccines, a genome reference and deep-sea symbiosis on one action map",
+            "headlineFull": "Global Operator Radar — November 1; Connected AI, a solo productivity assistant, AI chart analysis, planner exports, healthy ageing, cancer vaccines, a genome reference and deep-sea symbiosis on one action map",
+            "intro": "1. Google opened a preview of Connected Apps Platform so developers can integrate once with Search and Gemini using cloud MCP or Android AppFunctions for registration and testing.\n2. Solo-run notis.ai turns WhatsApp voice notes, messages, emails and screenshots into tasks and content, with $241,397 lifetime revenue and $13,243 MRR verified by Stripe.\n3. Setup AI reads forex, gold, crypto or stock charts to generate entries, stops and targets, with $3,245 MRR verified by RevenueCat.\n4. Japan's Hobonichi simplified planner checkout with local currencies, 150-plus payment methods and prepaid duties, and a vendor case reports 70% year-on-year global online revenue growth in four months.\n5. All 53 WHO European Member States adopted a healthy-ageing strategy; people over 65 are projected to reach 27% of the Region by 2050.\n6. MIT made personalized cancer vaccines from M13 phage nanofibers with tunable antigen density, reducing melanoma and colon-tumor formation in mice.\n7. Researchers built a reference panel from 490,319 UK Biobank whole genomes, improving low-frequency genotype imputation across multiple populations.\n8. A deep-sea aplacophoran mollusc farms sulfur-oxidizing bacteria inside roughly 12-micrometre multilayered organelles named dracosphera.",
+            "xiaziQuote": "Today's shared pattern is turning connections, revenue, health and living structures into systems that can be verified and reused.",
+            "doudouQuote": "A platform launch, payment data, a vendor case and a mouse experiment are different evidence levels—read the boundary first.",
+            "footerTakeaway": "Keyword: TODAY'S OVERVIEW."
+          }
+        },
+        "sources": [
+          {
+            "id": "fb35dba5-4fce-5e12-bff1-f993fd8c7391",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "Build and manage Connected Apps in one place",
+            "publisher": "Google",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "ac1504ce-107b-5123-a62d-6bf8a9ed4626",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "notis.ai verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/notis-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8d7a5fe8-55fd-5039-84aa-58619ac1764f",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "Setup Ai - Chart Analysis verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/setup-ai-chart-analysis",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "2d65e7cb-bd4f-591f-bcbe-9811fd535d9b",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "Hobonichi cross-border success story",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/hobonichi/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "902475ff-3602-5a2e-ab19-e461d8b2534c",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "Member States adopt new plans on healthy ageing and AI in health",
+            "publisher": "WHO Europe",
+            "url": "https://www.who.int/europe/news/item/30-10-2026-member-states-of-the-who-european-region-adopt-new-plans-on-healthy-ageing-and-ai-in-health",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "8b7e8bd5-b674-54e0-93ab-0a50c26079d1",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "MIT engineers create nanoparticles for delivering personalized cancer vaccines",
+            "publisher": "MIT News",
+            "url": "https://news.mit.edu/2026/mit-engineers-create-nanoparticles-delivering-personalized-cancer-vaccines-1030",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "5f1d65c7-bb7c-5087-9bee-ded6e390d383",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "A haplotype reference panel constructed from 490,319 UK Biobank genomes improves genotype imputation",
+            "publisher": "Nature Genetics",
+            "url": "https://www.nature.com/articles/s41588-026-02819-0",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          },
+          {
+            "id": "05815f03-4ecd-5c94-84ec-bfc3f6e90f83",
+            "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+            "title": "A multilamellar organelle for chemosymbiosis in an aplacophoran mollusc",
+            "publisher": "Nature Communications",
+            "url": "https://www.nature.com/articles/s41467-026-78965-0",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "google-connected-apps-search-gemini",
+        "rank": 2,
+        "category": "technology",
+        "region": "Global",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 97,
+        "storyId": "xzs-google-connected-apps-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "AI",
+            "headlineFact": "Google让应用一次接入Search与Gemini",
+            "headlineView": "Connected Apps Platform统一注册、测试与提交，开发者可选择云端MCP或Android AppFunctions",
+            "headlineFull": "Google让应用一次接入Search与Gemini；Connected Apps Platform统一注册、测试与提交，开发者可选择云端MCP或Android AppFunctions",
+            "intro": "Google开放Connected Apps Platform预览，目标是让开发者把同一项能力同时带进Google Search和Gemini，而不必为两个入口分别搭建集成。云端服务可提供MCP server，Android应用则通过AppFunctions API暴露能力；开发者在Connected Console中完成注册、测试与提交。首批新增合作方包括Adobe、Calm和Peloton，用户可以在对话与搜索任务中调用外部服务。平台价值在于把高意图分发入口与应用动作连接起来，但目前仍是预览：审核规则、权限最小化、身份映射、错误恢复、调用成本和用户是否理解数据流向仍需真实部署验证。Google没有披露开发者收入、转化率或大规模可靠性数据，因此这是一项分发与工具协议变化，不等于每个接入应用都会获得增长。",
+            "xiaziQuote": "AI入口的下一轮竞争，不只是模型更强，而是谁能把外部应用安全地变成可调用能力。",
+            "doudouQuote": "一次接入两个入口很诱人，但权限、失败回滚和数据去向决定用户敢不敢点确认。",
+            "footerTakeaway": "今日关键词：AI。"
+          },
+          "en-US": {
+            "categoryLabel": "AI",
+            "headlineFact": "Google lets apps integrate once with Search and Gemini",
+            "headlineView": "Connected Apps Platform unifies registration, testing and submission through cloud MCP or Android AppFunctions",
+            "headlineFull": "Google lets apps integrate once with Search and Gemini; Connected Apps Platform unifies registration, testing and submission through cloud MCP or Android AppFunctions",
+            "intro": "Google opened a preview of Connected Apps Platform so developers can bring one capability to both Google Search and the Gemini app instead of building separate integrations. Cloud services can expose an MCP server, while Android apps use AppFunctions APIs; developers register, test and submit through Connected Console. New partners include Adobe, Calm and Peloton, allowing users to call outside services from conversational and search tasks. The opportunity is to connect high-intent discovery with application actions, but this is still a preview. Review rules, least-privilege permissions, identity mapping, error recovery, call cost and whether users understand where their data goes all require real deployment evidence. Google disclosed no developer revenue, conversion or large-scale reliability figures, so this is a distribution and tooling shift, not proof that every connected app will grow.",
+            "xiaziQuote": "The next AI interface contest is not only about stronger models, but about safely turning outside apps into callable capabilities.",
+            "doudouQuote": "One integration for two surfaces sounds great, but permissions, rollback and data flow decide whether users approve the action.",
+            "footerTakeaway": "Keyword: AI."
+          }
+        },
+        "sources": [
+          {
+            "id": "9b6ceea1-1066-5ba2-aae4-d7a509b71627",
+            "topicId": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
+            "title": "Build and manage Connected Apps in one place",
+            "publisher": "Google",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "a8365376-fe75-51db-8e7a-bc700bd007a1",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "notis-ai-solo-whatsapp-productivity-revenue",
+        "rank": 3,
+        "category": "business",
+        "region": "Europe",
+        "countryCodes": [
+          "CH"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 96,
+        "storyId": "xzs-notis-solo-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 98,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "OPC一人公司",
+            "headlineFact": "notis.ai一人运营，验证MRR 13243美元",
+            "headlineView": "把WhatsApp语音、消息、邮件与截图整理成会议纪要、任务、CRM更新、博客和通讯草稿",
+            "headlineFull": "notis.ai一人运营，验证MRR 13243美元；把WhatsApp语音、消息、邮件与截图整理成会议纪要、任务、CRM更新、博客和通讯草稿",
+            "intro": "notis.ai由瑞士创始人Flo一人、无融资运营，面向独立创业者和操盘手，把AI助手放进WhatsApp：用户发送语音、消息、邮件或截图，系统整理为笔记与任务，并生成会议纪要、CRM更新、博客和通讯草稿。TrustMRR通过Stripe验证累计收入241397美元、MRR 13243美元、近30天收入9809美元和436个活跃订阅；平台列出的用户规模约1.7万。产品以免费版引流，Pro、Pro+和ULTRA按年付折算每月13、39和99美元。获客渠道横跨X、YouTube、搜索与社交广告、冷邮件、联盟、播客、口碑和推荐，数字化交付让一人覆盖多场景。限制是渠道复杂度高、消息与客户数据的隐私风险、第三方平台政策、模型与消息成本、自动执行错误和支持压力；TrustMRR未展示利润率或留存，MRR也不能证明所有渠道都能盈利扩张。",
+            "xiaziQuote": "一人公司放大的不是聊天次数，而是把客户已经会做的发消息动作变成稳定的工作入口。",
+            "doudouQuote": "13243美元MRR证明需求，但一人要同时守住隐私、平台依赖、模型成本和客服边界。",
+            "footerTakeaway": "今日关键词：OPC一人公司。"
+          },
+          "en-US": {
+            "categoryLabel": "ONE-PERSON COMPANY",
+            "headlineFact": "Solo-run notis.ai verifies $13,243 MRR",
+            "headlineView": "WhatsApp voice notes, messages, emails and screenshots become minutes, tasks, CRM updates, blogs and newsletter drafts",
+            "headlineFull": "Solo-run notis.ai verifies $13,243 MRR; WhatsApp voice notes, messages, emails and screenshots become minutes, tasks, CRM updates, blogs and newsletter drafts",
+            "intro": "Swiss founder Flo runs bootstrapped notis.ai alone for solo founders and operators. The AI assistant lives in WhatsApp: users send voice notes, messages, emails or screenshots, and it organizes notes and tasks while producing meeting minutes, CRM updates, blog posts and newsletter drafts. TrustMRR verifies $241,397 lifetime revenue, $13,243 MRR, $9,809 over the last 30 days and 436 active subscriptions through Stripe; the listing reports about 17,000 users. A free tier feeds Pro, Pro+ and ULTRA plans priced at annual-billing equivalents of $13, $39 and $99 per month. Acquisition spans X, YouTube, search and social ads, cold outreach, affiliates, podcasts, word of mouth and referrals. Digital delivery lets one operator cover many workflows. Constraints include channel complexity, privacy around messages and customer data, platform policy, model and messaging cost, automation errors and support load. TrustMRR shows neither margin nor retention, and MRR alone does not prove every channel scales profitably.",
+            "xiaziQuote": "The solo leverage is not more chats; it is turning the message users already know how to send into a dependable work interface.",
+            "doudouQuote": "$13,243 MRR proves demand, but one operator still has to defend privacy, platform dependence, model cost and support limits.",
+            "footerTakeaway": "Keyword: ONE-PERSON COMPANY."
+          }
+        },
+        "sources": [
+          {
+            "id": "2c2fecd5-a7ff-54da-a909-75afda204d72",
+            "topicId": "a8365376-fe75-51db-8e7a-bc700bd007a1",
+            "title": "notis.ai verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/notis-ai",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "48596dc4-dd36-5121-b638-15b2e288f9f6",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "setup-ai-chart-analysis-revenue",
+        "rank": 4,
+        "category": "business",
+        "region": "Global",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 95,
+        "storyId": "xzs-setup-ai-revenue-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 97,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "赚钱的AI应用落地",
+            "headlineFact": "Setup AI看盘应用验证MRR 3245美元",
+            "headlineView": "用户上传外汇、黄金、加密货币或股票图表，AI返回趋势、关键区间、入场、止损和止盈解释",
+            "headlineFull": "Setup AI看盘应用验证MRR 3245美元；用户上传外汇、黄金、加密货币或股票图表，AI返回趋势、关键区间、入场、止损和止盈解释",
+            "intro": "Setup AI把图像理解与技术分析落到移动端交易教育：用户上传外汇、黄金、加密货币或股票图表，应用给出趋势、关键区间、入场位、止损和止盈，并用文字解释推理，目标用户是还不会独立读图的初中级散户。TrustMRR通过RevenueCat验证累计收入3379美元、MRR 3245美元、近30天收入2496美元和124个活跃订阅。美国App Store定价为每周8.99美元或每月17.99美元，周订阅提供试用；获客依靠App Store优化、Threads、TikTok、Instagram和YouTube，英语、俄语与乌克兰语覆盖多个市场。付费结果说明用户愿为即时解释买单，但当前收入样本仍早期；模型可能误读图表，技术分析不是确定预测，高周费可能带来退款和流失，市场数据许可、监管、投机损失与免责声明都是商业边界。",
+            "xiaziQuote": "AI应用的付费点不是画更多线，而是把一张看不懂的图变成带风险边界的行动解释。",
+            "doudouQuote": "3245美元MRR是真交易，却不是收益保证；止损建议错一次，用户损失可能远高于订阅费。",
+            "footerTakeaway": "今日关键词：赚钱的AI应用落地。"
+          },
+          "en-US": {
+            "categoryLabel": "MONETIZED AI IN PRACTICE",
+            "headlineFact": "Setup AI chart analysis verifies $3,245 MRR",
+            "headlineView": "Users upload forex, gold, crypto or stock charts and receive explained trends, zones, entries, stops and targets",
+            "headlineFull": "Setup AI chart analysis verifies $3,245 MRR; Users upload forex, gold, crypto or stock charts and receive explained trends, zones, entries, stops and targets",
+            "intro": "Setup AI applies image understanding and technical analysis to mobile trading education. A user uploads a forex, gold, crypto or stock chart, and the app returns a trend, key zones, entry, stop-loss and take-profit with a plain-language explanation for beginner and intermediate retail traders. TrustMRR verifies $3,379 lifetime revenue, $3,245 MRR, $2,496 over the last 30 days and 124 active subscriptions through RevenueCat. US App Store pricing is $8.99 weekly or $17.99 monthly, with a trial on the weekly plan. Acquisition relies on App Store optimization, Threads, TikTok, Instagram and YouTube, while English, Russian and Ukrainian expand the market. Payment proves willingness to buy immediate interpretation, but the sample remains early. A model can misread a chart, technical analysis is not a forecast guarantee, a high weekly price can drive refunds and churn, and market-data licensing, regulation, speculative losses and disclosures define the commercial boundary.",
+            "xiaziQuote": "The paid value is not drawing more lines; it is turning an unreadable chart into an action explanation with explicit risk boundaries.",
+            "doudouQuote": "$3,245 MRR is real commerce, not a return guarantee. One bad stop recommendation can cost far more than the subscription.",
+            "footerTakeaway": "Keyword: MONETIZED AI IN PRACTICE."
+          }
+        },
+        "sources": [
+          {
+            "id": "793cd8f6-d891-5db8-a0e8-0ce782953ea8",
+            "topicId": "48596dc4-dd36-5121-b638-15b2e288f9f6",
+            "title": "Setup Ai - Chart Analysis verified revenue profile",
+            "publisher": "TrustMRR",
+            "url": "https://trustmrr.com/startup/setup-ai-chart-analysis",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "09ad2c01-9a93-5834-ba79-15befc6205b3",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "hobonichi-crossborder-revenue-growth",
+        "rank": 5,
+        "category": "business",
+        "region": "Asia",
+        "countryCodes": [
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 94,
+        "storyId": "xzs-hobonichi-crossborder-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "跨境电商",
+            "headlineFact": "Hobonichi全球线上收入四个月增长70%",
+            "headlineView": "日本手帐品牌用当地货币、150多种支付方式、税费预付与跨境履约降低海外结账摩擦",
+            "headlineFull": "Hobonichi全球线上收入四个月增长70%；日本手帐品牌用当地货币、150多种支付方式、税费预付与跨境履约降低海外结账摩擦",
+            "intro": "日本Hobonichi把手帐、封套和文具卖给全球消费者。品牌在2023年把海外订单接入Global-e，按目的地显示当地货币，支持150多种全球和当地支付方式，并在结账时处理或预收关税与销售税，让跨境订单更接近本地购买体验。Global-e最新案例称，升级后仅四个月全球线上收入同比增长70%。赚钱机制来自已有品牌内容与手帐社群带来的海外需求，再通过本地化结账减少放弃，而不是单靠低价流量。厂商页面没有披露绝对GMV、订单数、利润率、广告投入或市场分布，70%也可能受产品发布季和比较基数影响。主要成本与风险包括日历手帐的强季节库存、国际运费、汇率、税费、退换货、支付风控与对Merchant of Record的依赖；收入增长不自动等于利润同比增长。",
+            "xiaziQuote": "跨境文具的机会，是先用内容和社群创造想要，再让货币、支付和税费别在最后一步劝退。",
+            "doudouQuote": "70%是厂商披露的收入增幅，绝对销售额与利润未公开，旺季基数也要一起看。",
+            "footerTakeaway": "今日关键词：跨境电商。"
+          },
+          "en-US": {
+            "categoryLabel": "CROSS-BORDER E-COMMERCE",
+            "headlineFact": "Hobonichi grows global online revenue 70% in four months",
+            "headlineView": "The Japanese planner brand reduces overseas checkout friction with local currencies, 150-plus payment methods, prepaid duties and cross-border fulfilment",
+            "headlineFull": "Hobonichi grows global online revenue 70% in four months; The Japanese planner brand reduces overseas checkout friction with local currencies, 150-plus payment methods, prepaid duties and cross-border fulfilment",
+            "intro": "Japan's Hobonichi sells planners, covers and stationery to consumers worldwide. In 2023 it moved overseas orders onto Global-e, displaying local currency by destination, supporting more than 150 global and local payment methods, and handling or pre-collecting duties and sales taxes at checkout so an international order feels closer to a domestic purchase. Global-e's latest case reports 70% year-on-year growth in worldwide online revenue within four months. The profit mechanism starts with overseas demand created by brand content and the planner community, then removes localized checkout abandonment rather than relying only on cheap traffic. The vendor page discloses no absolute GMV, order count, margin, ad spend or market mix, and the 70% result may reflect launch season and the comparison base. Costs and risks include highly seasonal planner inventory, international freight, foreign exchange, duties, returns, payment fraud and dependence on a merchant of record. Revenue growth does not automatically mean equal profit growth.",
+            "xiaziQuote": "Cross-border stationery works when content and community create desire, then currency, payments and duties stop killing the order at checkout.",
+            "doudouQuote": "The vendor reports 70% revenue growth, but absolute sales and profit are undisclosed, and the seasonal baseline matters.",
+            "footerTakeaway": "Keyword: CROSS-BORDER E-COMMERCE."
+          }
+        },
+        "sources": [
+          {
+            "id": "7bab5566-253f-55dc-9d97-8bb468b77bb7",
+            "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
+            "title": "Hobonichi cross-border success story",
+            "publisher": "Global-e",
+            "url": "https://www.global-e.com/success-stories/hobonichi/",
+            "publishedAt": null,
+            "sourceType": "publisher",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          },
+          {
+            "id": "a8753231-c2f2-54f4-854c-7058b34bf20f",
+            "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
+            "title": "Hobonichi Techo Shopping Instructions",
+            "publisher": "Hobonichi",
+            "url": "https://www.1101.com/store/techo/en/2026/pc/shopping_guide/",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "c6201661-fa36-5467-b36e-f9d955be7877",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "who-europe-healthy-ageing-strategy",
+        "rank": 6,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 93,
+        "storyId": "xzs-who-healthy-ageing-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 94,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "公共健康",
+            "headlineFact": "欧洲53国通过健康老龄化战略",
+            "headlineView": "到2050年区域内65岁以上人口预计占27%，战略把居家照护、照护者支持、反年龄歧视和数据追踪放进同一框架",
+            "headlineFull": "欧洲53国通过健康老龄化战略；到2050年区域内65岁以上人口预计占27%，战略把居家照护、照护者支持、反年龄歧视和数据追踪放进同一框架",
+            "intro": "WHO欧洲区域53个成员国一致通过“Ageing is living”健康老龄化战略，回应寿命延长但健康寿命没有同步增长的问题。WHO预计到2050年，区域内65岁以上人口将占27%；女性虽然寿命更长，但健康生活占比为81.3%，低于男性的83.5%。战略要求从全生命周期预防入手，把照护移近家庭与社区，支持家庭照护者，反对年龄歧视，并用成员国画像和Healthy Ageing Intelligence Dashboard帮助规划和追踪。实施从现在开始，AI健康路线图将在2029年提交中期报告。通过战略并不等于服务已落地：各国财政、长期照护人力、城乡差距、数据质量与福利制度不同，真正结果要看预算、基层服务覆盖和可测健康指标是否改善。",
+            "xiaziQuote": "老龄化不是把更多床位留到最后，而是让健康、住房、照护与参与机会从更早的人生阶段开始。",
+            "doudouQuote": "战略一致通过只是起点；预算、照护者和基层服务才决定多活的几年是不是健康的几年。",
+            "footerTakeaway": "今日关键词：公共健康。"
+          },
+          "en-US": {
+            "categoryLabel": "PUBLIC HEALTH",
+            "headlineFact": "Fifty-three European countries adopt a healthy-ageing strategy",
+            "headlineView": "With over-65s projected to reach 27% by 2050, the framework links care near home, support for carers, ageism and data tracking",
+            "headlineFull": "Fifty-three European countries adopt a healthy-ageing strategy; With over-65s projected to reach 27% by 2050, the framework links care near home, support for carers, ageism and data tracking",
+            "intro": "All 53 Member States in the WHO European Region unanimously adopted the 'Ageing is living' strategy, responding to longer lives that do not always bring equally longer healthy lives. WHO projects that people over 65 will reach 27% of the Region by 2050. Women live longer but spend 81.3% of life in good health, below men's 83.5%. The strategy calls for prevention across the life course, care closer to home and community, support for family carers, action against ageism, and planning through country profiles and a Healthy Ageing Intelligence Dashboard. Implementation starts now, while the accompanying AI-in-health roadmap receives a midterm report in 2029. Adoption is not delivery: national budgets, long-term-care staffing, rural gaps, data quality and welfare systems differ. Real progress depends on funded primary services and measurable gains in functional health.",
+            "xiaziQuote": "Ageing policy is not only reserving more beds for the end of life; it starts health, housing, care and participation earlier.",
+            "doudouQuote": "Unanimous adoption is the start. Budgets, carers and local services decide whether extra years become healthy years.",
+            "footerTakeaway": "Keyword: PUBLIC HEALTH."
+          }
+        },
+        "sources": [
+          {
+            "id": "3a9fb0c0-cfea-5090-bb39-822dc7118309",
+            "topicId": "c6201661-fa36-5467-b36e-f9d955be7877",
+            "title": "Member States adopt new plans on healthy ageing and AI in health",
+            "publisher": "WHO Europe",
+            "url": "https://www.who.int/europe/news/item/30-10-2026-member-states-of-the-who-european-region-adopt-new-plans-on-healthy-ageing-and-ai-in-health",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "m13-personalized-cancer-vaccine-mice",
+        "rank": 7,
+        "category": "science",
+        "region": "North America",
+        "countryCodes": [
+          "US"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 92,
+        "storyId": "xzs-m13-cancer-vaccine-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "医学研究",
+            "headlineFact": "可调抗原密度让癌症疫苗在小鼠中更有效",
+            "headlineView": "MIT用无害M13噬菌体纳米纤维同时编码抗原与免疫佐剂，35%抗原密度优于6%",
+            "headlineFull": "可调抗原密度让癌症疫苗在小鼠中更有效；MIT用无害M13噬菌体纳米纤维同时编码抗原与免疫佐剂，35%抗原密度优于6%",
+            "intro": "MIT团队把对人无害的M13噬菌体改造成个性化癌症疫苗载体。噬菌体形成长纳米纤维，研究者通过改变pVIII外壳蛋白的电荷和表达速度，把肿瘤抗原密度从6%调到70%，同时利用单链DNA激活TLR9，让同一颗粒兼具抗原展示与佐剂作用。在小鼠实验中，35%抗原密度比6%更能被树突细胞摄取，产生更多靶向T细胞，并降低表达模型抗原的黑色素瘤形成；换成结肠癌特异新抗原ADPGK后，也减少结肠肿瘤形成。平台可按患者肿瘤替换抗原，但当前证据仍是预防性小鼠模型，不是人体治疗结果。既有肿瘤疗效、不同抗原装载、制造一致性、毒性、免疫逃逸和临床试验仍需验证。",
+            "xiaziQuote": "个性化疫苗的关键不只是选对抗原，还要把抗原密度和免疫刺激一起精确制造。",
+            "doudouQuote": "小鼠少长肿瘤是机制证据，不是患者疗效；距离临床还隔着安全性和制造验证。",
+            "footerTakeaway": "今日关键词：医学研究。"
+          },
+          "en-US": {
+            "categoryLabel": "MEDICAL RESEARCH",
+            "headlineFact": "Tunable antigen density improves a cancer vaccine in mice",
+            "headlineView": "MIT uses harmless M13 phage nanofibers to encode antigen and adjuvant together, with 35% antigen density outperforming 6%",
+            "headlineFull": "Tunable antigen density improves a cancer vaccine in mice; MIT uses harmless M13 phage nanofibers to encode antigen and adjuvant together, with 35% antigen density outperforming 6%",
+            "intro": "An MIT team repurposed the harmless-to-humans M13 bacteriophage as a personalized cancer-vaccine carrier. The phage forms a long nanofiber; by changing charge and expression speed in its pVIII coat protein, researchers tuned tumor-antigen density from 6% to 70%. Its single-stranded DNA also activates TLR9, putting antigen display and adjuvant activity in one particle. In mice, a 35% density vaccine was taken up more readily by dendritic cells than a 6% version, generated more targeted T cells, and reduced formation of melanoma expressing a model antigen. Swapping in the colon-cancer neoantigen ADPGK also reduced colon-tumor formation. The platform could exchange antigens for an individual tumor, but the evidence is still a preventive mouse model, not a human treatment result. Efficacy against established tumors, loading of diverse antigens, manufacturing consistency, toxicity, immune escape and clinical trials remain unproven.",
+            "xiaziQuote": "A personalized vaccine needs more than the right antigen; its antigen density and immune stimulation must be manufactured together with precision.",
+            "doudouQuote": "Fewer tumors in mice is mechanism evidence, not patient benefit. Safety and manufacturing still stand between this and the clinic.",
+            "footerTakeaway": "Keyword: MEDICAL RESEARCH."
+          }
+        },
+        "sources": [
+          {
+            "id": "b78bfa77-a350-520f-9807-96ba1148f7d7",
+            "topicId": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
+            "title": "MIT engineers create nanoparticles for delivering personalized cancer vaccines",
+            "publisher": "MIT News",
+            "url": "https://news.mit.edu/2026/mit-engineers-create-nanoparticles-delivering-personalized-cancer-vaccines-1030",
+            "publishedAt": null,
+            "sourceType": "official",
+            "sourceTier": 1,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "uk-biobank-genome-imputation-panel",
+        "rank": 8,
+        "category": "science",
+        "region": "Europe",
+        "countryCodes": [
+          "GB",
+          "DE"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 91,
+        "storyId": "xzs-ukb-reference-panel-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 95,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "基因组学",
+            "headlineFact": "49万份全基因组提高低频变异填补精度",
+            "headlineView": "UK Biobank参考面板在25个1000 Genomes亚群中降低定相切换错误，并改善多个人群的基因型推断",
+            "headlineFull": "49万份全基因组提高低频变异填补精度；UK Biobank参考面板在25个1000 Genomes亚群中降低定相切换错误，并改善多个人群的基因型推断",
+            "intro": "研究团队用UK Biobank的490319份全基因组测序数据构建新的基因型填补参考面板，并提供EagleImp与云端EagleImp-RAP工具。基因型填补是用参考人群推断研究样本中没有直接测到的变异，参考面板规模和多样性会影响疾病关联研究的发现能力。与包含133597人的TOPMed r3面板相比，新面板在除美洲混合人群外的全球超级人群以及26个1000 Genomes亚群中的25个降低了定相切换错误；对低至0.01%次要等位基因频率的变异，5个超级人群中的4个和12个亚群改善了平均绝对误差。重新分析欧洲COVID-19 GWAS还增加了显著位点并改善精细定位。UK Biobank参与者仍不能代表全球人口，部分美洲人群未占优；隐私、祖源偏差和外部队列复现仍是限制。",
+            "xiaziQuote": "更大的参考面板不是替代测序，而是让已经采集的数据更少漏掉低频遗传信号。",
+            "doudouQuote": "49万份基因组仍不等于全世界；精度提升要看不同祖源是否同样受益。",
+            "footerTakeaway": "今日关键词：基因组学。"
+          },
+          "en-US": {
+            "categoryLabel": "GENOMICS",
+            "headlineFact": "490,319 whole genomes improve rare-variant imputation",
+            "headlineView": "The UK Biobank reference panel lowers phasing switch error in 25 of 26 1000 Genomes subpopulations and improves inference across populations",
+            "headlineFull": "490,319 whole genomes improve rare-variant imputation; The UK Biobank reference panel lowers phasing switch error in 25 of 26 1000 Genomes subpopulations and improves inference across populations",
+            "intro": "Researchers built a genotype-imputation reference panel from 490,319 UK Biobank whole genomes and released EagleImp plus its cloud implementation, EagleImp-RAP. Imputation uses a reference population to infer variants not directly measured in a study sample, so panel scale and diversity affect disease-association discovery. Compared with TOPMed r3, which contains 133,597 people, the new panel lowered phasing switch error in every global superpopulation except admixed American populations and in 25 of 26 1000 Genomes subpopulations. For variants down to 0.01% minor-allele frequency, mean absolute error improved in four of five superpopulations and 12 subpopulations. Reimputing European COVID-19 genome-wide association datasets added significant loci and sharpened fine-mapping. UK Biobank still does not represent the world, performance was not best for every American population, and privacy, ancestry bias and replication in outside cohorts remain constraints.",
+            "xiaziQuote": "A larger reference panel does not replace sequencing; it helps existing data miss fewer low-frequency genetic signals.",
+            "doudouQuote": "Nearly half a million genomes still are not the whole world. The gain must be checked across ancestries.",
+            "footerTakeaway": "Keyword: GENOMICS."
+          }
+        },
+        "sources": [
+          {
+            "id": "80cd1115-f92a-5952-a8bb-2145107489ae",
+            "topicId": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
+            "title": "A haplotype reference panel constructed from 490,319 UK Biobank genomes improves genotype imputation",
+            "publisher": "Nature Genetics",
+            "url": "https://www.nature.com/articles/s41588-026-02819-0",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      },
+      {
+        "id": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
+        "issueId": "bab7a79a-0a2a-5779-b425-81dea10eb14a",
+        "slug": "dracosphera-deep-sea-chemosymbiosis-organelle",
+        "rank": 9,
+        "category": "science",
+        "region": "Asia",
+        "countryCodes": [
+          "CN",
+          "JP"
+        ],
+        "eventTime": null,
+        "isDeveloping": false,
+        "verificationStatus": "verified",
+        "scoreTotal": 90,
+        "storyId": "xzs-dracosphera-organelle-20261101",
+        "storyStatus": "new",
+        "followupDay": 1,
+        "informationIncrementScore": 96,
+        "localizations": {
+          "zh-CN": {
+            "categoryLabel": "深海生命",
+            "headlineFact": "深海软体动物发现“龙珠”共生细胞器",
+            "headlineView": "约12微米的多层球形dracosphera在缺氧冷泉沉积物中培养硫氧化细菌，宿主大部分肠道已经退化",
+            "headlineFull": "深海软体动物发现“龙珠”共生细胞器；约12微米的多层球形dracosphera在缺氧冷泉沉积物中培养硫氧化细菌，宿主大部分肠道已经退化",
+            "intro": "研究者在生活于深海冷泉缺氧沉积物的无板纲软体动物Chaetoderma shenloong中发现一种专门容纳化能合成细菌的细胞器。这个约12微米的多层球形结构遍布膨大的网状消化腺，内部培养硫氧化细菌；宿主已经失去大部分传统肠道。团队把它命名为dracosphera，灵感来自《龙珠》。基因组与空间转录组分析显示，细菌偏好微量氧，而宿主生活在海床下数十厘米的无氧环境，多层膜可能限制氧扩散，为共生菌创造可控微环境。论文把它描述为动物中此前未见的专门化能合成细胞器，为大型动物如何在黑暗、缺氧环境中把微生物代谢整合进身体提供线索。它是否真正符合所有细胞器定义、如何发育和遗传、宿主如何控制细菌数量，仍需更多物种与活体研究。",
+            "xiaziQuote": "生命在极端环境里的办法，不一定是独自进化新代谢，也可以把微生物安置进新的身体结构。",
+            "doudouQuote": "名字像龙珠，证据靠的是显微结构、基因组与空间转录组；定义还要经得住更多物种检验。",
+            "footerTakeaway": "今日关键词：深海生命。"
+          },
+          "en-US": {
+            "categoryLabel": "DEEP-SEA LIFE",
+            "headlineFact": "A deep-sea mollusc reveals a 'dragon ball' symbiotic organelle",
+            "headlineView": "Roughly 12-micrometre multilayered dracosphera farm sulfur-oxidizing bacteria in anoxic cold-seep sediment after most of the gut was lost",
+            "headlineFull": "A deep-sea mollusc reveals a 'dragon ball' symbiotic organelle; Roughly 12-micrometre multilayered dracosphera farm sulfur-oxidizing bacteria in anoxic cold-seep sediment after most of the gut was lost",
+            "intro": "Researchers found a structure specialized for housing chemosynthetic bacteria in the aplacophoran mollusc Chaetoderma shenloong, which lives in anoxic deep-sea cold-seep sediment. The roughly 12-micrometre multilayered spheres fill an enlarged, reticulated digestive gland and farm sulfur-oxidizing bacteria; the host has lost most of its conventional gut. The team named the structure dracosphera, inspired by Dragon Ball. Genomic and spatial-transcriptomic evidence indicates that the bacteria are microaerobic while the host lives tens of centimetres below the seabed in oxygen-free sediment. Multiple membrane layers may restrict oxygen diffusion and create a controlled microenvironment for the symbionts. The paper describes a previously unknown animal organelle dedicated to chemosynthesis, suggesting how larger animals can integrate microbial metabolism in dark, hypoxic habitats. Whether it meets every definition of an organelle, how it develops and is inherited, and how the host controls bacterial abundance need study in more species and living specimens.",
+            "xiaziQuote": "Extreme-life adaptation need not invent metabolism alone; an animal can place microbial chemistry inside a new body structure.",
+            "doudouQuote": "The name evokes Dragon Ball, but the evidence is microscopy, genomics and spatial transcriptomics—and the definition still needs broader tests.",
+            "footerTakeaway": "Keyword: DEEP-SEA LIFE."
+          }
+        },
+        "sources": [
+          {
+            "id": "23b48a56-fec3-5189-a485-b8c5715be169",
+            "topicId": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
+            "title": "A multilamellar organelle for chemosymbiosis in an aplacophoran mollusc",
+            "publisher": "Nature Communications",
+            "url": "https://www.nature.com/articles/s41467-026-78965-0",
+            "publishedAt": null,
+            "sourceType": "research",
+            "sourceTier": 2,
+            "locale": "en-US",
+            "isPrimary": true
+          }
+        ]
+      }
+    ],
+    "assetVersion": "rel_20261101_947c4a33b263c26cc407453d"
+  },
+  "manifest": {
+    "schemaVersion": "xiazi-current-release-v1",
+    "issueDate": "2026-11-01",
+    "releaseId": "rel_20261101_947c4a33b263c26cc407453d",
+    "assetBatchId": "asset_prod_20261101_947c4a33b263c26cc407453d",
+    "posters": [
+      {
+        "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+        "locale": "zh",
+        "contentHash": "5573a5edb4b3ef65da1ed592e5f95ee923eda0373f014888bf916fc1e8b3f57f",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/global-operator-radar-20261101.png"
+      },
+      {
+        "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+        "locale": "en",
+        "contentHash": "550beced059be2e335ab7eda9758556a70b902b6025af4658d1886fa939920bb",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/global-operator-radar-20261101.png"
+      },
+      {
+        "topicId": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
+        "locale": "zh",
+        "contentHash": "0abc285ceb5f6d8c0e81093df490ae7ad607029db69f55a6191d1f2b831fa5d0",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/google-connected-apps-search-gemini.png"
+      },
+      {
+        "topicId": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
+        "locale": "en",
+        "contentHash": "183ecbf633f08bfb7639abc673d4af48a524caccbf2e3683b2f860707ae3e622",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/google-connected-apps-search-gemini.png"
+      },
+      {
+        "topicId": "a8365376-fe75-51db-8e7a-bc700bd007a1",
+        "locale": "zh",
+        "contentHash": "f97d8d4b4a47f7a80294f0b11c79cde37f17b12c18ccd375546175f8949fb446",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/notis-ai-solo-whatsapp-productivity-revenue.png"
+      },
+      {
+        "topicId": "a8365376-fe75-51db-8e7a-bc700bd007a1",
+        "locale": "en",
+        "contentHash": "7befaa69c0f97521e93c407d1743fdd5a88f961e087eed2eb4b6848ee4c7d01e",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/notis-ai-solo-whatsapp-productivity-revenue.png"
+      },
+      {
+        "topicId": "48596dc4-dd36-5121-b638-15b2e288f9f6",
+        "locale": "zh",
+        "contentHash": "b17328cf08f1fb4aea3cb420a45de9c8f58d3050d9369a2cc0b752e5b996c3c5",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/setup-ai-chart-analysis-revenue.png"
+      },
+      {
+        "topicId": "48596dc4-dd36-5121-b638-15b2e288f9f6",
+        "locale": "en",
+        "contentHash": "fe6fc301deb8609faa23d3112b7bd1d55f59985a30c5be1a7c473ff52f384a45",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/setup-ai-chart-analysis-revenue.png"
+      },
+      {
+        "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
+        "locale": "zh",
+        "contentHash": "cd0eb26446ba5059fc0123b08be96517ae85ffc77a9566a671764826c5ccd794",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/hobonichi-crossborder-revenue-growth.png"
+      },
+      {
+        "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
+        "locale": "en",
+        "contentHash": "591166fdbfe242f2337c9cc8eece43ce492c3a244faef8277e69ef78d7c9625b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/hobonichi-crossborder-revenue-growth.png"
+      },
+      {
+        "topicId": "c6201661-fa36-5467-b36e-f9d955be7877",
+        "locale": "zh",
+        "contentHash": "0e03beef1cf2fdc6664911e303bfdae7b1eac742295874156fd736d4f08378e1",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/who-europe-healthy-ageing-strategy.png"
+      },
+      {
+        "topicId": "c6201661-fa36-5467-b36e-f9d955be7877",
+        "locale": "en",
+        "contentHash": "6eb040949bd6e22b6c2d073576c0df854c141b164eb21d5f59156e05af370d70",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/who-europe-healthy-ageing-strategy.png"
+      },
+      {
+        "topicId": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
+        "locale": "zh",
+        "contentHash": "64e48620b77f0662e39cf4881a3e060b3472f11270136ac64dca37dd44d03250",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/m13-personalized-cancer-vaccine-mice.png"
+      },
+      {
+        "topicId": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
+        "locale": "en",
+        "contentHash": "5070517fd3c093ade4683a0f5bf123a8889efe4105d146221ebb8c5fd54a8302",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/m13-personalized-cancer-vaccine-mice.png"
+      },
+      {
+        "topicId": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
+        "locale": "zh",
+        "contentHash": "98f8c03ed29fb89c0fd5b43cbeb74c53fc66fb22b61f69698f49909fe8434534",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/uk-biobank-genome-imputation-panel.png"
+      },
+      {
+        "topicId": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
+        "locale": "en",
+        "contentHash": "987fb1e577ee3c5df16c4fa480323b952f6bc7c881548be8f2d1edb685e79258",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/uk-biobank-genome-imputation-panel.png"
+      },
+      {
+        "topicId": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
+        "locale": "zh",
+        "contentHash": "b922c7bd6ef049db82d2bbba0bbf57a188ebca38095799eae86b2e17e1c9440b",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/dracosphera-deep-sea-chemosymbiosis-organelle.png"
+      },
+      {
+        "topicId": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
+        "locale": "en",
+        "contentHash": "50a0bb9efb1ebbc950656ea63f3f8ded63041d4a505689c3e54c7db3b6c28794",
+        "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/dracosphera-deep-sea-chemosymbiosis-organelle.png"
+      }
+    ]
+  }
+}

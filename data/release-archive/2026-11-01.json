@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "xiazi-current-release-v1",
+  "issueDate": "2026-11-01",
+  "releaseId": "rel_20261101_947c4a33b263c26cc407453d",
+  "assetBatchId": "asset_prod_20261101_947c4a33b263c26cc407453d",
+  "posters": [
+    {
+      "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+      "locale": "zh",
+      "contentHash": "5573a5edb4b3ef65da1ed592e5f95ee923eda0373f014888bf916fc1e8b3f57f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/global-operator-radar-20261101.png"
+    },
+    {
+      "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
+      "locale": "en",
+      "contentHash": "550beced059be2e335ab7eda9758556a70b902b6025af4658d1886fa939920bb",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/global-operator-radar-20261101.png"
+    },
+    {
+      "topicId": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
+      "locale": "zh",
+      "contentHash": "0abc285ceb5f6d8c0e81093df490ae7ad607029db69f55a6191d1f2b831fa5d0",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/google-connected-apps-search-gemini.png"
+    },
+    {
+      "topicId": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
+      "locale": "en",
+      "contentHash": "183ecbf633f08bfb7639abc673d4af48a524caccbf2e3683b2f860707ae3e622",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/google-connected-apps-search-gemini.png"
+    },
+    {
+      "topicId": "a8365376-fe75-51db-8e7a-bc700bd007a1",
+      "locale": "zh",
+      "contentHash": "f97d8d4b4a47f7a80294f0b11c79cde37f17b12c18ccd375546175f8949fb446",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/notis-ai-solo-whatsapp-productivity-revenue.png"
+    },
+    {
+      "topicId": "a8365376-fe75-51db-8e7a-bc700bd007a1",
+      "locale": "en",
+      "contentHash": "7befaa69c0f97521e93c407d1743fdd5a88f961e087eed2eb4b6848ee4c7d01e",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/notis-ai-solo-whatsapp-productivity-revenue.png"
+    },
+    {
+      "topicId": "48596dc4-dd36-5121-b638-15b2e288f9f6",
+      "locale": "zh",
+      "contentHash": "b17328cf08f1fb4aea3cb420a45de9c8f58d3050d9369a2cc0b752e5b996c3c5",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/setup-ai-chart-analysis-revenue.png"
+    },
+    {
+      "topicId": "48596dc4-dd36-5121-b638-15b2e288f9f6",
+      "locale": "en",
+      "contentHash": "fe6fc301deb8609faa23d3112b7bd1d55f59985a30c5be1a7c473ff52f384a45",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/setup-ai-chart-analysis-revenue.png"
+    },
+    {
+      "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
+      "locale": "zh",
+      "contentHash": "cd0eb26446ba5059fc0123b08be96517ae85ffc77a9566a671764826c5ccd794",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/hobonichi-crossborder-revenue-growth.png"
+    },
+    {
+      "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
+      "locale": "en",
+      "contentHash": "591166fdbfe242f2337c9cc8eece43ce492c3a244faef8277e69ef78d7c9625b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/hobonichi-crossborder-revenue-growth.png"
+    },
+    {
+      "topicId": "c6201661-fa36-5467-b36e-f9d955be7877",
+      "locale": "zh",
+      "contentHash": "0e03beef1cf2fdc6664911e303bfdae7b1eac742295874156fd736d4f08378e1",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/who-europe-healthy-ageing-strategy.png"
+    },
+    {
+      "topicId": "c6201661-fa36-5467-b36e-f9d955be7877",
+      "locale": "en",
+      "contentHash": "6eb040949bd6e22b6c2d073576c0df854c141b164eb21d5f59156e05af370d70",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/who-europe-healthy-ageing-strategy.png"
+    },
+    {
+      "topicId": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
+      "locale": "zh",
+      "contentHash": "64e48620b77f0662e39cf4881a3e060b3472f11270136ac64dca37dd44d03250",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/m13-personalized-cancer-vaccine-mice.png"
+    },
+    {
+      "topicId": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
+      "locale": "en",
+      "contentHash": "5070517fd3c093ade4683a0f5bf123a8889efe4105d146221ebb8c5fd54a8302",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/m13-personalized-cancer-vaccine-mice.png"
+    },
+    {
+      "topicId": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
+      "locale": "zh",
+      "contentHash": "98f8c03ed29fb89c0fd5b43cbeb74c53fc66fb22b61f69698f49909fe8434534",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/uk-biobank-genome-imputation-panel.png"
+    },
+    {
+      "topicId": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
+      "locale": "en",
+      "contentHash": "987fb1e577ee3c5df16c4fa480323b952f6bc7c881548be8f2d1edb685e79258",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/uk-biobank-genome-imputation-panel.png"
+    },
+    {
+      "topicId": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
+      "locale": "zh",
+      "contentHash": "b922c7bd6ef049db82d2bbba0bbf57a188ebca38095799eae86b2e17e1c9440b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/dracosphera-deep-sea-chemosymbiosis-organelle.png"
+    },
+    {
+      "topicId": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
+      "locale": "en",
+      "contentHash": "50a0bb9efb1ebbc950656ea63f3f8ded63041d4a505689c3e54c7db3b6c28794",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/dracosphera-deep-sea-chemosymbiosis-organelle.png"
+    }
+  ]
+}

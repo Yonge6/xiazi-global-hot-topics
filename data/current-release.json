@@ -1,116 +1,116 @@
 {
   "schemaVersion": "xiazi-current-release-v1",
-  "issueDate": "2026-10-31",
-  "releaseId": "rel_20261031_46f6980662d93e450133d409",
-  "assetBatchId": "asset_prod_20261031_46f6980662d93e450133d409",
+  "issueDate": "2026-11-01",
+  "releaseId": "rel_20261101_947c4a33b263c26cc407453d",
+  "assetBatchId": "asset_prod_20261101_947c4a33b263c26cc407453d",
   "posters": [
     {
-      "topicId": "790f2926-2aa6-5493-bbb1-c4fb206d2713",
+      "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
       "locale": "zh",
-      "contentHash": "ab23705e9efd89b970532adbca97cc0831cfed430170f7f8c960e9fd126ed1bb",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/global-operator-radar-20261031.png"
+      "contentHash": "5573a5edb4b3ef65da1ed592e5f95ee923eda0373f014888bf916fc1e8b3f57f",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/global-operator-radar-20261101.png"
     },
     {
-      "topicId": "790f2926-2aa6-5493-bbb1-c4fb206d2713",
+      "topicId": "a55e898e-ba70-5dc1-894e-951e131b62ac",
       "locale": "en",
-      "contentHash": "1c6b36449b1cefa461b52c34add47b0bd62664bab3ab9c48c3b000a01b1728dd",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/global-operator-radar-20261031.png"
+      "contentHash": "550beced059be2e335ab7eda9758556a70b902b6025af4658d1886fa939920bb",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/global-operator-radar-20261101.png"
     },
     {
-      "topicId": "8aa31f57-5503-5a98-ba5f-064e914f4595",
+      "topicId": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
       "locale": "zh",
-      "contentHash": "f204b3d824de4f06552fc0fcdc0fe58dfecd2745aae1c7352bfa0e30df778163",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/meta-models-university-medical-science.png"
+      "contentHash": "0abc285ceb5f6d8c0e81093df490ae7ad607029db69f55a6191d1f2b831fa5d0",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/google-connected-apps-search-gemini.png"
     },
     {
-      "topicId": "8aa31f57-5503-5a98-ba5f-064e914f4595",
+      "topicId": "d5fdb42d-feba-575b-a559-dc40fa134a7a",
       "locale": "en",
-      "contentHash": "209563487ab777a01079eeed511a9892208ce21f6ac00089323b2202d60222cb",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/meta-models-university-medical-science.png"
+      "contentHash": "183ecbf633f08bfb7639abc673d4af48a524caccbf2e3683b2f860707ae3e622",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/google-connected-apps-search-gemini.png"
     },
     {
-      "topicId": "13065610-5dd6-59a5-a0a0-641cbed5ff6e",
+      "topicId": "a8365376-fe75-51db-8e7a-bc700bd007a1",
       "locale": "zh",
-      "contentHash": "d1f71d7db4f4cea71967e9fb9fb9b4c1cee6adca8e6e1a9ba0e8528dc3b732d9",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/validatethat-solo-user-research-revenue.png"
+      "contentHash": "f97d8d4b4a47f7a80294f0b11c79cde37f17b12c18ccd375546175f8949fb446",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/notis-ai-solo-whatsapp-productivity-revenue.png"
     },
     {
-      "topicId": "13065610-5dd6-59a5-a0a0-641cbed5ff6e",
+      "topicId": "a8365376-fe75-51db-8e7a-bc700bd007a1",
       "locale": "en",
-      "contentHash": "a7fce301056a295111cf95817fdaeb4a6d7a15b2bfa7b85a70830c16d66bc30c",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/validatethat-solo-user-research-revenue.png"
+      "contentHash": "7befaa69c0f97521e93c407d1743fdd5a88f961e087eed2eb4b6848ee4c7d01e",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/notis-ai-solo-whatsapp-productivity-revenue.png"
     },
     {
-      "topicId": "843f4e59-2947-5f7c-89e4-665c37da95b7",
+      "topicId": "48596dc4-dd36-5121-b638-15b2e288f9f6",
       "locale": "zh",
-      "contentHash": "8e51432da4ba2daef99e187c2e55f14a6b2f9f24757830b66dee3af2d498f820",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/footballgpt-ai-coaching-revenue.png"
+      "contentHash": "b17328cf08f1fb4aea3cb420a45de9c8f58d3050d9369a2cc0b752e5b996c3c5",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/setup-ai-chart-analysis-revenue.png"
     },
     {
-      "topicId": "843f4e59-2947-5f7c-89e4-665c37da95b7",
+      "topicId": "48596dc4-dd36-5121-b638-15b2e288f9f6",
       "locale": "en",
-      "contentHash": "0ef5494ae3452f8dc9c72def190721d6a00f66def9fafe73e54e64eba35b57db",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/footballgpt-ai-coaching-revenue.png"
+      "contentHash": "fe6fc301deb8609faa23d3112b7bd1d55f59985a30c5be1a7c473ff52f384a45",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/setup-ai-chart-analysis-revenue.png"
     },
     {
-      "topicId": "61372254-9cf9-50d7-9c98-4cd16c4b6e26",
+      "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
       "locale": "zh",
-      "contentHash": "d1baf1abb4438e24ea5dd2c1748e7a95b3ce2fd978d1fdc7ad54742b161c969e",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/dissh-localized-crossborder-growth.png"
+      "contentHash": "cd0eb26446ba5059fc0123b08be96517ae85ffc77a9566a671764826c5ccd794",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/hobonichi-crossborder-revenue-growth.png"
     },
     {
-      "topicId": "61372254-9cf9-50d7-9c98-4cd16c4b6e26",
+      "topicId": "09ad2c01-9a93-5834-ba79-15befc6205b3",
       "locale": "en",
-      "contentHash": "c4b56f0bf3ae7e198ef36d07afb07f667c124817e2e80e58c0b766a612127a0b",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/dissh-localized-crossborder-growth.png"
+      "contentHash": "591166fdbfe242f2337c9cc8eece43ce492c3a244faef8277e69ef78d7c9625b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/hobonichi-crossborder-revenue-growth.png"
     },
     {
-      "topicId": "cc8f4c74-6842-5a02-a6f2-f9f1bf5f7a91",
+      "topicId": "c6201661-fa36-5467-b36e-f9d955be7877",
       "locale": "zh",
-      "contentHash": "7ce2ca5ac4aa5992593107678324afc742b49afc2a6fd91e748e3aed89e98a30",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/barbados-hiv-mother-child-elimination.png"
+      "contentHash": "0e03beef1cf2fdc6664911e303bfdae7b1eac742295874156fd736d4f08378e1",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/who-europe-healthy-ageing-strategy.png"
     },
     {
-      "topicId": "cc8f4c74-6842-5a02-a6f2-f9f1bf5f7a91",
+      "topicId": "c6201661-fa36-5467-b36e-f9d955be7877",
       "locale": "en",
-      "contentHash": "7a554854fde4de62b34fdc59dd166667454f3463415d09bfa2b62dcaf388f03b",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/barbados-hiv-mother-child-elimination.png"
+      "contentHash": "6eb040949bd6e22b6c2d073576c0df854c141b164eb21d5f59156e05af370d70",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/who-europe-healthy-ageing-strategy.png"
     },
     {
-      "topicId": "3645a316-f3ec-5566-8555-b019e2a6d63d",
+      "topicId": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
       "locale": "zh",
-      "contentHash": "c1619e85dd3b94fd52791516c594c56ed4ccd822b2990018675ce3a82601d285",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/live-cell-3d-chemical-video-microscope.png"
+      "contentHash": "64e48620b77f0662e39cf4881a3e060b3472f11270136ac64dca37dd44d03250",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/m13-personalized-cancer-vaccine-mice.png"
     },
     {
-      "topicId": "3645a316-f3ec-5566-8555-b019e2a6d63d",
+      "topicId": "0ceb4147-b54d-5387-a4c3-2c7aa75b6d02",
       "locale": "en",
-      "contentHash": "fe9a41aa9d61dc10aac406f46d2f0235e9940492a843a66d736790bec4cf5c9c",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/live-cell-3d-chemical-video-microscope.png"
+      "contentHash": "5070517fd3c093ade4683a0f5bf123a8889efe4105d146221ebb8c5fd54a8302",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/m13-personalized-cancer-vaccine-mice.png"
     },
     {
-      "topicId": "058efc70-af09-58bb-ad5a-192b7ae17f73",
+      "topicId": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
       "locale": "zh",
-      "contentHash": "8f0df24d83c94ea055b3248840870eddeb2eaf57e2ff27a63effa5717cd6192a",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/rubin-ed138-dwarf-planet-candidate.png"
+      "contentHash": "98f8c03ed29fb89c0fd5b43cbeb74c53fc66fb22b61f69698f49909fe8434534",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/uk-biobank-genome-imputation-panel.png"
     },
     {
-      "topicId": "058efc70-af09-58bb-ad5a-192b7ae17f73",
+      "topicId": "4ca3ab3c-45ea-529b-a2a1-ebfc83539924",
       "locale": "en",
-      "contentHash": "d088ec7b014e93fed95a74fc4a3e6fdaae15eb9b327cb253863ec3d808044313",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/rubin-ed138-dwarf-planet-candidate.png"
+      "contentHash": "987fb1e577ee3c5df16c4fa480323b952f6bc7c881548be8f2d1edb685e79258",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/uk-biobank-genome-imputation-panel.png"
     },
     {
-      "topicId": "4a074890-c89f-53e5-88f1-568c5bc2f7d9",
+      "topicId": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
       "locale": "zh",
-      "contentHash": "c0801411a5fe5c3a9ae4a435d6534a77a546150c0542f60aedb2feb6df20cf93",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/zh/unfccc-2026-ndc-synthesis-gap.png"
+      "contentHash": "b922c7bd6ef049db82d2bbba0bbf57a188ebca38095799eae86b2e17e1c9440b",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/zh/dracosphera-deep-sea-chemosymbiosis-organelle.png"
     },
     {
-      "topicId": "4a074890-c89f-53e5-88f1-568c5bc2f7d9",
+      "topicId": "fe3588f0-0ac8-5964-814b-b62525c5b6d9",
       "locale": "en",
-      "contentHash": "1881f8c4d9ad456e39b7f88117163244c18a4c82514206289c0432b3f3888c01",
-      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261031_46f6980662d93e450133d409/en/unfccc-2026-ndc-synthesis-gap.png"
+      "contentHash": "50a0bb9efb1ebbc950656ea63f3f8ded63041d4a505689c3e54c7db3b6c28794",
+      "url": "https://xiazi-release-assets-20260824.oss-cn-wulanchabu.aliyuncs.com/release-assets/asset_prod_20261101_947c4a33b263c26cc407453d/en/dracosphera-deep-sea-chemosymbiosis-organelle.png"
     }
   ]
 }
